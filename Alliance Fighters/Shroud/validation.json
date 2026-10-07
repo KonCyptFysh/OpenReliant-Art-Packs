@@ -7,7 +7,7 @@
   "tested_platforms": [
     "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
   ],
-  "asset_manifest_sha256": "f54db959845d42f8e9328d02f52c424ae424a5e9f21c024b30fc5a8ab78e314a",
+  "asset_manifest_sha256": "ca897580b8cce82154d17c65753b0a30d19def52c984bc50eecd986ec4367262",
   "source_manifest_sha256": "93d684f24228f7d7109aefaa6f0891a20f4201da7771693202a69f4ef569d3e8",
   "checks": [
     "Verify 10 runtime files and 23 original source artifacts against the previously verified snapshot.",
@@ -73,6 +73,17 @@
       "all_other_runtime_files_sha256_unchanged": true,
       "engine_rerun": false,
       "scope": "Original runtime evidence above predates this metadata-only update; artwork and native model bytes are unchanged. These metadata files have not been redeployed to the local game."
+    },
+    {
+      "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
+      "change": "Use the clean display title Shroud - Worn Paint.",
+      "previous_asset_manifest_sha256": "f54db959845d42f8e9328d02f52c424ae424a5e9f21c024b30fc5a8ab78e314a",
+      "asset_manifest_sha256": "ca897580b8cce82154d17c65753b0a30d19def52c984bc50eecd986ec4367262",
+      "previous_mod_ini_sha256": "8a8e0356be68c09414cfd184db32606d57e565845e7b3a3fdec388234648c8cb",
+      "mod_ini_sha256": "c6e87124e0afe2fbe4227dbb5f88c0bc3cf60b622958d5a1a1830839b2bfe4b8",
+      "all_other_runtime_files_sha256_unchanged": true,
+      "engine_rerun": false,
+      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed."
     }
   ]
 }

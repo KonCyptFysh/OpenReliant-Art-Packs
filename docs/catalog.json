@@ -57,7 +57,7 @@
   "assets": [
     {
       "id": "coyote",
-      "name": "Coyote",
+      "name": "Coyote - Worn Paint",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Coyote",
       "status": "available",
@@ -79,7 +79,7 @@
     },
     {
       "id": "predator",
-      "name": "Predator",
+      "name": "Predator - Worn Paint",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Predator",
       "status": "available",
@@ -101,7 +101,7 @@
     },
     {
       "id": "reaper",
-      "name": "Reaper",
+      "name": "Reaper - Worn Paint",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Reaper",
       "status": "available",
@@ -123,7 +123,7 @@
     },
     {
       "id": "wolverine",
-      "name": "Wolverine",
+      "name": "Wolverine - Worn Paint",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Wolverine",
       "status": "available",
@@ -145,7 +145,7 @@
     },
     {
       "id": "tempest",
-      "name": "Tempest",
+      "name": "Tempest - Worn Paint",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Tempest",
       "status": "available",
@@ -167,7 +167,7 @@
     },
     {
       "id": "shroud",
-      "name": "Shroud",
+      "name": "Shroud - Worn Paint",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Shroud",
       "status": "available",
@@ -189,7 +189,7 @@
     },
     {
       "id": "mirage",
-      "name": "Mirage",
+      "name": "Mirage - Worn Paint",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Mirage",
       "status": "available",
@@ -211,7 +211,7 @@
     },
     {
       "id": "naginata",
-      "name": "Naginata",
+      "name": "Naginata - Worn Paint",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Naginata",
       "status": "available",
@@ -234,7 +234,7 @@
     },
     {
       "id": "patriot",
-      "name": "Patriot",
+      "name": "Patriot - Worn Paint",
       "category": "alliance-fighters",
       "status": "coming-soon",
       "description": "Six-fin intakes, bright radiator metal and continuous outer-engine panels.",

@@ -2,7 +2,7 @@
 
 ## 0.1.0-beta.1
 
-First individual Patriot v3 beta, approved by the maintainer. Includes editable sources, both native model variants, the three PBR map families, and CC-BY-NC-SA-4.0 metadata and notice for original contributions.
+First individual Patriot v3 beta, approved by the maintainer, displayed as **Patriot - Worn Paint**. Includes editable sources, both native model variants, the three PBR map families, and CC-BY-NC-SA-4.0 metadata and notice for original contributions.
 
 ## Local artwork 3.0 — 7 October 2026
 

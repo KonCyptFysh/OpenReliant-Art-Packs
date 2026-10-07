@@ -1,4 +1,4 @@
-# Mirage for OpenReliant
+# Mirage - Worn Paint
 
 Individual beta **0.1.0-beta.1**, artwork revision **3.0**. Original-style canopy boundaries, worn glazing and deep surface relief.
 

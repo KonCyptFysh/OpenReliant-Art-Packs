@@ -7,8 +7,8 @@
   "tested_platforms": [
     "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
   ],
-  "asset_manifest_sha256": "85400e8ca31a34d92c94c6c672f07aa089ff8cac08267e1ec7f5c10f0553f9c4",
-  "source_manifest_sha256": "87be09abc02a57f206b45485354cacfea911edfd2ef9143c8581e6d0d0b9f71b",
+  "asset_manifest_sha256": "3a2bd4793368c147856e675f8525762d9694a7dea416406a85b017d638f31b4d",
+  "source_manifest_sha256": "70fd18150aa36a4368353067669d01fe86211ebb0bbf87aa337470dbf7807068",
   "checks": [
     "Verify 24 runtime files and 67 editable source files against their inventories.",
     "Copy only 96-patriot-worn-v1 into an isolated game folder and verify every runtime hash.",
@@ -152,5 +152,18 @@
     "Full campaign play, damage, ejection, turret firing, loadout and distance transitions are not certified.",
     "Both model variants passed native checks; only the standard variant was captured in this release check.",
     "Windows and macOS runtime testing has not been performed."
+  ],
+  "metadata_updates": [
+    {
+      "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
+      "change": "Use the clean display title Patriot - Worn Paint.",
+      "previous_asset_manifest_sha256": "85400e8ca31a34d92c94c6c672f07aa089ff8cac08267e1ec7f5c10f0553f9c4",
+      "asset_manifest_sha256": "3a2bd4793368c147856e675f8525762d9694a7dea416406a85b017d638f31b4d",
+      "previous_mod_ini_sha256": "1ae6a8189d62005c41a8bcc5468c2fe475685885ee7fb5eadf3c1c312388ab96",
+      "mod_ini_sha256": "077a34052eed8cc1dbef7ce4f8c35152e9c08be952e56ac332da520c5f6e881f",
+      "all_other_runtime_files_sha256_unchanged": true,
+      "engine_rerun": false,
+      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed."
+    }
   ]
 }

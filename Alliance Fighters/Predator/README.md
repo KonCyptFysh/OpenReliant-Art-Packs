@@ -1,4 +1,4 @@
-# Predator for OpenReliant
+# Predator - Worn Paint
 
 Individual beta **0.1.0-beta.1**, artwork revision **16.1**. Continuous wing fins, repaired surface detail and restrained paint markings.
 

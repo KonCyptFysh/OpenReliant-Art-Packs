@@ -1,4 +1,4 @@
-# Naginata for OpenReliant
+# Naginata - Worn Paint
 
 Individual beta **0.1.0-beta.1**, artwork revision **4.0**. Revised wing edges, engine-wear scale and louvred exhausts.
 

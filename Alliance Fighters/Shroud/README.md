@@ -1,4 +1,4 @@
-# Shroud for OpenReliant
+# Shroud - Worn Paint
 
 Individual beta **0.1.0-beta.1**, artwork revision **2.0**. Bronze and steel finishes, wing radiators and smoked glass.
 

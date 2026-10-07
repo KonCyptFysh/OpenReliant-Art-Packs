@@ -1,4 +1,4 @@
-# Tempest for OpenReliant
+# Tempest - Worn Paint
 
 Individual beta **0.1.0-beta.1**, artwork revision **1.0**. Dark steel, red livery and continuous radiator detail.
 
