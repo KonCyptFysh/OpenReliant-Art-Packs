@@ -7,8 +7,8 @@
   <meta name="description" content="Browse independent StarLancer artwork by KonCyptFysh. Explore previews and download individual art packs compatible with OpenReliant.">
   <title>KonCyptFysh Art Packs — The fleet, recommissioned.</title>
   <link rel="icon" href="icon.svg?v=koncyptfysh" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script type="module" src="app.js"></script>
+  <link rel="stylesheet" href="style.css?v=ordnance-gallery-1">
+  <script type="module" src="app.js?v=ordnance-gallery-1"></script>
 </head>
 <body>
   <a class="skip-link" href="#collection">Skip to the collection</a>
@@ -33,7 +33,13 @@
     <section class="feedback-strip"><div><p class="eyebrow">HELP SHAPE THE NEXT PASS</p><h2>Spotted something out of place?</h2><p>A screenshot, ship name and a few steps help turn a rough edge into a better pack.</p></div><a class="button secondary" href="https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/new/choose">Report an issue <span aria-hidden="true">↗</span></a></section>
   </main>
   <footer><div class="footer-brand">KONCYPTFYSH <span>ART PACKS</span><small>Restoration and artwork by KonCyptFysh.</small></div><p>Independent fan-made artwork for StarLancer.<br>OpenReliant is a separate project. Original game rights remain with their respective holders.</p><a href="https://github.com/KonCyptFysh/OpenReliant-Art-Packs/blob/main/LICENSING.md">Credits & licensing ↗</a></footer>
-  <dialog id="asset-dialog" aria-labelledby="asset-title"><button class="close-dialog" aria-label="Close asset preview">×</button><div class="detail-layout"><div class="detail-media"><div class="preview-tabs" aria-label="Preview type"><button id="show-3d" type="button">3D preview</button><button id="show-image" type="button">In-game capture</button></div><div id="preview-stage"></div><div class="preview-bottom"><span id="preview-hint"></span><button id="rotate-toggle" class="text-button" type="button">Pause rotation</button></div></div><div id="asset-details" class="asset-details"></div></div></dialog>
+  <dialog id="asset-dialog" aria-labelledby="asset-title"><button class="close-dialog" aria-label="Close asset preview">×</button><div class="detail-layout"><div class="detail-media"><div class="preview-tabs" aria-label="Preview type"><button id="show-3d" type="button">3D preview</button><button id="show-image" type="button">In-game capture</button></div><div id="preview-stage"></div>
+        <div id="gallery-controls" class="gallery-controls" role="group" aria-label="Photo gallery" hidden>
+          <button id="gallery-previous" type="button" aria-label="Previous photo" aria-controls="preview-stage"><span aria-hidden="true">←</span></button>
+          <div class="gallery-caption" role="status" aria-live="polite" aria-atomic="true"><span id="gallery-caption"></span><span id="gallery-count"></span></div>
+          <button id="gallery-next" type="button" aria-label="Next photo" aria-controls="preview-stage"><span aria-hidden="true">→</span></button>
+        </div>
+        <div class="preview-bottom"><span id="preview-hint"></span><button id="rotate-toggle" class="text-button" type="button">Pause rotation</button></div></div><div id="asset-details" class="asset-details"></div></div></dialog>
   <noscript><div class="no-script">Enable JavaScript to browse previews, or <a href="https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases">browse the individual downloads on GitHub</a>.</div></noscript>
 </body>
 </html>

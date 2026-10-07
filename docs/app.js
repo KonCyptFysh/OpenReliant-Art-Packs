@@ -2,7 +2,7 @@ const $ = (selector) => document.querySelector(selector);
 const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const formatSize = bytes => `${(bytes / 1024 / 1024).toFixed(1)} MB`;
 const dialog = $('#asset-dialog');
-let catalogue, selectedCategory, currentAsset, previewSequence = 0, viewerImport;
+let catalogue, selectedCategory, currentAsset, previewSequence = 0, viewerImport, galleryIndex = 0, previewKind;
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 function updateURL(asset = null) {
   const url = new URL(location.href);
@@ -19,7 +19,7 @@ function render() {
   const assets = catalogue.assets.filter(a => a.category === selectedCategory && (status === 'all' || a.status === status) && `${a.name} ${a.description}`.toLowerCase().includes(query));
   $('#category-heading').textContent = category.name;
   $('#result-count').textContent = `${assets.length} ${assets.length === 1 ? 'asset' : 'assets'}`;
-  $('#asset-grid').innerHTML = assets.length ? assets.map(a => `<button type="button" class="asset-card" data-asset="${a.id}" aria-label="Preview ${escapeHTML(a.name)}"><div class="card-media">${a.preview ? `<img src="${a.preview}" loading="lazy" width="960" height="720" alt="${escapeHTML(a.name)} in OpenReliant">` : '<div class="placeholder-art"><span class="placeholder-icon" aria-hidden="true">◇</span><span>ARTWORK IN PROGRESS</span></div>'}<span class="card-badge ${a.status === 'available' ? 'available' : ''}">${a.status === 'available' ? 'Beta available' : 'Coming soon'}</span></div><div class="card-body"><span class="card-kicker">${escapeHTML(category.name)}</span><h4>${escapeHTML(a.name)}</h4><p>${escapeHTML(a.description)}</p><div class="card-foot"><span>${a.model ? '3D + in-game preview' : a.preview ? 'In-game preview' : 'Work in progress'}</span><span aria-hidden="true">↗</span></div></div></button>`).join('') : (!query && status !== 'available' && !catalogue.assets.some(a => a.category === selectedCategory)) ? `<div class="category-placeholder"><span class="placeholder-icon" aria-hidden="true">◇</span><p class="eyebrow">${escapeHTML(category.name)}</p><h4>Coming soon</h4><p>${escapeHTML(category.description)}<br>New packs will appear here when they’re ready.</p></div>` : '<div class="empty-state"><h4>No matching packs</h4><p>Try another search or availability filter.</p></div>';
+  $('#asset-grid').innerHTML = assets.length ? assets.map(a => `<button type="button" class="asset-card" data-asset="${a.id}" aria-label="Preview ${escapeHTML(a.name)}"><div class="card-media">${a.preview ? `<img src="${a.preview}" loading="lazy" width="960" height="720" alt="${escapeHTML(a.images?.[0]?.caption || a.name)} in OpenReliant">` : '<div class="placeholder-art"><span class="placeholder-icon" aria-hidden="true">◇</span><span>ARTWORK IN PROGRESS</span></div>'}<span class="card-badge ${a.status === 'available' ? 'available' : ''}">${a.status === 'available' ? 'Beta available' : 'Coming soon'}</span></div><div class="card-body"><span class="card-kicker">${escapeHTML(category.name)}</span><h4>${escapeHTML(a.name)}</h4><p>${escapeHTML(a.description)}</p><div class="card-foot"><span>${a.model ? '3D + in-game preview' : a.images?.length > 1 ? `${a.images.length} in-game photos` : a.preview ? 'In-game preview' : 'Work in progress'}</span><span aria-hidden="true">↗</span></div></div></button>`).join('') : (!query && status !== 'available' && !catalogue.assets.some(a => a.category === selectedCategory)) ? `<div class="category-placeholder"><span class="placeholder-icon" aria-hidden="true">◇</span><p class="eyebrow">${escapeHTML(category.name)}</p><h4>Coming soon</h4><p>${escapeHTML(category.description)}<br>New packs will appear here when they’re ready.</p></div>` : '<div class="empty-state"><h4>No matching packs</h4><p>Try another search or availability filter.</p></div>';
 }
 function closePreview() {
   previewSequence++;
@@ -28,10 +28,22 @@ function closePreview() {
   if (dialog.open) dialog.close();
   updateURL();
 }
+function galleryImages(asset) {
+  return asset.images?.length ? asset.images : asset.preview ? [{ src: asset.preview, caption: asset.name }] : [];
+}
+function stepGallery(direction) {
+  const photos = galleryImages(currentAsset || {});
+  if (previewKind !== 'image' || photos.length < 2) return;
+  galleryIndex = (galleryIndex + direction + photos.length) % photos.length;
+  showPreview('image');
+}
 async function showPreview(kind) {
   const asset = currentAsset;
   if (!asset) return;
   const sequence = ++previewSequence;
+  previewKind = kind;
+  $('.detail-media').classList.toggle('photo-gallery', kind === 'image' && galleryImages(asset).length > 1);
+  $('#gallery-controls').hidden = true;
   $('#show-3d').classList.toggle('active', kind === 'model');
   $('#show-image').classList.toggle('active', kind === 'image');
   $('#show-3d').setAttribute('aria-pressed', kind === 'model');
@@ -76,8 +88,16 @@ async function showPreview(kind) {
     } catch {
       if (sequence === previewSequence) { showPreview('image'); $('#preview-hint').textContent = '3D is unavailable here. Showing the in-game capture.'; }
     }
-  } else if (asset.preview) {
-    const image = document.createElement('img'); image.src = asset.preview; image.alt = `${asset.name} captured in OpenReliant 0.7.0`; stage.append(image);
+  } else if (galleryImages(asset).length) {
+    const photos = galleryImages(asset);
+    const photo = photos[galleryIndex];
+    const image = document.createElement('img');
+    image.src = photo.src;
+    image.alt = `${photo.caption} captured in OpenReliant 0.7.0`;
+    stage.append(image);
+    $('#gallery-controls').hidden = photos.length < 2;
+    $('#gallery-caption').textContent = photo.caption;
+    $('#gallery-count').textContent = `${galleryIndex + 1} / ${photos.length}`;
     $('#preview-hint').textContent = 'Captured in OpenReliant 0.7.0';
   } else {
     stage.innerHTML = '<div class="placeholder-art"><span class="placeholder-icon" aria-hidden="true">◇</span><span>COMING SOON</span></div>';
@@ -89,12 +109,15 @@ function openAsset(id) {
   const asset = catalogue.assets.find(a => a.id === id);
   if (!asset) return;
   currentAsset = asset;
+  galleryIndex = 0;
   const category = catalogue.categories.find(c => c.id === asset.category);
   const available = asset.status === 'available';
   $('#asset-details').innerHTML = `<p class="eyebrow">${escapeHTML(category.name)}</p><h2 id="asset-title">${escapeHTML(asset.name)}</h2><p class="asset-description">${escapeHTML(asset.description)}</p><dl class="detail-facts"><div><dt>Status</dt><dd>${available ? 'Public beta' : 'Coming soon'}</dd></div><div><dt>OpenReliant</dt><dd>${catalogue.engine}</dd></div>${asset.assetRevision ? `<div><dt>Artwork revision</dt><dd>${escapeHTML(asset.assetRevision)}</dd></div>` : ''}${available ? `<div><dt>Download</dt><dd>${formatSize(asset.downloadBytes)} · ZIP</dd></div>` : ''}</dl><div class="detail-notes"><h3>Still on the workbench</h3><ul>${(asset.notes || []).map(note => `<li>${escapeHTML(note)}</li>`).join('')}</ul></div>${available ? `<a class="button primary" href="${escapeHTML(asset.download)}">Download ${escapeHTML(asset.name)} <span aria-hidden="true">↓</span></a><div class="secondary-links"><a href="${escapeHTML(asset.release)}">Release notes</a><a href="${escapeHTML(asset.download)}.sha256">Checksum</a><a href="${catalogue.repository}/tree/main/${asset.folder.split('/').map(encodeURIComponent).join('/')}/source">Editable source</a></div>` : '<button class="button coming-button" disabled>Coming soon</button>'}<p class="detail-warning">${asset.model ? 'The 3D hull preview uses reduced textures and browser lighting; loadout weapons and engine effects are omitted. Check the in-game capture for the current engine appearance. ' : ''}${available ? 'Beta testing covers format checks and bounded rendering on Linux; broader gameplay and other platforms are still to be tested.' : 'This entry has no published download yet.'}</p>`;
   $('#show-3d').hidden = !asset.model;
-  $('#show-image').hidden = !asset.preview;
+  $('#show-image').hidden = !galleryImages(asset).length;
+  $('#show-image').textContent = galleryImages(asset).length > 1 ? 'Photo gallery' : 'In-game capture';
   if (!dialog.open) dialog.showModal();
+  dialog.scrollTop = 0;
   updateURL(asset);
   showPreview(asset.model ? 'model' : 'image');
 }
@@ -111,13 +134,23 @@ dialog.addEventListener('cancel', event => { event.preventDefault(); closePrevie
 dialog.addEventListener('click', event => { if (event.target === dialog) closePreview(); });
 $('#show-3d').addEventListener('click', () => showPreview('model'));
 $('#show-image').addEventListener('click', () => showPreview('image'));
+$('#gallery-previous').addEventListener('click', () => stepGallery(-1));
+$('#gallery-next').addEventListener('click', () => stepGallery(1));
+dialog.addEventListener('keydown', event => {
+  if (previewKind !== 'image' || galleryImages(currentAsset || {}).length < 2 || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+  if (event.target.closest('input, textarea, select, [contenteditable]')) return;
+  if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+    event.preventDefault();
+    stepGallery(event.key === 'ArrowLeft' ? -1 : 1);
+  }
+});
 $('#rotate-toggle').addEventListener('click', () => {
   const viewer = $('model-viewer'); if (!viewer) return;
   viewer.toggleAttribute('auto-rotate');
   $('#rotate-toggle').textContent = viewer.hasAttribute('auto-rotate') ? 'Pause rotation' : 'Rotate model';
 });
 try {
-  const response = await fetch('catalog.json'); if (!response.ok) throw new Error('Catalogue unavailable');
+  const response = await fetch('catalog.json', { cache: 'no-cache' }); if (!response.ok) throw new Error('Catalogue unavailable');
   catalogue = await response.json();
   const params = new URLSearchParams(location.search);
   selectedCategory = catalogue.categories.some(c => c.id === params.get('category')) ? params.get('category') : catalogue.categories[0].id;
