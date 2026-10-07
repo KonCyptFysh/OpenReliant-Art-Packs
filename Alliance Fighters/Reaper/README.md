@@ -1,4 +1,4 @@
-# Reaper for OpenReliant
+# Reaper - Worn Paint
 
 Individual beta **0.1.0-beta.1**, artwork revision **3.1**. Aligned surface detail, repaired glass and differentiated materials.
 

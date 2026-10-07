@@ -1,4 +1,4 @@
-# Patriot
+# Patriot - Worn Paint
 
 Individual beta **0.1.0-beta.1**, artwork revision **3.0**. This pass adds six raised intake fins, readable metal on the forward radiators, aligned outer-engine panels and shortened underside grooves. The maintainer has approved v3 for publication.
 

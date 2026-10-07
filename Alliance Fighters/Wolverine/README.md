@@ -1,4 +1,4 @@
-# Wolverine for OpenReliant
+# Wolverine - Worn Paint
 
 Individual beta **0.1.0-beta.1**, artwork revision **2.0**. Worn steel, warm markings and smoked-green glazing.
 

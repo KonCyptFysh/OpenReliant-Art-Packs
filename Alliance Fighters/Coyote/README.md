@@ -1,4 +1,4 @@
-# Coyote for OpenReliant
+# Coyote - Worn Paint
 
 Individual beta **0.1.0-beta.1**, artwork revision **4.0**. Clean structural relief, worn green paint and distinctive radiator fins.
 

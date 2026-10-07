@@ -28,3 +28,5 @@ The public gallery identity is **KonCyptFysh / StarLancer Art Packs**. Keep Open
 ## Licence metadata
 
 Every artwork mod has `License=CC-BY-NC-SA-4.0` under `[Mod]` and a flat `license.txt` with the licence link, attribution and third-party exclusions. Preserve both during exports. The licence covers KonCyptFysh's original contributions; retain other contributors' notices. OpenReliant's external catalogue currently links to the mod's own licence file. Its releases use the `Version` in `mod.ini`, so a released metadata revision needs a new patch version. Update the manifests and record metadata-only verification when art bytes are unchanged.
+
+Use concise public titles such as `Patriot - Worn Paint`. Keep version numbers in `Version` and release tags; keep repair details in `Description`, changelogs and known-work notes.
