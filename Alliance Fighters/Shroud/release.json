@@ -1,0 +1,23 @@
+{
+  "package_name": "openreliant-shroud",
+  "version": "0.1.0-beta.1",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.7.0",
+  "mod_folders": [
+    "80-shroud-worn-v1"
+  ],
+  "asset_manifest_sha256": "dd178c407b85aaa7290f204670f5235295ae6c14d3dfda27acb36cb94e665fd5",
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json"
+  ],
+  "channel": "beta"
+}
