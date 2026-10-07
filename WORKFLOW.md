@@ -22,3 +22,5 @@ Asset tags are namespaced, such as `coyote-v0.1.0-beta.1`. Never overwrite a pub
 `catalog.json` is the catalogue source. `tools/build_site.py` validates its entries and copies it into `docs/catalog.json`. GitHub Pages serves `docs/`; the preview library is pinned and hosted locally. Preview GLBs and screenshots are separate, reduced-size viewing copies and never replace source or runtime artwork. Verify the gallery on desktop and mobile, including navigation, 3D loading, download links and coming-soon states.
 
 Keep machine-specific paths, local logs and temporary conversions in ignored `.local/`. Do not publish game archives, credentials or the old all-fighters ZIP. The local handoff outside this repository contains the existing authoring/deployment path map.
+
+The public gallery identity is **KonCyptFysh / StarLancer Art Packs**. Keep OpenReliant references in compatibility information, installation instructions and credits; preserve the independent gallery header and KF icon.

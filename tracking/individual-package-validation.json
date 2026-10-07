@@ -1,0 +1,39 @@
+{
+  "engine": "OpenReliant 0.7.0 official release 3b27f16",
+  "scope": "single-mod Linux native and bounded rendering checks",
+  "assets": [
+    {
+      "ship": "Coyote",
+      "validation": "Alliance Fighters/Coyote/validation.json"
+    },
+    {
+      "ship": "Predator",
+      "validation": "Alliance Fighters/Predator/validation.json"
+    },
+    {
+      "ship": "Reaper",
+      "validation": "Alliance Fighters/Reaper/validation.json"
+    },
+    {
+      "ship": "Wolverine",
+      "validation": "Alliance Fighters/Wolverine/validation.json"
+    },
+    {
+      "ship": "Tempest",
+      "validation": "Alliance Fighters/Tempest/validation.json"
+    },
+    {
+      "ship": "Shroud",
+      "validation": "Alliance Fighters/Shroud/validation.json"
+    },
+    {
+      "ship": "Mirage",
+      "validation": "Alliance Fighters/Mirage/validation.json"
+    },
+    {
+      "ship": "Naginata",
+      "validation": "Alliance Fighters/Naginata/validation.json"
+    }
+  ],
+  "limits": "No full gameplay or other-platform certification. Each beta was packaged and published independently."
+}
