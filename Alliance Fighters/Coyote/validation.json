@@ -7,7 +7,7 @@
   "tested_platforms": [
     "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
   ],
-  "asset_manifest_sha256": "a4b51a7f9915fcc8abef472be49b7da0219e0ee092cd1b4590f8a8a2efd62f9a",
+  "asset_manifest_sha256": "e08b9a4169a1276a2b5d9867e807f6decffa0a13c9df831f0d5900b9727a7a99",
   "source_manifest_sha256": "c957d2b0b28245e24afe8c5e675d87d614941c932b047f4fd137f7749d2d18e2",
   "checks": [
     "Verify 10 runtime files and 37 original source artifacts against the previously verified snapshot.",
@@ -76,14 +76,16 @@
     },
     {
       "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
-      "change": "Use the clean display title Coyote - Worn Paint.",
+      "change": "Use the clean display title Coyote - Worn Paint and a distinct patch version for this title revision.",
       "previous_asset_manifest_sha256": "98a4a4ddd2b5499b67f511d737321102988a1509dd8b5f63c811d981a1d0671f",
-      "asset_manifest_sha256": "a4b51a7f9915fcc8abef472be49b7da0219e0ee092cd1b4590f8a8a2efd62f9a",
+      "asset_manifest_sha256": "e08b9a4169a1276a2b5d9867e807f6decffa0a13c9df831f0d5900b9727a7a99",
       "previous_mod_ini_sha256": "ee5407f73b6dca98807fd89ce41aa2aa174b577e785a368135bdc89c25ec3be9",
-      "mod_ini_sha256": "647e137d27075add8bf719ced4c1e62a04460bdea0703a61c6dde34ddc2738f9",
+      "mod_ini_sha256": "9cfd3d8943c3e4cec502dde51055b356ba22099093940d8f4b71ef2d525b01fa",
       "all_other_runtime_files_sha256_unchanged": true,
       "engine_rerun": false,
-      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed."
+      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed.",
+      "previous_mod_version": "4.0.1",
+      "mod_version": "4.0.2"
     }
   ]
 }

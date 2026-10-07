@@ -7,7 +7,7 @@
   "tested_platforms": [
     "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
   ],
-  "asset_manifest_sha256": "5e8d97c65ccaae8ff42d3458fc31ecb2fd0eb25c6bf466fd87486ff4548732a9",
+  "asset_manifest_sha256": "9da649cad11089c9bdb5c42dc7d8eda67c893cacd17358e56bb54bed762b60de",
   "source_manifest_sha256": "3dcb5063d40a54c57841c67c083004dca4384b93907d75291f0719a1e83fe20a",
   "checks": [
     "Verify 23 runtime files and 44 original source artifacts against the previously verified snapshot.",
@@ -88,14 +88,16 @@
     },
     {
       "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
-      "change": "Use the clean display title Naginata - Worn Paint.",
+      "change": "Use the clean display title Naginata - Worn Paint and a distinct patch version for this title revision.",
       "previous_asset_manifest_sha256": "d87a238482b215079559174b89b13e9f411c0e4b7a35a49090eb99691404adf8",
-      "asset_manifest_sha256": "5e8d97c65ccaae8ff42d3458fc31ecb2fd0eb25c6bf466fd87486ff4548732a9",
+      "asset_manifest_sha256": "9da649cad11089c9bdb5c42dc7d8eda67c893cacd17358e56bb54bed762b60de",
       "previous_mod_ini_sha256": "df69cafffe6e787278c665fb331db464b40945824d27cbcbee05d84f6d1f9e68",
-      "mod_ini_sha256": "8344865acb74a49e9a07f3bdfd9a5f24f321ec4e3d9f769378d5f344e479fa9a",
+      "mod_ini_sha256": "073597b473a836e024e7ae26be1642c954e244f159dc50b89498d4a598fb4784",
       "all_other_runtime_files_sha256_unchanged": true,
       "engine_rerun": false,
-      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed."
+      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed.",
+      "previous_mod_version": "4.0.1",
+      "mod_version": "4.0.2"
     }
   ]
 }

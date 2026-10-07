@@ -7,7 +7,7 @@
   "tested_platforms": [
     "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
   ],
-  "asset_manifest_sha256": "fddbfb452569dfbaab374f85e02cb7a928c58ee4e3541885d6e627c07bb3019b",
+  "asset_manifest_sha256": "53e4c3e99f9238e05c8ed593fe662760e3f8a9c36c9e3ee5740aa11de52b6061",
   "source_manifest_sha256": "451217359b01b2c3fdc6301c2adc336bd6786df5d6131f2d948f2349c406cef2",
   "checks": [
     "Verify 10 runtime files and 20 original source artifacts against the previously verified snapshot.",
@@ -76,14 +76,16 @@
     },
     {
       "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
-      "change": "Use the clean display title Wolverine - Worn Paint.",
+      "change": "Use the clean display title Wolverine - Worn Paint and a distinct patch version for this title revision.",
       "previous_asset_manifest_sha256": "7d619a51db9e3f4b35d34319a827ce3c6bec705003ceda8fc3146765dfc56491",
-      "asset_manifest_sha256": "fddbfb452569dfbaab374f85e02cb7a928c58ee4e3541885d6e627c07bb3019b",
+      "asset_manifest_sha256": "53e4c3e99f9238e05c8ed593fe662760e3f8a9c36c9e3ee5740aa11de52b6061",
       "previous_mod_ini_sha256": "4aa63644fdb81633519d3a745e2ee710b6675ba5392a17aaef2b51fc250b73a4",
-      "mod_ini_sha256": "a53d6d461684798ff99cb2e61524d1b82ba5df73112eabb2b88745198c0f4082",
+      "mod_ini_sha256": "5596f757a4a41101800b2a3c215be15997c52bf6a85db5f4ee0be17a5724f466",
       "all_other_runtime_files_sha256_unchanged": true,
       "engine_rerun": false,
-      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed."
+      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed.",
+      "previous_mod_version": "2.0.1",
+      "mod_version": "2.0.2"
     }
   ]
 }
