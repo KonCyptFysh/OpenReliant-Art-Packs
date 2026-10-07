@@ -1,0 +1,23 @@
+{
+  "package_name": "openreliant-reaper",
+  "version": "0.1.0-beta.1",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.7.0",
+  "mod_folders": [
+    "50-reaper-worn-v3"
+  ],
+  "asset_manifest_sha256": "5a67509bc6d47c5d6a172a0506cc87bf0287b84c311ccceb4bc483cc02622ed1",
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json"
+  ],
+  "channel": "beta"
+}

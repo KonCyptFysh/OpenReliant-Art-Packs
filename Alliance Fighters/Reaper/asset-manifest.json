@@ -1,0 +1,52 @@
+[
+  {
+    "path": "mods/50-reaper-worn-v3/USHF_Reaper.SHP",
+    "bytes": 274360,
+    "sha256": "4bc412d789aa4e87eb1adfd53ab3c8ce2ee6afd02314e6a660d827ccdd054e1e"
+  },
+  {
+    "path": "mods/50-reaper-worn-v3/gorrp3_hull.png",
+    "bytes": 18854455,
+    "sha256": "527ad5b80ddd7f757ae1973f0e64c78e7da547fa68858cc5e5236a4821f6e5b1"
+  },
+  {
+    "path": "mods/50-reaper-worn-v3/gorrp3_hull_normal.png",
+    "bytes": 28548723,
+    "sha256": "eb543842ce596926551c8aad78ff2b4e3f81448e1a78ccebe1cf949e41d1fff2"
+  },
+  {
+    "path": "mods/50-reaper-worn-v3/gorrp3_hull_orm.png",
+    "bytes": 12355459,
+    "sha256": "6141e06ae6ea83adcfb61bdbd288c296dbf25a83741d552374c2da216a643e00"
+  },
+  {
+    "path": "mods/50-reaper-worn-v3/mod.ini",
+    "bytes": 163,
+    "sha256": "d66f5bf22ba704ceb63683f5c1c5df81d37de37e2894264a7b26a374041014fe"
+  },
+  {
+    "path": "mods/50-reaper-worn-v3/mod.png",
+    "bytes": 842757,
+    "sha256": "1b9a3bde3e954aebaa10a1e693ccc5f9cd2fb7bfb6b42a83ff6586f7b8c14337"
+  },
+  {
+    "path": "mods/50-reaper-worn-v3/orrp3_hull.png",
+    "bytes": 18854455,
+    "sha256": "527ad5b80ddd7f757ae1973f0e64c78e7da547fa68858cc5e5236a4821f6e5b1"
+  },
+  {
+    "path": "mods/50-reaper-worn-v3/orrp3_hull_normal.png",
+    "bytes": 28548723,
+    "sha256": "eb543842ce596926551c8aad78ff2b4e3f81448e1a78ccebe1cf949e41d1fff2"
+  },
+  {
+    "path": "mods/50-reaper-worn-v3/orrp3_hull_orm.png",
+    "bytes": 12355459,
+    "sha256": "6141e06ae6ea83adcfb61bdbd288c296dbf25a83741d552374c2da216a643e00"
+  },
+  {
+    "path": "mods/50-reaper-worn-v3/t_USHF_Reaper.SHP",
+    "bytes": 279048,
+    "sha256": "89899e77d86161c2359d5923d442836a5998a4d9f43cbc1d336866cc15baedac"
+  }
+]
