@@ -1,0 +1,232 @@
+{
+  "ship": "Reaper",
+  "asset_revision": "3.1",
+  "canonical_scene_name": "reaper_worn_pbr_v3.blend",
+  "canonical_scene_sha256": "a3b5f666f7032c8d6b7035c3d1e64a53babe27165fe54955865345c0d3fc3c65",
+  "scene": {
+    "path": "source/reaper_worn_pbr_v3.blend",
+    "bytes": 374039616,
+    "sha256": "f0172e9295cb9e4395e564bdb22bf27b1ad2cc34b7a9dc80b266983607897cb6"
+  },
+  "resources": [
+    {
+      "path": "source/resources/022c8cd81b0f_reaper_glass_colour_mask_4k_v3.png",
+      "bytes": 171970,
+      "sha256": "022c8cd81b0fe7244075039897c1398019541cb4c91d655e4e570d100765e446"
+    },
+    {
+      "path": "source/resources/0b7ed7e82f3f_reaper_structure_mask_4k_v3.png",
+      "bytes": 252210,
+      "sha256": "0b7ed7e82f3f5e832be8d3c9acebf92945f01926965d9d16c6d7e4f790c45abc"
+    },
+    {
+      "path": "source/resources/0da81a90e416_reaper_coat_4k_v3.png",
+      "bytes": 150359,
+      "sha256": "0da81a90e41626fa274047f46b94ebcbb6f5d2ca33b92680643ba69a14eaef23"
+    },
+    {
+      "path": "source/resources/100dfd33b945_reaper_worn_basecolor_4k_v1.png",
+      "bytes": 18874489,
+      "sha256": "100dfd33b945521c83f1329eba6cdea5b0c917b2bd94ee9a7f1dd0d60e50c184"
+    },
+    {
+      "path": "source/resources/15e85a90589e_reaper_recess_depth_0001.png",
+      "bytes": 14349684,
+      "sha256": "15e85a90589e1a45d052b322ed04309548107c8b603cbde57b40393651a5d611"
+    },
+    {
+      "path": "source/resources/1f73f78f311e_reaper_specular_4k_v2.png",
+      "bytes": 470544,
+      "sha256": "1f73f78f311e7957eebd4065b72ac96c2a37ce45ee4569c6be8e775f123c8d62"
+    },
+    {
+      "path": "source/resources/34166ea8946b_reaper_recess_depth_0001.png",
+      "bytes": 14349684,
+      "sha256": "34166ea8946b0bc9b751229838ed9ea47e00adca59544b27de1fe5c6a5b2a1b2"
+    },
+    {
+      "path": "source/resources/3fb18d22afe2_reaper_worn_normal_4k_v1.png",
+      "bytes": 33592876,
+      "sha256": "3fb18d22afe20697a344bce08563b87954b97c77d8c9ebba9c4b1abfac4fea02"
+    },
+    {
+      "path": "source/resources/406649746dfe_reaper_roughness_4k_v3.png",
+      "bytes": 32041534,
+      "sha256": "406649746dfe00195bf212794b2d49bb09ed0747352b2aaf5f3e5e0920ed922e"
+    },
+    {
+      "path": "source/resources/41491a1a5828_reaper_paint_graphics_mask_4k_v3.png",
+      "bytes": 136491,
+      "sha256": "41491a1a5828eb4f6ae0d0acc5c44a31eb14482f89fd466c2e8633b928433b45"
+    },
+    {
+      "path": "source/resources/4218c343aec1_reaper_normal_4k_v2.png",
+      "bytes": 52441361,
+      "sha256": "4218c343aec19629bcba89507e4b0b9805e9ed05c47c7748b5abfd88b66c3db3"
+    },
+    {
+      "path": "source/resources/4626f00f7e83_reaper_worn_metallic_4k_v1.png",
+      "bytes": 16190446,
+      "sha256": "4626f00f7e83628c512bb6c5ac9e2b5d2784217acdd7e31b55e27106dc9904c8"
+    },
+    {
+      "path": "source/resources/491f22c9887f_reaper_glass_4k_v2.png",
+      "bytes": 234712,
+      "sha256": "491f22c9887f8417794147b7c7f3e9fc676b8ae6b00ea772c44439df2a5afbe9"
+    },
+    {
+      "path": "source/resources/4e0b1ba00fc8_reaper_metallic_4k_v2.png",
+      "bytes": 16659127,
+      "sha256": "4e0b1ba00fc8b65f72eef5a094f1269e46a2b4f848194ff09ad338736184a67d"
+    },
+    {
+      "path": "source/resources/527ad5b80ddd_reaper_basecolor_4k_v3.png",
+      "bytes": 18854455,
+      "sha256": "527ad5b80ddd7f757ae1973f0e64c78e7da547fa68858cc5e5236a4821f6e5b1"
+    },
+    {
+      "path": "source/resources/60190751ac18_reaper_recess_depth_0001.png",
+      "bytes": 14770050,
+      "sha256": "60190751ac18346e75b95267adff17f0f34010d1587bd275e9475cb0f382a493"
+    },
+    {
+      "path": "source/resources/727ceb3026cb_reaper_specular_4k_v3.png",
+      "bytes": 459730,
+      "sha256": "727ceb3026cb91a1a44a092f910364ff4aa40430515bb7e1d66dbdb7950988da"
+    },
+    {
+      "path": "source/resources/73c61848d0dc_reaper_worn_specular_4k_v1.png",
+      "bytes": 567232,
+      "sha256": "73c61848d0dc5305a24b861382e97c196cb0241d5f62e4220cd4e5567000f721"
+    },
+    {
+      "path": "source/resources/7c08e95af520_reaper_roughness_4k_v2.png",
+      "bytes": 38594050,
+      "sha256": "7c08e95af520d99a8d76b44c4a50d6f7bbf33d0f8db8a739f843d8f33bc48c30"
+    },
+    {
+      "path": "source/resources/7f51bdb820a3_reaper_worn_roughness_4k_v1.png",
+      "bytes": 38701305,
+      "sha256": "7f51bdb820a33161267b2cdd27feb26d1e61400ca78de059bafe5498647e2c6b"
+    },
+    {
+      "path": "source/resources/8415b143dbc1_reaper_coat_4k_v2.png",
+      "bytes": 312599,
+      "sha256": "8415b143dbc16e094838051a35807e0a6bb11ce74d86ed63000fa541d0b8afa7"
+    },
+    {
+      "path": "source/resources/98e25eeb3159_reaper_paint_domain_mask_4k_v3.png",
+      "bytes": 136410,
+      "sha256": "98e25eeb3159c91edceab679a642bc2511194009a8e0a89ed5ebc7975c90e193"
+    },
+    {
+      "path": "source/resources/a3e101adde8b_reaper_glass_4k_v3.png",
+      "bytes": 157282,
+      "sha256": "a3e101adde8b40096a854a0f8b48cb4139e98bec5cad2643e4b79a5fafcac274"
+    },
+    {
+      "path": "source/resources/ac7071adcb03_reaper_metallic_4k_v3.png",
+      "bytes": 12375520,
+      "sha256": "ac7071adcb03ee8e1114f6030f432c3c29db733311484f9bc12074126cf89d48"
+    },
+    {
+      "path": "source/resources/b3961b0eeff8_reaper_seal_mask_4k_v3.png",
+      "bytes": 244640,
+      "sha256": "b3961b0eeff88838f0a9d25d35748db6d84e2307fcfa738ae99e1273e3221df8"
+    },
+    {
+      "path": "source/resources/bdbbd6ee40fb_reaper_height_4k_v3.png",
+      "bytes": 289643,
+      "sha256": "bdbbd6ee40fb6673e1591d89b97c49cca0c8a6d4281dc24c2e0479460947edd9"
+    },
+    {
+      "path": "source/resources/d4e62bef8733_reaper_worn_glass_4k_v1.png",
+      "bytes": 559302,
+      "sha256": "d4e62bef873334a5ccf292aae5b48bd5180baec47812ebf02bc8c8786744fcda"
+    },
+    {
+      "path": "source/resources/eb543842ce59_reaper_normal_4k_v3.png",
+      "bytes": 28548723,
+      "sha256": "eb543842ce596926551c8aad78ff2b4e3f81448e1a78ccebe1cf949e41d1fff2"
+    },
+    {
+      "path": "source/resources/f70b6ca46ce0_glass_repair_imagegen.png",
+      "bytes": 2775558,
+      "sha256": "f70b6ca46ce055a2de7b4f43808768ca7b96880368eccf778b3a362e2429ed52"
+    },
+    {
+      "path": "source/resources/f77c58a85819_reaper_recess_depth_0001.png",
+      "bytes": 18592186,
+      "sha256": "f77c58a858198c0c62c4272ac9d62fe8ea1e1b19ab18752164754580e14f2fd5"
+    }
+  ],
+  "recipes": [
+    {
+      "path": "source/recipes/work/pbr_v3/build.py",
+      "bytes": 11933,
+      "sha256": "8b94f275c18d04efbe9428fc47c50ba1f4d2a68a31e6610e1c2ab622a3447935"
+    },
+    {
+      "path": "source/recipes/work/pbr_v3/regions.json",
+      "bytes": 15987,
+      "sha256": "99facd674def3b93fccbf349cde417e4c90acaa3e9461570d2e1830becb7904e"
+    }
+  ],
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_and_relative_resources_verified": true,
+  "runtime_folder": "mods/50-reaper-worn-v3",
+  "runtime_files": [
+    {
+      "path": "mods/50-reaper-worn-v3/USHF_Reaper.SHP",
+      "bytes": 274360,
+      "sha256": "4bc412d789aa4e87eb1adfd53ab3c8ce2ee6afd02314e6a660d827ccdd054e1e"
+    },
+    {
+      "path": "mods/50-reaper-worn-v3/gorrp3_hull.png",
+      "bytes": 18854455,
+      "sha256": "527ad5b80ddd7f757ae1973f0e64c78e7da547fa68858cc5e5236a4821f6e5b1"
+    },
+    {
+      "path": "mods/50-reaper-worn-v3/gorrp3_hull_normal.png",
+      "bytes": 28548723,
+      "sha256": "eb543842ce596926551c8aad78ff2b4e3f81448e1a78ccebe1cf949e41d1fff2"
+    },
+    {
+      "path": "mods/50-reaper-worn-v3/gorrp3_hull_orm.png",
+      "bytes": 12355459,
+      "sha256": "6141e06ae6ea83adcfb61bdbd288c296dbf25a83741d552374c2da216a643e00"
+    },
+    {
+      "path": "mods/50-reaper-worn-v3/mod.ini",
+      "bytes": 163,
+      "sha256": "d66f5bf22ba704ceb63683f5c1c5df81d37de37e2894264a7b26a374041014fe"
+    },
+    {
+      "path": "mods/50-reaper-worn-v3/mod.png",
+      "bytes": 842757,
+      "sha256": "1b9a3bde3e954aebaa10a1e693ccc5f9cd2fb7bfb6b42a83ff6586f7b8c14337"
+    },
+    {
+      "path": "mods/50-reaper-worn-v3/orrp3_hull.png",
+      "bytes": 18854455,
+      "sha256": "527ad5b80ddd7f757ae1973f0e64c78e7da547fa68858cc5e5236a4821f6e5b1"
+    },
+    {
+      "path": "mods/50-reaper-worn-v3/orrp3_hull_normal.png",
+      "bytes": 28548723,
+      "sha256": "eb543842ce596926551c8aad78ff2b4e3f81448e1a78ccebe1cf949e41d1fff2"
+    },
+    {
+      "path": "mods/50-reaper-worn-v3/orrp3_hull_orm.png",
+      "bytes": 12355459,
+      "sha256": "6141e06ae6ea83adcfb61bdbd288c296dbf25a83741d552374c2da216a643e00"
+    },
+    {
+      "path": "mods/50-reaper-worn-v3/t_USHF_Reaper.SHP",
+      "bytes": 279048,
+      "sha256": "89899e77d86161c2359d5923d442836a5998a4d9f43cbc1d336866cc15baedac"
+    }
+  ],
+  "emissives": "deferred",
+  "release_status": "beta"
+}
