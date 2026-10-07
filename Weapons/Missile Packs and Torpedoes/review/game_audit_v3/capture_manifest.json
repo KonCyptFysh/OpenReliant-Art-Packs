@@ -1,0 +1,876 @@
+{
+  "revision": "audit_v3",
+  "engine": "Official OpenReliant 0.7.0",
+  "checked_at_utc": "2026-10-07T15:57:27.665603+00:00",
+  "capture_scope": "Static LOD0 views in the isolated mission, including opposite sides and loadout copies. Distance-transition and firing gameplay remain unreviewed.",
+  "screenshots": 18,
+  "families": 7,
+  "captures": [
+    {
+      "item": 2,
+      "image": "02_screamer_pod.png",
+      "image_sha256": "4fc23fd9f809dd99b48a66220074125409df57a41497dd5bf0dfff26ed947efd",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item2",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "1.3,-1.0,1.3",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/02_screamer_pod.png"
+      ],
+      "date_utc": "2026-10-07T15:46:54.107307+00:00",
+      "log": "authoring-workspace/work/audit_v3/02_screamer_pod.log",
+      "exit_code": 0,
+      "name": "Screamer pod",
+      "view": "Overview",
+      "visually_inspected": true
+    },
+    {
+      "item": 2,
+      "image": "02_screamer_pod_other.png",
+      "image_sha256": "bfb56b4b2768e08b4b4ecc69b31418ec67a308b3e8b432f42f531825266fb2f0",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item2",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "-1.3,-1.0,1.3",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/02_screamer_pod_other.png"
+      ],
+      "date_utc": "2026-10-07T15:49:04.627819+00:00",
+      "log": "authoring-workspace/work/audit_v3/02_screamer_pod_other.log",
+      "exit_code": 0,
+      "name": "Screamer pod",
+      "view": "Opposite side",
+      "visually_inspected": true
+    },
+    {
+      "item": 2,
+      "image": "02_screamer_pod_under.png",
+      "image_sha256": "a6e490914b5184c7d7bc97d77f248e9e7039ccbccfb7facf0d94327a56e68dee",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item2",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "1.3,1.0,1.3",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/02_screamer_pod_under.png"
+      ],
+      "date_utc": "2026-10-07T15:49:15.442696+00:00",
+      "log": "authoring-workspace/work/audit_v3/02_screamer_pod_under.log",
+      "exit_code": 0,
+      "name": "Screamer pod",
+      "view": "Underside",
+      "visually_inspected": true
+    },
+    {
+      "item": 16,
+      "image": "02_screamer_pod_loadout.png",
+      "image_sha256": "34b39fb27805c64a45e3d7ff3e51ad19d94dcb496fd87e74050830f78b2696c4",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item16",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "1.3,-1.0,1.3",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/02_screamer_pod_loadout.png"
+      ],
+      "date_utc": "2026-10-07T15:49:49.172732+00:00",
+      "log": "authoring-workspace/work/audit_v3/02_screamer_pod_loadout.log",
+      "exit_code": 0,
+      "name": "Screamer pod",
+      "view": "Loadout model",
+      "visually_inspected": true
+    },
+    {
+      "item": 3,
+      "image": "03_raptor.png",
+      "image_sha256": "5004a41552aea9fceffbd3129bb78f52f8be37e21f30058ddbe888527d0d8908",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item3",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "1.6,-0.6,0.8",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/03_raptor.png"
+      ],
+      "date_utc": "2026-10-07T15:29:28.378295+00:00",
+      "log": "authoring-workspace/work/audit_v3/03_raptor.log",
+      "exit_code": 0,
+      "name": "Raptor",
+      "view": "Overview",
+      "visually_inspected": true
+    },
+    {
+      "item": 3,
+      "image": "03_raptor_other.png",
+      "image_sha256": "b60bf7895b55c4e7634cc88705d21c2837c4b4c26a01c54bdedcd8e58eeee6c5",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item3",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "-1.6,-0.8,0.5",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/03_raptor_other.png"
+      ],
+      "date_utc": "2026-10-07T15:38:41.615726+00:00",
+      "log": "authoring-workspace/work/audit_v3/03_raptor_other.log",
+      "exit_code": 0,
+      "name": "Raptor",
+      "view": "Opposite side",
+      "visually_inspected": true
+    },
+    {
+      "item": 4,
+      "image": "04_raptor_pod.png",
+      "image_sha256": "d171e3dbe3e89550efa8e9162da803d84a38a9893755a9d89cf94156f26c4f84",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item4",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "1.3,-1.0,1.3",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/04_raptor_pod.png"
+      ],
+      "date_utc": "2026-10-07T15:47:02.622485+00:00",
+      "log": "authoring-workspace/work/audit_v3/04_raptor_pod.log",
+      "exit_code": 0,
+      "name": "Raptor pod",
+      "view": "Overview",
+      "visually_inspected": true
+    },
+    {
+      "item": 4,
+      "image": "04_raptor_pod_other.png",
+      "image_sha256": "3699f2a04ec7667c23a027d7f54c37f34fa49f35ed71607a950569037795195f",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item4",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "-1.3,-1.0,1.3",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/04_raptor_pod_other.png"
+      ],
+      "date_utc": "2026-10-07T15:49:27.773844+00:00",
+      "log": "authoring-workspace/work/audit_v3/04_raptor_pod_other.log",
+      "exit_code": 0,
+      "name": "Raptor pod",
+      "view": "Opposite side",
+      "visually_inspected": true
+    },
+    {
+      "item": 4,
+      "image": "04_raptor_pod_under.png",
+      "image_sha256": "37d943acced654973771d1d2220a8dfed19c17471a6c4a16397e53117b3e946e",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item4",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "1.3,1.0,1.3",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/04_raptor_pod_under.png"
+      ],
+      "date_utc": "2026-10-07T15:49:38.741897+00:00",
+      "log": "authoring-workspace/work/audit_v3/04_raptor_pod_under.log",
+      "exit_code": 0,
+      "name": "Raptor pod",
+      "view": "Underside",
+      "visually_inspected": true
+    },
+    {
+      "item": 18,
+      "image": "04_raptor_pod_loadout.png",
+      "image_sha256": "ae89ad9f562d821201ae7fb157435a488fbb591763b5ae04337237dca4b87f5e",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item18",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "1.3,-1.0,1.3",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/04_raptor_pod_loadout.png"
+      ],
+      "date_utc": "2026-10-07T15:49:59.513478+00:00",
+      "log": "authoring-workspace/work/audit_v3/04_raptor_pod_loadout.log",
+      "exit_code": 0,
+      "name": "Raptor pod",
+      "view": "Loadout model",
+      "visually_inspected": true
+    },
+    {
+      "item": 6,
+      "image": "06_jackhammer.png",
+      "image_sha256": "5962702f5fbdaa68d99869d8f17cde7324828707d987b2d008780bc8d0332b00",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item6",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "1.6,-0.6,0.8",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/06_jackhammer.png"
+      ],
+      "date_utc": "2026-10-07T15:34:12.175313+00:00",
+      "log": "authoring-workspace/work/audit_v3/06_jackhammer.log",
+      "exit_code": 0,
+      "name": "Jackhammer",
+      "view": "Overview",
+      "visually_inspected": true
+    },
+    {
+      "item": 6,
+      "image": "06_jackhammer_other.png",
+      "image_sha256": "90689443936337822f93b31f25e95f7c3a0220965d03338c5352a3b77db4717e",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item6",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "-1.6,-0.8,0.5",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/06_jackhammer_other.png"
+      ],
+      "date_utc": "2026-10-07T15:38:52.881527+00:00",
+      "log": "authoring-workspace/work/audit_v3/06_jackhammer_other.log",
+      "exit_code": 0,
+      "name": "Jackhammer",
+      "view": "Opposite side",
+      "visually_inspected": true
+    },
+    {
+      "item": 7,
+      "image": "07_bandit.png",
+      "image_sha256": "bb188422ae0fee39f2589ba3267d7d0622bb2be503625d49c491264a31e7b605",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item7",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "1.6,-0.6,0.8",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/07_bandit.png"
+      ],
+      "date_utc": "2026-10-07T15:29:23.633262+00:00",
+      "log": "authoring-workspace/work/audit_v3/07_bandit.log",
+      "exit_code": 0,
+      "name": "Bandit",
+      "view": "Overview",
+      "visually_inspected": true
+    },
+    {
+      "item": 7,
+      "image": "07_bandit_other.png",
+      "image_sha256": "5a75cd20084ef0574095537125acb5b520019cf879a3eb4f461e22a3a5227d92",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item7",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "-1.6,-0.8,0.5",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/07_bandit_other.png"
+      ],
+      "date_utc": "2026-10-07T15:38:46.931916+00:00",
+      "log": "authoring-workspace/work/audit_v3/07_bandit_other.log",
+      "exit_code": 0,
+      "name": "Bandit",
+      "view": "Opposite side",
+      "visually_inspected": true
+    },
+    {
+      "item": 11,
+      "image": "11_imp.png",
+      "image_sha256": "357ddf0d8dd48ecc3b629dc299fe36e0ab31f15fb942a7d806ce540eb5d8bbae",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item11",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "1.6,-0.6,0.8",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/11_imp.png"
+      ],
+      "date_utc": "2026-10-07T15:34:16.505215+00:00",
+      "log": "authoring-workspace/work/audit_v3/11_imp.log",
+      "exit_code": 0,
+      "name": "Imp",
+      "view": "Overview",
+      "visually_inspected": true
+    },
+    {
+      "item": 11,
+      "image": "11_imp_other.png",
+      "image_sha256": "14c9a098dbebcb3d1ffa75f0f97239e1f1080fdc0aceb2953f7832c5b752c05b",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item11",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "-1.6,-0.8,0.5",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/11_imp_other.png"
+      ],
+      "date_utc": "2026-10-07T15:38:57.728121+00:00",
+      "log": "authoring-workspace/work/audit_v3/11_imp_other.log",
+      "exit_code": 0,
+      "name": "Imp",
+      "view": "Opposite side",
+      "visually_inspected": true
+    },
+    {
+      "item": 31,
+      "image": "16_fuel_pod_top.png",
+      "image_sha256": "14e70d8e71edc9165b0306a3f69ef2e0776c99c9d6e8ee125a0236f3b0794fe5",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item31",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "0.25,-2.0,0.25",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/16_fuel_pod_top.png"
+      ],
+      "date_utc": "2026-10-07T15:34:20.790102+00:00",
+      "log": "authoring-workspace/work/audit_v3/16_fuel_pod_top.log",
+      "exit_code": 0,
+      "name": "Fuel pod",
+      "view": "Top panel",
+      "visually_inspected": true
+    },
+    {
+      "item": 29,
+      "image": "16_fuel_pod_loadout_top.png",
+      "image_sha256": "ff13a747cc54b2a8bfc9a8e0391d661b8a3b4f97e16184981017a82fd9afd70c",
+      "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "command": [
+        "openreliant-install/releases/openreliant-v0.7.0-linux-x86_64/openreliant",
+        "openreliant-install/reviews/ordnance-v1/game-data",
+        "--mission",
+        "991",
+        "--ship",
+        "ordnance-inspection:item29",
+        "--view",
+        "1",
+        "--skip-launch",
+        "--watch",
+        "0",
+        "--watch-from",
+        "0.25,-2.0,0.25",
+        "--size",
+        "1600x1000",
+        "--no-sound",
+        "--screenshot-ticks",
+        "120",
+        "--screenshot",
+        "authoring-workspace/review/game_audit_v3/16_fuel_pod_loadout_top.png"
+      ],
+      "date_utc": "2026-10-07T15:39:02.668422+00:00",
+      "log": "authoring-workspace/work/audit_v3/16_fuel_pod_loadout_top.log",
+      "exit_code": 0,
+      "name": "Fuel pod",
+      "view": "Loadout top panel",
+      "visually_inspected": true
+    }
+  ],
+  "final_runtime": [
+    {
+      "path": "01_screamer.SHP",
+      "bytes": 18056,
+      "sha256": "d715effd834753dfb99e9e98d1c8e703a6464fff97d2cefebeed43ef1750456a"
+    },
+    {
+      "path": "01_screamer_pod.SHP",
+      "bytes": 8646,
+      "sha256": "e27368db64a6b3ad70f61fa136617df162d07ff789bd457470094e0a3bbff7f4"
+    },
+    {
+      "path": "02_raptor.SHP",
+      "bytes": 17784,
+      "sha256": "4079a1c1e6efef8d5244420792a0511b9cb23496bb004f007d10087985c2a99b"
+    },
+    {
+      "path": "02_raptor_POD.SHP",
+      "bytes": 9798,
+      "sha256": "0e2fee17891d28c56a03c291e28127050cadbda56a4ba67fdde5b9b8212cf24f"
+    },
+    {
+      "path": "03_havoc.SHP",
+      "bytes": 18520,
+      "sha256": "778db165b728d70fb8e8bd34042cdeead188e319353bd51f926785d1bd96db01"
+    },
+    {
+      "path": "04_jackhammer.SHP",
+      "bytes": 20440,
+      "sha256": "108a6bf0d20366cda65d5e0b315a0a512cd939c8d3adb2f46644dbd55e2772a0"
+    },
+    {
+      "path": "05_bandit.SHP",
+      "bytes": 18630,
+      "sha256": "edee0b9f93d805325957dd3838e639fd3cc8f125bc3617298d06b7da132ad3cc"
+    },
+    {
+      "path": "06_vagabond.SHP",
+      "bytes": 13912,
+      "sha256": "59ec4800dcab3b37718c1cab55a5c882d2557ed9aee0e5479a5e259ddfdd1cc3"
+    },
+    {
+      "path": "07_Solomon_POD.SHP",
+      "bytes": 10950,
+      "sha256": "4192dca367ce927f0d060b85ffc3bc579040cec4da6abfa54b118eb905b5cec2"
+    },
+    {
+      "path": "07_solomon.SHP",
+      "bytes": 17944,
+      "sha256": "5ab26cc0c13a3181e92d9b492272a91b29b1a5f6465dd00c5039fb8b2fa66119"
+    },
+    {
+      "path": "08_imp.SHP",
+      "bytes": 20632,
+      "sha256": "208af9f351873c2912eb263eeff8e885474f8134bb8d49a6783e285af2b6f4e1"
+    },
+    {
+      "path": "09_hawk.SHP",
+      "bytes": 18440,
+      "sha256": "62821c04603e019ba9374dc976bcfdfd2834f4026146f7db2c16514763c18f21"
+    },
+    {
+      "path": "09_hawk_POD.SHP",
+      "bytes": 6918,
+      "sha256": "d1091aa84895ab18b9274f2c71cb3e32097997055489e20405aa9592eda22a5d"
+    },
+    {
+      "path": "10_torpedo.SHP",
+      "bytes": 14340,
+      "sha256": "9ef936ebb9cc1dcc869786f9d23bce2bdaebd666e7d222a5e8101ccd86dfd530"
+    },
+    {
+      "path": "21_screamer.SHP",
+      "bytes": 16724,
+      "sha256": "9153730b7efc412ce1ff6397ba2fbfd97c7c5b270cd6ef4cb334f60f1ba35f2a"
+    },
+    {
+      "path": "21_screamer_pod.SHP",
+      "bytes": 4784,
+      "sha256": "b651aedb75a15efed1b4f4d46d1b0cef10a26f50912a4c0cbdd70261427118eb"
+    },
+    {
+      "path": "22_raptor.SHP",
+      "bytes": 16532,
+      "sha256": "8e8881e96f60bacdcc68d63afddde529db77f0f74750348f3414c6781690a124"
+    },
+    {
+      "path": "22_raptor_POD.SHP",
+      "bytes": 7276,
+      "sha256": "9a2dd3667d4ac8c9e3fa60fedac828427d40e71feaf890eb71b71177b5ad02ab"
+    },
+    {
+      "path": "23_havoc.SHP",
+      "bytes": 17060,
+      "sha256": "e95edf4769e0be8f7648e0ae0a1e828f6ae795e8fbe14fbfc6389af539b74b1b"
+    },
+    {
+      "path": "24_jackhammer.SHP",
+      "bytes": 18820,
+      "sha256": "c12b55de977b97439afc03528422a55e10573c69111f24bc79a3e30be0cd8aa5"
+    },
+    {
+      "path": "25_bandit.SHP",
+      "bytes": 17060,
+      "sha256": "9740aa0ab47b3b104eedf60a27b10dec5e4d74b990b45b3ecf731e395bc03c30"
+    },
+    {
+      "path": "26_vagabond.SHP",
+      "bytes": 12836,
+      "sha256": "28e80e24e1b1021b26ba9820211295df8b3f50cb8bc2084e63e55fd1971cb695"
+    },
+    {
+      "path": "27_Solomon_POD.SHP",
+      "bytes": 5832,
+      "sha256": "7ebdf3297c7fb5c8a5debd5219d210ec28ac69ab3e9dc5fd45eaf3b5520b85ae"
+    },
+    {
+      "path": "27_solomon.SHP",
+      "bytes": 16532,
+      "sha256": "8c2a8b3fe7795c5657061029dbd37b47d65b45315d82da7586f94ba63cae50e3"
+    },
+    {
+      "path": "28_imp.SHP",
+      "bytes": 18996,
+      "sha256": "391db24da6e7aaa6df5456428869eb4fa4111d960abd5b4e85827c0ba36302f5"
+    },
+    {
+      "path": "29_hawk.SHP",
+      "bytes": 17060,
+      "sha256": "bcdb2d90911d6ff3ce4d9c3da8edaea22ce24a4cb79249aa74bc586979596d5e"
+    },
+    {
+      "path": "29_hawk_POD.SHP",
+      "bytes": 12606,
+      "sha256": "664da53aee49b2816df6ad2a7fbb6bb875314a16b6db9e0a60bd2aa169670c32"
+    },
+    {
+      "path": "30_torpedo.SHP",
+      "bytes": 13264,
+      "sha256": "47ce216666561c199f2d2c03f41e37b10b5b67d9b49a6e0d49445a8cf008f84d"
+    },
+    {
+      "path": "31_fuel_pod.SHP",
+      "bytes": 12724,
+      "sha256": "09c6aa45861f0df31cb60bd0fc10ee21e6807dbae2721aa992d51c2253327e50"
+    },
+    {
+      "path": "Rus_Torp.SHP",
+      "bytes": 24162,
+      "sha256": "5e2dce634993aff3d0b73041351f78b2f73be9890dbed2da61f10f260374289f"
+    },
+    {
+      "path": "fuel_pod.SHP",
+      "bytes": 13062,
+      "sha256": "1d463c8f8fc317f6eee8220afa339ac6f555c1a290d5c34dc4bc6f1ce4b5a315"
+    },
+    {
+      "path": "license.txt",
+      "bytes": 999,
+      "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
+    },
+    {
+      "path": "mod.ini",
+      "bytes": 222,
+      "sha256": "7e2d13e7f9be0b34809af357974a7201fa3b663826e22083417b412d07c77f88"
+    },
+    {
+      "path": "orord1_hull.png",
+      "bytes": 21445562,
+      "sha256": "0329386a6e7b3232716d0b1cef8bd57ef0d61dd22fa15933d5bd167a8eaf736a"
+    },
+    {
+      "path": "orord1_hull_normal.png",
+      "bytes": 985579,
+      "sha256": "9612edbabd83032546cef4ab788f46a6a574658bb995bcad90e6653a97e14fa1"
+    },
+    {
+      "path": "orord1_hull_orm.png",
+      "bytes": 12802468,
+      "sha256": "c7dbefd75cb52c737897423b9e98dbf31c301180ee2865ad6ea489a9108469d9"
+    },
+    {
+      "path": "orord2_nozz.png",
+      "bytes": 247406,
+      "sha256": "506b81f919df26fc6295e2de03a0f832c17f4e8079956ced0f94dc69cb25c3d7"
+    },
+    {
+      "path": "orord2_nozz_normal.png",
+      "bytes": 64717,
+      "sha256": "f3d48816a6ee8bc085bbd558b61c915c753a1b180fbeb340291b930db5b95dbc"
+    },
+    {
+      "path": "orord2_nozz_orm.png",
+      "bytes": 158741,
+      "sha256": "8fa5617a44dd4b7f73a01092d9eec6a3b5b1ea764c63bd66f24a43d40b5af493"
+    },
+    {
+      "path": "orord2_scrm.png",
+      "bytes": 2985429,
+      "sha256": "b3ea640846600e4d1f0a96087858619e75d90ae9c3eb2c18b2bd6db66495d07e"
+    },
+    {
+      "path": "orord2_scrm_normal.png",
+      "bytes": 17690,
+      "sha256": "e27cde7ca7a3b6a4235628f7ccf3f9071c0a191772531624e086fa037afd1241"
+    },
+    {
+      "path": "orord2_scrm_orm.png",
+      "bytes": 656382,
+      "sha256": "6d5fcba1134fdadc061b78fc2f09cf6b9b0ddeb56426c0e643e5eaee6ebcef9c"
+    },
+    {
+      "path": "orord3_rpod.png",
+      "bytes": 12724440,
+      "sha256": "74288b54722929a9c0bc3bdd05a13d5ac5ffdf43887d3bcc08a46b1fe0551978"
+    },
+    {
+      "path": "orord3_rpod_normal.png",
+      "bytes": 1347271,
+      "sha256": "c1b86519802a64ffd5eeb164131037a5b73456fe58dd0a312de36f96a9af60d2"
+    },
+    {
+      "path": "orord3_rpod_orm.png",
+      "bytes": 7454008,
+      "sha256": "1263dfe385d863704ccdf1dc8ec8193bf8e59ccf3d8a409ca33cd841a17c0d65"
+    },
+    {
+      "path": "orord3_spod.png",
+      "bytes": 13028780,
+      "sha256": "59f715522a0dcda4b54803ee17e38f44ebc48bb8429e82b5dc55d6424f46e297"
+    },
+    {
+      "path": "orord3_spod_normal.png",
+      "bytes": 2335471,
+      "sha256": "54e19f1ab7061122191ed355e4cc39fb868590c8d6a0e5c006c97964316a6145"
+    },
+    {
+      "path": "orord3_spod_orm.png",
+      "bytes": 9097360,
+      "sha256": "02f07efb57e75438ee3e1b69f67ff55bd17e0d71b73bde962e2cdcf3e2355530"
+    },
+    {
+      "path": "torpedo.SHP",
+      "bytes": 14706,
+      "sha256": "8d6f2078fe80089361fc8be6727c0466e7d79bb99680c9c79ed12da3fdb0ea58"
+    }
+  ],
+  "user_approved": true,
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-07T16:08:06.796885+00:00",
+    "scope": "All 32 missile, pod, loadout and torpedo variants including the audit-v3 corrections.",
+    "instruction": "Beautiful, I'm happy to green light all of these, let's send them upto git"
+  }
+}

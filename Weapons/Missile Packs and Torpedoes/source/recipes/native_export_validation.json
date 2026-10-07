@@ -1,0 +1,4436 @@
+{
+  "models": [
+    {
+      "bytes": 17672,
+      "source_sha256": "f7cce54140fda5dcf63dd9f49aa54f90db66463b130dff826f05f95a34fd7a38",
+      "export_sha256": "44b2b32d1584daec4c14c895fe31446258f8cca75906a5efd2a0c5f21b43b25e",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "01_screamer.SHP",
+      "part_lods": 3,
+      "lod0_faces": 102,
+      "changed_uv_faces_all_lods": 10,
+      "max_uv_anisotropy_after": 11.682709200000406
+    },
+    {
+      "bytes": 8454,
+      "source_sha256": "a826279293ba6b56c88be969ab779369393f743cc76299cd8756588bec5324c8",
+      "export_sha256": "f5c056f0575f663b2ca651b75bfd911c82aedddb11fdf49d8a6ef4db70e3337d",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "01_screamer_pod.SHP",
+      "part_lods": 3,
+      "lod0_faces": 46,
+      "changed_uv_faces_all_lods": 3,
+      "max_uv_anisotropy_after": 5.438740316424068
+    },
+    {
+      "bytes": 17592,
+      "source_sha256": "3ae3738dbe90a4a16b41a4913b105976cc23e6eb9442275488266b20a3572fa7",
+      "export_sha256": "dc43d84b9943c7bff6d8d2042aec08e682b0fa14b00760a260bb9119c4b7db90",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "02_raptor.SHP",
+      "part_lods": 3,
+      "lod0_faces": 102,
+      "changed_uv_faces_all_lods": 12,
+      "max_uv_anisotropy_after": 8.696911098237958
+    },
+    {
+      "bytes": 9606,
+      "source_sha256": "e7ef42bb7f70df838ab0bba64f3ea2ad93f5c2d285ca71e47fd7cdaaffed7f0f",
+      "export_sha256": "2c230807e493651a4552dce1e596cc4044d901fa1a74d3ae010fb5a3c50ea397",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "02_raptor_POD.SHP",
+      "part_lods": 3,
+      "lod0_faces": 52,
+      "changed_uv_faces_all_lods": 1,
+      "max_uv_anisotropy_after": 10.999205737410383
+    },
+    {
+      "bytes": 18328,
+      "source_sha256": "4430498f548e1c4663d13f4a6073f46dc6a4b16f0c3e709bda3d2b92c5a4f86c",
+      "export_sha256": "a67bf8511b608f575d307903888294d66c37930db9e97a8a60c2f65a6ac7584a",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "03_havoc.SHP",
+      "part_lods": 3,
+      "lod0_faces": 118,
+      "changed_uv_faces_all_lods": 0,
+      "max_uv_anisotropy_after": 8.425274028925271
+    },
+    {
+      "bytes": 20248,
+      "source_sha256": "2b962b2957fd6625019e6d149a32f77a5f959f40cd114d907e970d127e7efae9",
+      "export_sha256": "0e8d5499b403bda3378c2d6e7c4bc05968cf6222d9c0d2521f1abfc9c4b44d64",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "04_jackhammer.SHP",
+      "part_lods": 3,
+      "lod0_faces": 118,
+      "changed_uv_faces_all_lods": 23,
+      "max_uv_anisotropy_after": 9.639116363390414
+    },
+    {
+      "bytes": 18438,
+      "source_sha256": "6c985b5c80abab4fdbe2747ad7e8c28eec74772fbbf332f622f16dad6e70f5d9",
+      "export_sha256": "5707265ca8c973e1fd957a40eda73a8f1a0d4e9639089400e2e5cbf2746ea2b8",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "05_bandit.SHP",
+      "part_lods": 3,
+      "lod0_faces": 118,
+      "changed_uv_faces_all_lods": 27,
+      "max_uv_anisotropy_after": 11.301418005708232
+    },
+    {
+      "bytes": 13720,
+      "source_sha256": "9bd2d44b3619cad96ce7b9187ede2e4b0bd84d4425165a6f0fea52fca83fee7f",
+      "export_sha256": "24382f494ce355e93caf2799ba47423857b88b15ce1d657def6180711f8e2286",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "06_vagabond.SHP",
+      "part_lods": 3,
+      "lod0_faces": 78,
+      "changed_uv_faces_all_lods": 0,
+      "max_uv_anisotropy_after": 5.192240188876848
+    },
+    {
+      "bytes": 10950,
+      "source_sha256": "d9ec9c590553bc762d12e06a73c1f676af86d199c29f7375876b2338f71cd693",
+      "export_sha256": "4192dca367ce927f0d060b85ffc3bc579040cec4da6abfa54b118eb905b5cec2",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "07_Solomon_POD.SHP",
+      "part_lods": 3,
+      "lod0_faces": 60,
+      "changed_uv_faces_all_lods": 0,
+      "max_uv_anisotropy_after": 6.735024775119026
+    },
+    {
+      "bytes": 17752,
+      "source_sha256": "c2c28d861ad0bdb46216774091ba36b449bda86d431cf0766887c3e0d25563a5",
+      "export_sha256": "c990abe35c328c9e158c1a65460aa38bf1581dd3fbc33055bcd6046329aa0b21",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "07_solomon.SHP",
+      "part_lods": 3,
+      "lod0_faces": 102,
+      "changed_uv_faces_all_lods": 23,
+      "max_uv_anisotropy_after": 11.345912477411837
+    },
+    {
+      "bytes": 20440,
+      "source_sha256": "56aaa0e709397433d0a451482614e9e0d6547f2bfb0b2dde8c6198f4ead96c88",
+      "export_sha256": "138d966d64c5c5e2ef765dd2eeeac42c377481d368e3cb5d265ddea6610d6c3b",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "08_imp.SHP",
+      "part_lods": 3,
+      "lod0_faces": 118,
+      "changed_uv_faces_all_lods": 7,
+      "max_uv_anisotropy_after": 10.561718352476305
+    },
+    {
+      "bytes": 18248,
+      "source_sha256": "4b65e4c2971b25cb0ddd9ebbba5b619d469b4be8565df5d5c24ffa76e0b3d697",
+      "export_sha256": "40bca3514ee3f988ef96f5f3bda9d8709b90aa8a5a4128ee76324113c4b3dec6",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "09_hawk.SHP",
+      "part_lods": 3,
+      "lod0_faces": 118,
+      "changed_uv_faces_all_lods": 30,
+      "max_uv_anisotropy_after": 11.586087149556384
+    },
+    {
+      "bytes": 6918,
+      "source_sha256": "f6a42641035fd2b6c9c97e00fd4cdb29081d7eceea30cc28e7976414939003bd",
+      "export_sha256": "d1091aa84895ab18b9274f2c71cb3e32097997055489e20405aa9592eda22a5d",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "09_hawk_POD.SHP",
+      "part_lods": 3,
+      "lod0_faces": 36,
+      "changed_uv_faces_all_lods": 2,
+      "max_uv_anisotropy_after": 8.457019095059382
+    },
+    {
+      "bytes": 14340,
+      "source_sha256": "2826ab0dc4e7df80e09d95a1947f68d22077515ec3c1bbc932d8a49b6b1e5c01",
+      "export_sha256": "9ef936ebb9cc1dcc869786f9d23bce2bdaebd666e7d222a5e8101ccd86dfd530",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "10_torpedo.SHP",
+      "part_lods": 3,
+      "lod0_faces": 78,
+      "changed_uv_faces_all_lods": 0,
+      "max_uv_anisotropy_after": 3.981003688635707
+    },
+    {
+      "bytes": 16340,
+      "source_sha256": "214204a340dc40c2122115ab2756732f6d69e4aa2771eb427262249be5e55d93",
+      "export_sha256": "177438c0d0e4a154cc31ea77e29f90752e06e5d94aa41e6e488c74274edc1b9b",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "21_screamer.SHP",
+      "part_lods": 3,
+      "lod0_faces": 102,
+      "changed_uv_faces_all_lods": 10,
+      "max_uv_anisotropy_after": 11.682709409073015
+    },
+    {
+      "bytes": 4720,
+      "source_sha256": "bba8e4e13d8a50e86c9d8fe7dd554c45fb830930798cea55c1662509a013d9a8",
+      "export_sha256": "8cd01e84f5419f5ad8c34ebd9ea9b478dcb0dd91f807f94c247a55ab46061998",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "21_screamer_pod.SHP",
+      "part_lods": 1,
+      "lod0_faces": 46,
+      "changed_uv_faces_all_lods": 0,
+      "max_uv_anisotropy_after": 5.2598815280068285
+    },
+    {
+      "bytes": 16340,
+      "source_sha256": "6f18933613c9cb1baf004abb9a3b541bcc3d4ea96604d520ab2948df9c21fe89",
+      "export_sha256": "e47292258f8e24c9b82b2382bea304027545b188d865926c6406139f78fad161",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "22_raptor.SHP",
+      "part_lods": 3,
+      "lod0_faces": 102,
+      "changed_uv_faces_all_lods": 12,
+      "max_uv_anisotropy_after": 8.696912551150607
+    },
+    {
+      "bytes": 7084,
+      "source_sha256": "46206ee8ee720a998b21d2b35f85af62fde07486880bb8873a885ed3c4272397",
+      "export_sha256": "6f4fd3c890b9026d81de70d09a974825c39bb7fdbcc44541f4f301c794b82f24",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "22_raptor_POD.SHP",
+      "part_lods": 3,
+      "lod0_faces": 58,
+      "changed_uv_faces_all_lods": 0,
+      "max_uv_anisotropy_after": 2.4720797445088736
+    },
+    {
+      "bytes": 16868,
+      "source_sha256": "167d470a3d189b0f8885ba8bb3bb5962267471f2cd6f275af70284532b15a909",
+      "export_sha256": "32b91c37330e1a149b89576e49bf7a804bea1f0c97aed1417c9caddfc9971d45",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "23_havoc.SHP",
+      "part_lods": 3,
+      "lod0_faces": 118,
+      "changed_uv_faces_all_lods": 0,
+      "max_uv_anisotropy_after": 8.42527402892528
+    },
+    {
+      "bytes": 18628,
+      "source_sha256": "24628da2d1e452b298e2a2f233ad49cf8bea745be531aabb2952468f5c64c7f2",
+      "export_sha256": "83aae903c350e0474e2dcae4112afc114151a928b85d5edb6da59c46747e4d3d",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "24_jackhammer.SHP",
+      "part_lods": 3,
+      "lod0_faces": 118,
+      "changed_uv_faces_all_lods": 23,
+      "max_uv_anisotropy_after": 9.639116363390402
+    },
+    {
+      "bytes": 16868,
+      "source_sha256": "b6ab202adc6546fe9001067af65f3aec5f27bfe781cca50cac5c9383c0ab34b4",
+      "export_sha256": "7f20204a3d2b80f59a4e15dbd0d74c73e72861daa1460b6e7042c180dc3ac7a9",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "25_bandit.SHP",
+      "part_lods": 3,
+      "lod0_faces": 118,
+      "changed_uv_faces_all_lods": 27,
+      "max_uv_anisotropy_after": 11.301418005708234
+    },
+    {
+      "bytes": 12644,
+      "source_sha256": "3ad46bb73a0fe53ec4004ec57c04c05da7116d3e88aaecad2481c7fa0181753a",
+      "export_sha256": "23a6747af3ce247207f694a78507e31c264e3fde08eb1fa3e45c6449bf610bdf",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "26_vagabond.SHP",
+      "part_lods": 3,
+      "lod0_faces": 78,
+      "changed_uv_faces_all_lods": 0,
+      "max_uv_anisotropy_after": 5.192240188876844
+    },
+    {
+      "bytes": 5832,
+      "source_sha256": "63d90fc7959886e471210fc6988989b8259d6ec67dcbf271b1898c65c807b99c",
+      "export_sha256": "7ebdf3297c7fb5c8a5debd5219d210ec28ac69ab3e9dc5fd45eaf3b5520b85ae",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "27_Solomon_POD.SHP",
+      "part_lods": 1,
+      "lod0_faces": 60,
+      "changed_uv_faces_all_lods": 0,
+      "max_uv_anisotropy_after": 2.3923799839980604
+    },
+    {
+      "bytes": 16340,
+      "source_sha256": "752bd69ab6594ece28a610c6edacdbdeaf58a4cb2f513c8409b7a5499cf2e522",
+      "export_sha256": "bbad05e7a3e61752a564512c654292f6ba01c05a32e67d02ef5c2a314216aa2c",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "27_solomon.SHP",
+      "part_lods": 3,
+      "lod0_faces": 102,
+      "changed_uv_faces_all_lods": 23,
+      "max_uv_anisotropy_after": 11.345912504901579
+    },
+    {
+      "bytes": 18804,
+      "source_sha256": "cd28df9f869c7cb0df39a9f51e7205a27fcbe2bbf3cb63922945b824b0618e01",
+      "export_sha256": "d523f1c41a4715d19816c81592a4e30867119aadce732401d81a8bca78533e07",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "28_imp.SHP",
+      "part_lods": 3,
+      "lod0_faces": 118,
+      "changed_uv_faces_all_lods": 7,
+      "max_uv_anisotropy_after": 10.561718378984196
+    },
+    {
+      "bytes": 16868,
+      "source_sha256": "86018e33d808c547cff51be9a27581042a281223c471d20bdc760152d5fd3bc9",
+      "export_sha256": "73d1be98577d7d6643c582d9560cbebeddd5cdb4f58fb0ff223f8a9fc2af2f49",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "29_hawk.SHP",
+      "part_lods": 3,
+      "lod0_faces": 118,
+      "changed_uv_faces_all_lods": 30,
+      "max_uv_anisotropy_after": 11.58608706597923
+    },
+    {
+      "bytes": 12606,
+      "source_sha256": "94d71fc42076ed5fd9395dd3c8bc46503c95edd1d309f552ff0d7d82570a553c",
+      "export_sha256": "664da53aee49b2816df6ad2a7fbb6bb875314a16b6db9e0a60bd2aa169670c32",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "29_hawk_POD.SHP",
+      "part_lods": 6,
+      "lod0_faces": 72,
+      "changed_uv_faces_all_lods": 4,
+      "max_uv_anisotropy_after": 11.507664795617838
+    },
+    {
+      "bytes": 13264,
+      "source_sha256": "0369bd7d2551c1e9aa560b2404fe2c47792e508f8fa9ac0d7a1248632397a1fa",
+      "export_sha256": "47ce216666561c199f2d2c03f41e37b10b5b67d9b49a6e0d49445a8cf008f84d",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "30_torpedo.SHP",
+      "part_lods": 3,
+      "lod0_faces": 78,
+      "changed_uv_faces_all_lods": 0,
+      "max_uv_anisotropy_after": 3.9810036886357056
+    },
+    {
+      "bytes": 12724,
+      "source_sha256": "b9a9fe2bd0bfb7b0fdc9231356ce3b4ba0b68e8c4d2b2d3af086a36034e27eb3",
+      "export_sha256": "d6db36595b9db36b23e47c02116b48fbc71f78cbde98a0441ccaf2dfdcff127a",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "31_fuel_pod.SHP",
+      "part_lods": 2,
+      "lod0_faces": 74,
+      "changed_uv_faces_all_lods": 1,
+      "max_uv_anisotropy_after": 6.022140846589039
+    },
+    {
+      "bytes": 24162,
+      "source_sha256": "72aca781bc1aa544de4e8f92003dcfad890e09c6c94cfaa80ea759f5cc210a83",
+      "export_sha256": "bc8d13a5a108b215d2caf6c69ecba193037a5e1c21af1785b2f1384f7fe0c9e6",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "Rus_Torp.SHP",
+      "part_lods": 9,
+      "lod0_faces": 78,
+      "changed_uv_faces_all_lods": 0,
+      "max_uv_anisotropy_after": 10.556942529507822
+    },
+    {
+      "bytes": 13062,
+      "source_sha256": "668d7c1023d5810c058028eeb4a886b7fc5e7c4341eaaea0aa5f748c7c23df64",
+      "export_sha256": "ecbc597a144196812ee134d883706a35729974f1a00f64a217da7678d221e192",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "fuel_pod.SHP",
+      "part_lods": 3,
+      "lod0_faces": 72,
+      "changed_uv_faces_all_lods": 2,
+      "max_uv_anisotropy_after": 8.274039482012503
+    },
+    {
+      "bytes": 14706,
+      "source_sha256": "04a2a1c9a7a08da9ec7e5558e03cf179cea9556f8f0602e11231be9116dcd305",
+      "export_sha256": "8d6f2078fe80089361fc8be6727c0466e7d79bb99680c9c79ed12da3fdb0ea58",
+      "geometry_normals_flags_parts_attachments_animation_and_lod_topology_byte_exact": true,
+      "model": "torpedo.SHP",
+      "part_lods": 3,
+      "lod0_faces": 78,
+      "changed_uv_faces_all_lods": 0,
+      "max_uv_anisotropy_after": 3.981003688635708
+    }
+  ],
+  "uv_repairs": [
+    {
+      "file": "01_screamer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        0
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 67.90457759010526,
+      "max_after": 1.0000000000000253,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "01_screamer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        1,
+        27
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 47.58566411374596,
+      "max_after": 1.002703501664592,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "01_screamer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        12
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 47.670821317899595,
+      "max_after": 1.0000000000000213,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "01_screamer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        15
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 44.093430379859235,
+      "max_after": 1.0000000000000087,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "01_screamer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        16,
+        28
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 65.35510413969118,
+      "max_after": 1.0000004280380648,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "01_screamer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        26
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 20.752124895649636,
+      "max_after": 1.0000000000000453,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "01_screamer.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        2
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 18.059176507335334,
+      "max_after": 1.0000000000000187,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "01_screamer.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        5
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 40.673752864392846,
+      "max_after": 1.0000000000000102,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "01_screamer_pod.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        5
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 22.168929479830364,
+      "max_after": 1.000000000000007,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "01_screamer_pod.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        13
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 15.76440058230384,
+      "max_after": 1.0000000000000067,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "01_screamer_pod.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        4
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 13.773116189152773,
+      "max_after": 1.0000000000000056,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "02_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        31
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 2198.7680791107828,
+      "max_after": 1.000000000000001,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "02_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        32
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 14350.837596946352,
+      "max_after": 1.0000000000000289,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "02_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        34
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 1808.6383451587565,
+      "max_after": 1.0000000000000013,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "02_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        35
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 2366.3056418829183,
+      "max_after": 1.000000000000003,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "02_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        66
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 2179.010611470419,
+      "max_after": 1.000000000000001,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "02_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        67
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 1933.6105750371246,
+      "max_after": 1.0000000000000056,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "02_raptor.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        10
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 73.14171968401563,
+      "max_after": 1.0000000000000626,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "02_raptor.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        13,
+        14
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 124.29358830773722,
+      "max_after": 1.0000171711564196,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "02_raptor.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        15
+      ],
+      "material": "blue paint",
+      "atlas_box": [
+        797,
+        109,
+        850,
+        184
+      ],
+      "max_before": 21.097687079448608,
+      "max_after": 1.000000000000034,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "02_raptor.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        17
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 13.663919462344264,
+      "max_after": 1.000000000000004,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "02_raptor.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        4
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 20.309093605055974,
+      "max_after": 1.0000000000000115,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "02_raptor_POD.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        2
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 16.859286529081885,
+      "max_after": 1.0000000000000018,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        20
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 22330.494550696098,
+      "max_after": 1.0000000000000013,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        22
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 36189.089785334385,
+      "max_after": 1.0000000000000016,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        23
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 5804.959572626641,
+      "max_after": 1.0000000000000038,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        25
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 10753.279348138998,
+      "max_after": 1.000000000000003,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        46,
+        47
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 47234.73454131851,
+      "max_after": 1.0000000000083393,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        54,
+        55
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 15471.479088865552,
+      "max_after": 1.0000000000000007,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        3,
+        24
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 50.26985046136972,
+      "max_after": 1.0001902143471968,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        6
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 33237.114619914086,
+      "max_after": 1.0000000000000002,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        7
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 20743.75089089163,
+      "max_after": 1.0000000000000009,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        8
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 17.346772078339917,
+      "max_after": 1.0000000000000193,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        17
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 8469.031570871552,
+      "max_after": 1.0000000000000018,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        20,
+        25
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 47.98583949373879,
+      "max_after": 1.0000429259612196,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        23
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 98.54004847770787,
+      "max_after": 1.00000000000001,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        48
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 48.711617077051336,
+      "max_after": 1.0000000000000109,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        49
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 34.10848184275402,
+      "max_after": 1.000000000000003,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        3
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 15.57214457282884,
+      "max_after": 1.0000000000000062,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        6
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 16.765787553182594,
+      "max_after": 1.0000000000000115,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        10
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 12.28170404647195,
+      "max_after": 1.0000000000000053,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        11
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 12.840282966482706,
+      "max_after": 1.0000000000000182,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        2,
+        3
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 19307.12541638542,
+      "max_after": 1.000000000000002,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        10,
+        11
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 602.8148440031553,
+      "max_after": 1.0000000000000024,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        25
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 381.6290383517444,
+      "max_after": 1.0000000000000042,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        26
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 274.7854837034649,
+      "max_after": 1.0000000000000022,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        27
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 526.0845225275361,
+      "max_after": 1.0000000000000022,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        89,
+        94
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 53478.20042534778,
+      "max_after": 1.0000015285701818,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        90,
+        91
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 66913.47554010163,
+      "max_after": 1.000007788501978,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        98
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 835.2508092333918,
+      "max_after": 1.000000000000001,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        101
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 465.259891827723,
+      "max_after": 1.0000000000000058,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        108,
+        109
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 99913.83779253962,
+      "max_after": 1.0000203719430196,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        110,
+        111
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 65161.20640097355,
+      "max_after": 1.0000000119827186,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        117
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 320.2417942706818,
+      "max_after": 1.0000000000000029,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        33
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 99746.50289450683,
+      "max_after": 1.0000000000000016,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        34
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 1604.8293860457616,
+      "max_after": 1.0000000000000029,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        37
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 648.6133501470989,
+      "max_after": 1.000000000000003,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        38
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 536.4012601868998,
+      "max_after": 1.0000000000000009,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        40
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 78074.49924885706,
+      "max_after": 1.0000000000000024,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        45
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 11338.050579759805,
+      "max_after": 1.0000000000000013,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        3
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 19.824942260574982,
+      "max_after": 1.00000000000001,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        12
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 100963.69133793698,
+      "max_after": 1.0000000000000067,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        16
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 1604.8293860457616,
+      "max_after": 1.0000000000000029,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        64
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 12.859203521356038,
+      "max_after": 1.0000000000000024,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        66
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 14.410599160188868,
+      "max_after": 1.0000000000000027,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        100,
+        101
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 23.1345502189483,
+      "max_after": 1.0000000000000049,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        13,
+        15
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 70.64652277294036,
+      "max_after": 1.0000010763699607,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        14,
+        40
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 56.40614287175817,
+      "max_after": 1.0000004607542607,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        16,
+        42,
+        43
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 154.28024928217062,
+      "max_after": 1.0000063358320357,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        17
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 97.43510238481437,
+      "max_after": 1.0000000000000688,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        34
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 12.333841210645726,
+      "max_after": 1.000000000000002,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        38
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 19.678552596938243,
+      "max_after": 1.00000000000002,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        39
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 31.1390408297962,
+      "max_after": 1.0000000000000653,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        44
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 19.23923787312188,
+      "max_after": 1.0000000000000109,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        45
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 19.676161781024526,
+      "max_after": 1.000000000000036,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        8
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 12.225714200114735,
+      "max_after": 1.0000000000000044,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        9
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 27.807885235025367,
+      "max_after": 1.0000000000000109,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        15
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 32.30475549350401,
+      "max_after": 1.0000000000000218,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        17
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 19.6785525969382,
+      "max_after": 1.0000000000000193,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        19
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 20.385987345289163,
+      "max_after": 1.0000000000000298,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        21
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 32.22631207191191,
+      "max_after": 1.000000000000071,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "08_imp.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        21,
+        22
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 371.14239027054606,
+      "max_after": 1.0000000000387115,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "08_imp.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        29,
+        30
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 383.9272354815072,
+      "max_after": 1.0000000000000204,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "08_imp.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        5
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 16.025134433410006,
+      "max_after": 1.0000000000000175,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "08_imp.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        26
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 20.387016644027312,
+      "max_after": 1.000000000000008,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "08_imp.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        9
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 14.423705848538932,
+      "max_after": 1.0000000000000044,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        37
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 208.5159362757256,
+      "max_after": 1.0000000000000013,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        43,
+        44
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 1413.578158463999,
+      "max_after": 1.0005443398063496,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        48,
+        70
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 1684.0239166528047,
+      "max_after": 1.0002464770625805,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        53,
+        54
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 81931.50264636918,
+      "max_after": 1.0001333907499135,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        55,
+        56
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 55889.997151928386,
+      "max_after": 1.0001115856440261,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        57
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 58362.3083129401,
+      "max_after": 1.0000000000000022,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        59
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 1487.2423602524234,
+      "max_after": 1.000000000000001,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        60,
+        61
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 13344.978983945106,
+      "max_after": 1.0004845049757172,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        62,
+        68
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 22410.645200555162,
+      "max_after": 1.0003610127476081,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        69
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 2389.25426823519,
+      "max_after": 1.000000000000002,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        4
+      ],
+      "material": "blue paint",
+      "atlas_box": [
+        797,
+        109,
+        850,
+        184
+      ],
+      "max_before": 15.604908445059223,
+      "max_after": 1.000000000000003,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        6
+      ],
+      "material": "blue paint",
+      "atlas_box": [
+        797,
+        109,
+        850,
+        184
+      ],
+      "max_before": 18.60243131649314,
+      "max_after": 1.0000000000000258,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        10
+      ],
+      "material": "blue paint",
+      "atlas_box": [
+        797,
+        109,
+        850,
+        184
+      ],
+      "max_before": 42.39509777514257,
+      "max_after": 1.0000000000000797,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        20
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 964.6328312727132,
+      "max_after": 1.0000000000000033,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        23
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 2865.972920278065,
+      "max_after": 1.000000000000004,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        24,
+        25
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 22545.61910080407,
+      "max_after": 1.0007456059067454,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        27
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 635.4659030877618,
+      "max_after": 1.0000000000000009,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        28
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 463.41302190258074,
+      "max_after": 1.0000000000000027,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        29
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 66642.00970368761,
+      "max_after": 1.0000000000000064,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        30
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 373.4320621835656,
+      "max_after": 1.0000000000000002,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        3
+      ],
+      "material": "blue paint",
+      "atlas_box": [
+        797,
+        109,
+        850,
+        184
+      ],
+      "max_before": 14.869070217729199,
+      "max_after": 1.0000000000000266,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        5
+      ],
+      "material": "blue paint",
+      "atlas_box": [
+        797,
+        109,
+        850,
+        184
+      ],
+      "max_before": 18.67820861945288,
+      "max_after": 1.0000000000000215,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        9
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 247.17436796817404,
+      "max_after": 1.000000000000003,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk_POD.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        4
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 14.388433114479753,
+      "max_after": 1.000000000000005,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "09_hawk_POD.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        3
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 13.676614965618702,
+      "max_after": 1.0000000000000022,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "21_screamer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        0
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 67.90457759010455,
+      "max_after": 1.0000000000000213,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "21_screamer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        1,
+        27
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 47.585662549331786,
+      "max_after": 1.0027034975879647,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "21_screamer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        10,
+        28
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 65.35510767390336,
+      "max_after": 1.0000004280878998,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "21_screamer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        11
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 47.67082131789958,
+      "max_after": 1.00000000000002,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "21_screamer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        25
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 44.0934308161709,
+      "max_after": 1.0000000000000109,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "21_screamer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        26
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 20.752124671615856,
+      "max_after": 1.000000000000022,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "21_screamer.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        1
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 18.059176736834225,
+      "max_after": 1.0000000000000429,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "21_screamer.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        3
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 40.67375164556227,
+      "max_after": 1.0000000000000575,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        18
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 2198.768521594301,
+      "max_after": 1.0000000000000067,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        20
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 14350.815851345362,
+      "max_after": 1.0000000000000118,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        22
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 2366.3056531627562,
+      "max_after": 1.0000000000000044,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        24
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 1808.638473089424,
+      "max_after": 1.0000000000000042,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        63
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 2179.0101597627636,
+      "max_after": 1.0000000000000013,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        64
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 1933.6101256306492,
+      "max_after": 1.0000000000000024,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        1,
+        4
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 124.29359852939041,
+      "max_after": 1.0000171711072843,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        5
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 13.663919926964128,
+      "max_after": 1.0000000000000222,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        8
+      ],
+      "material": "blue paint",
+      "atlas_box": [
+        797,
+        109,
+        850,
+        184
+      ],
+      "max_before": 21.097687776523216,
+      "max_after": 1.000000000000008,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        39
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 73.14172191411473,
+      "max_after": 1.0000000000000044,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        3
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 20.30909393724499,
+      "max_after": 1.0000000000000036,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        12
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 22330.494550696098,
+      "max_after": 1.0000000000000013,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        14
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 36189.0897853344,
+      "max_after": 1.0000000000000016,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        15
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 5804.959572631271,
+      "max_after": 1.000000000000004,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        17
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 10753.279348137412,
+      "max_after": 1.0000000000000036,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        42,
+        43
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 47234.73454132842,
+      "max_after": 1.000000000008339,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        50,
+        51
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 15471.479088864964,
+      "max_after": 1.0000000000000004,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        6,
+        21
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 50.269850461369764,
+      "max_after": 1.0001902143471966,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        9
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 33237.114619829386,
+      "max_after": 1.0000000000000004,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        11
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 8469.0315708697,
+      "max_after": 1.000000000000001,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        12
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 20743.75089089163,
+      "max_after": 1.0000000000000009,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        14,
+        22
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 47.985839493738716,
+      "max_after": 1.0000429259612196,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        20
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 98.54004847770764,
+      "max_after": 1.0000000000000129,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        29
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 17.34677207833995,
+      "max_after": 1.0000000000000182,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        45
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 48.71161707705113,
+      "max_after": 1.0000000000000104,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        46
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 34.10848184275401,
+      "max_after": 1.0000000000000027,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        5
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 12.281704046471951,
+      "max_after": 1.0000000000000062,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        6
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 12.840282966482684,
+      "max_after": 1.0000000000000193,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        8
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 16.7657875531826,
+      "max_after": 1.0000000000000102,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        13
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 15.57214457282884,
+      "max_after": 1.0000000000000062,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        46,
+        47
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 19307.125416385137,
+      "max_after": 1.0000000000000024,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        54,
+        55
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 602.8148440031553,
+      "max_after": 1.0000000000000024,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        79
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 465.25989182772526,
+      "max_after": 1.0000000000000058,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        85
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 381.6290383517436,
+      "max_after": 1.0000000000000042,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        97
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 274.7854837034649,
+      "max_after": 1.0000000000000022,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        105
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 320.2417942706851,
+      "max_after": 1.0000000000000027,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        108,
+        109
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 99913.83779253962,
+      "max_after": 1.0000203719430196,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        110,
+        111
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 66913.47554019914,
+      "max_after": 1.0000077885019778,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        112
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 835.2508092333924,
+      "max_after": 1.0000000000000013,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        113
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 526.0845225275276,
+      "max_after": 1.0000000000000024,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        114,
+        115
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 65161.20640115069,
+      "max_after": 1.0000000119827182,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        116,
+        117
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 53478.20042530909,
+      "max_after": 1.0000015285701818,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        35
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 648.6133501470933,
+      "max_after": 1.000000000000003,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        38
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 536.4012601869601,
+      "max_after": 1.000000000000001,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        42
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 78074.49924893369,
+      "max_after": 1.0000000000000029,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        43
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 99746.50289440402,
+      "max_after": 1.0000000000000013,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        44
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 1604.829386045762,
+      "max_after": 1.0000000000000027,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        45
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 11338.05057976051,
+      "max_after": 1.0000000000000018,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        2
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 19.824942260574904,
+      "max_after": 1.000000000000009,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        16
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 100963.69133789571,
+      "max_after": 1.0000000000000062,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        17
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 1604.829386045762,
+      "max_after": 1.0000000000000027,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        59
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 12.859203144769513,
+      "max_after": 1.0000000000000069,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        61
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 14.410598917043153,
+      "max_after": 1.0000000000000058,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        100,
+        101
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 23.134550196540182,
+      "max_after": 1.0000000000000133,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        13,
+        15
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 70.6465277856396,
+      "max_after": 1.0000010762744231,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        14,
+        41
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 56.40613950975199,
+      "max_after": 1.000000460850553,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        16,
+        34,
+        35
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 154.2802545641743,
+      "max_after": 1.000006335414367,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        17
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 97.4350995295136,
+      "max_after": 1.0000000000000202,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        29
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 12.333841610038979,
+      "max_after": 1.0000000000000044,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        32
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 19.6785522718886,
+      "max_after": 1.0000000000000049,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        33
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 31.139041618773437,
+      "max_after": 1.0000000000000084,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        46
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 19.2392374391411,
+      "max_after": 1.0000000000000033,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        47
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 19.676162688778163,
+      "max_after": 1.0000000000000278,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        6
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 12.225714235732067,
+      "max_after": 1.0000000000000038,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        7
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 27.807886180761066,
+      "max_after": 1.0000000000000107,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        13
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 19.6785522718886,
+      "max_after": 1.0000000000000049,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        15
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 20.385987419504843,
+      "max_after": 1.0000000000000104,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        18
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 32.30475527430713,
+      "max_after": 1.0000000000000429,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        20
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 32.22631109146983,
+      "max_after": 1.000000000000011,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "28_imp.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        2,
+        3
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 383.927234296084,
+      "max_after": 1.000000000000002,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "28_imp.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        70,
+        71
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 371.14237126909666,
+      "max_after": 1.0000000000387141,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "28_imp.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        9
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 20.387018417717744,
+      "max_after": 1.0000000000000013,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "28_imp.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        28
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 16.02513802148382,
+      "max_after": 1.000000000000004,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "28_imp.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        6
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 14.423704906876761,
+      "max_after": 1.0000000000000047,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        20,
+        21
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 1413.578118231712,
+      "max_after": 1.0005443385056214,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        26,
+        27
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 13344.97858696067,
+      "max_after": 1.0004845046837265,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        30,
+        31
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 55889.98024944304,
+      "max_after": 1.0001115869056731,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        34
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 208.51596776197238,
+      "max_after": 1.0000000000000016,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        36
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 2389.2545884291308,
+      "max_after": 1.0000000000000007,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        37
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 58362.310839377256,
+      "max_after": 1.000000000000001,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        39
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 1487.2424343018652,
+      "max_after": 1.0000000000000002,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        40,
+        41
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 22410.63676923451,
+      "max_after": 1.0003610143682828,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        44,
+        45
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 81931.45709799812,
+      "max_after": 1.0001333871161944,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        46,
+        47
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 1684.0233170001252,
+      "max_after": 1.0002464742905168,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        2
+      ],
+      "material": "blue paint",
+      "atlas_box": [
+        797,
+        109,
+        850,
+        184
+      ],
+      "max_before": 42.39509572421498,
+      "max_after": 1.0000000000000633,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        4
+      ],
+      "material": "blue paint",
+      "atlas_box": [
+        797,
+        109,
+        850,
+        184
+      ],
+      "max_before": 15.604907957701839,
+      "max_after": 1.0000000000000488,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        10
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 964.6328348145761,
+      "max_after": 1.0000000000000047,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        13,
+        14
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 22545.62044251511,
+      "max_after": 1.0007456053574026,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        15
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 463.41302881118014,
+      "max_after": 1.0000000000000089,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        16
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 66642.02560795803,
+      "max_after": 1.000000000000006,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        18
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 2865.9726262478043,
+      "max_after": 1.0000000000000027,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        19
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 373.4320260130912,
+      "max_after": 1.000000000000003,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        20
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 635.4659795007353,
+      "max_after": 1.0000000000000027,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 1,
+      "faces": [
+        38
+      ],
+      "material": "blue paint",
+      "atlas_box": [
+        797,
+        109,
+        850,
+        184
+      ],
+      "max_before": 18.602431044237946,
+      "max_after": 1.0000000000000102,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        1
+      ],
+      "material": "blue paint",
+      "atlas_box": [
+        797,
+        109,
+        850,
+        184
+      ],
+      "max_before": 18.678206305109413,
+      "max_after": 1.000000000000007,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        2
+      ],
+      "material": "blue paint",
+      "atlas_box": [
+        797,
+        109,
+        850,
+        184
+      ],
+      "max_before": 14.869068848111404,
+      "max_after": 1.0000000000000144,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        5
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 247.17437185766516,
+      "max_after": 1.0000000000000044,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk_POD.SHP",
+      "part": 1,
+      "lod": 0,
+      "faces": [
+        10
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 2179.4163386230275,
+      "max_after": 1.000000000000008,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk_POD.SHP",
+      "part": 1,
+      "lod": 0,
+      "faces": [
+        12
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 368.14061060500745,
+      "max_after": 1.0000000000000049,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk_POD.SHP",
+      "part": 1,
+      "lod": 0,
+      "faces": [
+        13
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 2179.3855628289202,
+      "max_after": 1.0000000000000115,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "29_hawk_POD.SHP",
+      "part": 1,
+      "lod": 0,
+      "faces": [
+        20
+      ],
+      "material": "red paint",
+      "atlas_box": [
+        1101,
+        112,
+        1162,
+        178
+      ],
+      "max_before": 368.135713058828,
+      "max_after": 1.0000000000000167,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "31_fuel_pod.SHP",
+      "part": 0,
+      "lod": 0,
+      "faces": [
+        2
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 15.775629262945658,
+      "max_after": 1.0000000000000029,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "fuel_pod.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        7
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 15.847293863367481,
+      "max_after": 1.0000000000000062,
+      "method": "isotropic planar island, original atlas quiet material"
+    },
+    {
+      "file": "fuel_pod.SHP",
+      "part": 0,
+      "lod": 2,
+      "faces": [
+        10
+      ],
+      "material": "steel",
+      "atlas_box": [
+        714,
+        109,
+        773,
+        187
+      ],
+      "max_before": 14.085789171362904,
+      "max_after": 1.0000000000000073,
+      "method": "isotropic planar island, original atlas quiet material"
+    }
+  ],
+  "models_count": 32,
+  "mesh_part_lods": 100,
+  "current_scene_sha256": "aaa86449bf7a02e559d03b139f4563e6701c26bd16af45f704040206a8722e1c",
+  "original_geometry_normals_flags_attachments_animation_preserved": true,
+  "material_name": "orord1_hull",
+  "max_uv_anisotropy_after": 11.682709409073015,
+  "source_geometry_equivalence": "All eight prior editable meshes match corresponding native loadout geometry; no saved UV data in prior blends. Torpedo_clean_source.glb has the same 41 unique vertices at matching size (max position delta 0.000013 native units).",
+  "unchanged_uv_bytes_preserved": true,
+  "scene_roundtrip_verified": true,
+  "changed_uv_faces_all_lods": 277
+}

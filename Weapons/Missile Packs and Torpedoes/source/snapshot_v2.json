@@ -1,0 +1,74 @@
+{
+  "asset": "Missiles, Torpedoes and Fuel Pod",
+  "asset_revision": "1.1",
+  "scene": {
+    "path": "source/ordnance_worn_audit_v2.blend",
+    "bytes": 53922167,
+    "sha256": "895df561a25194e086f91bc58851e277c0b42fbc07d684d30f6335f606e55ced"
+  },
+  "canonical_scene_sha256": "15fc84b6be04903fa7d0f596d845174b1f09b8e0adddc635a495417d2478aba4",
+  "packed_and_relative_resources_verified": true,
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "scene_reproduces_native_runtime_byte_exact": true,
+  "resources": [
+    {
+      "path": "source/resources/506b81f919df_ordnance_nozzle_basecolor_512_v2.png",
+      "bytes": 247406,
+      "sha256": "506b81f919df26fc6295e2de03a0f832c17f4e8079956ced0f94dc69cb25c3d7"
+    },
+    {
+      "path": "source/resources/f3d48816a6ee_ordnance_nozzle_normal_512_v2.png",
+      "bytes": 64717,
+      "sha256": "f3d48816a6ee8bc085bbd558b61c915c753a1b180fbeb340291b930db5b95dbc"
+    },
+    {
+      "path": "source/resources/8fa5617a44dd_ordnance_nozzle_orm_512_v2.png",
+      "bytes": 158741,
+      "sha256": "8fa5617a44dd4b7f73a01092d9eec6a3b5b1ea764c63bd66f24a43d40b5af493"
+    },
+    {
+      "path": "source/resources/0329386a6e7b_ordnance_basecolor_2k_v1.png",
+      "bytes": 21445562,
+      "sha256": "0329386a6e7b3232716d0b1cef8bd57ef0d61dd22fa15933d5bd167a8eaf736a"
+    },
+    {
+      "path": "source/resources/37f25a7ede3a_ordnance_metallic_2k_v1.png",
+      "bytes": 6018761,
+      "sha256": "37f25a7ede3ac62d4bded0e299c1b83ca163f6ab2143e963e549c5e2f403cfb7"
+    },
+    {
+      "path": "source/resources/9612edbabd83_ordnance_normal_2k_v1.png",
+      "bytes": 985579,
+      "sha256": "9612edbabd83032546cef4ab788f46a6a574658bb995bcad90e6653a97e14fa1"
+    },
+    {
+      "path": "source/resources/c7dbefd75cb5_ordnance_orm_2k_v1.png",
+      "bytes": 12802468,
+      "sha256": "c7dbefd75cb52c737897423b9e98dbf31c301180ee2865ad6ea489a9108469d9"
+    },
+    {
+      "path": "source/resources/9c1d37ba68da_ordnance_roughness_2k_v1.png",
+      "bytes": 8167707,
+      "sha256": "9c1d37ba68da3fd5bc27476f570e33b75269c90003dc674fef0a1b609a6e772e"
+    },
+    {
+      "path": "source/resources/b3ea64084660_ordnance_screamer_wrap_basecolor_2k_v2.png",
+      "bytes": 2985429,
+      "sha256": "b3ea640846600e4d1f0a96087858619e75d90ae9c3eb2c18b2bd6db66495d07e"
+    },
+    {
+      "path": "source/resources/e27cde7ca7a3_ordnance_screamer_wrap_normal_2k_v2.png",
+      "bytes": 17690,
+      "sha256": "e27cde7ca7a3b6a4235628f7ccf3f9071c0a191772531624e086fa037afd1241"
+    },
+    {
+      "path": "source/resources/6d5fcba1134f_ordnance_screamer_wrap_orm_2k_v2.png",
+      "bytes": 656382,
+      "sha256": "6d5fcba1134fdadc061b78fc2f09cf6b9b0ddeb56426c0e643e5eaee6ebcef9c"
+    }
+  ],
+  "models": 32,
+  "part_lod_records": 100,
+  "emissives": "deferred",
+  "release_status": "hold"
+}

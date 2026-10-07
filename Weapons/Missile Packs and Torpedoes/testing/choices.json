@@ -1,0 +1,194 @@
+[
+  {
+    "index": 1,
+    "key": "item1",
+    "label": "01 screamer - flight",
+    "model": "01_screamer.SHP"
+  },
+  {
+    "index": 2,
+    "key": "item2",
+    "label": "01 screamer pod - flight",
+    "model": "01_screamer_pod.SHP"
+  },
+  {
+    "index": 3,
+    "key": "item3",
+    "label": "02 raptor - flight",
+    "model": "02_raptor.SHP"
+  },
+  {
+    "index": 4,
+    "key": "item4",
+    "label": "02 raptor POD - flight",
+    "model": "02_raptor_POD.SHP"
+  },
+  {
+    "index": 5,
+    "key": "item5",
+    "label": "03 havoc - flight",
+    "model": "03_havoc.SHP"
+  },
+  {
+    "index": 6,
+    "key": "item6",
+    "label": "04 jackhammer - flight",
+    "model": "04_jackhammer.SHP"
+  },
+  {
+    "index": 7,
+    "key": "item7",
+    "label": "05 bandit - flight",
+    "model": "05_bandit.SHP"
+  },
+  {
+    "index": 8,
+    "key": "item8",
+    "label": "06 vagabond - flight",
+    "model": "06_vagabond.SHP"
+  },
+  {
+    "index": 9,
+    "key": "item9",
+    "label": "07 Solomon POD - flight",
+    "model": "07_Solomon_POD.SHP"
+  },
+  {
+    "index": 10,
+    "key": "item10",
+    "label": "07 solomon - flight",
+    "model": "07_solomon.SHP"
+  },
+  {
+    "index": 11,
+    "key": "item11",
+    "label": "08 imp - flight",
+    "model": "08_imp.SHP"
+  },
+  {
+    "index": 12,
+    "key": "item12",
+    "label": "09 hawk - flight",
+    "model": "09_hawk.SHP"
+  },
+  {
+    "index": 13,
+    "key": "item13",
+    "label": "09 hawk POD - flight",
+    "model": "09_hawk_POD.SHP"
+  },
+  {
+    "index": 14,
+    "key": "item14",
+    "label": "10 torpedo - flight",
+    "model": "10_torpedo.SHP"
+  },
+  {
+    "index": 15,
+    "key": "item15",
+    "label": "21 screamer - loadout",
+    "model": "21_screamer.SHP"
+  },
+  {
+    "index": 16,
+    "key": "item16",
+    "label": "21 screamer pod - loadout",
+    "model": "21_screamer_pod.SHP"
+  },
+  {
+    "index": 17,
+    "key": "item17",
+    "label": "22 raptor - loadout",
+    "model": "22_raptor.SHP"
+  },
+  {
+    "index": 18,
+    "key": "item18",
+    "label": "22 raptor POD - loadout",
+    "model": "22_raptor_POD.SHP"
+  },
+  {
+    "index": 19,
+    "key": "item19",
+    "label": "23 havoc - loadout",
+    "model": "23_havoc.SHP"
+  },
+  {
+    "index": 20,
+    "key": "item20",
+    "label": "24 jackhammer - loadout",
+    "model": "24_jackhammer.SHP"
+  },
+  {
+    "index": 21,
+    "key": "item21",
+    "label": "25 bandit - loadout",
+    "model": "25_bandit.SHP"
+  },
+  {
+    "index": 22,
+    "key": "item22",
+    "label": "26 vagabond - loadout",
+    "model": "26_vagabond.SHP"
+  },
+  {
+    "index": 23,
+    "key": "item23",
+    "label": "27 Solomon POD - loadout",
+    "model": "27_Solomon_POD.SHP"
+  },
+  {
+    "index": 24,
+    "key": "item24",
+    "label": "27 solomon - loadout",
+    "model": "27_solomon.SHP"
+  },
+  {
+    "index": 25,
+    "key": "item25",
+    "label": "28 imp - loadout",
+    "model": "28_imp.SHP"
+  },
+  {
+    "index": 26,
+    "key": "item26",
+    "label": "29 hawk - loadout",
+    "model": "29_hawk.SHP"
+  },
+  {
+    "index": 27,
+    "key": "item27",
+    "label": "29 hawk POD - loadout",
+    "model": "29_hawk_POD.SHP"
+  },
+  {
+    "index": 28,
+    "key": "item28",
+    "label": "30 torpedo - loadout",
+    "model": "30_torpedo.SHP"
+  },
+  {
+    "index": 29,
+    "key": "item29",
+    "label": "31 fuel pod - loadout",
+    "model": "31_fuel_pod.SHP"
+  },
+  {
+    "index": 30,
+    "key": "item30",
+    "label": "Coalition capital-ship torpedo",
+    "model": "Rus_Torp.SHP"
+  },
+  {
+    "index": 31,
+    "key": "item31",
+    "label": "Fuel pod - mounted",
+    "model": "fuel_pod.SHP"
+  },
+  {
+    "index": 32,
+    "key": "item32",
+    "label": "Alliance capital-ship torpedo",
+    "model": "torpedo.SHP"
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "file": "04_jackhammer.SHP",
+    "lod": 1,
+    "repair": "retain established nondegenerate mapping on coarse spanning triangles",
+    "faces": [
+      4,
+      12,
+      13
+    ]
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "lod": 2,
+    "repair": "retain established nondegenerate mapping on coarse spanning triangles",
+    "faces": [
+      2,
+      3,
+      5,
+      11
+    ]
+  },
+  {
+    "file": "05_bandit.SHP",
+    "lod": 1,
+    "repair": "retain established nondegenerate mapping on coarse spanning triangles",
+    "faces": [
+      32,
+      36,
+      37,
+      43
+    ]
+  },
+  {
+    "file": "08_imp.SHP",
+    "lod": 2,
+    "repair": "retain established nondegenerate mapping on coarse spanning triangles",
+    "faces": [
+      12
+    ]
+  },
+  {
+    "file": "21_screamer_pod.SHP",
+    "part": 0,
+    "lod": 0,
+    "source": "01_screamer_pod.SHP",
+    "matched_faces": 46,
+    "total_faces": 46,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "22_raptor.SHP",
+    "part": 0,
+    "lod": 0,
+    "source": "02_raptor.SHP",
+    "matched_faces": 102,
+    "total_faces": 102,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "22_raptor.SHP",
+    "part": 0,
+    "lod": 1,
+    "source": "02_raptor.SHP",
+    "matched_faces": 50,
+    "total_faces": 50,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "22_raptor.SHP",
+    "part": 0,
+    "lod": 2,
+    "source": "02_raptor.SHP",
+    "matched_faces": 24,
+    "total_faces": 24,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "22_raptor_POD.SHP",
+    "part": 0,
+    "lod": 0,
+    "source": "02_raptor_POD.SHP",
+    "matched_faces": 0,
+    "total_faces": 3,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "22_raptor_POD.SHP",
+    "part": 1,
+    "lod": 0,
+    "source": "02_raptor_POD.SHP",
+    "matched_faces": 52,
+    "total_faces": 52,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "22_raptor_POD.SHP",
+    "part": 2,
+    "lod": 0,
+    "source": "02_raptor_POD.SHP",
+    "matched_faces": 0,
+    "total_faces": 3,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "24_jackhammer.SHP",
+    "part": 0,
+    "lod": 0,
+    "source": "04_jackhammer.SHP",
+    "matched_faces": 118,
+    "total_faces": 118,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "24_jackhammer.SHP",
+    "part": 0,
+    "lod": 1,
+    "source": "04_jackhammer.SHP",
+    "matched_faces": 58,
+    "total_faces": 58,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "24_jackhammer.SHP",
+    "part": 0,
+    "lod": 2,
+    "source": "04_jackhammer.SHP",
+    "matched_faces": 26,
+    "total_faces": 26,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "25_bandit.SHP",
+    "part": 0,
+    "lod": 0,
+    "source": "05_bandit.SHP",
+    "matched_faces": 118,
+    "total_faces": 118,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "25_bandit.SHP",
+    "part": 0,
+    "lod": 1,
+    "source": "05_bandit.SHP",
+    "matched_faces": 46,
+    "total_faces": 46,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "25_bandit.SHP",
+    "part": 0,
+    "lod": 2,
+    "source": "05_bandit.SHP",
+    "matched_faces": 18,
+    "total_faces": 18,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "28_imp.SHP",
+    "part": 0,
+    "lod": 0,
+    "source": "08_imp.SHP",
+    "matched_faces": 118,
+    "total_faces": 118,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "28_imp.SHP",
+    "part": 0,
+    "lod": 1,
+    "source": "08_imp.SHP",
+    "matched_faces": 58,
+    "total_faces": 58,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "28_imp.SHP",
+    "part": 0,
+    "lod": 2,
+    "source": "08_imp.SHP",
+    "matched_faces": 28,
+    "total_faces": 28,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "31_fuel_pod.SHP",
+    "part": 0,
+    "lod": 0,
+    "source": "fuel_pod.SHP",
+    "matched_faces": 72,
+    "total_faces": 74,
+    "suppressed": [
+      0,
+      1
+    ],
+    "restored_top_faces": [
+      2,
+      73
+    ]
+  },
+  {
+    "file": "31_fuel_pod.SHP",
+    "part": 0,
+    "lod": 1,
+    "source": "fuel_pod.SHP",
+    "matched_faces": 0,
+    "total_faces": 50,
+    "suppressed": [],
+    "restored_top_faces": []
+  },
+  {
+    "file": "31_fuel_pod.SHP",
+    "lod": 1,
+    "repair": "display-only simplified top cap restored with shared steel projection",
+    "restored_top_faces": [
+      48,
+      49
+    ]
+  }
+]

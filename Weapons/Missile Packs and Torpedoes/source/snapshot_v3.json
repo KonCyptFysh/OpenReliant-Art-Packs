@@ -1,0 +1,108 @@
+{
+  "scene": "source/ordnance_worn_audit_v3.blend",
+  "active_uv": "Ordnance_Delivery_UV_v3",
+  "resources": [
+    {
+      "image": "Aligned nozzle basecolor",
+      "path": "source/resources/506b81f919df_ordnance_nozzle_basecolor_512_v2.png",
+      "sha256": "506b81f919df26fc6295e2de03a0f832c17f4e8079956ced0f94dc69cb25c3d7",
+      "bytes": 247406
+    },
+    {
+      "image": "Aligned nozzle normal",
+      "path": "source/resources/f3d48816a6ee_ordnance_nozzle_normal_512_v2.png",
+      "sha256": "f3d48816a6ee8bc085bbd558b61c915c753a1b180fbeb340291b930db5b95dbc",
+      "bytes": 64717
+    },
+    {
+      "image": "Aligned nozzle orm",
+      "path": "source/resources/8fa5617a44dd_ordnance_nozzle_orm_512_v2.png",
+      "sha256": "8fa5617a44dd4b7f73a01092d9eec6a3b5b1ea764c63bd66f24a43d40b5af493",
+      "bytes": 158741
+    },
+    {
+      "image": "Ordnance rpod basecolor v3",
+      "path": "source/resources/74288b547229_ordnance_rpod_basecolor_4k_v3.png",
+      "sha256": "74288b54722929a9c0bc3bdd05a13d5ac5ffdf43887d3bcc08a46b1fe0551978",
+      "bytes": 12724440
+    },
+    {
+      "image": "Ordnance rpod normal v3",
+      "path": "source/resources/c1b86519802a_ordnance_rpod_normal_4k_v3.png",
+      "sha256": "c1b86519802a64ffd5eeb164131037a5b73456fe58dd0a312de36f96a9af60d2",
+      "bytes": 1347271
+    },
+    {
+      "image": "Ordnance rpod orm v3",
+      "path": "source/resources/1263dfe385d8_ordnance_rpod_orm_4k_v3.png",
+      "sha256": "1263dfe385d863704ccdf1dc8ec8193bf8e59ccf3d8a409ca33cd841a17c0d65",
+      "bytes": 7454008
+    },
+    {
+      "image": "Ordnance spod basecolor v3",
+      "path": "source/resources/59f715522a0d_ordnance_spod_basecolor_4k_v3.png",
+      "sha256": "59f715522a0dcda4b54803ee17e38f44ebc48bb8429e82b5dc55d6424f46e297",
+      "bytes": 13028780
+    },
+    {
+      "image": "Ordnance spod normal v3",
+      "path": "source/resources/54e19f1ab706_ordnance_spod_normal_4k_v3.png",
+      "sha256": "54e19f1ab7061122191ed355e4cc39fb868590c8d6a0e5c006c97964316a6145",
+      "bytes": 2335471
+    },
+    {
+      "image": "Ordnance spod orm v3",
+      "path": "source/resources/02f07efb57e7_ordnance_spod_orm_4k_v3.png",
+      "sha256": "02f07efb57e75438ee3e1b69f67ff55bd17e0d71b73bde962e2cdcf3e2355530",
+      "bytes": 9097360
+    },
+    {
+      "image": "ordnance_basecolor_2k_v1.png",
+      "path": "source/resources/0329386a6e7b_ordnance_basecolor_2k_v1.png",
+      "sha256": "0329386a6e7b3232716d0b1cef8bd57ef0d61dd22fa15933d5bd167a8eaf736a",
+      "bytes": 21445562
+    },
+    {
+      "image": "ordnance_metallic_2k_v1.png",
+      "path": "source/resources/37f25a7ede3a_ordnance_metallic_2k_v1.png",
+      "sha256": "37f25a7ede3ac62d4bded0e299c1b83ca163f6ab2143e963e549c5e2f403cfb7",
+      "bytes": 6018761
+    },
+    {
+      "image": "ordnance_normal_2k_v1.png",
+      "path": "source/resources/9612edbabd83_ordnance_normal_2k_v1.png",
+      "sha256": "9612edbabd83032546cef4ab788f46a6a574658bb995bcad90e6653a97e14fa1",
+      "bytes": 985579
+    },
+    {
+      "image": "ordnance_orm_2k_v1.png",
+      "path": "source/resources/c7dbefd75cb5_ordnance_orm_2k_v1.png",
+      "sha256": "c7dbefd75cb52c737897423b9e98dbf31c301180ee2865ad6ea489a9108469d9",
+      "bytes": 12802468
+    },
+    {
+      "image": "ordnance_roughness_2k_v1.png",
+      "path": "source/resources/9c1d37ba68da_ordnance_roughness_2k_v1.png",
+      "sha256": "9c1d37ba68da3fd5bc27476f570e33b75269c90003dc674fef0a1b609a6e772e",
+      "bytes": 8167707
+    },
+    {
+      "image": "Screamer wrap basecolor",
+      "path": "source/resources/b3ea64084660_ordnance_screamer_wrap_basecolor_2k_v2.png",
+      "sha256": "b3ea640846600e4d1f0a96087858619e75d90ae9c3eb2c18b2bd6db66495d07e",
+      "bytes": 2985429
+    },
+    {
+      "image": "Screamer wrap normal",
+      "path": "source/resources/e27cde7ca7a3_ordnance_screamer_wrap_normal_2k_v2.png",
+      "sha256": "e27cde7ca7a3b6a4235628f7ccf3f9071c0a191772531624e086fa037afd1241",
+      "bytes": 17690
+    },
+    {
+      "image": "Screamer wrap orm",
+      "path": "source/resources/6d5fcba1134f_ordnance_screamer_wrap_orm_2k_v2.png",
+      "sha256": "6d5fcba1134fdadc061b78fc2f09cf6b9b0ddeb56426c0e643e5eaee6ebcef9c",
+      "bytes": 656382
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "maps": {
+    "basecolor": {
+      "file": "ordnance_basecolor_2k_v1.png",
+      "sha256": "0329386a6e7b3232716d0b1cef8bd57ef0d61dd22fa15933d5bd167a8eaf736a"
+    },
+    "normal": {
+      "file": "ordnance_normal_2k_v1.png",
+      "sha256": "9612edbabd83032546cef4ab788f46a6a574658bb995bcad90e6653a97e14fa1"
+    },
+    "roughness": {
+      "file": "ordnance_roughness_2k_v1.png",
+      "sha256": "9c1d37ba68da3fd5bc27476f570e33b75269c90003dc674fef0a1b609a6e772e"
+    },
+    "metallic": {
+      "file": "ordnance_metallic_2k_v1.png",
+      "sha256": "37f25a7ede3ac62d4bded0e299c1b83ca163f6ab2143e963e549c5e2f403cfb7"
+    },
+    "orm": {
+      "file": "ordnance_orm_2k_v1.png",
+      "sha256": "c7dbefd75cb52c737897423b9e98dbf31c301180ee2865ad6ea489a9108469d9"
+    },
+    "height": {
+      "file": "ordnance_height_2k_v1.png",
+      "sha256": "c77b61cabbc9bfd914028ff8032e30ce594c2375c8de9274310715ab67772c9e"
+    },
+    "structure": {
+      "file": "ordnance_structure_2k_v1.png",
+      "sha256": "70bfe723e5d1c28fd004d3c42dfda3429fec164db8c08f24eec6d97d989157d9"
+    },
+    "fins": {
+      "file": "ordnance_fins_2k_v1.png",
+      "sha256": "1407a9ef708d964d73600cbcdee61a1f84dff1995b4a7411af58c1f8c86005e7"
+    },
+    "panels": {
+      "file": "ordnance_panels_2k_v1.png",
+      "sha256": "d3669a6751a5a26ded9321162800340e14cf2555f1092b8c581092240f844897"
+    },
+    "paint": {
+      "file": "ordnance_paint_2k_v1.png",
+      "sha256": "ddb209e4866d9adff8f711b769e5eb1ba84b54d9ec37c3334a705381709c14ea"
+    },
+    "flat_graphics": {
+      "file": "ordnance_flat_graphics_2k_v1.png",
+      "sha256": "dc86db61943b0dd8d8a35117ae724a8812b3f181b428aa99f0ae7bce862bfa7e"
+    }
+  },
+  "dimensions": [
+    2048,
+    2048
+  ],
+  "generated_colour_dimensions": [
+    1254,
+    1254
+  ],
+  "structural_height_only": true,
+  "flat_print_height_max": 0.0,
+  "normal_y": "OpenGL tangent +Y, same as engine",
+  "ao": "white, no baked cavity AO",
+  "emissives": "deferred",
+  "paint_roughness": 0.7314013584004715,
+  "steel_roughness": 0.53547383017838
+}

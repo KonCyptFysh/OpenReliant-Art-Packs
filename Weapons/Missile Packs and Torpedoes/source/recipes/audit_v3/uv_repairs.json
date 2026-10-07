@@ -1,0 +1,476 @@
+[
+  {
+    "file": "01_screamer_pod.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "remove misplaced crown artwork behind mouth collar",
+    "faces": [
+      37,
+      38
+    ]
+  },
+  {
+    "file": "01_screamer_pod.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "remove misplaced crown artwork behind mouth collar",
+    "faces": [
+      17
+    ]
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "unified inboard fin side with no red corner or stretched seam",
+    "faces": [
+      30,
+      31
+    ]
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "unified inboard fin side with no red corner or stretched seam",
+    "faces": [
+      32,
+      33
+    ]
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "unified inboard fin side with no red corner or stretched seam",
+    "faces": [
+      34,
+      37
+    ]
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "unified inboard fin side with no red corner or stretched seam",
+    "faces": [
+      35,
+      36
+    ]
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "unified inboard fin side with no red corner or stretched seam",
+    "faces": [
+      65,
+      66
+    ]
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "unified inboard fin side with no red corner or stretched seam",
+    "faces": [
+      67,
+      68
+    ]
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "undistorted inboard fin leading and root closure faces",
+    "faces": [
+      93,
+      94,
+      95,
+      99,
+      100,
+      101
+    ]
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "undistorted inboard fin leading and root closure faces",
+    "faces": [
+      41,
+      42,
+      43
+    ]
+  },
+  {
+    "file": "02_raptor_POD.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "align forward housing indents on a common longitudinal scale",
+    "faces": [
+      18,
+      19,
+      20,
+      21,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      40,
+      41
+    ]
+  },
+  {
+    "file": "02_raptor_POD.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "align forward housing indents on a common longitudinal scale",
+    "faces": [
+      12,
+      13,
+      15,
+      21
+    ]
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "continuous cylinder bands on a single axial scale",
+    "faces": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "bronze nose cap matched to the bronze fairing",
+    "faces": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      42,
+      43
+    ]
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "continuous aft collar, replacing mismatched steel sections",
+    "faces": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "continuous cylinder bands on a single axial scale",
+    "faces": [
+      4,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "bronze nose cap matched to the bronze fairing",
+    "faces": [
+      5,
+      6,
+      7,
+      16,
+      17
+    ]
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "bronze nose cap matched to the bronze fairing",
+    "faces": [
+      2,
+      3,
+      5,
+      9,
+      11
+    ]
+  },
+  {
+    "file": "05_bandit.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reconstructed continuous red nose fairing and silver circumferential bands",
+    "faces": [
+      22,
+      23,
+      24,
+      25,
+      29,
+      30,
+      31,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      114,
+      115,
+      116,
+      117
+    ]
+  },
+  {
+    "file": "05_bandit.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "coherent red terminal nose cap",
+    "faces": [
+      26,
+      27,
+      28,
+      97,
+      98,
+      99,
+      106,
+      113
+    ]
+  },
+  {
+    "file": "05_bandit.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "consistent aft connector ring instead of unrelated steel patches",
+    "faces": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "file": "05_bandit.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "aligned central body panels",
+    "faces": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      32,
+      33,
+      72,
+      73
+    ]
+  },
+  {
+    "file": "05_bandit.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "reconstructed continuous red nose fairing and silver circumferential bands",
+    "faces": [
+      33,
+      37,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "file": "05_bandit.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "coherent red terminal nose cap",
+    "faces": [
+      31,
+      32,
+      34,
+      35,
+      36,
+      38,
+      39
+    ]
+  },
+  {
+    "file": "05_bandit.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "coherent red terminal nose cap",
+    "faces": [
+      11,
+      12,
+      13,
+      15,
+      16
+    ]
+  },
+  {
+    "file": "08_imp.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "aligned blue barrel seams",
+    "faces": [
+      0,
+      1,
+      9,
+      10,
+      31,
+      32,
+      46,
+      47,
+      48,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ]
+  },
+  {
+    "file": "08_imp.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "aligned blue shoulder seams",
+    "faces": [
+      2,
+      3,
+      7,
+      8,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      43,
+      44,
+      45,
+      61,
+      62
+    ]
+  },
+  {
+    "file": "08_imp.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "aligned blue shoulder seams",
+    "faces": [
+      12,
+      13
+    ]
+  },
+  {
+    "file": "fuel_pod.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "restore existing hidden top panel and planar worn-metal UVs",
+    "faces": [
+      70,
+      71
+    ]
+  },
+  {
+    "file": "fuel_pod.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "restore existing hidden top panel and planar worn-metal UVs",
+    "faces": [
+      34,
+      35
+    ]
+  },
+  {
+    "file": "fuel_pod.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "restore existing hidden top panel and planar worn-metal UVs",
+    "faces": [
+      16,
+      17
+    ]
+  }
+]

@@ -1,0 +1,611 @@
+[
+  {
+    "file": "01_screamer.SHP",
+    "sha256": "d715effd834753dfb99e9e98d1c8e703a6464fff97d2cefebeed43ef1750456a",
+    "source_sha256": "f7cce54140fda5dcf63dd9f49aa54f90db66463b130dff826f05f95a34fd7a38",
+    "part_lods": 3,
+    "triangles": 175,
+    "changed_uv_records": 107,
+    "split_group_records": 121,
+    "preserved_winding_swaps": 31,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz",
+      "orord2_scrm"
+    ],
+    "max_uv_anisotropy": 11.521898283829824,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "01_screamer_pod.SHP",
+    "sha256": "e27368db64a6b3ad70f61fa136617df162d07ff789bd457470094e0a3bbff7f4",
+    "source_sha256": "a826279293ba6b56c88be969ab779369393f743cc76299cd8756588bec5324c8",
+    "part_lods": 3,
+    "triangles": 78,
+    "changed_uv_records": 78,
+    "split_group_records": 49,
+    "preserved_winding_swaps": 7,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord3_spod"
+    ],
+    "max_uv_anisotropy": 1.7364561754098362,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "02_raptor.SHP",
+    "sha256": "4079a1c1e6efef8d5244420792a0511b9cb23496bb004f007d10087985c2a99b",
+    "source_sha256": "3ae3738dbe90a4a16b41a4913b105976cc23e6eb9442275488266b20a3572fa7",
+    "part_lods": 3,
+    "triangles": 174,
+    "changed_uv_records": 93,
+    "split_group_records": 135,
+    "preserved_winding_swaps": 38,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 8.696911098237958,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "02_raptor_POD.SHP",
+    "sha256": "0e2fee17891d28c56a03c291e28127050cadbda56a4ba67fdde5b9b8212cf24f",
+    "source_sha256": "e7ef42bb7f70df838ab0bba64f3ea2ad93f5c2d285ca71e47fd7cdaaffed7f0f",
+    "part_lods": 3,
+    "triangles": 90,
+    "changed_uv_records": 90,
+    "split_group_records": 67,
+    "preserved_winding_swaps": 6,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord3_rpod"
+    ],
+    "max_uv_anisotropy": 1.6245018132645719,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "03_havoc.SHP",
+    "sha256": "778db165b728d70fb8e8bd34042cdeead188e319353bd51f926785d1bd96db01",
+    "source_sha256": "4430498f548e1c4663d13f4a6073f46dc6a4b16f0c3e709bda3d2b92c5a4f86c",
+    "part_lods": 3,
+    "triangles": 182,
+    "changed_uv_records": 76,
+    "split_group_records": 133,
+    "preserved_winding_swaps": 42,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 8.425274028925278,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "sha256": "108a6bf0d20366cda65d5e0b315a0a512cd939c8d3adb2f46644dbd55e2772a0",
+    "source_sha256": "2b962b2957fd6625019e6d149a32f77a5f959f40cd114d907e970d127e7efae9",
+    "part_lods": 3,
+    "triangles": 202,
+    "changed_uv_records": 127,
+    "split_group_records": 149,
+    "preserved_winding_swaps": 50,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 9.639116363390414,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "05_bandit.SHP",
+    "sha256": "edee0b9f93d805325957dd3838e639fd3cc8f125bc3617298d06b7da132ad3cc",
+    "source_sha256": "6c985b5c80abab4fdbe2747ad7e8c28eec74772fbbf332f622f16dad6e70f5d9",
+    "part_lods": 3,
+    "triangles": 182,
+    "changed_uv_records": 124,
+    "split_group_records": 133,
+    "preserved_winding_swaps": 42,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 8.651925640342473,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "06_vagabond.SHP",
+    "sha256": "59ec4800dcab3b37718c1cab55a5c882d2557ed9aee0e5479a5e259ddfdd1cc3",
+    "source_sha256": "9bd2d44b3619cad96ce7b9187ede2e4b0bd84d4425165a6f0fea52fca83fee7f",
+    "part_lods": 3,
+    "triangles": 134,
+    "changed_uv_records": 65,
+    "split_group_records": 105,
+    "preserved_winding_swaps": 24,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 2.571069285118034,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "07_Solomon_POD.SHP",
+    "sha256": "4192dca367ce927f0d060b85ffc3bc579040cec4da6abfa54b118eb905b5cec2",
+    "source_sha256": "d9ec9c590553bc762d12e06a73c1f676af86d199c29f7375876b2338f71cd693",
+    "part_lods": 3,
+    "triangles": 104,
+    "changed_uv_records": 0,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": false,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull"
+    ],
+    "max_uv_anisotropy": 6.735024775119026,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "07_solomon.SHP",
+    "sha256": "5ab26cc0c13a3181e92d9b492272a91b29b1a5f6465dd00c5039fb8b2fa66119",
+    "source_sha256": "c2c28d861ad0bdb46216774091ba36b449bda86d431cf0766887c3e0d25563a5",
+    "part_lods": 3,
+    "triangles": 176,
+    "changed_uv_records": 108,
+    "split_group_records": 129,
+    "preserved_winding_swaps": 40,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 11.345912477411837,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "08_imp.SHP",
+    "sha256": "208af9f351873c2912eb263eeff8e885474f8134bb8d49a6783e285af2b6f4e1",
+    "source_sha256": "56aaa0e709397433d0a451482614e9e0d6547f2bfb0b2dde8c6198f4ead96c88",
+    "part_lods": 3,
+    "triangles": 204,
+    "changed_uv_records": 106,
+    "split_group_records": 147,
+    "preserved_winding_swaps": 62,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 10.561718352476298,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "09_hawk.SHP",
+    "sha256": "62821c04603e019ba9374dc976bcfdfd2834f4026146f7db2c16514763c18f21",
+    "source_sha256": "4b65e4c2971b25cb0ddd9ebbba5b619d469b4be8565df5d5c24ffa76e0b3d697",
+    "part_lods": 3,
+    "triangles": 181,
+    "changed_uv_records": 113,
+    "split_group_records": 140,
+    "preserved_winding_swaps": 40,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 11.586087149556384,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "09_hawk_POD.SHP",
+    "sha256": "d1091aa84895ab18b9274f2c71cb3e32097997055489e20405aa9592eda22a5d",
+    "source_sha256": "f6a42641035fd2b6c9c97e00fd4cdb29081d7eceea30cc28e7976414939003bd",
+    "part_lods": 3,
+    "triangles": 62,
+    "changed_uv_records": 2,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": false,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull"
+    ],
+    "max_uv_anisotropy": 8.457019095059382,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "10_torpedo.SHP",
+    "sha256": "9ef936ebb9cc1dcc869786f9d23bce2bdaebd666e7d222a5e8101ccd86dfd530",
+    "source_sha256": "2826ab0dc4e7df80e09d95a1947f68d22077515ec3c1bbc932d8a49b6b1e5c01",
+    "part_lods": 3,
+    "triangles": 134,
+    "changed_uv_records": 0,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": false,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull"
+    ],
+    "max_uv_anisotropy": 3.981003688635707,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "21_screamer.SHP",
+    "sha256": "9153730b7efc412ce1ff6397ba2fbfd97c7c5b270cd6ef4cb334f60f1ba35f2a",
+    "source_sha256": "214204a340dc40c2122115ab2756732f6d69e4aa2771eb427262249be5e55d93",
+    "part_lods": 3,
+    "triangles": 176,
+    "changed_uv_records": 96,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz",
+      "orord2_scrm"
+    ],
+    "max_uv_anisotropy": 11.521898715998525,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "21_screamer_pod.SHP",
+    "sha256": "b651aedb75a15efed1b4f4d46d1b0cef10a26f50912a4c0cbdd70261427118eb",
+    "source_sha256": "bba8e4e13d8a50e86c9d8fe7dd554c45fb830930798cea55c1662509a013d9a8",
+    "part_lods": 1,
+    "triangles": 46,
+    "changed_uv_records": 46,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord3_spod"
+    ],
+    "max_uv_anisotropy": 1.7364559212034034,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "22_raptor.SHP",
+    "sha256": "8e8881e96f60bacdcc68d63afddde529db77f0f74750348f3414c6781690a124",
+    "source_sha256": "6f18933613c9cb1baf004abb9a3b541bcc3d4ea96604d520ab2948df9c21fe89",
+    "part_lods": 3,
+    "triangles": 176,
+    "changed_uv_records": 71,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 8.696912551150607,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "22_raptor_POD.SHP",
+    "sha256": "9a2dd3667d4ac8c9e3fa60fedac828427d40e71feaf890eb71b71177b5ad02ab",
+    "source_sha256": "46206ee8ee720a998b21d2b35f85af62fde07486880bb8873a885ed3c4272397",
+    "part_lods": 3,
+    "triangles": 58,
+    "changed_uv_records": 52,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord3_rpod"
+    ],
+    "max_uv_anisotropy": 1.3676323875769028,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "23_havoc.SHP",
+    "sha256": "e95edf4769e0be8f7648e0ae0a1e828f6ae795e8fbe14fbfc6389af539b74b1b",
+    "source_sha256": "167d470a3d189b0f8885ba8bb3bb5962267471f2cd6f275af70284532b15a909",
+    "part_lods": 3,
+    "triangles": 182,
+    "changed_uv_records": 49,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 8.42527402892528,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "24_jackhammer.SHP",
+    "sha256": "c12b55de977b97439afc03528422a55e10573c69111f24bc79a3e30be0cd8aa5",
+    "source_sha256": "24628da2d1e452b298e2a2f233ad49cf8bea745be531aabb2952468f5c64c7f2",
+    "part_lods": 3,
+    "triangles": 202,
+    "changed_uv_records": 114,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 9.639116363390402,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "25_bandit.SHP",
+    "sha256": "9740aa0ab47b3b104eedf60a27b10dec5e4d74b990b45b3ecf731e395bc03c30",
+    "source_sha256": "b6ab202adc6546fe9001067af65f3aec5f27bfe781cca50cac5c9383c0ab34b4",
+    "part_lods": 3,
+    "triangles": 182,
+    "changed_uv_records": 119,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 8.651925640342482,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "26_vagabond.SHP",
+    "sha256": "28e80e24e1b1021b26ba9820211295df8b3f50cb8bc2084e63e55fd1971cb695",
+    "source_sha256": "3ad46bb73a0fe53ec4004ec57c04c05da7116d3e88aaecad2481c7fa0181753a",
+    "part_lods": 3,
+    "triangles": 134,
+    "changed_uv_records": 59,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 2.5710692851180337,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "27_Solomon_POD.SHP",
+    "sha256": "7ebdf3297c7fb5c8a5debd5219d210ec28ac69ab3e9dc5fd45eaf3b5520b85ae",
+    "source_sha256": "63d90fc7959886e471210fc6988989b8259d6ec67dcbf271b1898c65c807b99c",
+    "part_lods": 1,
+    "triangles": 60,
+    "changed_uv_records": 0,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": false,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull"
+    ],
+    "max_uv_anisotropy": 2.3923799839980604,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "27_solomon.SHP",
+    "sha256": "8c2a8b3fe7795c5657061029dbd37b47d65b45315d82da7586f94ba63cae50e3",
+    "source_sha256": "752bd69ab6594ece28a610c6edacdbdeaf58a4cb2f513c8409b7a5499cf2e522",
+    "part_lods": 3,
+    "triangles": 176,
+    "changed_uv_records": 89,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 11.345912504901579,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "28_imp.SHP",
+    "sha256": "391db24da6e7aaa6df5456428869eb4fa4111d960abd5b4e85827c0ba36302f5",
+    "source_sha256": "cd28df9f869c7cb0df39a9f51e7205a27fcbe2bbf3cb63922945b824b0618e01",
+    "part_lods": 3,
+    "triangles": 204,
+    "changed_uv_records": 76,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 10.561718378984196,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "29_hawk.SHP",
+    "sha256": "bcdb2d90911d6ff3ce4d9c3da8edaea22ce24a4cb79249aa74bc586979596d5e",
+    "source_sha256": "86018e33d808c547cff51be9a27581042a281223c471d20bdc760152d5fd3bc9",
+    "part_lods": 3,
+    "triangles": 182,
+    "changed_uv_records": 110,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull",
+      "orord2_nozz"
+    ],
+    "max_uv_anisotropy": 11.58608706597923,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "29_hawk_POD.SHP",
+    "sha256": "664da53aee49b2816df6ad2a7fbb6bb875314a16b6db9e0a60bd2aa169670c32",
+    "source_sha256": "94d71fc42076ed5fd9395dd3c8bc46503c95edd1d309f552ff0d7d82570a553c",
+    "part_lods": 6,
+    "triangles": 124,
+    "changed_uv_records": 4,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": false,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull"
+    ],
+    "max_uv_anisotropy": 11.507664795617838,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "30_torpedo.SHP",
+    "sha256": "47ce216666561c199f2d2c03f41e37b10b5b67d9b49a6e0d49445a8cf008f84d",
+    "source_sha256": "0369bd7d2551c1e9aa560b2404fe2c47792e508f8fa9ac0d7a1248632397a1fa",
+    "part_lods": 3,
+    "triangles": 134,
+    "changed_uv_records": 0,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": false,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull"
+    ],
+    "max_uv_anisotropy": 3.9810036886357056,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "31_fuel_pod.SHP",
+    "sha256": "09c6aa45861f0df31cb60bd0fc10ee21e6807dbae2721aa992d51c2253327e50",
+    "source_sha256": "b9a9fe2bd0bfb7b0fdc9231356ce3b4ba0b68e8c4d2b2d3af086a36034e27eb3",
+    "part_lods": 2,
+    "triangles": 124,
+    "changed_uv_records": 79,
+    "split_group_records": 111,
+    "preserved_winding_swaps": 40,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [
+      {
+        "part": 0,
+        "lod": 0,
+        "faces": [
+          0,
+          1
+        ]
+      }
+    ],
+    "materials": [
+      "orord1_hull"
+    ],
+    "max_uv_anisotropy": 5.861615147682485,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "sha256": "5e2dce634993aff3d0b73041351f78b2f73be9890dbed2da61f10f260374289f",
+    "source_sha256": "72aca781bc1aa544de4e8f92003dcfad890e09c6c94cfaa80ea759f5cc210a83",
+    "part_lods": 9,
+    "triangles": 230,
+    "changed_uv_records": 181,
+    "split_group_records": 190,
+    "preserved_winding_swaps": 67,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull"
+    ],
+    "max_uv_anisotropy": 10.556942529507822,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "fuel_pod.SHP",
+    "sha256": "1d463c8f8fc317f6eee8220afa339ac6f555c1a290d5c34dc4bc6f1ce4b5a315",
+    "source_sha256": "668d7c1023d5810c058028eeb4a886b7fc5e7c4341eaaea0aa5f748c7c23df64",
+    "part_lods": 3,
+    "triangles": 126,
+    "changed_uv_records": 67,
+    "split_group_records": 113,
+    "preserved_winding_swaps": 31,
+    "standalone_triangles": true,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull"
+    ],
+    "max_uv_anisotropy": 8.274039482012503,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  },
+  {
+    "file": "torpedo.SHP",
+    "sha256": "8d6f2078fe80089361fc8be6727c0466e7d79bb99680c9c79ed12da3fdb0ea58",
+    "source_sha256": "04a2a1c9a7a08da9ec7e5558e03cf179cea9556f8f0602e11231be9116dcd305",
+    "part_lods": 3,
+    "triangles": 134,
+    "changed_uv_records": 0,
+    "split_group_records": 0,
+    "preserved_winding_swaps": 0,
+    "standalone_triangles": false,
+    "suppressed_duplicate_faces": [],
+    "materials": [
+      "orord1_hull"
+    ],
+    "max_uv_anisotropy": 3.981003688635708,
+    "positions_normals_metadata_attachments_animation_lods_byte_exact": true,
+    "effective_triangle_winding_preserved": true
+  }
+]

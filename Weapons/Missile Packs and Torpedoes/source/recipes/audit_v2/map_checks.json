@@ -1,0 +1,89 @@
+[
+  {
+    "material": "orord1_hull",
+    "role": "basecolor",
+    "resolution": [
+      2048,
+      2048
+    ],
+    "sha256": "0329386a6e7b3232716d0b1cef8bd57ef0d61dd22fa15933d5bd167a8eaf736a"
+  },
+  {
+    "material": "orord1_hull",
+    "role": "normal",
+    "resolution": [
+      2048,
+      2048
+    ],
+    "sha256": "9612edbabd83032546cef4ab788f46a6a574658bb995bcad90e6653a97e14fa1",
+    "max_unit_length_error": 0.010357738861211274
+  },
+  {
+    "material": "orord1_hull",
+    "role": "orm",
+    "resolution": [
+      2048,
+      2048
+    ],
+    "sha256": "c7dbefd75cb52c737897423b9e98dbf31c301180ee2865ad6ea489a9108469d9",
+    "ambient_occlusion_channel_full": true
+  },
+  {
+    "material": "orord2_scrm",
+    "role": "basecolor",
+    "resolution": [
+      2048,
+      2048
+    ],
+    "sha256": "b3ea640846600e4d1f0a96087858619e75d90ae9c3eb2c18b2bd6db66495d07e"
+  },
+  {
+    "material": "orord2_scrm",
+    "role": "normal",
+    "resolution": [
+      2048,
+      2048
+    ],
+    "sha256": "e27cde7ca7a3b6a4235628f7ccf3f9071c0a191772531624e086fa037afd1241",
+    "max_unit_length_error": 0.004114577909133943
+  },
+  {
+    "material": "orord2_scrm",
+    "role": "orm",
+    "resolution": [
+      2048,
+      2048
+    ],
+    "sha256": "6d5fcba1134fdadc061b78fc2f09cf6b9b0ddeb56426c0e643e5eaee6ebcef9c",
+    "ambient_occlusion_channel_full": true
+  },
+  {
+    "material": "orord2_nozz",
+    "role": "basecolor",
+    "resolution": [
+      512,
+      512
+    ],
+    "sha256": "506b81f919df26fc6295e2de03a0f832c17f4e8079956ced0f94dc69cb25c3d7"
+  },
+  {
+    "material": "orord2_nozz",
+    "role": "normal",
+    "resolution": [
+      512,
+      512
+    ],
+    "sha256": "f3d48816a6ee8bc085bbd558b61c915c753a1b180fbeb340291b930db5b95dbc",
+    "max_unit_length_error": 0.006331360245143802
+  },
+  {
+    "material": "orord2_nozz",
+    "role": "orm",
+    "resolution": [
+      512,
+      512
+    ],
+    "sha256": "8fa5617a44dd4b7f73a01092d9eec6a3b5b1ea764c63bd66f24a43d40b5af493",
+    "ambient_occlusion_channel_full": true
+  }
+]

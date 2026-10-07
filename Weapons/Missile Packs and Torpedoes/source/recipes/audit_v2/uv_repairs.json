@@ -1,0 +1,1635 @@
+[
+  {
+    "file": "01_screamer.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "straight affine panel and fin islands",
+    "faces": 44,
+    "max_old_kink_px": 2.856215727285809
+  },
+  {
+    "file": "01_screamer.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "mesh_centre": [
+      -0.019443511962890625,
+      -0.10483074188232422
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "01_screamer.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      7,
+      10,
+      13,
+      16,
+      19,
+      20,
+      23,
+      26
+    ],
+    "atlas_box": [
+      747,
+      371,
+      858,
+      514
+    ]
+  },
+  {
+    "file": "01_screamer.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "continuous seven-start barber-pole wrap",
+    "faces": [
+      5,
+      6,
+      8,
+      9,
+      11,
+      12,
+      14,
+      15,
+      17,
+      18,
+      21,
+      22,
+      24,
+      25,
+      27,
+      28
+    ]
+  },
+  {
+    "file": "01_screamer.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 4,
+    "max_old_kink_px": 2.070221346638965
+  },
+  {
+    "file": "01_screamer.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      42
+    ],
+    "mesh_centre": [
+      -0.012345314025878906,
+      -2.745574951171875
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "01_screamer.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      3,
+      6,
+      9,
+      10,
+      13
+    ],
+    "atlas_box": [
+      747,
+      371,
+      858,
+      514
+    ]
+  },
+  {
+    "file": "01_screamer.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "continuous seven-start barber-pole wrap",
+    "faces": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      11,
+      12,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "file": "01_screamer.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      18
+    ],
+    "mesh_centre": [
+      -0.012345314025878906,
+      -2.745574951171875
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "01_screamer.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "continuous seven-start barber-pole wrap",
+    "faces": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "file": "01_screamer_pod.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "straight affine panel and fin islands",
+    "faces": 24,
+    "max_old_kink_px": 31.506516988782387
+  },
+  {
+    "file": "01_screamer_pod.SHP",
+    "lod": 0,
+    "repair": "undistorted worn upper access panel",
+    "faces": [
+      39,
+      40
+    ]
+  },
+  {
+    "file": "01_screamer_pod.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 3,
+    "max_old_kink_px": 49.269227240879836
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "straight affine panel and fin islands",
+    "faces": 30,
+    "max_old_kink_px": 1.0660871649451273
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "mesh_centre": [
+      0.09569454193115234,
+      0.02948904037475586
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 4,
+    "max_old_kink_px": 0.4966302817250153
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      31
+    ],
+    "mesh_centre": [
+      6.560961723327637,
+      -5.37615966796875
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "02_raptor.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      10
+    ],
+    "mesh_centre": [
+      6.560961723327637,
+      -5.37615966796875
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "02_raptor_POD.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "straight affine panel and fin islands",
+    "faces": 4,
+    "max_old_kink_px": 19.039175739517784
+  },
+  {
+    "file": "02_raptor_POD.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 2,
+    "max_old_kink_px": 55.5391884750088
+  },
+  {
+    "file": "03_havoc.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      112,
+      113,
+      114,
+      115,
+      116,
+      117
+    ],
+    "mesh_centre": [
+      -0.0927734375,
+      -0.11134719848632812
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "03_havoc.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      8,
+      15,
+      24,
+      25,
+      32,
+      43,
+      65,
+      66
+    ],
+    "atlas_box": [
+      1046,
+      132,
+      1100,
+      200
+    ]
+  },
+  {
+    "file": "03_havoc.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "clear overlapping nose bolts",
+    "faces": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      24,
+      25,
+      26,
+      27,
+      30,
+      31,
+      32,
+      33,
+      34,
+      43,
+      44,
+      45,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ]
+  },
+  {
+    "file": "03_havoc.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 4,
+    "max_old_kink_px": 11.708524692465158
+  },
+  {
+    "file": "03_havoc.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      45
+    ],
+    "mesh_centre": [
+      -1.62994384765625,
+      -6.400531768798828
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "03_havoc.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      1,
+      3,
+      4,
+      5,
+      6,
+      19
+    ],
+    "atlas_box": [
+      1046,
+      132,
+      1100,
+      200
+    ]
+  },
+  {
+    "file": "03_havoc.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "straight affine panel and fin islands",
+    "faces": 2,
+    "max_old_kink_px": 24.3826852559417
+  },
+  {
+    "file": "03_havoc.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      17
+    ],
+    "mesh_centre": [
+      22.582824766635895,
+      12.601790428161621
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "03_havoc.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      7,
+      8,
+      9
+    ],
+    "atlas_box": [
+      1046,
+      132,
+      1100,
+      200
+    ]
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "straight affine panel and fin islands",
+    "faces": 52,
+    "max_old_kink_px": 13.633906999793362
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89
+    ],
+    "mesh_centre": [
+      -0.033535003662109375,
+      -0.366455078125
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      42,
+      43
+    ],
+    "atlas_box": [
+      1046,
+      132,
+      1100,
+      200
+    ]
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 9,
+    "max_old_kink_px": 24.45441642133922
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      37,
+      38,
+      39
+    ],
+    "mesh_centre": [
+      -0.07183456420898438,
+      -3.305359363555908
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      5,
+      6,
+      7,
+      16,
+      17
+    ],
+    "atlas_box": [
+      1046,
+      132,
+      1100,
+      200
+    ]
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      16
+    ],
+    "mesh_centre": [
+      1.566333293914795,
+      -3.45263671875
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "05_bandit.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "straight affine panel and fin islands",
+    "faces": 58,
+    "max_old_kink_px": 4.559915684358753
+  },
+  {
+    "file": "05_bandit.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "mesh_centre": [
+      -0.09958648681640625,
+      0.13965606689453125
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "05_bandit.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      26,
+      27,
+      28,
+      97,
+      98,
+      99,
+      106,
+      113
+    ],
+    "atlas_box": [
+      1046,
+      132,
+      1100,
+      200
+    ]
+  },
+  {
+    "file": "05_bandit.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      30
+    ],
+    "mesh_centre": [
+      -1.4054183959960938,
+      -7.906364560127258
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "05_bandit.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      11,
+      12,
+      13,
+      15,
+      16
+    ],
+    "atlas_box": [
+      1046,
+      132,
+      1100,
+      200
+    ]
+  },
+  {
+    "file": "06_vagabond.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "straight affine panel and fin islands",
+    "faces": 36,
+    "max_old_kink_px": 5.296259461436619
+  },
+  {
+    "file": "06_vagabond.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+    ],
+    "mesh_centre": [
+      0.24263381958007812,
+      0.4144287109375
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "06_vagabond.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      4,
+      5,
+      10,
+      23,
+      24,
+      25,
+      27,
+      31
+    ],
+    "atlas_box": [
+      747,
+      371,
+      858,
+      514
+    ]
+  },
+  {
+    "file": "06_vagabond.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 4,
+    "max_old_kink_px": 4.336851682970247
+  },
+  {
+    "file": "06_vagabond.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      30,
+      31
+    ],
+    "mesh_centre": [
+      0.18581008911132812,
+      0.29046630859375
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "06_vagabond.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      3,
+      5,
+      9,
+      14,
+      16
+    ],
+    "atlas_box": [
+      747,
+      371,
+      858,
+      514
+    ]
+  },
+  {
+    "file": "07_solomon.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "straight affine panel and fin islands",
+    "faces": 40,
+    "max_old_kink_px": 10.703494242996952
+  },
+  {
+    "file": "07_solomon.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "mesh_centre": [
+      -0.10571861267089844,
+      0.13475751876831055
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "07_solomon.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      17,
+      18,
+      19,
+      20,
+      29,
+      30,
+      31,
+      70
+    ],
+    "atlas_box": [
+      1046,
+      132,
+      1100,
+      200
+    ]
+  },
+  {
+    "file": "07_solomon.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 2,
+    "max_old_kink_px": 5.120280152142369
+  },
+  {
+    "file": "07_solomon.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      25
+    ],
+    "mesh_centre": [
+      -0.09553861618041992,
+      -2.7140626907348633
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "07_solomon.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      4,
+      5,
+      8,
+      9
+    ],
+    "atlas_box": [
+      1046,
+      132,
+      1100,
+      200
+    ]
+  },
+  {
+    "file": "07_solomon.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "straight affine panel and fin islands",
+    "faces": 2,
+    "max_old_kink_px": 0.30719876289437287
+  },
+  {
+    "file": "07_solomon.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      13
+    ],
+    "mesh_centre": [
+      8.504363536834717,
+      5.560254096984863
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "08_imp.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "straight affine panel and fin islands",
+    "faces": 42,
+    "max_old_kink_px": 3.597393030956279
+  },
+  {
+    "file": "08_imp.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
+    ],
+    "mesh_centre": [
+      -0.3310832977294922,
+      -0.8495388031005859
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "08_imp.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 3,
+    "max_old_kink_px": 7.829969773577417
+  },
+  {
+    "file": "08_imp.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      32,
+      33,
+      34
+    ],
+    "mesh_centre": [
+      -0.3310832977294922,
+      -11.024285316467285
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "08_imp.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      16
+    ],
+    "mesh_centre": [
+      -0.3294353485107422,
+      -11.024285316467285
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "09_hawk.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "straight affine panel and fin islands",
+    "faces": 56,
+    "max_old_kink_px": 3.606299816193254
+  },
+  {
+    "file": "09_hawk.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "mesh_centre": [
+      -0.01852273941040039,
+      0.08646345138549805
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "09_hawk.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "coherent nose cap, no pinched UV fan",
+    "faces": [
+      36,
+      37,
+      38,
+      57,
+      58,
+      59,
+      69,
+      83
+    ],
+    "atlas_box": [
+      747,
+      371,
+      858,
+      514
+    ]
+  },
+  {
+    "file": "09_hawk.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 6,
+    "max_old_kink_px": 13.05551227007245
+  },
+  {
+    "file": "09_hawk.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "rear nozzle and normal centred together",
+    "faces": [
+      13
+    ],
+    "mesh_centre": [
+      0.014495849609375,
+      -2.4438806772232056
+    ],
+    "uv_centre": [
+      0.5,
+      0.5
+    ],
+    "uv_radius": 0.495
+  },
+  {
+    "file": "09_hawk.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "straight affine panel and fin islands",
+    "faces": 2,
+    "max_old_kink_px": 6.952676499107654
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "straight affine panel and fin islands",
+    "faces": 48,
+    "max_old_kink_px": 50.44152808449441
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "keep radiator wholly on straight nose side, clear bevel and cap",
+    "faces": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 10,
+    "max_old_kink_px": 50.44152808449455
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "keep radiator wholly on straight nose side, clear bevel and cap",
+    "faces": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ]
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "keep radiator wholly on straight nose side, clear bevel and cap",
+    "faces": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 3,
+    "repair": "straight affine panel and fin islands",
+    "faces": 2,
+    "max_old_kink_px": 70.55389514565492
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 3,
+    "repair": "keep radiator wholly on straight nose side, clear bevel and cap",
+    "faces": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 4,
+    "repair": "straight affine panel and fin islands",
+    "faces": 2,
+    "max_old_kink_px": 70.55389514565492
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 4,
+    "repair": "keep radiator wholly on straight nose side, clear bevel and cap",
+    "faces": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 5,
+    "repair": "straight affine panel and fin islands",
+    "faces": 2,
+    "max_old_kink_px": 70.55389514565492
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 5,
+    "repair": "keep radiator wholly on straight nose side, clear bevel and cap",
+    "faces": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 6,
+    "repair": "straight affine panel and fin islands",
+    "faces": 2,
+    "max_old_kink_px": 70.55389514565492
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 6,
+    "repair": "keep radiator wholly on straight nose side, clear bevel and cap",
+    "faces": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 7,
+    "repair": "keep radiator wholly on straight nose side, clear bevel and cap",
+    "faces": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "part": 0,
+    "lod": 8,
+    "repair": "keep radiator wholly on straight nose side, clear bevel and cap",
+    "faces": [
+      0,
+      1
+    ]
+  },
+  {
+    "file": "fuel_pod.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "straight affine panel and fin islands",
+    "faces": 48,
+    "max_old_kink_px": 12.340119894677022
+  },
+  {
+    "file": "fuel_pod.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 4,
+    "max_old_kink_px": 65.2183858529659
+  },
+  {
+    "file": "21_screamer.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 102,
+    "total_faces": 102,
+    "source": "01_screamer.SHP"
+  },
+  {
+    "file": "21_screamer.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 50,
+    "total_faces": 50,
+    "source": "01_screamer.SHP"
+  },
+  {
+    "file": "21_screamer.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 24,
+    "total_faces": 24,
+    "source": "01_screamer.SHP"
+  },
+  {
+    "file": "21_screamer_pod.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 46,
+    "total_faces": 46,
+    "source": "01_screamer_pod.SHP"
+  },
+  {
+    "file": "22_raptor.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 102,
+    "total_faces": 102,
+    "source": "02_raptor.SHP"
+  },
+  {
+    "file": "22_raptor.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 50,
+    "total_faces": 50,
+    "source": "02_raptor.SHP"
+  },
+  {
+    "file": "22_raptor.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 24,
+    "total_faces": 24,
+    "source": "02_raptor.SHP"
+  },
+  {
+    "file": "22_raptor_POD.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 0,
+    "total_faces": 3,
+    "source": "02_raptor_POD.SHP"
+  },
+  {
+    "file": "22_raptor_POD.SHP",
+    "part": 1,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 52,
+    "total_faces": 52,
+    "source": "02_raptor_POD.SHP"
+  },
+  {
+    "file": "22_raptor_POD.SHP",
+    "part": 2,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 0,
+    "total_faces": 3,
+    "source": "02_raptor_POD.SHP"
+  },
+  {
+    "file": "23_havoc.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 118,
+    "total_faces": 118,
+    "source": "03_havoc.SHP"
+  },
+  {
+    "file": "23_havoc.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 46,
+    "total_faces": 46,
+    "source": "03_havoc.SHP"
+  },
+  {
+    "file": "23_havoc.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 18,
+    "total_faces": 18,
+    "source": "03_havoc.SHP"
+  },
+  {
+    "file": "24_jackhammer.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 118,
+    "total_faces": 118,
+    "source": "04_jackhammer.SHP"
+  },
+  {
+    "file": "24_jackhammer.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 58,
+    "total_faces": 58,
+    "source": "04_jackhammer.SHP"
+  },
+  {
+    "file": "24_jackhammer.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 26,
+    "total_faces": 26,
+    "source": "04_jackhammer.SHP"
+  },
+  {
+    "file": "25_bandit.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 118,
+    "total_faces": 118,
+    "source": "05_bandit.SHP"
+  },
+  {
+    "file": "25_bandit.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 46,
+    "total_faces": 46,
+    "source": "05_bandit.SHP"
+  },
+  {
+    "file": "25_bandit.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 18,
+    "total_faces": 18,
+    "source": "05_bandit.SHP"
+  },
+  {
+    "file": "26_vagabond.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 78,
+    "total_faces": 78,
+    "source": "06_vagabond.SHP"
+  },
+  {
+    "file": "26_vagabond.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 38,
+    "total_faces": 38,
+    "source": "06_vagabond.SHP"
+  },
+  {
+    "file": "26_vagabond.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 18,
+    "total_faces": 18,
+    "source": "06_vagabond.SHP"
+  },
+  {
+    "file": "27_solomon.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 102,
+    "total_faces": 102,
+    "source": "07_solomon.SHP"
+  },
+  {
+    "file": "27_solomon.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 50,
+    "total_faces": 50,
+    "source": "07_solomon.SHP"
+  },
+  {
+    "file": "27_solomon.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 24,
+    "total_faces": 24,
+    "source": "07_solomon.SHP"
+  },
+  {
+    "file": "28_imp.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 118,
+    "total_faces": 118,
+    "source": "08_imp.SHP"
+  },
+  {
+    "file": "28_imp.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 58,
+    "total_faces": 58,
+    "source": "08_imp.SHP"
+  },
+  {
+    "file": "28_imp.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 28,
+    "total_faces": 28,
+    "source": "08_imp.SHP"
+  },
+  {
+    "file": "29_hawk.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 118,
+    "total_faces": 118,
+    "source": "09_hawk.SHP"
+  },
+  {
+    "file": "29_hawk.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 46,
+    "total_faces": 46,
+    "source": "09_hawk.SHP"
+  },
+  {
+    "file": "29_hawk.SHP",
+    "part": 0,
+    "lod": 2,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 18,
+    "total_faces": 18,
+    "source": "09_hawk.SHP"
+  },
+  {
+    "file": "31_fuel_pod.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 72,
+    "total_faces": 74,
+    "source": "fuel_pod.SHP"
+  },
+  {
+    "file": "31_fuel_pod.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "straight affine panel and fin islands",
+    "faces": 14,
+    "max_old_kink_px": 65.2922123489307
+  },
+  {
+    "file": "31_fuel_pod.SHP",
+    "part": 0,
+    "lod": 1,
+    "repair": "reuse in-flight UVs and materials",
+    "matched_faces": 0,
+    "total_faces": 50,
+    "source": "fuel_pod.SHP"
+  },
+  {
+    "file": "31_fuel_pod.SHP",
+    "part": 0,
+    "lod": 0,
+    "repair": "suppress duplicate coplanar cover faces, keep shared flight upper panel",
+    "faces": [
+      0,
+      1
+    ],
+    "retained_visible_faces": [
+      2,
+      73
+    ]
+  }
+]

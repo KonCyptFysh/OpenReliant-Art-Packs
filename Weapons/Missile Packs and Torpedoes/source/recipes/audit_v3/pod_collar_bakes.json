@@ -1,0 +1,30 @@
+[
+  {
+    "model": "01_screamer_pod.SHP",
+    "material": "orord3_spod",
+    "lod_objects": 3,
+    "z_start": 98,
+    "z_end": 113.8,
+    "source_box": [
+      165,
+      665,
+      205,
+      708
+    ],
+    "resolution": 4096
+  },
+  {
+    "model": "02_raptor_POD.SHP",
+    "material": "orord3_rpod",
+    "lod_objects": 3,
+    "z_start": 58,
+    "z_end": 85.33,
+    "source_box": [
+      1040,
+      110,
+      1098,
+      195
+    ],
+    "resolution": 4096
+  }
+]

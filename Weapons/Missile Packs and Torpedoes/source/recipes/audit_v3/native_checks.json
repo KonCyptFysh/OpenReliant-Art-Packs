@@ -1,0 +1,194 @@
+[
+  {
+    "file": "01_screamer.SHP",
+    "sha256": "d715effd834753dfb99e9e98d1c8e703a6464fff97d2cefebeed43ef1750456a",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 94 vertices, 175 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "01_screamer_pod.SHP",
+    "sha256": "e27368db64a6b3ad70f61fa136617df162d07ff789bd457470094e0a3bbff7f4",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 45 vertices, 78 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "02_raptor.SHP",
+    "sha256": "4079a1c1e6efef8d5244420792a0511b9cb23496bb004f007d10087985c2a99b",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 94 vertices, 174 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "02_raptor_POD.SHP",
+    "sha256": "0e2fee17891d28c56a03c291e28127050cadbda56a4ba67fdde5b9b8212cf24f",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 51 vertices, 90 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "03_havoc.SHP",
+    "sha256": "778db165b728d70fb8e8bd34042cdeead188e319353bd51f926785d1bd96db01",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 97 vertices, 182 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "04_jackhammer.SHP",
+    "sha256": "108a6bf0d20366cda65d5e0b315a0a512cd939c8d3adb2f46644dbd55e2772a0",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 107 vertices, 202 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "05_bandit.SHP",
+    "sha256": "edee0b9f93d805325957dd3838e639fd3cc8f125bc3617298d06b7da132ad3cc",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 97 vertices, 182 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "06_vagabond.SHP",
+    "sha256": "59ec4800dcab3b37718c1cab55a5c882d2557ed9aee0e5479a5e259ddfdd1cc3",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 73 vertices, 134 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "07_Solomon_POD.SHP",
+    "sha256": "4192dca367ce927f0d060b85ffc3bc579040cec4da6abfa54b118eb905b5cec2",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 58 vertices, 104 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "07_solomon.SHP",
+    "sha256": "5ab26cc0c13a3181e92d9b492272a91b29b1a5f6465dd00c5039fb8b2fa66119",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 94 vertices, 176 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "08_imp.SHP",
+    "sha256": "208af9f351873c2912eb263eeff8e885474f8134bb8d49a6783e285af2b6f4e1",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 108 vertices, 204 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "09_hawk.SHP",
+    "sha256": "62821c04603e019ba9374dc976bcfdfd2834f4026146f7db2c16514763c18f21",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 97 vertices, 181 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "09_hawk_POD.SHP",
+    "sha256": "d1091aa84895ab18b9274f2c71cb3e32097997055489e20405aa9592eda22a5d",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 37 vertices, 62 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "10_torpedo.SHP",
+    "sha256": "9ef936ebb9cc1dcc869786f9d23bce2bdaebd666e7d222a5e8101ccd86dfd530",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 73 vertices, 134 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "21_screamer.SHP",
+    "sha256": "9153730b7efc412ce1ff6397ba2fbfd97c7c5b270cd6ef4cb334f60f1ba35f2a",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 94 vertices, 176 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "21_screamer_pod.SHP",
+    "sha256": "b651aedb75a15efed1b4f4d46d1b0cef10a26f50912a4c0cbdd70261427118eb",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 33 vertices, 46 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "22_raptor.SHP",
+    "sha256": "8e8881e96f60bacdcc68d63afddde529db77f0f74750348f3414c6781690a124",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 94 vertices, 176 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "22_raptor_POD.SHP",
+    "sha256": "9a2dd3667d4ac8c9e3fa60fedac828427d40e71feaf890eb71b71177b5ad02ab",
+    "exit_status": 0,
+    "output": "ok: 3 parts, 44 vertices, 58 faces\nbounds: 3 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "23_havoc.SHP",
+    "sha256": "e95edf4769e0be8f7648e0ae0a1e828f6ae795e8fbe14fbfc6389af539b74b1b",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 97 vertices, 182 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "24_jackhammer.SHP",
+    "sha256": "c12b55de977b97439afc03528422a55e10573c69111f24bc79a3e30be0cd8aa5",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 107 vertices, 202 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "25_bandit.SHP",
+    "sha256": "9740aa0ab47b3b104eedf60a27b10dec5e4d74b990b45b3ecf731e395bc03c30",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 97 vertices, 182 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "26_vagabond.SHP",
+    "sha256": "28e80e24e1b1021b26ba9820211295df8b3f50cb8bc2084e63e55fd1971cb695",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 73 vertices, 134 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "27_Solomon_POD.SHP",
+    "sha256": "7ebdf3297c7fb5c8a5debd5219d210ec28ac69ab3e9dc5fd45eaf3b5520b85ae",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 32 vertices, 60 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "27_solomon.SHP",
+    "sha256": "8c2a8b3fe7795c5657061029dbd37b47d65b45315d82da7586f94ba63cae50e3",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 94 vertices, 176 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "28_imp.SHP",
+    "sha256": "391db24da6e7aaa6df5456428869eb4fa4111d960abd5b4e85827c0ba36302f5",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 108 vertices, 204 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "29_hawk.SHP",
+    "sha256": "bcdb2d90911d6ff3ce4d9c3da8edaea22ce24a4cb79249aa74bc586979596d5e",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 97 vertices, 182 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "29_hawk_POD.SHP",
+    "sha256": "664da53aee49b2816df6ad2a7fbb6bb875314a16b6db9e0a60bd2aa169670c32",
+    "exit_status": 0,
+    "output": "ok: 2 parts, 74 vertices, 124 faces\nbounds: 2 oriented\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "30_torpedo.SHP",
+    "sha256": "47ce216666561c199f2d2c03f41e37b10b5b67d9b49a6e0d49445a8cf008f84d",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 73 vertices, 134 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "31_fuel_pod.SHP",
+    "sha256": "09c6aa45861f0df31cb60bd0fc10ee21e6807dbae2721aa992d51c2253327e50",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 65 vertices, 124 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "Rus_Torp.SHP",
+    "sha256": "5e2dce634993aff3d0b73041351f78b2f73be9890dbed2da61f10f260374289f",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 133 vertices, 230 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "fuel_pod.SHP",
+    "sha256": "1d463c8f8fc317f6eee8220afa339ac6f555c1a290d5c34dc4bc6f1ce4b5a315",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 69 vertices, 126 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+  },
+  {
+    "file": "torpedo.SHP",
+    "sha256": "8d6f2078fe80089361fc8be6727c0466e7d79bb99680c9c79ed12da3fdb0ea58",
+    "exit_status": 0,
+    "output": "ok: 1 parts, 73 vertices, 134 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+  }
+]
