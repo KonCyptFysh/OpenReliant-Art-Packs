@@ -1,0 +1,52 @@
+[
+  {
+    "path": "mods/60-wolverine-worn-v1/German_Wolverine.SHP",
+    "bytes": 263302,
+    "sha256": "fe4d187670865bbe458fbe02459486214978d994c9703be1a1d13599dc389f0f"
+  },
+  {
+    "path": "mods/60-wolverine-worn-v1/gorwv1_hull.png",
+    "bytes": 17909043,
+    "sha256": "43b323a81a33e46ab8ed2af00633ad70a744585c0393c5418a720f33abf00d2c"
+  },
+  {
+    "path": "mods/60-wolverine-worn-v1/gorwv1_hull_normal.png",
+    "bytes": 863066,
+    "sha256": "097e8d7cf1684725e497aecab21fcd7b7586abc01b888e4fd81c94edc19cc41e"
+  },
+  {
+    "path": "mods/60-wolverine-worn-v1/gorwv1_hull_orm.png",
+    "bytes": 12185624,
+    "sha256": "fbcabb23697b0eedadb178a1e5449c7165d91c6007b447e0158bcbaa46dca9bf"
+  },
+  {
+    "path": "mods/60-wolverine-worn-v1/mod.ini",
+    "bytes": 199,
+    "sha256": "39ea2d34e6703f84ab81a720b823e48d18452cd127fb070f1991d95f94251c8b"
+  },
+  {
+    "path": "mods/60-wolverine-worn-v1/mod.png",
+    "bytes": 1282741,
+    "sha256": "5947115190b5deed83d202a3ebfaa84140a9695e0544f02097445396780d06c5"
+  },
+  {
+    "path": "mods/60-wolverine-worn-v1/orwv1_hull.png",
+    "bytes": 17909043,
+    "sha256": "43b323a81a33e46ab8ed2af00633ad70a744585c0393c5418a720f33abf00d2c"
+  },
+  {
+    "path": "mods/60-wolverine-worn-v1/orwv1_hull_normal.png",
+    "bytes": 863066,
+    "sha256": "097e8d7cf1684725e497aecab21fcd7b7586abc01b888e4fd81c94edc19cc41e"
+  },
+  {
+    "path": "mods/60-wolverine-worn-v1/orwv1_hull_orm.png",
+    "bytes": 12185624,
+    "sha256": "fbcabb23697b0eedadb178a1e5449c7165d91c6007b447e0158bcbaa46dca9bf"
+  },
+  {
+    "path": "mods/60-wolverine-worn-v1/t_German_Wolverine.SHP",
+    "bytes": 267206,
+    "sha256": "30ebb1fa5a346d695f3eb84b1d6fb424c632b698730b81b291a772f6e396f040"
+  }
+]

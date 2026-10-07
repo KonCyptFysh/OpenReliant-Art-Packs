@@ -1,0 +1,106 @@
+{
+  "status": "individual-beta-snapshot",
+  "ship": "Wolverine",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 832,
+      "sha256": "da0307335005f320a611b9524284d1a843f7a20d34c444387ed890e34e3faf07"
+    },
+    {
+      "path": "source/recipes/README.md",
+      "bytes": 622,
+      "sha256": "fb0e8c3aa03128fc50c1373c098d05b9f88c061d66a30ac82f9910d1399d7441"
+    },
+    {
+      "path": "source/recipes/work/glass_v2/build.py",
+      "bytes": 5974,
+      "sha256": "11b10efcebef9383680d94d0049b5360365bee76c2aa0a8a760a0bd8d49fd4e8"
+    },
+    {
+      "path": "source/recipes/work/reconstruction_v1/build_pbr.py",
+      "bytes": 11198,
+      "sha256": "d32d48aad1d3fcd380b2c9678a50e8acdd4ca121725190b19b5c065befae2dbf"
+    },
+    {
+      "path": "source/recipes/work/reconstruction_v1/regions.json",
+      "bytes": 13870,
+      "sha256": "6bf82289bae373637b6490ce219a396cb08898a89d24ef28851c319313192c0d"
+    },
+    {
+      "path": "source/resources/097e8d7cf168_wolverine_worn_normal_4k_v1.png",
+      "bytes": 863066,
+      "sha256": "097e8d7cf1684725e497aecab21fcd7b7586abc01b888e4fd81c94edc19cc41e"
+    },
+    {
+      "path": "source/resources/0c3d6edf998c_wolverine_worn_flat_graphics_4k_v1.png",
+      "bytes": 137251,
+      "sha256": "0c3d6edf998c617fc4ddf64b3aabc0a7a4997f6490ef6e1f4297f1554a96d638"
+    },
+    {
+      "path": "source/resources/2346deb74023_wolverine_worn_coat_4k_v1.png",
+      "bytes": 226738,
+      "sha256": "2346deb74023ba30af8b452129209a64c53492af2c79850d2963079a340040ad"
+    },
+    {
+      "path": "source/resources/2b914cdf04dd_wolverine_worn_glass_4k_v1.png",
+      "bytes": 246871,
+      "sha256": "2b914cdf04dd68675e8ff5b406d0c223f16faeebe24fcce13e54342f01f3b11a"
+    },
+    {
+      "path": "source/resources/3c4379cb1655_wolverine_worn_roughness_4k_v2.png",
+      "bytes": 33562818,
+      "sha256": "3c4379cb1655f14e2d9fa947e28b195ccc5df73cda4158a7b1cb50dd7d402725"
+    },
+    {
+      "path": "source/resources/40271573bec4_wolverine_worn_height_4k_v1.png",
+      "bytes": 438070,
+      "sha256": "40271573bec4ae658a666bfad725daf04201f382d7d3313aab698a8e9fd0623b"
+    },
+    {
+      "path": "source/resources/425bc08efaa1_wolverine_worn_specular_4k_v1.png",
+      "bytes": 238383,
+      "sha256": "425bc08efaa1343dd0cec2d35efc21a95db82b9d762cd17b7221a86f6a82e6bd"
+    },
+    {
+      "path": "source/resources/4342452de38c_wolverine_worn_basecolor_4k_v1.png",
+      "bytes": 17992305,
+      "sha256": "4342452de38cfa7ea7f4b5680e777879073ea750d93adc9b038ecd1c7cf5ee0e"
+    },
+    {
+      "path": "source/resources/43b323a81a33_wolverine_worn_basecolor_4k_v2.png",
+      "bytes": 17909043,
+      "sha256": "43b323a81a33e46ab8ed2af00633ad70a744585c0393c5418a720f33abf00d2c"
+    },
+    {
+      "path": "source/resources/5204a8fbd091_wolverine_worn_structure_mask_4k_v1.png",
+      "bytes": 173275,
+      "sha256": "5204a8fbd0912192b22068f3cf1300ae9c299971565be104d69c4cfbf2ece6a5"
+    },
+    {
+      "path": "source/resources/84c49fe92d0a_wolverine_worn_glass_colour_mask_4k_v2.png",
+      "bytes": 278863,
+      "sha256": "84c49fe92d0a42fd24eb1e97178c022d48676e107e9d3e3f1a2fdcd054c050c7"
+    },
+    {
+      "path": "source/resources/e75d92d013b8_wolverine_glass_generated_v2.png",
+      "bytes": 2813839,
+      "sha256": "e75d92d013b800c88c05fa5c3400fffb5ff83844630d200ad49e267767605ff7"
+    },
+    {
+      "path": "source/resources/f1354d610431_wolverine_worn_metallic_4k_v1.png",
+      "bytes": 11104112,
+      "sha256": "f1354d61043173c5359fcc5858006ad386c78f43167c12fcc9dd977d91ce6498"
+    },
+    {
+      "path": "source/snapshot.json",
+      "bytes": 5624,
+      "sha256": "8893be284a7c3d4f71a8ea9020251957c72679019be0bdaf8558840610a1c117"
+    },
+    {
+      "path": "source/wolverine_worn_pbr_v2.blend",
+      "bytes": 84698369,
+      "sha256": "ae70c7da7726d7d5e8c4de861a682dc6a52cfe0669e16d3ed7a61fc176f87d7c"
+    }
+  ]
+}

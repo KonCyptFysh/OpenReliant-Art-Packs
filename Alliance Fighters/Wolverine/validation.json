@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "scope": "individual-mod-bounded-loading-and-rendering",
+  "checked_at_utc": "2026-10-07T06:59:48.957251+00:00",
+  "engine_build": "OpenReliant 0.7.0 official release 3b27f16",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "tested_platforms": [
+    "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
+  ],
+  "asset_manifest_sha256": "66f3cfa291b3a0aedfe0d817dee663f5b4fbe5f478205d0b4cc8f3fec977e222",
+  "source_manifest_sha256": "451217359b01b2c3fdc6301c2adc336bd6786df5d6131f2d948f2349c406cef2",
+  "checks": [
+    "Verify 10 runtime files and 20 original source artifacts against the previously verified snapshot.",
+    "Copy only 60-wolverine-worn-v1 into a clean test installation; verify all runtime hashes.",
+    "Pass native format checks for 2 SHP/DTE files.",
+    "Load and capture the standard fighter on official OpenReliant 0.7.0 with exactly one art mod enabled and no HUD.",
+    "Preserve the byte-identical runtime assets previously checked in both standard and t_ variants with the original eight-fighter set.",
+    "Inspect the new isolated-mod capture for the expected ship and gross rendering errors."
+  ],
+  "native_checks": [
+    {
+      "path": "mods/60-wolverine-worn-v1/German_Wolverine.SHP",
+      "sha256": "fe4d187670865bbe458fbe02459486214978d994c9703be1a1d13599dc389f0f",
+      "exit_status": 0,
+      "log_sha256": "2947e51d5f195f4143f1f1d1fa8e1a2effb81b2571f785a48df83f899b860e6b"
+    },
+    {
+      "path": "mods/60-wolverine-worn-v1/t_German_Wolverine.SHP",
+      "sha256": "30ebb1fa5a346d695f3eb84b1d6fb424c632b698730b81b291a772f6e396f040",
+      "exit_status": 0,
+      "log_sha256": "2947e51d5f195f4143f1f1d1fa8e1a2effb81b2571f785a48df83f899b860e6b"
+    }
+  ],
+  "single_mod_capture": {
+    "sha256": "710a9bf3b9fc8bbf37ed6aab9ae23c20e7df410d3b1531700a58d882fba5164e",
+    "log_sha256": "db9e030a40c81175bb1afca51fb779e756ee8e98796da6cdf57ae91826182ef1",
+    "exit_status": 0,
+    "enabled_mods": [
+      "60-wolverine-worn-v1"
+    ]
+  },
+  "previous_variant_checks": [
+    {
+      "path": "mods/60-wolverine-worn-v1/German_Wolverine.SHP",
+      "sha256": "fe4d187670865bbe458fbe02459486214978d994c9703be1a1d13599dc389f0f",
+      "exit_status": 0,
+      "log_sha256": "2947e51d5f195f4143f1f1d1fa8e1a2effb81b2571f785a48df83f899b860e6b"
+    },
+    {
+      "path": "mods/60-wolverine-worn-v1/t_German_Wolverine.SHP",
+      "sha256": "30ebb1fa5a346d695f3eb84b1d6fb424c632b698730b81b291a772f6e396f040",
+      "exit_status": 0,
+      "log_sha256": "2947e51d5f195f4143f1f1d1fa8e1a2effb81b2571f785a48df83f899b860e6b"
+    }
+  ],
+  "limitations": [
+    "This is a work-in-progress beta; final texture and Naginata edge/exhaust acceptance are still open.",
+    "Full campaign play, damage, ejection, loadout and Shroud cloak were not tested in these bounded captures.",
+    "Lower-LOD distance transitions and separate later-campaign liveries remain under review.",
+    "Windows and macOS runtime tests have not been performed.",
+    "No custom emissive maps are included."
+  ]
+}
