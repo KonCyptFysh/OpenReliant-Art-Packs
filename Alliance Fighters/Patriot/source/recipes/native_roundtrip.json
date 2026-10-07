@@ -1,0 +1,18 @@
+[
+  {
+    "file": "USMF_Pat.SHP",
+    "matched_LOD0_faces": 440,
+    "maximum_corner_uv_error": 2.9802322387695312e-08,
+    "unchanged_other_chunks": 96,
+    "all_geometry_attachments_animation_lower_LODs_identical": true,
+    "material_slots_match_scene": true
+  },
+  {
+    "file": "t_USMF_Pat.SHP",
+    "matched_LOD0_faces": 440,
+    "maximum_corner_uv_error": 2.9802322387695312e-08,
+    "unchanged_other_chunks": 96,
+    "all_geometry_attachments_animation_lower_LODs_identical": true,
+    "material_slots_match_scene": true
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "file": "USMF_Pat.SHP",
+    "source_sha256": "0cf351b39ad5e4ee56326f9d25304b0015645a81f295fce3ef03f01846bad832",
+    "delivered_sha256": "900d33e2fa0e27fc33a0fd0a120ed2139719d38d62c4427e607ba89561981e85",
+    "changes": [
+      {
+        "part": 0,
+        "faces": 54,
+        "allowed_changes": [
+          "material slot",
+          "corner UV",
+          "equivalent triangle fan encoding",
+          "surface grouping order"
+        ]
+      },
+      {
+        "part": 1,
+        "faces": 10,
+        "allowed_changes": [
+          "material slot",
+          "corner UV",
+          "equivalent triangle fan encoding",
+          "surface grouping order"
+        ]
+      },
+      {
+        "part": 2,
+        "faces": 376,
+        "allowed_changes": [
+          "material slot",
+          "corner UV",
+          "equivalent triangle fan encoding",
+          "surface grouping order"
+        ]
+      }
+    ],
+    "geometry_normals_attachments_lower_LODs_animation_turret_data_unchanged": true
+  },
+  {
+    "file": "t_USMF_Pat.SHP",
+    "source_sha256": "7e9f99a8046bdff3f427bdc71234cb776d230c9e5d4f2549a09f753ebd0141dc",
+    "delivered_sha256": "c14056f930a0324668dc19e0b4bc4e3389ded3c12993efb3282dd25a5ec47f34",
+    "changes": [
+      {
+        "part": 0,
+        "faces": 54,
+        "allowed_changes": [
+          "material slot",
+          "corner UV",
+          "equivalent triangle fan encoding",
+          "surface grouping order"
+        ]
+      },
+      {
+        "part": 1,
+        "faces": 10,
+        "allowed_changes": [
+          "material slot",
+          "corner UV",
+          "equivalent triangle fan encoding",
+          "surface grouping order"
+        ]
+      },
+      {
+        "part": 2,
+        "faces": 376,
+        "allowed_changes": [
+          "material slot",
+          "corner UV",
+          "equivalent triangle fan encoding",
+          "surface grouping order"
+        ]
+      }
+    ],
+    "geometry_normals_attachments_lower_LODs_animation_turret_data_unchanged": true
+  }
+]

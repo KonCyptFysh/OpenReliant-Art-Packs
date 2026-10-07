@@ -1,0 +1,156 @@
+{
+  "status": "passed",
+  "scope": "individual-mod-bounded-loading-and-rendering",
+  "checked_at_utc": "2026-10-07T09:19:06.493955+00:00",
+  "engine_build": "OpenReliant 0.7.0 official release 3b27f16",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "tested_platforms": [
+    "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
+  ],
+  "asset_manifest_sha256": "85400e8ca31a34d92c94c6c672f07aa089ff8cac08267e1ec7f5c10f0553f9c4",
+  "source_manifest_sha256": "87be09abc02a57f206b45485354cacfea911edfd2ef9143c8581e6d0d0b9f71b",
+  "checks": [
+    "Verify 24 runtime files and 67 editable source files against their inventories.",
+    "Copy only 96-patriot-worn-v1 into an isolated game folder and verify every runtime hash.",
+    "Pass native checks for 3 SHP/DTE files.",
+    "Load and capture Patriot v3 on official OpenReliant 0.7.0 with exactly one mod enabled.",
+    "Read the exact CC-BY-NC-SA-4.0 identifier and portable licence notice with the external catalogue parser.",
+    "Visually inspect the isolated release capture for the expected Patriot v3 artwork and gross rendering errors."
+  ],
+  "native_checks": [
+    {
+      "path": "mods/96-patriot-worn-v1/USMF_Pat.SHP",
+      "sha256": "cefd42a369f59ad70c4a2bd0913de318a181bf2ebf95c9910aeebd0e64f9fbba",
+      "exit_status": 0,
+      "log_sha256": "1af4850d6a4af08c00eae1591596be234afdec2d51bd9894241be5e8ae111bd9"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/mission992.dte",
+      "sha256": "286e453a68862e77548c40fbdac8a262a7f4fe1260e814d269cf5ce6e4faf968",
+      "exit_status": 0,
+      "log_sha256": "8b5c012111961ca14ca20b93c140211a5fa080c823739f6c2225371bc305dd9b"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/t_USMF_Pat.SHP",
+      "sha256": "37c5859cf526a745c83953895307699d01de19c3b0b518022496a07587a384bd",
+      "exit_status": 0,
+      "log_sha256": "1af4850d6a4af08c00eae1591596be234afdec2d51bd9894241be5e8ae111bd9"
+    }
+  ],
+  "single_mod_capture": {
+    "sha256": "8503c95956b74361047d1ce5a438af4d7d1c5444fe9793fc0a503e2445f23c5f",
+    "log_sha256": "59d1534d2b47d5c821a18c4fa92e574344d01c30402a1c279c785894116d8cc7",
+    "exit_status": 0,
+    "enabled_mods": [
+      "96-patriot-worn-v1"
+    ]
+  },
+  "maintainer_approval": {
+    "date": "2026-10-07",
+    "scope": "Patriot v3 artwork finished and publication requested"
+  },
+  "authoring_native_preservation": [
+    {
+      "file": "USMF_Pat.SHP",
+      "source_sha256": "0cf351b39ad5e4ee56326f9d25304b0015645a81f295fce3ef03f01846bad832",
+      "delivered_sha256": "cefd42a369f59ad70c4a2bd0913de318a181bf2ebf95c9910aeebd0e64f9fbba",
+      "changes": [
+        {
+          "part": 0,
+          "faces": 54,
+          "allowed_changes": [
+            "material slot",
+            "corner UV",
+            "equivalent triangle fan encoding",
+            "surface grouping order"
+          ]
+        },
+        {
+          "part": 1,
+          "faces": 10,
+          "allowed_changes": [
+            "material slot",
+            "corner UV",
+            "equivalent triangle fan encoding",
+            "surface grouping order"
+          ]
+        },
+        {
+          "part": 2,
+          "faces": 376,
+          "allowed_changes": [
+            "material slot",
+            "corner UV",
+            "equivalent triangle fan encoding",
+            "surface grouping order"
+          ]
+        }
+      ],
+      "geometry_normals_attachments_lower_LODs_animation_turret_data_unchanged": true
+    },
+    {
+      "file": "t_USMF_Pat.SHP",
+      "source_sha256": "7e9f99a8046bdff3f427bdc71234cb776d230c9e5d4f2549a09f753ebd0141dc",
+      "delivered_sha256": "37c5859cf526a745c83953895307699d01de19c3b0b518022496a07587a384bd",
+      "changes": [
+        {
+          "part": 0,
+          "faces": 54,
+          "allowed_changes": [
+            "material slot",
+            "corner UV",
+            "equivalent triangle fan encoding",
+            "surface grouping order"
+          ]
+        },
+        {
+          "part": 1,
+          "faces": 10,
+          "allowed_changes": [
+            "material slot",
+            "corner UV",
+            "equivalent triangle fan encoding",
+            "surface grouping order"
+          ]
+        },
+        {
+          "part": 2,
+          "faces": 376,
+          "allowed_changes": [
+            "material slot",
+            "corner UV",
+            "equivalent triangle fan encoding",
+            "surface grouping order"
+          ]
+        }
+      ],
+      "geometry_normals_attachments_lower_LODs_animation_turret_data_unchanged": true
+    }
+  ],
+  "authoring_native_roundtrip": [
+    {
+      "file": "USMF_Pat.SHP",
+      "matched_LOD0_faces": 440,
+      "maximum_corner_uv_error": 2.9802322387695312e-08,
+      "unchanged_other_chunks": 96,
+      "all_geometry_attachments_animation_lower_LODs_identical": true,
+      "material_slots_match_scene": true
+    },
+    {
+      "file": "t_USMF_Pat.SHP",
+      "matched_LOD0_faces": 440,
+      "maximum_corner_uv_error": 2.9802322387695312e-08,
+      "unchanged_other_chunks": 96,
+      "all_geometry_attachments_animation_lower_LODs_identical": true,
+      "material_slots_match_scene": true
+    }
+  ],
+  "limitations": [
+    "Custom emissives are deferred.",
+    "The existing under-nose treatment is retained; a redesign would be a separate future update.",
+    "Lower-detail models and later-campaign liveries remain under review.",
+    "Full campaign play, damage, ejection, turret firing, loadout and distance transitions are not certified.",
+    "Both model variants passed native checks; only the standard variant was captured in this release check.",
+    "Windows and macOS runtime testing has not been performed."
+  ]
+}

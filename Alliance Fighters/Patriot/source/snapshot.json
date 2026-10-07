@@ -1,0 +1,463 @@
+{
+  "ship": "Patriot",
+  "asset_revision": "3.0",
+  "canonical_scene_name": "patriot_worn_audit_v3.blend",
+  "canonical_scene_sha256": "0b5138ee810b01696b1625f9bd30787c998e238f897461c1a5d894787c8aa656",
+  "scene": {
+    "path": "source/patriot_worn_audit_v3.blend",
+    "bytes": 195811461,
+    "sha256": "21b714acf426acdd6205adaacf63882b85ab9e1dc1cd1776c1e8895e7ca68dc4"
+  },
+  "resources": [
+    {
+      "path": "source/resources/08e150325b85_patriot_worn_glass_4k_v1.png",
+      "bytes": 144669,
+      "sha256": "08e150325b8547868608ac7706a9c25d7898d99678b67d8110caa77c035fdf19"
+    },
+    {
+      "path": "source/resources/0b536496bab8_patriot_worn_paint_4k_v1.png",
+      "bytes": 16364324,
+      "sha256": "0b536496bab8a0ed740094765c4ee5533b1eee5aa4b99f23490a65e7730cb9ef"
+    },
+    {
+      "path": "source/resources/0d84a7a02e54_patriot_worn_fins_4k_v1.png",
+      "bytes": 810275,
+      "sha256": "0d84a7a02e54366a09b5c881e2be1bdad75d4a689c8c659545d40e4a0b1738f4"
+    },
+    {
+      "path": "source/resources/0dd8785fc576_patriot_main_roughness_4k_v2.png",
+      "bytes": 29768967,
+      "sha256": "0dd8785fc57665e8ae8ca708e97b8e9be0e611d3f31ffdb1d9a4262e3476d81c"
+    },
+    {
+      "path": "source/resources/11573af9409e_patriot_worn_roughness_4k_v1.png",
+      "bytes": 30070425,
+      "sha256": "11573af9409ebdebb56231de1d9dfb4c239be9d6d29251628db1542d3187b4ab"
+    },
+    {
+      "path": "source/resources/1c47f98cca5a_patriot_wrap_metallic_2k_v3.png",
+      "bytes": 743967,
+      "sha256": "1c47f98cca5aa5fc52778fd94b85862804c02048aebb028cc9c97fd41ce4817d"
+    },
+    {
+      "path": "source/resources/1c9d0d585242_patriot_wrap_roughness_2k_v3.png",
+      "bytes": 765612,
+      "sha256": "1c9d0d585242200d6c3d3b435fd4b6a17108b9d50f92f20566fb82ead7e1cea9"
+    },
+    {
+      "path": "source/resources/283e1d09ce50_patriot_repairs_metallic_4k_v3.png",
+      "bytes": 4421108,
+      "sha256": "283e1d09ce5015812acecda76364436044e3add18c2dfb036cfde9d0240d19d2"
+    },
+    {
+      "path": "source/resources/2fa7a28cf1c2_patriot_worn_height_4k_v1.png",
+      "bytes": 1174015,
+      "sha256": "2fa7a28cf1c257fda0735776ee05b62a491f466d8b7b39d257442075a9609518"
+    },
+    {
+      "path": "source/resources/36ecd52cf90d_patriot_repairs_normal_4k_v3.png",
+      "bytes": 5235900,
+      "sha256": "36ecd52cf90d6631c37cc01b1447a18b97199487a65a798ac591f21488a064ef"
+    },
+    {
+      "path": "source/resources/3b85765a8cef_patriot_wrap_normal_2k_v3.png",
+      "bytes": 770805,
+      "sha256": "3b85765a8cef1d4a8e1b8bdd00f8a2434b47f551aab7805f17b1d1fa09ae7ad6"
+    },
+    {
+      "path": "source/resources/3de1547417b1_patriot_worn_seal_4k_v1.png",
+      "bytes": 208221,
+      "sha256": "3de1547417b115d1d7b29c904be1ea96c7ad1342a643785a45853093a2ee4aac"
+    },
+    {
+      "path": "source/resources/43367b787cb2_patriot_repairs_basecolor_4k_v3.png",
+      "bytes": 37368007,
+      "sha256": "43367b787cb26176295841a67143eb88903656627b9f05dc7720475739a68658"
+    },
+    {
+      "path": "source/resources/43f895189344_patriot_worn_panels_4k_v1.png",
+      "bytes": 209641,
+      "sha256": "43f8951893447a3524c2fe559e5d441aa581431b2f57192e5f91d8d83ccd6966"
+    },
+    {
+      "path": "source/resources/474e534caa90_patriot_wrap_normal_2k_v3.png",
+      "bytes": 747653,
+      "sha256": "474e534caa901c825f83fedc36216293d9a1ae59a5ae87d1222d7430932fe9a5"
+    },
+    {
+      "path": "source/resources/50aec6d29459_patriot_wrap_metallic_2k_v3.png",
+      "bytes": 734675,
+      "sha256": "50aec6d294596de4fa4bdc374e7a010f34c672b6980be9c67ec5eabf2b811ff7"
+    },
+    {
+      "path": "source/resources/50b053e29ca5_patriot_worn_flat_graphics_4k_v1.png",
+      "bytes": 118601,
+      "sha256": "50b053e29ca57639ee34909a235cef4d8f908fc265b290d82d8045ec9f7524b7"
+    },
+    {
+      "path": "source/resources/5f7b76eb46fd_glass_edit_reference.png",
+      "bytes": 3011719,
+      "sha256": "5f7b76eb46fdcbe7d4f0211ed463d23cc150f4cb35c0fa4726c6276479293c10"
+    },
+    {
+      "path": "source/resources/6458658958c2_patriot_repairs_metallic_4k_v2.png",
+      "bytes": 4402976,
+      "sha256": "6458658958c27fafafce4e3e9d5936d6ae41264fc3c48a407adbe9c9131c5a54"
+    },
+    {
+      "path": "source/resources/6721b41e4dc5_patriot_repairs_height_4k_v3.png",
+      "bytes": 1875333,
+      "sha256": "6721b41e4dc5a05c096004171df5b6a886bd3c40a6b9eb309fe044430851c04d"
+    },
+    {
+      "path": "source/resources/68711a0c85c6_patriot_worn_basecolor_generated_v1.png",
+      "bytes": 3367790,
+      "sha256": "68711a0c85c607715273bcedc871504b84de210ff72b2a73bf59a1a15bdca9b9"
+    },
+    {
+      "path": "source/resources/6938dd6d2fd6_patriot_worn_metallic_4k_v1.png",
+      "bytes": 19885252,
+      "sha256": "6938dd6d2fd6b13a40d4f8ac0c41b82e80ff2ae61bc3784c0dc0a8a1f989c926"
+    },
+    {
+      "path": "source/resources/700bf8e6fc5f_patriot_worn_structure_4k_v1.png",
+      "bytes": 327265,
+      "sha256": "700bf8e6fc5f6c873924c7077167d6a3fc19c7febb930a87449e4fd46f1c9fff"
+    },
+    {
+      "path": "source/resources/72dc34c0ee33_patriot_wrap_basecolor_2k_v3.png",
+      "bytes": 10336770,
+      "sha256": "72dc34c0ee33170ac70f05590c46b1cbc796b21c1edaded1417086e64161bbdd"
+    },
+    {
+      "path": "source/resources/85101cf041c5_yank_3.png",
+      "bytes": 70510,
+      "sha256": "85101cf041c55510c172b66754ec16aaf399a3d789598161a5e6802160b11de0"
+    },
+    {
+      "path": "source/resources/880bb48123a2_patriot_wrap_roughness_2k_v3.png",
+      "bytes": 765556,
+      "sha256": "880bb48123a2178d575dbc3d877682d869ba3d96a6739daa14529bb48f41857e"
+    },
+    {
+      "path": "source/resources/8827c6aa9619_patriot_main_metallic_4k_v2.png",
+      "bytes": 19884830,
+      "sha256": "8827c6aa96192663cebc94319b6477d33ec536693c949fe3d195105b47102547"
+    },
+    {
+      "path": "source/resources/8e336d8e4503_patriot_wrap_basecolor_2k_v3.png",
+      "bytes": 10333279,
+      "sha256": "8e336d8e450333ee2df1ed39764f3dd33d2a4251cdd7e8b1f3ef2b61dd8dbe20"
+    },
+    {
+      "path": "source/resources/a0f6c869af77_patriot_repairs_height_4k_v2.png",
+      "bytes": 1870662,
+      "sha256": "a0f6c869af777ec749ed43550d9d8599ca7ca41666bbde6fd8461cd6c7982d9b"
+    },
+    {
+      "path": "source/resources/a408b75ebaed_patriot_wrap_height_2k_v3.png",
+      "bytes": 235420,
+      "sha256": "a408b75ebaed410729c73ec000125854167e92e7775846170ec7fcb3f21aa0b7"
+    },
+    {
+      "path": "source/resources/ba739db9c109_patriot_repairs_roughness_4k_v2.png",
+      "bytes": 5915910,
+      "sha256": "ba739db9c1091eb58e81287d35569efa5ac27c742cb1ce164855e81dfd613af3"
+    },
+    {
+      "path": "source/resources/bf1ce2aa7d33_patriot_main_basecolor_4k_v2.png",
+      "bytes": 77187025,
+      "sha256": "bf1ce2aa7d335e5908488e11337309935a271cbac12d495a56aee2ddd2aa9411"
+    },
+    {
+      "path": "source/resources/bf72be7f14d0_patriot_repairs_regions_4k_v2.png",
+      "bytes": 157130,
+      "sha256": "bf72be7f14d024aec11b7cf1e25bc8998b1e79122bc8eeb6e0240507497d295b"
+    },
+    {
+      "path": "source/resources/bfdc7858103b_patriot_worn_basecolor_4k_v1.png",
+      "bytes": 78547719,
+      "sha256": "bfdc7858103b84d40ab4ed405fa71562962739433a90f807d9c94387a88010de"
+    },
+    {
+      "path": "source/resources/cc468d33132f_patriot_main_normal_4k_v2.png",
+      "bytes": 3658444,
+      "sha256": "cc468d33132f719ae863227afb40d0d8beb3e4810355c2545d2e1d158736bb68"
+    },
+    {
+      "path": "source/resources/ce25a3541b6e_patriot_repairs_normal_4k_v2.png",
+      "bytes": 5245776,
+      "sha256": "ce25a3541b6e6599e0d9dba6d28ace42f0aefe1cb1f9b1a17d2876bf91faeb8b"
+    },
+    {
+      "path": "source/resources/d0894fd76672_repair_wear_reference.png",
+      "bytes": 3767446,
+      "sha256": "d0894fd766720a6b454b44d2035bf0240b621eb7b7e3b07e87f5e59d7eafb848"
+    },
+    {
+      "path": "source/resources/dc13956f06e4_patriot_repairs_basecolor_4k_v2.png",
+      "bytes": 36425336,
+      "sha256": "dc13956f06e4652a82ca371485b5e7b9df65d7056b34b1a8eac69a2528f07e79"
+    },
+    {
+      "path": "source/resources/e9e51e7d7027_patriot_wrap_roughness_2k_v3.png",
+      "bytes": 813851,
+      "sha256": "e9e51e7d7027dd079166b4b43d4893fe19b2828dafc2b80c16440ca3cb01a757"
+    },
+    {
+      "path": "source/resources/f09e8ce352df_patriot_worn_normal_4k_v1.png",
+      "bytes": 3676577,
+      "sha256": "f09e8ce352dfebfec1e00d72065446168217426a76c2a64af7fda2e4c2964f58"
+    },
+    {
+      "path": "source/resources/f2babfb2951e_patriot_repairs_roughness_4k_v3.png",
+      "bytes": 5933487,
+      "sha256": "f2babfb2951e75107e868f3b7a3d66e698cc2287ebb71f4c24d8a9b12cd9e00a"
+    },
+    {
+      "path": "source/resources/f3ee440a8ca9_patriot_wrap_metallic_2k_v3.png",
+      "bytes": 743512,
+      "sha256": "f3ee440a8ca9c3f487e15c2fef61239137debc99a8baba801c6d5bbb40b28ab3"
+    },
+    {
+      "path": "source/resources/f56420376edd_patriot_wrap_basecolor_2k_v3.png",
+      "bytes": 10322670,
+      "sha256": "f56420376eddc49ad54e0d6ca4693e1efc40e0317453aa978cd1be127243e27c"
+    }
+  ],
+  "recipes": [
+    {
+      "path": "source/recipes/README.md",
+      "bytes": 498,
+      "sha256": "ed765922c242297cb938a59984a1ce0d02eb39350a5c34ea313e19377380f9bf"
+    },
+    {
+      "path": "source/recipes/audit_v3/build_audit.py",
+      "bytes": 20111,
+      "sha256": "3635cef41e79722ec87566592c2d8a12613cbab0d5ed615b02282f7a3f14d404"
+    },
+    {
+      "path": "source/recipes/audit_v3/export_native.py",
+      "bytes": 4652,
+      "sha256": "8764eead65918ebf2cee53ae92a2a162e005005d69c5924083e75ae1d7237fbc"
+    },
+    {
+      "path": "source/recipes/audit_v3/native_preservation.json",
+      "bytes": 2019,
+      "sha256": "bc42c5c8c1d193b2a45abf1eaf0e2a5e91f22ac3ed9881205ab04627d8dfec08"
+    },
+    {
+      "path": "source/recipes/audit_v3/native_roundtrip.json",
+      "bytes": 535,
+      "sha256": "c430719ba18b553386eecbcaa0344da0886e7b7de3db3cc62455c3a2817833fe"
+    },
+    {
+      "path": "source/recipes/audit_v3/render_review.py",
+      "bytes": 968,
+      "sha256": "07cf9a35aa7ecf1ec99f5f383231122c20ae7de0a29a1ca1666c65f54f80358a"
+    },
+    {
+      "path": "source/recipes/audit_v3/validation.json",
+      "bytes": 246439,
+      "sha256": "8052b07e26569137b43f6128e7aced8450b7436edc74ee284bf7722a635fedea"
+    },
+    {
+      "path": "source/recipes/audit_v3/verify_native_roundtrip.py",
+      "bytes": 1880,
+      "sha256": "49ba5ca5331ec6f1f9c6828d0d506d0bb533c0716bce2d95c3e02147dfe9c628"
+    },
+    {
+      "path": "source/recipes/build_materials.py",
+      "bytes": 13486,
+      "sha256": "ec9862391121193dba15b53a42059f727aeeeca3c0c043c73dd66255a2e362ca"
+    },
+    {
+      "path": "source/recipes/build_repairs.py",
+      "bytes": 23478,
+      "sha256": "c9aed1589f865a49a09a5c58c4b492b07cda79ba9a42e32d3fb9c77b8b97c136"
+    },
+    {
+      "path": "source/recipes/build_source.py",
+      "bytes": 7211,
+      "sha256": "01702a51bfc6ae11977ca06d9bdd167eca44b4f00113096433106af93dba5bae"
+    },
+    {
+      "path": "source/recipes/export_native.py",
+      "bytes": 4616,
+      "sha256": "77cb2e0bc66ee945ff65f4db4cdbbfa39340ebf22bc06d968014ccb3f824b0b5"
+    },
+    {
+      "path": "source/recipes/glass_prompt.txt",
+      "bytes": 1051,
+      "sha256": "1d969332b27853dda6cac9331bc6038ec06f70241b1fd4a7656b74192e11cdd2"
+    },
+    {
+      "path": "source/recipes/inspect_uv.py",
+      "bytes": 2034,
+      "sha256": "f4322dcc14a593b56e791b04036cd8690854d3cb0332e6383554c770405e13d3"
+    },
+    {
+      "path": "source/recipes/inspection.py",
+      "bytes": 3501,
+      "sha256": "f56090bc844a075d27de3183681b43f596185091a4e20c8353658e461f34d87f"
+    },
+    {
+      "path": "source/recipes/native_preservation.json",
+      "bytes": 2018,
+      "sha256": "3c150a59da4c93ddd7363678f7095de8da83b47cfa9fa6973ab290c222bfc92a"
+    },
+    {
+      "path": "source/recipes/native_roundtrip.json",
+      "bytes": 534,
+      "sha256": "48edfb7d69c00f2775c76cd7f9c3baca285f967f6fb9ceee4c31d9078124bd53"
+    },
+    {
+      "path": "source/recipes/regions.json",
+      "bytes": 11647,
+      "sha256": "9834442f408d572744e914c999dd45b7dbf89e5e37e36e1d23d60a01095d1cf1"
+    },
+    {
+      "path": "source/recipes/render_review.py",
+      "bytes": 1431,
+      "sha256": "0293106687d603d6a4ef9254bf9b4be1326fb19ef5d1339fe544f60032856ea6"
+    },
+    {
+      "path": "source/recipes/texture_prompt.txt",
+      "bytes": 2020,
+      "sha256": "be05b30817a37f69a6cbdf22728add205eb64ee9a2718617c6f4269fc030058d"
+    },
+    {
+      "path": "source/recipes/verify_native_roundtrip.py",
+      "bytes": 1875,
+      "sha256": "2870f88be67b0c03333fd2c9b9ef05e2b6bae28f0ababdb5f34bce31a20bf7fd"
+    }
+  ],
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_and_relative_resources_verified": true,
+  "runtime_folder": "mods/96-patriot-worn-v1",
+  "runtime_files": [
+    {
+      "path": "mods/96-patriot-worn-v1/USMF_Pat.SHP",
+      "bytes": 143132,
+      "sha256": "cefd42a369f59ad70c4a2bd0913de318a181bf2ebf95c9910aeebd0e64f9fbba"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/gorpa1_hull.png",
+      "bytes": 77187025,
+      "sha256": "bf1ce2aa7d335e5908488e11337309935a271cbac12d495a56aee2ddd2aa9411"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/gorpa1_hull_normal.png",
+      "bytes": 3658444,
+      "sha256": "cc468d33132f719ae863227afb40d0d8beb3e4810355c2545d2e1d158736bb68"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/gorpa1_hull_orm.png",
+      "bytes": 10335043,
+      "sha256": "5c5e97a64b3988d22d5dd0ea3475022929b47e786f66834bacef7a4372e13b91"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/gorpa2_fix.png",
+      "bytes": 37368007,
+      "sha256": "43367b787cb26176295841a67143eb88903656627b9f05dc7720475739a68658"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/gorpa2_fix_normal.png",
+      "bytes": 5235900,
+      "sha256": "36ecd52cf90d6631c37cc01b1447a18b97199487a65a798ac591f21488a064ef"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/gorpa2_fix_orm.png",
+      "bytes": 2043597,
+      "sha256": "5674449e727bc5e0a4c9f55515f0db09e442558b757d03f27e27d69ea60b391e"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/gorpa3_wrap.png",
+      "bytes": 10336770,
+      "sha256": "72dc34c0ee33170ac70f05590c46b1cbc796b21c1edaded1417086e64161bbdd"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/gorpa3_wrap_normal.png",
+      "bytes": 747653,
+      "sha256": "474e534caa901c825f83fedc36216293d9a1ae59a5ae87d1222d7430932fe9a5"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/gorpa3_wrap_orm.png",
+      "bytes": 374790,
+      "sha256": "ce50b0135dd681db4cbf14f2d376fbd372573f2d1568dc02f59c10dd20645611"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/license.txt",
+      "bytes": 999,
+      "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/mission992.dte",
+      "bytes": 480,
+      "sha256": "286e453a68862e77548c40fbdac8a262a7f4fe1260e814d269cf5ce6e4faf968"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/mod.ini",
+      "bytes": 187,
+      "sha256": "1ae6a8189d62005c41a8bcc5468c2fe475685885ee7fb5eadf3c1c312388ab96"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/mod.png",
+      "bytes": 317637,
+      "sha256": "19981201a921122ec5cbdb793ce2991c0725cbadeeba66ca6315dbab604022b6"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/orpa1_hull.png",
+      "bytes": 77187025,
+      "sha256": "bf1ce2aa7d335e5908488e11337309935a271cbac12d495a56aee2ddd2aa9411"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/orpa1_hull_normal.png",
+      "bytes": 3658444,
+      "sha256": "cc468d33132f719ae863227afb40d0d8beb3e4810355c2545d2e1d158736bb68"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/orpa1_hull_orm.png",
+      "bytes": 10335043,
+      "sha256": "5c5e97a64b3988d22d5dd0ea3475022929b47e786f66834bacef7a4372e13b91"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/orpa2_fix.png",
+      "bytes": 37368007,
+      "sha256": "43367b787cb26176295841a67143eb88903656627b9f05dc7720475739a68658"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/orpa2_fix_normal.png",
+      "bytes": 5235900,
+      "sha256": "36ecd52cf90d6631c37cc01b1447a18b97199487a65a798ac591f21488a064ef"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/orpa2_fix_orm.png",
+      "bytes": 2043597,
+      "sha256": "5674449e727bc5e0a4c9f55515f0db09e442558b757d03f27e27d69ea60b391e"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/orpa3_wrap.png",
+      "bytes": 10336770,
+      "sha256": "72dc34c0ee33170ac70f05590c46b1cbc796b21c1edaded1417086e64161bbdd"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/orpa3_wrap_normal.png",
+      "bytes": 747653,
+      "sha256": "474e534caa901c825f83fedc36216293d9a1ae59a5ae87d1222d7430932fe9a5"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/orpa3_wrap_orm.png",
+      "bytes": 374790,
+      "sha256": "ce50b0135dd681db4cbf14f2d376fbd372573f2d1568dc02f59c10dd20645611"
+    },
+    {
+      "path": "mods/96-patriot-worn-v1/t_USMF_Pat.SHP",
+      "bytes": 144476,
+      "sha256": "37c5859cf526a745c83953895307699d01de19c3b0b518022496a07587a384bd"
+    }
+  ],
+  "emissives": "deferred",
+  "release_status": "beta",
+  "publication_approved_by_maintainer": "2026-10-07"
+}
