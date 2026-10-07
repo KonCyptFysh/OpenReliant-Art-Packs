@@ -164,21 +164,22 @@
       "name": "Shroud",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Shroud",
-      "status": "coming-soon",
+      "status": "available",
       "version": "0.1.0-beta.1",
       "assetRevision": "2.0",
       "description": "Bronze and steel finishes, wing radiators and smoked glass.",
       "modFolder": "80-shroud-worn-v1",
       "preview": "assets/shroud.webp",
       "model": "models/shroud.glb",
-      "download": null,
-      "release": null,
-      "checksum": null,
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.1/openreliant-shroud-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.1",
+      "checksum": "f06921d77606f385954d158a342b5cef2695f61e53b250fa009610dbd0aa2289",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "shroud-v0.1.0-beta.1"
+      "tag": "shroud-v0.1.0-beta.1",
+      "downloadBytes": 78320911
     },
     {
       "id": "mirage",
