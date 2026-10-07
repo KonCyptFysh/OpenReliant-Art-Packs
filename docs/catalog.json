@@ -142,21 +142,22 @@
       "name": "Tempest",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Tempest",
-      "status": "coming-soon",
+      "status": "available",
       "version": "0.1.0-beta.1",
       "assetRevision": "1.0",
       "description": "Dark steel, red livery and continuous radiator detail.",
       "modFolder": "70-tempest-worn-v1",
       "preview": "assets/tempest.webp",
       "model": "models/tempest.glb",
-      "download": null,
-      "release": null,
-      "checksum": null,
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.1/openreliant-tempest-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.1",
+      "checksum": "bedde6a82ccb11f1702c7b9f421bc5ef20021071e956ccacf7dca799af66f6cf",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "tempest-v0.1.0-beta.1"
+      "tag": "tempest-v0.1.0-beta.1",
+      "downloadBytes": 64242264
     },
     {
       "id": "shroud",
