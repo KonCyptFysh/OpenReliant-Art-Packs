@@ -12,6 +12,7 @@ def build(root=ROOT):
         if asset['status']=='available':
             assert asset.get('download','').startswith('https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/')
             assert asset.get('release') and asset.get('checksum') and asset.get('downloadBytes',0)>0
+            assert '/releases/download/'+asset['tag']+'/' in asset['download'],'Download must use its final published tag'
             assert (root/asset['folder']/'asset-manifest.json').is_file()
         else:assert not asset.get('download'),'Unreleased assets must not expose a download link'
         for name in ('preview','model'):
