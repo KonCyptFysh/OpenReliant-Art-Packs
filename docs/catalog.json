@@ -208,21 +208,22 @@
       "name": "Naginata",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Naginata",
-      "status": "coming-soon",
+      "status": "available",
       "version": "0.1.0-beta.1",
       "assetRevision": "4.0",
       "description": "Revised wing edges, engine-wear scale and louvred exhausts.",
       "modFolder": "95-naginata-worn-v1",
       "preview": "assets/naginata.webp",
       "model": "models/naginata.glb",
-      "download": null,
-      "release": null,
-      "checksum": null,
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.1/openreliant-naginata-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.1",
+      "checksum": "34ba2c7f48469926d2c0ed1c70b15ac534795d001aaf8363429d5e18f948b58d",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "naginata-v0.1.0-beta.1"
+      "tag": "naginata-v0.1.0-beta.1",
+      "downloadBytes": 189246283
     },
     {
       "id": "patriot",
