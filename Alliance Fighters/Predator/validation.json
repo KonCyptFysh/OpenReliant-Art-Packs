@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "scope": "individual-mod-bounded-loading-and-rendering",
+  "checked_at_utc": "2026-10-07T06:58:48.866255+00:00",
+  "engine_build": "OpenReliant 0.7.0 official release 3b27f16",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "tested_platforms": [
+    "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
+  ],
+  "asset_manifest_sha256": "33ca9709adaace2ded8f54b515320e89ab293f240f6a8552021a5bfde3486025",
+  "source_manifest_sha256": "b049672f478941849f0245868d1750950db6cf0916d5a2153c97de32b8d24b92",
+  "checks": [
+    "Verify 22 runtime files and 36 original source artifacts against the previously verified snapshot.",
+    "Copy only 40-predator-worn-v14 into a clean test installation; verify all runtime hashes.",
+    "Pass native format checks for 2 SHP/DTE files.",
+    "Load and capture the standard fighter on official OpenReliant 0.7.0 with exactly one art mod enabled and no HUD.",
+    "Preserve the byte-identical runtime assets previously checked in both standard and t_ variants with the original eight-fighter set.",
+    "Inspect the new isolated-mod capture for the expected ship and gross rendering errors."
+  ],
+  "native_checks": [
+    {
+      "path": "mods/40-predator-worn-v14/USLF_Prd.SHP",
+      "sha256": "e8f161146afd9b5989c9eea45db1155912e2554a59d5eadc5adf5896d15726d6",
+      "exit_status": 0,
+      "log_sha256": "2c4f49736df42748479edc3771a0f50c047cf176cce91c0dca3cd63da0c009c4"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/t_USLF_Prd.shp",
+      "sha256": "c84955b84a603fbe9015b26558de30a9146ce54583adb0fe2a8a9f1c658bff49",
+      "exit_status": 0,
+      "log_sha256": "2c4f49736df42748479edc3771a0f50c047cf176cce91c0dca3cd63da0c009c4"
+    }
+  ],
+  "single_mod_capture": {
+    "sha256": "c8f1d2ddb8ff8f7370aa643f8cf9a98d6d886e1865d6bd0c75e118fc780ded01",
+    "log_sha256": "8f09c324015fadd114dc3d5cc9d8a287e26ab831c9a7f04630e840a67d118838",
+    "exit_status": 0,
+    "enabled_mods": [
+      "40-predator-worn-v14"
+    ]
+  },
+  "previous_variant_checks": [
+    {
+      "path": "mods/40-predator-worn-v14/USLF_Prd.SHP",
+      "sha256": "e8f161146afd9b5989c9eea45db1155912e2554a59d5eadc5adf5896d15726d6",
+      "exit_status": 0,
+      "log_sha256": "2c4f49736df42748479edc3771a0f50c047cf176cce91c0dca3cd63da0c009c4"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/t_USLF_Prd.shp",
+      "sha256": "c84955b84a603fbe9015b26558de30a9146ce54583adb0fe2a8a9f1c658bff49",
+      "exit_status": 0,
+      "log_sha256": "2c4f49736df42748479edc3771a0f50c047cf176cce91c0dca3cd63da0c009c4"
+    }
+  ],
+  "limitations": [
+    "This is a work-in-progress beta; final texture and Naginata edge/exhaust acceptance are still open.",
+    "Full campaign play, damage, ejection, loadout and Shroud cloak were not tested in these bounded captures.",
+    "Lower-LOD distance transitions and separate later-campaign liveries remain under review.",
+    "Windows and macOS runtime tests have not been performed.",
+    "No custom emissive maps are included."
+  ]
+}

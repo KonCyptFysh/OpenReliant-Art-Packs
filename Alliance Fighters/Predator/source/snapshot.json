@@ -1,0 +1,292 @@
+{
+  "ship": "Predator",
+  "asset_revision": "16.1",
+  "canonical_scene_name": "predator_worn_normals_v16.blend",
+  "canonical_scene_sha256": "43cd939c61065bde272d79e7e546d6e3c2ef8dbd70cdcbad06b659f79805a358",
+  "scene": {
+    "path": "source/predator_worn_normals_v16.blend",
+    "bytes": 335049513,
+    "sha256": "ea21b29ef177df876fb7548fdbb5121cc6904345c7431e8950813765ed400363"
+  },
+  "resources": [
+    {
+      "path": "source/resources/06cfbc1be366_predator_worn_surface_repairs_4k_v7.png",
+      "bytes": 14664517,
+      "sha256": "06cfbc1be366e432a27b5d904b8b88fe5ec1a74d1ef7d553b591a54c775ab2e0"
+    },
+    {
+      "path": "source/resources/2e9acba75125_predator_base_roughness_4k_v10.png",
+      "bytes": 16591292,
+      "sha256": "2e9acba7512531f6be693283dc86bd540b4a0aab5f5bcad3848111ca616c430f"
+    },
+    {
+      "path": "source/resources/2f2714cac421_predator_base_edit_mask_v16.png",
+      "bytes": 122836,
+      "sha256": "2f2714cac421384e9a71aae4bebba486bb521c5762f5bfc049e227626f71a6c9"
+    },
+    {
+      "path": "source/resources/3784ece08332_predator_markings_metallic_4k_v11.png",
+      "bytes": 1882962,
+      "sha256": "3784ece08332a4d812345ea80194ce9c52677ff10dedaab08637f388057d933d"
+    },
+    {
+      "path": "source/resources/37dcf3c603cb_surface_height_0001.png",
+      "bytes": 4961008,
+      "sha256": "37dcf3c603cb895442003dd5afaf23764d4fdb087bbd5f81b92f5a161f5dc405"
+    },
+    {
+      "path": "source/resources/414f6a837e35_predator_surface_metallic_4k_v10.png",
+      "bytes": 8194155,
+      "sha256": "414f6a837e35d47f2b28830e93706f4c26d4ea07aae8950473f33a4ec05013cd"
+    },
+    {
+      "path": "source/resources/4426f3e43723_predator_base_glass_4k_v10.png",
+      "bytes": 1186906,
+      "sha256": "4426f3e4372398804b17f8aa8454f9ff39a6366c87b9245273abe1c8d8a79313"
+    },
+    {
+      "path": "source/resources/4976a05668b8_predator_worn_consolidated_4k_v3.png",
+      "bytes": 27676765,
+      "sha256": "4976a05668b8e6aa74e9f2fd711a1306bf5aa2a58d3bdd59e5c5b7c1f68bce8a"
+    },
+    {
+      "path": "source/resources/50bbfbf4a17d_predator_surface_normal_4k_v16.png",
+      "bytes": 29123265,
+      "sha256": "50bbfbf4a17d2386aef0cdce25c566d00920197a9d8a68864421cdfd49e81cd1"
+    },
+    {
+      "path": "source/resources/6794cfdc50b9_base_height_0001.png",
+      "bytes": 7069950,
+      "sha256": "6794cfdc50b9b1a143519b068b87671117679bc9621c6f7aba6db4d454f31d7c"
+    },
+    {
+      "path": "source/resources/6992144ab657_predator_worn_4k_v2.png",
+      "bytes": 28106809,
+      "sha256": "6992144ab6578b6df43cdd79fcca71d06a8f4e2dc8f2b1d7d373477fd63c9cfa"
+    },
+    {
+      "path": "source/resources/6f741146af83_predator_markings_normal_4k_v16.png",
+      "bytes": 7046108,
+      "sha256": "6f741146af837382a00cf12390b442e99c4d1685820e1e83a6564247710ad913"
+    },
+    {
+      "path": "source/resources/7236b1995b8d_predator_base_normal_4k_v10.png",
+      "bytes": 27815951,
+      "sha256": "7236b1995b8d0758a90931aa54ee8feda86ce2bf76f2648e1173c48a892cd6c8"
+    },
+    {
+      "path": "source/resources/73a8caf11071_predator_surface_roughness_4k_v10.png",
+      "bytes": 16743756,
+      "sha256": "73a8caf11071733b76a3e9770ec00ba86085e9959403dc2cc4d0ff740c700c9e"
+    },
+    {
+      "path": "source/resources/7a82d3b03f90_predator_markings_basecolor_4k_v11.png",
+      "bytes": 4080950,
+      "sha256": "7a82d3b03f90cbe77d9ec8b2b11328b7041f7b85421dfbcc0788ef5369bbd6d5"
+    },
+    {
+      "path": "source/resources/7c54affd09a9_predator_surface_glass_4k_v10.png",
+      "bytes": 155943,
+      "sha256": "7c54affd09a94f56e349be5a5bddc25954bc80c98b46fae00a58022849e6dfea"
+    },
+    {
+      "path": "source/resources/888ca161951d_predator_markings_roughness_4k_v11.png",
+      "bytes": 2801843,
+      "sha256": "888ca161951d9dfb26a18ebc9ac8c73434c50b78476240d7625bf0bdeaf97909"
+    },
+    {
+      "path": "source/resources/9595607c2c6e_predator_surface_normal_4k_v10.png",
+      "bytes": 27776259,
+      "sha256": "9595607c2c6e12e2abde08756175be7e1b4ca1988c7e88ff158a75b7d8dc403e"
+    },
+    {
+      "path": "source/resources/991a8b13ebc9_predator_surface_normal_4k_v12.png",
+      "bytes": 30340095,
+      "sha256": "991a8b13ebc92d77fbfa91154f8c449fce7d9c8b69639c536d69da60e787e512"
+    },
+    {
+      "path": "source/resources/be9d8c2b5593_predator_base_metallic_4k_v10.png",
+      "bytes": 8762634,
+      "sha256": "be9d8c2b5593c7c1e8ad0e0262613a20c5bacc56e84a9de4e283ccaf446a4075"
+    },
+    {
+      "path": "source/resources/c2fc54dbb971_predator_base_normal_4k_v12.png",
+      "bytes": 32525695,
+      "sha256": "c2fc54dbb971af2e5896e2cbac535b0cc83f490bea4239e0f586342003adafde"
+    },
+    {
+      "path": "source/resources/c384c486539b_markings_height_0001.png",
+      "bytes": 1671637,
+      "sha256": "c384c486539b5c834c1caa3c93d01d1393716a9c08bbf9f9e8b8335eb9ab6460"
+    },
+    {
+      "path": "source/resources/d0a2a2a46271_predator_markings_normal_4k_v12.png",
+      "bytes": 6211987,
+      "sha256": "d0a2a2a4627132d28eb65d56cc6830de62ea70b9a340af5b3d0cebf11b256cbf"
+    },
+    {
+      "path": "source/resources/d4f7a29bfa7a_predator_markings_normal_4k_v11.png",
+      "bytes": 2201353,
+      "sha256": "d4f7a29bfa7a9a3ddf4110e154655247bbe728f5a8ec10c1243287ef042b96fe"
+    },
+    {
+      "path": "source/resources/d72d5a523841_predator_surface_edit_mask_v16.png",
+      "bytes": 197180,
+      "sha256": "d72d5a5238412d9e9da82e48049daf946793d859d81065fdc86f3cf298204f5d"
+    },
+    {
+      "path": "source/resources/f10ec0b8d597_predator_base_normal_4k_v16.png",
+      "bytes": 26679102,
+      "sha256": "f10ec0b8d5971c53232a29b0db40c546939cb40c3cdd6e3abddd31b5aaffb349"
+    },
+    {
+      "path": "source/resources/f2962f34918d_yank_1_original.png",
+      "bytes": 74882,
+      "sha256": "f2962f34918def5127ede44b0e59650bffc67de1a0e143cd4f7bca6e38217567"
+    },
+    {
+      "path": "source/resources/f3c456947bd4_repair.png",
+      "bytes": 1773984,
+      "sha256": "f3c456947bd463ce7768b6bed4e5b7675ca531b7f9f3d1cb0a9a72f8b649e115"
+    },
+    {
+      "path": "source/resources/ff6eb41a8ee7_predator_markings_edit_mask_v16.png",
+      "bytes": 98153,
+      "sha256": "ff6eb41a8ee75cc2d6ab6ce8e38632b018f41c138a5524b71248b3541b28587f"
+    },
+    {
+      "path": "source/resources/ff6eb41a8ee7_predator_markings_glass_4k_v10.png",
+      "bytes": 98153,
+      "sha256": "ff6eb41a8ee75cc2d6ab6ce8e38632b018f41c138a5524b71248b3541b28587f"
+    }
+  ],
+  "recipes": [
+    {
+      "path": "source/recipes/work/normals_v16/build.py",
+      "bytes": 7691,
+      "sha256": "250d80acdded11e1c198d66a5ad8f2704e73e1758b0906141370a6a7295737e6"
+    },
+    {
+      "path": "source/recipes/work/normals_v16/sign_regions.json",
+      "bytes": 4122,
+      "sha256": "a27562ad7a27a75f509e9927abdae08d3e8ae1ddf21dc387cc2c7371e181124a"
+    }
+  ],
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_and_relative_resources_verified": true,
+  "runtime_folder": "mods/40-predator-worn-v14",
+  "runtime_files": [
+    {
+      "path": "mods/40-predator-worn-v14/USLF_Prd.SHP",
+      "bytes": 153050,
+      "sha256": "e8f161146afd9b5989c9eea45db1155912e2554a59d5eadc5adf5896d15726d6"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/gorp14_base.png",
+      "bytes": 27676765,
+      "sha256": "4976a05668b8e6aa74e9f2fd711a1306bf5aa2a58d3bdd59e5c5b7c1f68bce8a"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/gorp14_base_normal.png",
+      "bytes": 26679102,
+      "sha256": "f10ec0b8d5971c53232a29b0db40c546939cb40c3cdd6e3abddd31b5aaffb349"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/gorp14_base_orm.png",
+      "bytes": 8903621,
+      "sha256": "dce49b770273bce9df0efc98556109b5643e3c6ea12bf2429543c12dd37ea9a8"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/gorp14_markings.png",
+      "bytes": 4080950,
+      "sha256": "7a82d3b03f90cbe77d9ec8b2b11328b7041f7b85421dfbcc0788ef5369bbd6d5"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/gorp14_markings_normal.png",
+      "bytes": 7046108,
+      "sha256": "6f741146af837382a00cf12390b442e99c4d1685820e1e83a6564247710ad913"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/gorp14_markings_orm.png",
+      "bytes": 2726381,
+      "sha256": "5bef2422dd605de1ad0a08889b65dc203acdaaf0fbf21e8794187db06a929b66"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/gorp14_surface.png",
+      "bytes": 14664517,
+      "sha256": "06cfbc1be366e432a27b5d904b8b88fe5ec1a74d1ef7d553b591a54c775ab2e0"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/gorp14_surface_normal.png",
+      "bytes": 29123265,
+      "sha256": "50bbfbf4a17d2386aef0cdce25c566d00920197a9d8a68864421cdfd49e81cd1"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/gorp14_surface_orm.png",
+      "bytes": 8609085,
+      "sha256": "33d180e550d69497deeb6883bbf6d0e83829af085bbe98036cbaa6284b97d42f"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/mod.ini",
+      "bytes": 168,
+      "sha256": "837fbd0a3c30d0cdfd340bc0db111543b5987dd95f64f75855c1f6a00503ae32"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/mod.png",
+      "bytes": 806331,
+      "sha256": "a55e2680cb8cb2d30c0cc632948c319c0cf6caba761afb9ee42e0cbcdd10020a"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/orp14_base.png",
+      "bytes": 27676765,
+      "sha256": "4976a05668b8e6aa74e9f2fd711a1306bf5aa2a58d3bdd59e5c5b7c1f68bce8a"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/orp14_base_normal.png",
+      "bytes": 26679102,
+      "sha256": "f10ec0b8d5971c53232a29b0db40c546939cb40c3cdd6e3abddd31b5aaffb349"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/orp14_base_orm.png",
+      "bytes": 8903621,
+      "sha256": "dce49b770273bce9df0efc98556109b5643e3c6ea12bf2429543c12dd37ea9a8"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/orp14_markings.png",
+      "bytes": 4080950,
+      "sha256": "7a82d3b03f90cbe77d9ec8b2b11328b7041f7b85421dfbcc0788ef5369bbd6d5"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/orp14_markings_normal.png",
+      "bytes": 7046108,
+      "sha256": "6f741146af837382a00cf12390b442e99c4d1685820e1e83a6564247710ad913"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/orp14_markings_orm.png",
+      "bytes": 2726381,
+      "sha256": "5bef2422dd605de1ad0a08889b65dc203acdaaf0fbf21e8794187db06a929b66"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/orp14_surface.png",
+      "bytes": 14664517,
+      "sha256": "06cfbc1be366e432a27b5d904b8b88fe5ec1a74d1ef7d553b591a54c775ab2e0"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/orp14_surface_normal.png",
+      "bytes": 29123265,
+      "sha256": "50bbfbf4a17d2386aef0cdce25c566d00920197a9d8a68864421cdfd49e81cd1"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/orp14_surface_orm.png",
+      "bytes": 8609085,
+      "sha256": "33d180e550d69497deeb6883bbf6d0e83829af085bbe98036cbaa6284b97d42f"
+    },
+    {
+      "path": "mods/40-predator-worn-v14/t_USLF_Prd.shp",
+      "bytes": 154458,
+      "sha256": "c84955b84a603fbe9015b26558de30a9146ce54583adb0fe2a8a9f1c658bff49"
+    }
+  ],
+  "emissives": "deferred",
+  "release_status": "beta"
+}
