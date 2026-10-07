@@ -1,0 +1,112 @@
+[
+  {
+    "path": "mods/40-predator-worn-v14/USLF_Prd.SHP",
+    "bytes": 153050,
+    "sha256": "e8f161146afd9b5989c9eea45db1155912e2554a59d5eadc5adf5896d15726d6"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/gorp14_base.png",
+    "bytes": 27676765,
+    "sha256": "4976a05668b8e6aa74e9f2fd711a1306bf5aa2a58d3bdd59e5c5b7c1f68bce8a"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/gorp14_base_normal.png",
+    "bytes": 26679102,
+    "sha256": "f10ec0b8d5971c53232a29b0db40c546939cb40c3cdd6e3abddd31b5aaffb349"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/gorp14_base_orm.png",
+    "bytes": 8903621,
+    "sha256": "dce49b770273bce9df0efc98556109b5643e3c6ea12bf2429543c12dd37ea9a8"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/gorp14_markings.png",
+    "bytes": 4080950,
+    "sha256": "7a82d3b03f90cbe77d9ec8b2b11328b7041f7b85421dfbcc0788ef5369bbd6d5"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/gorp14_markings_normal.png",
+    "bytes": 7046108,
+    "sha256": "6f741146af837382a00cf12390b442e99c4d1685820e1e83a6564247710ad913"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/gorp14_markings_orm.png",
+    "bytes": 2726381,
+    "sha256": "5bef2422dd605de1ad0a08889b65dc203acdaaf0fbf21e8794187db06a929b66"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/gorp14_surface.png",
+    "bytes": 14664517,
+    "sha256": "06cfbc1be366e432a27b5d904b8b88fe5ec1a74d1ef7d553b591a54c775ab2e0"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/gorp14_surface_normal.png",
+    "bytes": 29123265,
+    "sha256": "50bbfbf4a17d2386aef0cdce25c566d00920197a9d8a68864421cdfd49e81cd1"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/gorp14_surface_orm.png",
+    "bytes": 8609085,
+    "sha256": "33d180e550d69497deeb6883bbf6d0e83829af085bbe98036cbaa6284b97d42f"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/mod.ini",
+    "bytes": 168,
+    "sha256": "837fbd0a3c30d0cdfd340bc0db111543b5987dd95f64f75855c1f6a00503ae32"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/mod.png",
+    "bytes": 806331,
+    "sha256": "a55e2680cb8cb2d30c0cc632948c319c0cf6caba761afb9ee42e0cbcdd10020a"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/orp14_base.png",
+    "bytes": 27676765,
+    "sha256": "4976a05668b8e6aa74e9f2fd711a1306bf5aa2a58d3bdd59e5c5b7c1f68bce8a"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/orp14_base_normal.png",
+    "bytes": 26679102,
+    "sha256": "f10ec0b8d5971c53232a29b0db40c546939cb40c3cdd6e3abddd31b5aaffb349"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/orp14_base_orm.png",
+    "bytes": 8903621,
+    "sha256": "dce49b770273bce9df0efc98556109b5643e3c6ea12bf2429543c12dd37ea9a8"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/orp14_markings.png",
+    "bytes": 4080950,
+    "sha256": "7a82d3b03f90cbe77d9ec8b2b11328b7041f7b85421dfbcc0788ef5369bbd6d5"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/orp14_markings_normal.png",
+    "bytes": 7046108,
+    "sha256": "6f741146af837382a00cf12390b442e99c4d1685820e1e83a6564247710ad913"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/orp14_markings_orm.png",
+    "bytes": 2726381,
+    "sha256": "5bef2422dd605de1ad0a08889b65dc203acdaaf0fbf21e8794187db06a929b66"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/orp14_surface.png",
+    "bytes": 14664517,
+    "sha256": "06cfbc1be366e432a27b5d904b8b88fe5ec1a74d1ef7d553b591a54c775ab2e0"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/orp14_surface_normal.png",
+    "bytes": 29123265,
+    "sha256": "50bbfbf4a17d2386aef0cdce25c566d00920197a9d8a68864421cdfd49e81cd1"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/orp14_surface_orm.png",
+    "bytes": 8609085,
+    "sha256": "33d180e550d69497deeb6883bbf6d0e83829af085bbe98036cbaa6284b97d42f"
+  },
+  {
+    "path": "mods/40-predator-worn-v14/t_USLF_Prd.shp",
+    "bytes": 154458,
+    "sha256": "c84955b84a603fbe9015b26558de30a9146ce54583adb0fe2a8a9f1c658bff49"
+  }
+]
