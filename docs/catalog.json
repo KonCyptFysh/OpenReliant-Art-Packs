@@ -98,21 +98,22 @@
       "name": "Reaper",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Reaper",
-      "status": "coming-soon",
+      "status": "available",
       "version": "0.1.0-beta.1",
       "assetRevision": "3.1",
       "description": "Aligned surface detail, repaired glass and differentiated materials.",
       "modFolder": "50-reaper-worn-v3",
       "preview": "assets/reaper.webp",
       "model": "models/reaper.glb",
-      "download": null,
-      "release": null,
-      "checksum": null,
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.1/openreliant-reaper-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.1",
+      "checksum": "2cba10afec6348fcdbe17546aadc484174e9732736536e7f15c35c2d82c6fb46",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "reaper-v0.1.0-beta.1"
+      "tag": "reaper-v0.1.0-beta.1",
+      "downloadBytes": 120485326
     },
     {
       "id": "wolverine",
