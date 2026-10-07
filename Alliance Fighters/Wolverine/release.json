@@ -1,0 +1,23 @@
+{
+  "package_name": "openreliant-wolverine",
+  "version": "0.1.0-beta.1",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.7.0",
+  "mod_folders": [
+    "60-wolverine-worn-v1"
+  ],
+  "asset_manifest_sha256": "66f3cfa291b3a0aedfe0d817dee663f5b4fbe5f478205d0b4cc8f3fec977e222",
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json"
+  ],
+  "channel": "beta"
+}
