@@ -7,7 +7,7 @@
   "tested_platforms": [
     "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
   ],
-  "asset_manifest_sha256": "db9a0056ca82620cafaf754f85e0fda6263de7009cfb0fcf02460008e7447766",
+  "asset_manifest_sha256": "bdfcadadcba5fcb8bdf3dc1f4a1f8dbf6b627c5050cc8bcd02171d9d1f99c255",
   "source_manifest_sha256": "43f26c0631c4699a9f786cd9d1471c14239da71fa7506d8f8eb232c125c01b39",
   "checks": [
     "Verify 11 runtime files and 26 original source artifacts against the previously verified snapshot.",
@@ -88,14 +88,16 @@
     },
     {
       "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
-      "change": "Use the clean display title Mirage - Worn Paint.",
+      "change": "Use the clean display title Mirage - Worn Paint and a distinct patch version for this title revision.",
       "previous_asset_manifest_sha256": "3fb9926df8b5c28b2afdfaa4e20f63604ed31fb39e7e86b880ada6e940d19ec3",
-      "asset_manifest_sha256": "db9a0056ca82620cafaf754f85e0fda6263de7009cfb0fcf02460008e7447766",
+      "asset_manifest_sha256": "bdfcadadcba5fcb8bdf3dc1f4a1f8dbf6b627c5050cc8bcd02171d9d1f99c255",
       "previous_mod_ini_sha256": "ffb3307b3ede6e3602f850fbe22c532bc90bfeacce4d9dafef8a5b4d6c62046b",
-      "mod_ini_sha256": "8c98b7c460a2373e1779662749f39d49644cb026612ea49a1cebf5d9b2479d5a",
+      "mod_ini_sha256": "5909cfb767a3308bf190f5090538b4b81e92c56ba149f7492263e50840a03eb6",
       "all_other_runtime_files_sha256_unchanged": true,
       "engine_rerun": false,
-      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed."
+      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed.",
+      "previous_mod_version": "3.0.1",
+      "mod_version": "3.0.2"
     }
   ]
 }

@@ -7,7 +7,7 @@
   "mod_folders": [
     "70-tempest-worn-v1"
   ],
-  "asset_manifest_sha256": "85f69dcd6e454c8a83a0fb5552f0e2cadf1e04b16690776c8b713b3ca30b819d",
+  "asset_manifest_sha256": "45a39ca04cf633aab87b21099bc36293c65ac2ab094f590557a09d2cff82e1ce",
   "include_documents": [
     "README.md",
     "INSTALL.md",

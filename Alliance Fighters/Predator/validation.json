@@ -7,7 +7,7 @@
   "tested_platforms": [
     "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
   ],
-  "asset_manifest_sha256": "9b6cbf6b121f48d21ecbb84ebcaa77871bc709e79b569a522e86ae2188ae1d0c",
+  "asset_manifest_sha256": "d9fd1fdb749e077d10be73519c4df7964cac5ecd60896e0cbdeb6249f4df9f4d",
   "source_manifest_sha256": "b049672f478941849f0245868d1750950db6cf0916d5a2153c97de32b8d24b92",
   "checks": [
     "Verify 22 runtime files and 36 original source artifacts against the previously verified snapshot.",
@@ -76,14 +76,16 @@
     },
     {
       "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
-      "change": "Use the clean display title Predator - Worn Paint.",
+      "change": "Use the clean display title Predator - Worn Paint and a distinct patch version for this title revision.",
       "previous_asset_manifest_sha256": "1ff0348f268090f39c58be02a49d4118e6e7a9c26981ba1e4ca3bdbf93aa50f8",
-      "asset_manifest_sha256": "9b6cbf6b121f48d21ecbb84ebcaa77871bc709e79b569a522e86ae2188ae1d0c",
+      "asset_manifest_sha256": "d9fd1fdb749e077d10be73519c4df7964cac5ecd60896e0cbdeb6249f4df9f4d",
       "previous_mod_ini_sha256": "706aa546dd9178aca147a2ebf84d2e6f883164db11895d1ddeb274d1a4572edd",
-      "mod_ini_sha256": "595004c849117d0eed01530a6f0c99dcb04dd2237a9b9accb772569e2273e320",
+      "mod_ini_sha256": "94779722f3c32e14d234d1aa5f8a3532e4fb6aa93828d3ae1663b25d80cd7c62",
       "all_other_runtime_files_sha256_unchanged": true,
       "engine_rerun": false,
-      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed."
+      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed.",
+      "previous_mod_version": "16.1.1",
+      "mod_version": "16.1.2"
     }
   ]
 }

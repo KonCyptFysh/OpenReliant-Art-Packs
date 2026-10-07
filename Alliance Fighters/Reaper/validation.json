@@ -7,7 +7,7 @@
   "tested_platforms": [
     "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
   ],
-  "asset_manifest_sha256": "cec74d9ecd2ce50c866c2f2795fa24998e3fa34cbd8bd83c8d2f8dab19ef98f4",
+  "asset_manifest_sha256": "8befc8c27e4415592d0687afcc091011617307d6e2c3f0a3a1086828938748cc",
   "source_manifest_sha256": "2cafa7053a081dad321bb7710d90fb600420bdbd16042ae1c2ba1260d0358281",
   "checks": [
     "Verify 10 runtime files and 36 original source artifacts against the previously verified snapshot.",
@@ -76,14 +76,16 @@
     },
     {
       "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
-      "change": "Use the clean display title Reaper - Worn Paint.",
+      "change": "Use the clean display title Reaper - Worn Paint and a distinct patch version for this title revision.",
       "previous_asset_manifest_sha256": "4508de996d37aace040018a796f7fae481b4d4b34bdbfb236a8f8605ebfa5879",
-      "asset_manifest_sha256": "cec74d9ecd2ce50c866c2f2795fa24998e3fa34cbd8bd83c8d2f8dab19ef98f4",
+      "asset_manifest_sha256": "8befc8c27e4415592d0687afcc091011617307d6e2c3f0a3a1086828938748cc",
       "previous_mod_ini_sha256": "973a3e71b4555ed81e9b05f897b77aba8ba496c69d79e81ccb6ab0f9a68ff00b",
-      "mod_ini_sha256": "a74079e74e0fe3e8031007b0eb03964a1aa118f9094b8c5fae5451946ca4fcaa",
+      "mod_ini_sha256": "1d97f01494a01227ebba45018d091f909236d2f0637bf1772a69560bbd6adebe",
       "all_other_runtime_files_sha256_unchanged": true,
       "engine_rerun": false,
-      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed."
+      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed.",
+      "previous_mod_version": "3.1.1",
+      "mod_version": "3.1.2"
     }
   ]
 }
