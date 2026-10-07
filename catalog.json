@@ -54,21 +54,22 @@
       "name": "Coyote",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Coyote",
-      "status": "coming-soon",
+      "status": "available",
       "version": "0.1.0-beta.1",
       "assetRevision": "4.0",
       "description": "Clean structural relief, worn green paint and distinctive radiator fins.",
       "modFolder": "30-coyote-worn-v4",
       "preview": "assets/coyote.webp",
       "model": "models/coyote.glb",
-      "download": null,
-      "release": null,
-      "checksum": null,
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/untagged-2811cb275a35a04c2278/openreliant-coyote-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.1",
+      "checksum": "1e32bea620219ad82a1323268133f28a3590535666e13870706f356bd1c1bf17",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "coyote-v0.1.0-beta.1"
+      "tag": "coyote-v0.1.0-beta.1",
+      "downloadBytes": 229095259
     },
     {
       "id": "predator",
