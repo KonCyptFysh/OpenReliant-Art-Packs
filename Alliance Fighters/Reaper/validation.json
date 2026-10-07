@@ -7,7 +7,7 @@
   "tested_platforms": [
     "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
   ],
-  "asset_manifest_sha256": "5a67509bc6d47c5d6a172a0506cc87bf0287b84c311ccceb4bc483cc02622ed1",
+  "asset_manifest_sha256": "4508de996d37aace040018a796f7fae481b4d4b34bdbfb236a8f8605ebfa5879",
   "source_manifest_sha256": "2cafa7053a081dad321bb7710d90fb600420bdbd16042ae1c2ba1260d0358281",
   "checks": [
     "Verify 10 runtime files and 36 original source artifacts against the previously verified snapshot.",
@@ -59,5 +59,20 @@
     "Lower-LOD distance transitions and separate later-campaign liveries remain under review.",
     "Windows and macOS runtime tests have not been performed.",
     "No custom emissive maps are included."
+  ],
+  "metadata_updates": [
+    {
+      "checked_at_utc": "2026-10-07T09:13:17.028579+00:00",
+      "change": "Add the approved artwork licence metadata and the portable licence notice.",
+      "previous_asset_manifest_sha256": "5a67509bc6d47c5d6a172a0506cc87bf0287b84c311ccceb4bc483cc02622ed1",
+      "asset_manifest_sha256": "4508de996d37aace040018a796f7fae481b4d4b34bdbfb236a8f8605ebfa5879",
+      "previous_mod_ini_sha256": "d66f5bf22ba704ceb63683f5c1c5df81d37de37e2894264a7b26a374041014fe",
+      "mod_ini_sha256": "973a3e71b4555ed81e9b05f897b77aba8ba496c69d79e81ccb6ab0f9a68ff00b",
+      "previous_mod_version": "3.1",
+      "mod_version": "3.1.1",
+      "all_other_runtime_files_sha256_unchanged": true,
+      "engine_rerun": false,
+      "scope": "Original runtime evidence above predates this metadata-only update; artwork and native model bytes are unchanged. These metadata files have not been redeployed to the local game."
+    }
   ]
 }

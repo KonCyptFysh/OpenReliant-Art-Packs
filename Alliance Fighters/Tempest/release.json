@@ -1,13 +1,13 @@
 {
   "package_name": "openreliant-tempest",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "status": "ready-for-packaging",
   "hold_reason": null,
   "minimum_openreliant": "0.7.0",
   "mod_folders": [
     "70-tempest-worn-v1"
   ],
-  "asset_manifest_sha256": "78ca07a0328d9c059fa66081b9922d41cf128ccbc8ff9c85eadd40557ba3070d",
+  "asset_manifest_sha256": "ad193c6c21e5bd0871c9b4edfcafe01f1c11ee2b4e2d001be36e13cba98bd6cb",
   "include_documents": [
     "README.md",
     "INSTALL.md",

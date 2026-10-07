@@ -36,6 +36,12 @@
       "description": "Ships outside the main fleet categories."
     },
     {
+      "id": "weapons",
+      "name": "Weapons",
+      "folder": "Weapons",
+      "description": "Weapon models, textures and visual effects."
+    },
+    {
       "id": "environment-and-planets",
       "name": "Environment and Planets",
       "folder": "Environment and Planets",

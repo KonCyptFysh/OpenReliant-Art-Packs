@@ -20,9 +20,14 @@
     "sha256": "fbcabb23697b0eedadb178a1e5449c7165d91c6007b447e0158bcbaa46dca9bf"
   },
   {
+    "path": "mods/60-wolverine-worn-v1/license.txt",
+    "bytes": 999,
+    "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
+  },
+  {
     "path": "mods/60-wolverine-worn-v1/mod.ini",
-    "bytes": 199,
-    "sha256": "39ea2d34e6703f84ab81a720b823e48d18452cd127fb070f1991d95f94251c8b"
+    "bytes": 225,
+    "sha256": "4aa63644fdb81633519d3a745e2ee710b6675ba5392a17aaef2b51fc250b73a4"
   },
   {
     "path": "mods/60-wolverine-worn-v1/mod.png",

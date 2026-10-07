@@ -1,7 +1,22 @@
-# Licensing status
+# Artwork licensing
 
-This is an independent StarLancer fan-mod beta. It requires your own installed copy of StarLancer and does not include the retail game archives or the OpenReliant engine.
+KonCyptFysh StarLancer Art Packs
 
-No blanket open-source or artwork reuse licence has been assigned to this repository. Publishing the files does not relicense underlying StarLancer material or third-party contributions. Existing rights and notices remain with their respective holders.
+Original copyrightable restoration artwork and modifications contributed by
+KonCyptFysh are licensed under Creative Commons Attribution-NonCommercial-
+ShareAlike 4.0 International (CC-BY-NC-SA-4.0).
 
-For reuse of the maintainer's original restoration work, request permission from KonCyptFysh. Any future licence decision will be recorded here explicitly.
+License summary: https://creativecommons.org/licenses/by-nc-sa/4.0/
+Full legal terms: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
+Attribution: KonCyptFysh — https://github.com/KonCyptFysh/OpenReliant-Art-Packs
+
+The licence applies only to rights held by KonCyptFysh in those contributions.
+Underlying StarLancer models, textures, designs and other third-party material
+are excluded from this grant; their rights remain with their respective holders.
+This notice does not grant permission on those holders' behalf. Separately
+licensed third-party contributions retain their own terms and credit notices.
+
+This is independent fan artwork for StarLancer, compatible with OpenReliant.
+This licence does not apply to either project's separate work.
+
+This artwork licence does not assign a blanket licence to repository tools or website code. Existing notices for bundled libraries, fonts and other third-party components remain in force.

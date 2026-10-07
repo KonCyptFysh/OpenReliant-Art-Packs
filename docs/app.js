@@ -121,6 +121,7 @@ try {
   catalogue = await response.json();
   const params = new URLSearchParams(location.search);
   selectedCategory = catalogue.categories.some(c => c.id === params.get('category')) ? params.get('category') : catalogue.categories[0].id;
+  $('#collection-count').textContent = String(catalogue.categories.length).padStart(2,'0');
   $('#available-count').textContent = String(catalogue.assets.filter(a => a.status === 'available').length).padStart(2,'0');
   render();
   if (params.get('asset')) openAsset(params.get('asset'));

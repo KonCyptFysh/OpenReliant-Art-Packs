@@ -20,9 +20,14 @@
     "sha256": "febb63bf3e93fe361e6db7f3c7e0d1925ccfd578a9e7bdf55913dd5cd1197b4f"
   },
   {
+    "path": "mods/70-tempest-worn-v1/license.txt",
+    "bytes": 999,
+    "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
+  },
+  {
     "path": "mods/70-tempest-worn-v1/mod.ini",
-    "bytes": 177,
-    "sha256": "ed2e9c410ac72c9a0ddeaeb3ac26a95cc5c7419110e71ee30c25e75059740c4a"
+    "bytes": 203,
+    "sha256": "60d417c7d5d7e9a35caa5b31916667684963e8fa003fa4bae48cb49fad179618"
   },
   {
     "path": "mods/70-tempest-worn-v1/mod.png",

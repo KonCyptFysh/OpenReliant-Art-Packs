@@ -13,6 +13,7 @@ The gallery provides in-game screenshots and rotatable model previews where avai
 - [Alliance Capital Ships](Alliance%20Capital%20Ships/)
 - [Coalition Capital Ships](Coalition%20Capital%20Ships/)
 - [Uncategorised Ships](Uncategorised%20Ships/)
+- [Weapons](Weapons/)
 - [Environment and Planets](Environment%20and%20Planets/)
 - [HUD](HUD/)
 

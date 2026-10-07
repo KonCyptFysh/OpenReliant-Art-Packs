@@ -50,9 +50,14 @@
     "sha256": "33d180e550d69497deeb6883bbf6d0e83829af085bbe98036cbaa6284b97d42f"
   },
   {
+    "path": "mods/40-predator-worn-v14/license.txt",
+    "bytes": 999,
+    "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
+  },
+  {
     "path": "mods/40-predator-worn-v14/mod.ini",
-    "bytes": 168,
-    "sha256": "837fbd0a3c30d0cdfd340bc0db111543b5987dd95f64f75855c1f6a00503ae32"
+    "bytes": 194,
+    "sha256": "706aa546dd9178aca147a2ebf84d2e6f883164db11895d1ddeb274d1a4572edd"
   },
   {
     "path": "mods/40-predator-worn-v14/mod.png",

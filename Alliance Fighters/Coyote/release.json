@@ -1,13 +1,13 @@
 {
   "package_name": "openreliant-coyote",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "status": "ready-for-packaging",
   "hold_reason": null,
   "minimum_openreliant": "0.7.0",
   "mod_folders": [
     "30-coyote-worn-v4"
   ],
-  "asset_manifest_sha256": "fa1bd7377cee6e96a7b1f067804ca40b3c206895f942e2e24568115f3e3d350b",
+  "asset_manifest_sha256": "98a4a4ddd2b5499b67f511d737321102988a1509dd8b5f63c811d981a1d0671f",
   "include_documents": [
     "README.md",
     "INSTALL.md",
