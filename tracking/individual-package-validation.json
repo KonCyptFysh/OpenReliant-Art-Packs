@@ -33,6 +33,10 @@
     {
       "ship": "Naginata",
       "validation": "Alliance Fighters/Naginata/validation.json"
+    },
+    {
+      "ship": "Patriot",
+      "validation": "Alliance Fighters/Patriot/validation.json"
     }
   ],
   "limits": "No full gameplay or other-platform certification. Each beta was packaged and published independently."

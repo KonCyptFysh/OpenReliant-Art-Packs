@@ -237,14 +237,22 @@
       "name": "Patriot",
       "category": "alliance-fighters",
       "status": "coming-soon",
-      "description": "The next Alliance fighter restoration is being revised.",
-      "preview": null,
-      "model": null,
+      "description": "Six-fin intakes, bright radiator metal and continuous outer-engine panels.",
+      "preview": "assets/patriot.webp",
+      "model": "models/patriot.glb",
       "download": null,
       "notes": [
-        "Glass, UV joins, gun muzzles and radiator relief are under review."
+        "Patriot v3 artwork is complete and approved for this beta.",
+        "Custom emissive maps are planned for a later update.",
+        "Lower-detail models, later-campaign liveries and broader gameplay testing remain on the workbench."
       ],
-      "folder": "Alliance Fighters/Patriot"
+      "folder": "Alliance Fighters/Patriot",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "3.0",
+      "modFolder": "96-patriot-worn-v1",
+      "release": null,
+      "checksum": null,
+      "tag": "patriot-v0.1.0-beta.1"
     }
   ]
 }
