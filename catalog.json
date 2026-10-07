@@ -120,21 +120,22 @@
       "name": "Wolverine",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Wolverine",
-      "status": "coming-soon",
+      "status": "available",
       "version": "0.1.0-beta.1",
       "assetRevision": "2.0",
       "description": "Worn steel, warm markings and smoked-green glazing.",
       "modFolder": "60-wolverine-worn-v1",
       "preview": "assets/wolverine.webp",
       "model": "models/wolverine.glb",
-      "download": null,
-      "release": null,
-      "checksum": null,
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.1/openreliant-wolverine-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.1",
+      "checksum": "8311021c860a1d7516221decb03f4b3408c334e83f3b44c4a538c4d35ebd4e2b",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "wolverine-v0.1.0-beta.1"
+      "tag": "wolverine-v0.1.0-beta.1",
+      "downloadBytes": 63146154
     },
     {
       "id": "tempest",
