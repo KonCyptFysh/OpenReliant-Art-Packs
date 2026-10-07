@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121615">
+  <meta name="description" content="Browse restored StarLancer ships and art for OpenReliant. Explore 3D previews, see in-game captures and download individual art packs.">
+  <title>OpenReliant Art Packs — The fleet, recommissioned.</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#collection">Skip to the collection</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="OpenReliant Art Packs home"><img src="icon.svg" width="34" height="34" alt=""><span>OPENRELIANT<span class="brand-sub">ART PACKS / BY KONCYPTFYSH</span></span></a>
+    <nav aria-label="Main navigation"><a href="#collection">Collection</a><a href="#installation">Installation</a><a href="https://github.com/KonCyptFysh/OpenReliant-Art-Packs" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span class="small-line"></span> STARLANCER / ART RESTORATION</p><h1 id="hero-title">THE FLEET,<br><span>RECOMMISSIONED.</span></h1><p class="hero-description">Familiar silhouettes. A new level of detail.<br>Restored ships, worlds and interface art for OpenReliant — ready to explore, one pack at a time.</p><a class="button primary" href="#collection">Explore the collection <span aria-hidden="true">↓</span></a><p class="hero-note">Independent artwork. Original spirit.</p></div>
+      <div class="hero-visual"><div class="orbital-line orbit-one"></div><div class="orbital-line orbit-two"></div><img src="assets/coyote.webp" alt="The restored Coyote fighter in OpenReliant" class="hero-ship" fetchpriority="high"><div class="hero-caption"><span class="crosshair" aria-hidden="true">+</span><div><strong>COYOTE</strong><span>ALLIANCE FIGHTER / IN-GAME CAPTURE</span></div><button class="text-button" data-asset="coyote">Take a closer look <span aria-hidden="true">↗</span></button></div></div>
+    </section>
+    <div class="status-strip"><div><strong id="available-count">—</strong><span>INDIVIDUAL PACKS AVAILABLE</span></div><div><strong>07</strong><span>ART COLLECTIONS</span></div><div><strong>0.7.0</strong><span>BUILT FOR OPENRELIANT</span></div><p>More artwork is on the way.<br><span>Look for the “Coming soon” label.</span></p></div>
+    <section id="collection" class="collection-section" aria-labelledby="collection-heading">
+      <div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="collection-heading">Find your next upgrade.</h2></div><p>Choose a collection. Inspect the details.<br>Download just the assets you want.</p></div>
+      <div class="collection-layout">
+        <aside class="collection-sidebar"><p class="sidebar-label">BROWSE BY COLLECTION</p><nav id="category-nav" aria-label="Art collections"></nav><div class="sidebar-note"><span class="accent-dot"></span><p>A work in progress.<br><span>Beta packs have known refinements still to come.</span></p></div></aside>
+        <div class="collection-content"><div class="catalogue-toolbar"><div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a ship or art pack" aria-label="Search art packs"></div><select id="status-filter" aria-label="Filter by availability"><option value="all">All availability</option><option value="available">Available now</option><option value="coming-soon">Coming soon</option></select></div><div class="result-heading"><h3 id="category-heading">Alliance Fighters</h3><span id="result-count" aria-live="polite"></span></div><div id="asset-grid" class="asset-grid" aria-live="polite"><p class="loading-message">Loading the collection…</p></div></div>
+      </div>
+    </section>
+    <section id="installation" class="installation-section" aria-labelledby="installation-heading"><div class="installation-intro"><p class="eyebrow">BACK INTO THE COCKPIT</p><h2 id="installation-heading">A new look.<br>The same game.</h2><p>You’ll need OpenReliant 0.7.0 and your own installed copy of StarLancer.</p><a class="inline-link" href="https://github.com/KonCyptFysh/OpenReliant-Art-Packs/blob/main/INSTALL.md">Full installation guide <span aria-hidden="true">↗</span></a></div><ol class="install-steps"><li><span>01</span><div><h3>Pick your pack</h3><p>Download the individual ZIP for the ship or artwork you want.</p></div></li><li><span>02</span><div><h3>Add it to your game</h3><p>Close OpenReliant, back up the older mod, and place the download’s <code>mods</code> folder beside <code>resource.hog</code>.</p></div></li><li><span>03</span><div><h3>Restart and explore</h3><p>Enable the pack under Game Options → Mods, restart, and take a closer look.</p></div></li></ol></section>
+    <section class="feedback-strip"><div><p class="eyebrow">HELP SHAPE THE NEXT PASS</p><h2>Spotted something out of place?</h2><p>A screenshot, ship name and a few steps help turn a rough edge into a better pack.</p></div><a class="button secondary" href="https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/new/choose">Report an issue <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer><div class="footer-brand">OPENRELIANT <span>ART PACKS</span><small>Restoration and artwork by KonCyptFysh.</small></div><p>Independent fan-made artwork for StarLancer.<br>Original game rights remain with their respective holders.</p><a href="https://github.com/KonCyptFysh/OpenReliant-Art-Packs/blob/main/LICENSING.md">Credits & licensing ↗</a></footer>
+  <dialog id="asset-dialog" aria-labelledby="asset-title"><button class="close-dialog" aria-label="Close asset preview">×</button><div class="detail-layout"><div class="detail-media"><div class="preview-tabs" aria-label="Preview type"><button id="show-3d" type="button">3D preview</button><button id="show-image" type="button">In-game capture</button></div><div id="preview-stage"></div><div class="preview-bottom"><span id="preview-hint"></span><button id="rotate-toggle" class="text-button" type="button">Pause rotation</button></div></div><div id="asset-details" class="asset-details"></div></div></dialog>
+  <noscript><div class="no-script">Enable JavaScript to browse previews, or <a href="https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases">browse the individual downloads on GitHub</a>.</div></noscript>
+</body>
+</html>

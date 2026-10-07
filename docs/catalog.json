@@ -1,0 +1,234 @@
+{
+  "schema": 1,
+  "title": "OpenReliant Art Packs",
+  "owner": "KonCyptFysh",
+  "repository": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs",
+  "engine": "0.7.0",
+  "categories": [
+    {
+      "id": "alliance-fighters",
+      "name": "Alliance Fighters",
+      "folder": "Alliance Fighters",
+      "description": "Restored Alliance fighters, with individual downloads and editable sources."
+    },
+    {
+      "id": "coalition-fighters",
+      "name": "Coalition Fighters",
+      "folder": "Coalition Fighters",
+      "description": "Coalition fighter artwork and restorations."
+    },
+    {
+      "id": "alliance-capital-ships",
+      "name": "Alliance Capital Ships",
+      "folder": "Alliance Capital Ships",
+      "description": "Alliance carriers, cruisers and support ships."
+    },
+    {
+      "id": "coalition-capital-ships",
+      "name": "Coalition Capital Ships",
+      "folder": "Coalition Capital Ships",
+      "description": "Coalition capital ship artwork and restorations."
+    },
+    {
+      "id": "uncategorised-ships",
+      "name": "Uncategorised Ships",
+      "folder": "Uncategorised Ships",
+      "description": "Ships outside the main fleet categories."
+    },
+    {
+      "id": "environment-and-planets",
+      "name": "Environment and Planets",
+      "folder": "Environment and Planets",
+      "description": "Worlds, backdrops and environmental artwork."
+    },
+    {
+      "id": "hud",
+      "name": "HUD",
+      "folder": "HUD",
+      "description": "Interface artwork, targeting displays and cockpit overlays."
+    }
+  ],
+  "assets": [
+    {
+      "id": "coyote",
+      "name": "Coyote",
+      "category": "alliance-fighters",
+      "folder": "Alliance Fighters/Coyote",
+      "status": "coming-soon",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "4.0",
+      "description": "Clean structural relief, worn green paint and distinctive radiator fins.",
+      "modFolder": "30-coyote-worn-v4",
+      "preview": "assets/coyote.webp",
+      "model": "models/coyote.glb",
+      "download": null,
+      "release": null,
+      "checksum": null,
+      "notes": [
+        "Texture refinements remain in progress.",
+        "Custom emissive maps are planned for a later update."
+      ],
+      "tag": "coyote-v0.1.0-beta.1"
+    },
+    {
+      "id": "predator",
+      "name": "Predator",
+      "category": "alliance-fighters",
+      "folder": "Alliance Fighters/Predator",
+      "status": "coming-soon",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "16.1",
+      "description": "Continuous wing fins, repaired surface detail and restrained paint markings.",
+      "modFolder": "40-predator-worn-v14",
+      "preview": "assets/predator.webp",
+      "model": "models/predator.glb",
+      "download": null,
+      "release": null,
+      "checksum": null,
+      "notes": [
+        "Texture refinements remain in progress.",
+        "Custom emissive maps are planned for a later update."
+      ],
+      "tag": "predator-v0.1.0-beta.1"
+    },
+    {
+      "id": "reaper",
+      "name": "Reaper",
+      "category": "alliance-fighters",
+      "folder": "Alliance Fighters/Reaper",
+      "status": "coming-soon",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "3.1",
+      "description": "Aligned surface detail, repaired glass and differentiated materials.",
+      "modFolder": "50-reaper-worn-v3",
+      "preview": "assets/reaper.webp",
+      "model": "models/reaper.glb",
+      "download": null,
+      "release": null,
+      "checksum": null,
+      "notes": [
+        "Texture refinements remain in progress.",
+        "Custom emissive maps are planned for a later update."
+      ],
+      "tag": "reaper-v0.1.0-beta.1"
+    },
+    {
+      "id": "wolverine",
+      "name": "Wolverine",
+      "category": "alliance-fighters",
+      "folder": "Alliance Fighters/Wolverine",
+      "status": "coming-soon",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "2.0",
+      "description": "Worn steel, warm markings and smoked-green glazing.",
+      "modFolder": "60-wolverine-worn-v1",
+      "preview": "assets/wolverine.webp",
+      "model": "models/wolverine.glb",
+      "download": null,
+      "release": null,
+      "checksum": null,
+      "notes": [
+        "Texture refinements remain in progress.",
+        "Custom emissive maps are planned for a later update."
+      ],
+      "tag": "wolverine-v0.1.0-beta.1"
+    },
+    {
+      "id": "tempest",
+      "name": "Tempest",
+      "category": "alliance-fighters",
+      "folder": "Alliance Fighters/Tempest",
+      "status": "coming-soon",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "1.0",
+      "description": "Dark steel, red livery and continuous radiator detail.",
+      "modFolder": "70-tempest-worn-v1",
+      "preview": "assets/tempest.webp",
+      "model": "models/tempest.glb",
+      "download": null,
+      "release": null,
+      "checksum": null,
+      "notes": [
+        "Texture refinements remain in progress.",
+        "Custom emissive maps are planned for a later update."
+      ],
+      "tag": "tempest-v0.1.0-beta.1"
+    },
+    {
+      "id": "shroud",
+      "name": "Shroud",
+      "category": "alliance-fighters",
+      "folder": "Alliance Fighters/Shroud",
+      "status": "coming-soon",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "2.0",
+      "description": "Bronze and steel finishes, wing radiators and smoked glass.",
+      "modFolder": "80-shroud-worn-v1",
+      "preview": "assets/shroud.webp",
+      "model": "models/shroud.glb",
+      "download": null,
+      "release": null,
+      "checksum": null,
+      "notes": [
+        "Texture refinements remain in progress.",
+        "Custom emissive maps are planned for a later update."
+      ],
+      "tag": "shroud-v0.1.0-beta.1"
+    },
+    {
+      "id": "mirage",
+      "name": "Mirage",
+      "category": "alliance-fighters",
+      "folder": "Alliance Fighters/Mirage",
+      "status": "coming-soon",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "3.0",
+      "description": "Original-style canopy boundaries, worn glazing and deep surface relief.",
+      "modFolder": "90-mirage-worn-v1",
+      "preview": "assets/mirage.webp",
+      "model": "models/mirage.glb",
+      "download": null,
+      "release": null,
+      "checksum": null,
+      "notes": [
+        "Texture refinements remain in progress.",
+        "Custom emissive maps are planned for a later update."
+      ],
+      "tag": "mirage-v0.1.0-beta.1"
+    },
+    {
+      "id": "naginata",
+      "name": "Naginata",
+      "category": "alliance-fighters",
+      "folder": "Alliance Fighters/Naginata",
+      "status": "coming-soon",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "4.0",
+      "description": "Revised wing edges, engine-wear scale and louvred exhausts.",
+      "modFolder": "95-naginata-worn-v1",
+      "preview": "assets/naginata.webp",
+      "model": "models/naginata.glb",
+      "download": null,
+      "release": null,
+      "checksum": null,
+      "notes": [
+        "Texture refinements remain in progress.",
+        "Custom emissive maps are planned for a later update."
+      ],
+      "tag": "naginata-v0.1.0-beta.1"
+    },
+    {
+      "id": "patriot",
+      "name": "Patriot",
+      "category": "alliance-fighters",
+      "status": "coming-soon",
+      "description": "The next Alliance fighter restoration is being revised.",
+      "preview": null,
+      "model": null,
+      "download": null,
+      "notes": [
+        "Glass, UV joins, gun muzzles and radiator relief are under review."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "FIGHTERS-ART-01": {
+    "number": 1,
+    "url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/1"
+  },
+  "FIGHTERS-FIX-01": {
+    "number": 2,
+    "url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/2"
+  },
+  "FIGHTERS-EMISSIVE-01": {
+    "number": 3,
+    "url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/3"
+  },
+  "FIGHTERS-EMISSIVE-02": {
+    "number": 4,
+    "url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/4"
+  },
+  "FIGHTERS-LOD-01": {
+    "number": 5,
+    "url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/5"
+  },
+  "FIGHTERS-QA-01": {
+    "number": 6,
+    "url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/6"
+  }
+}

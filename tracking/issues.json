@@ -1,0 +1,135 @@
+[
+  {
+    "id": "FIGHTERS-ART-01",
+    "title": "Review and finish the eight included fighters",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "Fighter texture refinement",
+    "description": "Eight current sources and runtime exports are retained with matching installed hashes. Naginata is now v4; four fresh v4 captures and six matched close-ups accompany the update. Other seven candidates are byte-identical to the previously tested exports. Final art acceptance remains open.",
+    "acceptance": [
+      "Complete current editing work before freezing assets.",
+      "Review both sides of all eight fighters in game.",
+      "Record remaining defects by ship and surface with screenshots."
+    ],
+    "completed": [
+      "Refresh portable current source snapshots and runtime exports for all eight ships.",
+      "Verify all deployed file hashes and capture standard/later variants on official 0.7.0."
+    ],
+    "remaining": [
+      "Detailed per-surface acceptance of all eight ships; record specific remaining defects."
+    ],
+    "updated_at_utc": "2026-10-07T04:51:39.498833+00:00",
+    "github_number": 1,
+    "github_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/1",
+    "validation_reference": "See each published asset folder and its validation.json."
+  },
+  {
+    "id": "FIGHTERS-FIX-01",
+    "title": "Review Naginata v4 edge UVs and exhaust reconstruction",
+    "category": "needs-review",
+    "status": "open",
+    "milestone": "Fighter texture refinement",
+    "description": "Naginata v4 gives narrow wing edge/opening faces full-area UV islands, fixes stretched engine wear, and reuses legacy-style round louvres at the original engine-effect points. Both native variants and all three texture families are deployed. User visual acceptance remains open.",
+    "acceptance": [
+      "Review v4 wing leading/trailing edges and inner opening walls at close range.",
+      "Assess engine wear scale and the reconstructed louvred exhaust outlets.",
+      "Verify both variants and matching base/normal/ORM maps in the installed mod."
+    ],
+    "completed": [
+      "Replace collapsed UVs on 60 wing edge/opening triangles, 28 engine skin triangles and four exhaust triangles using one additional 2K atlas.",
+      "Preserve original geometry, normals, attachment points, lower LODs, main atlas and v3 repair maps.",
+      "Refresh portable v4 scene, masks and reference recipes; deploy 23 exact repository files.",
+      "Pass native checks and four official 0.7.0 bounded captures, including materials on/off."
+    ],
+    "remaining": [
+      "User close-up acceptance of v4 edges, opening walls and the exhaust interpretation.",
+      "Existing broader nose/tail, cockpit joins and livery review remain open until accepted."
+    ],
+    "updated_at_utc": "2026-10-07T04:51:39.498833+00:00",
+    "github_number": 2,
+    "github_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/2",
+    "validation_reference": "See each published asset folder and its validation.json."
+  },
+  {
+    "id": "FIGHTERS-EMISSIVE-01",
+    "title": "Design emissive treatment after textures are finished",
+    "category": "planned",
+    "status": "open",
+    "milestone": "Emissive update",
+    "description": "Emissive maps are deliberately deferred. Their appearance has not yet been decided. Do not invent illuminated areas or ship demonstration maps.",
+    "acceptance": [
+      "Finish the base-texture review.",
+      "Approve which surfaces emit, their colour and brightness.",
+      "Then create per-ship implementation issues."
+    ],
+    "github_number": 3,
+    "github_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/3",
+    "validation_reference": "See each published asset folder and its validation.json."
+  },
+  {
+    "id": "FIGHTERS-EMISSIVE-02",
+    "title": "Implement and test the approved emissive maps",
+    "category": "planned",
+    "status": "open",
+    "milestone": "Emissive update",
+    "description": "Depends on FIGHTERS-EMISSIVE-01. Test emissive surface brightness and bloom separately. Lighting nearby hull requires a separate design and implementation decision.",
+    "acceptance": [
+      "Export the approved maps at the matching base-map dimensions.",
+      "Test in flight with materials and bloom enabled, in light and darkness.",
+      "Check the other ships for regressions and update the release notes."
+    ],
+    "github_number": 4,
+    "github_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/4",
+    "validation_reference": "See each published asset folder and its validation.json."
+  },
+  {
+    "id": "FIGHTERS-LOD-01",
+    "title": "Track lower-detail models and later-campaign liveries",
+    "category": "planned",
+    "status": "open",
+    "milestone": "Later artwork",
+    "description": "All sixteen model variants pass native validation. Their original lower-detail texture references remain intact; no lower-LOD or separate tiger artwork was replaced during repository handoff.",
+    "acceptance": [
+      "Record coverage for standard and later-campaign model variants.",
+      "Check distance transitions and document remaining native textures.",
+      "Restore additional variants only in their own reviewed update."
+    ],
+    "completed": [
+      "Inventory both model variants and their retained native texture names in working-validation.json."
+    ],
+    "remaining": [
+      "Verify distance transitions and exact later-campaign artwork coverage before freeze."
+    ],
+    "updated_at_utc": "2026-10-07T04:01:29.431816+00:00",
+    "github_number": 5,
+    "github_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/5",
+    "validation_reference": "See each published asset folder and its validation.json."
+  },
+  {
+    "id": "FIGHTERS-QA-01",
+    "title": "Expand gameplay and platform validation after the first beta",
+    "category": "testing",
+    "status": "open",
+    "milestone": "Gameplay and platform testing",
+    "description": "The first beta has bounded native and clean-install rendering checks on official OpenReliant 0.7.0 for Linux, without the HUD, plus earlier HUD-loaded captures. This issue tracks gameplay and platform coverage still outstanding; beta smoke checks do not imply a full campaign pass.",
+    "acceptance": [
+      "Exercise campaign flight, damage, ejection, loadout and Shroud cloak where supported.",
+      "Check lower-LOD distance transitions.",
+      "Validate Windows and macOS."
+    ],
+    "completed": [
+      "Validate sixteen SHPs, two DTEs and required map references.",
+      "Capture standard and t_ variants of all eight fighters; record engine, platform, artifact and deployment hashes.",
+      "Validate the frozen 106-file package and all sixteen variants in a fresh HUD-independent test install."
+    ],
+    "remaining": [
+      "Exercise campaign flight, damage, ejection, loadout and Shroud cloak where supported.",
+      "Check lower-LOD distance transitions.",
+      "Validate Windows and macOS."
+    ],
+    "updated_at_utc": "2026-10-07T04:51:39.498833+00:00",
+    "github_number": 6,
+    "github_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/6",
+    "validation_reference": "See each published asset folder and its validation.json."
+  }
+]

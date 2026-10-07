@@ -1,0 +1,9 @@
+dist/
+.local/
+__pycache__/
+*.pyc
+*.partial
+*.blend1
+*.kra~
+.env
+.DS_Store

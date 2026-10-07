@@ -1,0 +1,21 @@
+name: Artwork feedback or planned improvement
+description: Track incomplete artwork or propose a specific improvement.
+title: "[Art] "
+body:
+  - type: input
+    id: asset
+    attributes:
+      label: Ship, HUD element or asset name
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What needs work?
+      description: Include screenshots and whether this is already listed in ASSET_STATUS.md.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: What would count as finished?

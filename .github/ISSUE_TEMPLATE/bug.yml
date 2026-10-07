@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a problem with this mod.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: Check the known issues first. A planned artwork update may already be tracked.
+  - type: input
+    id: versions
+    attributes:
+      label: Mod version and exact OpenReliant build
+      description: Include whether this is official OpenReliant or a custom HUD build.
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Operating system, GPU and screen resolution
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the mission, ship, view and affected HUD element or surface.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened and what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots and relevant log excerpt
+      description: Attach evidence showing the problem. Remove personal paths if needed.
+  - type: textarea
+    id: other_mods
+    attributes:
+      label: Other enabled mods and load order
+  - type: dropdown
+    id: isolated
+    attributes:
+      label: Does it happen with this mod disabled?
+      options:
+        - Not tested
+        - Yes
+        - No
