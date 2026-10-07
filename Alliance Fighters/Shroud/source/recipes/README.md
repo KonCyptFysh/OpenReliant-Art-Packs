@@ -1,0 +1,3 @@
+# Selected authoring recipes
+
+These preserve the current material/UV algorithms and region data. They are reference recipes, not commands to regenerate the ship from a historic scene. Authoring continues in the canonical workspace. Machine-specific paths are replaced by `authoring://` or `local-only://` provenance references; original paths and hashes are retained in ignored local records. Some recipes depend on earlier authoring stages that are deliberately not copied into this current-source snapshot. Open the current packed Blender scene for editing/review; use the matching runtime files in `mods/` for testing.

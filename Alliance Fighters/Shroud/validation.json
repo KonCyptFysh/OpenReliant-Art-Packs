@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "scope": "individual-mod-bounded-loading-and-rendering",
+  "checked_at_utc": "2026-10-07T07:00:20.923744+00:00",
+  "engine_build": "OpenReliant 0.7.0 official release 3b27f16",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "tested_platforms": [
+    "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
+  ],
+  "asset_manifest_sha256": "dd178c407b85aaa7290f204670f5235295ae6c14d3dfda27acb36cb94e665fd5",
+  "source_manifest_sha256": "93d684f24228f7d7109aefaa6f0891a20f4201da7771693202a69f4ef569d3e8",
+  "checks": [
+    "Verify 10 runtime files and 23 original source artifacts against the previously verified snapshot.",
+    "Copy only 80-shroud-worn-v1 into a clean test installation; verify all runtime hashes.",
+    "Pass native format checks for 2 SHP/DTE files.",
+    "Load and capture the standard fighter on official OpenReliant 0.7.0 with exactly one art mod enabled and no HUD.",
+    "Preserve the byte-identical runtime assets previously checked in both standard and t_ variants with the original eight-fighter set.",
+    "Inspect the new isolated-mod capture for the expected ship and gross rendering errors."
+  ],
+  "native_checks": [
+    {
+      "path": "mods/80-shroud-worn-v1/Jap_Shroud.SHP",
+      "sha256": "39752a3efc683b4d7b017c61b6545f87d95fe3c7354db205b373813057024ba5",
+      "exit_status": 0,
+      "log_sha256": "5d40aa2902600441ecf18c3fa2ca4f7beab2a64e0e950604424d095c20a320a9"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/t_Jap_Shroud.SHP",
+      "sha256": "f7e0fbeb9ada6f5f793b7da0a840cd769675ca735c909a3c928d32485582975f",
+      "exit_status": 0,
+      "log_sha256": "5d40aa2902600441ecf18c3fa2ca4f7beab2a64e0e950604424d095c20a320a9"
+    }
+  ],
+  "single_mod_capture": {
+    "sha256": "09c70a6580400d0cceeed09c0c14d8c7d440ab4d9432bd550bf779240a807e34",
+    "log_sha256": "584b91d0a88bcc5c2549b930df3eb4e027de37ef033db1a63f0771f56a7d5c2c",
+    "exit_status": 0,
+    "enabled_mods": [
+      "80-shroud-worn-v1"
+    ]
+  },
+  "previous_variant_checks": [
+    {
+      "path": "mods/80-shroud-worn-v1/Jap_Shroud.SHP",
+      "sha256": "39752a3efc683b4d7b017c61b6545f87d95fe3c7354db205b373813057024ba5",
+      "exit_status": 0,
+      "log_sha256": "5d40aa2902600441ecf18c3fa2ca4f7beab2a64e0e950604424d095c20a320a9"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/t_Jap_Shroud.SHP",
+      "sha256": "f7e0fbeb9ada6f5f793b7da0a840cd769675ca735c909a3c928d32485582975f",
+      "exit_status": 0,
+      "log_sha256": "5d40aa2902600441ecf18c3fa2ca4f7beab2a64e0e950604424d095c20a320a9"
+    }
+  ],
+  "limitations": [
+    "This is a work-in-progress beta; final texture and Naginata edge/exhaust acceptance are still open.",
+    "Full campaign play, damage, ejection, loadout and Shroud cloak were not tested in these bounded captures.",
+    "Lower-LOD distance transitions and separate later-campaign liveries remain under review.",
+    "Windows and macOS runtime tests have not been performed.",
+    "No custom emissive maps are included."
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "ship": "Shroud",
+  "asset_revision": "2.0",
+  "canonical_scene_name": "shroud_worn_pbr_v2.blend",
+  "canonical_scene_sha256": "80cc6b39e538777baae8af737dc78974682a07cbd689eb7c68921625c31801e4",
+  "scene": {
+    "path": "source/shroud_worn_pbr_v2.blend",
+    "bytes": 74327098,
+    "sha256": "b0e9a7f4cd107e6bf74ab1643cfc3781b551d3e6fdfa5dab0e9eeaea4c4fe701"
+  },
+  "resources": [
+    {
+      "path": "source/resources/16d4786e163a_shroud_worn_coat_4k_v2.png",
+      "bytes": 135239,
+      "sha256": "16d4786e163aa63faa7587186d6df3f243462845089f93bf93e28332ca46a72b"
+    },
+    {
+      "path": "source/resources/371eec01eda0_shroud_worn_radiator_refinement_mask_4k_v2.png",
+      "bytes": 176958,
+      "sha256": "371eec01eda00e9ad256a0c6762dba3df7fac3bac467584bdeab337134534a5a"
+    },
+    {
+      "path": "source/resources/3992fa184b24_shroud_worn_specular_4k_v2.png",
+      "bytes": 142998,
+      "sha256": "3992fa184b24c3b25e03749bf973925736a3ce6375a3e6eeeb88a9e6b5752cd1"
+    },
+    {
+      "path": "source/resources/3d7883667569_shroud_worn_specular_4k_v1.png",
+      "bytes": 141288,
+      "sha256": "3d7883667569b7f08b957e86b49897998b5b3fedb1e9416abd0ac9969797f91c"
+    },
+    {
+      "path": "source/resources/3e51b5b6bf2a_shroud_worn_basecolor_4k_v2.png",
+      "bytes": 24291460,
+      "sha256": "3e51b5b6bf2a0526f6b1e5531d46dccfea01faa9c44e944f121391cff9a3b1aa"
+    },
+    {
+      "path": "source/resources/593f7fc5626c_shroud_worn_glass_4k_v1.png",
+      "bytes": 137814,
+      "sha256": "593f7fc5626c5ba10df7038b36efd4930b9986e1d0546d486078bc24a0185dab"
+    },
+    {
+      "path": "source/resources/594c9e617ffc_shroud_worn_flat_graphics_4k_v1.png",
+      "bytes": 142631,
+      "sha256": "594c9e617ffcddf98db2fc40bf3c80e41b5aa3f86946827a96ba0394a89c128d"
+    },
+    {
+      "path": "source/resources/72a8b5ccba38_shroud_worn_metallic_4k_v2.png",
+      "bytes": 15166475,
+      "sha256": "72a8b5ccba38a739f39fdcdcf2ee204398b9cc05fdb0914f3a1b90283b876f1a"
+    },
+    {
+      "path": "source/resources/82b307aba2a8_shroud_worn_height_4k_v2.png",
+      "bytes": 480703,
+      "sha256": "82b307aba2a8660a99999c027b3a761527b1a589d67550720ba566e6517ef269"
+    },
+    {
+      "path": "source/resources/8d6dcace5850_shroud_worn_basecolor_4k_v1.png",
+      "bytes": 18922277,
+      "sha256": "8d6dcace585073dc6b76ab158d577027c9e550f3c813226f9bb380c4a1a274d4"
+    },
+    {
+      "path": "source/resources/8eda5fe62d14_shroud_worn_normal_4k_v1.png",
+      "bytes": 1080051,
+      "sha256": "8eda5fe62d14ee43e75e686bf9e8a123acbeb70bb18472490fba678f70d5f85b"
+    },
+    {
+      "path": "source/resources/9774eba26556_shroud_worn_roughness_4k_v1.png",
+      "bytes": 34330517,
+      "sha256": "9774eba26556d631fc1a1b5db236c466e034d9902a3310f8efef6e77095bf8f5"
+    },
+    {
+      "path": "source/resources/9a6b4cb3788c_shroud_worn_coat_4k_v1.png",
+      "bytes": 132315,
+      "sha256": "9a6b4cb3788c1446ff332f03b687059640c64a7807824fed237082e839712250"
+    },
+    {
+      "path": "source/resources/ab528e05b5d8_shroud_worn_roughness_4k_v2.png",
+      "bytes": 33696485,
+      "sha256": "ab528e05b5d88229b6e2ecd37ad59042a6205c757034ddcfc8cbd1992639fc3f"
+    },
+    {
+      "path": "source/resources/b1ebd98140f6_shroud_worn_metallic_4k_v1.png",
+      "bytes": 15141496,
+      "sha256": "b1ebd98140f682a46deac4d53f1a360e3fd185b8b3178b4eef04cab5f0162d86"
+    },
+    {
+      "path": "source/resources/e1c9a1f9011b_shroud_worn_structure_mask_4k_v1.png",
+      "bytes": 322084,
+      "sha256": "e1c9a1f9011be767af060a454a619d57ebc1895ce367e6b7807548947bdfd40b"
+    },
+    {
+      "path": "source/resources/f1b065c2d266_shroud_worn_normal_4k_v2.png",
+      "bytes": 1085217,
+      "sha256": "f1b065c2d266e4467759718151ded2859d1b935868e30fe38a3ce771e6d659fa"
+    },
+    {
+      "path": "source/resources/fbb6f6a4919a_shroud_worn_fin_mask_4k_v1.png",
+      "bytes": 197612,
+      "sha256": "fbb6f6a4919aa9a7e01f1539476210ddf4cdd92de85ea7cff7d57c19ea591d71"
+    }
+  ],
+  "recipes": [
+    {
+      "path": "source/recipes/work/refinement_v2/refine.py",
+      "bytes": 5926,
+      "sha256": "d0773eb723f831c1859c97bf2f3fddf00e2f33bc8b9dd68b1fd7f5f32de15b07"
+    }
+  ],
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_and_relative_resources_verified": true,
+  "runtime_folder": "mods/80-shroud-worn-v1",
+  "runtime_files": [
+    {
+      "path": "mods/80-shroud-worn-v1/Jap_Shroud.SHP",
+      "bytes": 116140,
+      "sha256": "39752a3efc683b4d7b017c61b6545f87d95fe3c7354db205b373813057024ba5"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/gorsh1_hull.png",
+      "bytes": 24291460,
+      "sha256": "3e51b5b6bf2a0526f6b1e5531d46dccfea01faa9c44e944f121391cff9a3b1aa"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/gorsh1_hull_normal.png",
+      "bytes": 1085217,
+      "sha256": "f1b065c2d266e4467759718151ded2859d1b935868e30fe38a3ce771e6d659fa"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/gorsh1_hull_orm.png",
+      "bytes": 13684316,
+      "sha256": "e5c349d8cdc666f7ada7d7542afa2864383bdfeecae2b83d7b6df88938641a91"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/mod.ini",
+      "bytes": 227,
+      "sha256": "3340c2de6683f3e170bfa8de207c9c8b939aafe3a9da980e5ab1c5577195e147"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/mod.png",
+      "bytes": 358126,
+      "sha256": "c616f063a3cba5ddbf140486759fa5fa49b162b1f6820edeafe275cb8f1ad7d2"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/orsh1_hull.png",
+      "bytes": 24291460,
+      "sha256": "3e51b5b6bf2a0526f6b1e5531d46dccfea01faa9c44e944f121391cff9a3b1aa"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/orsh1_hull_normal.png",
+      "bytes": 1085217,
+      "sha256": "f1b065c2d266e4467759718151ded2859d1b935868e30fe38a3ce771e6d659fa"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/orsh1_hull_orm.png",
+      "bytes": 13684316,
+      "sha256": "e5c349d8cdc666f7ada7d7542afa2864383bdfeecae2b83d7b6df88938641a91"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/t_Jap_Shroud.SHP",
+      "bytes": 117164,
+      "sha256": "f7e0fbeb9ada6f5f793b7da0a840cd769675ca735c909a3c928d32485582975f"
+    }
+  ],
+  "emissives": "deferred",
+  "release_status": "beta"
+}

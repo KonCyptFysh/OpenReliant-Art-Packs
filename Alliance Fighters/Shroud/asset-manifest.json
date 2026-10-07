@@ -1,0 +1,52 @@
+[
+  {
+    "path": "mods/80-shroud-worn-v1/Jap_Shroud.SHP",
+    "bytes": 116140,
+    "sha256": "39752a3efc683b4d7b017c61b6545f87d95fe3c7354db205b373813057024ba5"
+  },
+  {
+    "path": "mods/80-shroud-worn-v1/gorsh1_hull.png",
+    "bytes": 24291460,
+    "sha256": "3e51b5b6bf2a0526f6b1e5531d46dccfea01faa9c44e944f121391cff9a3b1aa"
+  },
+  {
+    "path": "mods/80-shroud-worn-v1/gorsh1_hull_normal.png",
+    "bytes": 1085217,
+    "sha256": "f1b065c2d266e4467759718151ded2859d1b935868e30fe38a3ce771e6d659fa"
+  },
+  {
+    "path": "mods/80-shroud-worn-v1/gorsh1_hull_orm.png",
+    "bytes": 13684316,
+    "sha256": "e5c349d8cdc666f7ada7d7542afa2864383bdfeecae2b83d7b6df88938641a91"
+  },
+  {
+    "path": "mods/80-shroud-worn-v1/mod.ini",
+    "bytes": 227,
+    "sha256": "3340c2de6683f3e170bfa8de207c9c8b939aafe3a9da980e5ab1c5577195e147"
+  },
+  {
+    "path": "mods/80-shroud-worn-v1/mod.png",
+    "bytes": 358126,
+    "sha256": "c616f063a3cba5ddbf140486759fa5fa49b162b1f6820edeafe275cb8f1ad7d2"
+  },
+  {
+    "path": "mods/80-shroud-worn-v1/orsh1_hull.png",
+    "bytes": 24291460,
+    "sha256": "3e51b5b6bf2a0526f6b1e5531d46dccfea01faa9c44e944f121391cff9a3b1aa"
+  },
+  {
+    "path": "mods/80-shroud-worn-v1/orsh1_hull_normal.png",
+    "bytes": 1085217,
+    "sha256": "f1b065c2d266e4467759718151ded2859d1b935868e30fe38a3ce771e6d659fa"
+  },
+  {
+    "path": "mods/80-shroud-worn-v1/orsh1_hull_orm.png",
+    "bytes": 13684316,
+    "sha256": "e5c349d8cdc666f7ada7d7542afa2864383bdfeecae2b83d7b6df88938641a91"
+  },
+  {
+    "path": "mods/80-shroud-worn-v1/t_Jap_Shroud.SHP",
+    "bytes": 117164,
+    "sha256": "f7e0fbeb9ada6f5f793b7da0a840cd769675ca735c909a3c928d32485582975f"
+  }
+]
