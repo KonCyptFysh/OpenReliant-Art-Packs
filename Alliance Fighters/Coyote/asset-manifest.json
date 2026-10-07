@@ -1,0 +1,52 @@
+[
+  {
+    "path": "mods/30-coyote-worn-v4/USA_Coyote.SHP",
+    "bytes": 146068,
+    "sha256": "de301153893ed2d4eb07ae12326db55d7d2ea14b6f0bf311445096a5773b203e"
+  },
+  {
+    "path": "mods/30-coyote-worn-v4/gorcy4_hull.png",
+    "bytes": 32753536,
+    "sha256": "e846d91e4c9690902df6d3f86141f7653126df6359ff5034ab1c52f7ac23ea48"
+  },
+  {
+    "path": "mods/30-coyote-worn-v4/gorcy4_hull_normal.png",
+    "bytes": 61537161,
+    "sha256": "3d0aebb3aa218fa0142555eaa5f87837406082c2a8c383f8eac51076265c6957"
+  },
+  {
+    "path": "mods/30-coyote-worn-v4/gorcy4_hull_orm.png",
+    "bytes": 20071581,
+    "sha256": "e1e75cf4595740a0a6200fb8cf23a566dedea15fc6b50737a7f10c68b8786284"
+  },
+  {
+    "path": "mods/30-coyote-worn-v4/mod.ini",
+    "bytes": 166,
+    "sha256": "5cc49822f3ef569210685a9f2a8d456296018d6027fed2e3b30e563c0ce6b31e"
+  },
+  {
+    "path": "mods/30-coyote-worn-v4/mod.png",
+    "bytes": 267828,
+    "sha256": "2da8333cd59f8455e4fa6e82bf2f884f634fa4319c056fbe123f11e8e8f6b8f2"
+  },
+  {
+    "path": "mods/30-coyote-worn-v4/orcy4_hull.png",
+    "bytes": 32753536,
+    "sha256": "e846d91e4c9690902df6d3f86141f7653126df6359ff5034ab1c52f7ac23ea48"
+  },
+  {
+    "path": "mods/30-coyote-worn-v4/orcy4_hull_normal.png",
+    "bytes": 61537161,
+    "sha256": "3d0aebb3aa218fa0142555eaa5f87837406082c2a8c383f8eac51076265c6957"
+  },
+  {
+    "path": "mods/30-coyote-worn-v4/orcy4_hull_orm.png",
+    "bytes": 20071581,
+    "sha256": "e1e75cf4595740a0a6200fb8cf23a566dedea15fc6b50737a7f10c68b8786284"
+  },
+  {
+    "path": "mods/30-coyote-worn-v4/t_USA_Coyote.SHP",
+    "bytes": 147284,
+    "sha256": "2047b95a5870e90c89ddeef0d94ad3fce8af4d2f892d1eee7f723fe21f5702f7"
+  }
+]

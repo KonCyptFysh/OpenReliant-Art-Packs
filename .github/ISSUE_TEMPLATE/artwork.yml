@@ -12,7 +12,7 @@ body:
     id: detail
     attributes:
       label: What needs work?
-      description: Include screenshots and whether this is already listed in ASSET_STATUS.md.
+      description: Include screenshots and whether this is already listed in the asset’s KNOWN_ISSUES.md.
     validations:
       required: true
   - type: textarea

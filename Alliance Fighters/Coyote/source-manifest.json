@@ -1,0 +1,191 @@
+{
+  "status": "individual-beta-snapshot",
+  "ship": "Coyote",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 823,
+      "sha256": "aab703ce6148b18b5b1a202b91e1f154e09823f990157de50516299711a7ffdf"
+    },
+    {
+      "path": "source/coyote_worn_pbr_v4.blend",
+      "bytes": 638291088,
+      "sha256": "185d2b8cc696a5624c61a1caeba5b77af22f8bf866fbe1112da85c33d180d47f"
+    },
+    {
+      "path": "source/recipes/README.md",
+      "bytes": 622,
+      "sha256": "fb0e8c3aa03128fc50c1373c098d05b9f88c061d66a30ac82f9910d1399d7441"
+    },
+    {
+      "path": "source/recipes/work/pbr_v4/build.py",
+      "bytes": 6457,
+      "sha256": "c01029b95001b1e5a6f3f26a697fe1b61255511c6b9b6d7576c8414d4609fb8d"
+    },
+    {
+      "path": "source/resources/04d867c752a4_coyote_worn_roughness_refined_4k.png",
+      "bytes": 40030883,
+      "sha256": "04d867c752a4f324c77aab50e8794199697bb8faf891aeecef6d0290f72537f8"
+    },
+    {
+      "path": "source/resources/07a317a3b59e_coyote_worn_glass_4k.png",
+      "bytes": 130920,
+      "sha256": "07a317a3b59ee2f895047b6b208fdfab73cbffc72489496a1ccc4495c7a02e8d"
+    },
+    {
+      "path": "source/resources/16482bef55a7_coyote_basecolor_4k.png",
+      "bytes": 45236803,
+      "sha256": "16482bef55a743d8108310401607d48ef0ed62bc6e9420dd266eb1fe2d1b8218"
+    },
+    {
+      "path": "source/resources/1f1c255981d1_yank_2_worn_trial.png",
+      "bytes": 2190898,
+      "sha256": "1f1c255981d1fb2fc37afd477f4684f62da3aff4db15eb30570d452cca0f91a8"
+    },
+    {
+      "path": "source/resources/2adda038a0eb_cockpit_glass_mask_4k.png",
+      "bytes": 28656,
+      "sha256": "2adda038a0eb791aab115bec814e898fa58b911e7981537dcaa8ee05fd2a5c6f"
+    },
+    {
+      "path": "source/resources/2d8440293733_coyote_structural_height_4k_v4.png",
+      "bytes": 29567505,
+      "sha256": "2d8440293733e3f73922f4188ecf2d733dfe32f808fcbf73db412bf4e33b0a4a"
+    },
+    {
+      "path": "source/resources/31d7b1a834b0_yank_2_uhd_full_4k.png",
+      "bytes": 35217716,
+      "sha256": "31d7b1a834b009b9cec265fb1c409b21dba5365f800467a8aaf64c222cb49adb"
+    },
+    {
+      "path": "source/resources/33c435dd016f_yank_2_hull_reconstruction.png",
+      "bytes": 2218328,
+      "sha256": "33c435dd016f5610883d4a7a610485aafa5682d8b85e23c56716d6207ad99a7d"
+    },
+    {
+      "path": "source/resources/344dc443c938_coyote_worn_basecolor_4k.png",
+      "bytes": 32755996,
+      "sha256": "344dc443c9383a01099cf316fe08f82c4dc42c7014acc3d2ca6fe6c8a72db45a"
+    },
+    {
+      "path": "source/resources/3d0aebb3aa21_coyote_normal_4k_v4.png",
+      "bytes": 61537161,
+      "sha256": "3d0aebb3aa218fa0142555eaa5f87837406082c2a8c383f8eac51076265c6957"
+    },
+    {
+      "path": "source/resources/4721bab34fad_yank_2_curved_aligned.png",
+      "bytes": 2208430,
+      "sha256": "4721bab34fad2f7cace938b183a11e43241c20def5de46d9ef95d6e36a003d00"
+    },
+    {
+      "path": "source/resources/55d388442e7b_yank_2_feature_trial.png",
+      "bytes": 2161233,
+      "sha256": "55d388442e7b146a4b91847647525c4530d0db13ac7767e9d82d7e90a02103d7"
+    },
+    {
+      "path": "source/resources/6ac48f6b33bb_coyote_metallic_4k.png",
+      "bytes": 12693588,
+      "sha256": "6ac48f6b33bbbc7a2ada273f90adf4075e0dcf15f5a3eafff31c10c1fb38b25a"
+    },
+    {
+      "path": "source/resources/78c51e4af42a_coyote_vent_mask_4k_v4.png",
+      "bytes": 105653,
+      "sha256": "78c51e4af42a05ffa7811918f2689615ad8a49216da85ee4f5f49c63fc841936"
+    },
+    {
+      "path": "source/resources/7a1fa23769a9_flat_graphics_4k.png",
+      "bytes": 133294,
+      "sha256": "7a1fa23769a908465097a45cc1a14a2bbb884b511b6dd39e5d641fa352f5b9d0"
+    },
+    {
+      "path": "source/resources/89f1e7746eeb_coyote_worn_normal_4k.png",
+      "bytes": 54340081,
+      "sha256": "89f1e7746eeb4106994f361599459af1daa5438d6c9e3b6a789bd505d967e227"
+    },
+    {
+      "path": "source/resources/9267749d0b70_clean_colour_reference_4k.png",
+      "bytes": 19826428,
+      "sha256": "9267749d0b7071b0ad26a9d771101b9b1cd4f6d96c62c21318838494fa394fce"
+    },
+    {
+      "path": "source/resources/95046d18a263_coyote_metallic_4k_v4.png",
+      "bytes": 20942762,
+      "sha256": "95046d18a2630bf7d8715b5629926e9718bd83f22a9cbb9cee4c9c3f53d7f6c2"
+    },
+    {
+      "path": "source/resources/a19db6e03f91_coyote_worn_wear_4k.png",
+      "bytes": 2491450,
+      "sha256": "a19db6e03f9140ff57b639ddb6a5d3b5496b57bf32f65a5a0922a0663eccf882"
+    },
+    {
+      "path": "source/resources/a78c2de3622a_coyote_roughness_4k_v4.png",
+      "bytes": 34028252,
+      "sha256": "a78c2de3622aba2cef59a0315fb93d398ffe111f82c067549c280911c8ae68f5"
+    },
+    {
+      "path": "source/resources/aaab87d15f76_coyote_specular_4k_v4.png",
+      "bytes": 135996,
+      "sha256": "aaab87d15f763a760e2958bfc652c9b3d599146dd02558c9ab5c760f84f621a6"
+    },
+    {
+      "path": "source/resources/aaab87d15f76_coyote_worn_specular_refined_4k.png",
+      "bytes": 135996,
+      "sha256": "aaab87d15f763a760e2958bfc652c9b3d599146dd02558c9ab5c760f84f621a6"
+    },
+    {
+      "path": "source/resources/ac0d643c8fdc_coyote_worn_normal_4k_v3.png",
+      "bytes": 52271207,
+      "sha256": "ac0d643c8fdc2f65e6f9d847d0b50368340b802b55994476bf681dbb31609a05"
+    },
+    {
+      "path": "source/resources/b173c4a2a0db_coyote_worn_roughness_4k.png",
+      "bytes": 37989638,
+      "sha256": "b173c4a2a0dbc689b496000c0bde70c9e0d57e9577521a37e146feb7c15e08a2"
+    },
+    {
+      "path": "source/resources/c3e415dab7fc_coyote_flat_graphics_4k_v4.png",
+      "bytes": 138992,
+      "sha256": "c3e415dab7fc50fce50108d7e6d61eb9837ea49b38af8f1f1a0be904f77bc378"
+    },
+    {
+      "path": "source/resources/c5ca00b8a683_yank_2_zone_a_4k_trial.png",
+      "bytes": 7262940,
+      "sha256": "c5ca00b8a6836ee5047a7001afe7fa6d3f086692d423e952d92f29f9c6ee4ebe"
+    },
+    {
+      "path": "source/resources/d256e6cb4295_paint_graphics_4k.png",
+      "bytes": 95984,
+      "sha256": "d256e6cb429553b883cf18a767cd810c4820bed590ef69050334f2ecf859e4b3"
+    },
+    {
+      "path": "source/resources/d351b8f28347_coyote_structural_height_0001.png",
+      "bytes": 52642849,
+      "sha256": "d351b8f283472f3f8e2eae5b725485e04c80cf06e3fa08668c51a6693022a0aa"
+    },
+    {
+      "path": "source/resources/dece0641d8e2_yank_2_uhd_refined_4k.png",
+      "bytes": 33108252,
+      "sha256": "dece0641d8e2b538d362826240510c94dc9440013d50dcb9a68f881ecfb48427"
+    },
+    {
+      "path": "source/resources/e846d91e4c96_coyote_worn_basecolor_refined_4k.png",
+      "bytes": 32753536,
+      "sha256": "e846d91e4c9690902df6d3f86141f7653126df6359ff5034ab1c52f7ac23ea48"
+    },
+    {
+      "path": "source/resources/f69373756ff7_coyote_worn_metallic_4k.png",
+      "bytes": 21235112,
+      "sha256": "f69373756ff78b92fbd587778ba669f14311eeed2e6b2fc43da0a0bb863bd11a"
+    },
+    {
+      "path": "source/resources/f953a65276ed_yank_2.png",
+      "bytes": 69068,
+      "sha256": "f953a65276ed6955426ad6f96202f83f75ba6c485b9cb64c659c8b7d5f63a75b"
+    },
+    {
+      "path": "source/snapshot.json",
+      "bytes": 8796,
+      "sha256": "5e7e902f98039ed99b1fd50552c64025bb53ab8cd87e1f39840f941ca0ae106d"
+    }
+  ]
+}
