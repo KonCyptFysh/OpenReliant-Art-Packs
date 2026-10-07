@@ -1,0 +1,337 @@
+{
+  "ship": "Naginata",
+  "asset_revision": "4.0",
+  "canonical_scene_name": "naginata_worn_edges_v4.blend",
+  "canonical_scene_sha256": "bb0a411cfaeb0993640ed214be48e83fe42277c8fbb4d8a15fbe581230ea5bcc",
+  "scene": {
+    "path": "source/naginata_worn_edges_v4.blend",
+    "bytes": 151254335,
+    "sha256": "c8af983442f21365905f48ae74cd7c6c0764ca38205e7d25e463649018a0043a"
+  },
+  "resources": [
+    {
+      "path": "source/resources/0d0ae27605f0_naginata_worn_flat_graphics_4k_v3.png",
+      "bytes": 98704,
+      "sha256": "0d0ae27605f0ea26dc2c6301355fb93a22d2b44c6c203dbc26868bfe8dbf3fae"
+    },
+    {
+      "path": "source/resources/29a42dc2d1cf_naginata_worn_height_4k_v3.png",
+      "bytes": 923863,
+      "sha256": "29a42dc2d1cfe6eaeec817b57a06d2f7145a2983bf31f43ee34e014047eb8fac"
+    },
+    {
+      "path": "source/resources/2b102bc84a81_naginata_worn_coat_4k_v3.png",
+      "bytes": 112882,
+      "sha256": "2b102bc84a815ca330ff422edc446faad5b085332fc83f7d39e88c86c6e1384d"
+    },
+    {
+      "path": "source/resources/369c3c13fa43_naginata_worn_normal_4k_v3.png",
+      "bytes": 2324864,
+      "sha256": "369c3c13fa431485dcda8725fe96c6d0cd6b8e2310cbfadd391e05d2f5059557"
+    },
+    {
+      "path": "source/resources/4125e0564a0d_naginata_worn_roughness_4k_v3.png",
+      "bytes": 31060568,
+      "sha256": "4125e0564a0d14880b2e06ba7342f0c20b488489479bd6cef39c55d5cb7fc036"
+    },
+    {
+      "path": "source/resources/44278fbb5cb4_naginata_edges_normal_2k_v4.png",
+      "bytes": 306234,
+      "sha256": "44278fbb5cb40a7f676ed1acbc797e960910525611fa51741aa92123a85dedea"
+    },
+    {
+      "path": "source/resources/495cfa0e6249_naginata_repairs_roughness_4k_v3.png",
+      "bytes": 18366932,
+      "sha256": "495cfa0e62492851b509abfe921b790960e6b7805310b876f0c0f0af6ef28314"
+    },
+    {
+      "path": "source/resources/4bd450cc38a3_sam_3.png",
+      "bytes": 64632,
+      "sha256": "4bd450cc38a38fb24d97e0e0a1cccd27d7cf301f8131d237097fe1d22e1090ca"
+    },
+    {
+      "path": "source/resources/4fcf44e25ee1_naginata_edges_basecolor_2k_v4.png",
+      "bytes": 8211798,
+      "sha256": "4fcf44e25ee1acaf78e2daba28074eeb7cd3cc92636f506c3bcc97d7dd19b006"
+    },
+    {
+      "path": "source/resources/518fb2ce731a_naginata_worn_basecolor_4k_v1.png",
+      "bytes": 18411244,
+      "sha256": "518fb2ce731a3bd45f2f613946621af5f5e86feb011b5a4515d7cbdc44966988"
+    },
+    {
+      "path": "source/resources/56e9db14484f_naginata_repairs_height_4k_v3.png",
+      "bytes": 405774,
+      "sha256": "56e9db14484f8b1d023a1758fdea6867703fa7b72b3bffff35745be489766483"
+    },
+    {
+      "path": "source/resources/5d3d76a25552_naginata_worn_fin_mask_4k_v3.png",
+      "bytes": 325723,
+      "sha256": "5d3d76a2555268d2326bccc62e46dd76b8ced59ee296dc99dd12b31a4095f347"
+    },
+    {
+      "path": "source/resources/68f94a85253b_naginata_repairs_basecolor_4k_v3.png",
+      "bytes": 41167629,
+      "sha256": "68f94a85253b8bf21396df3010da70b7e2d667b7346de5d0912e913e103d837a"
+    },
+    {
+      "path": "source/resources/82bd893e4521_naginata_repairs_metallic_4k_v3.png",
+      "bytes": 7268066,
+      "sha256": "82bd893e4521c6038377ccb059a88082ccf5b282949193f9582377af530ba433"
+    },
+    {
+      "path": "source/resources/85d213ffcfc7_naginata_worn_glass_4k_v3.png",
+      "bytes": 113893,
+      "sha256": "85d213ffcfc78a0bd11ac1338154a4cc3e3c31dab25e894e8b6b87a2ff1b7ab4"
+    },
+    {
+      "path": "source/resources/87a7944a80d0_naginata_repairs_normal_4k_v3.png",
+      "bytes": 6020383,
+      "sha256": "87a7944a80d09d15ef362d6a3d5bf6a89a0a93918d368fa71abbbdccf16fe5e0"
+    },
+    {
+      "path": "source/resources/a6086873c2dd_naginata_worn_specular_4k_v3.png",
+      "bytes": 501222,
+      "sha256": "a6086873c2dddc93e70e766cb4009dbcfbee66dce1ba4e41d1fc29db7ddea52b"
+    },
+    {
+      "path": "source/resources/bbc6acfcff5d_naginata_worn_seal_4k_v3.png",
+      "bytes": 139570,
+      "sha256": "bbc6acfcff5da7dc645b106b17ad368553fbf37c7c1299d9c2206979e42af29b"
+    },
+    {
+      "path": "source/resources/bbf3a3a3f05b_naginata_worn_basecolor_generated_v1.png",
+      "bytes": 3395773,
+      "sha256": "bbf3a3a3f05b6e9ce8d405bf64edb734b960763d2a26a43c701b4f2cbd4c8508"
+    },
+    {
+      "path": "source/resources/c0d5dd3b9d00_naginata_edges_height_2k_v4.png",
+      "bytes": 171497,
+      "sha256": "c0d5dd3b9d00cd83c031257fa086435665c7cafa80575355bd8d36ee47321395"
+    },
+    {
+      "path": "source/resources/d0894fd76672_naginata_repair_material_reference.png",
+      "bytes": 3767446,
+      "sha256": "d0894fd766720a6b454b44d2035bf0240b621eb7b7e3b07e87f5e59d7eafb848"
+    },
+    {
+      "path": "source/resources/d1132029ece3_naginata_edges_regions_2k_v4.png",
+      "bytes": 37418,
+      "sha256": "d1132029ece3c891c86e5e373f19aab051645307c8b7941d6018c6430b67465a"
+    },
+    {
+      "path": "source/resources/d7087c7e04a4_naginata_worn_structure_mask_4k_v3.png",
+      "bytes": 318678,
+      "sha256": "d7087c7e04a47175b61382756206092fae3b2521fade0968d6d45b6926f17bd3"
+    },
+    {
+      "path": "source/resources/d82583be575c_naginata_edges_metallic_2k_v4.png",
+      "bytes": 652626,
+      "sha256": "d82583be575c8b4bfebb5dae6168815401cc72ea9f0af08902ec72d9c3af4da8"
+    },
+    {
+      "path": "source/resources/da35cbfd6a6d_naginata_worn_metallic_4k_v3.png",
+      "bytes": 13875617,
+      "sha256": "da35cbfd6a6d6c516dfede78944a0d983d886e29dbfb06c917d998174b379c0f"
+    },
+    {
+      "path": "source/resources/e33b7bb69b9b_naginata_worn_panel_mask_4k_v3.png",
+      "bytes": 533087,
+      "sha256": "e33b7bb69b9bd64ee9b40ed5884b7d0433dbec9d041af9106d092a38f1410a43"
+    },
+    {
+      "path": "source/resources/fc0571eb98a6_naginata_edges_roughness_2k_v4.png",
+      "bytes": 3375953,
+      "sha256": "fc0571eb98a6f9a16103ff660df2627f89213fc97f86f24338893fac0c627dbd"
+    }
+  ],
+  "recipes": [
+    {
+      "path": "source/recipes/work/seams_v3/repair_uv.py",
+      "bytes": 6657,
+      "sha256": "17af33a1b3b88f3dfb723abd95dc86a81ed7ab8083a76dad832dba1ed857871e"
+    },
+    {
+      "path": "source/recipes/work/seams_v3/build_pbr.py",
+      "bytes": 10242,
+      "sha256": "9ba29a3dae456ea0a91895a763ae6c83947f1fb9cfe204b9ff67840b0d0558cf"
+    },
+    {
+      "path": "source/recipes/work/seams_v3/bake_repairs.py",
+      "bytes": 11998,
+      "sha256": "af8cc721a67f31eee8df7800028dc85430ab7661696c1d327b3c5f94a932b5fd"
+    },
+    {
+      "path": "source/recipes/work/seams_v3/refine_fins.py",
+      "bytes": 2563,
+      "sha256": "cb1ff33ea633f546d01b58ddd276049f85f7d5d2d9d3f6d7f2fe7bd23faa5d23"
+    },
+    {
+      "path": "source/recipes/work/seams_v3/regions.json",
+      "bytes": 29509,
+      "sha256": "9309ce940fd5e3f718929cc9052b1228a5939c23cdbb598c7162dcdff5ccb22c"
+    },
+    {
+      "path": "source/recipes/work/seams_v3/material_patch_prompt.txt",
+      "bytes": 1333,
+      "sha256": "c0f58c4bdb5fba32bc97420e41342e9291ff247b1298eb9d69a3bf12e6a607a7"
+    },
+    {
+      "path": "source/recipes/work/edges_v4/build_edges.py",
+      "bytes": 14521,
+      "sha256": "e0e4c8e5f80b6d6ab570bcfc38657e4de02f3bedf6e866308bc3d9c35ea70f93"
+    },
+    {
+      "path": "source/recipes/work/edges_v4/export_native.py",
+      "bytes": 5216,
+      "sha256": "a34896a89457308643f4f14a99d9b8afdf1a8b04be0ec1706c4a21eb02fb2569"
+    },
+    {
+      "path": "source/recipes/work/edges_v4/render_inspection.py",
+      "bytes": 2071,
+      "sha256": "01b6ff64869a0851e666fe17b87be2428f7374f3a4247c66e31a56376435f483"
+    },
+    {
+      "path": "source/recipes/work/edges_v4/inspect.py",
+      "bytes": 2019,
+      "sha256": "8e12f89684d01d3d3b3210ea63a9c62cd2b3af4b5096257fdf05d14449cb049c"
+    },
+    {
+      "path": "source/recipes/work/edges_v4/export_glb.py",
+      "bytes": 2873,
+      "sha256": "0ee9e8152ecfb30ca0070960d3ea124ea5b471d573cc5fdf33fbd6e20b59f0be"
+    },
+    {
+      "path": "source/recipes/work/edges_v4/bake_validation.json",
+      "bytes": 230838,
+      "sha256": "5076038f44ef7be6cad21161f2c5d06ef2ce9a254f112d7e9c48fc5250939a40"
+    },
+    {
+      "path": "source/recipes/work/edges_v4/native_preservation_v4.json",
+      "bytes": 2074,
+      "sha256": "872bd37edb15730c77c2efac9f3f2a8fb19dbc18b899f38d9465320d13d48fb5"
+    }
+  ],
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_and_relative_resources_verified": true,
+  "runtime_folder": "mods/95-naginata-worn-v1",
+  "runtime_files": [
+    {
+      "path": "mods/95-naginata-worn-v1/JLF_Nagi.SHP",
+      "bytes": 121716,
+      "sha256": "8d546e7dfea2f26226390764bfe487d2f4744a84b3203a060c90dd13fe5a3285"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna1_hull.png",
+      "bytes": 18411244,
+      "sha256": "518fb2ce731a3bd45f2f613946621af5f5e86feb011b5a4515d7cbdc44966988"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna1_hull_normal.png",
+      "bytes": 2324864,
+      "sha256": "369c3c13fa431485dcda8725fe96c6d0cd6b8e2310cbfadd391e05d2f5059557"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna1_hull_orm.png",
+      "bytes": 11897393,
+      "sha256": "fe3fb36104cd8925f1dc33ce0cd7c402a122eff1b90a8a7268d0ddf72513c9e9"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna3_fix.png",
+      "bytes": 41167629,
+      "sha256": "68f94a85253b8bf21396df3010da70b7e2d667b7346de5d0912e913e103d837a"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna3_fix_normal.png",
+      "bytes": 6020383,
+      "sha256": "87a7944a80d09d15ef362d6a3d5bf6a89a0a93918d368fa71abbbdccf16fe5e0"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna3_fix_orm.png",
+      "bytes": 5903420,
+      "sha256": "18815fcd63b23866ab0e7c2533a91f2b572b7812ce5a54773681c397a4bd9124"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna4_edges.png",
+      "bytes": 8211798,
+      "sha256": "4fcf44e25ee1acaf78e2daba28074eeb7cd3cc92636f506c3bcc97d7dd19b006"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna4_edges_normal.png",
+      "bytes": 306234,
+      "sha256": "44278fbb5cb40a7f676ed1acbc797e960910525611fa51741aa92123a85dedea"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna4_edges_orm.png",
+      "bytes": 580232,
+      "sha256": "b03faa25f8e2dabee8d5a5834ae99cef227458603ee5e93c3f9b1a777a9d2249"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/mission994.dte",
+      "bytes": 481,
+      "sha256": "cca349b2fc3e2da3dcd48692b193f95398f78ad16fc87d1842a85bf6fdaefb15"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/mod.ini",
+      "bytes": 241,
+      "sha256": "e73dcd80c016d0867479234c323bbb847f87cc6f7d35e869287e4a25904f6e7e"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/mod.png",
+      "bytes": 169264,
+      "sha256": "90ba78ef834d0d4ef0950cf8868026a9372753a9071415a66e6dcf8d05a2f5db"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/orna1_hull.png",
+      "bytes": 18411244,
+      "sha256": "518fb2ce731a3bd45f2f613946621af5f5e86feb011b5a4515d7cbdc44966988"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/orna1_hull_normal.png",
+      "bytes": 2324864,
+      "sha256": "369c3c13fa431485dcda8725fe96c6d0cd6b8e2310cbfadd391e05d2f5059557"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/orna1_hull_orm.png",
+      "bytes": 11897393,
+      "sha256": "fe3fb36104cd8925f1dc33ce0cd7c402a122eff1b90a8a7268d0ddf72513c9e9"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/orna3_fix.png",
+      "bytes": 41167629,
+      "sha256": "68f94a85253b8bf21396df3010da70b7e2d667b7346de5d0912e913e103d837a"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/orna3_fix_normal.png",
+      "bytes": 6020383,
+      "sha256": "87a7944a80d09d15ef362d6a3d5bf6a89a0a93918d368fa71abbbdccf16fe5e0"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/orna3_fix_orm.png",
+      "bytes": 5903420,
+      "sha256": "18815fcd63b23866ab0e7c2533a91f2b572b7812ce5a54773681c397a4bd9124"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/orna4_edges.png",
+      "bytes": 8211798,
+      "sha256": "4fcf44e25ee1acaf78e2daba28074eeb7cd3cc92636f506c3bcc97d7dd19b006"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/orna4_edges_normal.png",
+      "bytes": 306234,
+      "sha256": "44278fbb5cb40a7f676ed1acbc797e960910525611fa51741aa92123a85dedea"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/orna4_edges_orm.png",
+      "bytes": 580232,
+      "sha256": "b03faa25f8e2dabee8d5a5834ae99cef227458603ee5e93c3f9b1a777a9d2249"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/t_JLF_Nagi.SHP",
+      "bytes": 122612,
+      "sha256": "3dd0796fc33ae3a3440ded56524f38ccba561342df65d3ca471be8a7cf33a3c1"
+    }
+  ],
+  "emissives": "deferred",
+  "release_status": "beta"
+}

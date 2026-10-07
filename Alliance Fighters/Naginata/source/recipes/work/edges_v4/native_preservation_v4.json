@@ -1,0 +1,80 @@
+[
+  {
+    "file": "JLF_Nagi.SHP",
+    "source_sha256": "c5655ad928e0a5b715915a291a0061124ef28e0f5baa19b4e5727d6a9ff5e4ad",
+    "delivered_sha256": "8d546e7dfea2f26226390764bfe487d2f4744a84b3203a060c90dd13fe5a3285",
+    "changes": [
+      {
+        "part": 0,
+        "faces": 42,
+        "material_face_counts": {
+          "0": 42,
+          "1": 0,
+          "2": 0
+        },
+        "allowed_changes": [
+          "material slot",
+          "corner UV",
+          "equivalent triangle winding and fan encoding",
+          "surface grouping order"
+        ]
+      },
+      {
+        "part": 1,
+        "faces": 358,
+        "material_face_counts": {
+          "0": 212,
+          "1": 54,
+          "2": 92
+        },
+        "allowed_changes": [
+          "material slot",
+          "corner UV",
+          "equivalent triangle winding and fan encoding",
+          "surface grouping order"
+        ]
+      }
+    ],
+    "all_nonface_nonmaterial_and_lower_LOD_chunks_unchanged": true,
+    "engine_glow_attachments_unchanged": true
+  },
+  {
+    "file": "t_JLF_Nagi.SHP",
+    "source_sha256": "ea3344c3f82759733045bba78844b31f088056ad0492b007f24212262440f5fc",
+    "delivered_sha256": "3dd0796fc33ae3a3440ded56524f38ccba561342df65d3ca471be8a7cf33a3c1",
+    "changes": [
+      {
+        "part": 0,
+        "faces": 42,
+        "material_face_counts": {
+          "0": 42,
+          "1": 0,
+          "2": 0
+        },
+        "allowed_changes": [
+          "material slot",
+          "corner UV",
+          "equivalent triangle winding and fan encoding",
+          "surface grouping order"
+        ]
+      },
+      {
+        "part": 1,
+        "faces": 358,
+        "material_face_counts": {
+          "0": 212,
+          "1": 54,
+          "2": 92
+        },
+        "allowed_changes": [
+          "material slot",
+          "corner UV",
+          "equivalent triangle winding and fan encoding",
+          "surface grouping order"
+        ]
+      }
+    ],
+    "all_nonface_nonmaterial_and_lower_LOD_chunks_unchanged": true,
+    "engine_glow_attachments_unchanged": true
+  }
+]
