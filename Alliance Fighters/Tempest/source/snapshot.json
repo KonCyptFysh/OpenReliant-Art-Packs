@@ -1,0 +1,137 @@
+{
+  "ship": "Tempest",
+  "asset_revision": "1.0",
+  "canonical_scene_name": "tempest_worn_pbr_v1.blend",
+  "canonical_scene_sha256": "0fd4087b1a1c1ccb3cdfd9589d99b64ad34465e18657e26b62a9bd6763b91934",
+  "scene": {
+    "path": "source/tempest_worn_pbr_v1.blend",
+    "bytes": 70058598,
+    "sha256": "964d438c7b598fd6cdfe4d551bcdaf20a323525a7258aacdd342e20cf746b5f1"
+  },
+  "resources": [
+    {
+      "path": "source/resources/35e3bd6cb791_tempest_worn_fin_mask_4k_v1.png",
+      "bytes": 490623,
+      "sha256": "35e3bd6cb791a7eca1cd6a98cb907c7ebe42b6b6d74e10a6f234b37f609dfcd0"
+    },
+    {
+      "path": "source/resources/43dd2b4e746b_tempest_worn_coat_4k_v1.png",
+      "bytes": 114092,
+      "sha256": "43dd2b4e746b792e60162539d21ceda88149af349568277f9583900c75cc1ac9"
+    },
+    {
+      "path": "source/resources/4d845f99a655_tempest_worn_basecolor_4k_v1.png",
+      "bytes": 17642666,
+      "sha256": "4d845f99a655753920b316c12dfcf5f7866415210cc8f5a376fd700f251fec49"
+    },
+    {
+      "path": "source/resources/53ccdb451b06_tempest_worn_glass_4k_v1.png",
+      "bytes": 114810,
+      "sha256": "53ccdb451b0615ab06e1321fdb584c2bbe945d5594e7f6963ccd98e54864a1cc"
+    },
+    {
+      "path": "source/resources/6f918e8347c7_tempest_worn_height_4k_v1.png",
+      "bytes": 742642,
+      "sha256": "6f918e8347c78a4af16fc9062e4954b2a23281589ab819eb02e8be36905b5c77"
+    },
+    {
+      "path": "source/resources/73eae43125d9_tempest_worn_structure_mask_4k_v1.png",
+      "bytes": 263793,
+      "sha256": "73eae43125d90c8d95c61b20ee8e80ef2f5e1610d3dfdd7a9b8818e03f7eabad"
+    },
+    {
+      "path": "source/resources/85752b0510d7_tempest_worn_metallic_4k_v1.png",
+      "bytes": 16078061,
+      "sha256": "85752b0510d78a083d1d0883d78e718cd9bbd768ef4ba1fe8b9a4552f3371c20"
+    },
+    {
+      "path": "source/resources/8b0a2f6239ad_tempest_worn_flat_graphics_4k_v1.png",
+      "bytes": 148719,
+      "sha256": "8b0a2f6239adef4398e5b92f39ccdd5f5b7acc15da27bef0c2f0ac41c17b9549"
+    },
+    {
+      "path": "source/resources/c2218b20eb3e_tempest_worn_specular_4k_v1.png",
+      "bytes": 120174,
+      "sha256": "c2218b20eb3ee33b74f81d1582e8d97b591f4e19da89abe6d5498ac7772d89b1"
+    },
+    {
+      "path": "source/resources/e6b164de0fe8_tempest_worn_normal_4k_v1.png",
+      "bytes": 1673478,
+      "sha256": "e6b164de0fe86454aa51723c1217c4a27349d24c42862412c65aa5a1e8ab4c93"
+    },
+    {
+      "path": "source/resources/f21fed64edbc_tempest_worn_roughness_4k_v1.png",
+      "bytes": 34636325,
+      "sha256": "f21fed64edbcdca440112239739294a95f921f409ce52dd3656d0474cf2185a2"
+    }
+  ],
+  "recipes": [
+    {
+      "path": "source/recipes/work/reconstruction_v1/build_pbr.py",
+      "bytes": 12747,
+      "sha256": "aedf6fd7713848183f6394e17f1c3fedcd3a5bd33b0be15f217ce42631722c90"
+    },
+    {
+      "path": "source/recipes/work/reconstruction_v1/regions.json",
+      "bytes": 12844,
+      "sha256": "8a6b766da01d4d872fe0ecdd1a98893c7c8208f4595b9779c34407d00466c18d"
+    }
+  ],
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_and_relative_resources_verified": true,
+  "runtime_folder": "mods/70-tempest-worn-v1",
+  "runtime_files": [
+    {
+      "path": "mods/70-tempest-worn-v1/British_Tempest.SHP",
+      "bytes": 226514,
+      "sha256": "5dcc22f65c0cdfee024f91b930e714a141c100df1ac5499c94c836b7adc1e601"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/gortm1_hull.png",
+      "bytes": 17642666,
+      "sha256": "4d845f99a655753920b316c12dfcf5f7866415210cc8f5a376fd700f251fec49"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/gortm1_hull_normal.png",
+      "bytes": 1673478,
+      "sha256": "e6b164de0fe86454aa51723c1217c4a27349d24c42862412c65aa5a1e8ab4c93"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/gortm1_hull_orm.png",
+      "bytes": 12736171,
+      "sha256": "febb63bf3e93fe361e6db7f3c7e0d1925ccfd578a9e7bdf55913dd5cd1197b4f"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/mod.ini",
+      "bytes": 177,
+      "sha256": "ed2e9c410ac72c9a0ddeaeb3ac26a95cc5c7419110e71ee30c25e75059740c4a"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/mod.png",
+      "bytes": 219120,
+      "sha256": "3c48cdf0ed0b30d9572ed170be13948000260046be446b66622934a009b3d0b9"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/ortm1_hull.png",
+      "bytes": 17642666,
+      "sha256": "4d845f99a655753920b316c12dfcf5f7866415210cc8f5a376fd700f251fec49"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/ortm1_hull_normal.png",
+      "bytes": 1673478,
+      "sha256": "e6b164de0fe86454aa51723c1217c4a27349d24c42862412c65aa5a1e8ab4c93"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/ortm1_hull_orm.png",
+      "bytes": 12736171,
+      "sha256": "febb63bf3e93fe361e6db7f3c7e0d1925ccfd578a9e7bdf55913dd5cd1197b4f"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/t_British_Tempest.SHP",
+      "bytes": 229266,
+      "sha256": "9aebd0c731ff5645194205c5bf3d6dbeac8295ee4d612d74d7fddc62e58e131a"
+    }
+  ],
+  "emissives": "deferred",
+  "release_status": "beta"
+}

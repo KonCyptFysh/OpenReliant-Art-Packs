@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "scope": "individual-mod-bounded-loading-and-rendering",
+  "checked_at_utc": "2026-10-07T07:00:04.494339+00:00",
+  "engine_build": "OpenReliant 0.7.0 official release 3b27f16",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "tested_platforms": [
+    "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
+  ],
+  "asset_manifest_sha256": "78ca07a0328d9c059fa66081b9922d41cf128ccbc8ff9c85eadd40557ba3070d",
+  "source_manifest_sha256": "19e8f2d711c0079cdbe0776f99ca998389d7afb0388808c6df2974a91e94783d",
+  "checks": [
+    "Verify 10 runtime files and 17 original source artifacts against the previously verified snapshot.",
+    "Copy only 70-tempest-worn-v1 into a clean test installation; verify all runtime hashes.",
+    "Pass native format checks for 2 SHP/DTE files.",
+    "Load and capture the standard fighter on official OpenReliant 0.7.0 with exactly one art mod enabled and no HUD.",
+    "Preserve the byte-identical runtime assets previously checked in both standard and t_ variants with the original eight-fighter set.",
+    "Inspect the new isolated-mod capture for the expected ship and gross rendering errors."
+  ],
+  "native_checks": [
+    {
+      "path": "mods/70-tempest-worn-v1/British_Tempest.SHP",
+      "sha256": "5dcc22f65c0cdfee024f91b930e714a141c100df1ac5499c94c836b7adc1e601",
+      "exit_status": 0,
+      "log_sha256": "f9244cea0042b9d466eba1de6488becb7faea569c45708c5dee162fbf6ab26ad"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/t_British_Tempest.SHP",
+      "sha256": "9aebd0c731ff5645194205c5bf3d6dbeac8295ee4d612d74d7fddc62e58e131a",
+      "exit_status": 0,
+      "log_sha256": "f9244cea0042b9d466eba1de6488becb7faea569c45708c5dee162fbf6ab26ad"
+    }
+  ],
+  "single_mod_capture": {
+    "sha256": "768e3ff3cac58a14ccd59e8014fc3bda09e20c5f4c469bffee98572da3cb2825",
+    "log_sha256": "e1d6ccb6ac5f173dd51f43108ca80c4189120cfd428b4faa8d82f897b48f0f3a",
+    "exit_status": 0,
+    "enabled_mods": [
+      "70-tempest-worn-v1"
+    ]
+  },
+  "previous_variant_checks": [
+    {
+      "path": "mods/70-tempest-worn-v1/British_Tempest.SHP",
+      "sha256": "5dcc22f65c0cdfee024f91b930e714a141c100df1ac5499c94c836b7adc1e601",
+      "exit_status": 0,
+      "log_sha256": "f9244cea0042b9d466eba1de6488becb7faea569c45708c5dee162fbf6ab26ad"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/t_British_Tempest.SHP",
+      "sha256": "9aebd0c731ff5645194205c5bf3d6dbeac8295ee4d612d74d7fddc62e58e131a",
+      "exit_status": 0,
+      "log_sha256": "f9244cea0042b9d466eba1de6488becb7faea569c45708c5dee162fbf6ab26ad"
+    }
+  ],
+  "limitations": [
+    "This is a work-in-progress beta; final texture and Naginata edge/exhaust acceptance are still open.",
+    "Full campaign play, damage, ejection, loadout and Shroud cloak were not tested in these bounded captures.",
+    "Lower-LOD distance transitions and separate later-campaign liveries remain under review.",
+    "Windows and macOS runtime tests have not been performed.",
+    "No custom emissive maps are included."
+  ]
+}
