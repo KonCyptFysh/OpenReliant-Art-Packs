@@ -1,0 +1,23 @@
+{
+  "package_name": "openreliant-naginata",
+  "version": "0.1.0-beta.1",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.7.0",
+  "mod_folders": [
+    "95-naginata-worn-v1"
+  ],
+  "asset_manifest_sha256": "0031dac4c5b4466103a572f4c080e2834c277ed8b08fe0555cae503c6e1b9da5",
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json"
+  ],
+  "channel": "beta"
+}
