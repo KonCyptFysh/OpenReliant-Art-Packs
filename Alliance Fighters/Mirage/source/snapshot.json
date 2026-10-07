@@ -1,0 +1,187 @@
+{
+  "ship": "Mirage",
+  "asset_revision": "3.0",
+  "canonical_scene_name": "mirage_worn_pbr_v3.blend",
+  "canonical_scene_sha256": "7ab1818b7e438ff0132753f1cf43823892cce76da1595f604ef31e855a3f741a",
+  "scene": {
+    "path": "source/mirage_worn_pbr_v3.blend",
+    "bytes": 66258801,
+    "sha256": "8eca83d632be276dae60effc15ed305c7be3acb2daba9c051ad2c172ca643ee8"
+  },
+  "resources": [
+    {
+      "path": "source/resources/034fdbcda95b_mirage_worn_height_4k_v3.png",
+      "bytes": 744051,
+      "sha256": "034fdbcda95b3963558c6c22061609a7f7631096824552edaa481d5afbc0215d"
+    },
+    {
+      "path": "source/resources/03b36271d904_mirage_worn_glass_4k_v3.png",
+      "bytes": 117218,
+      "sha256": "03b36271d9046ea8d1651ff7dc18e0c63c61a0e9ae7df32f4e809f8b8b9b3d2f"
+    },
+    {
+      "path": "source/resources/03bba8d6cbe9_mirage_worn_fin_mask_4k_v1.png",
+      "bytes": 459070,
+      "sha256": "03bba8d6cbe9c20edf13b566113416aa612f9d79297e2054a9b153921e01bcb1"
+    },
+    {
+      "path": "source/resources/11142c859b60_mirage_worn_panel_refinement_mask_4k_v2.png",
+      "bytes": 254275,
+      "sha256": "11142c859b60935a7ba94f2feebc41b336c2a4a3d65999b924546f8fd6c66917"
+    },
+    {
+      "path": "source/resources/17d7fd5cb416_mirage_worn_flat_graphics_4k_v1.png",
+      "bytes": 156580,
+      "sha256": "17d7fd5cb41676c1f59100da8dd376f8c38114f6f767e9ba8d34d0ee58d046af"
+    },
+    {
+      "path": "source/resources/1b44c0c0ed3c_mirage_worn_structure_mask_4k_v1.png",
+      "bytes": 260167,
+      "sha256": "1b44c0c0ed3c56c152a4b209b3594854bff4d48ddc95023c3f9b3be0a681761a"
+    },
+    {
+      "path": "source/resources/30105af8c1a0_mirage_worn_metallic_4k_v2.png",
+      "bytes": 16335362,
+      "sha256": "30105af8c1a0f7832cc69b44e926e5a87303a292e3adfd58e938d58ea19ed534"
+    },
+    {
+      "path": "source/resources/3894a0a010d2_mirage_worn_normal_4k_v2.png",
+      "bytes": 1706756,
+      "sha256": "3894a0a010d24c396115cad03bb4fac13923d78601d77a2a8b6619a94f6cd23e"
+    },
+    {
+      "path": "source/resources/49d6836293ad_mirage_worn_roughness_4k_v3.png",
+      "bytes": 32024692,
+      "sha256": "49d6836293ad531e02fb65d01ab5f625b633e29957ebead97b0407d049000357"
+    },
+    {
+      "path": "source/resources/6c32fb853c15_mirage_worn_specular_4k_v3.png",
+      "bytes": 254177,
+      "sha256": "6c32fb853c158405c83bb58e54bf36606218135c029a86682c2a987dafa832fe"
+    },
+    {
+      "path": "source/resources/993ebe576242_mirage_worn_radiator_refinement_mask_4k_v2.png",
+      "bytes": 105618,
+      "sha256": "993ebe576242dbbc404f0b33b9357c2e71507b0743114b380bf7f842e0257eb8"
+    },
+    {
+      "path": "source/resources/9c06efbb06f1_mirage_worn_specular_4k_v2.png",
+      "bytes": 244496,
+      "sha256": "9c06efbb06f116963f1e49bb1fcacb3db8cff58eca1f6c6624cf0997473662ec"
+    },
+    {
+      "path": "source/resources/ac4f768f66f3_mirage_worn_roughness_4k_v2.png",
+      "bytes": 32165219,
+      "sha256": "ac4f768f66f3ca8ce86015618922d56cf90bd92dc52950bb912d97ba43884de8"
+    },
+    {
+      "path": "source/resources/af4fc828d56e_mirage_worn_basecolor_4k_v2.png",
+      "bytes": 23475606,
+      "sha256": "af4fc828d56ee3d2a04aae4af1e4f785c0a776b33cde8e90c665533f664d4fe5"
+    },
+    {
+      "path": "source/resources/c618605e848a_mirage_worn_normal_4k_v3.png",
+      "bytes": 1706420,
+      "sha256": "c618605e848a761f31ed033db1bd436544a1441cc120e1db00316b5eed218edd"
+    },
+    {
+      "path": "source/resources/cee86f207abe_mirage_worn_coat_4k_v2.png",
+      "bytes": 110654,
+      "sha256": "cee86f207abeb3469e549148fd10f8cc04e4ddc34203319a8711ee47dc84561b"
+    },
+    {
+      "path": "source/resources/d4f7d7aa03bf_mirage_worn_metallic_4k_v3.png",
+      "bytes": 16310382,
+      "sha256": "d4f7d7aa03bfc6eb5d1217792ac4359fc7d3631051a3664da639455fc833f525"
+    },
+    {
+      "path": "source/resources/d7644d925434_mirage_worn_basecolor_4k_v3.png",
+      "bytes": 16036205,
+      "sha256": "d7644d92543434144a0053bb0f04be4ba5266f1bbc369aae4fb7ab74f418f14e"
+    },
+    {
+      "path": "source/resources/f8a51217c970_mirage_worn_coat_4k_v3.png",
+      "bytes": 120708,
+      "sha256": "f8a51217c970b2335f0529da9640aef400b5849c18a5e237fa23ba0b772a6de4"
+    }
+  ],
+  "recipes": [
+    {
+      "path": "source/recipes/work/canopy_v3/prepare_maps.py",
+      "bytes": 3115,
+      "sha256": "5ac67108a778173052a42ef34c47951a0d36859c3dc1a21d7079bd6b30e2dbaa"
+    },
+    {
+      "path": "source/recipes/work/canopy_v3/refine_scene.py",
+      "bytes": 4555,
+      "sha256": "365f30dce3faf9a2d47bb2fb1a97f44157bd0073dc19b452f7a0365ed9101a3f"
+    },
+    {
+      "path": "source/recipes/work/canopy_v3/edit_regions.json",
+      "bytes": 227,
+      "sha256": "8ff18177fdb362e49264ef14d77031d55fccdbb6ffca45ee6f37b0580ffa9c52"
+    }
+  ],
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_and_relative_resources_verified": true,
+  "runtime_folder": "mods/90-mirage-worn-v1",
+  "runtime_files": [
+    {
+      "path": "mods/90-mirage-worn-v1/French_Mirage.SHP",
+      "bytes": 199278,
+      "sha256": "9f0c422dec5f4d0e7418ec957eccd6c929308044e7915dc69d782953b23e55ca"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/gormi1_hull.png",
+      "bytes": 16036205,
+      "sha256": "d7644d92543434144a0053bb0f04be4ba5266f1bbc369aae4fb7ab74f418f14e"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/gormi1_hull_normal.png",
+      "bytes": 1706420,
+      "sha256": "c618605e848a761f31ed033db1bd436544a1441cc120e1db00316b5eed218edd"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/gormi1_hull_orm.png",
+      "bytes": 12465127,
+      "sha256": "14f4f0a1d68091080fdf75e50c5e9d872e4075d63eafc34ae502e09b26aa0abe"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/mission993.dte",
+      "bytes": 479,
+      "sha256": "dab011dea658eba7e85fdc22575e7c0ac1be53a02772e50be04a3b1e6ff3db95"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/mod.ini",
+      "bytes": 227,
+      "sha256": "1b2a4564ef5cd1a1df7b68b161d941609ea3e02c89f75ad4d319858d548f5483"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/mod.png",
+      "bytes": 568824,
+      "sha256": "95d160fa0192912bfe19d3ad85c2a1dd4b66c055534826af050c63e3881ffc00"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/ormi1_hull.png",
+      "bytes": 16036205,
+      "sha256": "d7644d92543434144a0053bb0f04be4ba5266f1bbc369aae4fb7ab74f418f14e"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/ormi1_hull_normal.png",
+      "bytes": 1706420,
+      "sha256": "c618605e848a761f31ed033db1bd436544a1441cc120e1db00316b5eed218edd"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/ormi1_hull_orm.png",
+      "bytes": 12465127,
+      "sha256": "14f4f0a1d68091080fdf75e50c5e9d872e4075d63eafc34ae502e09b26aa0abe"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/t_French_Mirage.SHP",
+      "bytes": 201390,
+      "sha256": "2fdfb2d5efae1173e487e86a7ecb873d2d229c157a251df9e2799a33923ce99b"
+    }
+  ],
+  "emissives": "deferred",
+  "release_status": "beta"
+}

@@ -1,0 +1,136 @@
+{
+  "status": "individual-beta-snapshot",
+  "ship": "Mirage",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 823,
+      "sha256": "64fee769aa93b0aa17633f9414e1a630b08e50665613de78aa6b670059db2202"
+    },
+    {
+      "path": "source/mirage_worn_pbr_v3.blend",
+      "bytes": 66258801,
+      "sha256": "8eca83d632be276dae60effc15ed305c7be3acb2daba9c051ad2c172ca643ee8"
+    },
+    {
+      "path": "source/recipes/README.md",
+      "bytes": 622,
+      "sha256": "fb0e8c3aa03128fc50c1373c098d05b9f88c061d66a30ac82f9910d1399d7441"
+    },
+    {
+      "path": "source/recipes/work/canopy_v3/edit_regions.json",
+      "bytes": 227,
+      "sha256": "8ff18177fdb362e49264ef14d77031d55fccdbb6ffca45ee6f37b0580ffa9c52"
+    },
+    {
+      "path": "source/recipes/work/canopy_v3/prepare_maps.py",
+      "bytes": 3115,
+      "sha256": "5ac67108a778173052a42ef34c47951a0d36859c3dc1a21d7079bd6b30e2dbaa"
+    },
+    {
+      "path": "source/recipes/work/canopy_v3/refine_scene.py",
+      "bytes": 4555,
+      "sha256": "365f30dce3faf9a2d47bb2fb1a97f44157bd0073dc19b452f7a0365ed9101a3f"
+    },
+    {
+      "path": "source/resources/034fdbcda95b_mirage_worn_height_4k_v3.png",
+      "bytes": 744051,
+      "sha256": "034fdbcda95b3963558c6c22061609a7f7631096824552edaa481d5afbc0215d"
+    },
+    {
+      "path": "source/resources/03b36271d904_mirage_worn_glass_4k_v3.png",
+      "bytes": 117218,
+      "sha256": "03b36271d9046ea8d1651ff7dc18e0c63c61a0e9ae7df32f4e809f8b8b9b3d2f"
+    },
+    {
+      "path": "source/resources/03bba8d6cbe9_mirage_worn_fin_mask_4k_v1.png",
+      "bytes": 459070,
+      "sha256": "03bba8d6cbe9c20edf13b566113416aa612f9d79297e2054a9b153921e01bcb1"
+    },
+    {
+      "path": "source/resources/11142c859b60_mirage_worn_panel_refinement_mask_4k_v2.png",
+      "bytes": 254275,
+      "sha256": "11142c859b60935a7ba94f2feebc41b336c2a4a3d65999b924546f8fd6c66917"
+    },
+    {
+      "path": "source/resources/17d7fd5cb416_mirage_worn_flat_graphics_4k_v1.png",
+      "bytes": 156580,
+      "sha256": "17d7fd5cb41676c1f59100da8dd376f8c38114f6f767e9ba8d34d0ee58d046af"
+    },
+    {
+      "path": "source/resources/1b44c0c0ed3c_mirage_worn_structure_mask_4k_v1.png",
+      "bytes": 260167,
+      "sha256": "1b44c0c0ed3c56c152a4b209b3594854bff4d48ddc95023c3f9b3be0a681761a"
+    },
+    {
+      "path": "source/resources/30105af8c1a0_mirage_worn_metallic_4k_v2.png",
+      "bytes": 16335362,
+      "sha256": "30105af8c1a0f7832cc69b44e926e5a87303a292e3adfd58e938d58ea19ed534"
+    },
+    {
+      "path": "source/resources/3894a0a010d2_mirage_worn_normal_4k_v2.png",
+      "bytes": 1706756,
+      "sha256": "3894a0a010d24c396115cad03bb4fac13923d78601d77a2a8b6619a94f6cd23e"
+    },
+    {
+      "path": "source/resources/49d6836293ad_mirage_worn_roughness_4k_v3.png",
+      "bytes": 32024692,
+      "sha256": "49d6836293ad531e02fb65d01ab5f625b633e29957ebead97b0407d049000357"
+    },
+    {
+      "path": "source/resources/6c32fb853c15_mirage_worn_specular_4k_v3.png",
+      "bytes": 254177,
+      "sha256": "6c32fb853c158405c83bb58e54bf36606218135c029a86682c2a987dafa832fe"
+    },
+    {
+      "path": "source/resources/993ebe576242_mirage_worn_radiator_refinement_mask_4k_v2.png",
+      "bytes": 105618,
+      "sha256": "993ebe576242dbbc404f0b33b9357c2e71507b0743114b380bf7f842e0257eb8"
+    },
+    {
+      "path": "source/resources/9c06efbb06f1_mirage_worn_specular_4k_v2.png",
+      "bytes": 244496,
+      "sha256": "9c06efbb06f116963f1e49bb1fcacb3db8cff58eca1f6c6624cf0997473662ec"
+    },
+    {
+      "path": "source/resources/ac4f768f66f3_mirage_worn_roughness_4k_v2.png",
+      "bytes": 32165219,
+      "sha256": "ac4f768f66f3ca8ce86015618922d56cf90bd92dc52950bb912d97ba43884de8"
+    },
+    {
+      "path": "source/resources/af4fc828d56e_mirage_worn_basecolor_4k_v2.png",
+      "bytes": 23475606,
+      "sha256": "af4fc828d56ee3d2a04aae4af1e4f785c0a776b33cde8e90c665533f664d4fe5"
+    },
+    {
+      "path": "source/resources/c618605e848a_mirage_worn_normal_4k_v3.png",
+      "bytes": 1706420,
+      "sha256": "c618605e848a761f31ed033db1bd436544a1441cc120e1db00316b5eed218edd"
+    },
+    {
+      "path": "source/resources/cee86f207abe_mirage_worn_coat_4k_v2.png",
+      "bytes": 110654,
+      "sha256": "cee86f207abeb3469e549148fd10f8cc04e4ddc34203319a8711ee47dc84561b"
+    },
+    {
+      "path": "source/resources/d4f7d7aa03bf_mirage_worn_metallic_4k_v3.png",
+      "bytes": 16310382,
+      "sha256": "d4f7d7aa03bfc6eb5d1217792ac4359fc7d3631051a3664da639455fc833f525"
+    },
+    {
+      "path": "source/resources/d7644d925434_mirage_worn_basecolor_4k_v3.png",
+      "bytes": 16036205,
+      "sha256": "d7644d92543434144a0053bb0f04be4ba5266f1bbc369aae4fb7ab74f418f14e"
+    },
+    {
+      "path": "source/resources/f8a51217c970_mirage_worn_coat_4k_v3.png",
+      "bytes": 120708,
+      "sha256": "f8a51217c970b2335f0529da9640aef400b5849c18a5e237fa23ba0b772a6de4"
+    },
+    {
+      "path": "source/snapshot.json",
+      "bytes": 6909,
+      "sha256": "36e484fd20d358058f3c870f2b434b8c99e4cae5c15eb6ed215ec7dc329f9d1a"
+    }
+  ]
+}
