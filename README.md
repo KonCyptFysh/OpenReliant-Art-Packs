@@ -1,6 +1,6 @@
-# OpenReliant Art Packs
+# KonCyptFysh Art Packs
 
-A growing library of StarLancer artwork for **OpenReliant**, maintained by **KonCyptFysh**.
+Independent **StarLancer artwork by KonCyptFysh**, packaged for compatibility with OpenReliant. OpenReliant is a separate project.
 
 **[Browse the art-pack gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/)** · **[Individual downloads](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases)** · **[Report an issue](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/new/choose)**
 
