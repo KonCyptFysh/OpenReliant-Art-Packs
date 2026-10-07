@@ -254,6 +254,27 @@
       "checksum": "2191a9ef7d4e42fcf1dca2352ab7b4b9c5d50005c87e5517f6d64e178bf94aef",
       "tag": "patriot-v0.1.0-beta.1",
       "downloadBytes": 294403954
+    },
+    {
+      "id": "ordnance",
+      "name": "Missiles, Torpedoes and Fuel Pod - Worn Paint",
+      "category": "weapons",
+      "folder": "Weapons/Missile Packs and Torpedoes",
+      "status": "available",
+      "version": "0.1.0-beta.3",
+      "assetRevision": "1.2",
+      "description": "Nine missiles, four launch pods, both torpedoes and the fuel pod, with matching loadout variants: 32 models in one pack.",
+      "modFolder": "97-ordnance-worn-v1",
+      "preview": "assets/ordnance.png",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.3/openreliant-ordnance-0.1.0-beta.3.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.3",
+      "checksum": "e21f137d606dd0f5bd007ebbbfa533ece5d2d6431978340e8a6f8316653deeb8",
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Firing, mounted animations and distance transitions still need separate gameplay testing."
+      ],
+      "tag": "ordnance-v0.1.0-beta.3",
+      "downloadBytes": 85406664
     }
   ]
 }
