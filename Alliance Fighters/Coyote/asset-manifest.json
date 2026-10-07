@@ -20,9 +20,14 @@
     "sha256": "e1e75cf4595740a0a6200fb8cf23a566dedea15fc6b50737a7f10c68b8786284"
   },
   {
+    "path": "mods/30-coyote-worn-v4/license.txt",
+    "bytes": 999,
+    "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
+  },
+  {
     "path": "mods/30-coyote-worn-v4/mod.ini",
-    "bytes": 166,
-    "sha256": "5cc49822f3ef569210685a9f2a8d456296018d6027fed2e3b30e563c0ce6b31e"
+    "bytes": 192,
+    "sha256": "ee5407f73b6dca98807fd89ce41aa2aa174b577e785a368135bdc89c25ec3be9"
   },
   {
     "path": "mods/30-coyote-worn-v4/mod.png",

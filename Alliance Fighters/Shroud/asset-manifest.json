@@ -20,9 +20,14 @@
     "sha256": "e5c349d8cdc666f7ada7d7542afa2864383bdfeecae2b83d7b6df88938641a91"
   },
   {
+    "path": "mods/80-shroud-worn-v1/license.txt",
+    "bytes": 999,
+    "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
+  },
+  {
     "path": "mods/80-shroud-worn-v1/mod.ini",
-    "bytes": 227,
-    "sha256": "3340c2de6683f3e170bfa8de207c9c8b939aafe3a9da980e5ab1c5577195e147"
+    "bytes": 253,
+    "sha256": "8a8e0356be68c09414cfd184db32606d57e565845e7b3a3fdec388234648c8cb"
   },
   {
     "path": "mods/80-shroud-worn-v1/mod.png",

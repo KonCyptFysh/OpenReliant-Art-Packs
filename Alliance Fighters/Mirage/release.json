@@ -1,13 +1,13 @@
 {
   "package_name": "openreliant-mirage",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "status": "ready-for-packaging",
   "hold_reason": null,
   "minimum_openreliant": "0.7.0",
   "mod_folders": [
     "90-mirage-worn-v1"
   ],
-  "asset_manifest_sha256": "281fdc4194b8f54c1c41be7441f07bd2917d1e771a28587ba80246013709a8ad",
+  "asset_manifest_sha256": "3fb9926df8b5c28b2afdfaa4e20f63604ed31fb39e7e86b880ada6e940d19ec3",
   "include_documents": [
     "README.md",
     "INSTALL.md",
