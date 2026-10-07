@@ -1,0 +1,32 @@
+{
+  "package_name": "openreliant-ordnance",
+  "version": "0.1.0-beta.3",
+  "asset_revision": "1.2",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.7.0",
+  "mod_folders": [
+    "97-ordnance-worn-v1"
+  ],
+  "asset_manifest_sha256": "c32354caed4fcb0cfee632343b4edf44261d91ee573c76266234302436b96c12",
+  "source_manifest_sha256": "f2e18238f6186592b2c800dbeb500e1ec001addc4c1a7b615c83b0167ac0f664",
+  "channel": "beta",
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json"
+  ],
+  "user_approved": true,
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-07T16:08:06.796885+00:00",
+    "scope": "All 32 missile, pod, loadout and torpedo variants including the audit-v3 corrections.",
+    "instruction": "Beautiful, I'm happy to green light all of these, let's send them upto git"
+  }
+}
