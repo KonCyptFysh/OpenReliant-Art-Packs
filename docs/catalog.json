@@ -186,21 +186,22 @@
       "name": "Mirage",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Mirage",
-      "status": "coming-soon",
+      "status": "available",
       "version": "0.1.0-beta.1",
       "assetRevision": "3.0",
       "description": "Original-style canopy boundaries, worn glazing and deep surface relief.",
       "modFolder": "90-mirage-worn-v1",
       "preview": "assets/mirage.webp",
       "model": "models/mirage.glb",
-      "download": null,
-      "release": null,
-      "checksum": null,
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.1/openreliant-mirage-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.1",
+      "checksum": "6993518bcb8d941004c431226ed02c93d698557498ce0a073110f1334d8753d0",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "mirage-v0.1.0-beta.1"
+      "tag": "mirage-v0.1.0-beta.1",
+      "downloadBytes": 60875590
     },
     {
       "id": "naginata",
