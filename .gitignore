@@ -3,7 +3,7 @@ dist/
 __pycache__/
 *.pyc
 *.partial
-*.blend1
+*.blend[0-9]*
 *.kra~
 .env
 .DS_Store
