@@ -76,21 +76,22 @@
       "name": "Predator",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Predator",
-      "status": "coming-soon",
+      "status": "available",
       "version": "0.1.0-beta.1",
       "assetRevision": "16.1",
       "description": "Continuous wing fins, repaired surface detail and restrained paint markings.",
       "modFolder": "40-predator-worn-v14",
       "preview": "assets/predator.webp",
       "model": "models/predator.glb",
-      "download": null,
-      "release": null,
-      "checksum": null,
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.1/openreliant-predator-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.1",
+      "checksum": "8b5fb0a9b065f4d4a44a03f428987d964c77ec9569f18613ee5caa287ee25338",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "predator-v0.1.0-beta.1"
+      "tag": "predator-v0.1.0-beta.1",
+      "downloadBytes": 258724718
     },
     {
       "id": "reaper",
