@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "title": "OpenReliant Art Packs",
+  "title": "KonCyptFysh Art Packs",
   "owner": "KonCyptFysh",
   "repository": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs",
   "engine": "0.7.0",
@@ -220,7 +220,8 @@
       "checksum": "34ba2c7f48469926d2c0ed1c70b15ac534795d001aaf8363429d5e18f948b58d",
       "notes": [
         "Texture refinements remain in progress.",
-        "Custom emissive maps are planned for a later update."
+        "Custom emissive maps are planned for a later update.",
+        "Wing-edge UVs and reconstructed exhausts still need final visual approval."
       ],
       "tag": "naginata-v0.1.0-beta.1",
       "downloadBytes": 189246283
@@ -236,7 +237,8 @@
       "download": null,
       "notes": [
         "Glass, UV joins, gun muzzles and radiator relief are under review."
-      ]
+      ],
+      "folder": "Alliance Fighters/Patriot"
     }
   ]
 }
