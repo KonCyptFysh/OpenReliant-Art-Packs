@@ -265,7 +265,7 @@
       "assetRevision": "1.2",
       "description": "Nine missiles, four launch pods, both torpedoes and the fuel pod, with matching loadout variants: 32 models in one pack.",
       "modFolder": "97-ordnance-worn-v1",
-      "preview": "assets/ordnance.png",
+      "preview": "assets/ordnance/06_jackhammer.png",
       "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.3/openreliant-ordnance-0.1.0-beta.3.zip",
       "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.3",
       "checksum": "e21f137d606dd0f5bd007ebbbfa533ece5d2d6431978340e8a6f8316653deeb8",
@@ -274,7 +274,141 @@
         "Firing, mounted animations and distance transitions still need separate gameplay testing."
       ],
       "tag": "ordnance-v0.1.0-beta.3",
-      "downloadBytes": 85406664
+      "downloadBytes": 85406664,
+      "images": [
+        {
+          "src": "assets/ordnance/06_jackhammer.png",
+          "caption": "Jackhammer \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/06_jackhammer_other.png",
+          "caption": "Jackhammer \u2014 Opposite side"
+        },
+        {
+          "src": "assets/ordnance/01_screamer.png",
+          "caption": "Screamer \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/01_screamer_rear.png",
+          "caption": "Screamer \u2014 Rear"
+        },
+        {
+          "src": "assets/ordnance/02_screamer_pod.png",
+          "caption": "Screamer pod \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/02_screamer_pod_other.png",
+          "caption": "Screamer pod \u2014 Opposite side"
+        },
+        {
+          "src": "assets/ordnance/02_screamer_pod_under.png",
+          "caption": "Screamer pod \u2014 Underside"
+        },
+        {
+          "src": "assets/ordnance/02_screamer_pod_loadout.png",
+          "caption": "Screamer pod \u2014 Loadout model"
+        },
+        {
+          "src": "assets/ordnance/03_raptor.png",
+          "caption": "Raptor \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/03_raptor_other.png",
+          "caption": "Raptor \u2014 Opposite side"
+        },
+        {
+          "src": "assets/ordnance/04_raptor_pod.png",
+          "caption": "Raptor pod \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/04_raptor_pod_other.png",
+          "caption": "Raptor pod \u2014 Opposite side"
+        },
+        {
+          "src": "assets/ordnance/04_raptor_pod_under.png",
+          "caption": "Raptor pod \u2014 Underside"
+        },
+        {
+          "src": "assets/ordnance/04_raptor_pod_loadout.png",
+          "caption": "Raptor pod \u2014 Loadout model"
+        },
+        {
+          "src": "assets/ordnance/05_havoc.png",
+          "caption": "Havoc \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/05_havoc_rear.png",
+          "caption": "Havoc \u2014 Rear"
+        },
+        {
+          "src": "assets/ordnance/07_bandit.png",
+          "caption": "Bandit \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/07_bandit_other.png",
+          "caption": "Bandit \u2014 Opposite side"
+        },
+        {
+          "src": "assets/ordnance/08_vagabond.png",
+          "caption": "Vagabond \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/08_vagabond_rear.png",
+          "caption": "Vagabond \u2014 Rear"
+        },
+        {
+          "src": "assets/ordnance/09_solomon_pod.png",
+          "caption": "Solomon pod \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/10_solomon.png",
+          "caption": "Solomon missile \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/10_solomon_rear.png",
+          "caption": "Solomon missile \u2014 Rear"
+        },
+        {
+          "src": "assets/ordnance/11_imp.png",
+          "caption": "Imp \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/11_imp_other.png",
+          "caption": "Imp \u2014 Opposite side"
+        },
+        {
+          "src": "assets/ordnance/12_hawk.png",
+          "caption": "Hawk \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/12_hawk_rear_clear.png",
+          "caption": "Hawk \u2014 Rear"
+        },
+        {
+          "src": "assets/ordnance/13_hawk_pod.png",
+          "caption": "Hawk pod \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/14_alliance_torpedo.png",
+          "caption": "Alliance torpedo \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/15_coalition_torpedo_close.png",
+          "caption": "Coalition torpedo \u2014 Overview"
+        },
+        {
+          "src": "assets/ordnance/15_coalition_torpedo_other.png",
+          "caption": "Coalition torpedo \u2014 Opposite side"
+        },
+        {
+          "src": "assets/ordnance/16_fuel_pod_top.png",
+          "caption": "Fuel pod \u2014 Top panel"
+        },
+        {
+          "src": "assets/ordnance/16_fuel_pod_loadout_top.png",
+          "caption": "Fuel pod \u2014 Loadout top panel"
+        }
+      ]
     }
   ]
 }

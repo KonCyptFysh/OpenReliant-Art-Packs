@@ -4,3 +4,14 @@
 
 /* Frame the supplied Mirage capture while preserving the original image file. */
 .hero-ship.hero-mirage{aspect-ratio:4/3;object-fit:cover;object-position:65% 55%}
+
+.gallery-controls{display:grid;grid-template-columns:44px minmax(0,1fr) 44px;align-items:center;gap:14px;padding:14px 20px;border-top:1px solid #293727}
+.gallery-controls[hidden]{display:none}
+.gallery-controls button{width:44px;height:44px;border:1px solid #516549;background:#222e21;color:var(--ink);font-size:22px;line-height:1}
+.gallery-controls button:hover{background:#34442f;border-color:#91a582}
+.gallery-caption{display:flex;flex-direction:column;gap:3px;text-align:center;font-size:12px;line-height:1.5;min-width:0}
+#gallery-count{font:10px var(--mono);color:var(--muted)}
+@media(max-width:760px){.gallery-controls{padding:12px;gap:10px}.gallery-caption{font-size:11px}}
+
+.photo-gallery #preview-stage{flex:0 0 auto;min-height:0;height:clamp(220px,calc(90vh - 205px),480px)}
+@media(max-width:760px){.photo-gallery #preview-stage{height:auto;aspect-ratio:8/5}.photo-gallery #preview-stage img{max-height:none}}
