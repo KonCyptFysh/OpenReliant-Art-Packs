@@ -236,11 +236,11 @@
       "id": "patriot",
       "name": "Patriot - Worn Paint",
       "category": "alliance-fighters",
-      "status": "coming-soon",
+      "status": "available",
       "description": "Six-fin intakes, bright radiator metal and continuous outer-engine panels.",
       "preview": "assets/patriot.webp",
       "model": "models/patriot.glb",
-      "download": null,
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.1/openreliant-patriot-0.1.0-beta.1.zip",
       "notes": [
         "Patriot v3 artwork is complete and approved for this beta.",
         "Custom emissive maps are planned for a later update.",
@@ -250,9 +250,10 @@
       "version": "0.1.0-beta.1",
       "assetRevision": "3.0",
       "modFolder": "96-patriot-worn-v1",
-      "release": null,
-      "checksum": null,
-      "tag": "patriot-v0.1.0-beta.1"
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.1",
+      "checksum": "2191a9ef7d4e42fcf1dca2352ab7b4b9c5d50005c87e5517f6d64e178bf94aef",
+      "tag": "patriot-v0.1.0-beta.1",
+      "downloadBytes": 294403954
     }
   ]
 }
