@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "scope": "individual-mod-bounded-loading-and-rendering",
+  "checked_at_utc": "2026-10-07T07:00:38.683662+00:00",
+  "engine_build": "OpenReliant 0.7.0 official release 3b27f16",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "tested_platforms": [
+    "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
+  ],
+  "asset_manifest_sha256": "281fdc4194b8f54c1c41be7441f07bd2917d1e771a28587ba80246013709a8ad",
+  "source_manifest_sha256": "43f26c0631c4699a9f786cd9d1471c14239da71fa7506d8f8eb232c125c01b39",
+  "checks": [
+    "Verify 11 runtime files and 26 original source artifacts against the previously verified snapshot.",
+    "Copy only 90-mirage-worn-v1 into a clean test installation; verify all runtime hashes.",
+    "Pass native format checks for 3 SHP/DTE files.",
+    "Load and capture the standard fighter on official OpenReliant 0.7.0 with exactly one art mod enabled and no HUD.",
+    "Preserve the byte-identical runtime assets previously checked in both standard and t_ variants with the original eight-fighter set.",
+    "Inspect the new isolated-mod capture for the expected ship and gross rendering errors."
+  ],
+  "native_checks": [
+    {
+      "path": "mods/90-mirage-worn-v1/French_Mirage.SHP",
+      "sha256": "9f0c422dec5f4d0e7418ec957eccd6c929308044e7915dc69d782953b23e55ca",
+      "exit_status": 0,
+      "log_sha256": "e0974a042a8f8e7ddf0229f814e0cc1f2105439d2ddd2011c89745721d3509f1"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/mission993.dte",
+      "sha256": "dab011dea658eba7e85fdc22575e7c0ac1be53a02772e50be04a3b1e6ff3db95",
+      "exit_status": 0,
+      "log_sha256": "8b5c012111961ca14ca20b93c140211a5fa080c823739f6c2225371bc305dd9b"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/t_French_Mirage.SHP",
+      "sha256": "2fdfb2d5efae1173e487e86a7ecb873d2d229c157a251df9e2799a33923ce99b",
+      "exit_status": 0,
+      "log_sha256": "e0974a042a8f8e7ddf0229f814e0cc1f2105439d2ddd2011c89745721d3509f1"
+    }
+  ],
+  "single_mod_capture": {
+    "sha256": "85425728e0aa11aa7396a17832dd36bc2036bf67a715aa74995ac57404f2fda2",
+    "log_sha256": "d9cd62882151a7ce140bee8ff27f55c0b538981b16b5ed1bd9d7977160194b65",
+    "exit_status": 0,
+    "enabled_mods": [
+      "90-mirage-worn-v1"
+    ]
+  },
+  "previous_variant_checks": [
+    {
+      "path": "mods/90-mirage-worn-v1/French_Mirage.SHP",
+      "sha256": "9f0c422dec5f4d0e7418ec957eccd6c929308044e7915dc69d782953b23e55ca",
+      "exit_status": 0,
+      "log_sha256": "e0974a042a8f8e7ddf0229f814e0cc1f2105439d2ddd2011c89745721d3509f1"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/mission993.dte",
+      "sha256": "dab011dea658eba7e85fdc22575e7c0ac1be53a02772e50be04a3b1e6ff3db95",
+      "exit_status": 0,
+      "log_sha256": "8b5c012111961ca14ca20b93c140211a5fa080c823739f6c2225371bc305dd9b"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/t_French_Mirage.SHP",
+      "sha256": "2fdfb2d5efae1173e487e86a7ecb873d2d229c157a251df9e2799a33923ce99b",
+      "exit_status": 0,
+      "log_sha256": "e0974a042a8f8e7ddf0229f814e0cc1f2105439d2ddd2011c89745721d3509f1"
+    }
+  ],
+  "limitations": [
+    "This is a work-in-progress beta; final texture and Naginata edge/exhaust acceptance are still open.",
+    "Full campaign play, damage, ejection, loadout and Shroud cloak were not tested in these bounded captures.",
+    "Lower-LOD distance transitions and separate later-campaign liveries remain under review.",
+    "Windows and macOS runtime tests have not been performed.",
+    "No custom emissive maps are included."
+  ]
+}

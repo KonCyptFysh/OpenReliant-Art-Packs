@@ -1,0 +1,57 @@
+[
+  {
+    "path": "mods/90-mirage-worn-v1/French_Mirage.SHP",
+    "bytes": 199278,
+    "sha256": "9f0c422dec5f4d0e7418ec957eccd6c929308044e7915dc69d782953b23e55ca"
+  },
+  {
+    "path": "mods/90-mirage-worn-v1/gormi1_hull.png",
+    "bytes": 16036205,
+    "sha256": "d7644d92543434144a0053bb0f04be4ba5266f1bbc369aae4fb7ab74f418f14e"
+  },
+  {
+    "path": "mods/90-mirage-worn-v1/gormi1_hull_normal.png",
+    "bytes": 1706420,
+    "sha256": "c618605e848a761f31ed033db1bd436544a1441cc120e1db00316b5eed218edd"
+  },
+  {
+    "path": "mods/90-mirage-worn-v1/gormi1_hull_orm.png",
+    "bytes": 12465127,
+    "sha256": "14f4f0a1d68091080fdf75e50c5e9d872e4075d63eafc34ae502e09b26aa0abe"
+  },
+  {
+    "path": "mods/90-mirage-worn-v1/mission993.dte",
+    "bytes": 479,
+    "sha256": "dab011dea658eba7e85fdc22575e7c0ac1be53a02772e50be04a3b1e6ff3db95"
+  },
+  {
+    "path": "mods/90-mirage-worn-v1/mod.ini",
+    "bytes": 227,
+    "sha256": "1b2a4564ef5cd1a1df7b68b161d941609ea3e02c89f75ad4d319858d548f5483"
+  },
+  {
+    "path": "mods/90-mirage-worn-v1/mod.png",
+    "bytes": 568824,
+    "sha256": "95d160fa0192912bfe19d3ad85c2a1dd4b66c055534826af050c63e3881ffc00"
+  },
+  {
+    "path": "mods/90-mirage-worn-v1/ormi1_hull.png",
+    "bytes": 16036205,
+    "sha256": "d7644d92543434144a0053bb0f04be4ba5266f1bbc369aae4fb7ab74f418f14e"
+  },
+  {
+    "path": "mods/90-mirage-worn-v1/ormi1_hull_normal.png",
+    "bytes": 1706420,
+    "sha256": "c618605e848a761f31ed033db1bd436544a1441cc120e1db00316b5eed218edd"
+  },
+  {
+    "path": "mods/90-mirage-worn-v1/ormi1_hull_orm.png",
+    "bytes": 12465127,
+    "sha256": "14f4f0a1d68091080fdf75e50c5e9d872e4075d63eafc34ae502e09b26aa0abe"
+  },
+  {
+    "path": "mods/90-mirage-worn-v1/t_French_Mirage.SHP",
+    "bytes": 201390,
+    "sha256": "2fdfb2d5efae1173e487e86a7ecb873d2d229c157a251df9e2799a33923ce99b"
+  }
+]
