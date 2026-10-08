@@ -1,0 +1,167 @@
+{
+  "status": "approved-snapshot",
+  "ship": "Grendal",
+  "asset_revision": "1.1",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 2250,
+      "sha256": "170ce391051fb24d46f3627d96254a2ba2638d64dfddf9380c535c52f68609b3"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 2954,
+      "sha256": "f59f648008b591e3ec613937c1275d9f1bd97d836e272e0f324324dbb3aeedc1"
+    },
+    {
+      "path": "source/authoring/radiator_uv_repairs_v2.json",
+      "bytes": 14306,
+      "sha256": "3e0c3de32acdbf75d0fb2f1492b6339fb77a623a6cfcb23f7ee25fe1e50e9118"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 13542,
+      "sha256": "325f46be63a0f13e4f9785995cc54d4c915272bd21f40518a94377e68dc7f02c"
+    },
+    {
+      "path": "source/grendal_worn_pbr_v1.blend",
+      "bytes": 31481269,
+      "sha256": "7549b65f168439d295625725b365f23527fafe9ee436fdff12c6a441099bf6c9"
+    },
+    {
+      "path": "source/grendal_worn_pbr_v2.blend",
+      "bytes": 31482139,
+      "sha256": "cb49da348abe7dd3c95a92361bc507cf9c67e35e2342dd8c6cf1b03211126da7"
+    },
+    {
+      "path": "source/maps/grendal_hull_basecolor_v1.png",
+      "bytes": 16658265,
+      "sha256": "60bcc2f475d83136e2479c306068a9be1fdb6dd4d148a59091dde6aa64f7a0d9"
+    },
+    {
+      "path": "source/maps/grendal_hull_fins_v1.png",
+      "bytes": 73662,
+      "sha256": "a837713c09c95bdfdd7ee996c89614602508ee058d80c773df6b189dc01fde6f"
+    },
+    {
+      "path": "source/maps/grendal_hull_flat_graphics_v1.png",
+      "bytes": 65361,
+      "sha256": "2985fafa90d333fccfd5a18b4538e4ab6ab336dff487ec9fec019dbc09c4bb69"
+    },
+    {
+      "path": "source/maps/grendal_hull_generated_v1.png",
+      "bytes": 3472488,
+      "sha256": "7a69b9341847d3740ed63e70107262ebf562bded4928911bba136f06415739cf"
+    },
+    {
+      "path": "source/maps/grendal_hull_generated_v2.png",
+      "bytes": 3122581,
+      "sha256": "30e4f9296e8901fc65d473d528aa0d81ef4c01b7ef11acc29f0f6d69850ece71"
+    },
+    {
+      "path": "source/maps/grendal_hull_glass_v1.png",
+      "bytes": 134742,
+      "sha256": "b1e1cd3dd3443e08db7f817f36f94c2564fc4055485a3b682de14ed4b2e1942a"
+    },
+    {
+      "path": "source/maps/grendal_hull_height_v1.png",
+      "bytes": 147308,
+      "sha256": "241037d38d8f858799989bf5713476900c4b7bb0dfa73dcec737071a6494837e"
+    },
+    {
+      "path": "source/maps/grendal_hull_metallic_v1.png",
+      "bytes": 8139832,
+      "sha256": "4793af31cf14e8b835387b4241da173b22cecc73c927f076e1c59307f8eba88b"
+    },
+    {
+      "path": "source/maps/grendal_hull_normal_v1.png",
+      "bytes": 328408,
+      "sha256": "893b3c4d04444187e3a8003404c2c1b89bab5f25a8c9ffc7ac9dc42fea05badf"
+    },
+    {
+      "path": "source/maps/grendal_hull_paint_v1.png",
+      "bytes": 5223138,
+      "sha256": "f554a8717fd8c563f2d7c42585be355e83793744366fe10c2e12710c0d0443fb"
+    },
+    {
+      "path": "source/maps/grendal_hull_panels_v1.png",
+      "bytes": 124938,
+      "sha256": "67fc1d812782e03ef7401886c4bcf184c5a1949335ec0eab0bee0799d9fa5934"
+    },
+    {
+      "path": "source/maps/grendal_hull_roughness_v1.png",
+      "bytes": 6277052,
+      "sha256": "ea2dfd35dd01644fdfa938bf28a601d0a9c2849b25925ecb1aa17955f462fb53"
+    },
+    {
+      "path": "source/maps/grendal_hull_seal_v1.png",
+      "bytes": 153087,
+      "sha256": "e047788d22fd9daaaa64e536454618b27a6d86da2f6fb78d374adfa4a939f3ca"
+    },
+    {
+      "path": "source/maps/grendal_hull_structure_v1.png",
+      "bytes": 177140,
+      "sha256": "e3207b0013ac899587327336fe0b5e1f5620e41d460848a4284cc8e7eb3fa80d"
+    },
+    {
+      "path": "source/originals/German_grendal.SHP",
+      "bytes": 217004,
+      "sha256": "543198f867d845ccf86e92902a0690086f5fee2f106cfeac3c0e1864271f1e7a"
+    },
+    {
+      "path": "source/originals/Grendal_gun.SHP",
+      "bytes": 114436,
+      "sha256": "2d86464b3b170f17e3cecf51b52504e40a0356b64bf9f539670456e5b8c0db6e"
+    },
+    {
+      "path": "source/originals/grendal.png",
+      "bytes": 60334,
+      "sha256": "8dc496c5c7990f44a81e51252f441454647f8e0d1311c6887d011448c0f6daf4"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 3949,
+      "sha256": "9cce0d18963baa68b6ea386105bdebc4854941833d899603d2134524262655d3"
+    },
+    {
+      "path": "source/originals/t_German_grendal.SHP",
+      "bytes": 220204,
+      "sha256": "b570f70886c9b7869d56b166d5758f96d683f29fd6e560334f7370ebaef2f4e0"
+    },
+    {
+      "path": "source/resources/4793af31cf14_grendal_hull_metallic_v1.png",
+      "bytes": 8139832,
+      "sha256": "4793af31cf14e8b835387b4241da173b22cecc73c927f076e1c59307f8eba88b"
+    },
+    {
+      "path": "source/resources/60bcc2f475d8_grendal_hull_basecolor_v1.png",
+      "bytes": 16658265,
+      "sha256": "60bcc2f475d83136e2479c306068a9be1fdb6dd4d148a59091dde6aa64f7a0d9"
+    },
+    {
+      "path": "source/resources/893b3c4d0444_grendal_hull_normal_v1.png",
+      "bytes": 328408,
+      "sha256": "893b3c4d04444187e3a8003404c2c1b89bab5f25a8c9ffc7ac9dc42fea05badf"
+    },
+    {
+      "path": "source/resources/8dc496c5c799_grendal.png",
+      "bytes": 60334,
+      "sha256": "8dc496c5c7990f44a81e51252f441454647f8e0d1311c6887d011448c0f6daf4"
+    },
+    {
+      "path": "source/resources/ea2dfd35dd01_grendal_hull_roughness_v1.png",
+      "bytes": 6277052,
+      "sha256": "ea2dfd35dd01644fdfa938bf28a601d0a9c2849b25925ecb1aa17955f462fb53"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-overview.png",
+      "bytes": 870469,
+      "sha256": "f346a9b71493193aaeadd3a4edc4118390b576981d2d888a6b63c8ed9d5600d4"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-rear.png",
+      "bytes": 840406,
+      "sha256": "2bcf805b80bcf919d01f4c4bab1485a6c3800b351160a5e647d23a25b4db826b"
+    }
+  ]
+}

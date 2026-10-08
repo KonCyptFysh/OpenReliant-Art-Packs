@@ -1,0 +1,17 @@
+{
+  "mode": "built-in-imagegen",
+  "passes": [
+    {
+      "mode": "built-in-imagegen",
+      "input": "source/grendal.png",
+      "output": "maps/grendal_hull_generated_v1.png",
+      "prompt": "Use case: precise-object-edit. Asset type: fixed-layout diffuse/albedo texture atlas for the original StarLancer Grendal fighter. Image 1 is the exact edit target, a 256-square atlas. Restore it as a highly legible detailed 2048-square worn game texture while retaining precisely the same framing, every feature position, scale, boundary, panel line, grille, bolt, warning triangle, black/yellow checker band, lower-left black/red/gold German tricolour stripe, and the white/black Bundeswehr cross at upper right. This is a technical UV texture, not a picture of a spaceship. Preserve the entire atlas, edge to edge; do not add margins, labels, new markings, extra features, or move shapes. Preserve subdued worn charcoal/grey metal, scratches, grime, muted amber details and original colours. Reconstruct fine physically plausible painted-metal texture, restrained chipping and sharp recessed mechanical grilles inside their existing openings. Do not exaggerate bevels, add lighting gradients, brighten grey metal excessively or bake specular glints into the diffuse. All dark-green cockpit glazing islands at upper right must fill their EXACT original shapes to the inner gasket edges, retaining the original frames. Make pane interiors smooth dark desaturated green-black with no streaks, clouds, scratches or baked reflections so in-engine reflections do the work. Keep surrounding hull wear, original panel divisions, grille slats and painted livery faithful. A single flat square texture sheet, no perspective, no mesh, no text additions, no watermark."
+    },
+    {
+      "mode": "built-in-imagegen",
+      "input": "maps/grendal_hull_generated_v1.png",
+      "output": "maps/grendal_hull_generated_v2.png",
+      "prompt": "Use case: precise-object-edit. Image 1 is a finished, fixed-layout game texture atlas, 1254 x 1254. Make ONLY this tiny correction and leave every other pixel, shape, marking, panel line, wear pattern, framing and colour unchanged: the two small green rectangular panes still have mottled painted reflections. First pane is at pixels x=238..298,y=581..617 (left of the central radiator); second is x=1121..1185,y=683..731 (right of the three blue sockets). Replace the INTERIORS of these two panes only with smooth dark desaturated green-black matching the large existing cockpit panes, with no mottling, scratches, highlights or painted reflection. Fill to the exact inner gasket edges of their existing rounded rectangular outlines; preserve both silver borders, corner radii and gasket shapes. They are glazing, not electronic displays. Do not change any other area of the atlas. Return the entire same square texture sheet with exactly the same layout and dimensions, no additions, no margins, no perspective."
+    }
+  ]
+}

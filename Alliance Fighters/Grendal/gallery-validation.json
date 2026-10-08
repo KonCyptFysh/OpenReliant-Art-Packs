@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "gallery_media": "Actual in-game captures in official OpenReliant 0.7.0",
+  "artwork_revision": "1.1",
+  "captures": [
+    {
+      "image": "flight-overview.png",
+      "sha256": "f346a9b71493193aaeadd3a4edc4118390b576981d2d888a6b63c8ed9d5600d4",
+      "engine": "Official OpenReliant 0.7.0",
+      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "mission": 992,
+      "ship": 2,
+      "watch_from": "1.2,-0.72,1.56",
+      "render_size": [
+        1600,
+        1200
+      ],
+      "screenshot_ticks": 30,
+      "exit_code": 0,
+      "captured_at_utc": "2026-10-08T12:58:55.437400+00:00",
+      "runtime_manifest_sha256": "337e7875605786f865379be5d18d362b806e41e7a23fb9531c33d8663e44e0a1",
+      "installed_runtime_matches_repository": true,
+      "settings_unchanged": true,
+      "gallery_file": "assets/grendal/flight-overview.webp",
+      "gallery_sha256": "4af091f3ace8d0cc8d74f1a649244a8f8565baf8c2a62c30c98d366282f4f34b",
+      "conversion": "WebP encoding only; no image alterations"
+    },
+    {
+      "image": "flight-rear.png",
+      "sha256": "2bcf805b80bcf919d01f4c4bab1485a6c3800b351160a5e647d23a25b4db826b",
+      "engine": "Official OpenReliant 0.7.0",
+      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "mission": 992,
+      "ship": 2,
+      "watch_from": "1.2,-0.72,-1.56",
+      "render_size": [
+        1600,
+        1200
+      ],
+      "screenshot_ticks": 30,
+      "exit_code": 0,
+      "captured_at_utc": "2026-10-08T12:57:01.882554+00:00",
+      "runtime_manifest_sha256": "337e7875605786f865379be5d18d362b806e41e7a23fb9531c33d8663e44e0a1",
+      "installed_runtime_matches_repository": true,
+      "settings_unchanged": true,
+      "gallery_file": "assets/grendal/flight-rear.webp",
+      "gallery_sha256": "4d1d26888bab8bda5ced707db379a546328f2207f443424680aad50c3de5d9c2",
+      "conversion": "WebP encoding only; no image alterations"
+    }
+  ],
+  "captured_runtime_manifest_sha256": "337e7875605786f865379be5d18d362b806e41e7a23fb9531c33d8663e44e0a1",
+  "published_runtime_manifest_sha256": "337e7875605786f865379be5d18d362b806e41e7a23fb9531c33d8663e44e0a1",
+  "settings_unchanged": true
+}
