@@ -1,0 +1,14 @@
+{
+  "status": "published",
+  "published_at_utc": "2026-10-08T06:00:28Z",
+  "verified_at_utc": "2026-10-08T06:01:33.333810+00:00",
+  "approval": "Yep, publish the beta and get it into the gallery",
+  "source_commit": "97239a3563c02f176dbe192af464552ea547b44d",
+  "tag": "phoenix-v0.1.0-beta.1",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.1",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.1/openreliant-phoenix-0.1.0-beta.1.zip",
+  "package_bytes": 233934160,
+  "package_sha256": "8d2450d823e25cfc941cc41959a9fdc1cfcd24b5b4f8efefde1d8cc6a6b69ec1",
+  "github_asset_digest_matches": true,
+  "checksum_asset_uploaded": true
+}
