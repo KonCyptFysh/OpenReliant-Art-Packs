@@ -338,19 +338,20 @@
       "assetRevision": "1.0",
       "description": "Worn silver-grey and bronze, restored Japanese markings, smooth reflective glazing and repaired fin UVs.",
       "modFolder": "100-sai-worn-v1",
-      "preview": "assets/sai/flight-overview.webp",
-      "model": "models/sai.glb",
+      "preview": "assets/sai/flight-overview-v4.webp",
+      "model": "models/sai-v4.glb",
       "images": [
         {
-          "src": "assets/sai/flight-overview.webp",
-          "caption": "Sai \u2014 In-game overview"
+          "src": "assets/sai/flight-overview-v4.webp",
+          "caption": "Sai \u2014 Revision 4.0 in-game overview"
         },
         {
-          "src": "assets/sai/flight-rear.webp",
-          "caption": "Sai \u2014 Rear view"
+          "src": "assets/sai/flight-rear-v4.webp",
+          "caption": "Sai \u2014 Revision 4.0 rear view"
         }
       ],
       "notes": [
+        "Gallery previews show the approved revision 4.0. The current beta download contains revision 1.0; updated editable artwork is available under Editable source.",
         "Custom emissive maps are planned for a later update.",
         "Firing, fin motion, damage and distance transitions still need gameplay testing.",
         "Fin UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
@@ -359,7 +360,9 @@
       "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.1",
       "checksum": "3be5e8f7cf3cf8176b4a81ece0a281510f3a443857e48d7aa130a89893450a8d",
       "tag": "sai-v0.1.0-beta.1",
-      "downloadBytes": 73123352
+      "downloadBytes": 73123352,
+      "defaultPreview": "image",
+      "previewArtworkRevision": "4.0"
     },
     {
       "id": "grendal",

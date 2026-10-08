@@ -1,6 +1,6 @@
 # Sai - Worn Paint
 
-Artwork revision 4.0 is user-approved for Git publication. The public gallery and downloadable beta remain at the earlier release until a separate beta publication.
+Artwork revision 4.0 is user-approved for Git publication. The gallery previews show this approved revision. The downloadable beta remains at artwork revision 1.0 until a separate beta publication.
 
 The body and fin atlases now have independent left/right paint areas. The revised wave retains the rising-sun motif, and the replacement red 侍飛将 and black 神風 inscriptions read normally on both sides.
 

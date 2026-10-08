@@ -1,54 +1,122 @@
 {
   "status": "passed",
   "gallery_media": "Actual in-game captures in official OpenReliant 0.7.0",
-  "artwork_revision": "1.0",
+  "artwork_revision": "4.0",
   "captures": [
     {
-      "image": "flight-overview.png",
-      "sha256": "4dc860c860ddd65cf1564b446d802b89cb2b019b6bf8cf572f0e314c835dc80e",
+      "image": "flight-overview-wide.png",
+      "sha256": "28a32d812c5a56c0ab262122c7edbdbb0982729a02b2798f6392b36fb0dc8cdd",
       "engine": "Official OpenReliant 0.7.0",
       "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
       "mission": 991,
       "ship": 23,
-      "watch_from": "1,-0.6,1.3",
+      "watch_from": "1.3,-0.78,1.69",
       "render_size": [
         1600,
         1200
       ],
-      "screenshot_ticks": 30,
+      "screenshot_ticks": 180,
       "exit_code": 0,
-      "captured_at_utc": "2026-10-08T09:48:08.424702+00:00",
-      "runtime_manifest_sha256": "3e967a1d02f2fccf677547326bf90da003be5a87a180132f1f30caac43a7769b",
+      "captured_at_utc": "2026-10-08T21:04:48.054576+00:00",
+      "runtime_manifest_sha256": "bb14cf5a25b5ce3f28f1b9e188f0086d2d7c21f334623e0a5bf593281a4b164a",
       "installed_runtime_matches_repository": true,
       "settings_unchanged": true,
-      "gallery_file": "assets/sai/flight-overview.webp",
-      "gallery_sha256": "ee81699eecaa0641c93a716881ae050e028a5675048cc7b90164e90f5d28d317",
+      "source_file": "source/review/gallery_v4/flight-overview.png",
+      "gallery_file": "assets/sai/flight-overview-v4.webp",
+      "gallery_sha256": "8eefe6d7a23aa7b759b1c1ff00cb5c37d1745c8bf973d52f15e6a228d87c41c2",
       "conversion": "WebP encoding only; no image alterations"
     },
     {
-      "image": "flight-rear.png",
-      "sha256": "d170c9f563ecfdbf47ae50ab3c2c1254287dc775857d00bbfc88db5c1f8696a2",
+      "image": "flight-rear-wide.png",
+      "sha256": "a86cd651751875328fefb8c39b9aff520a9b292208b1077b9704ca63c888f8a5",
       "engine": "Official OpenReliant 0.7.0",
       "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
       "mission": 991,
       "ship": 23,
-      "watch_from": "1.2,-0.72,-1.56",
+      "watch_from": "1.5,-0.9,-1.95",
       "render_size": [
         1600,
         1200
       ],
-      "screenshot_ticks": 30,
+      "screenshot_ticks": 180,
       "exit_code": 0,
-      "captured_at_utc": "2026-10-08T09:55:51.092313+00:00",
-      "runtime_manifest_sha256": "3e967a1d02f2fccf677547326bf90da003be5a87a180132f1f30caac43a7769b",
+      "captured_at_utc": "2026-10-08T21:05:27.111361+00:00",
+      "runtime_manifest_sha256": "bb14cf5a25b5ce3f28f1b9e188f0086d2d7c21f334623e0a5bf593281a4b164a",
       "installed_runtime_matches_repository": true,
       "settings_unchanged": true,
-      "gallery_file": "assets/sai/flight-rear.webp",
-      "gallery_sha256": "f8c628a15792680981bd1d9b2f9506ae64558df47d79fa92cdd5eec307905cd8",
+      "source_file": "source/review/gallery_v4/flight-rear.png",
+      "gallery_file": "assets/sai/flight-rear-v4.webp",
+      "gallery_sha256": "63714c40bfb108de980bdca25dc01dcb4493bb1ab83ec75abcb60dff7e5cbc4c",
       "conversion": "WebP encoding only; no image alterations"
     }
   ],
-  "captured_runtime_manifest_sha256": "3e967a1d02f2fccf677547326bf90da003be5a87a180132f1f30caac43a7769b",
-  "published_runtime_manifest_sha256": "3e967a1d02f2fccf677547326bf90da003be5a87a180132f1f30caac43a7769b",
-  "settings_unchanged": true
+  "captured_runtime_manifest_sha256": "bb14cf5a25b5ce3f28f1b9e188f0086d2d7c21f334623e0a5bf593281a4b164a",
+  "preview_model": {
+    "model": "Jap_Sai.SHP",
+    "model_sha256": "3b3ad7b54d495ffc69f3db58b7e0bf5ce373c6bb1bd271028254240e54dc90f9",
+    "preview_sha256": "ab4c3923f1c38b27f91cb61a24fceadd5753833ec7d94982a3b8cfbb31bc40b6",
+    "preview_bytes": 1544660,
+    "highest_detail_geometry": true,
+    "textures": [
+      {
+        "runtime_file": "orsa1_body.png",
+        "sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          512
+        ]
+      },
+      {
+        "runtime_file": "orsa1_body_normal.png",
+        "sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          512
+        ]
+      },
+      {
+        "runtime_file": "orsa1_body_orm.png",
+        "sha256": "ac4dd156243f278d30d2131f80c2866b75c01ac4794c0eecec074235790681e2",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          512
+        ]
+      },
+      {
+        "runtime_file": "orsa1_fins.png",
+        "sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          512
+        ]
+      },
+      {
+        "runtime_file": "orsa1_fins_normal.png",
+        "sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          512
+        ]
+      },
+      {
+        "runtime_file": "orsa1_fins_orm.png",
+        "sha256": "add8f1fc5a2fc5244ad68e1d72d684eb7426f22edde8667f14fca1908838e315",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          512
+        ]
+      }
+    ],
+    "limitations": "Viewing copy with reduced texture resolution and browser lighting; in-game screenshots show actual engine appearance."
+  },
+  "settings_unchanged": true,
+  "downloaded_beta_artwork_revision": "1.0",
+  "downloaded_beta_tag": "sai-v0.1.0-beta.1",
+  "note": "Gallery media show the approved revision 4.0 Git artwork. The downloadable beta remains revision 1.0."
 }
