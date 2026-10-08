@@ -329,6 +329,39 @@
       "downloadBytes": 184154967
     },
     {
+      "id": "sai",
+      "name": "Sai - Worn Paint",
+      "category": "alliance-fighters",
+      "folder": "Alliance Fighters/Sai",
+      "status": "available",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "1.0",
+      "description": "Worn silver-grey and bronze, restored Japanese markings, smooth reflective glazing and repaired fin UVs.",
+      "modFolder": "100-sai-worn-v1",
+      "preview": "assets/sai/flight-overview.webp",
+      "model": "models/sai.glb",
+      "images": [
+        {
+          "src": "assets/sai/flight-overview.webp",
+          "caption": "Sai \u2014 In-game overview"
+        },
+        {
+          "src": "assets/sai/flight-rear.webp",
+          "caption": "Sai \u2014 Rear view"
+        }
+      ],
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Firing, fin motion, damage and distance transitions still need gameplay testing.",
+        "Fin UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
+      ],
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.1/openreliant-sai-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.1",
+      "checksum": "3be5e8f7cf3cf8176b4a81ece0a281510f3a443857e48d7aa130a89893450a8d",
+      "tag": "sai-v0.1.0-beta.1",
+      "downloadBytes": 73123352
+    },
+    {
       "id": "ordnance",
       "name": "Missiles, Torpedoes and Fuel Pod - Worn Paint",
       "category": "weapons",
