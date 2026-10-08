@@ -256,6 +256,50 @@
       "downloadBytes": 294403954
     },
     {
+      "id": "phoenix",
+      "name": "Phoenix - Worn Paint",
+      "category": "alliance-fighters",
+      "folder": "Alliance Fighters/Phoenix",
+      "status": "coming-soon",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "7.0",
+      "description": "Worn olive and bronze, smooth glazing, aligned belly panels and corrected intake relief.",
+      "modFolder": "98-phoenix-worn-v1",
+      "preview": "assets/phoenix/whole.webp",
+      "previewType": "render",
+      "model": "models/phoenix.glb",
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Firing, turret and Nova cannon behaviour, damage, ejection and distance transitions still need separate gameplay testing."
+      ],
+      "images": [
+        {
+          "src": "assets/phoenix/whole.webp",
+          "caption": "Phoenix \u2014 Overview"
+        },
+        {
+          "src": "assets/phoenix/belly.webp",
+          "caption": "Phoenix \u2014 Belly panels"
+        },
+        {
+          "src": "assets/phoenix/nose.webp",
+          "caption": "Phoenix \u2014 Nose and glazing"
+        },
+        {
+          "src": "assets/phoenix/nose_other.webp",
+          "caption": "Phoenix \u2014 Opposite nose"
+        },
+        {
+          "src": "assets/phoenix/vents.webp",
+          "caption": "Phoenix \u2014 Intake and upper vents"
+        },
+        {
+          "src": "assets/phoenix/vents_other.webp",
+          "caption": "Phoenix \u2014 Opposite intake and vents"
+        }
+      ]
+    },
+    {
       "id": "ordnance",
       "name": "Missiles, Torpedoes and Fuel Pod - Worn Paint",
       "category": "weapons",

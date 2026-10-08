@@ -1,0 +1,33 @@
+{
+  "package_name": "openreliant-phoenix",
+  "version": "0.1.0-beta.1",
+  "asset_revision": "7.0",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.7.0",
+  "mod_folders": [
+    "98-phoenix-worn-v1"
+  ],
+  "asset_manifest_sha256": "3e3a6e8820e4844204337a3d7c984c68d44661df23987161c3de0f0f8cf1d6c0",
+  "source_manifest_sha256": "03fb71cf9a8c16bbb3483cb31c60d1fdf6df57a091ea69ccb373a27846ca2397",
+  "channel": "beta",
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json",
+    "tools/launch-phoenix-test.sh"
+  ],
+  "user_approved": true,
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-08T04:43:07.395167+00:00",
+    "scope": "Phoenix worn artwork revision 7.0, including glazing, intake and vent relief, belly panels and bronze nose joins.",
+    "instruction": "Sweet, happy with this, send it to git!"
+  }
+}

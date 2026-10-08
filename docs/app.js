@@ -1,6 +1,9 @@
 const $ = (selector) => document.querySelector(selector);
 const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const formatSize = bytes => `${(bytes / 1024 / 1024).toFixed(1)} MB`;
+const previewSource = asset => asset.previewType === 'render' ? 'Blender material preview' : 'Captured in OpenReliant 0.7.0';
+const previewLabel = asset => asset.previewType === 'render' ? 'Render gallery' : 'Photo gallery';
+const previewSummary = asset => asset.previewType === 'render' ? (asset.model ? '3D + rendered previews' : 'Rendered previews') : asset.model ? '3D + in-game preview' : asset.images?.length > 1 ? `${asset.images.length} in-game photos` : asset.preview ? 'In-game preview' : 'Work in progress';
 const dialog = $('#asset-dialog');
 let catalogue, selectedCategory, currentAsset, previewSequence = 0, viewerImport, galleryIndex = 0, previewKind;
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -19,7 +22,7 @@ function render() {
   const assets = catalogue.assets.filter(a => a.category === selectedCategory && (status === 'all' || a.status === status) && `${a.name} ${a.description}`.toLowerCase().includes(query));
   $('#category-heading').textContent = category.name;
   $('#result-count').textContent = `${assets.length} ${assets.length === 1 ? 'asset' : 'assets'}`;
-  $('#asset-grid').innerHTML = assets.length ? assets.map(a => `<button type="button" class="asset-card" data-asset="${a.id}" aria-label="Preview ${escapeHTML(a.name)}"><div class="card-media">${a.preview ? `<img src="${a.preview}" loading="lazy" width="960" height="720" alt="${escapeHTML(a.images?.[0]?.caption || a.name)} in OpenReliant">` : '<div class="placeholder-art"><span class="placeholder-icon" aria-hidden="true">◇</span><span>ARTWORK IN PROGRESS</span></div>'}<span class="card-badge ${a.status === 'available' ? 'available' : ''}">${a.status === 'available' ? 'Beta available' : 'Coming soon'}</span></div><div class="card-body"><span class="card-kicker">${escapeHTML(category.name)}</span><h4>${escapeHTML(a.name)}</h4><p>${escapeHTML(a.description)}</p><div class="card-foot"><span>${a.model ? '3D + in-game preview' : a.images?.length > 1 ? `${a.images.length} in-game photos` : a.preview ? 'In-game preview' : 'Work in progress'}</span><span aria-hidden="true">↗</span></div></div></button>`).join('') : (!query && status !== 'available' && !catalogue.assets.some(a => a.category === selectedCategory)) ? `<div class="category-placeholder"><span class="placeholder-icon" aria-hidden="true">◇</span><p class="eyebrow">${escapeHTML(category.name)}</p><h4>Coming soon</h4><p>${escapeHTML(category.description)}<br>New packs will appear here when they’re ready.</p></div>` : '<div class="empty-state"><h4>No matching packs</h4><p>Try another search or availability filter.</p></div>';
+  $('#asset-grid').innerHTML = assets.length ? assets.map(a => `<button type="button" class="asset-card" data-asset="${a.id}" aria-label="Preview ${escapeHTML(a.name)}"><div class="card-media">${a.preview ? `<img src="${a.preview}" loading="lazy" width="960" height="720" alt="${escapeHTML(a.images?.[0]?.caption || a.name)} — ${previewSource(a)}">` : '<div class="placeholder-art"><span class="placeholder-icon" aria-hidden="true">◇</span><span>ARTWORK IN PROGRESS</span></div>'}<span class="card-badge ${a.status === 'available' ? 'available' : ''}">${a.status === 'available' ? 'Beta available' : 'Coming soon'}</span></div><div class="card-body"><span class="card-kicker">${escapeHTML(category.name)}</span><h4>${escapeHTML(a.name)}</h4><p>${escapeHTML(a.description)}</p><div class="card-foot"><span>${previewSummary(a)}</span><span aria-hidden="true">↗</span></div></div></button>`).join('') : (!query && status !== 'available' && !catalogue.assets.some(a => a.category === selectedCategory)) ? `<div class="category-placeholder"><span class="placeholder-icon" aria-hidden="true">◇</span><p class="eyebrow">${escapeHTML(category.name)}</p><h4>Coming soon</h4><p>${escapeHTML(category.description)}<br>New packs will appear here when they’re ready.</p></div>` : '<div class="empty-state"><h4>No matching packs</h4><p>Try another search or availability filter.</p></div>';
 }
 function closePreview() {
   previewSequence++;
@@ -54,7 +57,7 @@ async function showPreview(kind) {
   if (kind === 'model' && asset.model) {
     $('#preview-hint').textContent = 'Loading 3D preview…';
     if (asset.preview) {
-      const poster = document.createElement('img'); poster.src = asset.preview; poster.alt = `${asset.name} in OpenReliant`; stage.append(poster);
+      const poster = document.createElement('img'); poster.src = asset.preview; poster.alt = `${asset.name} — ${previewSource(asset)}`; stage.append(poster);
     }
     try {
       viewerImport ??= import('./vendor/model-viewer-4.3.1.min.js');
@@ -81,24 +84,24 @@ async function showPreview(kind) {
       viewer.addEventListener('error', () => {
         if (sequence === previewSequence) {
           showPreview('image');
-          $('#preview-hint').textContent = '3D is unavailable here. Showing the in-game capture.';
+          $('#preview-hint').textContent = `3D is unavailable here. Showing ${asset.previewType === 'render' ? 'the rendered preview' : 'the in-game capture'}.`;
         }
       });
       stage.replaceChildren(viewer);
     } catch {
-      if (sequence === previewSequence) { showPreview('image'); $('#preview-hint').textContent = '3D is unavailable here. Showing the in-game capture.'; }
+      if (sequence === previewSequence) { showPreview('image'); $('#preview-hint').textContent = `3D is unavailable here. Showing ${asset.previewType === 'render' ? 'the rendered preview' : 'the in-game capture'}.`; }
     }
   } else if (galleryImages(asset).length) {
     const photos = galleryImages(asset);
     const photo = photos[galleryIndex];
     const image = document.createElement('img');
     image.src = photo.src;
-    image.alt = `${photo.caption} captured in OpenReliant 0.7.0`;
+    image.alt = `${photo.caption} — ${previewSource(asset)}`;
     stage.append(image);
     $('#gallery-controls').hidden = photos.length < 2;
     $('#gallery-caption').textContent = photo.caption;
     $('#gallery-count').textContent = `${galleryIndex + 1} / ${photos.length}`;
-    $('#preview-hint').textContent = 'Captured in OpenReliant 0.7.0';
+    $('#preview-hint').textContent = previewSource(asset);
   } else {
     stage.innerHTML = '<div class="placeholder-art"><span class="placeholder-icon" aria-hidden="true">◇</span><span>COMING SOON</span></div>';
     $('#preview-hint').textContent = 'Artwork is still being revised.';
@@ -112,10 +115,10 @@ function openAsset(id) {
   galleryIndex = 0;
   const category = catalogue.categories.find(c => c.id === asset.category);
   const available = asset.status === 'available';
-  $('#asset-details').innerHTML = `<p class="eyebrow">${escapeHTML(category.name)}</p><h2 id="asset-title">${escapeHTML(asset.name)}</h2><p class="asset-description">${escapeHTML(asset.description)}</p><dl class="detail-facts"><div><dt>Status</dt><dd>${available ? 'Public beta' : 'Coming soon'}</dd></div><div><dt>OpenReliant</dt><dd>${catalogue.engine}</dd></div>${asset.assetRevision ? `<div><dt>Artwork revision</dt><dd>${escapeHTML(asset.assetRevision)}</dd></div>` : ''}${available ? `<div><dt>Download</dt><dd>${formatSize(asset.downloadBytes)} · ZIP</dd></div>` : ''}</dl><div class="detail-notes"><h3>Still on the workbench</h3><ul>${(asset.notes || []).map(note => `<li>${escapeHTML(note)}</li>`).join('')}</ul></div>${available ? `<a class="button primary" href="${escapeHTML(asset.download)}">Download ${escapeHTML(asset.name)} <span aria-hidden="true">↓</span></a><div class="secondary-links"><a href="${escapeHTML(asset.release)}">Release notes</a><a href="${escapeHTML(asset.download)}.sha256">Checksum</a><a href="${catalogue.repository}/tree/main/${asset.folder.split('/').map(encodeURIComponent).join('/')}/source">Editable source</a></div>` : '<button class="button coming-button" disabled>Coming soon</button>'}<p class="detail-warning">${asset.model ? 'The 3D hull preview uses reduced textures and browser lighting; loadout weapons and engine effects are omitted. Check the in-game capture for the current engine appearance. ' : ''}${available ? 'Beta testing covers format checks and bounded rendering on Linux; broader gameplay and other platforms are still to be tested.' : 'This entry has no published download yet.'}</p>`;
+  $('#asset-details').innerHTML = `<p class="eyebrow">${escapeHTML(category.name)}</p><h2 id="asset-title">${escapeHTML(asset.name)}</h2><p class="asset-description">${escapeHTML(asset.description)}</p><dl class="detail-facts"><div><dt>Status</dt><dd>${available ? 'Public beta' : 'Coming soon'}</dd></div><div><dt>OpenReliant</dt><dd>${catalogue.engine}</dd></div>${asset.assetRevision ? `<div><dt>Artwork revision</dt><dd>${escapeHTML(asset.assetRevision)}</dd></div>` : ''}${available ? `<div><dt>Download</dt><dd>${formatSize(asset.downloadBytes)} · ZIP</dd></div>` : ''}</dl><div class="detail-notes"><h3>Still on the workbench</h3><ul>${(asset.notes || []).map(note => `<li>${escapeHTML(note)}</li>`).join('')}</ul></div>${available ? `<a class="button primary" href="${escapeHTML(asset.download)}">Download ${escapeHTML(asset.name)} <span aria-hidden="true">↓</span></a><div class="secondary-links"><a href="${escapeHTML(asset.release)}">Release notes</a><a href="${escapeHTML(asset.download)}.sha256">Checksum</a><a href="${catalogue.repository}/tree/main/${asset.folder.split('/').map(encodeURIComponent).join('/')}/source">Editable source</a></div>` : '<button class="button coming-button" disabled>Coming soon</button>'}<p class="detail-warning">${asset.model ? 'The 3D hull preview uses reduced textures and browser lighting; loadout weapons and engine effects are omitted. ' : ''}${asset.previewType === 'render' ? 'The still images are Blender material previews; lighting differs in game. ' : asset.model ? 'Check the in-game capture for the current engine appearance. ' : ''}${available ? 'Beta testing covers format checks and bounded rendering on Linux; broader gameplay and other platforms are still to be tested.' : 'This entry has no published download yet.'}</p>`;
   $('#show-3d').hidden = !asset.model;
   $('#show-image').hidden = !galleryImages(asset).length;
-  $('#show-image').textContent = galleryImages(asset).length > 1 ? 'Photo gallery' : 'In-game capture';
+  $('#show-image').textContent = galleryImages(asset).length > 1 ? previewLabel(asset) : asset.previewType === 'render' ? 'Rendered preview' : 'In-game capture';
   if (!dialog.open) dialog.showModal();
   dialog.scrollTop = 0;
   updateURL(asset);
