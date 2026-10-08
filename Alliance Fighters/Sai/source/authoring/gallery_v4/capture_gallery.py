@@ -1,0 +1,9 @@
+from pathlib import Path
+import subprocess,os,hashlib,json,datetime,sys
+R=Path('/home/lva-8700/.codex/.chatgpt-projects/g-p-6ac04f0d792c8191903a4b87653b44f6/work/release-preparation/repositories/OpenReliant-Art-Packs');A=R/'Alliance Fighters/Sai';D=Path('/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn');W=D/'work/gallery_v4';out=D/'review/gallery_v4';out.mkdir(parents=True,exist_ok=True);G=Path('/home/lva-8700/Games/OpenReliant');engine=G/'releases/openreliant-v0.7.0-linux-x86_64/openreliant';sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();name,view=sys.argv[1:];assets=json.loads((A/'asset-manifest.json').read_text())
+for rec in assets:assert sha(G/'game-data'/rec['path'])==rec['sha256']
+settings=G/'game-data/starlancer.ini';old=sha(settings);env=os.environ.copy();env.pop('XDG_ACTIVATION_TOKEN',None);env['SDL_VIDEODRIVER']='x11';image=out/(name+'.png');command=[str(engine),str(G/'game-data'),'--mission','991','--ship','23','--view','1','--skip-launch','--watch','0','--watch-from',view,'--size','1600x1200','--no-sound','--screenshot',str(image),'--screenshot-ticks','180']
+with (W/(name+'.log')).open('w') as f:q=subprocess.run(command,cwd=G,env=env,stdout=f,stderr=subprocess.STDOUT,timeout=240)
+assert q.returncode==0,q.returncode;assert image.is_file();assert sha(settings)==old
+record=dict(image=image.name,sha256=sha(image),engine='Official OpenReliant 0.7.0',engine_sha256=sha(engine),mission=991,ship=23,watch_from=view,render_size=[1600,1200],screenshot_ticks=180,exit_code=q.returncode,captured_at_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),runtime_manifest_sha256=sha(A/'asset-manifest.json'),installed_runtime_matches_repository=True,settings_unchanged=True)
+(W/(name+'.json')).write_text(json.dumps(record,indent=2)+'\n');print(json.dumps(record,indent=2))

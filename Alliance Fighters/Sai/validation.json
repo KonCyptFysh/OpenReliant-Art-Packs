@@ -4,7 +4,7 @@
   "asset_revision": "4.0",
   "engine_build": "Official OpenReliant 0.7.0",
   "user_approved": true,
-  "runtime_launched": false,
+  "runtime_launched": true,
   "runtime_visual_review": "v4-user-approved",
   "native_uv_join_checks": {
     "passed": true,
@@ -1527,7 +1527,7 @@
     "lettering_colour_placement_and_orientation": "preserved"
   },
   "asset_manifest_sha256": "bb14cf5a25b5ce3f28f1b9e188f0086d2d7c21f334623e0a5bf593281a4b164a",
-  "source_manifest_sha256": "18114dee6073e6b80c7f90fc9373796eb321b06a28fee654c730147c552ceaa8",
+  "source_manifest_sha256": "28c0eaa0ecd5465b461859177d6e2c3824d2d4990b22175bea7939791b11b9b5",
   "remaining_work": [
     "Gameplay and distance transitions",
     "Custom emissives deferred"
@@ -1543,13 +1543,15 @@
   "tested_platforms": [
     "Linux x86_64"
   ],
-  "runtime_evidence_note": "Approval is from the user; this revision was not automatically launched for capture. Recorded local renders are Blender diagnostics. Broader gameplay, distance transitions and other platforms remain untested.",
+  "runtime_evidence_note": "On the user request for updated gallery images, official OpenReliant 0.7.0 captured the approved revision with the fin deployed. These bounded captures do not establish broader gameplay or distance-transition behavior.",
   "checks": [
     "All 740 native faces across 20 detail meshes have matching authored and rendered corner UVs.",
     "Native model and inspection-mission round-trip checks passed.",
     "Portable editable source reopened; geometry, materials and packed images preserved by the latest UV-join correction.",
     "Diagnostic renders reproduce the old canopy streaks and show corrected UVs on both sides.",
     "User approved the completed artwork revision 4.0 for Git publication.",
-    "All 17 installed runtime files and the canonical export match the repository assets; approval only changed mod.ini description text."
-  ]
+    "All 17 installed runtime files and the canonical export match the repository assets; approval only changed mod.ini description text.",
+    "Updated front and rear gallery captures completed in official OpenReliant 0.7.0; installed runtime and game settings remained unchanged."
+  ],
+  "gallery_validation": "gallery-validation.json"
 }

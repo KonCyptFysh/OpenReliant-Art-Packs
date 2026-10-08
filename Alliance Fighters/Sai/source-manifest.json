@@ -5,8 +5,8 @@
   "files": [
     {
       "path": "source/README.md",
-      "bytes": 1475,
-      "sha256": "bd61f5051f123a1992f2be06028c4bf5a2e61d53d3f350a3ceb0a44f2cfdfa70"
+      "bytes": 1748,
+      "sha256": "026369d3761b89d25b2ab0fddfce7b9f552b1ef27e51594b050f8424b8c9ed7e"
     },
     {
       "path": "source/approval-v4.json",
@@ -47,6 +47,16 @@
       "path": "source/authoring/decals_v2/tail_seams.svg",
       "bytes": 271,
       "sha256": "f87c7c7183291c3058179e6324a5db1b440a54eff740777b83903057f48fde37"
+    },
+    {
+      "path": "source/authoring/gallery_v4/capture_gallery.py",
+      "bytes": 1839,
+      "sha256": "3d73be0409cf6d2423eae2aebab5ada638bd79d99afbccf841530813f860734e"
+    },
+    {
+      "path": "source/authoring/gallery_v4/model-validation.json",
+      "bytes": 1786,
+      "sha256": "0cf24a1257a4f53d492c1654bd9d4540358d0af66a685f5c8c88c800f8044d8d"
     },
     {
       "path": "source/authoring/imagegen_prompts.json",
@@ -642,6 +652,21 @@
       "path": "source/review/gallery_v1/flight-rear.png",
       "bytes": 1068680,
       "sha256": "d170c9f563ecfdbf47ae50ab3c2c1254287dc775857d00bbfc88db5c1f8696a2"
+    },
+    {
+      "path": "source/review/gallery_v4/capture-records.json",
+      "bytes": 4410,
+      "sha256": "888e51ec601cb7be79b7252899d57698e9fa6d02881ffbf256cee42d65bcc346"
+    },
+    {
+      "path": "source/review/gallery_v4/flight-overview.png",
+      "bytes": 824790,
+      "sha256": "28a32d812c5a56c0ab262122c7edbdbb0982729a02b2798f6392b36fb0dc8cdd"
+    },
+    {
+      "path": "source/review/gallery_v4/flight-rear.png",
+      "bytes": 699692,
+      "sha256": "a86cd651751875328fefb8c39b9aff520a9b292208b1077b9704ca63c888f8a5"
     },
     {
       "path": "source/review/kanji_v3/nose_left_atlas.png",

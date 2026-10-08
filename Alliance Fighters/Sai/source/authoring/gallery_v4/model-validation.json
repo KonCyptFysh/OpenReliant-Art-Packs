@@ -1,0 +1,64 @@
+{
+  "model": "Jap_Sai.SHP",
+  "model_sha256": "3b3ad7b54d495ffc69f3db58b7e0bf5ce373c6bb1bd271028254240e54dc90f9",
+  "preview_sha256": "ab4c3923f1c38b27f91cb61a24fceadd5753833ec7d94982a3b8cfbb31bc40b6",
+  "preview_bytes": 1544660,
+  "highest_detail_geometry": true,
+  "textures": [
+    {
+      "runtime_file": "orsa1_body.png",
+      "sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da",
+      "kind": "base",
+      "preview_dimensions": [
+        1024,
+        512
+      ]
+    },
+    {
+      "runtime_file": "orsa1_body_normal.png",
+      "sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538",
+      "kind": "normal",
+      "preview_dimensions": [
+        1024,
+        512
+      ]
+    },
+    {
+      "runtime_file": "orsa1_body_orm.png",
+      "sha256": "ac4dd156243f278d30d2131f80c2866b75c01ac4794c0eecec074235790681e2",
+      "kind": "orm",
+      "preview_dimensions": [
+        1024,
+        512
+      ]
+    },
+    {
+      "runtime_file": "orsa1_fins.png",
+      "sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6",
+      "kind": "base",
+      "preview_dimensions": [
+        1024,
+        512
+      ]
+    },
+    {
+      "runtime_file": "orsa1_fins_normal.png",
+      "sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72",
+      "kind": "normal",
+      "preview_dimensions": [
+        1024,
+        512
+      ]
+    },
+    {
+      "runtime_file": "orsa1_fins_orm.png",
+      "sha256": "add8f1fc5a2fc5244ad68e1d72d684eb7426f22edde8667f14fca1908838e315",
+      "kind": "orm",
+      "preview_dimensions": [
+        1024,
+        512
+      ]
+    }
+  ],
+  "limitations": "Viewing copy with reduced texture resolution and browser lighting; in-game screenshots show actual engine appearance."
+}

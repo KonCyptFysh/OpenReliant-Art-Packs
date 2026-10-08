@@ -9,3 +9,5 @@ The verified engine references and detailed checks are in `authoring/uv_joins_v4
 `review/uv_joins_v4/` contains local diagnostic renders using the game's effective corner coordinates before and after the correction. These are not in-game captures. Previous source scenes, maps and authoring stages remain preserved.
 
 The user approved revision 4.0 for Git publication; the exact approval and scope are recorded in `approval-v4.json`.
+
+`review/gallery_v4/` contains the updated official OpenReliant 0.7.0 gallery captures of the approved revision. Capture settings and exact runtime hashes are recorded alongside the originals. The gallery viewing model uses the current exported model and reduced textures.

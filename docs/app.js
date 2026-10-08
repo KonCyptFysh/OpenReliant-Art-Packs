@@ -122,7 +122,7 @@ function openAsset(id) {
   if (!dialog.open) dialog.showModal();
   dialog.scrollTop = 0;
   updateURL(asset);
-  showPreview(asset.model ? 'model' : 'image');
+  showPreview(asset.defaultPreview === 'image' ? 'image' : asset.model ? 'model' : 'image');
 }
 document.addEventListener('click', event => {
   const category = event.target.closest('[data-category]');
