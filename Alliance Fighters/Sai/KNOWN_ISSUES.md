@@ -1,6 +1,6 @@
 # Review status
 
-- In-game appearance is user-approved on Linux with official OpenReliant 0.7.0.
-- UV repairs affect the finest model. Lower-detail UVs retain the original mapping and need distance-transition review.
-- Firing, damage, fin-down animation and loadout behavior need gameplay checks. Their native records are preserved.
-- Custom emissive maps are deferred. Runtime appearance on other platforms is untested.
+- Revision 4.0 is user-approved for Git publication. A new downloadable beta has not been published. The earlier canopy stretching was reproduced locally using the native loader/draw rules and removed by correcting primitive continuations at UV seams.
+- All 740 faces and all 20 detail meshes pass shared-corner checks. Broader gameplay, distance transitions and other platforms remain untested.
+- Red nose and black tail lettering, material maps, model geometry and fin-deployment command are preserved.
+- Custom emissives are deferred.

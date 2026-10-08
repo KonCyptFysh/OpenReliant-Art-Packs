@@ -1,15 +1,15 @@
 {
   "package_name": "openreliant-sai",
-  "version": "0.1.0-beta.1",
-  "asset_revision": "1.0",
+  "version": "0.1.0-beta.2",
+  "asset_revision": "4.0",
   "status": "ready-for-packaging",
   "hold_reason": null,
   "minimum_openreliant": "0.7.0",
   "mod_folders": [
     "100-sai-worn-v1"
   ],
-  "asset_manifest_sha256": "3e967a1d02f2fccf677547326bf90da003be5a87a180132f1f30caac43a7769b",
-  "source_manifest_sha256": "a2c6a444e8a91ad41436a5eb502a4c589969a6aad2c04aa686260d74f8af3cc9",
+  "asset_manifest_sha256": "bb14cf5a25b5ce3f28f1b9e188f0086d2d7c21f334623e0a5bf593281a4b164a",
+  "source_manifest_sha256": "18114dee6073e6b80c7f90fc9373796eb321b06a28fee654c730147c552ceaa8",
   "channel": "beta",
   "user_approved": true,
   "include_documents": [
@@ -26,8 +26,9 @@
   ],
   "approval": {
     "user_approved": true,
-    "approved_at_utc": "2026-10-08T09:40:33.483829+00:00",
-    "scope": "Sai worn artwork revision 1.0, including restored livery, reflective glass and eleven fin UV repairs.",
-    "instruction": "Cool, that was a clean first pass, Ship it to git!"
+    "approved_at_utc": "2026-10-08T16:17:17.258343+00:00",
+    "instruction": "Awesome, send it upto git!",
+    "scope": "Sai artwork revision 4.0: separate left/right UVs, refined wave, red 侍飛将 and black 神風, fin-deployment inspection scene, and corrected native UV joins.",
+    "evidence": "User accepted the completed revision and authorized committing and pushing it. No new automated game launch was performed for this approval."
   }
 }

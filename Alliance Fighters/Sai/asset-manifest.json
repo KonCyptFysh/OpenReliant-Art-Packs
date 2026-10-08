@@ -2,37 +2,37 @@
   {
     "path": "mods/100-sai-worn-v1/Jap_Sai.SHP",
     "bytes": 80724,
-    "sha256": "1609ab68e4598932a61f2eb794075325feed8416eaf40249eb2c316b87679a7d"
+    "sha256": "3b3ad7b54d495ffc69f3db58b7e0bf5ce373c6bb1bd271028254240e54dc90f9"
   },
   {
     "path": "mods/100-sai-worn-v1/gorsa1_body.png",
-    "bytes": 19475426,
-    "sha256": "a212559758bb678c506545a5635fe954ec3c04fff006fdc3bb0b374c339bc19b"
+    "bytes": 36824809,
+    "sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da"
   },
   {
     "path": "mods/100-sai-worn-v1/gorsa1_body_normal.png",
-    "bytes": 200348,
-    "sha256": "e1213529512af921653308b1d712c2dbab43bb708e841b9e735f9edd2fdda7ea"
+    "bytes": 382080,
+    "sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538"
   },
   {
     "path": "mods/100-sai-worn-v1/gorsa1_body_orm.png",
-    "bytes": 7384871,
-    "sha256": "7abba3bbe8cc53419cad8640910353b27b4f9254a0f242a49b7626370e127376"
+    "bytes": 15222893,
+    "sha256": "ac4dd156243f278d30d2131f80c2866b75c01ac4794c0eecec074235790681e2"
   },
   {
     "path": "mods/100-sai-worn-v1/gorsa1_fins.png",
-    "bytes": 6527423,
-    "sha256": "9409b3060dcd64511b46dbb38797fcd75c0fec28def604c18ee4f13bafaeedda"
+    "bytes": 12385100,
+    "sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6"
   },
   {
     "path": "mods/100-sai-worn-v1/gorsa1_fins_normal.png",
-    "bytes": 63426,
-    "sha256": "70c28ac3c4f3fdf99f2d64c228d198d57d854e3df004b209ab6dd891575f8a82"
+    "bytes": 120296,
+    "sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72"
   },
   {
     "path": "mods/100-sai-worn-v1/gorsa1_fins_orm.png",
-    "bytes": 2648586,
-    "sha256": "f43455b75c04ad3afc046122197b4c5564d64fe50d7c3a3fecc1b19026061c42"
+    "bytes": 5335153,
+    "sha256": "add8f1fc5a2fc5244ad68e1d72d684eb7426f22edde8667f14fca1908838e315"
   },
   {
     "path": "mods/100-sai-worn-v1/license.txt",
@@ -41,13 +41,13 @@
   },
   {
     "path": "mods/100-sai-worn-v1/mission991.dte",
-    "bytes": 472,
-    "sha256": "54c883c015751a490b9af1ed714d2959b902abc30be44f656ea8cbb6c1ef61b0"
+    "bytes": 496,
+    "sha256": "3221842359802e4bb2d9af0322a74cd5401e40cd504b8d872702d2f7fb812d01"
   },
   {
     "path": "mods/100-sai-worn-v1/mod.ini",
-    "bytes": 269,
-    "sha256": "23494c6d21bf5f3f1408f986c1962e9d2e13ce562ec89fe86ed5d21fe129a9e2"
+    "bytes": 236,
+    "sha256": "13dd0f0fd84a2539192365f5ecda8ae2ce10c8dde4b8ecb86256336725a3abc0"
   },
   {
     "path": "mods/100-sai-worn-v1/mod.png",
@@ -56,32 +56,32 @@
   },
   {
     "path": "mods/100-sai-worn-v1/orsa1_body.png",
-    "bytes": 19475426,
-    "sha256": "a212559758bb678c506545a5635fe954ec3c04fff006fdc3bb0b374c339bc19b"
+    "bytes": 36824809,
+    "sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da"
   },
   {
     "path": "mods/100-sai-worn-v1/orsa1_body_normal.png",
-    "bytes": 200348,
-    "sha256": "e1213529512af921653308b1d712c2dbab43bb708e841b9e735f9edd2fdda7ea"
+    "bytes": 382080,
+    "sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538"
   },
   {
     "path": "mods/100-sai-worn-v1/orsa1_body_orm.png",
-    "bytes": 7384871,
-    "sha256": "7abba3bbe8cc53419cad8640910353b27b4f9254a0f242a49b7626370e127376"
+    "bytes": 15222893,
+    "sha256": "ac4dd156243f278d30d2131f80c2866b75c01ac4794c0eecec074235790681e2"
   },
   {
     "path": "mods/100-sai-worn-v1/orsa1_fins.png",
-    "bytes": 6527423,
-    "sha256": "9409b3060dcd64511b46dbb38797fcd75c0fec28def604c18ee4f13bafaeedda"
+    "bytes": 12385100,
+    "sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6"
   },
   {
     "path": "mods/100-sai-worn-v1/orsa1_fins_normal.png",
-    "bytes": 63426,
-    "sha256": "70c28ac3c4f3fdf99f2d64c228d198d57d854e3df004b209ab6dd891575f8a82"
+    "bytes": 120296,
+    "sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72"
   },
   {
     "path": "mods/100-sai-worn-v1/orsa1_fins_orm.png",
-    "bytes": 2648586,
-    "sha256": "f43455b75c04ad3afc046122197b4c5564d64fe50d7c3a3fecc1b19026061c42"
+    "bytes": 5335153,
+    "sha256": "add8f1fc5a2fc5244ad68e1d72d684eb7426f22edde8667f14fca1908838e315"
   }
 ]
