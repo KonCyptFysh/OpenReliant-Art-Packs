@@ -1,0 +1,14 @@
+[
+  {
+    "file": "Rus_Sabre.SHP",
+    "exit_code": 0,
+    "output": "ok: 2 parts, 1122 vertices, 1938 faces\nbounds: 1 empty 1 model_space\nwritten again: the same bytes\n",
+    "sha256": "75f56033ded920198e45cf5e58ddb706af72d78b7966e0414ac59e0ce9886de4"
+  },
+  {
+    "file": "mission989.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "b561edb2c849aeba843dd27f8d763daa34fa798cdb69d61491471fdf923c103b"
+  }
+]

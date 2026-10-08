@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "${SABER_WORKSPACE}/saber_worn_pbr_v1.blend",
+  "canonical_sha256": "26406532559df6dd60347162b298e13e610df5393cae69035eea65c7d94b3756",
+  "snapshot": "Coalition Fighters/Saber/source/saber_worn_pbr_v1.blend",
+  "snapshot_sha256": "a20deae94bd9a693cc2eadde7f7594e0cb985f4f168f157684a1f61a9896860f",
+  "mesh_signature": "6f3290e12b5092c8e16a1d78562ec00a577980003c5aff39cb953d2221ef833f",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "saber_hull_basecolor_v1.png",
+      "path": "//resources/c50bc219e3a3_saber_hull_basecolor_v1.png",
+      "sha256": "c50bc219e3a389cca18a296e1e83cb0ff6fca5097dd626bcd108a2d23a2d2c85"
+    },
+    {
+      "image": "saber_hull_metallic_v1.png",
+      "path": "//resources/fee85aeb1946_saber_hull_metallic_v1.png",
+      "sha256": "fee85aeb194614614a217307a557b90d268310fdfd078c5f4b9124bb143ff356"
+    },
+    {
+      "image": "saber_hull_normal_v1.png",
+      "path": "//resources/e3440797de21_saber_hull_normal_v1.png",
+      "sha256": "e3440797de210b6fcd25c804cdff3a68a7af66b548aee6d6011468ac8f71594c"
+    },
+    {
+      "image": "saber_hull_roughness_v1.png",
+      "path": "//resources/ba1a5d51a687_saber_hull_roughness_v1.png",
+      "sha256": "ba1a5d51a6872c165f7a5668370b61cddbb9f0659f5e9e8e86ab7fc3662a55b5"
+    }
+  ]
+}

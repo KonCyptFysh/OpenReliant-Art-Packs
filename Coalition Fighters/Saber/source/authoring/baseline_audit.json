@@ -1,0 +1,25 @@
+{
+  "parts": [
+    {
+      "part": "Sabre_Body",
+      "vertices": 328,
+      "faces": 588,
+      "visible_faces": 556
+    },
+    {
+      "part": "Sabre_Frnt_cockpit",
+      "vertices": 20,
+      "faces": 24,
+      "visible_faces": 12
+    }
+  ],
+  "source_sha256": "2829da60c8ed87ee3831f6795d30f14399686ddb0451946003035ff7cc123732",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ]
+  ],
+  "geometry_signature": "d4c8c33f5c3c5e7858cc0c4d9f9560fe44fc8df503aab6c922f9648de1878fe4"
+}

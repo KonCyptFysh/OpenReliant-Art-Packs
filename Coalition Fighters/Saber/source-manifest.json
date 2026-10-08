@@ -1,0 +1,217 @@
+{
+  "status": "approved-artwork-snapshot",
+  "ship": "Saber",
+  "asset_revision": "1.0",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 1308,
+      "sha256": "0a7fe6011a539e71ee5538c1ff91ff6b2e8f24a4baff00f45e8752d14b4510ad"
+    },
+    {
+      "path": "source/authoring/README.md",
+      "bytes": 1056,
+      "sha256": "e7ee19bcc2119c66e6d359ca44c84f71579cfd354eb2c6b68e52fa4382aa7319"
+    },
+    {
+      "path": "source/authoring/baseline_audit.json",
+      "bytes": 568,
+      "sha256": "cb6f8be01923399ab636f993e229e5a40411fa6142a1aee0eda76b44473d96ea"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 14177,
+      "sha256": "d284bb499a612c1389560d9efe2ad076c9efa22336cdf34e9b8bae8c7a06032d"
+    },
+    {
+      "path": "source/authoring/build_source.py",
+      "bytes": 7286,
+      "sha256": "8acb9f53ed1138498dd193d8d2634f708363b8a3029d77280762c9d690bb7e8d"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 7668,
+      "sha256": "17f26116e4bb2524205a3e6b394742a38988447ed9454d558f04aaf7d52d232f"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 1954,
+      "sha256": "32594e895d2b2a9ee3a756b5a31581a0f1a4d0b67b057afe0db68bc41e0699db"
+    },
+    {
+      "path": "source/authoring/inspect_uv.py",
+      "bytes": 1986,
+      "sha256": "ea4d69f9fffd9e987d9e985f08c0a1f79c41ff12895a1d0601c5e35044a6dcc5"
+    },
+    {
+      "path": "source/authoring/inspection.py",
+      "bytes": 3495,
+      "sha256": "9a2dc4cb918080dd6036f2c101e771b6677cd861802439d1ec52e86e9108383d"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 248,
+      "sha256": "105c91cc67bf531632901e53dc52d4278f6a095fe8ba5274c2cecef39e111cc0"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 559,
+      "sha256": "e763a3a83b9fe5a43fa7366cf373d36b2355816aaa45b067f078e891d25618ed"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 14999,
+      "sha256": "de879a28ecf18e5772c6af5143d7a3a1d67ec0aae45ea434a7163ee93eaa1fb9"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2462,
+      "sha256": "799788e1f5a9f901228ec59e485a4e457c716c07a4724db16e2810f8b460ab6e"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 14080,
+      "sha256": "4d39a721668c77411998a4e4e9d5ef42cbdd243af23cf834a9f07e63eb4070b6"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 1376,
+      "sha256": "ebc49d0f8b4898b85daafc4715cd8a2aebbc1c3e949f10e2aa19a6ee16e214ad"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 360698,
+      "sha256": "89eb89d25453d13dfd69e83b68c46a723f89c7eb3df3e7047f487c3f4255aa6a"
+    },
+    {
+      "path": "source/maps/saber_hull_basecolor_v1.png",
+      "bytes": 17665104,
+      "sha256": "c50bc219e3a389cca18a296e1e83cb0ff6fca5097dd626bcd108a2d23a2d2c85"
+    },
+    {
+      "path": "source/maps/saber_hull_fins_v1.png",
+      "bytes": 79045,
+      "sha256": "94918f8a250e889c899003dc4d0dfdccdbe69294a1bbf80163e5a05c8364dcab"
+    },
+    {
+      "path": "source/maps/saber_hull_flat_graphics_v1.png",
+      "bytes": 60937,
+      "sha256": "76441de977d873aaffb8ba4ed4ec172a83a02da6141f8539b953234240e5c657"
+    },
+    {
+      "path": "source/maps/saber_hull_generated_v1.png",
+      "bytes": 3279763,
+      "sha256": "27e019975b3f239dca878dbf6a5cc6612b634a6a752f9248cc91b72afc26b681"
+    },
+    {
+      "path": "source/maps/saber_hull_glass_v1.png",
+      "bytes": 80222,
+      "sha256": "ba9bea9c85334cab210f777ca35f289480494bebf9afa2112b290f4c9ace6fcf"
+    },
+    {
+      "path": "source/maps/saber_hull_height_v1.png",
+      "bytes": 168586,
+      "sha256": "bb4c20c737c66f89c5e585fa0567ca656d839cae89d5dde1810ca62bc7e401cf"
+    },
+    {
+      "path": "source/maps/saber_hull_metallic_v1.png",
+      "bytes": 7113067,
+      "sha256": "fee85aeb194614614a217307a557b90d268310fdfd078c5f4b9124bb143ff356"
+    },
+    {
+      "path": "source/maps/saber_hull_normal_v1.png",
+      "bytes": 397031,
+      "sha256": "e3440797de210b6fcd25c804cdff3a68a7af66b548aee6d6011468ac8f71594c"
+    },
+    {
+      "path": "source/maps/saber_hull_paint_v1.png",
+      "bytes": 3772994,
+      "sha256": "b56063534baed500b514717577ea98afbabcb71c8a7493ee9f379ce17f5c8d58"
+    },
+    {
+      "path": "source/maps/saber_hull_panels_v1.png",
+      "bytes": 156206,
+      "sha256": "d1fbbc055c6eefbcf64ca1120e8629766806f86001e3ac1908f675d4033c4184"
+    },
+    {
+      "path": "source/maps/saber_hull_roughness_v1.png",
+      "bytes": 6667618,
+      "sha256": "ba1a5d51a6872c165f7a5668370b61cddbb9f0659f5e9e8e86ab7fc3662a55b5"
+    },
+    {
+      "path": "source/maps/saber_hull_seal_v1.png",
+      "bytes": 93630,
+      "sha256": "4d3b2053c6bd4f10665f8d70b881cda575679883c665cb30dd555876e31b776d"
+    },
+    {
+      "path": "source/maps/saber_hull_structure_v1.png",
+      "bytes": 203978,
+      "sha256": "8a563ccdf31831cc24378af1ac024626578a6b2be583096499e2394f36d4a334"
+    },
+    {
+      "path": "source/originals/Rus_Sabre.SHP",
+      "bytes": 195886,
+      "sha256": "2829da60c8ed87ee3831f6795d30f14399686ddb0451946003035ff7cc123732"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 588,
+      "sha256": "7ac7c37ab4d554aafcbb75ac302e569edfe34ccb51d613ba0c56c995e1727397"
+    },
+    {
+      "path": "source/originals/sabre.png",
+      "bytes": 67746,
+      "sha256": "302dd2ab3f0a2e3cd34064de1ec5fd1b5783e8378d0776170b5387b40acba477"
+    },
+    {
+      "path": "source/resources/ba1a5d51a687_saber_hull_roughness_v1.png",
+      "bytes": 6667618,
+      "sha256": "ba1a5d51a6872c165f7a5668370b61cddbb9f0659f5e9e8e86ab7fc3662a55b5"
+    },
+    {
+      "path": "source/resources/c50bc219e3a3_saber_hull_basecolor_v1.png",
+      "bytes": 17665104,
+      "sha256": "c50bc219e3a389cca18a296e1e83cb0ff6fca5097dd626bcd108a2d23a2d2c85"
+    },
+    {
+      "path": "source/resources/e3440797de21_saber_hull_normal_v1.png",
+      "bytes": 397031,
+      "sha256": "e3440797de210b6fcd25c804cdff3a68a7af66b548aee6d6011468ac8f71594c"
+    },
+    {
+      "path": "source/resources/fee85aeb1946_saber_hull_metallic_v1.png",
+      "bytes": 7113067,
+      "sha256": "fee85aeb194614614a217307a557b90d268310fdfd078c5f4b9124bb143ff356"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 793082,
+      "sha256": "a00400ff0989cfefea7475e694450a6a1e3f71535aa44a699cc4e4079b4a44f8"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 805730,
+      "sha256": "a57ab0cbe65a54c0a39b0085bb871109d85f3daf50b1f465dc20d92fc14e285b"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 855414,
+      "sha256": "809f3337bb7a1815dad589b6eff7174572e50a84ee63458ce12a37b8d2fe076b"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_rear.png",
+      "bytes": 822631,
+      "sha256": "2d10c672eacb70d63df755a1f1ec2dabc6fc3eb443184001a824cfa3ed94bfc9"
+    },
+    {
+      "path": "source/review/reconstruction_v1/source_front.png",
+      "bytes": 410548,
+      "sha256": "b7214ff28be510427097f7abcd91b36f0b9a9d2da5724999b469ea731666b368"
+    },
+    {
+      "path": "source/saber_worn_pbr_v1.blend",
+      "bytes": 32428100,
+      "sha256": "a20deae94bd9a693cc2eadde7f7594e0cb985f4f168f157684a1f61a9896860f"
+    }
+  ]
+}

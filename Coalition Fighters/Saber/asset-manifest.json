@@ -1,0 +1,57 @@
+[
+  {
+    "path": "mods/102-saber-worn-v1/Rus_Sabre.SHP",
+    "bytes": 195886,
+    "sha256": "75f56033ded920198e45cf5e58ddb706af72d78b7966e0414ac59e0ce9886de4"
+  },
+  {
+    "path": "mods/102-saber-worn-v1/gorsb1_hull.png",
+    "bytes": 17665104,
+    "sha256": "c50bc219e3a389cca18a296e1e83cb0ff6fca5097dd626bcd108a2d23a2d2c85"
+  },
+  {
+    "path": "mods/102-saber-worn-v1/gorsb1_hull_normal.png",
+    "bytes": 397031,
+    "sha256": "e3440797de210b6fcd25c804cdff3a68a7af66b548aee6d6011468ac8f71594c"
+  },
+  {
+    "path": "mods/102-saber-worn-v1/gorsb1_hull_orm.png",
+    "bytes": 9907162,
+    "sha256": "ff15c85cb5a0f636b4c8e71af5c28fc7b144e826b517395f5665e287f0f5d96d"
+  },
+  {
+    "path": "mods/102-saber-worn-v1/license.txt",
+    "bytes": 246,
+    "sha256": "9de2592602ace78df09c1b38fc32c8a03fd38234d70b8ba69f875724295a15bc"
+  },
+  {
+    "path": "mods/102-saber-worn-v1/mission989.dte",
+    "bytes": 478,
+    "sha256": "b561edb2c849aeba843dd27f8d763daa34fa798cdb69d61491471fdf923c103b"
+  },
+  {
+    "path": "mods/102-saber-worn-v1/mod.ini",
+    "bytes": 199,
+    "sha256": "09e70c1b9885aa3b21868af957714f90343394dae3396a219cdd5aa458c43b87"
+  },
+  {
+    "path": "mods/102-saber-worn-v1/mod.png",
+    "bytes": 805730,
+    "sha256": "a57ab0cbe65a54c0a39b0085bb871109d85f3daf50b1f465dc20d92fc14e285b"
+  },
+  {
+    "path": "mods/102-saber-worn-v1/orsb1_hull.png",
+    "bytes": 17665104,
+    "sha256": "c50bc219e3a389cca18a296e1e83cb0ff6fca5097dd626bcd108a2d23a2d2c85"
+  },
+  {
+    "path": "mods/102-saber-worn-v1/orsb1_hull_normal.png",
+    "bytes": 397031,
+    "sha256": "e3440797de210b6fcd25c804cdff3a68a7af66b548aee6d6011468ac8f71594c"
+  },
+  {
+    "path": "mods/102-saber-worn-v1/orsb1_hull_orm.png",
+    "bytes": 9907162,
+    "sha256": "ff15c85cb5a0f636b4c8e71af5c28fc7b144e826b517395f5665e287f0f5d96d"
+  }
+]
