@@ -1,0 +1,227 @@
+{
+  "status": "approved-snapshot",
+  "ship": "Sai",
+  "asset_revision": "1.0",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 1230,
+      "sha256": "4c75c4548a8d5a0fbeb53e965bd997c44a3b3d50bf1f975c8dbddfcdd9bcd1d5"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 3219,
+      "sha256": "98eef7e08cca246bfb3034eb5bb7795f106f9312dd95191a776fa2395198d0fd"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 10119,
+      "sha256": "557b50f8a8a972fae346ac9bba9434fac72c878c5c7c09ac041464681509368b"
+    },
+    {
+      "path": "source/maps/sai_sam1_basecolor_v1.png",
+      "bytes": 19475426,
+      "sha256": "a212559758bb678c506545a5635fe954ec3c04fff006fdc3bb0b374c339bc19b"
+    },
+    {
+      "path": "source/maps/sai_sam1_fins_v1.png",
+      "bytes": 58055,
+      "sha256": "4369fdc192c5d09539d53a7506f6fbddbfae4a38ffecfade80d64affcf042bff"
+    },
+    {
+      "path": "source/maps/sai_sam1_flat_graphics_v1.png",
+      "bytes": 58494,
+      "sha256": "9affa1d9073c3a9148a79d1ce88aa8cc3a235555f8d197fc1b89dc4aadcbd819"
+    },
+    {
+      "path": "source/maps/sai_sam1_generated_v1.png",
+      "bytes": 3595352,
+      "sha256": "dbaa6d8828bf476454f3846ac2aa3c596f8fdaa82829309b653447bdb283e144"
+    },
+    {
+      "path": "source/maps/sai_sam1_glass_v1.png",
+      "bytes": 145905,
+      "sha256": "94c990fa41e04206d08f9358fd6f45f3e370fccf9da464c8bce7cf78f103a816"
+    },
+    {
+      "path": "source/maps/sai_sam1_height_v1.png",
+      "bytes": 104874,
+      "sha256": "15810f42196e232e9ca5030b37ebd73258b7b84a772294c20f70c494db90eed8"
+    },
+    {
+      "path": "source/maps/sai_sam1_metallic_v1.png",
+      "bytes": 4840788,
+      "sha256": "89744165d99559b80493cc0ef2d81fbdc915820b91fa9010ca4d00994b71094c"
+    },
+    {
+      "path": "source/maps/sai_sam1_normal_v1.png",
+      "bytes": 200348,
+      "sha256": "e1213529512af921653308b1d712c2dbab43bb708e841b9e735f9edd2fdda7ea"
+    },
+    {
+      "path": "source/maps/sai_sam1_paint_v1.png",
+      "bytes": 3069493,
+      "sha256": "29c1de40784476d3e73953ad1e89eeeaed020fadebe7eb4061692119a83ef967"
+    },
+    {
+      "path": "source/maps/sai_sam1_panels_v1.png",
+      "bytes": 64328,
+      "sha256": "212295133c9aac7ae3aa2101ebade1372c116363887f658f7f68432c2333b9ee"
+    },
+    {
+      "path": "source/maps/sai_sam1_roughness_v1.png",
+      "bytes": 5319525,
+      "sha256": "4f4148a43653803834bcf6e7f444bc69ba39b6c4e15da041672801ad5731fd54"
+    },
+    {
+      "path": "source/maps/sai_sam1_seal_v1.png",
+      "bytes": 164267,
+      "sha256": "644f5e920efc3a5f31b23091f71aa047c4da92d702833ec2a612241c6bde167a"
+    },
+    {
+      "path": "source/maps/sai_sam1_structure_v1.png",
+      "bytes": 153696,
+      "sha256": "0d07fe826e89db5047bfb71669f342840a89ee5a34214827a99decb461022851"
+    },
+    {
+      "path": "source/maps/sai_sam2_basecolor_v1.png",
+      "bytes": 6527423,
+      "sha256": "9409b3060dcd64511b46dbb38797fcd75c0fec28def604c18ee4f13bafaeedda"
+    },
+    {
+      "path": "source/maps/sai_sam2_fins_v1.png",
+      "bytes": 15786,
+      "sha256": "877f6bd47c1e4573376891df1ef0bdb08d3d72241a4f15ddd19e9562f86a34eb"
+    },
+    {
+      "path": "source/maps/sai_sam2_flat_graphics_v1.png",
+      "bytes": 17047,
+      "sha256": "4b8a281fa17b1125264fb8f973912dd389d5554e2670219267f03d4ac1340869"
+    },
+    {
+      "path": "source/maps/sai_sam2_generated_v1.png",
+      "bytes": 3539768,
+      "sha256": "dc174fe3df90d9c945ab9af1889a98e08fa5aa6b82c33899cf2e221a04d00540"
+    },
+    {
+      "path": "source/maps/sai_sam2_glass_v1.png",
+      "bytes": 12419,
+      "sha256": "ae295f7204f64cfecd74db9c47868c60c32d1729d61b3e15aae9c71cb1563760"
+    },
+    {
+      "path": "source/maps/sai_sam2_height_v1.png",
+      "bytes": 38569,
+      "sha256": "fa01b0c0e3025f1c69f6e1acd4202526e6b0ac6a6b84cb327fe8621b0b7f1569"
+    },
+    {
+      "path": "source/maps/sai_sam2_metallic_v1.png",
+      "bytes": 1845663,
+      "sha256": "66811e7a75d9315323d9917499a6473cb11f55d2fc9923c8c34c663ff21f1e7f"
+    },
+    {
+      "path": "source/maps/sai_sam2_normal_v1.png",
+      "bytes": 63426,
+      "sha256": "70c28ac3c4f3fdf99f2d64c228d198d57d854e3df004b209ab6dd891575f8a82"
+    },
+    {
+      "path": "source/maps/sai_sam2_paint_v1.png",
+      "bytes": 757385,
+      "sha256": "1d0e63582fc74d98f76e071d779c6818b7f3b0ceb83dcec799bc26812272f5a4"
+    },
+    {
+      "path": "source/maps/sai_sam2_panels_v1.png",
+      "bytes": 50861,
+      "sha256": "09ec3b07939d05eb52f7d30c55742e45dcca06c93ee60417cdde59e48a1f105f"
+    },
+    {
+      "path": "source/maps/sai_sam2_roughness_v1.png",
+      "bytes": 1912795,
+      "sha256": "93b8451fecc4625193f91b0b8c06d641d9b81c2599d7bdb5de73e53f1bfe367b"
+    },
+    {
+      "path": "source/maps/sai_sam2_seal_v1.png",
+      "bytes": 12419,
+      "sha256": "ae295f7204f64cfecd74db9c47868c60c32d1729d61b3e15aae9c71cb1563760"
+    },
+    {
+      "path": "source/maps/sai_sam2_structure_v1.png",
+      "bytes": 22490,
+      "sha256": "d185af2740b971ec0aa50dde19846ec0e61978adde10005f1c52086bfc407b83"
+    },
+    {
+      "path": "source/originals/Jap_Sai.SHP",
+      "bytes": 80724,
+      "sha256": "3ae9f5f2002ecc761c533eb83ee0562cc9d6c0ce22c21c5cda9b6d74538cb59b"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 906,
+      "sha256": "bd66ca43f30f54809eb5c48ea827a28725eaa859684b1066a276f2de59bc5458"
+    },
+    {
+      "path": "source/originals/sam_1.png",
+      "bytes": 68591,
+      "sha256": "d772b3dc2078606908c8f06f1eaa6142f1af1757a8f130eccd14490de39977b2"
+    },
+    {
+      "path": "source/originals/sam_2.png",
+      "bytes": 17251,
+      "sha256": "256c568b92aebe1a996e3ca78b7839ad06ef550fc285ee0c0dc3e945ddc2afb9"
+    },
+    {
+      "path": "source/resources/4f4148a43653_sai_sam1_roughness_v1.png",
+      "bytes": 5319525,
+      "sha256": "4f4148a43653803834bcf6e7f444bc69ba39b6c4e15da041672801ad5731fd54"
+    },
+    {
+      "path": "source/resources/66811e7a75d9_sai_sam2_metallic_v1.png",
+      "bytes": 1845663,
+      "sha256": "66811e7a75d9315323d9917499a6473cb11f55d2fc9923c8c34c663ff21f1e7f"
+    },
+    {
+      "path": "source/resources/70c28ac3c4f3_sai_sam2_normal_v1.png",
+      "bytes": 63426,
+      "sha256": "70c28ac3c4f3fdf99f2d64c228d198d57d854e3df004b209ab6dd891575f8a82"
+    },
+    {
+      "path": "source/resources/89744165d995_sai_sam1_metallic_v1.png",
+      "bytes": 4840788,
+      "sha256": "89744165d99559b80493cc0ef2d81fbdc915820b91fa9010ca4d00994b71094c"
+    },
+    {
+      "path": "source/resources/93b8451fecc4_sai_sam2_roughness_v1.png",
+      "bytes": 1912795,
+      "sha256": "93b8451fecc4625193f91b0b8c06d641d9b81c2599d7bdb5de73e53f1bfe367b"
+    },
+    {
+      "path": "source/resources/9409b3060dcd_sai_sam2_basecolor_v1.png",
+      "bytes": 6527423,
+      "sha256": "9409b3060dcd64511b46dbb38797fcd75c0fec28def604c18ee4f13bafaeedda"
+    },
+    {
+      "path": "source/resources/a212559758bb_sai_sam1_basecolor_v1.png",
+      "bytes": 19475426,
+      "sha256": "a212559758bb678c506545a5635fe954ec3c04fff006fdc3bb0b374c339bc19b"
+    },
+    {
+      "path": "source/resources/e1213529512a_sai_sam1_normal_v1.png",
+      "bytes": 200348,
+      "sha256": "e1213529512af921653308b1d712c2dbab43bb708e841b9e735f9edd2fdda7ea"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-overview.png",
+      "bytes": 1113593,
+      "sha256": "4dc860c860ddd65cf1564b446d802b89cb2b019b6bf8cf572f0e314c835dc80e"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-rear.png",
+      "bytes": 1068680,
+      "sha256": "d170c9f563ecfdbf47ae50ab3c2c1254287dc775857d00bbfc88db5c1f8696a2"
+    },
+    {
+      "path": "source/sai_worn_pbr_v1.blend",
+      "bytes": 40218055,
+      "sha256": "e44f21d78832f7154e8c307ddfb2fe183179811296e05a7b14d230922798943d"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "gallery_media": "Actual in-game captures in official OpenReliant 0.7.0",
+  "artwork_revision": "1.0",
+  "captures": [
+    {
+      "image": "flight-overview.png",
+      "sha256": "4dc860c860ddd65cf1564b446d802b89cb2b019b6bf8cf572f0e314c835dc80e",
+      "engine": "Official OpenReliant 0.7.0",
+      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "mission": 991,
+      "ship": 23,
+      "watch_from": "1,-0.6,1.3",
+      "render_size": [
+        1600,
+        1200
+      ],
+      "screenshot_ticks": 30,
+      "exit_code": 0,
+      "captured_at_utc": "2026-10-08T09:48:08.424702+00:00",
+      "runtime_manifest_sha256": "3e967a1d02f2fccf677547326bf90da003be5a87a180132f1f30caac43a7769b",
+      "installed_runtime_matches_repository": true,
+      "settings_unchanged": true,
+      "gallery_file": "assets/sai/flight-overview.webp",
+      "gallery_sha256": "ee81699eecaa0641c93a716881ae050e028a5675048cc7b90164e90f5d28d317",
+      "conversion": "WebP encoding only; no image alterations"
+    },
+    {
+      "image": "flight-rear.png",
+      "sha256": "d170c9f563ecfdbf47ae50ab3c2c1254287dc775857d00bbfc88db5c1f8696a2",
+      "engine": "Official OpenReliant 0.7.0",
+      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "mission": 991,
+      "ship": 23,
+      "watch_from": "1.2,-0.72,-1.56",
+      "render_size": [
+        1600,
+        1200
+      ],
+      "screenshot_ticks": 30,
+      "exit_code": 0,
+      "captured_at_utc": "2026-10-08T09:55:51.092313+00:00",
+      "runtime_manifest_sha256": "3e967a1d02f2fccf677547326bf90da003be5a87a180132f1f30caac43a7769b",
+      "installed_runtime_matches_repository": true,
+      "settings_unchanged": true,
+      "gallery_file": "assets/sai/flight-rear.webp",
+      "gallery_sha256": "f8c628a15792680981bd1d9b2f9506ae64558df47d79fa92cdd5eec307905cd8",
+      "conversion": "WebP encoding only; no image alterations"
+    }
+  ],
+  "captured_runtime_manifest_sha256": "3e967a1d02f2fccf677547326bf90da003be5a87a180132f1f30caac43a7769b",
+  "published_runtime_manifest_sha256": "3e967a1d02f2fccf677547326bf90da003be5a87a180132f1f30caac43a7769b",
+  "settings_unchanged": true
+}

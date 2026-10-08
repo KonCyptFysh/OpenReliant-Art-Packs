@@ -1,0 +1,87 @@
+[
+  {
+    "path": "mods/100-sai-worn-v1/Jap_Sai.SHP",
+    "bytes": 80724,
+    "sha256": "1609ab68e4598932a61f2eb794075325feed8416eaf40249eb2c316b87679a7d"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/gorsa1_body.png",
+    "bytes": 19475426,
+    "sha256": "a212559758bb678c506545a5635fe954ec3c04fff006fdc3bb0b374c339bc19b"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/gorsa1_body_normal.png",
+    "bytes": 200348,
+    "sha256": "e1213529512af921653308b1d712c2dbab43bb708e841b9e735f9edd2fdda7ea"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/gorsa1_body_orm.png",
+    "bytes": 7384871,
+    "sha256": "7abba3bbe8cc53419cad8640910353b27b4f9254a0f242a49b7626370e127376"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/gorsa1_fins.png",
+    "bytes": 6527423,
+    "sha256": "9409b3060dcd64511b46dbb38797fcd75c0fec28def604c18ee4f13bafaeedda"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/gorsa1_fins_normal.png",
+    "bytes": 63426,
+    "sha256": "70c28ac3c4f3fdf99f2d64c228d198d57d854e3df004b209ab6dd891575f8a82"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/gorsa1_fins_orm.png",
+    "bytes": 2648586,
+    "sha256": "f43455b75c04ad3afc046122197b4c5564d64fe50d7c3a3fecc1b19026061c42"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/license.txt",
+    "bytes": 416,
+    "sha256": "78b05471c9b0340b56be0c85778ff95a5d3586de9841b31b5c727e1b69f0c980"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/mission991.dte",
+    "bytes": 472,
+    "sha256": "54c883c015751a490b9af1ed714d2959b902abc30be44f656ea8cbb6c1ef61b0"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/mod.ini",
+    "bytes": 269,
+    "sha256": "23494c6d21bf5f3f1408f986c1962e9d2e13ce562ec89fe86ed5d21fe129a9e2"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/mod.png",
+    "bytes": 697514,
+    "sha256": "dd4d960b46fa9bfc890ffd1f46f2c921179920c7c3b77f380e3f31493d69391b"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/orsa1_body.png",
+    "bytes": 19475426,
+    "sha256": "a212559758bb678c506545a5635fe954ec3c04fff006fdc3bb0b374c339bc19b"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/orsa1_body_normal.png",
+    "bytes": 200348,
+    "sha256": "e1213529512af921653308b1d712c2dbab43bb708e841b9e735f9edd2fdda7ea"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/orsa1_body_orm.png",
+    "bytes": 7384871,
+    "sha256": "7abba3bbe8cc53419cad8640910353b27b4f9254a0f242a49b7626370e127376"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/orsa1_fins.png",
+    "bytes": 6527423,
+    "sha256": "9409b3060dcd64511b46dbb38797fcd75c0fec28def604c18ee4f13bafaeedda"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/orsa1_fins_normal.png",
+    "bytes": 63426,
+    "sha256": "70c28ac3c4f3fdf99f2d64c228d198d57d854e3df004b209ab6dd891575f8a82"
+  },
+  {
+    "path": "mods/100-sai-worn-v1/orsa1_fins_orm.png",
+    "bytes": 2648586,
+    "sha256": "f43455b75c04ad3afc046122197b4c5564d64fe50d7c3a3fecc1b19026061c42"
+  }
+]
