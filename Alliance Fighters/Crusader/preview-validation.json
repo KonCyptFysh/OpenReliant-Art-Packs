@@ -1,0 +1,64 @@
+{
+  "model": "British_Crusader.SHP",
+  "model_sha256": "162b74506b9d2ae569677a6e27eadf2d8cf018dc50a191c4115ca4d973e6556d",
+  "preview_sha256": "7a2f0c2c553b1c725e7c0838f81ee00f03f35948310fb146e11078cf8db67bd0",
+  "preview_bytes": 1899936,
+  "highest_detail_geometry": true,
+  "textures": [
+    {
+      "runtime_file": "orcr1_hull.png",
+      "sha256": "913a85c0cbffa5e3e926ac9e2b1351c362c7ed43e20b6c0de9f69bf0c5b1478c",
+      "kind": "base",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orcr1_hull_normal.png",
+      "sha256": "1eef97b8dce40cd3924c1ddd4443961a49097950570071452ddd0a06d999d2d9",
+      "kind": "normal",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orcr1_hull_orm.png",
+      "sha256": "ad41c9f1060d53b85849dc0787b1c2b2da878d3674bc7ec247f1c3f6abecefc8",
+      "kind": "orm",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orcr2_collar.png",
+      "sha256": "3b68e5371293c54ad444b6eb19acde1549d40596c6dbdd4f806a4d3c7ebeb336",
+      "kind": "base",
+      "preview_dimensions": [
+        1024,
+        256
+      ]
+    },
+    {
+      "runtime_file": "orcr2_collar_normal.png",
+      "sha256": "5e3ef496ef38f2a74205b86daa1510ff054ebe467b1cad934ef1636f49cd6441",
+      "kind": "normal",
+      "preview_dimensions": [
+        1024,
+        256
+      ]
+    },
+    {
+      "runtime_file": "orcr2_collar_orm.png",
+      "sha256": "024635c96971fe8e0598bbec5cfaef340ef915c382c056150c420e9ba1e388ab",
+      "kind": "orm",
+      "preview_dimensions": [
+        1024,
+        256
+      ]
+    }
+  ],
+  "limitations": "Viewing copy with reduced texture resolution and browser lighting; in-game screenshots show actual engine appearance."
+}
