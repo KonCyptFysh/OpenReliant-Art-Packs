@@ -1,0 +1,59 @@
+{
+  "canonical_scene": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/sai_worn_pbr_v3.blend",
+  "canonical_sha256": "0c4cbe9e3e8a62f21c1191924723a782ff1ca460ae80fc4e9e47eb393b35fc0d",
+  "snapshot": "/home/lva-8700/.codex/.chatgpt-projects/g-p-6ac04f0d792c8191903a4b87653b44f6/work/release-preparation/repositories/OpenReliant-Art-Packs/Alliance Fighters/Sai/source/sai_worn_pbr_v3.blend",
+  "snapshot_sha256": "d68a28722fceca8cb853b30df704c4ed6dbabe20dd4f899a1efaaad58e8ac6ec",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "mesh_signature": "7e642ba5932a7b7a41c50f687c496c484831b0db40bff20cb3b8114e604f2115",
+  "images": [
+    {
+      "image": "sai_sam1_basecolor_lr_v3.png",
+      "resource": "//resources/449fd0da8ffe_sai_sam1_basecolor_lr_v3.png",
+      "sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da",
+      "packed_matches_source": true
+    },
+    {
+      "image": "sai_sam1_metallic_lr_v2.png",
+      "resource": "//resources/ad34746d7139_sai_sam1_metallic_lr_v2.png",
+      "sha256": "ad34746d71398e842c59ac6550481f1ab7f67531f6da7cfadca560a1afff085d",
+      "packed_matches_source": true
+    },
+    {
+      "image": "sai_sam1_normal_lr_v2.png",
+      "resource": "//resources/da8b7a0afce9_sai_sam1_normal_lr_v2.png",
+      "sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538",
+      "packed_matches_source": true
+    },
+    {
+      "image": "sai_sam1_roughness_lr_v2.png",
+      "resource": "//resources/82d1910d6f3f_sai_sam1_roughness_lr_v2.png",
+      "sha256": "82d1910d6f3f35f2090a8d45e06ef9ae23de61656a5298c3a0d4aec2d6b15382",
+      "packed_matches_source": true
+    },
+    {
+      "image": "sai_sam2_basecolor_lr_v2.png",
+      "resource": "//resources/5782769699bb_sai_sam2_basecolor_lr_v2.png",
+      "sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6",
+      "packed_matches_source": true
+    },
+    {
+      "image": "sai_sam2_metallic_lr_v2.png",
+      "resource": "//resources/9db47b4efbce_sai_sam2_metallic_lr_v2.png",
+      "sha256": "9db47b4efbce621da24494f4a2d6f401c87123735f09d153783283bdff6c9704",
+      "packed_matches_source": true
+    },
+    {
+      "image": "sai_sam2_normal_lr_v2.png",
+      "resource": "//resources/18e2d2a17da4_sai_sam2_normal_lr_v2.png",
+      "sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72",
+      "packed_matches_source": true
+    },
+    {
+      "image": "sai_sam2_roughness_lr_v2.png",
+      "resource": "//resources/2d6ae630ec3a_sai_sam2_roughness_lr_v2.png",
+      "sha256": "2d6ae630ec3a9e62a9b16c74cc73b5dc7ef40545197d198ca1bb3223ee605007",
+      "packed_matches_source": true
+    }
+  ],
+  "packed_relative_resources_reopened": true
+}

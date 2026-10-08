@@ -1,9 +1,13 @@
 # Sai - Worn Paint
 
-User-approved worn restoration for OpenReliant 0.7.0, prepared as an individual beta.
+Artwork revision 4.0 is user-approved for Git publication. The public gallery and downloadable beta remain at the earlier release until a separate beta publication.
 
-Restores the silver-grey and bronze finish, Japanese markings and fin graphics. Cockpit glass has smooth interiors, flat normals and reflective material response. Eleven stretched or collapsed UV faces at the fins are repaired without changing the native geometry or fin animation. Flight and loadout-prefixed textures share identical artwork.
+The body and fin atlases now have independent left/right paint areas. The revised wave retains the rising-sun motif, and the replacement red 侍飛将 and black 神風 inscriptions read normally on both sides.
 
-Native model/mission checks, decoded maps, material channels and portable-source checks passed. The installed files match this repository snapshot, and the user approved their in-game appearance. Gameplay and distance-transition checks remain listed in `KNOWN_ISSUES.md`.
+The final correction removes the severe nose/canopy stretching introduced by the independent left/right texture remap. The native model still grouped triangles across the new UV seams. OpenReliant reuses shared texture coordinates inside those groups, which pulled unrelated artwork across the canopy and other surfaces. The export now splits the draw groups at incompatible UV joins at every detail level.
 
-Use `tools/launch-sai-test.sh` for the quiet single-ship inspection. See `INSTALL.md`, `KNOWN_ISSUES.md` and `source/README.md`.
+Relative to the preceding local revision 3, the final correction changes only 140 primitive-continuation bytes in the native model. All vertex data, face indices, individual UV coordinates, normals, winding, materials, attachments, animation, collision data and texture images are unchanged. The red **侍飛将** and black **神風** retain their approved scale, placement and readable orientation on both sides. The inspection scene retains its `fin down` command.
+
+All 740 native faces were checked against the verified OpenReliant 0.7.0 corner-reuse rules. Local diagnostic renders reproduce the former streaks and show the corrected canopy from both sides. These are Blender diagnostic images, not in-game captures. Native-format round trips, portable source and repository-to-game file hashes passed. The user accepted the completed revision and authorized the Git update. Broader gameplay and distance-transition testing remain outstanding.
+
+Current scene: `source/sai_worn_pbr_v4.blend`. Run `tools/launch-sai-test.sh` for the quiet inspection scene.

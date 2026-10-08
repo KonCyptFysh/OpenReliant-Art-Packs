@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "native_checks": [
+    {
+      "file": "Jap_Sai.SHP",
+      "exit_code": 0,
+      "output": "ok: 3 parts, 479 vertices, 740 faces\nbounds: 3 oriented\nwritten again: the same bytes\n",
+      "sha256": "ec8275e6cd0917751c8033400a62b0e42399d0dd79efe497f6fac9897671ec82"
+    },
+    {
+      "file": "mission991.dte",
+      "exit_code": 0,
+      "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+      "sha256": "3221842359802e4bb2d9af0322a74cd5401e40cd504b8d872702d2f7fb812d01"
+    }
+  ],
+  "native_model_byte_identical_to_v2": true,
+  "all_normals_orm_and_other_textures_byte_identical": true,
+  "flight_and_loadout_maps_identical": true,
+  "changed_files": [
+    "orsa1_body.png",
+    "gorsa1_body.png",
+    "mission991.dte",
+    "mod.ini"
+  ],
+  "inspection_spawns_one_ship_and_plays_fin_down": true,
+  "runtime_launched": false,
+  "runtime_visual_review": "pending_user_review",
+  "official_engine": "OpenReliant 0.7.0",
+  "export": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/exports/openreliant_v3/mods/100-sai-worn-v1"
+}

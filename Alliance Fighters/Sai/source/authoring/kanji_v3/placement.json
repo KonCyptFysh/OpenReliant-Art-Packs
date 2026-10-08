@@ -1,0 +1,331 @@
+{
+  "status": "placement prepared for mesh review",
+  "maps": {
+    "sam1": {
+      "basecolor": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/kanji_v3/sai_sam1_basecolor_lr_v3.png",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da"
+      },
+      "normal": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam1_normal_lr_v2.png",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538"
+      },
+      "roughness": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam1_roughness_lr_v2.png",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "sha256": "82d1910d6f3f35f2090a8d45e06ef9ae23de61656a5298c3a0d4aec2d6b15382"
+      },
+      "metallic": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam1_metallic_lr_v2.png",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "sha256": "ad34746d71398e842c59ac6550481f1ab7f67531f6da7cfadca560a1afff085d"
+      },
+      "height": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam1_height_lr_v2.png",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "sha256": "b01b5d129371dcc1ed1ce1c126677aed198d3c608dff897a5056d186b9a524d0"
+      },
+      "glass": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam1_glass_lr_v2.png",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "sha256": "50e9ed0e7a2dbd2ded346d5858d74f8a9d4b425f4c50b339c20108d79aa7a0c9"
+      },
+      "seal": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam1_seal_lr_v2.png",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "sha256": "3be8990da49546c18eca581e30eb0b363b8076109c57eafb4a3862735e7eeba7"
+      },
+      "flat_graphics": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam1_flat_graphics_lr_v2.png",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "sha256": "972185dd74f82121b79fb144652314bf5f3bddec5258ce6bf16e12bd4562e61e"
+      },
+      "structure": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam1_structure_lr_v2.png",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "sha256": "af84e57146f3d4f877a3b0ff8fe259c0dcb99360479ebf27536cb60d36647b7b"
+      },
+      "fins": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam1_fins_lr_v2.png",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "sha256": "3b68dae2b084422a4cfe659e455ba25181bbb455a7ee87b8613744cbcf6faabd"
+      },
+      "panels": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam1_panels_lr_v2.png",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "sha256": "6fcdeb4e173fc9273e9807a776955415ac2aa44b76ef71dacd65bf91f0e41986"
+      },
+      "paint": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam1_paint_lr_v2.png",
+        "dimensions": [
+          8192,
+          4096
+        ],
+        "sha256": "d8ca4212acd22cd6bae4a8fc4a2f52557b11514a592b37285e701bbcfb7753e8"
+      }
+    },
+    "sam2": {
+      "basecolor": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam2_basecolor_lr_v2.png",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6"
+      },
+      "normal": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam2_normal_lr_v2.png",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72"
+      },
+      "roughness": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam2_roughness_lr_v2.png",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "sha256": "2d6ae630ec3a9e62a9b16c74cc73b5dc7ef40545197d198ca1bb3223ee605007"
+      },
+      "metallic": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam2_metallic_lr_v2.png",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "sha256": "9db47b4efbce621da24494f4a2d6f401c87123735f09d153783283bdff6c9704"
+      },
+      "height": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam2_height_lr_v2.png",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "sha256": "183b5d70e31e899933b46febacc3434e9cd0b6844f72034cf7386aae3146b7a6"
+      },
+      "glass": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam2_glass_lr_v2.png",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "sha256": "625f3d13c181930cfc4ffe8ff7aeadad362442d12be94a11675bd60814ed13b0"
+      },
+      "seal": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam2_seal_lr_v2.png",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "sha256": "9fe6e4bbe8f23dff263003201e6c9c684291c1c4b4196916cb3a905c656f68b5"
+      },
+      "flat_graphics": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam2_flat_graphics_lr_v2.png",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "sha256": "57daa49c48e303d62a7a305a66ec64ea01922f4abf92a46ca14a0159a95d5194"
+      },
+      "structure": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam2_structure_lr_v2.png",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "sha256": "82dd997e0d59c13acf7205e25f701d98fdece23a62ff103ef58621c973739396"
+      },
+      "fins": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam2_fins_lr_v2.png",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "sha256": "be0fcee3c301887f39a8e3a81535d100e27a5175d93f23dd8a04d28e97b09bed"
+      },
+      "panels": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam2_panels_lr_v2.png",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "sha256": "2aa4431c435fe8d9ab64d4e36d72fc39dd11bfc316472b0f0d4d20f0079c9673"
+      },
+      "paint": {
+        "path": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/maps/decals_v2/sai_sam2_paint_lr_v2.png",
+        "dimensions": [
+          4096,
+          2048
+        ],
+        "sha256": "c26e91031e33f8d56e11b86a3e9953d99f8bbf68753655ba7193ab1e8286fd07"
+      }
+    }
+  },
+  "prior_scene": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/sai_worn_pbr_v2.blend",
+  "prior_scene_sha256": "eff0341589b3a0395a7e34c23d275cc6f184d33ea6293c522b31efad8bac25dd",
+  "placements": [
+    {
+      "text": "侍飛将",
+      "region": "nose",
+      "side": "left",
+      "position_px": [
+        1744,
+        2898
+      ],
+      "size_px": [
+        417,
+        1125
+      ],
+      "source": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/decals/kanji_v1/sai_侍飛将_red_vertical.png",
+      "source_sha256": "5bd30bba5c8e9d9c5ff511e82e7d29879effb6bc7171f9eb30fd1c6e7cc8d877",
+      "source_ink_crop": [
+        165,
+        71,
+        763,
+        1683
+      ],
+      "uniform_scale": 0.6978908188585607,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "original_4k_footprint": [
+        1725,
+        2918,
+        2175,
+        4070
+      ]
+    },
+    {
+      "text": "侍飛将",
+      "region": "nose",
+      "side": "right",
+      "position_px": [
+        6031,
+        2898
+      ],
+      "size_px": [
+        417,
+        1125
+      ],
+      "source": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/decals/kanji_v1/sai_侍飛将_red_vertical.png",
+      "source_sha256": "5bd30bba5c8e9d9c5ff511e82e7d29879effb6bc7171f9eb30fd1c6e7cc8d877",
+      "source_ink_crop": [
+        165,
+        71,
+        763,
+        1683
+      ],
+      "uniform_scale": 0.6978908188585607,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "original_4k_footprint": [
+        1725,
+        2918,
+        2175,
+        4070
+      ]
+    },
+    {
+      "text": "神風",
+      "region": "tail",
+      "side": "left",
+      "position_px": [
+        271,
+        573
+      ],
+      "size_px": [
+        993,
+        483
+      ],
+      "source": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/decals/kanji_v1/sai_神風_black_horizontal.png",
+      "source_sha256": "80967420c8087760db25fd592a70da00755ff30ecb807481be2df83397025478",
+      "source_ink_crop": [
+        68,
+        36,
+        1727,
+        842
+      ],
+      "uniform_scale": 0.5986522377938517,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "original_4k_footprint": [
+        228,
+        510,
+        1245,
+        1060
+      ]
+    },
+    {
+      "text": "神風",
+      "region": "tail",
+      "side": "right",
+      "position_px": [
+        6928,
+        573
+      ],
+      "size_px": [
+        993,
+        483
+      ],
+      "source": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/decals/kanji_v1/sai_神風_black_horizontal.png",
+      "source_sha256": "80967420c8087760db25fd592a70da00755ff30ecb807481be2df83397025478",
+      "source_ink_crop": [
+        68,
+        36,
+        1727,
+        842
+      ],
+      "uniform_scale": 0.5986522377938517,
+      "rotation_degrees": 0,
+      "mirrored": false,
+      "original_4k_footprint": [
+        228,
+        510,
+        1245,
+        1060
+      ]
+    }
+  ],
+  "source_decals_unchanged": true,
+  "all_pixels_outside_decal_alpha_identical": true,
+  "changed_basecolor_pixels": 940319,
+  "other_texture_maps_unchanged": true,
+  "method": "Uniformly scaled approved PNG decals, independent normal-reading placement in both atlas halves, original panel gaps protected.",
+  "runtime_visual_review": "pending_user_review"
+}

@@ -1,0 +1,7 @@
+{
+  "user_approved": true,
+  "approved_at_utc": "2026-10-08T16:17:17.258343+00:00",
+  "instruction": "Awesome, send it upto git!",
+  "scope": "Sai artwork revision 4.0: separate left/right UVs, refined wave, red 侍飛将 and black 神風, fin-deployment inspection scene, and corrected native UV joins.",
+  "evidence": "User accepted the completed revision and authorized committing and pushing it. No new automated game launch was performed for this approval."
+}

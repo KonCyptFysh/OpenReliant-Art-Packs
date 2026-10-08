@@ -1,0 +1,10 @@
+24 bytes of script in 1 routines
+
+0 to 24: part 0, (F)InspectionStart
+       2  2d 00       push_flight_group   0
+       4  21 03       command   CreateFlightGroup
+       6  2c 00       push_ship   0  Sai - Inspection
+       8  2b 0a 66 69 push_string_alt   "fin down"
+      19  21 11       command   StartShipAnimation
+      21  32 01       push_byte   1
+      23  43          return

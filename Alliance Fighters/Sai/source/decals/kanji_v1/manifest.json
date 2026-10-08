@@ -1,0 +1,58 @@
+{
+  "status": "standalone decals ready for placement and user review",
+  "method": "built-in image_gen with original texture style references",
+  "scope": "separate transparent PNG artwork; not yet applied to ship maps",
+  "text_supplied_by_user": true,
+  "lettering_review": "visually checked against requested characters; no OCR or independent Japanese calligrapher review",
+  "original_texture_files_changed": false,
+  "model_uvs_or_materials_changed": false,
+  "decals": [
+    {
+      "file": "sai_侍飛将_red_vertical.png",
+      "text": "侍飛将",
+      "unicode": [
+        "U+4F8D",
+        "U+98DB",
+        "U+5C06"
+      ],
+      "reading_order": "top-to-bottom",
+      "color": "brick red",
+      "dimensions_px": [
+        909,
+        1731
+      ],
+      "format": "PNG RGBA",
+      "fully_transparent_pixels": 1066932,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "sha256": "5bd30bba5c8e9d9c5ff511e82e7d29879effb6bc7171f9eb30fd1c6e7cc8d877",
+      "generated_source": "/home/lva-8700/.codex/generated_images/01a0efc3-3a2f-7fe3-b0c1-2dec3263b764/exec-c8399829-b3d1-47f2-b31f-bfa6ea4a1d93.png",
+      "image_pixels_modified_after_generation": false
+    },
+    {
+      "file": "sai_神風_black_horizontal.png",
+      "text": "神風",
+      "unicode": [
+        "U+795E",
+        "U+98A8"
+      ],
+      "reading_order": "left-to-right",
+      "color": "charcoal black",
+      "dimensions_px": [
+        1774,
+        887
+      ],
+      "format": "PNG RGBA",
+      "fully_transparent_pixels": 900321,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "sha256": "80967420c8087760db25fd592a70da00755ff30ecb807481be2df83397025478",
+      "generated_source": "/home/lva-8700/.codex/generated_images/01a0efc3-3a2f-7fe3-b0c1-2dec3263b764/exec-e133b4b8-a60d-46ab-be71-ff71f3df39d7.png",
+      "image_pixels_modified_after_generation": false
+    }
+  ]
+}

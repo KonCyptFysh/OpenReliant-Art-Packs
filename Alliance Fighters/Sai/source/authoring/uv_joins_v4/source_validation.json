@@ -1,0 +1,13 @@
+{
+  "scene": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/sai_worn_pbr_v4.blend",
+  "scene_sha256": "d036c51f9d70abc37fe8f55c7f45312b1ff074f1be2caae64984944bab556574",
+  "prior_scene": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/sai_worn_pbr_v3.blend",
+  "prior_scene_sha256": "0c4cbe9e3e8a62f21c1191924723a782ff1ca460ae80fc4e9e47eb393b35fc0d",
+  "snapshot": "/home/lva-8700/.codex/.chatgpt-projects/g-p-6ac04f0d792c8191903a4b87653b44f6/work/release-preparation/repositories/OpenReliant-Art-Packs/Alliance Fighters/Sai/source/sai_worn_pbr_v4.blend",
+  "snapshot_sha256": "2378b513f4e6f3b0f756ee3c732abe6c2854e7aa0708cc64efbf3f98cca6b149",
+  "geometry_uv_normals_material_assignments_and_transforms_unchanged": true,
+  "mesh_signature": "7e642ba5932a7b7a41c50f687c496c484831b0db40bff20cb3b8114e604f2115",
+  "packed_images_unchanged": true,
+  "portable_snapshot_reopened": true,
+  "native_group_metadata_stored_for_all_detail_levels": 20
+}

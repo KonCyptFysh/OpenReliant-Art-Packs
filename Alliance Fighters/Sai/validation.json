@@ -1,550 +1,1533 @@
 {
   "status": "passed",
-  "checked_at_utc": "2026-10-08T09:40:33.483829+00:00",
-  "asset_revision": "1.0",
+  "checked_at_utc": "2026-10-08T16:17:17.258343+00:00",
+  "asset_revision": "4.0",
   "engine_build": "Official OpenReliant 0.7.0",
-  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-  "runtime_launched": true,
-  "runtime_visual_review": "v1-user-approved",
   "user_approved": true,
-  "native_checks": [
-    {
-      "file": "Jap_Sai.SHP",
-      "exit_status": 0,
-      "output": "ok: 3 parts, 479 vertices, 740 faces\nbounds: 3 oriented\nwritten again: the same bytes\n",
-      "sha256": "1609ab68e4598932a61f2eb794075325feed8416eaf40249eb2c316b87679a7d"
-    },
-    {
-      "file": "mission991.dte",
-      "exit_status": 0,
-      "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
-      "sha256": "54c883c015751a490b9af1ed714d2959b902abc30be44f656ea8cbb6c1ef61b0"
-    }
-  ],
-  "native_preservation": {
-    "file": "Jap_Sai.SHP",
-    "source_sha256": "3ae9f5f2002ecc761c533eb83ee0562cc9d6c0ce22c21c5cda9b6d74538cb59b",
-    "delivered_sha256": "1609ab68e4598932a61f2eb794075325feed8416eaf40249eb2c316b87679a7d",
-    "modified_finest_LOD_uv_faces": [
-      {
-        "part": "Sai_Low_fin",
-        "face": 18
-      },
-      {
-        "part": "Sai_Low_fin",
-        "face": 19
-      },
-      {
-        "part": "Sai_Low_fin",
-        "face": 30
-      },
-      {
-        "part": "Sai_Low_fin",
-        "face": 31
-      },
-      {
-        "part": "Sai_Low_fin",
-        "face": 35
-      },
-      {
-        "part": "Sai_Low_fin",
-        "face": 36
-      },
-      {
-        "part": "Sai_Low_fin",
-        "face": 40
-      },
-      {
-        "part": "Sai_Low_fin",
-        "face": 41
-      },
-      {
-        "part": "Sai_Low_fin",
-        "face": 82
-      },
-      {
-        "part": "Sai_Main_body",
-        "face": 35
-      },
-      {
-        "part": "Sai_Main_body",
-        "face": 224
-      }
-    ],
-    "max_uv_roundtrip_error": 2.9802322387695312e-08,
-    "material_replacements": [
-      {
-        "part": 0,
-        "lod": 0,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 0,
-        "lod": 0,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 0,
-        "lod": 1,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 0,
-        "lod": 1,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 0,
-        "lod": 2,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 0,
-        "lod": 2,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 0,
-        "lod": 3,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 0,
-        "lod": 3,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 0,
-        "lod": 4,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 0,
-        "lod": 4,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 0,
-        "lod": 5,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 0,
-        "lod": 5,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 1,
-        "lod": 0,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 1,
-        "lod": 0,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 1,
-        "lod": 1,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 1,
-        "lod": 1,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 1,
-        "lod": 2,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 1,
-        "lod": 2,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 1,
-        "lod": 3,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 1,
-        "lod": 3,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 1,
-        "lod": 4,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 1,
-        "lod": 4,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 1,
-        "lod": 5,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 1,
-        "lod": 5,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 1,
-        "lod": 6,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 1,
-        "lod": 6,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 2,
-        "lod": 0,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 2,
-        "lod": 0,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 2,
-        "lod": 1,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 2,
-        "lod": 1,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 2,
-        "lod": 2,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 2,
-        "lod": 2,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 2,
-        "lod": 3,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 2,
-        "lod": 3,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 2,
-        "lod": 4,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 2,
-        "lod": 4,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 2,
-        "lod": 5,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 2,
-        "lod": 5,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      },
-      {
-        "part": 2,
-        "lod": 6,
-        "old": "sam_1",
-        "new": "orsa1_body"
-      },
-      {
-        "part": 2,
-        "lod": 6,
-        "old": "Sam_2",
-        "new": "orsa1_fins"
-      }
-    ],
-    "geometry_normals_attachments_animations_damage_and_lower_LODs_preserved": true,
-    "all_unselected_face_fields_byte_identical": true
-  },
-  "map_checks": {
+  "runtime_launched": false,
+  "runtime_visual_review": "v4-user-approved",
+  "native_uv_join_checks": {
     "passed": true,
-    "maps": [
+    "cause": "The separate left/right remap introduced UV seams inside native fan/strip groups. The 0.7.0 loader and draw pass reuse the first two corners at each continuation, so those corners used the prior triangle UVs across the atlas.",
+    "repair": "Split continuation groups only where shared-corner UVs differ; keep every per-face vertex index, UV, winding, material and normal byte unchanged.",
+    "source": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/exports/openreliant_v3/mods/100-sai-worn-v1/Jap_Sai.SHP",
+    "source_sha256": "ec8275e6cd0917751c8033400a62b0e42399d0dd79efe497f6fac9897671ec82",
+    "output": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/exports/openreliant_v4/mods/100-sai-worn-v1/Jap_Sai.SHP",
+    "output_sha256": "3b3ad7b54d495ffc69f3db58b7e0bf5ce373c6bb1bd271028254240e54dc90f9",
+    "changed_continuation_records": 140,
+    "changed_bytes": 140,
+    "only_continuation_fields_changed": true,
+    "all_maps_and_other_mod_files_byte_identical": true,
+    "all_native_LOD_faces_checked": 740,
+    "rendered_corner_uvs_match_authored_uvs": true,
+    "remaining_misread_faces": 0,
+    "details": [
       {
-        "file": "sai_sam1_basecolor_v1.png",
-        "dimensions": [
-          4096,
-          4096
+        "part": "Sai_Nose",
+        "lod": 0,
+        "faces": 44,
+        "prior_groups": 14,
+        "new_groups": 25,
+        "previously_misread_faces": [
+          21,
+          25,
+          26,
+          31,
+          33,
+          35,
+          37,
+          38,
+          39,
+          41,
+          43
         ],
-        "sha256": "a212559758bb678c506545a5635fe954ec3c04fff006fdc3bb0b374c339bc19b"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam1_normal_v1.png",
-        "dimensions": [
-          4096,
-          4096
+        "part": "Sai_Nose",
+        "lod": 1,
+        "faces": 26,
+        "prior_groups": 12,
+        "new_groups": 19,
+        "previously_misread_faces": [
+          11,
+          15,
+          19,
+          20,
+          21,
+          23,
+          25
         ],
-        "sha256": "e1213529512af921653308b1d712c2dbab43bb708e841b9e735f9edd2fdda7ea"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam1_roughness_v1.png",
-        "dimensions": [
-          4096,
-          4096
+        "part": "Sai_Nose",
+        "lod": 2,
+        "faces": 16,
+        "prior_groups": 10,
+        "new_groups": 14,
+        "previously_misread_faces": [
+          10,
+          11,
+          13,
+          15
         ],
-        "sha256": "4f4148a43653803834bcf6e7f444bc69ba39b6c4e15da041672801ad5731fd54"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam1_metallic_v1.png",
-        "dimensions": [
-          4096,
-          4096
+        "part": "Sai_Nose",
+        "lod": 3,
+        "faces": 6,
+        "prior_groups": 5,
+        "new_groups": 6,
+        "previously_misread_faces": [
+          4
         ],
-        "sha256": "89744165d99559b80493cc0ef2d81fbdc915820b91fa9010ca4d00994b71094c"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam1_height_v1.png",
-        "dimensions": [
-          4096,
-          4096
-        ],
-        "sha256": "15810f42196e232e9ca5030b37ebd73258b7b84a772294c20f70c494db90eed8"
+        "part": "Sai_Nose",
+        "lod": 4,
+        "faces": 4,
+        "prior_groups": 4,
+        "new_groups": 4,
+        "previously_misread_faces": [],
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam1_glass_v1.png",
-        "dimensions": [
-          4096,
-          4096
-        ],
-        "sha256": "94c990fa41e04206d08f9358fd6f45f3e370fccf9da464c8bce7cf78f103a816"
+        "part": "Sai_Nose",
+        "lod": 5,
+        "faces": 4,
+        "prior_groups": 4,
+        "new_groups": 4,
+        "previously_misread_faces": [],
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam1_seal_v1.png",
-        "dimensions": [
-          4096,
-          4096
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "faces": 84,
+        "prior_groups": 24,
+        "new_groups": 48,
+        "previously_misread_faces": [
+          1,
+          5,
+          7,
+          9,
+          11,
+          12,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          27,
+          30,
+          31,
+          35,
+          36,
+          40,
+          41,
+          42,
+          43,
+          71,
+          73,
+          74,
+          75,
+          77,
+          79,
+          80,
+          81
         ],
-        "sha256": "644f5e920efc3a5f31b23091f71aa047c4da92d702833ec2a612241c6bde167a"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam1_flat_graphics_v1.png",
-        "dimensions": [
-          4096,
-          4096
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "faces": 42,
+        "prior_groups": 23,
+        "new_groups": 34,
+        "previously_misread_faces": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          19,
+          20,
+          21,
+          22,
+          27,
+          28,
+          39
         ],
-        "sha256": "9affa1d9073c3a9148a79d1ce88aa8cc3a235555f8d197fc1b89dc4aadcbd819"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam1_structure_v1.png",
-        "dimensions": [
-          4096,
-          4096
+        "part": "Sai_Low_fin",
+        "lod": 2,
+        "faces": 24,
+        "prior_groups": 10,
+        "new_groups": 16,
+        "previously_misread_faces": [
+          1,
+          2,
+          5,
+          6,
+          12,
+          13,
+          14,
+          15,
+          20,
+          21
         ],
-        "sha256": "0d07fe826e89db5047bfb71669f342840a89ee5a34214827a99decb461022851"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam1_fins_v1.png",
-        "dimensions": [
-          4096,
-          4096
+        "part": "Sai_Low_fin",
+        "lod": 3,
+        "faces": 22,
+        "prior_groups": 8,
+        "new_groups": 14,
+        "previously_misread_faces": [
+          1,
+          2,
+          5,
+          6,
+          12,
+          13,
+          14,
+          15,
+          18,
+          19
         ],
-        "sha256": "4369fdc192c5d09539d53a7506f6fbddbfae4a38ffecfade80d64affcf042bff"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam1_panels_v1.png",
-        "dimensions": [
-          4096,
-          4096
+        "part": "Sai_Low_fin",
+        "lod": 4,
+        "faces": 12,
+        "prior_groups": 8,
+        "new_groups": 12,
+        "previously_misread_faces": [
+          1,
+          3,
+          6,
+          9
         ],
-        "sha256": "212295133c9aac7ae3aa2101ebade1372c116363887f658f7f68432c2333b9ee"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam1_paint_v1.png",
-        "dimensions": [
-          4096,
-          4096
-        ],
-        "sha256": "29c1de40784476d3e73953ad1e89eeeaed020fadebe7eb4061692119a83ef967"
+        "part": "Sai_Low_fin",
+        "lod": 5,
+        "faces": 6,
+        "prior_groups": 6,
+        "new_groups": 6,
+        "previously_misread_faces": [],
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam2_basecolor_v1.png",
-        "dimensions": [
-          2048,
-          2048
-        ],
-        "sha256": "9409b3060dcd64511b46dbb38797fcd75c0fec28def604c18ee4f13bafaeedda"
+        "part": "Sai_Low_fin",
+        "lod": 6,
+        "faces": 4,
+        "prior_groups": 4,
+        "new_groups": 4,
+        "previously_misread_faces": [],
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam2_normal_v1.png",
-        "dimensions": [
-          2048,
-          2048
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "faces": 244,
+        "prior_groups": 104,
+        "new_groups": 120,
+        "previously_misread_faces": [
+          1,
+          2,
+          6,
+          7,
+          38,
+          39,
+          44,
+          45,
+          53,
+          74,
+          88,
+          89,
+          90,
+          92,
+          94,
+          95,
+          121,
+          122,
+          123,
+          225,
+          226,
+          227,
+          229,
+          230,
+          232
         ],
-        "sha256": "70c28ac3c4f3fdf99f2d64c228d198d57d854e3df004b209ab6dd891575f8a82"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam2_roughness_v1.png",
-        "dimensions": [
-          2048,
-          2048
+        "part": "Sai_Main_body",
+        "lod": 1,
+        "faces": 118,
+        "prior_groups": 63,
+        "new_groups": 72,
+        "previously_misread_faces": [
+          20,
+          21,
+          32,
+          33,
+          38,
+          39,
+          40,
+          42,
+          44,
+          45,
+          64,
+          65,
+          66
         ],
-        "sha256": "93b8451fecc4625193f91b0b8c06d641d9b81c2599d7bdb5de73e53f1bfe367b"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam2_metallic_v1.png",
-        "dimensions": [
-          2048,
-          2048
+        "part": "Sai_Main_body",
+        "lod": 2,
+        "faces": 52,
+        "prior_groups": 33,
+        "new_groups": 36,
+        "previously_misread_faces": [
+          8,
+          10,
+          12
         ],
-        "sha256": "66811e7a75d9315323d9917499a6473cb11f55d2fc9923c8c34c663ff21f1e7f"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam2_height_v1.png",
-        "dimensions": [
-          2048,
-          2048
+        "part": "Sai_Main_body",
+        "lod": 3,
+        "faces": 18,
+        "prior_groups": 9,
+        "new_groups": 11,
+        "previously_misread_faces": [
+          3,
+          7,
+          8
         ],
-        "sha256": "fa01b0c0e3025f1c69f6e1acd4202526e6b0ac6a6b84cb327fe8621b0b7f1569"
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam2_glass_v1.png",
-        "dimensions": [
-          2048,
-          2048
-        ],
-        "sha256": "ae295f7204f64cfecd74db9c47868c60c32d1729d61b3e15aae9c71cb1563760"
+        "part": "Sai_Main_body",
+        "lod": 4,
+        "faces": 10,
+        "prior_groups": 5,
+        "new_groups": 5,
+        "previously_misread_faces": [],
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam2_seal_v1.png",
-        "dimensions": [
-          2048,
-          2048
-        ],
-        "sha256": "ae295f7204f64cfecd74db9c47868c60c32d1729d61b3e15aae9c71cb1563760"
+        "part": "Sai_Main_body",
+        "lod": 5,
+        "faces": 2,
+        "prior_groups": 2,
+        "new_groups": 2,
+        "previously_misread_faces": [],
+        "remaining_misread_faces": 0
       },
       {
-        "file": "sai_sam2_flat_graphics_v1.png",
-        "dimensions": [
-          2048,
-          2048
-        ],
-        "sha256": "4b8a281fa17b1125264fb8f973912dd389d5554e2670219267f03d4ac1340869"
-      },
-      {
-        "file": "sai_sam2_structure_v1.png",
-        "dimensions": [
-          2048,
-          2048
-        ],
-        "sha256": "d185af2740b971ec0aa50dde19846ec0e61978adde10005f1c52086bfc407b83"
-      },
-      {
-        "file": "sai_sam2_fins_v1.png",
-        "dimensions": [
-          2048,
-          2048
-        ],
-        "sha256": "877f6bd47c1e4573376891df1ef0bdb08d3d72241a4f15ddd19e9562f86a34eb"
-      },
-      {
-        "file": "sai_sam2_panels_v1.png",
-        "dimensions": [
-          2048,
-          2048
-        ],
-        "sha256": "09ec3b07939d05eb52f7d30c55742e45dcca06c93ee60417cdde59e48a1f105f"
-      },
-      {
-        "file": "sai_sam2_paint_v1.png",
-        "dimensions": [
-          2048,
-          2048
-        ],
-        "sha256": "1d0e63582fc74d98f76e071d779c6818b7f3b0ceb83dcec799bc26812272f5a4"
+        "part": "Sai_Main_body",
+        "lod": 6,
+        "faces": 2,
+        "prior_groups": 2,
+        "new_groups": 2,
+        "previously_misread_faces": [],
+        "remaining_misread_faces": 0
       }
     ],
-    "glass_seal_normal_flat": true,
-    "glass_roughness": 0.16,
-    "glass_metallic": 0,
-    "orm_packing_verified": true,
-    "flight_loadout_maps_identical": true
+    "changes": [
+      {
+        "part": "Sai_Nose",
+        "lod": 0,
+        "face": 20,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 3896
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 0,
+        "face": 24,
+        "original_remaining": 4,
+        "remaining": 0,
+        "offset": 4216
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 0,
+        "face": 25,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 4296
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 0,
+        "face": 30,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 4696
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 0,
+        "face": 32,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 4856
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 0,
+        "face": 34,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 5016
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 0,
+        "face": 36,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 5176
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 0,
+        "face": 37,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 5256
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 0,
+        "face": 38,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 5336
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 0,
+        "face": 40,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 5496
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 0,
+        "face": 42,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 5656
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 1,
+        "face": 10,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 7562
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 1,
+        "face": 13,
+        "original_remaining": 2,
+        "remaining": 1,
+        "offset": 7802
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 1,
+        "face": 14,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 7882
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 1,
+        "face": 18,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 8202
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 1,
+        "face": 19,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 8282
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 1,
+        "face": 20,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 8362
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 1,
+        "face": 22,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 8522
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 1,
+        "face": 24,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 8682
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 2,
+        "face": 9,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 10316
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 2,
+        "face": 10,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 10396
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 2,
+        "face": 12,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 10556
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 2,
+        "face": 14,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 10716
+      },
+      {
+        "part": "Sai_Nose",
+        "lod": 3,
+        "face": 3,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 11582
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 0,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 15696
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 4,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 16016
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 6,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 16176
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 8,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 16336
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 10,
+        "original_remaining": 17,
+        "remaining": 0,
+        "offset": 16496
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 11,
+        "original_remaining": 16,
+        "remaining": 4,
+        "offset": 16576
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 12,
+        "original_remaining": 15,
+        "remaining": 3,
+        "offset": 16656
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 13,
+        "original_remaining": 14,
+        "remaining": 2,
+        "offset": 16736
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 14,
+        "original_remaining": 13,
+        "remaining": 1,
+        "offset": 16816
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 15,
+        "original_remaining": 12,
+        "remaining": 0,
+        "offset": 16896
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 16,
+        "original_remaining": 11,
+        "remaining": 1,
+        "offset": 16976
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 17,
+        "original_remaining": 10,
+        "remaining": 0,
+        "offset": 17056
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 18,
+        "original_remaining": 9,
+        "remaining": 0,
+        "offset": 17136
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 19,
+        "original_remaining": 8,
+        "remaining": 0,
+        "offset": 17216
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 20,
+        "original_remaining": 7,
+        "remaining": 1,
+        "offset": 17296
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 21,
+        "original_remaining": 6,
+        "remaining": 0,
+        "offset": 17376
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 22,
+        "original_remaining": 5,
+        "remaining": 4,
+        "offset": 17456
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 23,
+        "original_remaining": 4,
+        "remaining": 3,
+        "offset": 17536
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 24,
+        "original_remaining": 3,
+        "remaining": 2,
+        "offset": 17616
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 25,
+        "original_remaining": 2,
+        "remaining": 1,
+        "offset": 17696
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 26,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 17776
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 28,
+        "original_remaining": 3,
+        "remaining": 1,
+        "offset": 17936
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 29,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 18016
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 30,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 18096
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 33,
+        "original_remaining": 3,
+        "remaining": 1,
+        "offset": 18336
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 34,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 18416
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 35,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 18496
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 38,
+        "original_remaining": 5,
+        "remaining": 1,
+        "offset": 18736
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 39,
+        "original_remaining": 4,
+        "remaining": 0,
+        "offset": 18816
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 40,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 18896
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 41,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 18976
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 70,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 21296
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 72,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 21456
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 73,
+        "original_remaining": 2,
+        "remaining": 1,
+        "offset": 21536
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 74,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 21616
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 76,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 21776
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 78,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 21936
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 79,
+        "original_remaining": 2,
+        "remaining": 1,
+        "offset": 22016
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 0,
+        "face": 80,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 22096
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 3,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 23474
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 5,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 23634
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 7,
+        "original_remaining": 5,
+        "remaining": 0,
+        "offset": 23794
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 8,
+        "original_remaining": 4,
+        "remaining": 1,
+        "offset": 23874
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 9,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 23954
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 10,
+        "original_remaining": 2,
+        "remaining": 1,
+        "offset": 24034
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 11,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 24114
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 13,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 24274
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 17,
+        "original_remaining": 5,
+        "remaining": 1,
+        "offset": 24594
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 18,
+        "original_remaining": 4,
+        "remaining": 0,
+        "offset": 24674
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 19,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 24754
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 20,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 24834
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 25,
+        "original_remaining": 3,
+        "remaining": 1,
+        "offset": 25234
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 26,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 25314
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 1,
+        "face": 38,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 26274
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 2,
+        "face": 0,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 27124
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 2,
+        "face": 4,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 27444
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 2,
+        "face": 10,
+        "original_remaining": 5,
+        "remaining": 1,
+        "offset": 27924
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 2,
+        "face": 11,
+        "original_remaining": 4,
+        "remaining": 0,
+        "offset": 28004
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 2,
+        "face": 12,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 28084
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 2,
+        "face": 13,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 28164
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 2,
+        "face": 18,
+        "original_remaining": 3,
+        "remaining": 1,
+        "offset": 28564
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 2,
+        "face": 19,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 28644
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 3,
+        "face": 0,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 29542
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 3,
+        "face": 4,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 29862
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 3,
+        "face": 10,
+        "original_remaining": 5,
+        "remaining": 1,
+        "offset": 30342
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 3,
+        "face": 11,
+        "original_remaining": 4,
+        "remaining": 0,
+        "offset": 30422
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 3,
+        "face": 12,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 30502
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 3,
+        "face": 13,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 30582
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 3,
+        "face": 16,
+        "original_remaining": 3,
+        "remaining": 1,
+        "offset": 30822
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 3,
+        "face": 17,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 30902
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 4,
+        "face": 0,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 31672
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 4,
+        "face": 2,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 31832
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 4,
+        "face": 5,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 32072
+      },
+      {
+        "part": "Sai_Low_fin",
+        "lod": 4,
+        "face": 8,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 32312
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 0,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 39670
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 4,
+        "original_remaining": 3,
+        "remaining": 1,
+        "offset": 39990
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 5,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 40070
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 36,
+        "original_remaining": 3,
+        "remaining": 1,
+        "offset": 42550
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 37,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 42630
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 42,
+        "original_remaining": 3,
+        "remaining": 1,
+        "offset": 43030
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 43,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 43110
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 50,
+        "original_remaining": 3,
+        "remaining": 2,
+        "offset": 43670
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 51,
+        "original_remaining": 2,
+        "remaining": 1,
+        "offset": 43750
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 52,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 43830
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 73,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 45510
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 87,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 46630
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 88,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 46710
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 89,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 46790
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 91,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 46950
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 93,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 47110
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 120,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 49270
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 224,
+        "original_remaining": 8,
+        "remaining": 0,
+        "offset": 57590
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 225,
+        "original_remaining": 7,
+        "remaining": 0,
+        "offset": 57670
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 226,
+        "original_remaining": 6,
+        "remaining": 2,
+        "offset": 57750
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 227,
+        "original_remaining": 5,
+        "remaining": 1,
+        "offset": 57830
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 228,
+        "original_remaining": 4,
+        "remaining": 0,
+        "offset": 57910
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 229,
+        "original_remaining": 3,
+        "remaining": 2,
+        "offset": 57990
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 230,
+        "original_remaining": 2,
+        "remaining": 1,
+        "offset": 58070
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 0,
+        "face": 231,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 58150
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 1,
+        "face": 18,
+        "original_remaining": 3,
+        "remaining": 1,
+        "offset": 63080
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 1,
+        "face": 19,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 63160
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 1,
+        "face": 30,
+        "original_remaining": 3,
+        "remaining": 1,
+        "offset": 64040
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 1,
+        "face": 31,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 64120
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 1,
+        "face": 32,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 64200
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 1,
+        "face": 37,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 64600
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 1,
+        "face": 38,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 64680
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 1,
+        "face": 39,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 64760
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 1,
+        "face": 41,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 64920
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 1,
+        "face": 43,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 65080
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 1,
+        "face": 63,
+        "original_remaining": 3,
+        "remaining": 0,
+        "offset": 66680
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 2,
+        "face": 7,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 72970
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 2,
+        "face": 9,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 73130
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 2,
+        "face": 11,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 73290
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 3,
+        "face": 2,
+        "original_remaining": 1,
+        "remaining": 0,
+        "offset": 77388
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 3,
+        "face": 5,
+        "original_remaining": 3,
+        "remaining": 1,
+        "offset": 77628
+      },
+      {
+        "part": "Sai_Main_body",
+        "lod": 3,
+        "face": 6,
+        "original_remaining": 2,
+        "remaining": 0,
+        "offset": 77708
+      }
+    ],
+    "native_checks": [
+      {
+        "file": "Jap_Sai.SHP",
+        "exit_code": 0,
+        "output": "ok: 3 parts, 479 vertices, 740 faces\nbounds: 3 oriented\nwritten again: the same bytes\n",
+        "sha256": "3b3ad7b54d495ffc69f3db58b7e0bf5ce373c6bb1bd271028254240e54dc90f9"
+      },
+      {
+        "file": "mission991.dte",
+        "exit_code": 0,
+        "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+        "sha256": "3221842359802e4bb2d9af0322a74cd5401e40cd504b8d872702d2f7fb812d01"
+      }
+    ],
+    "runtime_visual_review": "pending_user_review",
+    "engine_build": "Official OpenReliant 0.7.0",
+    "source_reference": [
+      "https://github.com/OpenReliant/openreliant/blob/v0.7.0/src/engine/game/srofiles.zig",
+      "https://github.com/OpenReliant/openreliant/blob/v0.7.0/src/engine/surrender/srd3d/srd3d.zig"
+    ]
   },
-  "source_snapshot_verified": true,
-  "blender_review_angles": [
-    "front",
-    "opposite",
-    "belly",
-    "rear"
-  ],
-  "geometry_and_normals_preserved": true,
-  "prior_uv_layers_preserved": true,
-  "changed_uv_faces": 11,
-  "stored_lod0_triangles": 372,
-  "visible_lod0_triangles": 355,
-  "max_visible_uv_anisotropy": 3.700519459999532,
-  "tested_platforms": [
-    "Linux x86_64"
-  ],
-  "asset_manifest_sha256": "3e967a1d02f2fccf677547326bf90da003be5a87a180132f1f30caac43a7769b",
-  "source_manifest_sha256": "a2c6a444e8a91ad41436a5eb502a4c589969a6aad2c04aa686260d74f8af3cc9",
-  "checks": [
-    "Official native SHP and DTE format checks passed.",
-    "Maps, flat glazing normals, ORM channels and identical prefixed textures verified.",
-    "Portable scene reopened; geometry, UVs, normals and materials match canonical scene.",
-    "User approved the installed revision 1.0 in-game appearance for publication.",
-    "17 installed runtime files match the repository exports; approval changed only mod.ini text.",
-    "Two publication captures completed in official OpenReliant 0.7.0 with game settings unchanged."
-  ],
+  "source_checks": {
+    "scene": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/sai_worn_pbr_v4.blend",
+    "scene_sha256": "d036c51f9d70abc37fe8f55c7f45312b1ff074f1be2caae64984944bab556574",
+    "prior_scene": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/sai_worn_pbr_v3.blend",
+    "prior_scene_sha256": "0c4cbe9e3e8a62f21c1191924723a782ff1ca460ae80fc4e9e47eb393b35fc0d",
+    "snapshot": "/home/lva-8700/.codex/.chatgpt-projects/g-p-6ac04f0d792c8191903a4b87653b44f6/work/release-preparation/repositories/OpenReliant-Art-Packs/Alliance Fighters/Sai/source/sai_worn_pbr_v4.blend",
+    "snapshot_sha256": "2378b513f4e6f3b0f756ee3c732abe6c2854e7aa0708cc64efbf3f98cca6b149",
+    "geometry_uv_normals_material_assignments_and_transforms_unchanged": true,
+    "mesh_signature": "7e642ba5932a7b7a41c50f687c496c484831b0db40bff20cb3b8114e604f2115",
+    "packed_images_unchanged": true,
+    "portable_snapshot_reopened": true,
+    "native_group_metadata_stored_for_all_detail_levels": 20
+  },
+  "local_rendering": {
+    "scene": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/sai_worn_pbr_v3.blend",
+    "scene_sha256_unchanged": "0c4cbe9e3e8a62f21c1191924723a782ff1ca460ae80fc4e9e47eb393b35fc0d",
+    "rendering": "Local Blender renders using the per-corner UVs produced by the verified OpenReliant 0.7.0 fan/strip continuation rule. Not in-game captures.",
+    "views": [
+      "canopy_before.png",
+      "canopy_after_right.png",
+      "canopy_after_left.png"
+    ],
+    "source_scene_modified": false,
+    "runtime_launched": false
+  },
+  "visual_checks": {
+    "previous_streaking_reproduced": true,
+    "corrected_canopy_both_sides": "passed",
+    "lettering_colour_placement_and_orientation": "preserved"
+  },
+  "asset_manifest_sha256": "bb14cf5a25b5ce3f28f1b9e188f0086d2d7c21f334623e0a5bf593281a4b164a",
+  "source_manifest_sha256": "18114dee6073e6b80c7f90fc9373796eb321b06a28fee654c730147c552ceaa8",
   "remaining_work": [
     "Gameplay and distance transitions",
     "Custom emissives deferred"
@@ -552,15 +1535,21 @@
   "maintainer_approval": true,
   "approval": {
     "user_approved": true,
-    "approved_at_utc": "2026-10-08T09:40:33.483829+00:00",
-    "scope": "Sai worn artwork revision 1.0, including restored livery, reflective glass and eleven fin UV repairs.",
-    "instruction": "Cool, that was a clean first pass, Ship it to git!"
+    "approved_at_utc": "2026-10-08T16:17:17.258343+00:00",
+    "instruction": "Awesome, send it upto git!",
+    "scope": "Sai artwork revision 4.0: separate left/right UVs, refined wave, red 侍飛将 and black 神風, fin-deployment inspection scene, and corrected native UV joins.",
+    "evidence": "User accepted the completed revision and authorized committing and pushing it. No new automated game launch was performed for this approval."
   },
-  "runtime_evidence": {
-    "user_session": "launch-20261008-203416-683410.log",
-    "mission": 991,
-    "ship_type": 23,
-    "exit_status": 0
-  },
-  "gallery_validation": "gallery-validation.json"
+  "tested_platforms": [
+    "Linux x86_64"
+  ],
+  "runtime_evidence_note": "Approval is from the user; this revision was not automatically launched for capture. Recorded local renders are Blender diagnostics. Broader gameplay, distance transitions and other platforms remain untested.",
+  "checks": [
+    "All 740 native faces across 20 detail meshes have matching authored and rendered corner UVs.",
+    "Native model and inspection-mission round-trip checks passed.",
+    "Portable editable source reopened; geometry, materials and packed images preserved by the latest UV-join correction.",
+    "Diagnostic renders reproduce the old canopy streaks and show corrected UVs on both sides.",
+    "User approved the completed artwork revision 4.0 for Git publication.",
+    "All 17 installed runtime files and the canonical export match the repository assets; approval only changed mod.ini description text."
+  ]
 }

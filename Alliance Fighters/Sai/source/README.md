@@ -1,9 +1,11 @@
 # Sai editable source
 
-Current scene: `sai_worn_pbr_v1.blend`. All images are packed and use portable relative resource paths. The snapshot was reopened and verified against the canonical source for geometry, normals, UVs, transforms and material assignments.
+Current scene: `sai_worn_pbr_v4.blend`, with the existing **Sai_Left_Right_UV_v2** layout. The scene's geometry, UVs, normals, materials and packed texture images are unchanged from revision 3. The added native draw-group metadata records the corrected runtime grouping at all detail levels; it is also embedded as `Sai_Native_Draw_Groups_v4.json`.
 
-`maps/` contains the restored atlases, individual PBR maps and supporting masks. `originals/` preserves the unedited native model and decoded source textures. `authoring/` contains the exact built-in imagegen prompts and traced material regions. The two generated atlases are 1254-square restoration outputs; delivery maps are 4096-square for sam_1 and 2048-square for sam_2, preserving their original relative texel scale. Delivery sizes do not imply native generated detail at that resolution.
+`authoring/uv_joins_v4/fix-native-uv-joins.py` splits native fan/strip continuations where their shared corners have different UV coordinates. This step is necessary after remapping individual faces: retaining the original groups across a new seam causes OpenReliant to reuse the wrong corner UVs. The exporter checks every continuation and preserves all bytes outside the grouping counters.
 
-`Original_Sai_UV` and `Sai_Atlas_UV_v1` preserve the original mapping; `Sai_Delivery_UV_v1` repairs eleven thin-fin or collapsed UV faces. All geometry, native normals, attachments and the fin-down animation are retained. Lower-detail model UVs are original.
+The verified engine references and detailed checks are in `authoring/uv_joins_v4/validation.json`. The existing `maps/kanji_v3/`, `maps/decals_v2/`, `decals/kanji_v1/` and decal placement records remain authoritative and unchanged. The red nose inscription reads 侍飛将 vertically and the black fin inscription reads 神風 horizontally on both sides.
 
-The authoring workspace contains four Blender studio review views. `review/gallery_v1/` contains the actual OpenReliant publication captures. The user approved the installed in-game appearance on 8 October 2026.
+`review/uv_joins_v4/` contains local diagnostic renders using the game's effective corner coordinates before and after the correction. These are not in-game captures. Previous source scenes, maps and authoring stages remain preserved.
+
+The user approved revision 4.0 for Git publication; the exact approval and scope are recorded in `approval-v4.json`.

@@ -1,12 +1,52 @@
 {
   "status": "approved-snapshot",
   "ship": "Sai",
-  "asset_revision": "1.0",
+  "asset_revision": "4.0",
   "files": [
     {
       "path": "source/README.md",
-      "bytes": 1230,
-      "sha256": "4c75c4548a8d5a0fbeb53e965bd997c44a3b3d50bf1f975c8dbddfcdd9bcd1d5"
+      "bytes": 1475,
+      "sha256": "bd61f5051f123a1992f2be06028c4bf5a2e61d53d3f350a3ceb0a44f2cfdfa70"
+    },
+    {
+      "path": "source/approval-v4.json",
+      "bytes": 465,
+      "sha256": "37b93884e60cc347425fa4e50c4b48b8b24df932f19e655cd5f2934fe6680f1e"
+    },
+    {
+      "path": "source/authoring/decals_v2/art_validation.json",
+      "bytes": 557,
+      "sha256": "680c1d12af61d87c4e92b9a103b383a4b5c1a82a25c9da6089eb7ef7ff1ffe09"
+    },
+    {
+      "path": "source/authoring/decals_v2/imagegen_prompts.json",
+      "bytes": 2425,
+      "sha256": "c3a6c4ffb319dd9a3e93de0a62533b3157fcec99ad09790abc684d3de2ff2afd"
+    },
+    {
+      "path": "source/authoring/decals_v2/nose_generated.png",
+      "bytes": 2793854,
+      "sha256": "4e5d33e101f87a6d9842db41c22fb6e9c4bc81f9d0c767f2d5946daa6937ab29"
+    },
+    {
+      "path": "source/authoring/decals_v2/tail_generated.png",
+      "bytes": 2896255,
+      "sha256": "f07d97650c5b0358af5a9b1a168587726f1165fcab6f51bc376cd70ea759ed99"
+    },
+    {
+      "path": "source/authoring/decals_v2/tail_glyph_footprints.svg",
+      "bytes": 842,
+      "sha256": "dd3d7c584343e195a319d6f6e31bb53bec0daf6f3010fff51bec33717a8c0abe"
+    },
+    {
+      "path": "source/authoring/decals_v2/tail_regions.svg",
+      "bytes": 300,
+      "sha256": "c0acdfed4f9afa74d591c2595d6404013d0650b0d30688942193c1cffb85db21"
+    },
+    {
+      "path": "source/authoring/decals_v2/tail_seams.svg",
+      "bytes": 271,
+      "sha256": "f87c7c7183291c3058179e6324a5db1b440a54eff740777b83903057f48fde37"
     },
     {
       "path": "source/authoring/imagegen_prompts.json",
@@ -14,9 +54,329 @@
       "sha256": "98eef7e08cca246bfb3034eb5bb7795f106f9312dd95191a776fa2395198d0fd"
     },
     {
+      "path": "source/authoring/kanji_v3/export.py",
+      "bytes": 3496,
+      "sha256": "72a5b581dee37990dac93dd3b91bb85af2fbfce40831f87eb4518a98fde319ab"
+    },
+    {
+      "path": "source/authoring/kanji_v3/export_validation.json",
+      "bytes": 1183,
+      "sha256": "27cdf09ae42af9b3c2c0b8d57fc8bb0e2eecacaf04fde96fc54d3daf08b7a6a1"
+    },
+    {
+      "path": "source/authoring/kanji_v3/inspection.py",
+      "bytes": 3547,
+      "sha256": "e52c32e2282fbc081b8a57abb6258c667793ddb96112fe03f45f2ea0e9018229"
+    },
+    {
+      "path": "source/authoring/kanji_v3/inspection_script.txt",
+      "bytes": 385,
+      "sha256": "f74535a5fadb05eacd4a07c8b573bc2f0c71578c8f80e023b339408230d0a243"
+    },
+    {
+      "path": "source/authoring/kanji_v3/panel_gap_protection.svg",
+      "bytes": 421,
+      "sha256": "16ed4c1e5540b186a9f1c0883cfec175a25ff4182c06ef7741e814801c293ed6"
+    },
+    {
+      "path": "source/authoring/kanji_v3/place-kanji.py",
+      "bytes": 4907,
+      "sha256": "80701c81139c9993f7983964a5b2d3fe36847163456d9cfc2b59b04b3149b62a"
+    },
+    {
+      "path": "source/authoring/kanji_v3/placement.json",
+      "bytes": 11146,
+      "sha256": "a150bb011c6935bf6fc81ed8c4b9ae3eec0b158da0eaadff3dcb8deef8ee329f"
+    },
+    {
+      "path": "source/authoring/kanji_v3/portable-source.py",
+      "bytes": 2812,
+      "sha256": "a2d0224f4a9c96263c92e331d78fe6c7bec2420d194b0853ad46fa5554307c35"
+    },
+    {
+      "path": "source/authoring/kanji_v3/repository_snapshot.json",
+      "bytes": 2748,
+      "sha256": "000182d0e9c64488430b2259cbf109aff0686a4c1b3d33c89acb9686fe066b16"
+    },
+    {
+      "path": "source/authoring/kanji_v3/scene_validation.json",
+      "bytes": 9391,
+      "sha256": "24e2008b5d1ec91fca532c20512d2d4aa14d02c528052aaaed07e2e72b2bc8cd"
+    },
+    {
+      "path": "source/authoring/kanji_v3/sync.py",
+      "bytes": 9887,
+      "sha256": "2ddc5d27ca8cbc41fab0607f1fd1009450278fcf5609d08eedf8cc6203f2000d"
+    },
+    {
+      "path": "source/authoring/kanji_v3/update-scene.py",
+      "bytes": 5559,
+      "sha256": "ad777492bf1db9c066102bff0975176d630d0c3dd7037e9017af14db56fb3be0"
+    },
+    {
       "path": "source/authoring/regions.json",
       "bytes": 10119,
       "sha256": "557b50f8a8a972fae346ac9bba9434fac72c878c5c7c09ac041464681509368b"
+    },
+    {
+      "path": "source/authoring/uv_joins_v4/effective_uvs_after.json",
+      "bytes": 64565,
+      "sha256": "42da199f7e9ec6b01c022143b3bff2f7c2320a1fd87a08026d1349430ebfabe0"
+    },
+    {
+      "path": "source/authoring/uv_joins_v4/effective_uvs_before.json",
+      "bytes": 64583,
+      "sha256": "2ad0f6af2518f2b12e337ed8014d239e5d81cdf3f54b2bd3fe84b7d894ccbd7e"
+    },
+    {
+      "path": "source/authoring/uv_joins_v4/fix-native-uv-joins.py",
+      "bytes": 6215,
+      "sha256": "9aa5a37c9ea3bd66634ac7eebbdaa81cee15e744c4b981507518a85a88a4c620"
+    },
+    {
+      "path": "source/authoring/uv_joins_v4/local_review.json",
+      "bytes": 535,
+      "sha256": "592555ab6b5ff807876bf225a0ea77f41a1475cb013d79e2b02824a28c264471"
+    },
+    {
+      "path": "source/authoring/uv_joins_v4/native_groups.json",
+      "bytes": 15359,
+      "sha256": "38e682922ba25c6787ece3eb5a2d2a1a2bd4ecdf1671ccb9510c8c6ef23026c5"
+    },
+    {
+      "path": "source/authoring/uv_joins_v4/review-exported-uvs.py",
+      "bytes": 2303,
+      "sha256": "5fa9aa68896c9ac26f8c412357ddb8a9b07dd4f7c61380f3fe35c96644cd4e07"
+    },
+    {
+      "path": "source/authoring/uv_joins_v4/source_validation.json",
+      "bytes": 1005,
+      "sha256": "16f2c4124467ed476415e4b990dc0b1fd37bb3d9b72a04d6f6eb265964fc0f7d"
+    },
+    {
+      "path": "source/authoring/uv_joins_v4/sync.py",
+      "bytes": 9371,
+      "sha256": "148980a9bae7102158eac82a38fc61024a9ac64f1e78cf1347c3bfc525e11805"
+    },
+    {
+      "path": "source/authoring/uv_joins_v4/update-source.py",
+      "bytes": 4056,
+      "sha256": "1fe3e5da27cc04afb7e0887e2667f77232e3126c9f24dec7b3bfff097e434b07"
+    },
+    {
+      "path": "source/authoring/uv_joins_v4/validation.json",
+      "bytes": 28918,
+      "sha256": "b07c176ed38d521fb6beaaaf8dcb013f1a2f9fb0014d39a695d27c515dc1f03e"
+    },
+    {
+      "path": "source/decal_guides_v2/README.md",
+      "bytes": 1591,
+      "sha256": "6e2ec8e51069295545b25c3e05b865145844743eb813e0bd2fb869d1e8c11ddc"
+    },
+    {
+      "path": "source/decal_guides_v2/body_decals_blank.png",
+      "bytes": 4389,
+      "sha256": "952e6387d960f20d8fc051b09fd2f8d9e055cfbb24539199a70ce661107dc284"
+    },
+    {
+      "path": "source/decal_guides_v2/body_labelled_uv.svg",
+      "bytes": 56707,
+      "sha256": "2f8f1f4d6f9d4698bf49fe10bc9c2975af0286519b70cc3545b561b9729b749f"
+    },
+    {
+      "path": "source/decal_guides_v2/body_uv_overlay.png",
+      "bytes": 3819759,
+      "sha256": "006426301e546b2d4dab1e94a0b20506c73c4e3dfbf3bad3e1c420ad70ee7cf6"
+    },
+    {
+      "path": "source/decal_guides_v2/body_uv_overlay.svg",
+      "bytes": 34220,
+      "sha256": "4929808acd9fad9e84f980112ef999a7cacc1ea2f65f896399cfc6097a1bcf19"
+    },
+    {
+      "path": "source/decal_guides_v2/fins_decals_blank.png",
+      "bytes": 1339,
+      "sha256": "f1f130bb7b4130ee187cf43294f357609d478a400889def3c660bef62ac5f1f7"
+    },
+    {
+      "path": "source/decal_guides_v2/fins_labelled_uv.svg",
+      "bytes": 14035,
+      "sha256": "90fc768e3a7be87f45b2e347a9fac3bca674f99f8103e6243fdff09a4b9092ac"
+    },
+    {
+      "path": "source/decal_guides_v2/fins_uv_overlay.png",
+      "bytes": 855414,
+      "sha256": "73e5370cf9ec68369ecb4951a024c294419f169e1a3914589f16ee3788e110d0"
+    },
+    {
+      "path": "source/decal_guides_v2/fins_uv_overlay.svg",
+      "bytes": 8296,
+      "sha256": "e7c7e296c4e7e713a10b819c7aded48a36ec7e6b155d0f92039cf96f7de14aad"
+    },
+    {
+      "path": "source/decals/kanji_v1/README.txt",
+      "bytes": 766,
+      "sha256": "ad21f32165bb3f83faccd6562f4075eb86f265b5f033d02da8ef557343bff5f2"
+    },
+    {
+      "path": "source/decals/kanji_v1/Sai-Kanji-Decals-v1.zip",
+      "bytes": 2371697,
+      "sha256": "6663f515585dcbe4062eeb697f62925195d119953a77b9a96cf3a3bff4471ab5"
+    },
+    {
+      "path": "source/decals/kanji_v1/generation-prompts.json",
+      "bytes": 4190,
+      "sha256": "3dd5b7041e5350258fa858b36bc0ec13d49f123b1034c7c921ea81b8435d32d2"
+    },
+    {
+      "path": "source/decals/kanji_v1/manifest.json",
+      "bytes": 1890,
+      "sha256": "d4037e2ae61e5041506d6a502adf8c8ce410ec598a62dfddd06e5fe372541010"
+    },
+    {
+      "path": "source/decals/kanji_v1/sai_侍飛将_red_vertical.png",
+      "bytes": 1090210,
+      "sha256": "5bd30bba5c8e9d9c5ff511e82e7d29879effb6bc7171f9eb30fd1c6e7cc8d877"
+    },
+    {
+      "path": "source/decals/kanji_v1/sai_神風_black_horizontal.png",
+      "bytes": 1368184,
+      "sha256": "80967420c8087760db25fd592a70da00755ff30ecb807481be2df83397025478"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_basecolor_clean_v2.png",
+      "bytes": 17930497,
+      "sha256": "d6c464021820c0adf91019664e3da45a34b19f03ee022aefd03ca64c03e448f1"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_basecolor_lr_v2.png",
+      "bytes": 36877572,
+      "sha256": "33a7588b992da4915d159b62909cb6cd2b55c94ffa0742c16ff03f4fbcc55eb5"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_fins_lr_v2.png",
+      "bytes": 41603,
+      "sha256": "3b68dae2b084422a4cfe659e455ba25181bbb455a7ee87b8613744cbcf6faabd"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_flat_graphics_lr_v2.png",
+      "bytes": 43367,
+      "sha256": "972185dd74f82121b79fb144652314bf5f3bddec5258ce6bf16e12bd4562e61e"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_glass_lr_v2.png",
+      "bytes": 134989,
+      "sha256": "50e9ed0e7a2dbd2ded346d5858d74f8a9d4b425f4c50b339c20108d79aa7a0c9"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_height_lr_v2.png",
+      "bytes": 98624,
+      "sha256": "b01b5d129371dcc1ed1ce1c126677aed198d3c608dff897a5056d186b9a524d0"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_metallic_lr_v2.png",
+      "bytes": 5659359,
+      "sha256": "ad34746d71398e842c59ac6550481f1ab7f67531f6da7cfadca560a1afff085d"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_normal_lr_v2.png",
+      "bytes": 382080,
+      "sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_paint_lr_v2.png",
+      "bytes": 3130462,
+      "sha256": "d8ca4212acd22cd6bae4a8fc4a2f52557b11514a592b37285e701bbcfb7753e8"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_panels_lr_v2.png",
+      "bytes": 50444,
+      "sha256": "6fcdeb4e173fc9273e9807a776955415ac2aa44b76ef71dacd65bf91f0e41986"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_roughness_lr_v2.png",
+      "bytes": 6543439,
+      "sha256": "82d1910d6f3f35f2090a8d45e06ef9ae23de61656a5298c3a0d4aec2d6b15382"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_seal_lr_v2.png",
+      "bytes": 165541,
+      "sha256": "3be8990da49546c18eca581e30eb0b363b8076109c57eafb4a3862735e7eeba7"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam1_structure_lr_v2.png",
+      "bytes": 138088,
+      "sha256": "af84e57146f3d4f877a3b0ff8fe259c0dcb99360479ebf27536cb60d36647b7b"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam2_basecolor_lr_v2.png",
+      "bytes": 12385100,
+      "sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam2_fins_lr_v2.png",
+      "bytes": 11829,
+      "sha256": "be0fcee3c301887f39a8e3a81535d100e27a5175d93f23dd8a04d28e97b09bed"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam2_flat_graphics_lr_v2.png",
+      "bytes": 13494,
+      "sha256": "57daa49c48e303d62a7a305a66ec64ea01922f4abf92a46ca14a0159a95d5194"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam2_glass_lr_v2.png",
+      "bytes": 1440,
+      "sha256": "625f3d13c181930cfc4ffe8ff7aeadad362442d12be94a11675bd60814ed13b0"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam2_height_lr_v2.png",
+      "bytes": 35467,
+      "sha256": "183b5d70e31e899933b46febacc3434e9cd0b6844f72034cf7386aae3146b7a6"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam2_metallic_lr_v2.png",
+      "bytes": 1943265,
+      "sha256": "9db47b4efbce621da24494f4a2d6f401c87123735f09d153783283bdff6c9704"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam2_normal_lr_v2.png",
+      "bytes": 120296,
+      "sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam2_paint_lr_v2.png",
+      "bytes": 745727,
+      "sha256": "c26e91031e33f8d56e11b86a3e9953d99f8bbf68753655ba7193ab1e8286fd07"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam2_panels_lr_v2.png",
+      "bytes": 41977,
+      "sha256": "2aa4431c435fe8d9ab64d4e36d72fc39dd11bfc316472b0f0d4d20f0079c9673"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam2_roughness_lr_v2.png",
+      "bytes": 2255518,
+      "sha256": "2d6ae630ec3a9e62a9b16c74cc73b5dc7ef40545197d198ca1bb3223ee605007"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam2_seal_lr_v2.png",
+      "bytes": 1440,
+      "sha256": "9fe6e4bbe8f23dff263003201e6c9c684291c1c4b4196916cb3a905c656f68b5"
+    },
+    {
+      "path": "source/maps/decals_v2/sai_sam2_structure_lr_v2.png",
+      "bytes": 17784,
+      "sha256": "82dd997e0d59c13acf7205e25f701d98fdece23a62ff103ef58621c973739396"
+    },
+    {
+      "path": "source/maps/kanji_v3/sai_kanji_decals_lr_v3.png",
+      "bytes": 1362991,
+      "sha256": "050c7963789536efa7feac7783de22e35cea51da25c002b3fd3957f30c04ba6e"
+    },
+    {
+      "path": "source/maps/kanji_v3/sai_sam1_basecolor_lr_v3.png",
+      "bytes": 36824809,
+      "sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da"
     },
     {
       "path": "source/maps/sai_sam1_basecolor_v1.png",
@@ -169,9 +529,34 @@
       "sha256": "256c568b92aebe1a996e3ca78b7839ad06ef550fc285ee0c0dc3e945ddc2afb9"
     },
     {
+      "path": "source/resources/18e2d2a17da4_sai_sam2_normal_lr_v2.png",
+      "bytes": 120296,
+      "sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72"
+    },
+    {
+      "path": "source/resources/2d6ae630ec3a_sai_sam2_roughness_lr_v2.png",
+      "bytes": 2255518,
+      "sha256": "2d6ae630ec3a9e62a9b16c74cc73b5dc7ef40545197d198ca1bb3223ee605007"
+    },
+    {
+      "path": "source/resources/33a7588b992d_sai_sam1_basecolor_lr_v2.png",
+      "bytes": 36877572,
+      "sha256": "33a7588b992da4915d159b62909cb6cd2b55c94ffa0742c16ff03f4fbcc55eb5"
+    },
+    {
+      "path": "source/resources/449fd0da8ffe_sai_sam1_basecolor_lr_v3.png",
+      "bytes": 36824809,
+      "sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da"
+    },
+    {
       "path": "source/resources/4f4148a43653_sai_sam1_roughness_v1.png",
       "bytes": 5319525,
       "sha256": "4f4148a43653803834bcf6e7f444bc69ba39b6c4e15da041672801ad5731fd54"
+    },
+    {
+      "path": "source/resources/5782769699bb_sai_sam2_basecolor_lr_v2.png",
+      "bytes": 12385100,
+      "sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6"
     },
     {
       "path": "source/resources/66811e7a75d9_sai_sam2_metallic_v1.png",
@@ -182,6 +567,11 @@
       "path": "source/resources/70c28ac3c4f3_sai_sam2_normal_v1.png",
       "bytes": 63426,
       "sha256": "70c28ac3c4f3fdf99f2d64c228d198d57d854e3df004b209ab6dd891575f8a82"
+    },
+    {
+      "path": "source/resources/82d1910d6f3f_sai_sam1_roughness_lr_v2.png",
+      "bytes": 6543439,
+      "sha256": "82d1910d6f3f35f2090a8d45e06ef9ae23de61656a5298c3a0d4aec2d6b15382"
     },
     {
       "path": "source/resources/89744165d995_sai_sam1_metallic_v1.png",
@@ -199,14 +589,49 @@
       "sha256": "9409b3060dcd64511b46dbb38797fcd75c0fec28def604c18ee4f13bafaeedda"
     },
     {
+      "path": "source/resources/9db47b4efbce_sai_sam2_metallic_lr_v2.png",
+      "bytes": 1943265,
+      "sha256": "9db47b4efbce621da24494f4a2d6f401c87123735f09d153783283bdff6c9704"
+    },
+    {
       "path": "source/resources/a212559758bb_sai_sam1_basecolor_v1.png",
       "bytes": 19475426,
       "sha256": "a212559758bb678c506545a5635fe954ec3c04fff006fdc3bb0b374c339bc19b"
     },
     {
+      "path": "source/resources/ad34746d7139_sai_sam1_metallic_lr_v2.png",
+      "bytes": 5659359,
+      "sha256": "ad34746d71398e842c59ac6550481f1ab7f67531f6da7cfadca560a1afff085d"
+    },
+    {
+      "path": "source/resources/da8b7a0afce9_sai_sam1_normal_lr_v2.png",
+      "bytes": 382080,
+      "sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538"
+    },
+    {
       "path": "source/resources/e1213529512a_sai_sam1_normal_v1.png",
       "bytes": 200348,
       "sha256": "e1213529512af921653308b1d712c2dbab43bb708e841b9e735f9edd2fdda7ea"
+    },
+    {
+      "path": "source/review/decals_v2/material_front.png",
+      "bytes": 697114,
+      "sha256": "c2d764ab37e7d67a0527b28703442cf058f109ee029a750eb00b8b74e6254711"
+    },
+    {
+      "path": "source/review/decals_v2/material_opposite.png",
+      "bytes": 729117,
+      "sha256": "4ae27dd838982a5642fe7f909d840eb431d38d7567926b17e5f343996ce6e4db"
+    },
+    {
+      "path": "source/review/decals_v2/side_left.png",
+      "bytes": 608292,
+      "sha256": "7a62bc4ffd6d25d9db741caa1092dfd30aeb12a4edc17e243370bd04876c7567"
+    },
+    {
+      "path": "source/review/decals_v2/side_right.png",
+      "bytes": 604139,
+      "sha256": "24073cb73674bb3e750ba801df6dc1fba5df279a7ed137e0a51f33fdc7d669b8"
     },
     {
       "path": "source/review/gallery_v1/flight-overview.png",
@@ -219,9 +644,69 @@
       "sha256": "d170c9f563ecfdbf47ae50ab3c2c1254287dc775857d00bbfc88db5c1f8696a2"
     },
     {
+      "path": "source/review/kanji_v3/nose_left_atlas.png",
+      "bytes": 1154517,
+      "sha256": "ac8848319113095b605b3c45603ffeeb725c94b557f1d1d5e7006c636fcb7ebd"
+    },
+    {
+      "path": "source/review/kanji_v3/nose_right_atlas.png",
+      "bytes": 1160014,
+      "sha256": "bb8de446d6b7370c7eb0106dc0a91a63206e7db1c9d20f8c4d631361a6508fd4"
+    },
+    {
+      "path": "source/review/kanji_v3/side_left.png",
+      "bytes": 1231277,
+      "sha256": "e8ff0b9db5231bddb09fe4638bb9f2427787ff38eee3fd5f916da5ce7060f6a6"
+    },
+    {
+      "path": "source/review/kanji_v3/side_right.png",
+      "bytes": 1222649,
+      "sha256": "167a2eed5dcdffba9a1a73b3d0e32d98316d95f37df083dd6aea7181deeb1e36"
+    },
+    {
+      "path": "source/review/kanji_v3/tail_left_atlas.png",
+      "bytes": 1236477,
+      "sha256": "0d22c3640a4f55a04d001803525575088ddbb615f34df32164ad1c63cc600d25"
+    },
+    {
+      "path": "source/review/kanji_v3/tail_right_atlas.png",
+      "bytes": 1239024,
+      "sha256": "b590f5c15f41f33f79e2e5b047b01d91c1858865260477513a0758769fa7f043"
+    },
+    {
+      "path": "source/review/uv_joins_v4/canopy_after_left.png",
+      "bytes": 1637691,
+      "sha256": "5d253141860d05bb9ca7548d5836164842f1a9f3b8401186f6e6ed6936619e3e"
+    },
+    {
+      "path": "source/review/uv_joins_v4/canopy_after_right.png",
+      "bytes": 1560490,
+      "sha256": "0f8f859dfcdc98c4ed804cdbf62b3de108e9035aa1ad0f09c7d9cbe4f4c8f97c"
+    },
+    {
+      "path": "source/review/uv_joins_v4/canopy_before.png",
+      "bytes": 1592884,
+      "sha256": "8c567527bba50e965a43d6a11313825728653b7d26ebd6869741232e08bead65"
+    },
+    {
       "path": "source/sai_worn_pbr_v1.blend",
       "bytes": 40218055,
       "sha256": "e44f21d78832f7154e8c307ddfb2fe183179811296e05a7b14d230922798943d"
+    },
+    {
+      "path": "source/sai_worn_pbr_v2.blend",
+      "bytes": 66167756,
+      "sha256": "a7deb498d13ba18809336643e4d09f22de676527a9da26edc911b20e0688d781"
+    },
+    {
+      "path": "source/sai_worn_pbr_v3.blend",
+      "bytes": 66732307,
+      "sha256": "d68a28722fceca8cb853b30df704c4ed6dbabe20dd4f899a1efaaad58e8ac6ec"
+    },
+    {
+      "path": "source/sai_worn_pbr_v4.blend",
+      "bytes": 66900487,
+      "sha256": "2378b513f4e6f3b0f756ee3c732abe6c2854e7aa0708cc64efbf3f98cca6b149"
     }
   ]
 }

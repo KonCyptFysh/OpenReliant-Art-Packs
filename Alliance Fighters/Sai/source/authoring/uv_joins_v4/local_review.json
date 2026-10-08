@@ -1,0 +1,12 @@
+{
+  "scene": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/sai_worn_pbr_v3.blend",
+  "scene_sha256_unchanged": "0c4cbe9e3e8a62f21c1191924723a782ff1ca460ae80fc4e9e47eb393b35fc0d",
+  "rendering": "Local Blender renders using the per-corner UVs produced by the verified OpenReliant 0.7.0 fan/strip continuation rule. Not in-game captures.",
+  "views": [
+    "canopy_before.png",
+    "canopy_after_right.png",
+    "canopy_after_left.png"
+  ],
+  "source_scene_modified": false,
+  "runtime_launched": false
+}
