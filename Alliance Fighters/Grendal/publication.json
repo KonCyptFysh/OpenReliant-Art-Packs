@@ -1,0 +1,13 @@
+{
+  "status": "published",
+  "published_at_utc": "2026-10-08T13:09:08Z",
+  "verified_at_utc": "2026-10-08T13:10:39.612242+00:00",
+  "source_commit": "7918993901368f1762da8e6be016ef9bcae2d31f",
+  "tag": "grendal-v0.1.0-beta.1",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.1",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.1/openreliant-grendal-0.1.0-beta.1.zip",
+  "package_bytes": 55547834,
+  "package_sha256": "3471b5b69ea8e675ea6ef1768a221a275afc5dd6727ea98dc0998b9837296ec3",
+  "github_asset_digest_matches": true,
+  "checksum_asset_download_verified": true
+}

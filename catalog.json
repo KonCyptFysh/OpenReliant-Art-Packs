@@ -362,6 +362,39 @@
       "downloadBytes": 73123352
     },
     {
+      "id": "grendal",
+      "name": "Grendal - Worn Paint",
+      "category": "alliance-fighters",
+      "folder": "Alliance Fighters/Grendal",
+      "status": "available",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "1.1",
+      "description": "Worn grey livery, original German markings, reflective glazing and aligned radiator cooling ribs.",
+      "modFolder": "101-grendal-worn-v1",
+      "preview": "assets/grendal/flight-overview.webp",
+      "model": "models/grendal.glb",
+      "images": [
+        {
+          "src": "assets/grendal/flight-overview.webp",
+          "caption": "Grendal \u2014 In-game overview"
+        },
+        {
+          "src": "assets/grendal/flight-rear.webp",
+          "caption": "Grendal \u2014 Rear view"
+        }
+      ],
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Firing, moving parts, damage and distance transitions still need gameplay testing.",
+        "UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
+      ],
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.1/openreliant-grendal-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.1",
+      "checksum": "3471b5b69ea8e675ea6ef1768a221a275afc5dd6727ea98dc0998b9837296ec3",
+      "tag": "grendal-v0.1.0-beta.1",
+      "downloadBytes": 55547834
+    },
+    {
       "id": "ordnance",
       "name": "Missiles, Torpedoes and Fuel Pod - Worn Paint",
       "category": "weapons",
