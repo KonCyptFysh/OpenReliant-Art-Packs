@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "maps": [
+    {
+      "file": "crusader_worn_basecolor_generated_v1.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "ce6740992574f0fab109dd0c631794afe72d99eb830d9a030e698764e59b6317"
+    },
+    {
+      "file": "crusader_worn_basecolor_4k_v1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "fbfda6b6de4580abe0782c3458354849cbcadf7b21a3378ef877dc0bd1867e35"
+    },
+    {
+      "file": "crusader_worn_normal_4k_v1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "1ecff790e3cb67230f4f5afc98e6bdda644b8184a342a0835c98ef3919f9fdde"
+    },
+    {
+      "file": "crusader_worn_roughness_4k_v1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "50ce3ae0a492ec4a447508c15bffcbfd791212fe0b9026dd4728073ec0ce9e62"
+    },
+    {
+      "file": "crusader_worn_metallic_4k_v1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "899d5531676997b6bf6d2e181f473b521e504183c3adf684bc9524cbe97d3b94"
+    },
+    {
+      "file": "crusader_worn_height_4k_v1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "386e60e197421b9e2a6d2c637812d5f64588bace793b5967a6f9b57e32c5f779"
+    },
+    {
+      "file": "crusader_worn_glass_4k_v1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "4db754fdfd24a813cd56bec467b533c68d22a661a7e3c156c97d4a7673b5b5e2"
+    },
+    {
+      "file": "crusader_worn_seal_4k_v1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "c633af4ddc30193b2b638672e09389f1116df5bbdf34bd192535110f9793a116"
+    },
+    {
+      "file": "crusader_worn_flat_graphics_4k_v1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "2b5c9d484f271b17e729f023f01b82acd4047b25ecc8d94096a90fcefaa55a14"
+    },
+    {
+      "file": "crusader_worn_structure_4k_v1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "9b6fa7a268916497ae7e542c7f75c5ebd15eaf5690396506c5f424b60f5b83ea"
+    },
+    {
+      "file": "crusader_worn_fins_4k_v1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "6a9b2ce90af545b396ef4a101cc673288a10bd4203e69f59f34aadfbf46ac830"
+    },
+    {
+      "file": "crusader_worn_panels_4k_v1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "bca521edab9a6e2c97d38f110aaeef3b855c293feb0926563ebe99425be36073"
+    },
+    {
+      "file": "crusader_worn_paint_4k_v1.png",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "sha256": "928cafedd25c78a2d40db48de462550a8ebe6d6bfb06797041845695707ff565"
+    }
+  ],
+  "glass_flat_normal_max_xy": 0.003921627998352051,
+  "glass_metallic_max": 0,
+  "glass_roughness_median": 0.13725490196078433,
+  "flat_insignia_and_label_normals": true,
+  "orm_channel_packing_verified": true,
+  "matching_loadout_maps": true,
+  "normal_type": "OpenGL tangent space, structural height only"
+}

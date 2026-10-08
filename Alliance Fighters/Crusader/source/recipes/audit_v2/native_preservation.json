@@ -1,0 +1,32 @@
+[
+  {
+    "file": "British_Crusader.SHP",
+    "previous_sha256": "c91adcf4815ab88b505d7969e0f2c73476c5b86e52d2ca737a6bf36a6939d9cc",
+    "sha256": "162b74506b9d2ae569677a6e27eadf2d8cf018dc50a191c4115ca4d973e6556d",
+    "changed_uv_faces": 24,
+    "appended_material": "orcr2_collar",
+    "max_uv_roundtrip_error": 1.4901161193847656e-08,
+    "unselected_faces_and_all_other_chunks_byte_identical": true,
+    "geometry_normals_attachments_animations_damage_and_lower_LODs_preserved": true
+  },
+  {
+    "file": "t_British_Crusader.SHP",
+    "previous_sha256": "88d4f31708538a365b2e349fb3a34b4efd83435d50e324e5cc678d034c7a0a98",
+    "sha256": "f5a0206a0a18ea3e8a0f963eebaa09dd863eb9205d54334b2282473eacbd3ef9",
+    "changed_uv_faces": 24,
+    "appended_material": "orcr2_collar",
+    "max_uv_roundtrip_error": 1.4901161193847656e-08,
+    "unselected_faces_and_all_other_chunks_byte_identical": true,
+    "geometry_normals_attachments_animations_damage_and_lower_LODs_preserved": true
+  },
+  {
+    "file": "Crusader_gun.SHP",
+    "previous_sha256": "24e10e4c3a517a8a97cb626a465fe675f092c9cdaf4c9dfc81bf14e55687f888",
+    "sha256": "c870af8c7dcb08995be41ba59df1ed051e67a83dfa2276bcd44589eff39c2b0c",
+    "changed_uv_faces": 24,
+    "appended_material": "orcr2_collar",
+    "max_uv_roundtrip_error": 1.4901161193847656e-08,
+    "unselected_faces_and_all_other_chunks_byte_identical": true,
+    "geometry_normals_attachments_animations_damage_and_lower_LODs_preserved": true
+  }
+]

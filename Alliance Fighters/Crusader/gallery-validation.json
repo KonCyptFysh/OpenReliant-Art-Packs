@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "gallery_media": "Actual in-game captures in official OpenReliant 0.7.0",
+  "artwork_revision": "2.0",
+  "captures": [
+    {
+      "image": "flight-overview.png",
+      "sha256": "7f269a16183289ec7f33bd9443f2cd06d26f48a775cd4912f152390a881139b2",
+      "engine": "Official OpenReliant 0.7.0",
+      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "mission": 990,
+      "ship": 3,
+      "watch_from": "1,-0.6,1.3",
+      "render_size": [
+        1600,
+        1200
+      ],
+      "screenshot_ticks": 30,
+      "exit_code": 0,
+      "captured_at_utc": "2026-10-08T08:00:28.196846+00:00",
+      "runtime_manifest_sha256": "4145c10c0235738052374c5f6f12e374b40b4e6fd487db2b291947d9c695bbdb",
+      "installed_runtime_matches_repository": true,
+      "settings_unchanged": true,
+      "gallery_file": "assets/crusader/flight-overview.webp",
+      "gallery_sha256": "1b5c6d50adbea6f1c2861e76f2e50a6000f7acfc045fbadcb5888375893c1b72",
+      "conversion": "WebP encoding only; no image alterations"
+    },
+    {
+      "image": "flight-rear.png",
+      "sha256": "193ef6aaefde7141081687750026f87f337ed646d2cd50aba284c58acb1a91c2",
+      "engine": "Official OpenReliant 0.7.0",
+      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "mission": 990,
+      "ship": 3,
+      "watch_from": "1,-0.6,-1.3",
+      "render_size": [
+        1600,
+        1200
+      ],
+      "screenshot_ticks": 30,
+      "exit_code": 0,
+      "captured_at_utc": "2026-10-08T08:03:46.709455+00:00",
+      "runtime_manifest_sha256": "4145c10c0235738052374c5f6f12e374b40b4e6fd487db2b291947d9c695bbdb",
+      "installed_runtime_matches_repository": true,
+      "settings_unchanged": true,
+      "gallery_file": "assets/crusader/flight-rear.webp",
+      "gallery_sha256": "2faa0ad5d8b2af668edcf811f19ffb9cfadb6287e129516b218faa657394c1a3",
+      "conversion": "WebP encoding only; no image alterations"
+    }
+  ],
+  "captured_runtime_manifest_sha256": "4145c10c0235738052374c5f6f12e374b40b4e6fd487db2b291947d9c695bbdb",
+  "published_runtime_manifest_sha256": "a8597f8fe528c99b1070b0b0a96f61b6b829cd660f99e8e7112b873224fa4284",
+  "post_capture_change": "mod.ini approval description only; all model and texture hashes unchanged"
+}

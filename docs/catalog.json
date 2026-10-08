@@ -296,6 +296,34 @@
       "downloadBytes": 233934160
     },
     {
+      "id": "crusader",
+      "name": "Crusader - Worn Paint",
+      "category": "alliance-fighters",
+      "folder": "Alliance Fighters/Crusader",
+      "status": "coming-soon",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "2.0",
+      "description": "Worn steel and red-and-white markings, a silver RAF bird, aligned engine collars and smooth glazing.",
+      "modFolder": "99-crusader-worn-v1",
+      "preview": "assets/crusader/flight-overview.webp",
+      "model": "models/crusader.glb",
+      "images": [
+        {
+          "src": "assets/crusader/flight-overview.webp",
+          "caption": "Crusader \u2014 In-game overview"
+        },
+        {
+          "src": "assets/crusader/flight-rear.webp",
+          "caption": "Crusader \u2014 Rear engines"
+        }
+      ],
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Firing, tail-gun motion, damage, ejection and distance transitions still need gameplay testing.",
+        "Engine collar UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
+      ]
+    },
+    {
       "id": "ordnance",
       "name": "Missiles, Torpedoes and Fuel Pod - Worn Paint",
       "category": "weapons",

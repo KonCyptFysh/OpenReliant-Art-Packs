@@ -1,0 +1,33 @@
+{
+  "originals": [
+    {
+      "file": "British_Crusader.SHP",
+      "path": "authoring://British_Crusader.SHP",
+      "sha256": "288c2bf6c84bc091aa45912a2f72d5647c3cf5f54fea558b9a2100c83be16c52"
+    },
+    {
+      "file": "t_British_Crusader.SHP",
+      "path": "authoring://t_British_Crusader.SHP",
+      "sha256": "7339e2f70d2c932063f551c2cc99c0a52563b5e338c237e2dc0700b5e9a9e61e"
+    },
+    {
+      "file": "Crusader_gun.SHP",
+      "path": "authoring://Crusader_gun.SHP",
+      "sha256": "9918aa1c2dbee6df0ce51d83072dac165a14178d0b2935391d4ed3fefa391aa2"
+    },
+    {
+      "file": "brit1.png",
+      "path": "authoring://brit1.png",
+      "sha256": "d89268d5943b8271751bc8ec513b5f1566ffb1f3f245f82fee7b0fdaccb4cf62"
+    },
+    {
+      "file": "t_Brit1.png",
+      "path": "authoring://t_Brit1.png",
+      "sha256": "c2bd88f0587d03138897c3d6868fbc25848bc31f7ab4572f7083cf972576f1bf"
+    }
+  ],
+  "generated_image": "authoring://exec-0e895f2e-ac63-407a-8227-622dbc9b8fc1.png",
+  "generated_sha256": "ce6740992574f0fab109dd0c631794afe72d99eb830d9a030e698764e59b6317",
+  "native_source_preserved": true,
+  "geometry_source": "Original native flight LOD0; no existing canonical Crusader scene"
+}

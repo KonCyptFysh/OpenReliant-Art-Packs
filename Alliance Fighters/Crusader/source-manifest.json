@@ -1,0 +1,557 @@
+{
+  "status": "approved-snapshot",
+  "ship": "Crusader",
+  "asset_revision": "2.0",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 1227,
+      "sha256": "4a20d700da81067f90b3ffab4e01a9c6a0d583d2ac3263012548ac0a49586ed2"
+    },
+    {
+      "path": "source/crusader_worn_pbr_v1.blend",
+      "bytes": 131126838,
+      "sha256": "70e535b948fa4629a8aec786d8b47d51813ba67bc46125e3142b03be1c819da0"
+    },
+    {
+      "path": "source/crusader_worn_pbr_v2.blend",
+      "bytes": 131614047,
+      "sha256": "aefab646a737ce0487b328cec04e031826113d46d4a93ca4170a4626e8c3cfc1"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_collar_basecolor_v2.png",
+      "bytes": 1257070,
+      "sha256": "3b68e5371293c54ad444b6eb19acde1549d40596c6dbdd4f806a4d3c7ebeb336"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_collar_height_v2.png",
+      "bytes": 12040,
+      "sha256": "40ffaf77c236a3d0cb1f381cc4766039d9fc665fd3333d1a7b0d3be242030275"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_collar_metallic_v2.png",
+      "bytes": 12613,
+      "sha256": "4400516171f13909fbd256c9c1d8d1bffa01b3e5569f7dffb05c35f2fded296a"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_collar_normal_v2.png",
+      "bytes": 17309,
+      "sha256": "5e3ef496ef38f2a74205b86daa1510ff054ebe467b1cad934ef1636f49cd6441"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_collar_roughness_v2.png",
+      "bytes": 7735,
+      "sha256": "1d21b8b3e97f948d56e1911c113a3122aa94bf8a40ab21e736df2f6356fb6b82"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_emblem_generated_v2.png",
+      "bytes": 2959409,
+      "sha256": "503351caca20a3c62605fd63f6607bdb0927b6919960a65dedaf5fb829b25fa1"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_emblem_raf_bird_v2.png",
+      "bytes": 2855165,
+      "sha256": "2b72e2914a108babfd7ec0c547f4b1812dcb36f8a195f137459f3183f97bbdc1"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_hull_basecolor_v2.png",
+      "bytes": 78120155,
+      "sha256": "913a85c0cbffa5e3e926ac9e2b1351c362c7ed43e20b6c0de9f69bf0c5b1478c"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_hull_edit_mask_v2.png",
+      "bytes": 248920,
+      "sha256": "b293b1d89fe38346769ab0085168860a4feb880070fc820242a4586ea7e3e48c"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_hull_flat_graphics_v2.png",
+      "bytes": 111296,
+      "sha256": "fa85384b8b2189114bb367d19ffadec4bf0b35e06ee552c11a99998d0c649ed7"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_hull_glass_v2.png",
+      "bytes": 138106,
+      "sha256": "6d6b46cbe8df7c100b4a366f879fa309b64f5b2322484798f43e88e385696c2f"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_hull_height_v2.png",
+      "bytes": 490622,
+      "sha256": "55cc3552bdc01aaac0afbd8071dc49add0e48acbc7bde5e5b95c5d14de4ceb42"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_hull_metallic_v2.png",
+      "bytes": 22359983,
+      "sha256": "8e36e71f63a494355c2ade4267209bcd9c2db8191ccb80eaa415b6fc3859b8af"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_hull_normal_v2.png",
+      "bytes": 1254518,
+      "sha256": "1eef97b8dce40cd3924c1ddd4443961a49097950570071452ddd0a06d999d2d9"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_hull_paint_v2.png",
+      "bytes": 10582552,
+      "sha256": "2407962b549cbf7dd3f386dc7aba90fc62153d6a44140001cf08a1fabd5b26aa"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_hull_panels_v2.png",
+      "bytes": 150148,
+      "sha256": "6b13c3d3855a7e2c39455aea33bcdcd072c05eee127f3b9c77031af5c607f8ba"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_hull_roughness_v2.png",
+      "bytes": 28617511,
+      "sha256": "e9581cec0bb33d200de0e3e3a819f180008c99168001d7a9fc888e4efb88bae2"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_hull_seal_v2.png",
+      "bytes": 177810,
+      "sha256": "9e64557f28b9e3783b2599ea4bdb6811ca624b20f3e967ba78ea97505c899057"
+    },
+    {
+      "path": "source/maps/audit_v2/crusader_hull_structure_v2.png",
+      "bytes": 275356,
+      "sha256": "9b6fa7a268916497ae7e542c7f75c5ebd15eaf5690396506c5f424b60f5b83ea"
+    },
+    {
+      "path": "source/maps/crusader_worn_basecolor_4k_v1.png",
+      "bytes": 78395228,
+      "sha256": "fbfda6b6de4580abe0782c3458354849cbcadf7b21a3378ef877dc0bd1867e35"
+    },
+    {
+      "path": "source/maps/crusader_worn_basecolor_generated_v1.png",
+      "bytes": 3280829,
+      "sha256": "ce6740992574f0fab109dd0c631794afe72d99eb830d9a030e698764e59b6317"
+    },
+    {
+      "path": "source/maps/crusader_worn_fins_4k_v1.png",
+      "bytes": 350606,
+      "sha256": "6a9b2ce90af545b396ef4a101cc673288a10bd4203e69f59f34aadfbf46ac830"
+    },
+    {
+      "path": "source/maps/crusader_worn_flat_graphics_4k_v1.png",
+      "bytes": 110788,
+      "sha256": "2b5c9d484f271b17e729f023f01b82acd4047b25ecc8d94096a90fcefaa55a14"
+    },
+    {
+      "path": "source/maps/crusader_worn_glass_4k_v1.png",
+      "bytes": 185347,
+      "sha256": "4db754fdfd24a813cd56bec467b533c68d22a661a7e3c156c97d4a7673b5b5e2"
+    },
+    {
+      "path": "source/maps/crusader_worn_height_4k_v1.png",
+      "bytes": 609354,
+      "sha256": "386e60e197421b9e2a6d2c637812d5f64588bace793b5967a6f9b57e32c5f779"
+    },
+    {
+      "path": "source/maps/crusader_worn_metallic_4k_v1.png",
+      "bytes": 22421825,
+      "sha256": "899d5531676997b6bf6d2e181f473b521e504183c3adf684bc9524cbe97d3b94"
+    },
+    {
+      "path": "source/maps/crusader_worn_normal_4k_v1.png",
+      "bytes": 1541586,
+      "sha256": "1ecff790e3cb67230f4f5afc98e6bdda644b8184a342a0835c98ef3919f9fdde"
+    },
+    {
+      "path": "source/maps/crusader_worn_paint_4k_v1.png",
+      "bytes": 10851251,
+      "sha256": "928cafedd25c78a2d40db48de462550a8ebe6d6bfb06797041845695707ff565"
+    },
+    {
+      "path": "source/maps/crusader_worn_panels_4k_v1.png",
+      "bytes": 149234,
+      "sha256": "bca521edab9a6e2c97d38f110aaeef3b855c293feb0926563ebe99425be36073"
+    },
+    {
+      "path": "source/maps/crusader_worn_roughness_4k_v1.png",
+      "bytes": 28762451,
+      "sha256": "50ce3ae0a492ec4a447508c15bffcbfd791212fe0b9026dd4728073ec0ce9e62"
+    },
+    {
+      "path": "source/maps/crusader_worn_seal_4k_v1.png",
+      "bytes": 282994,
+      "sha256": "c633af4ddc30193b2b638672e09389f1116df5bbdf34bd192535110f9793a116"
+    },
+    {
+      "path": "source/maps/crusader_worn_structure_4k_v1.png",
+      "bytes": 275356,
+      "sha256": "9b6fa7a268916497ae7e542c7f75c5ebd15eaf5690396506c5f424b60f5b83ea"
+    },
+    {
+      "path": "source/originals/British_Crusader.SHP",
+      "bytes": 126940,
+      "sha256": "288c2bf6c84bc091aa45912a2f72d5647c3cf5f54fea558b9a2100c83be16c52"
+    },
+    {
+      "path": "source/originals/Crusader_gun.SHP",
+      "bytes": 79846,
+      "sha256": "9918aa1c2dbee6df0ce51d83072dac165a14178d0b2935391d4ed3fefa391aa2"
+    },
+    {
+      "path": "source/originals/brit1.png",
+      "bytes": 77784,
+      "sha256": "d89268d5943b8271751bc8ec513b5f1566ffb1f3f245f82fee7b0fdaccb4cf62"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 468,
+      "sha256": "94cbc92dfafca97369d6a92d79560270b495f66717ce3d789f5f19c079e141c8"
+    },
+    {
+      "path": "source/originals/provenance.json",
+      "bytes": 1197,
+      "sha256": "8096f0206bb0389b417fafa958f2696cea32e5cbd46d8f2ed659326f1862df6b"
+    },
+    {
+      "path": "source/originals/t_Brit1.png",
+      "bytes": 78967,
+      "sha256": "c2bd88f0587d03138897c3d6868fbc25848bc31f7ab4572f7083cf972576f1bf"
+    },
+    {
+      "path": "source/originals/t_British_Crusader.SHP",
+      "bytes": 128540,
+      "sha256": "7339e2f70d2c932063f551c2cc99c0a52563b5e338c237e2dc0700b5e9a9e61e"
+    },
+    {
+      "path": "source/recipes/audit_v2/British_Crusader.SHP.exported_faces.json",
+      "bytes": 9107,
+      "sha256": "42543fec176468c6490eaed6a0731144d12184b5f393319b9e5ffc726f2a3505"
+    },
+    {
+      "path": "source/recipes/audit_v2/Crusader_gun.SHP.exported_faces.json",
+      "bytes": 9107,
+      "sha256": "9d827635149101e7701aad5d3db21442e0da9057dad447ecc87ae26d76200d9e"
+    },
+    {
+      "path": "source/recipes/audit_v2/build_revision.py",
+      "bytes": 13368,
+      "sha256": "f1c86942149240c2201dd1ef47f66dd488d44ec0338364072822143bcc20d973"
+    },
+    {
+      "path": "source/recipes/audit_v2/export_native.py",
+      "bytes": 5816,
+      "sha256": "db0ba745dd6ea12237e057d37a5a7deefd8f76bdffd1f4a7fba2cf2f93748b8b"
+    },
+    {
+      "path": "source/recipes/audit_v2/imagegen_prompt.txt",
+      "bytes": 942,
+      "sha256": "0b05ebb70e1f1aeb30dee19da5c0e593f998c09ab7001296a1dda4934bbd7495"
+    },
+    {
+      "path": "source/recipes/audit_v2/map_checks.json",
+      "bytes": 4304,
+      "sha256": "aefe8063e73e3f742fd7dd69d98ab9a8f3c143cde5e93216e19372e4d42db127"
+    },
+    {
+      "path": "source/recipes/audit_v2/native_baseline/British_Crusader.SHP",
+      "bytes": 126940,
+      "sha256": "c91adcf4815ab88b505d7969e0f2c73476c5b86e52d2ca737a6bf36a6939d9cc"
+    },
+    {
+      "path": "source/recipes/audit_v2/native_baseline/Crusader_gun.SHP",
+      "bytes": 79846,
+      "sha256": "24e10e4c3a517a8a97cb626a465fe675f092c9cdaf4c9dfc81bf14e55687f888"
+    },
+    {
+      "path": "source/recipes/audit_v2/native_baseline/license.txt",
+      "bytes": 421,
+      "sha256": "42580ed9f94b694219764a2f4971c53cda3da2b24357b21d1104d410aa2a3edd"
+    },
+    {
+      "path": "source/recipes/audit_v2/native_baseline/mission990.dte",
+      "bytes": 481,
+      "sha256": "20092dc393bd65a290c90e46ee71e3605a27ff8c5ea9b9e9ee59caa50a868d81"
+    },
+    {
+      "path": "source/recipes/audit_v2/native_baseline/mod.ini",
+      "bytes": 269,
+      "sha256": "df3e1466244152dd2bfb38ab28bbe620a23330c8ea2cf3d336374758322a07a9"
+    },
+    {
+      "path": "source/recipes/audit_v2/native_baseline/t_British_Crusader.SHP",
+      "bytes": 128540,
+      "sha256": "88d4f31708538a365b2e349fb3a34b4efd83435d50e324e5cc678d034c7a0a98"
+    },
+    {
+      "path": "source/recipes/audit_v2/native_checks.json",
+      "bytes": 1092,
+      "sha256": "cdc6f63fa08ffc754b8e9081fce76e75175fd856178dac061ccaf8e3e8cde55a"
+    },
+    {
+      "path": "source/recipes/audit_v2/native_preservation.json",
+      "bytes": 1474,
+      "sha256": "c64b684f485bfb1639f809371b0178395a62dbeb6777aa6f6a00f5bcedf858fd"
+    },
+    {
+      "path": "source/recipes/audit_v2/prior_project_state.json",
+      "bytes": 15948,
+      "sha256": "7e31b92e8ef93acdb78f48009e0a646a57d900b66a34fcd82e3faf080783a84d"
+    },
+    {
+      "path": "source/recipes/audit_v2/raf_bird_imagegen_prompt.txt",
+      "bytes": 1720,
+      "sha256": "ed35ea32f633bfb1a79804e47497b56469d02c1c38d53b27f4fa069c99a82b94"
+    },
+    {
+      "path": "source/recipes/audit_v2/raf_bird_reference.json",
+      "bytes": 498,
+      "sha256": "900618a9029d845053886a5b2a9c5a8113f4ef9ba6c5c640a960cc23a579cbbf"
+    },
+    {
+      "path": "source/recipes/audit_v2/t_British_Crusader.SHP.exported_faces.json",
+      "bytes": 9107,
+      "sha256": "8e70d493fe0547337763171ea3c075687852dca50844c8d1a4a942b611a28746"
+    },
+    {
+      "path": "source/recipes/audit_v2/validation.json",
+      "bytes": 216553,
+      "sha256": "1591ceb7a3a99e79fc2499a22b9d209d065a7d5a9ed476bc6f92db25455630f0"
+    },
+    {
+      "path": "source/recipes/audit_v2/verify_maps.py",
+      "bytes": 3985,
+      "sha256": "069339907aee7b1326ec17f7b3028370d666eacff0e5b8a6b0341f5154a66e8c"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/baseline_audit.json",
+      "bytes": 668,
+      "sha256": "aa4c3ed3e46cf10d8fbdea50492fee4beadeb0a6dcffcd3d0845d0f1a817e22e"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/build_materials.py",
+      "bytes": 11971,
+      "sha256": "2d81953cc7012e759359ee1078c42b6a376abad28033c302499ab719bee9c501"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/build_source.py",
+      "bytes": 7247,
+      "sha256": "c861b622d7efd7074d80fade43ffd0517261f44a78a03ea629713763010a09ce"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/export_native.py",
+      "bytes": 5501,
+      "sha256": "dcbba19e19e0101c3a585a3c9de73242739631d93184e577eb6a4cc85e12f24f"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/imagegen_prompt.txt",
+      "bytes": 1660,
+      "sha256": "26a9fd1eeadb2623420a8d1354a87a66f20141457fda36adcb140b74787a8dfb"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/inspect_uv.py",
+      "bytes": 1972,
+      "sha256": "efcf5aadc5a73ab4bee63fc939b23a9419476f1f86e98fafcfbe9813085bc53b"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/inspection.py",
+      "bytes": 3505,
+      "sha256": "a24ed40b92cbbd9e20f8d3dd83e4fa2b4dced679ad70193242314113b2ce3ed8"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/map_checks.json",
+      "bytes": 2994,
+      "sha256": "a4239282d3616605e010a4dd0aa9c68a7831f8e37ef2c67fc0e89480831d6e18"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/mesh_original.json",
+      "bytes": 508578,
+      "sha256": "27d3f7c5eb6c45df2cd8ad00ade785ba4f7465754c527326618ed58723005ce3"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/mission990-ships.txt",
+      "bytes": 253,
+      "sha256": "87cc41294cbd8ff155c966fd08db20b1cb7e8e023be41e549a3820c5e13cc3db"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/native_checks.json",
+      "bytes": 1092,
+      "sha256": "e7d0ecd1b01835b7c29929f5db8de07652d79fc5926b796a8177165dbab69545"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/native_preservation.json",
+      "bytes": 11520,
+      "sha256": "4fdce8d3d558e8362f6218552a686915ea2b5a203f93b265b77df536d2a20bab"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/regions.json",
+      "bytes": 8357,
+      "sha256": "ff4a8406cf471cd527d72612b8ed8c30027205d0c5c119e5107626e4cdb88d4f"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/validation.json",
+      "bytes": 209038,
+      "sha256": "f9ecfe81036ef3e2c381d45b05ede2a378db78f9d92d8086c044074119998f16"
+    },
+    {
+      "path": "source/recipes/reconstruction_v1/verify_maps.py",
+      "bytes": 1863,
+      "sha256": "15bcc33dc15356271baee2bd7ec7ddf9f90f071123d60178f09a29fae2366d3c"
+    },
+    {
+      "path": "source/resources/1d21b8b3e97f_crusader_collar_roughness_v2.png",
+      "bytes": 7735,
+      "sha256": "1d21b8b3e97f948d56e1911c113a3122aa94bf8a40ab21e736df2f6356fb6b82"
+    },
+    {
+      "path": "source/resources/1ecff790e3cb_crusader_worn_normal_4k_v1.png",
+      "bytes": 1541586,
+      "sha256": "1ecff790e3cb67230f4f5afc98e6bdda644b8184a342a0835c98ef3919f9fdde"
+    },
+    {
+      "path": "source/resources/1eef97b8dce4_crusader_hull_normal_v2.png",
+      "bytes": 1254518,
+      "sha256": "1eef97b8dce40cd3924c1ddd4443961a49097950570071452ddd0a06d999d2d9"
+    },
+    {
+      "path": "source/resources/3b68e5371293_crusader_collar_basecolor_v2.png",
+      "bytes": 1257070,
+      "sha256": "3b68e5371293c54ad444b6eb19acde1549d40596c6dbdd4f806a4d3c7ebeb336"
+    },
+    {
+      "path": "source/resources/4400516171f1_crusader_collar_metallic_v2.png",
+      "bytes": 12613,
+      "sha256": "4400516171f13909fbd256c9c1d8d1bffa01b3e5569f7dffb05c35f2fded296a"
+    },
+    {
+      "path": "source/resources/50ce3ae0a492_crusader_worn_roughness_4k_v1.png",
+      "bytes": 28762451,
+      "sha256": "50ce3ae0a492ec4a447508c15bffcbfd791212fe0b9026dd4728073ec0ce9e62"
+    },
+    {
+      "path": "source/resources/5e3ef496ef38_crusader_collar_normal_v2.png",
+      "bytes": 17309,
+      "sha256": "5e3ef496ef38f2a74205b86daa1510ff054ebe467b1cad934ef1636f49cd6441"
+    },
+    {
+      "path": "source/resources/899d55316769_crusader_worn_metallic_4k_v1.png",
+      "bytes": 22421825,
+      "sha256": "899d5531676997b6bf6d2e181f473b521e504183c3adf684bc9524cbe97d3b94"
+    },
+    {
+      "path": "source/resources/8e36e71f63a4_crusader_hull_metallic_v2.png",
+      "bytes": 22359983,
+      "sha256": "8e36e71f63a494355c2ade4267209bcd9c2db8191ccb80eaa415b6fc3859b8af"
+    },
+    {
+      "path": "source/resources/913a85c0cbff_crusader_hull_basecolor_v2.png",
+      "bytes": 78120155,
+      "sha256": "913a85c0cbffa5e3e926ac9e2b1351c362c7ed43e20b6c0de9f69bf0c5b1478c"
+    },
+    {
+      "path": "source/resources/d89268d5943b_brit1.png",
+      "bytes": 77784,
+      "sha256": "d89268d5943b8271751bc8ec513b5f1566ffb1f3f245f82fee7b0fdaccb4cf62"
+    },
+    {
+      "path": "source/resources/e9581cec0bb3_crusader_hull_roughness_v2.png",
+      "bytes": 28617511,
+      "sha256": "e9581cec0bb33d200de0e3e3a819f180008c99168001d7a9fc888e4efb88bae2"
+    },
+    {
+      "path": "source/resources/fbfda6b6de45_crusader_worn_basecolor_4k_v1.png",
+      "bytes": 78395228,
+      "sha256": "fbfda6b6de4580abe0782c3458354849cbcadf7b21a3378ef877dc0bd1867e35"
+    },
+    {
+      "path": "source/review/audit_v2/emblem.png",
+      "bytes": 2188734,
+      "sha256": "4ede21eb49af1a3da0c0503b0bc2923dd11756b42fd244215f795bc9ef9c61b8"
+    },
+    {
+      "path": "source/review/audit_v2/emblem_before.png",
+      "bytes": 952622,
+      "sha256": "25ffe18e8a51a44269aaeec7d1b8b43afa873d5e4e74af279f6f2c7f7e11b919"
+    },
+    {
+      "path": "source/review/audit_v2/engines.png",
+      "bytes": 1506772,
+      "sha256": "c991373376b4019bfc1afff4778798008c93f3227afa4cdf945eacf78858936b"
+    },
+    {
+      "path": "source/review/audit_v2/engines_other.png",
+      "bytes": 1537121,
+      "sha256": "80ad24877005c865ef6c8bd76d56c92942e494f90970064b5b1d41567aeec81a"
+    },
+    {
+      "path": "source/review/audit_v2/glass_left.png",
+      "bytes": 1606601,
+      "sha256": "8d56dba7a10ce0c1bc5594593a35f5edc9aeede9de16fde41068d377ab9d3e23"
+    },
+    {
+      "path": "source/review/audit_v2/glass_right.png",
+      "bytes": 1560112,
+      "sha256": "675a21322b3070f661ccf047930260266d110559d02acb3dad0c3f52bf9eb903"
+    },
+    {
+      "path": "source/review/audit_v2/raf-bird-reference.png",
+      "bytes": 322195,
+      "sha256": "60819adb276b63bc30b37a7682e0c5409787ab56515754ab3f2a61e44d2ef292"
+    },
+    {
+      "path": "source/review/audit_v2/user_reference_1.png",
+      "bytes": 62265,
+      "sha256": "c0913fa89599cc77d6f449510d92681bb346424413d7a0d725b70136f77f0837"
+    },
+    {
+      "path": "source/review/audit_v2/user_reference_2.png",
+      "bytes": 72234,
+      "sha256": "cd76af72d6b7c1a001df78dbb06c8a743832e2839384df9c685e9e74761ffb82"
+    },
+    {
+      "path": "source/review/audit_v2/user_reference_3.png",
+      "bytes": 86981,
+      "sha256": "4fb9e74f303cbbcc35e7e83a8c022c4dc781bf0e3d6ad06d2fd4517a93d61e60"
+    },
+    {
+      "path": "source/review/audit_v2/whole.png",
+      "bytes": 991830,
+      "sha256": "1eaf6102756a88f1dec816b500f05f82ce206913e29a9b4352505184f2147f2f"
+    },
+    {
+      "path": "source/review/audit_v2/wing_gap.png",
+      "bytes": 2127849,
+      "sha256": "95b539f4f8aea704cc7479985f1633462ea58122b93f21aed3c151cf46ce72fb"
+    },
+    {
+      "path": "source/review/gallery_v2/flight-overview.png",
+      "bytes": 934534,
+      "sha256": "7f269a16183289ec7f33bd9443f2cd06d26f48a775cd4912f152390a881139b2"
+    },
+    {
+      "path": "source/review/gallery_v2/flight-rear.png",
+      "bytes": 1000736,
+      "sha256": "193ef6aaefde7141081687750026f87f337ed646d2cd50aba284c58acb1a91c2"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 1138878,
+      "sha256": "54fb2b1794e25f7bec6bc58d07620ce4a32649d02dfa53a6bdcb0c0b1db4291b"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 1155316,
+      "sha256": "048f62cceeba61d8ad93df1dc6588bb1ffea383e0a08357350925ccdad3fda96"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 1213363,
+      "sha256": "05927a5eae1aa8a7413703bccf1a9a6ad34fe9b0082c9a524dabb4aeedfe0c6d"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_rear.png",
+      "bytes": 1072490,
+      "sha256": "8a64bba4a6b48354648e5bd51384555be490c817a01d48ecf4289de29353b770"
+    },
+    {
+      "path": "source/review/reconstruction_v1/source_front.png",
+      "bytes": 410129,
+      "sha256": "409ebe42318c5393a1b191ff8377646ee749dc3ff38665dcc265c88b1158381e"
+    },
+    {
+      "path": "source/snapshot.json",
+      "bytes": 4491,
+      "sha256": "a14db2f678640122ac1abdce1c5ecbab9719fa3ce46cca836f096f98effb4aaf"
+    }
+  ]
+}

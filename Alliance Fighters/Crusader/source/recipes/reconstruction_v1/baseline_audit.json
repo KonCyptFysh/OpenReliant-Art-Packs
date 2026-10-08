@@ -1,0 +1,29 @@
+{
+  "parts": [
+    {
+      "part": "Crusader_Body",
+      "vertices": 210,
+      "faces": 344,
+      "visible_faces": 328
+    },
+    {
+      "part": "Crusader_Cockpit",
+      "vertices": 22,
+      "faces": 28,
+      "visible_faces": 12
+    },
+    {
+      "part": "Crusader_Tail_Gun",
+      "vertices": 8,
+      "faces": 10,
+      "visible_faces": 10
+    }
+  ],
+  "source_sha256": "288c2bf6c84bc091aa45912a2f72d5647c3cf5f54fea558b9a2100c83be16c52",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    256,
+    256
+  ],
+  "geometry_signature": "9a110b459b1896d911d04cce5df94ebcb8b24a9606909ed90bd7d5b03ad4750b"
+}

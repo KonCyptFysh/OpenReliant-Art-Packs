@@ -1,0 +1,97 @@
+[
+  {
+    "path": "mods/99-crusader-worn-v1/British_Crusader.SHP",
+    "bytes": 127004,
+    "sha256": "162b74506b9d2ae569677a6e27eadf2d8cf018dc50a191c4115ca4d973e6556d"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/Crusader_gun.SHP",
+    "bytes": 79910,
+    "sha256": "c870af8c7dcb08995be41ba59df1ed051e67a83dfa2276bcd44589eff39c2b0c"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/gorcr1_hull.png",
+    "bytes": 78120155,
+    "sha256": "913a85c0cbffa5e3e926ac9e2b1351c362c7ed43e20b6c0de9f69bf0c5b1478c"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/gorcr1_hull_normal.png",
+    "bytes": 1254518,
+    "sha256": "1eef97b8dce40cd3924c1ddd4443961a49097950570071452ddd0a06d999d2d9"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/gorcr1_hull_orm.png",
+    "bytes": 11001800,
+    "sha256": "ad41c9f1060d53b85849dc0787b1c2b2da878d3674bc7ec247f1c3f6abecefc8"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/gorcr2_collar.png",
+    "bytes": 1257070,
+    "sha256": "3b68e5371293c54ad444b6eb19acde1549d40596c6dbdd4f806a4d3c7ebeb336"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/gorcr2_collar_normal.png",
+    "bytes": 17309,
+    "sha256": "5e3ef496ef38f2a74205b86daa1510ff054ebe467b1cad934ef1636f49cd6441"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/gorcr2_collar_orm.png",
+    "bytes": 7024,
+    "sha256": "024635c96971fe8e0598bbec5cfaef340ef915c382c056150c420e9ba1e388ab"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/license.txt",
+    "bytes": 421,
+    "sha256": "42580ed9f94b694219764a2f4971c53cda3da2b24357b21d1104d410aa2a3edd"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/mission990.dte",
+    "bytes": 481,
+    "sha256": "20092dc393bd65a290c90e46ee71e3605a27ff8c5ea9b9e9ee59caa50a868d81"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/mod.ini",
+    "bytes": 308,
+    "sha256": "88449ca3bfaec26bca5f0ce73a14c9660a0e987132395c974f946df793d4463c"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/mod.png",
+    "bytes": 991830,
+    "sha256": "1eaf6102756a88f1dec816b500f05f82ce206913e29a9b4352505184f2147f2f"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/orcr1_hull.png",
+    "bytes": 78120155,
+    "sha256": "913a85c0cbffa5e3e926ac9e2b1351c362c7ed43e20b6c0de9f69bf0c5b1478c"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/orcr1_hull_normal.png",
+    "bytes": 1254518,
+    "sha256": "1eef97b8dce40cd3924c1ddd4443961a49097950570071452ddd0a06d999d2d9"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/orcr1_hull_orm.png",
+    "bytes": 11001800,
+    "sha256": "ad41c9f1060d53b85849dc0787b1c2b2da878d3674bc7ec247f1c3f6abecefc8"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/orcr2_collar.png",
+    "bytes": 1257070,
+    "sha256": "3b68e5371293c54ad444b6eb19acde1549d40596c6dbdd4f806a4d3c7ebeb336"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/orcr2_collar_normal.png",
+    "bytes": 17309,
+    "sha256": "5e3ef496ef38f2a74205b86daa1510ff054ebe467b1cad934ef1636f49cd6441"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/orcr2_collar_orm.png",
+    "bytes": 7024,
+    "sha256": "024635c96971fe8e0598bbec5cfaef340ef915c382c056150c420e9ba1e388ab"
+  },
+  {
+    "path": "mods/99-crusader-worn-v1/t_British_Crusader.SHP",
+    "bytes": 128604,
+    "sha256": "f5a0206a0a18ea3e8a0f963eebaa09dd863eb9205d54334b2282473eacbd3ef9"
+  }
+]

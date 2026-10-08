@@ -1,0 +1,26 @@
+[
+  {
+    "file": "British_Crusader.SHP",
+    "exit_status": 0,
+    "output": "ok: 3 parts, 867 vertices, 1159 faces\nbounds: 2 oriented 1 permuted\nwritten again: the same bytes\n",
+    "sha256": "c91adcf4815ab88b505d7969e0f2c73476c5b86e52d2ca737a6bf36a6939d9cc"
+  },
+  {
+    "file": "t_British_Crusader.SHP",
+    "exit_status": 0,
+    "output": "ok: 3 parts, 867 vertices, 1159 faces\nbounds: 2 oriented 1 permuted\nwritten again: the same bytes\n",
+    "sha256": "88d4f31708538a365b2e349fb3a34b4efd83435d50e324e5cc678d034c7a0a98"
+  },
+  {
+    "file": "Crusader_gun.SHP",
+    "exit_status": 0,
+    "output": "ok: 8 parts, 442 vertices, 862 faces\nbounds: 8 model_space\nwritten again: the same bytes\n",
+    "sha256": "24e10e4c3a517a8a97cb626a465fe675f092c9cdaf4c9dfc81bf14e55687f888"
+  },
+  {
+    "file": "mission990.dte",
+    "exit_status": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "20092dc393bd65a290c90e46ee71e3605a27ff8c5ea9b9e9ee59caa50a868d81"
+  }
+]

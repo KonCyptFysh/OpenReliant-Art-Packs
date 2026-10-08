@@ -1,0 +1,521 @@
+[
+  {
+    "file": "British_Crusader.SHP",
+    "source_sha256": "288c2bf6c84bc091aa45912a2f72d5647c3cf5f54fea558b9a2100c83be16c52",
+    "delivered_sha256": "c91adcf4815ab88b505d7969e0f2c73476c5b86e52d2ca737a6bf36a6939d9cc",
+    "material_replacements": [
+      {
+        "part": 0,
+        "lod": 0,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 1,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 2,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 3,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 4,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 5,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 6,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 7,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 8,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 0,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 1,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 2,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 3,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 4,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 5,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 6,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 0,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 1,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 2,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 3,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 4,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 5,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 6,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 7,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 8,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      }
+    ],
+    "verified_lod0_faces": 382,
+    "max_uv_difference_from_flight": 0.0,
+    "all_geometry_uvs_normals_attachments_animations_and_damage_flags_byte_identical": true,
+    "all_original_LODs_retained": true
+  },
+  {
+    "file": "t_British_Crusader.SHP",
+    "source_sha256": "7339e2f70d2c932063f551c2cc99c0a52563b5e338c237e2dc0700b5e9a9e61e",
+    "delivered_sha256": "88d4f31708538a365b2e349fb3a34b4efd83435d50e324e5cc678d034c7a0a98",
+    "material_replacements": [
+      {
+        "part": 0,
+        "lod": 0,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 0,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 1,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 1,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 2,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 2,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 3,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 3,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 4,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 4,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 5,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 5,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 6,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 6,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 7,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 7,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 8,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 0,
+        "lod": 8,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 0,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 0,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 1,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 1,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 2,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 2,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 3,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 3,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 4,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 4,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 5,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 5,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 6,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 6,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 0,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 0,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 1,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 1,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 2,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 2,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 3,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 3,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 4,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 4,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 5,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 5,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 6,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 6,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 7,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 7,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 8,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 8,
+        "old_material": "t_Brit1",
+        "new_material": "orcr1_hull"
+      }
+    ],
+    "verified_lod0_faces": 382,
+    "max_uv_difference_from_flight": 0.0,
+    "all_geometry_uvs_normals_attachments_animations_and_damage_flags_byte_identical": true,
+    "all_original_LODs_retained": true
+  },
+  {
+    "file": "Crusader_gun.SHP",
+    "source_sha256": "9918aa1c2dbee6df0ce51d83072dac165a14178d0b2935391d4ed3fefa391aa2",
+    "delivered_sha256": "24e10e4c3a517a8a97cb626a465fe675f092c9cdaf4c9dfc81bf14e55687f888",
+    "material_replacements": [
+      {
+        "part": 0,
+        "lod": 0,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 1,
+        "lod": 0,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 2,
+        "lod": 0,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 4,
+        "lod": 0,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 6,
+        "lod": 0,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      },
+      {
+        "part": 7,
+        "lod": 0,
+        "old_material": "Brit1",
+        "new_material": "orcr1_hull"
+      }
+    ],
+    "verified_lod0_faces": 382,
+    "max_uv_difference_from_flight": 5.960464477539063e-08,
+    "all_geometry_uvs_normals_attachments_animations_and_damage_flags_byte_identical": true,
+    "all_original_LODs_retained": true
+  }
+]

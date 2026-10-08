@@ -1,0 +1,92 @@
+{
+  "source": "source/crusader_worn_pbr_v2.blend",
+  "canonical_sha256_before": "3974cf4c1d25951a3f9bc59dd03a8b671ae503ca297786c856672197fdb7dc0c",
+  "canonical_sha256_after": "3974cf4c1d25951a3f9bc59dd03a8b671ae503ca297786c856672197fdb7dc0c",
+  "snapshot": "./source/crusader_worn_pbr_v2.blend",
+  "snapshot_sha256": "aefab646a737ce0487b328cec04e031826113d46d4a93ca4170a4626e8c3cfc1",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "geometry_signature": "4c9f16c663153c066c46ad6e8524aaf1b222677d5891e7e852497f4d313bdaf2",
+  "packed_and_relative_resources_verified": true,
+  "images": [
+    {
+      "image": "crusader_collar_basecolor_v2.png",
+      "source": "source/maps/audit_v2/crusader_collar_basecolor_v2.png",
+      "path": "./source/resources/3b68e5371293_crusader_collar_basecolor_v2.png",
+      "sha256": "3b68e5371293c54ad444b6eb19acde1549d40596c6dbdd4f806a4d3c7ebeb336",
+      "canonical_disk_sha256": "3b68e5371293c54ad444b6eb19acde1549d40596c6dbdd4f806a4d3c7ebeb336",
+      "packed_matches_disk": true,
+      "bytes": 1257070,
+      "colorspace": "sRGB"
+    },
+    {
+      "image": "crusader_collar_metallic_v2.png",
+      "source": "source/maps/audit_v2/crusader_collar_metallic_v2.png",
+      "path": "./source/resources/4400516171f1_crusader_collar_metallic_v2.png",
+      "sha256": "4400516171f13909fbd256c9c1d8d1bffa01b3e5569f7dffb05c35f2fded296a",
+      "canonical_disk_sha256": "4400516171f13909fbd256c9c1d8d1bffa01b3e5569f7dffb05c35f2fded296a",
+      "packed_matches_disk": true,
+      "bytes": 12613,
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "crusader_collar_normal_v2.png",
+      "source": "source/maps/audit_v2/crusader_collar_normal_v2.png",
+      "path": "./source/resources/5e3ef496ef38_crusader_collar_normal_v2.png",
+      "sha256": "5e3ef496ef38f2a74205b86daa1510ff054ebe467b1cad934ef1636f49cd6441",
+      "canonical_disk_sha256": "5e3ef496ef38f2a74205b86daa1510ff054ebe467b1cad934ef1636f49cd6441",
+      "packed_matches_disk": true,
+      "bytes": 17309,
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "crusader_collar_roughness_v2.png",
+      "source": "source/maps/audit_v2/crusader_collar_roughness_v2.png",
+      "path": "./source/resources/1d21b8b3e97f_crusader_collar_roughness_v2.png",
+      "sha256": "1d21b8b3e97f948d56e1911c113a3122aa94bf8a40ab21e736df2f6356fb6b82",
+      "canonical_disk_sha256": "1d21b8b3e97f948d56e1911c113a3122aa94bf8a40ab21e736df2f6356fb6b82",
+      "packed_matches_disk": true,
+      "bytes": 7735,
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "crusader_hull_basecolor_v2.png",
+      "source": "source/maps/audit_v2/crusader_hull_basecolor_v2.png",
+      "path": "./source/resources/913a85c0cbff_crusader_hull_basecolor_v2.png",
+      "sha256": "913a85c0cbffa5e3e926ac9e2b1351c362c7ed43e20b6c0de9f69bf0c5b1478c",
+      "canonical_disk_sha256": "913a85c0cbffa5e3e926ac9e2b1351c362c7ed43e20b6c0de9f69bf0c5b1478c",
+      "packed_matches_disk": true,
+      "bytes": 78120155,
+      "colorspace": "sRGB"
+    },
+    {
+      "image": "crusader_hull_metallic_v2.png",
+      "source": "source/maps/audit_v2/crusader_hull_metallic_v2.png",
+      "path": "./source/resources/8e36e71f63a4_crusader_hull_metallic_v2.png",
+      "sha256": "8e36e71f63a494355c2ade4267209bcd9c2db8191ccb80eaa415b6fc3859b8af",
+      "canonical_disk_sha256": "8e36e71f63a494355c2ade4267209bcd9c2db8191ccb80eaa415b6fc3859b8af",
+      "packed_matches_disk": true,
+      "bytes": 22359983,
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "crusader_hull_normal_v2.png",
+      "source": "source/maps/audit_v2/crusader_hull_normal_v2.png",
+      "path": "./source/resources/1eef97b8dce4_crusader_hull_normal_v2.png",
+      "sha256": "1eef97b8dce40cd3924c1ddd4443961a49097950570071452ddd0a06d999d2d9",
+      "canonical_disk_sha256": "1eef97b8dce40cd3924c1ddd4443961a49097950570071452ddd0a06d999d2d9",
+      "packed_matches_disk": true,
+      "bytes": 1254518,
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "crusader_hull_roughness_v2.png",
+      "source": "source/maps/audit_v2/crusader_hull_roughness_v2.png",
+      "path": "./source/resources/e9581cec0bb3_crusader_hull_roughness_v2.png",
+      "sha256": "e9581cec0bb33d200de0e3e3a819f180008c99168001d7a9fc888e4efb88bae2",
+      "canonical_disk_sha256": "e9581cec0bb33d200de0e3e3a819f180008c99168001d7a9fc888e4efb88bae2",
+      "packed_matches_disk": true,
+      "bytes": 28617511,
+      "colorspace": "Non-Color"
+    }
+  ]
+}
