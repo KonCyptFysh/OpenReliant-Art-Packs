@@ -1,0 +1,566 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-08T09:40:33.483829+00:00",
+  "asset_revision": "1.0",
+  "engine_build": "Official OpenReliant 0.7.0",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "runtime_launched": true,
+  "runtime_visual_review": "v1-user-approved",
+  "user_approved": true,
+  "native_checks": [
+    {
+      "file": "Jap_Sai.SHP",
+      "exit_status": 0,
+      "output": "ok: 3 parts, 479 vertices, 740 faces\nbounds: 3 oriented\nwritten again: the same bytes\n",
+      "sha256": "1609ab68e4598932a61f2eb794075325feed8416eaf40249eb2c316b87679a7d"
+    },
+    {
+      "file": "mission991.dte",
+      "exit_status": 0,
+      "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+      "sha256": "54c883c015751a490b9af1ed714d2959b902abc30be44f656ea8cbb6c1ef61b0"
+    }
+  ],
+  "native_preservation": {
+    "file": "Jap_Sai.SHP",
+    "source_sha256": "3ae9f5f2002ecc761c533eb83ee0562cc9d6c0ce22c21c5cda9b6d74538cb59b",
+    "delivered_sha256": "1609ab68e4598932a61f2eb794075325feed8416eaf40249eb2c316b87679a7d",
+    "modified_finest_LOD_uv_faces": [
+      {
+        "part": "Sai_Low_fin",
+        "face": 18
+      },
+      {
+        "part": "Sai_Low_fin",
+        "face": 19
+      },
+      {
+        "part": "Sai_Low_fin",
+        "face": 30
+      },
+      {
+        "part": "Sai_Low_fin",
+        "face": 31
+      },
+      {
+        "part": "Sai_Low_fin",
+        "face": 35
+      },
+      {
+        "part": "Sai_Low_fin",
+        "face": 36
+      },
+      {
+        "part": "Sai_Low_fin",
+        "face": 40
+      },
+      {
+        "part": "Sai_Low_fin",
+        "face": 41
+      },
+      {
+        "part": "Sai_Low_fin",
+        "face": 82
+      },
+      {
+        "part": "Sai_Main_body",
+        "face": 35
+      },
+      {
+        "part": "Sai_Main_body",
+        "face": 224
+      }
+    ],
+    "max_uv_roundtrip_error": 2.9802322387695312e-08,
+    "material_replacements": [
+      {
+        "part": 0,
+        "lod": 0,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 0,
+        "lod": 0,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 0,
+        "lod": 1,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 0,
+        "lod": 1,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 0,
+        "lod": 2,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 0,
+        "lod": 2,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 0,
+        "lod": 3,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 0,
+        "lod": 3,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 0,
+        "lod": 4,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 0,
+        "lod": 4,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 0,
+        "lod": 5,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 0,
+        "lod": 5,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 1,
+        "lod": 0,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 1,
+        "lod": 0,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 1,
+        "lod": 1,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 1,
+        "lod": 1,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 1,
+        "lod": 2,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 1,
+        "lod": 2,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 1,
+        "lod": 3,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 1,
+        "lod": 3,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 1,
+        "lod": 4,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 1,
+        "lod": 4,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 1,
+        "lod": 5,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 1,
+        "lod": 5,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 1,
+        "lod": 6,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 1,
+        "lod": 6,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 2,
+        "lod": 0,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 2,
+        "lod": 0,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 2,
+        "lod": 1,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 2,
+        "lod": 1,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 2,
+        "lod": 2,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 2,
+        "lod": 2,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 2,
+        "lod": 3,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 2,
+        "lod": 3,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 2,
+        "lod": 4,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 2,
+        "lod": 4,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 2,
+        "lod": 5,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 2,
+        "lod": 5,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      },
+      {
+        "part": 2,
+        "lod": 6,
+        "old": "sam_1",
+        "new": "orsa1_body"
+      },
+      {
+        "part": 2,
+        "lod": 6,
+        "old": "Sam_2",
+        "new": "orsa1_fins"
+      }
+    ],
+    "geometry_normals_attachments_animations_damage_and_lower_LODs_preserved": true,
+    "all_unselected_face_fields_byte_identical": true
+  },
+  "map_checks": {
+    "passed": true,
+    "maps": [
+      {
+        "file": "sai_sam1_basecolor_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "a212559758bb678c506545a5635fe954ec3c04fff006fdc3bb0b374c339bc19b"
+      },
+      {
+        "file": "sai_sam1_normal_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "e1213529512af921653308b1d712c2dbab43bb708e841b9e735f9edd2fdda7ea"
+      },
+      {
+        "file": "sai_sam1_roughness_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "4f4148a43653803834bcf6e7f444bc69ba39b6c4e15da041672801ad5731fd54"
+      },
+      {
+        "file": "sai_sam1_metallic_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "89744165d99559b80493cc0ef2d81fbdc915820b91fa9010ca4d00994b71094c"
+      },
+      {
+        "file": "sai_sam1_height_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "15810f42196e232e9ca5030b37ebd73258b7b84a772294c20f70c494db90eed8"
+      },
+      {
+        "file": "sai_sam1_glass_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "94c990fa41e04206d08f9358fd6f45f3e370fccf9da464c8bce7cf78f103a816"
+      },
+      {
+        "file": "sai_sam1_seal_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "644f5e920efc3a5f31b23091f71aa047c4da92d702833ec2a612241c6bde167a"
+      },
+      {
+        "file": "sai_sam1_flat_graphics_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "9affa1d9073c3a9148a79d1ce88aa8cc3a235555f8d197fc1b89dc4aadcbd819"
+      },
+      {
+        "file": "sai_sam1_structure_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "0d07fe826e89db5047bfb71669f342840a89ee5a34214827a99decb461022851"
+      },
+      {
+        "file": "sai_sam1_fins_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "4369fdc192c5d09539d53a7506f6fbddbfae4a38ffecfade80d64affcf042bff"
+      },
+      {
+        "file": "sai_sam1_panels_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "212295133c9aac7ae3aa2101ebade1372c116363887f658f7f68432c2333b9ee"
+      },
+      {
+        "file": "sai_sam1_paint_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "29c1de40784476d3e73953ad1e89eeeaed020fadebe7eb4061692119a83ef967"
+      },
+      {
+        "file": "sai_sam2_basecolor_v1.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "sha256": "9409b3060dcd64511b46dbb38797fcd75c0fec28def604c18ee4f13bafaeedda"
+      },
+      {
+        "file": "sai_sam2_normal_v1.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "sha256": "70c28ac3c4f3fdf99f2d64c228d198d57d854e3df004b209ab6dd891575f8a82"
+      },
+      {
+        "file": "sai_sam2_roughness_v1.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "sha256": "93b8451fecc4625193f91b0b8c06d641d9b81c2599d7bdb5de73e53f1bfe367b"
+      },
+      {
+        "file": "sai_sam2_metallic_v1.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "sha256": "66811e7a75d9315323d9917499a6473cb11f55d2fc9923c8c34c663ff21f1e7f"
+      },
+      {
+        "file": "sai_sam2_height_v1.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "sha256": "fa01b0c0e3025f1c69f6e1acd4202526e6b0ac6a6b84cb327fe8621b0b7f1569"
+      },
+      {
+        "file": "sai_sam2_glass_v1.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "sha256": "ae295f7204f64cfecd74db9c47868c60c32d1729d61b3e15aae9c71cb1563760"
+      },
+      {
+        "file": "sai_sam2_seal_v1.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "sha256": "ae295f7204f64cfecd74db9c47868c60c32d1729d61b3e15aae9c71cb1563760"
+      },
+      {
+        "file": "sai_sam2_flat_graphics_v1.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "sha256": "4b8a281fa17b1125264fb8f973912dd389d5554e2670219267f03d4ac1340869"
+      },
+      {
+        "file": "sai_sam2_structure_v1.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "sha256": "d185af2740b971ec0aa50dde19846ec0e61978adde10005f1c52086bfc407b83"
+      },
+      {
+        "file": "sai_sam2_fins_v1.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "sha256": "877f6bd47c1e4573376891df1ef0bdb08d3d72241a4f15ddd19e9562f86a34eb"
+      },
+      {
+        "file": "sai_sam2_panels_v1.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "sha256": "09ec3b07939d05eb52f7d30c55742e45dcca06c93ee60417cdde59e48a1f105f"
+      },
+      {
+        "file": "sai_sam2_paint_v1.png",
+        "dimensions": [
+          2048,
+          2048
+        ],
+        "sha256": "1d0e63582fc74d98f76e071d779c6818b7f3b0ceb83dcec799bc26812272f5a4"
+      }
+    ],
+    "glass_seal_normal_flat": true,
+    "glass_roughness": 0.16,
+    "glass_metallic": 0,
+    "orm_packing_verified": true,
+    "flight_loadout_maps_identical": true
+  },
+  "source_snapshot_verified": true,
+  "blender_review_angles": [
+    "front",
+    "opposite",
+    "belly",
+    "rear"
+  ],
+  "geometry_and_normals_preserved": true,
+  "prior_uv_layers_preserved": true,
+  "changed_uv_faces": 11,
+  "stored_lod0_triangles": 372,
+  "visible_lod0_triangles": 355,
+  "max_visible_uv_anisotropy": 3.700519459999532,
+  "tested_platforms": [
+    "Linux x86_64"
+  ],
+  "asset_manifest_sha256": "3e967a1d02f2fccf677547326bf90da003be5a87a180132f1f30caac43a7769b",
+  "source_manifest_sha256": "a2c6a444e8a91ad41436a5eb502a4c589969a6aad2c04aa686260d74f8af3cc9",
+  "checks": [
+    "Official native SHP and DTE format checks passed.",
+    "Maps, flat glazing normals, ORM channels and identical prefixed textures verified.",
+    "Portable scene reopened; geometry, UVs, normals and materials match canonical scene.",
+    "User approved the installed revision 1.0 in-game appearance for publication.",
+    "17 installed runtime files match the repository exports; approval changed only mod.ini text.",
+    "Two publication captures completed in official OpenReliant 0.7.0 with game settings unchanged."
+  ],
+  "remaining_work": [
+    "Gameplay and distance transitions",
+    "Custom emissives deferred"
+  ],
+  "maintainer_approval": true,
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-08T09:40:33.483829+00:00",
+    "scope": "Sai worn artwork revision 1.0, including restored livery, reflective glass and eleven fin UV repairs.",
+    "instruction": "Cool, that was a clean first pass, Ship it to git!"
+  },
+  "runtime_evidence": {
+    "user_session": "launch-20261008-203416-683410.log",
+    "mission": 991,
+    "ship_type": 23,
+    "exit_status": 0
+  },
+  "gallery_validation": "gallery-validation.json"
+}
