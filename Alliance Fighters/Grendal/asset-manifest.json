@@ -1,0 +1,67 @@
+[
+  {
+    "path": "mods/101-grendal-worn-v1/German_grendal.SHP",
+    "bytes": 217004,
+    "sha256": "af7e3d0bbdc38f8929d3cbca3ca60324b11265d6552a47a603c32dc1106177c9"
+  },
+  {
+    "path": "mods/101-grendal-worn-v1/Grendal_gun.SHP",
+    "bytes": 114436,
+    "sha256": "078014cc58d2d56c89d6e6524855398809d784dc575f2f37381de70709e68a73"
+  },
+  {
+    "path": "mods/101-grendal-worn-v1/gorgr1_hull.png",
+    "bytes": 16658265,
+    "sha256": "60bcc2f475d83136e2479c306068a9be1fdb6dd4d148a59091dde6aa64f7a0d9"
+  },
+  {
+    "path": "mods/101-grendal-worn-v1/gorgr1_hull_normal.png",
+    "bytes": 328408,
+    "sha256": "893b3c4d04444187e3a8003404c2c1b89bab5f25a8c9ffc7ac9dc42fea05badf"
+  },
+  {
+    "path": "mods/101-grendal-worn-v1/gorgr1_hull_orm.png",
+    "bytes": 10306426,
+    "sha256": "c9d87e4c8ff01cf1a1a54c80c54fbeb0297d9c8d706956d53fc1875391a2bb2a"
+  },
+  {
+    "path": "mods/101-grendal-worn-v1/license.txt",
+    "bytes": 420,
+    "sha256": "76d2a5bedf4b79242a5a094604330d20f7f6ea634b59e03061b2f8c273653fbd"
+  },
+  {
+    "path": "mods/101-grendal-worn-v1/mission992.dte",
+    "bytes": 480,
+    "sha256": "e51c2c64d49369c63668ad63b1fbfd85bed9849169b9f21efcd5acd8631e317b"
+  },
+  {
+    "path": "mods/101-grendal-worn-v1/mod.ini",
+    "bytes": 306,
+    "sha256": "6867cd4c45a24523e0af54d394d2eba2de13f6f6269621c6ebf01ce295b12a04"
+  },
+  {
+    "path": "mods/101-grendal-worn-v1/mod.png",
+    "bytes": 887403,
+    "sha256": "9673a79c4720997bda3469eb225d066bf7ec85edc4117397f4421012e7379179"
+  },
+  {
+    "path": "mods/101-grendal-worn-v1/orgr1_hull.png",
+    "bytes": 16658265,
+    "sha256": "60bcc2f475d83136e2479c306068a9be1fdb6dd4d148a59091dde6aa64f7a0d9"
+  },
+  {
+    "path": "mods/101-grendal-worn-v1/orgr1_hull_normal.png",
+    "bytes": 328408,
+    "sha256": "893b3c4d04444187e3a8003404c2c1b89bab5f25a8c9ffc7ac9dc42fea05badf"
+  },
+  {
+    "path": "mods/101-grendal-worn-v1/orgr1_hull_orm.png",
+    "bytes": 10306426,
+    "sha256": "c9d87e4c8ff01cf1a1a54c80c54fbeb0297d9c8d706956d53fc1875391a2bb2a"
+  },
+  {
+    "path": "mods/101-grendal-worn-v1/t_German_grendal.SHP",
+    "bytes": 220204,
+    "sha256": "58ce4c595f271ca655cd7a2fc9e313e88c33dbca76fc5aecfbe7d705c7a349a7"
+  }
+]

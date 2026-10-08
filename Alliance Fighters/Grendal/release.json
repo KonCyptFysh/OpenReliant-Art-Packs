@@ -1,0 +1,34 @@
+{
+  "package_name": "openreliant-grendal",
+  "version": "0.1.0-beta.1",
+  "asset_revision": "1.1",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.7.0",
+  "mod_folders": [
+    "101-grendal-worn-v1"
+  ],
+  "asset_manifest_sha256": "337e7875605786f865379be5d18d362b806e41e7a23fb9531c33d8663e44e0a1",
+  "source_manifest_sha256": "942096e09d3eef6d14d4023dcd71fcbfcd02b79ca32b7673dcc676abf0933ec3",
+  "channel": "beta",
+  "user_approved": true,
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json",
+    "tools/launch-grendal-test.sh"
+  ],
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-08T12:55:06.958548+00:00",
+    "scope": "Grendal worn artwork revision 1.1, including the accepted radiator UV treatment.",
+    "instruction": "Okay I think that'll ahve to do for now. Ship it to git, then we need to have another look over the Sai.",
+    "qualification": "Radiator treatment accepted for this beta; broader gameplay testing remains open."
+  }
+}
