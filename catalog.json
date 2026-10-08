@@ -260,13 +260,12 @@
       "name": "Phoenix - Worn Paint",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Phoenix",
-      "status": "coming-soon",
+      "status": "available",
       "version": "0.1.0-beta.1",
       "assetRevision": "7.0",
       "description": "Worn olive and bronze, smooth glazing, aligned belly panels and corrected intake relief.",
       "modFolder": "98-phoenix-worn-v1",
-      "preview": "assets/phoenix/whole.webp",
-      "previewType": "render",
+      "preview": "assets/phoenix/flight-overview.webp",
       "model": "models/phoenix.glb",
       "notes": [
         "Custom emissive maps are planned for a later update.",
@@ -274,30 +273,27 @@
       ],
       "images": [
         {
-          "src": "assets/phoenix/whole.webp",
-          "caption": "Phoenix \u2014 Overview"
+          "src": "assets/phoenix/flight-overview.webp",
+          "caption": "Phoenix \u2014 In-game overview"
         },
         {
-          "src": "assets/phoenix/belly.webp",
-          "caption": "Phoenix \u2014 Belly panels"
+          "src": "assets/phoenix/flight-opposite.webp",
+          "caption": "Phoenix \u2014 Opposite side"
         },
         {
-          "src": "assets/phoenix/nose.webp",
-          "caption": "Phoenix \u2014 Nose and glazing"
+          "src": "assets/phoenix/flight-rear.webp",
+          "caption": "Phoenix \u2014 Rear view"
         },
         {
-          "src": "assets/phoenix/nose_other.webp",
-          "caption": "Phoenix \u2014 Opposite nose"
-        },
-        {
-          "src": "assets/phoenix/vents.webp",
-          "caption": "Phoenix \u2014 Intake and upper vents"
-        },
-        {
-          "src": "assets/phoenix/vents_other.webp",
-          "caption": "Phoenix \u2014 Opposite intake and vents"
+          "src": "assets/phoenix/flight-belly.webp",
+          "caption": "Phoenix \u2014 Underside"
         }
-      ]
+      ],
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.1/openreliant-phoenix-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.1",
+      "checksum": "8d2450d823e25cfc941cc41959a9fdc1cfcd24b5b4f8efefde1d8cc6a6b69ec1",
+      "tag": "phoenix-v0.1.0-beta.1",
+      "downloadBytes": 233934160
     },
     {
       "id": "ordnance",
