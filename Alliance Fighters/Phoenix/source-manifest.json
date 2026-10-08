@@ -1,0 +1,1112 @@
+{
+  "status": "approved-snapshot",
+  "ship": "Phoenix",
+  "asset_revision": "7.0",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 1198,
+      "sha256": "2d5cfb9407961d65f3347ab8c4e52e0590f676db91591acdd2fa99dc8e3b48f5"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_hull_fins_4k_v7.png",
+      "bytes": 403594,
+      "sha256": "b87305147396913fd511b4c107ec800762de693e7f0c5a45895bbcff48e399d5"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_hull_height_4k_v7.png",
+      "bytes": 640924,
+      "sha256": "7cf47d10e9b7a1aeba8a1758f2d9a8b202a04b5973bc2a66c7eeb48979792e28"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_hull_metallic_4k_v7.png",
+      "bytes": 20091039,
+      "sha256": "568b30beea822d4da43164c07b481175f5ab7399707eb571d7e9bde347c3c35c"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_hull_normal_4k_v7.png",
+      "bytes": 1554385,
+      "sha256": "7104a734fc6d71a909087137e856e7b463ce3d27ed60a4287363f2a007a533cd"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_hull_opening_mask_4k_v7.png",
+      "bytes": 105400,
+      "sha256": "6260f24568688b9d163a484aeeec4c5efd309c7cf7d76fb0df2d4145285031c6"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_hull_relief_edit_mask_4k_v7.png",
+      "bytes": 185077,
+      "sha256": "3832f5dc961310aec287198c73462d728a2222191659fae4c4e42cecfaff0c11"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_hull_roughness_4k_v7.png",
+      "bytes": 29096120,
+      "sha256": "2e4f157869e0458e684e097a8f91c5652de0dc7867bceb0464975374a5e0cd4a"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_hull_structure_4k_v7.png",
+      "bytes": 368246,
+      "sha256": "e09bb7e99d46bf939e12945e49fa4713be77c2d231cf014d1bf99bf545885306"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_surfaces_basecolor_4k_v7.png",
+      "bytes": 26033274,
+      "sha256": "582db7d0a18e8bdaadafb0bb2db0720c85657fe8bd3bb1db3d1a57ca348f12cf"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_surfaces_height_4k_v7.png",
+      "bytes": 354864,
+      "sha256": "255fbb7aef46016daf883fa72cac0e7b53ced917445073bc00aec44087128f74"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_surfaces_metallic_4k_v7.png",
+      "bytes": 2406369,
+      "sha256": "3b49a842b10e8a4ff083666ad44ee0865348c3802c31a58eb2e994a8f941dfad"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_surfaces_normal_4k_v7.png",
+      "bytes": 1476665,
+      "sha256": "b3e6de0aa428a9157fb89c71db99184863c6997dcff79fe1c0502152d51e7fdd"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_surfaces_regions_4k_v7.png",
+      "bytes": 132532,
+      "sha256": "1b6dac34083406084b37cd32dc8faa6f1fce35c14f3087e97ca4bedc788ceafb"
+    },
+    {
+      "path": "source/maps/audit_v7/phoenix_surfaces_roughness_4k_v7.png",
+      "bytes": 2657468,
+      "sha256": "59a766fcf436e03939846c8bca79e03c3998de36779076b7651444fcc1eb1997"
+    },
+    {
+      "path": "source/maps/phoenix_worn_basecolor_4k_v1.png",
+      "bytes": 77492634,
+      "sha256": "8bfa23e930d936b69b809429ab82736c70d34ca9d71894db6b39962fa4ff86bf"
+    },
+    {
+      "path": "source/maps/phoenix_worn_basecolor_4k_v2.png",
+      "bytes": 76511874,
+      "sha256": "391693385be8b4211faa9892a2209dc0c9ee27a3d875bc57efc3acae7a23a1b4"
+    },
+    {
+      "path": "source/maps/phoenix_worn_basecolor_4k_v3.png",
+      "bytes": 76333685,
+      "sha256": "d90a135777ebc8f75f1d7676dda917eafa9e76d75d92cb4d20f9ee826f34252a"
+    },
+    {
+      "path": "source/maps/phoenix_worn_basecolor_4k_v5.png",
+      "bytes": 76083692,
+      "sha256": "035a763a6dc97055be9a5f2c7d365f4ee04b508e92609db58d3510f62018d055"
+    },
+    {
+      "path": "source/maps/phoenix_worn_basecolor_4k_v6.png",
+      "bytes": 76034680,
+      "sha256": "8bbb7d29d6334afc10d2ffb3ef352df9e9f3b1b0c402c4fdf2a1e2dbc42465c4"
+    },
+    {
+      "path": "source/maps/phoenix_worn_basecolor_generated_v1.png",
+      "bytes": 3200179,
+      "sha256": "5dc7fb124cf850a97b031fc99abcac6a8aa5756a4ecb0e7f86b31155a137d378"
+    },
+    {
+      "path": "source/maps/phoenix_worn_fins_4k_v1.png",
+      "bytes": 424350,
+      "sha256": "43c05f5fb63b36e5d0c719ab862a58e29c6b53207b44c7769bf46119a5bc1358"
+    },
+    {
+      "path": "source/maps/phoenix_worn_flat_graphics_4k_v1.png",
+      "bytes": 115952,
+      "sha256": "4606c1bbc3fe3708b6598e4f839b29f294d27e9d96f49b85cf3ca721984a86b3"
+    },
+    {
+      "path": "source/maps/phoenix_worn_frame_glazing_edit_mask_4k_v6.png",
+      "bytes": 290415,
+      "sha256": "36237f01cc41fc3fb0706b18427d09ca064d9767bb33462e9bbfcb207859c44c"
+    },
+    {
+      "path": "source/maps/phoenix_worn_glass_4k_v1.png",
+      "bytes": 186699,
+      "sha256": "ebc7fcd4f6da69d293cb0c452d6bea900b48db7cf267a6d3a710b1ddf3a3ae51"
+    },
+    {
+      "path": "source/maps/phoenix_worn_glass_4k_v3.png",
+      "bytes": 173627,
+      "sha256": "0c7585dffeb59d400754195794c4dde92b14838b8656647026b8ce9148ff9cc2"
+    },
+    {
+      "path": "source/maps/phoenix_worn_glass_4k_v5.png",
+      "bytes": 126566,
+      "sha256": "78fbda9baa07dd346a3329e634a7e28ddbd6afa8cb97366416f2d6a994202e2e"
+    },
+    {
+      "path": "source/maps/phoenix_worn_glass_4k_v6.png",
+      "bytes": 138256,
+      "sha256": "d48b3b5edcdd3c6025b937a4328c81c5e89af1ee7842844c3a8862baf9c58f07"
+    },
+    {
+      "path": "source/maps/phoenix_worn_height_4k_v1.png",
+      "bytes": 701244,
+      "sha256": "615ca4b77802ea779ccbe53a0c98f35ddfa57925c04f29c238c3e48e9ccaa086"
+    },
+    {
+      "path": "source/maps/phoenix_worn_height_4k_v3.png",
+      "bytes": 679212,
+      "sha256": "47e299a01f762dd0b05e39ad8069565468a094ddf37d1bee0fe7cd7a9e224055"
+    },
+    {
+      "path": "source/maps/phoenix_worn_height_4k_v5.png",
+      "bytes": 647728,
+      "sha256": "b647b71b6e2234561ade48e0694afc0d0c3882912fdee581af823a2a2e134928"
+    },
+    {
+      "path": "source/maps/phoenix_worn_height_4k_v6.png",
+      "bytes": 681690,
+      "sha256": "088d93918501901e392d8bdf09f703bd28eb6b4aad46212d2111398278dddfd6"
+    },
+    {
+      "path": "source/maps/phoenix_worn_metallic_4k_v1.png",
+      "bytes": 20161689,
+      "sha256": "67e31fc51c94ceea84ab7e8df6372377967f4dabafcafd83d0dae4c74d7f1047"
+    },
+    {
+      "path": "source/maps/phoenix_worn_metallic_4k_v2.png",
+      "bytes": 20160080,
+      "sha256": "e08e5251805f318f196855fce677038ae319ce25802725c5d5567597643fa6fb"
+    },
+    {
+      "path": "source/maps/phoenix_worn_metallic_4k_v3.png",
+      "bytes": 20119690,
+      "sha256": "95f4ceee9fe047157fd59cc0467cbd8beca5329697b3cd7c7d250a067ac598d4"
+    },
+    {
+      "path": "source/maps/phoenix_worn_metallic_4k_v5.png",
+      "bytes": 20123545,
+      "sha256": "e0f719f98ee5d4e5dfa3c465e810ec860dcb705ac568bca4bf996dd45503172b"
+    },
+    {
+      "path": "source/maps/phoenix_worn_metallic_4k_v6.png",
+      "bytes": 20100811,
+      "sha256": "25a451b6c35fe349609f8172e589b7b40d588127110a000f1bf7486e53bb9db4"
+    },
+    {
+      "path": "source/maps/phoenix_worn_normal_4k_v1.png",
+      "bytes": 2087179,
+      "sha256": "03fa7cdbf5753961ba0a8e78f1b3b44532332eff2e06cb1b499760e900cdb501"
+    },
+    {
+      "path": "source/maps/phoenix_worn_normal_4k_v2.png",
+      "bytes": 2038522,
+      "sha256": "2e7e09b92ae2cacfebad8ecb659af0f4b2c4d7896a374703f980aea3dd717434"
+    },
+    {
+      "path": "source/maps/phoenix_worn_normal_4k_v3.png",
+      "bytes": 1973343,
+      "sha256": "2ff89585421ad626250f8c85dff6e7dbf0d8c27205206b831cd8f5775de269fe"
+    },
+    {
+      "path": "source/maps/phoenix_worn_normal_4k_v5.png",
+      "bytes": 1900204,
+      "sha256": "0289c1685feb5590262d04af1d20292ba9c473395650a99d70506cea1da6088a"
+    },
+    {
+      "path": "source/maps/phoenix_worn_normal_4k_v6.png",
+      "bytes": 1693212,
+      "sha256": "f6864da8dc86ed716f83d3023491fad6e197b4cd2d19d7df4b6dbd52db33ca75"
+    },
+    {
+      "path": "source/maps/phoenix_worn_original_glazing_edit_mask_4k_v5.png",
+      "bytes": 182267,
+      "sha256": "2d816064d10b803386308ba161a8942dd92150fd0d74c834b86b3e47ba1c09ee"
+    },
+    {
+      "path": "source/maps/phoenix_worn_paint_4k_v1.png",
+      "bytes": 12131466,
+      "sha256": "1dd492ce726e3c8a8e9dee73cbc0b8a9e42b219e78980fa15bd0aec0a9c882d8"
+    },
+    {
+      "path": "source/maps/phoenix_worn_paint_4k_v3.png",
+      "bytes": 12084273,
+      "sha256": "151e670f1c3b3307f28aded7097a3b69f2637bbdc249199c7e01611470bd5c2e"
+    },
+    {
+      "path": "source/maps/phoenix_worn_paint_4k_v5.png",
+      "bytes": 11550572,
+      "sha256": "da505e4029f26f8770b5cbb1ddcf005ede4b27b1c114bf0088308932694c3957"
+    },
+    {
+      "path": "source/maps/phoenix_worn_paint_4k_v6.png",
+      "bytes": 11515313,
+      "sha256": "09c9971fcde8b79730f17947f4188189a9e4e5be682265ec536c7b3816fd2db7"
+    },
+    {
+      "path": "source/maps/phoenix_worn_panels_4k_v1.png",
+      "bytes": 160964,
+      "sha256": "1f8a1362eebaf2fe14fbee4b9503ea8e6c86346f04da3a91629941cf70bb6091"
+    },
+    {
+      "path": "source/maps/phoenix_worn_panels_4k_v3.png",
+      "bytes": 160964,
+      "sha256": "1f8a1362eebaf2fe14fbee4b9503ea8e6c86346f04da3a91629941cf70bb6091"
+    },
+    {
+      "path": "source/maps/phoenix_worn_panels_4k_v5.png",
+      "bytes": 160964,
+      "sha256": "1f8a1362eebaf2fe14fbee4b9503ea8e6c86346f04da3a91629941cf70bb6091"
+    },
+    {
+      "path": "source/maps/phoenix_worn_panels_4k_v6.png",
+      "bytes": 160964,
+      "sha256": "1f8a1362eebaf2fe14fbee4b9503ea8e6c86346f04da3a91629941cf70bb6091"
+    },
+    {
+      "path": "source/maps/phoenix_worn_roughness_4k_v1.png",
+      "bytes": 29767277,
+      "sha256": "42e7d1187c50ba53fab53305b7b10a16d1784f5ba53bba89e572bba5f5d06f48"
+    },
+    {
+      "path": "source/maps/phoenix_worn_roughness_4k_v2.png",
+      "bytes": 29556133,
+      "sha256": "01a63ed109f69abd66b4a8aa1df26f818efcba6771fc77ddacc6e70d0dfa5661"
+    },
+    {
+      "path": "source/maps/phoenix_worn_roughness_4k_v3.png",
+      "bytes": 29486245,
+      "sha256": "b6552ed81ec57076c55b65bdc36478d6cc182bbb96fbd40f1a3073da6471f857"
+    },
+    {
+      "path": "source/maps/phoenix_worn_roughness_4k_v5.png",
+      "bytes": 29372634,
+      "sha256": "bcf137e19df78d7331e894380101b47a2c0d0dbe50695e15fef8b07078d07337"
+    },
+    {
+      "path": "source/maps/phoenix_worn_roughness_4k_v6.png",
+      "bytes": 29338236,
+      "sha256": "67f1aaa7d64ee3b2464e103737f3c1b2e90fbf0c31e289b85b50398b85f5fb29"
+    },
+    {
+      "path": "source/maps/phoenix_worn_seal_4k_v1.png",
+      "bytes": 308290,
+      "sha256": "4498353994a4ff2a93c8ebe00c16165b534d5e0d070b75f94a96c0278038ca45"
+    },
+    {
+      "path": "source/maps/phoenix_worn_seal_4k_v3.png",
+      "bytes": 274716,
+      "sha256": "9baaada0bcfadae7822ff35b89cd84600d5e530b080ba3a9181e39cdcae7778d"
+    },
+    {
+      "path": "source/maps/phoenix_worn_seal_4k_v5.png",
+      "bytes": 158126,
+      "sha256": "dd688c7be2f7b9524683773c3660137df3b9d2eb5992b08683df1acd7bea4d74"
+    },
+    {
+      "path": "source/maps/phoenix_worn_seal_4k_v6.png",
+      "bytes": 177271,
+      "sha256": "f0db174265578819725ee09c0f2801308703cffcb1c96f970a7b792b059416e1"
+    },
+    {
+      "path": "source/maps/phoenix_worn_structure_4k_v1.png",
+      "bytes": 284173,
+      "sha256": "72c5c5a0c6305e6387b13488ced2f7f22aa79f9ea3030f161c8f0ca21900f96f"
+    },
+    {
+      "path": "source/maps/phoenix_worn_structure_4k_v3.png",
+      "bytes": 297278,
+      "sha256": "74e6359bca83542ba6a644ee500f2232ffe4ae694d85d2a47fc3f98ce83cd733"
+    },
+    {
+      "path": "source/maps/phoenix_worn_structure_4k_v5.png",
+      "bytes": 347916,
+      "sha256": "8bc435b9d3a34b19c3505fb57de52f4ac4b4d69f0cb0c4bb9a367cab251cb54b"
+    },
+    {
+      "path": "source/maps/phoenix_worn_structure_4k_v6.png",
+      "bytes": 376134,
+      "sha256": "d6340b5117abfe49b6bcce66ab64e5ea5b6440624ed594c3caf7c6b8538c9c6a"
+    },
+    {
+      "path": "source/maps/phoenix_worn_window_edit_mask_4k_v3.png",
+      "bytes": 131457,
+      "sha256": "9c48b5cc39eb1990187235653cddc50ab79aba2d769717781b611cfa009a17ca"
+    },
+    {
+      "path": "source/originals/Phoenix_gun.SHP",
+      "bytes": 134432,
+      "sha256": "9b9f8571798ae01ef8941fbfc7fc75c1ac05164425b33f061d2f43d1ed45cdae"
+    },
+    {
+      "path": "source/originals/USPF_Phx.SHP",
+      "bytes": 159110,
+      "sha256": "b5f333f8acece0eaab7141319a9ce37ef7bdec4d8643c0e1e73fd4158763d456"
+    },
+    {
+      "path": "source/originals/gYank_4.tga",
+      "bytes": 262188,
+      "sha256": "44f7fa4a9f76ac1a9e215459daad9545ef56b914c80a976701a8a4ed2decae34"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 464,
+      "sha256": "1282db7f327704e22f8c6f38515ae19df679dd1bcf34e3f100376e9d066d6365"
+    },
+    {
+      "path": "source/originals/provenance.json",
+      "bytes": 1049,
+      "sha256": "e8f451e8f65d5eae4de7450a6002d439366a7b0e053af6d766a86a2fd644bf0b"
+    },
+    {
+      "path": "source/originals/rYank_4.tga",
+      "bytes": 262188,
+      "sha256": "fc4122c17e7fac1ccc2cdf227e3e51dba21ec334512b71b2876a7013baebeea2"
+    },
+    {
+      "path": "source/originals/t_USPF_Phx.SHP",
+      "bytes": 160582,
+      "sha256": "f0a4d5216101319b82f56455de1f7620f8346a02db64187371d1558084650459"
+    },
+    {
+      "path": "source/originals/yank_4.png",
+      "bytes": 68541,
+      "sha256": "6a56259e46fee60bed9b18bfe6ffa77c4a5b8f74f2282d728f47960cdaa4552d"
+    },
+    {
+      "path": "source/phoenix_worn_pbr_v1.blend",
+      "bytes": 129512680,
+      "sha256": "1ed02fc2f133634ec10e814594f5e1694ba42256ae7aedd11cbf68594c665d47"
+    },
+    {
+      "path": "source/phoenix_worn_pbr_v2.blend",
+      "bytes": 128269060,
+      "sha256": "cf81c4a04259d3b4f4cd30379912b31f2f259098670e143c3ef0e9bd55bc195f"
+    },
+    {
+      "path": "source/phoenix_worn_pbr_v3.blend",
+      "bytes": 127919231,
+      "sha256": "0db1caa1b539897fb06fdfe22e9b9e0fcd294d15f634ed87e69d817315497fe4"
+    },
+    {
+      "path": "source/phoenix_worn_pbr_v5.blend",
+      "bytes": 127481005,
+      "sha256": "70f1cb8df70e9d805fee989cc6a7ea01202f76eeac37405199f06d362e627b28"
+    },
+    {
+      "path": "source/phoenix_worn_pbr_v6.blend",
+      "bytes": 127173568,
+      "sha256": "381e03382ccc68fe4c0cd92516daa5c9604ae1de98862aa562b190410a2f18ee"
+    },
+    {
+      "path": "source/phoenix_worn_surfaces_v7.blend",
+      "bytes": 159054223,
+      "sha256": "643cd1cf44e1446217dcf026d7f661a8394942045b400e2ce8c8effbd914e384"
+    },
+    {
+      "path": "source/recipes/README.md",
+      "bytes": 1156,
+      "sha256": "a0f7f213c09be8183def40cf5732828ba738dd1d8f337992dfb44b857bc51d08"
+    },
+    {
+      "path": "source/recipes/audit_v2/README.md",
+      "bytes": 558,
+      "sha256": "d2bfccedafa7037d8e6b413d4695ff087d6f6097a90b7714311663e9d42c5791"
+    },
+    {
+      "path": "source/recipes/audit_v2/build_audit.py",
+      "bytes": 6038,
+      "sha256": "c639670fe5acd50e8b649e87e3ffc34925c435ca53a490e59a427b5753eb88be"
+    },
+    {
+      "path": "source/recipes/audit_v2/diagnose.py",
+      "bytes": 1337,
+      "sha256": "620e49b45e28224c4e352ebab5a9970614edde44c81547d891391a89e4d25e03"
+    },
+    {
+      "path": "source/recipes/audit_v2/export_native.py",
+      "bytes": 5973,
+      "sha256": "d241ccd64332a8943bd9bd254ec88c780d254d1e245280b4d36dbf3036685ad6"
+    },
+    {
+      "path": "source/recipes/audit_v2/inspection.py",
+      "bytes": 3513,
+      "sha256": "cb0c8cb27caac748fef6ab56e7e5b5d4f090f88bdcb02812472fd6507c77c8df"
+    },
+    {
+      "path": "source/recipes/audit_v2/map_locality.json",
+      "bytes": 843,
+      "sha256": "712088e560e7ad9d1a14edbe633784ff36e64d5a1746cc83e6a35b50ca5a5a50"
+    },
+    {
+      "path": "source/recipes/audit_v2/native_checks.json",
+      "bytes": 1078,
+      "sha256": "391218eb10d6922cd7637d608d2bb5988d639b1d54d047ad4d67de603d798d9e"
+    },
+    {
+      "path": "source/recipes/audit_v2/native_preservation.json",
+      "bytes": 2455,
+      "sha256": "9eadc659bbe3e8901a03157f52487db493875d033d1b1247c19200c3209ede0b"
+    },
+    {
+      "path": "source/recipes/audit_v2/native_roundtrip.json",
+      "bytes": 843,
+      "sha256": "cb479e974c8490995d4255ff5328a69a819bb142749e8a7b98142647c5a8ee48"
+    },
+    {
+      "path": "source/recipes/audit_v2/validation.json",
+      "bytes": 269401,
+      "sha256": "65fa5cb0bdec275bee1feba3188f5722097fa358c8d2d670bf31ac155a3789cb"
+    },
+    {
+      "path": "source/recipes/audit_v2/verify_native_roundtrip.py",
+      "bytes": 3467,
+      "sha256": "e74bace1f926070c2229233f1b343e6ee068f73a7382c7f2b7b8761da7e44651"
+    },
+    {
+      "path": "source/recipes/audit_v3/README.md",
+      "bytes": 822,
+      "sha256": "d6197a596220cf39f5c2784d32d6589e5276c4afd095fe399e755f91ac26c9bc"
+    },
+    {
+      "path": "source/recipes/audit_v3/build_windows.py",
+      "bytes": 8333,
+      "sha256": "b1d079ec5e42a319b778bfd21d33da51ac8b252c6f1ae8bcd9677efbc5568413"
+    },
+    {
+      "path": "source/recipes/audit_v3/export_native.py",
+      "bytes": 5986,
+      "sha256": "f946100bc7c9751811259c9e866e79430633f572c6aa2ee7d91de19b9a85b9b4"
+    },
+    {
+      "path": "source/recipes/audit_v3/inspection.py",
+      "bytes": 3513,
+      "sha256": "cb0c8cb27caac748fef6ab56e7e5b5d4f090f88bdcb02812472fd6507c77c8df"
+    },
+    {
+      "path": "source/recipes/audit_v3/map_locality.json",
+      "bytes": 1724,
+      "sha256": "a8dd8de15d23715cf4f0f65b10e021a44f6d52407a21bd3b49291bff201e79fc"
+    },
+    {
+      "path": "source/recipes/audit_v3/native_checks.json",
+      "bytes": 1078,
+      "sha256": "fa39700ca2efcba9245443361fe157cc8e3561192f409e22eceb73a73e94d658"
+    },
+    {
+      "path": "source/recipes/audit_v3/native_preservation.json",
+      "bytes": 2455,
+      "sha256": "d4c46f6b6ff8cbe16b94529a747449f5d7c8a2d04d8845671a9c41b03a161a92"
+    },
+    {
+      "path": "source/recipes/audit_v3/native_roundtrip.json",
+      "bytes": 843,
+      "sha256": "62c8f33ca171f161e9601384f13fdb7a1c888a89c981424feb9ac751824e3efc"
+    },
+    {
+      "path": "source/recipes/audit_v3/validation.json",
+      "bytes": 269758,
+      "sha256": "075a31d2d41589def235a9b1ee0d642c7b339a00898d3ed26d619c0f7d2c45e0"
+    },
+    {
+      "path": "source/recipes/audit_v3/verify_map_locality.py",
+      "bytes": 1926,
+      "sha256": "11de518f4d71fc8804e92e590ce6ed5c47e4c89d16d5cedab6fefcb93d8e78a4"
+    },
+    {
+      "path": "source/recipes/audit_v3/verify_native_roundtrip.py",
+      "bytes": 2575,
+      "sha256": "f97f199c5028527041221ff561b742e66ce612ff62e2cac1e659cb34c5a3b1d3"
+    },
+    {
+      "path": "source/recipes/audit_v5/README.md",
+      "bytes": 769,
+      "sha256": "4969ad248aa2c6d042e1cf989d2f60218440b7cf3057646dac1a31bb49bf654b"
+    },
+    {
+      "path": "source/recipes/audit_v5/build_glazing.py",
+      "bytes": 7977,
+      "sha256": "86d8929b35920b75872ac9b3eb4a3f099c12a0ba954c9a90c5ef311f51ca184b"
+    },
+    {
+      "path": "source/recipes/audit_v5/export_native.py",
+      "bytes": 6023,
+      "sha256": "0be73e4c38c6b3828216fd30f9c39f017f2d5c16ae38f7d1373bb9e115005838"
+    },
+    {
+      "path": "source/recipes/audit_v5/inspection.py",
+      "bytes": 3513,
+      "sha256": "cb0c8cb27caac748fef6ab56e7e5b5d4f090f88bdcb02812472fd6507c77c8df"
+    },
+    {
+      "path": "source/recipes/audit_v5/map_locality.json",
+      "bytes": 2096,
+      "sha256": "4ac6bff860c0ade1f0b5b671ff5b0f3fd11ee4592e8c583fcb6aa4aa7ab2f19c"
+    },
+    {
+      "path": "source/recipes/audit_v5/native_checks.json",
+      "bytes": 1078,
+      "sha256": "391218eb10d6922cd7637d608d2bb5988d639b1d54d047ad4d67de603d798d9e"
+    },
+    {
+      "path": "source/recipes/audit_v5/native_preservation.json",
+      "bytes": 2455,
+      "sha256": "9eadc659bbe3e8901a03157f52487db493875d033d1b1247c19200c3209ede0b"
+    },
+    {
+      "path": "source/recipes/audit_v5/native_roundtrip.json",
+      "bytes": 843,
+      "sha256": "da2b013c303aefaacf15bbf463646fed1ca98a54fe0284d7a3ad0f4c27c2185d"
+    },
+    {
+      "path": "source/recipes/audit_v5/original_glass_outlines.json",
+      "bytes": 7999,
+      "sha256": "7b77a2009f7079c6c65da3eedf557d4d0b9a9e2a070aba76c87a6254197cc5c2"
+    },
+    {
+      "path": "source/recipes/audit_v5/trace_original_glass.py",
+      "bytes": 2323,
+      "sha256": "5689fa7e4aa3c6246a57763d1cb20788e16352ac78a1662274aed12f49ad9f6d"
+    },
+    {
+      "path": "source/recipes/audit_v5/validation.json",
+      "bytes": 279696,
+      "sha256": "d504f02515bf65ec89ce36f0394f3fd5a1366a2cadf9a3c9743e4cf8954494fd"
+    },
+    {
+      "path": "source/recipes/audit_v5/verify_map_locality.py",
+      "bytes": 2010,
+      "sha256": "539b19af8b9a4d6d643eb9fa9ff5ff40cd3de0a0235acdfc7640c73e3a6c3e1e"
+    },
+    {
+      "path": "source/recipes/audit_v5/verify_native_roundtrip.py",
+      "bytes": 2575,
+      "sha256": "3486fe0acee2e6e1107d45489e74cb88c41f442a283803a45241b68a6efac218"
+    },
+    {
+      "path": "source/recipes/audit_v6/README.md",
+      "bytes": 774,
+      "sha256": "fa3ff871d6efdacdaa58163019ba002906701c1d955211d291eacc2e4205bf0d"
+    },
+    {
+      "path": "source/recipes/audit_v6/build_glazing.py",
+      "bytes": 8312,
+      "sha256": "662d4da3c2a7a0f4d80daa470f9e6527503ed731b73a3f27822e0131128aeacc"
+    },
+    {
+      "path": "source/recipes/audit_v6/export_native.py",
+      "bytes": 6035,
+      "sha256": "f9e0a86919ad6353aa494e6a88895c97277e9432c1db43c5f852b18685ea46ab"
+    },
+    {
+      "path": "source/recipes/audit_v6/frame_paths.json",
+      "bytes": 5112,
+      "sha256": "ca3f743f73da5d1a2bf8a12a97d876f072fd3b743be5d2d33120fcd4cfb7dc68"
+    },
+    {
+      "path": "source/recipes/audit_v6/inspection.py",
+      "bytes": 3513,
+      "sha256": "cb0c8cb27caac748fef6ab56e7e5b5d4f090f88bdcb02812472fd6507c77c8df"
+    },
+    {
+      "path": "source/recipes/audit_v6/map_locality.json",
+      "bytes": 3197,
+      "sha256": "f18f56427ac24ca71931f38778ce73c63665216224e8c2c50366c67634649d36"
+    },
+    {
+      "path": "source/recipes/audit_v6/native_checks.json",
+      "bytes": 1078,
+      "sha256": "391218eb10d6922cd7637d608d2bb5988d639b1d54d047ad4d67de603d798d9e"
+    },
+    {
+      "path": "source/recipes/audit_v6/native_preservation.json",
+      "bytes": 2455,
+      "sha256": "9eadc659bbe3e8901a03157f52487db493875d033d1b1247c19200c3209ede0b"
+    },
+    {
+      "path": "source/recipes/audit_v6/native_roundtrip.json",
+      "bytes": 843,
+      "sha256": "44730e1bb2a62cb5993b486b55ab066942cb1a97a600e9e9408532751325f1b1"
+    },
+    {
+      "path": "source/recipes/audit_v6/validation.json",
+      "bytes": 308854,
+      "sha256": "f23de08aea9b5f88c62f445f3b74a7341b15bcfc262e3b70423ec9d248ac2520"
+    },
+    {
+      "path": "source/recipes/audit_v6/verify_map_locality.py",
+      "bytes": 3488,
+      "sha256": "96d37376f9dc2ab0b38f91fc765657f7a7c73877318d1f4390a82cd37be5e986"
+    },
+    {
+      "path": "source/recipes/audit_v6/verify_native_roundtrip.py",
+      "bytes": 2575,
+      "sha256": "1bb60c27dd49037061dcfe56b69ead067aef7f5bf5fee66f623428c50fda9cc5"
+    },
+    {
+      "path": "source/recipes/audit_v7/README.md",
+      "bytes": 1009,
+      "sha256": "eb0e303e5304b52f9f5f9108e01fcfd4bad60d995290939008efcec8bb0697ed"
+    },
+    {
+      "path": "source/recipes/audit_v7/belly_shared_edges.json",
+      "bytes": 2013,
+      "sha256": "a2a2ecd58bf223883bef1733ca7a02f09b6d801b3b5c84c1bd8eafb341abed55"
+    },
+    {
+      "path": "source/recipes/audit_v7/build_surfaces.py",
+      "bytes": 17490,
+      "sha256": "d94049486db4e3ac10850904fb2be8405a0ea1c827b8562f29ddd5c8d44312b0"
+    },
+    {
+      "path": "source/recipes/audit_v7/export_native.py",
+      "bytes": 7101,
+      "sha256": "0e25bf1fa15bcb03e2ad20eb3179c7f6d97479e74dba5c6a68c73b23e7f66591"
+    },
+    {
+      "path": "source/recipes/audit_v7/inspect_before.py",
+      "bytes": 2536,
+      "sha256": "edcec78dcf56ad1d2bcb45c91b0675364d03c74c723da2e46554a861f62845ff"
+    },
+    {
+      "path": "source/recipes/audit_v7/inspection.py",
+      "bytes": 3513,
+      "sha256": "cb0c8cb27caac748fef6ab56e7e5b5d4f090f88bdcb02812472fd6507c77c8df"
+    },
+    {
+      "path": "source/recipes/audit_v7/map_checks.json",
+      "bytes": 1019,
+      "sha256": "4b9a239c7f4613bdb1a6429d5e0a2246d0317d22f14cc5e3fba6b91243e59c73"
+    },
+    {
+      "path": "source/recipes/audit_v7/native_checks.json",
+      "bytes": 1078,
+      "sha256": "43e3f4a647c0eef4addacc188e93bca69960b0cfa16e2e8697618cd72dc99a31"
+    },
+    {
+      "path": "source/recipes/audit_v7/native_preservation.json",
+      "bytes": 2455,
+      "sha256": "2eca46847fba08247b34095554e51dacec2b85515948c3ba8889f08bb56723ab"
+    },
+    {
+      "path": "source/recipes/audit_v7/native_roundtrip.json",
+      "bytes": 1335,
+      "sha256": "8ac667dbe75c86bbac39f21fd5c08658fc769a2485df71c7c53706cd5bbae47f"
+    },
+    {
+      "path": "source/recipes/audit_v7/regions.json",
+      "bytes": 2284,
+      "sha256": "1b3844a12f70e756946f7c71227cca495fc97f7d28a9ca52c68a5aaf18015bca"
+    },
+    {
+      "path": "source/recipes/audit_v7/review_views.json",
+      "bytes": 477,
+      "sha256": "7e841b0c5b2b1966b646ec757a768b4a24ff5a61830d3103d6bb95a51f64eafe"
+    },
+    {
+      "path": "source/recipes/audit_v7/validation.json",
+      "bytes": 284004,
+      "sha256": "2f0a62d15c2f9150f74138e1210e62168cfdcc0f60e1f1fb66196bc805b92332"
+    },
+    {
+      "path": "source/recipes/audit_v7/verify_maps.py",
+      "bytes": 2513,
+      "sha256": "8eb3237724bc3d69f2ea62ddc518d03fd88196c7c4f6f57d3cf654e7b9577c4f"
+    },
+    {
+      "path": "source/recipes/audit_v7/verify_native_roundtrip.py",
+      "bytes": 3027,
+      "sha256": "e59e2f11e157c888976e0aa6c5ac8c00c4bdd9dc68c3e3a320bb2a1029c99ac4"
+    },
+    {
+      "path": "source/recipes/build_materials.py",
+      "bytes": 12746,
+      "sha256": "188e51046dd33f3f06e0c668cd722721ef1f9a4e22e643f835916badeedc65c8"
+    },
+    {
+      "path": "source/recipes/build_source.py",
+      "bytes": 7233,
+      "sha256": "cd175266c3159dec2a47633203db64c281c583305b61f258fe8e2d8ad52f5636"
+    },
+    {
+      "path": "source/recipes/export_native.py",
+      "bytes": 5992,
+      "sha256": "5ca31c2cd326bf8523c77ff5bc60511cd17c37c823d64eae7de3e9b22ef63d0d"
+    },
+    {
+      "path": "source/recipes/imagegen_prompt.txt",
+      "bytes": 1579,
+      "sha256": "198cb7d00a90d44723d608ab4b362dfa070ed27f4037e9516d3630854274828a"
+    },
+    {
+      "path": "source/recipes/inspect_uv.py",
+      "bytes": 1982,
+      "sha256": "8f70abc09c843b0ea3f981708b437fe6bc780bd234e1bde986c99997f8a36961"
+    },
+    {
+      "path": "source/recipes/inspection.py",
+      "bytes": 3513,
+      "sha256": "cb0c8cb27caac748fef6ab56e7e5b5d4f090f88bdcb02812472fd6507c77c8df"
+    },
+    {
+      "path": "source/recipes/native_checks.json",
+      "bytes": 1078,
+      "sha256": "7badfa9409f69d9f7c2e36ce4019f02ed132789d9d57b739316f2ad4ab3340a7"
+    },
+    {
+      "path": "source/recipes/native_preservation.json",
+      "bytes": 2455,
+      "sha256": "d99835ca2bbbceee00be9bd49448a42cf188e1127c0cc75bb49e6c87156dda53"
+    },
+    {
+      "path": "source/recipes/native_roundtrip.json",
+      "bytes": 735,
+      "sha256": "795ee1b80147e00f684e2fd0e435a2aac1acab48de01259736b6f9986105b8ea"
+    },
+    {
+      "path": "source/recipes/regions.json",
+      "bytes": 7871,
+      "sha256": "c951a00d7c4a79339ff3ed466919d587e4e850790d7a6c27e19d208a9efe041e"
+    },
+    {
+      "path": "source/recipes/validation.json",
+      "bytes": 267867,
+      "sha256": "c893a339dad2e10e415c18d31781ddda5d72e92596be9118d9b616461925ebe9"
+    },
+    {
+      "path": "source/resources/01a63ed109f6_phoenix_worn_roughness_4k_v2.png",
+      "bytes": 29556133,
+      "sha256": "01a63ed109f69abd66b4a8aa1df26f818efcba6771fc77ddacc6e70d0dfa5661"
+    },
+    {
+      "path": "source/resources/0289c1685feb_phoenix_worn_normal_4k_v5.png",
+      "bytes": 1900204,
+      "sha256": "0289c1685feb5590262d04af1d20292ba9c473395650a99d70506cea1da6088a"
+    },
+    {
+      "path": "source/resources/035a763a6dc9_phoenix_worn_basecolor_4k_v5.png",
+      "bytes": 76083692,
+      "sha256": "035a763a6dc97055be9a5f2c7d365f4ee04b508e92609db58d3510f62018d055"
+    },
+    {
+      "path": "source/resources/03fa7cdbf575_phoenix_worn_normal_4k_v1.png",
+      "bytes": 2087179,
+      "sha256": "03fa7cdbf5753961ba0a8e78f1b3b44532332eff2e06cb1b499760e900cdb501"
+    },
+    {
+      "path": "source/resources/25a451b6c35f_phoenix_worn_metallic_4k_v6.png",
+      "bytes": 20100811,
+      "sha256": "25a451b6c35fe349609f8172e589b7b40d588127110a000f1bf7486e53bb9db4"
+    },
+    {
+      "path": "source/resources/2e4f157869e0_phoenix_hull_roughness_4k_v7.png",
+      "bytes": 29096120,
+      "sha256": "2e4f157869e0458e684e097a8f91c5652de0dc7867bceb0464975374a5e0cd4a"
+    },
+    {
+      "path": "source/resources/2e7e09b92ae2_phoenix_worn_normal_4k_v2.png",
+      "bytes": 2038522,
+      "sha256": "2e7e09b92ae2cacfebad8ecb659af0f4b2c4d7896a374703f980aea3dd717434"
+    },
+    {
+      "path": "source/resources/2ff89585421a_phoenix_worn_normal_4k_v3.png",
+      "bytes": 1973343,
+      "sha256": "2ff89585421ad626250f8c85dff6e7dbf0d8c27205206b831cd8f5775de269fe"
+    },
+    {
+      "path": "source/resources/391693385be8_phoenix_worn_basecolor_4k_v2.png",
+      "bytes": 76511874,
+      "sha256": "391693385be8b4211faa9892a2209dc0c9ee27a3d875bc57efc3acae7a23a1b4"
+    },
+    {
+      "path": "source/resources/3b49a842b10e_phoenix_surfaces_metallic_4k_v7.png",
+      "bytes": 2406369,
+      "sha256": "3b49a842b10e8a4ff083666ad44ee0865348c3802c31a58eb2e994a8f941dfad"
+    },
+    {
+      "path": "source/resources/42e7d1187c50_phoenix_worn_roughness_4k_v1.png",
+      "bytes": 29767277,
+      "sha256": "42e7d1187c50ba53fab53305b7b10a16d1784f5ba53bba89e572bba5f5d06f48"
+    },
+    {
+      "path": "source/resources/568b30beea82_phoenix_hull_metallic_4k_v7.png",
+      "bytes": 20091039,
+      "sha256": "568b30beea822d4da43164c07b481175f5ab7399707eb571d7e9bde347c3c35c"
+    },
+    {
+      "path": "source/resources/582db7d0a18e_phoenix_surfaces_basecolor_4k_v7.png",
+      "bytes": 26033274,
+      "sha256": "582db7d0a18e8bdaadafb0bb2db0720c85657fe8bd3bb1db3d1a57ca348f12cf"
+    },
+    {
+      "path": "source/resources/59a766fcf436_phoenix_surfaces_roughness_4k_v7.png",
+      "bytes": 2657468,
+      "sha256": "59a766fcf436e03939846c8bca79e03c3998de36779076b7651444fcc1eb1997"
+    },
+    {
+      "path": "source/resources/67e31fc51c94_phoenix_worn_metallic_4k_v1.png",
+      "bytes": 20161689,
+      "sha256": "67e31fc51c94ceea84ab7e8df6372377967f4dabafcafd83d0dae4c74d7f1047"
+    },
+    {
+      "path": "source/resources/67f1aaa7d64e_phoenix_worn_roughness_4k_v6.png",
+      "bytes": 29338236,
+      "sha256": "67f1aaa7d64ee3b2464e103737f3c1b2e90fbf0c31e289b85b50398b85f5fb29"
+    },
+    {
+      "path": "source/resources/6a56259e46fe_yank_4.png",
+      "bytes": 68541,
+      "sha256": "6a56259e46fee60bed9b18bfe6ffa77c4a5b8f74f2282d728f47960cdaa4552d"
+    },
+    {
+      "path": "source/resources/6ded4a69165f_phoenix_surfaces_normal_4k_v7.png",
+      "bytes": 1477788,
+      "sha256": "6ded4a69165fdd4e395937add30eab16c5bac94a71c9ccef70f5cd871766f96e"
+    },
+    {
+      "path": "source/resources/7104a734fc6d_phoenix_hull_normal_4k_v7.png",
+      "bytes": 1554385,
+      "sha256": "7104a734fc6d71a909087137e856e7b463ce3d27ed60a4287363f2a007a533cd"
+    },
+    {
+      "path": "source/resources/8bbb7d29d633_phoenix_worn_basecolor_4k_v6.png",
+      "bytes": 76034680,
+      "sha256": "8bbb7d29d6334afc10d2ffb3ef352df9e9f3b1b0c402c4fdf2a1e2dbc42465c4"
+    },
+    {
+      "path": "source/resources/8bfa23e930d9_phoenix_worn_basecolor_4k_v1.png",
+      "bytes": 77492634,
+      "sha256": "8bfa23e930d936b69b809429ab82736c70d34ca9d71894db6b39962fa4ff86bf"
+    },
+    {
+      "path": "source/resources/8c83f14213d2_phoenix_surfaces_basecolor_4k_v7.png",
+      "bytes": 24375572,
+      "sha256": "8c83f14213d227ef494beac15b2d068c723ed466ced05fc82a7809ccb537a67a"
+    },
+    {
+      "path": "source/resources/95f4ceee9fe0_phoenix_worn_metallic_4k_v3.png",
+      "bytes": 20119690,
+      "sha256": "95f4ceee9fe047157fd59cc0467cbd8beca5329697b3cd7c7d250a067ac598d4"
+    },
+    {
+      "path": "source/resources/b3e6de0aa428_phoenix_surfaces_normal_4k_v7.png",
+      "bytes": 1476665,
+      "sha256": "b3e6de0aa428a9157fb89c71db99184863c6997dcff79fe1c0502152d51e7fdd"
+    },
+    {
+      "path": "source/resources/b6552ed81ec5_phoenix_worn_roughness_4k_v3.png",
+      "bytes": 29486245,
+      "sha256": "b6552ed81ec57076c55b65bdc36478d6cc182bbb96fbd40f1a3073da6471f857"
+    },
+    {
+      "path": "source/resources/ba01236c332c_phoenix_worn_normal_4k_v6.png",
+      "bytes": 1687701,
+      "sha256": "ba01236c332c35454825e65a4e08f19471d21543d2c85c65119d2aa7cbd8a41e"
+    },
+    {
+      "path": "source/resources/bcf137e19df7_phoenix_worn_roughness_4k_v5.png",
+      "bytes": 29372634,
+      "sha256": "bcf137e19df78d7331e894380101b47a2c0d0dbe50695e15fef8b07078d07337"
+    },
+    {
+      "path": "source/resources/d90a135777eb_phoenix_worn_basecolor_4k_v3.png",
+      "bytes": 76333685,
+      "sha256": "d90a135777ebc8f75f1d7676dda917eafa9e76d75d92cb4d20f9ee826f34252a"
+    },
+    {
+      "path": "source/resources/e08e5251805f_phoenix_worn_metallic_4k_v2.png",
+      "bytes": 20160080,
+      "sha256": "e08e5251805f318f196855fce677038ae319ce25802725c5d5567597643fa6fb"
+    },
+    {
+      "path": "source/resources/e0f719f98ee5_phoenix_worn_metallic_4k_v5.png",
+      "bytes": 20123545,
+      "sha256": "e0f719f98ee5d4e5dfa3c465e810ec860dcb705ac568bca4bf996dd45503172b"
+    },
+    {
+      "path": "source/resources/f6864da8dc86_phoenix_worn_normal_4k_v6.png",
+      "bytes": 1693212,
+      "sha256": "f6864da8dc86ed716f83d3023491fad6e197b4cd2d19d7df4b6dbd52db33ca75"
+    },
+    {
+      "path": "source/review/audit_v2/belly_after.png",
+      "bytes": 991352,
+      "sha256": "4277826a0b7200ef639fd5bba2df58f4daf9d35aa647257c5c5a3b5914229aa9"
+    },
+    {
+      "path": "source/review/audit_v2/belly_before.png",
+      "bytes": 991558,
+      "sha256": "5b172d0390a66a0324b53df80d98db098157811ba5d24faf43281328b18c47c1"
+    },
+    {
+      "path": "source/review/audit_v2/material_belly.png",
+      "bytes": 398164,
+      "sha256": "d32d5e0003e579173d01d7ece1e8d72a086e8eca1ec5193b76105e30100e70f5"
+    },
+    {
+      "path": "source/review/audit_v2/material_front.png",
+      "bytes": 482656,
+      "sha256": "fb4be274839496c8da0201bbe4d1b029f7f8c592b99477849f11a3baac89910c"
+    },
+    {
+      "path": "source/review/audit_v2/material_opposite.png",
+      "bytes": 496823,
+      "sha256": "944ec8b66b46a8cac21062249ba2dd888dea6944d707c2b71d2809276080e020"
+    },
+    {
+      "path": "source/review/audit_v2/user_belly_reference.png",
+      "bytes": 41775,
+      "sha256": "57cba8c8a7b53176e4898238368c7253b3d2ed69879b12dfdadc2eb71ba51b55"
+    },
+    {
+      "path": "source/review/audit_v3/material_front.png",
+      "bytes": 482293,
+      "sha256": "c384590d57eb9bdcf8fa21fca730d94a798c49844e9ef5e84ef14fbd4b22c57d"
+    },
+    {
+      "path": "source/review/audit_v3/material_opposite.png",
+      "bytes": 496892,
+      "sha256": "dd791cd752509553c64effed01ecb52238f7a0629712bdf2d9f90a9b32e33e18"
+    },
+    {
+      "path": "source/review/audit_v3/user_window_reference.png",
+      "bytes": 12533,
+      "sha256": "6c9b53e7809ce1fefb93872928a445efe603f65a74162a63bc6a1b6334fcd097"
+    },
+    {
+      "path": "source/review/audit_v3/window_left.png",
+      "bytes": 750386,
+      "sha256": "a1168b6524a0ce50763dc3ed442bf281cd17bf2f904dc5f62d4931bde026e2e2"
+    },
+    {
+      "path": "source/review/audit_v3/window_right.png",
+      "bytes": 738473,
+      "sha256": "a4cd11989308d201fb53eeb694b040413c10097a2574006aa62f68a7b2ef1e16"
+    },
+    {
+      "path": "source/review/audit_v5/canopy_left.png",
+      "bytes": 823987,
+      "sha256": "a565d03710c223bf479f149e082ee9fc471f7900fe9f28a335f24c7dde823924"
+    },
+    {
+      "path": "source/review/audit_v5/canopy_right.png",
+      "bytes": 814378,
+      "sha256": "e3e4ed6e63f645f89158643150ea105f5e9f7aa5332bc24237018169762ee19b"
+    },
+    {
+      "path": "source/review/audit_v5/canopy_roof.png",
+      "bytes": 869813,
+      "sha256": "0de65a1340918e91846bc5fa3f76e0f73dc934bda6cdf77204fb1e0d10977408"
+    },
+    {
+      "path": "source/review/audit_v5/material_front.png",
+      "bytes": 481998,
+      "sha256": "6803c3348f4b8ac14fd6dd43fbd6aed396c7c111bc9dbed4f6cb694e619e86e7"
+    },
+    {
+      "path": "source/review/audit_v5/original_outline_diagnostic.png",
+      "bytes": 665410,
+      "sha256": "c684885453cfb9198276d8454386938d2486a7634e859cbf693714974e34dd57"
+    },
+    {
+      "path": "source/review/audit_v6/canopy_grazing.png",
+      "bytes": 788302,
+      "sha256": "3b9a67acabfcd5c06649840b4b4bef5c09665f18bfd2f401c46ac6a1b34075f4"
+    },
+    {
+      "path": "source/review/audit_v6/canopy_left.png",
+      "bytes": 823359,
+      "sha256": "6a55a6dbd2ce3a72f148c578608939e0d93506f1697b96ef3a3e9516ecd4e526"
+    },
+    {
+      "path": "source/review/audit_v6/canopy_right.png",
+      "bytes": 811455,
+      "sha256": "f16c34110117e36e92fb22f123e0eb47fa146164f752bf539a7cdf01c48fdb6a"
+    },
+    {
+      "path": "source/review/audit_v6/canopy_roof.png",
+      "bytes": 867540,
+      "sha256": "1879bbcd43348e3ce4e59b376bb20d4f4877f2e6d007455c1a0d2a56e00804c9"
+    },
+    {
+      "path": "source/review/audit_v6/material_front.png",
+      "bytes": 482149,
+      "sha256": "b652bfc99183ca6ad5f55dacae5bcf7cc12a5c0a7e4f106a38b90981bf13c23a"
+    },
+    {
+      "path": "source/review/audit_v7/after/belly.png",
+      "bytes": 1429195,
+      "sha256": "feef676657b34013274e9039fbaabfccea40c6fcc557d0f3700d1f739755d532"
+    },
+    {
+      "path": "source/review/audit_v7/after/nose.png",
+      "bytes": 1434604,
+      "sha256": "813a09a539b56d28a632557eaecbbeb5dce3c7e615114dec5ee6097d5568be01"
+    },
+    {
+      "path": "source/review/audit_v7/after/nose_other.png",
+      "bytes": 1432648,
+      "sha256": "37eb2f718ee09445296da576b9398f84b10312579391ffc04e4108a4470e6df8"
+    },
+    {
+      "path": "source/review/audit_v7/after/vents.png",
+      "bytes": 2529833,
+      "sha256": "e03256575f37d281497945847f3f00b60f99a1f27aea604046a537c1b74faa5d"
+    },
+    {
+      "path": "source/review/audit_v7/after/vents_other.png",
+      "bytes": 2530864,
+      "sha256": "f90dcb1465e47beb44e9345b0b7d3ba35165088db664121117ab113b25006e40"
+    },
+    {
+      "path": "source/review/audit_v7/after/whole.png",
+      "bytes": 1240035,
+      "sha256": "4ac7ac7bc15aadb4d5fe401cafd3072262120986cd7fa8d5f400dc28765952c3"
+    },
+    {
+      "path": "source/review/audit_v7/before/belly.png",
+      "bytes": 1430730,
+      "sha256": "50b19c2031da3e62ad1c42636cce1a9a896fcbd83d9b795471b07ede71395c7f"
+    },
+    {
+      "path": "source/review/audit_v7/before/nose.png",
+      "bytes": 1480071,
+      "sha256": "91e7989b76ffe3ed3c221caf0d17aecd9d6a70462369d0b27cf44ad5a925e106"
+    },
+    {
+      "path": "source/review/audit_v7/before/vents.png",
+      "bytes": 2528803,
+      "sha256": "379c92183a9bb6564737eb92a255475463c1cc8142fe67e5e31d78ffe8dbb57f"
+    },
+    {
+      "path": "source/review/audit_v7/before/whole.png",
+      "bytes": 1249578,
+      "sha256": "5941e011c1179f73f26dd9fea5714124765c1d8a3544f29ff139345d50f06e59"
+    },
+    {
+      "path": "source/review/material_belly.png",
+      "bytes": 398293,
+      "sha256": "9716aa0ff81a789f562b0fdff2673153b6581beb3cd4dd8eaffe3b8aa8627793"
+    },
+    {
+      "path": "source/review/material_front.png",
+      "bytes": 484125,
+      "sha256": "51cd1686d7fe03ea8c676925379749fbb7d43d3cc54a850ce8b6b56729fc3bbe"
+    },
+    {
+      "path": "source/review/material_opposite.png",
+      "bytes": 498211,
+      "sha256": "36cd8aa71a0936f79f305caab8ed8749352491094e8a86373f0a1c42beb8a4df"
+    },
+    {
+      "path": "source/review/material_rear.png",
+      "bytes": 325756,
+      "sha256": "6754f7ef0efc69f3a488f885d933ae0493a6ea90251caec2b7be1e2eae1d7132"
+    },
+    {
+      "path": "source/review/source_front.png",
+      "bytes": 438418,
+      "sha256": "8ec2586f05b48613840012a30ad64fccf9baf710ef4b821131bc7bfcba1c2a43"
+    },
+    {
+      "path": "source/snapshot.json",
+      "bytes": 4534,
+      "sha256": "e5f4eb6a7392d5781a0e26e1f21d95a32454c8a950da22594ccab7a3b853b8db"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "file": "USPF_Phx.SHP",
+    "source_sha256": "b5f333f8acece0eaab7141319a9ce37ef7bdec4d8643c0e1e73fd4158763d456",
+    "delivered_sha256": "e9507773a8cdf66bb2c450c3f792493e09982b2c6d22d981c5dba3bffe2f31ef",
+    "mapped_parts": [
+      {
+        "part": 0,
+        "faces": 10,
+        "uvs_reused_from_flight_model": true,
+        "max_matching_vertex_delta": 2.037049232797034e-06
+      },
+      {
+        "part": 1,
+        "faces": 392,
+        "uvs_reused_from_flight_model": true,
+        "max_matching_vertex_delta": 2.6428997918226276e-05
+      },
+      {
+        "part": 2,
+        "faces": 92,
+        "uvs_reused_from_flight_model": true,
+        "max_matching_vertex_delta": 1.629639386237627e-05
+      }
+    ],
+    "geometry_normals_attachments_animation_damage_flags_lower_LODs_unchanged": true
+  },
+  {
+    "file": "t_USPF_Phx.SHP",
+    "source_sha256": "f0a4d5216101319b82f56455de1f7620f8346a02db64187371d1558084650459",
+    "delivered_sha256": "66a4c9de0bb36565fa6006ad6e54358bae3df1f08ecb01659161f1eb1423295d",
+    "mapped_parts": [
+      {
+        "part": 0,
+        "faces": 10,
+        "uvs_reused_from_flight_model": true,
+        "max_matching_vertex_delta": 2.037049232797034e-06
+      },
+      {
+        "part": 1,
+        "faces": 392,
+        "uvs_reused_from_flight_model": true,
+        "max_matching_vertex_delta": 2.6428997918226276e-05
+      },
+      {
+        "part": 2,
+        "faces": 92,
+        "uvs_reused_from_flight_model": true,
+        "max_matching_vertex_delta": 1.629639386237627e-05
+      }
+    ],
+    "geometry_normals_attachments_animation_damage_flags_lower_LODs_unchanged": true
+  },
+  {
+    "file": "Phoenix_gun.SHP",
+    "source_sha256": "9b9f8571798ae01ef8941fbfc7fc75c1ac05164425b33f061d2f43d1ed45cdae",
+    "delivered_sha256": "b4bbc6a69e3012b722ecd5c1b81f01c84848ae603b3ff38e4db1e4fbbe819cc1",
+    "mapped_parts": [
+      {
+        "part": 0,
+        "faces": 10,
+        "uvs_reused_from_flight_model": true,
+        "max_matching_vertex_delta": 0.23050081915618886
+      },
+      {
+        "part": 1,
+        "faces": 392,
+        "uvs_reused_from_flight_model": true,
+        "max_matching_vertex_delta": 2.1739085945238594
+      },
+      {
+        "part": 2,
+        "faces": 92,
+        "uvs_reused_from_flight_model": true,
+        "max_matching_vertex_delta": 1.040962393986411
+      }
+    ],
+    "geometry_normals_attachments_animation_damage_flags_lower_LODs_unchanged": true
+  }
+]

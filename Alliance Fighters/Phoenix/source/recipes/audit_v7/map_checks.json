@@ -1,0 +1,37 @@
+{
+  "main_map_locality": [
+    {
+      "map": "normal",
+      "changed_pixels_outside_intake_vent_edit_region": 0
+    },
+    {
+      "map": "roughness",
+      "changed_pixels_outside_intake_vent_edit_region": 0
+    },
+    {
+      "map": "metallic",
+      "changed_pixels_outside_intake_vent_edit_region": 0
+    },
+    {
+      "map": "height",
+      "changed_pixels_outside_intake_vent_edit_region": 0
+    },
+    {
+      "map": "structure",
+      "changed_pixels_outside_intake_vent_edit_region": 0
+    },
+    {
+      "map": "fins",
+      "changed_pixels_outside_intake_vent_edit_region": 0
+    }
+  ],
+  "main_basecolor_and_glazing_masks_byte_identical": true,
+  "glazing_face_uvs_and_materials_unchanged": true,
+  "incorrect_relief_pixels_cleared_outside_actual_openings": 78565,
+  "new_relief_normals_outside_openings_flat": true,
+  "fin_relief_contained_by_openings": true,
+  "belly_continuous_shared_edges": 17,
+  "max_belly_shared_edge_uv_gap_pixels": 0.0,
+  "surface_bake_faces": 45,
+  "repair_maps_verified": 5
+}

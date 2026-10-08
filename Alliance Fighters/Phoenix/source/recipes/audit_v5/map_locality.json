@@ -1,0 +1,100 @@
+{
+  "checks": [
+    {
+      "map": "basecolor",
+      "changed_pixels_outside_original_panes": 0
+    },
+    {
+      "map": "roughness",
+      "changed_pixels_outside_glazing_footprint": 0
+    },
+    {
+      "map": "metallic",
+      "changed_pixels_outside_glazing_footprint": 0
+    },
+    {
+      "map": "normal",
+      "changed_pixels_outside_glazing_footprint": 0
+    },
+    {
+      "map": "glass",
+      "changed_pixels_outside_glazing_footprint": 0
+    },
+    {
+      "map": "seal",
+      "changed_pixels_outside_glazing_footprint": 0
+    },
+    {
+      "map": "height",
+      "changed_pixels_outside_glazing_footprint": 0
+    },
+    {
+      "map": "structure",
+      "changed_pixels_outside_glazing_footprint": 0
+    },
+    {
+      "map": "panels",
+      "changed_pixels_outside_glazing_footprint": 0
+    },
+    {
+      "map": "paint",
+      "changed_pixels_outside_glazing_footprint": 0
+    }
+  ],
+  "optics": {
+    "basecolor": {
+      "glass_core_min": [
+        28,
+        43,
+        37
+      ],
+      "glass_core_max": [
+        28,
+        43,
+        37
+      ]
+    },
+    "roughness": {
+      "glass_core_min": [
+        25,
+        25,
+        25
+      ],
+      "glass_core_max": [
+        26,
+        26,
+        26
+      ]
+    },
+    "metallic": {
+      "glass_core_min": [
+        0,
+        0,
+        0
+      ],
+      "glass_core_max": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "original_frames_and_surrounding_colours_preserved": true,
+  "native_models": [
+    {
+      "file": "USPF_Phx.SHP",
+      "exact_match_to_v2_original_window_uvs_and_repaired_belly": true,
+      "sha256": "e9507773a8cdf66bb2c450c3f792493e09982b2c6d22d981c5dba3bffe2f31ef"
+    },
+    {
+      "file": "t_USPF_Phx.SHP",
+      "exact_match_to_v2_original_window_uvs_and_repaired_belly": true,
+      "sha256": "66a4c9de0bb36565fa6006ad6e54358bae3df1f08ecb01659161f1eb1423295d"
+    },
+    {
+      "file": "Phoenix_gun.SHP",
+      "exact_match_to_v2_original_window_uvs_and_repaired_belly": true,
+      "sha256": "b4bbc6a69e3012b722ecd5c1b81f01c84848ae603b3ff38e4db1e4fbbe819cc1"
+    }
+  ]
+}

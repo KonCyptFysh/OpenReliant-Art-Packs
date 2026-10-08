@@ -1,0 +1,58 @@
+[
+  {
+    "map": "basecolor",
+    "changed_pixels_outside_glass_mask_over_one_level": 0,
+    "glass_core_min": [
+      28,
+      43,
+      36
+    ],
+    "glass_core_max": [
+      28,
+      43,
+      37
+    ]
+  },
+  {
+    "map": "normal",
+    "changed_pixels_outside_glass_mask_over_one_level": 0,
+    "glass_core_min": [
+      127,
+      127,
+      255
+    ],
+    "glass_core_max": [
+      128,
+      128,
+      255
+    ]
+  },
+  {
+    "map": "roughness",
+    "changed_pixels_outside_glass_mask_over_one_level": 0,
+    "glass_core_min": [
+      25,
+      25,
+      25
+    ],
+    "glass_core_max": [
+      25,
+      25,
+      25
+    ]
+  },
+  {
+    "map": "metallic",
+    "changed_pixels_outside_glass_mask_over_one_level": 0,
+    "glass_core_min": [
+      0,
+      0,
+      0
+    ],
+    "glass_core_max": [
+      0,
+      0,
+      0
+    ]
+  }
+]

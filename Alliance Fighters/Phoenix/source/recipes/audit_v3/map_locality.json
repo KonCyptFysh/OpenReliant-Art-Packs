@@ -1,0 +1,95 @@
+{
+  "locality": [
+    {
+      "map": "basecolor",
+      "changed_pixels_outside_window_edit_mask_over_one_level": 0
+    },
+    {
+      "map": "roughness",
+      "changed_pixels_outside_window_edit_mask_over_one_level": 0
+    },
+    {
+      "map": "metallic",
+      "changed_pixels_outside_window_edit_mask_over_one_level": 0
+    },
+    {
+      "map": "normal",
+      "changed_pixels_outside_window_edit_mask_over_one_level": 0
+    },
+    {
+      "map": "glass",
+      "changed_pixels_outside_window_edit_mask_over_one_level": 0
+    },
+    {
+      "map": "seal",
+      "changed_pixels_outside_window_edit_mask_over_one_level": 0
+    },
+    {
+      "map": "height",
+      "changed_pixels_outside_window_edit_mask_over_one_level": 0
+    },
+    {
+      "map": "structure",
+      "changed_pixels_outside_window_edit_mask_over_one_level": 0
+    },
+    {
+      "map": "panels",
+      "changed_pixels_outside_window_edit_mask_over_one_level": 0
+    },
+    {
+      "map": "paint",
+      "changed_pixels_outside_window_edit_mask_over_one_level": 0
+    }
+  ],
+  "glass_and_seal_inside_triangle": true,
+  "glass_material": {
+    "basecolor": {
+      "core_min": [
+        28,
+        43,
+        37
+      ],
+      "core_max": [
+        28,
+        43,
+        37
+      ]
+    },
+    "roughness": {
+      "core_min": [
+        25,
+        25,
+        25
+      ],
+      "core_max": [
+        26,
+        26,
+        26
+      ]
+    },
+    "metallic": {
+      "core_min": [
+        0,
+        0,
+        0
+      ],
+      "core_max": [
+        0,
+        0,
+        0
+      ]
+    },
+    "normal": {
+      "core_min": [
+        49,
+        49,
+        224
+      ],
+      "core_max": [
+        157,
+        208,
+        255
+      ]
+    }
+  }
+}

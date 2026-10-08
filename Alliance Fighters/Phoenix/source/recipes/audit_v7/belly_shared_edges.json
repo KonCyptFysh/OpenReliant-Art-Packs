@@ -1,0 +1,189 @@
+[
+  {
+    "faces": [
+      128,
+      3
+    ],
+    "edge": [
+      0,
+      5
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      128,
+      121
+    ],
+    "edge": [
+      5,
+      6
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      3,
+      4
+    ],
+    "edge": [
+      0,
+      4
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      4,
+      127
+    ],
+    "edge": [
+      2,
+      4
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      5,
+      6
+    ],
+    "edge": [
+      8,
+      16
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      6,
+      7
+    ],
+    "edge": [
+      8,
+      14
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      7,
+      122
+    ],
+    "edge": [
+      8,
+      15
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      8,
+      121
+    ],
+    "edge": [
+      6,
+      18
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      8,
+      9
+    ],
+    "edge": [
+      6,
+      17
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      9,
+      10
+    ],
+    "edge": [
+      6,
+      19
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      127,
+      122
+    ],
+    "edge": [
+      4,
+      8
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      121,
+      124
+    ],
+    "edge": [
+      5,
+      18
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      122,
+      123
+    ],
+    "edge": [
+      4,
+      15
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      123,
+      126
+    ],
+    "edge": [
+      15,
+      92
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      124,
+      125
+    ],
+    "edge": [
+      18,
+      93
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      125,
+      95
+    ],
+    "edge": [
+      20,
+      93
+    ],
+    "max_uv_gap_pixels": 0.0
+  },
+  {
+    "faces": [
+      126,
+      95
+    ],
+    "edge": [
+      20,
+      92
+    ],
+    "max_uv_gap_pixels": 0.0
+  }
+]

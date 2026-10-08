@@ -1,0 +1,26 @@
+[
+  {
+    "file": "USPF_Phx.SHP",
+    "exit_status": 0,
+    "output": "ok: 3 parts, 928 vertices, 1532 faces\nbounds: 2 oriented 1 permuted\nwritten again: the same bytes\n",
+    "sha256": "e9507773a8cdf66bb2c450c3f792493e09982b2c6d22d981c5dba3bffe2f31ef"
+  },
+  {
+    "file": "t_USPF_Phx.SHP",
+    "exit_status": 0,
+    "output": "ok: 3 parts, 928 vertices, 1532 faces\nbounds: 2 oriented 1 permuted\nwritten again: the same bytes\n",
+    "sha256": "66a4c9de0bb36565fa6006ad6e54358bae3df1f08ecb01659161f1eb1423295d"
+  },
+  {
+    "file": "Phoenix_gun.SHP",
+    "exit_status": 0,
+    "output": "ok: 13 parts, 741 vertices, 1456 faces\nbounds: 13 model_space\nwritten again: the same bytes\n",
+    "sha256": "b4bbc6a69e3012b722ecd5c1b81f01c84848ae603b3ff38e4db1e4fbbe819cc1"
+  },
+  {
+    "file": "mission990.dte",
+    "exit_status": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "ab1e9efc5578750bbdec4079f240ed0d21840a52d065c9cf49e4b5eee5198775"
+  }
+]

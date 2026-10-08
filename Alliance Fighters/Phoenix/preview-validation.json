@@ -1,0 +1,64 @@
+{
+  "model": "USPF_Phx.SHP",
+  "model_sha256": "2b57b2165aeaae669cddce5120d396eb5753b9fa881e736479f5c6f5f6145bc0",
+  "preview_sha256": "1a1a53ed5b237d51c070279c492a7a89cc0e7c727166a6d2f78ffa26038e9153",
+  "preview_bytes": 2156044,
+  "highest_detail_geometry": true,
+  "textures": [
+    {
+      "runtime_file": "orpx1_hull.png",
+      "sha256": "8bbb7d29d6334afc10d2ffb3ef352df9e9f3b1b0c402c4fdf2a1e2dbc42465c4",
+      "kind": "base",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orpx1_hull_normal.png",
+      "sha256": "7104a734fc6d71a909087137e856e7b463ce3d27ed60a4287363f2a007a533cd",
+      "kind": "normal",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orpx1_hull_orm.png",
+      "sha256": "a835ed25839ab2a75af9b24ce96203bfbf9b95999dc6fb3b80e8a5ab2d42c4a5",
+      "kind": "orm",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orpx7_fix.png",
+      "sha256": "582db7d0a18e8bdaadafb0bb2db0720c85657fe8bd3bb1db3d1a57ca348f12cf",
+      "kind": "base",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orpx7_fix_normal.png",
+      "sha256": "b3e6de0aa428a9157fb89c71db99184863c6997dcff79fe1c0502152d51e7fdd",
+      "kind": "normal",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orpx7_fix_orm.png",
+      "sha256": "72227049de611c3bca062a8bd1e6275590458de5b74262cb8f1d532c63373353",
+      "kind": "orm",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "limitations": "Viewing copy with reduced texture resolution and browser lighting; in-game screenshots show actual engine appearance."
+}

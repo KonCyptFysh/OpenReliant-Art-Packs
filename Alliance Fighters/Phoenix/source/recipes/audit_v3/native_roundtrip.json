@@ -1,0 +1,26 @@
+[
+  {
+    "file": "USPF_Phx.SHP",
+    "matched_lod0_faces": 494,
+    "changed_uv_faces_since_v2": 2,
+    "max_corner_uv_error": 2.9802322387695312e-08,
+    "unchanged_other_chunks": 93,
+    "geometry_normals_attachments_animation_damage_flags_and_lower_lods_preserved": true
+  },
+  {
+    "file": "t_USPF_Phx.SHP",
+    "matched_lod0_faces": 494,
+    "changed_uv_faces_since_v2": 2,
+    "max_corner_uv_error": 2.9802322387695312e-08,
+    "unchanged_other_chunks": 93,
+    "geometry_normals_attachments_animation_damage_flags_and_lower_lods_preserved": true
+  },
+  {
+    "file": "Phoenix_gun.SHP",
+    "matched_lod0_faces": 494,
+    "changed_uv_faces_since_v2": 2,
+    "max_corner_uv_error": 2.9802322387695312e-08,
+    "unchanged_other_chunks": 104,
+    "geometry_normals_attachments_animation_damage_flags_and_lower_lods_preserved": true
+  }
+]

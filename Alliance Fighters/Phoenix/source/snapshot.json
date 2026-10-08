@@ -1,0 +1,92 @@
+{
+  "source": "authoring://phoenix_worn_surfaces_v7.blend",
+  "canonical_sha256_before": "e70ca94a489ceb0a6945cc4df9043ba1ae4917a76e82ec4e0da0d6161538fd8e",
+  "canonical_sha256_after": "e70ca94a489ceb0a6945cc4df9043ba1ae4917a76e82ec4e0da0d6161538fd8e",
+  "snapshot": "phoenix_worn_surfaces_v7.blend",
+  "snapshot_sha256": "643cd1cf44e1446217dcf026d7f661a8394942045b400e2ce8c8effbd914e384",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "geometry_signature": "c931b9c5554055540d6b0dfa7941e94b8b374a431894d550b7fc7c5589ffbeda",
+  "packed_and_relative_resources_verified": true,
+  "images": [
+    {
+      "image": "phoenix_hull_metallic_4k_v7.png",
+      "source": "authoring://maps/audit_v7/phoenix_hull_metallic_4k_v7.png",
+      "path": "resources/568b30beea82_phoenix_hull_metallic_4k_v7.png",
+      "sha256": "568b30beea822d4da43164c07b481175f5ab7399707eb571d7e9bde347c3c35c",
+      "canonical_disk_sha256": "568b30beea822d4da43164c07b481175f5ab7399707eb571d7e9bde347c3c35c",
+      "packed_matches_disk": true,
+      "bytes": 20091039,
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "phoenix_hull_normal_4k_v7.png",
+      "source": "authoring://maps/audit_v7/phoenix_hull_normal_4k_v7.png",
+      "path": "resources/7104a734fc6d_phoenix_hull_normal_4k_v7.png",
+      "sha256": "7104a734fc6d71a909087137e856e7b463ce3d27ed60a4287363f2a007a533cd",
+      "canonical_disk_sha256": "7104a734fc6d71a909087137e856e7b463ce3d27ed60a4287363f2a007a533cd",
+      "packed_matches_disk": true,
+      "bytes": 1554385,
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "phoenix_hull_roughness_4k_v7.png",
+      "source": "authoring://maps/audit_v7/phoenix_hull_roughness_4k_v7.png",
+      "path": "resources/2e4f157869e0_phoenix_hull_roughness_4k_v7.png",
+      "sha256": "2e4f157869e0458e684e097a8f91c5652de0dc7867bceb0464975374a5e0cd4a",
+      "canonical_disk_sha256": "2e4f157869e0458e684e097a8f91c5652de0dc7867bceb0464975374a5e0cd4a",
+      "packed_matches_disk": true,
+      "bytes": 29096120,
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "phoenix_surfaces_basecolor_4k_v7.png",
+      "source": "authoring://maps/audit_v7/phoenix_surfaces_basecolor_4k_v7.png",
+      "path": "resources/582db7d0a18e_phoenix_surfaces_basecolor_4k_v7.png",
+      "sha256": "582db7d0a18e8bdaadafb0bb2db0720c85657fe8bd3bb1db3d1a57ca348f12cf",
+      "canonical_disk_sha256": "582db7d0a18e8bdaadafb0bb2db0720c85657fe8bd3bb1db3d1a57ca348f12cf",
+      "packed_matches_disk": true,
+      "bytes": 26033274,
+      "colorspace": "sRGB"
+    },
+    {
+      "image": "phoenix_surfaces_metallic_4k_v7.png",
+      "source": "authoring://maps/audit_v7/phoenix_surfaces_metallic_4k_v7.png",
+      "path": "resources/3b49a842b10e_phoenix_surfaces_metallic_4k_v7.png",
+      "sha256": "3b49a842b10e8a4ff083666ad44ee0865348c3802c31a58eb2e994a8f941dfad",
+      "canonical_disk_sha256": "3b49a842b10e8a4ff083666ad44ee0865348c3802c31a58eb2e994a8f941dfad",
+      "packed_matches_disk": true,
+      "bytes": 2406369,
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "phoenix_surfaces_normal_4k_v7.png",
+      "source": "authoring://maps/audit_v7/phoenix_surfaces_normal_4k_v7.png",
+      "path": "resources/b3e6de0aa428_phoenix_surfaces_normal_4k_v7.png",
+      "sha256": "b3e6de0aa428a9157fb89c71db99184863c6997dcff79fe1c0502152d51e7fdd",
+      "canonical_disk_sha256": "b3e6de0aa428a9157fb89c71db99184863c6997dcff79fe1c0502152d51e7fdd",
+      "packed_matches_disk": true,
+      "bytes": 1476665,
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "phoenix_surfaces_roughness_4k_v7.png",
+      "source": "authoring://maps/audit_v7/phoenix_surfaces_roughness_4k_v7.png",
+      "path": "resources/59a766fcf436_phoenix_surfaces_roughness_4k_v7.png",
+      "sha256": "59a766fcf436e03939846c8bca79e03c3998de36779076b7651444fcc1eb1997",
+      "canonical_disk_sha256": "59a766fcf436e03939846c8bca79e03c3998de36779076b7651444fcc1eb1997",
+      "packed_matches_disk": true,
+      "bytes": 2657468,
+      "colorspace": "Non-Color"
+    },
+    {
+      "image": "phoenix_worn_basecolor_4k_v6.png",
+      "source": "authoring://maps/phoenix_worn_basecolor_4k_v6.png",
+      "path": "resources/8bbb7d29d633_phoenix_worn_basecolor_4k_v6.png",
+      "sha256": "8bbb7d29d6334afc10d2ffb3ef352df9e9f3b1b0c402c4fdf2a1e2dbc42465c4",
+      "canonical_disk_sha256": "8bbb7d29d6334afc10d2ffb3ef352df9e9f3b1b0c402c4fdf2a1e2dbc42465c4",
+      "packed_matches_disk": true,
+      "bytes": 76034680,
+      "colorspace": "sRGB"
+    }
+  ]
+}
