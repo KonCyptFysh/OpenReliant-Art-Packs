@@ -10,36 +10,6 @@
     "sha256": "2b57b2165aeaae669cddce5120d396eb5753b9fa881e736479f5c6f5f6145bc0"
   },
   {
-    "path": "mods/98-phoenix-worn-v1/gorpx1_hull.png",
-    "bytes": 76034680,
-    "sha256": "8bbb7d29d6334afc10d2ffb3ef352df9e9f3b1b0c402c4fdf2a1e2dbc42465c4"
-  },
-  {
-    "path": "mods/98-phoenix-worn-v1/gorpx1_hull_normal.png",
-    "bytes": 1554385,
-    "sha256": "7104a734fc6d71a909087137e856e7b463ce3d27ed60a4287363f2a007a533cd"
-  },
-  {
-    "path": "mods/98-phoenix-worn-v1/gorpx1_hull_orm.png",
-    "bytes": 10345703,
-    "sha256": "a835ed25839ab2a75af9b24ce96203bfbf9b95999dc6fb3b80e8a5ab2d42c4a5"
-  },
-  {
-    "path": "mods/98-phoenix-worn-v1/gorpx7_fix.png",
-    "bytes": 26033274,
-    "sha256": "582db7d0a18e8bdaadafb0bb2db0720c85657fe8bd3bb1db3d1a57ca348f12cf"
-  },
-  {
-    "path": "mods/98-phoenix-worn-v1/gorpx7_fix_normal.png",
-    "bytes": 1476665,
-    "sha256": "b3e6de0aa428a9157fb89c71db99184863c6997dcff79fe1c0502152d51e7fdd"
-  },
-  {
-    "path": "mods/98-phoenix-worn-v1/gorpx7_fix_orm.png",
-    "bytes": 1159119,
-    "sha256": "72227049de611c3bca062a8bd1e6275590458de5b74262cb8f1d532c63373353"
-  },
-  {
     "path": "mods/98-phoenix-worn-v1/license.txt",
     "bytes": 420,
     "sha256": "33fb36026018e5c2435c084ee70fb0d2abb96b6a64e084fba064efb4e2e92977"
@@ -52,7 +22,7 @@
   {
     "path": "mods/98-phoenix-worn-v1/mod.ini",
     "bytes": 309,
-    "sha256": "372c73f036fbd76b387049bb77cdb53a1b11129f47918d95db1fee1bf00fc6c4"
+    "sha256": "5bd21a8fbe0d559537b18a062d781dd0d9ffff8501a5b661e290419151f342ef"
   },
   {
     "path": "mods/98-phoenix-worn-v1/mod.png",

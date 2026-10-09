@@ -1,0 +1,1892 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-08T12:55:06.958548+00:00",
+  "asset_revision": "1.1",
+  "engine_build": "Official OpenReliant 0.7.0",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "runtime_launched": true,
+  "runtime_visual_review": "v1.1-user-approved-for-beta",
+  "user_approved": true,
+  "native_checks": [
+    {
+      "file": "German_grendal.SHP",
+      "exit_status": 0,
+      "output": "ok: 12 parts, 1379 vertices, 1989 faces\nbounds: 10 oriented 2 permuted\nwritten again: the same bytes\n",
+      "sha256": "af7e3d0bbdc38f8929d3cbca3ca60324b11265d6552a47a603c32dc1106177c9"
+    },
+    {
+      "file": "Grendal_gun.SHP",
+      "exit_status": 0,
+      "output": "ok: 15 parts, 628 vertices, 1216 faces\nbounds: 15 model_space\nwritten again: the same bytes\n",
+      "sha256": "078014cc58d2d56c89d6e6524855398809d784dc575f2f37381de70709e68a73"
+    },
+    {
+      "file": "t_German_grendal.SHP",
+      "exit_status": 0,
+      "output": "ok: 12 parts, 1379 vertices, 1989 faces\nbounds: 10 oriented 2 permuted\nwritten again: the same bytes\n",
+      "sha256": "58ce4c595f271ca655cd7a2fc9e313e88c33dbca76fc5aecfbe7d705c7a349a7"
+    },
+    {
+      "file": "mission992.dte",
+      "exit_status": 0,
+      "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+      "sha256": "e51c2c64d49369c63668ad63b1fbfd85bed9849169b9f21efcd5acd8631e317b"
+    }
+  ],
+  "native_preservation": [
+    {
+      "file": "German_grendal.SHP",
+      "source_sha256": "543198f867d845ccf86e92902a0690086f5fee2f106cfeac3c0e1864271f1e7a",
+      "delivered_sha256": "af7e3d0bbdc38f8929d3cbca3ca60324b11265d6552a47a603c32dc1106177c9",
+      "modified_finest_LOD_uv_faces": [
+        {
+          "part": "Grendal_Body",
+          "face": 218,
+          "canonical_face": 218
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 219,
+          "canonical_face": 219
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 220,
+          "canonical_face": 220
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 221,
+          "canonical_face": 221
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 222,
+          "canonical_face": 222
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 243,
+          "canonical_face": 243
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 244,
+          "canonical_face": 244
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 245,
+          "canonical_face": 245
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 246,
+          "canonical_face": 246
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 247,
+          "canonical_face": 247
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 248,
+          "canonical_face": 248
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 311,
+          "canonical_face": 311
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 312,
+          "canonical_face": 312
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 313,
+          "canonical_face": 313
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 314,
+          "canonical_face": 314
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 315,
+          "canonical_face": 315
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 320,
+          "canonical_face": 320
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 324,
+          "canonical_face": 324
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 325,
+          "canonical_face": 325
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 326,
+          "canonical_face": 326
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 327,
+          "canonical_face": 327
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 328,
+          "canonical_face": 328
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 329,
+          "canonical_face": 329
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 330,
+          "canonical_face": 330
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 370,
+          "canonical_face": 370
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 377,
+          "canonical_face": 377
+        },
+        {
+          "part": "Grendal_Rear_Gun_Barrel",
+          "face": 18,
+          "canonical_face": 18
+        },
+        {
+          "part": "Grendal_Rear_Gun_Barrel",
+          "face": 19,
+          "canonical_face": 19
+        },
+        {
+          "part": "Gun_Flap_1",
+          "face": 0,
+          "canonical_face": 0
+        },
+        {
+          "part": "Gun_Flap_1",
+          "face": 4,
+          "canonical_face": 4
+        },
+        {
+          "part": "Gun_Flap_1",
+          "face": 5,
+          "canonical_face": 5
+        },
+        {
+          "part": "Gun_Flap_1",
+          "face": 7,
+          "canonical_face": 7
+        },
+        {
+          "part": "Gun_Flap_2",
+          "face": 0,
+          "canonical_face": 0
+        },
+        {
+          "part": "Gun_Flap_2",
+          "face": 4,
+          "canonical_face": 4
+        },
+        {
+          "part": "Gun_Flap_2",
+          "face": 5,
+          "canonical_face": 5
+        },
+        {
+          "part": "Gun_Flap_2",
+          "face": 7,
+          "canonical_face": 7
+        },
+        {
+          "part": "Gun_Flap_3",
+          "face": 2,
+          "canonical_face": 2
+        },
+        {
+          "part": "Gun_Flap_3",
+          "face": 3,
+          "canonical_face": 3
+        },
+        {
+          "part": "Gun_Flap_3",
+          "face": 5,
+          "canonical_face": 5
+        },
+        {
+          "part": "Gun_Flap_3",
+          "face": 7,
+          "canonical_face": 7
+        },
+        {
+          "part": "Gun_Flap_4",
+          "face": 2,
+          "canonical_face": 2
+        },
+        {
+          "part": "Gun_Flap_4",
+          "face": 3,
+          "canonical_face": 3
+        },
+        {
+          "part": "Gun_Flap_4",
+          "face": 5,
+          "canonical_face": 5
+        },
+        {
+          "part": "Gun_Flap_4",
+          "face": 7,
+          "canonical_face": 7
+        }
+      ],
+      "max_uv_roundtrip_error": 2.9802322387695312e-08,
+      "material_replacements": [
+        {
+          "part": 0,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 5,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 6,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 7,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 8,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 1,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 5,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 5,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 5,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 6,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 5,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 6,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 8,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 9,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 10,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 11,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        }
+      ],
+      "geometry_normals_attachments_animations_damage_and_lower_LODs_preserved": true,
+      "all_unselected_face_fields_byte_identical": true
+    },
+    {
+      "file": "t_German_grendal.SHP",
+      "source_sha256": "b570f70886c9b7869d56b166d5758f96d683f29fd6e560334f7370ebaef2f4e0",
+      "delivered_sha256": "58ce4c595f271ca655cd7a2fc9e313e88c33dbca76fc5aecfbe7d705c7a349a7",
+      "modified_finest_LOD_uv_faces": [
+        {
+          "part": "Grendal_Body",
+          "face": 218,
+          "canonical_face": 218
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 219,
+          "canonical_face": 219
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 220,
+          "canonical_face": 220
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 221,
+          "canonical_face": 221
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 222,
+          "canonical_face": 222
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 243,
+          "canonical_face": 243
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 244,
+          "canonical_face": 244
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 245,
+          "canonical_face": 245
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 246,
+          "canonical_face": 246
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 247,
+          "canonical_face": 247
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 248,
+          "canonical_face": 248
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 311,
+          "canonical_face": 311
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 312,
+          "canonical_face": 312
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 313,
+          "canonical_face": 313
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 314,
+          "canonical_face": 314
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 315,
+          "canonical_face": 315
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 320,
+          "canonical_face": 320
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 324,
+          "canonical_face": 329
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 325,
+          "canonical_face": 328
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 326,
+          "canonical_face": 327
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 327,
+          "canonical_face": 326
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 328,
+          "canonical_face": 325
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 329,
+          "canonical_face": 324
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 330,
+          "canonical_face": 330
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 370,
+          "canonical_face": 370
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 377,
+          "canonical_face": 377
+        },
+        {
+          "part": "Grendal_Rear_Gun_Barrel",
+          "face": 18,
+          "canonical_face": 18
+        },
+        {
+          "part": "Grendal_Rear_Gun_Barrel",
+          "face": 19,
+          "canonical_face": 19
+        },
+        {
+          "part": "Gun_Flap_1",
+          "face": 0,
+          "canonical_face": 7
+        },
+        {
+          "part": "Gun_Flap_1",
+          "face": 2,
+          "canonical_face": 5
+        },
+        {
+          "part": "Gun_Flap_1",
+          "face": 3,
+          "canonical_face": 4
+        },
+        {
+          "part": "Gun_Flap_1",
+          "face": 7,
+          "canonical_face": 0
+        },
+        {
+          "part": "Gun_Flap_2",
+          "face": 0,
+          "canonical_face": 7
+        },
+        {
+          "part": "Gun_Flap_2",
+          "face": 2,
+          "canonical_face": 5
+        },
+        {
+          "part": "Gun_Flap_2",
+          "face": 3,
+          "canonical_face": 4
+        },
+        {
+          "part": "Gun_Flap_2",
+          "face": 7,
+          "canonical_face": 0
+        },
+        {
+          "part": "Gun_Flap_3",
+          "face": 0,
+          "canonical_face": 7
+        },
+        {
+          "part": "Gun_Flap_3",
+          "face": 2,
+          "canonical_face": 5
+        },
+        {
+          "part": "Gun_Flap_3",
+          "face": 4,
+          "canonical_face": 3
+        },
+        {
+          "part": "Gun_Flap_3",
+          "face": 5,
+          "canonical_face": 2
+        },
+        {
+          "part": "Gun_Flap_4",
+          "face": 0,
+          "canonical_face": 7
+        },
+        {
+          "part": "Gun_Flap_4",
+          "face": 2,
+          "canonical_face": 5
+        },
+        {
+          "part": "Gun_Flap_4",
+          "face": 4,
+          "canonical_face": 3
+        },
+        {
+          "part": "Gun_Flap_4",
+          "face": 5,
+          "canonical_face": 2
+        }
+      ],
+      "max_uv_roundtrip_error": 2.9802322387695312e-08,
+      "material_replacements": [
+        {
+          "part": 0,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 0,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 1,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 2,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 3,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 4,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 5,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 5,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 6,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 6,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 7,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 7,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 8,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 0,
+          "lod": 8,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 1,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 1,
+          "lod": 0,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 0,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 1,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 2,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 3,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 4,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 0,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 1,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 2,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 3,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 4,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 0,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 1,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 2,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 3,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 4,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 5,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 5,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 0,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 1,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 2,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 3,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 4,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 5,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 5,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 0,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 1,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 2,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 3,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 4,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 5,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 5,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 6,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 6,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 0,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 1,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 1,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 2,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 2,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 3,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 3,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 4,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 4,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 5,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 5,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 6,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 6,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 8,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 8,
+          "lod": 0,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 9,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 9,
+          "lod": 0,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 10,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 10,
+          "lod": 0,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 11,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 11,
+          "lod": 0,
+          "old": "t_Grendal",
+          "new": "orgr1_hull"
+        }
+      ],
+      "geometry_normals_attachments_animations_damage_and_lower_LODs_preserved": true,
+      "all_unselected_face_fields_byte_identical": true
+    },
+    {
+      "file": "Grendal_gun.SHP",
+      "source_sha256": "2d86464b3b170f17e3cecf51b52504e40a0356b64bf9f539670456e5b8c0db6e",
+      "delivered_sha256": "078014cc58d2d56c89d6e6524855398809d784dc575f2f37381de70709e68a73",
+      "modified_finest_LOD_uv_faces": [
+        {
+          "part": "Grendal_Body",
+          "face": 308,
+          "canonical_face": 320
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 312,
+          "canonical_face": 329
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 313,
+          "canonical_face": 330
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 314,
+          "canonical_face": 218
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 315,
+          "canonical_face": 219
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 316,
+          "canonical_face": 326
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 317,
+          "canonical_face": 325
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 318,
+          "canonical_face": 327
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 319,
+          "canonical_face": 328
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 320,
+          "canonical_face": 220
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 321,
+          "canonical_face": 221
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 322,
+          "canonical_face": 222
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 323,
+          "canonical_face": 324
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 398,
+          "canonical_face": 377
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 402,
+          "canonical_face": 248
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 403,
+          "canonical_face": 370
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 404,
+          "canonical_face": 315
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 405,
+          "canonical_face": 314
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 406,
+          "canonical_face": 245
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 407,
+          "canonical_face": 244
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 408,
+          "canonical_face": 246
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 409,
+          "canonical_face": 247
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 410,
+          "canonical_face": 313
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 411,
+          "canonical_face": 312
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 412,
+          "canonical_face": 311
+        },
+        {
+          "part": "Grendal_Body",
+          "face": 413,
+          "canonical_face": 243
+        },
+        {
+          "part": "Grendal_Rear_Gun_Barrel",
+          "face": 18,
+          "canonical_face": 18
+        },
+        {
+          "part": "Grendal_Rear_Gun_Barrel",
+          "face": 19,
+          "canonical_face": 19
+        },
+        {
+          "part": "Gun_Flap_1",
+          "face": 1,
+          "canonical_face": 5
+        },
+        {
+          "part": "Gun_Flap_1",
+          "face": 2,
+          "canonical_face": 4
+        },
+        {
+          "part": "Gun_Flap_1",
+          "face": 3,
+          "canonical_face": 7
+        },
+        {
+          "part": "Gun_Flap_1",
+          "face": 4,
+          "canonical_face": 0
+        },
+        {
+          "part": "Gun_Flap_2",
+          "face": 1,
+          "canonical_face": 5
+        },
+        {
+          "part": "Gun_Flap_2",
+          "face": 2,
+          "canonical_face": 4
+        },
+        {
+          "part": "Gun_Flap_2",
+          "face": 3,
+          "canonical_face": 7
+        },
+        {
+          "part": "Gun_Flap_2",
+          "face": 4,
+          "canonical_face": 0
+        },
+        {
+          "part": "Gun_Flap_3",
+          "face": 1,
+          "canonical_face": 7
+        },
+        {
+          "part": "Gun_Flap_3",
+          "face": 2,
+          "canonical_face": 3
+        },
+        {
+          "part": "Gun_Flap_3",
+          "face": 3,
+          "canonical_face": 5
+        },
+        {
+          "part": "Gun_Flap_3",
+          "face": 4,
+          "canonical_face": 2
+        },
+        {
+          "part": "Gun_Flap_4",
+          "face": 1,
+          "canonical_face": 7
+        },
+        {
+          "part": "Gun_Flap_4",
+          "face": 2,
+          "canonical_face": 3
+        },
+        {
+          "part": "Gun_Flap_4",
+          "face": 3,
+          "canonical_face": 5
+        },
+        {
+          "part": "Gun_Flap_4",
+          "face": 4,
+          "canonical_face": 2
+        }
+      ],
+      "max_uv_roundtrip_error": 2.9802322387695312e-08,
+      "material_replacements": [
+        {
+          "part": 0,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 1,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 2,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 3,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 4,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 5,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 6,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 7,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 8,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 9,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 10,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 11,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 12,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 13,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        },
+        {
+          "part": 14,
+          "lod": 0,
+          "old": "GRENDAL",
+          "new": "orgr1_hull"
+        }
+      ],
+      "geometry_normals_attachments_animations_damage_and_lower_LODs_preserved": true,
+      "all_unselected_face_fields_byte_identical": true
+    }
+  ],
+  "map_checks": {
+    "passed": true,
+    "maps": [
+      {
+        "file": "grendal_hull_basecolor_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "60bcc2f475d83136e2479c306068a9be1fdb6dd4d148a59091dde6aa64f7a0d9"
+      },
+      {
+        "file": "grendal_hull_normal_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "893b3c4d04444187e3a8003404c2c1b89bab5f25a8c9ffc7ac9dc42fea05badf"
+      },
+      {
+        "file": "grendal_hull_roughness_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "ea2dfd35dd01644fdfa938bf28a601d0a9c2849b25925ecb1aa17955f462fb53"
+      },
+      {
+        "file": "grendal_hull_metallic_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "4793af31cf14e8b835387b4241da173b22cecc73c927f076e1c59307f8eba88b"
+      },
+      {
+        "file": "grendal_hull_height_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "241037d38d8f858799989bf5713476900c4b7bb0dfa73dcec737071a6494837e"
+      },
+      {
+        "file": "grendal_hull_glass_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "b1e1cd3dd3443e08db7f817f36f94c2564fc4055485a3b682de14ed4b2e1942a"
+      },
+      {
+        "file": "grendal_hull_seal_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "e047788d22fd9daaaa64e536454618b27a6d86da2f6fb78d374adfa4a939f3ca"
+      },
+      {
+        "file": "grendal_hull_flat_graphics_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "2985fafa90d333fccfd5a18b4538e4ab6ab336dff487ec9fec019dbc09c4bb69"
+      },
+      {
+        "file": "grendal_hull_structure_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "e3207b0013ac899587327336fe0b5e1f5620e41d460848a4284cc8e7eb3fa80d"
+      },
+      {
+        "file": "grendal_hull_fins_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "a837713c09c95bdfdd7ee996c89614602508ee058d80c773df6b189dc01fde6f"
+      },
+      {
+        "file": "grendal_hull_panels_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "67fc1d812782e03ef7401886c4bcf184c5a1949335ec0eab0bee0799d9fa5934"
+      },
+      {
+        "file": "grendal_hull_paint_v1.png",
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "sha256": "f554a8717fd8c563f2d7c42585be355e83793744366fe10c2e12710c0d0443fb"
+      }
+    ],
+    "normal_length_min": 0.9939068555831909,
+    "normal_length_max": 1.0059033632278442,
+    "glass_seal_normal_flat": true,
+    "glass_roughness": 0.16,
+    "glass_metallic": 0,
+    "orm_packing_verified": true,
+    "flight_loadout_maps_identical": true
+  },
+  "source_snapshot_verified": true,
+  "blender_review_angles": [
+    "radiator_close_before",
+    "radiator_close_after",
+    "front",
+    "opposite",
+    "belly"
+  ],
+  "geometry_and_normals_preserved": true,
+  "prior_uv_layers_preserved": true,
+  "changed_uv_faces_per_native_variant": 44,
+  "stored_lod0_triangles": 716,
+  "visible_lod0_triangles": 696,
+  "max_visible_uv_anisotropy": 2.4168649908315425,
+  "tested_platforms": [
+    "Linux x86_64"
+  ],
+  "asset_manifest_sha256": "337e7875605786f865379be5d18d362b806e41e7a23fb9531c33d8663e44e0a1",
+  "source_manifest_sha256": "942096e09d3eef6d14d4023dcd71fcbfcd02b79ca32b7673dcc676abf0933ec3",
+  "checks": [
+    "Official native SHP and DTE format checks passed.",
+    "Decoded normal lengths, flat glazing normals, ORM channels and matching loadout textures verified.",
+    "Portable scene reopened; geometry, UVs, normals and materials match the canonical scene.",
+    "User accepted revision 1.1 and the current radiator treatment for beta publication.",
+    "13 installed runtime files match the repository exports; approval changed only mod.ini text.",
+    "Two publication captures completed in official OpenReliant 0.7.0 with settings unchanged; current approved radiator mapping is visible."
+  ],
+  "remaining_work": [
+    "Gameplay and distance transitions",
+    "Custom emissives deferred"
+  ],
+  "user_feedback": "Initial in-game artwork reviewed positively except for distorted forward-gun radiator collars.",
+  "radiator_uv_faces_per_native_variant": 26,
+  "material_maps_unchanged": true,
+  "unselected_uv_faces_unchanged": true,
+  "radiator_line_check": {
+    "method": "all affected corners share V(z); fin rows remain in constant native-Z planes across triangles and both sides",
+    "shared_z_slope": -0.0014336146802143253,
+    "max_residual": 1.3969210455044845e-08
+  },
+  "maintainer_approval": true,
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-08T12:55:06.958548+00:00",
+    "scope": "Grendal worn artwork revision 1.1, including the accepted radiator UV treatment.",
+    "instruction": "Okay I think that'll ahve to do for now. Ship it to git, then we need to have another look over the Sai.",
+    "qualification": "Radiator treatment accepted for this beta; broader gameplay testing remains open."
+  },
+  "gallery_validation": "gallery-validation.json",
+  "runtime_evidence": {
+    "captures": [
+      "flight-overview",
+      "flight-rear"
+    ],
+    "mission": 992,
+    "ship_type": 2,
+    "exit_status": 0,
+    "engine": "Official OpenReliant 0.7.0",
+    "settings_unchanged": true
+  }
+}

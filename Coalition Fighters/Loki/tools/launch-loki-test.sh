@@ -22,6 +22,6 @@ if [[ "$mode" == cycle ]]; then printf '%s\n' 'Starts folded, then repeatedly mo
 if [[ "$mode" == fighting ]]; then printf '%s\n' 'Allow four seconds for the native animation; the fighting pose then holds.'; fi
 unset XDG_ACTIVATION_TOKEN
 export SDL_VIDEODRIVER="${SDL_VIDEODRIVER:-x11}"
-engine="$install_dir/releases/openreliant-v0.7.0-linux-x86_64/openreliant"
-if [[ ! -x "$engine" ]]; then printf '%s\n' 'Official OpenReliant 0.7.0 is required for this review launcher.' >&2; exit 1; fi
+engine="$install_dir/releases/openreliant-v0.8.1-linux-x86_64/openreliant"
+if [[ ! -x "$engine" ]]; then printf '%s\n' 'Official OpenReliant 0.8.1 is required for this review launcher.' >&2; exit 1; fi
 exec "$engine" "$install_dir/game-data" --mission "$mission" --ship 65 --view 1 --no-sound --size 1920x1080 --fps 60 "$@"

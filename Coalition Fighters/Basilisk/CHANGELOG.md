@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-beta.2 — OpenReliant 0.8.1 compatibility and smaller package
+
+- Requires official OpenReliant 0.8.1; updates inspection launchers and package metadata.
+- Removes 6 duplicate green/red loadout texture files (25,943,599 bytes); keeps original unprefixed PNG material maps unchanged.
+- Preserves all current model, UV, animation and authored material bytes.
+
+
 ## 0.1.0-beta.1 - 9 October 2026
 
 - Published approved artwork 1.3 as an individual Coalition Fighters beta.

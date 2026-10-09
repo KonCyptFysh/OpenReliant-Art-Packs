@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-beta.2 — OpenReliant 0.8.1 compatibility and smaller package
+
+- Requires official OpenReliant 0.8.1; updates inspection launchers and package metadata.
+- Removes 9 duplicate green/red loadout texture files (147,287,229 bytes); keeps original unprefixed PNG material maps unchanged.
+- Preserves all current model, UV, animation and authored material bytes.
+
+
 ## 0.1.0-beta.1
 
 First individual Patriot v3 beta, approved by the maintainer, displayed as **Patriot - Worn Paint**. Includes editable sources, both native model variants, the three PBR map families, and CC-BY-NC-SA-4.0 metadata and notice for original contributions.

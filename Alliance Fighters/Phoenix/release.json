@@ -1,14 +1,14 @@
 {
   "package_name": "openreliant-phoenix",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "asset_revision": "7.0",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "98-phoenix-worn-v1"
   ],
-  "asset_manifest_sha256": "3e3a6e8820e4844204337a3d7c984c68d44661df23987161c3de0f0f8cf1d6c0",
+  "asset_manifest_sha256": "9c59943b0203c36292a1627050e6c342daf5da5be29665b85ac1a532550ff121",
   "source_manifest_sha256": "03fb71cf9a8c16bbb3483cb31c60d1fdf6df57a091ea69ccb373a27846ca2397",
   "channel": "beta",
   "include_documents": [
@@ -21,7 +21,9 @@
     "asset-manifest.json",
     "validation.json",
     "release.json",
-    "tools/launch-phoenix-test.sh"
+    "tools/launch-phoenix-test.sh",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
   "user_approved": true,
   "approval": {

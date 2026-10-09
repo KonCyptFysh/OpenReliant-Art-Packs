@@ -3,11 +3,11 @@
   "version": "0.1.0-beta.2",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "95-naginata-worn-v1"
   ],
-  "asset_manifest_sha256": "9da649cad11089c9bdb5c42dc7d8eda67c893cacd17358e56bb54bed762b60de",
+  "asset_manifest_sha256": "4d0d98fe56d11b9deef805d648ea8d6e301c73c63fce8184e3ffedf0ecdfb6b3",
   "include_documents": [
     "README.md",
     "INSTALL.md",
@@ -17,7 +17,11 @@
     "LICENSING.md",
     "asset-manifest.json",
     "validation.json",
-    "release.json"
+    "release.json",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
-  "channel": "beta"
+  "channel": "beta",
+  "asset_revision": "4.0",
+  "source_manifest_sha256": "3dcb5063d40a54c57841c67c083004dca4384b93907d75291f0719a1e83fe20a"
 }

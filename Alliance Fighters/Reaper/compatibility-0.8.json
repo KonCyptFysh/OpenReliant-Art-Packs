@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "3.1",
+  "previous_release": "reaper-v0.1.0-beta.1",
+  "new_release": "reaper-v0.1.0-beta.2",
+  "previous_asset_manifest_sha256": "8befc8c27e4415592d0687afcc091011617307d6e2c3f0a3a1086828938748cc",
+  "removed_variants": [
+    {
+      "path": "mods/50-reaper-worn-v3/gorrp3_hull.png",
+      "base": "mods/50-reaper-worn-v3/orrp3_hull.png",
+      "bytes": 18854455,
+      "sha256": "527ad5b80ddd7f757ae1973f0e64c78e7da547fa68858cc5e5236a4821f6e5b1"
+    },
+    {
+      "path": "mods/50-reaper-worn-v3/gorrp3_hull_normal.png",
+      "base": "mods/50-reaper-worn-v3/orrp3_hull_normal.png",
+      "bytes": 28548723,
+      "sha256": "eb543842ce596926551c8aad78ff2b4e3f81448e1a78ccebe1cf949e41d1fff2"
+    },
+    {
+      "path": "mods/50-reaper-worn-v3/gorrp3_hull_orm.png",
+      "base": "mods/50-reaper-worn-v3/orrp3_hull_orm.png",
+      "bytes": 12355459,
+      "sha256": "6141e06ae6ea83adcfb61bdbd288c296dbf25a83741d552374c2da216a643e00"
+    }
+  ],
+  "removed_bytes": 59758637,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "dedb03764f442b6abded4f48ca93ff0e3ebd8458edab10dea3e499610106a576",
+  "native_checks": [
+    {
+      "path": "mods/50-reaper-worn-v3/USHF_Reaper.SHP",
+      "sha256": "4bc412d789aa4e87eb1adfd53ab3c8ce2ee6afd02314e6a660d827ccdd054e1e",
+      "exit_code": 0,
+      "log_sha256": "b1b2a84ed4bbc9ec43eaac09f41439b3c7178c50482afd863d5824b112b7bc5a"
+    },
+    {
+      "path": "mods/50-reaper-worn-v3/t_USHF_Reaper.SHP",
+      "sha256": "89899e77d86161c2359d5923d442836a5998a4d9f43cbc1d336866cc15baedac",
+      "exit_code": 0,
+      "log_sha256": "b1b2a84ed4bbc9ec43eaac09f41439b3c7178c50482afd863d5824b112b7bc5a"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:11:57.866240+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "orrp3_hull",
+        "exit_code": 0,
+        "base_sha256": "527ad5b80ddd7f757ae1973f0e64c78e7da547fa68858cc5e5236a4821f6e5b1",
+        "normal_sha256": "eb543842ce596926551c8aad78ff2b4e3f81448e1a78ccebe1cf949e41d1fff2",
+        "orm_sha256": "6141e06ae6ea83adcfb61bdbd288c296dbf25a83741d552374c2da216a643e00",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "59ee801e65c036c529a02920d37c6a91c0398f98ff9c66255e351e2f85357796"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

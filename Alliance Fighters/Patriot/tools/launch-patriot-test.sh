@@ -11,4 +11,4 @@ if [[ ! -f "$install_dir/game-data/mods/96-patriot-worn-v1/mission992.dte" ]]; t
     exit 1
 fi
 printf '%s\n' 'Patriot inspection: one ship, no enemies or objectives.' 'Press 7 for external orbit; arrow keys rotate; Shift+Up/Down zoom.'
-exec "$install_dir/launch-openreliant.sh" --mission 992 --ship 7 --view 1 "$@"
+exec "$install_dir/releases/openreliant-v0.8.1-linux-x86_64/openreliant" "$install_dir/game-data" --mission 992 --ship 7 --view 1 "$@"

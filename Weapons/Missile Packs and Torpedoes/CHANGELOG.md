@@ -1,5 +1,12 @@
 ## Artwork 1.2 — audit v3, 8 October 2026
 
+## 0.1.0-beta.4 — OpenReliant 0.8.1 compatibility and smaller package
+
+- Requires official OpenReliant 0.8.1; updates inspection launchers and package metadata.
+- Removes 0 duplicate green/red loadout texture files (0 bytes); keeps original unprefixed PNG material maps unchanged.
+- Preserves all current model, UV, animation and authored material bytes.
+
+
 Corrected seven flight families and reused their repairs in loadout. Continuous pod mouth collars, Raptor fin mapping, Jackhammer and Imp ring alignment, Bandit fairing, and restored fuel-pod top. Eighteen approved variants and existing shared maps unchanged. Captured 18 game views; all 32 native models validate. All models approved by the user after in-game review on 8 October 2026.
 
 # Changelog

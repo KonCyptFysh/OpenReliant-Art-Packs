@@ -92,5 +92,12 @@
       "gallery_sha256": "aef1396e87a31ae4f11c64b030e2bed28c75f5ce9816ac40a6845d0092a3cbd4",
       "conversion": "WebP encoding only; no image alterations"
     }
-  ]
+  ],
+  "compatibility_update": {
+    "version": "0.1.0-beta.2",
+    "engine_requirement": "0.8.1",
+    "report": "compatibility-0.8.json",
+    "captured_engine_unchanged": true,
+    "note": "Historical gallery captures keep their recorded engine version. This package update removes generated-colour copies and changes release metadata, while retaining the depicted artwork."
+  }
 }

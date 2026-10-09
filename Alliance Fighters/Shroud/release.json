@@ -3,11 +3,11 @@
   "version": "0.1.0-beta.2",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "80-shroud-worn-v1"
   ],
-  "asset_manifest_sha256": "82528f04218efd82794d347dc070fc9749445c206880dfea1fa4477b176d1be1",
+  "asset_manifest_sha256": "6b233a85c1072fcf4f24e991e8e384b0c6ae2be9b7ce0ba43093a2d033837ec7",
   "include_documents": [
     "README.md",
     "INSTALL.md",
@@ -17,7 +17,11 @@
     "LICENSING.md",
     "asset-manifest.json",
     "validation.json",
-    "release.json"
+    "release.json",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
-  "channel": "beta"
+  "channel": "beta",
+  "asset_revision": "2.0",
+  "source_manifest_sha256": "93d684f24228f7d7109aefaa6f0891a20f4201da7771693202a69f4ef569d3e8"
 }

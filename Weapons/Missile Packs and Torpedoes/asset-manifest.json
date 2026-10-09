@@ -161,8 +161,8 @@
   },
   {
     "path": "mods/97-ordnance-worn-v1/mod.ini",
-    "bytes": 222,
-    "sha256": "7e2d13e7f9be0b34809af357974a7201fa3b663826e22083417b412d07c77f88"
+    "bytes": 226,
+    "sha256": "d175de735bc98c21bf1c6cfdcac9bf21c5b6d81a7e93634e1020eaa1186f905c"
   },
   {
     "path": "mods/97-ordnance-worn-v1/orord1_hull.png",

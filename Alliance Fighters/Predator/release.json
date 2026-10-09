@@ -3,11 +3,11 @@
   "version": "0.1.0-beta.2",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "40-predator-worn-v14"
   ],
-  "asset_manifest_sha256": "d9fd1fdb749e077d10be73519c4df7964cac5ecd60896e0cbdeb6249f4df9f4d",
+  "asset_manifest_sha256": "3afd03cb39f0c146f20faad31e787d328d082f069258ef4f452ea9dbf955532a",
   "include_documents": [
     "README.md",
     "INSTALL.md",
@@ -17,7 +17,11 @@
     "LICENSING.md",
     "asset-manifest.json",
     "validation.json",
-    "release.json"
+    "release.json",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
-  "channel": "beta"
+  "channel": "beta",
+  "asset_revision": "16.1",
+  "source_manifest_sha256": "b049672f478941849f0245868d1750950db6cf0916d5a2153c97de32b8d24b92"
 }

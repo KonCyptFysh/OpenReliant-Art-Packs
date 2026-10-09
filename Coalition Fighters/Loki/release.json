@@ -1,14 +1,14 @@
 {
   "package_name": "openreliant-loki",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "asset_revision": "1.1",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "105-loki-worn-v1"
   ],
-  "asset_manifest_sha256": "5960ff0469404d72ae1dcf1290d4fce510b56715169836c25a2649338bddd325",
+  "asset_manifest_sha256": "4ff0f3f10e79644efab2a9f84de9bbb0a41ba574f7aa02400cf9b2fb7d2426af",
   "source_manifest_sha256": "bd8d01cc8f7f4ea69a1d1b5be1ffc77fbf0377a5e07873cb8962ea32f9106363",
   "channel": "beta",
   "user_approved": true,
@@ -26,7 +26,9 @@
     "tools/launch-loki-folded-test.sh",
     "tools/launch-loki-test.sh",
     "approval.json",
-    "gallery-validation.json"
+    "gallery-validation.json",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
   "approval": {
     "user_approved": true,

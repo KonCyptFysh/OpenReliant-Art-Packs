@@ -7,7 +7,7 @@ else
     install_dir="${OPENRELIANT_HOME:-$HOME/Games/OpenReliant}"
 fi
 review_dir="$install_dir/reviews/ordnance-v1"
-binary="$install_dir/releases/openreliant-v0.7.0-linux-x86_64/openreliant"
+binary="$install_dir/releases/openreliant-v0.8.1-linux-x86_64/openreliant"
 labels=(
     '01 screamer - flight'
     '01 screamer pod - flight'

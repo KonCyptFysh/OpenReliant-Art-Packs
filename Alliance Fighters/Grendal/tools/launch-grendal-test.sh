@@ -11,4 +11,4 @@ if [[ ! -f "$install_dir/game-data/mods/101-grendal-worn-v1/mission992.dte" ]]; 
     exit 1
 fi
 printf '%s\n' 'Grendal inspection: one ship, no enemies or objectives.' 'Press 7 for external orbit; arrow keys rotate; Shift+Up/Down zoom.'
-exec "$install_dir/launch-openreliant.sh" --mission 992 --ship 2 --view 1 --no-sound "$@"
+exec "$install_dir/releases/openreliant-v0.8.1-linux-x86_64/openreliant" "$install_dir/game-data" --mission 992 --ship 2 --view 1 --no-sound "$@"

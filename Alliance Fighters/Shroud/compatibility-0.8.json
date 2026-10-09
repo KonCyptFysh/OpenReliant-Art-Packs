@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "2.0",
+  "previous_release": "shroud-v0.1.0-beta.1",
+  "new_release": "shroud-v0.1.0-beta.2",
+  "previous_asset_manifest_sha256": "82528f04218efd82794d347dc070fc9749445c206880dfea1fa4477b176d1be1",
+  "removed_variants": [
+    {
+      "path": "mods/80-shroud-worn-v1/gorsh1_hull.png",
+      "base": "mods/80-shroud-worn-v1/orsh1_hull.png",
+      "bytes": 24291460,
+      "sha256": "3e51b5b6bf2a0526f6b1e5531d46dccfea01faa9c44e944f121391cff9a3b1aa"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/gorsh1_hull_normal.png",
+      "base": "mods/80-shroud-worn-v1/orsh1_hull_normal.png",
+      "bytes": 1085217,
+      "sha256": "f1b065c2d266e4467759718151ded2859d1b935868e30fe38a3ce771e6d659fa"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/gorsh1_hull_orm.png",
+      "base": "mods/80-shroud-worn-v1/orsh1_hull_orm.png",
+      "bytes": 13684316,
+      "sha256": "e5c349d8cdc666f7ada7d7542afa2864383bdfeecae2b83d7b6df88938641a91"
+    }
+  ],
+  "removed_bytes": 39060993,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "6b233a85c1072fcf4f24e991e8e384b0c6ae2be9b7ce0ba43093a2d033837ec7",
+  "native_checks": [
+    {
+      "path": "mods/80-shroud-worn-v1/Jap_Shroud.SHP",
+      "sha256": "39752a3efc683b4d7b017c61b6545f87d95fe3c7354db205b373813057024ba5",
+      "exit_code": 0,
+      "log_sha256": "5d40aa2902600441ecf18c3fa2ca4f7beab2a64e0e950604424d095c20a320a9"
+    },
+    {
+      "path": "mods/80-shroud-worn-v1/t_Jap_Shroud.SHP",
+      "sha256": "f7e0fbeb9ada6f5f793b7da0a840cd769675ca735c909a3c928d32485582975f",
+      "exit_code": 0,
+      "log_sha256": "5d40aa2902600441ecf18c3fa2ca4f7beab2a64e0e950604424d095c20a320a9"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:12:07.899821+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "orsh1_hull",
+        "exit_code": 0,
+        "base_sha256": "3e51b5b6bf2a0526f6b1e5531d46dccfea01faa9c44e944f121391cff9a3b1aa",
+        "normal_sha256": "f1b065c2d266e4467759718151ded2859d1b935868e30fe38a3ce771e6d659fa",
+        "orm_sha256": "e5c349d8cdc666f7ada7d7542afa2864383bdfeecae2b83d7b6df88938641a91",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "d9a6eb9fd213cfbb681675e60a5c1905fc3e67efecf456815fefe331449fe5eb"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

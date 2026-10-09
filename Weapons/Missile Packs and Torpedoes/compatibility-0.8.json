@@ -1,0 +1,292 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "1.2",
+  "previous_release": "ordnance-v0.1.0-beta.3",
+  "new_release": "ordnance-v0.1.0-beta.4",
+  "previous_asset_manifest_sha256": "c32354caed4fcb0cfee632343b4edf44261d91ee573c76266234302436b96c12",
+  "removed_variants": [],
+  "removed_bytes": 0,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "da61576b9d951bda04a5605cd688b2822d28db92f09e4fcec19f5678e9b4e049",
+  "native_checks": [
+    {
+      "path": "mods/97-ordnance-worn-v1/01_screamer.SHP",
+      "sha256": "d715effd834753dfb99e9e98d1c8e703a6464fff97d2cefebeed43ef1750456a",
+      "exit_code": 0,
+      "log_sha256": "e83beb0047ae2f7a39a45a03d6d7d56605d408a7186b5f134ac0ec63cf1597ab"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/01_screamer_pod.SHP",
+      "sha256": "e27368db64a6b3ad70f61fa136617df162d07ff789bd457470094e0a3bbff7f4",
+      "exit_code": 0,
+      "log_sha256": "453b54392c8a794b32b154c389d8d65652e08337346f03dab67cabc795dc17ff"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/02_raptor.SHP",
+      "sha256": "4079a1c1e6efef8d5244420792a0511b9cb23496bb004f007d10087985c2a99b",
+      "exit_code": 0,
+      "log_sha256": "45f955741515b8c600299327f8210e1926a27c8a411ac422e53b9491d3775f26"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/02_raptor_POD.SHP",
+      "sha256": "0e2fee17891d28c56a03c291e28127050cadbda56a4ba67fdde5b9b8212cf24f",
+      "exit_code": 0,
+      "log_sha256": "c897d2fed0b04b2f8602ab4637465c7749c8b594303b75750c7929902bdeaa9f"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/03_havoc.SHP",
+      "sha256": "778db165b728d70fb8e8bd34042cdeead188e319353bd51f926785d1bd96db01",
+      "exit_code": 0,
+      "log_sha256": "7dd20306994c70f9edb56bf2fb356b8285fb11db4c51a3f1060d03daafde7bdd"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/04_jackhammer.SHP",
+      "sha256": "108a6bf0d20366cda65d5e0b315a0a512cd939c8d3adb2f46644dbd55e2772a0",
+      "exit_code": 0,
+      "log_sha256": "3d3155ea6e5952c5e91b8ec553e4f07d2faa2ebc59fb31f793ced40b70435efe"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/05_bandit.SHP",
+      "sha256": "edee0b9f93d805325957dd3838e639fd3cc8f125bc3617298d06b7da132ad3cc",
+      "exit_code": 0,
+      "log_sha256": "7dd20306994c70f9edb56bf2fb356b8285fb11db4c51a3f1060d03daafde7bdd"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/06_vagabond.SHP",
+      "sha256": "59ec4800dcab3b37718c1cab55a5c882d2557ed9aee0e5479a5e259ddfdd1cc3",
+      "exit_code": 0,
+      "log_sha256": "b6a4b880970376546c5975b1e61e84e8665ac9710321e904b4447abf7010cbb5"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/07_Solomon_POD.SHP",
+      "sha256": "4192dca367ce927f0d060b85ffc3bc579040cec4da6abfa54b118eb905b5cec2",
+      "exit_code": 0,
+      "log_sha256": "9acde23cc6d126aacf05d121e97547b56c8b7d911ccfe640cca17f4f5c82ab62"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/07_solomon.SHP",
+      "sha256": "5ab26cc0c13a3181e92d9b492272a91b29b1a5f6465dd00c5039fb8b2fa66119",
+      "exit_code": 0,
+      "log_sha256": "42de7cb803bb2dada2b8ccb4165d7d9aa0e9466f372287c9805121f63e9d4ae6"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/08_imp.SHP",
+      "sha256": "208af9f351873c2912eb263eeff8e885474f8134bb8d49a6783e285af2b6f4e1",
+      "exit_code": 0,
+      "log_sha256": "ba0a141f74c4ee9607f48d1de0027320a572017b0815c53fa43cc6402156c701"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/09_hawk.SHP",
+      "sha256": "62821c04603e019ba9374dc976bcfdfd2834f4026146f7db2c16514763c18f21",
+      "exit_code": 0,
+      "log_sha256": "c396cd402d9e20e0ed6ef1c8912c6aadbb9f5974828997f06bb693b8085fe09f"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/09_hawk_POD.SHP",
+      "sha256": "d1091aa84895ab18b9274f2c71cb3e32097997055489e20405aa9592eda22a5d",
+      "exit_code": 0,
+      "log_sha256": "5122cc99206f0ccdd4e40fd938c6fbcc3a9950847f1c52c57a5522074318be5d"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/10_torpedo.SHP",
+      "sha256": "9ef936ebb9cc1dcc869786f9d23bce2bdaebd666e7d222a5e8101ccd86dfd530",
+      "exit_code": 0,
+      "log_sha256": "4f57290274a5d73e8d32697c04d621ff74b1bf6457f79208e85b36fd80bd5ce4"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/21_screamer.SHP",
+      "sha256": "9153730b7efc412ce1ff6397ba2fbfd97c7c5b270cd6ef4cb334f60f1ba35f2a",
+      "exit_code": 0,
+      "log_sha256": "32cd22bdbd822e601eb3be8cd4ea1c5f62fb67fd4fec9e951034402f182b65a6"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/21_screamer_pod.SHP",
+      "sha256": "b651aedb75a15efed1b4f4d46d1b0cef10a26f50912a4c0cbdd70261427118eb",
+      "exit_code": 0,
+      "log_sha256": "57e882780a05541c2168bcc29698fabcfd05880e40746e019b5f7b5eb34edfea"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/22_raptor.SHP",
+      "sha256": "8e8881e96f60bacdcc68d63afddde529db77f0f74750348f3414c6781690a124",
+      "exit_code": 0,
+      "log_sha256": "83f4d333b4a7beeb3a09b49fcf1eeb7275d970fadf28eff61a5a54af646e9393"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/22_raptor_POD.SHP",
+      "sha256": "9a2dd3667d4ac8c9e3fa60fedac828427d40e71feaf890eb71b71177b5ad02ab",
+      "exit_code": 0,
+      "log_sha256": "5b67d77367c20ecdc399b49b5e91bfd273a09069a5a39bc006e86e9e17247a87"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/23_havoc.SHP",
+      "sha256": "e95edf4769e0be8f7648e0ae0a1e828f6ae795e8fbe14fbfc6389af539b74b1b",
+      "exit_code": 0,
+      "log_sha256": "7dd20306994c70f9edb56bf2fb356b8285fb11db4c51a3f1060d03daafde7bdd"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/24_jackhammer.SHP",
+      "sha256": "c12b55de977b97439afc03528422a55e10573c69111f24bc79a3e30be0cd8aa5",
+      "exit_code": 0,
+      "log_sha256": "3d3155ea6e5952c5e91b8ec553e4f07d2faa2ebc59fb31f793ced40b70435efe"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/25_bandit.SHP",
+      "sha256": "9740aa0ab47b3b104eedf60a27b10dec5e4d74b990b45b3ecf731e395bc03c30",
+      "exit_code": 0,
+      "log_sha256": "7dd20306994c70f9edb56bf2fb356b8285fb11db4c51a3f1060d03daafde7bdd"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/26_vagabond.SHP",
+      "sha256": "28e80e24e1b1021b26ba9820211295df8b3f50cb8bc2084e63e55fd1971cb695",
+      "exit_code": 0,
+      "log_sha256": "b6a4b880970376546c5975b1e61e84e8665ac9710321e904b4447abf7010cbb5"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/27_Solomon_POD.SHP",
+      "sha256": "7ebdf3297c7fb5c8a5debd5219d210ec28ac69ab3e9dc5fd45eaf3b5520b85ae",
+      "exit_code": 0,
+      "log_sha256": "3b8fdcc24dd26c02fdb8951af19ae29a8ef1224e9a3addcb4e7fc3b31067710f"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/27_solomon.SHP",
+      "sha256": "8c2a8b3fe7795c5657061029dbd37b47d65b45315d82da7586f94ba63cae50e3",
+      "exit_code": 0,
+      "log_sha256": "32cd22bdbd822e601eb3be8cd4ea1c5f62fb67fd4fec9e951034402f182b65a6"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/28_imp.SHP",
+      "sha256": "391db24da6e7aaa6df5456428869eb4fa4111d960abd5b4e85827c0ba36302f5",
+      "exit_code": 0,
+      "log_sha256": "2aaf501c35bfd7ddc0d14b2bc5645d8c943383458e9e0659a703eef5c8b695f5"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/29_hawk.SHP",
+      "sha256": "bcdb2d90911d6ff3ce4d9c3da8edaea22ce24a4cb79249aa74bc586979596d5e",
+      "exit_code": 0,
+      "log_sha256": "7dd20306994c70f9edb56bf2fb356b8285fb11db4c51a3f1060d03daafde7bdd"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/29_hawk_POD.SHP",
+      "sha256": "664da53aee49b2816df6ad2a7fbb6bb875314a16b6db9e0a60bd2aa169670c32",
+      "exit_code": 0,
+      "log_sha256": "ff526e830492431a05242dfc251a2c9c10f9d3fc1bf348475d328197a760bdbf"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/30_torpedo.SHP",
+      "sha256": "47ce216666561c199f2d2c03f41e37b10b5b67d9b49a6e0d49445a8cf008f84d",
+      "exit_code": 0,
+      "log_sha256": "4f57290274a5d73e8d32697c04d621ff74b1bf6457f79208e85b36fd80bd5ce4"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/31_fuel_pod.SHP",
+      "sha256": "09c6aa45861f0df31cb60bd0fc10ee21e6807dbae2721aa992d51c2253327e50",
+      "exit_code": 0,
+      "log_sha256": "cef6ec09624078d3d1fa522aa1b099aa4682d45ab301182456e291102cff4345"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/Rus_Torp.SHP",
+      "sha256": "5e2dce634993aff3d0b73041351f78b2f73be9890dbed2da61f10f260374289f",
+      "exit_code": 0,
+      "log_sha256": "7abe728f007233ad34aec311250b73769fdfd9ae0536cedb95cd43bcf46e9599"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/fuel_pod.SHP",
+      "sha256": "1d463c8f8fc317f6eee8220afa339ac6f555c1a290d5c34dc4bc6f1ce4b5a315",
+      "exit_code": 0,
+      "log_sha256": "8d8c6b5cb06dfe45d424c544bedadb4763228037aff1362d91dc97e7ad5c1ab7"
+    },
+    {
+      "path": "mods/97-ordnance-worn-v1/torpedo.SHP",
+      "sha256": "8d6f2078fe80089361fc8be6727c0466e7d79bb99680c9c79ed12da3fdb0ea58",
+      "exit_code": 0,
+      "log_sha256": "4f57290274a5d73e8d32697c04d621ff74b1bf6457f79208e85b36fd80bd5ce4"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:13:10.350460+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "orord1_hull",
+        "exit_code": 0,
+        "base_sha256": "0329386a6e7b3232716d0b1cef8bd57ef0d61dd22fa15933d5bd167a8eaf736a",
+        "normal_sha256": "9612edbabd83032546cef4ab788f46a6a574658bb995bcad90e6653a97e14fa1",
+        "orm_sha256": "c7dbefd75cb52c737897423b9e98dbf31c301180ee2865ad6ea489a9108469d9",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "e1f2fa623b4a1d0349df0aa0d750c971d75f26e990aef55902aa06c8f929bf6e"
+      },
+      {
+        "material": "orord2_scrm",
+        "exit_code": 0,
+        "base_sha256": "b3ea640846600e4d1f0a96087858619e75d90ae9c3eb2c18b2bd6db66495d07e",
+        "normal_sha256": "e27cde7ca7a3b6a4235628f7ccf3f9071c0a191772531624e086fa037afd1241",
+        "orm_sha256": "6d5fcba1134fdadc061b78fc2f09cf6b9b0ddeb56426c0e643e5eaee6ebcef9c",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "65631dc931105e371dc696c754b54563b5aa3afbb8b52ef94f950ec88184a210"
+      },
+      {
+        "material": "orord2_nozz",
+        "exit_code": 0,
+        "base_sha256": "506b81f919df26fc6295e2de03a0f832c17f4e8079956ced0f94dc69cb25c3d7",
+        "normal_sha256": "f3d48816a6ee8bc085bbd558b61c915c753a1b180fbeb340291b930db5b95dbc",
+        "orm_sha256": "8fa5617a44dd4b7f73a01092d9eec6a3b5b1ea764c63bd66f24a43d40b5af493",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "992e8d3eb9134b26c784f509b70616e4ad4c10140ee5a84b2d046551d45c5a42"
+      },
+      {
+        "material": "orord3_spod",
+        "exit_code": 0,
+        "base_sha256": "59f715522a0dcda4b54803ee17e38f44ebc48bb8429e82b5dc55d6424f46e297",
+        "normal_sha256": "54e19f1ab7061122191ed355e4cc39fb868590c8d6a0e5c006c97964316a6145",
+        "orm_sha256": "02f07efb57e75438ee3e1b69f67ff55bd17e0d71b73bde962e2cdcf3e2355530",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "441548c28bcd8980ab52d93ab2386c452201b2e86a44fec895aa955a130efb71"
+      },
+      {
+        "material": "orord3_rpod",
+        "exit_code": 0,
+        "base_sha256": "74288b54722929a9c0bc3bdd05a13d5ac5ffdf43887d3bcc08a46b1fe0551978",
+        "normal_sha256": "c1b86519802a64ffd5eeb164131037a5b73456fe58dd0a312de36f96a9af60d2",
+        "orm_sha256": "1263dfe385d863704ccdf1dc8ec8193bf8e59ccf3d8a409ca33cd841a17c0d65",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "083425a4d222c2b8fc451e91b7f61a21f4fdc50231b52faf223fc6ba1cde987e"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

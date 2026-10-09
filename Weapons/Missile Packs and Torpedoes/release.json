@@ -1,14 +1,14 @@
 {
   "package_name": "openreliant-ordnance",
-  "version": "0.1.0-beta.3",
+  "version": "0.1.0-beta.4",
   "asset_revision": "1.2",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "97-ordnance-worn-v1"
   ],
-  "asset_manifest_sha256": "c32354caed4fcb0cfee632343b4edf44261d91ee573c76266234302436b96c12",
+  "asset_manifest_sha256": "da61576b9d951bda04a5605cd688b2822d28db92f09e4fcec19f5678e9b4e049",
   "source_manifest_sha256": "f2e18238f6186592b2c800dbeb500e1ec001addc4c1a7b615c83b0167ac0f664",
   "channel": "beta",
   "include_documents": [
@@ -20,7 +20,9 @@
     "LICENSING.md",
     "asset-manifest.json",
     "validation.json",
-    "release.json"
+    "release.json",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
   "user_approved": true,
   "approval": {

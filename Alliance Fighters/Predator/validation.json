@@ -1,91 +1,29 @@
 {
   "status": "passed",
-  "scope": "individual-mod-bounded-loading-and-rendering",
-  "checked_at_utc": "2026-10-07T06:58:48.866255+00:00",
-  "engine_build": "OpenReliant 0.7.0 official release 3b27f16",
-  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-  "tested_platforms": [
-    "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
-  ],
-  "asset_manifest_sha256": "d9fd1fdb749e077d10be73519c4df7964cac5ecd60896e0cbdeb6249f4df9f4d",
+  "scope": "OpenReliant 0.8.1 compatibility and generated loadout-colour packaging",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "16.1",
+  "asset_manifest_sha256": "3afd03cb39f0c146f20faad31e787d328d082f069258ef4f452ea9dbf955532a",
   "source_manifest_sha256": "b049672f478941849f0245868d1750950db6cf0916d5a2153c97de32b8d24b92",
+  "tested_platforms": [
+    "Linux x86_64 \u2014 native tools and non-visual texture pipeline"
+  ],
   "checks": [
-    "Verify 22 runtime files and 36 original source artifacts against the previously verified snapshot.",
-    "Copy only 40-predator-worn-v14 into a clean test installation; verify all runtime hashes.",
-    "Pass native format checks for 2 SHP/DTE files.",
-    "Load and capture the standard fighter on official OpenReliant 0.7.0 with exactly one art mod enabled and no HUD.",
-    "Preserve the byte-identical runtime assets previously checked in both standard and t_ variants with the original eight-fighter set.",
-    "Inspect the new isolated-mod capture for the expected ship and gross rendering errors."
+    "Official sltool 0.8.1: 2 native model/mission format and round-trip checks passed.",
+    "Official 0.8.1 texture loader: 3 material sets decoded; generated green/red channels checked and inherited normal/ORM maps match byte-for-byte.",
+    "Removed 9 audited byte-identical loadout files; retained artwork/model/animation bytes unchanged from the current approved repository snapshot.",
+    "All material sets retain unprefixed PNG base, normal and ORM files.",
+    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json."
   ],
-  "native_checks": [
-    {
-      "path": "mods/40-predator-worn-v14/USLF_Prd.SHP",
-      "sha256": "e8f161146afd9b5989c9eea45db1155912e2554a59d5eadc5adf5896d15726d6",
-      "exit_status": 0,
-      "log_sha256": "2c4f49736df42748479edc3771a0f50c047cf176cce91c0dca3cd63da0c009c4"
-    },
-    {
-      "path": "mods/40-predator-worn-v14/t_USLF_Prd.shp",
-      "sha256": "c84955b84a603fbe9015b26558de30a9146ce54583adb0fe2a8a9f1c658bff49",
-      "exit_status": 0,
-      "log_sha256": "2c4f49736df42748479edc3771a0f50c047cf176cce91c0dca3cd63da0c009c4"
-    }
-  ],
-  "single_mod_capture": {
-    "sha256": "c8f1d2ddb8ff8f7370aa643f8cf9a98d6d886e1865d6bd0c75e118fc780ded01",
-    "log_sha256": "8f09c324015fadd114dc3d5cc9d8a287e26ab831c9a7f04630e840a67d118838",
-    "exit_status": 0,
-    "enabled_mods": [
-      "40-predator-worn-v14"
-    ]
-  },
-  "previous_variant_checks": [
-    {
-      "path": "mods/40-predator-worn-v14/USLF_Prd.SHP",
-      "sha256": "e8f161146afd9b5989c9eea45db1155912e2554a59d5eadc5adf5896d15726d6",
-      "exit_status": 0,
-      "log_sha256": "2c4f49736df42748479edc3771a0f50c047cf176cce91c0dca3cd63da0c009c4"
-    },
-    {
-      "path": "mods/40-predator-worn-v14/t_USLF_Prd.shp",
-      "sha256": "c84955b84a603fbe9015b26558de30a9146ce54583adb0fe2a8a9f1c658bff49",
-      "exit_status": 0,
-      "log_sha256": "2c4f49736df42748479edc3771a0f50c047cf176cce91c0dca3cd63da0c009c4"
-    }
-  ],
+  "prior_artwork_validation": "validation-previous.json",
+  "compatibility_report": "compatibility-0.8.json",
   "limitations": [
-    "This is a work-in-progress beta; final texture and Naginata edge/exhaust acceptance are still open.",
-    "Full campaign play, damage, ejection, loadout and Shroud cloak were not tested in these bounded captures.",
-    "Lower-LOD distance transitions and separate later-campaign liveries remain under review.",
-    "Windows and macOS runtime tests have not been performed.",
-    "No custom emissive maps are included."
+    "Bounded Linux compatibility checks do not replace campaign, damage, animation-cycle and other-platform testing.",
+    "Original per-pack artwork limitations remain in KNOWN_ISSUES.md."
   ],
-  "metadata_updates": [
-    {
-      "checked_at_utc": "2026-10-07T09:13:17.028579+00:00",
-      "change": "Add the approved artwork licence metadata and the portable licence notice.",
-      "previous_asset_manifest_sha256": "33ca9709adaace2ded8f54b515320e89ab293f240f6a8552021a5bfde3486025",
-      "asset_manifest_sha256": "1ff0348f268090f39c58be02a49d4118e6e7a9c26981ba1e4ca3bdbf93aa50f8",
-      "previous_mod_ini_sha256": "837fbd0a3c30d0cdfd340bc0db111543b5987dd95f64f75855c1f6a00503ae32",
-      "mod_ini_sha256": "706aa546dd9178aca147a2ebf84d2e6f883164db11895d1ddeb274d1a4572edd",
-      "previous_mod_version": "16.1",
-      "mod_version": "16.1.1",
-      "all_other_runtime_files_sha256_unchanged": true,
-      "engine_rerun": false,
-      "scope": "Original runtime evidence above predates this metadata-only update; artwork and native model bytes are unchanged. These metadata files have not been redeployed to the local game."
-    },
-    {
-      "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
-      "change": "Use the clean display title Predator - Worn Paint and a distinct patch version for this title revision.",
-      "previous_asset_manifest_sha256": "1ff0348f268090f39c58be02a49d4118e6e7a9c26981ba1e4ca3bdbf93aa50f8",
-      "asset_manifest_sha256": "d9fd1fdb749e077d10be73519c4df7964cac5ecd60896e0cbdeb6249f4df9f4d",
-      "previous_mod_ini_sha256": "706aa546dd9178aca147a2ebf84d2e6f883164db11895d1ddeb274d1a4572edd",
-      "mod_ini_sha256": "94779722f3c32e14d234d1aa5f8a3532e4fb6aa93828d3ae1663b25d80cd7c62",
-      "all_other_runtime_files_sha256_unchanged": true,
-      "engine_rerun": false,
-      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed.",
-      "previous_mod_version": "16.1.1",
-      "mod_version": "16.1.2"
-    }
-  ]
+  "game_launched_for_this_update": false,
+  "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+  "non_visual_validation": true
 }

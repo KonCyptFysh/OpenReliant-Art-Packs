@@ -1,14 +1,14 @@
 {
   "package_name": "openreliant-grendal",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "asset_revision": "1.1",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "101-grendal-worn-v1"
   ],
-  "asset_manifest_sha256": "337e7875605786f865379be5d18d362b806e41e7a23fb9531c33d8663e44e0a1",
+  "asset_manifest_sha256": "e8efd11af35f211cfd10de8c902fb4d15ffa899d0fd2b9f67848c1523957ddab",
   "source_manifest_sha256": "942096e09d3eef6d14d4023dcd71fcbfcd02b79ca32b7673dcc676abf0933ec3",
   "channel": "beta",
   "user_approved": true,
@@ -22,7 +22,9 @@
     "asset-manifest.json",
     "validation.json",
     "release.json",
-    "tools/launch-grendal-test.sh"
+    "tools/launch-grendal-test.sh",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
   "approval": {
     "user_approved": true,

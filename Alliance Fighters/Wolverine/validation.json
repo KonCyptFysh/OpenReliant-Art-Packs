@@ -1,91 +1,29 @@
 {
   "status": "passed",
-  "scope": "individual-mod-bounded-loading-and-rendering",
-  "checked_at_utc": "2026-10-07T06:59:48.957251+00:00",
-  "engine_build": "OpenReliant 0.7.0 official release 3b27f16",
-  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-  "tested_platforms": [
-    "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
-  ],
-  "asset_manifest_sha256": "53e4c3e99f9238e05c8ed593fe662760e3f8a9c36c9e3ee5740aa11de52b6061",
+  "scope": "OpenReliant 0.8.1 compatibility and generated loadout-colour packaging",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "2.0",
+  "asset_manifest_sha256": "e771bff93e1ad7b319899b1b3b5699c21ea245e86daeb37ed8819d497fda3e52",
   "source_manifest_sha256": "451217359b01b2c3fdc6301c2adc336bd6786df5d6131f2d948f2349c406cef2",
+  "tested_platforms": [
+    "Linux x86_64 \u2014 native tools and non-visual texture pipeline"
+  ],
   "checks": [
-    "Verify 10 runtime files and 20 original source artifacts against the previously verified snapshot.",
-    "Copy only 60-wolverine-worn-v1 into a clean test installation; verify all runtime hashes.",
-    "Pass native format checks for 2 SHP/DTE files.",
-    "Load and capture the standard fighter on official OpenReliant 0.7.0 with exactly one art mod enabled and no HUD.",
-    "Preserve the byte-identical runtime assets previously checked in both standard and t_ variants with the original eight-fighter set.",
-    "Inspect the new isolated-mod capture for the expected ship and gross rendering errors."
+    "Official sltool 0.8.1: 2 native model/mission format and round-trip checks passed.",
+    "Official 0.8.1 texture loader: 1 material sets decoded; generated green/red channels checked and inherited normal/ORM maps match byte-for-byte.",
+    "Removed 3 audited byte-identical loadout files; retained artwork/model/animation bytes unchanged from the current approved repository snapshot.",
+    "All material sets retain unprefixed PNG base, normal and ORM files.",
+    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json."
   ],
-  "native_checks": [
-    {
-      "path": "mods/60-wolverine-worn-v1/German_Wolverine.SHP",
-      "sha256": "fe4d187670865bbe458fbe02459486214978d994c9703be1a1d13599dc389f0f",
-      "exit_status": 0,
-      "log_sha256": "2947e51d5f195f4143f1f1d1fa8e1a2effb81b2571f785a48df83f899b860e6b"
-    },
-    {
-      "path": "mods/60-wolverine-worn-v1/t_German_Wolverine.SHP",
-      "sha256": "30ebb1fa5a346d695f3eb84b1d6fb424c632b698730b81b291a772f6e396f040",
-      "exit_status": 0,
-      "log_sha256": "2947e51d5f195f4143f1f1d1fa8e1a2effb81b2571f785a48df83f899b860e6b"
-    }
-  ],
-  "single_mod_capture": {
-    "sha256": "710a9bf3b9fc8bbf37ed6aab9ae23c20e7df410d3b1531700a58d882fba5164e",
-    "log_sha256": "db9e030a40c81175bb1afca51fb779e756ee8e98796da6cdf57ae91826182ef1",
-    "exit_status": 0,
-    "enabled_mods": [
-      "60-wolverine-worn-v1"
-    ]
-  },
-  "previous_variant_checks": [
-    {
-      "path": "mods/60-wolverine-worn-v1/German_Wolverine.SHP",
-      "sha256": "fe4d187670865bbe458fbe02459486214978d994c9703be1a1d13599dc389f0f",
-      "exit_status": 0,
-      "log_sha256": "2947e51d5f195f4143f1f1d1fa8e1a2effb81b2571f785a48df83f899b860e6b"
-    },
-    {
-      "path": "mods/60-wolverine-worn-v1/t_German_Wolverine.SHP",
-      "sha256": "30ebb1fa5a346d695f3eb84b1d6fb424c632b698730b81b291a772f6e396f040",
-      "exit_status": 0,
-      "log_sha256": "2947e51d5f195f4143f1f1d1fa8e1a2effb81b2571f785a48df83f899b860e6b"
-    }
-  ],
+  "prior_artwork_validation": "validation-previous.json",
+  "compatibility_report": "compatibility-0.8.json",
   "limitations": [
-    "This is a work-in-progress beta; final texture and Naginata edge/exhaust acceptance are still open.",
-    "Full campaign play, damage, ejection, loadout and Shroud cloak were not tested in these bounded captures.",
-    "Lower-LOD distance transitions and separate later-campaign liveries remain under review.",
-    "Windows and macOS runtime tests have not been performed.",
-    "No custom emissive maps are included."
+    "Bounded Linux compatibility checks do not replace campaign, damage, animation-cycle and other-platform testing.",
+    "Original per-pack artwork limitations remain in KNOWN_ISSUES.md."
   ],
-  "metadata_updates": [
-    {
-      "checked_at_utc": "2026-10-07T09:13:17.028579+00:00",
-      "change": "Add the approved artwork licence metadata and the portable licence notice.",
-      "previous_asset_manifest_sha256": "66f3cfa291b3a0aedfe0d817dee663f5b4fbe5f478205d0b4cc8f3fec977e222",
-      "asset_manifest_sha256": "7d619a51db9e3f4b35d34319a827ce3c6bec705003ceda8fc3146765dfc56491",
-      "previous_mod_ini_sha256": "39ea2d34e6703f84ab81a720b823e48d18452cd127fb070f1991d95f94251c8b",
-      "mod_ini_sha256": "4aa63644fdb81633519d3a745e2ee710b6675ba5392a17aaef2b51fc250b73a4",
-      "previous_mod_version": "2.0",
-      "mod_version": "2.0.1",
-      "all_other_runtime_files_sha256_unchanged": true,
-      "engine_rerun": false,
-      "scope": "Original runtime evidence above predates this metadata-only update; artwork and native model bytes are unchanged. These metadata files have not been redeployed to the local game."
-    },
-    {
-      "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
-      "change": "Use the clean display title Wolverine - Worn Paint and a distinct patch version for this title revision.",
-      "previous_asset_manifest_sha256": "7d619a51db9e3f4b35d34319a827ce3c6bec705003ceda8fc3146765dfc56491",
-      "asset_manifest_sha256": "53e4c3e99f9238e05c8ed593fe662760e3f8a9c36c9e3ee5740aa11de52b6061",
-      "previous_mod_ini_sha256": "4aa63644fdb81633519d3a745e2ee710b6675ba5392a17aaef2b51fc250b73a4",
-      "mod_ini_sha256": "5596f757a4a41101800b2a3c215be15997c52bf6a85db5f4ee0be17a5724f466",
-      "all_other_runtime_files_sha256_unchanged": true,
-      "engine_rerun": false,
-      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed.",
-      "previous_mod_version": "2.0.1",
-      "mod_version": "2.0.2"
-    }
-  ]
+  "game_launched_for_this_update": false,
+  "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+  "non_visual_validation": true
 }

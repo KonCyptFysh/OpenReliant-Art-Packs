@@ -11,4 +11,4 @@ if [[ ! -f "$install_dir/game-data/mods/98-phoenix-worn-v1/mission990.dte" ]]; t
     exit 1
 fi
 printf '%s\n' 'Phoenix inspection: one ship, no enemies or objectives.' 'Press 7 for external orbit; arrow keys rotate; Shift+Up/Down zoom.'
-exec "$install_dir/launch-openreliant.sh" --mission 990 --ship 11 --view 1 "$@"
+exec "$install_dir/releases/openreliant-v0.8.1-linux-x86_64/openreliant" "$install_dir/game-data" --mission 990 --ship 11 --view 1 "$@"

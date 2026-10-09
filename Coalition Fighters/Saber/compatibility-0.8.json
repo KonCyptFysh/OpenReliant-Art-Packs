@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "1.0",
+  "previous_release": "saber-v0.1.0-beta.1",
+  "new_release": "saber-v0.1.0-beta.2",
+  "previous_asset_manifest_sha256": "2f63cc744e165360e737ce75353f31bff1ea62982990a93554cdf5d0948238cf",
+  "removed_variants": [
+    {
+      "path": "mods/102-saber-worn-v1/gorsb1_hull.png",
+      "base": "mods/102-saber-worn-v1/orsb1_hull.png",
+      "bytes": 17665104,
+      "sha256": "c50bc219e3a389cca18a296e1e83cb0ff6fca5097dd626bcd108a2d23a2d2c85"
+    },
+    {
+      "path": "mods/102-saber-worn-v1/gorsb1_hull_normal.png",
+      "base": "mods/102-saber-worn-v1/orsb1_hull_normal.png",
+      "bytes": 397031,
+      "sha256": "e3440797de210b6fcd25c804cdff3a68a7af66b548aee6d6011468ac8f71594c"
+    },
+    {
+      "path": "mods/102-saber-worn-v1/gorsb1_hull_orm.png",
+      "base": "mods/102-saber-worn-v1/orsb1_hull_orm.png",
+      "bytes": 9907162,
+      "sha256": "ff15c85cb5a0f636b4c8e71af5c28fc7b144e826b517395f5665e287f0f5d96d"
+    }
+  ],
+  "removed_bytes": 27969297,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "b2cb11b2b97b5cede3b8dac1aca172d07817a4ed3ec70329a0dc8f3e32f0b17b",
+  "native_checks": [
+    {
+      "path": "mods/102-saber-worn-v1/Rus_Sabre.SHP",
+      "sha256": "75f56033ded920198e45cf5e58ddb706af72d78b7966e0414ac59e0ce9886de4",
+      "exit_code": 0,
+      "log_sha256": "2affd7377c461f7f5708c519d4a748a63c7a5a8f35cb724ea3d447ee7fd762e2"
+    },
+    {
+      "path": "mods/102-saber-worn-v1/mission989.dte",
+      "sha256": "b561edb2c849aeba843dd27f8d763daa34fa798cdb69d61491471fdf923c103b",
+      "exit_code": 0,
+      "log_sha256": "8b5c012111961ca14ca20b93c140211a5fa080c823739f6c2225371bc305dd9b"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:12:53.982882+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "orsb1_hull",
+        "exit_code": 0,
+        "base_sha256": "c50bc219e3a389cca18a296e1e83cb0ff6fca5097dd626bcd108a2d23a2d2c85",
+        "normal_sha256": "e3440797de210b6fcd25c804cdff3a68a7af66b548aee6d6011468ac8f71594c",
+        "orm_sha256": "ff15c85cb5a0f636b4c8e71af5c28fc7b144e826b517395f5665e287f0f5d96d",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "8294c0464ad3ba8f8c4dccdf05088747c81e3a5181c87e2ae2421a23cf62b1b7"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

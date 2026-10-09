@@ -5,21 +5,6 @@
     "sha256": "75f56033ded920198e45cf5e58ddb706af72d78b7966e0414ac59e0ce9886de4"
   },
   {
-    "path": "mods/102-saber-worn-v1/gorsb1_hull.png",
-    "bytes": 17665104,
-    "sha256": "c50bc219e3a389cca18a296e1e83cb0ff6fca5097dd626bcd108a2d23a2d2c85"
-  },
-  {
-    "path": "mods/102-saber-worn-v1/gorsb1_hull_normal.png",
-    "bytes": 397031,
-    "sha256": "e3440797de210b6fcd25c804cdff3a68a7af66b548aee6d6011468ac8f71594c"
-  },
-  {
-    "path": "mods/102-saber-worn-v1/gorsb1_hull_orm.png",
-    "bytes": 9907162,
-    "sha256": "ff15c85cb5a0f636b4c8e71af5c28fc7b144e826b517395f5665e287f0f5d96d"
-  },
-  {
     "path": "mods/102-saber-worn-v1/license.txt",
     "bytes": 246,
     "sha256": "9de2592602ace78df09c1b38fc32c8a03fd38234d70b8ba69f875724295a15bc"
@@ -32,7 +17,7 @@
   {
     "path": "mods/102-saber-worn-v1/mod.ini",
     "bytes": 199,
-    "sha256": "09e70c1b9885aa3b21868af957714f90343394dae3396a219cdd5aa458c43b87"
+    "sha256": "8d124f111362b5327e056dbaac2260252311f83133eb117fed2c55e95e80727f"
   },
   {
     "path": "mods/102-saber-worn-v1/mod.png",

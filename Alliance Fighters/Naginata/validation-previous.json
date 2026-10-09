@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "scope": "individual-mod-bounded-loading-and-rendering",
+  "checked_at_utc": "2026-10-07T07:01:02.042163+00:00",
+  "engine_build": "OpenReliant 0.7.0 official release 3b27f16",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "tested_platforms": [
+    "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
+  ],
+  "asset_manifest_sha256": "9da649cad11089c9bdb5c42dc7d8eda67c893cacd17358e56bb54bed762b60de",
+  "source_manifest_sha256": "3dcb5063d40a54c57841c67c083004dca4384b93907d75291f0719a1e83fe20a",
+  "checks": [
+    "Verify 23 runtime files and 44 original source artifacts against the previously verified snapshot.",
+    "Copy only 95-naginata-worn-v1 into a clean test installation; verify all runtime hashes.",
+    "Pass native format checks for 3 SHP/DTE files.",
+    "Load and capture the standard fighter on official OpenReliant 0.7.0 with exactly one art mod enabled and no HUD.",
+    "Preserve the byte-identical runtime assets previously checked in both standard and t_ variants with the original eight-fighter set.",
+    "Inspect the new isolated-mod capture for the expected ship and gross rendering errors."
+  ],
+  "native_checks": [
+    {
+      "path": "mods/95-naginata-worn-v1/JLF_Nagi.SHP",
+      "sha256": "8d546e7dfea2f26226390764bfe487d2f4744a84b3203a060c90dd13fe5a3285",
+      "exit_status": 0,
+      "log_sha256": "f9ca609720eed112b7a0b136cab1bd11bb7caf65d58ffd0e71fcb99465ec732a"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/mission994.dte",
+      "sha256": "cca349b2fc3e2da3dcd48692b193f95398f78ad16fc87d1842a85bf6fdaefb15",
+      "exit_status": 0,
+      "log_sha256": "8b5c012111961ca14ca20b93c140211a5fa080c823739f6c2225371bc305dd9b"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/t_JLF_Nagi.SHP",
+      "sha256": "3dd0796fc33ae3a3440ded56524f38ccba561342df65d3ca471be8a7cf33a3c1",
+      "exit_status": 0,
+      "log_sha256": "f9ca609720eed112b7a0b136cab1bd11bb7caf65d58ffd0e71fcb99465ec732a"
+    }
+  ],
+  "single_mod_capture": {
+    "sha256": "d762e5cb6243e0d25fc49ac95a6d97224832591923b0afe48f934cd9aba71015",
+    "log_sha256": "eb8fc602a37a56ce21c2aeb8c3d83fc1385be631e655a75aa232ba52c379bd3f",
+    "exit_status": 0,
+    "enabled_mods": [
+      "95-naginata-worn-v1"
+    ]
+  },
+  "previous_variant_checks": [
+    {
+      "path": "mods/95-naginata-worn-v1/JLF_Nagi.SHP",
+      "sha256": "8d546e7dfea2f26226390764bfe487d2f4744a84b3203a060c90dd13fe5a3285",
+      "exit_status": 0,
+      "log_sha256": "f9ca609720eed112b7a0b136cab1bd11bb7caf65d58ffd0e71fcb99465ec732a"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/mission994.dte",
+      "sha256": "cca349b2fc3e2da3dcd48692b193f95398f78ad16fc87d1842a85bf6fdaefb15",
+      "exit_status": 0,
+      "log_sha256": "8b5c012111961ca14ca20b93c140211a5fa080c823739f6c2225371bc305dd9b"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/t_JLF_Nagi.SHP",
+      "sha256": "3dd0796fc33ae3a3440ded56524f38ccba561342df65d3ca471be8a7cf33a3c1",
+      "exit_status": 0,
+      "log_sha256": "f9ca609720eed112b7a0b136cab1bd11bb7caf65d58ffd0e71fcb99465ec732a"
+    }
+  ],
+  "limitations": [
+    "This is a work-in-progress beta; final texture and Naginata edge/exhaust acceptance are still open.",
+    "Full campaign play, damage, ejection, loadout and Shroud cloak were not tested in these bounded captures.",
+    "Lower-LOD distance transitions and separate later-campaign liveries remain under review.",
+    "Windows and macOS runtime tests have not been performed.",
+    "No custom emissive maps are included."
+  ],
+  "metadata_updates": [
+    {
+      "checked_at_utc": "2026-10-07T09:13:17.028579+00:00",
+      "change": "Add the approved artwork licence metadata and the portable licence notice.",
+      "previous_asset_manifest_sha256": "0031dac4c5b4466103a572f4c080e2834c277ed8b08fe0555cae503c6e1b9da5",
+      "asset_manifest_sha256": "d87a238482b215079559174b89b13e9f411c0e4b7a35a49090eb99691404adf8",
+      "previous_mod_ini_sha256": "e73dcd80c016d0867479234c323bbb847f87cc6f7d35e869287e4a25904f6e7e",
+      "mod_ini_sha256": "df69cafffe6e787278c665fb331db464b40945824d27cbcbee05d84f6d1f9e68",
+      "previous_mod_version": "4.0",
+      "mod_version": "4.0.1",
+      "all_other_runtime_files_sha256_unchanged": true,
+      "engine_rerun": false,
+      "scope": "Original runtime evidence above predates this metadata-only update; artwork and native model bytes are unchanged. These metadata files have not been redeployed to the local game."
+    },
+    {
+      "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
+      "change": "Use the clean display title Naginata - Worn Paint and a distinct patch version for this title revision.",
+      "previous_asset_manifest_sha256": "d87a238482b215079559174b89b13e9f411c0e4b7a35a49090eb99691404adf8",
+      "asset_manifest_sha256": "9da649cad11089c9bdb5c42dc7d8eda67c893cacd17358e56bb54bed762b60de",
+      "previous_mod_ini_sha256": "df69cafffe6e787278c665fb331db464b40945824d27cbcbee05d84f6d1f9e68",
+      "mod_ini_sha256": "073597b473a836e024e7ae26be1642c954e244f159dc50b89498d4a598fb4784",
+      "all_other_runtime_files_sha256_unchanged": true,
+      "engine_rerun": false,
+      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed.",
+      "previous_mod_version": "4.0.1",
+      "mod_version": "4.0.2"
+    }
+  ]
+}

@@ -4,11 +4,11 @@
   "asset_revision": "4.0",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "100-sai-worn-v1"
   ],
-  "asset_manifest_sha256": "bb14cf5a25b5ce3f28f1b9e188f0086d2d7c21f334623e0a5bf593281a4b164a",
+  "asset_manifest_sha256": "8fe2f1b502b2bb17e520a863805db4e5e012a15fd61f9df7eec6e082891a0ef9",
   "source_manifest_sha256": "28c0eaa0ecd5465b461859177d6e2c3824d2d4990b22175bea7939791b11b9b5",
   "channel": "beta",
   "user_approved": true,
@@ -22,13 +22,15 @@
     "asset-manifest.json",
     "validation.json",
     "release.json",
-    "tools/launch-sai-test.sh"
+    "tools/launch-sai-test.sh",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
   "approval": {
     "user_approved": true,
     "approved_at_utc": "2026-10-08T16:17:17.258343+00:00",
     "instruction": "Awesome, send it upto git!",
-    "scope": "Sai artwork revision 4.0: separate left/right UVs, refined wave, red 侍飛将 and black 神風, fin-deployment inspection scene, and corrected native UV joins.",
+    "scope": "Sai artwork revision 4.0: separate left/right UVs, refined wave, red \u4f8d\u98db\u5c06 and black \u795e\u98a8, fin-deployment inspection scene, and corrected native UV joins.",
     "evidence": "User accepted the completed revision and authorized committing and pushing it. No new automated game launch was performed for this approval."
   }
 }

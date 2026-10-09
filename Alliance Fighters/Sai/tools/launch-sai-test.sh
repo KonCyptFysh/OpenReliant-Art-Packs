@@ -11,4 +11,4 @@ if [[ ! -f "$install_dir/game-data/mods/100-sai-worn-v1/mission991.dte" ]]; then
     exit 1
 fi
 printf '%s\n' 'Sai inspection: one ship, no enemies or objectives.' 'Press 7 for external orbit; arrow keys rotate; Shift+Up/Down zoom.'
-exec "$install_dir/launch-openreliant.sh" --mission 991 --ship 23 --view 1 --no-sound "$@"
+exec "$install_dir/releases/openreliant-v0.8.1-linux-x86_64/openreliant" "$install_dir/game-data" --mission 991 --ship 23 --view 1 --no-sound "$@"

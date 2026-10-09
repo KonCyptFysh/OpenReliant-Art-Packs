@@ -1,91 +1,29 @@
 {
   "status": "passed",
-  "scope": "individual-mod-bounded-loading-and-rendering",
-  "checked_at_utc": "2026-10-07T06:59:26.806308+00:00",
-  "engine_build": "OpenReliant 0.7.0 official release 3b27f16",
-  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-  "tested_platforms": [
-    "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
-  ],
-  "asset_manifest_sha256": "8befc8c27e4415592d0687afcc091011617307d6e2c3f0a3a1086828938748cc",
+  "scope": "OpenReliant 0.8.1 compatibility and generated loadout-colour packaging",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "3.1",
+  "asset_manifest_sha256": "dedb03764f442b6abded4f48ca93ff0e3ebd8458edab10dea3e499610106a576",
   "source_manifest_sha256": "2cafa7053a081dad321bb7710d90fb600420bdbd16042ae1c2ba1260d0358281",
+  "tested_platforms": [
+    "Linux x86_64 \u2014 native tools and non-visual texture pipeline"
+  ],
   "checks": [
-    "Verify 10 runtime files and 36 original source artifacts against the previously verified snapshot.",
-    "Copy only 50-reaper-worn-v3 into a clean test installation; verify all runtime hashes.",
-    "Pass native format checks for 2 SHP/DTE files.",
-    "Load and capture the standard fighter on official OpenReliant 0.7.0 with exactly one art mod enabled and no HUD.",
-    "Preserve the byte-identical runtime assets previously checked in both standard and t_ variants with the original eight-fighter set.",
-    "Inspect the new isolated-mod capture for the expected ship and gross rendering errors."
+    "Official sltool 0.8.1: 2 native model/mission format and round-trip checks passed.",
+    "Official 0.8.1 texture loader: 1 material sets decoded; generated green/red channels checked and inherited normal/ORM maps match byte-for-byte.",
+    "Removed 3 audited byte-identical loadout files; retained artwork/model/animation bytes unchanged from the current approved repository snapshot.",
+    "All material sets retain unprefixed PNG base, normal and ORM files.",
+    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json."
   ],
-  "native_checks": [
-    {
-      "path": "mods/50-reaper-worn-v3/USHF_Reaper.SHP",
-      "sha256": "4bc412d789aa4e87eb1adfd53ab3c8ce2ee6afd02314e6a660d827ccdd054e1e",
-      "exit_status": 0,
-      "log_sha256": "b1b2a84ed4bbc9ec43eaac09f41439b3c7178c50482afd863d5824b112b7bc5a"
-    },
-    {
-      "path": "mods/50-reaper-worn-v3/t_USHF_Reaper.SHP",
-      "sha256": "89899e77d86161c2359d5923d442836a5998a4d9f43cbc1d336866cc15baedac",
-      "exit_status": 0,
-      "log_sha256": "b1b2a84ed4bbc9ec43eaac09f41439b3c7178c50482afd863d5824b112b7bc5a"
-    }
-  ],
-  "single_mod_capture": {
-    "sha256": "ed086568263cc0fd88c5ca04a791821a33a70122d2183bf4a0656c9bde709383",
-    "log_sha256": "a524490c257550b566086c66916ab7ea0d4a7814bc53bc63c0ee0ce39e8cb333",
-    "exit_status": 0,
-    "enabled_mods": [
-      "50-reaper-worn-v3"
-    ]
-  },
-  "previous_variant_checks": [
-    {
-      "path": "mods/50-reaper-worn-v3/USHF_Reaper.SHP",
-      "sha256": "4bc412d789aa4e87eb1adfd53ab3c8ce2ee6afd02314e6a660d827ccdd054e1e",
-      "exit_status": 0,
-      "log_sha256": "b1b2a84ed4bbc9ec43eaac09f41439b3c7178c50482afd863d5824b112b7bc5a"
-    },
-    {
-      "path": "mods/50-reaper-worn-v3/t_USHF_Reaper.SHP",
-      "sha256": "89899e77d86161c2359d5923d442836a5998a4d9f43cbc1d336866cc15baedac",
-      "exit_status": 0,
-      "log_sha256": "b1b2a84ed4bbc9ec43eaac09f41439b3c7178c50482afd863d5824b112b7bc5a"
-    }
-  ],
+  "prior_artwork_validation": "validation-previous.json",
+  "compatibility_report": "compatibility-0.8.json",
   "limitations": [
-    "This is a work-in-progress beta; final texture and Naginata edge/exhaust acceptance are still open.",
-    "Full campaign play, damage, ejection, loadout and Shroud cloak were not tested in these bounded captures.",
-    "Lower-LOD distance transitions and separate later-campaign liveries remain under review.",
-    "Windows and macOS runtime tests have not been performed.",
-    "No custom emissive maps are included."
+    "Bounded Linux compatibility checks do not replace campaign, damage, animation-cycle and other-platform testing.",
+    "Original per-pack artwork limitations remain in KNOWN_ISSUES.md."
   ],
-  "metadata_updates": [
-    {
-      "checked_at_utc": "2026-10-07T09:13:17.028579+00:00",
-      "change": "Add the approved artwork licence metadata and the portable licence notice.",
-      "previous_asset_manifest_sha256": "5a67509bc6d47c5d6a172a0506cc87bf0287b84c311ccceb4bc483cc02622ed1",
-      "asset_manifest_sha256": "4508de996d37aace040018a796f7fae481b4d4b34bdbfb236a8f8605ebfa5879",
-      "previous_mod_ini_sha256": "d66f5bf22ba704ceb63683f5c1c5df81d37de37e2894264a7b26a374041014fe",
-      "mod_ini_sha256": "973a3e71b4555ed81e9b05f897b77aba8ba496c69d79e81ccb6ab0f9a68ff00b",
-      "previous_mod_version": "3.1",
-      "mod_version": "3.1.1",
-      "all_other_runtime_files_sha256_unchanged": true,
-      "engine_rerun": false,
-      "scope": "Original runtime evidence above predates this metadata-only update; artwork and native model bytes are unchanged. These metadata files have not been redeployed to the local game."
-    },
-    {
-      "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
-      "change": "Use the clean display title Reaper - Worn Paint and a distinct patch version for this title revision.",
-      "previous_asset_manifest_sha256": "4508de996d37aace040018a796f7fae481b4d4b34bdbfb236a8f8605ebfa5879",
-      "asset_manifest_sha256": "8befc8c27e4415592d0687afcc091011617307d6e2c3f0a3a1086828938748cc",
-      "previous_mod_ini_sha256": "973a3e71b4555ed81e9b05f897b77aba8ba496c69d79e81ccb6ab0f9a68ff00b",
-      "mod_ini_sha256": "1d97f01494a01227ebba45018d091f909236d2f0637bf1772a69560bbd6adebe",
-      "all_other_runtime_files_sha256_unchanged": true,
-      "engine_rerun": false,
-      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed.",
-      "previous_mod_version": "3.1.1",
-      "mod_version": "3.1.2"
-    }
-  ]
+  "game_launched_for_this_update": false,
+  "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+  "non_visual_validation": true
 }

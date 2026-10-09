@@ -55,5 +55,12 @@
   "captured_runtime_manifest_sha256": "af7be153b7033cc0f068dffd9cc897559e34893fd641e2265092c156eac54e7f",
   "published_runtime_manifest_sha256": "3c56f5e0d8e4b49a8f5b3da8598960a93fecfc1b78451989abf966b0086236a1",
   "metadata_only_difference": "mod.ini no longer says in-game review is pending; every model, texture and mission byte is unchanged.",
-  "settings_unchanged": true
+  "settings_unchanged": true,
+  "compatibility_update": {
+    "version": "0.1.0-beta.2",
+    "engine_requirement": "0.8.1",
+    "report": "compatibility-0.8.json",
+    "captured_engine_unchanged": true,
+    "note": "Historical gallery captures keep their recorded engine version. This package update removes generated-colour copies and changes release metadata, while retaining the depicted artwork."
+  }
 }

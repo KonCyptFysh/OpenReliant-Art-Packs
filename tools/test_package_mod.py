@@ -65,6 +65,20 @@ class PackageChecks(unittest.TestCase):
             self.assertEqual(contents.getinfo("inspect.sh").external_attr >> 16, 0o100755)
             self.assertEqual(contents.getinfo("README.md").external_attr >> 16, 0o100644)
 
+    def test_duplicate_loadout_image_rejected(self):
+        self.write("mods/fixture/hull.png", "synthetic image bytes")
+        self.write("mods/fixture/ghull.png", "synthetic image bytes")
+        self.refresh_manifest()
+        self.repin()
+        with self.assertRaisesRegex(ValueError, "Redundant loadout colour variant"):
+            pack.validate(self.root)
+
+    def test_g_prefix_alone_is_not_a_variant(self):
+        self.write("mods/fixture/gradient.png", "synthetic image bytes")
+        self.refresh_manifest()
+        self.repin()
+        pack.validate(self.root)
+
     def test_older_component_minimum_is_compatible(self):
         self.write("mods/fixture/mod.ini", "[Mod]\nName=Fixture\nOpenReliant=0.6.3\n")
         self.refresh_manifest()

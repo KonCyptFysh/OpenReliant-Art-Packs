@@ -1,5 +1,7 @@
 # Missiles, Torpedoes and Fuel Pod
 
+Current package: **0.1.0-beta.4**, artwork **1.2**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
+
 **Artwork 1.2 / audit v3 — user approved and verified for Git upload.**
 
 Seven families were revised following the second game review: Screamer pod, Raptor, Raptor pod, Jackhammer, Bandit, Imp and fuel pod. Matching loadout faces reuse the corrected flight UVs and textures. All 32 native variants and 100 part/LOD meshes remain present.

@@ -1,0 +1,644 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-07T15:57:27.665603+00:00",
+  "asset_revision": "1.2",
+  "engine_build": "Official OpenReliant 0.7.0",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "engine_launched_this_pass": true,
+  "native_checks": [
+    {
+      "file": "01_screamer.SHP",
+      "sha256": "d715effd834753dfb99e9e98d1c8e703a6464fff97d2cefebeed43ef1750456a",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 94 vertices, 175 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "01_screamer_pod.SHP",
+      "sha256": "e27368db64a6b3ad70f61fa136617df162d07ff789bd457470094e0a3bbff7f4",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 45 vertices, 78 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "02_raptor.SHP",
+      "sha256": "4079a1c1e6efef8d5244420792a0511b9cb23496bb004f007d10087985c2a99b",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 94 vertices, 174 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "02_raptor_POD.SHP",
+      "sha256": "0e2fee17891d28c56a03c291e28127050cadbda56a4ba67fdde5b9b8212cf24f",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 51 vertices, 90 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "03_havoc.SHP",
+      "sha256": "778db165b728d70fb8e8bd34042cdeead188e319353bd51f926785d1bd96db01",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 97 vertices, 182 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "sha256": "108a6bf0d20366cda65d5e0b315a0a512cd939c8d3adb2f46644dbd55e2772a0",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 107 vertices, 202 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "05_bandit.SHP",
+      "sha256": "edee0b9f93d805325957dd3838e639fd3cc8f125bc3617298d06b7da132ad3cc",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 97 vertices, 182 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "06_vagabond.SHP",
+      "sha256": "59ec4800dcab3b37718c1cab55a5c882d2557ed9aee0e5479a5e259ddfdd1cc3",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 73 vertices, 134 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "07_Solomon_POD.SHP",
+      "sha256": "4192dca367ce927f0d060b85ffc3bc579040cec4da6abfa54b118eb905b5cec2",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 58 vertices, 104 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "07_solomon.SHP",
+      "sha256": "5ab26cc0c13a3181e92d9b492272a91b29b1a5f6465dd00c5039fb8b2fa66119",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 94 vertices, 176 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "08_imp.SHP",
+      "sha256": "208af9f351873c2912eb263eeff8e885474f8134bb8d49a6783e285af2b6f4e1",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 108 vertices, 204 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "09_hawk.SHP",
+      "sha256": "62821c04603e019ba9374dc976bcfdfd2834f4026146f7db2c16514763c18f21",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 97 vertices, 181 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "09_hawk_POD.SHP",
+      "sha256": "d1091aa84895ab18b9274f2c71cb3e32097997055489e20405aa9592eda22a5d",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 37 vertices, 62 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "10_torpedo.SHP",
+      "sha256": "9ef936ebb9cc1dcc869786f9d23bce2bdaebd666e7d222a5e8101ccd86dfd530",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 73 vertices, 134 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "21_screamer.SHP",
+      "sha256": "9153730b7efc412ce1ff6397ba2fbfd97c7c5b270cd6ef4cb334f60f1ba35f2a",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 94 vertices, 176 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "21_screamer_pod.SHP",
+      "sha256": "b651aedb75a15efed1b4f4d46d1b0cef10a26f50912a4c0cbdd70261427118eb",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 33 vertices, 46 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "22_raptor.SHP",
+      "sha256": "8e8881e96f60bacdcc68d63afddde529db77f0f74750348f3414c6781690a124",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 94 vertices, 176 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "22_raptor_POD.SHP",
+      "sha256": "9a2dd3667d4ac8c9e3fa60fedac828427d40e71feaf890eb71b71177b5ad02ab",
+      "exit_status": 0,
+      "output": "ok: 3 parts, 44 vertices, 58 faces\nbounds: 3 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "23_havoc.SHP",
+      "sha256": "e95edf4769e0be8f7648e0ae0a1e828f6ae795e8fbe14fbfc6389af539b74b1b",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 97 vertices, 182 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "sha256": "c12b55de977b97439afc03528422a55e10573c69111f24bc79a3e30be0cd8aa5",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 107 vertices, 202 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "25_bandit.SHP",
+      "sha256": "9740aa0ab47b3b104eedf60a27b10dec5e4d74b990b45b3ecf731e395bc03c30",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 97 vertices, 182 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "26_vagabond.SHP",
+      "sha256": "28e80e24e1b1021b26ba9820211295df8b3f50cb8bc2084e63e55fd1971cb695",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 73 vertices, 134 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "27_Solomon_POD.SHP",
+      "sha256": "7ebdf3297c7fb5c8a5debd5219d210ec28ac69ab3e9dc5fd45eaf3b5520b85ae",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 32 vertices, 60 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "27_solomon.SHP",
+      "sha256": "8c2a8b3fe7795c5657061029dbd37b47d65b45315d82da7586f94ba63cae50e3",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 94 vertices, 176 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "28_imp.SHP",
+      "sha256": "391db24da6e7aaa6df5456428869eb4fa4111d960abd5b4e85827c0ba36302f5",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 108 vertices, 204 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "29_hawk.SHP",
+      "sha256": "bcdb2d90911d6ff3ce4d9c3da8edaea22ce24a4cb79249aa74bc586979596d5e",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 97 vertices, 182 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "29_hawk_POD.SHP",
+      "sha256": "664da53aee49b2816df6ad2a7fbb6bb875314a16b6db9e0a60bd2aa169670c32",
+      "exit_status": 0,
+      "output": "ok: 2 parts, 74 vertices, 124 faces\nbounds: 2 oriented\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "30_torpedo.SHP",
+      "sha256": "47ce216666561c199f2d2c03f41e37b10b5b67d9b49a6e0d49445a8cf008f84d",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 73 vertices, 134 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "31_fuel_pod.SHP",
+      "sha256": "09c6aa45861f0df31cb60bd0fc10ee21e6807dbae2721aa992d51c2253327e50",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 65 vertices, 124 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "Rus_Torp.SHP",
+      "sha256": "5e2dce634993aff3d0b73041351f78b2f73be9890dbed2da61f10f260374289f",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 133 vertices, 230 faces\nbounds: 1 oriented\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "fuel_pod.SHP",
+      "sha256": "1d463c8f8fc317f6eee8220afa339ac6f555c1a290d5c34dc4bc6f1ce4b5a315",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 69 vertices, 126 faces\nbounds: 1 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "file": "torpedo.SHP",
+      "sha256": "8d6f2078fe80089361fc8be6727c0466e7d79bb99680c9c79ed12da3fdb0ea58",
+      "exit_status": 0,
+      "output": "ok: 1 parts, 73 vertices, 134 faces\nbounds: 1 permuted\nwritten again: the same bytes\n"
+    }
+  ],
+  "map_checks": [
+    {
+      "file": "orord1_hull.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sha256": "0329386a6e7b3232716d0b1cef8bd57ef0d61dd22fa15933d5bd167a8eaf736a"
+    },
+    {
+      "file": "orord1_hull_normal.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sha256": "9612edbabd83032546cef4ab788f46a6a574658bb995bcad90e6653a97e14fa1",
+      "covered_max_unit_error": 0.010357738861211274,
+      "covered_mean_unit_error": 0.0006092958950874902
+    },
+    {
+      "file": "orord1_hull_orm.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sha256": "c7dbefd75cb52c737897423b9e98dbf31c301180ee2865ad6ea489a9108469d9"
+    },
+    {
+      "file": "orord2_nozz.png",
+      "resolution": [
+        512,
+        512
+      ],
+      "sha256": "506b81f919df26fc6295e2de03a0f832c17f4e8079956ced0f94dc69cb25c3d7"
+    },
+    {
+      "file": "orord2_nozz_normal.png",
+      "resolution": [
+        512,
+        512
+      ],
+      "sha256": "f3d48816a6ee8bc085bbd558b61c915c753a1b180fbeb340291b930db5b95dbc",
+      "covered_max_unit_error": 0.006331360245143802,
+      "covered_mean_unit_error": 0.0003725938718916584
+    },
+    {
+      "file": "orord2_nozz_orm.png",
+      "resolution": [
+        512,
+        512
+      ],
+      "sha256": "8fa5617a44dd4b7f73a01092d9eec6a3b5b1ea764c63bd66f24a43d40b5af493"
+    },
+    {
+      "file": "orord2_scrm.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sha256": "b3ea640846600e4d1f0a96087858619e75d90ae9c3eb2c18b2bd6db66495d07e"
+    },
+    {
+      "file": "orord2_scrm_normal.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sha256": "e27cde7ca7a3b6a4235628f7ccf3f9071c0a191772531624e086fa037afd1241",
+      "covered_max_unit_error": 0.004114577909133943,
+      "covered_mean_unit_error": 4.520519940782623e-05
+    },
+    {
+      "file": "orord2_scrm_orm.png",
+      "resolution": [
+        2048,
+        2048
+      ],
+      "sha256": "6d5fcba1134fdadc061b78fc2f09cf6b9b0ddeb56426c0e643e5eaee6ebcef9c"
+    },
+    {
+      "file": "orord3_rpod.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sha256": "74288b54722929a9c0bc3bdd05a13d5ac5ffdf43887d3bcc08a46b1fe0551978"
+    },
+    {
+      "file": "orord3_rpod_normal.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sha256": "c1b86519802a64ffd5eeb164131037a5b73456fe58dd0a312de36f96a9af60d2",
+      "covered_max_unit_error": 0.9932076438918868,
+      "covered_mean_unit_error": 0.00041429737960301297
+    },
+    {
+      "file": "orord3_rpod_orm.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sha256": "1263dfe385d863704ccdf1dc8ec8193bf8e59ccf3d8a409ca33cd841a17c0d65"
+    },
+    {
+      "file": "orord3_spod.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sha256": "59f715522a0dcda4b54803ee17e38f44ebc48bb8429e82b5dc55d6424f46e297"
+    },
+    {
+      "file": "orord3_spod_normal.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sha256": "54e19f1ab7061122191ed355e4cc39fb868590c8d6a0e5c006c97964316a6145",
+      "covered_max_unit_error": 0.2418176696979054,
+      "covered_mean_unit_error": 0.0006646488075818266
+    },
+    {
+      "file": "orord3_spod_orm.png",
+      "resolution": [
+        4096,
+        4096
+      ],
+      "sha256": "02f07efb57e75438ee3e1b69f67ff55bd17e0d71b73bde962e2cdcf3e2355530"
+    }
+  ],
+  "models": 32,
+  "part_lod_records": 100,
+  "changed_models": 14,
+  "approved_models_byte_identical": [
+    "01_screamer.SHP",
+    "03_havoc.SHP",
+    "06_vagabond.SHP",
+    "07_Solomon_POD.SHP",
+    "07_solomon.SHP",
+    "09_hawk.SHP",
+    "09_hawk_POD.SHP",
+    "10_torpedo.SHP",
+    "21_screamer.SHP",
+    "23_havoc.SHP",
+    "26_vagabond.SHP",
+    "27_Solomon_POD.SHP",
+    "27_solomon.SHP",
+    "29_hawk.SHP",
+    "29_hawk_POD.SHP",
+    "30_torpedo.SHP",
+    "Rus_Torp.SHP",
+    "torpedo.SHP"
+  ],
+  "original_atlas_and_prior_maps_byte_identical": true,
+  "positions_native_normals_attachments_animation_part_records_byte_exact": true,
+  "effective_triangle_winding_and_topology_preserved": true,
+  "portable_scene_export_matches_runtime": true,
+  "nozzle_uvs_materials_unchanged": [
+    "02_raptor.SHP",
+    "04_jackhammer.SHP",
+    "05_bandit.SHP",
+    "08_imp.SHP"
+  ],
+  "max_uv_anisotropy": 11.586087149556384,
+  "loadout_reuse": [
+    {
+      "file": "04_jackhammer.SHP",
+      "lod": 1,
+      "repair": "retain established nondegenerate mapping on coarse spanning triangles",
+      "faces": [
+        4,
+        12,
+        13
+      ]
+    },
+    {
+      "file": "04_jackhammer.SHP",
+      "lod": 2,
+      "repair": "retain established nondegenerate mapping on coarse spanning triangles",
+      "faces": [
+        2,
+        3,
+        5,
+        11
+      ]
+    },
+    {
+      "file": "05_bandit.SHP",
+      "lod": 1,
+      "repair": "retain established nondegenerate mapping on coarse spanning triangles",
+      "faces": [
+        32,
+        36,
+        37,
+        43
+      ]
+    },
+    {
+      "file": "08_imp.SHP",
+      "lod": 2,
+      "repair": "retain established nondegenerate mapping on coarse spanning triangles",
+      "faces": [
+        12
+      ]
+    },
+    {
+      "file": "21_screamer_pod.SHP",
+      "part": 0,
+      "lod": 0,
+      "source": "01_screamer_pod.SHP",
+      "matched_faces": 46,
+      "total_faces": 46,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 0,
+      "source": "02_raptor.SHP",
+      "matched_faces": 102,
+      "total_faces": 102,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 1,
+      "source": "02_raptor.SHP",
+      "matched_faces": 50,
+      "total_faces": 50,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "22_raptor.SHP",
+      "part": 0,
+      "lod": 2,
+      "source": "02_raptor.SHP",
+      "matched_faces": 24,
+      "total_faces": 24,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "22_raptor_POD.SHP",
+      "part": 0,
+      "lod": 0,
+      "source": "02_raptor_POD.SHP",
+      "matched_faces": 0,
+      "total_faces": 3,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "22_raptor_POD.SHP",
+      "part": 1,
+      "lod": 0,
+      "source": "02_raptor_POD.SHP",
+      "matched_faces": 52,
+      "total_faces": 52,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "22_raptor_POD.SHP",
+      "part": 2,
+      "lod": 0,
+      "source": "02_raptor_POD.SHP",
+      "matched_faces": 0,
+      "total_faces": 3,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 0,
+      "source": "04_jackhammer.SHP",
+      "matched_faces": 118,
+      "total_faces": 118,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 1,
+      "source": "04_jackhammer.SHP",
+      "matched_faces": 58,
+      "total_faces": 58,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "24_jackhammer.SHP",
+      "part": 0,
+      "lod": 2,
+      "source": "04_jackhammer.SHP",
+      "matched_faces": 26,
+      "total_faces": 26,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 0,
+      "source": "05_bandit.SHP",
+      "matched_faces": 118,
+      "total_faces": 118,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 1,
+      "source": "05_bandit.SHP",
+      "matched_faces": 46,
+      "total_faces": 46,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "25_bandit.SHP",
+      "part": 0,
+      "lod": 2,
+      "source": "05_bandit.SHP",
+      "matched_faces": 18,
+      "total_faces": 18,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "28_imp.SHP",
+      "part": 0,
+      "lod": 0,
+      "source": "08_imp.SHP",
+      "matched_faces": 118,
+      "total_faces": 118,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "28_imp.SHP",
+      "part": 0,
+      "lod": 1,
+      "source": "08_imp.SHP",
+      "matched_faces": 58,
+      "total_faces": 58,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "28_imp.SHP",
+      "part": 0,
+      "lod": 2,
+      "source": "08_imp.SHP",
+      "matched_faces": 28,
+      "total_faces": 28,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "31_fuel_pod.SHP",
+      "part": 0,
+      "lod": 0,
+      "source": "fuel_pod.SHP",
+      "matched_faces": 72,
+      "total_faces": 74,
+      "suppressed": [
+        0,
+        1
+      ],
+      "restored_top_faces": [
+        2,
+        73
+      ]
+    },
+    {
+      "file": "31_fuel_pod.SHP",
+      "part": 0,
+      "lod": 1,
+      "source": "fuel_pod.SHP",
+      "matched_faces": 0,
+      "total_faces": 50,
+      "suppressed": [],
+      "restored_top_faces": []
+    },
+    {
+      "file": "31_fuel_pod.SHP",
+      "lod": 1,
+      "repair": "display-only simplified top cap restored with shared steel projection",
+      "restored_top_faces": [
+        48,
+        49
+      ]
+    }
+  ],
+  "deployment": {
+    "matching_runtime_files": 49,
+    "previous_runtime_backed_up": "authoring-workspace/work/audit_v3/deployed_v2_backup.zip"
+  },
+  "runtime_screenshot_review": {
+    "gallery": "review/game_audit_v3/index.html",
+    "manifest": "review/game_audit_v3/capture_manifest.json",
+    "screenshots": 18,
+    "families": 7,
+    "agent_visual_review": "passed from recorded static views",
+    "user_approved": true,
+    "approved_at_utc": "2026-10-07T16:08:06.796885+00:00"
+  },
+  "limitations": [
+    "Firing, mounted loadout animation and actual distance transitions retain native records but have not been separately gameplay tested.",
+    "Custom emissives remain deferred."
+  ],
+  "emissives": "deferred",
+  "release_status": "ready-for-packaging",
+  "asset_manifest_sha256": "c32354caed4fcb0cfee632343b4edf44261d91ee573c76266234302436b96c12",
+  "source_manifest_sha256": "f2e18238f6186592b2c800dbeb500e1ec001addc4c1a7b615c83b0167ac0f664",
+  "user_approved": true,
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-07T16:08:06.796885+00:00",
+    "scope": "All 32 missile, pod, loadout and torpedo variants including the audit-v3 corrections.",
+    "instruction": "Beautiful, I'm happy to green light all of these, let's send them upto git"
+  },
+  "tested_platforms": [
+    "Linux x86_64"
+  ],
+  "checks": [
+    "All 32 SHP files pass the official OpenReliant 0.7.0 native round-trip validator.",
+    "All 15 maps checked and the 49 runtime files match the deployed pack.",
+    "Original geometry, native normals, attachments, animation and LOD records preserved.",
+    "Portable Blender source reproduces all 32 runtime SHP files byte-for-byte.",
+    "Eighteen current in-game views inspected, with opposite sides, pod undersides and loadout copies.",
+    "User approved all models after the audit-v3 in-game review."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "1.0",
+  "previous_release": "tempest-v0.1.0-beta.1",
+  "new_release": "tempest-v0.1.0-beta.2",
+  "previous_asset_manifest_sha256": "45a39ca04cf633aab87b21099bc36293c65ac2ab094f590557a09d2cff82e1ce",
+  "removed_variants": [
+    {
+      "path": "mods/70-tempest-worn-v1/gortm1_hull.png",
+      "base": "mods/70-tempest-worn-v1/ortm1_hull.png",
+      "bytes": 17642666,
+      "sha256": "4d845f99a655753920b316c12dfcf5f7866415210cc8f5a376fd700f251fec49"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/gortm1_hull_normal.png",
+      "base": "mods/70-tempest-worn-v1/ortm1_hull_normal.png",
+      "bytes": 1673478,
+      "sha256": "e6b164de0fe86454aa51723c1217c4a27349d24c42862412c65aa5a1e8ab4c93"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/gortm1_hull_orm.png",
+      "base": "mods/70-tempest-worn-v1/ortm1_hull_orm.png",
+      "bytes": 12736171,
+      "sha256": "febb63bf3e93fe361e6db7f3c7e0d1925ccfd578a9e7bdf55913dd5cd1197b4f"
+    }
+  ],
+  "removed_bytes": 32052315,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "431d86d6f5ed4e735184a172257e34c34679cea33137ef763037d811c49c2522",
+  "native_checks": [
+    {
+      "path": "mods/70-tempest-worn-v1/British_Tempest.SHP",
+      "sha256": "5dcc22f65c0cdfee024f91b930e714a141c100df1ac5499c94c836b7adc1e601",
+      "exit_code": 0,
+      "log_sha256": "f9244cea0042b9d466eba1de6488becb7faea569c45708c5dee162fbf6ab26ad"
+    },
+    {
+      "path": "mods/70-tempest-worn-v1/t_British_Tempest.SHP",
+      "sha256": "9aebd0c731ff5645194205c5bf3d6dbeac8295ee4d612d74d7fddc62e58e131a",
+      "exit_code": 0,
+      "log_sha256": "f9244cea0042b9d466eba1de6488becb7faea569c45708c5dee162fbf6ab26ad"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:12:03.102994+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "ortm1_hull",
+        "exit_code": 0,
+        "base_sha256": "4d845f99a655753920b316c12dfcf5f7866415210cc8f5a376fd700f251fec49",
+        "normal_sha256": "e6b164de0fe86454aa51723c1217c4a27349d24c42862412c65aa5a1e8ab4c93",
+        "orm_sha256": "febb63bf3e93fe361e6db7f3c7e0d1925ccfd578a9e7bdf55913dd5cd1197b4f",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "9dd307fb4a25549872e792b5e693ee451aa8d41744979a8ee20c601b2d6af499"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

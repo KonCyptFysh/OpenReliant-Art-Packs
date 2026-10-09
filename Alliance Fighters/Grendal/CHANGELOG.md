@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-beta.2 — OpenReliant 0.8.1 compatibility and smaller package
+
+- Requires official OpenReliant 0.8.1; updates inspection launchers and package metadata.
+- Removes 3 duplicate green/red loadout texture files (27,293,099 bytes); keeps original unprefixed PNG material maps unchanged.
+- Preserves all current model, UV, animation and authored material bytes.
+
+
 ## Artwork 1.1 - user-approved beta
 
 - Reoriented and aligned 26 collar UV faces into evenly spaced cooling ribs on both forward gun housings.

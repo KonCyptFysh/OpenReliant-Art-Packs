@@ -5,21 +5,6 @@
     "sha256": "11151daa9fb82cf5eda80c8a0bef7bf5ed1948d1a2305dcd651940937d621f0d"
   },
   {
-    "path": "mods/104-kamov-worn-v1/gorkm1_hull.png",
-    "bytes": 16966725,
-    "sha256": "306a1c558caa96a34e92b463ae4e67f51b43829bfe458dbb356b7a242cd39f25"
-  },
-  {
-    "path": "mods/104-kamov-worn-v1/gorkm1_hull_normal.png",
-    "bytes": 176108,
-    "sha256": "e6ee20b1815c6d85ecd435f9738f12b599ca072f0a781e0762f1e37f68338583"
-  },
-  {
-    "path": "mods/104-kamov-worn-v1/gorkm1_hull_orm.png",
-    "bytes": 9341396,
-    "sha256": "89598a837b0cfa117149a36dd3d2530815b32817b911be8d757440514843b186"
-  },
-  {
     "path": "mods/104-kamov-worn-v1/kamov_inspection.luau",
     "bytes": 1732,
     "sha256": "69959cba5b7f02d5924bc91ade4737aacb65afc5dffc93c3b6fc5b8d88957074"
@@ -52,7 +37,7 @@
   {
     "path": "mods/104-kamov-worn-v1/mod.ini",
     "bytes": 373,
-    "sha256": "91f9a39a58454d6394412ff12a17970d6d140b390d54631d773c8826303f16bd"
+    "sha256": "1f68fac3fd622fbf2d05b975afbf85b399905d534738a75ec1fd244b7392b150"
   },
   {
     "path": "mods/104-kamov-worn-v1/mod.png",
