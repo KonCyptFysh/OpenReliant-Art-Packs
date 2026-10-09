@@ -815,7 +815,8 @@
       "downloadBytes": 25779368,
       "previewSource": "Captured in OpenReliant 0.7.0",
       "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing.",
+      "model": "models/loki.glb"
     },
     {
       "id": "azan",

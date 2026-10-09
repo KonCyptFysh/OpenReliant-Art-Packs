@@ -402,5 +402,58 @@
       }
     ],
     "limitations": "Viewing copy with reduced texture resolution and browser lighting; in-game screenshots show actual engine appearance."
+  },
+  "loki": {
+    "model": "CRP_Loki.SHP",
+    "model_sha256": "61a601877d1c53ab68772eb7c474df76b6ab799b08fa8986bae548660cde5977",
+    "preview_sha256": "656e9b6a6e8a00ec20942305c1b9809027dc55345112d9e6909c317ee272ec17",
+    "preview_bytes": 1521100,
+    "highest_detail_geometry": true,
+    "textures": [
+      {
+        "runtime_file": "orlk1_hull.png",
+        "sha256": "d255d64bb22bbbdfc6b4031a6318472593170c485d2d015a77514974961f694e",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orlk1_hull_normal.png",
+        "sha256": "f8041660c30042c3c0c0ad568456b205424624b51729eddff4c66b2beec898c6",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orlk1_hull_orm.png",
+        "sha256": "92ac8fa9fe0da4017ea93b5c061673a460b6bc07cf787abec69a84580c356a02",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "limitations": "Static folded pose, rotatable viewing copy with 1024-pixel textures and browser lighting. The photo gallery also shows fighting position. Engine effects and loadout attachments are omitted.",
+    "pose": "folded",
+    "pose_frame": 1,
+    "parts": 7,
+    "visible_triangles": 526,
+    "part_hierarchy_verified": true,
+    "pose_source_sha256": "0b0181a59b43e70d8c723325171b90ba2a74e168d281c45a8756f98106e34df8",
+    "engine_exporter": "Official OpenReliant sltool 0.8.1",
+    "native_runtime_unchanged": true,
+    "asset_manifest_sha256": "4ff0f3f10e79644efab2a9f84de9bbb0a41ba574f7aa02400cf9b2fb7d2426af",
+    "local_browser_checks": {
+      "date_utc": "2026-10-09T14:22:25.299801+00:00",
+      "model_loaded": true,
+      "rotation_and_zoom": true,
+      "desktop_and_mobile": true,
+      "material_revision": "1.1"
+    }
   }
 }
