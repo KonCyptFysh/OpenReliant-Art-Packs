@@ -862,6 +862,41 @@
       "checksum": "44bcba00acddb6f8a104d7204433b4bfe2335c92827b92c84c2ec50d0600d80a",
       "downloadBytes": 26677406,
       "model": "models/azan.glb"
+    },
+    {
+      "id": "cossack",
+      "name": "Cossack - Worn Paint",
+      "category": "coalition-fighters",
+      "folder": "Coalition Fighters/Cossack",
+      "status": "coming-soon",
+      "assetRevision": "1.0",
+      "description": "Worn silver-grey Coalition hull, red star markings, recessed amber glazing and repaired cockpit underside UVs.",
+      "modFolder": "107-cossack-worn-v1",
+      "preview": "assets/cossack/flight-overview.webp",
+      "defaultPreview": "image",
+      "images": [
+        {
+          "src": "assets/cossack/flight-overview.webp",
+          "caption": "Cossack \u2014 In-game overview"
+        },
+        {
+          "src": "assets/cossack/flight-top.webp",
+          "caption": "Cossack \u2014 Top view"
+        },
+        {
+          "src": "assets/cossack/flight-underside.webp",
+          "caption": "Cossack \u2014 Underside"
+        }
+      ],
+      "previewSource": "User in-game capture",
+      "engine": "0.8.1",
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing.",
+        "Cockpit underside UV repairs apply to the finest detail level; lower-detail mappings are retained."
+      ],
+      "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
+      "model": "models/cossack.glb"
     }
   ]
 }

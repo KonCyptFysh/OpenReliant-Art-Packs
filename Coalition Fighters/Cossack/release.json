@@ -1,0 +1,37 @@
+{
+  "package_name": "openreliant-cossack",
+  "version": "0.1.0-beta.1",
+  "asset_revision": "1.0",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.8.1",
+  "mod_folders": [
+    "107-cossack-worn-v1"
+  ],
+  "asset_manifest_sha256": "44facd97e613f4398bba7a22832aa2e91a68f7ef43f7677fa9e9e91dff4fc6f0",
+  "source_manifest_sha256": "2f0ca0f95b2578373d4332a2b0b5104b3f988e7b21235f9a617806e3ec43e62e",
+  "channel": "beta",
+  "user_approved": true,
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json",
+    "compatibility-0.8.json",
+    "tools/launch-cossack-test.sh",
+    "approval.json",
+    "gallery-validation.json"
+  ],
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-09T15:02:07.453809+00:00",
+    "scope": "Cossack worn artwork revision 1.0, approved for Git and beta publication following user review.",
+    "instruction": "Looks good, ship it!",
+    "qualification": "User reports no current revisions. This does not certify complete campaign, damage, animation or distance-transition coverage."
+  }
+}

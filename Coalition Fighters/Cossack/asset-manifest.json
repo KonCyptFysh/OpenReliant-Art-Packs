@@ -1,0 +1,42 @@
+[
+  {
+    "path": "mods/107-cossack-worn-v1/Rus_Kossac.SHP",
+    "bytes": 263204,
+    "sha256": "a8b1f6005bff3c2f97424c7f65815acdd95430c524aa6db893ddd218ffeff582"
+  },
+  {
+    "path": "mods/107-cossack-worn-v1/license.txt",
+    "bytes": 248,
+    "sha256": "67fbd7b04ea854e5da4597163efa7d94f4885e0669da0ff933bc46fb408b523f"
+  },
+  {
+    "path": "mods/107-cossack-worn-v1/mission979.dte",
+    "bytes": 480,
+    "sha256": "5cfc9be513b5181ee7ea15684e1daf22e979b647ce2a11471ba7363b755bd90d"
+  },
+  {
+    "path": "mods/107-cossack-worn-v1/mod.ini",
+    "bytes": 250,
+    "sha256": "0f54035fa3c0fe4b80208007cef25884de7bb217ef908fc816239f04b0421c99"
+  },
+  {
+    "path": "mods/107-cossack-worn-v1/mod.png",
+    "bytes": 1096398,
+    "sha256": "d87b71bb6ffd9b689fd23a0c6b1eb0dbfa28a6726a2fb4f9199a2307f792c818"
+  },
+  {
+    "path": "mods/107-cossack-worn-v1/orcs1_hull.png",
+    "bytes": 16273304,
+    "sha256": "2f8a6b6c84818847e9ed766e1157f4c887e5a3f6f4912d78289e28dc7680566c"
+  },
+  {
+    "path": "mods/107-cossack-worn-v1/orcs1_hull_normal.png",
+    "bytes": 353878,
+    "sha256": "ab1fbe45f072b465012a6167797be907ddcabf3f832aee7fd03cb3503a292833"
+  },
+  {
+    "path": "mods/107-cossack-worn-v1/orcs1_hull_orm.png",
+    "bytes": 8490337,
+    "sha256": "ce3882f61d051539c329e696c27a2f48a122c24a863a07607adc963d43b47a47"
+  }
+]
