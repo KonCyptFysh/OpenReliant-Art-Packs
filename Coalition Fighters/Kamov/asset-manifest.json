@@ -1,0 +1,77 @@
+[
+  {
+    "path": "mods/104-kamov-worn-v1/Rus_Kamov.SHP",
+    "bytes": 190620,
+    "sha256": "11151daa9fb82cf5eda80c8a0bef7bf5ed1948d1a2305dcd651940937d621f0d"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/gorkm1_hull.png",
+    "bytes": 16966725,
+    "sha256": "306a1c558caa96a34e92b463ae4e67f51b43829bfe458dbb356b7a242cd39f25"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/gorkm1_hull_normal.png",
+    "bytes": 176108,
+    "sha256": "e6ee20b1815c6d85ecd435f9738f12b599ca072f0a781e0762f1e37f68338583"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/gorkm1_hull_orm.png",
+    "bytes": 9341396,
+    "sha256": "89598a837b0cfa117149a36dd3d2530815b32817b911be8d757440514843b186"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/kamov_inspection.luau",
+    "bytes": 1732,
+    "sha256": "69959cba5b7f02d5924bc91ade4737aacb65afc5dffc93c3b6fc5b8d88957074"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/license.txt",
+    "bytes": 246,
+    "sha256": "db58ea32b5be3d2985d43548c9ef2db0fe98a29e280d033429283d09193c69a3"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/mission984.dte",
+    "bytes": 1074,
+    "sha256": "6045bc7c880358a7b3c9da8906cb77c9f596fd2bac7190f7912fbd42705a0c52"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/mission985.dte",
+    "bytes": 1073,
+    "sha256": "f16f4f802ff627d556582cacd0de0c682a2c928e3d707eb74f4eceec5e145b0f"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/mission986.dte",
+    "bytes": 1068,
+    "sha256": "89443a5cebca494727b33fb6c983b337251a651d016d8e8006e20a25b2855f2e"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/mission987.dte",
+    "bytes": 1042,
+    "sha256": "f96ed2f027b0d2d153cb1aacf3c194bf85ebe4ea01455ee1f894921ad7ed47e4"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/mod.ini",
+    "bytes": 373,
+    "sha256": "91f9a39a58454d6394412ff12a17970d6d140b390d54631d773c8826303f16bd"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/mod.png",
+    "bytes": 1167762,
+    "sha256": "ac506464daf5d4d09d608cd589f39a8768e49111414781074d267cfb7b73f538"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/orkm1_hull.png",
+    "bytes": 16966725,
+    "sha256": "306a1c558caa96a34e92b463ae4e67f51b43829bfe458dbb356b7a242cd39f25"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/orkm1_hull_normal.png",
+    "bytes": 176108,
+    "sha256": "e6ee20b1815c6d85ecd435f9738f12b599ca072f0a781e0762f1e37f68338583"
+  },
+  {
+    "path": "mods/104-kamov-worn-v1/orkm1_hull_orm.png",
+    "bytes": 9341396,
+    "sha256": "89598a837b0cfa117149a36dd3d2530815b32817b911be8d757440514843b186"
+  }
+]

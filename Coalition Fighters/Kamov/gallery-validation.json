@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "gallery_media": "Actual in-game captures in official OpenReliant 0.7.0",
+  "artwork_revision": "1.0",
+  "captures": [
+    {
+      "image": "flight-stowed.png",
+      "sha256": "ab166a6559e5bee0d0a14324d6b11f659e20bfbb2e81db7cde45278fa81df7c3",
+      "engine": "Official OpenReliant 0.7.0",
+      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "mission": 987,
+      "ship": 45,
+      "watch_from": "1,-0.6,1.4",
+      "render_size": [
+        1600,
+        1200
+      ],
+      "screenshot_ticks": 100,
+      "exit_code": 0,
+      "captured_at_utc": "2026-10-09T09:30:03.200324+00:00",
+      "runtime_manifest_sha256": "806bb00fef53e1b0fec52e65e9dc53bd7dcba39720dfca7262476b320d5b029a",
+      "runtime_matches_repository": true,
+      "gallery_file": "assets/kamov/flight-stowed.webp",
+      "gallery_sha256": "2eef42f188fed876eeb0bf8321b77d5e74ef518c6b0414655bf985b4146ccc70",
+      "conversion": "WebP encoding only; no image alterations",
+      "visually_inspected": true,
+      "startup_errors": []
+    },
+    {
+      "image": "flight-deployed.png",
+      "sha256": "dfd9143c275ccbfed8e7b1136eabc5c6fd4b67fd00cc1cab49bdb104b11ef78a",
+      "engine": "Official OpenReliant 0.7.0",
+      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "mission": 986,
+      "ship": 45,
+      "watch_from": "1,-0.6,1.4",
+      "render_size": [
+        1600,
+        1200
+      ],
+      "screenshot_ticks": 600,
+      "exit_code": 0,
+      "captured_at_utc": "2026-10-09T09:30:10.148231+00:00",
+      "runtime_manifest_sha256": "806bb00fef53e1b0fec52e65e9dc53bd7dcba39720dfca7262476b320d5b029a",
+      "runtime_matches_repository": true,
+      "gallery_file": "assets/kamov/flight-deployed.webp",
+      "gallery_sha256": "0527b2b03abb38ed587f43893ba8e0f1604b94667e531e296263a09560823e04",
+      "conversion": "WebP encoding only; no image alterations",
+      "visually_inspected": true,
+      "startup_errors": []
+    }
+  ],
+  "captured_runtime_manifest_sha256": "806bb00fef53e1b0fec52e65e9dc53bd7dcba39720dfca7262476b320d5b029a",
+  "published_runtime_manifest_sha256": "528a6e4a0dfa61e96207cff13bc03f85e3b3a538889a5ae2b5962bc2657e127f",
+  "metadata_only_difference": "mod.ini no longer marks artwork as awaiting review; all model, texture, mission and script bytes are unchanged.",
+  "model_preview": "Static stowed viewing copy; native and Blender deployment tracks are retained in the download and editable source.",
+  "model_preview_validation": {
+    "model": "Rus_Kamov.SHP",
+    "model_sha256": "11151daa9fb82cf5eda80c8a0bef7bf5ed1948d1a2305dcd651940937d621f0d",
+    "preview_sha256": "cd42fd9835896a4c531fce12fbacd284c749b7acc9d12e2814518affbceaa582",
+    "preview_bytes": 1681072,
+    "highest_detail_geometry": true,
+    "textures": [
+      {
+        "runtime_file": "orkm1_hull.png",
+        "sha256": "306a1c558caa96a34e92b463ae4e67f51b43829bfe458dbb356b7a242cd39f25",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orkm1_hull_normal.png",
+        "sha256": "e6ee20b1815c6d85ecd435f9738f12b599ca072f0a781e0762f1e37f68338583",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orkm1_hull_orm.png",
+        "sha256": "89598a837b0cfa117149a36dd3d2530815b32817b911be8d757440514843b186",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "limitations": "Viewing copy with reduced texture resolution and browser lighting; in-game screenshots show actual engine appearance.",
+    "native_parts": 16
+  }
+}
