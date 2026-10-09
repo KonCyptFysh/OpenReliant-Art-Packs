@@ -398,6 +398,40 @@
       "downloadBytes": 55547834
     },
     {
+      "id": "saber",
+      "name": "Saber - Worn Paint",
+      "category": "coalition-fighters",
+      "folder": "Coalition Fighters/Saber",
+      "status": "available",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "1.0",
+      "description": "Worn silver-grey and red Coalition livery, original star markings, reflective amber glazing and repaired machinery UVs.",
+      "modFolder": "102-saber-worn-v1",
+      "preview": "assets/saber/flight-overview.webp",
+      "model": "models/saber.glb",
+      "defaultPreview": "image",
+      "images": [
+        {
+          "src": "assets/saber/flight-overview.webp",
+          "caption": "Saber \u2014 In-game overview"
+        },
+        {
+          "src": "assets/saber/flight-rear.webp",
+          "caption": "Saber \u2014 Rear view"
+        }
+      ],
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Firing, cockpit ejection, damage and distance transitions still need gameplay testing.",
+        "Machinery UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
+      ],
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.1/openreliant-saber-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.1",
+      "checksum": "195f55e91b83b26ca044877aef4120641f08220abf991f72748b6a51abf65c69",
+      "tag": "saber-v0.1.0-beta.1",
+      "downloadBytes": 56728796
+    },
+    {
       "id": "ordnance",
       "name": "Missiles, Torpedoes and Fuel Pod - Worn Paint",
       "category": "weapons",
