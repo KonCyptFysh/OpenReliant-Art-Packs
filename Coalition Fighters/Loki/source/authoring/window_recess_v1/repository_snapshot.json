@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "$LOKI_WORKSPACE/loki_worn_pbr_v1.blend",
+  "canonical_sha256": "0b0181a59b43e70d8c723325171b90ba2a74e168d281c45a8756f98106e34df8",
+  "snapshot": "$ART_PACKS_REPOSITORY/Coalition Fighters/Loki/source/loki_worn_pbr_v1.blend",
+  "snapshot_sha256": "40dc95991bbd7792221d34e9f06a7f6299a00a167ce9a935d74d119ce1cf9c02",
+  "mesh_signature": "0f3a9527904f50301bca55b401c26d9447f1f74798e46493b0fb231695f774d5",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "loki_hull_basecolor_v1.png",
+      "path": "//resources/d255d64bb22b_loki_hull_basecolor_v1.png",
+      "sha256": "d255d64bb22bbbdfc6b4031a6318472593170c485d2d015a77514974961f694e"
+    },
+    {
+      "image": "loki_hull_metallic_v1.png",
+      "path": "//resources/2f318ea90d0a_loki_hull_metallic_v1.png",
+      "sha256": "2f318ea90d0a6b64ad11e5b817e8393783d0fb3526e0ac31f012af30e1a38d29"
+    },
+    {
+      "image": "loki_hull_normal_v1_1.png",
+      "path": "//resources/f8041660c300_loki_hull_normal_v1_1.png",
+      "sha256": "f8041660c30042c3c0c0ad568456b205424624b51729eddff4c66b2beec898c6"
+    },
+    {
+      "image": "loki_hull_roughness_v1.png",
+      "path": "//resources/c11b0d4b667a_loki_hull_roughness_v1.png",
+      "sha256": "c11b0d4b667a616c5bc24e71b60bda31fd7176c199383f9db0741bdc411f5255"
+    }
+  ]
+}

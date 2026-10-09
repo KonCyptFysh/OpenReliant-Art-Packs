@@ -1,0 +1,39 @@
+{
+  "package_name": "openreliant-kamov",
+  "version": "0.1.0-beta.1",
+  "asset_revision": "1.0",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.7.0",
+  "mod_folders": [
+    "104-kamov-worn-v1"
+  ],
+  "asset_manifest_sha256": "528a6e4a0dfa61e96207cff13bc03f85e3b3a538889a5ae2b5962bc2657e127f",
+  "source_manifest_sha256": "f7312a94128c080c84abc617ccdaa94aba58efafee39e5fc78c6ab23b98eff76",
+  "channel": "beta",
+  "user_approved": true,
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json",
+    "tools/launch-kamov-deployed-test.sh",
+    "tools/launch-kamov-launch-test.sh",
+    "tools/launch-kamov-stowed-test.sh",
+    "tools/launch-kamov-test.sh",
+    "approval.json",
+    "gallery-validation.json"
+  ],
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-09T09:33:08.491187+00:00",
+    "instruction": "Sweet, go ahead and ship that, it's good",
+    "scope": "Kamov worn artwork revision 1.0, shared player/AI exterior, structural normal and material maps, preserved torpedo deployment and inspection modes.",
+    "qualification": "Visual artwork approval. Manual firing, full mission 25 and AI combat, cloaking, damage, ejection and distance transitions remain outside the completed checks."
+  }
+}

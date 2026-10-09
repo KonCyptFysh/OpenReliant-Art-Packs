@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "normal_max_unit_error": 0.005598008632659912,
+  "graphics_and_glass_metallic_zero": true,
+  "orm_channels_match": true,
+  "flight_and_loadout_maps_identical": true,
+  "dimensions": [
+    4096,
+    4096
+  ],
+  "flat_glass_interiors": true,
+  "recessed_window_bevels": true,
+  "unrelated_normal_texels_unchanged": true,
+  "normal_sha256": "f8041660c30042c3c0c0ad568456b205424624b51729eddff4c66b2beec898c6"
+}

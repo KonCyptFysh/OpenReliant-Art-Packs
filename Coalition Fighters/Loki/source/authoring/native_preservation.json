@@ -1,0 +1,569 @@
+{
+  "passed": true,
+  "source_sha256": "dc00f9a44f61f6bac2a9111410da26b5931db53628e9410bcb9c0bca428faae7",
+  "output_sha256": "61a601877d1c53ab68772eb7c474df76b6ab799b08fa8986bae548660cde5977",
+  "uv_edits": [],
+  "continuation_corrections": [
+    {
+      "part": "Loki Body",
+      "lod": 0,
+      "face": 204,
+      "prior": 5,
+      "remaining": 3
+    },
+    {
+      "part": "Loki Body",
+      "lod": 0,
+      "face": 205,
+      "prior": 4,
+      "remaining": 2
+    },
+    {
+      "part": "Loki Body",
+      "lod": 0,
+      "face": 206,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Loki Body",
+      "lod": 0,
+      "face": 207,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Loki Body",
+      "lod": 1,
+      "face": 129,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Loki Body",
+      "lod": 1,
+      "face": 130,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Loki Body",
+      "lod": 1,
+      "face": 132,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Loki Body",
+      "lod": 1,
+      "face": 133,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Loki Body",
+      "lod": 1,
+      "face": 148,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Loki Body",
+      "lod": 1,
+      "face": 149,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Loki Body",
+      "lod": 2,
+      "face": 93,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Loki Body",
+      "lod": 2,
+      "face": 105,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Loki Body",
+      "lod": 3,
+      "face": 60,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Loki Body",
+      "lod": 3,
+      "face": 69,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Loki Body",
+      "lod": 4,
+      "face": 45,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Loki Body",
+      "lod": 5,
+      "face": 1,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Loki Body",
+      "lod": 6,
+      "face": 1,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Loki Body",
+      "lod": 7,
+      "face": 14,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Loki Body",
+      "lod": 7,
+      "face": 15,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Loki Body",
+      "lod": 8,
+      "face": 7,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Loki Body",
+      "lod": 8,
+      "face": 8,
+      "prior": 2,
+      "remaining": 0
+    }
+  ],
+  "detail_meshes": [
+    {
+      "part": "Loki Body",
+      "lod": 0,
+      "faces": 274,
+      "groups_before": 104,
+      "groups_after": 105,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Body",
+      "lod": 1,
+      "faces": 190,
+      "groups_before": 87,
+      "groups_after": 90,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Body",
+      "lod": 2,
+      "faces": 132,
+      "groups_before": 72,
+      "groups_after": 74,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Body",
+      "lod": 3,
+      "faces": 92,
+      "groups_before": 65,
+      "groups_after": 67,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Body",
+      "lod": 4,
+      "faces": 64,
+      "groups_before": 48,
+      "groups_after": 49,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Body",
+      "lod": 5,
+      "faces": 44,
+      "groups_before": 35,
+      "groups_after": 36,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Body",
+      "lod": 6,
+      "faces": 30,
+      "groups_before": 25,
+      "groups_after": 26,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Body",
+      "lod": 7,
+      "faces": 20,
+      "groups_before": 16,
+      "groups_after": 17,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Body",
+      "lod": 8,
+      "faces": 11,
+      "groups_before": 7,
+      "groups_after": 8,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Foot",
+      "lod": 0,
+      "faces": 36,
+      "groups_before": 11,
+      "groups_after": 11,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Foot",
+      "lod": 1,
+      "faces": 24,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Foot",
+      "lod": 2,
+      "faces": 16,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Foot",
+      "lod": 3,
+      "faces": 10,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Foot",
+      "lod": 4,
+      "faces": 6,
+      "groups_before": 5,
+      "groups_after": 5,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Foot",
+      "lod": 5,
+      "faces": 4,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Foot",
+      "lod": 6,
+      "faces": 1,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Leg ",
+      "lod": 0,
+      "faces": 48,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Leg ",
+      "lod": 1,
+      "faces": 32,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Leg ",
+      "lod": 2,
+      "faces": 22,
+      "groups_before": 10,
+      "groups_after": 10,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Leg ",
+      "lod": 3,
+      "faces": 14,
+      "groups_before": 7,
+      "groups_after": 7,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Leg ",
+      "lod": 4,
+      "faces": 8,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Leg ",
+      "lod": 5,
+      "faces": 4,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Left Leg ",
+      "lod": 6,
+      "faces": 1,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Leg",
+      "lod": 0,
+      "faces": 48,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Leg",
+      "lod": 1,
+      "faces": 32,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Leg",
+      "lod": 2,
+      "faces": 22,
+      "groups_before": 10,
+      "groups_after": 10,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Leg",
+      "lod": 3,
+      "faces": 14,
+      "groups_before": 7,
+      "groups_after": 7,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Leg",
+      "lod": 4,
+      "faces": 8,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Leg",
+      "lod": 5,
+      "faces": 4,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Leg",
+      "lod": 6,
+      "faces": 1,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Foot",
+      "lod": 0,
+      "faces": 36,
+      "groups_before": 11,
+      "groups_after": 11,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Foot",
+      "lod": 1,
+      "faces": 24,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Foot",
+      "lod": 2,
+      "faces": 16,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Foot",
+      "lod": 3,
+      "faces": 10,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Foot",
+      "lod": 4,
+      "faces": 6,
+      "groups_before": 5,
+      "groups_after": 5,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Foot",
+      "lod": 5,
+      "faces": 4,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Right Foot",
+      "lod": 6,
+      "faces": 1,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Foot",
+      "lod": 0,
+      "faces": 36,
+      "groups_before": 11,
+      "groups_after": 11,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Foot",
+      "lod": 1,
+      "faces": 24,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Foot",
+      "lod": 2,
+      "faces": 16,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Foot",
+      "lod": 3,
+      "faces": 10,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Foot",
+      "lod": 4,
+      "faces": 6,
+      "groups_before": 5,
+      "groups_after": 5,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Foot",
+      "lod": 5,
+      "faces": 4,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Foot",
+      "lod": 6,
+      "faces": 1,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Leg ",
+      "lod": 0,
+      "faces": 48,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Leg ",
+      "lod": 1,
+      "faces": 32,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Leg ",
+      "lod": 2,
+      "faces": 22,
+      "groups_before": 10,
+      "groups_after": 10,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Leg ",
+      "lod": 3,
+      "faces": 14,
+      "groups_before": 7,
+      "groups_after": 7,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Leg ",
+      "lod": 4,
+      "faces": 8,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Leg ",
+      "lod": 5,
+      "faces": 4,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Loki Middle Leg ",
+      "lod": 6,
+      "faces": 1,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    }
+  ],
+  "all_1535_faces_checked": true,
+  "geometry_normals_attachments_animation_collision_and_winding_byte_identical": true,
+  "allowed_changes": "Texture names and primitive continuation counts at UV seams only",
+  "changed_bytes": 1041
+}

@@ -1,0 +1,21 @@
+76 bytes of script in 2 routines
+
+0 to 12: part 0, (F)LokiInspection
+       2  2d 00       push_flight_group   0
+       4  21 03       command   CreateFlightGroup
+       6  32 01       push_byte   1
+       8  43          return
+
+12 to 76: part 1, (F)CycleLegs
+      14  2c 00       push_ship   0  Loki - Inspection
+      16  2b 13 66 69 push_string_alt   "fighting position"
+      36  21 11       command   StartShipAnimation
+      38  32 0b       push_byte   11
+      40  21 05       command   Wait
+      42  2c 00       push_ship   0  Loki - Inspection
+      44  2b 13 66 69 push_string_alt   "fighting position"
+      64  21 3d       command   StartShipAnimationReverse
+      66  32 0b       push_byte   11
+      68  21 05       command   Wait
+      70  32 01       push_byte   1
+      72  43          return

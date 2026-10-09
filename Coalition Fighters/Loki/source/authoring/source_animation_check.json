@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "canonical_and_portable_poses_identical": true,
+  "frames": [
+    1,
+    25,
+    51,
+    75,
+    101
+  ],
+  "parts": 7,
+  "pose_signature": "0fe07b016c572b519117e94d104c67158a0d8c2519d3fc1ed90aa9b02a4e1a28"
+}

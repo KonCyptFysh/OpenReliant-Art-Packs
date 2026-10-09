@@ -1,0 +1,177 @@
+{
+  "scene": "$LOKI_WORKSPACE/loki_worn_pbr_v1.blend",
+  "scene_sha256": "0ae4bee8bbd446d2ace04462fba8f29e1e41bb6eeb29662a26b30031a5aa5903",
+  "parts": [
+    {
+      "index": 0,
+      "name": "Loki Body",
+      "vertices": 139,
+      "faces": 274,
+      "visible_faces": 274
+    },
+    {
+      "index": 1,
+      "name": "Loki Left Foot",
+      "vertices": 20,
+      "faces": 36,
+      "visible_faces": 36
+    },
+    {
+      "index": 2,
+      "name": "Loki Left Leg ",
+      "vertices": 26,
+      "faces": 48,
+      "visible_faces": 48
+    },
+    {
+      "index": 3,
+      "name": "Loki Right Leg",
+      "vertices": 26,
+      "faces": 48,
+      "visible_faces": 48
+    },
+    {
+      "index": 4,
+      "name": "Loki Right Foot",
+      "vertices": 20,
+      "faces": 36,
+      "visible_faces": 36
+    },
+    {
+      "index": 5,
+      "name": "Loki Middle Foot",
+      "vertices": 20,
+      "faces": 36,
+      "visible_faces": 36
+    },
+    {
+      "index": 6,
+      "name": "Loki Middle Leg ",
+      "vertices": 26,
+      "faces": 48,
+      "visible_faces": 48
+    }
+  ],
+  "active_uv": "Loki_Delivery_UV_v1",
+  "triangles": 526,
+  "native_geometry_normals_and_original_uvs_preserved": true,
+  "uv_repairs": [],
+  "maps": {
+    "hull": {
+      "basecolor": {
+        "path": "$LOKI_WORKSPACE/maps/loki_hull_basecolor_v1.png",
+        "sha256": "d255d64bb22bbbdfc6b4031a6318472593170c485d2d015a77514974961f694e",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "$LOKI_WORKSPACE/maps/loki_hull_normal_v1.png",
+        "sha256": "5dbc22820cdfb6cf550f88e6fcbd9c0a4d772a0dff456f1a64c76025c9eb3059",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "$LOKI_WORKSPACE/maps/loki_hull_roughness_v1.png",
+        "sha256": "c11b0d4b667a616c5bc24e71b60bda31fd7176c199383f9db0741bdc411f5255",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "$LOKI_WORKSPACE/maps/loki_hull_metallic_v1.png",
+        "sha256": "2f318ea90d0a6b64ad11e5b817e8393783d0fb3526e0ac31f012af30e1a38d29",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "$LOKI_WORKSPACE/maps/loki_hull_height_v1.png",
+        "sha256": "4f8c3feee84ccb5687a49263b5635ff6c9f675aa30f8c4ef1012065b596aeb64",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "glass": {
+        "path": "$LOKI_WORKSPACE/maps/loki_hull_glass_v1.png",
+        "sha256": "7f1e911d20a63b84b1a1df854189d32010007383a545a75d0f4c9dec1e1ec3f6",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "seal": {
+        "path": "$LOKI_WORKSPACE/maps/loki_hull_seal_v1.png",
+        "sha256": "37341ffdb5acca8450bfe765a7f08a548bdee15ba65f07c28fc6e886dc7eb356",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "$LOKI_WORKSPACE/maps/loki_hull_flat_graphics_v1.png",
+        "sha256": "5e97f989524b34a4b925ab572961c6d3d5b276daac09b24106d1c97ecfd4289d",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "$LOKI_WORKSPACE/maps/loki_hull_structure_v1.png",
+        "sha256": "3f6c9ada5f654c60edbe121059659d9b9d8781985e621729e66e66d5b3fc054f",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "fins": {
+        "path": "$LOKI_WORKSPACE/maps/loki_hull_fins_v1.png",
+        "sha256": "8c84df9b9f4796c685a240679f3f91b43f6d6aea8fdae3249f9688ff6b9c4426",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "panels": {
+        "path": "$LOKI_WORKSPACE/maps/loki_hull_panels_v1.png",
+        "sha256": "a419f5d4ab71523f1b1467d0b73689ffbf01643622b92a33f448c9ffe9718a20",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "paint": {
+        "path": "$LOKI_WORKSPACE/maps/loki_hull_paint_v1.png",
+        "sha256": "bd2848405ce1361a87cdbcbb44c1d5abe7b21bc21b2c9edda547a2a6468ddea3",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    }
+  },
+  "structural_height_only": true,
+  "generated_art_resolution": [
+    1254,
+    1254
+  ],
+  "delivery_resolution": [
+    4096,
+    4096
+  ],
+  "emissives": "deferred",
+  "runtime_visual_validation": "pending_user_review",
+  "animation": {
+    "parts": 7,
+    "moving_parts": 6,
+    "stowed_frame": 1,
+    "deployed_frame": 101,
+    "native_export": "Original animation bytes preserved; Blender timeline is an editable preview"
+  }
+}

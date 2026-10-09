@@ -3,7 +3,7 @@ const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, c => ({'&':
 const formatSize = bytes => `${(bytes / 1024 / 1024).toFixed(1)} MB`;
 const previewSource = (asset, photo = null) => photo?.sourceLabel || asset.previewSource || (asset.previewType === 'render' ? 'Blender material preview' : `Captured in OpenReliant ${asset.engine || '0.7.0'}`);
 const previewLabel = asset => asset.previewType === 'mixed' ? 'Image gallery' : asset.previewType === 'render' ? 'Render gallery' : 'Photo gallery';
-const previewSummary = asset => asset.previewType === 'mixed' ? 'Artwork + in-game gallery' : asset.previewType === 'render' ? (asset.model ? '3D + rendered previews' : 'Rendered previews') : asset.model ? '3D + in-game preview' : asset.images?.length > 1 ? `${asset.images.length} in-game photos` : asset.preview ? 'In-game preview' : 'Work in progress';
+const previewSummary = asset => asset.workStatus === 'planned' ? 'Planned' : asset.previewType === 'mixed' ? 'Artwork + in-game gallery' : asset.previewType === 'render' ? (asset.model ? '3D + rendered previews' : 'Rendered previews') : asset.model ? '3D + in-game preview' : asset.images?.length > 1 ? `${asset.images.length} in-game photos` : asset.preview ? 'In-game preview' : 'Work in progress';
 const dialog = $('#asset-dialog');
 let catalogue, selectedCategory, currentAsset, previewSequence = 0, viewerImport, galleryIndex = 0, previewKind;
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -22,7 +22,7 @@ function render() {
   const assets = catalogue.assets.filter(a => a.category === selectedCategory && (status === 'all' || a.status === status) && `${a.name} ${a.description}`.toLowerCase().includes(query));
   $('#category-heading').textContent = category.name;
   $('#result-count').textContent = `${assets.length} ${assets.length === 1 ? 'asset' : 'assets'}`;
-  $('#asset-grid').innerHTML = assets.length ? assets.map(a => `<button type="button" class="asset-card" data-asset="${a.id}" aria-label="Preview ${escapeHTML(a.name)}"><div class="card-media">${a.preview ? `<img src="${a.preview}" loading="lazy" width="960" height="720" alt="${escapeHTML(a.images?.[0]?.caption || a.name)} — ${previewSource(a)}">` : '<div class="placeholder-art"><span class="placeholder-icon" aria-hidden="true">◇</span><span>ARTWORK IN PROGRESS</span></div>'}<span class="card-badge ${a.status === 'available' ? 'available' : ''}">${a.status === 'available' ? 'Beta available' : 'Coming soon'}</span></div><div class="card-body"><span class="card-kicker">${escapeHTML(category.name)}</span><h4>${escapeHTML(a.name)}</h4><p>${escapeHTML(a.description)}</p><div class="card-foot"><span>${previewSummary(a)}</span><span aria-hidden="true">↗</span></div></div></button>`).join('') : (!query && status !== 'available' && !catalogue.assets.some(a => a.category === selectedCategory)) ? `<div class="category-placeholder"><span class="placeholder-icon" aria-hidden="true">◇</span><p class="eyebrow">${escapeHTML(category.name)}</p><h4>Coming soon</h4><p>${escapeHTML(category.description)}<br>New packs will appear here when they’re ready.</p></div>` : '<div class="empty-state"><h4>No matching packs</h4><p>Try another search or availability filter.</p></div>';
+  $('#asset-grid').innerHTML = assets.length ? assets.map(a => `<button type="button" class="asset-card" data-asset="${a.id}" aria-label="Preview ${escapeHTML(a.name)}"><div class="card-media">${a.preview ? `<img src="${a.preview}" loading="lazy" width="960" height="720" alt="${escapeHTML(a.images?.[0]?.caption || a.name)} — ${previewSource(a)}">` : `<div class="placeholder-art"><span class="placeholder-icon" aria-hidden="true">◇</span><span>${a.workStatus === 'planned' ? 'PLANNED ARTWORK' : 'ARTWORK IN PROGRESS'}</span></div>`}<span class="card-badge ${a.status === 'available' ? 'available' : ''}">${a.status === 'available' ? 'Beta available' : 'Coming soon'}</span></div><div class="card-body"><span class="card-kicker">${escapeHTML(category.name)}</span><h4>${escapeHTML(a.name)}</h4><p>${escapeHTML(a.description)}</p><div class="card-foot"><span>${previewSummary(a)}</span><span aria-hidden="true">↗</span></div></div></button>`).join('') : (!query && status !== 'available' && !catalogue.assets.some(a => a.category === selectedCategory)) ? `<div class="category-placeholder"><span class="placeholder-icon" aria-hidden="true">◇</span><p class="eyebrow">${escapeHTML(category.name)}</p><h4>Coming soon</h4><p>${escapeHTML(category.description)}<br>New packs will appear here when they’re ready.</p></div>` : '<div class="empty-state"><h4>No matching packs</h4><p>Try another search or availability filter.</p></div>';
 }
 function closePreview() {
   previewSequence++;
@@ -104,13 +104,14 @@ async function showPreview(kind) {
     $('#preview-hint').textContent = previewSource(asset, photo);
   } else {
     stage.innerHTML = '<div class="placeholder-art"><span class="placeholder-icon" aria-hidden="true">◇</span><span>COMING SOON</span></div>';
-    $('#preview-hint').textContent = 'Artwork is still being revised.';
+    $('#preview-hint').textContent = asset.workStatus === 'planned' ? 'Planned artwork; no preview yet.' : 'Artwork is still being revised.';
   }
 }
 function openAsset(id) {
   if (!catalogue) return;
   const asset = catalogue.assets.find(a => a.id === id);
   if (!asset) return;
+  if (selectedCategory !== asset.category) { selectedCategory = asset.category; render(); }
   currentAsset = asset;
   galleryIndex = 0;
   const category = catalogue.categories.find(c => c.id === asset.category);

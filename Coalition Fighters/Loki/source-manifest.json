@@ -1,0 +1,387 @@
+{
+  "status": "approved-release-snapshot",
+  "ship": "Loki",
+  "asset_revision": "1.1",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 2316,
+      "sha256": "af57fa2628756cbe47d3b5c8f1f932aa66429fafc3d05c3e8c7d95669bde30a4"
+    },
+    {
+      "path": "source/audit/model-audit.json",
+      "bytes": 7575,
+      "sha256": "1d0a252f1a7d1316083965b9f1fe06317628d66ac3c882437052846abbb0465f"
+    },
+    {
+      "path": "source/audit/native-check.txt",
+      "bytes": 90,
+      "sha256": "52036f28b53ce669ec7f7ec5c526c20146dad68a02416dccc28954b9ef35fddd"
+    },
+    {
+      "path": "source/audit/native-chunks.json",
+      "bytes": 33664,
+      "sha256": "4f02dddd419ee34de203efd100943580b13674463278cceb63aa6beb7950fbb7"
+    },
+    {
+      "path": "source/audit/native-chunks.txt",
+      "bytes": 8346,
+      "sha256": "288f19e69b4a07bf66fabbb1d41091dba635b5e78018528c07f28624820d3afd"
+    },
+    {
+      "path": "source/audit/native-info.txt",
+      "bytes": 5506,
+      "sha256": "9754454375a9cf5ea8ef128d1747c7268d9f99fe37dcf54e904ef7fa196d36d2"
+    },
+    {
+      "path": "source/authoring/animation_preservation.json",
+      "bytes": 2992,
+      "sha256": "fed3370baec91b1c0f1325310a907edd794c2f49d7a6607a11b64cad42088f97"
+    },
+    {
+      "path": "source/authoring/build_inspection.py",
+      "bytes": 5866,
+      "sha256": "cb990cb8683341dcb794c916e6cd8180adfe8dc1e892dfca7751f16a8ad92aab"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 16125,
+      "sha256": "4adce2197d7a877d692339227fe9efb7c7f1a5ea16b6ee4882d053d0c5aa3dd5"
+    },
+    {
+      "path": "source/authoring/check_source_animation.py",
+      "bytes": 994,
+      "sha256": "4cd58e098a2078418b1ea51dab936a40530812bcfd68537f7f9b90f0e244514a"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 8042,
+      "sha256": "6bc4d2b200cd9a0b80acec45718dc1f37bb0d868de273eea07cf306ac53f7fd8"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 3327,
+      "sha256": "b918f22913daa6be7e9b48f2c4e8c4cabb985d29ce90899df81bafa4b6ac0954"
+    },
+    {
+      "path": "source/authoring/inspection-checks.json",
+      "bytes": 1051,
+      "sha256": "136dd76a82f2539b96857c46c31e291cbadd8471d4bfeee00a1cde1d6e1a285f"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 274,
+      "sha256": "d82c51755c47653faab903ca5010ff9b3af490b30dd19c1947a6141948e761e8"
+    },
+    {
+      "path": "source/authoring/mission981-script.txt",
+      "bytes": 1124,
+      "sha256": "f5e26b65a2883843bd7fdb3d3e13017204c80c598e98a76a61029338879beb4f"
+    },
+    {
+      "path": "source/authoring/mission981-ships.txt",
+      "bytes": 253,
+      "sha256": "48de923dfe6357789e79f87322f312d200eb732bd45758d4b00ede3c2a8a6f40"
+    },
+    {
+      "path": "source/authoring/mission982-script.txt",
+      "bytes": 980,
+      "sha256": "14f39f347e779093f708aadc6a1640db10fa3bd5eec1e91b4f833b855453936c"
+    },
+    {
+      "path": "source/authoring/mission982-ships.txt",
+      "bytes": 253,
+      "sha256": "48de923dfe6357789e79f87322f312d200eb732bd45758d4b00ede3c2a8a6f40"
+    },
+    {
+      "path": "source/authoring/mission983-script.txt",
+      "bytes": 812,
+      "sha256": "feb29849e46b805801bb2e14ebbc6e87cf0428b187b56c233bd1bb4b9f07e59d"
+    },
+    {
+      "path": "source/authoring/mission983-ships.txt",
+      "bytes": 253,
+      "sha256": "48de923dfe6357789e79f87322f312d200eb732bd45758d4b00ede3c2a8a6f40"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 549,
+      "sha256": "fda65d902491b8fe9ebaff13e8316db3d7715282b6a29c80bc540c09d99abf80"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 11735,
+      "sha256": "5de961f5e29432f61d4babc4f64824bdf12a4a3dde88fea8e34ef393294d16d3"
+    },
+    {
+      "path": "source/authoring/parse_native.py",
+      "bytes": 2359,
+      "sha256": "b291e61d0a5a0aae84bb3d5062a820ebdca53e04daedeca70fe7f9198d094096"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2448,
+      "sha256": "cb5e2f6a18a9dacc7a5ae363a2fa80e562f4f9251bbecb1547e5cd726aa18e92"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 12043,
+      "sha256": "77674e73199db71380d3afbfec8b3a331636414952b92a9aca9ad9af4345dea2"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 1384,
+      "sha256": "151eb5315ca37262951bbdad445d297df2c173cf3e0863e2902d0f262bb7d1c1"
+    },
+    {
+      "path": "source/authoring/source_animation_check.json",
+      "bytes": 231,
+      "sha256": "c58475114e0186509826fef481cc6239f76c8addded2bb03773e529e7d434aa1"
+    },
+    {
+      "path": "source/authoring/sync_repository.py",
+      "bytes": 12181,
+      "sha256": "73cb753f69b34d9f175075af1efa2d404cc7c659c0d44202f0a4183791507a1a"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 4607,
+      "sha256": "bc05af410ba3f1e12a510aff4ce7c08705ac72043802f72d291b0ed6b1928c63"
+    },
+    {
+      "path": "source/authoring/window_recess_v1/check_source_animation.py",
+      "bytes": 993,
+      "sha256": "028dcce4f52a72694e550fef9234e7db7890a32e0d711b3fce4f90ddd357e0b4"
+    },
+    {
+      "path": "source/authoring/window_recess_v1/deploy_revision.py",
+      "bytes": 8351,
+      "sha256": "65f857c1b6a4c9da433920baa723823c1195e20c64e8d21a412585eea3c40864"
+    },
+    {
+      "path": "source/authoring/window_recess_v1/map_checks.json",
+      "bytes": 429,
+      "sha256": "c4f5030b827178eee597abffe18bb7a7e15b7f48018f0e3b29648f00b10829f2"
+    },
+    {
+      "path": "source/authoring/window_recess_v1/portable_source.py",
+      "bytes": 2447,
+      "sha256": "88094fe5994d0cc80d6e8b396a9f966fba264231c079a95e89fc1ea4d9d1789d"
+    },
+    {
+      "path": "source/authoring/window_recess_v1/recess-regions.json",
+      "bytes": 1959,
+      "sha256": "1bd231f25307f5a2d02853de5130c93485c98b230f5f123a6c8ff46fd44cc34e"
+    },
+    {
+      "path": "source/authoring/window_recess_v1/recess_windows.py",
+      "bytes": 7299,
+      "sha256": "226ee76a487986d86985f88a59d6d6db68fb94f596491c8ef6ac168194e2f06b"
+    },
+    {
+      "path": "source/authoring/window_recess_v1/repository_snapshot.json",
+      "bytes": 1388,
+      "sha256": "788e0d5dd02f23e585b161e20dc343d27ea8dd4605d2b5bd048071d187d6aa46"
+    },
+    {
+      "path": "source/authoring/window_recess_v1/source_animation_check.json",
+      "bytes": 231,
+      "sha256": "c58475114e0186509826fef481cc6239f76c8addded2bb03773e529e7d434aa1"
+    },
+    {
+      "path": "source/authoring/window_recess_v1/validation.json",
+      "bytes": 5236,
+      "sha256": "87dd45ba0cb060d551108084e67e37df2be0a3c83e543f0b013b45a1e9625f6d"
+    },
+    {
+      "path": "source/loki_worn_pbr_v1.blend",
+      "bytes": 28896024,
+      "sha256": "40dc95991bbd7792221d34e9f06a7f6299a00a167ce9a935d74d119ce1cf9c02"
+    },
+    {
+      "path": "source/maps/loki_hull_basecolor_v1.png",
+      "bytes": 15307193,
+      "sha256": "d255d64bb22bbbdfc6b4031a6318472593170c485d2d015a77514974961f694e"
+    },
+    {
+      "path": "source/maps/loki_hull_fins_v1.png",
+      "bytes": 170379,
+      "sha256": "8c84df9b9f4796c685a240679f3f91b43f6d6aea8fdae3249f9688ff6b9c4426"
+    },
+    {
+      "path": "source/maps/loki_hull_flat_graphics_v1.png",
+      "bytes": 68853,
+      "sha256": "5e97f989524b34a4b925ab572961c6d3d5b276daac09b24106d1c97ecfd4289d"
+    },
+    {
+      "path": "source/maps/loki_hull_generated_v1.png",
+      "bytes": 3154687,
+      "sha256": "23849bfb94f9c9e10176c9c19cd100e72827bfdcd8e92574ff1624a5f4f3bbca"
+    },
+    {
+      "path": "source/maps/loki_hull_glass_v1.png",
+      "bytes": 109515,
+      "sha256": "7f1e911d20a63b84b1a1df854189d32010007383a545a75d0f4c9dec1e1ec3f6"
+    },
+    {
+      "path": "source/maps/loki_hull_glazing_refined_v1.png",
+      "bytes": 2869426,
+      "sha256": "5a04998af6eac84cd396c2d3c7767d5ea674b47d78e3d8de8031888a77bfae8a"
+    },
+    {
+      "path": "source/maps/loki_hull_height_v1.png",
+      "bytes": 189131,
+      "sha256": "4f8c3feee84ccb5687a49263b5635ff6c9f675aa30f8c4ef1012065b596aeb64"
+    },
+    {
+      "path": "source/maps/loki_hull_height_v1_1.png",
+      "bytes": 189131,
+      "sha256": "4f8c3feee84ccb5687a49263b5635ff6c9f675aa30f8c4ef1012065b596aeb64"
+    },
+    {
+      "path": "source/maps/loki_hull_metallic_v1.png",
+      "bytes": 7000594,
+      "sha256": "2f318ea90d0a6b64ad11e5b817e8393783d0fb3526e0ac31f012af30e1a38d29"
+    },
+    {
+      "path": "source/maps/loki_hull_normal_v1.png",
+      "bytes": 406996,
+      "sha256": "5dbc22820cdfb6cf550f88e6fcbd9c0a4d772a0dff456f1a64c76025c9eb3059"
+    },
+    {
+      "path": "source/maps/loki_hull_normal_v1_1.png",
+      "bytes": 537276,
+      "sha256": "f8041660c30042c3c0c0ad568456b205424624b51729eddff4c66b2beec898c6"
+    },
+    {
+      "path": "source/maps/loki_hull_paint_v1.png",
+      "bytes": 3600472,
+      "sha256": "bd2848405ce1361a87cdbcbb44c1d5abe7b21bc21b2c9edda547a2a6468ddea3"
+    },
+    {
+      "path": "source/maps/loki_hull_panels_v1.png",
+      "bytes": 101425,
+      "sha256": "a419f5d4ab71523f1b1467d0b73689ffbf01643622b92a33f448c9ffe9718a20"
+    },
+    {
+      "path": "source/maps/loki_hull_roughness_v1.png",
+      "bytes": 5098239,
+      "sha256": "c11b0d4b667a616c5bc24e71b60bda31fd7176c199383f9db0741bdc411f5255"
+    },
+    {
+      "path": "source/maps/loki_hull_seal_v1.png",
+      "bytes": 118538,
+      "sha256": "37341ffdb5acca8450bfe765a7f08a548bdee15ba65f07c28fc6e886dc7eb356"
+    },
+    {
+      "path": "source/maps/loki_hull_structure_v1.png",
+      "bytes": 210350,
+      "sha256": "3f6c9ada5f654c60edbe121059659d9b9d8781985e621729e66e66d5b3fc054f"
+    },
+    {
+      "path": "source/maps/loki_hull_window_recess_mask_v1_1.png",
+      "bytes": 55376,
+      "sha256": "c9ed99e02915fc9dcb9bc3b0ceea08b7165c0f9a86b97ab0f92b9f2040042e0a"
+    },
+    {
+      "path": "source/originals/CRP_Loki.SHP",
+      "bytes": 162726,
+      "sha256": "dc00f9a44f61f6bac2a9111410da26b5931db53628e9410bcb9c0bca428faae7"
+    },
+    {
+      "path": "source/originals/LIMPET.TGA",
+      "bytes": 149085,
+      "sha256": "da193a412584ee7a95b69f738bb08286310ec5573b99cb6a7eeeac424550d539"
+    },
+    {
+      "path": "source/originals/loki.png",
+      "bytes": 53250,
+      "sha256": "280a9c4f17e646a977a904b6fcf5c54e95be0c2c6a81a96e34080c4e8fa5601b"
+    },
+    {
+      "path": "source/originals/loki_native.bin",
+      "bytes": 50496,
+      "sha256": "4204aba1725277d90ecbf97a83f0194d007fdff8b18281657dba10a486dcddbe"
+    },
+    {
+      "path": "source/originals/loki_native.gltf",
+      "bytes": 10190,
+      "sha256": "2a5b232bff84c2545b0e772ac767e8f29273148b6d01421239155a8153282c95"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 1354475,
+      "sha256": "3e4f4bfc984d311dcb9268803f8b8ff87746c2a5ea3f489df02b74b306189605"
+    },
+    {
+      "path": "source/resources/2f318ea90d0a_loki_hull_metallic_v1.png",
+      "bytes": 7000594,
+      "sha256": "2f318ea90d0a6b64ad11e5b817e8393783d0fb3526e0ac31f012af30e1a38d29"
+    },
+    {
+      "path": "source/resources/3fdbe15b059f_loki_hull_metallic_v1.png",
+      "bytes": 7084518,
+      "sha256": "3fdbe15b059fe51f65b7d263336d6dc256a749fd89aa2fd87a98c4db1f0105c8"
+    },
+    {
+      "path": "source/resources/5dbc22820cdf_loki_hull_normal_v1.png",
+      "bytes": 406996,
+      "sha256": "5dbc22820cdfb6cf550f88e6fcbd9c0a4d772a0dff456f1a64c76025c9eb3059"
+    },
+    {
+      "path": "source/resources/a6039462b3c2_loki_hull_normal_v1.png",
+      "bytes": 408151,
+      "sha256": "a6039462b3c27a1a14c5bc433809c6fa9c86f4551cc8b6cac79ef2c9be9717ef"
+    },
+    {
+      "path": "source/resources/c11b0d4b667a_loki_hull_roughness_v1.png",
+      "bytes": 5098239,
+      "sha256": "c11b0d4b667a616c5bc24e71b60bda31fd7176c199383f9db0741bdc411f5255"
+    },
+    {
+      "path": "source/resources/d255d64bb22b_loki_hull_basecolor_v1.png",
+      "bytes": 15307193,
+      "sha256": "d255d64bb22bbbdfc6b4031a6318472593170c485d2d015a77514974961f694e"
+    },
+    {
+      "path": "source/resources/f8041660c300_loki_hull_normal_v1_1.png",
+      "bytes": 537276,
+      "sha256": "f8041660c30042c3c0c0ad568456b205424624b51729eddff4c66b2beec898c6"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-fighting.png",
+      "bytes": 650143,
+      "sha256": "4848c38827e518f64761eab3f9b453229b10590329310db3b3e6ff3f59e30bd0"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-folded.png",
+      "bytes": 664334,
+      "sha256": "49ac5eff50824d68d7185ffdbe2c01f72bbad657376f61e67e32e7d6a81cc7fa"
+    },
+    {
+      "path": "source/review/material_belly.png",
+      "bytes": 1429030,
+      "sha256": "1ba6dba27456fff8cb518b11262f5cc9bb1fb35f4bde12828c20b6b7b1a606d9"
+    },
+    {
+      "path": "source/review/material_front.png",
+      "bytes": 1466206,
+      "sha256": "46c75e23c4ac49c97f36f31484e8f7b13cafbadbcd2982e8f845f5662b95bda7"
+    },
+    {
+      "path": "source/review/material_opposite.png",
+      "bytes": 1522034,
+      "sha256": "216c5820c806f259f73138c9aae32cc36ae1e6366fdb847390b667c730feb277"
+    },
+    {
+      "path": "source/review/window_recess_v1/windows_front.png",
+      "bytes": 1856692,
+      "sha256": "eba0f4a32765d41e4a1fdfdaef6df558f85b52ec7c5d289b31667a5f67016c56"
+    },
+    {
+      "path": "source/review/window_recess_v1/windows_opposite.png",
+      "bytes": 1965357,
+      "sha256": "558e224e0f47908dbe8b2e2cb69a0602a9aa8290cfa9d59da10a9a9ade759125"
+    }
+  ]
+}

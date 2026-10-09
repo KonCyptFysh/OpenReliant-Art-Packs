@@ -1,0 +1,26 @@
+[
+  {
+    "mode": "folded",
+    "mission": 983,
+    "sha256": "9f2e8e4d5e4d0ba2689e16ec770967ec501daac2e247448b37f16761cabd2763",
+    "check": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "retail_data_copied": false,
+    "carried_torpedoes": 0
+  },
+  {
+    "mode": "fighting",
+    "mission": 982,
+    "sha256": "59967090c8bcbb479b460387d2ee391b4a70b97d81a8c603193a36b0ff79aa59",
+    "check": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "retail_data_copied": false,
+    "carried_torpedoes": 0
+  },
+  {
+    "mode": "cycle",
+    "mission": 981,
+    "sha256": "58cdbb25e500bc43ea4fc6a98b004d933b502b690505855d9c7721ee5a94a7ce",
+    "check": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "retail_data_copied": false,
+    "carried_torpedoes": 0
+  }
+]

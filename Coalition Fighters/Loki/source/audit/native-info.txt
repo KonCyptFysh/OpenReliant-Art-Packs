@@ -1,0 +1,88 @@
+version:  107
+flags:    components=false cloak=false
+parts:    7
+vertices: 873
+faces:    1535
+arcs:     0
+bounds:   (-359,-162,-671) to (339,120,603), 698 x 282 x 1274
+
+[  0] Loki Body                          type  0  parent  -1  link 0
+        lod 0:   139 vertices   274 faces   2 materials  beyond 7000
+        lod 1:    97 vertices   190 faces   2 materials  beyond 14000
+        lod 2:    68 vertices   132 faces   2 materials  beyond 21000
+        lod 3:    48 vertices    92 faces   2 materials  beyond 28000
+        lod 4:    34 vertices    64 faces   2 materials  beyond 35000
+        lod 5:    24 vertices    44 faces   2 materials  beyond 42000
+        lod 6:    17 vertices    30 faces   2 materials  beyond 49000
+        lod 7:    12 vertices    20 faces   2 materials  beyond 56000
+        lod 8:     8 vertices    11 faces   2 materials  beyond 700000
+        0 nodes, 6 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 100 mode 0, 2 keyframes, 0 events
+          engine glow 2 at (-119,-8,-288)  id 2 size (70,70,-560)
+          engine glow 2 at (133,-8,-288)  id 2 size (70,70,-560)
+          gun 1 at (196,-49,93)
+          gun 1 at (-188,-48,89)
+          missile 0 at (-330,-95,-100)
+          missile 0 at (340,-89,-100)
+[  1] Loki Left Foot                     type  0  parent  +2  link 0
+        lod 0:    20 vertices    36 faces   2 materials  beyond 7000
+        lod 1:    14 vertices    24 faces   2 materials  beyond 14000
+        lod 2:    10 vertices    16 faces   2 materials  beyond 21000
+        lod 3:     7 vertices    10 faces   2 materials  beyond 28000
+        lod 4:     5 vertices     6 faces   2 materials  beyond 35000
+        lod 5:     4 vertices     4 faces   2 materials  beyond 42000
+        lod 6:     3 vertices     1 faces   2 materials  beyond 700000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'fighting position' length 400 mode 1, 3 keyframes, 0 events
+[  2] Loki Left Leg                      type  0  parent  +0  link 0
+        lod 0:    26 vertices    48 faces   2 materials  beyond 7000
+        lod 1:    18 vertices    32 faces   2 materials  beyond 14000
+        lod 2:    13 vertices    22 faces   2 materials  beyond 21000
+        lod 3:     9 vertices    14 faces   2 materials  beyond 28000
+        lod 4:     6 vertices     8 faces   2 materials  beyond 35000
+        lod 5:     4 vertices     4 faces   2 materials  beyond 42000
+        lod 6:     3 vertices     1 faces   2 materials  beyond 700000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'fighting position' length 400 mode 1, 3 keyframes, 0 events
+[  3] Loki Right Leg                     type  0  parent  +0  link 0
+        lod 0:    26 vertices    48 faces   2 materials  beyond 7000
+        lod 1:    18 vertices    32 faces   2 materials  beyond 14000
+        lod 2:    13 vertices    22 faces   2 materials  beyond 21000
+        lod 3:     9 vertices    14 faces   2 materials  beyond 28000
+        lod 4:     6 vertices     8 faces   2 materials  beyond 35000
+        lod 5:     4 vertices     4 faces   2 materials  beyond 42000
+        lod 6:     3 vertices     1 faces   2 materials  beyond 700000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'fighting position' length 400 mode 1, 3 keyframes, 0 events
+[  4] Loki Right Foot                    type  0  parent  +3  link 0
+        lod 0:    20 vertices    36 faces   2 materials  beyond 7000
+        lod 1:    14 vertices    24 faces   2 materials  beyond 14000
+        lod 2:    10 vertices    16 faces   2 materials  beyond 21000
+        lod 3:     7 vertices    10 faces   2 materials  beyond 28000
+        lod 4:     5 vertices     6 faces   2 materials  beyond 35000
+        lod 5:     4 vertices     4 faces   2 materials  beyond 42000
+        lod 6:     3 vertices     1 faces   2 materials  beyond 700000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'fighting position' length 400 mode 1, 3 keyframes, 0 events
+[  5] Loki Middle Foot                   type  0  parent  +6  link 0
+        lod 0:    20 vertices    36 faces   2 materials  beyond 7000
+        lod 1:    14 vertices    24 faces   2 materials  beyond 14000
+        lod 2:    10 vertices    16 faces   2 materials  beyond 21000
+        lod 3:     7 vertices    10 faces   2 materials  beyond 28000
+        lod 4:     5 vertices     6 faces   2 materials  beyond 35000
+        lod 5:     4 vertices     4 faces   2 materials  beyond 42000
+        lod 6:     3 vertices     1 faces   2 materials  beyond 700000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'fighting position' length 400 mode 1, 3 keyframes, 0 events
+[  6] Loki Middle Leg                    type  0  parent  +0  link 0
+        lod 0:    26 vertices    48 faces   2 materials  beyond 7000
+        lod 1:    18 vertices    32 faces   2 materials  beyond 14000
+        lod 2:    13 vertices    22 faces   2 materials  beyond 21000
+        lod 3:     9 vertices    14 faces   2 materials  beyond 28000
+        lod 4:     6 vertices     8 faces   2 materials  beyond 35000
+        lod 5:     4 vertices     4 faces   2 materials  beyond 42000
+        lod 6:     3 vertices     1 faces   2 materials  beyond 700000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'fighting position' length 400 mode 1, 2 keyframes, 0 events
+
+textures (2): LIMPET Loki

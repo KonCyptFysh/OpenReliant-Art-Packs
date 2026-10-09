@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "$KAMOV_WORKSPACE/kamov_worn_pbr_v1.blend",
+  "canonical_sha256": "129ed1b8db7f94622375307d2bebc505e30a3386dffa12998e05f86d5b0b658c",
+  "snapshot": "$ART_PACKS_REPOSITORY/Torpedo Bombers/Kamov/source/kamov_worn_pbr_v1.blend",
+  "snapshot_sha256": "7f4bff8a9e9e10e6656a1d1b66d7ba2394ef2aed30b1769344c27b281e3c69d1",
+  "mesh_signature": "0a76466f813160c4e292d476eaf7050936a4442da8b72c17c2796e5f48e4d365",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "kamov_hull_basecolor_v1.png",
+      "path": "//resources/306a1c558caa_kamov_hull_basecolor_v1.png",
+      "sha256": "306a1c558caa96a34e92b463ae4e67f51b43829bfe458dbb356b7a242cd39f25"
+    },
+    {
+      "image": "kamov_hull_metallic_v1.png",
+      "path": "//resources/9d6c0bf3b389_kamov_hull_metallic_v1.png",
+      "sha256": "9d6c0bf3b3894ff8451192bcc429c3f75063ac869b85f8a9fbd4a9e7b1673244"
+    },
+    {
+      "image": "kamov_hull_normal_v1.png",
+      "path": "//resources/e6ee20b1815c_kamov_hull_normal_v1.png",
+      "sha256": "e6ee20b1815c6d85ecd435f9738f12b599ca072f0a781e0762f1e37f68338583"
+    },
+    {
+      "image": "kamov_hull_roughness_v1.png",
+      "path": "//resources/016313a4bc4d_kamov_hull_roughness_v1.png",
+      "sha256": "016313a4bc4dd0c51d2e61ff2b2c7fe8c5cdce93ff4c79f994dd9763046f6b23"
+    }
+  ]
+}

@@ -1,0 +1,673 @@
+{
+ "asset": {
+  "version": "2.0",
+  "generator": "sltool shp gltf"
+ },
+ "scene": 0,
+ "scenes": [
+  {
+   "nodes": [
+    0
+   ]
+  }
+ ],
+ "nodes": [
+  {
+   "name": "Loki Body",
+   "translation": [
+    16.916942596435547,
+    15.768564224243164,
+    -363.5006408691406
+   ],
+   "mesh": 0,
+   "children": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    2,
+    3,
+    6
+   ],
+   "extras": {
+    "class": "class 0",
+    "component": false,
+    "targetable": false,
+    "component_armor": 0
+   }
+  },
+  {
+   "name": "Loki Left Foot",
+   "translation": [
+    -6.8434295654296875,
+    0.1320643424987793,
+    293.763427734375
+   ],
+   "mesh": 1,
+   "extras": {
+    "class": "class 0",
+    "component": false,
+    "targetable": false,
+    "component_armor": 0
+   }
+  },
+  {
+   "name": "Loki Left Leg ",
+   "translation": [
+    184.12503051757812,
+    -17.04083251953125,
+    484.777587890625
+   ],
+   "mesh": 2,
+   "children": [
+    1
+   ],
+   "extras": {
+    "class": "class 0",
+    "component": false,
+    "targetable": false,
+    "component_armor": 0
+   }
+  },
+  {
+   "name": "Loki Right Leg",
+   "translation": [
+    -197.4099884033203,
+    -17.04083251953125,
+    484.777587890625
+   ],
+   "mesh": 3,
+   "children": [
+    4
+   ],
+   "extras": {
+    "class": "class 0",
+    "component": false,
+    "targetable": false,
+    "component_armor": 0
+   }
+  },
+  {
+   "name": "Loki Right Foot",
+   "translation": [
+    -7.4070281982421875,
+    0.1883171796798706,
+    293.90679931640625
+   ],
+   "mesh": 4,
+   "extras": {
+    "class": "class 0",
+    "component": false,
+    "targetable": false,
+    "component_armor": 0
+   }
+  },
+  {
+   "name": "Loki Middle Foot",
+   "translation": [
+    11.0542573928833,
+    9.222503662109375,
+    296.6173095703125
+   ],
+   "mesh": 5,
+   "extras": {
+    "class": "class 0",
+    "component": false,
+    "targetable": false,
+    "component_armor": 0
+   }
+  },
+  {
+   "name": "Loki Middle Leg ",
+   "translation": [
+    -7.904416084289551,
+    -97.60460662841797,
+    -69.734375
+   ],
+   "mesh": 6,
+   "children": [
+    5
+   ],
+   "extras": {
+    "class": "class 0",
+    "component": false,
+    "targetable": false,
+    "component_armor": 0
+   }
+  },
+  {
+   "name": "engine_glow:2",
+   "translation": [
+    119.22100830078125,
+    7.754024505615234,
+    -287.6766052246094
+   ],
+   "rotation": [
+    0,
+    0,
+    -0.4161461293697357,
+    0.9092977643013
+   ]
+  },
+  {
+   "name": "engine_glow:2",
+   "translation": [
+    -132.77899169921875,
+    7.754024505615234,
+    -287.6766052246094
+   ],
+   "rotation": [
+    0,
+    0,
+    -0.09345715492963791,
+    0.9956233501434326
+   ]
+  },
+  {
+   "name": "gun:1",
+   "translation": [
+    -195.6976318359375,
+    48.538604736328125,
+    93.15177154541016
+   ],
+   "rotation": [
+    -0,
+    0,
+    0.9999690055847168,
+    0.007874006405472755
+   ]
+  },
+  {
+   "name": "gun:1",
+   "translation": [
+    188.4600067138672,
+    48.439998626708984,
+    89.16000366210938
+   ],
+   "rotation": [
+    -0,
+    0,
+    0.9999691843986511,
+    -0.007853860966861248
+   ]
+  },
+  {
+   "name": "missile:5",
+   "translation": [
+    330.4200134277344,
+    94.69000244140625,
+    -100
+   ],
+   "rotation": [
+    -0,
+    0,
+    0.4857252836227417,
+    0.874111533164978
+   ]
+  },
+  {
+   "name": "missile:5",
+   "translation": [
+    -340.4100036621094,
+    89.1500015258789,
+    -100
+   ],
+   "rotation": [
+    -0,
+    -0,
+    -0.4857252836227417,
+    0.874111533164978
+   ]
+  }
+ ],
+ "meshes": [
+  {
+   "name": "Loki Body",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 0,
+      "NORMAL": 1,
+      "TEXCOORD_0": 2
+     },
+     "material": 0
+    }
+   ]
+  },
+  {
+   "name": "Loki Left Foot",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 3,
+      "NORMAL": 4,
+      "TEXCOORD_0": 5
+     },
+     "material": 0
+    }
+   ]
+  },
+  {
+   "name": "Loki Left Leg ",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 6,
+      "NORMAL": 7,
+      "TEXCOORD_0": 8
+     },
+     "material": 0
+    }
+   ]
+  },
+  {
+   "name": "Loki Right Leg",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 9,
+      "NORMAL": 10,
+      "TEXCOORD_0": 11
+     },
+     "material": 0
+    }
+   ]
+  },
+  {
+   "name": "Loki Right Foot",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 12,
+      "NORMAL": 13,
+      "TEXCOORD_0": 14
+     },
+     "material": 0
+    }
+   ]
+  },
+  {
+   "name": "Loki Middle Foot",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 15,
+      "NORMAL": 16,
+      "TEXCOORD_0": 17
+     },
+     "material": 0
+    }
+   ]
+  },
+  {
+   "name": "Loki Middle Leg ",
+   "primitives": [
+    {
+     "attributes": {
+      "POSITION": 18,
+      "NORMAL": 19,
+      "TEXCOORD_0": 20
+     },
+     "material": 0
+    }
+   ]
+  }
+ ],
+ "materials": [
+  {
+   "name": "Loki",
+   "pbrMetallicRoughness": {
+    "baseColorTexture": {
+     "index": 0
+    },
+    "metallicFactor": 0,
+    "roughnessFactor": 1
+   },
+   "doubleSided": false
+  }
+ ],
+ "textures": [
+  {
+   "source": 0
+  }
+ ],
+ "images": [
+  {
+   "uri": "Loki.png"
+  }
+ ],
+ "accessors": [
+  {
+   "bufferView": 0,
+   "componentType": 5126,
+   "count": 822,
+   "type": "VEC3",
+   "min": [
+    -355.9453125,
+    -116.864013671875,
+    -307.5987243652344
+   ],
+   "max": [
+    342.3739013671875,
+    146.35260009765625,
+    427.41632080078125
+   ]
+  },
+  {
+   "bufferView": 1,
+   "componentType": 5126,
+   "count": 822,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 2,
+   "componentType": 5126,
+   "count": 822,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 3,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    -69.9651870727539,
+    -19.16660499572754,
+    -122.11767578125
+   ],
+   "max": [
+    80.64987182617188,
+    37.43764877319336,
+    188.20089721679688
+   ]
+  },
+  {
+   "bufferView": 4,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 5,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 6,
+   "componentType": 5126,
+   "count": 144,
+   "type": "VEC3",
+   "min": [
+    -28.093902587890625,
+    -33.01383972167969,
+    -161.4351806640625
+   ],
+   "max": [
+    26.233657836914062,
+    37.598411560058594,
+    202.77560424804688
+   ]
+  },
+  {
+   "bufferView": 7,
+   "componentType": 5126,
+   "count": 144,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 8,
+   "componentType": 5126,
+   "count": 144,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 9,
+   "componentType": 5126,
+   "count": 144,
+   "type": "VEC3",
+   "min": [
+    -28.088272094726562,
+    -33.01383972167969,
+    -161.4351806640625
+   ],
+   "max": [
+    26.239288330078125,
+    37.598411560058594,
+    202.77560424804688
+   ]
+  },
+  {
+   "bufferView": 10,
+   "componentType": 5126,
+   "count": 144,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 11,
+   "componentType": 5126,
+   "count": 144,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 12,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    -69.39595031738281,
+    -19.222854614257812,
+    -122.26101684570312
+   ],
+   "max": [
+    81.21910858154297,
+    37.38139343261719,
+    188.05752563476562
+   ]
+  },
+  {
+   "bufferView": 13,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 14,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 15,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3",
+   "min": [
+    -84.80946350097656,
+    -38.50348663330078,
+    -126.60386657714844
+   ],
+   "max": [
+    65.80561828613281,
+    35.91608428955078,
+    183.87747192382812
+   ]
+  },
+  {
+   "bufferView": 16,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 17,
+   "componentType": 5126,
+   "count": 108,
+   "type": "VEC2"
+  },
+  {
+   "bufferView": 18,
+   "componentType": 5126,
+   "count": 144,
+   "type": "VEC3",
+   "min": [
+    -26.182361602783203,
+    -37.736083984375,
+    -161.40615844726562
+   ],
+   "max": [
+    28.145179748535156,
+    32.87617111206055,
+    202.8046417236328
+   ]
+  },
+  {
+   "bufferView": 19,
+   "componentType": 5126,
+   "count": 144,
+   "type": "VEC3"
+  },
+  {
+   "bufferView": 20,
+   "componentType": 5126,
+   "count": 144,
+   "type": "VEC2"
+  }
+ ],
+ "bufferViews": [
+  {
+   "buffer": 0,
+   "byteOffset": 0,
+   "byteLength": 9864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 9864,
+   "byteLength": 9864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 19728,
+   "byteLength": 6576,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 26304,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 27600,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 28896,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 29760,
+   "byteLength": 1728,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 31488,
+   "byteLength": 1728,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 33216,
+   "byteLength": 1152,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 34368,
+   "byteLength": 1728,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 36096,
+   "byteLength": 1728,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 37824,
+   "byteLength": 1152,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 38976,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 40272,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 41568,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 42432,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 43728,
+   "byteLength": 1296,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 45024,
+   "byteLength": 864,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 45888,
+   "byteLength": 1728,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 47616,
+   "byteLength": 1728,
+   "target": 34962
+  },
+  {
+   "buffer": 0,
+   "byteOffset": 49344,
+   "byteLength": 1152,
+   "target": 34962
+  }
+ ],
+ "buffers": [
+  {
+   "uri": "loki_native.bin",
+   "byteLength": 50496
+  }
+ ]
+}

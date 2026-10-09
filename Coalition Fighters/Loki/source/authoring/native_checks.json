@@ -1,0 +1,14 @@
+[
+  {
+    "file": "CRP_Loki.SHP",
+    "exit_code": 0,
+    "output": "ok: 7 parts, 873 vertices, 1535 faces\nbounds: 7 model_space\nwritten again: the same bytes\n",
+    "sha256": "61a601877d1c53ab68772eb7c474df76b6ab799b08fa8986bae548660cde5977"
+  },
+  {
+    "file": "mission981.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "58cdbb25e500bc43ea4fc6a98b004d933b502b690505855d9c7721ee5a94a7ce"
+  }
+]

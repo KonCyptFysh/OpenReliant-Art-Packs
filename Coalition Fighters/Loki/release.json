@@ -1,0 +1,38 @@
+{
+  "package_name": "openreliant-loki",
+  "version": "0.1.0-beta.1",
+  "asset_revision": "1.1",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.7.0",
+  "mod_folders": [
+    "105-loki-worn-v1"
+  ],
+  "asset_manifest_sha256": "5960ff0469404d72ae1dcf1290d4fce510b56715169836c25a2649338bddd325",
+  "source_manifest_sha256": "bd8d01cc8f7f4ea69a1d1b5be1ffc77fbf0377a5e07873cb8962ea32f9106363",
+  "channel": "beta",
+  "user_approved": true,
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json",
+    "tools/launch-loki-fighting-test.sh",
+    "tools/launch-loki-folded-test.sh",
+    "tools/launch-loki-test.sh",
+    "approval.json",
+    "gallery-validation.json"
+  ],
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-09T11:24:46.603722+00:00",
+    "instruction": "Alright, ship it and make the changes discussed for the torpedo bomber category",
+    "scope": "Loki worn artwork revision 1.1 with recessed window normals; publish beta and introduce Torpedo Bombers with Kamov, Hades and Scimitar.",
+    "qualification": "Artwork approval; AI gameplay, damage, distance transitions, other platforms and full animation-cycle gameplay coverage remain outside the completed review."
+  }
+}

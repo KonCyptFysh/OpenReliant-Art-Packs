@@ -103,7 +103,7 @@ def build(root):
         for path in sorted(set(files)):
             member = zipfile.ZipInfo(path.relative_to(root).as_posix(), (2026, 1, 1, 0, 0, 0))
             member.compress_type = zipfile.ZIP_DEFLATED
-            member.external_attr = 0o100644 << 16
+            member.external_attr = (0o100755 if path.stat().st_mode & 0o111 else 0o100644) << 16
             archive.writestr(member, path.read_bytes())
     with zipfile.ZipFile(temporary) as archive:
         bad = archive.testzip()
