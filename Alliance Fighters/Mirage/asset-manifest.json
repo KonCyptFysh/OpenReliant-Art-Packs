@@ -5,21 +5,6 @@
     "sha256": "9f0c422dec5f4d0e7418ec957eccd6c929308044e7915dc69d782953b23e55ca"
   },
   {
-    "path": "mods/90-mirage-worn-v1/gormi1_hull.png",
-    "bytes": 16036205,
-    "sha256": "d7644d92543434144a0053bb0f04be4ba5266f1bbc369aae4fb7ab74f418f14e"
-  },
-  {
-    "path": "mods/90-mirage-worn-v1/gormi1_hull_normal.png",
-    "bytes": 1706420,
-    "sha256": "c618605e848a761f31ed033db1bd436544a1441cc120e1db00316b5eed218edd"
-  },
-  {
-    "path": "mods/90-mirage-worn-v1/gormi1_hull_orm.png",
-    "bytes": 12465127,
-    "sha256": "14f4f0a1d68091080fdf75e50c5e9d872e4075d63eafc34ae502e09b26aa0abe"
-  },
-  {
     "path": "mods/90-mirage-worn-v1/license.txt",
     "bytes": 999,
     "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
@@ -32,7 +17,7 @@
   {
     "path": "mods/90-mirage-worn-v1/mod.ini",
     "bytes": 240,
-    "sha256": "5909cfb767a3308bf190f5090538b4b81e92c56ba149f7492263e50840a03eb6"
+    "sha256": "fcf23c78a356475d5d8def282cdb0e02e339a5f87c707b4986dffa131f0a1b65"
   },
   {
     "path": "mods/90-mirage-worn-v1/mod.png",

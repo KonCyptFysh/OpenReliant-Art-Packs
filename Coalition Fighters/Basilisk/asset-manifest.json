@@ -5,36 +5,6 @@
     "sha256": "0ff34204e37e722dd363610093b90fc5f0f553c4d51a1ae33c58afe932336bb4"
   },
   {
-    "path": "mods/103-basilisk-worn-v1/gorbs1_hull.png",
-    "bytes": 15661099,
-    "sha256": "8cf6a6ffa3e32f181b7c9c403233b36a4c1522ae213bbdf5b4b89e84b63dba43"
-  },
-  {
-    "path": "mods/103-basilisk-worn-v1/gorbs1_hull_normal.png",
-    "bytes": 379171,
-    "sha256": "f2252fbce136f786ceb0371fd750411beccd02dbe7de2fa786906eef2c2327b2"
-  },
-  {
-    "path": "mods/103-basilisk-worn-v1/gorbs1_hull_orm.png",
-    "bytes": 9608968,
-    "sha256": "f3d133826837d25dd4b50a81279be55c5498a4116e8fff4cae78564a263b889a"
-  },
-  {
-    "path": "mods/103-basilisk-worn-v1/gorbs2_gun.png",
-    "bytes": 247283,
-    "sha256": "03137245a3236f23058d2192dbd10ceea7c9504bfc07a9ddefafa6898d993a1e"
-  },
-  {
-    "path": "mods/103-basilisk-worn-v1/gorbs2_gun_normal.png",
-    "bytes": 2294,
-    "sha256": "36365fad9afda146ff00131b6edab30ba217c709fccce2eb5c2cf13471fca940"
-  },
-  {
-    "path": "mods/103-basilisk-worn-v1/gorbs2_gun_orm.png",
-    "bytes": 44784,
-    "sha256": "83fea5dc3261f35e585330773e9d59c6282dda130cc0e6099b061e0b449a9f01"
-  },
-  {
     "path": "mods/103-basilisk-worn-v1/license.txt",
     "bytes": 249,
     "sha256": "37c269360bce7f75ec80c3ff43eafcee988f25a85419e0df946e8352cfb54cb8"
@@ -47,7 +17,7 @@
   {
     "path": "mods/103-basilisk-worn-v1/mod.ini",
     "bytes": 337,
-    "sha256": "9018d8c04a3dbc747436f62cc36c939a653494eed6a7aff4db1154cef71474ce"
+    "sha256": "8b3f436fcfe1910a4e6d8b9bef35f7356c33569f3415796d201dbd0785411f3a"
   },
   {
     "path": "mods/103-basilisk-worn-v1/mod.png",

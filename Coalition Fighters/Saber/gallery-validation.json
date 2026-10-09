@@ -50,5 +50,12 @@
   ],
   "captured_runtime_manifest_sha256": "2f63cc744e165360e737ce75353f31bff1ea62982990a93554cdf5d0948238cf",
   "published_runtime_manifest_sha256": "2f63cc744e165360e737ce75353f31bff1ea62982990a93554cdf5d0948238cf",
-  "settings_unchanged": true
+  "settings_unchanged": true,
+  "compatibility_update": {
+    "version": "0.1.0-beta.2",
+    "engine_requirement": "0.8.1",
+    "report": "compatibility-0.8.json",
+    "captured_engine_unchanged": true,
+    "note": "Historical gallery captures keep their recorded engine version. This package update removes generated-colour copies and changes release metadata, while retaining the depicted artwork."
+  }
 }

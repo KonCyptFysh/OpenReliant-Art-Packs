@@ -1,147 +1,29 @@
 {
   "status": "passed",
-  "scope": "contained-relief-continuous-belly-and-nose-surfaces",
-  "checked_at_utc": "2026-10-08T04:36:00.580877+00:00",
-  "engine_build": "Official OpenReliant 0.7.0",
-  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-  "native_checks": [
-    {
-      "file": "USPF_Phx.SHP",
-      "exit_status": 0,
-      "output": "ok: 3 parts, 928 vertices, 1532 faces\nbounds: 2 oriented 1 permuted\nwritten again: the same bytes\n",
-      "sha256": "2b57b2165aeaae669cddce5120d396eb5753b9fa881e736479f5c6f5f6145bc0"
-    },
-    {
-      "file": "t_USPF_Phx.SHP",
-      "exit_status": 0,
-      "output": "ok: 3 parts, 928 vertices, 1532 faces\nbounds: 2 oriented 1 permuted\nwritten again: the same bytes\n",
-      "sha256": "34cdd53a4f125ebb936404ce045bae24b76b297fc16ad453c96f6457990759ec"
-    },
-    {
-      "file": "Phoenix_gun.SHP",
-      "exit_status": 0,
-      "output": "ok: 13 parts, 741 vertices, 1456 faces\nbounds: 13 model_space\nwritten again: the same bytes\n",
-      "sha256": "b32ae01cd8e7eeb74f86e1fc201bbffe78fd96e2fa1e017e29ded2472d6fa1e0"
-    },
-    {
-      "file": "mission990.dte",
-      "exit_status": 0,
-      "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
-      "sha256": "ab1e9efc5578750bbdec4079f240ed0d21840a52d065c9cf49e4b5eee5198775"
-    }
-  ],
-  "native_roundtrip": [
-    {
-      "file": "USPF_Phx.SHP",
-      "matched_lod0_faces": 494,
-      "changed_uv_faces_since_v6": 45,
-      "repair_material_faces": 45,
-      "max_corner_uv_error": 2.9802322387695312e-08,
-      "unchanged_other_chunks": 93,
-      "unselected_faces_exactly_preserved": true,
-      "geometry_normals_attachments_animation_damage_flags_and_lower_lods_preserved": true,
-      "sha256": "2b57b2165aeaae669cddce5120d396eb5753b9fa881e736479f5c6f5f6145bc0"
-    },
-    {
-      "file": "t_USPF_Phx.SHP",
-      "matched_lod0_faces": 494,
-      "changed_uv_faces_since_v6": 45,
-      "repair_material_faces": 45,
-      "max_corner_uv_error": 2.9802322387695312e-08,
-      "unchanged_other_chunks": 93,
-      "unselected_faces_exactly_preserved": true,
-      "geometry_normals_attachments_animation_damage_flags_and_lower_lods_preserved": true,
-      "sha256": "34cdd53a4f125ebb936404ce045bae24b76b297fc16ad453c96f6457990759ec"
-    },
-    {
-      "file": "Phoenix_gun.SHP",
-      "matched_lod0_faces": 494,
-      "changed_uv_faces_since_v6": 45,
-      "repair_material_faces": 45,
-      "max_corner_uv_error": 2.9802322387695312e-08,
-      "unchanged_other_chunks": 104,
-      "unselected_faces_exactly_preserved": true,
-      "geometry_normals_attachments_animation_damage_flags_and_lower_lods_preserved": true,
-      "sha256": "b32ae01cd8e7eeb74f86e1fc201bbffe78fd96e2fa1e017e29ded2472d6fa1e0"
-    }
-  ],
-  "map_checks": {
-    "main_map_locality": [
-      {
-        "map": "normal",
-        "changed_pixels_outside_intake_vent_edit_region": 0
-      },
-      {
-        "map": "roughness",
-        "changed_pixels_outside_intake_vent_edit_region": 0
-      },
-      {
-        "map": "metallic",
-        "changed_pixels_outside_intake_vent_edit_region": 0
-      },
-      {
-        "map": "height",
-        "changed_pixels_outside_intake_vent_edit_region": 0
-      },
-      {
-        "map": "structure",
-        "changed_pixels_outside_intake_vent_edit_region": 0
-      },
-      {
-        "map": "fins",
-        "changed_pixels_outside_intake_vent_edit_region": 0
-      }
-    ],
-    "main_basecolor_and_glazing_masks_byte_identical": true,
-    "glazing_face_uvs_and_materials_unchanged": true,
-    "incorrect_relief_pixels_cleared_outside_actual_openings": 78565,
-    "new_relief_normals_outside_openings_flat": true,
-    "fin_relief_contained_by_openings": true,
-    "belly_continuous_shared_edges": 17,
-    "max_belly_shared_edge_uv_gap_pixels": 0.0,
-    "surface_bake_faces": 45,
-    "repair_maps_verified": 5
-  },
-  "source_snapshot_verified": true,
-  "blender_review_angles": [
-    "whole",
-    "belly",
-    "nose",
-    "vents",
-    "nose_other",
-    "vents_other"
-  ],
-  "runtime_visual_review": "v7-user-approved",
-  "maintainer_approval": true,
-  "remaining_work": [
-    "Firing, tail-turret motion, Nova cannon, ejection, damage and loadout animations need separate gameplay checks.",
-    "Lower LODs retain original geometry, UVs and material names; distance transitions still need review.",
-    "Custom emissive maps are deferred.",
-    "Other platforms have not been tested."
-  ],
-  "asset_manifest_sha256": "3e3a6e8820e4844204337a3d7c984c68d44661df23987161c3de0f0f8cf1d6c0",
+  "scope": "OpenReliant 0.8.1 compatibility and generated loadout-colour packaging",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "7.0",
+  "asset_manifest_sha256": "9c59943b0203c36292a1627050e6c342daf5da5be29665b85ac1a532550ff121",
   "source_manifest_sha256": "03fb71cf9a8c16bbb3483cb31c60d1fdf6df57a091ea69ccb373a27846ca2397",
-  "user_review": {
-    "v1": "reviewed; belly alignment and glass pattern requested",
-    "v2": "reviewed; forward window shape and material boundary correction requested",
-    "v3": "User rejected the enlarged front triangle and requested original proportions.",
-    "v5": "User identified tapered unfilled pane edges and jagged reflections at some angles.",
-    "v6": "User identified relief overspill at intakes and vents, remaining belly misalignment and intersecting nose textures.",
-    "v7": "User approved the installed revision 7.0 appearance and requested publication."
-  },
-  "approval": {
-    "user_approved": true,
-    "approved_at_utc": "2026-10-08T04:43:07.395167+00:00",
-    "scope": "Phoenix worn artwork revision 7.0, including glazing, intake and vent relief, belly panels and bronze nose joins.",
-    "instruction": "Sweet, happy with this, send it to git!"
-  },
   "tested_platforms": [
-    "Linux x86_64"
+    "Linux x86_64 \u2014 native tools and non-visual texture pipeline"
   ],
   "checks": [
-    "Official 0.7.0 native format checks for flight, training, loadout and inspection mission.",
-    "Native preservation and map checks passed; 17 shared belly edges have zero UV gap.",
-    "Both sides inspected in Blender; user approved the installed revision 7.0 appearance for publication.",
-    "All 19 installed runtime files match the repository asset manifest."
-  ]
+    "Official sltool 0.8.1: 4 native model/mission format and round-trip checks passed.",
+    "Official 0.8.1 texture loader: 2 material sets decoded; generated green/red channels checked and inherited normal/ORM maps match byte-for-byte.",
+    "Removed 6 audited byte-identical loadout files; retained artwork/model/animation bytes unchanged from the current approved repository snapshot.",
+    "All material sets retain unprefixed PNG base, normal and ORM files.",
+    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json."
+  ],
+  "prior_artwork_validation": "validation-previous.json",
+  "compatibility_report": "compatibility-0.8.json",
+  "limitations": [
+    "Bounded Linux compatibility checks do not replace campaign, damage, animation-cycle and other-platform testing.",
+    "Original per-pack artwork limitations remain in KNOWN_ISSUES.md."
+  ],
+  "game_launched_for_this_update": false,
+  "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+  "non_visual_validation": true
 }

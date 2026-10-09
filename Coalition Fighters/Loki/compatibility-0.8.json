@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "1.1",
+  "previous_release": "loki-v0.1.0-beta.1",
+  "new_release": "loki-v0.1.0-beta.2",
+  "previous_asset_manifest_sha256": "5960ff0469404d72ae1dcf1290d4fce510b56715169836c25a2649338bddd325",
+  "removed_variants": [
+    {
+      "path": "mods/105-loki-worn-v1/gorlk1_hull.png",
+      "base": "mods/105-loki-worn-v1/orlk1_hull.png",
+      "bytes": 15307193,
+      "sha256": "d255d64bb22bbbdfc6b4031a6318472593170c485d2d015a77514974961f694e"
+    },
+    {
+      "path": "mods/105-loki-worn-v1/gorlk1_hull_normal.png",
+      "base": "mods/105-loki-worn-v1/orlk1_hull_normal.png",
+      "bytes": 537276,
+      "sha256": "f8041660c30042c3c0c0ad568456b205424624b51729eddff4c66b2beec898c6"
+    },
+    {
+      "path": "mods/105-loki-worn-v1/gorlk1_hull_orm.png",
+      "base": "mods/105-loki-worn-v1/orlk1_hull_orm.png",
+      "bytes": 8479069,
+      "sha256": "92ac8fa9fe0da4017ea93b5c061673a460b6bc07cf787abec69a84580c356a02"
+    }
+  ],
+  "removed_bytes": 24323538,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "4ff0f3f10e79644efab2a9f84de9bbb0a41ba574f7aa02400cf9b2fb7d2426af",
+  "native_checks": [
+    {
+      "path": "mods/105-loki-worn-v1/CRP_Loki.SHP",
+      "sha256": "61a601877d1c53ab68772eb7c474df76b6ab799b08fa8986bae548660cde5977",
+      "exit_code": 0,
+      "log_sha256": "52036f28b53ce669ec7f7ec5c526c20146dad68a02416dccc28954b9ef35fddd"
+    },
+    {
+      "path": "mods/105-loki-worn-v1/mission981.dte",
+      "sha256": "58cdbb25e500bc43ea4fc6a98b004d933b502b690505855d9c7721ee5a94a7ce",
+      "exit_code": 0,
+      "log_sha256": "8beca15ceba3b7638bce2a2a549677d55a1741922eb46216bf291c67141b12a1"
+    },
+    {
+      "path": "mods/105-loki-worn-v1/mission982.dte",
+      "sha256": "59967090c8bcbb479b460387d2ee391b4a70b97d81a8c603193a36b0ff79aa59",
+      "exit_code": 0,
+      "log_sha256": "8beca15ceba3b7638bce2a2a549677d55a1741922eb46216bf291c67141b12a1"
+    },
+    {
+      "path": "mods/105-loki-worn-v1/mission983.dte",
+      "sha256": "9f2e8e4d5e4d0ba2689e16ec770967ec501daac2e247448b37f16761cabd2763",
+      "exit_code": 0,
+      "log_sha256": "8beca15ceba3b7638bce2a2a549677d55a1741922eb46216bf291c67141b12a1"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:13:03.878808+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "orlk1_hull",
+        "exit_code": 0,
+        "base_sha256": "d255d64bb22bbbdfc6b4031a6318472593170c485d2d015a77514974961f694e",
+        "normal_sha256": "f8041660c30042c3c0c0ad568456b205424624b51729eddff4c66b2beec898c6",
+        "orm_sha256": "92ac8fa9fe0da4017ea93b5c061673a460b6bc07cf787abec69a84580c356a02",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "ce347588e6daa0ac7e208e117c841d22d0737e4346c9bc6b63bebd21e958c5e2"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

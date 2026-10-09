@@ -1,5 +1,7 @@
 # Saber - Worn Paint
 
+Current package: **0.1.0-beta.2**, artwork **1.0**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
+
 User-approved worn restoration for OpenReliant 0.7.0, packaged as an individual beta under Coalition Fighters. Artwork 1.0 passed the user's in-game visual review on 9 October 2026.
 
 Restores the original silver-grey and red Coalition livery, stars, hazard markings and amber cockpit glass. The glazing has flat normals and a smooth reflective material response. Panel and radiator relief follows explicitly traced structures; painted markings do not create bump relief.

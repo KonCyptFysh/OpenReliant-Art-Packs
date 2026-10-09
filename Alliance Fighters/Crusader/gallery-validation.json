@@ -50,5 +50,12 @@
   ],
   "captured_runtime_manifest_sha256": "4145c10c0235738052374c5f6f12e374b40b4e6fd487db2b291947d9c695bbdb",
   "published_runtime_manifest_sha256": "a8597f8fe528c99b1070b0b0a96f61b6b829cd660f99e8e7112b873224fa4284",
-  "post_capture_change": "mod.ini approval description only; all model and texture hashes unchanged"
+  "post_capture_change": "mod.ini approval description only; all model and texture hashes unchanged",
+  "compatibility_update": {
+    "version": "0.1.0-beta.2",
+    "engine_requirement": "0.8.1",
+    "report": "compatibility-0.8.json",
+    "captured_engine_unchanged": true,
+    "note": "Historical gallery captures keep their recorded engine version. This package update removes generated-colour copies and changes release metadata, while retaining the depicted artwork."
+  }
 }

@@ -3,11 +3,11 @@
   "version": "0.1.0-beta.2",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "90-mirage-worn-v1"
   ],
-  "asset_manifest_sha256": "bdfcadadcba5fcb8bdf3dc1f4a1f8dbf6b627c5050cc8bcd02171d9d1f99c255",
+  "asset_manifest_sha256": "c88c5efa9011226a1304559ec4c650c95975774ab0d9eeb44e623588877d20bd",
   "include_documents": [
     "README.md",
     "INSTALL.md",
@@ -17,7 +17,11 @@
     "LICENSING.md",
     "asset-manifest.json",
     "validation.json",
-    "release.json"
+    "release.json",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
-  "channel": "beta"
+  "channel": "beta",
+  "asset_revision": "3.0",
+  "source_manifest_sha256": "43f26c0631c4699a9f786cd9d1471c14239da71fa7506d8f8eb232c125c01b39"
 }

@@ -1,14 +1,14 @@
 {
   "package_name": "openreliant-crusader",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "asset_revision": "2.0",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "99-crusader-worn-v1"
   ],
-  "asset_manifest_sha256": "a8597f8fe528c99b1070b0b0a96f61b6b829cd660f99e8e7112b873224fa4284",
+  "asset_manifest_sha256": "79e9a12fa5cb94cf449bd5bb8cf94df49ae72e36f064ce949f9fdde0f4377c18",
   "source_manifest_sha256": "33a4c1432b4d7848b44e6034c7250319930ff15f616178ac6ec2f88857cce548",
   "channel": "beta",
   "include_documents": [
@@ -21,7 +21,9 @@
     "asset-manifest.json",
     "validation.json",
     "release.json",
-    "tools/launch-crusader-test.sh"
+    "tools/launch-crusader-test.sh",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
   "user_approved": true,
   "approval": {

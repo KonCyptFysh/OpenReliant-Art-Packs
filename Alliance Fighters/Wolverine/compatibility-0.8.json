@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "2.0",
+  "previous_release": "wolverine-v0.1.0-beta.1",
+  "new_release": "wolverine-v0.1.0-beta.2",
+  "previous_asset_manifest_sha256": "53e4c3e99f9238e05c8ed593fe662760e3f8a9c36c9e3ee5740aa11de52b6061",
+  "removed_variants": [
+    {
+      "path": "mods/60-wolverine-worn-v1/gorwv1_hull.png",
+      "base": "mods/60-wolverine-worn-v1/orwv1_hull.png",
+      "bytes": 17909043,
+      "sha256": "43b323a81a33e46ab8ed2af00633ad70a744585c0393c5418a720f33abf00d2c"
+    },
+    {
+      "path": "mods/60-wolverine-worn-v1/gorwv1_hull_normal.png",
+      "base": "mods/60-wolverine-worn-v1/orwv1_hull_normal.png",
+      "bytes": 863066,
+      "sha256": "097e8d7cf1684725e497aecab21fcd7b7586abc01b888e4fd81c94edc19cc41e"
+    },
+    {
+      "path": "mods/60-wolverine-worn-v1/gorwv1_hull_orm.png",
+      "base": "mods/60-wolverine-worn-v1/orwv1_hull_orm.png",
+      "bytes": 12185624,
+      "sha256": "fbcabb23697b0eedadb178a1e5449c7165d91c6007b447e0158bcbaa46dca9bf"
+    }
+  ],
+  "removed_bytes": 30957733,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "e771bff93e1ad7b319899b1b3b5699c21ea245e86daeb37ed8819d497fda3e52",
+  "native_checks": [
+    {
+      "path": "mods/60-wolverine-worn-v1/German_Wolverine.SHP",
+      "sha256": "fe4d187670865bbe458fbe02459486214978d994c9703be1a1d13599dc389f0f",
+      "exit_code": 0,
+      "log_sha256": "2947e51d5f195f4143f1f1d1fa8e1a2effb81b2571f785a48df83f899b860e6b"
+    },
+    {
+      "path": "mods/60-wolverine-worn-v1/t_German_Wolverine.SHP",
+      "sha256": "30ebb1fa5a346d695f3eb84b1d6fb424c632b698730b81b291a772f6e396f040",
+      "exit_code": 0,
+      "log_sha256": "2947e51d5f195f4143f1f1d1fa8e1a2effb81b2571f785a48df83f899b860e6b"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:12:00.358308+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "orwv1_hull",
+        "exit_code": 0,
+        "base_sha256": "43b323a81a33e46ab8ed2af00633ad70a744585c0393c5418a720f33abf00d2c",
+        "normal_sha256": "097e8d7cf1684725e497aecab21fcd7b7586abc01b888e4fd81c94edc19cc41e",
+        "orm_sha256": "fbcabb23697b0eedadb178a1e5449c7165d91c6007b447e0158bcbaa46dca9bf",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "949f1ac14dc9c3314e05b89e4a291fcb1fbcfd6de5d54c89c83167a5601e87ef"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

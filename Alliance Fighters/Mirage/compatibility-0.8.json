@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "3.0",
+  "previous_release": "mirage-v0.1.0-beta.1",
+  "new_release": "mirage-v0.1.0-beta.2",
+  "previous_asset_manifest_sha256": "bdfcadadcba5fcb8bdf3dc1f4a1f8dbf6b627c5050cc8bcd02171d9d1f99c255",
+  "removed_variants": [
+    {
+      "path": "mods/90-mirage-worn-v1/gormi1_hull.png",
+      "base": "mods/90-mirage-worn-v1/ormi1_hull.png",
+      "bytes": 16036205,
+      "sha256": "d7644d92543434144a0053bb0f04be4ba5266f1bbc369aae4fb7ab74f418f14e"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/gormi1_hull_normal.png",
+      "base": "mods/90-mirage-worn-v1/ormi1_hull_normal.png",
+      "bytes": 1706420,
+      "sha256": "c618605e848a761f31ed033db1bd436544a1441cc120e1db00316b5eed218edd"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/gormi1_hull_orm.png",
+      "base": "mods/90-mirage-worn-v1/ormi1_hull_orm.png",
+      "bytes": 12465127,
+      "sha256": "14f4f0a1d68091080fdf75e50c5e9d872e4075d63eafc34ae502e09b26aa0abe"
+    }
+  ],
+  "removed_bytes": 30207752,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "c88c5efa9011226a1304559ec4c650c95975774ab0d9eeb44e623588877d20bd",
+  "native_checks": [
+    {
+      "path": "mods/90-mirage-worn-v1/French_Mirage.SHP",
+      "sha256": "9f0c422dec5f4d0e7418ec957eccd6c929308044e7915dc69d782953b23e55ca",
+      "exit_code": 0,
+      "log_sha256": "e0974a042a8f8e7ddf0229f814e0cc1f2105439d2ddd2011c89745721d3509f1"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/mission993.dte",
+      "sha256": "dab011dea658eba7e85fdc22575e7c0ac1be53a02772e50be04a3b1e6ff3db95",
+      "exit_code": 0,
+      "log_sha256": "8b5c012111961ca14ca20b93c140211a5fa080c823739f6c2225371bc305dd9b"
+    },
+    {
+      "path": "mods/90-mirage-worn-v1/t_French_Mirage.SHP",
+      "sha256": "2fdfb2d5efae1173e487e86a7ecb873d2d229c157a251df9e2799a33923ce99b",
+      "exit_code": 0,
+      "log_sha256": "e0974a042a8f8e7ddf0229f814e0cc1f2105439d2ddd2011c89745721d3509f1"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:12:07.864213+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "ormi1_hull",
+        "exit_code": 0,
+        "base_sha256": "d7644d92543434144a0053bb0f04be4ba5266f1bbc369aae4fb7ab74f418f14e",
+        "normal_sha256": "c618605e848a761f31ed033db1bd436544a1441cc120e1db00316b5eed218edd",
+        "orm_sha256": "14f4f0a1d68091080fdf75e50c5e9d872e4075d63eafc34ae502e09b26aa0abe",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "48a11a7132949a29219328d5905859a55698426958d39de45560631a4c627478"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

@@ -3,11 +3,11 @@
   "version": "0.1.0-beta.2",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "70-tempest-worn-v1"
   ],
-  "asset_manifest_sha256": "45a39ca04cf633aab87b21099bc36293c65ac2ab094f590557a09d2cff82e1ce",
+  "asset_manifest_sha256": "431d86d6f5ed4e735184a172257e34c34679cea33137ef763037d811c49c2522",
   "include_documents": [
     "README.md",
     "INSTALL.md",
@@ -17,7 +17,11 @@
     "LICENSING.md",
     "asset-manifest.json",
     "validation.json",
-    "release.json"
+    "release.json",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
-  "channel": "beta"
+  "channel": "beta",
+  "asset_revision": "1.0",
+  "source_manifest_sha256": "19e8f2d711c0079cdbe0776f99ca998389d7afb0388808c6df2974a91e94783d"
 }

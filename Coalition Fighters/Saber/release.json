@@ -1,14 +1,14 @@
 {
   "package_name": "openreliant-saber",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "asset_revision": "1.0",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "102-saber-worn-v1"
   ],
-  "asset_manifest_sha256": "2f63cc744e165360e737ce75353f31bff1ea62982990a93554cdf5d0948238cf",
+  "asset_manifest_sha256": "b2cb11b2b97b5cede3b8dac1aca172d07817a4ed3ec70329a0dc8f3e32f0b17b",
   "source_manifest_sha256": "0c5a86703ac2bffb3efc19bab6c2e214e08f1f6e1f4895680aa3f8492e712bf9",
   "channel": "beta",
   "user_approved": true,
@@ -24,7 +24,9 @@
     "release.json",
     "tools/launch-saber-test.sh",
     "approval.json",
-    "gallery-validation.json"
+    "gallery-validation.json",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
   "approval": {
     "user_approved": true,

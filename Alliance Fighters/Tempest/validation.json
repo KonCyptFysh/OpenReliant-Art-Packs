@@ -1,91 +1,29 @@
 {
   "status": "passed",
-  "scope": "individual-mod-bounded-loading-and-rendering",
-  "checked_at_utc": "2026-10-07T07:00:04.494339+00:00",
-  "engine_build": "OpenReliant 0.7.0 official release 3b27f16",
-  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-  "tested_platforms": [
-    "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
-  ],
-  "asset_manifest_sha256": "45a39ca04cf633aab87b21099bc36293c65ac2ab094f590557a09d2cff82e1ce",
+  "scope": "OpenReliant 0.8.1 compatibility and generated loadout-colour packaging",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "1.0",
+  "asset_manifest_sha256": "431d86d6f5ed4e735184a172257e34c34679cea33137ef763037d811c49c2522",
   "source_manifest_sha256": "19e8f2d711c0079cdbe0776f99ca998389d7afb0388808c6df2974a91e94783d",
+  "tested_platforms": [
+    "Linux x86_64 \u2014 native tools and non-visual texture pipeline"
+  ],
   "checks": [
-    "Verify 10 runtime files and 17 original source artifacts against the previously verified snapshot.",
-    "Copy only 70-tempest-worn-v1 into a clean test installation; verify all runtime hashes.",
-    "Pass native format checks for 2 SHP/DTE files.",
-    "Load and capture the standard fighter on official OpenReliant 0.7.0 with exactly one art mod enabled and no HUD.",
-    "Preserve the byte-identical runtime assets previously checked in both standard and t_ variants with the original eight-fighter set.",
-    "Inspect the new isolated-mod capture for the expected ship and gross rendering errors."
+    "Official sltool 0.8.1: 2 native model/mission format and round-trip checks passed.",
+    "Official 0.8.1 texture loader: 1 material sets decoded; generated green/red channels checked and inherited normal/ORM maps match byte-for-byte.",
+    "Removed 3 audited byte-identical loadout files; retained artwork/model/animation bytes unchanged from the current approved repository snapshot.",
+    "All material sets retain unprefixed PNG base, normal and ORM files.",
+    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json."
   ],
-  "native_checks": [
-    {
-      "path": "mods/70-tempest-worn-v1/British_Tempest.SHP",
-      "sha256": "5dcc22f65c0cdfee024f91b930e714a141c100df1ac5499c94c836b7adc1e601",
-      "exit_status": 0,
-      "log_sha256": "f9244cea0042b9d466eba1de6488becb7faea569c45708c5dee162fbf6ab26ad"
-    },
-    {
-      "path": "mods/70-tempest-worn-v1/t_British_Tempest.SHP",
-      "sha256": "9aebd0c731ff5645194205c5bf3d6dbeac8295ee4d612d74d7fddc62e58e131a",
-      "exit_status": 0,
-      "log_sha256": "f9244cea0042b9d466eba1de6488becb7faea569c45708c5dee162fbf6ab26ad"
-    }
-  ],
-  "single_mod_capture": {
-    "sha256": "768e3ff3cac58a14ccd59e8014fc3bda09e20c5f4c469bffee98572da3cb2825",
-    "log_sha256": "e1d6ccb6ac5f173dd51f43108ca80c4189120cfd428b4faa8d82f897b48f0f3a",
-    "exit_status": 0,
-    "enabled_mods": [
-      "70-tempest-worn-v1"
-    ]
-  },
-  "previous_variant_checks": [
-    {
-      "path": "mods/70-tempest-worn-v1/British_Tempest.SHP",
-      "sha256": "5dcc22f65c0cdfee024f91b930e714a141c100df1ac5499c94c836b7adc1e601",
-      "exit_status": 0,
-      "log_sha256": "f9244cea0042b9d466eba1de6488becb7faea569c45708c5dee162fbf6ab26ad"
-    },
-    {
-      "path": "mods/70-tempest-worn-v1/t_British_Tempest.SHP",
-      "sha256": "9aebd0c731ff5645194205c5bf3d6dbeac8295ee4d612d74d7fddc62e58e131a",
-      "exit_status": 0,
-      "log_sha256": "f9244cea0042b9d466eba1de6488becb7faea569c45708c5dee162fbf6ab26ad"
-    }
-  ],
+  "prior_artwork_validation": "validation-previous.json",
+  "compatibility_report": "compatibility-0.8.json",
   "limitations": [
-    "This is a work-in-progress beta; final texture and Naginata edge/exhaust acceptance are still open.",
-    "Full campaign play, damage, ejection, loadout and Shroud cloak were not tested in these bounded captures.",
-    "Lower-LOD distance transitions and separate later-campaign liveries remain under review.",
-    "Windows and macOS runtime tests have not been performed.",
-    "No custom emissive maps are included."
+    "Bounded Linux compatibility checks do not replace campaign, damage, animation-cycle and other-platform testing.",
+    "Original per-pack artwork limitations remain in KNOWN_ISSUES.md."
   ],
-  "metadata_updates": [
-    {
-      "checked_at_utc": "2026-10-07T09:13:17.028579+00:00",
-      "change": "Add the approved artwork licence metadata and the portable licence notice.",
-      "previous_asset_manifest_sha256": "78ca07a0328d9c059fa66081b9922d41cf128ccbc8ff9c85eadd40557ba3070d",
-      "asset_manifest_sha256": "ad193c6c21e5bd0871c9b4edfcafe01f1c11ee2b4e2d001be36e13cba98bd6cb",
-      "previous_mod_ini_sha256": "ed2e9c410ac72c9a0ddeaeb3ac26a95cc5c7419110e71ee30c25e75059740c4a",
-      "mod_ini_sha256": "60d417c7d5d7e9a35caa5b31916667684963e8fa003fa4bae48cb49fad179618",
-      "previous_mod_version": "1.0",
-      "mod_version": "1.0.1",
-      "all_other_runtime_files_sha256_unchanged": true,
-      "engine_rerun": false,
-      "scope": "Original runtime evidence above predates this metadata-only update; artwork and native model bytes are unchanged. These metadata files have not been redeployed to the local game."
-    },
-    {
-      "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
-      "change": "Use the clean display title Tempest - Worn Paint and a distinct patch version for this title revision.",
-      "previous_asset_manifest_sha256": "ad193c6c21e5bd0871c9b4edfcafe01f1c11ee2b4e2d001be36e13cba98bd6cb",
-      "asset_manifest_sha256": "45a39ca04cf633aab87b21099bc36293c65ac2ab094f590557a09d2cff82e1ce",
-      "previous_mod_ini_sha256": "60d417c7d5d7e9a35caa5b31916667684963e8fa003fa4bae48cb49fad179618",
-      "mod_ini_sha256": "91e81c56b9dae7e05594d58489a280e00a7699d0c227404a36169062c41c4250",
-      "all_other_runtime_files_sha256_unchanged": true,
-      "engine_rerun": false,
-      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed.",
-      "previous_mod_version": "1.0.1",
-      "mod_version": "1.0.2"
-    }
-  ]
+  "game_launched_for_this_update": false,
+  "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+  "non_visual_validation": true
 }

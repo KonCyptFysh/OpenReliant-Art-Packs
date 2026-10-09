@@ -5,21 +5,6 @@
     "sha256": "61a601877d1c53ab68772eb7c474df76b6ab799b08fa8986bae548660cde5977"
   },
   {
-    "path": "mods/105-loki-worn-v1/gorlk1_hull.png",
-    "bytes": 15307193,
-    "sha256": "d255d64bb22bbbdfc6b4031a6318472593170c485d2d015a77514974961f694e"
-  },
-  {
-    "path": "mods/105-loki-worn-v1/gorlk1_hull_normal.png",
-    "bytes": 537276,
-    "sha256": "f8041660c30042c3c0c0ad568456b205424624b51729eddff4c66b2beec898c6"
-  },
-  {
-    "path": "mods/105-loki-worn-v1/gorlk1_hull_orm.png",
-    "bytes": 8479069,
-    "sha256": "92ac8fa9fe0da4017ea93b5c061673a460b6bc07cf787abec69a84580c356a02"
-  },
-  {
     "path": "mods/105-loki-worn-v1/license.txt",
     "bytes": 245,
     "sha256": "25ec435c2d5be0ea12466080434e6160d67341dc9e4fe77823825838b320b9eb"
@@ -47,7 +32,7 @@
   {
     "path": "mods/105-loki-worn-v1/mod.ini",
     "bytes": 351,
-    "sha256": "72fd5fe5f6870437ff50a3a46b70eb5d24e64f7705826b175613435ac4e130f8"
+    "sha256": "25045ef0475cd07d566635e7ad2c7af73ae7f171e36d3b7e32384c17c0de6dad"
   },
   {
     "path": "mods/105-loki-worn-v1/mod.png",

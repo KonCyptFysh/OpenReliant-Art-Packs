@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "1.0",
+  "previous_release": "kamov-v0.1.0-beta.1",
+  "new_release": "kamov-v0.1.0-beta.2",
+  "previous_asset_manifest_sha256": "528a6e4a0dfa61e96207cff13bc03f85e3b3a538889a5ae2b5962bc2657e127f",
+  "removed_variants": [
+    {
+      "path": "mods/104-kamov-worn-v1/gorkm1_hull.png",
+      "base": "mods/104-kamov-worn-v1/orkm1_hull.png",
+      "bytes": 16966725,
+      "sha256": "306a1c558caa96a34e92b463ae4e67f51b43829bfe458dbb356b7a242cd39f25"
+    },
+    {
+      "path": "mods/104-kamov-worn-v1/gorkm1_hull_normal.png",
+      "base": "mods/104-kamov-worn-v1/orkm1_hull_normal.png",
+      "bytes": 176108,
+      "sha256": "e6ee20b1815c6d85ecd435f9738f12b599ca072f0a781e0762f1e37f68338583"
+    },
+    {
+      "path": "mods/104-kamov-worn-v1/gorkm1_hull_orm.png",
+      "base": "mods/104-kamov-worn-v1/orkm1_hull_orm.png",
+      "bytes": 9341396,
+      "sha256": "89598a837b0cfa117149a36dd3d2530815b32817b911be8d757440514843b186"
+    }
+  ],
+  "removed_bytes": 26484229,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "576e95fa0df0efa514c542c53c135bcfde8c38ad9c007ff7de8258bf5cfe2c28",
+  "native_checks": [
+    {
+      "path": "mods/104-kamov-worn-v1/Rus_Kamov.SHP",
+      "sha256": "11151daa9fb82cf5eda80c8a0bef7bf5ed1948d1a2305dcd651940937d621f0d",
+      "exit_code": 0,
+      "log_sha256": "877295dc5fe747953b48d0cd318f6b1ec2d5204180ef7b7da97bcc794a3aa2b4"
+    },
+    {
+      "path": "mods/104-kamov-worn-v1/mission984.dte",
+      "sha256": "6045bc7c880358a7b3c9da8906cb77c9f596fd2bac7190f7912fbd42705a0c52",
+      "exit_code": 0,
+      "log_sha256": "8beca15ceba3b7638bce2a2a549677d55a1741922eb46216bf291c67141b12a1"
+    },
+    {
+      "path": "mods/104-kamov-worn-v1/mission985.dte",
+      "sha256": "f16f4f802ff627d556582cacd0de0c682a2c928e3d707eb74f4eceec5e145b0f",
+      "exit_code": 0,
+      "log_sha256": "8beca15ceba3b7638bce2a2a549677d55a1741922eb46216bf291c67141b12a1"
+    },
+    {
+      "path": "mods/104-kamov-worn-v1/mission986.dte",
+      "sha256": "89443a5cebca494727b33fb6c983b337251a651d016d8e8006e20a25b2855f2e",
+      "exit_code": 0,
+      "log_sha256": "8beca15ceba3b7638bce2a2a549677d55a1741922eb46216bf291c67141b12a1"
+    },
+    {
+      "path": "mods/104-kamov-worn-v1/mission987.dte",
+      "sha256": "f96ed2f027b0d2d153cb1aacf3c194bf85ebe4ea01455ee1f894921ad7ed47e4",
+      "exit_code": 0,
+      "log_sha256": "8beca15ceba3b7638bce2a2a549677d55a1741922eb46216bf291c67141b12a1"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:12:59.685387+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "orkm1_hull",
+        "exit_code": 0,
+        "base_sha256": "306a1c558caa96a34e92b463ae4e67f51b43829bfe458dbb356b7a242cd39f25",
+        "normal_sha256": "e6ee20b1815c6d85ecd435f9738f12b599ca072f0a781e0762f1e37f68338583",
+        "orm_sha256": "89598a837b0cfa117149a36dd3d2530815b32817b911be8d757440514843b186",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "d167156e241ed57f3952fce74ed99e38ae69d8eeee2afbac2233bbab71ceb4ec"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

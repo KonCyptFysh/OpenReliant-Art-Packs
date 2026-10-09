@@ -5,21 +5,6 @@
     "sha256": "5dcc22f65c0cdfee024f91b930e714a141c100df1ac5499c94c836b7adc1e601"
   },
   {
-    "path": "mods/70-tempest-worn-v1/gortm1_hull.png",
-    "bytes": 17642666,
-    "sha256": "4d845f99a655753920b316c12dfcf5f7866415210cc8f5a376fd700f251fec49"
-  },
-  {
-    "path": "mods/70-tempest-worn-v1/gortm1_hull_normal.png",
-    "bytes": 1673478,
-    "sha256": "e6b164de0fe86454aa51723c1217c4a27349d24c42862412c65aa5a1e8ab4c93"
-  },
-  {
-    "path": "mods/70-tempest-worn-v1/gortm1_hull_orm.png",
-    "bytes": 12736171,
-    "sha256": "febb63bf3e93fe361e6db7f3c7e0d1925ccfd578a9e7bdf55913dd5cd1197b4f"
-  },
-  {
     "path": "mods/70-tempest-worn-v1/license.txt",
     "bytes": 999,
     "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
@@ -27,7 +12,7 @@
   {
     "path": "mods/70-tempest-worn-v1/mod.ini",
     "bytes": 202,
-    "sha256": "91e81c56b9dae7e05594d58489a280e00a7699d0c227404a36169062c41c4250"
+    "sha256": "b875a36a28123caa446bcb4fa1e67a3362d20d12913fac7a3cfa172cae3d2471"
   },
   {
     "path": "mods/70-tempest-worn-v1/mod.png",

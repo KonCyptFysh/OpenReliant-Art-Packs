@@ -30,3 +30,7 @@ The public gallery identity is **KonCyptFysh / StarLancer Art Packs**. Keep Open
 Every artwork mod has `License=CC-BY-NC-SA-4.0` under `[Mod]` and a flat `license.txt` with the licence link, attribution and third-party exclusions. Preserve both during exports. The licence covers KonCyptFysh's original contributions; retain other contributors' notices. OpenReliant's external catalogue currently links to the mod's own licence file. Its releases use the `Version` in `mod.ini`, so a released metadata revision needs a new patch version. Update the manifests and record metadata-only verification when art bytes are unchanged.
 
 Use concise public titles such as `Patriot - Worn Paint`. Keep version numbers in `Version` and release tags; keep repair details in `Description`, changelogs and known-work notes.
+
+## OpenReliant 0.8 texture packaging
+
+Current ship and ordnance packages target official OpenReliant 0.8.1. Ship only each unprefixed PNG texture and its normal/ORM maps. Do not duplicate these as g/r-prefixed loadout variants: the engine generates their colours. Preserve historical originals and capture-engine labels. Rebuild manifests, increment both mod and package versions, and verify new downloads before changing catalogue links. See the official [loadout texture documentation](https://github.com/OpenReliant/openreliant/blob/main/docs/guide/modding.md#textures-in-the-loadout).

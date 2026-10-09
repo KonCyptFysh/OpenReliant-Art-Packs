@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.0-beta.2 — OpenReliant 0.8.1 compatibility and smaller package
+
+- Requires official OpenReliant 0.8.1; updates inspection launchers and package metadata.
+- Removes 3 duplicate green/red loadout texture files (26,484,229 bytes); keeps original unprefixed PNG material maps unchanged.
+- Preserves all current model, UV, animation and authored material bytes.
+
+
 ## 0.1.0-beta.1 — Artwork 1.0 — 2026-10-09
 
 - Confirmed shared player and AI exterior and retained the separate cockpit interior.

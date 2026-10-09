@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "4.0",
+  "previous_release": "sai-v0.1.0-beta.1",
+  "new_release": "sai-v0.1.0-beta.2",
+  "previous_asset_manifest_sha256": "bb14cf5a25b5ce3f28f1b9e188f0086d2d7c21f334623e0a5bf593281a4b164a",
+  "removed_variants": [
+    {
+      "path": "mods/100-sai-worn-v1/gorsa1_body.png",
+      "base": "mods/100-sai-worn-v1/orsa1_body.png",
+      "bytes": 36824809,
+      "sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da"
+    },
+    {
+      "path": "mods/100-sai-worn-v1/gorsa1_body_normal.png",
+      "base": "mods/100-sai-worn-v1/orsa1_body_normal.png",
+      "bytes": 382080,
+      "sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538"
+    },
+    {
+      "path": "mods/100-sai-worn-v1/gorsa1_body_orm.png",
+      "base": "mods/100-sai-worn-v1/orsa1_body_orm.png",
+      "bytes": 15222893,
+      "sha256": "ac4dd156243f278d30d2131f80c2866b75c01ac4794c0eecec074235790681e2"
+    },
+    {
+      "path": "mods/100-sai-worn-v1/gorsa1_fins.png",
+      "base": "mods/100-sai-worn-v1/orsa1_fins.png",
+      "bytes": 12385100,
+      "sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6"
+    },
+    {
+      "path": "mods/100-sai-worn-v1/gorsa1_fins_normal.png",
+      "base": "mods/100-sai-worn-v1/orsa1_fins_normal.png",
+      "bytes": 120296,
+      "sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72"
+    },
+    {
+      "path": "mods/100-sai-worn-v1/gorsa1_fins_orm.png",
+      "base": "mods/100-sai-worn-v1/orsa1_fins_orm.png",
+      "bytes": 5335153,
+      "sha256": "add8f1fc5a2fc5244ad68e1d72d684eb7426f22edde8667f14fca1908838e315"
+    }
+  ],
+  "removed_bytes": 70270331,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "8fe2f1b502b2bb17e520a863805db4e5e012a15fd61f9df7eec6e082891a0ef9",
+  "native_checks": [
+    {
+      "path": "mods/100-sai-worn-v1/Jap_Sai.SHP",
+      "sha256": "3b3ad7b54d495ffc69f3db58b7e0bf5ce373c6bb1bd271028254240e54dc90f9",
+      "exit_code": 0,
+      "log_sha256": "5a92b96c57cf9d43296fd0728f7a7448519a2f2036bfb9038f181b0ac4b9aee5"
+    },
+    {
+      "path": "mods/100-sai-worn-v1/mission991.dte",
+      "sha256": "3221842359802e4bb2d9af0322a74cd5401e40cd504b8d872702d2f7fb812d01",
+      "exit_code": 0,
+      "log_sha256": "8b5c012111961ca14ca20b93c140211a5fa080c823739f6c2225371bc305dd9b"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:12:55.226265+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "orsa1_body",
+        "exit_code": 0,
+        "base_sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da",
+        "normal_sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538",
+        "orm_sha256": "ac4dd156243f278d30d2131f80c2866b75c01ac4794c0eecec074235790681e2",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "4c4d988bc7256ad501601b65bae5510790e9014a980c744c5b21832e4a7b98ca"
+      },
+      {
+        "material": "orsa1_fins",
+        "exit_code": 0,
+        "base_sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6",
+        "normal_sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72",
+        "orm_sha256": "add8f1fc5a2fc5244ad68e1d72d684eb7426f22edde8667f14fca1908838e315",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "5276f82b687fd8385379222b37c1e217361b5c028b41e918349e1b6353d5169f"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

@@ -1,14 +1,14 @@
 {
   "package_name": "openreliant-kamov",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "asset_revision": "1.0",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "104-kamov-worn-v1"
   ],
-  "asset_manifest_sha256": "528a6e4a0dfa61e96207cff13bc03f85e3b3a538889a5ae2b5962bc2657e127f",
+  "asset_manifest_sha256": "576e95fa0df0efa514c542c53c135bcfde8c38ad9c007ff7de8258bf5cfe2c28",
   "source_manifest_sha256": "f7312a94128c080c84abc617ccdaa94aba58efafee39e5fc78c6ab23b98eff76",
   "channel": "beta",
   "user_approved": true,
@@ -27,7 +27,9 @@
     "tools/launch-kamov-stowed-test.sh",
     "tools/launch-kamov-test.sh",
     "approval.json",
-    "gallery-validation.json"
+    "gallery-validation.json",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
   "approval": {
     "user_approved": true,

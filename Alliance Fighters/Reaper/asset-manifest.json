@@ -5,21 +5,6 @@
     "sha256": "4bc412d789aa4e87eb1adfd53ab3c8ce2ee6afd02314e6a660d827ccdd054e1e"
   },
   {
-    "path": "mods/50-reaper-worn-v3/gorrp3_hull.png",
-    "bytes": 18854455,
-    "sha256": "527ad5b80ddd7f757ae1973f0e64c78e7da547fa68858cc5e5236a4821f6e5b1"
-  },
-  {
-    "path": "mods/50-reaper-worn-v3/gorrp3_hull_normal.png",
-    "bytes": 28548723,
-    "sha256": "eb543842ce596926551c8aad78ff2b4e3f81448e1a78ccebe1cf949e41d1fff2"
-  },
-  {
-    "path": "mods/50-reaper-worn-v3/gorrp3_hull_orm.png",
-    "bytes": 12355459,
-    "sha256": "6141e06ae6ea83adcfb61bdbd288c296dbf25a83741d552374c2da216a643e00"
-  },
-  {
     "path": "mods/50-reaper-worn-v3/license.txt",
     "bytes": 999,
     "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
@@ -27,7 +12,7 @@
   {
     "path": "mods/50-reaper-worn-v3/mod.ini",
     "bytes": 188,
-    "sha256": "1d97f01494a01227ebba45018d091f909236d2f0637bf1772a69560bbd6adebe"
+    "sha256": "60b3d87518c5a2672910f3b87c31d5a2a6234454c4a895e7ec861e51a8d66589"
   },
   {
     "path": "mods/50-reaper-worn-v3/mod.png",

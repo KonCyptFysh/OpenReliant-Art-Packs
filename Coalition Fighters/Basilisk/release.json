@@ -1,14 +1,14 @@
 {
   "package_name": "openreliant-basilisk",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "asset_revision": "1.3",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "103-basilisk-worn-v1"
   ],
-  "asset_manifest_sha256": "3c56f5e0d8e4b49a8f5b3da8598960a93fecfc1b78451989abf966b0086236a1",
+  "asset_manifest_sha256": "ee8b0b772d33b45c41c6bbe44383ba4a0a7711a6e18ed3dd83be60af358bb939",
   "source_manifest_sha256": "219e7db800a4a9e9a2146c79fa05acae67aceb3b99413d36223591db62c810fe",
   "channel": "beta",
   "user_approved": true,
@@ -24,7 +24,9 @@
     "release.json",
     "tools/launch-basilisk-test.sh",
     "approval.json",
-    "gallery-validation.json"
+    "gallery-validation.json",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
   "approval": {
     "user_approved": true,

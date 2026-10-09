@@ -3,11 +3,11 @@
   "version": "0.1.0-beta.2",
   "status": "ready-for-packaging",
   "hold_reason": null,
-  "minimum_openreliant": "0.7.0",
+  "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "50-reaper-worn-v3"
   ],
-  "asset_manifest_sha256": "8befc8c27e4415592d0687afcc091011617307d6e2c3f0a3a1086828938748cc",
+  "asset_manifest_sha256": "dedb03764f442b6abded4f48ca93ff0e3ebd8458edab10dea3e499610106a576",
   "include_documents": [
     "README.md",
     "INSTALL.md",
@@ -17,7 +17,11 @@
     "LICENSING.md",
     "asset-manifest.json",
     "validation.json",
-    "release.json"
+    "release.json",
+    "compatibility-0.8.json",
+    "validation-previous.json"
   ],
-  "channel": "beta"
+  "channel": "beta",
+  "asset_revision": "3.1",
+  "source_manifest_sha256": "2cafa7053a081dad321bb7710d90fb600420bdbd16042ae1c2ba1260d0358281"
 }

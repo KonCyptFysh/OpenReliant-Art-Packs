@@ -1,0 +1,110 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "1.3",
+  "previous_release": "basilisk-v0.1.0-beta.1",
+  "new_release": "basilisk-v0.1.0-beta.2",
+  "previous_asset_manifest_sha256": "3c56f5e0d8e4b49a8f5b3da8598960a93fecfc1b78451989abf966b0086236a1",
+  "removed_variants": [
+    {
+      "path": "mods/103-basilisk-worn-v1/gorbs1_hull.png",
+      "base": "mods/103-basilisk-worn-v1/orbs1_hull.png",
+      "bytes": 15661099,
+      "sha256": "8cf6a6ffa3e32f181b7c9c403233b36a4c1522ae213bbdf5b4b89e84b63dba43"
+    },
+    {
+      "path": "mods/103-basilisk-worn-v1/gorbs1_hull_normal.png",
+      "base": "mods/103-basilisk-worn-v1/orbs1_hull_normal.png",
+      "bytes": 379171,
+      "sha256": "f2252fbce136f786ceb0371fd750411beccd02dbe7de2fa786906eef2c2327b2"
+    },
+    {
+      "path": "mods/103-basilisk-worn-v1/gorbs1_hull_orm.png",
+      "base": "mods/103-basilisk-worn-v1/orbs1_hull_orm.png",
+      "bytes": 9608968,
+      "sha256": "f3d133826837d25dd4b50a81279be55c5498a4116e8fff4cae78564a263b889a"
+    },
+    {
+      "path": "mods/103-basilisk-worn-v1/gorbs2_gun.png",
+      "base": "mods/103-basilisk-worn-v1/orbs2_gun.png",
+      "bytes": 247283,
+      "sha256": "03137245a3236f23058d2192dbd10ceea7c9504bfc07a9ddefafa6898d993a1e"
+    },
+    {
+      "path": "mods/103-basilisk-worn-v1/gorbs2_gun_normal.png",
+      "base": "mods/103-basilisk-worn-v1/orbs2_gun_normal.png",
+      "bytes": 2294,
+      "sha256": "36365fad9afda146ff00131b6edab30ba217c709fccce2eb5c2cf13471fca940"
+    },
+    {
+      "path": "mods/103-basilisk-worn-v1/gorbs2_gun_orm.png",
+      "base": "mods/103-basilisk-worn-v1/orbs2_gun_orm.png",
+      "bytes": 44784,
+      "sha256": "83fea5dc3261f35e585330773e9d59c6282dda130cc0e6099b061e0b449a9f01"
+    }
+  ],
+  "removed_bytes": 25943599,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "ee8b0b772d33b45c41c6bbe44383ba4a0a7711a6e18ed3dd83be60af358bb939",
+  "native_checks": [
+    {
+      "path": "mods/103-basilisk-worn-v1/Rus_basalisk.SHP",
+      "sha256": "0ff34204e37e722dd363610093b90fc5f0f553c4d51a1ae33c58afe932336bb4",
+      "exit_code": 0,
+      "log_sha256": "de7a295343a51942fc6f9238f83fe6e512564daa39cc4a351321c9af46339a56"
+    },
+    {
+      "path": "mods/103-basilisk-worn-v1/mission988.dte",
+      "sha256": "b57eca5703a7700ecbe0330b7170c0b772bc40aedeef423aa496e12426b9e91a",
+      "exit_code": 0,
+      "log_sha256": "8b5c012111961ca14ca20b93c140211a5fa080c823739f6c2225371bc305dd9b"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:12:58.483797+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "orbs1_hull",
+        "exit_code": 0,
+        "base_sha256": "8cf6a6ffa3e32f181b7c9c403233b36a4c1522ae213bbdf5b4b89e84b63dba43",
+        "normal_sha256": "f2252fbce136f786ceb0371fd750411beccd02dbe7de2fa786906eef2c2327b2",
+        "orm_sha256": "f3d133826837d25dd4b50a81279be55c5498a4116e8fff4cae78564a263b889a",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "548cbe41f7c108094e743eeb3110f0fd59517cc404a3b024241c9360a1ebb664"
+      },
+      {
+        "material": "orbs2_gun",
+        "exit_code": 0,
+        "base_sha256": "03137245a3236f23058d2192dbd10ceea7c9504bfc07a9ddefafa6898d993a1e",
+        "normal_sha256": "36365fad9afda146ff00131b6edab30ba217c709fccce2eb5c2cf13471fca940",
+        "orm_sha256": "83fea5dc3261f35e585330773e9d59c6282dda130cc0e6099b061e0b449a9f01",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "22f640211163957453e8c3e0b57e215c0074618b59e5416eb177ffdd738d6968"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

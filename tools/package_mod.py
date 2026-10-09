@@ -72,6 +72,13 @@ def validate(root):
             if stream.read(80).startswith(b"version https://git-lfs.github.com/spec/v1"):
                 raise ValueError("Git LFS pointer instead of real asset: " + name)
         expected[name.casefold()] = path
+    # A g/r loadout copy must not repeat a shipped canonical material image.
+    for name, path in expected.items():
+        if path.suffix.lower() not in {".png", ".dds", ".ktx2"} or path.name[0].lower() not in "gr":
+            continue
+        original = expected.get((path.parent / path.name[1:]).relative_to(root).as_posix().casefold())
+        if original is not None and digest(path) == digest(original):
+            raise ValueError("Redundant loadout colour variant: " + path.relative_to(root).as_posix())
     actual = [p for p in (root / "mods").rglob("*") if p.is_file() or p.is_symlink()]
     if {p.relative_to(root).as_posix().casefold() for p in actual} != set(expected):
         raise ValueError("Unmanifested files in mods/")

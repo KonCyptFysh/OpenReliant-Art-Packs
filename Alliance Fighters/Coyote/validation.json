@@ -1,91 +1,29 @@
 {
   "status": "passed",
-  "scope": "individual-mod-bounded-loading-and-rendering",
-  "checked_at_utc": "2026-10-07T06:36:44.618010+00:00",
-  "engine_build": "OpenReliant 0.7.0 official release 3b27f16",
-  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-  "tested_platforms": [
-    "Linux-6.19.14-108.fc42.x86_64-x86_64-with-glibc2.41"
-  ],
-  "asset_manifest_sha256": "e08b9a4169a1276a2b5d9867e807f6decffa0a13c9df831f0d5900b9727a7a99",
+  "scope": "OpenReliant 0.8.1 compatibility and generated loadout-colour packaging",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "4.0",
+  "asset_manifest_sha256": "cc64196c14f3d012d641d567ee1c206370572899b195f1b5837ac8e7ef63afce",
   "source_manifest_sha256": "c957d2b0b28245e24afe8c5e675d87d614941c932b047f4fd137f7749d2d18e2",
+  "tested_platforms": [
+    "Linux x86_64 \u2014 native tools and non-visual texture pipeline"
+  ],
   "checks": [
-    "Verify 10 runtime files and 37 original source artifacts against the previously verified snapshot.",
-    "Copy only 30-coyote-worn-v4 into a clean test installation; verify all runtime hashes.",
-    "Pass native format checks for 2 SHP/DTE files.",
-    "Load and capture the standard fighter on official OpenReliant 0.7.0 with exactly one art mod enabled and no HUD.",
-    "Preserve the byte-identical runtime assets previously checked in both standard and t_ variants with the original eight-fighter set.",
-    "Inspect the new isolated-mod capture for the expected ship and gross rendering errors."
+    "Official sltool 0.8.1: 2 native model/mission format and round-trip checks passed.",
+    "Official 0.8.1 texture loader: 1 material sets decoded; generated green/red channels checked and inherited normal/ORM maps match byte-for-byte.",
+    "Removed 3 audited byte-identical loadout files; retained artwork/model/animation bytes unchanged from the current approved repository snapshot.",
+    "All material sets retain unprefixed PNG base, normal and ORM files.",
+    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json."
   ],
-  "native_checks": [
-    {
-      "path": "mods/30-coyote-worn-v4/USA_Coyote.SHP",
-      "sha256": "de301153893ed2d4eb07ae12326db55d7d2ea14b6f0bf311445096a5773b203e",
-      "exit_status": 0,
-      "log_sha256": "320b54f99b57e88db7df32e9bcc73797b5b312d0b19fbc3d8ea08d903a6fd1c2"
-    },
-    {
-      "path": "mods/30-coyote-worn-v4/t_USA_Coyote.SHP",
-      "sha256": "2047b95a5870e90c89ddeef0d94ad3fce8af4d2f892d1eee7f723fe21f5702f7",
-      "exit_status": 0,
-      "log_sha256": "320b54f99b57e88db7df32e9bcc73797b5b312d0b19fbc3d8ea08d903a6fd1c2"
-    }
-  ],
-  "single_mod_capture": {
-    "sha256": "f87ca2ce2c7020b654b6129d210520187db16f7f56f8e3978779111533c477de",
-    "log_sha256": "0b03e2586094bf180c3a1bc730f64fc41483eb6b4eb7b1cb86fd6fcf462dc84c",
-    "exit_status": 0,
-    "enabled_mods": [
-      "30-coyote-worn-v4"
-    ]
-  },
-  "previous_variant_checks": [
-    {
-      "path": "mods/30-coyote-worn-v4/USA_Coyote.SHP",
-      "sha256": "de301153893ed2d4eb07ae12326db55d7d2ea14b6f0bf311445096a5773b203e",
-      "exit_status": 0,
-      "log_sha256": "320b54f99b57e88db7df32e9bcc73797b5b312d0b19fbc3d8ea08d903a6fd1c2"
-    },
-    {
-      "path": "mods/30-coyote-worn-v4/t_USA_Coyote.SHP",
-      "sha256": "2047b95a5870e90c89ddeef0d94ad3fce8af4d2f892d1eee7f723fe21f5702f7",
-      "exit_status": 0,
-      "log_sha256": "320b54f99b57e88db7df32e9bcc73797b5b312d0b19fbc3d8ea08d903a6fd1c2"
-    }
-  ],
+  "prior_artwork_validation": "validation-previous.json",
+  "compatibility_report": "compatibility-0.8.json",
   "limitations": [
-    "This is a work-in-progress beta; final texture and Naginata edge/exhaust acceptance are still open.",
-    "Full campaign play, damage, ejection, loadout and Shroud cloak were not tested in these bounded captures.",
-    "Lower-LOD distance transitions and separate later-campaign liveries remain under review.",
-    "Windows and macOS runtime tests have not been performed.",
-    "No custom emissive maps are included."
+    "Bounded Linux compatibility checks do not replace campaign, damage, animation-cycle and other-platform testing.",
+    "Original per-pack artwork limitations remain in KNOWN_ISSUES.md."
   ],
-  "metadata_updates": [
-    {
-      "checked_at_utc": "2026-10-07T09:13:17.028579+00:00",
-      "change": "Add the approved artwork licence metadata and the portable licence notice.",
-      "previous_asset_manifest_sha256": "fa1bd7377cee6e96a7b1f067804ca40b3c206895f942e2e24568115f3e3d350b",
-      "asset_manifest_sha256": "98a4a4ddd2b5499b67f511d737321102988a1509dd8b5f63c811d981a1d0671f",
-      "previous_mod_ini_sha256": "5cc49822f3ef569210685a9f2a8d456296018d6027fed2e3b30e563c0ce6b31e",
-      "mod_ini_sha256": "ee5407f73b6dca98807fd89ce41aa2aa174b577e785a368135bdc89c25ec3be9",
-      "previous_mod_version": "4.0",
-      "mod_version": "4.0.1",
-      "all_other_runtime_files_sha256_unchanged": true,
-      "engine_rerun": false,
-      "scope": "Original runtime evidence above predates this metadata-only update; artwork and native model bytes are unchanged. These metadata files have not been redeployed to the local game."
-    },
-    {
-      "checked_at_utc": "2026-10-07T09:26:45.537810+00:00",
-      "change": "Use the clean display title Coyote - Worn Paint and a distinct patch version for this title revision.",
-      "previous_asset_manifest_sha256": "98a4a4ddd2b5499b67f511d737321102988a1509dd8b5f63c811d981a1d0671f",
-      "asset_manifest_sha256": "e08b9a4169a1276a2b5d9867e807f6decffa0a13c9df831f0d5900b9727a7a99",
-      "previous_mod_ini_sha256": "ee5407f73b6dca98807fd89ce41aa2aa174b577e785a368135bdc89c25ec3be9",
-      "mod_ini_sha256": "9cfd3d8943c3e4cec502dde51055b356ba22099093940d8f4b71ef2d525b01fa",
-      "all_other_runtime_files_sha256_unchanged": true,
-      "engine_rerun": false,
-      "scope": "Display-name metadata only; existing artwork/native checks and captures remain applicable. Local live-game metadata was not changed.",
-      "previous_mod_version": "4.0.1",
-      "mod_version": "4.0.2"
-    }
-  ]
+  "game_launched_for_this_update": false,
+  "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+  "non_visual_validation": true
 }

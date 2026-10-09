@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.0-beta.2 — OpenReliant 0.8.1 compatibility and smaller package
+
+- Requires official OpenReliant 0.8.1; updates inspection launchers and package metadata.
+- Removes 6 duplicate green/red loadout texture files (70,270,331 bytes); keeps original unprefixed PNG material maps unchanged.
+- Preserves all current model, UV, animation and authored material bytes.
+- Publishes the previously approved artwork 4.0, matching the existing gallery.
+
+
 ## Artwork 4.0 - user-approved Git revision, beta unpublished
 
 - Fixed native triangle-fan/strip joins crossing the new left/right UV seams, including the stretched nose/canopy.

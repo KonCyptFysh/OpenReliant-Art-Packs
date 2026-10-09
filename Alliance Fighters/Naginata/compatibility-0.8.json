@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "4.0",
+  "previous_release": "naginata-v0.1.0-beta.1",
+  "new_release": "naginata-v0.1.0-beta.2",
+  "previous_asset_manifest_sha256": "9da649cad11089c9bdb5c42dc7d8eda67c893cacd17358e56bb54bed762b60de",
+  "removed_variants": [
+    {
+      "path": "mods/95-naginata-worn-v1/gorna1_hull.png",
+      "base": "mods/95-naginata-worn-v1/orna1_hull.png",
+      "bytes": 18411244,
+      "sha256": "518fb2ce731a3bd45f2f613946621af5f5e86feb011b5a4515d7cbdc44966988"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna1_hull_normal.png",
+      "base": "mods/95-naginata-worn-v1/orna1_hull_normal.png",
+      "bytes": 2324864,
+      "sha256": "369c3c13fa431485dcda8725fe96c6d0cd6b8e2310cbfadd391e05d2f5059557"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna1_hull_orm.png",
+      "base": "mods/95-naginata-worn-v1/orna1_hull_orm.png",
+      "bytes": 11897393,
+      "sha256": "fe3fb36104cd8925f1dc33ce0cd7c402a122eff1b90a8a7268d0ddf72513c9e9"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna3_fix.png",
+      "base": "mods/95-naginata-worn-v1/orna3_fix.png",
+      "bytes": 41167629,
+      "sha256": "68f94a85253b8bf21396df3010da70b7e2d667b7346de5d0912e913e103d837a"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna3_fix_normal.png",
+      "base": "mods/95-naginata-worn-v1/orna3_fix_normal.png",
+      "bytes": 6020383,
+      "sha256": "87a7944a80d09d15ef362d6a3d5bf6a89a0a93918d368fa71abbbdccf16fe5e0"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna3_fix_orm.png",
+      "base": "mods/95-naginata-worn-v1/orna3_fix_orm.png",
+      "bytes": 5903420,
+      "sha256": "18815fcd63b23866ab0e7c2533a91f2b572b7812ce5a54773681c397a4bd9124"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna4_edges.png",
+      "base": "mods/95-naginata-worn-v1/orna4_edges.png",
+      "bytes": 8211798,
+      "sha256": "4fcf44e25ee1acaf78e2daba28074eeb7cd3cc92636f506c3bcc97d7dd19b006"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna4_edges_normal.png",
+      "base": "mods/95-naginata-worn-v1/orna4_edges_normal.png",
+      "bytes": 306234,
+      "sha256": "44278fbb5cb40a7f676ed1acbc797e960910525611fa51741aa92123a85dedea"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/gorna4_edges_orm.png",
+      "base": "mods/95-naginata-worn-v1/orna4_edges_orm.png",
+      "bytes": 580232,
+      "sha256": "b03faa25f8e2dabee8d5a5834ae99cef227458603ee5e93c3f9b1a777a9d2249"
+    }
+  ],
+  "removed_bytes": 94823197,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "4d0d98fe56d11b9deef805d648ea8d6e301c73c63fce8184e3ffedf0ecdfb6b3",
+  "native_checks": [
+    {
+      "path": "mods/95-naginata-worn-v1/JLF_Nagi.SHP",
+      "sha256": "8d546e7dfea2f26226390764bfe487d2f4744a84b3203a060c90dd13fe5a3285",
+      "exit_code": 0,
+      "log_sha256": "f9ca609720eed112b7a0b136cab1bd11bb7caf65d58ffd0e71fcb99465ec732a"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/mission994.dte",
+      "sha256": "cca349b2fc3e2da3dcd48692b193f95398f78ad16fc87d1842a85bf6fdaefb15",
+      "exit_code": 0,
+      "log_sha256": "8b5c012111961ca14ca20b93c140211a5fa080c823739f6c2225371bc305dd9b"
+    },
+    {
+      "path": "mods/95-naginata-worn-v1/t_JLF_Nagi.SHP",
+      "sha256": "3dd0796fc33ae3a3440ded56524f38ccba561342df65d3ca471be8a7cf33a3c1",
+      "exit_code": 0,
+      "log_sha256": "f9ca609720eed112b7a0b136cab1bd11bb7caf65d58ffd0e71fcb99465ec732a"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:12:23.268510+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "orna1_hull",
+        "exit_code": 0,
+        "base_sha256": "518fb2ce731a3bd45f2f613946621af5f5e86feb011b5a4515d7cbdc44966988",
+        "normal_sha256": "369c3c13fa431485dcda8725fe96c6d0cd6b8e2310cbfadd391e05d2f5059557",
+        "orm_sha256": "fe3fb36104cd8925f1dc33ce0cd7c402a122eff1b90a8a7268d0ddf72513c9e9",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "e6737163bda81e652f832024ee2df541739370de1b018012a731a99bac6da389"
+      },
+      {
+        "material": "orna3_fix",
+        "exit_code": 0,
+        "base_sha256": "68f94a85253b8bf21396df3010da70b7e2d667b7346de5d0912e913e103d837a",
+        "normal_sha256": "87a7944a80d09d15ef362d6a3d5bf6a89a0a93918d368fa71abbbdccf16fe5e0",
+        "orm_sha256": "18815fcd63b23866ab0e7c2533a91f2b572b7812ce5a54773681c397a4bd9124",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "bdaadcea0aff9ecd697f3c7642e816f89dcb9bf8adf60a236435e65962da7f05"
+      },
+      {
+        "material": "orna4_edges",
+        "exit_code": 0,
+        "base_sha256": "4fcf44e25ee1acaf78e2daba28074eeb7cd3cc92636f506c3bcc97d7dd19b006",
+        "normal_sha256": "44278fbb5cb40a7f676ed1acbc797e960910525611fa51741aa92123a85dedea",
+        "orm_sha256": "b03faa25f8e2dabee8d5a5834ae99cef227458603ee5e93c3f9b1a777a9d2249",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "8e3417392e9cb9e3fd392391b25e3e1c4ba6c705c68ac1730a3e679778907bd0"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

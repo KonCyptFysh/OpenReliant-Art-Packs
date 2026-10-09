@@ -5,51 +5,6 @@
     "sha256": "cefd42a369f59ad70c4a2bd0913de318a181bf2ebf95c9910aeebd0e64f9fbba"
   },
   {
-    "path": "mods/96-patriot-worn-v1/gorpa1_hull.png",
-    "bytes": 77187025,
-    "sha256": "bf1ce2aa7d335e5908488e11337309935a271cbac12d495a56aee2ddd2aa9411"
-  },
-  {
-    "path": "mods/96-patriot-worn-v1/gorpa1_hull_normal.png",
-    "bytes": 3658444,
-    "sha256": "cc468d33132f719ae863227afb40d0d8beb3e4810355c2545d2e1d158736bb68"
-  },
-  {
-    "path": "mods/96-patriot-worn-v1/gorpa1_hull_orm.png",
-    "bytes": 10335043,
-    "sha256": "5c5e97a64b3988d22d5dd0ea3475022929b47e786f66834bacef7a4372e13b91"
-  },
-  {
-    "path": "mods/96-patriot-worn-v1/gorpa2_fix.png",
-    "bytes": 37368007,
-    "sha256": "43367b787cb26176295841a67143eb88903656627b9f05dc7720475739a68658"
-  },
-  {
-    "path": "mods/96-patriot-worn-v1/gorpa2_fix_normal.png",
-    "bytes": 5235900,
-    "sha256": "36ecd52cf90d6631c37cc01b1447a18b97199487a65a798ac591f21488a064ef"
-  },
-  {
-    "path": "mods/96-patriot-worn-v1/gorpa2_fix_orm.png",
-    "bytes": 2043597,
-    "sha256": "5674449e727bc5e0a4c9f55515f0db09e442558b757d03f27e27d69ea60b391e"
-  },
-  {
-    "path": "mods/96-patriot-worn-v1/gorpa3_wrap.png",
-    "bytes": 10336770,
-    "sha256": "72dc34c0ee33170ac70f05590c46b1cbc796b21c1edaded1417086e64161bbdd"
-  },
-  {
-    "path": "mods/96-patriot-worn-v1/gorpa3_wrap_normal.png",
-    "bytes": 747653,
-    "sha256": "474e534caa901c825f83fedc36216293d9a1ae59a5ae87d1222d7430932fe9a5"
-  },
-  {
-    "path": "mods/96-patriot-worn-v1/gorpa3_wrap_orm.png",
-    "bytes": 374790,
-    "sha256": "ce50b0135dd681db4cbf14f2d376fbd372573f2d1568dc02f59c10dd20645611"
-  },
-  {
     "path": "mods/96-patriot-worn-v1/license.txt",
     "bytes": 999,
     "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
@@ -61,8 +16,8 @@
   },
   {
     "path": "mods/96-patriot-worn-v1/mod.ini",
-    "bytes": 190,
-    "sha256": "077a34052eed8cc1dbef7ce4f8c35152e9c08be952e56ac332da520c5f6e881f"
+    "bytes": 194,
+    "sha256": "b7f97e870b8e0506e94ba24ab4358b5b8a1ec48427df455f150a0dd572c5e549"
   },
   {
     "path": "mods/96-patriot-worn-v1/mod.png",

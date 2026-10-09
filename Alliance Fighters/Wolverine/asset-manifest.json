@@ -5,21 +5,6 @@
     "sha256": "fe4d187670865bbe458fbe02459486214978d994c9703be1a1d13599dc389f0f"
   },
   {
-    "path": "mods/60-wolverine-worn-v1/gorwv1_hull.png",
-    "bytes": 17909043,
-    "sha256": "43b323a81a33e46ab8ed2af00633ad70a744585c0393c5418a720f33abf00d2c"
-  },
-  {
-    "path": "mods/60-wolverine-worn-v1/gorwv1_hull_normal.png",
-    "bytes": 863066,
-    "sha256": "097e8d7cf1684725e497aecab21fcd7b7586abc01b888e4fd81c94edc19cc41e"
-  },
-  {
-    "path": "mods/60-wolverine-worn-v1/gorwv1_hull_orm.png",
-    "bytes": 12185624,
-    "sha256": "fbcabb23697b0eedadb178a1e5449c7165d91c6007b447e0158bcbaa46dca9bf"
-  },
-  {
     "path": "mods/60-wolverine-worn-v1/license.txt",
     "bytes": 999,
     "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
@@ -27,7 +12,7 @@
   {
     "path": "mods/60-wolverine-worn-v1/mod.ini",
     "bytes": 215,
-    "sha256": "5596f757a4a41101800b2a3c215be15997c52bf6a85db5f4ee0be17a5724f466"
+    "sha256": "d4b6158d93fd1b980158104dd924c5dd44515760b26c0ec9e8f3ead74d584d28"
   },
   {
     "path": "mods/60-wolverine-worn-v1/mod.png",

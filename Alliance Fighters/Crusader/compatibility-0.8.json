@@ -1,0 +1,122 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-09T12:14:27.848927+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "2.0",
+  "previous_release": "crusader-v0.1.0-beta.1",
+  "new_release": "crusader-v0.1.0-beta.2",
+  "previous_asset_manifest_sha256": "a8597f8fe528c99b1070b0b0a96f61b6b829cd660f99e8e7112b873224fa4284",
+  "removed_variants": [
+    {
+      "path": "mods/99-crusader-worn-v1/gorcr1_hull.png",
+      "base": "mods/99-crusader-worn-v1/orcr1_hull.png",
+      "bytes": 78120155,
+      "sha256": "913a85c0cbffa5e3e926ac9e2b1351c362c7ed43e20b6c0de9f69bf0c5b1478c"
+    },
+    {
+      "path": "mods/99-crusader-worn-v1/gorcr1_hull_normal.png",
+      "base": "mods/99-crusader-worn-v1/orcr1_hull_normal.png",
+      "bytes": 1254518,
+      "sha256": "1eef97b8dce40cd3924c1ddd4443961a49097950570071452ddd0a06d999d2d9"
+    },
+    {
+      "path": "mods/99-crusader-worn-v1/gorcr1_hull_orm.png",
+      "base": "mods/99-crusader-worn-v1/orcr1_hull_orm.png",
+      "bytes": 11001800,
+      "sha256": "ad41c9f1060d53b85849dc0787b1c2b2da878d3674bc7ec247f1c3f6abecefc8"
+    },
+    {
+      "path": "mods/99-crusader-worn-v1/gorcr2_collar.png",
+      "base": "mods/99-crusader-worn-v1/orcr2_collar.png",
+      "bytes": 1257070,
+      "sha256": "3b68e5371293c54ad444b6eb19acde1549d40596c6dbdd4f806a4d3c7ebeb336"
+    },
+    {
+      "path": "mods/99-crusader-worn-v1/gorcr2_collar_normal.png",
+      "base": "mods/99-crusader-worn-v1/orcr2_collar_normal.png",
+      "bytes": 17309,
+      "sha256": "5e3ef496ef38f2a74205b86daa1510ff054ebe467b1cad934ef1636f49cd6441"
+    },
+    {
+      "path": "mods/99-crusader-worn-v1/gorcr2_collar_orm.png",
+      "base": "mods/99-crusader-worn-v1/orcr2_collar_orm.png",
+      "bytes": 7024,
+      "sha256": "024635c96971fe8e0598bbec5cfaef340ef915c382c056150c420e9ba1e388ab"
+    }
+  ],
+  "removed_bytes": 91657876,
+  "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
+  "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
+  "retained_artwork_bytes_unchanged": true,
+  "asset_manifest_sha256": "79e9a12fa5cb94cf449bd5bb8cf94df49ae72e36f064ce949f9fdde0f4377c18",
+  "native_checks": [
+    {
+      "path": "mods/99-crusader-worn-v1/British_Crusader.SHP",
+      "sha256": "162b74506b9d2ae569677a6e27eadf2d8cf018dc50a191c4115ca4d973e6556d",
+      "exit_code": 0,
+      "log_sha256": "3e3b94039b48ea9212cdb816297787423375d8981e4233c8829fa0a593194fd4"
+    },
+    {
+      "path": "mods/99-crusader-worn-v1/Crusader_gun.SHP",
+      "sha256": "c870af8c7dcb08995be41ba59df1ed051e67a83dfa2276bcd44589eff39c2b0c",
+      "exit_code": 0,
+      "log_sha256": "d779252c55e505516c1121adc5fe8832fd6b6e6637f11eaffe3bee9d0f714903"
+    },
+    {
+      "path": "mods/99-crusader-worn-v1/mission990.dte",
+      "sha256": "20092dc393bd65a290c90e46ee71e3605a27ff8c5ea9b9e9ee59caa50a868d81",
+      "exit_code": 0,
+      "log_sha256": "8b5c012111961ca14ca20b93c140211a5fa080c823739f6c2225371bc305dd9b"
+    },
+    {
+      "path": "mods/99-crusader-worn-v1/t_British_Crusader.SHP",
+      "sha256": "f5a0206a0a18ea3e8a0f963eebaa09dd863eb9205d54334b2282473eacbd3ef9",
+      "exit_code": 0,
+      "log_sha256": "3e3b94039b48ea9212cdb816297787423375d8981e4233c8829fa0a593194fd4"
+    }
+  ],
+  "loadout_texture_checks": {
+    "status": "passed",
+    "engine_source": "Official OpenReliant v0.8.1",
+    "source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "checked_at_utc": "2026-10-09T12:12:44.413072+00:00",
+    "non_visual": true,
+    "materials": [
+      {
+        "material": "orcr1_hull",
+        "exit_code": 0,
+        "base_sha256": "913a85c0cbffa5e3e926ac9e2b1351c362c7ed43e20b6c0de9f69bf0c5b1478c",
+        "normal_sha256": "1eef97b8dce40cd3924c1ddd4443961a49097950570071452ddd0a06d999d2d9",
+        "orm_sha256": "ad41c9f1060d53b85849dc0787b1c2b2da878d3674bc7ec247f1c3f6abecefc8",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "d55f2afcf39d45a471937e5287b1725963dd9e50483d25057bf86d2886c1d700"
+      },
+      {
+        "material": "orcr2_collar",
+        "exit_code": 0,
+        "base_sha256": "3b68e5371293c54ad444b6eb19acde1549d40596c6dbdd4f806a4d3c7ebeb336",
+        "normal_sha256": "5e3ef496ef38f2a74205b86daa1510ff054ebe467b1cad934ef1636f49cd6441",
+        "orm_sha256": "024635c96971fe8e0598bbec5cfaef340ef915c382c056150c420e9ba1e388ab",
+        "green_generated": true,
+        "red_generated": true,
+        "normal_and_orm_inherited_byte_identically": true,
+        "read_original_pixels": true,
+        "checked_output_longest_side": 256,
+        "log_sha256": "cdddebad30887ebfb0927eb0e669a5c3fe4b9c4c7c5efa59d2a0c882101e4f02"
+      }
+    ]
+  },
+  "game_launched_for_this_update": false,
+  "validation_scope": "Official 0.8.1 native tools and unchanged upstream texture-loading/recolouring implementation; prior visual evidence remains historical.",
+  "limitations": [
+    "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
+    "Existing campaign, animation, damage, distance-transition and platform limitations remain."
+  ]
+}

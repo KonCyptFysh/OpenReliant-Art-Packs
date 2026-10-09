@@ -1,5 +1,7 @@
 # Sai - Worn Paint
 
+Current package: **0.1.0-beta.2**, artwork **4.0**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
+
 Artwork revision 4.0 is user-approved for Git publication. The gallery previews show this approved revision. The downloadable beta remains at artwork revision 1.0 until a separate beta publication.
 
 The body and fin atlases now have independent left/right paint areas. The revised wave retains the rising-sun motif, and the replacement red 侍飛将 and black 神風 inscriptions read normally on both sides.

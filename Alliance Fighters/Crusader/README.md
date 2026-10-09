@@ -1,5 +1,7 @@
 # Crusader - Worn Paint
 
+Current package: **0.1.0-beta.2**, artwork **2.0**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
+
 Restored worn steel and red-and-white livery with a silver RAF bird, aligned engine collars, a continuous wing panel joint and smooth glazing inside the original frames. Flight, training and loadout share the same artwork.
 
 Artwork revision 2.0 has been reviewed and approved for publication. Native-format, texture, source-preservation and deployment checks passed on official OpenReliant 0.7.0 for Linux. Broader gameplay and other platforms still need testing; see `KNOWN_ISSUES.md`.
