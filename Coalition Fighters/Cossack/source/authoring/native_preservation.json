@@ -1,0 +1,960 @@
+{
+  "passed": true,
+  "source_sha256": "f67ebd5fffb5a9ca802f3fd95db867a27318a1cda632e4dec65fd969d2831759",
+  "output_sha256": "a8b1f6005bff3c2f97424c7f65815acdd95430c524aa6db893ddd218ffeff582",
+  "uv_edits": [
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 0,
+      "face": 44
+    },
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 0,
+      "face": 45
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 0,
+      "face": 43
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 0,
+      "face": 44
+    }
+  ],
+  "continuation_corrections": [
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 0,
+      "face": 42,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 0,
+      "face": 43,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 0,
+      "face": 44,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 0,
+      "face": 45,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 0,
+      "face": 42,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 0,
+      "face": 43,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 0,
+      "face": 44,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 7,
+      "face": 3,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 1,
+      "face": 20,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 1,
+      "face": 22,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 2,
+      "face": 18,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 2,
+      "face": 20,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 3,
+      "face": 16,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 3,
+      "face": 18,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 4,
+      "face": 12,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 4,
+      "face": 14,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 5,
+      "face": 8,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 5,
+      "face": 10,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 6,
+      "face": 6,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 6,
+      "face": 8,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 19,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 20,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 202,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 203,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 235,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 236,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 378,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 379,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 411,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 412,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 534,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 535,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 540,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 541,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 544,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 545,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 562,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 563,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 566,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 567,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 576,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "face": 577,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 1,
+      "face": 17,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 1,
+      "face": 18,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 1,
+      "face": 165,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 1,
+      "face": 166,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 1,
+      "face": 283,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 1,
+      "face": 284,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 1,
+      "face": 386,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 1,
+      "face": 387,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 1,
+      "face": 403,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 1,
+      "face": 404,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 2,
+      "face": 14,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 2,
+      "face": 15,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 2,
+      "face": 116,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 2,
+      "face": 117,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 2,
+      "face": 197,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 2,
+      "face": 198,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 3,
+      "face": 9,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 3,
+      "face": 10,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 3,
+      "face": 76,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 3,
+      "face": 77,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 3,
+      "face": 133,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 3,
+      "face": 134,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 3,
+      "face": 146,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 3,
+      "face": 147,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 4,
+      "face": 6,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 4,
+      "face": 37,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 4,
+      "face": 53,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 4,
+      "face": 54,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 4,
+      "face": 95,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 4,
+      "face": 96,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 5,
+      "face": 3,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 5,
+      "face": 29,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 5,
+      "face": 40,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 5,
+      "face": 41,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 5,
+      "face": 66,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 5,
+      "face": 67,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 6,
+      "face": 2,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 6,
+      "face": 25,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 6,
+      "face": 34,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 6,
+      "face": 46,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 6,
+      "face": 47,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 6,
+      "face": 48,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 7,
+      "face": 17,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 7,
+      "face": 26,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 7,
+      "face": 34,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 7,
+      "face": 35,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 7,
+      "face": 36,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 8,
+      "face": 14,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 8,
+      "face": 22,
+      "prior": 1,
+      "remaining": 0
+    }
+  ],
+  "detail_meshes": [
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 0,
+      "faces": 64,
+      "groups_before": 20,
+      "groups_after": 22,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 1,
+      "faces": 46,
+      "groups_before": 21,
+      "groups_after": 21,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 2,
+      "faces": 34,
+      "groups_before": 22,
+      "groups_after": 22,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 3,
+      "faces": 18,
+      "groups_before": 14,
+      "groups_after": 14,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 4,
+      "faces": 12,
+      "groups_before": 8,
+      "groups_after": 8,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 5,
+      "faces": 8,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 6,
+      "faces": 6,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 7,
+      "faces": 6,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Co-pilot pod",
+      "lod": 8,
+      "faces": 4,
+      "groups_before": 3,
+      "groups_after": 3,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 0,
+      "faces": 64,
+      "groups_before": 21,
+      "groups_after": 23,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 1,
+      "faces": 48,
+      "groups_before": 22,
+      "groups_after": 22,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 2,
+      "faces": 40,
+      "groups_before": 23,
+      "groups_after": 23,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 3,
+      "faces": 26,
+      "groups_before": 18,
+      "groups_after": 18,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 4,
+      "faces": 20,
+      "groups_before": 13,
+      "groups_after": 13,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 5,
+      "faces": 16,
+      "groups_before": 10,
+      "groups_after": 10,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 6,
+      "faces": 10,
+      "groups_before": 5,
+      "groups_after": 5,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 7,
+      "faces": 10,
+      "groups_before": 5,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Pilot Pod",
+      "lod": 8,
+      "faces": 4,
+      "groups_before": 3,
+      "groups_after": 3,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 0,
+      "faces": 60,
+      "groups_before": 25,
+      "groups_after": 25,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 1,
+      "faces": 24,
+      "groups_before": 12,
+      "groups_after": 14,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 2,
+      "faces": 22,
+      "groups_before": 12,
+      "groups_after": 14,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 3,
+      "faces": 20,
+      "groups_before": 12,
+      "groups_after": 14,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 4,
+      "faces": 16,
+      "groups_before": 11,
+      "groups_after": 13,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 5,
+      "faces": 12,
+      "groups_before": 7,
+      "groups_after": 9,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 6,
+      "faces": 10,
+      "groups_before": 7,
+      "groups_after": 9,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 7,
+      "faces": 2,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Turret",
+      "lod": 8,
+      "faces": 2,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 0,
+      "faces": 620,
+      "groups_before": 246,
+      "groups_after": 257,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 1,
+      "faces": 446,
+      "groups_before": 214,
+      "groups_after": 219,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 2,
+      "faces": 298,
+      "groups_before": 178,
+      "groups_after": 181,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 3,
+      "faces": 210,
+      "groups_before": 143,
+      "groups_after": 147,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 4,
+      "faces": 142,
+      "groups_before": 99,
+      "groups_after": 103,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 5,
+      "faces": 96,
+      "groups_before": 66,
+      "groups_after": 70,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 6,
+      "faces": 66,
+      "groups_before": 41,
+      "groups_after": 47,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 7,
+      "faces": 46,
+      "groups_before": 30,
+      "groups_after": 35,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Kossac Body",
+      "lod": 8,
+      "faces": 30,
+      "groups_before": 19,
+      "groups_after": 21,
+      "all_shared_corner_uvs_match": true
+    }
+  ],
+  "all_2558_faces_checked": true,
+  "geometry_normals_attachments_animation_collision_and_winding_byte_identical": true,
+  "allowed_changes": "Texture names, four finest-detail cockpit underside UVs, and primitive continuation counts at UV seams only",
+  "changed_bytes": 499
+}

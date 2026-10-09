@@ -1,0 +1,262 @@
+{
+  "status": "approved-release-snapshot",
+  "ship": "Cossack",
+  "asset_revision": "1.0",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 1282,
+      "sha256": "33639ef6c50fb55e3a9669b33383ccb5cefe50e2c08966e42ad2a8641d02716e"
+    },
+    {
+      "path": "source/authoring/README.md",
+      "bytes": 905,
+      "sha256": "c6033c694103110fcbed976510e585149dfba345a1a6747927f7390fc5eddc5b"
+    },
+    {
+      "path": "source/authoring/animation_preservation.json",
+      "bytes": 1812,
+      "sha256": "fe99a9a64f923547be4e26c9e9817e2aded448a8ebc5239184ee2cefdc49f519"
+    },
+    {
+      "path": "source/authoring/audit/inspection_mission.json",
+      "bytes": 380,
+      "sha256": "2185bd3bbb4429e924cd5dd15d81494e820d4e21066de31eb0084f31c57c0399"
+    },
+    {
+      "path": "source/authoring/baseline_audit.json",
+      "bytes": 795,
+      "sha256": "8894128c1eb5ef3c117f5fd27b8331ee479e5e002b5ba79453dc2892e01ef98d"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 12965,
+      "sha256": "914602f684dbcdd41433a043afcebd5a2ab70e50f2b584a3e180b81120f0e074"
+    },
+    {
+      "path": "source/authoring/build_source.py",
+      "bytes": 7302,
+      "sha256": "6b06a2dd27f311c10099f97ebaa514609fdc7a0dd3c1e13d368f69732f147160"
+    },
+    {
+      "path": "source/authoring/compatibility-0.8.json",
+      "bytes": 2102,
+      "sha256": "5e24804d3bd8b55d8900d0bd1c99106fe353dec9cf82f65e05e44704bbdee23d"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 8066,
+      "sha256": "feafaa764a5307ca081099c0951ed7783ba2d747dd584bfe94fe6704ce145087"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 3267,
+      "sha256": "bdbcc7da62a3d1a4cdef0a8b97e5927530dc87c069eab7de72e659d8c81990a9"
+    },
+    {
+      "path": "source/authoring/inspection.py",
+      "bytes": 3503,
+      "sha256": "06cf75220a8994e7fba440d1b1ef6368182931c73877fca386092b785b5cc621"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 268,
+      "sha256": "69a5f680ff4b4c407c98d6d244dd4763b0892a3b8313887be46c54f9eca642af"
+    },
+    {
+      "path": "source/authoring/mission979-ships.txt",
+      "bytes": 253,
+      "sha256": "9bd15203a92213757fe12859b41544e694d2d26a5f876e6f4acd498f755d388a"
+    },
+    {
+      "path": "source/authoring/native-chunks.json",
+      "bytes": 22714,
+      "sha256": "98e77de7039fd85a32b69776e25ceb7717730733c86f804d9b3731b5279369b1"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 552,
+      "sha256": "eee564a6db70e6f1b0239f7d99b5b12176f4ff32e5480be5fc4cee3468baed83"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 17758,
+      "sha256": "90a6497206349731b31c6ca9e789d9902b559155a02583669014e91561606102"
+    },
+    {
+      "path": "source/authoring/parse_native.py",
+      "bytes": 2349,
+      "sha256": "cbfb3f253de54519925d33020435483e41348f63525f84f4da31b2e266c3cb00"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2424,
+      "sha256": "4b43a372d6e2a513f4c18bf59db013bcb82f916f5447e9e07dafb6692f0a5868"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 11576,
+      "sha256": "de9a2bbfcf66b1abb3f7f91d46ee51d69681137e6cf499aa3e3652bec25e98b8"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 1423,
+      "sha256": "ff76db623dfe2799dc3e12709b9c3a997f49a88349d82e06e76b3e998b87745d"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 457984,
+      "sha256": "caae19f7a3a18a6bdfb97ab6be56aebba333cc2e708d78cc7d91adc2975eb04b"
+    },
+    {
+      "path": "source/cossack_worn_pbr_v1.blend",
+      "bytes": 29454315,
+      "sha256": "a1dbb516ff3236d6abaaecda6bd960a10d202eaed7ac71f35daa487020272caa"
+    },
+    {
+      "path": "source/maps/cossack_hull_basecolor_v1.png",
+      "bytes": 16273304,
+      "sha256": "2f8a6b6c84818847e9ed766e1157f4c887e5a3f6f4912d78289e28dc7680566c"
+    },
+    {
+      "path": "source/maps/cossack_hull_fins_v1.png",
+      "bytes": 80654,
+      "sha256": "eeedae39b936d063ac531ee7e969821129244b5c354f278e569948d77b3034bd"
+    },
+    {
+      "path": "source/maps/cossack_hull_flat_graphics_v1.png",
+      "bytes": 66155,
+      "sha256": "038049c758629de7fa54d3f9f7e07976390b27f30038068e34b421f16ef2c23d"
+    },
+    {
+      "path": "source/maps/cossack_hull_generated_v1.png",
+      "bytes": 3415001,
+      "sha256": "4ca8fdd12db4bce14a19d70448af881a93244413b58330b53b673e5071826cbf"
+    },
+    {
+      "path": "source/maps/cossack_hull_glass_v1.png",
+      "bytes": 75471,
+      "sha256": "dbe5387b14597f627cf5086c4574e913811ed5f58a7e2fca8da91591a692ab2f"
+    },
+    {
+      "path": "source/maps/cossack_hull_glazing_v1.png",
+      "bytes": 3086774,
+      "sha256": "3b6b52f65a0f9370d236dddda66f845030cf059e4289bd32e0fe93904de16b9c"
+    },
+    {
+      "path": "source/maps/cossack_hull_height_v1.png",
+      "bytes": 158820,
+      "sha256": "6d512ead4e7126f9a2088cecbf6be3387a93348bd5c043353879327ab5605732"
+    },
+    {
+      "path": "source/maps/cossack_hull_metallic_v1.png",
+      "bytes": 6710450,
+      "sha256": "05772b92c3090b886f1201d22b2a844b2d214904d33ed2203ed689283e18a7e9"
+    },
+    {
+      "path": "source/maps/cossack_hull_normal_v1.png",
+      "bytes": 353878,
+      "sha256": "ab1fbe45f072b465012a6167797be907ddcabf3f832aee7fd03cb3503a292833"
+    },
+    {
+      "path": "source/maps/cossack_hull_paint_v1.png",
+      "bytes": 3830870,
+      "sha256": "04281db634bbf208c4a29f714df166f27f712a0b26d5a4dbaff61d8a7b4be685"
+    },
+    {
+      "path": "source/maps/cossack_hull_panels_v1.png",
+      "bytes": 120452,
+      "sha256": "208dddc37a7656747bd8bfa184fbc8de8826ece1f2ff07eb6ff8bdced02b0a2c"
+    },
+    {
+      "path": "source/maps/cossack_hull_roughness_v1.png",
+      "bytes": 5491069,
+      "sha256": "10c977ac7efc97ff9d343d0303c3d6fbbc22b1c9c287142c7ff81f2e91ce67d2"
+    },
+    {
+      "path": "source/maps/cossack_hull_seal_v1.png",
+      "bytes": 89209,
+      "sha256": "7f28dfe66e2f499347c25363ed640bb74b8bcbadf24b6ef2e5d7c22ea15bc4a2"
+    },
+    {
+      "path": "source/maps/cossack_hull_structure_v1.png",
+      "bytes": 190412,
+      "sha256": "bef1233c393e3c2e36ed7775086065c914d385b56fdd0e48ec62324e690278cb"
+    },
+    {
+      "path": "source/originals/Rus_Kossac.SHP",
+      "bytes": 263204,
+      "sha256": "f67ebd5fffb5a9ca802f3fd95db867a27318a1cda632e4dec65fd969d2831759"
+    },
+    {
+      "path": "source/originals/kossac.png",
+      "bytes": 68983,
+      "sha256": "43626117f9255ad3554a3bd0191dcb12a4833fd6212340d25376737f19218151"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 2255146,
+      "sha256": "3bdbc1b5fc8b4625514a6593f6d13074b6605fa3677adf941f09b58aeb39a645"
+    },
+    {
+      "path": "source/resources/05772b92c309_cossack_hull_metallic_v1.png",
+      "bytes": 6710450,
+      "sha256": "05772b92c3090b886f1201d22b2a844b2d214904d33ed2203ed689283e18a7e9"
+    },
+    {
+      "path": "source/resources/10c977ac7efc_cossack_hull_roughness_v1.png",
+      "bytes": 5491069,
+      "sha256": "10c977ac7efc97ff9d343d0303c3d6fbbc22b1c9c287142c7ff81f2e91ce67d2"
+    },
+    {
+      "path": "source/resources/2f8a6b6c8481_cossack_hull_basecolor_v1.png",
+      "bytes": 16273304,
+      "sha256": "2f8a6b6c84818847e9ed766e1157f4c887e5a3f6f4912d78289e28dc7680566c"
+    },
+    {
+      "path": "source/resources/ab1fbe45f072_cossack_hull_normal_v1.png",
+      "bytes": 353878,
+      "sha256": "ab1fbe45f072b465012a6167797be907ddcabf3f832aee7fd03cb3503a292833"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-overview.png",
+      "bytes": 1096398,
+      "sha256": "d87b71bb6ffd9b689fd23a0c6b1eb0dbfa28a6726a2fb4f9199a2307f792c818"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-top.png",
+      "bytes": 1304701,
+      "sha256": "2c8a0f83931368cf600dff3d2e1a81e02096e036f8e36443ef8bbf3ccc0a14b6"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-underside.png",
+      "bytes": 1234146,
+      "sha256": "d5ab1e2927fdf51bd27f3e1fdea78054c238ed36b639a0083f98211c7a1e8c95"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 1157652,
+      "sha256": "ea657a575bd24f3bf477a5afb6338621e1c999964ff5c4b1463300011d1a74dd"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 1135028,
+      "sha256": "4de550d628e288c93d142407dbc8ed7a6b1fcca7ca45aaf07d3b816fded569c2"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 1158013,
+      "sha256": "ee4f5a22270b3281b49f8d7a5d88bf362cdc0daba246a1f7a38368dd5a923633"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_rear.png",
+      "bytes": 884669,
+      "sha256": "5ac840f718d5b2a0c7cc02f4fa81a612c10f3c61579818cf2cb7c7f314a278ec"
+    },
+    {
+      "path": "source/review/reconstruction_v1/source_front.png",
+      "bytes": 757151,
+      "sha256": "2b9f169e8936e33eefd7d10cddc004aa8178206ebd9aa77c879ceabdea5e339e"
+    }
+  ]
+}

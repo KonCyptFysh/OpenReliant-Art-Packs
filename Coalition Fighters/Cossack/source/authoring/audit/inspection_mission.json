@@ -1,0 +1,12 @@
+{
+  "mission": 979,
+  "name": "Recommissioned - Cossack Inspection",
+  "player_ship_type": 50,
+  "placed_ships": 1,
+  "other_ships": 0,
+  "triggers": 0,
+  "script": "Create only the player's flight group; return.",
+  "retail_mission_data_copied": false,
+  "sha256": "5cfc9be513b5181ee7ea15684e1daf22e979b647ce2a11471ba7363b755bd90d",
+  "status": "requires runtime verification"
+}

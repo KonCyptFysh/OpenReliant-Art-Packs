@@ -507,5 +507,58 @@
       "desktop_and_mobile": true,
       "material_revision": "1.0"
     }
+  },
+  "cossack": {
+    "model": "Rus_Kossac.SHP",
+    "model_sha256": "a8b1f6005bff3c2f97424c7f65815acdd95430c524aa6db893ddd218ffeff582",
+    "preview_sha256": "627a27550b604e4106f4c72768391897fc094903dd85af8932ff2c1083fa36ba",
+    "preview_bytes": 1607204,
+    "highest_detail_geometry": true,
+    "textures": [
+      {
+        "runtime_file": "orcs1_hull.png",
+        "sha256": "2f8a6b6c84818847e9ed766e1157f4c887e5a3f6f4912d78289e28dc7680566c",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orcs1_hull_normal.png",
+        "sha256": "ab1fbe45f072b465012a6167797be907ddcabf3f832aee7fd03cb3503a292833",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orcs1_hull_orm.png",
+        "sha256": "ce3882f61d051539c329e696c27a2f48a122c24a863a07607adc963d43b47a47",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "limitations": "Static rotatable viewing copy with 1024-pixel textures and browser lighting. Engine effects, animation and loadout attachments are omitted; three in-game photos show the actual engine appearance.",
+    "pose": "native rest pose matching the approved authoring scene",
+    "parts": 4,
+    "visible_triangles": 776,
+    "native_part_origins_verified": true,
+    "source_scene_sha256": "38e1157be2506b7b7e344e8a94d3fe21a83ce698f0d89483c1d901958759f717",
+    "engine_exporter": "Official OpenReliant sltool 0.8.1",
+    "native_runtime_unchanged": true,
+    "asset_manifest_sha256": "44facd97e613f4398bba7a22832aa2e91a68f7ef43f7677fa9e9e91dff4fc6f0",
+    "local_browser_checks": {
+      "date_utc": "2026-10-09T15:07:20.110984+00:00",
+      "model_loaded": true,
+      "rotation_and_zoom": true,
+      "desktop_and_mobile": true,
+      "three_photo_navigation": true,
+      "material_revision": "1.0"
+    }
   }
 }

@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "${COSSACK_WORKSPACE}/cossack_worn_pbr_v1.blend",
+  "canonical_sha256": "38e1157be2506b7b7e344e8a94d3fe21a83ce698f0d89483c1d901958759f717",
+  "snapshot": "${ART_PACK_REPOSITORY}/Coalition Fighters/Cossack/source/cossack_worn_pbr_v1.blend",
+  "snapshot_sha256": "a1dbb516ff3236d6abaaecda6bd960a10d202eaed7ac71f35daa487020272caa",
+  "mesh_signature": "bdb763cb528314afc4be94b7ae86a6771dd9476e057e2e4b79637391df884eff",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "cossack_hull_basecolor_v1.png",
+      "path": "//resources/2f8a6b6c8481_cossack_hull_basecolor_v1.png",
+      "sha256": "2f8a6b6c84818847e9ed766e1157f4c887e5a3f6f4912d78289e28dc7680566c"
+    },
+    {
+      "image": "cossack_hull_metallic_v1.png",
+      "path": "//resources/05772b92c309_cossack_hull_metallic_v1.png",
+      "sha256": "05772b92c3090b886f1201d22b2a844b2d214904d33ed2203ed689283e18a7e9"
+    },
+    {
+      "image": "cossack_hull_normal_v1.png",
+      "path": "//resources/ab1fbe45f072_cossack_hull_normal_v1.png",
+      "sha256": "ab1fbe45f072b465012a6167797be907ddcabf3f832aee7fd03cb3503a292833"
+    },
+    {
+      "image": "cossack_hull_roughness_v1.png",
+      "path": "//resources/10c977ac7efc_cossack_hull_roughness_v1.png",
+      "sha256": "10c977ac7efc97ff9d343d0303c3d6fbbc22b1c9c287142c7ff81f2e91ce67d2"
+    }
+  ]
+}

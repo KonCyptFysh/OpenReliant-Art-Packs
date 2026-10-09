@@ -1,0 +1,14 @@
+[
+  {
+    "file": "Rus_Kossac.SHP",
+    "exit_code": 0,
+    "output": "ok: 4 parts, 1576 vertices, 2558 faces\nbounds: 4 model_space\nwritten again: the same bytes\n",
+    "sha256": "a8b1f6005bff3c2f97424c7f65815acdd95430c524aa6db893ddd218ffeff582"
+  },
+  {
+    "file": "mission979.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "5cfc9be513b5181ee7ea15684e1daf22e979b647ce2a11471ba7363b755bd90d"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "parts": [
+    {
+      "part": "Kossac_Co-pilot_pod",
+      "vertices": 44,
+      "faces": 64,
+      "visible_faces": 56
+    },
+    {
+      "part": "Kossac_Pilot_Pod",
+      "vertices": 44,
+      "faces": 64,
+      "visible_faces": 56
+    },
+    {
+      "part": "Kossac_Turret",
+      "vertices": 40,
+      "faces": 60,
+      "visible_faces": 60
+    },
+    {
+      "part": "Kossac_Body",
+      "vertices": 324,
+      "faces": 620,
+      "visible_faces": 604
+    }
+  ],
+  "source_sha256": "f67ebd5fffb5a9ca802f3fd95db867a27318a1cda632e4dec65fd969d2831759",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ]
+  ],
+  "geometry_signature": "3d35e48e7ed30fea392612c4b580367e3e0e4106f3340802ea641f063ad54cb5"
+}

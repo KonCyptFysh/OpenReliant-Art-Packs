@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "gallery_media": "Three actual in-game screenshots from the user review",
+  "artwork_revision": "1.0",
+  "captures": [
+    {
+      "image": "flight-overview.png",
+      "original_filename": "Screenshot_20261010_015732.png",
+      "sha256": "d87b71bb6ffd9b689fd23a0c6b1eb0dbfa28a6726a2fb4f9199a2307f792c818",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Cossack review install",
+      "captured_at_utc": "2026-10-09T14:57:36.248716+00:00",
+      "gallery_file": "assets/cossack/flight-overview.webp",
+      "gallery_sha256": "8ffbe543ee38537c836fbc4e2c0f83bbc3fbbef9219c1c9b4843f51d5f291d64",
+      "caption": "Cossack \u2014 In-game overview",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    },
+    {
+      "image": "flight-top.png",
+      "original_filename": "Screenshot_20261010_015741.png",
+      "sha256": "2c8a0f83931368cf600dff3d2e1a81e02096e036f8e36443ef8bbf3ccc0a14b6",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Cossack review install",
+      "captured_at_utc": "2026-10-09T14:57:45.082673+00:00",
+      "gallery_file": "assets/cossack/flight-top.webp",
+      "gallery_sha256": "0bb9fdd04789e4456e48218e4a66b4fe4cf8a07892b92c8fd6738aa70ab296af",
+      "caption": "Cossack \u2014 Top view",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    },
+    {
+      "image": "flight-underside.png",
+      "original_filename": "Screenshot_20261010_015752.png",
+      "sha256": "d5ab1e2927fdf51bd27f3e1fdea78054c238ed36b639a0083f98211c7a1e8c95",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Cossack review install",
+      "captured_at_utc": "2026-10-09T14:57:55.668622+00:00",
+      "gallery_file": "assets/cossack/flight-underside.webp",
+      "gallery_sha256": "aa65cfb2a1cca78b2664be31890dd29cb8bf81fded6370871fbcb89ecb6671e9",
+      "caption": "Cossack \u2014 Underside",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    }
+  ],
+  "approved_runtime_before_metadata_sha256": "8aa093bfa174bc8a2985668fdcfac091f97c17504c7d2ec5be765633f6f4c285",
+  "published_runtime_manifest_sha256": "44facd97e613f4398bba7a22832aa2e91a68f7ef43f7677fa9e9e91dff4fc6f0",
+  "approved_model_and_material_bytes_unchanged": true,
+  "engine_note": "Review launcher targets official OpenReliant 0.8.1. Screenshots themselves do not encode an engine build.",
+  "coverage": "In-game appearance from overview, top and underside. No automated game launch was performed for publication."
+}
