@@ -737,10 +737,9 @@
       "name": "Loki - Worn Paint",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Loki",
-      "status": "coming-soon",
+      "status": "available",
       "description": "Worn industrial hull, hazard markings and recessed amber glazing, with the original articulated legs and folding mechanism.",
       "notes": [
-        "Approved artwork 1.1; beta download is being published.",
         "Custom emissive maps are planned for a later update.",
         "AI combat, firing, damage, distance transitions and the complete repeating animation cycle still need broader gameplay testing."
       ],
@@ -757,7 +756,13 @@
           "src": "assets/loki/flight-fighting.webp",
           "caption": "Loki \u2014 Fighting position"
         }
-      ]
+      ],
+      "version": "0.1.0-beta.1",
+      "tag": "loki-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/loki-v0.1.0-beta.1/openreliant-loki-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.1",
+      "checksum": "f2341a71b522a2be8add7a154019063c87c3e43c583568b40aa76a70cbc18791",
+      "downloadBytes": 50024014
     }
   ]
 }
