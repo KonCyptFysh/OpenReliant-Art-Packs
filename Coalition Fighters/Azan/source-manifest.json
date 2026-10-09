@@ -1,0 +1,282 @@
+{
+  "status": "approved-release-snapshot",
+  "ship": "Azan",
+  "asset_revision": "1.0",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 1260,
+      "sha256": "4c6828040aa0e7091b7669fdf03a24b3f82596e61c14e12ec4499773e61dee7d"
+    },
+    {
+      "path": "source/authoring/README.md",
+      "bytes": 899,
+      "sha256": "b552f9d130f38031ba5fcd392ec57cc317b9c5dcb785afd102185fb3dbc1a202"
+    },
+    {
+      "path": "source/authoring/animation_preservation.json",
+      "bytes": 1021,
+      "sha256": "11e6f47391324ff33a6df11f8a74fa87a762fff0348adf54f0d346b61abaf54d"
+    },
+    {
+      "path": "source/authoring/audit/inspection_mission.json",
+      "bytes": 377,
+      "sha256": "75e03df64503cf83d4f3c8d6bde1e7fd8aa29c4685d7368689e3b4c7cbb46f36"
+    },
+    {
+      "path": "source/authoring/baseline_audit.json",
+      "bytes": 559,
+      "sha256": "cab64c58319d77f049f5b7d1123afcec5fcc1d6e118090583445316a75684e53"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 12145,
+      "sha256": "24d75232b0f68b65baea670a17868d214c6fd05c01879c5d0c042727e8d18789"
+    },
+    {
+      "path": "source/authoring/build_source.py",
+      "bytes": 7279,
+      "sha256": "34c91eed05420815de2fbb476489cb4e15d81e1fdb369676d2a6307b99f7636c"
+    },
+    {
+      "path": "source/authoring/compatibility-0.8.json",
+      "bytes": 2095,
+      "sha256": "62b413bd3df3fa7839bd59a5e82994a7f335bfa1d750b271ae50c0dc15aab902"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 8019,
+      "sha256": "677b8d0d31174e629906966970f28a39cd5069c88e45c7068b8da748922c6021"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 3362,
+      "sha256": "2cc558fec644587ea335c5af73bca523af24df5f86490e1b3a1a946d6cec73b0"
+    },
+    {
+      "path": "source/authoring/inspection.py",
+      "bytes": 3491,
+      "sha256": "54c6688eaaa963e561133be4cbd5cc603c222c363b069ed09f9feb2e814aa62d"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 269,
+      "sha256": "98ac20114046aced0bfc89fd1ee4679a3a0f6baea675cf9af36a446677eff628"
+    },
+    {
+      "path": "source/authoring/mission980-ships.txt",
+      "bytes": 253,
+      "sha256": "3804d156a3a465f95560555ed6cabfb203aff7858f72954e5bc649d984532ff3"
+    },
+    {
+      "path": "source/authoring/native-chunks.json",
+      "bytes": 11718,
+      "sha256": "8cd6eb4295c8a929cfe01596d32693b047be1759f8ae812e77081eee1e1703e1"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 545,
+      "sha256": "35376184992472ee6f4df8fbcd4378bd155e7aa677ceb783e19d7152d0d49d27"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 16118,
+      "sha256": "84474d6789b90857af71afb59917d179ffb604a52e88bb845b7713471ad2d95f"
+    },
+    {
+      "path": "source/authoring/original-check.txt",
+      "bytes": 87,
+      "sha256": "2d85c1a4f029836aa0d0c23c24f716081605dbe0f3f734c36e987a85c55e193e"
+    },
+    {
+      "path": "source/authoring/original-chunks.txt",
+      "bytes": 2909,
+      "sha256": "39e87971c24a84b9aedcacac52b69eedfe6674a7f1109ddd6973de6a22224fee"
+    },
+    {
+      "path": "source/authoring/original-info.txt",
+      "bytes": 2175,
+      "sha256": "feb7cf5d2e4a2c241cddba8a1ecf22b51ddc65f393925ea9548a6c6375da0a4b"
+    },
+    {
+      "path": "source/authoring/parse_native.py",
+      "bytes": 2343,
+      "sha256": "c809b515da45aa438969993454f71f7e66878c278e55bc11fdbc85f38a041df4"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2412,
+      "sha256": "66115d2b9bda12aab364af6b6c0f42cd3519fbfeb26649736a5f2c31531c1dc9"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 11162,
+      "sha256": "37520f4a8c229132fd953cceadb2f1dd769cb95f43cac2565925e3b4437aa336"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 1387,
+      "sha256": "fa9652ca7280312a6a2d0c2a7867e213ac7f0925a9e7c31bcbba18e8acead662"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 298654,
+      "sha256": "57b053a1b3c661d14abf4b4ed1a8a076ddba39abc1114c0884469075646b0f31"
+    },
+    {
+      "path": "source/azan_worn_pbr_v1.blend",
+      "bytes": 30647881,
+      "sha256": "f98a48bf9059c2d1173fd54b37cb9384d1c9fc154f8e34aae999a0bd6c1d05c5"
+    },
+    {
+      "path": "source/maps/azan_hull_basecolor_v1.png",
+      "bytes": 15542831,
+      "sha256": "67136a78002ac91289b8f95275ecfc7ecfe5b9b33e8151ab4a322fa2fa3ac40e"
+    },
+    {
+      "path": "source/maps/azan_hull_fins_v1.png",
+      "bytes": 71117,
+      "sha256": "421814ba375adabadc3d647a430e1402f14ea95d0efa76c51c1a1afc77c7d7db"
+    },
+    {
+      "path": "source/maps/azan_hull_flat_graphics_v1.png",
+      "bytes": 60852,
+      "sha256": "83a7e50745c005156433284eb7a480fe4eac48393cb5b2c61cf5bf38b264f963"
+    },
+    {
+      "path": "source/maps/azan_hull_generated_v1.png",
+      "bytes": 3362301,
+      "sha256": "e7546bf4ae06e1acd0f88499f09cb0743ae07a33e450b3121fc5a5c064c80b72"
+    },
+    {
+      "path": "source/maps/azan_hull_glass_v1.png",
+      "bytes": 100410,
+      "sha256": "631c1dceb682119646021902f0f295ba2bf84409ae2beed53f4a55e53003c5ee"
+    },
+    {
+      "path": "source/maps/azan_hull_glazing_v1.png",
+      "bytes": 2958606,
+      "sha256": "eabe97224f631485bcff69f9852926e9cabb213bdc0382b50b0d2403dee850f7"
+    },
+    {
+      "path": "source/maps/azan_hull_height_v1.png",
+      "bytes": 221257,
+      "sha256": "fe663bb7e24f5c9f7f94192719e23e9931ba7d8b159729dc47b4596f749bc585"
+    },
+    {
+      "path": "source/maps/azan_hull_metallic_v1.png",
+      "bytes": 7958620,
+      "sha256": "e72ea49b528635f936180c41b1d91d299fbe16f52b721325cbfd690cd9f7756c"
+    },
+    {
+      "path": "source/maps/azan_hull_normal_v1.png",
+      "bytes": 501539,
+      "sha256": "21fb4279ab5753a4f8c4bb2af84fef8bfe0ce2d028f9fa2809d06c2116397372"
+    },
+    {
+      "path": "source/maps/azan_hull_paint_v1.png",
+      "bytes": 3225990,
+      "sha256": "a14a109b43001fe72db360c95d32d12afb15ebb8734d41cd29df17f198da3a5e"
+    },
+    {
+      "path": "source/maps/azan_hull_panels_v1.png",
+      "bytes": 144172,
+      "sha256": "aaa6bd1ed7932612c58c35d0ff2f8df38693c0e9c210dc52f674a2cfcce69a5f"
+    },
+    {
+      "path": "source/maps/azan_hull_roughness_v1.png",
+      "bytes": 6072607,
+      "sha256": "cb00588931025e1ac215da5146adfc7cded99032ecaded032a25fd253ffcd5c2"
+    },
+    {
+      "path": "source/maps/azan_hull_seal_v1.png",
+      "bytes": 114466,
+      "sha256": "8b4cfad9bfbbb8ca678c9f519471ba44c470062f9dff89569ecb09e679f6a5ab"
+    },
+    {
+      "path": "source/maps/azan_hull_structure_v1.png",
+      "bytes": 253449,
+      "sha256": "3a5950b6becad5d9931d93ce376fbe2a571f6baf036819426b8ec8b8cec1eb3c"
+    },
+    {
+      "path": "source/originals/Houjian.SHP",
+      "bytes": 165764,
+      "sha256": "f0efbbb611c2913dd764e36e2cb5925f2bf845b4a4ccdbbc697e3e5cd8345de7"
+    },
+    {
+      "path": "source/originals/houjian.png",
+      "bytes": 67197,
+      "sha256": "958b53c18e65c0690c05a4d2c0180820a516cf9453a3a325396e76b00adcdea3"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 1452313,
+      "sha256": "8dc34bdeec5cf92594c58ba9a88e959595358bc4b399cac554b6491fa8ef2409"
+    },
+    {
+      "path": "source/resources/21fb4279ab57_azan_hull_normal_v1.png",
+      "bytes": 501539,
+      "sha256": "21fb4279ab5753a4f8c4bb2af84fef8bfe0ce2d028f9fa2809d06c2116397372"
+    },
+    {
+      "path": "source/resources/67136a78002a_azan_hull_basecolor_v1.png",
+      "bytes": 15542831,
+      "sha256": "67136a78002ac91289b8f95275ecfc7ecfe5b9b33e8151ab4a322fa2fa3ac40e"
+    },
+    {
+      "path": "source/resources/cb0058893102_azan_hull_roughness_v1.png",
+      "bytes": 6072607,
+      "sha256": "cb00588931025e1ac215da5146adfc7cded99032ecaded032a25fd253ffcd5c2"
+    },
+    {
+      "path": "source/resources/e72ea49b5286_azan_hull_metallic_v1.png",
+      "bytes": 7958620,
+      "sha256": "e72ea49b528635f936180c41b1d91d299fbe16f52b721325cbfd690cd9f7756c"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-firing.png",
+      "bytes": 1025600,
+      "sha256": "c63701b788f41457f9943ad0d4fd1b9f1fb46bf404913ce7a177ed71f2d3aa36"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-overview.png",
+      "bytes": 890612,
+      "sha256": "26be4000cd6a13b603e8cf240db0ca3f709c9a882e96dd103b6ec01c324c7725"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-rear.png",
+      "bytes": 1083121,
+      "sha256": "dd33260234d03eccbe64176eedd07d76dfe4968643a4395256f9c35a00f0fc7d"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-underside.png",
+      "bytes": 1176082,
+      "sha256": "50a853b357e7d63f9d8d875b965c7ae3fe07cdf9fc887664acbb7f5e802a1b7b"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 855715,
+      "sha256": "e473366414b03500f30964d96ff892b5ed5723424f09af1b80a7167ec341ba9d"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 755584,
+      "sha256": "0238a88735f69f123d147a4d27beaca05169d4c9ce1b21c181020dea12c9781d"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 803552,
+      "sha256": "a8f4255a62c1b6d7872583b0218ee956a8b04d90731a13fd420487e64ac71a75"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_rear.png",
+      "bytes": 810306,
+      "sha256": "e84ed62890b79d7071348303c875d179f0104de26ec3250158b161a16bef884b"
+    },
+    {
+      "path": "source/review/reconstruction_v1/source_front.png",
+      "bytes": 426445,
+      "sha256": "6036181d1af0bb620137f1755dfc2a12482855f2e4c311389212f5f6a9e941b5"
+    }
+  ]
+}

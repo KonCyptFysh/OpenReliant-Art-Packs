@@ -1,0 +1,14 @@
+[
+  {
+    "file": "Houjian.SHP",
+    "exit_code": 0,
+    "output": "ok: 2 parts, 889 vertices, 1670 faces\nbounds: 2 oriented\nwritten again: the same bytes\n",
+    "sha256": "c10ffbfe3cf3699a1a6fa7ac12ae522a3210ecde79f7af2ae2d4b840ae9a150a"
+  },
+  {
+    "file": "mission980.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "91145e39ae346e2d69a4d6b5838269697ef213480d8d9a86512974afee2353e3"
+  }
+]

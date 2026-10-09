@@ -1,0 +1,928 @@
+{
+  "passed": true,
+  "source_sha256": "f0efbbb611c2913dd764e36e2cb5925f2bf845b4a4ccdbbc697e3e5cd8345de7",
+  "output_sha256": "c10ffbfe3cf3699a1a6fa7ac12ae522a3210ecde79f7af2ae2d4b840ae9a150a",
+  "uv_edits": [
+    {
+      "part": "Houjian Tail",
+      "lod": 0,
+      "face": 36
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 0,
+      "face": 37
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 0,
+      "face": 38
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 0,
+      "face": 39
+    }
+  ],
+  "continuation_corrections": [
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 67,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 68,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 195,
+      "prior": 7,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 196,
+      "prior": 6,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 197,
+      "prior": 5,
+      "remaining": 3
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 198,
+      "prior": 4,
+      "remaining": 2
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 199,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 200,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 273,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 274,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 392,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 393,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 476,
+      "prior": 7,
+      "remaining": 3
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 477,
+      "prior": 6,
+      "remaining": 2
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 478,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 479,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 480,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "face": 481,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 1,
+      "face": 47,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Houjian",
+      "lod": 1,
+      "face": 48,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 1,
+      "face": 49,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 1,
+      "face": 201,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 1,
+      "face": 202,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 1,
+      "face": 313,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 1,
+      "face": 314,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 1,
+      "face": 315,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 1,
+      "face": 342,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 1,
+      "face": 343,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 2,
+      "face": 41,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Houjian",
+      "lod": 2,
+      "face": 42,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 2,
+      "face": 43,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 2,
+      "face": 139,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 2,
+      "face": 140,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 3,
+      "face": 33,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Houjian",
+      "lod": 3,
+      "face": 34,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 3,
+      "face": 35,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 3,
+      "face": 69,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 3,
+      "face": 70,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian",
+      "lod": 4,
+      "face": 28,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Houjian",
+      "lod": 4,
+      "face": 29,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian",
+      "lod": 4,
+      "face": 30,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 0,
+      "face": 6,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 0,
+      "face": 7,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 0,
+      "face": 14,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 0,
+      "face": 15,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 1,
+      "face": 2,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 1,
+      "face": 3,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 1,
+      "face": 4,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 1,
+      "face": 5,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 1,
+      "face": 6,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 1,
+      "face": 12,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 1,
+      "face": 13,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 1,
+      "face": 14,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 2,
+      "face": 2,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 2,
+      "face": 3,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 2,
+      "face": 4,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 2,
+      "face": 5,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 2,
+      "face": 6,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 2,
+      "face": 12,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 2,
+      "face": 13,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 2,
+      "face": 14,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 3,
+      "face": 2,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 3,
+      "face": 3,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 3,
+      "face": 4,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 3,
+      "face": 5,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 3,
+      "face": 6,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 3,
+      "face": 12,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 3,
+      "face": 13,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 3,
+      "face": 14,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 4,
+      "face": 2,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 4,
+      "face": 3,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 4,
+      "face": 4,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 4,
+      "face": 5,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 4,
+      "face": 6,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 4,
+      "face": 12,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 4,
+      "face": 13,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 4,
+      "face": 14,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 5,
+      "face": 2,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 5,
+      "face": 3,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 5,
+      "face": 4,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 5,
+      "face": 5,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 5,
+      "face": 6,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 5,
+      "face": 12,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 5,
+      "face": 13,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 5,
+      "face": 14,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 6,
+      "face": 2,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 6,
+      "face": 3,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 6,
+      "face": 4,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 6,
+      "face": 5,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 6,
+      "face": 6,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 6,
+      "face": 12,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 6,
+      "face": 13,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 6,
+      "face": 14,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 7,
+      "face": 2,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 7,
+      "face": 3,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 7,
+      "face": 4,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 7,
+      "face": 5,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 7,
+      "face": 6,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 7,
+      "face": 12,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 7,
+      "face": 13,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 7,
+      "face": 14,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 8,
+      "face": 2,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 8,
+      "face": 3,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 8,
+      "face": 4,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 8,
+      "face": 8,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 8,
+      "face": 9,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 8,
+      "face": 10,
+      "prior": 1,
+      "remaining": 0
+    }
+  ],
+  "detail_meshes": [
+    {
+      "part": "Houjian",
+      "lod": 0,
+      "faces": 488,
+      "groups_before": 155,
+      "groups_after": 162,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian",
+      "lod": 1,
+      "faces": 352,
+      "groups_before": 154,
+      "groups_after": 159,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian",
+      "lod": 2,
+      "faces": 240,
+      "groups_before": 126,
+      "groups_after": 128,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian",
+      "lod": 3,
+      "faces": 162,
+      "groups_before": 99,
+      "groups_after": 101,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian",
+      "lod": 4,
+      "faces": 108,
+      "groups_before": 73,
+      "groups_after": 74,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian",
+      "lod": 5,
+      "faces": 70,
+      "groups_before": 50,
+      "groups_after": 50,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian",
+      "lod": 6,
+      "faces": 44,
+      "groups_before": 31,
+      "groups_after": 31,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian",
+      "lod": 7,
+      "faces": 26,
+      "groups_before": 20,
+      "groups_after": 20,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian",
+      "lod": 8,
+      "faces": 16,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 0,
+      "faces": 40,
+      "groups_before": 18,
+      "groups_after": 20,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 1,
+      "faces": 16,
+      "groups_before": 5,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 2,
+      "faces": 16,
+      "groups_before": 5,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 3,
+      "faces": 16,
+      "groups_before": 5,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 4,
+      "faces": 16,
+      "groups_before": 5,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 5,
+      "faces": 16,
+      "groups_before": 5,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 6,
+      "faces": 16,
+      "groups_before": 5,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 7,
+      "faces": 16,
+      "groups_before": 5,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Houjian Tail",
+      "lod": 8,
+      "faces": 12,
+      "groups_before": 6,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    }
+  ],
+  "all_1670_faces_checked": true,
+  "geometry_normals_attachments_animation_collision_and_winding_byte_identical": true,
+  "allowed_changes": "Texture names, four finest-detail inner tail-edge UVs, and primitive continuation counts at UV seams only",
+  "changed_bytes": 375
+}

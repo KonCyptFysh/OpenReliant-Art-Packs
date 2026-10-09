@@ -1,0 +1,41 @@
+version:  107
+flags:    components=false cloak=false
+parts:    2
+vertices: 889
+faces:    1670
+arcs:     0
+bounds:   (-360,-153,-339) to (380,229,773), 740 x 382 x 1112
+
+[  0] Houjian                            type  0  parent  -1  link 0
+        lod 0:   246 vertices   488 faces   1 materials  beyond 5000
+        lod 1:   178 vertices   352 faces   1 materials  beyond 10000
+        lod 2:   122 vertices   240 faces   1 materials  beyond 15000
+        lod 3:    83 vertices   162 faces   1 materials  beyond 20000
+        lod 4:    56 vertices   108 faces   1 materials  beyond 25000
+        lod 5:    37 vertices    70 faces   1 materials  beyond 30000
+        lod 6:    24 vertices    44 faces   1 materials  beyond 35000
+        lod 7:    15 vertices    26 faces   1 materials  beyond 40000
+        lod 8:    10 vertices    16 faces   1 materials  beyond 500000
+        0 nodes, 7 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          gun muzzle 3 at (90,133,254)
+          gun muzzle 3 at (-91,134,254)
+          gun muzzle 3 at (247,167,450)
+          gun muzzle 3 at (-239,162,450)
+          engine glow 2 at (-106,-127,-150)  id 5 size (50,50,-400)
+          engine glow 2 at (105,-127,-150)  id 5 size (50,50,-400)
+          missile 0 at (0,112,45)
+[  1] Houjian Tail                       type  0  parent  -1  link 0
+        lod 0:    24 vertices    40 faces   1 materials  beyond 5000
+        lod 1:    12 vertices    16 faces   1 materials  beyond 10000
+        lod 2:    12 vertices    16 faces   1 materials  beyond 15000
+        lod 3:    12 vertices    16 faces   1 materials  beyond 20000
+        lod 4:    12 vertices    16 faces   1 materials  beyond 25000
+        lod 5:    12 vertices    16 faces   1 materials  beyond 30000
+        lod 6:    12 vertices    16 faces   1 materials  beyond 35000
+        lod 7:    12 vertices    16 faces   1 materials  beyond 40000
+        lod 8:    10 vertices    12 faces   1 materials  beyond 500000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+
+textures (1): HOUJIAN

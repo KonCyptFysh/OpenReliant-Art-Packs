@@ -1,0 +1,25 @@
+{
+  "parts": [
+    {
+      "part": "Houjian",
+      "vertices": 246,
+      "faces": 488,
+      "visible_faces": 488
+    },
+    {
+      "part": "Houjian_Tail",
+      "vertices": 24,
+      "faces": 40,
+      "visible_faces": 40
+    }
+  ],
+  "source_sha256": "f0efbbb611c2913dd764e36e2cb5925f2bf845b4a4ccdbbc697e3e5cd8345de7",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ]
+  ],
+  "geometry_signature": "8636e240e2330ce7fc3120063427447838070cb3cf749ffa8c6fcc741ee02557"
+}

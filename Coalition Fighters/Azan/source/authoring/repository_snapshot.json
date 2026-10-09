@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "${AZAN_WORKSPACE}/azan_worn_pbr_v1.blend",
+  "canonical_sha256": "ad5adcc64a796aaf16792d6bb094db49ac3c7ab73cb5efc7cc883604f4d1d064",
+  "snapshot": "${ART_PACK_REPOSITORY}/Coalition Fighters/Azan/source/azan_worn_pbr_v1.blend",
+  "snapshot_sha256": "f98a48bf9059c2d1173fd54b37cb9384d1c9fc154f8e34aae999a0bd6c1d05c5",
+  "mesh_signature": "01095254e4012032670d16438607eb136409e93ae1294186c7ccbb7c6d313fb9",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "azan_hull_basecolor_v1.png",
+      "path": "//resources/67136a78002a_azan_hull_basecolor_v1.png",
+      "sha256": "67136a78002ac91289b8f95275ecfc7ecfe5b9b33e8151ab4a322fa2fa3ac40e"
+    },
+    {
+      "image": "azan_hull_metallic_v1.png",
+      "path": "//resources/e72ea49b5286_azan_hull_metallic_v1.png",
+      "sha256": "e72ea49b528635f936180c41b1d91d299fbe16f52b721325cbfd690cd9f7756c"
+    },
+    {
+      "image": "azan_hull_normal_v1.png",
+      "path": "//resources/21fb4279ab57_azan_hull_normal_v1.png",
+      "sha256": "21fb4279ab5753a4f8c4bb2af84fef8bfe0ce2d028f9fa2809d06c2116397372"
+    },
+    {
+      "image": "azan_hull_roughness_v1.png",
+      "path": "//resources/cb0058893102_azan_hull_roughness_v1.png",
+      "sha256": "cb00588931025e1ac215da5146adfc7cded99032ecaded032a25fd253ffcd5c2"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "chunks": [
+    {
+      "tag": 1,
+      "bytes": 630,
+      "sha256": "ebc8cfff49a4a383445f410b05888d68f92f6f853492dc12e8d53d1b364a2591"
+    },
+    {
+      "tag": 9,
+      "bytes": 1182,
+      "sha256": "74a93e2c86f9b439ba5b245ab220ff0f438be4f86425b10a308232c83e46bde8"
+    },
+    {
+      "tag": 10,
+      "bytes": 30,
+      "sha256": "ddba17fe07790365934ac5742d0ed8e3a42ec579c254540182b7215a898b6af3"
+    },
+    {
+      "tag": 11,
+      "bytes": 62,
+      "sha256": "fcf950d1451e4dc9c97e2002b9d7a6d620a785f0bf3582b81c1a51f16ef88096"
+    },
+    {
+      "tag": 9,
+      "bytes": 6,
+      "sha256": "71f916172a9d4a3024bec3ca2b402fe22dca8884632041a7f2a91eedb84ec874"
+    },
+    {
+      "tag": 10,
+      "bytes": 30,
+      "sha256": "ddba17fe07790365934ac5742d0ed8e3a42ec579c254540182b7215a898b6af3"
+    },
+    {
+      "tag": 11,
+      "bytes": 62,
+      "sha256": "704825355f6a1cdd9c21f43c41dbb6cb5d16258586edc85f41ea02cf83af9ead"
+    }
+  ],
+  "entire_animation_and_attachments_byte_identical": true
+}
