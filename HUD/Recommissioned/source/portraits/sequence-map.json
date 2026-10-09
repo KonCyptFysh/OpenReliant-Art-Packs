@@ -1,41 +1,5 @@
 [
   {
-    "source_directory": "45TigersWL_Bandit",
-    "filename": "45TigersWL_Bandit.fm8",
-    "frames": 61,
-    "native_sha256": "d438e74442f4a04132f86bbfbdcd1162176a6ab39ab9989d5242b7ac17c64be5"
-  },
-  {
-    "source_directory": "45TigersWL_Bandit_L",
-    "filename": "45TigersWL_Bandit_L.fm8",
-    "frames": 61,
-    "native_sha256": "f1bc8a205d00ef1e962e8ffafbd80bece28fffab4e99debf9c8fc3c46845d4f9"
-  },
-  {
-    "source_directory": "45TigersWL_Bandit_d",
-    "filename": "45TigersWL_Bandit_d.fm8",
-    "frames": 16,
-    "native_sha256": "03f108ee10cb84f319dd8c1882c2f2f9826a340b2cbf0500c41dec157abd6839"
-  },
-  {
-    "source_directory": "45TigersWL_Diceman",
-    "filename": "45TigersWL_Diceman.fm8",
-    "frames": 61,
-    "native_sha256": "66d0f60d4b269a3ba0cd05c72326e09495fc251772a0432238d2f985759d721f"
-  },
-  {
-    "source_directory": "45TigersWL_Diceman_D",
-    "filename": "45TigersWL_Diceman_D.fm8",
-    "frames": 16,
-    "native_sha256": "03f108ee10cb84f319dd8c1882c2f2f9826a340b2cbf0500c41dec157abd6839"
-  },
-  {
-    "source_directory": "45TigersWL_Diceman_L",
-    "filename": "45TigersWL_Diceman_L.fm8",
-    "frames": 61,
-    "native_sha256": "2266fc61a262e1bec71eac32b2bd15307bb321af00f408bf3aaf6edd12bbd53e"
-  },
-  {
     "source_directory": "45Tigers_Moose",
     "filename": "45Tigers_Moose.fm8",
     "frames": 61,
@@ -72,22 +36,94 @@
     "native_sha256": "b4fe4100932cf916e7d513ed71d76403d6e85deed313f0d4040f205084996c3f"
   },
   {
+    "source_directory": "45TigersWL_Bandit",
+    "filename": "45TigersWL_Bandit.fm8",
+    "frames": 61,
+    "native_sha256": "d438e74442f4a04132f86bbfbdcd1162176a6ab39ab9989d5242b7ac17c64be5"
+  },
+  {
+    "source_directory": "45TigersWL_Bandit_d",
+    "filename": "45TigersWL_Bandit_d.fm8",
+    "frames": 16,
+    "native_sha256": "03f108ee10cb84f319dd8c1882c2f2f9826a340b2cbf0500c41dec157abd6839"
+  },
+  {
+    "source_directory": "45TigersWL_Bandit_L",
+    "filename": "45TigersWL_Bandit_L.fm8",
+    "frames": 61,
+    "native_sha256": "f1bc8a205d00ef1e962e8ffafbd80bece28fffab4e99debf9c8fc3c46845d4f9"
+  },
+  {
+    "source_directory": "45TigersWL_Diceman",
+    "filename": "45TigersWL_Diceman.fm8",
+    "frames": 61,
+    "native_sha256": "66d0f60d4b269a3ba0cd05c72326e09495fc251772a0432238d2f985759d721f"
+  },
+  {
+    "source_directory": "45TigersWL_Diceman_D",
+    "filename": "45TigersWL_Diceman_D.fm8",
+    "frames": 16,
+    "native_sha256": "03f108ee10cb84f319dd8c1882c2f2f9826a340b2cbf0500c41dec157abd6839"
+  },
+  {
+    "source_directory": "45TigersWL_Diceman_L",
+    "filename": "45TigersWL_Diceman_L.fm8",
+    "frames": 61,
+    "native_sha256": "2266fc61a262e1bec71eac32b2bd15307bb321af00f408bf3aaf6edd12bbd53e"
+  },
+  {
+    "source_directory": "45Volntrs_Moose",
+    "filename": "45Volntrs_Moose.fm8",
+    "frames": 61,
+    "native_sha256": "714c410fe2b3b649ac9cf09815b2320fee256799956635a34c5143fad52b4398"
+  },
+  {
+    "source_directory": "45Volntrs_Moose_d",
+    "filename": "45Volntrs_Moose_d.fm8",
+    "frames": 16,
+    "native_sha256": "7d41af9d720a51c9e69457a1d2e0dc91caee63769733c28fa3a60f903d3b543d"
+  },
+  {
+    "source_directory": "45Volntrs_Moose_L",
+    "filename": "45Volntrs_Moose_L.fm8",
+    "frames": 61,
+    "native_sha256": "a9b8fdab767878c38b987e87e844154f45ce92921d9f67c663d1ab4cf3a52820"
+  },
+  {
+    "source_directory": "45Volntrs_Plt",
+    "filename": "45Volntrs_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "0640253eb217e39d49b533a12a8dd0093489b22372a6458c7010a74813187337"
+  },
+  {
+    "source_directory": "45Volntrs_Plt_d",
+    "filename": "45Volntrs_Plt_d.fm8",
+    "frames": 16,
+    "native_sha256": "0846e43fb8f7525255cbe990b7ca5fa38991da4d31a57f37dc2aede2088cecb6"
+  },
+  {
+    "source_directory": "45Volntrs_Plt_L",
+    "filename": "45Volntrs_Plt_L.fm8",
+    "frames": 61,
+    "native_sha256": "3179b3ed9e05d08e28578fe6c98fa7ece261f311c50e8737389831fb2431aa57"
+  },
+  {
     "source_directory": "45VolntrWL_Bandit",
     "filename": "45VolntrWL_Bandit.fm8",
     "frames": 61,
     "native_sha256": "a560712de8cb128356fa03ab213e77aafb7421f474758e5bfb7624a30624e175"
   },
   {
-    "source_directory": "45VolntrWL_Bandit_L",
-    "filename": "45VolntrWL_Bandit_L.fm8",
-    "frames": 61,
-    "native_sha256": "84ca582ddb952fbcd644cbbeb0193a7fbfa6b7d57a1e34620c275bf54193e695"
-  },
-  {
     "source_directory": "45VolntrWL_Bandit_d",
     "filename": "45VolntrWL_Bandit_d.fm8",
     "frames": 16,
     "native_sha256": "1c72df3f9e72d4121d15ad43312172c8de788a2c4c0a5a7c02a6c51c68294171"
+  },
+  {
+    "source_directory": "45VolntrWL_Bandit_L",
+    "filename": "45VolntrWL_Bandit_L.fm8",
+    "frames": 61,
+    "native_sha256": "84ca582ddb952fbcd644cbbeb0193a7fbfa6b7d57a1e34620c275bf54193e695"
   },
   {
     "source_directory": "45VolntrWL_Viper",
@@ -108,40 +144,16 @@
     "native_sha256": "47a5743be8138fd8b58009cb599207d0c5d15b3bae588f281b6e6a281bfd0793"
   },
   {
-    "source_directory": "45Volntrs_Moose",
-    "filename": "45Volntrs_Moose.fm8",
+    "source_directory": "51st_Plt",
+    "filename": "51st_Plt.fm8",
     "frames": 61,
-    "native_sha256": "714c410fe2b3b649ac9cf09815b2320fee256799956635a34c5143fad52b4398"
+    "native_sha256": "43c7f01156a356aa74b0c65a6c906e42fe427a685c6f0e4e7811b3f3b8d14e64"
   },
   {
-    "source_directory": "45Volntrs_Moose_L",
-    "filename": "45Volntrs_Moose_L.fm8",
-    "frames": 61,
-    "native_sha256": "a9b8fdab767878c38b987e87e844154f45ce92921d9f67c663d1ab4cf3a52820"
-  },
-  {
-    "source_directory": "45Volntrs_Moose_d",
-    "filename": "45Volntrs_Moose_d.fm8",
+    "source_directory": "51st_Plt_d",
+    "filename": "51st_Plt_d.fm8",
     "frames": 16,
-    "native_sha256": "7d41af9d720a51c9e69457a1d2e0dc91caee63769733c28fa3a60f903d3b543d"
-  },
-  {
-    "source_directory": "45Volntrs_Plt",
-    "filename": "45Volntrs_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "0640253eb217e39d49b533a12a8dd0093489b22372a6458c7010a74813187337"
-  },
-  {
-    "source_directory": "45Volntrs_Plt_L",
-    "filename": "45Volntrs_Plt_L.fm8",
-    "frames": 61,
-    "native_sha256": "3179b3ed9e05d08e28578fe6c98fa7ece261f311c50e8737389831fb2431aa57"
-  },
-  {
-    "source_directory": "45Volntrs_Plt_d",
-    "filename": "45Volntrs_Plt_d.fm8",
-    "frames": 16,
-    "native_sha256": "0846e43fb8f7525255cbe990b7ca5fa38991da4d31a57f37dc2aede2088cecb6"
+    "native_sha256": "8603dadd1297a16eafe24930b8ac7bff1cbc4e6861c58698558a603b4ac36c05"
   },
   {
     "source_directory": "51stWL_Plt",
@@ -156,28 +168,36 @@
     "native_sha256": "99b2e8b1a6e363e68ed2f1e2343dd4d3bd072e9c1d1a7acf3f3cb2d92f6abb53"
   },
   {
-    "source_directory": "51st_Plt",
-    "filename": "51st_Plt.fm8",
+    "source_directory": "baxbc",
+    "filename": "baxbc.fm8",
+    "frames": 51,
+    "native_sha256": "f0c7d207828e6117c0ece1da6e420c59fc2322a15846ac4c492cbf10a90adcd3"
+  },
+  {
+    "source_directory": "BGUARDD",
+    "filename": "BGUARDD.FM8",
+    "frames": 11,
+    "native_sha256": "97713db8def5f8d3d11af94207aaaa95f5a05d7c1af70f83aebdbcdffb87a343",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/BGUARDD/restoration.json",
+    "reused_hd_from": "BlckGrd_Plt_D.fm8"
+  },
+  {
+    "source_directory": "BGUARDP",
+    "filename": "BGUARDP.FM8",
     "frames": 61,
-    "native_sha256": "43c7f01156a356aa74b0c65a6c906e42fe427a685c6f0e4e7811b3f3b8d14e64"
+    "native_sha256": "a1da565fb18682b84d225827fc33ff8c94f5c39a903a3c0abc412997e2c18c35",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/BGUARDP/restoration.json"
   },
   {
-    "source_directory": "51st_Plt_d",
-    "filename": "51st_Plt_d.fm8",
-    "frames": 16,
-    "native_sha256": "8603dadd1297a16eafe24930b8ac7bff1cbc4e6861c58698558a603b4ac36c05"
-  },
-  {
-    "source_directory": "BlacksunWL_Plt",
-    "filename": "BlacksunWL_Plt.fm8",
-    "frames": 81,
-    "native_sha256": "51a35c6d68f7169db14333bbf9768778cc4160a2630539abd4e6b2882f5dc34f"
-  },
-  {
-    "source_directory": "BlacksunWL_Plt_D",
-    "filename": "BlacksunWL_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "ad30ad2e5dd4e01b8d3ad06d8ee6506f75fe052b7647c70922efa83e22ad0f83"
+    "source_directory": "BLACKGUA",
+    "filename": "BLACKGUA.FM8",
+    "frames": 61,
+    "native_sha256": "a1da565fb18682b84d225827fc33ff8c94f5c39a903a3c0abc412997e2c18c35",
+    "restoration_method": "exact-new-hd-alias",
+    "restoration_record": "source/portraits/frames/BLACKGUA/restoration.json",
+    "reused_hd_from": "BGUARDP.FM8"
   },
   {
     "source_directory": "Blacksun_Plt",
@@ -192,10 +212,28 @@
     "native_sha256": "d5e937a2fca3345b5fec23c575ec44bbbb2301b37ac533f040d4aed329190b05"
   },
   {
+    "source_directory": "BlacksunWL_Plt",
+    "filename": "BlacksunWL_Plt.fm8",
+    "frames": 81,
+    "native_sha256": "51a35c6d68f7169db14333bbf9768778cc4160a2630539abd4e6b2882f5dc34f"
+  },
+  {
+    "source_directory": "BlacksunWL_Plt_D",
+    "filename": "BlacksunWL_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "ad30ad2e5dd4e01b8d3ad06d8ee6506f75fe052b7647c70922efa83e22ad0f83"
+  },
+  {
     "source_directory": "Blades_Plt",
     "filename": "Blades_Plt.fm8",
     "frames": 61,
     "native_sha256": "0f6c3a39a8327629eafc8528ba1f6a92e6c8899e0f78e7134811945d01948d84"
+  },
+  {
+    "source_directory": "Blades_Plt_d",
+    "filename": "Blades_Plt_d.fm8",
+    "frames": 16,
+    "native_sha256": "02ad6c52a0bae47a51f7482af377f451aa1cf133ff1558c6a45b480d5c42a352"
   },
   {
     "source_directory": "Blades_Plt_L",
@@ -204,10 +242,16 @@
     "native_sha256": "09b10af4591a7eea7b14aeba06c182ac41211e7fb411a9f2efeff2af1cce0b1e"
   },
   {
-    "source_directory": "Blades_Plt_d",
-    "filename": "Blades_Plt_d.fm8",
+    "source_directory": "BlckEgle_Plt",
+    "filename": "BlckEgle_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "c85693fea6c8d1dd2ad5e1b2ac36648943e1a89f7b933f0f09b7f575f34b06ec"
+  },
+  {
+    "source_directory": "BlckEgle_Plt_D",
+    "filename": "BlckEgle_Plt_D.fm8",
     "frames": 16,
-    "native_sha256": "02ad6c52a0bae47a51f7482af377f451aa1cf133ff1558c6a45b480d5c42a352"
+    "native_sha256": "e86fd2796668207a129bfc089024ca106fe7a7306ae1cc7a917324e0fcf14763"
   },
   {
     "source_directory": "BlckEgleWL_Plt",
@@ -222,16 +266,10 @@
     "native_sha256": "93bc47ab74c40d1034ad74578fcf7f38896875b93b114c6d845cb02e18bce29b"
   },
   {
-    "source_directory": "BlckEgle_Plt",
-    "filename": "BlckEgle_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "c85693fea6c8d1dd2ad5e1b2ac36648943e1a89f7b933f0f09b7f575f34b06ec"
-  },
-  {
-    "source_directory": "BlckEgle_Plt_D",
-    "filename": "BlckEgle_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "e86fd2796668207a129bfc089024ca106fe7a7306ae1cc7a917324e0fcf14763"
+    "source_directory": "BlckGrd_Plt_D",
+    "filename": "BlckGrd_Plt_D.fm8",
+    "frames": 11,
+    "native_sha256": "97713db8def5f8d3d11af94207aaaa95f5a05d7c1af70f83aebdbcdffb87a343"
   },
   {
     "source_directory": "BlckGrdIP_Plt",
@@ -258,12 +296,6 @@
     "native_sha256": "2d82d82537aeb52131c42f946c6a06ee6d4effa6442ac30b1a646db590f987e3"
   },
   {
-    "source_directory": "BlckGrd_Plt_D",
-    "filename": "BlckGrd_Plt_D.fm8",
-    "frames": 11,
-    "native_sha256": "97713db8def5f8d3d11af94207aaaa95f5a05d7c1af70f83aebdbcdffb87a343"
-  },
-  {
     "source_directory": "BlkAces_Plt_d",
     "filename": "BlkAces_Plt_d.fm8",
     "frames": 16,
@@ -282,16 +314,39 @@
     "native_sha256": "70da5391a04adefc0adaee4a83c0dad417a3d3e498be5784c5d079f8a1f4dc46"
   },
   {
+    "source_directory": "BUCC",
+    "filename": "BUCC.FM8",
+    "frames": 61,
+    "native_sha256": "9bc804deaa07f3f493dd58c001869bbca8cc06b1061321208c753c5917ba819e",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/BUCC/restoration.json",
+    "reused_hd_from": "test.fm8"
+  },
+  {
+    "source_directory": "BUCCDETH",
+    "filename": "BUCCDETH.FM8",
+    "frames": 16,
+    "native_sha256": "94bb1ff609ad2eb6d6dc3bb88f0f99a416791ae5a1dc327b8c91f4bcfb06757d",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/BUCCDETH/restoration.json"
+  },
+  {
     "source_directory": "BuccnrsWL_Plt",
     "filename": "BuccnrsWL_Plt.fm8",
     "frames": 61,
     "native_sha256": "895d0ec17f542c05770386af280fc47e305a137e9682539bea182504eeeb0f83"
   },
   {
-    "source_directory": "CCouger_Plt_D",
-    "filename": "CCouger_Plt_D.fm8",
+    "source_directory": "C_comms_off1",
+    "filename": "C_comms_off1.fm8",
+    "frames": 61,
+    "native_sha256": "e16c390a2a3f34326a7d1f808d9a5e904763d1d89b66210d3106d0c1c0b55e36"
+  },
+  {
+    "source_directory": "C_comms_off1_death",
+    "filename": "C_comms_off1_death.fm8",
     "frames": 16,
-    "native_sha256": "9b3c84778b064a95c7a1c27b02dc260567ee91adc766fbbeb50136d6df7e76a5"
+    "native_sha256": "13b6c37e791ee97fc834597dc677ec1c79fec17606a843162a86e53561d6271a"
   },
   {
     "source_directory": "C_Fhtr_01",
@@ -324,18 +379,6 @@
     "native_sha256": "8194f233449d10e5460016afd3f07e68a273264ccdde2dcc63f6da1834578076"
   },
   {
-    "source_directory": "C_comms_off1",
-    "filename": "C_comms_off1.fm8",
-    "frames": 61,
-    "native_sha256": "e16c390a2a3f34326a7d1f808d9a5e904763d1d89b66210d3106d0c1c0b55e36"
-  },
-  {
-    "source_directory": "C_comms_off1_death",
-    "filename": "C_comms_off1_death.fm8",
-    "frames": 16,
-    "native_sha256": "13b6c37e791ee97fc834597dc677ec1c79fec17606a843162a86e53561d6271a"
-  },
-  {
     "source_directory": "Capt_Mukai",
     "filename": "Capt_Mukai.fm8",
     "frames": 61,
@@ -346,6 +389,33 @@
     "filename": "Capt_Mukai_D.fm8",
     "frames": 16,
     "native_sha256": "d893fb5f39b55c05d944c79e7b9a96c53c6968089f3ecbfe19d71a0e5bf93d33"
+  },
+  {
+    "source_directory": "CARGOD",
+    "filename": "CARGOD.FM8",
+    "frames": 16,
+    "native_sha256": "d8439223901f83c10ff6e9a463c1dc08456f573d447e8c67fe05d5ad9e4dc3ea",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/CARGOD/restoration.json",
+    "reused_hd_from": "Lonestar_Plt_D.fm8"
+  },
+  {
+    "source_directory": "CARGOL",
+    "filename": "CARGOL.FM8",
+    "frames": 61,
+    "native_sha256": "45049ebe311a0baa1ebeb1ad1cd1f538f8a4891a21ca1ee81d8cfb6b64a42eb2",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/CARGOL/restoration.json",
+    "reused_hd_from": "Lonestar_Plt_L.fm8"
+  },
+  {
+    "source_directory": "CARGOP",
+    "filename": "CARGOP.FM8",
+    "frames": 61,
+    "native_sha256": "95c9171135cdf2001e914cae900554c84e38c0bbbfd0578d832f2fba488fe007",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/CARGOP/restoration.json",
+    "reused_hd_from": "Lonestar_Plt.fm8"
   },
   {
     "source_directory": "Cat_Foster",
@@ -360,22 +430,65 @@
     "native_sha256": "4ec150be916bac1255fe97ec482769070345b9dc47babfba610ea5c105107ba7"
   },
   {
+    "source_directory": "CCouger_Plt_D",
+    "filename": "CCouger_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "9b3c84778b064a95c7a1c27b02dc260567ee91adc766fbbeb50136d6df7e76a5"
+  },
+  {
+    "source_directory": "COB",
+    "filename": "COB.FM8",
+    "frames": 61,
+    "native_sha256": "a33d8c9b27e60a62eafad73fa59596b7055489d416b617a08ccc1c6ed4f5682e",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/COB/restoration.json"
+  },
+  {
     "source_directory": "Cobra_Plt_D",
     "filename": "Cobra_Plt_D.fm8",
     "frames": 16,
     "native_sha256": "77fa42b970166724dedfe171329b5f537014f2c64856507337aa330f6235d89c"
   },
   {
-    "source_directory": "CougerWL_Plt",
-    "filename": "CougerWL_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "97001ef771e5727b92e1ffebb69caf98fa5b247d6e48ab1e148abee982e8ccdd"
+    "source_directory": "COMMSOFF",
+    "filename": "COMMSOFF.FM8",
+    "frames": 51,
+    "native_sha256": "688feef294bf268102be60f0450cb164c753b797e09103e21cc7a10f67140a82",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/COMMSOFF/restoration.json"
   },
   {
-    "source_directory": "CougerWL_Plt_d",
-    "filename": "CougerWL_Plt_d.fm8",
-    "frames": 16,
-    "native_sha256": "62b968d6a8b47edb0068513e0e76f0be19ec602ef237321adf52f4d65e79630a"
+    "source_directory": "CONDL",
+    "filename": "CONDL.FM8",
+    "frames": 61,
+    "native_sha256": "f5f09f284691ee5b5e36771bc87382a88b4d37a9113991ab68ce1a12f585c4ed",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/CONDL/restoration.json"
+  },
+  {
+    "source_directory": "CONDP",
+    "filename": "CONDP.FM8",
+    "frames": 61,
+    "native_sha256": "846263d98074b629b11c1727ffe3bde45f00ff8763d9ff5acf01fbe4268a6cc7",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/CONDP/restoration.json",
+    "reused_hd_from": "Stork_Plt.fm8"
+  },
+  {
+    "source_directory": "CONDWL",
+    "filename": "CONDWL.FM8",
+    "frames": 61,
+    "native_sha256": "098ed8a3e780ded8e5a89230e5a51bac32d2434ff185d83c583269ba4a439586",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/CONDWL/restoration.json"
+  },
+  {
+    "source_directory": "CONDWLL",
+    "filename": "CONDWLL.FM8",
+    "frames": 61,
+    "native_sha256": "a432aafae7233a5cb417c3da2213045b0227094b6e49c107d20c4e0022aa99fc",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/CONDWLL/restoration.json"
   },
   {
     "source_directory": "Couger_Plt",
@@ -388,6 +501,18 @@
     "filename": "Couger_Plt_L.fm8",
     "frames": 61,
     "native_sha256": "21d344f3156eead4b25f7922012275c59d054be7aa6e68627b350a568210f540"
+  },
+  {
+    "source_directory": "CougerWL_Plt",
+    "filename": "CougerWL_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "97001ef771e5727b92e1ffebb69caf98fa5b247d6e48ab1e148abee982e8ccdd"
+  },
+  {
+    "source_directory": "CougerWL_Plt_d",
+    "filename": "CougerWL_Plt_d.fm8",
+    "frames": 16,
+    "native_sha256": "62b968d6a8b47edb0068513e0e76f0be19ec602ef237321adf52f4d65e79630a"
   },
   {
     "source_directory": "Endevr_Brdge_Off",
@@ -414,6 +539,12 @@
     "native_sha256": "7596556138d62313632a2fd1df5a7921ff748fc4ee3902b1b476b9317648bf22"
   },
   {
+    "source_directory": "enriquez",
+    "filename": "enriquez.fm8",
+    "frames": 46,
+    "native_sha256": "7596556138d62313632a2fd1df5a7921ff748fc4ee3902b1b476b9317648bf22"
+  },
+  {
     "source_directory": "Enriquez_Cockpit",
     "filename": "Enriquez_Cockpit.fm8",
     "frames": 61,
@@ -430,6 +561,14 @@
     "filename": "Enriquez_Cockpit_L.fm8",
     "frames": 61,
     "native_sha256": "cd2f09a0151a3ea60c41778e33b6859d86932161e9fbb966985e1f216a78f39e"
+  },
+  {
+    "source_directory": "FOSTDED",
+    "filename": "FOSTDED.FM8",
+    "frames": 16,
+    "native_sha256": "d527b89789cdfc0409f4e5db2409222b909614942996fafa41ad8b7e6c38590d",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/FOSTDED/restoration.json"
   },
   {
     "source_directory": "FrtBear_Comms",
@@ -456,6 +595,24 @@
     "native_sha256": "8a1c541ceb0b010d3dde7b6747f25f942e0f056e44846f40f28bb120bf07052d"
   },
   {
+    "source_directory": "frtcrtr_comms",
+    "filename": "frtcrtr_comms.fm8",
+    "frames": 51,
+    "native_sha256": "0e1bff9204c78d6da8e18457b2d9b65cffab1db70632f29e426dc96eb29a07b5"
+  },
+  {
+    "source_directory": "frtcrtr_comms_death",
+    "filename": "frtcrtr_comms_death.fm8",
+    "frames": 16,
+    "native_sha256": "8a1c541ceb0b010d3dde7b6747f25f942e0f056e44846f40f28bb120bf07052d"
+  },
+  {
+    "source_directory": "frtshrmn_comms",
+    "filename": "frtshrmn_comms.fm8",
+    "frames": 51,
+    "native_sha256": "6154887ce9d4ccd5f093703941f412e5f35f880b63550da20626c4f93b3821d5"
+  },
+  {
     "source_directory": "Gamma_Ldr",
     "filename": "Gamma_Ldr.fm8",
     "frames": 61,
@@ -466,6 +623,23 @@
     "filename": "Gamma_Ldr_L.fm8",
     "frames": 61,
     "native_sha256": "81ee3510725d466ee04f6ec9a407ebd957c07d7368020e790a8134a852d4ac33"
+  },
+  {
+    "source_directory": "GAMMADEA",
+    "filename": "GAMMADEA.FM8",
+    "frames": 11,
+    "native_sha256": "972998f303a8a85b4ffe453faf0d3c01e5ffa06861a7e9bc73eca6e330177f5e",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/GAMMADEA/restoration.json"
+  },
+  {
+    "source_directory": "GAMMAP",
+    "filename": "GAMMAP.FM8",
+    "frames": 61,
+    "native_sha256": "e783b3e8a9331589b973d8d096524ab5967228ca1b67977a22ed7628d79af41a",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/GAMMAP/restoration.json",
+    "reused_hd_from": "Gamma_Ldr.fm8"
   },
   {
     "source_directory": "Gen_Reese_Pod",
@@ -480,6 +654,12 @@
     "native_sha256": "0e8c676611216269a04d5afff71741f71a12ac227357151103c404fbe54198b4"
   },
   {
+    "source_directory": "general",
+    "filename": "general.fm8",
+    "frames": 28,
+    "native_sha256": "2f5dc55d972e816e593ad5d858b15633683d0a8697ac06d1c6ab58bb482db3f0"
+  },
+  {
     "source_directory": "GoldWarr_Plt",
     "filename": "GoldWarr_Plt.fm8",
     "frames": 61,
@@ -492,16 +672,16 @@
     "native_sha256": "1e2dfdcdd1845505d3e1ceb1ccb99f202456f57bc6ccfa79ba25dbc99c68c1fe"
   },
   {
-    "source_directory": "HellcatWL",
-    "filename": "HellcatWL.fm8",
+    "source_directory": "goldwarrWL_plt",
+    "filename": "goldwarrWL_plt.fm8",
     "frames": 61,
-    "native_sha256": "55d388d911cfc49f331c752b211f2e134afda59ac6ced13cef783ba4df244834"
+    "native_sha256": "bcd72c8212c5ee9f19fd8049156f935dafcabad76851ee9d73acbf3f7ae94d0a"
   },
   {
-    "source_directory": "HellcatWL_d",
-    "filename": "HellcatWL_d.fm8",
+    "source_directory": "goldwarrWL_plt_d",
+    "filename": "goldwarrWL_plt_d.fm8",
     "frames": 16,
-    "native_sha256": "7f4b61262c33833ea71c7c77ac82a61ce50fcd8dcc4ce399444e051179567bfd"
+    "native_sha256": "6dd4ed17cf903b3e0a832fde3fd951ff671a7d5ddabfee07653354b98c2f7e0f"
   },
   {
     "source_directory": "Hellcat_Plt",
@@ -516,6 +696,24 @@
     "native_sha256": "45e9d02b1dbed5fa587403d5c34db622a35de849c23d8f71ca57c60882f50e84"
   },
   {
+    "source_directory": "HellcatWL",
+    "filename": "HellcatWL.fm8",
+    "frames": 61,
+    "native_sha256": "55d388d911cfc49f331c752b211f2e134afda59ac6ced13cef783ba4df244834"
+  },
+  {
+    "source_directory": "HellcatWL_d",
+    "filename": "HellcatWL_d.fm8",
+    "frames": 16,
+    "native_sha256": "7f4b61262c33833ea71c7c77ac82a61ce50fcd8dcc4ce399444e051179567bfd"
+  },
+  {
+    "source_directory": "hellcatwl_l",
+    "filename": "hellcatwl_l.fm8",
+    "frames": 61,
+    "native_sha256": "15362fd1484af66d4236ad66f3f30b2ed82caeae6fdf1668979c187ea422f1db"
+  },
+  {
     "source_directory": "Hornet_Plt",
     "filename": "Hornet_Plt.fm8",
     "frames": 60,
@@ -528,22 +726,22 @@
     "native_sha256": "591d8462e8d9522ca1288a2afd4de09400ec653ab9176689d53cbb2dcd993929"
   },
   {
-    "source_directory": "JAckelWL_Plt",
-    "filename": "JAckelWL_Plt.fm8",
+    "source_directory": "hornetwl_plt",
+    "filename": "hornetwl_plt.fm8",
     "frames": 61,
-    "native_sha256": "db8084e12fc4f198901f0ac21008e8c5128527d1777e8a4d4c4ef16a48d4cf77"
+    "native_sha256": "5719bc41cb313f1719541f362e63a49f5b001050488838d55bc57a542e9490e6"
   },
   {
-    "source_directory": "JackelWL_Plt_L",
-    "filename": "JackelWL_Plt_L.fm8",
-    "frames": 61,
-    "native_sha256": "8340d11a97e0b4b541bef5ec4597121830ce0e5dd81b9ddefef34ddc693b71a4"
-  },
-  {
-    "source_directory": "JackelWL_Plt_d",
-    "filename": "JackelWL_Plt_d.fm8",
+    "source_directory": "hornetwl_plt_d",
+    "filename": "hornetwl_plt_d.fm8",
     "frames": 16,
-    "native_sha256": "e4467e43e0797470b6b2d9d961abe712f1ffd30110b1440cc97e819bc5ca9ff7"
+    "native_sha256": "b8cb5f2ea9ef05c3f1155886e24220ece97ffb8c305fd2a3ab3225da99f9b592"
+  },
+  {
+    "source_directory": "hornetwl_plt_l",
+    "filename": "hornetwl_plt_l.fm8",
+    "frames": 61,
+    "native_sha256": "38066b3611479a891bb80a20d18f45cdb2c82385efae7aed4f93190a15ce7f87"
   },
   {
     "source_directory": "Jackel_Plt",
@@ -558,16 +756,22 @@
     "native_sha256": "e4467e43e0797470b6b2d9d961abe712f1ffd30110b1440cc97e819bc5ca9ff7"
   },
   {
-    "source_directory": "JaguarWL_Plt",
-    "filename": "JaguarWL_Plt.fm8",
+    "source_directory": "JAckelWL_Plt",
+    "filename": "JAckelWL_Plt.fm8",
     "frames": 61,
-    "native_sha256": "c73a687f8c07a15d0b7b6e8d9b2b05938da97e215fae0d635d7213f37051e36f"
+    "native_sha256": "db8084e12fc4f198901f0ac21008e8c5128527d1777e8a4d4c4ef16a48d4cf77"
   },
   {
-    "source_directory": "JaguarWL_Plt_D",
-    "filename": "JaguarWL_Plt_D.fm8",
+    "source_directory": "JackelWL_Plt_d",
+    "filename": "JackelWL_Plt_d.fm8",
     "frames": 16,
-    "native_sha256": "aa217c62043daf72aa7eb21336a4467228e56fb4a844a3568111899403c6bbf7"
+    "native_sha256": "e4467e43e0797470b6b2d9d961abe712f1ffd30110b1440cc97e819bc5ca9ff7"
+  },
+  {
+    "source_directory": "JackelWL_Plt_L",
+    "filename": "JackelWL_Plt_L.fm8",
+    "frames": 61,
+    "native_sha256": "8340d11a97e0b4b541bef5ec4597121830ce0e5dd81b9ddefef34ddc693b71a4"
   },
   {
     "source_directory": "Jaguar_Plt",
@@ -578,6 +782,18 @@
   {
     "source_directory": "Jaguar_Plt_D",
     "filename": "Jaguar_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "aa217c62043daf72aa7eb21336a4467228e56fb4a844a3568111899403c6bbf7"
+  },
+  {
+    "source_directory": "JaguarWL_Plt",
+    "filename": "JaguarWL_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "c73a687f8c07a15d0b7b6e8d9b2b05938da97e215fae0d635d7213f37051e36f"
+  },
+  {
+    "source_directory": "JaguarWL_Plt_D",
+    "filename": "JaguarWL_Plt_D.fm8",
     "frames": 16,
     "native_sha256": "aa217c62043daf72aa7eb21336a4467228e56fb4a844a3568111899403c6bbf7"
   },
@@ -628,6 +844,12 @@
     "filename": "Kulov_Pod_D.fm8",
     "frames": 16,
     "native_sha256": "c748674ca76cd6f0aa1df85dfa0d5c6ecca3b17de239315c2f8505c2e779fc8f"
+  },
+  {
+    "source_directory": "kurgen_pil",
+    "filename": "kurgen_pil.fm8",
+    "frames": 61,
+    "native_sha256": "625b816024f51499d1f9bdb10d7d35d7fefb60cce0c6dbd9eb547cdf81f996cd"
   },
   {
     "source_directory": "Lonestar_Plt",
@@ -696,552 +918,6 @@
     "native_sha256": "5e07dc86d34b340b8ba3370a040935c045c2f354cbae22e78dedb779e4d7d6fe"
   },
   {
-    "source_directory": "MarauderWL_Plt",
-    "filename": "MarauderWL_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "b722fbd71c8cda9f18806febbe899b32fa645a97672ebf32aecfa445b54d9d96"
-  },
-  {
-    "source_directory": "MarauderWL_Plt_D",
-    "filename": "MarauderWL_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "68830f772bb2cafffd8bef707894b017d99c41b49c7cb74584e1d26354afe7b9"
-  },
-  {
-    "source_directory": "Marauders_Plt",
-    "filename": "Marauders_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "47871c802dec8b7b1f7b0b50d52c9e141c1d6795b188834e43f28de5d2a5dca0"
-  },
-  {
-    "source_directory": "Marauders_Plt_D",
-    "filename": "Marauders_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "e193e68bdec1e77bb6baf8c6dcb1fb00b30090fc2bfab4cf95ef6e185d72723c"
-  },
-  {
-    "source_directory": "Marine_Combat",
-    "filename": "Marine_Combat.fm8",
-    "frames": 51,
-    "native_sha256": "f3c5b58a6425b3c03fe96293c8be7bbc36b1eaaf45522def6b60d1302327acb1"
-  },
-  {
-    "source_directory": "Marine_Leader",
-    "filename": "Marine_Leader.fm8",
-    "frames": 51,
-    "native_sha256": "a9f9af9c4d08a64aea9cc62cc2a93f76fa3e898e01ddaa39a536a22000cbbf8d"
-  },
-  {
-    "source_directory": "Mauler_Plt",
-    "filename": "Mauler_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "74ee1a9196b03625449c663d33cf8783bda4631a120c333df9795ec84462b87a"
-  },
-  {
-    "source_directory": "Mauler_Plt_D",
-    "filename": "Mauler_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "6730d9c9c88ff08d502ba418047bd1ab1747b2c236154a7d7e506d501612c740"
-  },
-  {
-    "source_directory": "Mitchel_Brdge_Off",
-    "filename": "Mitchel_Brdge_Off.fm8",
-    "frames": 51,
-    "native_sha256": "40e2c57b3ca6bd67cda8efb6d7a68fa87727d40f64a6f19f5296245cf3625c0c"
-  },
-  {
-    "source_directory": "Mtchel_Brdge_Off_D",
-    "filename": "Mtchel_Brdge_Off_D.fm8",
-    "frames": 32,
-    "native_sha256": "d24aeb3b12041eb6be1a4435cc0a703b84e3dc406c637809bb7048c99ecb6d30"
-  },
-  {
-    "source_directory": "Nanny_Ldr",
-    "filename": "Nanny_Ldr.fm8",
-    "frames": 61,
-    "native_sha256": "f9d00477e01cf9d6de6af102c8d769973ecd4e6fa48690b67f7783eced9c2112"
-  },
-  {
-    "source_directory": "Nanny_Ldr_D",
-    "filename": "Nanny_Ldr_D.fm8",
-    "frames": 20,
-    "native_sha256": "ba7067da82ce554df137b87f2a0de6117a3a95faa136c705d7cb4eabba17e63f"
-  },
-  {
-    "source_directory": "Nanny_Ldr_L",
-    "filename": "Nanny_Ldr_L.fm8",
-    "frames": 61,
-    "native_sha256": "87c5ac7de1a3edd0586e92668ab988023448259990f8651097e6cdf4f2afa765"
-  },
-  {
-    "source_directory": "PirateWL_Plt",
-    "filename": "PirateWL_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "d023172e671508920c47b168407ee9403334c4e6e3435937407123f6e611d3f7"
-  },
-  {
-    "source_directory": "PirateWL_Plt_D",
-    "filename": "PirateWL_Plt_D.fm8",
-    "frames": 11,
-    "native_sha256": "dd15c6d0e2e4772d02e6d12c238d0df6cdc608877892a0eaea63a1c3351b6540"
-  },
-  {
-    "source_directory": "PirateWL_Plt_L",
-    "filename": "PirateWL_Plt_L.fm8",
-    "frames": 61,
-    "native_sha256": "6e70d5bd96ea675cfb41e0360cfc87d362b92b4b31aab1da4b91b7563f0a9e0f"
-  },
-  {
-    "source_directory": "Pirate_Plt",
-    "filename": "Pirate_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "048257ab63ef87e649cbf55563a3948f3343f7189aac0527483cec47aedc9d7b"
-  },
-  {
-    "source_directory": "Pirate_Plt_D",
-    "filename": "Pirate_Plt_D.fm8",
-    "frames": 11,
-    "native_sha256": "dd15c6d0e2e4772d02e6d12c238d0df6cdc608877892a0eaea63a1c3351b6540"
-  },
-  {
-    "source_directory": "Prowler_Plt",
-    "filename": "Prowler_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "d14ab814b52882fd63cff493649ce9333ff4fa88393771f1dfd07556346f3b99"
-  },
-  {
-    "source_directory": "Prowler_Plt_D",
-    "filename": "Prowler_Plt_D.fm8",
-    "frames": 11,
-    "native_sha256": "778b9fc37e802889139f8f7322f3cf2a3c505cf16a5d6f05a31de15a0c397c68"
-  },
-  {
-    "source_directory": "Pukov_Cap",
-    "filename": "Pukov_Cap.fm8",
-    "frames": 51,
-    "native_sha256": "d47d8da42a7f9edd3263af52e081e0eabf9c80cc11c0b79ba1a562e2816cf428"
-  },
-  {
-    "source_directory": "Pukov_Cap_D",
-    "filename": "Pukov_Cap_D.fm8",
-    "frames": 16,
-    "native_sha256": "f1709ec746ed6aa4c84ee79d396f18f4ac9cd246fbeebaec800fc126239b5f3a"
-  },
-  {
-    "source_directory": "PumaWL_Plt",
-    "filename": "PumaWL_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "a41f257a50a4766f042ae5b9705d8f2987c66b9a012026e292a9b5eae1551782"
-  },
-  {
-    "source_directory": "PumaWL_Plt_D",
-    "filename": "PumaWL_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "32d0ed3b3daa790fb4633044d66251695af2b80207b7f15359458c32ce5966f3"
-  },
-  {
-    "source_directory": "PumaWL_Plt_L",
-    "filename": "PumaWL_Plt_L.fm8",
-    "frames": 61,
-    "native_sha256": "594e210e479d6002598f5a960827c1f36b5de627ce3b756bec106f3e384e2d0c"
-  },
-  {
-    "source_directory": "Puma_Plt",
-    "filename": "Puma_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "3c96b2c36076736b3a944b38515fbf982131ce0d7ed97ebf34d935c37e75bd21"
-  },
-  {
-    "source_directory": "Puma_Plt_D",
-    "filename": "Puma_Plt_D.fm8",
-    "frames": 11,
-    "native_sha256": "7a0a992a30aa827638cec0e0c7807e5cb6d353890ad66192c752585d5f288473"
-  },
-  {
-    "source_directory": "RavenWL_Plt",
-    "filename": "RavenWL_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "8dc1d57f011d4310233f0d18111286b76f558e2cd2325daed94e5851d4177ac5"
-  },
-  {
-    "source_directory": "RavenWL_Plt_D",
-    "filename": "RavenWL_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "3dc5b2cc21a98e7beb56f8289b3465eca6ab79da4b2237be073ef89099563ee7"
-  },
-  {
-    "source_directory": "Raven_Plt",
-    "filename": "Raven_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "05ecb9873779d31d10863e4b88340f404a7aa8cea3fc66acda1fc6c9f2ff4fea"
-  },
-  {
-    "source_directory": "Raven_Plt_D",
-    "filename": "Raven_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "3dc5b2cc21a98e7beb56f8289b3465eca6ab79da4b2237be073ef89099563ee7"
-  },
-  {
-    "source_directory": "Rel_Brdge_Off",
-    "filename": "Rel_Brdge_Off.fm8",
-    "frames": 51,
-    "native_sha256": "efb3b671735d015dc86c2ed0c712619675b62668c8ac97c43736ef74c59b3778"
-  },
-  {
-    "source_directory": "Rel_Brdge_Off_D",
-    "filename": "Rel_Brdge_Off_D.fm8",
-    "frames": 16,
-    "native_sha256": "1d3b2b5c8cfabfd4c64134cca1e4a1e4529cd6d763a2db181b40e0eefcf14706"
-  },
-  {
-    "source_directory": "Ripper_Plt",
-    "filename": "Ripper_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "9ebea0749e79d9b850392af95c6f0b0c6c9b4a47346a73da35181d1e4cf5075a"
-  },
-  {
-    "source_directory": "Ripper_Plt_D",
-    "filename": "Ripper_Plt_D.fm8",
-    "frames": 11,
-    "native_sha256": "d701b73ddec0470b3dfca8af678ff44be3cd899a0e27630e61804d0869ee9eb5"
-  },
-  {
-    "source_directory": "RoninWL_Plt",
-    "filename": "RoninWL_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "867b6242c4b4283bf3c3485061d6b1ffe3bb774baa5033cc5939b08966d2c019"
-  },
-  {
-    "source_directory": "RoninWL_Plt_D",
-    "filename": "RoninWL_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "b6328b8f33d847f85c4811567e3c9cb919169d8653579a19f4c8c05214020b0b"
-  },
-  {
-    "source_directory": "RoninWL_Plt_L",
-    "filename": "RoninWL_Plt_L.fm8",
-    "frames": 61,
-    "native_sha256": "55a56e3b74f9303168c8452329971f26a8b209a3d5dbacd6fd563b50b7481dff"
-  },
-  {
-    "source_directory": "Ronin_Plt",
-    "filename": "Ronin_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "6affce00edf805b4da22661b66258ff5a9eebb282711ab6473de40b4c08bf87b"
-  },
-  {
-    "source_directory": "Ronin_Plt_D",
-    "filename": "Ronin_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "68db9cebe7595177abe5181560ff4d37defd431502290a321df46afb45f239e1"
-  },
-  {
-    "source_directory": "SabreWL_Plt_D",
-    "filename": "SabreWL_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "c21c66f95cc5473ec955457ab1f5707455dcc98120ad797e27a55d737d109b51"
-  },
-  {
-    "source_directory": "SabreWL_plt_",
-    "filename": "SabreWL_plt_.fm8",
-    "frames": 61,
-    "native_sha256": "e55d6676b57e04c0f7c43e86a6c35b0d18a4f342ebcd8b7dc34644881d6ca418"
-  },
-  {
-    "source_directory": "Sabre_Plt",
-    "filename": "Sabre_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "78c21c9dfbedfccea516c150f3f35500b7404c4b30a656819096fa2058c1b974"
-  },
-  {
-    "source_directory": "Sabre_Plt_D",
-    "filename": "Sabre_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "b588c2e794e7849ab2bf94430d4748622be2f9a02bbfd74742ca46e9fa24c784"
-  },
-  {
-    "source_directory": "SaracenWL_Plt",
-    "filename": "SaracenWL_Plt.fm8",
-    "frames": 81,
-    "native_sha256": "f7fe5dbdd3763c89a2aafc28711e7b9311e6589513a66bde2fb83d2ece18a121"
-  },
-  {
-    "source_directory": "SaracenWL_Plt_D",
-    "filename": "SaracenWL_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "8a1c541ceb0b010d3dde7b6747f25f942e0f056e44846f40f28bb120bf07052d"
-  },
-  {
-    "source_directory": "Saracen_Plt",
-    "filename": "Saracen_Plt.fm8",
-    "frames": 46,
-    "native_sha256": "114ee0c7dd6a07c97059b15cf6167c0ab7b9cee4eba3071250762fb67eaa095c"
-  },
-  {
-    "source_directory": "Saracen_Plt_D",
-    "filename": "Saracen_Plt_D.fm8",
-    "frames": 27,
-    "native_sha256": "fed2cc75b610f8be2200bb3f3c560de31d07977dd12c46d71ba327aca583bb1c"
-  },
-  {
-    "source_directory": "ScorpionWL_Plt",
-    "filename": "ScorpionWL_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "4e28c3aca86bfcbebde8026f32b7c8205e105ccdd2631b10b0d422524cf679bb"
-  },
-  {
-    "source_directory": "ScorpionWL_Plt_D",
-    "filename": "ScorpionWL_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "354d4b38cf554d5fc7c9c458d6cb4a3822f7214fbbcfa56e8ef70d0889b3af9d"
-  },
-  {
-    "source_directory": "Scorpion_Plt",
-    "filename": "Scorpion_Plt.fm8",
-    "frames": 46,
-    "native_sha256": "4c527278d348b85c18451ec1b11597eda640747221b66704a61b0b3aaa0eac06"
-  },
-  {
-    "source_directory": "Scorpion_Plt_D",
-    "filename": "Scorpion_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "def82cf79e069e452bfa364849d7b9ffdd72793b08c8c1dbfd013c3448f6840f"
-  },
-  {
-    "source_directory": "Stahl_BrdShip",
-    "filename": "Stahl_BrdShip.fm8",
-    "frames": 61,
-    "native_sha256": "3a5cf47394779a4ed4c79263d843e515882e1dba9ce8cdf317c3e6b2c3977603"
-  },
-  {
-    "source_directory": "Stahl_Marines",
-    "filename": "Stahl_Marines.fm8",
-    "frames": 61,
-    "native_sha256": "165122ec7e07722d1c771750b04c45ba495811266f52b4ecff189e96c762313c"
-  },
-  {
-    "source_directory": "Stahl_RippShip",
-    "filename": "Stahl_RippShip.fm8",
-    "frames": 61,
-    "native_sha256": "98af38b9466550299e110bf6353cd7a1b66756d076fb04318e2547021a1d91c7"
-  },
-  {
-    "source_directory": "Stahl_RippShip_D",
-    "filename": "Stahl_RippShip_D.fm8",
-    "frames": 16,
-    "native_sha256": "4822eac55663e328dd0ee8a5d24d7c298c51f4d457eff162b55140e9b6274832"
-  },
-  {
-    "source_directory": "Stahl_RippShip_L",
-    "filename": "Stahl_RippShip_L.fm8",
-    "frames": 61,
-    "native_sha256": "0f0c2c3dd1f33b3146f78253205952f821d4893b13d03b927631ecc10b20cd14"
-  },
-  {
-    "source_directory": "Stiener_Ejected",
-    "filename": "Stiener_Ejected.fm8",
-    "frames": 61,
-    "native_sha256": "cf1a6930a3411ab248802425061a924f1cc61dca68cd695776c52aab562286ad"
-  },
-  {
-    "source_directory": "Stiener_Ejected_D",
-    "filename": "Stiener_Ejected_D.fm8",
-    "frames": 16,
-    "native_sha256": "d12eaf3cf3f780a82961555c605d70ec8a5a0a8d047f27a2f173cf33f0431983"
-  },
-  {
-    "source_directory": "StingerWL_Plt_D",
-    "filename": "StingerWL_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "28dbc6c322faafd8f59881f0560b78fd7a0253ef2391d02f1736fbd7ebd1dc0e"
-  },
-  {
-    "source_directory": "StingerWL_Plt_L",
-    "filename": "StingerWL_Plt_L.fm8",
-    "frames": 61,
-    "native_sha256": "fc414ec98e44f5629daf5bb7b2bd30617bcf2f0942e9de0009f3361c161fab37"
-  },
-  {
-    "source_directory": "Stinger_Plt",
-    "filename": "Stinger_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "e9450ed1f183e15804597602b43470bb753da4c4de845b141e403bdd727dfc44"
-  },
-  {
-    "source_directory": "Stinger_Plt_D",
-    "filename": "Stinger_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "085df0f7acf4c6072523a66085a21a35538cbe1c88dd471fa6c02c20f3cafb21"
-  },
-  {
-    "source_directory": "Stork_Plt",
-    "filename": "Stork_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "538e78eef30a773bb7acd5baa27c780af3d656ed4c623b26b96106e5ef8aedaa"
-  },
-  {
-    "source_directory": "Stork_Plt_D",
-    "filename": "Stork_Plt_D.fm8",
-    "frames": 11,
-    "native_sha256": "1b1094038bcc630283d3056d5245b8375d0e410ed06ff2e22cd11349b1cda6c4"
-  },
-  {
-    "source_directory": "Ullys_Capt",
-    "filename": "Ullys_Capt.fm8",
-    "frames": 41,
-    "native_sha256": "66bd6a8e3aa4c9fffbfbafde887f4332ce5b8f09babb950d7d14e5dd6d29f3fb"
-  },
-  {
-    "source_directory": "Ullys_Capt_Panic",
-    "filename": "Ullys_Capt_Panic.fm8",
-    "frames": 26,
-    "native_sha256": "d90dd23de1a1a92852a7601af570f943cb9934114a0adb34f31c3e5aab2dad38"
-  },
-  {
-    "source_directory": "VampireWL_Stiener",
-    "filename": "VampireWL_Stiener.fm8",
-    "frames": 61,
-    "native_sha256": "9db95f69cb478b23e116f0db460e188d619a7895e63bfe20382082f16ba34b27"
-  },
-  {
-    "source_directory": "VampireWL_Stiener_D",
-    "filename": "VampireWL_Stiener_D.fm8",
-    "frames": 16,
-    "native_sha256": "d3b1139c9c53279dc05b49ad061eac868e0f479cb3547a3061830bbb6ae29991"
-  },
-  {
-    "source_directory": "VampireWL_Stiener_L",
-    "filename": "VampireWL_Stiener_L.fm8",
-    "frames": 61,
-    "native_sha256": "85f5a831974a869773e0951a830965b55c9ce6db755862d36a9936aaef3299c0"
-  },
-  {
-    "source_directory": "Vampire_Plt",
-    "filename": "Vampire_Plt.fm8",
-    "frames": 61,
-    "native_sha256": "9588b30ab30c7ce94958a9cc2bd3de1bbe070b8a9b9d9ac0cbd61a53fc19fbe8"
-  },
-  {
-    "source_directory": "Vampire_Plt_D",
-    "filename": "Vampire_Plt_D.fm8",
-    "frames": 16,
-    "native_sha256": "6a8ec81ed433eace4c829fc85481930505058ef3a2a5c43e71f3a0aa0a50a2ff"
-  },
-  {
-    "source_directory": "Victorious_Brdge_Off",
-    "filename": "Victorious_Brdge_Off.fm8",
-    "frames": 51,
-    "native_sha256": "5d64e36f271aabaae6d261a06ddf43f0d9255110638757a1c4a447e1fbe63048"
-  },
-  {
-    "source_directory": "Victorious_Brdge_Off_D",
-    "filename": "Victorious_Brdge_Off_D.fm8",
-    "frames": 16,
-    "native_sha256": "7bbffc504118449e2037f70621eb07a310bba7b3a846c57a63e64df75716611c"
-  },
-  {
-    "source_directory": "VirtFlt_Ins",
-    "filename": "VirtFlt_Ins.fm8",
-    "frames": 81,
-    "native_sha256": "0014baf84e71b4ea0f9c76a63f42fb04f53b60c8cd1c10a35ecd66d2e1546011"
-  },
-  {
-    "source_directory": "Washngtn_Brdge_Off",
-    "filename": "Washngtn_Brdge_Off.fm8",
-    "frames": 51,
-    "native_sha256": "8c325b8301c850d5f0bd8ca88a9df04299e12d9f2f26cf64575c20aac600b7a3"
-  },
-  {
-    "source_directory": "Yam_Brdge_Off",
-    "filename": "Yam_Brdge_Off.fm8",
-    "frames": 66,
-    "native_sha256": "1915521db4399285cdff21714c6cf97c1e054e57b5765b5e743999b49fa71a62"
-  },
-  {
-    "source_directory": "Yam_Brdge_Off_D",
-    "filename": "Yam_Brdge_Off_D.fm8",
-    "frames": 16,
-    "native_sha256": "a8ffa5901ee198ebee8b14bbf7d20ef3a5c73b5eae80e23706ebc1191d6b4468"
-  },
-  {
-    "source_directory": "baxbc",
-    "filename": "baxbc.fm8",
-    "frames": 51,
-    "native_sha256": "f0c7d207828e6117c0ece1da6e420c59fc2322a15846ac4c492cbf10a90adcd3"
-  },
-  {
-    "source_directory": "enriquez",
-    "filename": "enriquez.fm8",
-    "frames": 46,
-    "native_sha256": "7596556138d62313632a2fd1df5a7921ff748fc4ee3902b1b476b9317648bf22"
-  },
-  {
-    "source_directory": "frtcrtr_comms",
-    "filename": "frtcrtr_comms.fm8",
-    "frames": 51,
-    "native_sha256": "0e1bff9204c78d6da8e18457b2d9b65cffab1db70632f29e426dc96eb29a07b5"
-  },
-  {
-    "source_directory": "frtcrtr_comms_death",
-    "filename": "frtcrtr_comms_death.fm8",
-    "frames": 16,
-    "native_sha256": "8a1c541ceb0b010d3dde7b6747f25f942e0f056e44846f40f28bb120bf07052d"
-  },
-  {
-    "source_directory": "frtshrmn_comms",
-    "filename": "frtshrmn_comms.fm8",
-    "frames": 51,
-    "native_sha256": "6154887ce9d4ccd5f093703941f412e5f35f880b63550da20626c4f93b3821d5"
-  },
-  {
-    "source_directory": "general",
-    "filename": "general.fm8",
-    "frames": 28,
-    "native_sha256": "2f5dc55d972e816e593ad5d858b15633683d0a8697ac06d1c6ab58bb482db3f0"
-  },
-  {
-    "source_directory": "goldwarrWL_plt",
-    "filename": "goldwarrWL_plt.fm8",
-    "frames": 61,
-    "native_sha256": "bcd72c8212c5ee9f19fd8049156f935dafcabad76851ee9d73acbf3f7ae94d0a"
-  },
-  {
-    "source_directory": "goldwarrWL_plt_d",
-    "filename": "goldwarrWL_plt_d.fm8",
-    "frames": 16,
-    "native_sha256": "6dd4ed17cf903b3e0a832fde3fd951ff671a7d5ddabfee07653354b98c2f7e0f"
-  },
-  {
-    "source_directory": "hellcatwl_l",
-    "filename": "hellcatwl_l.fm8",
-    "frames": 61,
-    "native_sha256": "15362fd1484af66d4236ad66f3f30b2ed82caeae6fdf1668979c187ea422f1db"
-  },
-  {
-    "source_directory": "hornetwl_plt",
-    "filename": "hornetwl_plt.fm8",
-    "frames": 61,
-    "native_sha256": "5719bc41cb313f1719541f362e63a49f5b001050488838d55bc57a542e9490e6"
-  },
-  {
-    "source_directory": "hornetwl_plt_d",
-    "filename": "hornetwl_plt_d.fm8",
-    "frames": 16,
-    "native_sha256": "b8cb5f2ea9ef05c3f1155886e24220ece97ffb8c305fd2a3ab3225da99f9b592"
-  },
-  {
-    "source_directory": "hornetwl_plt_l",
-    "filename": "hornetwl_plt_l.fm8",
-    "frames": 61,
-    "native_sha256": "38066b3611479a891bb80a20d18f45cdb2c82385efae7aed4f93190a15ce7f87"
-  },
-  {
-    "source_directory": "kurgen_pil",
-    "filename": "kurgen_pil.fm8",
-    "frames": 61,
-    "native_sha256": "625b816024f51499d1f9bdb10d7d35d7fefb60cce0c6dbd9eb547cdf81f996cd"
-  },
-  {
     "source_directory": "mammoth_plt_05",
     "filename": "mammoth_plt_05.fm8",
     "frames": 51,
@@ -1278,6 +954,54 @@
     "native_sha256": "0b24b318141dd38ff349a66a03336c79113597fd8f887b276c17d12142f7cd98"
   },
   {
+    "source_directory": "Marauders_Plt",
+    "filename": "Marauders_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "47871c802dec8b7b1f7b0b50d52c9e141c1d6795b188834e43f28de5d2a5dca0"
+  },
+  {
+    "source_directory": "Marauders_Plt_D",
+    "filename": "Marauders_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "e193e68bdec1e77bb6baf8c6dcb1fb00b30090fc2bfab4cf95ef6e185d72723c"
+  },
+  {
+    "source_directory": "MarauderWL_Plt",
+    "filename": "MarauderWL_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "b722fbd71c8cda9f18806febbe899b32fa645a97672ebf32aecfa445b54d9d96"
+  },
+  {
+    "source_directory": "MarauderWL_Plt_D",
+    "filename": "MarauderWL_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "68830f772bb2cafffd8bef707894b017d99c41b49c7cb74584e1d26354afe7b9"
+  },
+  {
+    "source_directory": "Marine_Combat",
+    "filename": "Marine_Combat.fm8",
+    "frames": 51,
+    "native_sha256": "f3c5b58a6425b3c03fe96293c8be7bbc36b1eaaf45522def6b60d1302327acb1"
+  },
+  {
+    "source_directory": "Marine_Leader",
+    "filename": "Marine_Leader.fm8",
+    "frames": 51,
+    "native_sha256": "a9f9af9c4d08a64aea9cc62cc2a93f76fa3e898e01ddaa39a536a22000cbbf8d"
+  },
+  {
+    "source_directory": "Mauler_Plt",
+    "filename": "Mauler_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "74ee1a9196b03625449c663d33cf8783bda4631a120c333df9795ec84462b87a"
+  },
+  {
+    "source_directory": "Mauler_Plt_D",
+    "filename": "Mauler_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "6730d9c9c88ff08d502ba418047bd1ab1747b2c236154a7d7e506d501612c740"
+  },
+  {
     "source_directory": "maulerwl_plt",
     "filename": "maulerwl_plt.fm8",
     "frames": 61,
@@ -1296,16 +1020,301 @@
     "native_sha256": "9f2d8f1fef944a733f06cfb39e14d909a7dbcccb4a8018b332f831538d3474f3"
   },
   {
+    "source_directory": "MCGALOOK",
+    "filename": "MCGALOOK.FM8",
+    "frames": 61,
+    "native_sha256": "14146a5bd3cf54125f26243c1f11f7b792633a2b0754dfe84d6bfa524b9b004f",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/MCGALOOK/restoration.json"
+  },
+  {
+    "source_directory": "MCGANNNO",
+    "filename": "MCGANNNO.FM8",
+    "frames": 61,
+    "native_sha256": "e284e6bc99acf5177d00e54b1cd7037de000b7617ee42a074fc8aa5451941a3c",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/MCGANNNO/restoration.json"
+  },
+  {
+    "source_directory": "MCGDEATH",
+    "filename": "MCGDEATH.FM8",
+    "frames": 16,
+    "native_sha256": "95782bd6e4d265e35caf015dfc395b92325817596bb961199639e2ac53156cc5",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/MCGDEATH/restoration.json"
+  },
+  {
+    "source_directory": "Mitchel_Brdge_Off",
+    "filename": "Mitchel_Brdge_Off.fm8",
+    "frames": 51,
+    "native_sha256": "40e2c57b3ca6bd67cda8efb6d7a68fa87727d40f64a6f19f5296245cf3625c0c"
+  },
+  {
+    "source_directory": "Mtchel_Brdge_Off_D",
+    "filename": "Mtchel_Brdge_Off_D.fm8",
+    "frames": 32,
+    "native_sha256": "d24aeb3b12041eb6be1a4435cc0a703b84e3dc406c637809bb7048c99ecb6d30"
+  },
+  {
+    "source_directory": "Nanny_Ldr",
+    "filename": "Nanny_Ldr.fm8",
+    "frames": 61,
+    "native_sha256": "f9d00477e01cf9d6de6af102c8d769973ecd4e6fa48690b67f7783eced9c2112"
+  },
+  {
+    "source_directory": "Nanny_Ldr_D",
+    "filename": "Nanny_Ldr_D.fm8",
+    "frames": 20,
+    "native_sha256": "ba7067da82ce554df137b87f2a0de6117a3a95faa136c705d7cb4eabba17e63f"
+  },
+  {
+    "source_directory": "Nanny_Ldr_L",
+    "filename": "Nanny_Ldr_L.fm8",
+    "frames": 61,
+    "native_sha256": "87c5ac7de1a3edd0586e92668ab988023448259990f8651097e6cdf4f2afa765"
+  },
+  {
+    "source_directory": "NANNYD",
+    "filename": "NANNYD.FM8",
+    "frames": 20,
+    "native_sha256": "ba7067da82ce554df137b87f2a0de6117a3a95faa136c705d7cb4eabba17e63f",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/NANNYD/restoration.json",
+    "reused_hd_from": "Nanny_Ldr_D.fm8"
+  },
+  {
+    "source_directory": "NANNYL",
+    "filename": "NANNYL.FM8",
+    "frames": 61,
+    "native_sha256": "87c5ac7de1a3edd0586e92668ab988023448259990f8651097e6cdf4f2afa765",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/NANNYL/restoration.json",
+    "reused_hd_from": "Nanny_Ldr_L.fm8"
+  },
+  {
     "source_directory": "nannyp",
     "filename": "nannyp.fm8",
     "frames": 61,
     "native_sha256": "f9d00477e01cf9d6de6af102c8d769973ecd4e6fa48690b67f7783eced9c2112"
   },
   {
+    "source_directory": "Pirate_Plt",
+    "filename": "Pirate_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "048257ab63ef87e649cbf55563a3948f3343f7189aac0527483cec47aedc9d7b"
+  },
+  {
+    "source_directory": "Pirate_Plt_D",
+    "filename": "Pirate_Plt_D.fm8",
+    "frames": 11,
+    "native_sha256": "dd15c6d0e2e4772d02e6d12c238d0df6cdc608877892a0eaea63a1c3351b6540"
+  },
+  {
+    "source_directory": "PirateWL_Plt",
+    "filename": "PirateWL_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "d023172e671508920c47b168407ee9403334c4e6e3435937407123f6e611d3f7"
+  },
+  {
+    "source_directory": "PirateWL_Plt_D",
+    "filename": "PirateWL_Plt_D.fm8",
+    "frames": 11,
+    "native_sha256": "dd15c6d0e2e4772d02e6d12c238d0df6cdc608877892a0eaea63a1c3351b6540"
+  },
+  {
+    "source_directory": "PirateWL_Plt_L",
+    "filename": "PirateWL_Plt_L.fm8",
+    "frames": 61,
+    "native_sha256": "6e70d5bd96ea675cfb41e0360cfc87d362b92b4b31aab1da4b91b7563f0a9e0f"
+  },
+  {
+    "source_directory": "PROWLD",
+    "filename": "PROWLD.FM8",
+    "frames": 11,
+    "native_sha256": "778b9fc37e802889139f8f7322f3cf2a3c505cf16a5d6f05a31de15a0c397c68",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/PROWLD/restoration.json",
+    "reused_hd_from": "Prowler_Plt_D.fm8"
+  },
+  {
+    "source_directory": "Prowler_Plt",
+    "filename": "Prowler_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "d14ab814b52882fd63cff493649ce9333ff4fa88393771f1dfd07556346f3b99"
+  },
+  {
+    "source_directory": "Prowler_Plt_D",
+    "filename": "Prowler_Plt_D.fm8",
+    "frames": 11,
+    "native_sha256": "778b9fc37e802889139f8f7322f3cf2a3c505cf16a5d6f05a31de15a0c397c68"
+  },
+  {
+    "source_directory": "PROWLP",
+    "filename": "PROWLP.FM8",
+    "frames": 61,
+    "native_sha256": "d14ab814b52882fd63cff493649ce9333ff4fa88393771f1dfd07556346f3b99",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/PROWLP/restoration.json",
+    "reused_hd_from": "Prowler_Plt.fm8"
+  },
+  {
+    "source_directory": "Pukov_Cap",
+    "filename": "Pukov_Cap.fm8",
+    "frames": 51,
+    "native_sha256": "d47d8da42a7f9edd3263af52e081e0eabf9c80cc11c0b79ba1a562e2816cf428"
+  },
+  {
+    "source_directory": "Pukov_Cap_D",
+    "filename": "Pukov_Cap_D.fm8",
+    "frames": 16,
+    "native_sha256": "f1709ec746ed6aa4c84ee79d396f18f4ac9cd246fbeebaec800fc126239b5f3a"
+  },
+  {
+    "source_directory": "Puma_Plt",
+    "filename": "Puma_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "3c96b2c36076736b3a944b38515fbf982131ce0d7ed97ebf34d935c37e75bd21"
+  },
+  {
+    "source_directory": "Puma_Plt_D",
+    "filename": "Puma_Plt_D.fm8",
+    "frames": 11,
+    "native_sha256": "7a0a992a30aa827638cec0e0c7807e5cb6d353890ad66192c752585d5f288473"
+  },
+  {
+    "source_directory": "PUMAG",
+    "filename": "PUMAG.FM8",
+    "frames": 61,
+    "native_sha256": "ba64c1405998b66e446e12ecf76a8debf0de605b372dc12709be251df9187dda",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/PUMAG/restoration.json"
+  },
+  {
+    "source_directory": "PUMATANG",
+    "filename": "PUMATANG.FM8",
+    "frames": 61,
+    "native_sha256": "18466158c60c6f678cddd020905945a02cc0c36eec5a7271bc0358d97355bf7c",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/PUMATANG/restoration.json"
+  },
+  {
+    "source_directory": "PUMATANL",
+    "filename": "PUMATANL.FM8",
+    "frames": 61,
+    "native_sha256": "7720402954d7cfe2778c2d6586caeba300c01ca66d979e15ec505b79d00ab19c",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/PUMATANL/restoration.json"
+  },
+  {
+    "source_directory": "PumaWL_Plt",
+    "filename": "PumaWL_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "a41f257a50a4766f042ae5b9705d8f2987c66b9a012026e292a9b5eae1551782"
+  },
+  {
+    "source_directory": "PumaWL_Plt_D",
+    "filename": "PumaWL_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "32d0ed3b3daa790fb4633044d66251695af2b80207b7f15359458c32ce5966f3"
+  },
+  {
+    "source_directory": "PumaWL_Plt_L",
+    "filename": "PumaWL_Plt_L.fm8",
+    "frames": 61,
+    "native_sha256": "594e210e479d6002598f5a960827c1f36b5de627ce3b756bec106f3e384e2d0c"
+  },
+  {
+    "source_directory": "Raven_Plt",
+    "filename": "Raven_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "05ecb9873779d31d10863e4b88340f404a7aa8cea3fc66acda1fc6c9f2ff4fea"
+  },
+  {
+    "source_directory": "Raven_Plt_D",
+    "filename": "Raven_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "3dc5b2cc21a98e7beb56f8289b3465eca6ab79da4b2237be073ef89099563ee7"
+  },
+  {
+    "source_directory": "RavenWL_Plt",
+    "filename": "RavenWL_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "8dc1d57f011d4310233f0d18111286b76f558e2cd2325daed94e5851d4177ac5"
+  },
+  {
+    "source_directory": "RavenWL_Plt_D",
+    "filename": "RavenWL_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "3dc5b2cc21a98e7beb56f8289b3465eca6ab79da4b2237be073ef89099563ee7"
+  },
+  {
+    "source_directory": "Rel_Brdge_Off",
+    "filename": "Rel_Brdge_Off.fm8",
+    "frames": 51,
+    "native_sha256": "efb3b671735d015dc86c2ed0c712619675b62668c8ac97c43736ef74c59b3778"
+  },
+  {
+    "source_directory": "Rel_Brdge_Off_D",
+    "filename": "Rel_Brdge_Off_D.fm8",
+    "frames": 16,
+    "native_sha256": "1d3b2b5c8cfabfd4c64134cca1e4a1e4529cd6d763a2db181b40e0eefcf14706"
+  },
+  {
+    "source_directory": "Ripper_Plt",
+    "filename": "Ripper_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "9ebea0749e79d9b850392af95c6f0b0c6c9b4a47346a73da35181d1e4cf5075a"
+  },
+  {
+    "source_directory": "Ripper_Plt_D",
+    "filename": "Ripper_Plt_D.fm8",
+    "frames": 11,
+    "native_sha256": "d701b73ddec0470b3dfca8af678ff44be3cd899a0e27630e61804d0869ee9eb5"
+  },
+  {
+    "source_directory": "Ronin_Plt",
+    "filename": "Ronin_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "6affce00edf805b4da22661b66258ff5a9eebb282711ab6473de40b4c08bf87b"
+  },
+  {
+    "source_directory": "Ronin_Plt_D",
+    "filename": "Ronin_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "68db9cebe7595177abe5181560ff4d37defd431502290a321df46afb45f239e1"
+  },
+  {
+    "source_directory": "RoninWL_Plt",
+    "filename": "RoninWL_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "867b6242c4b4283bf3c3485061d6b1ffe3bb774baa5033cc5939b08966d2c019"
+  },
+  {
+    "source_directory": "RoninWL_Plt_D",
+    "filename": "RoninWL_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "b6328b8f33d847f85c4811567e3c9cb919169d8653579a19f4c8c05214020b0b"
+  },
+  {
+    "source_directory": "RoninWL_Plt_L",
+    "filename": "RoninWL_Plt_L.fm8",
+    "frames": 61,
+    "native_sha256": "55a56e3b74f9303168c8452329971f26a8b209a3d5dbacd6fd563b50b7481dff"
+  },
+  {
     "source_directory": "russbom",
     "filename": "russbom.fm8",
     "frames": 61,
     "native_sha256": "5fccd221d8a0b74d4214ee847a74c4c9a4b630c7c49464a9ea31c9ce8e77d94a"
+  },
+  {
+    "source_directory": "RUSSBOMB",
+    "filename": "RUSSBOMB.FM8",
+    "frames": 61,
+    "native_sha256": "96515e751a4341d3c9eef4212fbfb280f2b25d6d4e6f5c11677aedb6cedd7ea2",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/RUSSBOMB/restoration.json",
+    "reused_hd_from": "C_TorpWL_Plt.fm8"
   },
   {
     "source_directory": "russbomd",
@@ -1326,10 +1335,112 @@
     "native_sha256": "c18c63d825a166a1cbe22de3dd0e875aba3a28eb7fa891b91192975f27249295"
   },
   {
+    "source_directory": "Sabre_Plt",
+    "filename": "Sabre_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "78c21c9dfbedfccea516c150f3f35500b7404c4b30a656819096fa2058c1b974"
+  },
+  {
+    "source_directory": "Sabre_Plt_D",
+    "filename": "Sabre_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "b588c2e794e7849ab2bf94430d4748622be2f9a02bbfd74742ca46e9fa24c784"
+  },
+  {
+    "source_directory": "SabreWL_plt_",
+    "filename": "SabreWL_plt_.fm8",
+    "frames": 61,
+    "native_sha256": "e55d6676b57e04c0f7c43e86a6c35b0d18a4f342ebcd8b7dc34644881d6ca418"
+  },
+  {
+    "source_directory": "SabreWL_Plt_D",
+    "filename": "SabreWL_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "c21c66f95cc5473ec955457ab1f5707455dcc98120ad797e27a55d737d109b51"
+  },
+  {
+    "source_directory": "Saracen_Plt",
+    "filename": "Saracen_Plt.fm8",
+    "frames": 46,
+    "native_sha256": "114ee0c7dd6a07c97059b15cf6167c0ab7b9cee4eba3071250762fb67eaa095c"
+  },
+  {
+    "source_directory": "Saracen_Plt_D",
+    "filename": "Saracen_Plt_D.fm8",
+    "frames": 27,
+    "native_sha256": "fed2cc75b610f8be2200bb3f3c560de31d07977dd12c46d71ba327aca583bb1c"
+  },
+  {
+    "source_directory": "SaracenWL_Plt",
+    "filename": "SaracenWL_Plt.fm8",
+    "frames": 81,
+    "native_sha256": "f7fe5dbdd3763c89a2aafc28711e7b9311e6589513a66bde2fb83d2ece18a121"
+  },
+  {
+    "source_directory": "SaracenWL_Plt_D",
+    "filename": "SaracenWL_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "8a1c541ceb0b010d3dde7b6747f25f942e0f056e44846f40f28bb120bf07052d"
+  },
+  {
+    "source_directory": "Scorpion_Plt",
+    "filename": "Scorpion_Plt.fm8",
+    "frames": 46,
+    "native_sha256": "4c527278d348b85c18451ec1b11597eda640747221b66704a61b0b3aaa0eac06"
+  },
+  {
+    "source_directory": "Scorpion_Plt_D",
+    "filename": "Scorpion_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "def82cf79e069e452bfa364849d7b9ffdd72793b08c8c1dbfd013c3448f6840f"
+  },
+  {
+    "source_directory": "ScorpionWL_Plt",
+    "filename": "ScorpionWL_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "4e28c3aca86bfcbebde8026f32b7c8205e105ccdd2631b10b0d422524cf679bb"
+  },
+  {
+    "source_directory": "ScorpionWL_Plt_D",
+    "filename": "ScorpionWL_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "354d4b38cf554d5fc7c9c458d6cb4a3822f7214fbbcfa56e8ef70d0889b3af9d"
+  },
+  {
     "source_directory": "sladin_cap_normal",
     "filename": "sladin_cap_normal.fm8",
     "frames": 51,
     "native_sha256": "ee5b383b7df683cfc41f25e557520e96364e6324e9436d9e6832788c1b50ae7b"
+  },
+  {
+    "source_directory": "Stahl_BrdShip",
+    "filename": "Stahl_BrdShip.fm8",
+    "frames": 61,
+    "native_sha256": "3a5cf47394779a4ed4c79263d843e515882e1dba9ce8cdf317c3e6b2c3977603"
+  },
+  {
+    "source_directory": "Stahl_Marines",
+    "filename": "Stahl_Marines.fm8",
+    "frames": 61,
+    "native_sha256": "165122ec7e07722d1c771750b04c45ba495811266f52b4ecff189e96c762313c"
+  },
+  {
+    "source_directory": "Stahl_RippShip",
+    "filename": "Stahl_RippShip.fm8",
+    "frames": 61,
+    "native_sha256": "98af38b9466550299e110bf6353cd7a1b66756d076fb04318e2547021a1d91c7"
+  },
+  {
+    "source_directory": "Stahl_RippShip_D",
+    "filename": "Stahl_RippShip_D.fm8",
+    "frames": 16,
+    "native_sha256": "4822eac55663e328dd0ee8a5d24d7c298c51f4d457eff162b55140e9b6274832"
+  },
+  {
+    "source_directory": "Stahl_RippShip_L",
+    "filename": "Stahl_RippShip_L.fm8",
+    "frames": 61,
+    "native_sha256": "0f0c2c3dd1f33b3146f78253205952f821d4893b13d03b927631ecc10b20cd14"
   },
   {
     "source_directory": "static",
@@ -1338,15 +1449,175 @@
     "native_sha256": "6761ee1badc1a5dc8f7b7cffca34297578a5170a04fb8f5f6ce7146683c7cbb4"
   },
   {
+    "source_directory": "STEINP",
+    "filename": "STEINP.FM8",
+    "frames": 61,
+    "native_sha256": "13de3475cd529584d8d3073dae2303c4a3a026d8504a420f46e1f8aa7057acc2",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/STEINP/restoration.json"
+  },
+  {
+    "source_directory": "Stiener_Ejected",
+    "filename": "Stiener_Ejected.fm8",
+    "frames": 61,
+    "native_sha256": "cf1a6930a3411ab248802425061a924f1cc61dca68cd695776c52aab562286ad"
+  },
+  {
+    "source_directory": "Stiener_Ejected_D",
+    "filename": "Stiener_Ejected_D.fm8",
+    "frames": 16,
+    "native_sha256": "d12eaf3cf3f780a82961555c605d70ec8a5a0a8d047f27a2f173cf33f0431983"
+  },
+  {
+    "source_directory": "Stinger_Plt",
+    "filename": "Stinger_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "e9450ed1f183e15804597602b43470bb753da4c4de845b141e403bdd727dfc44"
+  },
+  {
+    "source_directory": "Stinger_Plt_D",
+    "filename": "Stinger_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "085df0f7acf4c6072523a66085a21a35538cbe1c88dd471fa6c02c20f3cafb21"
+  },
+  {
+    "source_directory": "StingerWL_Plt_D",
+    "filename": "StingerWL_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "28dbc6c322faafd8f59881f0560b78fd7a0253ef2391d02f1736fbd7ebd1dc0e"
+  },
+  {
+    "source_directory": "StingerWL_Plt_L",
+    "filename": "StingerWL_Plt_L.fm8",
+    "frames": 61,
+    "native_sha256": "fc414ec98e44f5629daf5bb7b2bd30617bcf2f0942e9de0009f3361c161fab37"
+  },
+  {
+    "source_directory": "STINGWL",
+    "filename": "STINGWL.FM8",
+    "frames": 61,
+    "native_sha256": "e694cff16a374bec874b9f67da691d2dc0eac504f88b2082dc5789d680f9d49d",
+    "restoration_method": "new-temporal-restoration",
+    "restoration_record": "source/portraits/frames/STINGWL/restoration.json"
+  },
+  {
+    "source_directory": "Stork_Plt",
+    "filename": "Stork_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "538e78eef30a773bb7acd5baa27c780af3d656ed4c623b26b96106e5ef8aedaa"
+  },
+  {
+    "source_directory": "Stork_Plt_D",
+    "filename": "Stork_Plt_D.fm8",
+    "frames": 11,
+    "native_sha256": "1b1094038bcc630283d3056d5245b8375d0e410ed06ff2e22cd11349b1cda6c4"
+  },
+  {
     "source_directory": "test",
     "filename": "test.fm8",
     "frames": 61,
     "native_sha256": "49ed8e72dbb37571ff92557e6cfef9a79d024542cb296460ab409148ae852924"
   },
   {
+    "source_directory": "Ullys_Capt",
+    "filename": "Ullys_Capt.fm8",
+    "frames": 41,
+    "native_sha256": "66bd6a8e3aa4c9fffbfbafde887f4332ce5b8f09babb950d7d14e5dd6d29f3fb"
+  },
+  {
+    "source_directory": "Ullys_Capt_Panic",
+    "filename": "Ullys_Capt_Panic.fm8",
+    "frames": 26,
+    "native_sha256": "d90dd23de1a1a92852a7601af570f943cb9934114a0adb34f31c3e5aab2dad38"
+  },
+  {
     "source_directory": "ulycap",
     "filename": "ulycap.fm8",
     "frames": 41,
     "native_sha256": "66bd6a8e3aa4c9fffbfbafde887f4332ce5b8f09babb950d7d14e5dd6d29f3fb"
+  },
+  {
+    "source_directory": "ULYCAPD",
+    "filename": "ULYCAPD.FM8",
+    "frames": 26,
+    "native_sha256": "d90dd23de1a1a92852a7601af570f943cb9934114a0adb34f31c3e5aab2dad38",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/ULYCAPD/restoration.json",
+    "reused_hd_from": "Ullys_Capt_Panic.fm8"
+  },
+  {
+    "source_directory": "Vampire_Plt",
+    "filename": "Vampire_Plt.fm8",
+    "frames": 61,
+    "native_sha256": "9588b30ab30c7ce94958a9cc2bd3de1bbe070b8a9b9d9ac0cbd61a53fc19fbe8"
+  },
+  {
+    "source_directory": "Vampire_Plt_D",
+    "filename": "Vampire_Plt_D.fm8",
+    "frames": 16,
+    "native_sha256": "6a8ec81ed433eace4c829fc85481930505058ef3a2a5c43e71f3a0aa0a50a2ff"
+  },
+  {
+    "source_directory": "VampireWL_Stiener",
+    "filename": "VampireWL_Stiener.fm8",
+    "frames": 61,
+    "native_sha256": "9db95f69cb478b23e116f0db460e188d619a7895e63bfe20382082f16ba34b27"
+  },
+  {
+    "source_directory": "VampireWL_Stiener_D",
+    "filename": "VampireWL_Stiener_D.fm8",
+    "frames": 16,
+    "native_sha256": "d3b1139c9c53279dc05b49ad061eac868e0f479cb3547a3061830bbb6ae29991"
+  },
+  {
+    "source_directory": "VampireWL_Stiener_L",
+    "filename": "VampireWL_Stiener_L.fm8",
+    "frames": 61,
+    "native_sha256": "85f5a831974a869773e0951a830965b55c9ce6db755862d36a9936aaef3299c0"
+  },
+  {
+    "source_directory": "Victorious_Brdge_Off",
+    "filename": "Victorious_Brdge_Off.fm8",
+    "frames": 51,
+    "native_sha256": "5d64e36f271aabaae6d261a06ddf43f0d9255110638757a1c4a447e1fbe63048"
+  },
+  {
+    "source_directory": "Victorious_Brdge_Off_D",
+    "filename": "Victorious_Brdge_Off_D.fm8",
+    "frames": 16,
+    "native_sha256": "7bbffc504118449e2037f70621eb07a310bba7b3a846c57a63e64df75716611c"
+  },
+  {
+    "source_directory": "VirtFlt_Ins",
+    "filename": "VirtFlt_Ins.fm8",
+    "frames": 81,
+    "native_sha256": "0014baf84e71b4ea0f9c76a63f42fb04f53b60c8cd1c10a35ecd66d2e1546011"
+  },
+  {
+    "source_directory": "VIRTUAL",
+    "filename": "VIRTUAL.FM8",
+    "frames": 81,
+    "native_sha256": "0014baf84e71b4ea0f9c76a63f42fb04f53b60c8cd1c10a35ecd66d2e1546011",
+    "restoration_method": "exact-existing-hd-alias",
+    "restoration_record": "source/portraits/frames/VIRTUAL/restoration.json",
+    "reused_hd_from": "VirtFlt_Ins.fm8"
+  },
+  {
+    "source_directory": "Washngtn_Brdge_Off",
+    "filename": "Washngtn_Brdge_Off.fm8",
+    "frames": 51,
+    "native_sha256": "8c325b8301c850d5f0bd8ca88a9df04299e12d9f2f26cf64575c20aac600b7a3"
+  },
+  {
+    "source_directory": "Yam_Brdge_Off",
+    "filename": "Yam_Brdge_Off.fm8",
+    "frames": 66,
+    "native_sha256": "1915521db4399285cdff21714c6cf97c1e054e57b5765b5e743999b49fa71a62"
+  },
+  {
+    "source_directory": "Yam_Brdge_Off_D",
+    "filename": "Yam_Brdge_Off_D.fm8",
+    "frames": 16,
+    "native_sha256": "a8ffa5901ee198ebee8b14bbf7d20ef3a5c73b5eae80e23706ebc1191d6b4468"
   }
 ]

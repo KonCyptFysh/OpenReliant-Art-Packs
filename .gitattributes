@@ -25,3 +25,7 @@ docs/** -filter !diff !merge
 
 # Preserve every frozen HUD source/runtime byte so manifest hashes survive checkout.
 HUD/Recommissioned/** -text
+
+# Additional HUD portrait films and source animation previews.
+HUD/Recommissioned/**/*.FM8 filter=lfs diff=lfs merge=lfs -text
+HUD/Recommissioned/**/*.mp4 filter=lfs diff=lfs merge=lfs -text

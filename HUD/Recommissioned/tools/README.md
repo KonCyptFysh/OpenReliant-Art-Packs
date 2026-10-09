@@ -46,3 +46,10 @@ build a separate comparison copy without changing repository release records.
 `package_mod.py` is the existing public-release builder and remains unchanged.
 It must continue to reject this candidate while `release.json` is on hold.
 Neither tool installs to the game, changes the launcher or publishes a release.
+
+## Portrait additions
+
+`build_portraits.py --missing` preserves verified exports and builds new names,
+including uppercase .FM8 members. `restore_portraits.py` restores additional
+whole video sequences with the established RealBasicVSR x4 model. See
+`source/portraits/README.md` for checkpoint, inputs and output conventions.

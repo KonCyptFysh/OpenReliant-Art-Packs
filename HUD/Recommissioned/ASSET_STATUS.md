@@ -1,11 +1,45 @@
 # HUD asset status
 
-## First public beta — 9 October 2026
+## HUD 1.9 portrait completion, 9 October 2026 — Git source/runtime update
 
-HUD revision 1.8 is approved for this beta as-is. Artwork, script and shader
-bytes match the tested candidate. Release metadata and licence notices were
-added for publication. The earlier release hold below is historical; final
-stable release and broader QA remain pending.
+- Completed all 32 missing archive filenames: 17 new RealBasicVSR x4 video
+  restorations (842 frames), 14 exact aliases of existing HD films, and one
+  alias of a newly restored film. All 257 native names are now represented.
+- The editable collection contains 10,909 PNG frames at 480x400. The original
+  225 sequences / 9,353 frames and their runtime films remain byte-identical.
+- Runtime additions use the existing 484x404 tagged-film encoding and unchanged
+  portrait shader. All 1,556 added frames decode with correct opaque content,
+  transparent padding and reserved marker. Counts and native 15 fps timing match.
+- The exporter now includes uppercase .FM8 names and can build only missing
+  entries while checking existing source/runtime hashes.
+- Isolated McGann/Puma captures at 1080p and Stinger at 720p show the existing
+  portrait fit and frame placement. The test-only Bridge Officer slot/name is
+  used to display these films; no campaign pilot assignment has been changed.
+- The author's warning concerns the 0.8 script-command renames, already handled
+  in HUD 1.4. A source comparison through current main 319d5ac found no later
+  HUD command rename or portrait shader change. Tests still use unmodified
+  220affa / 0.8.1; current main was inspected, not installed.
+
+There are 1,187 flat runtime files. Only mod.ini changed among the previous
+1,155 files; all sprites, layout, script, shader and approved subtargets
+393–409 remain unchanged. The first public beta remains 1.8 / beta.1.
+This Git snapshot contains HUD 1.9. No new player release is published; beta.2 and further user review remain pending.
+See tracking/portrait-completion-1.9.json for codec and gameplay evidence.
+
+## First public beta published — 9 October 2026
+
+[HUD beta 0.1.0-beta.1](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hud-v0.1.0-beta.1) and its editable sources are public at
+source commit `9a7ebe56ebee8c477a2202e04d0fa63db374c026`. The player ZIP contains 1,155 runtime files and matching
+notices; its GitHub SHA-256 matches the locally verified package. The live
+`mods/HUD` deployment matches every runtime-manifest hash. Approved subtargets
+393–409 remain unchanged; Ion Cannon is 406. The public source snapshot has
+10,161 source/tool files, including the editable gallery cover. Inventories
+and remote verification are recorded in `tracking/beta-publication.json` and
+`OpenReliant-Art-Packs/HUD/Recommissioned/publication.json`.
+
+This beta was explicitly approved for publication as-is. The stable release,
+artwork backlog and broader QA remain pending; earlier release holds below
+are historical. The maintainer will post upstream requests separately.
 
 ## HUD 1.8, 9 October 2026
 

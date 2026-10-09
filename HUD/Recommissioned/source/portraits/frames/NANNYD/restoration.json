@@ -1,0 +1,116 @@
+{
+  "status": "complete",
+  "filename": "NANNYD.FM8",
+  "method": "exact-existing-hd-alias",
+  "reused_hd_from": "Nanny_Ldr_D.fm8",
+  "source_fm8_sha256": "ba7067da82ce554df137b87f2a0de6117a3a95faa136c705d7cb4eabba17e63f",
+  "native_sequence_rgba_sha256": "e5fb4bcd174890ec40aff6940a6f2aa859aa3d1ca949b3ad43662d3d096ddfbd",
+  "output_dimensions": [
+    480,
+    400
+  ],
+  "output_frame_count": 20,
+  "fps": 15,
+  "frames": [
+    {
+      "path": "frames/frame_0001.png",
+      "sha256": "388c0d3562f2a739a240bc39e266f99f3f6dd4ea5a3177f8ed6838198f9ee8d7",
+      "bytes": 179413
+    },
+    {
+      "path": "frames/frame_0002.png",
+      "sha256": "3fcaf9ddd5239a0406cbca19ae4004354e895a89a0421ccbf3084b1d5bd1a7cb",
+      "bytes": 177790
+    },
+    {
+      "path": "frames/frame_0003.png",
+      "sha256": "7b0b71e0ccf3f0abceb43f5e7d8cb5e2d0d240ec30dcf0a837a86afd6021ee25",
+      "bytes": 179568
+    },
+    {
+      "path": "frames/frame_0004.png",
+      "sha256": "da2733ae5ce1cf9d4c405e5102b1b2d78bc81f03a2794af792c3ce854364f54a",
+      "bytes": 190618
+    },
+    {
+      "path": "frames/frame_0005.png",
+      "sha256": "95929766502b3115432c24dc5991845ca8af56fa832ae433001ede497185c70a",
+      "bytes": 193620
+    },
+    {
+      "path": "frames/frame_0006.png",
+      "sha256": "979aa753cfb8af29b0474771bb915bd7f38b7f897fd5b89d00abdf0ebbc33d9a",
+      "bytes": 196746
+    },
+    {
+      "path": "frames/frame_0007.png",
+      "sha256": "dfc110f8e56990abbd49559e5223933feefef1e76eb092a45825ea9c59eff62e",
+      "bytes": 194504
+    },
+    {
+      "path": "frames/frame_0008.png",
+      "sha256": "98dc04a5665337d07493a0df7a959a8aaaeb8d39712e5ff9b48bc5419ebee359",
+      "bytes": 190484
+    },
+    {
+      "path": "frames/frame_0009.png",
+      "sha256": "57cb3d13bd8f9141e3e41e5efead4677aa1261a2572f9cd7ccdf65902341b303",
+      "bytes": 189556
+    },
+    {
+      "path": "frames/frame_0010.png",
+      "sha256": "b70856e81c89d30b8175ce62cb9d5193e69d6454941e54140437ca71d2b30d8f",
+      "bytes": 187902
+    },
+    {
+      "path": "frames/frame_0011.png",
+      "sha256": "c34f86c243fcb8c09c26d03483e4db3f2cfad170de1a5db55f6d16d3dcfcd042",
+      "bytes": 183913
+    },
+    {
+      "path": "frames/frame_0012.png",
+      "sha256": "8411675fe8f093a18b1764165b0ba1e274704cb2f9bc2b33e6dad8ce11de4de7",
+      "bytes": 184519
+    },
+    {
+      "path": "frames/frame_0013.png",
+      "sha256": "141c1e317108c9a473d69a2aff6a6cbd43c94f1c1b7c9ccc09b4ce99403f472c",
+      "bytes": 185133
+    },
+    {
+      "path": "frames/frame_0014.png",
+      "sha256": "0e76d57d55852e9c2241e25f96314d29545e7f8842d8752462c4c6047b329cb0",
+      "bytes": 185033
+    },
+    {
+      "path": "frames/frame_0015.png",
+      "sha256": "9561c772f492668bdf6d3b14d5a626e73f6c895d848790afe0a2b735df8d4ec6",
+      "bytes": 183430
+    },
+    {
+      "path": "frames/frame_0016.png",
+      "sha256": "49d39b159acf78ce15cf5cc3c540779b4fa74f50800b1e04ee8e6df943f48565",
+      "bytes": 181342
+    },
+    {
+      "path": "frames/frame_0017.png",
+      "sha256": "af511957e724639e84f12ef1c30ba953d11c44cf073d725202fc751b2524953d",
+      "bytes": 177148
+    },
+    {
+      "path": "frames/frame_0018.png",
+      "sha256": "5a7c06a3508d9d2045f9b84c536c006543d9be7516b92848d12583b57a3a57c8",
+      "bytes": 171857
+    },
+    {
+      "path": "frames/frame_0019.png",
+      "sha256": "18831d6df3b1b252f160369904d57149b711383566422385dc930c1a8ada5187",
+      "bytes": 168147
+    },
+    {
+      "path": "frames/frame_0020.png",
+      "sha256": "4ea77ec08deac7ba155a6eac84247a81bd213ea6bbd4341a11c5375ed691e328",
+      "bytes": 163377
+    }
+  ]
+}

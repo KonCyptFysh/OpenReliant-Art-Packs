@@ -1,0 +1,14 @@
+{
+  "checked_on": "2026-10-09",
+  "tested_base": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
+  "reviewed_main": "319d5ac07928e5fc53ec4e3b0f749e472ca470f5",
+  "commits_ahead": 9,
+  "comparison_url": "https://github.com/OpenReliant/openreliant/compare/220affa78729a2ce7dcb49602e4f38a4a53d5dc1...319d5ac07928e5fc53ec4e3b0f749e472ca470f5",
+  "author_warning": "in 0.8 I did rename a bunch of script commands to make them more consistent, this will break your hud script work, but from here on out it is stable",
+  "warning_applies_to": "0.7 to 0.8 API migration, completed in HUD 1.4 before the 1.8 public beta",
+  "migration_evidence": "tracking/integration-0.8.json",
+  "later_hud_command_renames_found": false,
+  "hud_shader_changes_found": false,
+  "scope": "GitHub compare source review; current main has not been installed or gameplay-tested this pass",
+  "engine_changed": false
+}

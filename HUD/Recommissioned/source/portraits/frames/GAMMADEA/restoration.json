@@ -1,0 +1,90 @@
+{
+  "status": "complete",
+  "filename": "GAMMADEA.FM8",
+  "source_fm8_sha256": "972998f303a8a85b4ffe453faf0d3c01e5ffa06861a7e9bc73eca6e330177f5e",
+  "source_decoded_rgba_sha256": "6fd1885d3cbcaf33eaa69e274709388c58b80bb70e2c476049ec07e6f5dee296",
+  "source_frame_count": 11,
+  "output_frame_count": 11,
+  "source_dimensions": [
+    120,
+    100
+  ],
+  "output_dimensions": [
+    480,
+    400
+  ],
+  "fps": 15,
+  "frame_interpolation": false,
+  "model": "RealBasicVSR GAN x4",
+  "model_checkpoint_sha256": "52f77c2c835aaa3fe675b3959b2f85010a6c6f63f77f7e279394646e55a4e376",
+  "torch_version": "2.11.0+cu130",
+  "device": "NVIDIA GeForce RTX 3070 Laptop GPU",
+  "temporal_metrics": {
+    "roundtrip_psnr_db": 35.42815,
+    "roundtrip_mae": 3.01965,
+    "source_adjacent_delta": 29.15212,
+    "output_adjacent_delta_after_downscale": 29.4739,
+    "temporal_delta_ratio": 1.01104,
+    "static_region_flicker": 1.2208,
+    "detail_gradient_energy_4x": 1.53999
+  },
+  "frames": [
+    {
+      "path": "frames/frame_0001.png",
+      "bytes": 171863,
+      "sha256": "847c5bdf9a955a2e4e37a5a756733fd743f23f7490fa34f49c8acb549f7ca0a5"
+    },
+    {
+      "path": "frames/frame_0002.png",
+      "bytes": 166152,
+      "sha256": "07e6e34199a8a33d4f4a7f54bbc3dd660314beffddcf3d3e4d994aa6f8a7ece6"
+    },
+    {
+      "path": "frames/frame_0003.png",
+      "bytes": 164000,
+      "sha256": "bd98b10093cb979f37c6d569699dda4f5c20aae20f8559ca57bde6c81f1e0647"
+    },
+    {
+      "path": "frames/frame_0004.png",
+      "bytes": 159837,
+      "sha256": "9c2e3608d98dbc2895f3c7e3e892cdd1fc801398953ffb6d54abc4130f2940ad"
+    },
+    {
+      "path": "frames/frame_0005.png",
+      "bytes": 180483,
+      "sha256": "f13f4f39dfcd172323389eb1f51deed7ca9de47e7156693e3c989e041f07caa7"
+    },
+    {
+      "path": "frames/frame_0006.png",
+      "bytes": 211071,
+      "sha256": "7ba09fe8b01c5176661497ec2357264a8f7ff194f2e2f62e1ba328a106c53124"
+    },
+    {
+      "path": "frames/frame_0007.png",
+      "bytes": 217690,
+      "sha256": "180dc805a28f33d709b5dcdce4326208e9161a3c073ac5736ad27cd38593cbd0"
+    },
+    {
+      "path": "frames/frame_0008.png",
+      "bytes": 221231,
+      "sha256": "47e24e4f93a8bf78023287d0d53e4a1f432d6e5402f1f644efb84dae60681b8b"
+    },
+    {
+      "path": "frames/frame_0009.png",
+      "bytes": 214313,
+      "sha256": "ad601c478d2169b26a64f5c0bfed762e6a38aa6da04b8ce9fd6e576a203b652b"
+    },
+    {
+      "path": "frames/frame_0010.png",
+      "bytes": 194552,
+      "sha256": "497e7c29ea0fa2023450a13773a1b31f5355e408683ca5c64386dbed3df0af02"
+    },
+    {
+      "path": "frames/frame_0011.png",
+      "bytes": 185077,
+      "sha256": "bab71c5ee9125595f81b1a8047a5717008ac2cf77d84291b3357b3267d90d205"
+    }
+  ],
+  "elapsed_seconds": 9.99,
+  "completed_utc": "2026-10-09T11:24:14.170448+00:00"
+}

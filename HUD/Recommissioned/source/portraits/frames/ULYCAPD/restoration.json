@@ -1,0 +1,146 @@
+{
+  "status": "complete",
+  "filename": "ULYCAPD.FM8",
+  "method": "exact-existing-hd-alias",
+  "reused_hd_from": "Ullys_Capt_Panic.fm8",
+  "source_fm8_sha256": "d90dd23de1a1a92852a7601af570f943cb9934114a0adb34f31c3e5aab2dad38",
+  "native_sequence_rgba_sha256": "364520817b396925dbff020503e4f2c3f1a1493a73c07980fa7343c90b2b0d7f",
+  "output_dimensions": [
+    480,
+    400
+  ],
+  "output_frame_count": 26,
+  "fps": 15,
+  "frames": [
+    {
+      "path": "frames/frame_0001.png",
+      "sha256": "99a776252911eec5c855327db4209554cb7d51cffc8ed6f2b3233468741ea16a",
+      "bytes": 218884
+    },
+    {
+      "path": "frames/frame_0002.png",
+      "sha256": "8cd415235ddc97fdfe9d29776c614c215b63821f672d2fdab82d9b9db9ef6dab",
+      "bytes": 223231
+    },
+    {
+      "path": "frames/frame_0003.png",
+      "sha256": "200c5962bf17d210da71c4fb2d6f70501e1e67d30e74de3dcafcf7c63dd06b64",
+      "bytes": 225363
+    },
+    {
+      "path": "frames/frame_0004.png",
+      "sha256": "c382a1b06ab6787c390640460517a5291b02a869e80dd151b09f448bd8d1a66d",
+      "bytes": 217461
+    },
+    {
+      "path": "frames/frame_0005.png",
+      "sha256": "c7989df2a9fb5293d243efb17dc62f4c2398296d80126aadf0859a2cb3070e67",
+      "bytes": 213917
+    },
+    {
+      "path": "frames/frame_0006.png",
+      "sha256": "d863896bc6da617ec9efa1e6869891e9704cfa659628a9f9590f7fa1def88023",
+      "bytes": 194944
+    },
+    {
+      "path": "frames/frame_0007.png",
+      "sha256": "d291895c6783d2dffb4a5bb03ab0b24c3f7147e54b1396f5c94482b2473612f9",
+      "bytes": 157668
+    },
+    {
+      "path": "frames/frame_0008.png",
+      "sha256": "0153b67811b04732b81d1ca11e52b9b398c5b709c7a0c156321fb7520b2d1db5",
+      "bytes": 124372
+    },
+    {
+      "path": "frames/frame_0009.png",
+      "sha256": "61e2f1b5ab7d29600b0ce3086cce947b734ac9891596a6a321c3e35fd58b813b",
+      "bytes": 131433
+    },
+    {
+      "path": "frames/frame_0010.png",
+      "sha256": "981b928fed8b144754354491cf5be17079e4110ac53116bf09dbcb7355f8ea9e",
+      "bytes": 201871
+    },
+    {
+      "path": "frames/frame_0011.png",
+      "sha256": "51c77ae5c6c222a9bf2f14689e923304a7facc4d18c84fe9a0f07ddc31264023",
+      "bytes": 276423
+    },
+    {
+      "path": "frames/frame_0012.png",
+      "sha256": "eff2d9b03526988696b2fd1f8b82803d6a6b1d2bc93317afa9ede1aded264d6d",
+      "bytes": 291380
+    },
+    {
+      "path": "frames/frame_0013.png",
+      "sha256": "5450864bf9945545d1fc84811eea9e7d5b071acce86e0c34f741e2c52a99f0d3",
+      "bytes": 235967
+    },
+    {
+      "path": "frames/frame_0014.png",
+      "sha256": "071cabe6930a806a51e093088217f081f327c0f4cafbcf4413ebaf2f05810ef6",
+      "bytes": 219044
+    },
+    {
+      "path": "frames/frame_0015.png",
+      "sha256": "211e651667644e6b7d3868ff2f9aa419d34529144bd2fcc404d83f81a2289350",
+      "bytes": 211761
+    },
+    {
+      "path": "frames/frame_0016.png",
+      "sha256": "246a87f159a6806508f6304429bc6685bf6c4b972763ae691ba46c49837d3f5f",
+      "bytes": 206740
+    },
+    {
+      "path": "frames/frame_0017.png",
+      "sha256": "ddd0f78e7a0fa48dd28fcb9d2076b814801b9dbd695fe6ddfbf91143b16f15ea",
+      "bytes": 205083
+    },
+    {
+      "path": "frames/frame_0018.png",
+      "sha256": "606ae8f99ca6fc6fa46ff2b7371d5021cab807d5781c5f015efb4418fb124092",
+      "bytes": 205430
+    },
+    {
+      "path": "frames/frame_0019.png",
+      "sha256": "ea8db30cd3557ffe6f1e1f966dbf5d738ccc6516c5c91e2df3c8a4ef2261542e",
+      "bytes": 203911
+    },
+    {
+      "path": "frames/frame_0020.png",
+      "sha256": "4f57cc679a29e5847ea0e7c8dd03196492c66a8ba03e1a54862655d4e435eacc",
+      "bytes": 202779
+    },
+    {
+      "path": "frames/frame_0021.png",
+      "sha256": "80feaf9face601d3160ef1ef6da0f6724ea484445b93c07b2be2e942b00c6ed7",
+      "bytes": 199122
+    },
+    {
+      "path": "frames/frame_0022.png",
+      "sha256": "5d27ee27d56e2bba4a2ab6d8fed7200c88ebd0e00e0453f109504c0aff08df57",
+      "bytes": 248315
+    },
+    {
+      "path": "frames/frame_0023.png",
+      "sha256": "36369e2e8c1bcc5865e8995b84d0dbc394dc09146b24cfbe3957498050f35de8",
+      "bytes": 196792
+    },
+    {
+      "path": "frames/frame_0024.png",
+      "sha256": "6123b5cf09e286957b7b82712b3b7812b46278ece87ddcb46fe72d85affe1d85",
+      "bytes": 212042
+    },
+    {
+      "path": "frames/frame_0025.png",
+      "sha256": "0eca5cfde6225ad8dcd520bcf0d8ac2a16e36a0077033894d69b7eb055bf72bb",
+      "bytes": 207002
+    },
+    {
+      "path": "frames/frame_0026.png",
+      "sha256": "e342f907cebdbf6803a7225be909f098bab123bc66de9b4fcca1891fada86910",
+      "bytes": 202332
+    }
+  ]
+}

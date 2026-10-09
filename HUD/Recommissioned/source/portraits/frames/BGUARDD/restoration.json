@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "filename": "BGUARDD.FM8",
+  "method": "exact-existing-hd-alias",
+  "reused_hd_from": "BlckGrd_Plt_D.fm8",
+  "source_fm8_sha256": "97713db8def5f8d3d11af94207aaaa95f5a05d7c1af70f83aebdbcdffb87a343",
+  "native_sequence_rgba_sha256": "459e32d7891a171717a7cfc27984818ddac4182096073c007c11c7ae46126c77",
+  "output_dimensions": [
+    480,
+    400
+  ],
+  "output_frame_count": 11,
+  "fps": 15,
+  "frames": [
+    {
+      "path": "frames/frame_0001.png",
+      "sha256": "2274b3ce272a8216dabd23297de5f55066131da14d2daac3338452b3ea596e33",
+      "bytes": 161174
+    },
+    {
+      "path": "frames/frame_0002.png",
+      "sha256": "5a9d47bd1849d64280793ebc98b8b32e801e2d7507e98103ff8b7c22a6b94160",
+      "bytes": 170828
+    },
+    {
+      "path": "frames/frame_0003.png",
+      "sha256": "aca7af42d9c93fe2d91f4aa82106f9680a26ee56fe71357136d1a4c396d12c22",
+      "bytes": 183369
+    },
+    {
+      "path": "frames/frame_0004.png",
+      "sha256": "5587031b062bedb7b583ec591ac72ffd3979145f3814fbe09cddf6d6044576f9",
+      "bytes": 154778
+    },
+    {
+      "path": "frames/frame_0005.png",
+      "sha256": "89b6d7e31f074df99e74585ffbc2a1d90128f2669240b349f03a141b5086b34d",
+      "bytes": 131318
+    },
+    {
+      "path": "frames/frame_0006.png",
+      "sha256": "91764ef2fe377386cee133d46cbeb688ad439ffe4d423bb634761cf61b3e97c2",
+      "bytes": 144451
+    },
+    {
+      "path": "frames/frame_0007.png",
+      "sha256": "63d7cabd044111f7136c913ee99b98f3f5cffadd8ab4dde8018c498a966148e9",
+      "bytes": 151143
+    },
+    {
+      "path": "frames/frame_0008.png",
+      "sha256": "1651d2dd3852754c816944a2777c41e73b2b11a07294d8037a236037218d0d15",
+      "bytes": 195068
+    },
+    {
+      "path": "frames/frame_0009.png",
+      "sha256": "65f1dbfb22d3af5ba65df78697c4366018451072223ee693c72282e1a7379348",
+      "bytes": 233557
+    },
+    {
+      "path": "frames/frame_0010.png",
+      "sha256": "2c77eba752c8434207aee0b22599b3adceaf29808aa2dd0112f6de1369001929",
+      "bytes": 251667
+    },
+    {
+      "path": "frames/frame_0011.png",
+      "sha256": "fa283d69d432f74ef8a108db8d166f5d6f687142895548cd1a93b47a2562713e",
+      "bytes": 255107
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "missing_filename_count": 32,
+  "missing_files_identical_to_current_hd_sources": [
+    {
+      "filename": "BGUARDD.FM8",
+      "covered_by": [
+        "BlckGrd_Plt_D.fm8"
+      ]
+    },
+    {
+      "filename": "BUCC.FM8",
+      "covered_by": [
+        "test.fm8"
+      ]
+    },
+    {
+      "filename": "CARGOD.FM8",
+      "covered_by": [
+        "Lonestar_Plt_D.fm8"
+      ]
+    },
+    {
+      "filename": "CARGOL.FM8",
+      "covered_by": [
+        "Lonestar_Plt_L.fm8"
+      ]
+    },
+    {
+      "filename": "CARGOP.FM8",
+      "covered_by": [
+        "Lonestar_Plt.fm8"
+      ]
+    },
+    {
+      "filename": "CONDP.FM8",
+      "covered_by": [
+        "Stork_Plt.fm8"
+      ]
+    },
+    {
+      "filename": "GAMMAP.FM8",
+      "covered_by": [
+        "Gamma_Ldr.fm8"
+      ]
+    },
+    {
+      "filename": "NANNYD.FM8",
+      "covered_by": [
+        "Nanny_Ldr_D.fm8"
+      ]
+    },
+    {
+      "filename": "NANNYL.FM8",
+      "covered_by": [
+        "Nanny_Ldr_L.fm8"
+      ]
+    },
+    {
+      "filename": "PROWLD.FM8",
+      "covered_by": [
+        "Prowler_Plt_D.fm8"
+      ]
+    },
+    {
+      "filename": "PROWLP.FM8",
+      "covered_by": [
+        "Prowler_Plt.fm8"
+      ]
+    },
+    {
+      "filename": "RUSSBOMB.FM8",
+      "covered_by": [
+        "C_TorpWL_Plt.fm8"
+      ]
+    },
+    {
+      "filename": "ULYCAPD.FM8",
+      "covered_by": [
+        "Ullys_Capt_Panic.fm8"
+      ]
+    },
+    {
+      "filename": "VIRTUAL.FM8",
+      "covered_by": [
+        "VirtFlt_Ins.fm8"
+      ]
+    }
+  ],
+  "additional_distinct_sequences": [
+    "BGUARDP.FM8",
+    "BUCCDETH.FM8",
+    "COB.FM8",
+    "COMMSOFF.FM8",
+    "CONDL.FM8",
+    "CONDWL.FM8",
+    "CONDWLL.FM8",
+    "FOSTDED.FM8",
+    "GAMMADEA.FM8",
+    "MCGALOOK.FM8",
+    "MCGANNNO.FM8",
+    "MCGDEATH.FM8",
+    "PUMAG.FM8",
+    "PUMATANG.FM8",
+    "PUMATANL.FM8",
+    "STEINP.FM8",
+    "STINGWL.FM8"
+  ],
+  "additional_sequence_filenames": [
+    "BGUARDP.FM8",
+    "BLACKGUA.FM8",
+    "BUCCDETH.FM8",
+    "COB.FM8",
+    "COMMSOFF.FM8",
+    "CONDL.FM8",
+    "CONDWL.FM8",
+    "CONDWLL.FM8",
+    "FOSTDED.FM8",
+    "GAMMADEA.FM8",
+    "MCGALOOK.FM8",
+    "MCGANNNO.FM8",
+    "MCGDEATH.FM8",
+    "PUMAG.FM8",
+    "PUMATANG.FM8",
+    "PUMATANL.FM8",
+    "STEINP.FM8",
+    "STINGWL.FM8"
+  ],
+  "additional_sequence_count": 17,
+  "meaning": "Sequence identity compares every decoded RGBA frame, in order. A different sequence does not necessarily mean a different character."
+}

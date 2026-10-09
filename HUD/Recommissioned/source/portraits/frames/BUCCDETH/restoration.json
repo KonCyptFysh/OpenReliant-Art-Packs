@@ -1,0 +1,115 @@
+{
+  "status": "complete",
+  "filename": "BUCCDETH.FM8",
+  "source_fm8_sha256": "94bb1ff609ad2eb6d6dc3bb88f0f99a416791ae5a1dc327b8c91f4bcfb06757d",
+  "source_decoded_rgba_sha256": "82144a37a0f251647f0e446f0b76605593ea75c38fb59a50a8ed197404b4a9fe",
+  "source_frame_count": 16,
+  "output_frame_count": 16,
+  "source_dimensions": [
+    120,
+    100
+  ],
+  "output_dimensions": [
+    480,
+    400
+  ],
+  "fps": 15,
+  "frame_interpolation": false,
+  "model": "RealBasicVSR GAN x4",
+  "model_checkpoint_sha256": "52f77c2c835aaa3fe675b3959b2f85010a6c6f63f77f7e279394646e55a4e376",
+  "torch_version": "2.11.0+cu130",
+  "device": "NVIDIA GeForce RTX 3070 Laptop GPU",
+  "temporal_metrics": {
+    "roundtrip_psnr_db": 32.47387,
+    "roundtrip_mae": 4.29318,
+    "source_adjacent_delta": 25.93754,
+    "output_adjacent_delta_after_downscale": 25.52411,
+    "temporal_delta_ratio": 0.98406,
+    "static_region_flicker": 2.16867,
+    "detail_gradient_energy_4x": 1.98158
+  },
+  "frames": [
+    {
+      "path": "frames/frame_0001.png",
+      "bytes": 182935,
+      "sha256": "fc1855765e812f1fa34b102c895b20e4e71e175ad49784dcda1a184abd8c1792"
+    },
+    {
+      "path": "frames/frame_0002.png",
+      "bytes": 193127,
+      "sha256": "7d7de3e6ce55a95417dae9a61f9ae5e0da29930906791aba3b6a50aea6de97be"
+    },
+    {
+      "path": "frames/frame_0003.png",
+      "bytes": 195470,
+      "sha256": "ce84fb8f1ffbaf33669a5ca04cb58ba11bb65ba6da570cd55c33216b13a289ec"
+    },
+    {
+      "path": "frames/frame_0004.png",
+      "bytes": 198480,
+      "sha256": "7f1b58991196c5191d27bbf30f9de449da98f7f8a0128ad30827e5cba2d6f672"
+    },
+    {
+      "path": "frames/frame_0005.png",
+      "bytes": 205559,
+      "sha256": "4e84c44c2553f2c409dbf37797597361481ea112a5f20371db20dda9dda19b45"
+    },
+    {
+      "path": "frames/frame_0006.png",
+      "bytes": 209174,
+      "sha256": "1e7575fe4a00bac2f8554a7a660988905334ca25188a90559b2b092c22827158"
+    },
+    {
+      "path": "frames/frame_0007.png",
+      "bytes": 206875,
+      "sha256": "dbc2630a07cd6d18f4f5d9896b38955cdc3b5c69a4af4471e5a99f0576affee9"
+    },
+    {
+      "path": "frames/frame_0008.png",
+      "bytes": 204480,
+      "sha256": "26de2024183e2af880416aa8d57e15230dd218363ecb2b75b592ae3a274f868f"
+    },
+    {
+      "path": "frames/frame_0009.png",
+      "bytes": 213326,
+      "sha256": "bd82a26637b255a5361ef660f54d436a81a82cd198ad3c51419ed9fefacd1533"
+    },
+    {
+      "path": "frames/frame_0010.png",
+      "bytes": 213619,
+      "sha256": "42777efe3fbb98f2d2d0be5c793ddb5972624d69971cf9851198f112d25749cb"
+    },
+    {
+      "path": "frames/frame_0011.png",
+      "bytes": 214971,
+      "sha256": "98c100b6a6d3fa66d7b2cc6ecc0e43159c54b64a2b1c82d85a5b2de53e86cce2"
+    },
+    {
+      "path": "frames/frame_0012.png",
+      "bytes": 221217,
+      "sha256": "5dd545019d03d5f4829c0f87ab82a930aa87a9d2f876f31b3a9a069f6cde14de"
+    },
+    {
+      "path": "frames/frame_0013.png",
+      "bytes": 230155,
+      "sha256": "8a5f0d6041537c6d12be97641b457f111836f04725021f3f737ab33cb1c36cd5"
+    },
+    {
+      "path": "frames/frame_0014.png",
+      "bytes": 242914,
+      "sha256": "3967e90c12b3dfe33a8efee5a2458211eb7ee103227fd892adc95b8ca35c9c56"
+    },
+    {
+      "path": "frames/frame_0015.png",
+      "bytes": 235727,
+      "sha256": "1ce7d55d907243643abc2d63225967505d4647a4b563f86943832bfa45cb9773"
+    },
+    {
+      "path": "frames/frame_0016.png",
+      "bytes": 236579,
+      "sha256": "416ef5b3d0b12fbef72c14b6e43f7f572db95d5a0a053efd4fe78527f916dd68"
+    }
+  ],
+  "elapsed_seconds": 10.48,
+  "completed_utc": "2026-10-09T11:24:24.649204+00:00"
+}

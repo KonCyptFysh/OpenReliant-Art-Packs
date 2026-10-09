@@ -1,0 +1,22 @@
+{
+  "scope": "Git source/runtime update; no player release",
+  "authorization": "User requested HUD 1.9 Git upload after Loki/Torpedo Bombers publishing completed.",
+  "waited_for_completion": true,
+  "base_commit": "153b038a2d79d387339570d9fa9b52f2517151b9",
+  "asset_manifest_sha256": "8e517f507f9c1fde063a7590a109ea87c65e8709d6734c43e709d56c1252377b",
+  "source_manifest_sha256": "547857ad6fba07624514457dc191b401f1c1a96d01a9e81c24afb572d7816e2b",
+  "authoring_source_manifest_sha256": "b79e92f4d49cd5bc59add176dc1ace15d8d5d2d8d0789fc21495fb6157dca65d",
+  "runtime_files": 1187,
+  "source_and_tool_files": 11779,
+  "excluded_local_audit_files": [
+    "source/portraits/archive-review-2026-10-09/audit.py",
+    "source/portraits/archive-review-2026-10-09/build_review.py",
+    "source/portraits/archive-review-2026-10-09/earlier-format-repairs.zip",
+    "source/portraits/archive-review-2026-10-09/gallery-template.html",
+    "source/portraits/archive-review-2026-10-09/native-portrait-frames.zip",
+    "source/portraits/archive-review-2026-10-09/normalized-portraits-native-size.zip",
+    "source/portraits/archive-review-2026-10-09/packages.json"
+  ],
+  "public_beta_preserved": "hud-v0.1.0-beta.1",
+  "queued_runtime_unchanged": true
+}

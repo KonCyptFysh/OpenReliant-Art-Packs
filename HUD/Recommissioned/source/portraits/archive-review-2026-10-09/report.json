@@ -1,0 +1,167 @@
+{
+  "archive_sha256": "a8f045ffb5269bfa5e283d2032b5cd378bd532a5d4bc6cf7af60628e0cc4c156",
+  "sltool_sha256": "d20aa5cc28c0c3e12254100ed639b0a6b74ce38af1264953b72423452e96fbb1",
+  "sltool_version": "0.8.1 / main 220affa",
+  "films": 257,
+  "frames": 10909,
+  "errors": [],
+  "earlier_format_films": [
+    "51stWL_Plt.fm8",
+    "51stWL_Plt_d.fm8",
+    "BuccnrsWL_Plt.fm8",
+    "CougerWL_Plt.fm8",
+    "CougerWL_Plt_d.fm8",
+    "StingerWL_Plt_D.fm8",
+    "StingerWL_Plt_L.fm8",
+    "STINGWL.FM8",
+    "test.fm8",
+    "Victorious_Brdge_Off_D.fm8"
+  ],
+  "not_in_current_hd": [
+    "BGUARDD.FM8",
+    "BGUARDP.FM8",
+    "BLACKGUA.FM8",
+    "BUCC.FM8",
+    "BUCCDETH.FM8",
+    "CARGOD.FM8",
+    "CARGOL.FM8",
+    "CARGOP.FM8",
+    "COB.FM8",
+    "COMMSOFF.FM8",
+    "CONDL.FM8",
+    "CONDP.FM8",
+    "CONDWL.FM8",
+    "CONDWLL.FM8",
+    "FOSTDED.FM8",
+    "GAMMADEA.FM8",
+    "GAMMAP.FM8",
+    "MCGALOOK.FM8",
+    "MCGANNNO.FM8",
+    "MCGDEATH.FM8",
+    "NANNYD.FM8",
+    "NANNYL.FM8",
+    "PROWLD.FM8",
+    "PROWLP.FM8",
+    "PUMAG.FM8",
+    "PUMATANG.FM8",
+    "PUMATANL.FM8",
+    "RUSSBOMB.FM8",
+    "STEINP.FM8",
+    "STINGWL.FM8",
+    "ULYCAPD.FM8",
+    "VIRTUAL.FM8"
+  ],
+  "identical_decoded_sequences": [
+    [
+      "45TigersWL_Bandit_d.fm8",
+      "45TigersWL_Diceman_D.fm8"
+    ],
+    [
+      "BGUARDD.FM8",
+      "BlckGrd_Plt_D.fm8"
+    ],
+    [
+      "BGUARDP.FM8",
+      "BLACKGUA.FM8"
+    ],
+    [
+      "BUCC.FM8",
+      "test.fm8"
+    ],
+    [
+      "C_TorpWL_Plt.fm8",
+      "RUSSBOMB.FM8"
+    ],
+    [
+      "CARGOD.FM8",
+      "Lonestar_Plt_D.fm8"
+    ],
+    [
+      "CARGOL.FM8",
+      "Lonestar_Plt_L.fm8"
+    ],
+    [
+      "CARGOP.FM8",
+      "Lonestar_Plt.fm8"
+    ],
+    [
+      "CONDP.FM8",
+      "Stork_Plt.fm8"
+    ],
+    [
+      "Enq_YamBridge.fm8",
+      "enriquez.fm8"
+    ],
+    [
+      "FrtBxtr_Comms_D.fm8",
+      "frtcrtr_comms_death.fm8",
+      "SaracenWL_Plt_D.fm8"
+    ],
+    [
+      "Gamma_Ldr.fm8",
+      "GAMMAP.FM8"
+    ],
+    [
+      "Jackel_Plt_D.fm8",
+      "JackelWL_Plt_d.fm8"
+    ],
+    [
+      "Jaguar_Plt_D.fm8",
+      "JaguarWL_Plt_D.fm8"
+    ],
+    [
+      "Mammoth_Plt_01_D.fm8",
+      "Mammoth_Plt_02_D.fm8"
+    ],
+    [
+      "Mammoth_Plt_03_d.fm8",
+      "Mammoth_Plt_04_D.fm8"
+    ],
+    [
+      "Nanny_Ldr.fm8",
+      "nannyp.fm8"
+    ],
+    [
+      "Nanny_Ldr_D.fm8",
+      "NANNYD.FM8"
+    ],
+    [
+      "Nanny_Ldr_L.fm8",
+      "NANNYL.FM8"
+    ],
+    [
+      "Pirate_Plt_D.fm8",
+      "PirateWL_Plt_D.fm8"
+    ],
+    [
+      "PROWLD.FM8",
+      "Prowler_Plt_D.fm8"
+    ],
+    [
+      "Prowler_Plt.fm8",
+      "PROWLP.FM8"
+    ],
+    [
+      "Raven_Plt_D.fm8",
+      "RavenWL_Plt_D.fm8"
+    ],
+    [
+      "Ullys_Capt.fm8",
+      "ulycap.fm8"
+    ],
+    [
+      "Ullys_Capt_Panic.fm8",
+      "ULYCAPD.FM8"
+    ],
+    [
+      "VirtFlt_Ins.fm8",
+      "VIRTUAL.FM8"
+    ]
+  ],
+  "per_frame_palette_preservation": [],
+  "all_roundtrips_pixel_exact": true,
+  "all_outputs_standard_chunk_layout": true,
+  "vanilla_engine_playback_tested": false,
+  "deployed": false,
+  "published_beta_changed": false
+}

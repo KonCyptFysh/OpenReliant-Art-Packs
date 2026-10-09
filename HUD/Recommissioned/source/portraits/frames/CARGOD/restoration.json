@@ -1,0 +1,96 @@
+{
+  "status": "complete",
+  "filename": "CARGOD.FM8",
+  "method": "exact-existing-hd-alias",
+  "reused_hd_from": "Lonestar_Plt_D.fm8",
+  "source_fm8_sha256": "d8439223901f83c10ff6e9a463c1dc08456f573d447e8c67fe05d5ad9e4dc3ea",
+  "native_sequence_rgba_sha256": "c9318c0c7a3aae772deb150961c4e848e5d39c8541274680064eb8cfa77bdac9",
+  "output_dimensions": [
+    480,
+    400
+  ],
+  "output_frame_count": 16,
+  "fps": 15,
+  "frames": [
+    {
+      "path": "frames/frame_0001.png",
+      "sha256": "b5ab991d4a2299af52b254e7e3e7c19c379a7af855e48bc5959391859b148cc7",
+      "bytes": 175951
+    },
+    {
+      "path": "frames/frame_0002.png",
+      "sha256": "568dea90128a14d27ab264fe4348b98fdae856a4654281f1db81adfaa78ce090",
+      "bytes": 178598
+    },
+    {
+      "path": "frames/frame_0003.png",
+      "sha256": "78ff75a4d7d54e6f877bb866549b82dcb71b701f7c9d1b314ce109893c4d472d",
+      "bytes": 181398
+    },
+    {
+      "path": "frames/frame_0004.png",
+      "sha256": "8395fb7e4b19a18764bbe028d1a1dfb09b0ffb11c72366f3e4e2a78e54ce1942",
+      "bytes": 185314
+    },
+    {
+      "path": "frames/frame_0005.png",
+      "sha256": "466fb2fc88d8351108f8e2899199b6ca9708d36b0d2f8827945589243823a4f5",
+      "bytes": 188372
+    },
+    {
+      "path": "frames/frame_0006.png",
+      "sha256": "7b8fe0faa73b8d44372b0653e27d27f267e54cb4a0259e553238751cb1a1d431",
+      "bytes": 189874
+    },
+    {
+      "path": "frames/frame_0007.png",
+      "sha256": "179f8727984613f8bc3049185514fd9113f8083f8ef103fc0c42058c2d0df8be",
+      "bytes": 176507
+    },
+    {
+      "path": "frames/frame_0008.png",
+      "sha256": "0a7738a2828abe61359afa15f9b5f78219e3842c2ca0d358de8cc7a0bd0bdb2d",
+      "bytes": 168627
+    },
+    {
+      "path": "frames/frame_0009.png",
+      "sha256": "91a11b77247e60db392f40cd86bec5845ab0a22ce7be6f5e9a122e03898a2367",
+      "bytes": 167815
+    },
+    {
+      "path": "frames/frame_0010.png",
+      "sha256": "284d3bf421713b4259afe332023586d06febeaf06d0c17010dd00da72cfeba0d",
+      "bytes": 178751
+    },
+    {
+      "path": "frames/frame_0011.png",
+      "sha256": "ca8985e4c9bc4f8deca013367bb5045f5ff6dbcf2b2b40819b563e57e3e1c1ba",
+      "bytes": 179359
+    },
+    {
+      "path": "frames/frame_0012.png",
+      "sha256": "760347600bf0dc63e8c5b0e6f4143a74597643171167b104f714905b0840ffd7",
+      "bytes": 186074
+    },
+    {
+      "path": "frames/frame_0013.png",
+      "sha256": "71d24207bf0883e1f673b1f2c4739dd309a005e8c85f4bfe53aeddf57ad5c54e",
+      "bytes": 192061
+    },
+    {
+      "path": "frames/frame_0014.png",
+      "sha256": "a5adf112efb3a370409ee985ce6a5c6c24170f31f73945b332a661ccc05d67a7",
+      "bytes": 200301
+    },
+    {
+      "path": "frames/frame_0015.png",
+      "sha256": "2324404331f4d30565f1fbd5ee8434b5b227e766f155e68173be18eed24e927e",
+      "bytes": 205309
+    },
+    {
+      "path": "frames/frame_0016.png",
+      "sha256": "597cce960cf15a973a61701ecba6ea6238b40519f6f4c5b7e629388b9869a928",
+      "bytes": 213465
+    }
+  ]
+}

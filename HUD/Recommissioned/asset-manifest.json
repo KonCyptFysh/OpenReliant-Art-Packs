@@ -140,9 +140,34 @@
     "sha256": "84237b1e42b1d51d6ccb64d0d213720a2e247ce2f77f3d92af810941a6c50e38"
   },
   {
+    "path": "mods/recommissioned-hud/BGUARDD.FM8",
+    "bytes": 1222378,
+    "sha256": "08f239c4ef4cccdb254b60aa49685d4fb810760f2ddb5cb48fc096caddb89494"
+  },
+  {
+    "path": "mods/recommissioned-hud/BGUARDP.FM8",
+    "bytes": 9189412,
+    "sha256": "08b33e1a0cba7dc83388e207b51ebc51b0619a1e4d5235a2942ae496a0cb81cf"
+  },
+  {
+    "path": "mods/recommissioned-hud/BLACKGUA.FM8",
+    "bytes": 9189412,
+    "sha256": "08b33e1a0cba7dc83388e207b51ebc51b0619a1e4d5235a2942ae496a0cb81cf"
+  },
+  {
     "path": "mods/recommissioned-hud/BLUFONT.ttf",
     "bytes": 55512,
     "sha256": "6690376ac20ddf9ca4e2f01f0769c1ee2b275c05512c69a5de6f92b95d7be679"
+  },
+  {
+    "path": "mods/recommissioned-hud/BUCC.FM8",
+    "bytes": 6279119,
+    "sha256": "b3f6bec552ed6f315f8b41ba051be12fb573465c489302f55fa7970861573188"
+  },
+  {
+    "path": "mods/recommissioned-hud/BUCCDETH.FM8",
+    "bytes": 1617566,
+    "sha256": "0c4e69af4a2f0c36f0059c735ab32705725eba9a7ef73c8536bad0d50899784e"
   },
   {
     "path": "mods/recommissioned-hud/BlacksunWL_Plt.fm8",
@@ -245,9 +270,54 @@
     "sha256": "3aa575bbea7d41d7838b443497aec1915e0cc4ad26af9aceb450a03b9d20116c"
   },
   {
+    "path": "mods/recommissioned-hud/CARGOD.FM8",
+    "bytes": 1607709,
+    "sha256": "4ff37dd657dcba120a5aee8eb373d935741ad48362677eff8d91fd1866434135"
+  },
+  {
+    "path": "mods/recommissioned-hud/CARGOL.FM8",
+    "bytes": 8090743,
+    "sha256": "7cae18d3512a0535f7b38d80a3f740003bc0a9b3af50d4a3ee9bcbbaddc9d344"
+  },
+  {
+    "path": "mods/recommissioned-hud/CARGOP.FM8",
+    "bytes": 9154833,
+    "sha256": "32d25b743feb8e9867f1ca723a2bbcba217062e97124f9fa5aeab811c7f880bb"
+  },
+  {
     "path": "mods/recommissioned-hud/CCouger_Plt_D.fm8",
     "bytes": 1737698,
     "sha256": "6f777a9e8353e6cb69790f6493785bdd203fb1f6ac9eb3b3f22f73eb97c9927d"
+  },
+  {
+    "path": "mods/recommissioned-hud/COB.FM8",
+    "bytes": 6690447,
+    "sha256": "a9ad5bb11f6e77e40d9d3a207b242ae73d616c01a6d4acb2e952da6758b70c13"
+  },
+  {
+    "path": "mods/recommissioned-hud/COMMSOFF.FM8",
+    "bytes": 6425030,
+    "sha256": "6b89b70af849e48bdc7fbb60b78c6d32b039ee2154d6d2202c33d92aac536636"
+  },
+  {
+    "path": "mods/recommissioned-hud/CONDL.FM8",
+    "bytes": 7223458,
+    "sha256": "a618d7bcee28ce5f34b642608967adb01531fcba123f35d4eda22bf35cb48769"
+  },
+  {
+    "path": "mods/recommissioned-hud/CONDP.FM8",
+    "bytes": 7831802,
+    "sha256": "a8cf4b5bb456ca438016328993d125f528162ae6af47fc8af8075f951e5a19a8"
+  },
+  {
+    "path": "mods/recommissioned-hud/CONDWL.FM8",
+    "bytes": 7585373,
+    "sha256": "70de3cb2db2c8fcdf390c8223cadf15e0b8b63df0e27a55360e97bdc1d4c69e9"
+  },
+  {
+    "path": "mods/recommissioned-hud/CONDWLL.FM8",
+    "bytes": 7164484,
+    "sha256": "1297b8d0e81dd4375da57e0676e794a53f0f2b4e0b4cd4cb5a43d1a13463fd16"
   },
   {
     "path": "mods/recommissioned-hud/C_Fhtr_01.fm8",
@@ -365,6 +435,11 @@
     "sha256": "72f66372253e2e3eb0979fe3837cefc4be34a2d166d3333b2f87cd12aef10a4e"
   },
   {
+    "path": "mods/recommissioned-hud/FOSTDED.FM8",
+    "bytes": 1766014,
+    "sha256": "97c474ea4821105dc1d821817b295a5efe7c6792ab7149560b5b3845e54860ce"
+  },
+  {
     "path": "mods/recommissioned-hud/FrtBear_Comms.fm8",
     "bytes": 4123618,
     "sha256": "1aff6a73a5787f55533e0827c0435b8dce1c75b03d3974a606801449bf649169"
@@ -383,6 +458,16 @@
     "path": "mods/recommissioned-hud/FrtBxtr_Comms_D.fm8",
     "bytes": 1228157,
     "sha256": "3067961d16c1b6f511046362d5c4e7be7441241e6c3a93b44c52c7b3393aca50"
+  },
+  {
+    "path": "mods/recommissioned-hud/GAMMADEA.FM8",
+    "bytes": 1195072,
+    "sha256": "37e7853f97a8e346d7a7557d9b9b941a37c9ed5a79b6e1f54249143c3c641016"
+  },
+  {
+    "path": "mods/recommissioned-hud/GAMMAP.FM8",
+    "bytes": 6717504,
+    "sha256": "8f0ad5fdcc325c1a50982c8258a96bbc9ab0d542471542c253490954cb847a46"
   },
   {
     "path": "mods/recommissioned-hud/Gamma_Ldr.fm8",
@@ -670,6 +755,21 @@
     "sha256": "7cae18d3512a0535f7b38d80a3f740003bc0a9b3af50d4a3ee9bcbbaddc9d344"
   },
   {
+    "path": "mods/recommissioned-hud/MCGALOOK.FM8",
+    "bytes": 4446674,
+    "sha256": "60609cfc7f008c7e26a462d6ebc0c1e4626bc7edd0f4d50b358b011029525d54"
+  },
+  {
+    "path": "mods/recommissioned-hud/MCGANNNO.FM8",
+    "bytes": 5333582,
+    "sha256": "1be3c2101e8498840bbb326c5792677e313874775973d75b915e990c85aa51f6"
+  },
+  {
+    "path": "mods/recommissioned-hud/MCGDEATH.FM8",
+    "bytes": 1915722,
+    "sha256": "1914c8bcf813c0f477d8b104a4c68e92d33e1b11b5778c2962be403205cd612b"
+  },
+  {
     "path": "mods/recommissioned-hud/Mammoth_Plt_01.fm8",
     "bytes": 7220196,
     "sha256": "a6039992bbea9941785ca0bbbce9620418bbf8322c1b26aad7c7e0235faf7008"
@@ -760,6 +860,16 @@
     "sha256": "82dab732cb895cbb6c1a59dede34b64a913b8d0d163a848b103f492498df0a59"
   },
   {
+    "path": "mods/recommissioned-hud/NANNYD.FM8",
+    "bytes": 1901592,
+    "sha256": "d2002b8a0415d478b12c13b60fb60e029a5ff8b0a5e79fd9f63890b1ac0af298"
+  },
+  {
+    "path": "mods/recommissioned-hud/NANNYL.FM8",
+    "bytes": 6880207,
+    "sha256": "258348693158a8ea8839ff45c0969e316d0c9dd2dfcecb1ea2f9e33a1c7285ce"
+  },
+  {
     "path": "mods/recommissioned-hud/Nanny_Ldr.fm8",
     "bytes": 8203223,
     "sha256": "a631dd7ea47e7730fa66f1153cd463d35a5b40e2dfeb7de7a5bab508d7e5e494"
@@ -783,6 +893,31 @@
     "path": "mods/recommissioned-hud/Oxanium-OFL.txt",
     "bytes": 4478,
     "sha256": "f461c4bc910ac71cf35f8228b6889f865579186def9fccac439390906167be5b"
+  },
+  {
+    "path": "mods/recommissioned-hud/PROWLD.FM8",
+    "bytes": 1445614,
+    "sha256": "6528505c069be64277896c8cb018395449ce63d8edd773627b8eeec316428c32"
+  },
+  {
+    "path": "mods/recommissioned-hud/PROWLP.FM8",
+    "bytes": 6123415,
+    "sha256": "b051ccf0b424c61630ab344ee903bf1a315f129b9f3b598f0c353cc7e563b8ec"
+  },
+  {
+    "path": "mods/recommissioned-hud/PUMAG.FM8",
+    "bytes": 8107912,
+    "sha256": "786eb7d0560cef6fe78ca5ac8a0d7274dd125a055f24373250c1e92c765cc1b1"
+  },
+  {
+    "path": "mods/recommissioned-hud/PUMATANG.FM8",
+    "bytes": 7192919,
+    "sha256": "a183eca8f48234696b4411d9bc479c4e130c8321147bbb0b12b4655ae81c5be5"
+  },
+  {
+    "path": "mods/recommissioned-hud/PUMATANL.FM8",
+    "bytes": 5509486,
+    "sha256": "f9d59d5ccf1efe1047f5153f2c03adabe84c06220efaa5722ac8f4dd2c847013"
   },
   {
     "path": "mods/recommissioned-hud/PirateWL_Plt.fm8",
@@ -855,6 +990,11 @@
     "sha256": "548c0aa83b5664a6bf79ea6b647bcb97c064b6b470eb0076777af91353d7162d"
   },
   {
+    "path": "mods/recommissioned-hud/RUSSBOMB.FM8",
+    "bytes": 7306907,
+    "sha256": "3bb5ae563bded28836c9931d1b1b72b9b0722135e43e41e45ac6827f86a20885"
+  },
+  {
     "path": "mods/recommissioned-hud/RavenWL_Plt.fm8",
     "bytes": 5677367,
     "sha256": "c8a9b1a881fd8250e52ff04f1cc606beb1c76cbe08ea05c86f7305555011514b"
@@ -918,6 +1058,16 @@
     "path": "mods/recommissioned-hud/Ronin_Plt_D.fm8",
     "bytes": 1670647,
     "sha256": "830b8b3c9aab505bc8cde931238aee6e2cfffa799679e2135dd4a23e6884bcef"
+  },
+  {
+    "path": "mods/recommissioned-hud/STEINP.FM8",
+    "bytes": 6122350,
+    "sha256": "a691fd642d98243fda40b1102ac727b239dee71afe76bc612420ac814d5085df"
+  },
+  {
+    "path": "mods/recommissioned-hud/STINGWL.FM8",
+    "bytes": 8178065,
+    "sha256": "94124b66702ca596268183f24228ecf2c67b30e76a337cc0719ab1117c933c88"
   },
   {
     "path": "mods/recommissioned-hud/SabreWL_Plt_D.fm8",
@@ -1045,6 +1195,11 @@
     "sha256": "5912b5e1e3b7905ab2b16956e56747370c2a0096fe2cc0f26de7d269f50ade06"
   },
   {
+    "path": "mods/recommissioned-hud/ULYCAPD.FM8",
+    "bytes": 2751548,
+    "sha256": "481eb3c3ac2fe9c8aa195e45f89ba4fd85e03d276c61fe10a8985746a36f8562"
+  },
+  {
     "path": "mods/recommissioned-hud/Ullys_Capt.fm8",
     "bytes": 4358150,
     "sha256": "a98e62cfbee138e366578aed0025de9c7b0b5b9537947359983fe652d8e0ba37"
@@ -1053,6 +1208,11 @@
     "path": "mods/recommissioned-hud/Ullys_Capt_Panic.fm8",
     "bytes": 2751548,
     "sha256": "481eb3c3ac2fe9c8aa195e45f89ba4fd85e03d276c61fe10a8985746a36f8562"
+  },
+  {
+    "path": "mods/recommissioned-hud/VIRTUAL.FM8",
+    "bytes": 8544422,
+    "sha256": "75cfe10ec8201a540097218366cd69ff50d4b4145a48d723b9e174d9d36538b9"
   },
   {
     "path": "mods/recommissioned-hud/VampireWL_Stiener.fm8",
@@ -1251,8 +1411,8 @@
   },
   {
     "path": "mods/recommissioned-hud/mod.ini",
-    "bytes": 394,
-    "sha256": "03645950bb0050bd5171212110fb79f8e51cb00944779d02f98929c63eca71f8"
+    "bytes": 417,
+    "sha256": "9a09696ab1aeaa29b46d4b0fa0de4a8f7c831cc4f79f4b544826296115e72b61"
   },
   {
     "path": "mods/recommissioned-hud/nannyp.fm8",

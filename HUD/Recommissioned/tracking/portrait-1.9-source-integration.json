@@ -1,0 +1,283 @@
+{
+  "added_sequences": 32,
+  "added_frames": 1556,
+  "newly_restored_sequences": 17,
+  "newly_restored_frames": 842,
+  "reused_alias_sequences": 15,
+  "sequences": [
+    {
+      "source_directory": "BGUARDP",
+      "filename": "BGUARDP.FM8",
+      "frames": 61,
+      "native_sha256": "a1da565fb18682b84d225827fc33ff8c94f5c39a903a3c0abc412997e2c18c35",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/BGUARDP/restoration.json"
+    },
+    {
+      "source_directory": "BUCCDETH",
+      "filename": "BUCCDETH.FM8",
+      "frames": 16,
+      "native_sha256": "94bb1ff609ad2eb6d6dc3bb88f0f99a416791ae5a1dc327b8c91f4bcfb06757d",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/BUCCDETH/restoration.json"
+    },
+    {
+      "source_directory": "COB",
+      "filename": "COB.FM8",
+      "frames": 61,
+      "native_sha256": "a33d8c9b27e60a62eafad73fa59596b7055489d416b617a08ccc1c6ed4f5682e",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/COB/restoration.json"
+    },
+    {
+      "source_directory": "COMMSOFF",
+      "filename": "COMMSOFF.FM8",
+      "frames": 51,
+      "native_sha256": "688feef294bf268102be60f0450cb164c753b797e09103e21cc7a10f67140a82",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/COMMSOFF/restoration.json"
+    },
+    {
+      "source_directory": "CONDL",
+      "filename": "CONDL.FM8",
+      "frames": 61,
+      "native_sha256": "f5f09f284691ee5b5e36771bc87382a88b4d37a9113991ab68ce1a12f585c4ed",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/CONDL/restoration.json"
+    },
+    {
+      "source_directory": "CONDWL",
+      "filename": "CONDWL.FM8",
+      "frames": 61,
+      "native_sha256": "098ed8a3e780ded8e5a89230e5a51bac32d2434ff185d83c583269ba4a439586",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/CONDWL/restoration.json"
+    },
+    {
+      "source_directory": "CONDWLL",
+      "filename": "CONDWLL.FM8",
+      "frames": 61,
+      "native_sha256": "a432aafae7233a5cb417c3da2213045b0227094b6e49c107d20c4e0022aa99fc",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/CONDWLL/restoration.json"
+    },
+    {
+      "source_directory": "FOSTDED",
+      "filename": "FOSTDED.FM8",
+      "frames": 16,
+      "native_sha256": "d527b89789cdfc0409f4e5db2409222b909614942996fafa41ad8b7e6c38590d",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/FOSTDED/restoration.json"
+    },
+    {
+      "source_directory": "GAMMADEA",
+      "filename": "GAMMADEA.FM8",
+      "frames": 11,
+      "native_sha256": "972998f303a8a85b4ffe453faf0d3c01e5ffa06861a7e9bc73eca6e330177f5e",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/GAMMADEA/restoration.json"
+    },
+    {
+      "source_directory": "MCGALOOK",
+      "filename": "MCGALOOK.FM8",
+      "frames": 61,
+      "native_sha256": "14146a5bd3cf54125f26243c1f11f7b792633a2b0754dfe84d6bfa524b9b004f",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/MCGALOOK/restoration.json"
+    },
+    {
+      "source_directory": "MCGANNNO",
+      "filename": "MCGANNNO.FM8",
+      "frames": 61,
+      "native_sha256": "e284e6bc99acf5177d00e54b1cd7037de000b7617ee42a074fc8aa5451941a3c",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/MCGANNNO/restoration.json"
+    },
+    {
+      "source_directory": "MCGDEATH",
+      "filename": "MCGDEATH.FM8",
+      "frames": 16,
+      "native_sha256": "95782bd6e4d265e35caf015dfc395b92325817596bb961199639e2ac53156cc5",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/MCGDEATH/restoration.json"
+    },
+    {
+      "source_directory": "PUMAG",
+      "filename": "PUMAG.FM8",
+      "frames": 61,
+      "native_sha256": "ba64c1405998b66e446e12ecf76a8debf0de605b372dc12709be251df9187dda",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/PUMAG/restoration.json"
+    },
+    {
+      "source_directory": "PUMATANG",
+      "filename": "PUMATANG.FM8",
+      "frames": 61,
+      "native_sha256": "18466158c60c6f678cddd020905945a02cc0c36eec5a7271bc0358d97355bf7c",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/PUMATANG/restoration.json"
+    },
+    {
+      "source_directory": "PUMATANL",
+      "filename": "PUMATANL.FM8",
+      "frames": 61,
+      "native_sha256": "7720402954d7cfe2778c2d6586caeba300c01ca66d979e15ec505b79d00ab19c",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/PUMATANL/restoration.json"
+    },
+    {
+      "source_directory": "STEINP",
+      "filename": "STEINP.FM8",
+      "frames": 61,
+      "native_sha256": "13de3475cd529584d8d3073dae2303c4a3a026d8504a420f46e1f8aa7057acc2",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/STEINP/restoration.json"
+    },
+    {
+      "source_directory": "STINGWL",
+      "filename": "STINGWL.FM8",
+      "frames": 61,
+      "native_sha256": "e694cff16a374bec874b9f67da691d2dc0eac504f88b2082dc5789d680f9d49d",
+      "restoration_method": "new-temporal-restoration",
+      "restoration_record": "source/portraits/frames/STINGWL/restoration.json"
+    },
+    {
+      "source_directory": "BGUARDD",
+      "filename": "BGUARDD.FM8",
+      "frames": 11,
+      "native_sha256": "97713db8def5f8d3d11af94207aaaa95f5a05d7c1af70f83aebdbcdffb87a343",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/BGUARDD/restoration.json",
+      "reused_hd_from": "BlckGrd_Plt_D.fm8"
+    },
+    {
+      "source_directory": "BLACKGUA",
+      "filename": "BLACKGUA.FM8",
+      "frames": 61,
+      "native_sha256": "a1da565fb18682b84d225827fc33ff8c94f5c39a903a3c0abc412997e2c18c35",
+      "restoration_method": "exact-new-hd-alias",
+      "restoration_record": "source/portraits/frames/BLACKGUA/restoration.json",
+      "reused_hd_from": "BGUARDP.FM8"
+    },
+    {
+      "source_directory": "BUCC",
+      "filename": "BUCC.FM8",
+      "frames": 61,
+      "native_sha256": "9bc804deaa07f3f493dd58c001869bbca8cc06b1061321208c753c5917ba819e",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/BUCC/restoration.json",
+      "reused_hd_from": "test.fm8"
+    },
+    {
+      "source_directory": "CARGOD",
+      "filename": "CARGOD.FM8",
+      "frames": 16,
+      "native_sha256": "d8439223901f83c10ff6e9a463c1dc08456f573d447e8c67fe05d5ad9e4dc3ea",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/CARGOD/restoration.json",
+      "reused_hd_from": "Lonestar_Plt_D.fm8"
+    },
+    {
+      "source_directory": "CARGOL",
+      "filename": "CARGOL.FM8",
+      "frames": 61,
+      "native_sha256": "45049ebe311a0baa1ebeb1ad1cd1f538f8a4891a21ca1ee81d8cfb6b64a42eb2",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/CARGOL/restoration.json",
+      "reused_hd_from": "Lonestar_Plt_L.fm8"
+    },
+    {
+      "source_directory": "CARGOP",
+      "filename": "CARGOP.FM8",
+      "frames": 61,
+      "native_sha256": "95c9171135cdf2001e914cae900554c84e38c0bbbfd0578d832f2fba488fe007",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/CARGOP/restoration.json",
+      "reused_hd_from": "Lonestar_Plt.fm8"
+    },
+    {
+      "source_directory": "CONDP",
+      "filename": "CONDP.FM8",
+      "frames": 61,
+      "native_sha256": "846263d98074b629b11c1727ffe3bde45f00ff8763d9ff5acf01fbe4268a6cc7",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/CONDP/restoration.json",
+      "reused_hd_from": "Stork_Plt.fm8"
+    },
+    {
+      "source_directory": "GAMMAP",
+      "filename": "GAMMAP.FM8",
+      "frames": 61,
+      "native_sha256": "e783b3e8a9331589b973d8d096524ab5967228ca1b67977a22ed7628d79af41a",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/GAMMAP/restoration.json",
+      "reused_hd_from": "Gamma_Ldr.fm8"
+    },
+    {
+      "source_directory": "NANNYD",
+      "filename": "NANNYD.FM8",
+      "frames": 20,
+      "native_sha256": "ba7067da82ce554df137b87f2a0de6117a3a95faa136c705d7cb4eabba17e63f",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/NANNYD/restoration.json",
+      "reused_hd_from": "Nanny_Ldr_D.fm8"
+    },
+    {
+      "source_directory": "NANNYL",
+      "filename": "NANNYL.FM8",
+      "frames": 61,
+      "native_sha256": "87c5ac7de1a3edd0586e92668ab988023448259990f8651097e6cdf4f2afa765",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/NANNYL/restoration.json",
+      "reused_hd_from": "Nanny_Ldr_L.fm8"
+    },
+    {
+      "source_directory": "PROWLD",
+      "filename": "PROWLD.FM8",
+      "frames": 11,
+      "native_sha256": "778b9fc37e802889139f8f7322f3cf2a3c505cf16a5d6f05a31de15a0c397c68",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/PROWLD/restoration.json",
+      "reused_hd_from": "Prowler_Plt_D.fm8"
+    },
+    {
+      "source_directory": "PROWLP",
+      "filename": "PROWLP.FM8",
+      "frames": 61,
+      "native_sha256": "d14ab814b52882fd63cff493649ce9333ff4fa88393771f1dfd07556346f3b99",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/PROWLP/restoration.json",
+      "reused_hd_from": "Prowler_Plt.fm8"
+    },
+    {
+      "source_directory": "RUSSBOMB",
+      "filename": "RUSSBOMB.FM8",
+      "frames": 61,
+      "native_sha256": "96515e751a4341d3c9eef4212fbfb280f2b25d6d4e6f5c11677aedb6cedd7ea2",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/RUSSBOMB/restoration.json",
+      "reused_hd_from": "C_TorpWL_Plt.fm8"
+    },
+    {
+      "source_directory": "ULYCAPD",
+      "filename": "ULYCAPD.FM8",
+      "frames": 26,
+      "native_sha256": "d90dd23de1a1a92852a7601af570f943cb9934114a0adb34f31c3e5aab2dad38",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/ULYCAPD/restoration.json",
+      "reused_hd_from": "Ullys_Capt_Panic.fm8"
+    },
+    {
+      "source_directory": "VIRTUAL",
+      "filename": "VIRTUAL.FM8",
+      "frames": 81,
+      "native_sha256": "0014baf84e71b4ea0f9c76a63f42fb04f53b60c8cd1c10a35ecd66d2e1546011",
+      "restoration_method": "exact-existing-hd-alias",
+      "restoration_record": "source/portraits/frames/VIRTUAL/restoration.json",
+      "reused_hd_from": "VirtFlt_Ins.fm8"
+    }
+  ],
+  "total_sequences": 257,
+  "total_frames": 10909,
+  "existing_sequences_unchanged": 225
+}

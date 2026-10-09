@@ -1,5 +1,13 @@
 # Known issues and tracked work
 
+## HUD 1.9 portrait additions
+
+All 257 archive filenames now have HD exports. Previously unused alternatives
+remain unused unless a pilot is deliberately assigned to them; this pass adds
+assets, not campaign casting changes. The existing shader dependency and native
+speaker-name placement limitations remain. Full campaign review of the new
+films is pending. The instant-action ammunition report remains deferred.
+
 ## First public beta — 9 October 2026
 
 HUD revision 1.8 is approved for this beta as-is. Artwork, script and shader
