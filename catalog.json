@@ -466,6 +466,40 @@
       "downloadBytes": 52802581
     },
     {
+      "id": "kamov",
+      "name": "Kamov - Worn Paint",
+      "category": "coalition-fighters",
+      "folder": "Coalition Fighters/Kamov",
+      "status": "available",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "1.0",
+      "description": "Worn grey and red Coalition torpedo bomber, with amber glazing, structural normal maps and the original deploying torpedo bays. One exterior replacement covers player and AI ships.",
+      "modFolder": "104-kamov-worn-v1",
+      "preview": "assets/kamov/flight-stowed.webp",
+      "model": "models/kamov.glb",
+      "defaultPreview": "image",
+      "images": [
+        {
+          "src": "assets/kamov/flight-stowed.webp",
+          "caption": "Kamov \u2014 Torpedoes stowed"
+        },
+        {
+          "src": "assets/kamov/flight-deployed.webp",
+          "caption": "Kamov \u2014 Torpedoes deployed"
+        }
+      ],
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Manual firing, full mission 25 and AI combat, cloaking, damage, ejection and distance transitions still need broader gameplay testing.",
+        "The 3D preview shows the stowed model. In-game photographs show both bay states; the download preserves the original deployment animation."
+      ],
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kamov-v0.1.0-beta.1/openreliant-kamov-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.1",
+      "checksum": "dd58856c84ffe9533b280d638adcdd2a9463dc1a2f11f1c065dfe0ae18c025c5",
+      "tag": "kamov-v0.1.0-beta.1",
+      "downloadBytes": 54105843
+    },
+    {
       "id": "ordnance",
       "name": "Missiles, Torpedoes and Fuel Pod - Worn Paint",
       "category": "weapons",

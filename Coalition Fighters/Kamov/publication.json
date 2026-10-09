@@ -1,0 +1,13 @@
+{
+  "status": "published",
+  "published_at_utc": "2026-10-09T09:45:00Z",
+  "verified_at_utc": "2026-10-09T09:45:07.840895+00:00",
+  "source_commit": "5550d2fc573e2e8a58d27c62b6c6b0a272183638",
+  "tag": "kamov-v0.1.0-beta.1",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.1",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kamov-v0.1.0-beta.1/openreliant-kamov-0.1.0-beta.1.zip",
+  "package_bytes": 54105843,
+  "package_sha256": "dd58856c84ffe9533b280d638adcdd2a9463dc1a2f11f1c065dfe0ae18c025c5",
+  "github_asset_digest_matches": true,
+  "checksum_asset_download_verified": true
+}
