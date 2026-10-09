@@ -5,8 +5,8 @@
   "files": [
     {
       "path": "source/README.md",
-      "bytes": 1308,
-      "sha256": "0a7fe6011a539e71ee5538c1ff91ff6b2e8f24a4baff00f45e8752d14b4510ad"
+      "bytes": 1524,
+      "sha256": "ec4194aeefef68080901696f74cb3614a19347530392ecb4e6b431c1929c76db"
     },
     {
       "path": "source/authoring/README.md",
@@ -182,6 +182,16 @@
       "path": "source/resources/fee85aeb1946_saber_hull_metallic_v1.png",
       "bytes": 7113067,
       "sha256": "fee85aeb194614614a217307a557b90d268310fdfd078c5f4b9124bb143ff356"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-overview.png",
+      "bytes": 753175,
+      "sha256": "760f95b92b852eba96edfaa2b3e2b7a62ba4442e43884a4e14ca69353b3cb71c"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-rear.png",
+      "bytes": 782956,
+      "sha256": "34d4be10cbd26dd4e55fe1b316ef278d6f5f162420fec3ae52f0a4240d2a5a5c"
     },
     {
       "path": "source/review/reconstruction_v1/material_belly.png",

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.0-beta.1 - 9 October 2026
+
+- Packaged the approved artwork as an individual player download.
+- Added actual in-game gallery photographs and a reduced 3D viewing copy.
+- Artwork and runtime files are unchanged from the approved Git upload.
+
 ## Artwork 1.0 - approved 9 October 2026
 
 - Restored the original worn atlas with built-in imagegen, preserving the grey/red livery, stars, machinery and amber glazing.
