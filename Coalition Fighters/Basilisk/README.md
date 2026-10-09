@@ -2,7 +2,7 @@
 
 Current package: **0.1.0-beta.2**, artwork **1.3**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
 
-User-approved artwork 1.3 for OpenReliant 0.7.0, packaged as an individual beta under Coalition Fighters.
+User-approved artwork 1.3 for OpenReliant 0.8.1, packaged as an individual beta under Coalition Fighters.
 
 Restores the worn dark-grey and red Coalition livery, original stars and markings, smooth amber glazing and structural surface detail. The nose and forward red gun housing share a smoother reflective finish with legible panel gaps. Glass reflection masks follow the original pane contours. Machinery UV repairs, the corrected nose seam and a restrained red hull light are included.
 
