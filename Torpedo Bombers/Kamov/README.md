@@ -2,7 +2,7 @@
 
 Current package: **0.1.0-beta.2**, artwork **1.0**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
 
-Approved artwork 1.0, released as beta 0.1.0-beta.2 for OpenReliant 0.7.0.
+Approved artwork 1.0, released as beta 0.1.0-beta.2 for OpenReliant 0.8.1.
 
 The playable Kamov in mission 25 and the AI use the same ship type (45) and exterior model, `Rus_Kamov.SHP`. One replacement covers both. The separate `kamG_frm.SHP` cockpit interior is unchanged. Engine and mission-file findings are retained in `source/audit/model-audit.json`.
 
