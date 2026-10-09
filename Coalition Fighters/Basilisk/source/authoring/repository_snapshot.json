@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "${BASILISK_WORKSPACE}/basilisk_worn_pbr_v1.blend",
+  "canonical_sha256": "d4b7bae2724045703316c109f4e1e1adba4655ee6cccde47ebde3afe88468eb4",
+  "snapshot": "Coalition Fighters/Basilisk/source/basilisk_worn_pbr_v1.blend",
+  "snapshot_sha256": "462a1a2d00f7007a16ef209c4da8121d3ebeabc81d6d7a9207e1bac19c38c324",
+  "mesh_signature": "b5cde6a1570ccf030fe4cc91a9ef915d17f798b9f914d7c42bedae810c8b5561",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "basilisk_hull_basecolor_v1.png",
+      "path": "//resources/2a137975b1b2_basilisk_hull_basecolor_v1.png",
+      "sha256": "2a137975b1b269d8d3ae97d0605b7f1d914fe698a3acc939597e053a4c31c196"
+    },
+    {
+      "image": "basilisk_hull_metallic_v1.png",
+      "path": "//resources/74748156a620_basilisk_hull_metallic_v1.png",
+      "sha256": "74748156a620410869ceb71d9b285ba8505473868ca12ecac11b5ae7c4245285"
+    },
+    {
+      "image": "basilisk_hull_normal_v1.png",
+      "path": "//resources/466621795d11_basilisk_hull_normal_v1.png",
+      "sha256": "466621795d110b814db764bf1742f61af1295000b8200e44a79d333e8040c93a"
+    },
+    {
+      "image": "basilisk_hull_roughness_v1.png",
+      "path": "//resources/ef32be5fb693_basilisk_hull_roughness_v1.png",
+      "sha256": "ef32be5fb69336abf555e3a6511cc4ca1c33aef243c96000b99a078f14a4342f"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "upper_front_right_edge_red_samples": [
+    {
+      "part": "Basalisk",
+      "texture_size": 4096,
+      "before_red_samples": 316,
+      "after_red_samples": 0
+    },
+    {
+      "part": "Basalisk",
+      "texture_size": 2048,
+      "before_red_samples": 320,
+      "after_red_samples": 0
+    },
+    {
+      "part": "Basalisk",
+      "texture_size": 1024,
+      "before_red_samples": 317,
+      "after_red_samples": 0
+    },
+    {
+      "part": "Basalisk",
+      "texture_size": 512,
+      "before_red_samples": 304,
+      "after_red_samples": 0
+    },
+    {
+      "part": "Basalisk",
+      "texture_size": 256,
+      "before_red_samples": 290,
+      "after_red_samples": 0
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "texture_size": 4096,
+      "before_red_samples": 73,
+      "after_red_samples": 0
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "texture_size": 2048,
+      "before_red_samples": 79,
+      "after_red_samples": 0
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "texture_size": 1024,
+      "before_red_samples": 68,
+      "after_red_samples": 0
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "texture_size": 512,
+      "before_red_samples": 90,
+      "after_red_samples": 0
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "texture_size": 256,
+      "before_red_samples": 181,
+      "after_red_samples": 0
+    }
+  ],
+  "all_maps_byte_identical": true
+}

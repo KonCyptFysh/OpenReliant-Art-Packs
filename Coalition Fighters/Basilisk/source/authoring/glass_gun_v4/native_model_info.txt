@@ -1,0 +1,54 @@
+version:  107
+flags:    components=false cloak=true
+parts:    2
+vertices: 907
+faces:    1661
+arcs:     0
+bounds:   (-611,-195,-1060) to (628,283,710), 1239 x 478 x 1770
+
+[  0] Basalisk                           type  0  parent  -1  link 0
+        lod 0:   256 vertices   478 faces   2 materials  beyond 5000
+        lod 1:   184 vertices   340 faces   1 materials  beyond 10000
+        lod 2:   121 vertices   232 faces   1 materials  beyond 15000
+        lod 3:    81 vertices   154 faces   1 materials  beyond 20000
+        lod 4:    57 vertices   106 faces   1 materials  beyond 25000
+        lod 5:    40 vertices    71 faces   1 materials  beyond 30000
+        lod 6:    30 vertices    51 faces   1 materials  beyond 35000
+        lod 7:    23 vertices    37 faces   1 materials  beyond 40000
+        lod 8:    19 vertices    28 faces   1 materials  beyond 500000
+        0 nodes, 20 attachments, 1 clips, 1 point lists, 0 triggers
+          points kind 7: 3
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          engine glow 2 at (-18,29,-180)  id 1 size (200,50,-600)
+          engine glow 2 at (-394,10,-650)  id 1 size (160,50,-400)
+          engine glow 2 at (378,16,-650)  id 1 size (50,160,-400)
+          gun muzzle 3 at (-93,206,1124)
+          gun muzzle 3 at (71,207,1124)
+          gun muzzle 3 at (-556,46,17)
+          gun muzzle 3 at (541,41,17)
+          gun muzzle 3 at (31,-189,-300)
+          gun muzzle 3 at (-57,-186,-300)
+          light 4 at (-20,-96,-350)  id 3 brightness 0.65 range 450 size (0.0,0.0)
+          missile 0 at (-140,90,450)
+          missile 0 at (120,90,450)
+          missile 0 at (171,-13,79)
+          missile 0 at (-202,-13,71)
+          missile 0 at (-309,-13,92)
+          missile 0 at (274,-13,99)
+          missile 0 at (-447,-13,260)
+          missile 0 at (432,-13,264)
+          missile 0 at (383,-13,-7)
+          missile 0 at (-410,-13,10)
+[  1] Basalisk Cpit                      type  2  parent  -1  link 0
+        lod 0:    26 vertices    48 faces   1 materials  beyond 5000
+        lod 1:    16 vertices    28 faces   1 materials  beyond 10000
+        lod 2:    14 vertices    24 faces   1 materials  beyond 15000
+        lod 3:    14 vertices    24 faces   1 materials  beyond 20000
+        lod 4:    11 vertices    18 faces   1 materials  beyond 25000
+        lod 5:     9 vertices    14 faces   1 materials  beyond 30000
+        lod 6:     6 vertices     8 faces   1 materials  beyond 500000
+        0 nodes, 1 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          eject point 6 at (0,55,34)
+
+textures (2): orbs1_hull orbs2_gun

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "normal_max_unit_error": 0.005903363227844238,
+  "flat_glass_normals": true,
+  "glass_metallic_zero": true,
+  "orm_channels_match": true,
+  "flight_and_loadout_maps_identical": true,
+  "dimensions": [
+    4096,
+    4096
+  ]
+}

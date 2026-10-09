@@ -1,0 +1,27 @@
+{
+  "label": "restrained",
+  "engine": "Official OpenReliant 0.7.0",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "lights": [
+    {
+      "offset": 2290,
+      "prior_range": 1000.0,
+      "prior_brightness": 2.0,
+      "new_range": 450.0,
+      "new_brightness": 0.65
+    }
+  ],
+  "watch_from": "0.9,-0.7,-1.25",
+  "render_size": [
+    1600,
+    1200
+  ],
+  "screenshot_ticks": 30,
+  "installed_model_unchanged": true,
+  "settings_unchanged": true,
+  "isolated_data_root": "/tmp/basilisk-light-probe/game-data",
+  "image": "${BASILISK_WORKSPACE}/review/light_spill_v2/restrained.png",
+  "sha256": "370a33a5e122dd7cad917a904c5e40b4bc4316858ba05f34b297f2bdfac1b7e5",
+  "tested_model_sha256": "d98ddef8d9b87a597078b76dc8cfddca8077456f3ed9b5de6a5b45565edde8fc",
+  "date_utc": "2026-10-09T00:50:20.184510+00:00"
+}

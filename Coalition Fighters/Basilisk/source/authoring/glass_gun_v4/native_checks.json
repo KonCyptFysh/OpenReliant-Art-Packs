@@ -1,0 +1,14 @@
+[
+  {
+    "file": "Rus_basalisk.SHP",
+    "exit_code": 0,
+    "output": "ok: 2 parts, 907 vertices, 1661 faces\nbounds: 2 model_space\nwritten again: the same bytes\n",
+    "sha256": "0ff34204e37e722dd363610093b90fc5f0f553c4d51a1ae33c58afe932336bb4"
+  },
+  {
+    "file": "mission988.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "b57eca5703a7700ecbe0330b7170c0b772bc40aedeef423aa496e12426b9e91a"
+  }
+]

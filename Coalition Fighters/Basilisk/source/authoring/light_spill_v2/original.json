@@ -1,0 +1,27 @@
+{
+  "label": "original",
+  "engine": "Official OpenReliant 0.7.0",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "lights": [
+    {
+      "offset": 2290,
+      "prior_range": 1000.0,
+      "prior_brightness": 2.0,
+      "new_range": 1000.0,
+      "new_brightness": 2.0
+    }
+  ],
+  "watch_from": "0.9,-0.7,-1.25",
+  "render_size": [
+    1600,
+    1200
+  ],
+  "screenshot_ticks": 30,
+  "installed_model_unchanged": true,
+  "settings_unchanged": true,
+  "isolated_data_root": "/tmp/basilisk-light-probe/game-data",
+  "image": "${BASILISK_WORKSPACE}/review/light_spill_v2/original.png",
+  "sha256": "b48c2975b8f6d2a27bf59dbb72af2822c7c7bb1c9690d9326656a3219f14e9cc",
+  "tested_model_sha256": "fd9123dc7049b4776b373a0eb9913823d3fea141c6d74dc9e8bb4f21d18ff94f",
+  "date_utc": "2026-10-09T00:43:52.344433+00:00"
+}

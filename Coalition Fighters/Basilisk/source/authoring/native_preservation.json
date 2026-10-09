@@ -1,0 +1,618 @@
+{
+  "passed": true,
+  "source_sha256": "71b5ca97549b881d28e1b01dddfb265bc7d150d47710ab4f2e6545cfa3c84663",
+  "output_sha256": "fd9123dc7049b4776b373a0eb9913823d3fea141c6d74dc9e8bb4f21d18ff94f",
+  "uv_edits": [
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 244
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 245
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 260
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 261
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 286
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 287
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 318
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 319
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 324
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 325
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 349
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 350
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 355
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 356
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 402
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 403
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 434
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 435
+    }
+  ],
+  "continuation_corrections": [
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 94,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 95,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 98,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 99,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 104,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 105,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 112,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 113,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 129,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 130,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 322,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 323,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 347,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 348,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 349,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 350,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 353,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 354,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 400,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 401,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 402,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 403,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 420,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 421,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 424,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 425,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 448,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 449,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 452,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 453,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 462,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 464,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "face": 81,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "face": 82,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "face": 89,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "face": 90,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "face": 123,
+      "prior": 4,
+      "remaining": 2
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "face": 124,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "face": 125,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "face": 132,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "face": 133,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "face": 324,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "face": 326,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 2,
+      "face": 69,
+      "prior": 5,
+      "remaining": 3
+    },
+    {
+      "part": "Basalisk",
+      "lod": 2,
+      "face": 70,
+      "prior": 4,
+      "remaining": 2
+    },
+    {
+      "part": "Basalisk",
+      "lod": 2,
+      "face": 71,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 2,
+      "face": 72,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 2,
+      "face": 216,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 2,
+      "face": 218,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 7,
+      "face": 28,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 7,
+      "face": 29,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 7,
+      "face": 30,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 8,
+      "face": 20,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Basalisk",
+      "lod": 8,
+      "face": 21,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Basalisk",
+      "lod": 8,
+      "face": 22,
+      "prior": 1,
+      "remaining": 0
+    }
+  ],
+  "detail_meshes": [
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "faces": 478,
+      "groups_before": 182,
+      "groups_after": 199,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "faces": 340,
+      "groups_before": 175,
+      "groups_after": 181,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 2,
+      "faces": 232,
+      "groups_before": 119,
+      "groups_after": 122,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 3,
+      "faces": 154,
+      "groups_before": 96,
+      "groups_after": 96,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 4,
+      "faces": 106,
+      "groups_before": 70,
+      "groups_after": 70,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 5,
+      "faces": 71,
+      "groups_before": 46,
+      "groups_after": 46,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 6,
+      "faces": 51,
+      "groups_before": 29,
+      "groups_after": 29,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 7,
+      "faces": 37,
+      "groups_before": 21,
+      "groups_after": 23,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 8,
+      "faces": 28,
+      "groups_before": 17,
+      "groups_after": 19,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 0,
+      "faces": 48,
+      "groups_before": 16,
+      "groups_after": 16,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 1,
+      "faces": 28,
+      "groups_before": 13,
+      "groups_after": 13,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 2,
+      "faces": 24,
+      "groups_before": 14,
+      "groups_after": 14,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 3,
+      "faces": 24,
+      "groups_before": 14,
+      "groups_after": 14,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 4,
+      "faces": 18,
+      "groups_before": 11,
+      "groups_after": 11,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 5,
+      "faces": 14,
+      "groups_before": 9,
+      "groups_after": 9,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 6,
+      "faces": 8,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    }
+  ],
+  "all_1661_faces_checked": true,
+  "geometry_normals_attachments_animation_collision_and_winding_byte_identical": true,
+  "allowed_changes": "18 finest-detail UV faces, texture names and primitive continuation counts at UV seams only",
+  "changed_bytes": 468
+}

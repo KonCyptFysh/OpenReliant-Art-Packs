@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "source_sha256": "d98ddef8d9b87a597078b76dc8cfddca8077456f3ed9b5de6a5b45565edde8fc",
+  "output_sha256": "a5c43e9a6449edcb81d9a047f9ce8ec914351835147824fde514cf0c9f92a7c5",
+  "uv_edits": [
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 226
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 227
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 228
+    },
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "face": 229
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 0,
+      "face": 27
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 0,
+      "face": 28
+    }
+  ],
+  "continuation_corrections": [],
+  "detail_meshes": [
+    {
+      "part": "Basalisk",
+      "lod": 0,
+      "faces": 478,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 1,
+      "faces": 340,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 2,
+      "faces": 232,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 3,
+      "faces": 154,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 4,
+      "faces": 106,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 5,
+      "faces": 71,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 6,
+      "faces": 51,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 7,
+      "faces": 37,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk",
+      "lod": 8,
+      "faces": 28,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 0,
+      "faces": 48,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 1,
+      "faces": 28,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 2,
+      "faces": 24,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 3,
+      "faces": 24,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 4,
+      "faces": 18,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 5,
+      "faces": 14,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "lod": 6,
+      "faces": 8,
+      "all_shared_corner_uvs_match": true
+    }
+  ],
+  "changed_bytes": 31,
+  "allowed_changes": "Only UVs on six finest-detail front nose triangles and required primitive continuations",
+  "all_1661_faces_checked": true,
+  "geometry_normals_lights_attachments_animation_collision_and_winding_byte_identical": true,
+  "all_texture_files_byte_identical": true,
+  "previous_18_machinery_uv_repairs_preserved": true,
+  "light_spill_refinement_preserved": true
+}

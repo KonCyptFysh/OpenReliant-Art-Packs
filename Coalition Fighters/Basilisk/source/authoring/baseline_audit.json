@@ -1,0 +1,25 @@
+{
+  "parts": [
+    {
+      "part": "Basalisk",
+      "vertices": 256,
+      "faces": 478,
+      "visible_faces": 478
+    },
+    {
+      "part": "Basalisk_Cpit",
+      "vertices": 26,
+      "faces": 48,
+      "visible_faces": 48
+    }
+  ],
+  "source_sha256": "71b5ca97549b881d28e1b01dddfb265bc7d150d47710ab4f2e6545cfa3c84663",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ]
+  ],
+  "geometry_signature": "1d119286976d2b9a534996e7c74259fccebb807ccf103b9bdb1cbf879414a642"
+}

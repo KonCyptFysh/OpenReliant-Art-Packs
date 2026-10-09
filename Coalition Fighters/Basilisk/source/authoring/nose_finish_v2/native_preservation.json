@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "base_model_sha256": "fd9123dc7049b4776b373a0eb9913823d3fea141c6d74dc9e8bb4f21d18ff94f",
+  "output_sha256": "d98ddef8d9b87a597078b76dc8cfddca8077456f3ed9b5de6a5b45565edde8fc",
+  "allowed_changes": "Only range and brightness of the single inherited red light at attachment offset 2290; prior UV repairs preserved.",
+  "changed_byte_offsets": [
+    2408,
+    2409,
+    2410,
+    2411,
+    2412,
+    2413
+  ],
+  "geometry_normals_uvs_other_attachments_animation_collision_and_winding_byte_identical": true,
+  "red_light": {
+    "range_before": 1000,
+    "range_after": 450,
+    "brightness_before": 2,
+    "brightness_after": 0.65,
+    "reach_before": 2000,
+    "reach_after": 292.5
+  },
+  "engine_glow_sprites_unchanged": true
+}

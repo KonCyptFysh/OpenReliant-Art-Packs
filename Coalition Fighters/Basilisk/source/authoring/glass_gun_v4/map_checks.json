@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "base_colour_unchanged": true,
+  "gun_colour_matches_exact_source_crop": true,
+  "glass_normals_flat": true,
+  "glass_roughness_range": [
+    41,
+    41
+  ],
+  "glass_metallic_zero": true,
+  "roughness_outside_glazing_max_change": 0,
+  "metallic_outside_glazing_max_change": 0,
+  "normal_outside_glazing_max_change": 1,
+  "orbs1_hull_normal_max_unit_error": 0.005903374775555692,
+  "orbs2_gun_normal_max_unit_error": 0.004067085042079421
+}

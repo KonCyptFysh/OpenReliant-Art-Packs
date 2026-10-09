@@ -1,0 +1,652 @@
+{
+  "status": "approved-artwork-snapshot",
+  "ship": "Basilisk",
+  "asset_revision": "1.3",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 2553,
+      "sha256": "04884affec7139ed6034a49c30fa203ab1f84d4531504d07f6a415478bcb26fb"
+    },
+    {
+      "path": "source/authoring/README.md",
+      "bytes": 875,
+      "sha256": "779efbd4ebc313a4316940bd221100792376ceed722481bdbb2f78df3ac9d22e"
+    },
+    {
+      "path": "source/authoring/baseline_audit.json",
+      "bytes": 561,
+      "sha256": "effd50773ee4b2b94551168aa6411328099f25ae180e8374dacc24ca94abe2c3"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 14126,
+      "sha256": "12d66ae1c18bc5dee3990b78965e2e5d57ffbf203930d5671df0434014d9f5de"
+    },
+    {
+      "path": "source/authoring/build_source.py",
+      "bytes": 7313,
+      "sha256": "d6130827124f5c837f89329d0f5d738a89f6027c98953f76322c52bf298525f1"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 7981,
+      "sha256": "bc245ccab06a50f91e1c84ec8a4418363e98594fdd618a36a7fc7910c7b2838a"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/basilisk-portable-v4.py",
+      "bytes": 2595,
+      "sha256": "cb7fdd199716c171980db207743ae474e9b16108902125e044b6506484220a61"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/codex-clipboard-3e2a6152-086c-4e55-9c05-57e030d9a6d7.png",
+      "bytes": 45890,
+      "sha256": "b61219570bcf846e421ac811664a64d56caa017cd7ad91827d6c75d49e908c5f"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/codex-clipboard-bba6f78f-da6e-4fc9-97ff-d37f4832f751.png",
+      "bytes": 41425,
+      "sha256": "ca8a64d9b5153f1bf04f29fc360a7d4684a0a5ca235379cde3363cc8c49eea1b"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/export-basilisk-v4.py",
+      "bytes": 7519,
+      "sha256": "994ad719fd37cf2f92bef2aaedda635c419c12e1925bb2be5fc833a097a1e7b5"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/glass_paths.json",
+      "bytes": 2880,
+      "sha256": "b71e87b330b1abc7b3735d06ea6b7491bf25cded9022714c8d3d9b83e4f15f2c"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/map_checks.json",
+      "bytes": 462,
+      "sha256": "19b2503e52b9d300164972a5fc11cc9ec01773ff5d2badf2085390531dda2cbc"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/native_checks.json",
+      "bytes": 553,
+      "sha256": "2f0b5b70088df80e63f420dcbef9fa2c63a31b6b7fc909beca0896c4dcebd034"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/native_model_info.txt",
+      "bytes": 2675,
+      "sha256": "fc2e2608f2e0c12f7e33119458a17304f95518cdd8267be973bdea42d2e7a351"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/native_preservation.json",
+      "bytes": 14454,
+      "sha256": "7c87cff6cdada0e0ed7fb09289e26698db1cdab8b2cefa5d30571d4abb8025e7"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/prior_glass_mask_diagnosis.png",
+      "bytes": 350725,
+      "sha256": "7c743c0df74e04da726f522c17ce5a0e878995459ef531f71cbbdc2bfcbce8c7"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/refine-basilisk-glass-gun-v4.py",
+      "bytes": 10411,
+      "sha256": "0d6ac51e82252e3288f894a8e9992e22ab2ab84648aac13f647c00f82761750e"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/repository_snapshot.json",
+      "bytes": 2486,
+      "sha256": "c8c77365c1f6bfe5208959e1dac5def5cd3abf1b9f9852f98d06816b9c917c4f"
+    },
+    {
+      "path": "source/authoring/glass_gun_v4/validation.json",
+      "bytes": 290961,
+      "sha256": "5966376d53b26865da4fbbd2894dc2c7c94021791f44f73e287e0859f69e8bc7"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 2670,
+      "sha256": "2b204c1e5abdcf30c34b042b0baaadbaec21fd85f6a1ccc0f591cf3271c1c809"
+    },
+    {
+      "path": "source/authoring/inspect_uv.py",
+      "bytes": 1969,
+      "sha256": "2a7d810f18bfeb3d9dbb33c0bd33db0817f75069fcfa4cb7714705a3796b384c"
+    },
+    {
+      "path": "source/authoring/inspection.py",
+      "bytes": 3507,
+      "sha256": "f204551592884574b222aa04ba1581e78cae104bf5aee51665655e6f74666d58"
+    },
+    {
+      "path": "source/authoring/light_spill_v2/light-off.json",
+      "bytes": 852,
+      "sha256": "e0457ca4143b06df1ca8ee419e0f657598e709202ab56103788207e83d5c5986"
+    },
+    {
+      "path": "source/authoring/light_spill_v2/original.json",
+      "bytes": 850,
+      "sha256": "7660796fa1dcc598350ba3f3b446bddb186120a183ecaa74041635250c58109a"
+    },
+    {
+      "path": "source/authoring/light_spill_v2/restrained.json",
+      "bytes": 854,
+      "sha256": "8c14223aa7bdaed3a287692ed5bc5cef776cba23c60a5eb79b1161baeea88ea2"
+    },
+    {
+      "path": "source/authoring/light_spill_v2/revised-nose.json",
+      "bytes": 873,
+      "sha256": "4111619037dc129fcc073f10cb0c3a193f58103ee41cc05aa542020ac80a401c"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 248,
+      "sha256": "b0cace897e93f00ebbbacce60e867bda3f8a138a2612c8d16c8dc40a859a6dd2"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 553,
+      "sha256": "61bd3c2fc8f8136158380caf71112daa90c72a60c40ee2e3f0a68787a1670f88"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 10793,
+      "sha256": "34eef6948abf7965799d9f485771cca32f5cbbd903b39c795c6fdbf1636f8a77"
+    },
+    {
+      "path": "source/authoring/nose_finish_v2/basilisk-portable-v2.py",
+      "bytes": 2389,
+      "sha256": "24d5d10a4107c9bb9b3607299e8038bb65925dfbfd5d509207bf0b9f1c385828"
+    },
+    {
+      "path": "source/authoring/nose_finish_v2/export-basilisk-v2.py",
+      "bytes": 4259,
+      "sha256": "7a7c40a2e5bd7620c623b96bf341e9f053264e422d5cb8e987a6bab2574ea5ac"
+    },
+    {
+      "path": "source/authoring/nose_finish_v2/imagegen_prompt.json",
+      "bytes": 2091,
+      "sha256": "fc592b6517913edba545a5363b49e3197f7728244ee0cc66b78dd2e1162a7406"
+    },
+    {
+      "path": "source/authoring/nose_finish_v2/map_checks.json",
+      "bytes": 318,
+      "sha256": "1e5cdb69d371d29c8a4d3302624937e133910ac86f7ff694e5a56dd637bbe05d"
+    },
+    {
+      "path": "source/authoring/nose_finish_v2/native_checks.json",
+      "bytes": 553,
+      "sha256": "92bbc492131c0ee1c13899ab092288a4ed812e5c59db87db4f7ac842a5bfac07"
+    },
+    {
+      "path": "source/authoring/nose_finish_v2/native_preservation.json",
+      "bytes": 749,
+      "sha256": "01b0bef7b866b75cd56dfe704296f51c6e1377a36199d52367668ee473959314"
+    },
+    {
+      "path": "source/authoring/nose_finish_v2/refine-basilisk-nose.py",
+      "bytes": 6602,
+      "sha256": "94095b4a6c2d4a25dc1b56d75ca22a479aa33a1378e9ed9a1a220fbc1b8cccf8"
+    },
+    {
+      "path": "source/authoring/nose_finish_v2/repository_snapshot.json",
+      "bytes": 1630,
+      "sha256": "5d96a7940911aec7c0466cf5a3fdb7e455bf15b996ca2812c87b8550604fcddc"
+    },
+    {
+      "path": "source/authoring/nose_finish_v2/validation.json",
+      "bytes": 4950,
+      "sha256": "adf374d1a00c05011c88eb46e51c2b73d467a05ad40ca99ba3088c1bbc621b45"
+    },
+    {
+      "path": "source/authoring/nose_seam_v3/basilisk-portable-v3.py",
+      "bytes": 2348,
+      "sha256": "85f9809737773c9e0e2c77b76928d07a24170c43157fb9c7c42c92dd5d269e74"
+    },
+    {
+      "path": "source/authoring/nose_seam_v3/export-basilisk-seam-v3.py",
+      "bytes": 5517,
+      "sha256": "20beb7a30e5b0a74e99787eb9edf31384df3f09855ebcb9688f54f5ceb480686"
+    },
+    {
+      "path": "source/authoring/nose_seam_v3/fix-basilisk-nose-seam-v3.py",
+      "bytes": 4409,
+      "sha256": "dc0f8a63462a17d48d11a0a934e1e6e8419f5bf8c374bdb516d7e09e09fe65af"
+    },
+    {
+      "path": "source/authoring/nose_seam_v3/native_checks.json",
+      "bytes": 553,
+      "sha256": "54613f67931177d11687b86830b7bbb2d243822d1158fdd9f6d972f7616f5ef7"
+    },
+    {
+      "path": "source/authoring/nose_seam_v3/native_preservation.json",
+      "bytes": 3020,
+      "sha256": "df25ffc85a06178e1871c392a63c8e09ffe9e22402d1d092f414d295e361f9c3"
+    },
+    {
+      "path": "source/authoring/nose_seam_v3/repository_snapshot.json",
+      "bytes": 1630,
+      "sha256": "4582a51daf56e34effa2cabd82e75f9bc96ed72105aedba3a4b7d1c169ceb23b"
+    },
+    {
+      "path": "source/authoring/nose_seam_v3/seam_sampling_checks.json",
+      "bytes": 1409,
+      "sha256": "cfe5d8ac908231699ef173bce5bbebc6c1422413ffb7066e3662c59b035a4a16"
+    },
+    {
+      "path": "source/authoring/nose_seam_v3/user_nose_seam_reference.png",
+      "bytes": 32723,
+      "sha256": "9f8e03c942eef21a2bd43fa808efb30899323a3e53819f089866c57a839a0a1a"
+    },
+    {
+      "path": "source/authoring/nose_seam_v3/uv_diagnosis_before.png",
+      "bytes": 909934,
+      "sha256": "d97074036aaa0a50699909e8136ead5297a67b1b66b085b48443d4e56c532f22"
+    },
+    {
+      "path": "source/authoring/nose_seam_v3/validation.json",
+      "bytes": 274055,
+      "sha256": "bebc4d2f1343d9d9d049ff77636ead07bf7c448ff60b2955afcac7e809d7c9c3"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2474,
+      "sha256": "5e57f6e8f185484e01d101cb6f4db5948dca7e7e39490442db3f18797f2744fe"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 13832,
+      "sha256": "5859e357dca5d2f5f6fdffdca3465c8f6eef1128ba7a56d2dcca166f35f148ea"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 1412,
+      "sha256": "96dcd2741f6746465e75b436927851d4fd58a67523d83960f306ef7977f3d562"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 307605,
+      "sha256": "d2be4e10a5f616c6e1e7f1cc795d462c238cb945531ed68c77a60713636e2e64"
+    },
+    {
+      "path": "source/basilisk_worn_pbr_v1.blend",
+      "bytes": 30219957,
+      "sha256": "462a1a2d00f7007a16ef209c4da8121d3ebeabc81d6d7a9207e1bac19c38c324"
+    },
+    {
+      "path": "source/basilisk_worn_pbr_v2.blend",
+      "bytes": 30357988,
+      "sha256": "39a7f8b7f408f3e0e5b83dae05d2039276aa631a5171cdadb70eaf933e50d7b4"
+    },
+    {
+      "path": "source/basilisk_worn_pbr_v3.blend",
+      "bytes": 30357988,
+      "sha256": "f055da54559dda6766095e0991e7e14fb38e7cc88b191e2f6a2a102303c34585"
+    },
+    {
+      "path": "source/basilisk_worn_pbr_v4.blend",
+      "bytes": 30723333,
+      "sha256": "21d2a691697585b64f9f863d3858a77b5a7a2a57ec2ea3dbb29df9241362950c"
+    },
+    {
+      "path": "source/maps/basilisk_gun_basecolor_v4.png",
+      "bytes": 247283,
+      "sha256": "03137245a3236f23058d2192dbd10ceea7c9504bfc07a9ddefafa6898d993a1e"
+    },
+    {
+      "path": "source/maps/basilisk_gun_finish_mask_v4.png",
+      "bytes": 2190,
+      "sha256": "de1c6314e40d2061433c5d36bdfac8148c45d2c9434854b6d8050d31ec8a1bf9"
+    },
+    {
+      "path": "source/maps/basilisk_gun_metallic_v4.png",
+      "bytes": 42074,
+      "sha256": "84262b927e317193aa9355e531f1e96ddbf50178994180eda6e52a5e5d99cfa4"
+    },
+    {
+      "path": "source/maps/basilisk_gun_normal_v4.png",
+      "bytes": 2294,
+      "sha256": "36365fad9afda146ff00131b6edab30ba217c709fccce2eb5c2cf13471fca940"
+    },
+    {
+      "path": "source/maps/basilisk_gun_roughness_v4.png",
+      "bytes": 20766,
+      "sha256": "40def725e1f9a63c0f679b1a83fc049f34ee3bca676295622998e9b8d0236954"
+    },
+    {
+      "path": "source/maps/basilisk_hull_basecolor_v1.png",
+      "bytes": 15651927,
+      "sha256": "2a137975b1b269d8d3ae97d0605b7f1d914fe698a3acc939597e053a4c31c196"
+    },
+    {
+      "path": "source/maps/basilisk_hull_basecolor_v2.png",
+      "bytes": 15661099,
+      "sha256": "8cf6a6ffa3e32f181b7c9c403233b36a4c1522ae213bbdf5b4b89e84b63dba43"
+    },
+    {
+      "path": "source/maps/basilisk_hull_fins_v1.png",
+      "bytes": 102126,
+      "sha256": "d6211b9d49b8ab3f5acf52686c2591cdc1a1389764e3b2f8c1fa0e2da1a87ea6"
+    },
+    {
+      "path": "source/maps/basilisk_hull_flat_graphics_v1.png",
+      "bytes": 60717,
+      "sha256": "4d97cd5aef9849a4039af93fcd182cf7c4b95b74ac3465f6701242f8a319052b"
+    },
+    {
+      "path": "source/maps/basilisk_hull_generated_initial_v1.png",
+      "bytes": 3203583,
+      "sha256": "ca02a580bb5f436dd85cd78d3355bd36e38ebdde4ef65e7a6bbd916997a76c01"
+    },
+    {
+      "path": "source/maps/basilisk_hull_generated_v1.png",
+      "bytes": 2869427,
+      "sha256": "8726a7b12b14a46a8fa77c62f892f9329b8203857c26b37cdf25314dade86d94"
+    },
+    {
+      "path": "source/maps/basilisk_hull_glass_v1.png",
+      "bytes": 66634,
+      "sha256": "69856c2db2de7958bb16bca39cb6730c593142e5f171e170e402333c1b546f37"
+    },
+    {
+      "path": "source/maps/basilisk_hull_glass_v4.png",
+      "bytes": 61275,
+      "sha256": "941676dc66cf1795fb01278cefdd3a117c24dac6f2f247e00d52f327e17016e5"
+    },
+    {
+      "path": "source/maps/basilisk_hull_glazing_edit_mask_v4.png",
+      "bytes": 75783,
+      "sha256": "3c64005090f17373b2481189ce8e21e2eab3c1e291fbde33861f297aa8d1278e"
+    },
+    {
+      "path": "source/maps/basilisk_hull_height_v1.png",
+      "bytes": 153893,
+      "sha256": "6392a4c3715bdea79f62e590d9484bfc8d29054e7d251d74b3b8fc55b0190684"
+    },
+    {
+      "path": "source/maps/basilisk_hull_height_v4.png",
+      "bytes": 153893,
+      "sha256": "6392a4c3715bdea79f62e590d9484bfc8d29054e7d251d74b3b8fc55b0190684"
+    },
+    {
+      "path": "source/maps/basilisk_hull_metallic_v1.png",
+      "bytes": 7641251,
+      "sha256": "74748156a620410869ceb71d9b285ba8505473868ca12ecac11b5ae7c4245285"
+    },
+    {
+      "path": "source/maps/basilisk_hull_metallic_v4.png",
+      "bytes": 7641251,
+      "sha256": "74748156a620410869ceb71d9b285ba8505473868ca12ecac11b5ae7c4245285"
+    },
+    {
+      "path": "source/maps/basilisk_hull_normal_v1.png",
+      "bytes": 376117,
+      "sha256": "466621795d110b814db764bf1742f61af1295000b8200e44a79d333e8040c93a"
+    },
+    {
+      "path": "source/maps/basilisk_hull_normal_v2.png",
+      "bytes": 379173,
+      "sha256": "528cdef99a258b07705130f16d3a2776e3690aef1347239b79ac7567f987eb39"
+    },
+    {
+      "path": "source/maps/basilisk_hull_normal_v4.png",
+      "bytes": 379171,
+      "sha256": "f2252fbce136f786ceb0371fd750411beccd02dbe7de2fa786906eef2c2327b2"
+    },
+    {
+      "path": "source/maps/basilisk_hull_nose_mask_v2.png",
+      "bytes": 317874,
+      "sha256": "ef3434f771e73819903f605d5c4a05eff0b44fd523b400c98f631061d914755f"
+    },
+    {
+      "path": "source/maps/basilisk_hull_paint_v1.png",
+      "bytes": 4158476,
+      "sha256": "3d489bed4663fda3816584756edc636ceb95344f2e41296dab7a59ed684f3abb"
+    },
+    {
+      "path": "source/maps/basilisk_hull_panels_v1.png",
+      "bytes": 87866,
+      "sha256": "64b93a3d9835b79ceda641522bf455779a5ea7cde81d75a3abd4c65f65dd5fa2"
+    },
+    {
+      "path": "source/maps/basilisk_hull_panels_v4.png",
+      "bytes": 87866,
+      "sha256": "64b93a3d9835b79ceda641522bf455779a5ea7cde81d75a3abd4c65f65dd5fa2"
+    },
+    {
+      "path": "source/maps/basilisk_hull_roughness_v1.png",
+      "bytes": 5978416,
+      "sha256": "ef32be5fb69336abf555e3a6511cc4ca1c33aef243c96000b99a078f14a4342f"
+    },
+    {
+      "path": "source/maps/basilisk_hull_roughness_v2.png",
+      "bytes": 5779059,
+      "sha256": "e0d40c0e15aa350b4c4c0d0385f02e93d180bfd23a0b772c0bc540da65950826"
+    },
+    {
+      "path": "source/maps/basilisk_hull_roughness_v4.png",
+      "bytes": 5778216,
+      "sha256": "5bfcc898114b0b5a62bd0c30136b196ab7267ab119cd76300eacbffad7a7acd0"
+    },
+    {
+      "path": "source/maps/basilisk_hull_seal_v1.png",
+      "bytes": 74415,
+      "sha256": "d1e73602fd7b676e448db2f5f94b1d26085c7daf7c2b89a093a879f9c18e26fe"
+    },
+    {
+      "path": "source/maps/basilisk_hull_seal_v4.png",
+      "bytes": 63484,
+      "sha256": "3e560b3fe12c859c5e5d21f2a5e8968f44169e97dae163898eaf8b47ebc8e341"
+    },
+    {
+      "path": "source/maps/basilisk_hull_structure_v1.png",
+      "bytes": 213075,
+      "sha256": "0eeac3580319a2a771e3cfb35e8b112431454773062b154c2a70cba99cbceb00"
+    },
+    {
+      "path": "source/maps/basilisk_hull_structure_v4.png",
+      "bytes": 213075,
+      "sha256": "0eeac3580319a2a771e3cfb35e8b112431454773062b154c2a70cba99cbceb00"
+    },
+    {
+      "path": "source/maps/basilisk_nose_generated_v2.png",
+      "bytes": 2652471,
+      "sha256": "194b8e03d48116167f384837404f5ea7a83699c1b74f081b1ba8f6f611289bbd"
+    },
+    {
+      "path": "source/originals/Rus_basalisk.SHP",
+      "bytes": 167870,
+      "sha256": "71b5ca97549b881d28e1b01dddfb265bc7d150d47710ab4f2e6545cfa3c84663"
+    },
+    {
+      "path": "source/originals/basilist.png",
+      "bytes": 67380,
+      "sha256": "5e645fcaf9778b091518c84c4828326c45e2fbc6c4b9d5ec88075a1c5e239153"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 641,
+      "sha256": "732bfaa73ba3b9db9c2de439d92add43abf1f23445dca02c428ce0e7a59856c3"
+    },
+    {
+      "path": "source/resources/03137245a323_basilisk_gun_basecolor_v4.png",
+      "bytes": 247283,
+      "sha256": "03137245a3236f23058d2192dbd10ceea7c9504bfc07a9ddefafa6898d993a1e"
+    },
+    {
+      "path": "source/resources/2a137975b1b2_basilisk_hull_basecolor_v1.png",
+      "bytes": 15651927,
+      "sha256": "2a137975b1b269d8d3ae97d0605b7f1d914fe698a3acc939597e053a4c31c196"
+    },
+    {
+      "path": "source/resources/36365fad9afd_basilisk_gun_normal_v4.png",
+      "bytes": 2294,
+      "sha256": "36365fad9afda146ff00131b6edab30ba217c709fccce2eb5c2cf13471fca940"
+    },
+    {
+      "path": "source/resources/40def725e1f9_basilisk_gun_roughness_v4.png",
+      "bytes": 20766,
+      "sha256": "40def725e1f9a63c0f679b1a83fc049f34ee3bca676295622998e9b8d0236954"
+    },
+    {
+      "path": "source/resources/466621795d11_basilisk_hull_normal_v1.png",
+      "bytes": 376117,
+      "sha256": "466621795d110b814db764bf1742f61af1295000b8200e44a79d333e8040c93a"
+    },
+    {
+      "path": "source/resources/528cdef99a25_basilisk_hull_normal_v2.png",
+      "bytes": 379173,
+      "sha256": "528cdef99a258b07705130f16d3a2776e3690aef1347239b79ac7567f987eb39"
+    },
+    {
+      "path": "source/resources/5bfcc898114b_basilisk_hull_roughness_v4.png",
+      "bytes": 5778216,
+      "sha256": "5bfcc898114b0b5a62bd0c30136b196ab7267ab119cd76300eacbffad7a7acd0"
+    },
+    {
+      "path": "source/resources/74748156a620_basilisk_hull_metallic_v1.png",
+      "bytes": 7641251,
+      "sha256": "74748156a620410869ceb71d9b285ba8505473868ca12ecac11b5ae7c4245285"
+    },
+    {
+      "path": "source/resources/74748156a620_basilisk_hull_metallic_v4.png",
+      "bytes": 7641251,
+      "sha256": "74748156a620410869ceb71d9b285ba8505473868ca12ecac11b5ae7c4245285"
+    },
+    {
+      "path": "source/resources/84262b927e31_basilisk_gun_metallic_v4.png",
+      "bytes": 42074,
+      "sha256": "84262b927e317193aa9355e531f1e96ddbf50178994180eda6e52a5e5d99cfa4"
+    },
+    {
+      "path": "source/resources/8cf6a6ffa3e3_basilisk_hull_basecolor_v2.png",
+      "bytes": 15661099,
+      "sha256": "8cf6a6ffa3e32f181b7c9c403233b36a4c1522ae213bbdf5b4b89e84b63dba43"
+    },
+    {
+      "path": "source/resources/e0d40c0e15aa_basilisk_hull_roughness_v2.png",
+      "bytes": 5779059,
+      "sha256": "e0d40c0e15aa350b4c4c0d0385f02e93d180bfd23a0b772c0bc540da65950826"
+    },
+    {
+      "path": "source/resources/ef32be5fb693_basilisk_hull_roughness_v1.png",
+      "bytes": 5978416,
+      "sha256": "ef32be5fb69336abf555e3a6511cc4ca1c33aef243c96000b99a078f14a4342f"
+    },
+    {
+      "path": "source/resources/ef3434f771e7_basilisk_hull_nose_mask_v2.png",
+      "bytes": 317874,
+      "sha256": "ef3434f771e73819903f605d5c4a05eff0b44fd523b400c98f631061d914755f"
+    },
+    {
+      "path": "source/resources/f2252fbce136_basilisk_hull_normal_v4.png",
+      "bytes": 379171,
+      "sha256": "f2252fbce136f786ceb0371fd750411beccd02dbe7de2fa786906eef2c2327b2"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-overview.png",
+      "bytes": 689856,
+      "sha256": "9f0327f04446de716a6d3d3226d9bb64b29a361197282d9df2fae1d9f8cec7af"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-rear.png",
+      "bytes": 694870,
+      "sha256": "78d0b83788844e2101f867acc15b34c84dc9766bce821e224d1871dd0636749b"
+    },
+    {
+      "path": "source/review/glass_gun_v4/canopy_grazing.png",
+      "bytes": 806432,
+      "sha256": "ef66cc56eb345e9fed8032d6fc381aa057bed907a11e998ade1c50e65ecb478b"
+    },
+    {
+      "path": "source/review/glass_gun_v4/canopy_roof.png",
+      "bytes": 801359,
+      "sha256": "6a21f882fca89dc3c00a597ca500ff9e07dd291414c678ba8df15c2bb865e321"
+    },
+    {
+      "path": "source/review/glass_gun_v4/nose_left.png",
+      "bytes": 949764,
+      "sha256": "21df6ebbe77b2e16c46e0d38e7fcf4a01598aa025cd9a944787f7f4e89864740"
+    },
+    {
+      "path": "source/review/glass_gun_v4/nose_right.png",
+      "bytes": 904718,
+      "sha256": "224ca3733e00cf5d7e43c25907e3c3c8361b349051aa7a1fa38eb0d611b21ba9"
+    },
+    {
+      "path": "source/review/light_spill_v2/light-off.png",
+      "bytes": 766988,
+      "sha256": "61967542e38c36c1248e50ee3078474396a40e31874aefb668a14ba3743fee37"
+    },
+    {
+      "path": "source/review/light_spill_v2/original.png",
+      "bytes": 800274,
+      "sha256": "b48c2975b8f6d2a27bf59dbb72af2822c7c7bb1c9690d9326656a3219f14e9cc"
+    },
+    {
+      "path": "source/review/light_spill_v2/restrained.png",
+      "bytes": 770407,
+      "sha256": "370a33a5e122dd7cad917a904c5e40b4bc4316858ba05f34b297f2bdfac1b7e5"
+    },
+    {
+      "path": "source/review/light_spill_v2/revised-nose.png",
+      "bytes": 1115266,
+      "sha256": "0f12f21882a7223fa7e6082eaa90f539a3c56ed1f7e7c650626cb4c3bf748b12"
+    },
+    {
+      "path": "source/review/nose_finish_v2/material_cockpit.png",
+      "bytes": 1456241,
+      "sha256": "5b509ddce6013358465f370a10e595061168924973c1bac2d138e065dd208dad"
+    },
+    {
+      "path": "source/review/nose_finish_v2/material_front.png",
+      "bytes": 875467,
+      "sha256": "bf0bcb184372b4104e68bbb6b40d2e8371a651b2db2dbad29ef9fb2d219c3c2f"
+    },
+    {
+      "path": "source/review/nose_finish_v2/material_opposite.png",
+      "bytes": 924269,
+      "sha256": "7b5ea9bc89cc0631721b7c988cced8fcb406cd4f07d9df9bcd10ca3bad36d702"
+    },
+    {
+      "path": "source/review/nose_seam_v3/nose_left_after.png",
+      "bytes": 1164059,
+      "sha256": "ab6f34776e810024f81a288e23189592dc063506c557ed3633d63a8e6c8d02de"
+    },
+    {
+      "path": "source/review/nose_seam_v3/nose_left_before.png",
+      "bytes": 1169029,
+      "sha256": "30c30b2e234aa5c3fc8068756b4059eb39d1827e27f037229eebb7385209469e"
+    },
+    {
+      "path": "source/review/nose_seam_v3/nose_right_after.png",
+      "bytes": 1112564,
+      "sha256": "09a26de39ae78920c5b2d398bca6bb081abbb2fb69bdbd247d04c04b5c9cf45b"
+    },
+    {
+      "path": "source/review/nose_seam_v3/nose_right_before.png",
+      "bytes": 1118351,
+      "sha256": "8ffa76857dfc5614136d7340ac5fd536a8397bc5654179ec6e7f40d3e66854de"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 827598,
+      "sha256": "00e6c3cced9ea113c4d6dbadb124e0964a40ab0a3d23d272c97e933c07aa4b67"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 881765,
+      "sha256": "a9741bfeb9f5aaa938cb26036fedc6949c06dae790b80ef91eb51977a1b7f71f"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 929958,
+      "sha256": "959d903a8f03e106e7e882baf4c2115c5c35266a41bce15374ee47a265514523"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_rear.png",
+      "bytes": 759550,
+      "sha256": "25af925d2efd559a9159f1dbc40f6e46ef53fcfe3527281edb16be5df9e8869b"
+    },
+    {
+      "path": "source/review/reconstruction_v1/source_front.png",
+      "bytes": 589209,
+      "sha256": "bbd5aed219a2b398b0fe21b18ec52513712b949ca8579de75bbe8fb70fc8a68f"
+    }
+  ]
+}

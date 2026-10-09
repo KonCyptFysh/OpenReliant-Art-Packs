@@ -1,0 +1,27 @@
+{
+  "label": "light-off",
+  "engine": "Official OpenReliant 0.7.0",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "lights": [
+    {
+      "offset": 2290,
+      "prior_range": 1000.0,
+      "prior_brightness": 2.0,
+      "new_range": 1000.0,
+      "new_brightness": 0.0
+    }
+  ],
+  "watch_from": "0.9,-0.7,-1.25",
+  "render_size": [
+    1600,
+    1200
+  ],
+  "screenshot_ticks": 30,
+  "installed_model_unchanged": true,
+  "settings_unchanged": true,
+  "isolated_data_root": "/tmp/basilisk-light-probe/game-data",
+  "image": "${BASILISK_WORKSPACE}/review/light_spill_v2/light-off.png",
+  "sha256": "61967542e38c36c1248e50ee3078474396a40e31874aefb668a14ba3743fee37",
+  "tested_model_sha256": "603b62c6d1d4c38f034ac62c6a20e99f053e659fc101beb76169f73ac89b19f5",
+  "date_utc": "2026-10-09T00:45:31.733242+00:00"
+}

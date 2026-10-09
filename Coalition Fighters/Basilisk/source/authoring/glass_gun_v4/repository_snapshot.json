@@ -1,0 +1,56 @@
+{
+  "canonical_scene": "${BASILISK_WORKSPACE}/basilisk_worn_pbr_v4.blend",
+  "canonical_sha256": "4f310a3f94050bd619536993fd68c0077f88921c8deb0dc7b4e0cc6f3023ec46",
+  "snapshot": "Coalition Fighters/Basilisk/source/basilisk_worn_pbr_v4.blend",
+  "snapshot_sha256": "21d2a691697585b64f9f863d3858a77b5a7a2a57ec2ea3dbb29df9241362950c",
+  "mesh_signature": "283e3ff9dc41bb75a726961767ed4c03c9783ca74686644e209500f02a437ac8",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "basilisk_gun_basecolor_v4.png",
+      "path": "//resources/03137245a323_basilisk_gun_basecolor_v4.png",
+      "sha256": "03137245a3236f23058d2192dbd10ceea7c9504bfc07a9ddefafa6898d993a1e"
+    },
+    {
+      "image": "basilisk_gun_metallic_v4.png",
+      "path": "//resources/84262b927e31_basilisk_gun_metallic_v4.png",
+      "sha256": "84262b927e317193aa9355e531f1e96ddbf50178994180eda6e52a5e5d99cfa4"
+    },
+    {
+      "image": "basilisk_gun_normal_v4.png",
+      "path": "//resources/36365fad9afd_basilisk_gun_normal_v4.png",
+      "sha256": "36365fad9afda146ff00131b6edab30ba217c709fccce2eb5c2cf13471fca940"
+    },
+    {
+      "image": "basilisk_gun_roughness_v4.png",
+      "path": "//resources/40def725e1f9_basilisk_gun_roughness_v4.png",
+      "sha256": "40def725e1f9a63c0f679b1a83fc049f34ee3bca676295622998e9b8d0236954"
+    },
+    {
+      "image": "basilisk_hull_basecolor_v2.png",
+      "path": "//resources/8cf6a6ffa3e3_basilisk_hull_basecolor_v2.png",
+      "sha256": "8cf6a6ffa3e32f181b7c9c403233b36a4c1522ae213bbdf5b4b89e84b63dba43"
+    },
+    {
+      "image": "basilisk_hull_metallic_v4.png",
+      "path": "//resources/74748156a620_basilisk_hull_metallic_v4.png",
+      "sha256": "74748156a620410869ceb71d9b285ba8505473868ca12ecac11b5ae7c4245285"
+    },
+    {
+      "image": "basilisk_hull_normal_v4.png",
+      "path": "//resources/f2252fbce136_basilisk_hull_normal_v4.png",
+      "sha256": "f2252fbce136f786ceb0371fd750411beccd02dbe7de2fa786906eef2c2327b2"
+    },
+    {
+      "image": "basilisk_hull_nose_mask_v2.png",
+      "path": "//resources/ef3434f771e7_basilisk_hull_nose_mask_v2.png",
+      "sha256": "ef3434f771e73819903f605d5c4a05eff0b44fd523b400c98f631061d914755f"
+    },
+    {
+      "image": "basilisk_hull_roughness_v4.png",
+      "path": "//resources/5bfcc898114b_basilisk_hull_roughness_v4.png",
+      "sha256": "5bfcc898114b0b5a62bd0c30136b196ab7267ab119cd76300eacbffad7a7acd0"
+    }
+  ]
+}
