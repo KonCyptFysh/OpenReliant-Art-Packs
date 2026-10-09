@@ -1,0 +1,37 @@
+{
+  "package_name": "openreliant-lagg",
+  "version": "0.1.0-beta.1",
+  "asset_revision": "1.0",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.8.1",
+  "mod_folders": [
+    "108-lagg-worn-v1"
+  ],
+  "asset_manifest_sha256": "9e8221846fdb45279a48d8fd320404fd1bdb6970d7f40fc8f5d78e3ba61b0cc9",
+  "source_manifest_sha256": "8c470ae5dab51360531de422452f801bebfa2c82c7e3c4775aa386cc123b8968",
+  "channel": "beta",
+  "user_approved": true,
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json",
+    "compatibility-0.8.json",
+    "tools/launch-lagg-test.sh",
+    "approval.json",
+    "gallery-validation.json"
+  ],
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-09T23:43:23.545571+00:00",
+    "scope": "Lagg worn artwork revision 1.0, approved for Git and beta publication following user review.",
+    "instruction": "Sweet, I don't see any glaring issues with this, ship it!",
+    "qualification": "User reports no current revisions. This does not certify complete campaign, damage, animation or distance-transition coverage."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "gallery_media": "Five actual in-game screenshots from the user review",
+  "artwork_revision": "1.0",
+  "captures": [
+    {
+      "image": "flight-overview.png",
+      "original_filename": "Screenshot_20261010_103920.png",
+      "sha256": "6fbb8f8ff83c5b6fe146f1a98d66e4ad6445376febb50903cbbef30da7dc8d6f",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Lagg review install",
+      "captured_at_utc": "2026-10-09T23:39:23.992114+00:00",
+      "gallery_file": "assets/lagg/flight-overview.webp",
+      "gallery_sha256": "d55cd20c8c1aeed69361e32b92b10e12c935880b44dd1e5cd5cca7d717146c80",
+      "caption": "Lagg \u2014 In-game overview",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    },
+    {
+      "image": "flight-top.png",
+      "original_filename": "Screenshot_20261010_103905.png",
+      "sha256": "0ae82ff6e722d7488fc270d9c572294975413d05255ec458b9aefbb0b15e3f80",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Lagg review install",
+      "captured_at_utc": "2026-10-09T23:39:10.748179+00:00",
+      "gallery_file": "assets/lagg/flight-top.webp",
+      "gallery_sha256": "4f9f89fc994475eb024bd369cefca06f244088b3696da7e4b55681d9985eb527",
+      "caption": "Lagg \u2014 Top view",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    },
+    {
+      "image": "flight-underside.png",
+      "original_filename": "Screenshot_20261010_103943.png",
+      "sha256": "8a4c571513ac18f9865143702b5da04656235835225480af958a7b04e94b4e4f",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Lagg review install",
+      "captured_at_utc": "2026-10-09T23:39:47.408000+00:00",
+      "gallery_file": "assets/lagg/flight-underside.webp",
+      "gallery_sha256": "93c99fb8a2faa68ea6de31a96613823c1b9e17538f412425e375c4ce20f8d47f",
+      "caption": "Lagg \u2014 Underside",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    },
+    {
+      "image": "flight-rear.png",
+      "original_filename": "Screenshot_20261010_103958.png",
+      "sha256": "2ea57c4285bb9bf2cad7a2abe780a701d8e6d4bd8cdfdebd3ebfe3c3d50f0e23",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Lagg review install",
+      "captured_at_utc": "2026-10-09T23:40:01.138933+00:00",
+      "gallery_file": "assets/lagg/flight-rear.webp",
+      "gallery_sha256": "f71b51d130c5c49206d1821e84447c10e70031e3bda93598b884a9b1bd3e0bd6",
+      "caption": "Lagg \u2014 Rear view",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    },
+    {
+      "image": "flight-firing.png",
+      "original_filename": "Screenshot_20261010_104023.png",
+      "sha256": "7742b77dda453ddc3875015723469ccf92174b68088db58dfa39b0bfdca8afd0",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Lagg review install",
+      "captured_at_utc": "2026-10-09T23:40:28.180801+00:00",
+      "gallery_file": "assets/lagg/flight-firing.webp",
+      "gallery_sha256": "6356bed296efa8f7971ca718848520d4a326aa0cbdb492d617d98dbd12092bea",
+      "caption": "Lagg \u2014 Guns firing",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    }
+  ],
+  "approved_runtime_before_metadata_sha256": "a649920bc7ff45bd468946d10498d43366814792354ada8109ab3fa9993ab48b",
+  "published_runtime_manifest_sha256": "9e8221846fdb45279a48d8fd320404fd1bdb6970d7f40fc8f5d78e3ba61b0cc9",
+  "approved_model_and_material_bytes_unchanged": true,
+  "engine_note": "Review launcher targets official OpenReliant 0.8.1. Screenshots themselves do not encode an engine build.",
+  "coverage": "In-game appearance from overview, top, underside, rear and guns firing. No automated game launch was performed for publication."
+}

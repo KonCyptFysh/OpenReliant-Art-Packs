@@ -903,6 +903,48 @@
       "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1",
       "checksum": "a599bfbb7fd11f79254b199f46e9721c7486a991bada37177fd1140e6d96b43c",
       "downloadBytes": 26257495
+    },
+    {
+      "id": "lagg",
+      "name": "Lagg - Worn Paint",
+      "category": "coalition-fighters",
+      "folder": "Coalition Fighters/Lagg",
+      "status": "coming-soon",
+      "assetRevision": "1.0",
+      "description": "Worn silver-grey Coalition hull, red star markings, recessed amber glazing and corrected native texture joins.",
+      "modFolder": "108-lagg-worn-v1",
+      "preview": "assets/lagg/flight-overview.webp",
+      "defaultPreview": "image",
+      "images": [
+        {
+          "src": "assets/lagg/flight-overview.webp",
+          "caption": "Lagg \u2014 In-game overview"
+        },
+        {
+          "src": "assets/lagg/flight-top.webp",
+          "caption": "Lagg \u2014 Top view"
+        },
+        {
+          "src": "assets/lagg/flight-underside.webp",
+          "caption": "Lagg \u2014 Underside"
+        },
+        {
+          "src": "assets/lagg/flight-rear.webp",
+          "caption": "Lagg \u2014 Rear view"
+        },
+        {
+          "src": "assets/lagg/flight-firing.webp",
+          "caption": "Lagg \u2014 Guns firing"
+        }
+      ],
+      "previewSource": "User in-game capture",
+      "engine": "0.8.1",
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing."
+      ],
+      "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
+      "model": "models/lagg.glb"
     }
   ]
 }
