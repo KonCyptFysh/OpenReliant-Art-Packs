@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "normal_max_unit_error": 0.004547059535980225,
+  "glass_interior_normals_flat": true,
+  "glass_metallic_zero": true,
+  "orm_channels_match": true,
+  "one_shared_material_set_without_gr_duplicates": true,
+  "dimensions": [
+    4096,
+    4096
+  ]
+}

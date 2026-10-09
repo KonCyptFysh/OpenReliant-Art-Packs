@@ -1,0 +1,32 @@
+{
+  "tool": "built-in image_gen",
+  "restoration": "Use case: precise-object-edit. Asset type: UV-aligned diffuse texture atlas for the StarLancer Coalition Lagg spacecraft. The attached 256x256 image is the EDIT TARGET, not a composition suggestion. Reconstruct this exact square atlas at high resolution in the same faithful worn painted spacecraft style as the original. Preserve every feature's normalized coordinates, dimensions, silhouette, orientation and spacing exactly: all silver-grey metal plates, thin black panel seams, rows of vents and intake ribs, circular mechanical wells, little amber indicator blocks, hazard chevrons, triangular warning decals, the large red five-pointed star near upper right, broad diagonal chipped dark-red stripe on the right and red strips near the bottom. Retain the original weathered utilitarian silver-grey/red palette, visible chips and age, with clear economical panel edges and legible shallow gaps; no redesign, no new panels, extra rivets, words, logos or details. The amber/brown cockpit glazing apertures in the narrow far-left upper strip must have smooth opaque dark amber glass interiors, with restrained plain colour and no painted reflections, squiggles, marbling, scratches or cloud pattern; retain their exact frames and shapes. Other amber/yellow small indicator panels remain unchanged. Deliberately avoid hard baked directional highlights and dark fake shadow rims; physical surface response will come from separate PBR maps. The vents remain sharply bounded inside their housings, their ribs straight and parallel. This is a technical full-bleed flat texture sheet for an EXISTING fixed UV layout: exact spatial registration is essential. Do not render a spaceship, show perspective, rearrange islands, crop, rotate, add a border or change the atlas aspect. Output the restored atlas only, opaque, square.",
+  "glass_refinement": "Use case: precise-object-edit. Edit the attached spacecraft UV atlas. Change ONLY the interiors of the SIX amber cockpit glass apertures in the far-left strip; keep the entire rest of the image pixel-aligned and visually unchanged. Coordinates on this 1254-square image: (1) tall left pane x12\u201361 y141\u2013330, (2) tall adjacent pane x96\u2013138 y145\u2013330, (3) short left pane x13\u201358 y359\u2013463, (4) tiny sloping pane x117\u2013142 y360\u2013407, (5) low diagonal pane x13\u201362 y755\u2013812, (6) low square pane x95\u2013138 y778\u2013824. Each glass interior must be a plain smooth opaque dark amber-brown tone, nearly flat with only an extremely restrained broad colour gradient. Remove EVERY bright horizontal/vertical line, painted mullion, honey/cloud reflection, amber marbling, scratch or internal pattern from inside those exact six panes. Preserve each pane's original polygon silhouette and its complete existing metal/rubber frame exactly. No highlight, no new geometry, no shadow ring, no black cutout, no transparency. The runtime will supply all glass reflections. All other yellow/amber indicator blocks and mechanical details including the small amber square nearer x432 y917 MUST remain unchanged. Preserve the silver worn panels, red paint and stars, thin seams, vents, markings, all positions and total square dimensions. Output the whole opaque atlas only.",
+  "inputs": [
+    {
+      "path": "${LAGG_WORKSPACE}/source/lagg.png",
+      "role": "Original 256-square UV atlas edit target",
+      "sha256": "62445a657fa95f27a59fa70d150d6f8b3bdbb4c6f74d944e102011d672e4d4f6"
+    }
+  ],
+  "outputs": {
+    "generated": {
+      "path": "${LAGG_WORKSPACE}/maps/lagg_hull_generated_v1.png",
+      "generated_path": "/home/lva-8700/.codex/generated_images/01a0efc3-3a2f-7fe3-b0c1-2dec3263b764/exec-52815c9c-408f-4ac9-9ae7-243151ee9d68.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "8905b65f299ce3810dcbf7c5df4dba2ac78fa9be1008d0f1238b70ddd63acfdc"
+    },
+    "glazing": {
+      "path": "${LAGG_WORKSPACE}/maps/lagg_hull_glazing_v1.png",
+      "generated_path": "/home/lva-8700/.codex/generated_images/01a0efc3-3a2f-7fe3-b0c1-2dec3263b764/exec-fcef7ac2-21cc-489d-ab96-3f7d0ec3900e.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "88acbeaefb336d9c761e4d0a679d4af676836817ad6597ca3172e063b8815745"
+    }
+  }
+}

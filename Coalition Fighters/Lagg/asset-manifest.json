@@ -1,0 +1,42 @@
+[
+  {
+    "path": "mods/108-lagg-worn-v1/Rus_Lagg.SHP",
+    "bytes": 207032,
+    "sha256": "50a4951944d5392d11972341410744a4663b8a326358b5cfa2f91fd3c979cdd4"
+  },
+  {
+    "path": "mods/108-lagg-worn-v1/license.txt",
+    "bytes": 245,
+    "sha256": "dfe57527cf332b05e50b6c2a31d03ffa3e53c32e0f8b765c634884ff293d2fed"
+  },
+  {
+    "path": "mods/108-lagg-worn-v1/mission978.dte",
+    "bytes": 473,
+    "sha256": "81b1df3779dd9fb955aa4fa16e4fb187328534a82ed6b8479756acd396108941"
+  },
+  {
+    "path": "mods/108-lagg-worn-v1/mod.ini",
+    "bytes": 247,
+    "sha256": "d6d05e61655426f2c10d678d171eb0f730c500ef947eb4a55449d84f67086a21"
+  },
+  {
+    "path": "mods/108-lagg-worn-v1/mod.png",
+    "bytes": 1011734,
+    "sha256": "6fbb8f8ff83c5b6fe146f1a98d66e4ad6445376febb50903cbbef30da7dc8d6f"
+  },
+  {
+    "path": "mods/108-lagg-worn-v1/orlg1_hull.png",
+    "bytes": 16501579,
+    "sha256": "d0faa08b6a44fb6cd30e131e830a50cf822189e84a9b10fab33d340642141edd"
+  },
+  {
+    "path": "mods/108-lagg-worn-v1/orlg1_hull_normal.png",
+    "bytes": 463535,
+    "sha256": "284f0fa6d635b2a757811219f2fdfbe63a0af70627601d19a341afd9705c93aa"
+  },
+  {
+    "path": "mods/108-lagg-worn-v1/orlg1_hull_orm.png",
+    "bytes": 7815038,
+    "sha256": "b817fd52576688705ba5783e4676a6ca92b84a16ce69d40e737f99534fe188d3"
+  }
+]

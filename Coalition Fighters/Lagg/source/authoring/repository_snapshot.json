@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "${LAGG_WORKSPACE}/lagg_worn_pbr_v1.blend",
+  "canonical_sha256": "fadef34ea33a6893aaf494ce5f4dfd4a27c6200b7f61520ac3b33c9858dc5f68",
+  "snapshot": "${ART_PACK_REPOSITORY}/Coalition Fighters/Lagg/source/lagg_worn_pbr_v1.blend",
+  "snapshot_sha256": "ad48468d4f54c969dce874564cec7c7819e017eac844494d38675c7d32456c9b",
+  "mesh_signature": "2d070cd0139fa1d0e50f7becc5941f39a1968ed81550c7d5a4537ee47e41b6cb",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "lagg_hull_basecolor_v1.png",
+      "path": "//resources/d0faa08b6a44_lagg_hull_basecolor_v1.png",
+      "sha256": "d0faa08b6a44fb6cd30e131e830a50cf822189e84a9b10fab33d340642141edd"
+    },
+    {
+      "image": "lagg_hull_metallic_v1.png",
+      "path": "//resources/01cbc9a7f66d_lagg_hull_metallic_v1.png",
+      "sha256": "01cbc9a7f66d1572dad69c5765a8150f1086bf39c5a5741dc8866ca5f50183e3"
+    },
+    {
+      "image": "lagg_hull_normal_v1.png",
+      "path": "//resources/284f0fa6d635_lagg_hull_normal_v1.png",
+      "sha256": "284f0fa6d635b2a757811219f2fdfbe63a0af70627601d19a341afd9705c93aa"
+    },
+    {
+      "image": "lagg_hull_roughness_v1.png",
+      "path": "//resources/932e96f3fd63_lagg_hull_roughness_v1.png",
+      "sha256": "932e96f3fd63627c38cac8b7dc0a3f14343835dafb9af3380524ff01c21e7ce9"
+    }
+  ]
+}

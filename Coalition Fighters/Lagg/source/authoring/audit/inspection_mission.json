@@ -1,0 +1,12 @@
+{
+  "mission": 978,
+  "name": "Recommissioned - Lagg Inspection",
+  "player_ship_type": 44,
+  "placed_ships": 1,
+  "other_ships": 0,
+  "triggers": 0,
+  "script": "Create only the player's flight group; return.",
+  "retail_mission_data_copied": false,
+  "sha256": "81b1df3779dd9fb955aa4fa16e4fb187328534a82ed6b8479756acd396108941",
+  "status": "requires runtime verification"
+}

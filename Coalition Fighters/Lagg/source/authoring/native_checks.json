@@ -1,0 +1,14 @@
+[
+  {
+    "file": "Rus_Lagg.SHP",
+    "exit_code": 0,
+    "output": "ok: 2 parts, 1208 vertices, 2042 faces\nbounds: 2 model_space\nwritten again: the same bytes\n",
+    "sha256": "50a4951944d5392d11972341410744a4663b8a326358b5cfa2f91fd3c979cdd4"
+  },
+  {
+    "file": "mission978.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "81b1df3779dd9fb955aa4fa16e4fb187328534a82ed6b8479756acd396108941"
+  }
+]

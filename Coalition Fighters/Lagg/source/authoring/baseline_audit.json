@@ -1,0 +1,25 @@
+{
+  "parts": [
+    {
+      "part": "Lagg_cockpit",
+      "vertices": 26,
+      "faces": 48,
+      "visible_faces": 34
+    },
+    {
+      "part": "Lagg",
+      "vertices": 348,
+      "faces": 640,
+      "visible_faces": 626
+    }
+  ],
+  "source_sha256": "e227ed466b6e0e93ff63fb6ee92e653573f4eb7b42452cde7b21da539e227252",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ]
+  ],
+  "geometry_signature": "82d75b9c5216892efa368bcf097843dc07f004e55fc2309ddb87904a80fb3a6b"
+}

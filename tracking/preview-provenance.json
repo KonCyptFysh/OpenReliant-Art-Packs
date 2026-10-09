@@ -560,5 +560,58 @@
       "three_photo_navigation": true,
       "material_revision": "1.0"
     }
+  },
+  "lagg": {
+    "model": "Rus_Lagg.SHP",
+    "model_sha256": "50a4951944d5392d11972341410744a4663b8a326358b5cfa2f91fd3c979cdd4",
+    "preview_sha256": "c8265272162511315c014103365c3fdc6151f56e2f7ea6feecf3f7e43659cdb0",
+    "preview_bytes": 1523404,
+    "highest_detail_geometry": true,
+    "textures": [
+      {
+        "runtime_file": "orlg1_hull.png",
+        "sha256": "d0faa08b6a44fb6cd30e131e830a50cf822189e84a9b10fab33d340642141edd",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orlg1_hull_normal.png",
+        "sha256": "284f0fa6d635b2a757811219f2fdfbe63a0af70627601d19a341afd9705c93aa",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orlg1_hull_orm.png",
+        "sha256": "b817fd52576688705ba5783e4676a6ca92b84a16ce69d40e737f99534fe188d3",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "limitations": "Static rotatable viewing copy with 1024-pixel textures and browser lighting. Engine effects, animation and loadout attachments are omitted; five in-game photos show the actual engine appearance.",
+    "pose": "native rest pose matching the approved authoring scene",
+    "parts": 2,
+    "visible_triangles": 660,
+    "native_part_origins_verified": true,
+    "source_scene_sha256": "fadef34ea33a6893aaf494ce5f4dfd4a27c6200b7f61520ac3b33c9858dc5f68",
+    "engine_exporter": "Official OpenReliant sltool 0.8.1",
+    "native_runtime_unchanged": true,
+    "asset_manifest_sha256": "9e8221846fdb45279a48d8fd320404fd1bdb6970d7f40fc8f5d78e3ba61b0cc9",
+    "browser_checks": {
+      "loaded": true,
+      "rotation_and_zoom": true,
+      "photo_3d_toggle": true,
+      "desktop_visual_checked": true,
+      "narrow_screen_photo_layout_checked": true,
+      "gallery_wraparound": true
+    }
   }
 }
