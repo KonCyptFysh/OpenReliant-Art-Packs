@@ -455,5 +455,57 @@
       "desktop_and_mobile": true,
       "material_revision": "1.1"
     }
+  },
+  "azan": {
+    "model": "Houjian.SHP",
+    "model_sha256": "c10ffbfe3cf3699a1a6fa7ac12ae522a3210ecde79f7af2ae2d4b840ae9a150a",
+    "preview_sha256": "129c02becc0b8642f04a8c00a9821b291ac81e53dd7839e1c5f42c8cf4623e13",
+    "preview_bytes": 1724988,
+    "highest_detail_geometry": true,
+    "textures": [
+      {
+        "runtime_file": "oraz1_hull.png",
+        "sha256": "67136a78002ac91289b8f95275ecfc7ecfe5b9b33e8151ab4a322fa2fa3ac40e",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "oraz1_hull_normal.png",
+        "sha256": "21fb4279ab5753a4f8c4bb2af84fef8bfe0ce2d028f9fa2809d06c2116397372",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "oraz1_hull_orm.png",
+        "sha256": "ffede8f4b61a7817dadda1353e0b7b6e41e5314baae35b071dcfa9c3622e5692",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "limitations": "Static rotatable viewing copy with 1024-pixel textures and browser lighting. Engine effects, animation and loadout attachments are omitted; four in-game photos show the actual engine appearance.",
+    "pose": "native rest pose matching the approved authoring scene",
+    "parts": 2,
+    "visible_triangles": 528,
+    "native_part_origins_verified": true,
+    "source_scene_sha256": "ad5adcc64a796aaf16792d6bb094db49ac3c7ab73cb5efc7cc883604f4d1d064",
+    "engine_exporter": "Official OpenReliant sltool 0.8.1",
+    "native_runtime_unchanged": true,
+    "asset_manifest_sha256": "49f8a0459ea7f238e5d2339a9fa7e0fe7a32d08f8d170d9f59f3e4b20d5bda44",
+    "local_browser_checks": {
+      "date_utc": "2026-10-09T14:31:33.008099+00:00",
+      "model_loaded": true,
+      "rotation_and_zoom": true,
+      "desktop_and_mobile": true,
+      "material_revision": "1.0"
+    }
   }
 }
