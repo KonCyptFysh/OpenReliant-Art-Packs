@@ -1,0 +1,20 @@
+{
+  "status": "published",
+  "tag": "wolverine-v0.1.0-beta.2",
+  "version": "0.1.0-beta.2",
+  "asset_revision": "2.0",
+  "minimum_openreliant": "0.8.1",
+  "source_commit": "e1789ca76bf3a6ff6970a2980cdaec02c5888b58",
+  "published_at_utc": "2026-10-09T12:33:02Z",
+  "verified_at_utc": "2026-10-09T12:33:10.993460+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2/openreliant-wolverine-0.1.0-beta.2.zip",
+  "download_sha256": "37de88966aeae03b3d54eca55a7aed3f2e1a839ed65f589035f41ce6ea3027c1",
+  "download_bytes": 32297711,
+  "github_asset_digest": "sha256:37de88966aeae03b3d54eca55a7aed3f2e1a839ed65f589035f41ce6ea3027c1",
+  "remote_zip_hash_verified": false,
+  "github_asset_digest_verified": true,
+  "remote_checksum_verified": true,
+  "asset_manifest_sha256": "e771bff93e1ad7b319899b1b3b5699c21ea245e86daeb37ed8819d497fda3e52",
+  "source_manifest_sha256": "451217359b01b2c3fdc6301c2adc336bd6786df5d6131f2d948f2349c406cef2"
+}

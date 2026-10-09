@@ -3,7 +3,7 @@
   "title": "KonCyptFysh Art Packs",
   "owner": "KonCyptFysh",
   "repository": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs",
-  "engine": "0.7.0",
+  "engine": "0.8.1",
   "categories": [
     {
       "id": "alliance-fighters",
@@ -67,21 +67,24 @@
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Coyote",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "4.0",
       "description": "Clean structural relief, worn green paint and distinctive radiator fins.",
       "modFolder": "30-coyote-worn-v4",
       "preview": "assets/coyote.webp",
       "model": "models/coyote.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.1/openreliant-coyote-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.1",
-      "checksum": "1e32bea620219ad82a1323268133f28a3590535666e13870706f356bd1c1bf17",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2/openreliant-coyote-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2",
+      "checksum": "6e0390bb1316c80aebed2e01c45b79f1974178af34d92ef510467a9c8de6772e",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "coyote-v0.1.0-beta.1",
-      "downloadBytes": 229095259
+      "tag": "coyote-v0.1.0-beta.2",
+      "downloadBytes": 114738284,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "predator",
@@ -89,21 +92,24 @@
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Predator",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "16.1",
       "description": "Continuous wing fins, repaired surface detail and restrained paint markings.",
       "modFolder": "40-predator-worn-v14",
       "preview": "assets/predator.webp",
       "model": "models/predator.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.1/openreliant-predator-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.1",
-      "checksum": "8b5fb0a9b065f4d4a44a03f428987d964c77ec9569f18613ee5caa287ee25338",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2/openreliant-predator-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2",
+      "checksum": "c7e284ec829927d5a44ca2a338700efd9200a3212ef1520cf8e61d82b832ad2e",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "predator-v0.1.0-beta.1",
-      "downloadBytes": 258724718
+      "tag": "predator-v0.1.0-beta.2",
+      "downloadBytes": 129821541,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "reaper",
@@ -111,21 +117,24 @@
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Reaper",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "3.1",
       "description": "Aligned surface detail, repaired glass and differentiated materials.",
       "modFolder": "50-reaper-worn-v3",
       "preview": "assets/reaper.webp",
       "model": "models/reaper.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.1/openreliant-reaper-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.1",
-      "checksum": "2cba10afec6348fcdbe17546aadc484174e9732736536e7f15c35c2d82c6fb46",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2/openreliant-reaper-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2",
+      "checksum": "e3429756ecc15537d1224c2d3ba57ef5c39facaff011dffc0eeeac4941b071a3",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "reaper-v0.1.0-beta.1",
-      "downloadBytes": 120485326
+      "tag": "reaper-v0.1.0-beta.2",
+      "downloadBytes": 60756289,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "wolverine",
@@ -133,21 +142,24 @@
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Wolverine",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "2.0",
       "description": "Worn steel, warm markings and smoked-green glazing.",
       "modFolder": "60-wolverine-worn-v1",
       "preview": "assets/wolverine.webp",
       "model": "models/wolverine.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.1/openreliant-wolverine-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.1",
-      "checksum": "8311021c860a1d7516221decb03f4b3408c334e83f3b44c4a538c4d35ebd4e2b",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2/openreliant-wolverine-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2",
+      "checksum": "37de88966aeae03b3d54eca55a7aed3f2e1a839ed65f589035f41ce6ea3027c1",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "wolverine-v0.1.0-beta.1",
-      "downloadBytes": 63146154
+      "tag": "wolverine-v0.1.0-beta.2",
+      "downloadBytes": 32297711,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "tempest",
@@ -155,21 +167,24 @@
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Tempest",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "1.0",
       "description": "Dark steel, red livery and continuous radiator detail.",
       "modFolder": "70-tempest-worn-v1",
       "preview": "assets/tempest.webp",
       "model": "models/tempest.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.1/openreliant-tempest-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.1",
-      "checksum": "bedde6a82ccb11f1702c7b9f421bc5ef20021071e956ccacf7dca799af66f6cf",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2/openreliant-tempest-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2",
+      "checksum": "53f30262b4af1011a90814d06776273b61452f7b7db4a2c2e226c9f39ac5b193",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "tempest-v0.1.0-beta.1",
-      "downloadBytes": 64242264
+      "tag": "tempest-v0.1.0-beta.2",
+      "downloadBytes": 32308856,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "shroud",
@@ -177,21 +192,24 @@
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Shroud",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "2.0",
       "description": "Bronze and steel finishes, wing radiators and smoked glass.",
       "modFolder": "80-shroud-worn-v1",
       "preview": "assets/shroud.webp",
       "model": "models/shroud.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.1/openreliant-shroud-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.1",
-      "checksum": "f06921d77606f385954d158a342b5cef2695f61e53b250fa009610dbd0aa2289",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2/openreliant-shroud-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2",
+      "checksum": "fdc23464300d888110d21f61a66f61ba3f325727ff0e1bc9b8ecaaeff626ef2f",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "shroud-v0.1.0-beta.1",
-      "downloadBytes": 78320911
+      "tag": "shroud-v0.1.0-beta.2",
+      "downloadBytes": 39383406,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "mirage",
@@ -199,21 +217,24 @@
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Mirage",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "3.0",
       "description": "Original-style canopy boundaries, worn glazing and deep surface relief.",
       "modFolder": "90-mirage-worn-v1",
       "preview": "assets/mirage.webp",
       "model": "models/mirage.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.1/openreliant-mirage-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.1",
-      "checksum": "6993518bcb8d941004c431226ed02c93d698557498ce0a073110f1334d8753d0",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.2/openreliant-mirage-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.2",
+      "checksum": "37d1cb6962199ea966ad67554bed2614a965fd1b816d35ac37185856cb86e4d5",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update."
       ],
-      "tag": "mirage-v0.1.0-beta.1",
-      "downloadBytes": 60875590
+      "tag": "mirage-v0.1.0-beta.2",
+      "downloadBytes": 30797461,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "naginata",
@@ -221,22 +242,25 @@
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Naginata",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "4.0",
       "description": "Revised wing edges, engine-wear scale and louvred exhausts.",
       "modFolder": "95-naginata-worn-v1",
       "preview": "assets/naginata.webp",
       "model": "models/naginata.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.1/openreliant-naginata-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.1",
-      "checksum": "34ba2c7f48469926d2c0ed1c70b15ac534795d001aaf8363429d5e18f948b58d",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.2/openreliant-naginata-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.2",
+      "checksum": "a0e903e86557f74777536ddd0ed5ad9d7bcaad375c5d897c65243dc47397ccf0",
       "notes": [
         "Texture refinements remain in progress.",
         "Custom emissive maps are planned for a later update.",
         "Wing-edge UVs and reconstructed exhausts still need final visual approval."
       ],
-      "tag": "naginata-v0.1.0-beta.1",
-      "downloadBytes": 189246283
+      "tag": "naginata-v0.1.0-beta.2",
+      "downloadBytes": 94758166,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "patriot",
@@ -246,20 +270,23 @@
       "description": "Six-fin intakes, bright radiator metal and continuous outer-engine panels.",
       "preview": "assets/patriot.webp",
       "model": "models/patriot.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.1/openreliant-patriot-0.1.0-beta.1.zip",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2/openreliant-patriot-0.1.0-beta.2.zip",
       "notes": [
         "Patriot v3 artwork is complete and approved for this beta.",
         "Custom emissive maps are planned for a later update.",
         "Lower-detail models, later-campaign liveries and broader gameplay testing remain on the workbench."
       ],
       "folder": "Alliance Fighters/Patriot",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "3.0",
       "modFolder": "96-patriot-worn-v1",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.1",
-      "checksum": "2191a9ef7d4e42fcf1dca2352ab7b4b9c5d50005c87e5517f6d64e178bf94aef",
-      "tag": "patriot-v0.1.0-beta.1",
-      "downloadBytes": 294403954
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.2",
+      "checksum": "ad2bde7d0aee79852cf895731c854d121f90eb04980d9ac6c4daf212f77cfea8",
+      "tag": "patriot-v0.1.0-beta.2",
+      "downloadBytes": 147417133,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "phoenix",
@@ -267,7 +294,7 @@
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Phoenix",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "7.0",
       "description": "Worn olive and bronze, smooth glazing, aligned belly panels and corrected intake relief.",
       "modFolder": "98-phoenix-worn-v1",
@@ -295,11 +322,14 @@
           "caption": "Phoenix \u2014 Underside"
         }
       ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.1/openreliant-phoenix-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.1",
-      "checksum": "8d2450d823e25cfc941cc41959a9fdc1cfcd24b5b4f8efefde1d8cc6a6b69ec1",
-      "tag": "phoenix-v0.1.0-beta.1",
-      "downloadBytes": 233934160
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2/openreliant-phoenix-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.2",
+      "checksum": "8cefee26d1ef3d5d419663586570cc17d901f432ad283d8fc5250d5cb6901ef3",
+      "tag": "phoenix-v0.1.0-beta.2",
+      "downloadBytes": 117681692,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "crusader",
@@ -307,7 +337,7 @@
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Crusader",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "2.0",
       "description": "Worn steel and red-and-white markings, a silver RAF bird, aligned engine collars and smooth glazing.",
       "modFolder": "99-crusader-worn-v1",
@@ -328,11 +358,14 @@
         "Firing, tail-gun motion, damage, ejection and distance transitions still need gameplay testing.",
         "Engine collar UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
       ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/crusader-v0.1.0-beta.1/openreliant-crusader-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/crusader-v0.1.0-beta.1",
-      "checksum": "0e765b40d040f0f2f59ae838dc637add03bc25454db3805bbcb1bece4525dddb",
-      "tag": "crusader-v0.1.0-beta.1",
-      "downloadBytes": 184154967
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/crusader-v0.1.0-beta.2/openreliant-crusader-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/crusader-v0.1.0-beta.2",
+      "checksum": "48ef3380a7165277f7f4cec905fc1270c36d80569f5558b3b97da633a227a9a2",
+      "tag": "crusader-v0.1.0-beta.2",
+      "downloadBytes": 92638778,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "sai",
@@ -340,8 +373,8 @@
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Sai",
       "status": "available",
-      "version": "0.1.0-beta.1",
-      "assetRevision": "1.0",
+      "version": "0.1.0-beta.2",
+      "assetRevision": "4.0",
       "description": "Worn silver-grey and bronze, restored Japanese markings, smooth reflective glazing and repaired fin UVs.",
       "modFolder": "100-sai-worn-v1",
       "preview": "assets/sai/flight-overview-v4.webp",
@@ -357,18 +390,20 @@
         }
       ],
       "notes": [
-        "Gallery previews show the approved revision 4.0. The current beta download contains revision 1.0; updated editable artwork is available under Editable source.",
         "Custom emissive maps are planned for a later update.",
         "Firing, fin motion, damage and distance transitions still need gameplay testing.",
         "Fin UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
       ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.1/openreliant-sai-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.1",
-      "checksum": "3be5e8f7cf3cf8176b4a81ece0a281510f3a443857e48d7aa130a89893450a8d",
-      "tag": "sai-v0.1.0-beta.1",
-      "downloadBytes": 73123352,
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2/openreliant-sai-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2",
+      "checksum": "f85efff7770ad0f142e983419ae9db3b2facfe1a7eaf1cba333690c6d8338393",
+      "tag": "sai-v0.1.0-beta.2",
+      "downloadBytes": 70808411,
       "defaultPreview": "image",
-      "previewArtworkRevision": "4.0"
+      "previewArtworkRevision": "4.0",
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "grendal",
@@ -376,7 +411,7 @@
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Grendal",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "1.1",
       "description": "Worn grey livery, original German markings, reflective glazing and aligned radiator cooling ribs.",
       "modFolder": "101-grendal-worn-v1",
@@ -397,11 +432,14 @@
         "Firing, moving parts, damage and distance transitions still need gameplay testing.",
         "UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
       ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.1/openreliant-grendal-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.1",
-      "checksum": "3471b5b69ea8e675ea6ef1768a221a275afc5dd6727ea98dc0998b9837296ec3",
-      "tag": "grendal-v0.1.0-beta.1",
-      "downloadBytes": 55547834
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.2/openreliant-grendal-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.2",
+      "checksum": "eee7fcdb2625345ec46901c1b47a2357b3a4e6b0f4513bf2f138ed34cafb596e",
+      "tag": "grendal-v0.1.0-beta.2",
+      "downloadBytes": 28318786,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "saber",
@@ -409,7 +447,7 @@
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Saber",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "1.0",
       "description": "Worn silver-grey and red Coalition livery, original star markings, reflective amber glazing and repaired machinery UVs.",
       "modFolder": "102-saber-worn-v1",
@@ -431,11 +469,14 @@
         "Firing, cockpit ejection, damage and distance transitions still need gameplay testing.",
         "Machinery UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
       ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.1/openreliant-saber-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.1",
-      "checksum": "195f55e91b83b26ca044877aef4120641f08220abf991f72748b6a51abf65c69",
-      "tag": "saber-v0.1.0-beta.1",
-      "downloadBytes": 56728796
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.2/openreliant-saber-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.2",
+      "checksum": "48bd9acabd7d6ad8b27b4d45ca99abd05f9a46227357d835aef5661029fcb71a",
+      "tag": "saber-v0.1.0-beta.2",
+      "downloadBytes": 28810411,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "basilisk",
@@ -443,7 +484,7 @@
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Basilisk",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "1.3",
       "description": "Worn dark-grey and red Coalition livery, smoother reflective nose and gun housing, frame-fitted amber glazing and repaired UV seams.",
       "modFolder": "103-basilisk-worn-v1",
@@ -465,11 +506,14 @@
         "Cloaking, firing, cockpit ejection, damage and distance transitions still need broader gameplay testing.",
         "UV repairs and the gun-housing material remap apply to the finest model; lower-detail UVs remain original."
       ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.1/openreliant-basilisk-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.1",
-      "checksum": "b161a6569c679533649892203b70bb0b3dfdf7a39e59b7e45db7bd6ec394ff69",
-      "tag": "basilisk-v0.1.0-beta.1",
-      "downloadBytes": 52802581
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.2/openreliant-basilisk-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.2",
+      "checksum": "5abaead824b097d0a211d41e630380b4b2aea8c5edc0ca3a0e047b76109b83c5",
+      "tag": "basilisk-v0.1.0-beta.2",
+      "downloadBytes": 26912752,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "kamov",
@@ -477,7 +521,7 @@
       "category": "torpedo-bombers",
       "folder": "Torpedo Bombers/Kamov",
       "status": "available",
-      "version": "0.1.0-beta.1",
+      "version": "0.1.0-beta.2",
       "assetRevision": "1.0",
       "description": "Worn grey and red Coalition torpedo bomber, with amber glazing, structural normal maps and the original deploying torpedo bays. One exterior replacement covers player and AI ships.",
       "modFolder": "104-kamov-worn-v1",
@@ -499,11 +543,14 @@
         "Manual firing, full mission 25 and AI combat, cloaking, damage, ejection and distance transitions still need broader gameplay testing.",
         "The 3D preview shows the stowed model. In-game photographs show both bay states; the download preserves the original deployment animation."
       ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kamov-v0.1.0-beta.1/openreliant-kamov-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.1",
-      "checksum": "dd58856c84ffe9533b280d638adcdd2a9463dc1a2f11f1c065dfe0ae18c025c5",
-      "tag": "kamov-v0.1.0-beta.1",
-      "downloadBytes": 54105843
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kamov-v0.1.0-beta.2/openreliant-kamov-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.2",
+      "checksum": "77e1df3671a739a183e546058d666b55ff8252c73dea35a5194d17da7191a972",
+      "tag": "kamov-v0.1.0-beta.2",
+      "downloadBytes": 27677993,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "ordnance",
@@ -511,20 +558,20 @@
       "category": "weapons",
       "folder": "Weapons/Missile Packs and Torpedoes",
       "status": "available",
-      "version": "0.1.0-beta.3",
+      "version": "0.1.0-beta.4",
       "assetRevision": "1.2",
       "description": "Nine missiles, four launch pods, both torpedoes and the fuel pod, with matching loadout variants: 32 models in one pack.",
       "modFolder": "97-ordnance-worn-v1",
       "preview": "assets/ordnance/06_jackhammer.png",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.3/openreliant-ordnance-0.1.0-beta.3.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.3",
-      "checksum": "e21f137d606dd0f5bd007ebbbfa533ece5d2d6431978340e8a6f8316653deeb8",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4/openreliant-ordnance-0.1.0-beta.4.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4",
+      "checksum": "9ec252c744f92353024d2d0726b1960a3c70e86f813955d34440272530ea247e",
       "notes": [
         "Custom emissive maps are planned for a later update.",
         "Firing, mounted animations and distance transitions still need separate gameplay testing."
       ],
-      "tag": "ordnance-v0.1.0-beta.3",
-      "downloadBytes": 85406664,
+      "tag": "ordnance-v0.1.0-beta.4",
+      "downloadBytes": 85412755,
       "images": [
         {
           "src": "assets/ordnance/06_jackhammer.png",
@@ -658,7 +705,10 @@
           "src": "assets/ordnance/16_fuel_pod_loadout_top.png",
           "caption": "Fuel pod \u2014 Loadout top panel"
         }
-      ]
+      ],
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     },
     {
       "id": "recommissioned-hud",
@@ -757,12 +807,15 @@
           "caption": "Loki \u2014 Fighting position"
         }
       ],
-      "version": "0.1.0-beta.1",
-      "tag": "loki-v0.1.0-beta.1",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/loki-v0.1.0-beta.1/openreliant-loki-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.1",
-      "checksum": "f2341a71b522a2be8add7a154019063c87c3e43c583568b40aa76a70cbc18791",
-      "downloadBytes": 50024014
+      "version": "0.1.0-beta.2",
+      "tag": "loki-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/loki-v0.1.0-beta.2/openreliant-loki-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.2",
+      "checksum": "0db2dc9084a172ccddaa694da764c76b4c4be8e03d9ca092a1ae18249305fd40",
+      "downloadBytes": 25779368,
+      "previewSource": "Captured in OpenReliant 0.7.0",
+      "engine": "0.8.1",
+      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
     }
   ]
 }

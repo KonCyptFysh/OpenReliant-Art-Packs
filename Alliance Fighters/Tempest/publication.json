@@ -1,0 +1,20 @@
+{
+  "status": "published",
+  "tag": "tempest-v0.1.0-beta.2",
+  "version": "0.1.0-beta.2",
+  "asset_revision": "1.0",
+  "minimum_openreliant": "0.8.1",
+  "source_commit": "e1789ca76bf3a6ff6970a2980cdaec02c5888b58",
+  "published_at_utc": "2026-10-09T12:34:27Z",
+  "verified_at_utc": "2026-10-09T12:34:34.333941+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2/openreliant-tempest-0.1.0-beta.2.zip",
+  "download_sha256": "53f30262b4af1011a90814d06776273b61452f7b7db4a2c2e226c9f39ac5b193",
+  "download_bytes": 32308856,
+  "github_asset_digest": "sha256:53f30262b4af1011a90814d06776273b61452f7b7db4a2c2e226c9f39ac5b193",
+  "remote_zip_hash_verified": false,
+  "github_asset_digest_verified": true,
+  "remote_checksum_verified": true,
+  "asset_manifest_sha256": "431d86d6f5ed4e735184a172257e34c34679cea33137ef763037d811c49c2522",
+  "source_manifest_sha256": "19e8f2d711c0079cdbe0776f99ca998389d7afb0388808c6df2974a91e94783d"
+}

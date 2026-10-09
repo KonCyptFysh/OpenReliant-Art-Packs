@@ -1,0 +1,20 @@
+{
+  "status": "published",
+  "tag": "mirage-v0.1.0-beta.2",
+  "version": "0.1.0-beta.2",
+  "asset_revision": "3.0",
+  "minimum_openreliant": "0.8.1",
+  "source_commit": "e1789ca76bf3a6ff6970a2980cdaec02c5888b58",
+  "published_at_utc": "2026-10-09T12:35:55Z",
+  "verified_at_utc": "2026-10-09T12:36:02.767891+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.2",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.2/openreliant-mirage-0.1.0-beta.2.zip",
+  "download_sha256": "37d1cb6962199ea966ad67554bed2614a965fd1b816d35ac37185856cb86e4d5",
+  "download_bytes": 30797461,
+  "github_asset_digest": "sha256:37d1cb6962199ea966ad67554bed2614a965fd1b816d35ac37185856cb86e4d5",
+  "remote_zip_hash_verified": false,
+  "github_asset_digest_verified": true,
+  "remote_checksum_verified": true,
+  "asset_manifest_sha256": "c88c5efa9011226a1304559ec4c650c95975774ab0d9eeb44e623588877d20bd",
+  "source_manifest_sha256": "43f26c0631c4699a9f786cd9d1471c14239da71fa7506d8f8eb232c125c01b39"
+}

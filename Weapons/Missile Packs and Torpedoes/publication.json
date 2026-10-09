@@ -1,0 +1,20 @@
+{
+  "status": "published",
+  "tag": "ordnance-v0.1.0-beta.4",
+  "version": "0.1.0-beta.4",
+  "asset_revision": "1.2",
+  "minimum_openreliant": "0.8.1",
+  "source_commit": "e1789ca76bf3a6ff6970a2980cdaec02c5888b58",
+  "published_at_utc": "2026-10-09T12:51:30Z",
+  "verified_at_utc": "2026-10-09T12:51:37.431100+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4/openreliant-ordnance-0.1.0-beta.4.zip",
+  "download_sha256": "9ec252c744f92353024d2d0726b1960a3c70e86f813955d34440272530ea247e",
+  "download_bytes": 85412755,
+  "github_asset_digest": "sha256:9ec252c744f92353024d2d0726b1960a3c70e86f813955d34440272530ea247e",
+  "remote_zip_hash_verified": false,
+  "github_asset_digest_verified": true,
+  "remote_checksum_verified": true,
+  "asset_manifest_sha256": "da61576b9d951bda04a5605cd688b2822d28db92f09e4fcec19f5678e9b4e049",
+  "source_manifest_sha256": "f2e18238f6186592b2c800dbeb500e1ec001addc4c1a7b615c83b0167ac0f664"
+}
