@@ -15,3 +15,6 @@
 
 .photo-gallery #preview-stage{flex:0 0 auto;min-height:0;height:clamp(220px,calc(90vh - 205px),480px)}
 @media(max-width:760px){.photo-gallery #preview-stage{height:auto;aspect-ratio:8/5}.photo-gallery #preview-stage img{max-height:none}}
+
+/* Preserve the full title/art composition on the HUD cover at every card size. */
+.asset-card[data-asset="recommissioned-hud"] .card-media img{object-fit:contain;background:#070707}

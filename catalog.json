@@ -624,7 +624,7 @@
       "id": "recommissioned-hud",
       "name": "Recommissioned HUD",
       "category": "hud",
-      "status": "coming-soon",
+      "status": "available",
       "description": "StarLancer\u2019s red wireframes and amber instruments, rebuilt with larger displays and HD portraits.",
       "preview": "assets/hud/hud-cover.png",
       "previewType": "mixed",
@@ -661,7 +661,12 @@
       "folder": "HUD/Recommissioned",
       "version": "0.1.0-beta.1",
       "assetRevision": "1.8",
-      "modFolder": "recommissioned-hud"
+      "modFolder": "recommissioned-hud",
+      "tag": "hud-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hud-v0.1.0-beta.1/openreliant-recommissioned-hud-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hud-v0.1.0-beta.1",
+      "checksum": "a2a88eb24e80edad74ce756dae4e82c7e041bb2b8b02c0cf90ba90d43b7ef203",
+      "downloadBytes": 805636271
     }
   ]
 }
