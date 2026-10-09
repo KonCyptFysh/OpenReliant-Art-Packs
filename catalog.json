@@ -868,7 +868,7 @@
       "name": "Cossack - Worn Paint",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Cossack",
-      "status": "coming-soon",
+      "status": "available",
       "assetRevision": "1.0",
       "description": "Worn silver-grey Coalition hull, red star markings, recessed amber glazing and repaired cockpit underside UVs.",
       "modFolder": "107-cossack-worn-v1",
@@ -896,7 +896,13 @@
         "Cockpit underside UV repairs apply to the finest detail level; lower-detail mappings are retained."
       ],
       "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
-      "model": "models/cossack.glb"
+      "model": "models/cossack.glb",
+      "version": "0.1.0-beta.1",
+      "tag": "cossack-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1/openreliant-cossack-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1",
+      "checksum": "a599bfbb7fd11f79254b199f46e9721c7486a991bada37177fd1140e6d96b43c",
+      "downloadBytes": 26257495
     }
   ]
 }
