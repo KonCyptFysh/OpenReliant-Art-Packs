@@ -2120,7 +2120,7 @@
     "Linux x86_64"
   ],
   "asset_manifest_sha256": "528a6e4a0dfa61e96207cff13bc03f85e3b3a538889a5ae2b5962bc2657e127f",
-  "source_manifest_sha256": "ffd3d36b6be677b46bbfd4bf7994cc782aab1d3da30af19f3c0f7016cad5e563",
+  "source_manifest_sha256": "f7312a94128c080c84abc617ccdaa94aba58efafee39e5fc78c6ab23b98eff76",
   "remaining_work": [
     "Manual missile launch and post-launch close review",
     "Full mission 25 and AI combat, cloaking, damage, ejection and distance transitions",

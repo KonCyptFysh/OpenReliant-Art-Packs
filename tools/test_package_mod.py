@@ -55,6 +55,16 @@ class PackageChecks(unittest.TestCase):
             self.assertEqual(contents.read("mods/fixture/fixture.txt"), (self.root / "mods/fixture/fixture.txt").read_bytes())
         self.assertTrue(archive.with_suffix(".zip.sha256").read_text().startswith(first))
 
+    def test_executable_launcher_permissions_survive_packaging(self):
+        launcher = self.root / "inspect.sh"
+        launcher.write_text("#!/bin/sh\nexit 0\n")
+        launcher.chmod(0o755)
+        self.config["include_documents"].append("inspect.sh")
+        self.write("release.json", self.config)
+        with zipfile.ZipFile(pack.build(self.root)) as contents:
+            self.assertEqual(contents.getinfo("inspect.sh").external_attr >> 16, 0o100755)
+            self.assertEqual(contents.getinfo("README.md").external_attr >> 16, 0o100644)
+
     def test_older_component_minimum_is_compatible(self):
         self.write("mods/fixture/mod.ini", "[Mod]\nName=Fixture\nOpenReliant=0.6.3\n")
         self.refresh_manifest()

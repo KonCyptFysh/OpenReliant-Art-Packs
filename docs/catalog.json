@@ -18,6 +18,12 @@
       "description": "Coalition fighter artwork and restorations."
     },
     {
+      "id": "torpedo-bombers",
+      "name": "Torpedo Bombers",
+      "folder": "Torpedo Bombers",
+      "description": "Alliance and Coalition torpedo bombers, with deployment mechanisms preserved."
+    },
+    {
       "id": "alliance-capital-ships",
       "name": "Alliance Capital Ships",
       "folder": "Alliance Capital Ships",
@@ -468,8 +474,8 @@
     {
       "id": "kamov",
       "name": "Kamov - Worn Paint",
-      "category": "coalition-fighters",
-      "folder": "Coalition Fighters/Kamov",
+      "category": "torpedo-bombers",
+      "folder": "Torpedo Bombers/Kamov",
       "status": "available",
       "version": "0.1.0-beta.1",
       "assetRevision": "1.0",
@@ -701,6 +707,57 @@
       "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hud-v0.1.0-beta.1",
       "checksum": "a2a88eb24e80edad74ce756dae4e82c7e041bb2b8b02c0cf90ba90d43b7ef203",
       "downloadBytes": 805636271
+    },
+    {
+      "id": "hades",
+      "name": "Hades - Worn Paint",
+      "category": "torpedo-bombers",
+      "folder": "Torpedo Bombers/Hades",
+      "status": "coming-soon",
+      "description": "Hades torpedo-bomber restoration. Planned; artwork has not started.",
+      "notes": [
+        "Artwork has not started. No published download yet."
+      ],
+      "workStatus": "planned"
+    },
+    {
+      "id": "scimitar",
+      "name": "Scimitar - Worn Paint",
+      "category": "torpedo-bombers",
+      "folder": "Torpedo Bombers/Scimitar",
+      "status": "coming-soon",
+      "description": "Scimitar torpedo-bomber restoration. Planned; artwork has not started.",
+      "notes": [
+        "Artwork has not started. No published download yet."
+      ],
+      "workStatus": "planned"
+    },
+    {
+      "id": "loki",
+      "name": "Loki - Worn Paint",
+      "category": "coalition-fighters",
+      "folder": "Coalition Fighters/Loki",
+      "status": "coming-soon",
+      "description": "Worn industrial hull, hazard markings and recessed amber glazing, with the original articulated legs and folding mechanism.",
+      "notes": [
+        "Approved artwork 1.1; beta download is being published.",
+        "Custom emissive maps are planned for a later update.",
+        "AI combat, firing, damage, distance transitions and the complete repeating animation cycle still need broader gameplay testing."
+      ],
+      "assetRevision": "1.1",
+      "modFolder": "105-loki-worn-v1",
+      "preview": "assets/loki/flight-folded.webp",
+      "defaultPreview": "image",
+      "images": [
+        {
+          "src": "assets/loki/flight-folded.webp",
+          "caption": "Loki \u2014 Folded legs"
+        },
+        {
+          "src": "assets/loki/flight-fighting.webp",
+          "caption": "Loki \u2014 Fighting position"
+        }
+      ]
     }
   ]
 }

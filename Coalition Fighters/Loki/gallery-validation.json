@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "gallery_media": "Actual in-game captures in official OpenReliant 0.7.0",
+  "artwork_revision": "1.1",
+  "captures": [
+    {
+      "image": "flight-folded.png",
+      "sha256": "49ac5eff50824d68d7185ffdbe2c01f72bbad657376f61e67e32e7d6a81cc7fa",
+      "engine": "Official OpenReliant 0.7.0",
+      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "mission": 983,
+      "ship": 65,
+      "view": 1,
+      "skip_launch": true,
+      "watch": "0",
+      "watch_from": "1,-0.6,1.4",
+      "render_size": [
+        1600,
+        1200
+      ],
+      "screenshot_ticks": 100,
+      "exit_code": 0,
+      "captured_at_utc": "2026-10-09T11:33:26.404427+00:00",
+      "runtime_manifest_sha256": "5960ff0469404d72ae1dcf1290d4fce510b56715169836c25a2649338bddd325",
+      "runtime_matches_repository": true,
+      "gallery_file": "assets/loki/flight-folded.webp",
+      "gallery_sha256": "d28be50c0db799cb480f0eef5e538c9f8927e2a39c8766992dbc40c0d979e56b",
+      "conversion": "WebP encoding only; no image alterations",
+      "visually_inspected": true,
+      "startup_errors": [],
+      "startup_warnings": []
+    },
+    {
+      "image": "flight-fighting.png",
+      "sha256": "4848c38827e518f64761eab3f9b453229b10590329310db3b3e6ff3f59e30bd0",
+      "engine": "Official OpenReliant 0.7.0",
+      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "mission": 982,
+      "ship": 65,
+      "view": 1,
+      "skip_launch": true,
+      "watch": "0",
+      "watch_from": "1,-0.6,1.4",
+      "render_size": [
+        1600,
+        1200
+      ],
+      "screenshot_ticks": 600,
+      "exit_code": 0,
+      "captured_at_utc": "2026-10-09T11:34:38.117077+00:00",
+      "runtime_manifest_sha256": "5960ff0469404d72ae1dcf1290d4fce510b56715169836c25a2649338bddd325",
+      "runtime_matches_repository": true,
+      "gallery_file": "assets/loki/flight-fighting.webp",
+      "gallery_sha256": "43c0e80e877d6a1130aa4f51613e33871435c8baab8a8db61e6f511f8f8c81e0",
+      "conversion": "WebP encoding only; no image alterations",
+      "visually_inspected": true,
+      "startup_errors": [],
+      "startup_warnings": []
+    }
+  ],
+  "published_runtime_manifest_sha256": "5960ff0469404d72ae1dcf1290d4fce510b56715169836c25a2649338bddd325",
+  "coverage": "Fixed folded and fighting positions in isolated inspection scenes; not a complete animation-cycle or combat test."
+}
