@@ -1,0 +1,13 @@
+{
+  "status": "published",
+  "published_at_utc": "2026-10-09T00:40:45Z",
+  "verified_at_utc": "2026-10-09T00:42:04.048635+00:00",
+  "source_commit": "aa647e39cb04085b48846dde74820e8cf15eb695",
+  "tag": "saber-v0.1.0-beta.1",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.1",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.1/openreliant-saber-0.1.0-beta.1.zip",
+  "package_bytes": 56728796,
+  "package_sha256": "195f55e91b83b26ca044877aef4120641f08220abf991f72748b6a51abf65c69",
+  "github_asset_digest_matches": true,
+  "checksum_asset_download_verified": true
+}

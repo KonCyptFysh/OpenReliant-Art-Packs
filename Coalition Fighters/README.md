@@ -4,6 +4,6 @@ Coalition fighter artwork and restorations.
 
 | Fighter | Working status | Publication |
 | --- | --- | --- |
-| [Saber](Saber/README.md) | Worn artwork 1.0 approved after in-game review | Source and runtime files in Git; beta not yet published |
+| [Saber](Saber/README.md) | Worn artwork 1.0 approved after in-game review | [Beta 0.1.0-beta.1](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.1) · [Gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=saber) |
 
 Further Coalition fighters have not been started. The public gallery will be updated after individual artwork approval and release validation.
