@@ -432,6 +432,40 @@
       "downloadBytes": 56728796
     },
     {
+      "id": "basilisk",
+      "name": "Basilisk - Worn Paint",
+      "category": "coalition-fighters",
+      "folder": "Coalition Fighters/Basilisk",
+      "status": "available",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "1.3",
+      "description": "Worn dark-grey and red Coalition livery, smoother reflective nose and gun housing, frame-fitted amber glazing and repaired UV seams.",
+      "modFolder": "103-basilisk-worn-v1",
+      "preview": "assets/basilisk/flight-overview.webp",
+      "model": "models/basilisk.glb",
+      "defaultPreview": "image",
+      "images": [
+        {
+          "src": "assets/basilisk/flight-overview.webp",
+          "caption": "Basilisk \u2014 In-game overview"
+        },
+        {
+          "src": "assets/basilisk/flight-rear.webp",
+          "caption": "Basilisk \u2014 Rear view"
+        }
+      ],
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Cloaking, firing, cockpit ejection, damage and distance transitions still need broader gameplay testing.",
+        "UV repairs and the gun-housing material remap apply to the finest model; lower-detail UVs remain original."
+      ],
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.1/openreliant-basilisk-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.1",
+      "checksum": "b161a6569c679533649892203b70bb0b3dfdf7a39e59b7e45db7bd6ec394ff69",
+      "tag": "basilisk-v0.1.0-beta.1",
+      "downloadBytes": 52802581
+    },
+    {
       "id": "ordnance",
       "name": "Missiles, Torpedoes and Fuel Pod - Worn Paint",
       "category": "weapons",

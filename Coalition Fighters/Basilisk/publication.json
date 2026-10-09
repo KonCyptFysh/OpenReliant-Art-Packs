@@ -1,0 +1,13 @@
+{
+  "status": "published",
+  "published_at_utc": "2026-10-09T02:36:03Z",
+  "verified_at_utc": "2026-10-09T02:36:38.748504+00:00",
+  "source_commit": "e8979331b29476fbbc568212990029704381c635",
+  "tag": "basilisk-v0.1.0-beta.1",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.1",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.1/openreliant-basilisk-0.1.0-beta.1.zip",
+  "package_bytes": 52802581,
+  "package_sha256": "b161a6569c679533649892203b70bb0b3dfdf7a39e59b7e45db7bd6ec394ff69",
+  "github_asset_digest_matches": true,
+  "checksum_asset_download_verified": true
+}
