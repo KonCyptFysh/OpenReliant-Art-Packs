@@ -1,0 +1,36 @@
+{
+  "package_name": "openreliant-basilisk",
+  "version": "0.1.0-beta.1",
+  "asset_revision": "1.3",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.7.0",
+  "mod_folders": [
+    "103-basilisk-worn-v1"
+  ],
+  "asset_manifest_sha256": "3c56f5e0d8e4b49a8f5b3da8598960a93fecfc1b78451989abf966b0086236a1",
+  "source_manifest_sha256": "219e7db800a4a9e9a2146c79fa05acae67aceb3b99413d36223591db62c810fe",
+  "channel": "beta",
+  "user_approved": true,
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json",
+    "tools/launch-basilisk-test.sh",
+    "approval.json",
+    "gallery-validation.json"
+  ],
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-09T02:21:07.085124+00:00",
+    "instruction": "Sweet, ship it to git!",
+    "scope": "Basilisk worn artwork revision 1.3, including the matching reflective forward gun housing, frame-fitted glass and prior UV repairs.",
+    "qualification": "Visual artwork approval. Cloaking, firing, damage, ejection and distance transitions remain outside the completed checks."
+  }
+}
