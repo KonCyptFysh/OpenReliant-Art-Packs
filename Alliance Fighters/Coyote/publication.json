@@ -1,0 +1,19 @@
+{
+  "status": "published",
+  "tag": "coyote-v0.1.0-beta.2",
+  "version": "0.1.0-beta.2",
+  "asset_revision": "4.0",
+  "minimum_openreliant": "0.8.1",
+  "source_commit": "ce76ef2e63a6a78a0c37b14051dfc7828bfd9767",
+  "published_at_utc": "2026-10-09T12:25:59Z",
+  "verified_at_utc": "2026-10-09T12:26:55.689229+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2/openreliant-coyote-0.1.0-beta.2.zip",
+  "download_sha256": "6e0390bb1316c80aebed2e01c45b79f1974178af34d92ef510467a9c8de6772e",
+  "download_bytes": 114738284,
+  "github_asset_digest": "sha256:6e0390bb1316c80aebed2e01c45b79f1974178af34d92ef510467a9c8de6772e",
+  "remote_zip_hash_verified": true,
+  "remote_checksum_verified": true,
+  "asset_manifest_sha256": "cc64196c14f3d012d641d567ee1c206370572899b195f1b5837ac8e7ef63afce",
+  "source_manifest_sha256": "c957d2b0b28245e24afe8c5e675d87d614941c932b047f4fd137f7749d2d18e2"
+}

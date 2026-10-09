@@ -1,0 +1,20 @@
+{
+  "status": "published",
+  "tag": "naginata-v0.1.0-beta.2",
+  "version": "0.1.0-beta.2",
+  "asset_revision": "4.0",
+  "minimum_openreliant": "0.8.1",
+  "source_commit": "e1789ca76bf3a6ff6970a2980cdaec02c5888b58",
+  "published_at_utc": "2026-10-09T12:39:38Z",
+  "verified_at_utc": "2026-10-09T12:39:47.763853+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.2",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.2/openreliant-naginata-0.1.0-beta.2.zip",
+  "download_sha256": "a0e903e86557f74777536ddd0ed5ad9d7bcaad375c5d897c65243dc47397ccf0",
+  "download_bytes": 94758166,
+  "github_asset_digest": "sha256:a0e903e86557f74777536ddd0ed5ad9d7bcaad375c5d897c65243dc47397ccf0",
+  "remote_zip_hash_verified": false,
+  "github_asset_digest_verified": true,
+  "remote_checksum_verified": true,
+  "asset_manifest_sha256": "4d0d98fe56d11b9deef805d648ea8d6e301c73c63fce8184e3ffedf0ecdfb6b3",
+  "source_manifest_sha256": "3dcb5063d40a54c57841c67c083004dca4384b93907d75291f0719a1e83fe20a"
+}

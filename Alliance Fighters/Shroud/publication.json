@@ -1,0 +1,20 @@
+{
+  "status": "published",
+  "tag": "shroud-v0.1.0-beta.2",
+  "version": "0.1.0-beta.2",
+  "asset_revision": "2.0",
+  "minimum_openreliant": "0.8.1",
+  "source_commit": "e1789ca76bf3a6ff6970a2980cdaec02c5888b58",
+  "published_at_utc": "2026-10-09T12:35:40Z",
+  "verified_at_utc": "2026-10-09T12:35:49.201118+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2/openreliant-shroud-0.1.0-beta.2.zip",
+  "download_sha256": "fdc23464300d888110d21f61a66f61ba3f325727ff0e1bc9b8ecaaeff626ef2f",
+  "download_bytes": 39383406,
+  "github_asset_digest": "sha256:fdc23464300d888110d21f61a66f61ba3f325727ff0e1bc9b8ecaaeff626ef2f",
+  "remote_zip_hash_verified": false,
+  "github_asset_digest_verified": true,
+  "remote_checksum_verified": true,
+  "asset_manifest_sha256": "6b233a85c1072fcf4f24e991e8e384b0c6ae2be9b7ce0ba43093a2d033837ec7",
+  "source_manifest_sha256": "93d684f24228f7d7109aefaa6f0891a20f4201da7771693202a69f4ef569d3e8"
+}

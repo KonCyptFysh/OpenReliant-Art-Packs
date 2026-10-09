@@ -1,0 +1,20 @@
+{
+  "status": "published",
+  "tag": "predator-v0.1.0-beta.2",
+  "version": "0.1.0-beta.2",
+  "asset_revision": "16.1",
+  "minimum_openreliant": "0.8.1",
+  "source_commit": "ce76ef2e63a6a78a0c37b14051dfc7828bfd9767",
+  "published_at_utc": "2026-10-09T12:29:56Z",
+  "verified_at_utc": "2026-10-09T12:34:36.737975+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2/openreliant-predator-0.1.0-beta.2.zip",
+  "download_sha256": "c7e284ec829927d5a44ca2a338700efd9200a3212ef1520cf8e61d82b832ad2e",
+  "download_bytes": 129821541,
+  "github_asset_digest": "sha256:c7e284ec829927d5a44ca2a338700efd9200a3212ef1520cf8e61d82b832ad2e",
+  "remote_zip_hash_verified": false,
+  "github_asset_digest_verified": true,
+  "remote_checksum_verified": true,
+  "asset_manifest_sha256": "3afd03cb39f0c146f20faad31e787d328d082f069258ef4f452ea9dbf955532a",
+  "source_manifest_sha256": "b049672f478941849f0245868d1750950db6cf0916d5a2153c97de32b8d24b92"
+}

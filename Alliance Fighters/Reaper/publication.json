@@ -1,0 +1,20 @@
+{
+  "status": "published",
+  "tag": "reaper-v0.1.0-beta.2",
+  "version": "0.1.0-beta.2",
+  "asset_revision": "3.1",
+  "minimum_openreliant": "0.8.1",
+  "source_commit": "e1789ca76bf3a6ff6970a2980cdaec02c5888b58",
+  "published_at_utc": "2026-10-09T12:33:54Z",
+  "verified_at_utc": "2026-10-09T12:34:02.158729+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2/openreliant-reaper-0.1.0-beta.2.zip",
+  "download_sha256": "e3429756ecc15537d1224c2d3ba57ef5c39facaff011dffc0eeeac4941b071a3",
+  "download_bytes": 60756289,
+  "github_asset_digest": "sha256:e3429756ecc15537d1224c2d3ba57ef5c39facaff011dffc0eeeac4941b071a3",
+  "remote_zip_hash_verified": false,
+  "github_asset_digest_verified": true,
+  "remote_checksum_verified": true,
+  "asset_manifest_sha256": "dedb03764f442b6abded4f48ca93ff0e3ebd8458edab10dea3e499610106a576",
+  "source_manifest_sha256": "2cafa7053a081dad321bb7710d90fb600420bdbd16042ae1c2ba1260d0358281"
+}
