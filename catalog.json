@@ -822,7 +822,7 @@
       "name": "Azan - Worn Paint",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Azan",
-      "status": "coming-soon",
+      "status": "available",
       "assetRevision": "1.0",
       "description": "Worn silver-grey Coalition hull, red star markings, recessed amber glazing and repaired inner tail-edge UVs.",
       "modFolder": "106-azan-worn-v1",
@@ -853,7 +853,13 @@
         "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing.",
         "Tail UV repairs apply to the finest detail level; lower-detail mappings are retained."
       ],
-      "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested."
+      "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
+      "version": "0.1.0-beta.1",
+      "tag": "azan-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/azan-v0.1.0-beta.1/openreliant-azan-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1",
+      "checksum": "44bcba00acddb6f8a104d7204433b4bfe2335c92827b92c84c2ec50d0600d80a",
+      "downloadBytes": 26677406
     }
   ]
 }
