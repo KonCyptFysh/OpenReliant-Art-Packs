@@ -816,6 +816,44 @@
       "previewSource": "Captured in OpenReliant 0.7.0",
       "engine": "0.8.1",
       "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+    },
+    {
+      "id": "azan",
+      "name": "Azan - Worn Paint",
+      "category": "coalition-fighters",
+      "folder": "Coalition Fighters/Azan",
+      "status": "coming-soon",
+      "assetRevision": "1.0",
+      "description": "Worn silver-grey Coalition hull, red star markings, recessed amber glazing and repaired inner tail-edge UVs.",
+      "modFolder": "106-azan-worn-v1",
+      "preview": "assets/azan/flight-overview.webp",
+      "defaultPreview": "image",
+      "images": [
+        {
+          "src": "assets/azan/flight-overview.webp",
+          "caption": "Azan \u2014 In-game overview"
+        },
+        {
+          "src": "assets/azan/flight-rear.webp",
+          "caption": "Azan \u2014 Rear view"
+        },
+        {
+          "src": "assets/azan/flight-underside.webp",
+          "caption": "Azan \u2014 Underside"
+        },
+        {
+          "src": "assets/azan/flight-firing.webp",
+          "caption": "Azan \u2014 Guns firing"
+        }
+      ],
+      "previewSource": "User in-game capture",
+      "engine": "0.8.1",
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing.",
+        "Tail UV repairs apply to the finest detail level; lower-detail mappings are retained."
+      ],
+      "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested."
     }
   ]
 }

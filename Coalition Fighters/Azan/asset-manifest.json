@@ -1,0 +1,42 @@
+[
+  {
+    "path": "mods/106-azan-worn-v1/Houjian.SHP",
+    "bytes": 165764,
+    "sha256": "c10ffbfe3cf3699a1a6fa7ac12ae522a3210ecde79f7af2ae2d4b840ae9a150a"
+  },
+  {
+    "path": "mods/106-azan-worn-v1/license.txt",
+    "bytes": 245,
+    "sha256": "1a9f202dd4428919267c0bf7604e6c2c85a63cc4b6470b39c839659a406ced68"
+  },
+  {
+    "path": "mods/106-azan-worn-v1/mission980.dte",
+    "bytes": 473,
+    "sha256": "91145e39ae346e2d69a4d6b5838269697ef213480d8d9a86512974afee2353e3"
+  },
+  {
+    "path": "mods/106-azan-worn-v1/mod.ini",
+    "bytes": 245,
+    "sha256": "1f79736a7ea979d7031c376882ce100d8799b479934a7cfb071ee93d99a6d4f1"
+  },
+  {
+    "path": "mods/106-azan-worn-v1/mod.png",
+    "bytes": 890612,
+    "sha256": "26be4000cd6a13b603e8cf240db0ca3f709c9a882e96dd103b6ec01c324c7725"
+  },
+  {
+    "path": "mods/106-azan-worn-v1/oraz1_hull.png",
+    "bytes": 15542831,
+    "sha256": "67136a78002ac91289b8f95275ecfc7ecfe5b9b33e8151ab4a322fa2fa3ac40e"
+  },
+  {
+    "path": "mods/106-azan-worn-v1/oraz1_hull_normal.png",
+    "bytes": 501539,
+    "sha256": "21fb4279ab5753a4f8c4bb2af84fef8bfe0ce2d028f9fa2809d06c2116397372"
+  },
+  {
+    "path": "mods/106-azan-worn-v1/oraz1_hull_orm.png",
+    "bytes": 9726295,
+    "sha256": "ffede8f4b61a7817dadda1353e0b7b6e41e5314baae35b071dcfa9c3622e5692"
+  }
+]

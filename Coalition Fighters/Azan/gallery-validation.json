@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "gallery_media": "Four actual in-game screenshots from the user review",
+  "artwork_revision": "1.0",
+  "captures": [
+    {
+      "image": "flight-overview.png",
+      "original_filename": "Screenshot_20261010_004628.png",
+      "sha256": "26be4000cd6a13b603e8cf240db0ca3f709c9a882e96dd103b6ec01c324c7725",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Azan review install",
+      "captured_at_utc": "2026-10-09T13:46:33.444495+00:00",
+      "gallery_file": "assets/azan/flight-overview.webp",
+      "gallery_sha256": "0c0f133ca3178f968285f1b88455ebb515ef4bb42e26c640bfe44e0d648c2e90",
+      "caption": "Azan \u2014 In-game overview",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    },
+    {
+      "image": "flight-rear.png",
+      "original_filename": "Screenshot_20261010_004642.png",
+      "sha256": "dd33260234d03eccbe64176eedd07d76dfe4968643a4395256f9c35a00f0fc7d",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Azan review install",
+      "captured_at_utc": "2026-10-09T13:46:45.414436+00:00",
+      "gallery_file": "assets/azan/flight-rear.webp",
+      "gallery_sha256": "58679e653f13224df3d1ff2386d79e8253b87e206217871b511b5d3ea63e4492",
+      "caption": "Azan \u2014 Rear view",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    },
+    {
+      "image": "flight-underside.png",
+      "original_filename": "Screenshot_20261010_004651.png",
+      "sha256": "50a853b357e7d63f9d8d875b965c7ae3fe07cdf9fc887664acbb7f5e802a1b7b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Azan review install",
+      "captured_at_utc": "2026-10-09T13:46:55.086389+00:00",
+      "gallery_file": "assets/azan/flight-underside.webp",
+      "gallery_sha256": "a74423ea3921583f39deefae88c8baa288f0fe2444b0d36930b3066e55be364f",
+      "caption": "Azan \u2014 Underside",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    },
+    {
+      "image": "flight-firing.png",
+      "original_filename": "Screenshot_20261010_004715.png",
+      "sha256": "c63701b788f41457f9943ad0d4fd1b9f1fb46bf404913ce7a177ed71f2d3aa36",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Azan review install",
+      "captured_at_utc": "2026-10-09T13:47:20.618265+00:00",
+      "gallery_file": "assets/azan/flight-firing.webp",
+      "gallery_sha256": "0ce374fd33e095fa838b049e66e91d23393d45bccbf63b9a74c391f4ca6cbedd",
+      "caption": "Azan \u2014 Guns firing",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    }
+  ],
+  "approved_runtime_before_metadata_sha256": "48822cb345ef75d6d8bd0d9196ca6de1b44fc3f124633b5853aedcd50a1369d3",
+  "published_runtime_manifest_sha256": "49f8a0459ea7f238e5d2339a9fa7e0fe7a32d08f8d170d9f59f3e4b20d5bda44",
+  "approved_model_and_material_bytes_unchanged": true,
+  "engine_note": "Review launcher targets official OpenReliant 0.8.1. Screenshots themselves do not encode an engine build.",
+  "coverage": "In-game appearance from front, rear and underside, plus a firing image. No automated game launch was performed for publication."
+}
