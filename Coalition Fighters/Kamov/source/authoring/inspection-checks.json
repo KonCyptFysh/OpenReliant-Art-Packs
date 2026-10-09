@@ -1,0 +1,34 @@
+[
+  {
+    "mode": "stowed",
+    "mission": 987,
+    "sha256": "f96ed2f027b0d2d153cb1aacf3c194bf85ebe4ea01455ee1f894921ad7ed47e4",
+    "check": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "retail_data_copied": false,
+    "carried_torpedoes": 4
+  },
+  {
+    "mode": "deployed",
+    "mission": 986,
+    "sha256": "89443a5cebca494727b33fb6c983b337251a651d016d8e8006e20a25b2855f2e",
+    "check": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "retail_data_copied": false,
+    "carried_torpedoes": 4
+  },
+  {
+    "mode": "cycle",
+    "mission": 985,
+    "sha256": "f16f4f802ff627d556582cacd0de0c682a2c928e3d707eb74f4eceec5e145b0f",
+    "check": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "retail_data_copied": false,
+    "carried_torpedoes": 4
+  },
+  {
+    "mode": "launch",
+    "mission": 984,
+    "sha256": "6045bc7c880358a7b3c9da8906cb77c9f596fd2bac7190f7912fbd42705a0c52",
+    "check": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "retail_data_copied": false,
+    "carried_torpedoes": 4
+  }
+]

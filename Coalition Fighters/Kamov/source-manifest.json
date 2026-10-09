@@ -1,0 +1,342 @@
+{
+  "status": "approved-release-snapshot",
+  "ship": "Kamov",
+  "asset_revision": "1.0",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 1838,
+      "sha256": "93bcbdb2f392893c2800ac750ac458385ba2a60ec75169f3f5e653c67dd88661"
+    },
+    {
+      "path": "source/audit/cockpit-info.txt",
+      "bytes": 1290,
+      "sha256": "1de87fe10e0e8eea778d4fa51600f008599efff253aafc437f45ec50022106bd"
+    },
+    {
+      "path": "source/audit/model-audit.json",
+      "bytes": 15353,
+      "sha256": "2b8b983b948463b0df8b93a95b611c99a71e423a2c395e226b83d6ace54a2d28"
+    },
+    {
+      "path": "source/audit/native-chunks.json",
+      "bytes": 48008,
+      "sha256": "03e8538311cbbecefa429ed38896060e68a32defb54ff9079c5addfe4cdddb03"
+    },
+    {
+      "path": "source/audit/native-info.txt",
+      "bytes": 7899,
+      "sha256": "3ec76c6ee844ce54dcd39ce9be5fb16f3225384e6400541f969b661d9dc27539"
+    },
+    {
+      "path": "source/authoring/animation_preservation.json",
+      "bytes": 6573,
+      "sha256": "bbf7d42867a732ef35cb02344f6a1910f56018bab6aa2d579e3fbdc948b0c243"
+    },
+    {
+      "path": "source/authoring/build_inspection.py",
+      "bytes": 7284,
+      "sha256": "d761de8b4086e07cee27a03871b0e20161d3c1031a30d3d9113a402f93ce2c9c"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 14524,
+      "sha256": "ac5ac1d927dfc0a2b61bc670c189ee902bbeaba63f1f416d5a852dffed84a417"
+    },
+    {
+      "path": "source/authoring/check_source_animation.py",
+      "bytes": 999,
+      "sha256": "400791e0f4a98489fa1e29dbaa089343783b73441d595a6d192428d4e013e679"
+    },
+    {
+      "path": "source/authoring/correct_preview_uv.py",
+      "bytes": 1718,
+      "sha256": "b3fd63aff88c3f4fcc02acce3750888fc42572c5f507376c8774bb2d56c0e573"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 7969,
+      "sha256": "214aff6474607bda11d3b542d6e34c108b9480da40923269709e1a0c33699a79"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 2463,
+      "sha256": "1150978387cb68da83ab98a19290c92f6010963636d8a41e856dc2ef08900918"
+    },
+    {
+      "path": "source/authoring/inspection-checks.json",
+      "bytes": 1400,
+      "sha256": "b6d7087d3e31966f0ab67b073cdc0146a04df0d97e728dfc4428e23cb1e68387"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 248,
+      "sha256": "9ad77fdb38eabb00ed03a6e4827fc596c380c05cbdf4139c10979a2b34a371b2"
+    },
+    {
+      "path": "source/authoring/mission984-script.txt",
+      "bytes": 1146,
+      "sha256": "33cfd3a1951d120a6ca99274c07e61cb1abf1da6b2860f6b9de44452a44338da"
+    },
+    {
+      "path": "source/authoring/mission984-ships.txt",
+      "bytes": 765,
+      "sha256": "ffd6524f09e2a408141a4402bb59bb6a3e8cecc82c18620200c1e92918b1b99b"
+    },
+    {
+      "path": "source/authoring/mission985-script.txt",
+      "bytes": 1199,
+      "sha256": "f4c967703247dd5cad0dc6fac3b34ba7e86251deb379640375e944638a935183"
+    },
+    {
+      "path": "source/authoring/mission985-ships.txt",
+      "bytes": 765,
+      "sha256": "ffd6524f09e2a408141a4402bb59bb6a3e8cecc82c18620200c1e92918b1b99b"
+    },
+    {
+      "path": "source/authoring/mission986-script.txt",
+      "bytes": 1043,
+      "sha256": "c8227f72199cbf969cdce49790592eb72756cac3d3199bf51fcf68f461216051"
+    },
+    {
+      "path": "source/authoring/mission986-ships.txt",
+      "bytes": 765,
+      "sha256": "ffd6524f09e2a408141a4402bb59bb6a3e8cecc82c18620200c1e92918b1b99b"
+    },
+    {
+      "path": "source/authoring/mission987-script.txt",
+      "bytes": 887,
+      "sha256": "dca9573ed2e6309b3c102f807e0eb02001d647da5a90b09c6a6bb5f55a511a19"
+    },
+    {
+      "path": "source/authoring/mission987-ships.txt",
+      "bytes": 765,
+      "sha256": "ffd6524f09e2a408141a4402bb59bb6a3e8cecc82c18620200c1e92918b1b99b"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 552,
+      "sha256": "659c71296dd29ec3dd9c2a7d7610c7a2310ef7dbe35793b236e4270ba6686154"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 30650,
+      "sha256": "bc6c7af6496adcbaa636c0e2e76a5bf87f9f83317ee7d8c20fa8980820a98e08"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2501,
+      "sha256": "2386cbdaf9410d965def5c51f59398f464cdce1837a3bda506c944e584db96dc"
+    },
+    {
+      "path": "source/authoring/prepare_runtime.py",
+      "bytes": 1277,
+      "sha256": "c707049bf6ee992835ef99a2c3e2cd2316a0f49f4b6dbb48735227c7938b6ef9"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 10759,
+      "sha256": "c2191fa48f2061b44e7feac3afa3bf3779daa8fc50fe60f504e82eacafca8432"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 1396,
+      "sha256": "287f4cff7295c984f75a698d38c768cf4dce7e79a693a403b4a50e1361a227ed"
+    },
+    {
+      "path": "source/authoring/runtime_animation_checks.json",
+      "bytes": 5520,
+      "sha256": "d8189ccf6258392faa34628090f0970880d68ba4f785521beeee0d00a5907a72"
+    },
+    {
+      "path": "source/authoring/source_animation_check.json",
+      "bytes": 232,
+      "sha256": "803605b7495b77bd4c824b588098e117918fe8e2c27b2efbee6ef914529595aa"
+    },
+    {
+      "path": "source/authoring/sync_repository.py",
+      "bytes": 12229,
+      "sha256": "4bf55699a00050f5445e5a9aa8cbe9fef11d9268475de1d5525579545b4317b4"
+    },
+    {
+      "path": "source/authoring/validate_runtime_animation.py",
+      "bytes": 4166,
+      "sha256": "cc744f96e130953db9cd05aa8630836814f018ce825205e9958198b4cfedfa16"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 5931,
+      "sha256": "9f773daeaa2dcc3e6a6cbb35f21e5d1eb3c8e2482aa2d0c2616e5c2348747b5d"
+    },
+    {
+      "path": "source/kamov_worn_pbr_v1.blend",
+      "bytes": 31853228,
+      "sha256": "7f4bff8a9e9e10e6656a1d1b66d7ba2394ef2aed30b1769344c27b281e3c69d1"
+    },
+    {
+      "path": "source/maps/kamov_hull_basecolor_v1.png",
+      "bytes": 16966725,
+      "sha256": "306a1c558caa96a34e92b463ae4e67f51b43829bfe458dbb356b7a242cd39f25"
+    },
+    {
+      "path": "source/maps/kamov_hull_fins_v1.png",
+      "bytes": 85810,
+      "sha256": "527467564d8ed7aa295fc07046bc008842d174b292ef50d561bb94bfd45887cd"
+    },
+    {
+      "path": "source/maps/kamov_hull_flat_graphics_v1.png",
+      "bytes": 66830,
+      "sha256": "7a23e20640a4b4a30477aae372fd4a69e3da31a754d578ce1126791856753921"
+    },
+    {
+      "path": "source/maps/kamov_hull_generated_initial.png",
+      "bytes": 3433272,
+      "sha256": "60e2dc9fb10dd60b3f06706e76f741a79940f22896c01acb2ef7678e478f41fa"
+    },
+    {
+      "path": "source/maps/kamov_hull_generated_v1.png",
+      "bytes": 3146190,
+      "sha256": "43d2c95e7f0dace7751a1e6b847e190fc3d3fdac3b62f6adc9bc6a2e1e3fc512"
+    },
+    {
+      "path": "source/maps/kamov_hull_glass_v1.png",
+      "bytes": 82188,
+      "sha256": "4f1804c52b04f6f0d42b3c99e5c8a9263d3dc0d6ad528d9c6f55a052e89d1efa"
+    },
+    {
+      "path": "source/maps/kamov_hull_height_v1.png",
+      "bytes": 98861,
+      "sha256": "22ff2ff7b3aad3b883e81b8cbac650cfd3015eb3539f85155ffb9699c8ca9847"
+    },
+    {
+      "path": "source/maps/kamov_hull_metallic_v1.png",
+      "bytes": 7318793,
+      "sha256": "9d6c0bf3b3894ff8451192bcc429c3f75063ac869b85f8a9fbd4a9e7b1673244"
+    },
+    {
+      "path": "source/maps/kamov_hull_normal_v1.png",
+      "bytes": 176108,
+      "sha256": "e6ee20b1815c6d85ecd435f9738f12b599ca072f0a781e0762f1e37f68338583"
+    },
+    {
+      "path": "source/maps/kamov_hull_paint_v1.png",
+      "bytes": 3682614,
+      "sha256": "d464017d48021dae3bacade35c7569bcb1dbcb89fb281454c67ecb9125e1baa0"
+    },
+    {
+      "path": "source/maps/kamov_hull_panels_v1.png",
+      "bytes": 77454,
+      "sha256": "9f87dbfba283864834cfc18514226e1a488fd9ffd702a407ce8aa0c4ee6f0d37"
+    },
+    {
+      "path": "source/maps/kamov_hull_roughness_v1.png",
+      "bytes": 5877164,
+      "sha256": "016313a4bc4dd0c51d2e61ff2b2c7fe8c5cdce93ff4c79f994dd9763046f6b23"
+    },
+    {
+      "path": "source/maps/kamov_hull_seal_v1.png",
+      "bytes": 88300,
+      "sha256": "d838c46b511759cf11cde70dc9818460892f5da52ccc6b01195376bf7a6d33df"
+    },
+    {
+      "path": "source/maps/kamov_hull_structure_v1.png",
+      "bytes": 97953,
+      "sha256": "5dd0503e08dca4ddae72cf413f45ce0fe1ef083e31fa591595af9a1b307c3b48"
+    },
+    {
+      "path": "source/originals/KAMOV.png",
+      "bytes": 61619,
+      "sha256": "17196afb189f4826776394ef806b35c81ee37a7eba8cff16a89f042dc2db40c8"
+    },
+    {
+      "path": "source/originals/Rus_Kamov.SHP",
+      "bytes": 190620,
+      "sha256": "418d45a5434866024210cae32539f7c4e8e259fe67b63a9088b364149e762dd4"
+    },
+    {
+      "path": "source/originals/kamG_frm.SHP",
+      "bytes": 34548,
+      "sha256": "55dd7613c102ce82a979c60cc129e47036d19893494cd17afce38ac5d95309d3"
+    },
+    {
+      "path": "source/originals/kamov.png",
+      "bytes": 61619,
+      "sha256": "17196afb189f4826776394ef806b35c81ee37a7eba8cff16a89f042dc2db40c8"
+    },
+    {
+      "path": "source/originals/kamov_native.bin",
+      "bytes": 64320,
+      "sha256": "b3f6466a01e7a398ec51cdc5e6b3164cb474a005e08ae7f9402826fc16ac2330"
+    },
+    {
+      "path": "source/originals/kamov_native.gltf",
+      "bytes": 21458,
+      "sha256": "0c7085af772b4735c45b0f15367ad6539a3c2d68531bc56c1e359f0120c45e3a"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 1638422,
+      "sha256": "9b39d626529590a6797dfc50ff8d79ac9c4e9ea79cedb4dcb49628d1f5ef2d1b"
+    },
+    {
+      "path": "source/resources/016313a4bc4d_kamov_hull_roughness_v1.png",
+      "bytes": 5877164,
+      "sha256": "016313a4bc4dd0c51d2e61ff2b2c7fe8c5cdce93ff4c79f994dd9763046f6b23"
+    },
+    {
+      "path": "source/resources/306a1c558caa_kamov_hull_basecolor_v1.png",
+      "bytes": 16966725,
+      "sha256": "306a1c558caa96a34e92b463ae4e67f51b43829bfe458dbb356b7a242cd39f25"
+    },
+    {
+      "path": "source/resources/9d6c0bf3b389_kamov_hull_metallic_v1.png",
+      "bytes": 7318793,
+      "sha256": "9d6c0bf3b3894ff8451192bcc429c3f75063ac869b85f8a9fbd4a9e7b1673244"
+    },
+    {
+      "path": "source/resources/e6ee20b1815c_kamov_hull_normal_v1.png",
+      "bytes": 176108,
+      "sha256": "e6ee20b1815c6d85ecd435f9738f12b599ca072f0a781e0762f1e37f68338583"
+    },
+    {
+      "path": "source/review/animation_v1/deployed.png",
+      "bytes": 665022,
+      "sha256": "1951234ecf7c827eebe4e21f9c03aac36c7a384f9a65439137de90ec074beab9"
+    },
+    {
+      "path": "source/review/animation_v1/deployed_second_cycle.png",
+      "bytes": 325412,
+      "sha256": "56e9728c9640a22bb9d78d95bd5ceb394e79f45d50d55ef8a647414da8a6fdc6"
+    },
+    {
+      "path": "source/review/animation_v1/stowed.png",
+      "bytes": 604139,
+      "sha256": "ddc0d58d9d2f62e7d065a268a4ddd9d4b9760a451442434d1acd3bfce98c4c4b"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-deployed.png",
+      "bytes": 853859,
+      "sha256": "dfd9143c275ccbfed8e7b1136eabc5c6fd4b67fd00cc1cab49bdb104b11ef78a"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-stowed.png",
+      "bytes": 761177,
+      "sha256": "ab166a6559e5bee0d0a14324d6b11f659e20bfbb2e81db7cde45278fa81df7c3"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 1250700,
+      "sha256": "3b0f5f3d279118f7b50dc22c43ff0179b223c4f08a82f2449b47944845e43e9d"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 1167762,
+      "sha256": "ac506464daf5d4d09d608cd589f39a8768e49111414781074d267cfb7b73f538"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 1199168,
+      "sha256": "77533fc7769b105bf3f9900f40459493dc184ccc33509e8ae9d98a71f8ece8ea"
+    }
+  ]
+}

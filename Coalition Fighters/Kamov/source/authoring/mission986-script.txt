@@ -1,0 +1,26 @@
+68 bytes of script in 2 routines
+
+0 to 28: part 0, (F)KamovInspection
+       2  2d 00       push_flight_group   0
+       4  21 03       command   CreateFlightGroup
+       6  2d 01       push_flight_group   1
+       8  21 03       command   CreateFlightGroup
+      10  2c 00       push_ship   0  Kamov - Inspection
+      12  2b 08 64 65 push_string_alt   "deploy"
+      21  21 11       command   StartShipAnimation
+      23  32 01       push_byte   1
+      25  43          return
+
+28 to 68: part 1, (F)CycleBays
+      30  2c 00       push_ship   0  Kamov - Inspection
+      32  2b 08 64 65 push_string_alt   "deploy"
+      41  21 11       command   StartShipAnimation
+      43  32 0b       push_byte   11
+      45  21 05       command   Wait
+      47  2c 00       push_ship   0  Kamov - Inspection
+      49  2b 08 64 65 push_string_alt   "deploy"
+      58  21 3d       command   StartShipAnimationReverse
+      60  32 0b       push_byte   11
+      62  21 05       command   Wait
+      64  32 01       push_byte   1
+      66  43          return

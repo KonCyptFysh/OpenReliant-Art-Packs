@@ -1,0 +1,14 @@
+[
+  {
+    "file": "Rus_Kamov.SHP",
+    "exit_code": 0,
+    "output": "ok: 16 parts, 943 vertices, 1641 faces\nbounds: 16 model_space\nwritten again: the same bytes\n",
+    "sha256": "11151daa9fb82cf5eda80c8a0bef7bf5ed1948d1a2305dcd651940937d621f0d"
+  },
+  {
+    "file": "mission985.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "f16f4f802ff627d556582cacd0de0c682a2c928e3d707eb74f4eceec5e145b0f"
+  }
+]

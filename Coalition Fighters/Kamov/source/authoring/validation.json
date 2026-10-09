@@ -1,0 +1,241 @@
+{
+  "scene": "$KAMOV_WORKSPACE/kamov_worn_pbr_v1.blend",
+  "scene_sha256": "129ed1b8db7f94622375307d2bebc505e30a3386dffa12998e05f86d5b0b658c",
+  "parts": [
+    {
+      "index": 0,
+      "name": "Kam link rod 1",
+      "vertices": 8,
+      "faces": 12,
+      "visible_faces": 12
+    },
+    {
+      "index": 1,
+      "name": "Kamov Body",
+      "vertices": 98,
+      "faces": 192,
+      "visible_faces": 192
+    },
+    {
+      "index": 2,
+      "name": "Kamov Tur Base",
+      "vertices": 8,
+      "faces": 10,
+      "visible_faces": 10
+    },
+    {
+      "index": 3,
+      "name": "Kamov tur gun2",
+      "vertices": 16,
+      "faces": 26,
+      "visible_faces": 26
+    },
+    {
+      "index": 4,
+      "name": "Kamov tur gun1",
+      "vertices": 16,
+      "faces": 26,
+      "visible_faces": 26
+    },
+    {
+      "index": 5,
+      "name": "Kam link rod3",
+      "vertices": 8,
+      "faces": 12,
+      "visible_faces": 12
+    },
+    {
+      "index": 6,
+      "name": "Kam link rod 2",
+      "vertices": 8,
+      "faces": 12,
+      "visible_faces": 12
+    },
+    {
+      "index": 7,
+      "name": "Kam link rod4",
+      "vertices": 8,
+      "faces": 12,
+      "visible_faces": 12
+    },
+    {
+      "index": 8,
+      "name": "Kam torp hold1",
+      "vertices": 30,
+      "faces": 60,
+      "visible_faces": 60
+    },
+    {
+      "index": 9,
+      "name": "Kam torp flap1",
+      "vertices": 18,
+      "faces": 32,
+      "visible_faces": 32
+    },
+    {
+      "index": 10,
+      "name": "Kam torp hold3",
+      "vertices": 30,
+      "faces": 60,
+      "visible_faces": 60
+    },
+    {
+      "index": 11,
+      "name": "Kam torp flap3",
+      "vertices": 18,
+      "faces": 32,
+      "visible_faces": 32
+    },
+    {
+      "index": 12,
+      "name": "Kam torp hold2",
+      "vertices": 30,
+      "faces": 60,
+      "visible_faces": 60
+    },
+    {
+      "index": 13,
+      "name": "Kam torp flap2",
+      "vertices": 18,
+      "faces": 32,
+      "visible_faces": 32
+    },
+    {
+      "index": 14,
+      "name": "Kam torp hold4",
+      "vertices": 30,
+      "faces": 60,
+      "visible_faces": 60
+    },
+    {
+      "index": 15,
+      "name": "Kam torp flap4",
+      "vertices": 18,
+      "faces": 32,
+      "visible_faces": 32
+    }
+  ],
+  "active_uv": "Kamov_Delivery_UV_v1",
+  "triangles": 670,
+  "native_geometry_normals_and_original_uvs_preserved": true,
+  "uv_repairs": [],
+  "maps": {
+    "hull": {
+      "basecolor": {
+        "path": "$KAMOV_WORKSPACE/maps/kamov_hull_basecolor_v1.png",
+        "sha256": "306a1c558caa96a34e92b463ae4e67f51b43829bfe458dbb356b7a242cd39f25",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "$KAMOV_WORKSPACE/maps/kamov_hull_normal_v1.png",
+        "sha256": "e6ee20b1815c6d85ecd435f9738f12b599ca072f0a781e0762f1e37f68338583",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "$KAMOV_WORKSPACE/maps/kamov_hull_roughness_v1.png",
+        "sha256": "016313a4bc4dd0c51d2e61ff2b2c7fe8c5cdce93ff4c79f994dd9763046f6b23",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "$KAMOV_WORKSPACE/maps/kamov_hull_metallic_v1.png",
+        "sha256": "9d6c0bf3b3894ff8451192bcc429c3f75063ac869b85f8a9fbd4a9e7b1673244",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "$KAMOV_WORKSPACE/maps/kamov_hull_height_v1.png",
+        "sha256": "22ff2ff7b3aad3b883e81b8cbac650cfd3015eb3539f85155ffb9699c8ca9847",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "glass": {
+        "path": "$KAMOV_WORKSPACE/maps/kamov_hull_glass_v1.png",
+        "sha256": "4f1804c52b04f6f0d42b3c99e5c8a9263d3dc0d6ad528d9c6f55a052e89d1efa",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "seal": {
+        "path": "$KAMOV_WORKSPACE/maps/kamov_hull_seal_v1.png",
+        "sha256": "d838c46b511759cf11cde70dc9818460892f5da52ccc6b01195376bf7a6d33df",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "$KAMOV_WORKSPACE/maps/kamov_hull_flat_graphics_v1.png",
+        "sha256": "7a23e20640a4b4a30477aae372fd4a69e3da31a754d578ce1126791856753921",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "$KAMOV_WORKSPACE/maps/kamov_hull_structure_v1.png",
+        "sha256": "5dd0503e08dca4ddae72cf413f45ce0fe1ef083e31fa591595af9a1b307c3b48",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "fins": {
+        "path": "$KAMOV_WORKSPACE/maps/kamov_hull_fins_v1.png",
+        "sha256": "527467564d8ed7aa295fc07046bc008842d174b292ef50d561bb94bfd45887cd",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "panels": {
+        "path": "$KAMOV_WORKSPACE/maps/kamov_hull_panels_v1.png",
+        "sha256": "9f87dbfba283864834cfc18514226e1a488fd9ffd702a407ce8aa0c4ee6f0d37",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "paint": {
+        "path": "$KAMOV_WORKSPACE/maps/kamov_hull_paint_v1.png",
+        "sha256": "d464017d48021dae3bacade35c7569bcb1dbcb89fb281454c67ecb9125e1baa0",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    }
+  },
+  "structural_height_only": true,
+  "generated_art_resolution": [
+    1254,
+    1254
+  ],
+  "delivery_resolution": [
+    4096,
+    4096
+  ],
+  "emissives": "deferred",
+  "runtime_visual_validation": "pending_user_review",
+  "animation": {
+    "parts": 16,
+    "moving_parts": 12,
+    "stowed_frame": 1,
+    "deployed_frame": 101,
+    "native_export": "Original animation bytes preserved; Blender timeline is an editable preview"
+  },
+  "preview_uv_check": "Parser UVs already use Blender V convention; all scene UVs checked directly against native parsed faces."
+}

@@ -1,0 +1,394 @@
+{
+  "checked_at_utc": "2026-10-09T08:30:02.896808+00:00",
+  "engine": "OpenReliant 0.7.0",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "source_release_commit": "3b27f16779e53c03ccf177bfd2f9ec46a27bbfb7",
+  "source_files": [
+    {
+      "path": "src/engine/game/create.zig",
+      "sha256": "aa269782f3491bad1a0743cdd63e41ef5f03da2d73ffda099378a6b725e9b210"
+    },
+    {
+      "path": "src/engine/game/executor.zig",
+      "sha256": "907c393d6dcd9d2f548c5cfa86ac9ded2ccd22f8c5c6945d73425163d4ce9494"
+    },
+    {
+      "path": "src/engine/game/gameobj.zig",
+      "sha256": "622d9c5021b2ca5511604693468fe9df95d93a2b49f8fc87ad93e10c2df46132"
+    },
+    {
+      "path": "src/engine/game/create/models.zig",
+      "sha256": "b60b1e426fede001d5bbf48d1d5a267df3792e91eb386d2f3cc871eb7dcb4926"
+    },
+    {
+      "path": "src/engine/input.zig",
+      "sha256": "0e1b2e41d1577009511f53135f1ab2462b713eec31b6f9f77cbe9b79e5e07628"
+    },
+    {
+      "path": "src/engine/game/objects.zig",
+      "sha256": "ba014a562969e88ead3094ab8b7df462b4b41ff01b7dcd0f10817d5e7bba0be2"
+    },
+    {
+      "path": "src/engine/game/launch/torpedo.zig",
+      "sha256": "7089f47f42ef8e393acd4c80ad4ef0156773b68b9122a45136c95a0f2b1bae75"
+    }
+  ],
+  "player_ai_distinction": false,
+  "exterior_model": "Rus_Kamov.SHP",
+  "ship_type": 45,
+  "mission25_player_and_ai_same_kind": true,
+  "separate_cockpit": {
+    "file": "kamG_frm.SHP",
+    "textures": [
+      "Glass_red",
+      "Kamo_cpit"
+    ],
+    "scope": "Cockpit interior is separate from the shared exterior, as for other playable ships; preserved unchanged."
+  },
+  "model_sha256": "418d45a5434866024210cae32539f7c4e8e259fe67b63a9088b364149e762dd4",
+  "parts": 16,
+  "highest_detail_faces": 670,
+  "all_detail_faces": 1641,
+  "animated_parts": [
+    {
+      "index": 0,
+      "name": "Kam link rod 1",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 400,
+          "mode": 1,
+          "keys": 42
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "Kamov Body",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 120,
+          "mode": 1,
+          "keys": 2
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "Kamov Tur Base",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 120,
+          "mode": 1,
+          "keys": 2
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "Kamov tur gun2",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 120,
+          "mode": 1,
+          "keys": 2
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "Kamov tur gun1",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 120,
+          "mode": 1,
+          "keys": 2
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "Kam link rod3",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 400,
+          "mode": 1,
+          "keys": 42
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "Kam link rod 2",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 400,
+          "mode": 1,
+          "keys": 42
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "Kam link rod4",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 400,
+          "mode": 1,
+          "keys": 42
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "Kam torp hold1",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 400,
+          "mode": 1,
+          "keys": 42
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "name": "Kam torp flap1",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 400,
+          "mode": 1,
+          "keys": 61
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "name": "Kam torp hold3",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 400,
+          "mode": 1,
+          "keys": 42
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "name": "Kam torp flap3",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 400,
+          "mode": 1,
+          "keys": 61
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "name": "Kam torp hold2",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 400,
+          "mode": 1,
+          "keys": 42
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "name": "Kam torp flap2",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 400,
+          "mode": 1,
+          "keys": 61
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "name": "Kam torp hold4",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 400,
+          "mode": 1,
+          "keys": 42
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "name": "Kam torp flap4",
+      "tracks": [
+        {
+          "name": "deploy",
+          "length": 400,
+          "mode": 1,
+          "keys": 61
+        }
+      ]
+    }
+  ],
+  "mission_evidence": [
+    {
+      "file": "mission1.dte",
+      "kamovs": [
+        "   21      37     10    123    45  ussr_kamov                     (       -1833,            0,       -46243)    +0     +0    -1",
+        "   45      83     17     64    45  ussr_kamov 2                   (       -2600,            0,       -85568)    +0     +0    +0"
+      ],
+      "sha256": "46b945fbf88fd790877ed370186ca914ed1a6afda1b6acb6bf46c7f0030d8b39"
+    },
+    {
+      "file": "mission11.dte",
+      "kamovs": [
+        "  220     309     40    123    45  WARP_KAMOV1                    (    -1623417,            0,     11567691)    +0     +0    +0",
+        "  221     311     40    123    45  WARP_KAMOV2                    (    -1596914,            0,     11567691)    +0     +0    +0"
+      ],
+      "sha256": "6bc5959f9b773b8b890a4dca8396ca975f41f1041bba40ff2658a8a7f1c9fa2a"
+    },
+    {
+      "file": "mission18.dte",
+      "kamovs": [
+        "   53      66     19    123    45  ussr_kamov_G1_1                (     2974794,         4417,     -2211371)  +319     +0    +0",
+        "   54      68     19    123    45  ussr_kamov_G1_2                (     2982709,         4390,     -2205173)  +319     +0    +0",
+        "  122     156     20    123    45  ussr_kamov_G2_1                (     7766057,            0,     -9800299)    +0     +0    +0",
+        "  123     158     20    123    45  ussr_kamov_G2_2                (     7773224,            0,     -9800299)    +0     +0    +0"
+      ],
+      "sha256": "c8a167ea8ad3ae9c8cc5444c73d14dad99c21b21041ce6df90c88b718bb21de5"
+    },
+    {
+      "file": "mission19.dte",
+      "kamovs": [
+        "  200     273     30    123    45  KAMOV 1                        (     9876636,            0,    -12140899)    +0     +0    +0",
+        "  204     277     30    123    45  KAMOV 2                        (     9894640,            0,    -12141047)    +0     +0    +0",
+        "  275     364     35    123    45  WARPATTACK KAMOV1              (     1892307,            0,    -10482371)    +0     +0    +0",
+        "  276     365     35    123    45  WARPATTACK KAMOV2              (     1886305,            0,    -10482666)    +0     +0    +0"
+      ],
+      "sha256": "71107a5e39de70a8f96997b6d7469914542e34227166430701c92260047a61e3"
+    },
+    {
+      "file": "mission191.dte",
+      "kamovs": [
+        "  216     290     30      -    45  ussr_kamov1                    (     9876636,            0,    -12140899)    +0     +0    +0",
+        "  217     291     30      -    45  ussr_kamov2                    (     9916979,            0,    -12141637)    +0     +0    +0",
+        "  218     292     30      -    45  ussr_kamov3                    (     9910144,            0,    -12141342)    +0     +0    +0",
+        "  219     293     30      -    45  ussr_kamov4                    (     9903143,            0,    -12141047)    +0     +0    +0",
+        "  220     294     30      -    45  ussr_kamov5                    (     9894640,            0,    -12141047)    +0     +0    +0",
+        "  221     295     30      -    45  ussr_kamov6                    (     9884805,            0,    -12140751)    +0     +0    +0"
+      ],
+      "sha256": "b2779775563860ece1f5c81f10c321d4beebfe18f05be1fc3ca9636ac0b52afa"
+    },
+    {
+      "file": "mission2.dte",
+      "kamovs": [
+        "   23      31      7    123    45  ussr_kamov1                    (    10990632,            0,    -10858031)    +0     +0    -1"
+      ],
+      "sha256": "8f92a213b7f67b49f48489f74e9b79dc6682c670030c2d2c7f1942a30a17c4e1"
+    },
+    {
+      "file": "mission25.dte",
+      "kamovs": [
+        "    0       0      0      -    45  Player ussr_kamov_A2           (    -8455698,       290503,    -12741838)   +86     +0    +0",
+        "    1       5      0      3    45  ussr_kamov_A3                  (    -8455058,       292531,    -12712374)   +90     +0    +0",
+        "    2       6      0      3    45  ussr_kamov_A4                  (    -8456306,       292665,    -12753358)   +90     +0    +0",
+        "    3       7      0      3    45  ussr_kamov_A5                  (    -8455434,       287289,    -12705058)   +86     +0    +0",
+        "    4       9      0      3    45  ussr_kamov_A6                  (    -8455698,       290503,    -12722182)   +86     +0    +0",
+        "    5       4      0      1    45  WLussr_kamov_A1                (    -8456010,       288629,    -12731734)   +91     +0  +179"
+      ],
+      "sha256": "5c78a44e2b4b16a809f103876c8080b92b3570e9b2a859cd0abd39d85844bb55"
+    },
+    {
+      "file": "mission251.dte",
+      "kamovs": [
+        "   60      85      7     64    45  ussr_kamov1                    (     7470884,            0,     -9133347)   +22     +0    +0",
+        "   61      87      7     64    45  ussr_kamov2                    (     7583412,            0,     -9225557)   +16     +0    +0",
+        "   62      88      7     64    45  ussr_kamov3                    (     7703419,            0,     -9193151)   +16     +0    +0",
+        "  122     168     17    123    45  ussr_kamov                     (   -10523464,            0,     -1429258)    +0     +0    +0"
+      ],
+      "sha256": "a0e516cb035e04e22cd535f931f47dad1e5d4d219bc4ae5469de1d2d051f3dd7"
+    },
+    {
+      "file": "mission27.dte",
+      "kamovs": [
+        "   71     111     32    123    45  ussr_kamov1                    (    12394764,            0,      7300857)    +0     +0    +0",
+        "   72     113     32    123    45  ussr_kamov2                    (    12394631,            0,      7287417)    +0     +0    +0",
+        "  213     287     47    123    45  decoy ussr_kamov1              (    12406111,            0,      7358187)  +270     +0    +0",
+        "  214     288     47    123    45  decoy ussr_kamov2              (    12398271,            0,      7345390)  +269     +0    +0",
+        "  215     289     47    123    45  decoy ussr_kamov3              (    12407931,            0,      7336421)  +269     +0    +0",
+        "  216     290     47    123    45  decoy ussr_kamov4              (    12398551,            0,      7326495)  +269     +0    +0",
+        "  348     469     59     64    45  ussr_kamovkillyam              (     3320889,            0,      1107767)    +0     +0    +0"
+      ],
+      "sha256": "6a7e74fc14f01e776515f2e25ed19c16e2d4070426433fd62f41effdd07597c9"
+    },
+    {
+      "file": "mission271.dte",
+      "kamovs": [
+        "   72     113     31     43    45  ussr_kamov1                    (    12394764,            0,      7300857)    +0     +0    +0",
+        "   73     115     31     43    45  ussr_kamov2                    (    12394631,            0,      7287417)    +0     +0    +0",
+        "   74     116     31     43    45  ussr_kamov3                    (    12394364,            0,      7312816)    +0     +0    +0",
+        "  219     294     46     43    45  decoy ussr_kamov1              (    12406111,            0,      7358187)  +270     +0    +0",
+        "  220     295     46     43    45  decoy ussr_kamov2              (    12398271,            0,      7345390)  +269     +0    +0",
+        "  221     296     46     43    45  decoy ussr_kamov3              (    12407931,            0,      7336421)  +269     +0    +0",
+        "  222     297     46     43    45  decoy ussr_kamov4              (    12398551,            0,      7326495)  +269     +0    +0"
+      ],
+      "sha256": "a34afe020f99de96da965bc12eb32b2db17511a97a3220608ef63010dcaeac1a"
+    },
+    {
+      "file": "mission4.dte",
+      "kamovs": [
+        "  241     342     34    123    45  NAV4_KAMOV                     (       -4835,            0,      3563273)    +0     +0    +0"
+      ],
+      "sha256": "368343926c12db907efa043ccebc3d18f32d9d8996be6f2d7301b78f889cf0da"
+    },
+    {
+      "file": "mission5.dte",
+      "kamovs": [
+        "   79      90     15    123    45  TORP ussr_kamov                (     4645973,            0,    -11647496)    +0     +0    -1"
+      ],
+      "sha256": "cc0f98f81657ba5dc7cdb94b9dcc5c2fabc698b2ae6b3b4fdc79377d24efb68b"
+    },
+    {
+      "file": "mission6.dte",
+      "kamovs": [
+        "   27      35      7     64    45  ussr_kamov1                    (    -1783417,            0,    -10574437)    +0     +0    -1",
+        "   28      37      7     64    45  ussr_kamov2                    (    -1767083,            0,    -10573994)    +0     +0    -1",
+        "   29      38      7     64    45  ussr_kamov3                    (    -1756417,            0,    -10580926)    +0     +0    -1",
+        "   30      39      7     64    45  ussr_kamov4                    (    -1755583,            0,    -10593611)    +0     +0    -1",
+        "  176     219     17     64    45  Scim_kamov                     (   -11529000,            0,    -11653542)    +0     +0    -1",
+        "  260     336     27    123    45  NEWNAV_kamov                   (    -7638814,      -343072,      1938485)  +292     +1    +0"
+      ],
+      "sha256": "58b2f0e9d26ea9f3bde1e8b1157228072628756c52ba962bd285a6eea1ae5ef5"
+    },
+    {
+      "file": "mission8.dte",
+      "kamovs": [
+        "   28      44      8     64    45  ussr_kamov1                    (   -11379899,            0,    -10706133)   +37     +0    -1",
+        "   29      46      8     64    45  ussr_kamov2                    (   -11359962,            0,    -10715277)   +40     +0    -1",
+        "   30      47      8     64    45  ussr_kamov3                    (   -11369232,            0,    -10710502)   +32     +0    -1",
+        "  178     260     35     64    45  ussr_kamovbu                   (    -9168959,            0,     -6039762)    +0     +0    +0"
+      ],
+      "sha256": "97aaa36c553238d32a09249771265ccc6a6b50d2dff44e6fb6906151d5d03bac"
+    }
+  ],
+  "animation_controls": {
+    "deploy": "StartShipAnimation(ship, deploy); speed +4; start 0",
+    "stow": "StartShipAnimationReverse(ship, deploy); speed -4; from current time",
+    "duration_seconds": 4,
+    "launch": "Player Launch Missile opens the deploy track and releases the first waiting torpedo.",
+    "torpedoes": "Separate Rus_Torp.SHP objects riding the four native launch points; reuse the approved Ordnance replacement if installed."
+  }
+}

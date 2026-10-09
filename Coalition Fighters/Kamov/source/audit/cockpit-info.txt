@@ -1,0 +1,25 @@
+version:  107
+flags:    components=false cloak=false
+parts:    2
+vertices: 225
+faces:    311
+arcs:     0
+bounds:   (-769,-881,-1174) to (769,1102,1271), 1537 x 1983 x 2445
+
+[  0] cockpit                            type  0  parent  -1  link 0
+        lod 0:    77 vertices    75 faces   2 materials
+        0 nodes, 4 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          light 4 at (425,-1096,75)  id 3 brightness 5.00 range 100 size (0.0,0.0)
+          light 4 at (-445,-1119,72)  id 3 brightness 5.00 range 100 size (0.0,0.0)
+          light 4 at (254,-242,187)  id 3 brightness 3.80 range 150 size (0.0,0.0)
+          light 4 at (-273,-239,183)  id 3 brightness 3.80 range 150 size (0.0,0.0)
+[  1] hands01                            type  0  parent  -1  link 0
+        lod 0:   148 vertices   236 faces   2 materials
+        0 nodes, 3 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          light 4 at (15,-10,350)  id 3 brightness 2.50 range 120 size (0.0,0.0)
+          light 4 at (160,25,67)  id 3 brightness 3.00 range 100 size (0.0,0.0)
+          light 4 at (-109,34,33)  id 3 brightness 3.00 range 100 size (0.0,0.0)
+
+textures (2): Glass_red Kamo_cpit

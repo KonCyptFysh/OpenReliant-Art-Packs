@@ -1,0 +1,164 @@
+{
+  "passed": true,
+  "engine": "Official OpenReliant 0.7.0",
+  "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+  "mission985_cycle": {
+    "screenshot_ticks": 3900,
+    "simulation_steps": 975,
+    "events": [
+      {
+        "step": 200,
+        "command": "start_ship_animation"
+      },
+      {
+        "step": 500,
+        "command": "start_ship_animation_reverse"
+      },
+      {
+        "step": 775,
+        "command": "start_ship_animation"
+      }
+    ],
+    "all_four_torpedoes_attached": true,
+    "intermediate_motion_verified": true,
+    "stowed_deployed_stowed_then_second_deployment_verified": true,
+    "travel_native_units": {
+      "1": 270.3928754855116,
+      "2": 267.9641386947067,
+      "3": 263.49048841737874,
+      "4": 270.7853596168362
+    },
+    "return_error_native_units": {
+      "1": 4.57763671875e-05,
+      "2": 1.52587890625e-05,
+      "3": 1.52587890625e-05,
+      "4": 1.52587890625e-05
+    },
+    "second_deployment_error_native_units": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0,
+      "4": 0.0
+    },
+    "no_mission_restart": true
+  },
+  "mission987_stowed": {
+    "screenshot_ticks": 100,
+    "all_torpedoes_in_stowed_position": true
+  },
+  "mission986_deployed": {
+    "screenshot_ticks": 600,
+    "simulation_steps": 150,
+    "pose_matches_cycle": true,
+    "holds_deployed": true
+  },
+  "native_animation_untouched": true,
+  "torpedo_asset": "Existing approved 97-ordnance-worn-v1",
+  "runtime_files": [
+    {
+      "name": "Rus_Kamov.SHP",
+      "sha256": "11151daa9fb82cf5eda80c8a0bef7bf5ed1948d1a2305dcd651940937d621f0d"
+    },
+    {
+      "name": "gorkm1_hull.png",
+      "sha256": "306a1c558caa96a34e92b463ae4e67f51b43829bfe458dbb356b7a242cd39f25"
+    },
+    {
+      "name": "gorkm1_hull_normal.png",
+      "sha256": "e6ee20b1815c6d85ecd435f9738f12b599ca072f0a781e0762f1e37f68338583"
+    },
+    {
+      "name": "gorkm1_hull_orm.png",
+      "sha256": "89598a837b0cfa117149a36dd3d2530815b32817b911be8d757440514843b186"
+    },
+    {
+      "name": "kamov_inspection.luau",
+      "sha256": "69959cba5b7f02d5924bc91ade4737aacb65afc5dffc93c3b6fc5b8d88957074"
+    },
+    {
+      "name": "license.txt",
+      "sha256": "db58ea32b5be3d2985d43548c9ef2db0fe98a29e280d033429283d09193c69a3"
+    },
+    {
+      "name": "mission984.dte",
+      "sha256": "6045bc7c880358a7b3c9da8906cb77c9f596fd2bac7190f7912fbd42705a0c52"
+    },
+    {
+      "name": "mission985.dte",
+      "sha256": "f16f4f802ff627d556582cacd0de0c682a2c928e3d707eb74f4eceec5e145b0f"
+    },
+    {
+      "name": "mission986.dte",
+      "sha256": "89443a5cebca494727b33fb6c983b337251a651d016d8e8006e20a25b2855f2e"
+    },
+    {
+      "name": "mission987.dte",
+      "sha256": "f96ed2f027b0d2d153cb1aacf3c194bf85ebe4ea01455ee1f894921ad7ed47e4"
+    },
+    {
+      "name": "mod.ini",
+      "sha256": "91b38da4541f6c70ebf3da82141bd3565d98c7f95835006a6071b98e658ced05"
+    },
+    {
+      "name": "mod.png",
+      "sha256": "ac506464daf5d4d09d608cd589f39a8768e49111414781074d267cfb7b73f538"
+    },
+    {
+      "name": "orkm1_hull.png",
+      "sha256": "306a1c558caa96a34e92b463ae4e67f51b43829bfe458dbb356b7a242cd39f25"
+    },
+    {
+      "name": "orkm1_hull_normal.png",
+      "sha256": "e6ee20b1815c6d85ecd435f9738f12b599ca072f0a781e0762f1e37f68338583"
+    },
+    {
+      "name": "orkm1_hull_orm.png",
+      "sha256": "89598a837b0cfa117149a36dd3d2530815b32817b911be8d757440514843b186"
+    }
+  ],
+  "captures": [
+    {
+      "path": "$KAMOV_WORKSPACE/review/animation_v1/deployed.png",
+      "sha256": "1951234ecf7c827eebe4e21f9c03aac36c7a384f9a65439137de90ec074beab9"
+    },
+    {
+      "path": "$KAMOV_WORKSPACE/review/animation_v1/deployed_second_cycle.png",
+      "sha256": "56e9728c9640a22bb9d78d95bd5ceb394e79f45d50d55ef8a647414da8a6fdc6"
+    },
+    {
+      "path": "$KAMOV_WORKSPACE/review/animation_v1/stowed.png",
+      "sha256": "ddc0d58d9d2f62e7d065a268a4ddd9d4b9760a451442434d1acd3bfce98c4c4b"
+    }
+  ],
+  "logs": [
+    {
+      "path": "$KAMOV_WORKSPACE/work/runtime_validation/cycle-final.log",
+      "sha256": "ac8fa46c6302d29fa4f10f66a4a496909904306863252b52003b99794da9ea92"
+    },
+    {
+      "path": "$KAMOV_WORKSPACE/work/runtime_validation/deployed-final.log",
+      "sha256": "dbf3db642260e18b447c208f651489c63638ccda812ae95ef4db91ecc3812049"
+    },
+    {
+      "path": "$KAMOV_WORKSPACE/work/runtime_validation/stowed-final.log",
+      "sha256": "726cd978c4dd02cd08c89a02fc1b3cfd3d03fffd773bbe55d67f732096fdb313"
+    },
+    {
+      "path": "$KAMOV_WORKSPACE/work/runtime_validation/installed-stowed.log",
+      "sha256": "9100d645db2639bc25f0a342cc720b1f2c93aa33eecd4bb058df282461e9ce33"
+    }
+  ],
+  "scope": "Bounded bay mechanism and carried-torpedo tests. User visual review and full gameplay remain pending.",
+  "test_harness_note": "Long --watch captures end a mission via the native watch camera timer; full cycle was verified in standard external view. Final run has no restart. Mission-only Luau sets friendly sides, passive turrets, disabled player engines and invulnerability. First three modes block missile input; manual-launch mode allows it.",
+  "installed_launcher_check": {
+    "passed": true,
+    "mission": 987,
+    "screenshot_ticks": 600,
+    "simulation_steps": 150,
+    "existing_mods_enabled": true,
+    "launcher": "$OPENRELIANT_HOME/launch-kamov-stowed-test.sh",
+    "launcher_sha256": "7efb37ed24bace575376d639ef4b886aefce00eed9602ae386c564dbbf1e9189",
+    "no_runtime_errors": true,
+    "all_four_torpedoes_remain_stowed": true
+  }
+}

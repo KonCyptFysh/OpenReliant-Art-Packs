@@ -1,0 +1,6 @@
+index  object  group  pilot  kind  name                           position                                  yaw  pitch  roll
+    0       0      0      -    45  Kamov - Inspection             (           0,            0,            0)    +0     +0    +0
+    1       1      1      -    92  Carried torpedo 1              (           0,            0,            0)    +0     +0    +0
+    2       2      1      -    92  Carried torpedo 2              (           0,            0,            0)    +0     +0    +0
+    3       3      1      -    92  Carried torpedo 3              (           0,            0,            0)    +0     +0    +0
+    4       4      1      -    92  Carried torpedo 4              (           0,            0,            0)    +0     +0    +0

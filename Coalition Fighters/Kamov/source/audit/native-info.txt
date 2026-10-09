@@ -1,0 +1,125 @@
+version:  107
+flags:    components=false cloak=true
+parts:    16
+vertices: 943
+faces:    1641
+arcs:     0
+bounds:   (-454,-309,-508) to (322,461,1925), 776 x 769 x 2433
+
+[  0] Kam link rod 1                     type  0  parent  -1  link 0
+        lod 0:     8 vertices    12 faces   1 materials  beyond 1000000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 400 mode 1, 42 keyframes, 0 events
+[  1] Kamov Body                         type  0  parent  -1  link 0
+        lod 0:    98 vertices   192 faces   1 materials  beyond 10000
+        lod 1:    88 vertices   172 faces   1 materials  beyond 20000
+        lod 2:    50 vertices    96 faces   1 materials  beyond 30000
+        lod 3:    19 vertices    32 faces   1 materials  beyond 80000
+        lod 4:     7 vertices     8 faces   1 materials  beyond 1000000
+        0 nodes, 3 attachments, 1 clips, 1 point lists, 0 triggers
+          points kind 7: 1
+          clip 'deploy' length 120 mode 1, 2 keyframes, 0 events
+          engine glow 2 at (243,227,-248)  id 1 size (200,100,-400)
+          engine glow 2 at (-238,241,-247)  id 1 size (200,100,-400)
+          engine glow 2 at (1,-56,-1220)  id 1 size (100,100,-400)
+[  2] Kamov Tur Base                     type  0  parent  -1  link 0
+        lod 0:     8 vertices    10 faces   1 materials  beyond 10000
+        lod 1:     8 vertices    10 faces   1 materials  beyond 20000
+        lod 2:     4 vertices     2 faces   1 materials  beyond 30000
+        lod 3:     4 vertices     2 faces   1 materials  beyond 80000
+        lod 4:     4 vertices     2 faces   1 materials  beyond 1000000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 120 mode 1, 2 keyframes, 0 events
+[  3] Kamov tur gun2                     type  0  parent  -1  link 0
+        lod 0:    16 vertices    26 faces   1 materials  beyond 10000
+        lod 1:     7 vertices     8 faces   1 materials  beyond 20000
+        lod 2:     4 vertices     2 faces   1 materials  beyond 30000
+        lod 3:     4 vertices     2 faces   1 materials  beyond 80000
+        lod 4:     4 vertices     2 faces   1 materials  beyond 1000000
+        0 nodes, 1 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 120 mode 1, 2 keyframes, 0 events
+          gun muzzle 3 at (-1,1,134)
+[  4] Kamov tur gun1                     type  0  parent  -1  link 0
+        lod 0:    16 vertices    26 faces   1 materials  beyond 10000
+        lod 1:     7 vertices     8 faces   1 materials  beyond 20000
+        lod 2:     4 vertices     2 faces   1 materials  beyond 30000
+        lod 3:     4 vertices     2 faces   1 materials  beyond 80000
+        lod 4:     4 vertices     2 faces   1 materials  beyond 1000000
+        0 nodes, 1 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 120 mode 1, 2 keyframes, 0 events
+          gun muzzle 3 at (-0,-0,135)
+[  5] Kam link rod3                      type  0  parent  -1  link 0
+        lod 0:     8 vertices    12 faces   1 materials  beyond 1000000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 400 mode 1, 42 keyframes, 0 events
+[  6] Kam link rod 2                     type  0  parent  -1  link 0
+        lod 0:     8 vertices    12 faces   1 materials  beyond 1000000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 400 mode 1, 42 keyframes, 0 events
+[  7] Kam link rod4                      type  0  parent  -1  link 0
+        lod 0:     8 vertices    12 faces   1 materials  beyond 1000000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 400 mode 1, 42 keyframes, 0 events
+[  8] Kam torp hold1                     type  0  parent  -1  link 0
+        lod 0:    30 vertices    60 faces   1 materials  beyond 10000
+        lod 1:    19 vertices    38 faces   1 materials  beyond 20000
+        lod 2:    18 vertices    36 faces   1 materials  beyond 30000
+        lod 3:    15 vertices    30 faces   1 materials  beyond 80000
+        lod 4:    10 vertices    19 faces   1 materials  beyond 1000000
+        0 nodes, 1 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 400 mode 1, 42 keyframes, 0 events
+          launch point 8 at (-75,22,83)
+[  9] Kam torp flap1                     type  0  parent  -1  link 0
+        lod 0:    18 vertices    32 faces   1 materials  beyond 10000
+        lod 1:    12 vertices    14 faces   1 materials  beyond 20000
+        lod 2:    12 vertices    14 faces   1 materials  beyond 30000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 400 mode 1, 61 keyframes, 0 events
+[ 10] Kam torp hold3                     type  0  parent  -1  link 0
+        lod 0:    30 vertices    60 faces   1 materials  beyond 10000
+        lod 1:    20 vertices    40 faces   1 materials  beyond 20000
+        lod 2:    18 vertices    36 faces   1 materials  beyond 30000
+        lod 3:    15 vertices    30 faces   1 materials  beyond 80000
+        lod 4:     9 vertices    13 faces   1 materials  beyond 1000000
+        0 nodes, 1 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 400 mode 1, 42 keyframes, 0 events
+          launch point 8 at (76,-26,70)
+[ 11] Kam torp flap3                     type  0  parent  -1  link 0
+        lod 0:    18 vertices    32 faces   1 materials  beyond 10000
+        lod 1:    12 vertices    14 faces   1 materials  beyond 20000
+        lod 2:    12 vertices    14 faces   1 materials  beyond 30000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 400 mode 1, 61 keyframes, 0 events
+[ 12] Kam torp hold2                     type  0  parent  -1  link 0
+        lod 0:    30 vertices    60 faces   1 materials  beyond 10000
+        lod 1:    20 vertices    40 faces   1 materials  beyond 20000
+        lod 2:    18 vertices    36 faces   1 materials  beyond 30000
+        lod 3:    15 vertices    30 faces   1 materials  beyond 80000
+        lod 4:    11 vertices    21 faces   1 materials  beyond 1000000
+        0 nodes, 1 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 400 mode 1, 42 keyframes, 0 events
+          launch point 8 at (70,34,76)
+[ 13] Kam torp flap2                     type  0  parent  -1  link 0
+        lod 0:    18 vertices    32 faces   1 materials  beyond 10000
+        lod 1:    12 vertices    14 faces   1 materials  beyond 20000
+        lod 2:    12 vertices    14 faces   1 materials  beyond 30000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 400 mode 1, 61 keyframes, 0 events
+[ 14] Kam torp hold4                     type  0  parent  -1  link 0
+        lod 0:    30 vertices    60 faces   1 materials  beyond 10000
+        lod 1:    20 vertices    40 faces   1 materials  beyond 20000
+        lod 2:    18 vertices    36 faces   1 materials  beyond 30000
+        lod 3:    15 vertices    30 faces   1 materials  beyond 80000
+        lod 4:    10 vertices    18 faces   1 materials  beyond 1000000
+        0 nodes, 1 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 400 mode 1, 42 keyframes, 0 events
+          launch point 8 at (-68,-44,76)
+[ 15] Kam torp flap4                     type  0  parent  -1  link 0
+        lod 0:    18 vertices    32 faces   1 materials  beyond 10000
+        lod 1:    12 vertices    14 faces   1 materials  beyond 20000
+        lod 2:    12 vertices    14 faces   1 materials  beyond 30000
+        lod 3:    12 vertices    14 faces   1 materials  beyond 80000
+        0 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'deploy' length 400 mode 1, 61 keyframes, 0 events
+
+textures (1): KAMOV

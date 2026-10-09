@@ -1,0 +1,12 @@
+[
+  {
+    "purpose": "Restore Kamov atlas",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. Asset type: UV-aligned albedo texture atlas for StarLancer's Coalition Kamov torpedo bomber. Edit target: the attached original 256-square KAMOV atlas. Restore this exact square sheet at high resolution with worn grey gunmetal and dark crimson red paint, retaining every original panel boundary, island footprint, exact normalized placement, orientation and relative size. Preserve the three original red star markings and pale outlines, hazard strips, narrow red bands, grey panelling, rivets, radiator bands and the four-tube exhaust/recess at the right. Keep the bottom-left red nose area and its tiny amber window in exactly their original positions. The amber pane must be smooth opaque dark amber glass without a painted reflection or cloudy pattern; engine reflections will supply the highlights. Restore crisp economical machinery detail and restrained scratches/chips while retaining original worn tonal balance. The moving torpedo cradle and flap surfaces must continue to match this same atlas layout. Flat orthographic base-colour sheet, no lighting gradients added, no cast shadows, no new panel layouts, no added logos/text, no perspective, no 3D model, no wireframe, no padding, borders or background. Fill the square edge to edge. Preserve UV registration strictly."
+  },
+  {
+    "purpose": "Smooth original amber glazing",
+    "mode": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. Make one surgical correction to this Kamov UV texture atlas: smooth ONLY the glass interiors of the THREE amber panes in the lower-left red nose patch. They are the large octagonal amber pane around pixel (315,815), the narrow sloping amber pane around (159,810), and the small angled pane around (415,929), on this 1254-square reference. Retain all pane contours and their metal/seal frames exactly. Remove the crisscross pattern and painted shine within these three panes; replace interiors with smooth, nearly uniform deep opaque amber-brown glass. Very subtle amber tint, no visible crossbars or cloudy dirt patterns, no painted reflections. Game materials will supply reflection. Keep EVERY other region exactly registered and visually unchanged: all grey worn panels, red paint, stars, machinery, seams, hazards and lights. No padding, no re-layout, no new elements. Output the same complete square atlas."
+  }
+]
