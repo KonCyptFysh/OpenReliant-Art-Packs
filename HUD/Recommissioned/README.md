@@ -1,6 +1,17 @@
-# Recommissioned HUD — public beta
+# Recommissioned HUD
+**Git source/runtime: HUD 1.9. Player download: HUD 1.8 / beta.1.**
 
-A drop-in StarLancer HUD overhaul for OpenReliant 0.8.1. This first beta
+This Git update adds the 32 missing portrait filenames: 17 newly restored
+sequences and 15 exact aliases. The editable collection now covers 257 films
+and 10,909 frames at 480x400. All existing artwork and approved subtargets
+remain unchanged. The 1,187 runtime exports match the maintainer's tested
+deployment. See [portrait completion and test limits](docs/REFINEMENT_1.9_STATUS.md).
+
+No new player ZIP or release tag accompanies this update. The
+[existing beta download](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hud-v0.1.0-beta.1)
+and gallery are unchanged. Beta.2 and broader user review remain pending.
+
+A drop-in StarLancer HUD overhaul for OpenReliant 0.8.1. The existing beta download
 packages HUD revision 1.8: red wireframes, amber instruments, larger text,
 missile and gunnery displays, target components, and 225 HD portrait films.
 No companion engine or executable is included.
