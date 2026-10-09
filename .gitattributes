@@ -15,5 +15,13 @@
 *.glb filter=lfs diff=lfs merge=lfs -text
 *.psd filter=lfs diff=lfs merge=lfs -text
 *.kra filter=lfs diff=lfs merge=lfs -text
+# HUD runtime films, fonts and isolated binary test fixtures.
+*.fm8 filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.dte filter=lfs diff=lfs merge=lfs -text
+*.ut filter=lfs diff=lfs merge=lfs -text
 # GitHub Pages serves small web previews as real files, never LFS pointers.
 docs/** -filter !diff !merge
+
+# Preserve every frozen HUD source/runtime byte so manifest hashes survive checkout.
+HUD/Recommissioned/** -text

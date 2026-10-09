@@ -1,7 +1,5 @@
 # HUD
 
-Interface artwork, targeting displays and cockpit overlays.
-
-**Coming soon.**
-
-This category is reserved for future art packs.
+[Recommissioned HUD](Recommissioned/) contains the first public beta, editable
+sources and known issues. It requires OpenReliant 0.8.1; HD portraits use the
+included mod shader. See the pack installation notes before combining shader mods.

@@ -1,0 +1,26 @@
+{
+  "package_name": "openreliant-recommissioned-hud",
+  "version": "0.1.0-beta.1",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.8.1",
+  "mod_folders": [
+    "recommissioned-hud"
+  ],
+  "asset_manifest_sha256": "6c93f1258714119e250d2f061080fd811a480b7c9a665233a8e0e1c50ee2cbaf",
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "ASSET_STATUS.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json"
+  ],
+  "channel": "beta",
+  "asset_revision": "1.8",
+  "source_manifest_sha256": "2cbaaacdd4f7b442f14f9cb7954f13ab67afaffb7ae71d31d782ca1d464fc551"
+}

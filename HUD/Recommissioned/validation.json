@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "scope": "bounded HUD 1.8 beta packaging and previously recorded rendering checks; not full campaign/cross-platform certification",
+  "checked_on": "2026-10-09",
+  "engine_build": {
+    "kind": "unmodified-upstream-main",
+    "upstream_commit": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
+    "reported_version": "0.8.1",
+    "binary_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
+    "compiler": "Zig 0.17.0",
+    "optimization": "ReleaseSafe",
+    "changed_upstream_source_files": 0,
+    "private_engine_patch_applied": false
+  },
+  "normal_engine": {
+    "kind": "unmodified-upstream-main",
+    "upstream_commit": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
+    "reported_version": "0.8.1",
+    "binary_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
+    "compiler": "Zig 0.17.0",
+    "optimization": "ReleaseSafe",
+    "changed_upstream_source_files": 0,
+    "private_engine_patch_applied": false
+  },
+  "tested_platforms": [
+    {
+      "os": "Fedora Linux",
+      "architecture": "x86_64",
+      "display": "SDL X11 on KDE",
+      "capture_resolutions": [
+        [
+          1920,
+          1080
+        ],
+        [
+          1280,
+          720
+        ]
+      ],
+      "graphics_hardware_present": [
+        "Intel Iris Xe [8086:46a6]",
+        "NVIDIA RTX 3070 Mobile [10de:249d]"
+      ],
+      "active_render_device": "not independently identified in this pass"
+    }
+  ],
+  "asset_manifest_sha256": "6c93f1258714119e250d2f061080fd811a480b7c9a665233a8e0e1c50ee2cbaf",
+  "tested_asset_manifest_sha256": "2c1febc2cacc6d42d25e3ac93a4f9367f6b2dd899071c1fce015d28cb2fb3076",
+  "source_manifest_sha256": "2cbaaacdd4f7b442f14f9cb7954f13ab67afaffb7ae71d31d782ca1d464fc551",
+  "checks": [
+    "Shared exposed frame pixel equality at 1080p/720p",
+    "Portrait region unaffected by comms frame",
+    "Comms number/period/label ink alignment",
+    "Native forced closing and comms-frame recovery",
+    "Generated script reproducible; prior artwork hashes preserved",
+    "1154 approved runtime files preserved except mod.ini release/licence metadata; one flat licence notice added",
+    "Published snapshot preserves all approved HUD/portrait pixel assets and script/shader hashes",
+    "Player package excludes test missions, source files, engines and game archives"
+  ],
+  "limitations": [
+    "Native power-ball reuse remains an upstream presentation request; triangle placeholder retained.",
+    "17 large-schematic jobs and fuel-pod frame 410 are artwork backlog; approved 393-409 unchanged.",
+    "Full campaign/dense combat/localization/alt-tab/relaunch and final user review pending.",
+    "Armour-hit overlays and spectral charge integration need dedicated combat/device coverage.",
+    "Messages/prompts/radio portraits remain native.",
+    "#894 has not recurred in sampled current captures; broad resolution is not claimed.",
+    "Speaker name remains native; independent bottom-right placement needs upstream text controls. HD portrait shader limitations from 1.7 remain."
+  ],
+  "evidence_catalog": "tracking/refinement-1.8.json",
+  "previous_pass": "tracking/history/before-hud-1.4/validation.json",
+  "current_refinement": "tracking/refinement-1.8.json",
+  "maintainer_approval": {
+    "date": "2026-10-09",
+    "scope": "Ship current HUD as-is as a beta; final stable QA remains open"
+  },
+  "metadata_only_changes": {
+    "changed": [
+      "mod.ini"
+    ],
+    "added": [
+      "license.txt"
+    ],
+    "gameplay_and_art_unchanged": true,
+    "previous_tested_manifest_sha256": "2c1febc2cacc6d42d25e3ac93a4f9367f6b2dd899071c1fce015d28cb2fb3076"
+  }
+}
