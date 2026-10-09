@@ -9,7 +9,7 @@
     "102-saber-worn-v1"
   ],
   "asset_manifest_sha256": "2f63cc744e165360e737ce75353f31bff1ea62982990a93554cdf5d0948238cf",
-  "source_manifest_sha256": "a7107b54853dae5d46508a37d771591a25538dc8d89c380974a2f4344357e50f",
+  "source_manifest_sha256": "0c5a86703ac2bffb3efc19bab6c2e214e08f1f6e1f4895680aa3f8492e712bf9",
   "channel": "beta",
   "user_approved": true,
   "include_documents": [
@@ -23,7 +23,8 @@
     "validation.json",
     "release.json",
     "tools/launch-saber-test.sh",
-    "approval.json"
+    "approval.json",
+    "gallery-validation.json"
   ],
   "approval": {
     "user_approved": true,

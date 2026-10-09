@@ -916,7 +916,7 @@
     "Linux x86_64: official OpenReliant 0.7.0"
   ],
   "asset_manifest_sha256": "2f63cc744e165360e737ce75353f31bff1ea62982990a93554cdf5d0948238cf",
-  "source_manifest_sha256": "a7107b54853dae5d46508a37d771591a25538dc8d89c380974a2f4344357e50f",
+  "source_manifest_sha256": "0c5a86703ac2bffb3efc19bab6c2e214e08f1f6e1f4895680aa3f8492e712bf9",
   "checks": [
     "Native SHP and DTE round-trip checks passed.",
     "All 1,938 native faces pass shared-corner UV checks.",
@@ -926,7 +926,8 @@
     "Interactive mission 989 launched as Saber ship type 43 with restored model and material maps loaded; no startup errors.",
     "User in-game visual review accepted artwork revision 1.0, with no immediate problems reported.",
     "Approval metadata update leaves all reviewed model, texture and mission bytes unchanged; only mod.ini review-status wording changes.",
-    "Repository exports, canonical exports and installed mod match byte-for-byte."
+    "Repository exports, canonical exports and installed mod match byte-for-byte.",
+    "Two publication photographs completed in official OpenReliant 0.7.0 using the exact approved runtime files, with settings unchanged."
   ],
   "remaining_work": [
     "Gameplay, ejection and distance transitions",
@@ -958,5 +959,6 @@
       "warning(mods): skipping HUD/hud: a mod's files must be directly in its folder"
     ],
     "scope": "Startup plus user visual inspection; broader gameplay not exercised by the agent."
-  }
+  },
+  "gallery_validation": "gallery-validation.json"
 }

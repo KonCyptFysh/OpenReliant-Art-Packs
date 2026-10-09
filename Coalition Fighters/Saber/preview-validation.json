@@ -1,0 +1,39 @@
+{
+  "model": "Rus_Sabre.SHP",
+  "model_sha256": "75f56033ded920198e45cf5e58ddb706af72d78b7966e0414ac59e0ce9886de4",
+  "preview_sha256": "6916a874b54f98d67728f901de43624706fe3c2ab7bbe4764ff2b125e4395776",
+  "preview_bytes": 1731868,
+  "highest_detail_geometry": true,
+  "textures": [
+    {
+      "runtime_file": "orsb1_hull.png",
+      "sha256": "c50bc219e3a389cca18a296e1e83cb0ff6fca5097dd626bcd108a2d23a2d2c85",
+      "kind": "base",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orsb1_hull_normal.png",
+      "sha256": "e3440797de210b6fcd25c804cdff3a68a7af66b548aee6d6011468ac8f71594c",
+      "kind": "normal",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orsb1_hull_orm.png",
+      "sha256": "ff15c85cb5a0f636b4c8e71af5c28fc7b144e826b517395f5665e287f0f5d96d",
+      "kind": "orm",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "limitations": "Viewing copy with reduced texture resolution and browser lighting; in-game screenshots show actual engine appearance.",
+  "visible_triangles": 568,
+  "native_hidden_caps_omitted": true
+}
