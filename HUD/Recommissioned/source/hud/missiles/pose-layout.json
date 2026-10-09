@@ -1,0 +1,1460 @@
+{
+  "screamer": [
+    {
+      "slot": 0,
+      "reference_frame": 86,
+      "angle_degrees": 0.0,
+      "center": [
+        55.5,
+        96.5
+      ],
+      "reference_bbox": [
+        51,
+        83,
+        60,
+        110
+      ],
+      "state": "gold"
+    },
+    {
+      "slot": 1,
+      "reference_frame": 87,
+      "angle_degrees": 36.0,
+      "center": [
+        31.5,
+        89.0
+      ],
+      "reference_bbox": [
+        22,
+        77,
+        41,
+        101
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 2,
+      "reference_frame": 88,
+      "angle_degrees": 72.0,
+      "center": [
+        17.5,
+        69.5
+      ],
+      "reference_bbox": [
+        4,
+        63,
+        31,
+        76
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 3,
+      "reference_frame": 89,
+      "angle_degrees": 108.0,
+      "center": [
+        17.0,
+        41.5
+      ],
+      "reference_bbox": [
+        4,
+        35,
+        30,
+        48
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 4,
+      "reference_frame": 90,
+      "angle_degrees": 144.0,
+      "center": [
+        31.5,
+        23.0
+      ],
+      "reference_bbox": [
+        22,
+        11,
+        41,
+        35
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 5,
+      "reference_frame": 91,
+      "angle_degrees": 180.0,
+      "center": [
+        55.5,
+        15.5
+      ],
+      "reference_bbox": [
+        51,
+        2,
+        60,
+        29
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 6,
+      "reference_frame": 92,
+      "angle_degrees": 216.0,
+      "center": [
+        80.5,
+        22.5
+      ],
+      "reference_bbox": [
+        71,
+        11,
+        90,
+        34
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 7,
+      "reference_frame": 93,
+      "angle_degrees": 252.0,
+      "center": [
+        94.5,
+        42.5
+      ],
+      "reference_bbox": [
+        81,
+        36,
+        108,
+        49
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 8,
+      "reference_frame": 94,
+      "angle_degrees": 288.0,
+      "center": [
+        94.0,
+        69.5
+      ],
+      "reference_bbox": [
+        81,
+        63,
+        107,
+        76
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 9,
+      "reference_frame": 95,
+      "angle_degrees": 324.0,
+      "center": [
+        80.5,
+        89.0
+      ],
+      "reference_bbox": [
+        71,
+        77,
+        90,
+        101
+      ],
+      "state": "red"
+    }
+  ],
+  "raptor": [
+    {
+      "slot": 0,
+      "reference_frame": 56,
+      "angle_degrees": 0.0,
+      "center": [
+        56.0,
+        95.0
+      ],
+      "reference_bbox": [
+        48,
+        81,
+        64,
+        109
+      ],
+      "state": "gold"
+    },
+    {
+      "slot": 1,
+      "reference_frame": 57,
+      "angle_degrees": 36.0,
+      "center": [
+        31.5,
+        88.5
+      ],
+      "reference_bbox": [
+        20,
+        75,
+        43,
+        102
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 2,
+      "reference_frame": 58,
+      "angle_degrees": 72.0,
+      "center": [
+        18.0,
+        69.5
+      ],
+      "reference_bbox": [
+        4,
+        60,
+        32,
+        79
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 3,
+      "reference_frame": 59,
+      "angle_degrees": 108.0,
+      "center": [
+        18.0,
+        42.5
+      ],
+      "reference_bbox": [
+        4,
+        33,
+        32,
+        52
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 4,
+      "reference_frame": 60,
+      "angle_degrees": 144.0,
+      "center": [
+        31.0,
+        23.0
+      ],
+      "reference_bbox": [
+        19,
+        10,
+        43,
+        36
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 5,
+      "reference_frame": 61,
+      "angle_degrees": 180.0,
+      "center": [
+        55.5,
+        16.0
+      ],
+      "reference_bbox": [
+        47,
+        2,
+        64,
+        30
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 6,
+      "reference_frame": 62,
+      "angle_degrees": 216.0,
+      "center": [
+        80.5,
+        23.0
+      ],
+      "reference_bbox": [
+        69,
+        10,
+        92,
+        36
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 7,
+      "reference_frame": 63,
+      "angle_degrees": 252.0,
+      "center": [
+        93.5,
+        42.0
+      ],
+      "reference_bbox": [
+        80,
+        32,
+        107,
+        52
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 8,
+      "reference_frame": 64,
+      "angle_degrees": 288.0,
+      "center": [
+        93.5,
+        69.5
+      ],
+      "reference_bbox": [
+        80,
+        60,
+        107,
+        79
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 9,
+      "reference_frame": 65,
+      "angle_degrees": 324.0,
+      "center": [
+        80.5,
+        88.5
+      ],
+      "reference_bbox": [
+        69,
+        75,
+        92,
+        102
+      ],
+      "state": "red"
+    }
+  ],
+  "havoc": [
+    {
+      "slot": 0,
+      "reference_frame": 36,
+      "angle_degrees": 0.0,
+      "center": [
+        55.5,
+        96.5
+      ],
+      "reference_bbox": [
+        48,
+        83,
+        63,
+        110
+      ],
+      "state": "gold"
+    },
+    {
+      "slot": 1,
+      "reference_frame": 37,
+      "angle_degrees": 36.0,
+      "center": [
+        30.0,
+        90.0
+      ],
+      "reference_bbox": [
+        19,
+        77,
+        41,
+        103
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 2,
+      "reference_frame": 38,
+      "angle_degrees": 72.0,
+      "center": [
+        16.5,
+        70.0
+      ],
+      "reference_bbox": [
+        3,
+        61,
+        30,
+        79
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 3,
+      "reference_frame": 39,
+      "angle_degrees": 108.0,
+      "center": [
+        16.5,
+        41.0
+      ],
+      "reference_bbox": [
+        3,
+        32,
+        30,
+        50
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 4,
+      "reference_frame": 40,
+      "angle_degrees": 144.0,
+      "center": [
+        30.0,
+        21.0
+      ],
+      "reference_bbox": [
+        19,
+        8,
+        41,
+        34
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 5,
+      "reference_frame": 41,
+      "angle_degrees": 180.0,
+      "center": [
+        56.0,
+        15.0
+      ],
+      "reference_bbox": [
+        49,
+        2,
+        63,
+        28
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 6,
+      "reference_frame": 42,
+      "angle_degrees": 216.0,
+      "center": [
+        82.0,
+        21.0
+      ],
+      "reference_bbox": [
+        71,
+        8,
+        93,
+        34
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 7,
+      "reference_frame": 43,
+      "angle_degrees": 252.0,
+      "center": [
+        95.5,
+        41.5
+      ],
+      "reference_bbox": [
+        82,
+        33,
+        109,
+        50
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 8,
+      "reference_frame": 44,
+      "angle_degrees": 288.0,
+      "center": [
+        95.5,
+        71.0
+      ],
+      "reference_bbox": [
+        82,
+        62,
+        109,
+        80
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 9,
+      "reference_frame": 45,
+      "angle_degrees": 324.0,
+      "center": [
+        81.5,
+        90.5
+      ],
+      "reference_bbox": [
+        70,
+        78,
+        93,
+        103
+      ],
+      "state": "red"
+    }
+  ],
+  "jackhammer": [
+    {
+      "slot": 0,
+      "reference_frame": 66,
+      "angle_degrees": 0.0,
+      "center": [
+        55.5,
+        91.0
+      ],
+      "reference_bbox": [
+        49,
+        70,
+        62,
+        112
+      ],
+      "state": "gold"
+    },
+    {
+      "slot": 1,
+      "reference_frame": 67,
+      "angle_degrees": 36.0,
+      "center": [
+        34.5,
+        83.5
+      ],
+      "reference_bbox": [
+        20,
+        65,
+        49,
+        102
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 2,
+      "reference_frame": 68,
+      "angle_degrees": 72.0,
+      "center": [
+        22.5,
+        67.0
+      ],
+      "reference_bbox": [
+        2,
+        57,
+        43,
+        77
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 3,
+      "reference_frame": 69,
+      "angle_degrees": 108.0,
+      "center": [
+        22.5,
+        44.5
+      ],
+      "reference_bbox": [
+        2,
+        34,
+        43,
+        55
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 4,
+      "reference_frame": 70,
+      "angle_degrees": 144.0,
+      "center": [
+        35.5,
+        27.0
+      ],
+      "reference_bbox": [
+        21,
+        9,
+        50,
+        45
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 5,
+      "reference_frame": 71,
+      "angle_degrees": 180.0,
+      "center": [
+        55.5,
+        21.0
+      ],
+      "reference_bbox": [
+        49,
+        0,
+        62,
+        42
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 6,
+      "reference_frame": 72,
+      "angle_degrees": 216.0,
+      "center": [
+        76.5,
+        27.0
+      ],
+      "reference_bbox": [
+        62,
+        9,
+        91,
+        45
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 7,
+      "reference_frame": 73,
+      "angle_degrees": 252.0,
+      "center": [
+        89.5,
+        45.0
+      ],
+      "reference_bbox": [
+        69,
+        35,
+        110,
+        55
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 8,
+      "reference_frame": 74,
+      "angle_degrees": 288.0,
+      "center": [
+        89.5,
+        67.5
+      ],
+      "reference_bbox": [
+        69,
+        57,
+        110,
+        78
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 9,
+      "reference_frame": 75,
+      "angle_degrees": 324.0,
+      "center": [
+        76.5,
+        84.5
+      ],
+      "reference_bbox": [
+        62,
+        66,
+        91,
+        103
+      ],
+      "state": "red"
+    }
+  ],
+  "bandit": [
+    {
+      "slot": 0,
+      "reference_frame": 26,
+      "angle_degrees": 0.0,
+      "center": [
+        56.0,
+        99.5
+      ],
+      "reference_bbox": [
+        48,
+        90,
+        64,
+        109
+      ],
+      "state": "gold"
+    },
+    {
+      "slot": 1,
+      "reference_frame": 27,
+      "angle_degrees": 36.0,
+      "center": [
+        28.0,
+        92.5
+      ],
+      "reference_bbox": [
+        19,
+        83,
+        37,
+        102
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 2,
+      "reference_frame": 28,
+      "angle_degrees": 72.0,
+      "center": [
+        14.0,
+        71.5
+      ],
+      "reference_bbox": [
+        5,
+        64,
+        23,
+        79
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 3,
+      "reference_frame": 29,
+      "angle_degrees": 108.0,
+      "center": [
+        14.5,
+        40.5
+      ],
+      "reference_bbox": [
+        5,
+        33,
+        24,
+        48
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 4,
+      "reference_frame": 30,
+      "angle_degrees": 144.0,
+      "center": [
+        28.5,
+        19.5
+      ],
+      "reference_bbox": [
+        20,
+        10,
+        37,
+        29
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 5,
+      "reference_frame": 31,
+      "angle_degrees": 180.0,
+      "center": [
+        56.0,
+        12.0
+      ],
+      "reference_bbox": [
+        48,
+        2,
+        64,
+        22
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 6,
+      "reference_frame": 32,
+      "angle_degrees": 216.0,
+      "center": [
+        83.5,
+        19.5
+      ],
+      "reference_bbox": [
+        75,
+        10,
+        92,
+        29
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 7,
+      "reference_frame": 33,
+      "angle_degrees": 252.0,
+      "center": [
+        97.5,
+        40.5
+      ],
+      "reference_bbox": [
+        88,
+        33,
+        107,
+        48
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 8,
+      "reference_frame": 34,
+      "angle_degrees": 288.0,
+      "center": [
+        97.5,
+        71.5
+      ],
+      "reference_bbox": [
+        88,
+        64,
+        107,
+        79
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 9,
+      "reference_frame": 35,
+      "angle_degrees": 324.0,
+      "center": [
+        83.0,
+        92.5
+      ],
+      "reference_bbox": [
+        74,
+        83,
+        92,
+        102
+      ],
+      "state": "red"
+    }
+  ],
+  "vagabond": [
+    {
+      "slot": 0,
+      "reference_frame": 76,
+      "angle_degrees": 0.0,
+      "center": [
+        55.5,
+        98.5
+      ],
+      "reference_bbox": [
+        49,
+        87,
+        62,
+        110
+      ],
+      "state": "gold"
+    },
+    {
+      "slot": 1,
+      "reference_frame": 77,
+      "angle_degrees": 36.0,
+      "center": [
+        29.0,
+        91.0
+      ],
+      "reference_bbox": [
+        19,
+        80,
+        39,
+        102
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 2,
+      "reference_frame": 78,
+      "angle_degrees": 72.0,
+      "center": [
+        15.0,
+        71.0
+      ],
+      "reference_bbox": [
+        3,
+        64,
+        27,
+        78
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 3,
+      "reference_frame": 79,
+      "angle_degrees": 108.0,
+      "center": [
+        15.0,
+        40.5
+      ],
+      "reference_bbox": [
+        3,
+        33,
+        27,
+        48
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 4,
+      "reference_frame": 80,
+      "angle_degrees": 144.0,
+      "center": [
+        29.5,
+        20.5
+      ],
+      "reference_bbox": [
+        20,
+        9,
+        39,
+        32
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 5,
+      "reference_frame": 81,
+      "angle_degrees": 180.0,
+      "center": [
+        56.0,
+        13.5
+      ],
+      "reference_bbox": [
+        50,
+        2,
+        62,
+        25
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 6,
+      "reference_frame": 82,
+      "angle_degrees": 216.0,
+      "center": [
+        82.5,
+        20.0
+      ],
+      "reference_bbox": [
+        73,
+        9,
+        92,
+        31
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 7,
+      "reference_frame": 83,
+      "angle_degrees": 252.0,
+      "center": [
+        97.0,
+        41.0
+      ],
+      "reference_bbox": [
+        85,
+        34,
+        109,
+        48
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 8,
+      "reference_frame": 84,
+      "angle_degrees": 288.0,
+      "center": [
+        97.0,
+        70.5
+      ],
+      "reference_bbox": [
+        85,
+        63,
+        109,
+        78
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 9,
+      "reference_frame": 85,
+      "angle_degrees": 324.0,
+      "center": [
+        82.5,
+        91.5
+      ],
+      "reference_bbox": [
+        73,
+        80,
+        92,
+        103
+      ],
+      "state": "red"
+    }
+  ],
+  "solomon": [
+    {
+      "slot": 0,
+      "reference_frame": 46,
+      "angle_degrees": 0.0,
+      "center": [
+        55.5,
+        96.5
+      ],
+      "reference_bbox": [
+        51,
+        84,
+        60,
+        109
+      ],
+      "state": "gold"
+    },
+    {
+      "slot": 1,
+      "reference_frame": 47,
+      "angle_degrees": 36.0,
+      "center": [
+        31.0,
+        89.5
+      ],
+      "reference_bbox": [
+        22,
+        79,
+        40,
+        100
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 2,
+      "reference_frame": 48,
+      "angle_degrees": 72.0,
+      "center": [
+        17.0,
+        69.5
+      ],
+      "reference_bbox": [
+        5,
+        63,
+        29,
+        76
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 3,
+      "reference_frame": 49,
+      "angle_degrees": 108.0,
+      "center": [
+        17.0,
+        42.5
+      ],
+      "reference_bbox": [
+        5,
+        36,
+        29,
+        49
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 4,
+      "reference_frame": 50,
+      "angle_degrees": 144.0,
+      "center": [
+        31.0,
+        22.5
+      ],
+      "reference_bbox": [
+        22,
+        12,
+        40,
+        33
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 5,
+      "reference_frame": 51,
+      "angle_degrees": 180.0,
+      "center": [
+        56.5,
+        14.5
+      ],
+      "reference_bbox": [
+        52,
+        2,
+        61,
+        27
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 6,
+      "reference_frame": 52,
+      "angle_degrees": 216.0,
+      "center": [
+        81.0,
+        22.5
+      ],
+      "reference_bbox": [
+        72,
+        12,
+        90,
+        33
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 7,
+      "reference_frame": 53,
+      "angle_degrees": 252.0,
+      "center": [
+        95.0,
+        42.5
+      ],
+      "reference_bbox": [
+        83,
+        36,
+        107,
+        49
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 8,
+      "reference_frame": 54,
+      "angle_degrees": 288.0,
+      "center": [
+        95.0,
+        69.5
+      ],
+      "reference_bbox": [
+        83,
+        63,
+        107,
+        76
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 9,
+      "reference_frame": 55,
+      "angle_degrees": 324.0,
+      "center": [
+        80.5,
+        89.5
+      ],
+      "reference_bbox": [
+        72,
+        79,
+        89,
+        100
+      ],
+      "state": "red"
+    }
+  ],
+  "hawk": [
+    {
+      "slot": 0,
+      "reference_frame": 96,
+      "angle_degrees": 0.0,
+      "center": [
+        55.5,
+        95.5
+      ],
+      "reference_bbox": [
+        48,
+        81,
+        63,
+        110
+      ],
+      "state": "gold"
+    },
+    {
+      "slot": 1,
+      "reference_frame": 97,
+      "angle_degrees": 36.0,
+      "center": [
+        31.0,
+        89.0
+      ],
+      "reference_bbox": [
+        20,
+        76,
+        42,
+        102
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 2,
+      "reference_frame": 98,
+      "angle_degrees": 72.0,
+      "center": [
+        17.5,
+        69.5
+      ],
+      "reference_bbox": [
+        3,
+        62,
+        32,
+        77
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 3,
+      "reference_frame": 99,
+      "angle_degrees": 108.0,
+      "center": [
+        17.5,
+        42.0
+      ],
+      "reference_bbox": [
+        3,
+        34,
+        32,
+        50
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 4,
+      "reference_frame": 100,
+      "angle_degrees": 144.0,
+      "center": [
+        31.0,
+        22.5
+      ],
+      "reference_bbox": [
+        20,
+        9,
+        42,
+        36
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 5,
+      "reference_frame": 101,
+      "angle_degrees": 180.0,
+      "center": [
+        56.0,
+        16.0
+      ],
+      "reference_bbox": [
+        49,
+        1,
+        63,
+        31
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 6,
+      "reference_frame": 102,
+      "angle_degrees": 216.0,
+      "center": [
+        81.0,
+        22.5
+      ],
+      "reference_bbox": [
+        70,
+        9,
+        92,
+        36
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 7,
+      "reference_frame": 103,
+      "angle_degrees": 252.0,
+      "center": [
+        94.5,
+        42.0
+      ],
+      "reference_bbox": [
+        80,
+        34,
+        109,
+        50
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 8,
+      "reference_frame": 104,
+      "angle_degrees": 288.0,
+      "center": [
+        94.5,
+        70.0
+      ],
+      "reference_bbox": [
+        80,
+        62,
+        109,
+        78
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 9,
+      "reference_frame": 105,
+      "angle_degrees": 324.0,
+      "center": [
+        80.5,
+        89.5
+      ],
+      "reference_bbox": [
+        70,
+        76,
+        91,
+        103
+      ],
+      "state": "red"
+    }
+  ],
+  "torpedo": [
+    {
+      "slot": 0,
+      "reference_frame": 106,
+      "angle_degrees": 0.0,
+      "center": [
+        55.5,
+        97.0
+      ],
+      "reference_bbox": [
+        49,
+        84,
+        62,
+        110
+      ],
+      "state": "gold"
+    },
+    {
+      "slot": 1,
+      "reference_frame": 107,
+      "angle_degrees": 36.0,
+      "center": [
+        31.5,
+        89.5
+      ],
+      "reference_bbox": [
+        22,
+        78,
+        41,
+        101
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 2,
+      "reference_frame": 108,
+      "angle_degrees": 72.0,
+      "center": [
+        16.5,
+        70.0
+      ],
+      "reference_bbox": [
+        4,
+        62,
+        29,
+        78
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 3,
+      "reference_frame": 109,
+      "angle_degrees": 108.0,
+      "center": [
+        16.5,
+        42.5
+      ],
+      "reference_bbox": [
+        4,
+        35,
+        29,
+        50
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 4,
+      "reference_frame": 110,
+      "angle_degrees": 144.0,
+      "center": [
+        31.0,
+        22.5
+      ],
+      "reference_bbox": [
+        21,
+        11,
+        41,
+        34
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 5,
+      "reference_frame": 111,
+      "angle_degrees": 180.0,
+      "center": [
+        55.5,
+        15.0
+      ],
+      "reference_bbox": [
+        49,
+        2,
+        62,
+        28
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 6,
+      "reference_frame": 112,
+      "angle_degrees": 216.0,
+      "center": [
+        80.5,
+        22.5
+      ],
+      "reference_bbox": [
+        71,
+        11,
+        90,
+        34
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 7,
+      "reference_frame": 113,
+      "angle_degrees": 252.0,
+      "center": [
+        94.5,
+        41.5
+      ],
+      "reference_bbox": [
+        82,
+        34,
+        107,
+        49
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 8,
+      "reference_frame": 114,
+      "angle_degrees": 288.0,
+      "center": [
+        95.0,
+        69.5
+      ],
+      "reference_bbox": [
+        82,
+        62,
+        108,
+        77
+      ],
+      "state": "red"
+    },
+    {
+      "slot": 9,
+      "reference_frame": 115,
+      "angle_degrees": 324.0,
+      "center": [
+        81.0,
+        89.0
+      ],
+      "reference_bbox": [
+        71,
+        78,
+        91,
+        100
+      ],
+      "state": "red"
+    }
+  ]
+}

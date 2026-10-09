@@ -1,0 +1,583 @@
+[
+  {
+    "id": "HUD-ART-BERISCEM",
+    "title": "BERISCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Create and promote a compound extraction map before alignment and rendering. Runtime names: beriscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-COMMSCEM",
+    "title": "COMMSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Author bespoke equipment/icon artwork rather than a ship projection. Runtime names: commscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-CYCLSCEM",
+    "title": "CYCLSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Refine the camera so both solar wings, central bus and dish match the reference. Runtime names: cyclscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-CZADSCEM",
+    "title": "CZADSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Restore the docked Czar missing rails and panels. Runtime names: czadscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-DREISCEM",
+    "title": "DREISCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Recover or identify the Dark Hat parent geometry needed for four of the eight mounts. Runtime names: dreiscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-FUELSCEM",
+    "title": "FUELSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Author bespoke equipment/icon artwork rather than a ship projection. Runtime names: fuelscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-KRESSCEM",
+    "title": "KRESSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Resolve shared legacy pod/rail geometry for ufelscem, yevsscem and zakoscem. The unused runtime kresscem must not ship. Runtime names: ufelscem, yevsscem, zakoscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-NANNSCEM",
+    "title": "NANNSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Create and promote a compound extraction map before alignment and rendering. Runtime names: nannscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-PACKSCEM",
+    "title": "PACKSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Author bespoke equipment/icon artwork rather than a ship projection. Runtime names: packscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-PCORSCEM",
+    "title": "PCORSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Author bespoke equipment/icon artwork rather than a ship projection. Runtime names: pcorscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-RESBSCEM",
+    "title": "RESBSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Redo the rejected projection angle; recentering alone reproduced the rejected view. Runtime names: resbscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-SDROSCEM",
+    "title": "SDROSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Assemble a coherent arm and gripper and resolve the alternate pieces. Runtime names: sdroscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-SHAVSCEM",
+    "title": "SHAVSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Compare pods and layout with the real in-game configuration before resuming this shelved image. Runtime names: shavscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-SHERSCEM",
+    "title": "SHERSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Select the correct opposing textured face. Runtime names: sherscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-SSATSCEM",
+    "title": "SSATSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Reconstruct the four-part gun-satellite assembly. Runtime names: ssatscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-STALSCEM",
+    "title": "STALSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Align the internal doors, duct, cavity and girders with the exterior shell. Runtime names: stalscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-ULYSSCEM",
+    "title": "ULYSSCEM: finish schematic artwork",
+    "category": "unfinished-art",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "Check whether visible ULY_1 texture damage belongs to the intact in-game appearance; wreck geometry was already excluded. Runtime names: ulysscem. Missing custom images are an acknowledged art gap; native fallback still needs testing on the release build.",
+    "acceptance": [
+      "Review the correct intact in-game model and source.",
+      "Approve the image, export only the named runtime replacements, and update the asset manifest.",
+      "Capture the target in OpenReliant and record the tested build."
+    ]
+  },
+  {
+    "id": "HUD-ART-410",
+    "title": "Fuel pod frame 410: review the missing replacement",
+    "category": "needs-review",
+    "status": "open",
+    "milestone": "HUD art completion",
+    "description": "OpenReliant maps frame 410 (0x19A) to fuel_pod. The September checklist incorrectly labelled it Ion Cannon. No frame 410 replacement is present in the inspected deployed HUD. Review its source and intended art treatment; do not copy or rename the completed Ion Cannon frame 406 into this slot.",
+    "acceptance": [
+      "Review the fuel-pod native icon and intended replacement/source.",
+      "Record whether a fuel-pod replacement already exists elsewhere or needs artwork.",
+      "Validate native fallback for the first beta if the replacement remains absent.",
+      "If adding a replacement, confirm frame identity and capture it in game."
+    ]
+  },
+  {
+    "id": "HUD-ART-399",
+    "title": "Frame 399 satellite dish: finished artwork confirmed",
+    "category": "needs-review",
+    "status": "closed",
+    "milestone": "HUD art completion",
+    "description": "The maintainer identified the source folder as the finished subtarget set on 7 October 2026. Frame 399 is included, and its installed PNG is pixel-identical to the approved 528x416 RGBA TGA. The historical crop concern is retired; do not import it as an open GitHub issue. This records artwork approval and pixel verification, not a new gameplay capture.",
+    "acceptance": [
+      "Maintainer confirms the current source is finished.",
+      "Verify the installed image matches the approved source, including alpha."
+    ],
+    "resolution": "completed",
+    "resolved_on": "2026-10-07"
+  },
+  {
+    "id": "HUD-COMPAT-01",
+    "title": "Deliver the authored HUD as a drop-in mod on official OpenReliant",
+    "category": "compatibility",
+    "status": "open",
+    "milestone": "0.1.0-beta.1",
+    "description": "Ordinary drop-in HUD 1.4 runs on unmodified main 220affa and requires official 0.8.1. No engine patch or executable in the mod. Native fallback and disable checks passed; final official-release/campaign/user review remains.",
+    "acceptance": [
+      "Agree an upstream-supported customization path; no replacement game executable.",
+      "Export one ordinary mod folder from preserved editable sources.",
+      "Prove intended placement and live behavior on the official release, including disable/failure fallback.",
+      "Record final platform/resolution/mission validation and exact hashes before release."
+    ],
+    "handoff": "Normal launcher updated to current main by explicit user request. Public release held."
+  },
+  {
+    "id": "HUD-FIX-01",
+    "title": "Verify the current sprite and instrument refinement",
+    "category": "bug",
+    "status": "closed",
+    "milestone": "0.1.0-beta.1",
+    "description": "HUD 1.1 sprite cleanup, gunnery/readout sizing, live gun-mode bars/captions and 1024 missile exports are implemented and locally verified. All 589 selected exports are installed from the repository with matching hashes. Fine missile texture detail is still limited by the neutral renders; final release testing remains HUD-QA-01.",
+    "acceptance": [
+      "Wait for installation and checks to complete.",
+      "Check crosshairs, brackets, edge cues, both gun modes and requested readouts.",
+      "Record the final export hashes and any remaining missile-art limitation."
+    ],
+    "resolution": "completed",
+    "resolved_on": "2026-10-07",
+    "verification": "validation.json and tracking/working-candidate.json"
+  },
+  {
+    "id": "HUD-QA-01",
+    "title": "Run the OpenReliant HUD release checks",
+    "category": "testing",
+    "status": "open",
+    "milestone": "0.1.0-beta.1",
+    "description": "Test the final frozen package at 1920x1080 and additional resolutions, including missing-schematic fallback. Old DLL-specific HUD Edit and F11 tests must be translated to features that OpenReliant actually provides.",
+    "acceptance": [
+      "Fresh install, restart, disable and uninstall work.",
+      "Test target/subtarget changes, dense radar, weapons and ammo, damage, communications, objectives, wing status and power.",
+      "Test pause, mission relaunch, cinematic transitions and repeated alt-tab.",
+      "Record platform, GPU, exact engine build, screenshots and unresolved gaps."
+    ],
+    "latest_working_candidate": "HUD 1.4: 924 exact deployed files, 1080p/720p, named component, rounds/pairing, cloak/ECM, radar/power/missile controls, flashing observer and isolated failure/disable checks. Mirage live capture series reached over one minute; the full two-minute controller ended on lost focus. Full campaign, armour-hit/spectral-device and release QA remain."
+  },
+  {
+    "id": "HUD-REVIEW-01",
+    "title": "Reassess old text and composite backlog for OpenReliant",
+    "category": "needs-review",
+    "status": "open",
+    "milestone": "Later review",
+    "description": "The legacy checklist names mission-date text/caret, contextual key prompts, notification rows, a secondary world-range producer, multiplayer chat/caret and scoreboard. These are historical review candidates, not confirmed OpenReliant bugs. Multiplayer work is outside the first HUD beta.",
+    "acceptance": [
+      "Check current OpenReliant behaviour for each applicable item.",
+      "Create individual confirmed issues only where work is still needed.",
+      "Keep engine features outside this mod scope separate."
+    ]
+  },
+  {
+    "id": "HUD-UPSTREAM-01",
+    "title": "Native HUD configuration or replacement and live instrument state",
+    "category": "upstream-feature",
+    "status": "closed",
+    "milestone": "0.1.0-beta.1",
+    "description": "Original #793/#833 replacement request and #832 reading follow-ups (#864/#866/#868) are merged. Expanded mod uses these APIs on 30163d9. Separate remaining fidelity requests are tracked independently; release QA remains HUD-QA-01.",
+    "acceptance": [
+      "Review the documented reproduction and proposed options with upstream.",
+      "Validate any adopted fix on an official build."
+    ],
+    "submission_draft": "tracking/github-issues/01-hud-replacement-and-state.md",
+    "submission_status": "user-submitted-upstream-merged",
+    "upstream_posted": true,
+    "upstream_url": "https://github.com/OpenReliant/openreliant/issues/793",
+    "upstream_pull_request": "https://github.com/OpenReliant/openreliant/pull/833",
+    "upstream_state": "closed",
+    "upstream_merged": true,
+    "resolution": "original-request-merged-upstream",
+    "resolved_on": "2026-10-08"
+  },
+  {
+    "id": "HUD-UPSTREAM-02",
+    "title": "Sustainable scripted picture-cache lifecycle and capacity",
+    "category": "upstream-feature",
+    "status": "closed",
+    "milestone": "0.1.0-beta.1",
+    "description": "Upstream #794 closed by merged #831. All 585 actual HUD PNGs drawn twice (1170 calls) without errors on unmodified 410d0a6. The fix is not yet in published 0.7.0.",
+    "acceptance": [
+      "Review the documented reproduction and proposed options with upstream.",
+      "Validate any adopted fix on an official build."
+    ],
+    "submission_draft": "tracking/github-issues/02-script-image-cache.md",
+    "submission_status": "user-submitted-upstream-merged",
+    "upstream_posted": true,
+    "upstream_url": "https://github.com/OpenReliant/openreliant/issues/794",
+    "upstream_pull_request": "https://github.com/OpenReliant/openreliant/pull/831",
+    "upstream_state": "closed",
+    "upstream_merged": true,
+    "resolution": "completed-upstream-and-locally-verified",
+    "resolved_on": "2026-10-08"
+  },
+  {
+    "id": "HUD-UPSTREAM-03",
+    "title": "Custom TTF fails with HUD base font; built-in font workaround works",
+    "category": "upstream-bug",
+    "status": "closed",
+    "milestone": "Upstream follow-up",
+    "description": "Old InvalidFont report is retired. Custom TTF with HUD base works on 0.8.1, including the six-size test after #902.",
+    "acceptance": [
+      "Review the documented reproduction and proposed options with upstream.",
+      "Validate any adopted fix on an official build."
+    ],
+    "submission_draft": "tracking/github-issues/03-custom-font-hud-base.md",
+    "submission_status": "do-not-submit-without-rechecking-current-upstream",
+    "upstream_posted": false,
+    "resolution": "obsolete-old-0.7-reproduction",
+    "resolved_on": "2026-10-09"
+  },
+  {
+    "id": "HUD-GUNNERY-02",
+    "title": "Restore the legacy gunnery heading and pairing-bar arrangement",
+    "category": "bug",
+    "status": "closed",
+    "resolution": "implemented-and-locally-verified",
+    "resolved_on": "2026-10-08",
+    "description": "Smaller left-aligned heading above the panel, original solid/split sprites, legacy FULL GUNS/Nova pairing rules, and wireframe heading clearance. Exact runtime copies deployed; final user review is part of HUD-QA-01.",
+    "verification": "tracking/gunnery-legacy-alignment.json"
+  },
+  {
+    "id": "HUD-GUNNERY-03",
+    "title": "Correct the reversed gunnery floor-grid perspective",
+    "category": "bug",
+    "status": "closed",
+    "resolution": "implemented-and-locally-verified",
+    "resolved_on": "2026-10-08",
+    "description": "Restore the legacy vertical mirror with an additional lossless export. Existing image files and all editable artwork unchanged. Verified at 1080p/720p and deployed with exact hashes.",
+    "verification": "tracking/gunnery-grid-orientation.json"
+  },
+  {
+    "id": "HUD-UPSTREAM-04",
+    "title": "One font at more than four sizes corrupts earlier text",
+    "category": "upstream-bug",
+    "status": "closed",
+    "milestone": "0.8 feedback",
+    "description": "Upstream completed this request; current source/runtime review is recorded in tracking/upstream-0.8.1-review.json. This does not mean the deployed HUD has adopted the new fields.",
+    "verification": "tracking/upstream-0.8.1-review.json",
+    "submission_draft": "tracking/github-issues/api-freeze-2026-10-09/04-shared-font-sizes.md",
+    "upstream_posted": true,
+    "submission_status": "user-submitted-upstream-closed",
+    "upstream_urls": [
+      "https://github.com/OpenReliant/openreliant/issues/892"
+    ],
+    "resolution": "delivered-upstream-in-0.8; mod adoption tracked separately",
+    "resolved_on": "2026-10-09"
+  },
+  {
+    "id": "HUD-UPSTREAM-05",
+    "title": "Expose gun rounds/pairing and light presentation details",
+    "category": "upstream-feature",
+    "status": "closed",
+    "milestone": "0.8 feedback",
+    "description": "Delivered upstream and now integrated into HUD 1.4 on unmodified main 220affa. See current evidence and its coverage limits.",
+    "verification": "tracking/integration-0.8.json",
+    "submission_draft": "tracking/github-issues/api-freeze-2026-10-09/01-gun-ammunition-and-pairing.md",
+    "upstream_posted": true,
+    "submission_status": "user-submitted-upstream-closed",
+    "upstream_urls": [
+      "https://github.com/OpenReliant/openreliant/issues/889",
+      "https://github.com/OpenReliant/openreliant/issues/891"
+    ],
+    "resolution": "delivered-upstream-and-integrated-into-held-mod",
+    "resolved_on": "2026-10-09"
+  },
+  {
+    "id": "HUD-RENDER-01",
+    "title": "Investigate missing pieces of sprites and text in selected scenes",
+    "category": "needs-investigation",
+    "status": "open",
+    "milestone": "HUD working review",
+    "description": "No missing sprite pieces observed in updated fixed-tick state sweep, successful live control captures or five samples of the protected Mirage live run. The longer controller ended on lost focus, so do not claim a completed two-minute/full-gameplay pass. #894 remains open upstream. Retain original log and capture/video for any recurrence; cause not proven.",
+    "verification": "tracking/integration-0.8.json",
+    "upstream_posted": true,
+    "acceptance": [
+      "Reduce to a reproducible case with and without the mod at the same state.",
+      "Establish whether the cause is mod drawing, engine rendering or another factor before proposing a fix.",
+      "Verify restored full sprites/text during gameplay without changing approved art."
+    ],
+    "submission_draft": "tracking/github-issues/api-freeze-2026-10-09/07-missing-sprite-pieces.md",
+    "submission_status": "user-submitted-upstream-open",
+    "upstream_urls": [
+      "https://github.com/OpenReliant/openreliant/issues/894"
+    ]
+  },
+  {
+    "id": "HUD-UPSTREAM-06",
+    "title": "Expose stable selected-subtarget class or icon",
+    "category": "upstream-feature",
+    "status": "closed",
+    "milestone": "0.8 feedback",
+    "description": "Delivered upstream and now integrated into HUD 1.4 on unmodified main 220affa. See current evidence and its coverage limits.",
+    "verification": "tracking/integration-0.8.json",
+    "submission_draft": "tracking/github-issues/api-freeze-2026-10-09/02-stable-subtarget-identity.md",
+    "upstream_posted": true,
+    "submission_status": "user-submitted-upstream-closed",
+    "upstream_urls": [
+      "https://github.com/OpenReliant/openreliant/issues/890"
+    ],
+    "resolution": "delivered-upstream-and-integrated-into-held-mod",
+    "resolved_on": "2026-10-09"
+  },
+  {
+    "id": "HUD-UPSTREAM-07",
+    "title": "Expose native HUD animation progress",
+    "category": "upstream-feature",
+    "status": "closed",
+    "milestone": "0.8 feedback",
+    "description": "Delivered upstream and now integrated into HUD 1.4 on unmodified main 220affa. See current evidence and its coverage limits.",
+    "verification": "tracking/integration-0.8.json",
+    "submission_draft": "tracking/github-issues/api-freeze-2026-10-09/05-animation-progress.md",
+    "upstream_posted": true,
+    "submission_status": "user-submitted-upstream-closed",
+    "upstream_urls": [
+      "https://github.com/OpenReliant/openreliant/issues/893"
+    ],
+    "resolution": "delivered-upstream-and-integrated-into-held-mod",
+    "resolved_on": "2026-10-09"
+  },
+  {
+    "id": "HUD-UPSTREAM-08",
+    "title": "Supported reuse of native power-ball drawing",
+    "category": "upstream-feature",
+    "status": "open",
+    "milestone": "0.8 feedback",
+    "description": "Native power-ball reuse remains unavailable inside a replacement power panel. Current-main standalone probe and simpler author note are prepared locally; no comment posted.",
+    "verification": "tracking/integration-0.8.json",
+    "submission_draft": "docs/AUTHOR_NOTES_0.8.md",
+    "upstream_posted": false,
+    "submission_status": "ready-comment-existing-509"
+  },
+  {
+    "id": "HUD-UPSTREAM-09",
+    "title": "Named-subtarget scene shutdown allocation warnings",
+    "category": "upstream-bug",
+    "status": "closed",
+    "milestone": "0.8 feedback",
+    "description": "Upstream completed this request; current source/runtime review is recorded in tracking/upstream-0.8.1-review.json. This does not mean the deployed HUD has adopted the new fields.",
+    "verification": "tracking/upstream-0.8.1-review.json",
+    "submission_draft": "tracking/github-issues/api-freeze-2026-10-09/08-subtarget-shutdown-leaks.md",
+    "upstream_posted": true,
+    "submission_status": "user-submitted-upstream-closed",
+    "upstream_urls": [
+      "https://github.com/OpenReliant/openreliant/issues/895"
+    ],
+    "resolution": "delivered-upstream-in-0.8; mod adoption tracked separately",
+    "resolved_on": "2026-10-09"
+  },
+  {
+    "id": "HUD-MIGRATION-08",
+    "title": "Migrate held HUD to the stable 0.8 API and adopt the new readings",
+    "category": "compatibility",
+    "status": "closed",
+    "milestone": "HUD working review",
+    "description": "HUD 1.4 migrates to stable 0.8.1 names and adopts rounds/paired, subtarget_class, light visibility/charges, armour-hit overlays, radar/missile poses and window progress. 924 exact exports deployed on unmodified main 220affa; approved 393\u2013409 unchanged. Final release QA remains separate.",
+    "verification": "tracking/integration-0.8.json",
+    "upstream_posted": false,
+    "resolution": "implemented-exported-tested-and-deployed",
+    "resolved_on": "2026-10-09"
+  },
+  {
+    "id": "HUD-STARTUP-01",
+    "title": "Legacy panels flash during image warming",
+    "status": "resolved-working-candidate",
+    "version": "1.5",
+    "evidence": "docs/REFINEMENT_1.5_STATUS.md"
+  },
+  {
+    "id": "HUD-MISSILE-HALO-01",
+    "title": "Detached low-resolution halo around high-resolution missiles",
+    "status": "resolved-working-candidate",
+    "version": "1.5",
+    "evidence": "tracking/missile-export-audit.json"
+  },
+  {
+    "id": "HUD-GUN-PAIR-01",
+    "title": "Validate synchronized and alternating gun bar",
+    "status": "verified-legacy-behavior",
+    "control": "Ctrl+G on a selected paired gun group; hidden in FULL GUNS"
+  },
+  {
+    "id": "HUD-AMMO-TWIN-01",
+    "title": "Instant-action t_grendel missing rounds readout",
+    "status": "open-upstream",
+    "evidence": "source/compatibility-probes/main-220affa/refinement-1.5/grendel-ammunition/README.md"
+  },
+  {
+    "id": "HUD-PORTRAIT-HD-01",
+    "title": "480x400 face films render four times larger than radio panel",
+    "status": "workaround-verified-working-candidate",
+    "evidence": "source/compatibility-probes/main-220affa/refinement-1.7/README.md",
+    "workaround_review": "225 native HD FM8 films plus a tagged shader remap; no engine patch. Version-specific shader/Mod Effects dependency, oversized API bounds and broader QA remain.",
+    "latest_notes": "docs/AUTHOR_NOTES_1.7.md",
+    "version": "1.7",
+    "verification": "tracking/refinement-1.7.json",
+    "original_reproduction": "source/compatibility-probes/main-220affa/refinement-1.5/hd-radio-film/README.md"
+  },
+  {
+    "id": "HUD-OBJECTIVES-01",
+    "title": "Objectives text size, wrapping and spacing",
+    "status": "resolved-working-candidate",
+    "version": "1.6"
+  },
+  {
+    "id": "HUD-COMMS-NUMBERING-01",
+    "title": "Comms first period and option alignment",
+    "status": "resolved-working-candidate",
+    "version": "1.6"
+  },
+  {
+    "id": "HUD-COMMS-PORTRAIT-01",
+    "title": "Comms overlaps active radio portrait",
+    "status": "accepted-native-behavior",
+    "version": "1.6",
+    "decision": "Retain overlap and allow menu selection during transmissions. No input blocking or side-by-side display.",
+    "verification": "tracking/refinement-1.6.json"
+  },
+  {
+    "id": "HUD-COMMS-DAMAGE-ALIGN-01",
+    "title": "Align comms and damage wireframes",
+    "status": "resolved-working-candidate",
+    "version": "1.7",
+    "verification": "tracking/refinement-1.7.json"
+  }
+]

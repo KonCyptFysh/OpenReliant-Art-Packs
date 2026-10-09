@@ -1,0 +1,18 @@
+Recommissioned HUD portrait shader
+
+The device.glsl source is based on OpenReliant main commit
+220affa78729a2ce7dcb49602e4f38a4a53d5dc1 (OpenReliant contributors).
+https://github.com/OpenReliant/openreliant
+License: Mozilla Public License 2.0; see OpenReliant-MPL-2.0.txt.
+Modifications: the tagged-HD-film sampling block in the fragment stage.
+The complete modified source is supplied as device.glsl in this same folder.
+This notice does not license the portrait artwork or StarLancer material.
+
+Working candidate; public release held. Tested with the unmodified engine
+build above. Enable MOD EFFECTS and restart the game when installing.
+Only one mod can replace device.glsl; another replacement can override it.
+The renderer shader interface may change even while the mod API is frozen.
+If this shader is disabled, rejected or overwritten, the HD films will be
+oversized. For native portraits, remove device.glsl and ALL 225 FM8 files
+listed in the pack inventory together, or restore the previous HUD backup.
+The API still reports raw film bounds; the correction is visual.

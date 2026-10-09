@@ -1,0 +1,191 @@
+[
+  {
+    "job": "BERISCEM",
+    "runtime_basenames": [
+      "beriscem"
+    ],
+    "state": "special_case",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Create and promote a compound extraction map before alignment and rendering.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "COMMSCEM",
+    "runtime_basenames": [
+      "commscem"
+    ],
+    "state": "special_case",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Author bespoke equipment/icon artwork rather than a ship projection.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "CYCLSCEM",
+    "runtime_basenames": [
+      "cyclscem"
+    ],
+    "state": "manual_review_hold",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Refine the camera so both solar wings, central bus and dish match the reference.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "CZADSCEM",
+    "runtime_basenames": [
+      "czadscem"
+    ],
+    "state": "manual_review_hold",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Restore the docked Czar missing rails and panels.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "DREISCEM",
+    "runtime_basenames": [
+      "dreiscem"
+    ],
+    "state": "weapon_completeness_hold",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Recover or identify the Dark Hat parent geometry needed for four of the eight mounts.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "FUELSCEM",
+    "runtime_basenames": [
+      "fuelscem"
+    ],
+    "state": "special_case",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Author bespoke equipment/icon artwork rather than a ship projection.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "KRESSCEM",
+    "runtime_basenames": [
+      "ufelscem",
+      "yevsscem",
+      "zakoscem"
+    ],
+    "state": "manual_review_hold",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Resolve shared legacy pod/rail geometry for ufelscem, yevsscem and zakoscem. The unused runtime kresscem must not ship.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "NANNSCEM",
+    "runtime_basenames": [
+      "nannscem"
+    ],
+    "state": "special_case",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Create and promote a compound extraction map before alignment and rendering.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "PACKSCEM",
+    "runtime_basenames": [
+      "packscem"
+    ],
+    "state": "special_case",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Author bespoke equipment/icon artwork rather than a ship projection.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "PCORSCEM",
+    "runtime_basenames": [
+      "pcorscem"
+    ],
+    "state": "special_case",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Author bespoke equipment/icon artwork rather than a ship projection.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "RESBSCEM",
+    "runtime_basenames": [
+      "resbscem"
+    ],
+    "state": "user_angle_rejection_hold",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Redo the rejected projection angle; recentering alone reproduced the rejected view.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "SDROSCEM",
+    "runtime_basenames": [
+      "sdroscem"
+    ],
+    "state": "manual_review_hold",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Assemble a coherent arm and gripper and resolve the alternate pieces.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "SHAVSCEM",
+    "runtime_basenames": [
+      "shavscem"
+    ],
+    "state": "repair_alignment_hold",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Compare pods and layout with the real in-game configuration before resuming this shelved image.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "SHERSCEM",
+    "runtime_basenames": [
+      "sherscem"
+    ],
+    "state": "manual_review_hold",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Select the correct opposing textured face.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "SSATSCEM",
+    "runtime_basenames": [
+      "ssatscem"
+    ],
+    "state": "manual_review_hold",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Reconstruct the four-part gun-satellite assembly.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "STALSCEM",
+    "runtime_basenames": [
+      "stalscem"
+    ],
+    "state": "manual_review_hold",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Align the internal doors, duct, cavity and girders with the exterior shell.",
+    "repository_replacement_present": false
+  },
+  {
+    "job": "ULYSSCEM",
+    "runtime_basenames": [
+      "ulysscem"
+    ],
+    "state": "repair_alignment_hold",
+    "replacement_present": false,
+    "checked_on": "2026-10-07",
+    "reason": "Check whether visible ULY_1 texture damage belongs to the intact in-game appearance; wreck geometry was already excluded.",
+    "repository_replacement_present": false
+  }
+]

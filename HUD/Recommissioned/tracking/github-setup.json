@@ -1,0 +1,39 @@
+{
+  "labels": [
+    {
+      "name": "bug",
+      "color": "d73a4a",
+      "description": "Broken behaviour"
+    },
+    {
+      "name": "unfinished-art",
+      "color": "fbca04",
+      "description": "Known artwork still being completed"
+    },
+    {
+      "name": "planned",
+      "color": "a2eeef",
+      "description": "Deliberate future work"
+    },
+    {
+      "name": "compatibility",
+      "color": "d4c5f9",
+      "description": "Engine or platform compatibility"
+    },
+    {
+      "name": "needs-review",
+      "color": "cfd3d7",
+      "description": "Requires current evidence or an art decision"
+    },
+    {
+      "name": "testing",
+      "color": "0e8a16",
+      "description": "Validation to perform"
+    }
+  ],
+  "milestones": [
+    "0.1.0-beta.1",
+    "HUD art completion",
+    "Later review"
+  ]
+}

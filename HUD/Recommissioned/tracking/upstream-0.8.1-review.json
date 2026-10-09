@@ -1,0 +1,291 @@
+{
+  "checked_on": "2026-10-09",
+  "latest_published_release": "v0.8.1",
+  "release_url": "https://github.com/OpenReliant/openreliant/releases/tag/v0.8.1",
+  "release_archive_sha256": "4eebb935e5f5e7865bb9f739c0272e1d19010149c08e1949ab603d7b613b8269",
+  "release_binary_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "main_revision": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
+  "main_binary_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
+  "main_build": "Unmodified upstream, Zig 0.17.0 ReleaseSafe",
+  "main_source_integrity": {
+    "commit": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
+    "archive_sha256": "bea633a7efb7e5d19a6396422c36dcd1dfac275fec9d5bc9424154b556406a1b",
+    "files_checked": 658,
+    "changed_source_files": []
+  },
+  "main_ahead_of_release": 1,
+  "main_difference": "#979 campaign ordering; HUD API/rendering files unchanged from v0.8.1",
+  "issues": [
+    {
+      "number": 889,
+      "title": "HUD - Expose live gun ammunition and selected-group pairing to HUD scripts",
+      "url": "https://github.com/OpenReliant/openreliant/issues/889",
+      "state": "closed",
+      "state_reason": "completed",
+      "comments": [
+        {
+          "url": "https://github.com/OpenReliant/openreliant/issues/889#issuecomment-6065338157",
+          "author": "vdmkenny",
+          "body": "Thanks! #904 adds both to `hud.guns`:\n\n- `rounds`: the live count, nil on ships whose gunnery window shows no rounds. The window shows them on the Grendel, the Wolverine and the Reaper, by base type, so a mod ship built on one of those gets them too.\n- `paired`: true when the window shows the together/in turn indicator, which is when one group fires, it has two guns, and they aren't Nova Cannons. It's false under FULL GUNS, like the native window.\n\nThe native window now uses the same two helpers, so they can't drift apart."
+        }
+      ]
+    },
+    {
+      "number": 890,
+      "title": "Expose a stable subtarget class or HUD icon identifier",
+      "url": "https://github.com/OpenReliant/openreliant/issues/890",
+      "state": "closed",
+      "state_reason": "completed",
+      "comments": [
+        {
+          "url": "https://github.com/OpenReliant/openreliant/issues/890#issuecomment-6065338695",
+          "author": "vdmkenny",
+          "body": "Thanks! #904 adds `hud.target_display.subtarget_class`: the part's class as a name such as `\"engine\"` or `\"ion_cannon\"` (`PartClass` in the reference), nil when the large form shows no subtarget.\n\nOne thing to know: `turret` and `laser_turret` are separate classes in the models, but the native display gives both the same LASER TURRET icon and name."
+        }
+      ]
+    },
+    {
+      "number": 891,
+      "title": "Expose HUD warning flash state and device charge bars",
+      "url": "https://github.com/OpenReliant/openreliant/issues/891",
+      "state": "closed",
+      "state_reason": "completed",
+      "comments": [
+        {
+          "url": "https://github.com/OpenReliant/openreliant/issues/891#issuecomment-6065341126",
+          "author": "vdmkenny",
+          "body": "Thanks, good one. #904 adds:\n\n- `hud.lights_lit`: the lights lit as the display last drew them. `hud.lights` stays as it was, so you can keep using it to reserve places. One detail from the original: the lock and missile warnings keep their place in the grid while they're dark, but a light that a mission's `ShowHudIcon` flashes gives its place up while dark, so the native grid does shift in that case.\n- `hud.charges`: `ecm`, `cloak` and `spectral_shields`, each from 0 to 1, or nil when the ship doesn't carry it. The native bar is about 32 pixels when full.\n- `hud.countermeasures_lit`, false while `ShowHudIcon` flashes the readout dark.\n- `hits` on `hud.ship_status` and `hud.target_display`: the quadrants flashing on the schematics. Those are armour hits, and each one flashes for a single frame.\n\nThese are all as the display last drew them: the scripts run before the display draws each frame, so they trail the native one by a frame."
+        }
+      ]
+    },
+    {
+      "number": 892,
+      "title": "Drawing one custom font at six sizes corrupts the first two text rows",
+      "url": "https://github.com/OpenReliant/openreliant/issues/892",
+      "state": "closed",
+      "state_reason": "completed",
+      "comments": [
+        {
+          "url": "https://github.com/OpenReliant/openreliant/issues/892#issuecomment-6064761772",
+          "author": "vdmkenny",
+          "body": "Thanks, the reduced test pointed straight at it: text is laid out during a frame and drawn after, and with four sizes kept, the fifth and sixth sizes took the slots of the first two before the frame drew them. https://github.com/OpenReliant/openreliant/pull/902 keeps every size a frame uses until the frame is done (up to 16 per font), so one TTF at six sizes should come out clean. Your mod's own fonts also free their old textures every frame now."
+        }
+      ]
+    },
+    {
+      "number": 893,
+      "title": "Expose HUD transition progress for scripted replacements",
+      "url": "https://github.com/OpenReliant/openreliant/issues/893",
+      "state": "closed",
+      "state_reason": "completed",
+      "comments": [
+        {
+          "url": "https://github.com/OpenReliant/openreliant/issues/893#issuecomment-6065341503",
+          "author": "vdmkenny",
+          "body": "Thanks! #904 adds:\n\n- `hud.radar.rings`: where the rings stand, in ranges, from 0 to 2. While zooming it moves a fifth of a range a frame, since the native radar steps through 5 ring shapes between ranges (10 when it wraps from the widest back to the closest).\n- `place` on each missile in `hud.missiles.ring`, from 0 (the armed one, at six o'clock) to 9. The original's ring doesn't actually animate: a turn moves every missile one place at once, so the place is all there is to follow.\n- `hud.window_state(instrument)`: `phase` (`shut`, `opening`, `open` or `closing`) and `opened` from 0 to 1. The native window is drawn at 2 minus `opened` times its size, and that many times farther from the middle of the screen. Like the flashes in #891, it's as the display last moved it on."
+        }
+      ]
+    },
+    {
+      "number": 894,
+      "title": "Scripted HUD loses parts of pictures during a state-change test",
+      "url": "https://github.com/OpenReliant/openreliant/issues/894",
+      "state": "open",
+      "state_reason": null,
+      "comments": [
+        {
+          "url": "https://github.com/OpenReliant/openreliant/issues/894#issuecomment-6068181580",
+          "author": "vdmkenny",
+          "body": "Thanks for the careful repro kit, the controls made this easy to check.\n\nI ran your failing configuration on current main, and my PNG matches yours almost pixel for pixel. In both, and in your static control, the pictures look complete to me, so I couldn't see the missing pieces in the screenshots.\n\nGoing through the code for what could do it in a live window, I found a likely cause and fixed it in #963: when a frame failed partway on the GPU, the pictures it was uploading never got there but were still treated as uploaded, so they stayed blank, or showed another picture, for the rest of the session. #902 has also landed since your build (57c394b): it fixed a font drawn at many sizes in one frame having its atlases replaced before the frame was drawn.\n\nOnce #963 is merged, could you check on current main whether it still happens? If it does, it would help to know whether the pieces stay missing until you restart or flicker and come back, and to have the log of that live run, plus a screenshot or a short video of the moment.\n"
+        }
+      ]
+    },
+    {
+      "number": 895,
+      "title": "Named-subtarget test mission reports leaked allocations on shutdown",
+      "url": "https://github.com/OpenReliant/openreliant/issues/895",
+      "state": "closed",
+      "state_reason": "completed",
+      "comments": [
+        {
+          "url": "https://github.com/OpenReliant/openreliant/issues/895#issuecomment-6064910266",
+          "author": "vdmkenny",
+          "body": "Thanks for this one, it was easy to pin down: picking a subtarget copies its parts' meshes to draw them in red, and nothing put them back when the game quit mid-mission. With the Reliant's engine picked I got exactly your 30 leaks, and none with https://github.com/OpenReliant/openreliant/pull/903, which puts the subtarget back before the objects go."
+        }
+      ]
+    },
+    {
+      "number": 509,
+      "title": "The loadout's panels and the power ball from mods at any size",
+      "url": "https://github.com/OpenReliant/openreliant/issues/509",
+      "state": "open",
+      "state_reason": null,
+      "comments": []
+    }
+  ],
+  "tests": [
+    {
+      "case": "main-font",
+      "exit_code": 0,
+      "capture_sha256": "577b98dc68890b09b7533647f0a73b390599cee525770794ae1647377286e13b",
+      "binary_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
+      "script_warnings": [],
+      "errors": []
+    },
+    {
+      "case": "main-gun",
+      "exit_code": 0,
+      "capture_sha256": "a6ed504cb6b03a7eadfdeaa5db357c02ff43c21329a470490da14686f3e8a03e",
+      "binary_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
+      "script_warnings": [],
+      "errors": []
+    },
+    {
+      "case": "main-leaks",
+      "exit_code": 0,
+      "capture_sha256": "f86c786be51d447b3bff9d032de7803b09b4730d3eacc72e791b9075d53c6d88",
+      "binary_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
+      "script_warnings": [],
+      "errors": []
+    },
+    {
+      "case": "main-render",
+      "exit_code": 0,
+      "capture_sha256": "c02c7b971395cb927b09001d0076ad146170cfb1f05272ae597e89ddb3449f22",
+      "binary_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
+      "script_warnings": [],
+      "errors": []
+    },
+    {
+      "case": "release-font",
+      "exit_code": 0,
+      "capture_sha256": "577b98dc68890b09b7533647f0a73b390599cee525770794ae1647377286e13b",
+      "binary_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "script_warnings": [],
+      "errors": []
+    },
+    {
+      "case": "release-gun",
+      "exit_code": 0,
+      "capture_sha256": "a6ed504cb6b03a7eadfdeaa5db357c02ff43c21329a470490da14686f3e8a03e",
+      "binary_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "script_warnings": [],
+      "errors": []
+    },
+    {
+      "case": "release-lights",
+      "exit_code": 0,
+      "capture_sha256": "e8ed3b0fbc76f9e4b9c197bdd36386f5c43117eeced38394e5d1a247ca510e85",
+      "binary_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "script_warnings": [],
+      "errors": []
+    },
+    {
+      "case": "release-presentation",
+      "exit_code": 0,
+      "capture_sha256": "5d102f98b7f53ffd7216c03924899af9ad579c422a1fff899f2adb414c005ac4",
+      "binary_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "script_warnings": [],
+      "errors": []
+    },
+    {
+      "case": "release-render",
+      "exit_code": 0,
+      "capture_sha256": "c02c7b971395cb927b09001d0076ad146170cfb1f05272ae597e89ddb3449f22",
+      "binary_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "script_warnings": [],
+      "errors": []
+    },
+    {
+      "case": "release-subtarget",
+      "exit_code": 0,
+      "capture_sha256": "b318e58387f6327f1af7708a899db72d239b58873fd3effac0129b4c57162bcf",
+      "binary_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "script_warnings": [],
+      "errors": []
+    },
+    {
+      "case": "release-unmigrated",
+      "exit_code": 0,
+      "capture_sha256": "19c6b6160e52cd5dd81307ca67532b925ed61c250554b5e4a4281e0a47b3f47c",
+      "binary_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "script_warnings": [
+        "warning(scripts): hud-07-missing-sprite-pieces: hud-07-missing-sprite-pieces/recommissioned.luau:2377: script timed out after 100ms",
+        "warning(scripts): hud-07-missing-sprite-pieces: recommissioned.luau: on_frame failed, and isn't called again",
+        "warning(scripts): hud-07-missing-sprite-pieces: hud-07-missing-sprite-pieces/recommissioned.luau:2128: style.align: expected 'left', 'center' or 'right', got 'centre'",
+        "warning(scripts): hud-07-missing-sprite-pieces: registered display hud-07-missing-sprite-pieces:readouts failed and is disabled",
+        "warning(scripts): hud-07-missing-sprite-pieces: hud-07-missing-sprite-pieces/recommissioned.luau:2128: style: there's no field 'colour' (font, base_font, color, alpha, scale, align)",
+        "warning(scripts): hud-07-missing-sprite-pieces: registered display hud-07-missing-sprite-pieces:gunnery failed and is disabled",
+        "warning(scripts): hud-07-missing-sprite-pieces: hud-07-missing-sprite-pieces/recommissioned.luau:2303: style: there's no field 'colour' (color, alpha)",
+        "warning(scripts): hud-07-missing-sprite-pieces: registered display hud-07-missing-sprite-pieces:radar_art failed and is disabled"
+      ],
+      "errors": []
+    }
+  ],
+  "font_pixel_comparison": [
+    {
+      "scale": 1,
+      "different_pixels": 0,
+      "ink_pixels": 2330
+    },
+    {
+      "scale": 1.2,
+      "different_pixels": 0,
+      "ink_pixels": 3148
+    },
+    {
+      "scale": 1.4,
+      "different_pixels": 0,
+      "ink_pixels": 4086
+    },
+    {
+      "scale": 1.6,
+      "different_pixels": 0,
+      "ink_pixels": 5217
+    },
+    {
+      "scale": 1.8,
+      "different_pixels": 0,
+      "ink_pixels": 6815
+    },
+    {
+      "scale": 2,
+      "different_pixels": 0,
+      "ink_pixels": 7959
+    }
+  ],
+  "findings": {
+    "gun_state": "rounds=3000 and paired=false confirmed for FULL GUNS Wolverine; full firing/pairing interaction not yet exercised.",
+    "subtarget": "Selected Reliant Engine component reports subtarget_class=engine. Icon identifier is intentionally not added; use PartClass.",
+    "lights": "lights_lit, charges, countermeasures_lit and hits fields observed. Full device/flash gameplay validation remains pending; cached presentation readings lag native drawing by one frame.",
+    "transitions": "Window opening progress observed from 0.2833 to 1; radar rings and per-missile place observed. Native missiles step, not smooth rotation.",
+    "font": "All six shared-font rows match independent-font controls pixel-for-pixel with nonzero ink.",
+    "leaks": "Named-component no-script mission exits with no SafeAllocator diagnostics on current-main ReleaseSafe; previously 30.",
+    "sprite_loss": "Old scripted state-change reproduction now visually complete after API-name migration, on both official 0.8.1 and current main. #894 remains open; long live gameplay and recurrence timing are unverified. No isolated causal attribution to a specific fix.",
+    "power_ball": "No script draw/reuse API found; #509 remains open and has no comments. Its image-resolution scope differs from scripted reuse.",
+    "migration": "Existing deploy still uses old API names and fails style checks on 0.8.1. A test-only renamed copy runs; production migration and new-field integration remain pending."
+  },
+  "renames": [
+    "colour -> color",
+    "centre -> center",
+    "hud.guns.synchronised -> synchronized",
+    "hud.power.guns -> weapons, including lookup-table key",
+    "hud.objectives.shown -> showing"
+  ],
+  "compatibility_promise": "API frozen from 0.8; additive APIs still allowed, breaking changes deprecated first.",
+  "inventory_verification": {
+    "runtime_files": 924,
+    "source_and_tool_files": 733,
+    "approved_subtargets_unchanged": 17,
+    "runtime_manifest_sha256": "5c37b96010747737f3c6c526e13f40cee908ddc22ef95ce7d1f95ee496c08c08",
+    "live_hashes_match": true
+  },
+  "runtime_export_changed": false,
+  "live_deployment_changed": false,
+  "normal_launcher_changed": false,
+  "source_inventory_changed": false,
+  "posted_by_this_review": false,
+  "public_release": "hold",
+  "evidence_directory": ".local/upstream-0.8.1-review/evidence",
+  "migration_preview": ".local/upstream-0.8.1-review/migration-preview.patch"
+}

@@ -1,0 +1,870 @@
+{
+  "reference_size": [
+    1920,
+    1080
+  ],
+  "roots": {
+    "eject": [
+      64,
+      64
+    ],
+    "warp_jump": [
+      64,
+      64
+    ],
+    "jump": [
+      64,
+      64
+    ],
+    "speed_match": [
+      64,
+      64
+    ],
+    "blind_fire": [
+      64,
+      64
+    ],
+    "smart_targeting": [
+      64,
+      64
+    ],
+    "enemy_locked": [
+      64,
+      64
+    ],
+    "missile_inbound": [
+      64,
+      64
+    ],
+    "ecm": [
+      64,
+      64
+    ],
+    "cloaking": [
+      64,
+      64
+    ],
+    "spectral_shield": [
+      64,
+      64
+    ],
+    "reverse_thrust": [
+      64,
+      64
+    ],
+    "afterburner": [
+      64,
+      64
+    ],
+    "countermeasures": [
+      64,
+      64
+    ],
+    "kill_count": [
+      64,
+      64
+    ],
+    "wireframe_00": [
+      350,
+      221
+    ],
+    "player_schematic": [
+      144,
+      112
+    ],
+    "target_schematic": [
+      144,
+      112
+    ],
+    "gunnery_display": [
+      230,
+      232
+    ],
+    "wing_status": [
+      336,
+      408
+    ],
+    "missile_display": [
+      256,
+      360
+    ],
+    "comms": [
+      225,
+      170
+    ],
+    "power_distribution": [
+      225,
+      170
+    ],
+    "mission_objectives": [
+      225,
+      170
+    ],
+    "systems_damage": [
+      225,
+      170
+    ],
+    "mission_clock": [
+      180,
+      28
+    ],
+    "throttle_gauge": [
+      352,
+      292
+    ],
+    "energy_gauge": [
+      180,
+      292
+    ],
+    "large_target_display": [
+      596,
+      356
+    ]
+  },
+  "children": {
+    "player_schematic.child_schematic": {
+      "parent": "player_schematic",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        144,
+        112
+      ],
+      "nested_comms": false
+    },
+    "player_schematic.child_damage_ring": {
+      "parent": "player_schematic",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        160,
+        136
+      ],
+      "nested_comms": false
+    },
+    "target_schematic.child_schematic": {
+      "parent": "target_schematic",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        144,
+        112
+      ],
+      "nested_comms": false
+    },
+    "target_schematic.child_damage_ring": {
+      "parent": "target_schematic",
+      "offset": [
+        -9,
+        1
+      ],
+      "size": [
+        160,
+        136
+      ],
+      "nested_comms": false
+    },
+    "gunnery_display.child_ship": {
+      "parent": "gunnery_display",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        230,
+        232
+      ],
+      "nested_comms": false
+    },
+    "gunnery_display.child_group_1": {
+      "parent": "gunnery_display",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        230,
+        232
+      ],
+      "nested_comms": false
+    },
+    "gunnery_display.child_group_2": {
+      "parent": "gunnery_display",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        230,
+        232
+      ],
+      "nested_comms": false
+    },
+    "gunnery_display.child_group_3": {
+      "parent": "gunnery_display",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        230,
+        232
+      ],
+      "nested_comms": false
+    },
+    "gunnery_display.child_grid": {
+      "parent": "gunnery_display",
+      "offset": [
+        -89,
+        0
+      ],
+      "size": [
+        68,
+        272
+      ],
+      "nested_comms": false
+    },
+    "wing_status.child_name": {
+      "parent": "wing_status",
+      "offset": [
+        96,
+        -110
+      ],
+      "size": [
+        120,
+        16
+      ],
+      "nested_comms": false
+    },
+    "wing_status.child_ship_1": {
+      "parent": "wing_status",
+      "offset": [
+        -101,
+        -12
+      ],
+      "size": [
+        96,
+        92
+      ],
+      "nested_comms": false
+    },
+    "wing_status.child_ship_2": {
+      "parent": "wing_status",
+      "offset": [
+        -7,
+        -12
+      ],
+      "size": [
+        96,
+        92
+      ],
+      "nested_comms": false
+    },
+    "wing_status.child_ship_3": {
+      "parent": "wing_status",
+      "offset": [
+        87,
+        -12
+      ],
+      "size": [
+        96,
+        92
+      ],
+      "nested_comms": false
+    },
+    "wing_status.child_ship_4": {
+      "parent": "wing_status",
+      "offset": [
+        -101,
+        102
+      ],
+      "size": [
+        96,
+        92
+      ],
+      "nested_comms": false
+    },
+    "wing_status.child_ship_5": {
+      "parent": "wing_status",
+      "offset": [
+        -7,
+        102
+      ],
+      "size": [
+        96,
+        92
+      ],
+      "nested_comms": false
+    },
+    "wing_status.child_ship_6": {
+      "parent": "wing_status",
+      "offset": [
+        87,
+        102
+      ],
+      "size": [
+        96,
+        92
+      ],
+      "nested_comms": false
+    },
+    "target_schematic.child_readout": {
+      "parent": "target_schematic",
+      "offset": [
+        111,
+        1
+      ],
+      "size": [
+        120,
+        52
+      ],
+      "nested_comms": false
+    },
+    "gunnery_display.child_floor": {
+      "parent": "gunnery_display",
+      "offset": [
+        -52,
+        106
+      ],
+      "size": [
+        258,
+        50
+      ],
+      "nested_comms": false
+    },
+    "wing_status.child_grid": {
+      "parent": "wing_status",
+      "offset": [
+        134,
+        33
+      ],
+      "size": [
+        68,
+        186
+      ],
+      "nested_comms": false
+    },
+    "missile_display.child_upper_grid": {
+      "parent": "missile_display",
+      "offset": [
+        -1,
+        -155
+      ],
+      "size": [
+        222,
+        50
+      ],
+      "nested_comms": false
+    },
+    "missile_display.child_carousel": {
+      "parent": "missile_display",
+      "offset": [
+        0,
+        13
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "nested_comms": false
+    },
+    "missile_display.child_main_grid": {
+      "parent": "missile_display",
+      "offset": [
+        0,
+        -13
+      ],
+      "size": [
+        198,
+        198
+      ],
+      "nested_comms": false
+    },
+    "missile_display.child_ammo": {
+      "parent": "missile_display",
+      "offset": [
+        -1,
+        12
+      ],
+      "size": [
+        68,
+        28
+      ],
+      "nested_comms": false
+    },
+    "missile_display.child_name": {
+      "parent": "missile_display",
+      "offset": [
+        -1,
+        165
+      ],
+      "size": [
+        236,
+        28
+      ],
+      "nested_comms": false
+    },
+    "comms.child_command_text": {
+      "parent": "comms",
+      "offset": [
+        -1,
+        -2
+      ],
+      "size": [
+        222,
+        167
+      ],
+      "nested_comms": true
+    },
+    "comms.child_speaker": {
+      "parent": "comms",
+      "offset": [
+        -1,
+        -76
+      ],
+      "size": [
+        222,
+        18
+      ],
+      "nested_comms": true
+    },
+    "comms.child_shell": {
+      "parent": "comms",
+      "offset": [
+        -16,
+        -12
+      ],
+      "size": [
+        120,
+        100
+      ],
+      "nested_comms": true
+    },
+    "comms.child_portrait": {
+      "parent": "comms",
+      "offset": [
+        -16,
+        -6
+      ],
+      "size": [
+        120,
+        100
+      ],
+      "nested_comms": true
+    },
+    "comms.child_content": {
+      "parent": "comms",
+      "offset": [
+        0,
+        0
+      ],
+      "size": [
+        225,
+        170
+      ],
+      "nested_comms": false
+    },
+    "comms.child_side_grid": {
+      "parent": "comms",
+      "offset": [
+        -96,
+        -12
+      ],
+      "size": [
+        34,
+        122
+      ],
+      "nested_comms": false
+    },
+    "comms.child_upper_grid": {
+      "parent": "comms",
+      "offset": [
+        -43,
+        -73
+      ],
+      "size": [
+        129,
+        25
+      ],
+      "nested_comms": false
+    },
+    "gunnery_display.child_name": {
+      "parent": "gunnery_display",
+      "offset": [
+        -10,
+        -20
+      ],
+      "size": [
+        230,
+        16
+      ],
+      "nested_comms": false
+    },
+    "gunnery_display.child_ammo": {
+      "parent": "gunnery_display",
+      "offset": [
+        -48,
+        118
+      ],
+      "size": [
+        115,
+        18
+      ],
+      "nested_comms": false
+    },
+    "comms.child_speaker_name": {
+      "parent": "comms",
+      "offset": [
+        34,
+        -49
+      ],
+      "size": [
+        222,
+        18
+      ],
+      "nested_comms": true
+    },
+    "comms.child_menu_text": {
+      "parent": "comms",
+      "offset": [
+        33,
+        -49
+      ],
+      "size": [
+        222,
+        18
+      ],
+      "nested_comms": true
+    },
+    "power_distribution.child_title": {
+      "parent": "power_distribution",
+      "offset": [
+        0,
+        -72
+      ],
+      "size": [
+        210,
+        22
+      ],
+      "nested_comms": false
+    },
+    "power_distribution.child_weapons": {
+      "parent": "power_distribution",
+      "offset": [
+        -72,
+        14
+      ],
+      "size": [
+        68,
+        118
+      ],
+      "nested_comms": false
+    },
+    "power_distribution.child_engines": {
+      "parent": "power_distribution",
+      "offset": [
+        0,
+        14
+      ],
+      "size": [
+        68,
+        118
+      ],
+      "nested_comms": false
+    },
+    "power_distribution.child_shields": {
+      "parent": "power_distribution",
+      "offset": [
+        72,
+        14
+      ],
+      "size": [
+        68,
+        118
+      ],
+      "nested_comms": false
+    },
+    "power_distribution.child_orb": {
+      "parent": "power_distribution",
+      "offset": [
+        -43,
+        -1
+      ],
+      "size": [
+        63,
+        63
+      ],
+      "nested_comms": false
+    },
+    "power_distribution.child_grid": {
+      "parent": "power_distribution",
+      "offset": [
+        -78,
+        33
+      ],
+      "size": [
+        68,
+        186
+      ],
+      "nested_comms": false
+    },
+    "mission_objectives.child_title": {
+      "parent": "mission_objectives",
+      "offset": [
+        4,
+        -69
+      ],
+      "size": [
+        300,
+        26
+      ],
+      "nested_comms": false
+    },
+    "mission_objectives.child_status": {
+      "parent": "mission_objectives",
+      "offset": [
+        39,
+        -51
+      ],
+      "size": [
+        260,
+        18
+      ],
+      "nested_comms": false
+    },
+    "mission_objectives.child_body": {
+      "parent": "mission_objectives",
+      "offset": [
+        42,
+        2
+      ],
+      "size": [
+        260,
+        136
+      ],
+      "nested_comms": false
+    },
+    "mission_objectives.child_grid": {
+      "parent": "mission_objectives",
+      "offset": [
+        112,
+        33
+      ],
+      "size": [
+        68,
+        186
+      ],
+      "nested_comms": false
+    },
+    "systems_damage.child_title": {
+      "parent": "systems_damage",
+      "offset": [
+        50,
+        -72
+      ],
+      "size": [
+        120,
+        22
+      ],
+      "nested_comms": false
+    },
+    "systems_damage.child_weapons": {
+      "parent": "systems_damage",
+      "offset": [
+        40,
+        -43
+      ],
+      "size": [
+        142,
+        38
+      ],
+      "nested_comms": false
+    },
+    "systems_damage.child_engines": {
+      "parent": "systems_damage",
+      "offset": [
+        40,
+        -5
+      ],
+      "size": [
+        142,
+        38
+      ],
+      "nested_comms": false
+    },
+    "systems_damage.child_shields": {
+      "parent": "systems_damage",
+      "offset": [
+        40,
+        34
+      ],
+      "size": [
+        142,
+        38
+      ],
+      "nested_comms": false
+    },
+    "systems_damage.child_upper_grid": {
+      "parent": "systems_damage",
+      "offset": [
+        100,
+        -60
+      ],
+      "size": [
+        258,
+        50
+      ],
+      "nested_comms": false
+    },
+    "systems_damage.child_side_grid": {
+      "parent": "systems_damage",
+      "offset": [
+        112,
+        50
+      ],
+      "size": [
+        68,
+        244
+      ],
+      "nested_comms": false
+    },
+    "large_target_display.child_schematic": {
+      "parent": "large_target_display",
+      "offset": [
+        -98,
+        -74
+      ],
+      "size": [
+        398,
+        208
+      ],
+      "nested_comms": false
+    },
+    "large_target_display.child_side_grid": {
+      "parent": "large_target_display",
+      "offset": [
+        110,
+        42
+      ],
+      "size": [
+        68,
+        272
+      ],
+      "nested_comms": false
+    },
+    "large_target_display.child_floor_grid": {
+      "parent": "large_target_display",
+      "offset": [
+        98,
+        53
+      ],
+      "size": [
+        400,
+        50
+      ],
+      "nested_comms": false
+    },
+    "large_target_display.child_name": {
+      "parent": "large_target_display",
+      "offset": [
+        -20,
+        -96
+      ],
+      "size": [
+        256,
+        15
+      ],
+      "nested_comms": false
+    },
+    "large_target_display.child_range": {
+      "parent": "large_target_display",
+      "offset": [
+        -21,
+        33
+      ],
+      "size": [
+        256,
+        15
+      ],
+      "nested_comms": false
+    },
+    "large_target_display.child_speed": {
+      "parent": "large_target_display",
+      "offset": [
+        -21,
+        45
+      ],
+      "size": [
+        256,
+        15
+      ],
+      "nested_comms": false
+    },
+    "large_target_display.child_subtarget": {
+      "parent": "large_target_display",
+      "offset": [
+        -76,
+        18
+      ],
+      "size": [
+        132,
+        104
+      ],
+      "nested_comms": false
+    },
+    "large_target_display.child_subtarget_label": {
+      "parent": "large_target_display",
+      "offset": [
+        55,
+        11
+      ],
+      "size": [
+        129,
+        15
+      ],
+      "nested_comms": false
+    },
+    "large_target_display.child_target_health": {
+      "parent": "large_target_display",
+      "offset": [
+        105,
+        -19
+      ],
+      "size": [
+        5,
+        108
+      ],
+      "nested_comms": false
+    },
+    "large_target_display.child_subtarget_health": {
+      "parent": "large_target_display",
+      "offset": [
+        -87,
+        27
+      ],
+      "size": [
+        5,
+        48
+      ],
+      "nested_comms": false
+    },
+    "gunnery_display.child_mode": {
+      "parent": "gunnery_display",
+      "offset": [
+        -95,
+        -112
+      ],
+      "size": [
+        56,
+        16
+      ],
+      "nested_comms": false
+    }
+  }
+}

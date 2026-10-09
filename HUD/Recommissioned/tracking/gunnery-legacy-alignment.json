@@ -1,0 +1,121 @@
+{
+  "checked_on": "2026-10-08",
+  "status": "implemented-tested-and-deployed",
+  "reference": "Native gunnery.zig and windows.zig at unmodified upstream 410d0a6",
+  "changes": [
+    "Weapon name left aligned above the panel, requested 16-pixel cap height at 1080p",
+    "Original pairing sprites 240/241 replace the rectangular bars",
+    "Pairing bar omitted for FULL GUNS and Nova Cannon; extra mode caption removed",
+    "125-percent ship artwork preserved, moved below the heading with alpha-bound clearance for tall silhouettes"
+  ],
+  "runtime_files": 591,
+  "source_and_tool_files": 686,
+  "runtime_files_changed": [
+    "hud_layout.ini",
+    "recommissioned.luau"
+  ],
+  "pngs_changed": 0,
+  "approved_subtargets_unchanged": 17,
+  "ion_cannon_frame": 406,
+  "asset_manifest_sha256": "51bb354dfb4142d9432c7e72e76f7074a48623b743b102c2dca84bbe3908c944",
+  "source_manifest_sha256": "ea8f3609e9011a7816d1b7c7d97b7d778cdb34cff7d945dec7ff48dc786764d0",
+  "layout": {
+    "rectangles": 91,
+    "unchanged": 88,
+    "changed": {
+      "gunnery_display.child_ship": {
+        "before": [
+          183,
+          889,
+          287,
+          290
+        ],
+        "after": [
+          183,
+          926,
+          287,
+          290
+        ]
+      },
+      "gunnery_display.child_name": {
+        "before": [
+          183,
+          1017,
+          230,
+          18
+        ],
+        "after": [
+          134,
+          794,
+          230,
+          16
+        ]
+      }
+    },
+    "added": {
+      "gunnery_display.child_mode": [
+        47,
+        822,
+        56,
+        16
+      ]
+    }
+  },
+  "checks": [
+    {
+      "case": "gunnery-legacy-1080",
+      "passed": true,
+      "scope": "gunnery layout and mode rendering",
+      "result": ".local/gunnery-legacy/gunnery-legacy-1080.json",
+      "capture": ".local/gunnery-legacy/gunnery-legacy-1080.png",
+      "capture_sha256": "d746189a211160b4cc58348d97eea5ac19ed58b0e46e30ceede88ffba7dacae4",
+      "engine_shutdown_diagnostics": false
+    },
+    {
+      "case": "gunnery-legacy-720",
+      "passed": true,
+      "scope": "gunnery layout and mode rendering",
+      "result": ".local/gunnery-legacy/gunnery-legacy-720.json",
+      "capture": ".local/gunnery-legacy/gunnery-legacy-720.png",
+      "capture_sha256": "9941a2c1e40012b30321c789770a7bc1ba4e5ef322010fca4cff452f71b88dbe",
+      "engine_shutdown_diagnostics": false
+    },
+    {
+      "case": "gunnery-legacy-full",
+      "passed": true,
+      "scope": "gunnery layout and mode rendering",
+      "result": ".local/gunnery-legacy/gunnery-legacy-full.json",
+      "capture": ".local/gunnery-legacy/gunnery-legacy-full.png",
+      "capture_sha256": "c88e232f8182c71c819e688d15b8e2f63159f35876ce6091dc5bee9acafb74de",
+      "engine_shutdown_diagnostics": false
+    },
+    {
+      "case": "gunnery-legacy-individual",
+      "passed": true,
+      "scope": "gunnery layout and mode rendering",
+      "result": ".local/gunnery-legacy/gunnery-legacy-individual.json",
+      "capture": ".local/gunnery-legacy/gunnery-legacy-individual.png",
+      "capture_sha256": "4532773bcba9782087ed71e3f10a6548c2b344d7bee25eb3f1e605ee45f1d262",
+      "engine_shutdown_diagnostics": true
+    },
+    {
+      "case": "gunnery-legacy-deployed",
+      "passed": true,
+      "scope": "gunnery layout and mode rendering",
+      "result": ".local/gunnery-legacy/gunnery-legacy-deployed.json",
+      "capture": ".local/gunnery-legacy/gunnery-legacy-deployed.png",
+      "capture_sha256": "d746189a211160b4cc58348d97eea5ac19ed58b0e46e30ceede88ffba7dacae4",
+      "engine_shutdown_diagnostics": false
+    }
+  ],
+  "live_hashes_match": true,
+  "review_hashes_match": true,
+  "nested_sources_unchanged": 775,
+  "launchers_unchanged": true,
+  "limitations": [
+    "Nova behavior matches source; interactive capture inconclusive due to focus/pause, not recorded as a runtime pass",
+    "Interactive split-bar capture succeeded; shutdown logged upstream SafeAllocator leaks, retained in its evidence",
+    "Full HUD release and broader gameplay QA remain pending"
+  ],
+  "release": "hold"
+}

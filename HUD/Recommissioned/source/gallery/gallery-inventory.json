@@ -1,0 +1,26 @@
+[
+  {
+    "file": "hud-cover.png",
+    "sha256": "9436d62a094882ecb4e8bd0d13929d00c3bbb2799cc7c514d61deac3bd0a67a7",
+    "kind": "artwork composition",
+    "engine": null
+  },
+  {
+    "file": "hud-gameplay.png",
+    "sha256": "67e493db2087bef86c37088fe1988ec7a0902219fc26b5c56c9abaa22c99b0ef",
+    "kind": "unretouched engine capture",
+    "engine": "unmodified main 220affa / 0.8.1"
+  },
+  {
+    "file": "hud-portrait.png",
+    "sha256": "36e0ce7d12472e3da06516251e889baf5b9322761c5cef2c06f320fd206d51fb",
+    "kind": "unretouched engine capture",
+    "engine": "unmodified main 220affa / 0.8.1"
+  },
+  {
+    "file": "hud-comms.png",
+    "sha256": "0395e1aa6ee1e6bc07a250b39f28b9b884bf4261d7b304479b3020994b15d015",
+    "kind": "unretouched engine capture",
+    "engine": "unmodified main 220affa / 0.8.1"
+  }
+]

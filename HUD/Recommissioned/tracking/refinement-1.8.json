@@ -1,0 +1,136 @@
+{
+  "version": "1.8",
+  "checked_on": "2026-10-09",
+  "engine_commit": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
+  "runtime_files": 1154,
+  "runtime_pngs": 911,
+  "source_and_tool_files": 10151,
+  "changed_runtime": [
+    "hud_layout.ini",
+    "mod.ini",
+    "recommissioned.luau"
+  ],
+  "added_runtime": [
+    "HUDHARD_120.png",
+    "HUDHARD_121.png"
+  ],
+  "existing_art_pngs_changed": 0,
+  "hd_portrait_films_unchanged": 225,
+  "hd_source_frames_preserved": 9353,
+  "approved_subtargets_unchanged": 17,
+  "checks": {
+    "frame_1080": {
+      "compared_pixels": 18000,
+      "different_pixels": 0
+    },
+    "frame_720": {
+      "compared_pixels": 7998,
+      "different_pixels": 0
+    },
+    "portrait_below_comms_rows": {
+      "compared_pixels": 15252,
+      "different_pixels": 0
+    },
+    "comms_ink_left_pixels": {
+      "columns": [
+        "number",
+        "period",
+        "label"
+      ],
+      "rows": [
+        [
+          39,
+          62,
+          78
+        ],
+        [
+          40,
+          62,
+          78
+        ],
+        [
+          40,
+          62,
+          77
+        ]
+      ],
+      "tolerance_pixels": 1
+    },
+    "forced_radio_transition": {
+      "phases": [
+        "opening/opening",
+        "open/open",
+        "closing/open",
+        "shut/open"
+      ],
+      "closing_capture": "final-comms-restored.png",
+      "restored_capture": "final-radio-shut.png",
+      "scope": "Native CloseInstrument; full speech/queue lifecycle not exhaustively tested"
+    },
+    "script_sha256": "550ef6d9ed82aa2b564b8e1f0e7e1058541a6be7a0e6abde109fac24a19629d0"
+  },
+  "tests": [
+    "final-after-portrait",
+    "final-both-1080",
+    "final-both-720",
+    "final-closing-forced",
+    "final-closing",
+    "final-comms-1080",
+    "final-comms-720",
+    "final-comms-restored",
+    "final-emblem",
+    "final-portrait-1080",
+    "final-radio-shut"
+  ],
+  "runtime_manifest_sha256": "2c1febc2cacc6d42d25e3ac93a4f9367f6b2dd899071c1fce015d28cb2fb3076",
+  "source_manifest_sha256": "469c3a40d110671c524dba3b8da9cbbba8776e27f087cab34c00d3923e47f50e",
+  "speaker_name_bottom_right": "pending upstream text controls; native name retained",
+  "author_request": "docs/AUTHOR_NOTES_1.8.md",
+  "private_review_archive": {
+    "path": "<workspace>/work/hud-1.8-comms-layers/deliverables/Recommissioned-HUD-1.8-working-review.zip",
+    "files": 1154,
+    "bytes": 805562816,
+    "sha256": "1674ddad3d510a122c117e4a7ad104cc21299eac94e1f88087a935a1e2d4df17",
+    "exact_runtime_contents_verified": true,
+    "public_release": "hold"
+  },
+  "review_shell": "tracking/review-shell-1.8.json",
+  "public_release": "hold",
+  "posted_online": false,
+  "deployment": {
+    "hud_version": "1.8",
+    "deployed_at": "20261009-053726",
+    "backup": "<OpenReliant-install>/backups/before-hud-1.8-20261009-053726",
+    "runtime_files": 1154,
+    "runtime_manifest_sha256": "2c1febc2cacc6d42d25e3ac93a4f9367f6b2dd899071c1fce015d28cb2fb3076",
+    "deployed_hashes_match": true,
+    "engine_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
+    "engine_unchanged": true,
+    "normal_launchers_unchanged": true,
+    "review_launcher_updated": true,
+    "protected_nested_and_other_mod_files": 1099,
+    "nested_hud_sources_unchanged": 775,
+    "dev_test_profile_refreshed": true,
+    "review_shell_runtime_matches": true,
+    "legacy_comparison_unchanged": true,
+    "public_release": "hold"
+  },
+  "installed_shell_check": {
+    "mode": "portraits",
+    "exit_code": 0,
+    "test_only_screenshot_exit": true,
+    "screenshot_sha256": "36e0ce7d12472e3da06516251e889baf5b9322761c5cef2c06f320fd206d51fb",
+    "log": "<OpenReliant-install>/reviews/hud-1.7/logs/20261009-163842-portraits-786158.log",
+    "script_sha256": "550ef6d9ed82aa2b564b8e1f0e7e1058541a6be7a0e6abde109fac24a19629d0",
+    "runtime_manifest_sha256": "2c1febc2cacc6d42d25e3ac93a4f9367f6b2dd899071c1fce015d28cb2fb3076",
+    "shell_check": "all 1154 runtime files and unmodified engine match",
+    "visual_review": "Native shared frame and HD portrait fit inspected; user gameplay review pending"
+  },
+  "verification": {
+    "runtime_files": 1154,
+    "source_and_tool_files": 10151,
+    "approved_subtargets_unchanged": 17,
+    "runtime_manifest_sha256": "2c1febc2cacc6d42d25e3ac93a4f9367f6b2dd899071c1fce015d28cb2fb3076",
+    "live_hashes_match": true
+  }
+}

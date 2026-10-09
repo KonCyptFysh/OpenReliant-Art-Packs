@@ -1,0 +1,40 @@
+{
+  "candidate": "HUD 1.2 unchanged art, current upstream main development baseline",
+  "date": "2026-10-08",
+  "state": "partial-hud-port-verified-and-deployed",
+  "runtime_files": 592,
+  "runtime_pngs": 586,
+  "source_and_tool_files": 702,
+  "asset_manifest_sha256": "3a4f5981470c618344f1078ce88e49046b6a82214aa5cab8cceb12b5b7a88347",
+  "source_manifest_sha256": "59f6da7fbc27844f044055e74220bc11fa0010d21cfafa359f5be05f3728f5ad",
+  "engine": {
+    "kind": "official-unmodified-release",
+    "reported_version": "0.7.0",
+    "upstream_tag": "v0.7.0",
+    "upstream_commit": "3b27f16779e53c03ccf177bfd2f9ec46a27bbfb7",
+    "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+    "launcher_sha256": "08de4140ac487d13a70c8e18511e611031dd77575f52c6f6a0e00cabe07102cf"
+  },
+  "review_engine": {
+    "kind": "unmodified-upstream-development-test-build",
+    "upstream_commit": "240f075183abc20bb3fafe91ae30c1b0aad7ca57",
+    "binary_sha256": "1f024109ab0b055bd82fda95d0cea7a49b4b84968f58ca41ca9c342d80e80d44",
+    "compiler": "Zig 0.17.0",
+    "optimization": "ReleaseSafe",
+    "changed_upstream_source_files": 0,
+    "private_engine_patch_applied": false,
+    "note": "Source archive build reports 0.7.0; commit and binary hash identify this newer upstream build."
+  },
+  "live_hashes_match": true,
+  "review_hashes_match": true,
+  "approved_subtargets_unchanged": 17,
+  "nested_sources_unchanged": 775,
+  "git_lfs_available": true,
+  "public_release": "hold",
+  "github_pushed": false,
+  "evidence_catalog": "tracking/main-dev-baseline.json",
+  "historical_companion_validation": "tracking/hud-1.1-handoff-validation.json",
+  "normal_launcher_unchanged": true,
+  "current_refinement": "tracking/gunnery-grid-orientation.json",
+  "development_baseline": "tracking/main-dev-baseline.json"
+}

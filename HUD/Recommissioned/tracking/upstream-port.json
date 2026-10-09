@@ -1,0 +1,327 @@
+{
+  "checked_on": "2026-10-08",
+  "status": "expanded-working-candidate-deployed-with-open-visual-issue",
+  "upstream_issues": {
+    "793": {
+      "state": "closed",
+      "merged_pr": 833
+    },
+    "794": {
+      "state": "closed",
+      "merged_pr": 831
+    },
+    "832": {
+      "state": "closed",
+      "merged_part_one": 864,
+      "merged_part_two": 866,
+      "merged_part_three": 868
+    }
+  },
+  "normal_engine": {
+    "kind": "official-unmodified-release",
+    "reported_version": "0.7.0",
+    "upstream_tag": "v0.7.0",
+    "upstream_commit": "3b27f16779e53c03ccf177bfd2f9ec46a27bbfb7",
+    "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+    "launcher_sha256": "08de4140ac487d13a70c8e18511e611031dd77575f52c6f6a0e00cabe07102cf"
+  },
+  "test_engine": {
+    "kind": "unmodified-upstream-development-test-build",
+    "upstream_commit": "30163d955177a4a13e5815985c84f3b9ae3748a6",
+    "binary_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+    "compiler": "Zig 0.17.0",
+    "optimization": "ReleaseSafe",
+    "changed_upstream_source_files": 0,
+    "private_engine_patch_applied": false,
+    "source_files_verified": 655,
+    "note": "Source archive build may still report 0.7.0; commit and binary hash identify the newer dev build."
+  },
+  "latest_published_release": "v0.8.1",
+  "runtime_files": 924,
+  "runtime_pngs": 909,
+  "source_and_tool_files": 733,
+  "asset_manifest_sha256": "5c37b96010747737f3c6c526e13f40cee908ddc22ef95ce7d1f95ee496c08c08",
+  "source_manifest_sha256": "fb8dc27928c70e3b58b9fc3c6b2f0e700fa25d51b079a66c4a8c6d1ee45a0023",
+  "existing_pngs_changed": 0,
+  "approved_subtargets_unchanged": 17,
+  "ion_cannon_frame": 406,
+  "nested_live_sources_unchanged": 775,
+  "live_hashes_match": true,
+  "review_hashes_match": true,
+  "normal_launcher_unchanged": true,
+  "layout_rectangles_verified": 91,
+  "image_cache_draws_passed": 1170,
+  "cases": [
+    {
+      "case": "fighter-1080",
+      "scope": "Coyote 1920x1080 layout",
+      "execution_passed": true,
+      "visual_passed": true,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/fighter-1080.json",
+      "capture": ".local/api-expansion/fighter-1080.png",
+      "capture_sha256": "94483c69f8e72f8bc356da2648d668d7f78876b88f2a1245aed53d9c2d741ab4"
+    },
+    {
+      "case": "fighter-720",
+      "scope": "Coyote 1280x720 layout",
+      "execution_passed": true,
+      "visual_passed": true,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/fighter-720.json",
+      "capture": ".local/api-expansion/fighter-720.png",
+      "capture_sha256": "156f8da29adeb6e5f8fb95e4f2aefe2e2a7b5070f6396516d2a61149233c917f"
+    },
+    {
+      "case": "named-objective",
+      "scope": "Localized named objective and capital whole-ship display",
+      "execution_passed": true,
+      "visual_passed": true,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/named-objective.json",
+      "capture": ".local/api-expansion/named-objective.png",
+      "capture_sha256": "2e79a42e89269e39e077e7aa0f3719700f7f5474e859483be8e1c98043c72d63"
+    },
+    {
+      "case": "comms-final",
+      "scope": "Final fitted communications text",
+      "execution_passed": true,
+      "visual_passed": true,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/comms-final.json",
+      "capture": ".local/api-expansion/comms-final.png",
+      "capture_sha256": "def035e26f5b84665b9481306f8682431149d23cad0954678b93dbfc14bfe52b"
+    },
+    {
+      "case": "wolverine-fallback",
+      "scope": "Native ammunition-bearing gunnery retained",
+      "execution_passed": true,
+      "visual_passed": true,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/wolverine-fallback.json",
+      "capture": ".local/api-expansion/wolverine-fallback.png",
+      "capture_sha256": "861fe9235a2a62f5dc7df1bc094ee3c1f1f9e1f1eff13d9af9d600579e0f2750"
+    },
+    {
+      "case": "chase-hidden",
+      "scope": "Custom instruments hidden in chase view",
+      "execution_passed": true,
+      "visual_passed": true,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/chase-hidden.json",
+      "capture": ".local/api-expansion/chase-hidden.png",
+      "capture_sha256": "266abefcab370f8c31e06a06947ccdaefb809e5fa325f467537444c11c21126c"
+    },
+    {
+      "case": "state-fixed-position",
+      "scope": "Changing shield/armour/gauges while position held",
+      "execution_passed": true,
+      "visual_passed": true,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/state-fixed-position.json",
+      "capture": ".local/api-expansion/state-fixed-position.png",
+      "capture_sha256": "b31032b9a8e1b6a7fe0d8a8c10e8546d5474b88ab03c1c0d4a392964026616a6"
+    },
+    {
+      "case": "stock-070-fallback",
+      "scope": "Early native fallback on released 0.7.0",
+      "execution_passed": true,
+      "visual_passed": true,
+      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "result": ".local/api-expansion/stock-070-fallback.json",
+      "capture": ".local/api-expansion/stock-070-fallback.png",
+      "capture_sha256": "e42bd815125877c1523a949673d0301c90a87590dde1b120b4135fd387f8887b"
+    },
+    {
+      "case": "installed-30163d9",
+      "scope": "Installed binary, profile and exact deployed exports",
+      "execution_passed": true,
+      "visual_passed": true,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/installed-30163d9.json",
+      "capture": ".local/api-expansion/installed-30163d9.png",
+      "capture_sha256": "94483c69f8e72f8bc356da2648d668d7f78876b88f2a1245aed53d9c2d741ab4"
+    },
+    {
+      "case": "state-sweep-verified",
+      "scope": "Dynamic synthetic state scene: visual loss unresolved",
+      "execution_passed": true,
+      "visual_passed": false,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/state-sweep-verified.json",
+      "capture": ".local/api-expansion/state-sweep-verified.png",
+      "capture_sha256": "516a0812f278800ce3c64adac8b39759603a80c2e856ffef301dd62695c37fb1"
+    },
+    {
+      "case": "state-single-decode",
+      "scope": "One-file decode control: same visual loss",
+      "execution_passed": true,
+      "visual_passed": false,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/state-single-decode.json",
+      "capture": ".local/api-expansion/state-single-decode.png",
+      "capture_sha256": "516a0812f278800ce3c64adac8b39759603a80c2e856ffef301dd62695c37fb1"
+    },
+    {
+      "case": "state-native-gauges-control",
+      "scope": "Native-gauge control: visual loss remains",
+      "execution_passed": true,
+      "visual_passed": false,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/state-native-gauges-control.json",
+      "capture": ".local/api-expansion/state-native-gauges-control.png",
+      "capture_sha256": "c71f50d846f200857b2cb692bd9bbe1308e3aecaa7b8d44782fe114774d566de"
+    },
+    {
+      "case": "interactive-checks",
+      "scope": "Radar ranges/transitions, power redistribution, separate firing, missile cycling and gun charge",
+      "execution_passed": true,
+      "visual_passed": true,
+      "functional_state_exercised": true,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/interactive-checks.json",
+      "captures": [
+        {
+          "case": "range-short",
+          "capture": "interactive-range-short.png",
+          "capture_sha256": "94a6d4b1497eeaa0ed174b03eba9d9503f63a04d2065a223f62aafceeda5cae6"
+        },
+        {
+          "case": "range-medium",
+          "capture": "interactive-range-medium.png",
+          "capture_sha256": "a7ac2dd87e243a1154766b059e9d78f714240fc7dddb6d31a178a05c1933c467"
+        },
+        {
+          "case": "range-long",
+          "capture": "interactive-range-long.png",
+          "capture_sha256": "33e51758fa496bb9bd0e873ead79276b1f4525a51947115628cfd1aba5445684"
+        },
+        {
+          "case": "power-guns",
+          "capture": "interactive-power-guns.png",
+          "capture_sha256": "34e1f7b3232b2cdb866fb895d09b1a9c159364c2fc4dc33a3752715637a7abc0"
+        },
+        {
+          "case": "power-engines",
+          "capture": "interactive-power-engines.png",
+          "capture_sha256": "7af15d6cb6c952993b4f0c5151fd242569118939b998fb4decccc3f56e3bb755"
+        },
+        {
+          "case": "separate-guns",
+          "capture": "interactive-separate-guns.png",
+          "capture_sha256": "bc6d90ecd4d1d3a8d6f5cd8aae39914acd4bcc3b12ae399826180848193f1fe7"
+        },
+        {
+          "case": "missile-cycling",
+          "capture": "interactive-missile-cycling.png",
+          "capture_sha256": "c44a6ad02af2c397e2143dbc0cb5efbb64b61c0bcaa3500bcfa3f1b8d8e3ddcb"
+        },
+        {
+          "case": "full-guns",
+          "capture": "interactive-full-guns.png",
+          "capture_sha256": "693d0d7d9b98982762cc08e7c88576ad682f9116c34cece4687d58a56ff66c3f"
+        },
+        {
+          "case": "gun-energy",
+          "capture": "interactive-gun-energy.png",
+          "capture_sha256": "562a56113370241563ed35a59af8c5901d460cc04771fbc5903a3395612d4efc"
+        }
+      ],
+      "note": "Coyote case labelled full-guns did not enable full mode; only the separate Mirage case proves full=true."
+    },
+    {
+      "case": "interactive-motion",
+      "scope": "Ordinary Coyote full-throttle flight",
+      "execution_passed": true,
+      "visual_passed": true,
+      "functional_state_exercised": true,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/interactive-motion.json",
+      "captures": [
+        {
+          "case": "normal-flight",
+          "capture": "interactive-normal-flight.png",
+          "capture_sha256": "ce5f7b6e781090721671a80030ea59baba11dce9333df4012804cc64071cdf96"
+        }
+      ],
+      "note": null
+    },
+    {
+      "case": "interactive-full-guns",
+      "scope": "Mirage FULL GUNS selected and no pairing bar; other sprites visibly incomplete",
+      "execution_passed": true,
+      "visual_passed": false,
+      "functional_state_exercised": true,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/interactive-full-guns.json",
+      "captures": [
+        {
+          "case": "mirage-full-guns",
+          "capture": "interactive-mirage-full-guns.png",
+          "capture_sha256": "52bf81e4d56304337407eea25bcdbad0aa75154cd64524e1be5e0f5322d30d0a"
+        }
+      ],
+      "note": null
+    },
+    {
+      "case": "interactive-subtarget",
+      "scope": "Attempt did not select a component; subtarget fallback NOT exercised",
+      "execution_passed": true,
+      "visual_passed": false,
+      "functional_state_exercised": false,
+      "engine_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+      "result": ".local/api-expansion/interactive-subtarget.json",
+      "captures": [
+        {
+          "case": "subtarget-fallback",
+          "capture": "interactive-subtarget-fallback.png",
+          "capture_sha256": "7f55ef3b4e998429a820aed4a336db3b69986ef28fe786c2626dd128466413ef"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "mod_workarounds": [
+    "Decode up to one megapixel/twelve small files per frame before enabling a replacement",
+    "Separate per-panel font resources for the known four-size atlas constraint",
+    "Load only current composed gauge fills and visible status segments",
+    "Retain complete native instruments for missing art/state and radar zoom"
+  ],
+  "remaining": [
+    "Official release containing the expanded APIs and final full gameplay/user review",
+    "HUD-RENDER-01: some Mirage and synthetic-state scenes lose pieces of sprites/text without errors; cause unresolved",
+    "Subtarget icon-class identifier is not exposed; native entire target panel retained; exercised component selection still pending",
+    "Live gun rounds and selected-group paired state; native gunnery retained on Grendel/Wolverine/Reaper",
+    "Warning flash/device charge bars retained native; exact shield-hit flashes and window/missile animation fidelity incomplete",
+    "Temporary power allocation triangle instead of the native animated ball",
+    "Messages, prompts and radio portraits remain native",
+    "Separate-font workaround retained for six-size corruption reproduced on 240f075, not independently re-probed on 30163d9",
+    "Long missions, dense radar, cloak, localization, resizing, all ships and artwork/layout user review",
+    "17 large-schematic jobs and fuel-pod frame 410 artwork remain unfinished"
+  ],
+  "public_release": "hold",
+  "upstream_messages_posted": false,
+  "normal_profile_used_for_tests": false,
+  "evidence_policy": "Machine-specific paths and captures remain under ignored .local/. Portable records here name the tested revision and hashes.",
+  "current_refinement": "tracking/hud-api-expansion.json",
+  "previous_pass": "tracking/history/main-240f075-before-expansion/upstream-port.json",
+  "image_cache_verification_note": "Historical 1170-draw result belongs to 410d0a6 and its 585 PNG set. Current 909-PNG export uses only current assets; functional checks pass but the separate rendering-loss investigation remains open.",
+  "previous_gunnery_alignment": "tracking/gunnery-legacy-alignment.json",
+  "development_baseline": "tracking/hud-api-expansion.json",
+  "new_replacements": [
+    "radar-settled-ranges",
+    "player-status",
+    "small-target-status",
+    "large-whole-ship-target",
+    "speed-and-energy-gauges",
+    "damage",
+    "power",
+    "wing-status",
+    "objectives",
+    "comms-menu"
+  ],
+  "api_freeze_feedback": "tracking/api-freeze-feedback.json",
+  "source_inventory_updated_on": "2026-10-09",
+  "latest_upstream_review": "tracking/upstream-0.8.1-review.json",
+  "requires_0_8_api_migration": true
+}

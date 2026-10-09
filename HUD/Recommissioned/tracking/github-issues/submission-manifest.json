@@ -1,0 +1,66 @@
+{
+  "prepared_on": "2026-10-07T14:44:57.732189+11:00",
+  "status": "first-two-user-submitted-and-merged",
+  "posted": true,
+  "upstream_repository": "https://github.com/OpenReliant/openreliant",
+  "tested_version": "v0.7.0",
+  "drafts": [
+    {
+      "id": "HUD-UPSTREAM-01",
+      "path": "tracking/github-issues/01-hud-replacement-and-state.md",
+      "title": "Let HUD mods replace native instruments and read their live state",
+      "sha256": "4bf9f57da58627449641c8657981ebbe51440e6c9dc4908ad955c39a24345a78",
+      "posted": true,
+      "url": "https://github.com/OpenReliant/openreliant/issues/793",
+      "state": "closed"
+    },
+    {
+      "id": "HUD-UPSTREAM-02",
+      "path": "tracking/github-issues/02-script-image-cache.md",
+      "title": "Scripted HUD image limits need a way to release unused images",
+      "sha256": "79dc667369a37bcae4c1897b7bb61185db1c3b258d668d88f0599776447389fb",
+      "posted": true,
+      "url": "https://github.com/OpenReliant/openreliant/issues/794",
+      "state": "closed"
+    },
+    {
+      "id": "HUD-UPSTREAM-03",
+      "path": "tracking/github-issues/03-custom-font-hud-base.md",
+      "title": "Valid custom TTF gives InvalidFont with the HUD base font",
+      "sha256": "15b45917641ba8d3f20db23c031d190241dd275a4d3544b32a802c006f98db04",
+      "posted": false,
+      "submission_status": "not-confirmed-submitted"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "01-hud-replacement-repro.zip",
+      "bytes": 48859,
+      "sha256": "2b60ae491898bbefdd3d4459b2d4a1a23abc978898a7812c13fafbee8e8d02c2",
+      "tested_probe_bytes_preserved": true,
+      "path": ".local/github-issue-attachments/01-hud-replacement-repro.zip"
+    },
+    {
+      "name": "02-script-image-cache-repro.zip",
+      "bytes": 884851,
+      "sha256": "43676930e20bf55964b2a30a656ae04b9e4225f5382a4e5e3347e10f2f5a6a88",
+      "tested_probe_bytes_preserved": true,
+      "path": ".local/github-issue-attachments/02-script-image-cache-repro.zip"
+    },
+    {
+      "name": "03-custom-font-hud-base-repro.zip",
+      "bytes": 48515,
+      "sha256": "9f14372d9e80950016bd4a799b74b8c27da1442d564a12cd3a83dd31153d269e",
+      "tested_probe_bytes_preserved": true,
+      "path": ".local/github-issue-attachments/03-custom-font-hud-base-repro.zip"
+    }
+  ],
+  "screenshot": {
+    "path": ".local/github-issue-attachments/01-radar-overlay.png",
+    "sha256": "c8e127d1e10266f1ad200b3fcb3a4c4571ae8a0071a05cfbf21c777465ca9f0f"
+  },
+  "runtime_files_changed": false,
+  "editable_sources_changed": false,
+  "release": "hold",
+  "checked_on": "2026-10-08"
+}

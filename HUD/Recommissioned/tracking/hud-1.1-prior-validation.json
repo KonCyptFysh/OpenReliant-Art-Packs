@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "binary_sha256": "20b723afdf72194554f160b658be761ac9f3661aad8d470100becaa4655c71a1",
+  "base_commit": "4150676e798176f3bbcc7c9872c52c20a333f296",
+  "hud_version": "1.1",
+  "tests_passed": 2042,
+  "tests_total": 2042,
+  "format_check": "passed",
+  "sprites_checked": 619,
+  "sprites_cleaned": 358,
+  "missile_poses_reexported": 90,
+  "missile_export_size": [
+    1024,
+    1024
+  ],
+  "folder_hog_roundtrip_files": 627,
+  "folder_hog_pixels_identical": true,
+  "visual_comparison": {
+    "folder_hog_pixels_identical": true,
+    "window": [
+      1920,
+      1080
+    ],
+    "regions": {
+      "reticles": {
+        "changed_pixels": 906,
+        "before_pale_pixels": 72,
+        "after_pale_pixels": 0
+      },
+      "top_counters": {
+        "changed_pixels": 3129
+      },
+      "missile_text": {
+        "changed_pixels": 4924
+      },
+      "gunnery": {
+        "changed_pixels": 25291
+      }
+    }
+  },
+  "firing_modes": {
+    "after-gpu": [
+      [
+        113,
+        253
+      ]
+    ],
+    "wolverine-full-guns": [
+      [
+        113,
+        253
+      ]
+    ],
+    "individual-guns": [
+      [
+        113,
+        179
+      ],
+      [
+        187,
+        253
+      ]
+    ]
+  },
+  "installed_ship_mods_loaded": 8,
+  "engine_source_changes": [
+    "engine/game/hud/recommissioned.zig"
+  ],
+  "source_masters": "unchanged; verified again during installation",
+  "scope": "Asset-wide transparency audit and in-flight HUD rendering/input checks. Full campaigns, controllers and audio were not exhaustively tested."
+}

@@ -1,0 +1,63 @@
+{
+  "repository": "https://github.com/OpenReliant/openreliant",
+  "commit": "4150676e798176f3bbcc7c9872c52c20a333f296",
+  "zig": "0.16.0",
+  "changes": [
+    {
+      "path": "docs/guide/recommissioned-hud.md",
+      "upstream_sha256": null,
+      "hud_sha256": "ac3e82a54d507ca11326a65082905e78f27614511ef4a1f48c833945dc519d18"
+    },
+    {
+      "path": "src/engine/game/hud.zig",
+      "upstream_sha256": "40106dec57636b55ab246e72592393e8620fe2b0704dab21fe1f64c73042c6bd",
+      "hud_sha256": "a1a82726dd978aa0adbf8aa5bb247b411620b8dc801f9cf3be66f4f86932e373"
+    },
+    {
+      "path": "src/engine/game/hud/outline.zig",
+      "upstream_sha256": "d47b6535dd865fda0038d25ebef49f6397e592d290d2a0ada6011f1303e7b2ed",
+      "hud_sha256": "ca0e1cdede0d2e47e8fc759bf41723e3876a0d263b4082a1782381933b5ea809"
+    },
+    {
+      "path": "src/engine/game/hud/radio.zig",
+      "upstream_sha256": "0470d9fe2ede27c357b4f7658b71497e5bf968e8a9b043c44cea8d8c6064c483",
+      "hud_sha256": "e96cd95c5bb65adb735d2baa7b48b58d0a3d48fa07572b059a4d25416cc4bbe1"
+    },
+    {
+      "path": "src/engine/game/hud/recommissioned.zig",
+      "upstream_sha256": null,
+      "hud_sha256": "e904536776b3971b33e37428892fef1de3871fb21dc2d68dbabf84ab68bb8c2c"
+    },
+    {
+      "path": "src/engine/game/hud/recommissioned_assets.zig",
+      "upstream_sha256": null,
+      "hud_sha256": "b42c0ba7c6e5a6790019a85488e065511bf56ede015a709a8ab9e0d8ef092527"
+    },
+    {
+      "path": "src/engine/game/hud/recommissioned_layout.zig",
+      "upstream_sha256": null,
+      "hud_sha256": "7a3ca7c2344b7e05b1698b6f3a84c3eeaf6fba5d51ed127808c66b2f2a3ccaf4"
+    },
+    {
+      "path": "src/engine/game/hud/recommissioned_layout_defs.zig",
+      "upstream_sha256": null,
+      "hud_sha256": "fa80c32445ce066f6bd7d9a8a8be290cafc1cdcc2669a2b354b7eb0114a96808"
+    },
+    {
+      "path": "src/engine/game/hud/recommissioned_layout_fixtures.zig",
+      "upstream_sha256": null,
+      "hud_sha256": "68a1864286f0d39183c59a5d96323334fd38efc9708e2229f4ac68e8494e8474"
+    },
+    {
+      "path": "src/engine/game/hud/windows.zig",
+      "upstream_sha256": "cd893d36631fb7ca84fa117ac334e08355493eda6107864aaa747ccb8ba1e076",
+      "hud_sha256": "7ff9ec004dfd19a14f399a9d624a0272b6cfe5ba71611fa50272d05ed9dc797b"
+    },
+    {
+      "path": "src/hud-layout-check.zig",
+      "upstream_sha256": null,
+      "hud_sha256": "d65d71840726bd7d750913bc471c6934e0cbcd296f35341584ae7e8ea37cb169"
+    }
+  ],
+  "installed_binary_sha256": "20b723afdf72194554f160b658be761ac9f3661aad8d470100becaa4655c71a1"
+}

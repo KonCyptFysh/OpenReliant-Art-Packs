@@ -1,0 +1,7 @@
+{
+  "asset": "Fuel pod subtarget",
+  "frame": 410,
+  "replacement_present": false,
+  "status": "needs-review",
+  "correction": "Ion Cannon is completed frame 406, already deployed. Do not remap it."
+}

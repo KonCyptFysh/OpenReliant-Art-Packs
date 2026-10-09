@@ -1,0 +1,104 @@
+{
+  "status": "pending",
+  "scope": "HUD 1.3 focused layout and control checks on main 30163d9; known scene-dependent visual loss. Full release QA pending.",
+  "checked_on": "2026-10-08",
+  "engine_build": {
+    "kind": "unmodified-upstream-development-test-build",
+    "upstream_commit": "30163d955177a4a13e5815985c84f3b9ae3748a6",
+    "binary_sha256": "4d3ab7fa107824e94189ff0257a2e2cac1b634157fe0468ea2d26bdcec51aac7",
+    "compiler": "Zig 0.17.0",
+    "optimization": "ReleaseSafe",
+    "changed_upstream_source_files": 0,
+    "private_engine_patch_applied": false,
+    "source_files_verified": 655,
+    "note": "Source archive build may still report 0.7.0; commit and binary hash identify the newer dev build."
+  },
+  "normal_engine": {
+    "kind": "official-unmodified-release",
+    "reported_version": "0.7.0",
+    "upstream_tag": "v0.7.0",
+    "upstream_commit": "3b27f16779e53c03ccf177bfd2f9ec46a27bbfb7",
+    "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+    "launcher_sha256": "08de4140ac487d13a70c8e18511e611031dd77575f52c6f6a0e00cabe07102cf"
+  },
+  "tested_platforms": [
+    {
+      "os": "Fedora Linux",
+      "architecture": "x86_64",
+      "display": "X11 via SDL",
+      "capture_resolutions": [
+        [
+          1920,
+          1080
+        ],
+        [
+          1280,
+          720
+        ]
+      ]
+    }
+  ],
+  "asset_manifest_sha256": null,
+  "tested_asset_manifest_sha256": "5c37b96010747737f3c6c526e13f40cee908ddc22ef95ce7d1f95ee496c08c08",
+  "source_manifest_sha256": "fb8dc27928c70e3b58b9fc3c6b2f0e700fa25d51b079a66c4a8c6d1ee45a0023",
+  "checks": [],
+  "limitations": [
+    "Official release containing the expanded APIs and final full gameplay/user review",
+    "HUD-RENDER-01: some Mirage and synthetic-state scenes lose pieces of sprites/text without errors; cause unresolved",
+    "Subtarget icon-class identifier is not exposed; native entire target panel retained; exercised component selection still pending",
+    "Live gun rounds and selected-group paired state; native gunnery retained on Grendel/Wolverine/Reaper",
+    "Warning flash/device charge bars retained native; exact shield-hit flashes and window/missile animation fidelity incomplete",
+    "Temporary power allocation triangle instead of the native animated ball",
+    "Messages, prompts and radio portraits remain native",
+    "Separate-font workaround retained for six-size corruption reproduced on 240f075, not independently re-probed on 30163d9",
+    "Long missions, dense radar, cloak, localization, resizing, all ships and artwork/layout user review",
+    "17 large-schematic jobs and fuel-pod frame 410 artwork remain unfinished"
+  ],
+  "evidence_catalog": "tracking/hud-api-expansion.json",
+  "historical_companion_validation": "tracking/hud-1.1-handoff-validation.json",
+  "previous_pass": "tracking/history/main-240f075-before-expansion/validation.json",
+  "font_diagnostic": {
+    "confirmed_corruption": true,
+    "rows": [
+      {
+        "scale": 1,
+        "different_pixels": 1474,
+        "matches_control": false
+      },
+      {
+        "scale": 1.2,
+        "different_pixels": 2342,
+        "matches_control": false
+      },
+      {
+        "scale": 1.4,
+        "different_pixels": 0,
+        "matches_control": true
+      },
+      {
+        "scale": 1.6,
+        "different_pixels": 0,
+        "matches_control": true
+      },
+      {
+        "scale": 1.8,
+        "different_pixels": 0,
+        "matches_control": true
+      },
+      {
+        "scale": 2,
+        "different_pixels": 0,
+        "matches_control": true
+      }
+    ],
+    "scope": "Six sizes in one frame; same font bytes and parameters apart from resource instance and x position.",
+    "result": ".local/main-dev-240f075/font-240f075-six-sizes.json",
+    "capture": ".local/main-dev-240f075/font-240f075-six-sizes.png",
+    "classification": "confirmed-on-240f075-not-reprobed-on-30163d9",
+    "mod_workaround": "Separate font resource instances"
+  },
+  "api_freeze_feedback": "tracking/api-freeze-feedback.json",
+  "source_inventory_updated_on": "2026-10-09",
+  "latest_upstream_review": "tracking/upstream-0.8.1-review.json",
+  "requires_0_8_api_migration": true
+}

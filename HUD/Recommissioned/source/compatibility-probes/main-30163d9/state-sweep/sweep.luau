@@ -1,0 +1,18 @@
+-- Test only: simulation changes belong to a global script.
+local world=require("openreliant.world")
+local count=0
+local armor,shields=nil,nil
+return {engine_handlers={on_step=function()
+ count+=1
+ local ship=world.player
+ if not ship then return end
+ if count==5 then armor=ship.armor;shields=ship.shields end
+ if count>=6 and count<260 and armor and shields then
+  local ratio=if count<40 then ((count-6)%35)/40+0.1 else 0.35
+  ship.shields={left=shields.left*ratio,right=shields.right*0.45,fore=shields.fore*0.7,aft=0}
+  ship.armor={left=armor.left*0.3,right=armor.right*0.5,fore=armor.fore*0.7,aft=armor.aft*0.9}
+  ship.velocity=vector.create(0,0,ratio*400)
+  ship.afterburner_fuel=41.7
+  ship.countermeasures=12
+ end
+end}}

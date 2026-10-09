@@ -1,0 +1,634 @@
+{
+  "candidate": "HUD 1.4 stable 0.8 API integration",
+  "checked_on": "2026-10-09",
+  "status": "deployed-working-candidate",
+  "engine": {
+    "kind": "unmodified-upstream-main",
+    "upstream_commit": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
+    "reported_version": "0.8.1",
+    "binary_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
+    "compiler": "Zig 0.17.0",
+    "optimization": "ReleaseSafe",
+    "changed_upstream_source_files": 0,
+    "private_engine_patch_applied": false
+  },
+  "official_release_smoke_test": "0.8.1",
+  "asset_manifest_sha256": "9263bf2eb7a109cf348e38d7e2b1e3b04341f89e0e2c955db4df79f797026e77",
+  "source_manifest_sha256": "364f61e9ccaf3a174f5c2eef18e7ad46cf62b78713e60729a16b3a1c5e5e8315",
+  "runtime_files": 924,
+  "runtime_pngs": 909,
+  "source_and_tool_files": 738,
+  "runtime_changed": [
+    "mod.ini",
+    "recommissioned.luau"
+  ],
+  "art_pngs_changed": 0,
+  "approved_subtargets_unchanged": 17,
+  "nested_sources_unchanged": 775,
+  "live_hashes_match": true,
+  "normal_launcher_updated": true,
+  "public_release": "hold",
+  "posted_online": false,
+  "checks": [
+    {
+      "name": "source/runtime/deployed inventory and approved art",
+      "result": "passed",
+      "runtime_files": 924,
+      "pngs": 909,
+      "approved_subtargets": 17,
+      "nested_sources": 775
+    },
+    {
+      "name": "1080p and 720p authored panels",
+      "result": "passed",
+      "evidence": [
+        "first-1080.png",
+        "panels-720.png",
+        "capital.png",
+        "comms.png"
+      ]
+    },
+    {
+      "name": "Wolverine live rounds and gun modes",
+      "result": "passed",
+      "rounds_before": 3000,
+      "rounds_after": 2976,
+      "evidence": [
+        "interactive-ammo.json",
+        "interactive-ammo.log"
+      ]
+    },
+    {
+      "name": "Grendel/Reaper/Phoenix gun panels",
+      "result": "passed",
+      "evidence": [
+        "grendel.json",
+        "reaper.json",
+        "phoenix.json"
+      ]
+    },
+    {
+      "name": "selected named component",
+      "result": "passed",
+      "component": "Reliant Engine",
+      "frame": 394,
+      "evidence": [
+        "selected-engine.json"
+      ]
+    },
+    {
+      "name": "radar transition, missile selection, power presets, cloak and ECM",
+      "result": "passed",
+      "evidence": [
+        "interactive-devices.json",
+        "interactive-devices.log"
+      ],
+      "observed_rings": [
+        0,
+        0.2,
+        0.6,
+        1,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2
+      ],
+      "power_presets": [
+        [
+          34,
+          33,
+          33
+        ],
+        [
+          94,
+          3,
+          3
+        ],
+        [
+          2,
+          95,
+          3
+        ]
+      ]
+    },
+    {
+      "name": "mission-driven warning and countermeasure visibility",
+      "result": "passed",
+      "evidence": [
+        "warning-lit.json",
+        "flashing-80.json",
+        "flashing-100.json"
+      ],
+      "note": "Readings log both phases; captures show lit/dark states. Readings are one native frame behind."
+    },
+    {
+      "name": "changing shields/armour/speed/fuel and gauges",
+      "result": "passed",
+      "evidence": [
+        "sweep-180.json"
+      ]
+    },
+    {
+      "name": "native fallback on image decode failure and mod disabled",
+      "result": "passed",
+      "evidence": [
+        "native-failure-fallback.json",
+        "mod-disabled.json"
+      ],
+      "note": "Corrupt PNG exists only in isolated failure-test profile."
+    },
+    {
+      "name": "normal installed launcher with other installed art mods",
+      "result": "passed",
+      "evidence": [
+        "installed-flight.log",
+        "installed-flight.png"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "official 0.8.1 compatibility capture",
+      "result": "passed",
+      "evidence": [
+        "official-0.8.1.json"
+      ],
+      "pixel_and_file_identical_to_main_capture": true
+    },
+    {
+      "name": "standalone power-ball feature-request probe",
+      "result": "passed",
+      "evidence": [
+        "power-ball-probe.json"
+      ]
+    },
+    {
+      "name": "longer Mirage live rendering",
+      "result": "partial",
+      "details": {
+        "status": "bounded-observation-incomplete-controller",
+        "captures": 5,
+        "last_capture_mission_clock": "1:23",
+        "termination": "X11 focus guard stopped input before the full two-minute run completed",
+        "rendering_observation": "No missing pieces observed in sampled frames; no script errors in log. Not a full gameplay pass.",
+        "first_attempt": "Test ship destroyed; death camera, not engine crash. Repeat used test-only invulnerability."
+      }
+    }
+  ],
+  "limitations": [
+    "Native power-ball reuse remains an upstream presentation request; triangle placeholder retained.",
+    "17 large-schematic jobs and fuel-pod frame 410 are artwork backlog; approved 393-409 unchanged.",
+    "Full campaign/dense combat/localization/alt-tab/relaunch and final user review pending.",
+    "Armour-hit overlays and spectral charge integration need dedicated combat/device coverage.",
+    "Messages/prompts/radio portraits remain native.",
+    "#894 has not recurred in sampled current captures; broad resolution is not claimed."
+  ],
+  "evidence_directory": ".local/integration-0.8/evidence",
+  "evidence": [
+    {
+      "path": "capital.json",
+      "bytes": 1037,
+      "sha256": "75abbc2ac2ecc0d31da2c5d129d5633dd98ca56a9191eb38bc6397edacba71a5"
+    },
+    {
+      "path": "capital.log",
+      "bytes": 52135,
+      "sha256": "5319a02ad37e77499b1af961315a2f7297660d87ab2a1fcc9529242089cf652c"
+    },
+    {
+      "path": "capital.png",
+      "bytes": 805620,
+      "sha256": "ccbf301c5361df55fdac2e7330dcbad23dd7e97a3a2579574b465191b7cacd6b"
+    },
+    {
+      "path": "comms.json",
+      "bytes": 1033,
+      "sha256": "a371dba1da711ceff2c86e7655e8ed80404a93b9559d4e38f8ae78e21709a06b"
+    },
+    {
+      "path": "comms.log",
+      "bytes": 52135,
+      "sha256": "61ebf336484c88ef443a43be42ca5dcdd2b8cd90f313a40aacee65fe0ad59867"
+    },
+    {
+      "path": "comms.png",
+      "bytes": 651136,
+      "sha256": "d84fa22a1ee29ed319db8601fed173e5a3569bd65c942020ca22fc40737d390f"
+    },
+    {
+      "path": "first-1080.json",
+      "bytes": 1043,
+      "sha256": "45156f39ba09f54005f58d2feb1ff664e4c60949c41886eea7719693f30966d7"
+    },
+    {
+      "path": "first-1080.log",
+      "bytes": 52135,
+      "sha256": "9e1c3cc0832a994a728818bd5ee5781b1189b8f6b661bd1c79f14188d1524e2a"
+    },
+    {
+      "path": "first-1080.png",
+      "bytes": 832127,
+      "sha256": "92211aeb02d007976fad49c2df6cc961e440c775639706c86186d8bd672b90da"
+    },
+    {
+      "path": "first-soak-0.png",
+      "bytes": 1154338,
+      "sha256": "34a2adae21bb9df4bdf9778a981b39c63ee9941b45bee7645737b6202106d838"
+    },
+    {
+      "path": "first-soak-1.png",
+      "bytes": 858147,
+      "sha256": "a12f40884b4d516ba14b7e2ea6a18b49226f53013bf9095edd98abbb14f75d1b"
+    },
+    {
+      "path": "flashing-100.json",
+      "bytes": 1049,
+      "sha256": "ad9e1a58996ee2162ad869ee56ea851ebe7d769107e13ce3ab25c3806e960cb4"
+    },
+    {
+      "path": "flashing-100.log",
+      "bytes": 67244,
+      "sha256": "5f9506d67e6eb74525d3807671abdfa249b849892d4de72ccffd4fb0fa0dd44c"
+    },
+    {
+      "path": "flashing-100.png",
+      "bytes": 842775,
+      "sha256": "f7b3471eda70385ce6e7237fd5e84252fdb6607eb3061413a9ca2178d26cbd92"
+    },
+    {
+      "path": "flashing-80.json",
+      "bytes": 1046,
+      "sha256": "12a4cd024691a51b7d42d2453133f5007c26cd0cf585bee3b630beb7e8799e77"
+    },
+    {
+      "path": "flashing-80.log",
+      "bytes": 64562,
+      "sha256": "7f3551155e8aea9a6f80c8a35c1207c25e9a3d995e71803836661f879fd232bb"
+    },
+    {
+      "path": "flashing-80.png",
+      "bytes": 834920,
+      "sha256": "5f927c75d8b2d46557bdd7aeeb22762023eaed77255a690d6261979521847fa2"
+    },
+    {
+      "path": "grendel.json",
+      "bytes": 1311,
+      "sha256": "cc0a41cb645b6d70294dfbda514c5abefa560dd12b902baea9991bcec2f57db1"
+    },
+    {
+      "path": "grendel.log",
+      "bytes": 52428,
+      "sha256": "da9a111568a799677f5b57d2fa68790772e38c36a62307a525f22d310f3755f0"
+    },
+    {
+      "path": "grendel.png",
+      "bytes": 830122,
+      "sha256": "82fc4fe89877f4623ca32b5ca3b20182a715c7504b0d9ed2aed7cecde9a9cfd7"
+    },
+    {
+      "path": "installed-flight.log",
+      "bytes": 68144,
+      "sha256": "57c7535519df503e10af85404f7ebb0ce8c0d4c0ff093d17707aebb147a29334"
+    },
+    {
+      "path": "installed-flight.png",
+      "bytes": 644789,
+      "sha256": "24d26e72cdc12df5cd1ca8cce7409cc3b0b29de64b45d21b074721704ab957fc"
+    },
+    {
+      "path": "interactive-ammo.json",
+      "bytes": 1121,
+      "sha256": "213d8ea8d296ed38ec0ffb59799ae796fb55836d7e9eb799a9450dde66b6254a"
+    },
+    {
+      "path": "interactive-ammo.log",
+      "bytes": 58131,
+      "sha256": "977b0778400ab6fa425c9b2eba1b74e00c9bb79d140ba64b72443768a2282736"
+    },
+    {
+      "path": "interactive-devices.json",
+      "bytes": 1614,
+      "sha256": "d31c1eda28daef07301d6e344a763f0fd985a89e338d9329cc7655e30adb0797"
+    },
+    {
+      "path": "interactive-devices.log",
+      "bytes": 201412,
+      "sha256": "824817ae214d8ca14a0b901952eaaff625e65a48f3da0d78cb938c1badb4af54"
+    },
+    {
+      "path": "interactive-full-guns.png",
+      "bytes": 869691,
+      "sha256": "ea813bfc68af3c389bf249b065d62099598c0689f5defcd2e4c05422ecdd6289"
+    },
+    {
+      "path": "interactive-gun-energy.png",
+      "bytes": 946834,
+      "sha256": "d8a9b2ef50787e665e970d797562f7e38a0ff8d43171f95ebff8d448aa97637c"
+    },
+    {
+      "path": "interactive-missile-cycling.png",
+      "bytes": 829575,
+      "sha256": "92f269f2c2e346d1c2cd33c76f413b170ee524dde050e960961fbee14b2f200c"
+    },
+    {
+      "path": "interactive-power-engines-current.png",
+      "bytes": 879309,
+      "sha256": "7ba7552621fe69ebdf24a3655d1607eccbb301726b49a3196a12fb809170a2a7"
+    },
+    {
+      "path": "interactive-power-engines.png",
+      "bytes": 849096,
+      "sha256": "b53e99f7e52da1e41e74dc941873ee78f22da57aada81c4dd54a6d8b319ef3f9"
+    },
+    {
+      "path": "interactive-power-guns.png",
+      "bytes": 1061462,
+      "sha256": "0d5da583a68441661ed9f7de9a7055b6eff02342aa2b0c3ce545a36b28a918e4"
+    },
+    {
+      "path": "interactive-power-weapons-current.png",
+      "bytes": 855305,
+      "sha256": "e1b75b6826e7ce2b0ea8718852a5d0c7666a15073ac9a86cb507220c1757ee37"
+    },
+    {
+      "path": "interactive-radar-0.png",
+      "bytes": 861955,
+      "sha256": "39cf3e541b057d5fd623cd9af5c5eb4cab93b788d4531489dcc3ff5713baafb7"
+    },
+    {
+      "path": "interactive-radar-1.png",
+      "bytes": 978754,
+      "sha256": "98e55dd4173ff565337686d080aa0900d84c136f2c443d0c9629db5fc2d1088d"
+    },
+    {
+      "path": "interactive-radar-2.png",
+      "bytes": 861883,
+      "sha256": "b1eb72613a3dc89920c990a8c410341d231e76d941368f91847acdc7bc8287cb"
+    },
+    {
+      "path": "interactive-range-long.png",
+      "bytes": 837432,
+      "sha256": "29ac11a81ddb8ebd835e65d7f9e60a653c91b8e8694c856340a5764231898343"
+    },
+    {
+      "path": "interactive-range-medium.png",
+      "bytes": 838589,
+      "sha256": "9ad202079f699466e4bc54172bd8250dbfdddd867748886643f6c317aa91dfe3"
+    },
+    {
+      "path": "interactive-range-short.png",
+      "bytes": 840150,
+      "sha256": "cc5981686bf99d64273d5acadfe2746edee982c05baa064573a414fe8a0c897f"
+    },
+    {
+      "path": "interactive-separate-guns.png",
+      "bytes": 848489,
+      "sha256": "acb43b1379fc722f684ff3c49ecdcb68ec10344115b585e2c596f67a5944fff1"
+    },
+    {
+      "path": "interactive-shroud-before.png",
+      "bytes": 1062675,
+      "sha256": "9d654ffd0f3a4ff0f12b088afa5edb8946c9aeff869155dabd2d36f40ae41c7f"
+    },
+    {
+      "path": "interactive-shroud-cloak.png",
+      "bytes": 858698,
+      "sha256": "bad41df9908f921d9b8db5235612112020309e17695efd18d8d53241f3897428"
+    },
+    {
+      "path": "interactive-shroud-ecm.png",
+      "bytes": 857565,
+      "sha256": "4767d711b671fc4b542e480e05dce62f4d63e2ffe3835bf2172c5517c6b75694"
+    },
+    {
+      "path": "interactive-soak-0.png",
+      "bytes": 858524,
+      "sha256": "5668fe83e32337181b203cbaf06405fcfa8e9c9c00e60e200a6c9c5487d8b667"
+    },
+    {
+      "path": "interactive-soak-1.png",
+      "bytes": 864558,
+      "sha256": "b9e7b3f5a532ca644b5f8b85c3df158741536f46b1d4ba59aa7c6b5c32dbf936"
+    },
+    {
+      "path": "interactive-soak-2.png",
+      "bytes": 865638,
+      "sha256": "71f1c344867d79da6fe77083cc988217d941b970d2d29450ba0c5076e5b0536b"
+    },
+    {
+      "path": "interactive-soak-3.png",
+      "bytes": 858013,
+      "sha256": "473def83168e4315499c16b7b221cdaec2eb9ec306214a5efd597c78a0158919"
+    },
+    {
+      "path": "interactive-soak-4.png",
+      "bytes": 969831,
+      "sha256": "baaf559dd859ec252e47ae95c7889327dd8743ba3c07433bf10a24ff9e55b70f"
+    },
+    {
+      "path": "interactive-soak-first-death-cam.log",
+      "bytes": 64871,
+      "sha256": "bf58da085d5de8ca8a7cd5ca40ae95ba95cdce7293616b5cf56be1f1c3cb760c"
+    },
+    {
+      "path": "interactive-soak.json",
+      "bytes": 449,
+      "sha256": "1e223d26f248463b3e48a04248dc2714f8d394bc2b49e88b75341d7f9932c3c4"
+    },
+    {
+      "path": "interactive-soak.log",
+      "bytes": 77458,
+      "sha256": "27d49ba7e6ed43caaa0ae16b566b4f81f4ea072d01fe30103eb14c21c599486b"
+    },
+    {
+      "path": "interactive-wolverine-after-fire.png",
+      "bytes": 815732,
+      "sha256": "4c761eee26b85b94103c97956f409e3aa10e9ac3786e36e7ed30e916ce26e48b"
+    },
+    {
+      "path": "interactive-wolverine-before.png",
+      "bytes": 1050737,
+      "sha256": "5c0223abe590cc4d3b0245598594e868382dffbed0f7a7d749206da386a3cf14"
+    },
+    {
+      "path": "interactive-wolverine-full.png",
+      "bytes": 842694,
+      "sha256": "fa4650f8d7d44c384c3a2073deab366c2a1fb8bc07d15c86b3e106f9a67eb7b1"
+    },
+    {
+      "path": "interactive-wolverine-separate.png",
+      "bytes": 1018789,
+      "sha256": "7aa6c57d80591dc165d358512883d173d5f517cd01ad0baeda24f6ac3b919d7c"
+    },
+    {
+      "path": "interactive-wolverine-single-group.png",
+      "bytes": 812591,
+      "sha256": "3ddf150ebd030fcded4f180a261a366ad6f714a8be070fc753feec21ef433bd8"
+    },
+    {
+      "path": "mod-disabled.json",
+      "bytes": 943,
+      "sha256": "e577ab3c3369fd905e29e42d5940694312431e326fbfc3555df3cd868c47e9f2"
+    },
+    {
+      "path": "mod-disabled.log",
+      "bytes": 270,
+      "sha256": "33f3a1f9e623659034128b22a2337504367c5ef66c80eaca5746eab6257a2fb5"
+    },
+    {
+      "path": "mod-disabled.png",
+      "bytes": 1889088,
+      "sha256": "1213cbefcca0f6d73430c0e1670db4aea6dff0eca4c61f511ce1c315bc149480"
+    },
+    {
+      "path": "native-failure-fallback.json",
+      "bytes": 1225,
+      "sha256": "25ead3c4d47c42032de1a1507fa45b51661e04ada6bc2bc21ed9e09aef7d1bbf"
+    },
+    {
+      "path": "native-failure-fallback.log",
+      "bytes": 52280,
+      "sha256": "8d8c14f21d226d6e79eb4a3d09b99340f05bf4104771db92fd92220502bf6c5f"
+    },
+    {
+      "path": "native-failure-fallback.png",
+      "bytes": 834723,
+      "sha256": "3ab10d455f257e1609bbd9c29d9085207b79c909e83722d499b2e3303245e57e"
+    },
+    {
+      "path": "official-0.8.1.json",
+      "bytes": 1021,
+      "sha256": "ea57812ec9b8e0cd2386454e4f6d2181fe721d0e197362ab2d14f663a758b082"
+    },
+    {
+      "path": "official-0.8.1.log",
+      "bytes": 61288,
+      "sha256": "2128e04f8393107b8dfa626025a6007122aad3b9cc60359a981ff1dd2357028b"
+    },
+    {
+      "path": "official-0.8.1.png",
+      "bytes": 832127,
+      "sha256": "92211aeb02d007976fad49c2df6cc961e440c775639706c86186d8bd672b90da"
+    },
+    {
+      "path": "panels-720.json",
+      "bytes": 1042,
+      "sha256": "7123d36679b4a3576f6ab6f259cd0cc65d122f4f60b7ed81a47dc20d67debc2a"
+    },
+    {
+      "path": "panels-720.log",
+      "bytes": 52135,
+      "sha256": "5319a02ad37e77499b1af961315a2f7297660d87ab2a1fcc9529242089cf652c"
+    },
+    {
+      "path": "panels-720.png",
+      "bytes": 433142,
+      "sha256": "5dc16bdc8b5ead6d6502ee09fc6edfacdb0b96ce5aff360fb88306275ae1443c"
+    },
+    {
+      "path": "phoenix.json",
+      "bytes": 1038,
+      "sha256": "e2dc559772a06ff63c0442e367cddabbc2fd1497ed72a19376bdc08f4c1d767c"
+    },
+    {
+      "path": "phoenix.log",
+      "bytes": 60648,
+      "sha256": "e38dc6dede3be658a93fcc99f94dc5070f9be0ab2602a9a01b2cab603e7909f0"
+    },
+    {
+      "path": "phoenix.png",
+      "bytes": 813600,
+      "sha256": "8388e0e6a0a9ceb555a0460817c126e0c53f0c4628b8d618a87a5e3a6ee1e20a"
+    },
+    {
+      "path": "power-ball-probe.json",
+      "bytes": 936,
+      "sha256": "56657669c9abac745811a1c3ffcb12cfac341b800f63fe6a8941616e3d708593"
+    },
+    {
+      "path": "power-ball-probe.log",
+      "bytes": 473,
+      "sha256": "06369ec552898fcde2d1edd44c0a10f0738971d074a997092e4dd39b53677031"
+    },
+    {
+      "path": "power-ball-probe.png",
+      "bytes": 771034,
+      "sha256": "e8bec306d3f94c2204fdfc6bdd327d8160bd1be97c4f7c1292bdab48e088aa73"
+    },
+    {
+      "path": "reaper.json",
+      "bytes": 1313,
+      "sha256": "bda71337c83060e31413ef615232bdbbd8268c4cb3f7933d55dea440743ac058"
+    },
+    {
+      "path": "reaper.log",
+      "bytes": 52432,
+      "sha256": "868d8449d00e1ee2142e9b500660a4d7122345cef99b217078f550acd380cb40"
+    },
+    {
+      "path": "reaper.png",
+      "bytes": 799995,
+      "sha256": "eda3ddb806b9ee7e65767c7a5631f7cd284a592011bd1103a4722f9b90a7c971"
+    },
+    {
+      "path": "selected-engine.json",
+      "bytes": 1362,
+      "sha256": "b46d8a82e50e7de7e093c8c83709ef533cc37aaa0649b3cc7b5a80ca67442dae"
+    },
+    {
+      "path": "selected-engine.log",
+      "bytes": 52461,
+      "sha256": "cfcf62b6320774c1755df142a477b9ca06ba3c02216e79d24c4e6f56e173aece"
+    },
+    {
+      "path": "selected-engine.png",
+      "bytes": 779630,
+      "sha256": "9d37ebd88f66fc788f68e9e7e5cd0f90b514aa11289836c50cb50d10bdd7524c"
+    },
+    {
+      "path": "sweep-180.json",
+      "bytes": 1861,
+      "sha256": "a3519f28aac23323fb6025b5d9332f4ed9ba2a21ab579c9f4bfdf8a5c05aae92"
+    },
+    {
+      "path": "sweep-180.log",
+      "bytes": 53083,
+      "sha256": "cfa15b758f8c38409695ead9e9e4a5f3537a000b9a850e1dbe0819debea40572"
+    },
+    {
+      "path": "sweep-180.png",
+      "bytes": 827790,
+      "sha256": "4879f3ea6d1f2b41f94eeebc94fb63f79f4f746776f32219ecc1fd23187d49de"
+    },
+    {
+      "path": "warning-lit.json",
+      "bytes": 1046,
+      "sha256": "d1a5825d1b8b5d4da727d3373bb24cdb2e4ed3080fc5b9b3c7126645347f55b8"
+    },
+    {
+      "path": "warning-lit.log",
+      "bytes": 56208,
+      "sha256": "b164c8f02506ef65efeecaf3b9e6ccf4a1958299dbcde1d06f105f5a7ab48617"
+    },
+    {
+      "path": "warning-lit.png",
+      "bytes": 750069,
+      "sha256": "951976835b56a5d84eb4012533f5f6ed5ca4809b64fead40445068fa5fc46f92"
+    },
+    {
+      "path": "wolverine-ammo.json",
+      "bytes": 1329,
+      "sha256": "0b965edde917f9742f39ec52d1e3f23848a0127a9bc11e5199ca271cd4c3e33c"
+    },
+    {
+      "path": "wolverine-ammo.log",
+      "bytes": 52432,
+      "sha256": "5d72a8843371ac86838f42a98953609014f84d4ef033ca788484ba1698308165"
+    },
+    {
+      "path": "wolverine-ammo.png",
+      "bytes": 802908,
+      "sha256": "c989b390483b77947a77f3c351efcc574d00d0cc730f448bd071c705a2ff72fb"
+    }
+  ]
+}

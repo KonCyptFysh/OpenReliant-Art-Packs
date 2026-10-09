@@ -1,0 +1,284 @@
+{
+  "checked_on": "2026-10-07",
+  "release_policy": "drop-in-mod-on-official-engine",
+  "full_authored_hud_stock_compatible": false,
+  "engine": {
+    "kind": "official-unmodified-release",
+    "reported_version": "0.7.0",
+    "upstream_tag": "v0.7.0",
+    "upstream_commit": "3b27f16779e53c03ccf177bfd2f9ec46a27bbfb7",
+    "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+    "launcher_sha256": "08de4140ac487d13a70c8e18511e611031dd77575f52c6f6a0e00cabe07102cf"
+  },
+  "official_archive_sha256": "bf6472a46aba0f5eade965feed773f945e212dc9275e51d57a219a9ddd3d10f2",
+  "normal_launcher_smoke_test": {
+    "exit_code": 0,
+    "capture": "installed-stock-launcher.png",
+    "capture_sha256": "ec47b0d3e9b3ac792a2c3f4557c3fdccac1a0857f4dc7dce718e46daf4b7ebb1",
+    "settings_and_pilots_unchanged_after_test": true
+  },
+  "runtime_files": 589,
+  "runtime_pngs": 585,
+  "runtime_unchanged": true,
+  "native_png_aliases": 26,
+  "custom_named_pngs": 559,
+  "approved_subtargets_unchanged": [
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409
+  ],
+  "ion_cannon_frame": 406,
+  "source_and_tool_files": 679,
+  "prior_source_and_tool_files_preserved": 665,
+  "added_diagnostic_source_files": 14,
+  "asset_manifest_sha256": "8ef978007b866a3d8d111fba43698a34a68d2c970efb119902afaaf9232c5c98",
+  "source_manifest_sha256": "9b78070cac641c6de9b28b679dac1b080db65924b96e52330eacbfdb2e9a5a36",
+  "findings": {
+    "script_placement_and_scaled_text": "verified-working",
+    "native_instrument_replacement": "not-exposed",
+    "complete_live_instrument_snapshot": "not-exposed",
+    "script_cache_file_limit": 128,
+    "script_cache_decoded_byte_limit": 67108864,
+    "17th_1024_rgba_picture": "BadSize",
+    "129th_small_picture": "TooManyAssets",
+    "custom_ttf_hud_base": "InvalidFont",
+    "custom_ttf_menu_bases": "works",
+    "native_ttf_and_script_builtin_hud_font": "works"
+  },
+  "checks": [
+    {
+      "scenario": "stock-with-pack",
+      "exit_code": 0,
+      "screenshot_sha256": "105d92407426532a63d8f985c05a4945c0e9d633d708f530439ee910fbf0f1b7",
+      "log_sha256": "c755892cfa063c401d14fabffd70cbacda20af1c59615430961754fb9d117034",
+      "observations": []
+    },
+    {
+      "scenario": "stock-native",
+      "exit_code": 0,
+      "screenshot_sha256": "370b5846571e49f9b8edda2d67efb706da122bdfae91967e4ea1deed70a6126d",
+      "log_sha256": "2116af4d23d1025247363c57c9077513489c1b88ceb6ff250739b261d2f48ec9",
+      "observations": []
+    },
+    {
+      "scenario": "stock-script-overlay",
+      "exit_code": 0,
+      "screenshot_sha256": "c8e127d1e10266f1ad200b3fcb3a4c4571ae8a0071a05cfbf21c777465ca9f0f",
+      "log_sha256": "9a8453768e8e18b1b892fe94393be730118cb895bfbf0a82762fd3fa7e1c6c9d",
+      "observations": [
+        "info(scripts): hudprobe: HUDPROBE: picture, scaled text and live fuel/countermeasures drawn",
+        "info(scripts): hudprobe: HUDPROBE field gun_mode: false hudprobe/probe.luau:15: an object has no field 'gun_mode'",
+        "info(scripts): hudprobe: HUDPROBE field gun_energy: false hudprobe/probe.luau:15: an object has no field 'gun_energy'",
+        "info(scripts): hudprobe: HUDPROBE field selected_missile: false hudprobe/probe.luau:15: an object has no field 'selected_missile'",
+        "info(scripts): hudprobe: HUDPROBE field selected_target: false hudprobe/probe.luau:15: an object has no field 'selected_target'",
+        "info(scripts): hudprobe: HUDPROBE field radar_range: false hudprobe/probe.luau:15: an object has no field 'radar_range'",
+        "info(scripts): hudprobe: HUDPROBE field kill_count: false hudprobe/probe.luau:15: an object has no field 'kill_count'",
+        "info(scripts): hudprobe: HUDPROBE disable unregistered stock radar: false"
+      ]
+    },
+    {
+      "scenario": "stock-script-memory",
+      "exit_code": 0,
+      "screenshot_sha256": "370b5846571e49f9b8edda2d67efb706da122bdfae91967e4ea1deed70a6126d",
+      "log_sha256": "357f8f9c954952ce04967a4306db07cadecde7e5160cfea708cb61988cf0f1b4",
+      "observations": [
+        "info(scripts): hudprobe: HUDPROBE asset 1: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 2: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 3: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 4: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 5: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 6: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 7: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 8: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 9: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 10: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 11: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 12: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 13: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 14: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 15: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 16: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 17: false picture rc_missiles_havoc_slot_06_red.png: BadSize"
+      ]
+    },
+    {
+      "scenario": "stock-script-count",
+      "exit_code": 0,
+      "screenshot_sha256": "370b5846571e49f9b8edda2d67efb706da122bdfae91967e4ea1deed70a6126d",
+      "log_sha256": "62fb7984c044e35c08436393a726dbb345475cb29b2a85fc57552244cdb33c29",
+      "observations": [
+        "info(scripts): hudprobe: HUDPROBE asset 127: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 128: true nil",
+        "info(scripts): hudprobe: HUDPROBE asset 129: false picture probe_129.png: TooManyAssets"
+      ]
+    },
+    {
+      "scenario": "stock-script-font",
+      "exit_code": 0,
+      "screenshot_sha256": "268b42feca0c93fb8efe8aa698ed8abd3019fb50e41aa1dce85ed536d085c19e",
+      "log_sha256": "baecae70af7926b6deafa4c097a5870736f55e6dc5f5bb4a26ae28052a0a5bb1",
+      "observations": [
+        "info(scripts): hudprobe: HUDPROBE custom TTF base default: false font BLUFONT.ttf: InvalidFont",
+        "info(scripts): hudprobe: HUDPROBE custom TTF base hud: false font BLUFONT.ttf: InvalidFont",
+        "info(scripts): hudprobe: HUDPROBE custom TTF base menu_small: true table: 0x00000000239a8600",
+        "info(scripts): hudprobe: HUDPROBE custom TTF base menu_large: true table: 0x00000000239a85a0",
+        "info(scripts): hudprobe: HUDPROBE builtin hud (native TTF replacement): true table: 0x00000000239a8540"
+      ]
+    }
+  ],
+  "proposed_solutions": [
+    "Generic native instrument root/child layout and artwork slots",
+    "Per-instrument script replacement with native fallback and read-only presentation snapshots",
+    "Bounded renderer-safe picture eviction or explicit lifecycle plus configurable working-set budget",
+    "Share native palette-aware font fitting with scripted custom fonts; use builtin hud font as current workaround"
+  ],
+  "proposals_implemented": false,
+  "upstream_issues_posted": false,
+  "public_release": "hold",
+  "evidence": [
+    {
+      "path": ".local/stock-0.7/stock-installation.json",
+      "bytes": 2079,
+      "sha256": "1a88190e7c5f923b3881cf5cf30c62c5c2b42595c5e9dc49cec19d5cd884129e"
+    },
+    {
+      "path": ".local/stock-0.7/installed-stock-launcher.log",
+      "bytes": 41166,
+      "sha256": "f99f5a55cb19abf43bcc8e0af0775b738d253552431e8a12936f0806884a0e61"
+    },
+    {
+      "path": ".local/stock-0.7/installed-stock-launcher.png",
+      "bytes": 1834821,
+      "sha256": "ec47b0d3e9b3ac792a2c3f4557c3fdccac1a0857f4dc7dce718e46daf4b7ebb1"
+    },
+    {
+      "path": ".local/stock-0.7/upstream-release.json",
+      "bytes": 94040,
+      "sha256": "2c91c64bf12699c17ac4d35e8a572930e786ae10619564bf3464a0ba6c23894e"
+    },
+    {
+      "path": ".local/stock-0.7/upstream-hud-issues-expanded.json",
+      "bytes": 444639,
+      "sha256": "1c9510b84114c7fff55aa5746cfa0ca8b5001feecc4d458246384ce34e999ca6"
+    },
+    {
+      "path": ".local/stock-0.7/stock-with-pack.log",
+      "bytes": 40861,
+      "sha256": "c755892cfa063c401d14fabffd70cbacda20af1c59615430961754fb9d117034"
+    },
+    {
+      "path": ".local/stock-0.7/stock-with-pack.png",
+      "bytes": 688189,
+      "sha256": "105d92407426532a63d8f985c05a4945c0e9d633d708f530439ee910fbf0f1b7"
+    },
+    {
+      "path": ".local/stock-0.7/stock-with-pack-result.json",
+      "bytes": 984,
+      "sha256": "668eea054cf9d239925a2443a9a754605af1cd6f84971c26e9d32e1475821f8e"
+    },
+    {
+      "path": ".local/stock-0.7/stock-native.log",
+      "bytes": 578,
+      "sha256": "2116af4d23d1025247363c57c9077513489c1b88ceb6ff250739b261d2f48ec9"
+    },
+    {
+      "path": ".local/stock-0.7/stock-native.png",
+      "bytes": 693746,
+      "sha256": "370b5846571e49f9b8edda2d67efb706da122bdfae91967e4ea1deed70a6126d"
+    },
+    {
+      "path": ".local/stock-0.7/stock-native-result.json",
+      "bytes": 973,
+      "sha256": "0bada206ac860c900511f64a0568b120dff71a28abe870c1d6e9beecbb04c8de"
+    },
+    {
+      "path": ".local/stock-0.7/stock-script-overlay.log",
+      "bytes": 1649,
+      "sha256": "9a8453768e8e18b1b892fe94393be730118cb895bfbf0a82762fd3fa7e1c6c9d"
+    },
+    {
+      "path": ".local/stock-0.7/stock-script-overlay.png",
+      "bytes": 713056,
+      "sha256": "c8e127d1e10266f1ad200b3fcb3a4c4571ae8a0071a05cfbf21c777465ca9f0f"
+    },
+    {
+      "path": ".local/stock-0.7/stock-script-overlay-result.json",
+      "bytes": 2194,
+      "sha256": "ca78c76b05d8b60dbdf8482e2327293324f78dff2c14c69e0c2551b633d9db42"
+    },
+    {
+      "path": ".local/stock-0.7/stock-script-memory.log",
+      "bytes": 2662,
+      "sha256": "357f8f9c954952ce04967a4306db07cadecde7e5160cfea708cb61988cf0f1b4"
+    },
+    {
+      "path": ".local/stock-0.7/stock-script-memory.png",
+      "bytes": 693746,
+      "sha256": "370b5846571e49f9b8edda2d67efb706da122bdfae91967e4ea1deed70a6126d"
+    },
+    {
+      "path": ".local/stock-0.7/stock-script-memory-result.json",
+      "bytes": 3345,
+      "sha256": "c703242933c56a56660dd80ae0399bf41fc277ed4aea6cd188b4caf04faf313e"
+    },
+    {
+      "path": ".local/stock-0.7/stock-script-count.log",
+      "bytes": 6046,
+      "sha256": "62fb7984c044e35c08436393a726dbb345475cb29b2a85fc57552244cdb33c29"
+    },
+    {
+      "path": ".local/stock-0.7/stock-script-count.png",
+      "bytes": 693746,
+      "sha256": "370b5846571e49f9b8edda2d67efb706da122bdfae91967e4ea1deed70a6126d"
+    },
+    {
+      "path": ".local/stock-0.7/stock-script-count-result.json",
+      "bytes": 7410,
+      "sha256": "51a1868b59ee8584744522a272f12d37732af3a9fb1489969791e4ea5cc1f2f1"
+    },
+    {
+      "path": ".local/stock-0.7/stock-script-font.log",
+      "bytes": 1230,
+      "sha256": "baecae70af7926b6deafa4c097a5870736f55e6dc5f5bb4a26ae28052a0a5bb1"
+    },
+    {
+      "path": ".local/stock-0.7/stock-script-font.png",
+      "bytes": 688047,
+      "sha256": "268b42feca0c93fb8efe8aa698ed8abd3019fb50e41aa1dce85ed536d085c19e"
+    },
+    {
+      "path": ".local/stock-0.7/stock-script-font-result.json",
+      "bytes": 1739,
+      "sha256": "8236492202947201fe0e2cb4f6b00a606a697449b54d91309964412494f02f27"
+    },
+    {
+      "path": ".local/stock-0.7/final-inventory-verification.json",
+      "bytes": 224,
+      "sha256": "57b98a8074c3ceabb6ae71c247d4f51ab47fa3113e6809234cea91f30c2f958d"
+    }
+  ],
+  "final_inventory_verification": {
+    "runtime_files": 589,
+    "source_and_tool_files": 679,
+    "approved_subtargets_unchanged": 17,
+    "runtime_manifest_sha256": "8ef978007b866a3d8d111fba43698a34a68d2c970efb119902afaaf9232c5c98",
+    "live_hashes_match": true
+  },
+  "portable_probe_export": "All four rebuilt probes match the exact runtime-tested diagnostic mods byte-for-byte",
+  "release_packaging_guard": "--check refused release because status is hold (expected)",
+  "github_submission_manifest": "tracking/github-issues/submission-manifest.json"
+}

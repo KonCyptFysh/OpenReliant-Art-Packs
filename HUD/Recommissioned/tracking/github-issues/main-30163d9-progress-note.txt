@@ -1,0 +1,19 @@
+Local progress note, 8 October 2026. Not submitted.
+
+The rest of #832 has now landed in #868. I've got the radar, status displays,
+gauges, damage, power, wing status, objectives and comms using those readings
+in the normal HUD mod. The dev copy is unmodified main 30163d9.
+
+I've kept native subtargets for now because the part name is localized and I
+can't reliably map it to an icon class. The power percentages work; my triangle
+is a placeholder for the animated power ball. Gun rounds and the light flash/
+device-bar details from the earlier note still need a supported route.
+
+There is also a rendering issue to investigate: some scenes lose pieces of
+sprites and text without script errors. It isn't established whether that is
+our script or the renderer yet. I've kept the captures and controls rather
+than presenting it as a confirmed upstream bug.
+
+The six-size font reproduction in the earlier 240f075 note remains dated
+evidence; I haven't rerun that isolated probe on 30163d9. Separate font
+instances are still in use. Nothing has been sent upstream by this pass.

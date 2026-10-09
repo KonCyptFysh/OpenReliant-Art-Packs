@@ -1,0 +1,57 @@
+{
+  "checked_on": "2026-10-07",
+  "ion_cannon": {
+    "frame": 406,
+    "engine_icon": "0x196",
+    "art_status": "complete",
+    "deployment_status": "repository-and-live-byte-and-pixel-verified",
+    "source_filename": "frame_406.tga",
+    "runtime_filename": "rc_target_subtargets_frame_406.png",
+    "source_file_sha256": "4534a2d9ad59ecc97da54b5c4f6666d45fd6b2675935d5040a86e8c32391f0b9",
+    "runtime_file_sha256": "fc485d77d92a074994d3d922dbf2d4dc7f6e8497480489bc0d53ead841bfd95a",
+    "rgba_sha256": "1412d9065a0a5aabf99ab3061e48573350f91fda497cb333ebbd3510d9524f3b",
+    "dimensions": [
+      528,
+      416
+    ],
+    "editable_source_found": true,
+    "runtime_render_check": "Pixel identity and source mapping checked here; no new gameplay capture.",
+    "repository_source": "source/hud/target/subtargets/frame_406.tga",
+    "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_406.png",
+    "editable_base": "source/hud/target/subtargets/scenes/frame_406/frame_406.blend",
+    "editable_wireframe": "source/hud/target/subtargets/scenes/frame_406/frame_406_wireframe_setup.blend"
+  },
+  "fuel_pod": {
+    "frame": 410,
+    "engine_icon": "0x19A",
+    "replacement_present": false,
+    "status": "needs-review"
+  },
+  "source_mapping": "OpenReliant v0.7.0 src/engine/game/hud/target_display.zig named()",
+  "correction": "The historical checklist incorrectly called frame 410 Ion Cannon.",
+  "completed_set": {
+    "frames": [
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409
+    ],
+    "art_status": "finished-per-maintainer",
+    "deployment_status": "all-repository-and-live-byte-and-pixel-verified",
+    "audit": "finished-subtargets.json",
+    "historical_crop_review_399": "resolved-maintainer-confirmed-finished"
+  }
+}

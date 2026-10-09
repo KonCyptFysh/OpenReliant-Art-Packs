@@ -1,0 +1,21 @@
+{
+  "method": "SVG editorial composition using unchanged HUD export artwork; no generated artwork",
+  "assets": [
+    {
+      "file": "rc_wireframes_frame_123.png",
+      "sha256": "9c23bc6c8c1d7d8f8447b845191d1b96f4e513a40a50dbe8334f1fbc8e9111b5"
+    },
+    {
+      "file": "rc_wireframes_gunnery_floor.png",
+      "sha256": "f91d8d6a39aa3b0056b8bfbbcb0900a241fae94d3ac40ef61163b8b62e6dac85"
+    },
+    {
+      "file": "rc_gunnery_ship_wireframes_predator_wireframe.png",
+      "sha256": "3e62a768e656b01144f2b93350ed315dfdee5525d71f56b4ab7a734e532106f5"
+    },
+    {
+      "file": "rc_gunnery_ship_wireframes_predator_gun_group_1_on.png",
+      "sha256": "936c051dc875d7f0568f919ac73cda79f142e244f06f2c2c1c748565393661d1"
+    }
+  ]
+}

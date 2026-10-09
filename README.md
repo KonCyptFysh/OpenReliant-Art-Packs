@@ -19,7 +19,7 @@ The gallery provides in-game screenshots and rotatable model previews where avai
 
 ## Download only what you need
 
-Each released ship has its own ZIP and checksum. Install the ZIP's `mods` folder beside `resource.hog` in your existing game-data directory. Keep each mod's files flat inside its own folder. OpenReliant 0.7.0 and your own installed StarLancer copy are required. See [INSTALL.md](INSTALL.md).
+Each released ship has its own ZIP and checksum. Install the ZIP's `mods` folder beside `resource.hog` in your existing game-data directory. Keep each mod's files flat inside its own folder. Use the OpenReliant version listed for each pack and your own installed StarLancer copy. The HUD requires 0.8.1; existing ship packs target 0.7.0. See [INSTALL.md](INSTALL.md).
 
 Use the named ZIP from a release, not GitHub's automatic source-code archive. The hierarchy here is for browsing and editing; it is not copied wholesale into the game.
 

@@ -1,0 +1,128 @@
+{
+  "checked_on": "2026-10-08",
+  "status": "partial-hud-port-verified-and-deployed",
+  "upstream_issues": {
+    "793": {
+      "state": "closed",
+      "merged_pr": 833
+    },
+    "794": {
+      "state": "closed",
+      "merged_pr": 831
+    },
+    "832": {
+      "state": "open",
+      "reason": "Remaining instrument readings"
+    }
+  },
+  "normal_engine": {
+    "kind": "official-unmodified-release",
+    "reported_version": "0.7.0",
+    "upstream_tag": "v0.7.0",
+    "upstream_commit": "3b27f16779e53c03ccf177bfd2f9ec46a27bbfb7",
+    "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+    "launcher_sha256": "08de4140ac487d13a70c8e18511e611031dd77575f52c6f6a0e00cabe07102cf"
+  },
+  "test_engine": {
+    "kind": "unmodified-upstream-development-test-build",
+    "upstream_commit": "410d0a6df011181e87f3ad524f6d0bcdf68f2526",
+    "binary_sha256": "66a15a2b66fe5d1ab88eeda3aabdb64d43e72ba3b8a60b9b7a9c0c5e95ac1049",
+    "compiler": "Zig 0.17.0",
+    "optimization": "ReleaseSafe",
+    "changed_upstream_source_files": 0,
+    "private_engine_patch_applied": false,
+    "note": "Source archive build reports 0.7.0; commit and binary hash identify this newer upstream build."
+  },
+  "latest_published_release": "v0.7.0",
+  "runtime_files": 591,
+  "runtime_pngs": 585,
+  "source_and_tool_files": 686,
+  "asset_manifest_sha256": "bf2d7dc92634507ea2d5be4a614305ce18d193f8080c5ac490c3af5a0e1450ea",
+  "source_manifest_sha256": "cbe26bc4cc54b9796f2c8d3d726b18b8018ef816d8354a92862da6638072455b",
+  "existing_pngs_changed": 0,
+  "approved_subtargets_unchanged": 17,
+  "ion_cannon_frame": 406,
+  "nested_live_sources_unchanged": 775,
+  "live_hashes_match": true,
+  "review_hashes_match": true,
+  "normal_launcher_unchanged": true,
+  "layout_rectangles_verified": 90,
+  "image_cache_draws_passed": 1170,
+  "cases": [
+    {
+      "case": "upstream-1080-font-isolated",
+      "passed": true,
+      "result": ".local/upstream-port/upstream-1080-font-isolated.json",
+      "capture": ".local/upstream-port/upstream-1080-font-isolated.png",
+      "capture_sha256": "2315c7c170669329813cd8cfc4a699076e1dd76542b00f5c3ecfeccd32140fce"
+    },
+    {
+      "case": "upstream-720",
+      "passed": true,
+      "result": ".local/upstream-port/upstream-720.json",
+      "capture": ".local/upstream-port/upstream-720.png",
+      "capture_sha256": "abdf50779c39a48c1d8fabb356b39e07d9958ff86e08683e0b25a2e2b7aab34b"
+    },
+    {
+      "case": "upstream-full-guns",
+      "passed": true,
+      "result": ".local/upstream-port/upstream-full-guns.json",
+      "capture": ".local/upstream-port/upstream-full-guns.png",
+      "capture_sha256": "d64f0445d66e54322ce99bb44733037c0ee0653e41e5ee0c795c4b6ea36170cf"
+    },
+    {
+      "case": "upstream-ammo-fallback",
+      "passed": true,
+      "result": ".local/upstream-port/upstream-ammo-fallback.json",
+      "capture": ".local/upstream-port/upstream-ammo-fallback.png",
+      "capture_sha256": "e4c10ce899e627643edc0bf221f197172c93a793e27ab87a17f6e3f8236f0e87"
+    },
+    {
+      "case": "upstream-missing-art",
+      "passed": true,
+      "result": ".local/upstream-port/upstream-missing-art.json",
+      "capture": ".local/upstream-port/upstream-missing-art.png",
+      "capture_sha256": "e26acd1dbfce547e2bb21092f13fad1e8001b9f3e32734bc4ff9aed3ce688e17"
+    },
+    {
+      "case": "released-070-final",
+      "passed": true,
+      "result": ".local/upstream-port/released-070-final.json",
+      "capture": ".local/upstream-port/released-070-final.png",
+      "capture_sha256": "105d92407426532a63d8f985c05a4945c0e9d633d708f530439ee910fbf0f1b7"
+    },
+    {
+      "case": "upstream-cache-cycle",
+      "passed": true,
+      "result": ".local/upstream-port/upstream-cache-cycle.json",
+      "capture": ".local/upstream-port/upstream-cache-cycle.png",
+      "capture_sha256": "95d49db3cf80792f0421f4c8a8484a8d1c0c85723263fed24476d3e337943e4e"
+    },
+    {
+      "case": "review-deployed",
+      "passed": true,
+      "result": ".local/upstream-port/review-deployed.json",
+      "capture": ".local/upstream-port/review-deployed.png",
+      "capture_sha256": "2315c7c170669329813cd8cfc4a699076e1dd76542b00f5c3ecfeccd32140fce"
+    }
+  ],
+  "mod_workarounds": [
+    "One new picture decoded each frame before replacement is enabled",
+    "Separate native, weapon and counter font instances avoid the four-size atlas collision",
+    "Training ship IDs use their matching fighter art",
+    "Unsupported or missing artwork keeps the native instrument"
+  ],
+  "remaining": [
+    "Official release containing the new APIs",
+    "Custom radar and remaining panels blocked on full instrument readings (#832)",
+    "Live expendable gun-round count; native gunnery retained on Grendel/Wolverine/Reaper",
+    "Native warning flashes and panel transition fidelity",
+    "Gunnery floor mirror orientation",
+    "Interactive weapon switching, long missions, resizing and final gameplay QA",
+    "Existing 17 large-schematic jobs and fuel-pod frame 410 art work"
+  ],
+  "public_release": "hold",
+  "upstream_messages_posted": false,
+  "normal_profile_used_for_tests": false,
+  "evidence_policy": "Machine-specific paths and captures remain under ignored .local/. Portable records here name the tested revision and hashes."
+}

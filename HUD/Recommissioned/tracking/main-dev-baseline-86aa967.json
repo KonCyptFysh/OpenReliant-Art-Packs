@@ -1,0 +1,179 @@
+{
+  "checked_on": "2026-10-08",
+  "status": "current-main-built-tested-installed",
+  "main_check": {
+    "checked_at": "2026-10-08T07:42:52.175974+00:00",
+    "commit": "86aa967486e8e0191dbbd572acb8e894a30833f4",
+    "commit_date": "2026-10-08T07:22:10Z",
+    "subject": "feat: scripts read what the cockpit's instruments show, in any view (#864)"
+  },
+  "engine": {
+    "kind": "unmodified-upstream-development-test-build",
+    "upstream_commit": "86aa967486e8e0191dbbd572acb8e894a30833f4",
+    "binary_sha256": "f97fb35a429120c022e8b0076b1fda26c8b1bc9f73f9e51dae8eb480143e460f",
+    "compiler": "Zig 0.17.0",
+    "optimization": "ReleaseSafe",
+    "changed_upstream_source_files": 0,
+    "private_engine_patch_applied": false,
+    "note": "Source archive build reports 0.7.0; commit and binary hash identify this newer upstream build."
+  },
+  "runtime_files": 592,
+  "runtime_pngs": 586,
+  "source_and_tool_files": 699,
+  "runtime_changed_this_pass": false,
+  "asset_manifest_sha256": "3a4f5981470c618344f1078ce88e49046b6a82214aa5cab8cceb12b5b7a88347",
+  "source_manifest_sha256": "40f78620347b15920bec15cd23add0a9afd257d762c2925f72e5836dcfc09917",
+  "source_archive_sha256": "992f7e692bec8db8a2173137975254024c93d24d5a27eaf9c9592f65f8222612",
+  "upstream_source_files_checked": 655,
+  "approved_subtargets_unchanged": 17,
+  "ion_cannon_frame": 406,
+  "normal_launcher_unchanged": true,
+  "live_hashes_match": true,
+  "review_hashes_match": true,
+  "cases": [
+    {
+      "case": "hud-main-1080",
+      "passed": true,
+      "scope": "Coyote HUD at 1080p, byte-identical screenshot to prior development build",
+      "result": ".local/main-dev-86aa967/hud-main-1080.json",
+      "capture": ".local/main-dev-86aa967/hud-main-1080.png",
+      "capture_sha256": "51f3d13826ddd7cee381626c85b73a31f1789e74b6373637fe6cd8150cb5f52d"
+    },
+    {
+      "case": "hud-main-720",
+      "passed": true,
+      "scope": "Coyote HUD at 720p, byte-identical screenshot to prior development build",
+      "result": ".local/main-dev-86aa967/hud-main-720.json",
+      "capture": ".local/main-dev-86aa967/hud-main-720.png",
+      "capture_sha256": "852139fb49e2d0e585a45a674b1be0de5c6aa30ad15455ae0528229d884ad58a"
+    },
+    {
+      "case": "hud-main-full-guns",
+      "passed": true,
+      "scope": "Mirage FULL GUNS heading and no pairing bar",
+      "result": ".local/main-dev-86aa967/hud-main-full-guns.json",
+      "capture": ".local/main-dev-86aa967/hud-main-full-guns.png",
+      "capture_sha256": "2e60a8c1d563557532f4b8d9ed8904e1c27b95e19e66cd39a23b2869c3db13bc"
+    },
+    {
+      "case": "hud-main-rounds-fallback",
+      "passed": true,
+      "scope": "Wolverine retains native gunnery; no claim of interactive ammunition depletion testing",
+      "result": ".local/main-dev-86aa967/hud-main-rounds-fallback.json",
+      "capture": ".local/main-dev-86aa967/hud-main-rounds-fallback.png",
+      "capture_sha256": "e4c10ce899e627643edc0bf221f197172c93a793e27ab87a17f6e3f8236f0e87"
+    },
+    {
+      "case": "api-main-view-switch",
+      "passed": true,
+      "scope": "Readings available in cockpit and separate chase camera with instruments hidden; clock advances",
+      "result": ".local/main-dev-86aa967/api-main-view-switch.json",
+      "capture": ".local/main-dev-86aa967/api-main-view-switch.png",
+      "capture_sha256": "857418a4c2cb1656faa922268530ca0659ce83b756d389b18831116d8816da02"
+    },
+    {
+      "case": "hud-main-installed",
+      "passed": true,
+      "scope": "Installed development launcher and exact mod copy",
+      "result": ".local/main-dev-86aa967/hud-main-installed.json",
+      "capture": ".local/main-dev-86aa967/hud-main-installed.png",
+      "capture_sha256": "51f3d13826ddd7cee381626c85b73a31f1789e74b6373637fe6cd8150cb5f52d"
+    }
+  ],
+  "font_diagnostic": {
+    "confirmed_corruption": true,
+    "rows": [
+      {
+        "scale": 1,
+        "different_pixels": 1474,
+        "matches_control": false
+      },
+      {
+        "scale": 1.2,
+        "different_pixels": 2342,
+        "matches_control": false
+      },
+      {
+        "scale": 1.4,
+        "different_pixels": 0,
+        "matches_control": true
+      },
+      {
+        "scale": 1.6,
+        "different_pixels": 0,
+        "matches_control": true
+      },
+      {
+        "scale": 1.8,
+        "different_pixels": 0,
+        "matches_control": true
+      },
+      {
+        "scale": 2,
+        "different_pixels": 0,
+        "matches_control": true
+      }
+    ],
+    "scope": "Six sizes in one frame; same file bytes and draw parameters except font resource instance and x position.",
+    "result": ".local/main-dev-86aa967/font-main-six-sizes.json",
+    "capture": ".local/main-dev-86aa967/font-main-six-sizes.png",
+    "classification": "confirmed-current-upstream-bug",
+    "mod_workaround": "Separate font resource instances"
+  },
+  "new_apis_runtime_checked": [
+    "gauges",
+    "fuel",
+    "countermeasures",
+    "kills",
+    "ship_status",
+    "lights",
+    "clock",
+    "view_name",
+    "caption"
+  ],
+  "new_api_check_limit": "Read access and clock progression in a synthetic mission; not every dynamic warning, damage or device condition.",
+  "new_source_confirmed_gaps": [
+    {
+      "name": "Live gun rounds and pairing state",
+      "evidence": "src/scripting/instruments.zig Guns has group/groups/all/synchronised/gun/charge/full_charge, no rounds or paired boolean; objects.zig also has no live gun-round field."
+    },
+    {
+      "name": "Light presentation state",
+      "evidence": "lights returns names only. lightsShown uses IconTest.set and treats flashing icons as active, not the visible phase. No device charge in HUD fields; countermeasure readout is only a count."
+    },
+    {
+      "name": "Window and missile animation state",
+      "evidence": "open_windows returns names; missiles returns armed,left,ring. No native window phase/progress or ring interpolation."
+    },
+    {
+      "name": "Picture mirroring/source rectangles",
+      "evidence": "picture size/style support colour and alpha. Mod-side mirrored/cropped exports are a working alternative; convenience rather than a release blocker."
+    }
+  ],
+  "upstream_planned": [
+    "Radar contacts and target display (#832 part 2)",
+    "Damage, power, wingmen, objectives, comms and message lines (#832 part 3)"
+  ],
+  "remaining": [
+    "Official release containing the merged HUD APIs",
+    "Custom radar/target and remaining window readings planned in #832 parts 2 and 3",
+    "Port the now-available gauge, ship-status and light readings into our HUD",
+    "Live expendable gun rounds and paired-group state; native gunnery retained on Grendel/Wolverine/Reaper",
+    "Native warning visible phases, device charge bars and window/ring transition fidelity",
+    "Upstream shared-font corruption beyond four sizes; current separate-font mod workaround retained",
+    "Interactive weapon switching, wireframe/layout review, long missions, resizing and final gameplay QA",
+    "Existing 17 large-schematic jobs and fuel-pod frame 410 artwork"
+  ],
+  "author_note": "tracking/github-issues/main-86aa967-author-note.txt",
+  "author_evidence": "tracking/github-issues/main-86aa967-evidence.txt",
+  "editable_probes": "source/compatibility-probes/main-86aa967",
+  "feedback_bundle": ".local/main-dev-86aa967/hud-main-86aa967-feedback.zip",
+  "upstream_messages_posted": false,
+  "public_release": "hold",
+  "previous_engine_commit": "410d0a6df011181e87f3ad524f6d0bcdf68f2526",
+  "art_refinement_record": "tracking/gunnery-grid-orientation.json",
+  "installed_test_notes": [
+    "No script errors; normal screenshot exit code 0.",
+    "Five existing nested-folder warnings from the separate Mirage art mod, not the HUD. Other art mods were not changed."
+  ]
+}

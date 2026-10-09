@@ -1,0 +1,648 @@
+[
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_393/frame_393.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_393.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "993303c4b38890f27c25317a5ce716af3acce9138bbaaee79dfa32290df52ec8",
+    "original_sha256": "0667e0313763c23ba156af019b34fb02793d7bfa715e895ed9ec9f761332651e"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_393/frame_393_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_393.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "b67ad789786ca8a3126eacb9271346cfbbf47bc8dd0916688fedbd3003cdbdb9",
+    "original_sha256": "213ed52c4f4c292d41acd4734e25c1d27255510ab66cd6e5e3a0dd261628aebe"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_394/frame_394.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_394.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "4e4d34fad9bab74c3ae460eee179b8ff033ffd31aa77476d89f888db78f43713",
+    "original_sha256": "125d8f783fe909de4a19b87d10f1406831baaa683f2157169e1e3ac1b5c94206"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_394/frame_394_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_394.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "5da81e296618148d017096654b039fa12e99aa532b793681185e34de5e0e4bf0",
+    "original_sha256": "0e2b56aeba808530c2606495688172cfd52d82a1970f79613eafdda1fac55d8b"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_395/frame_395.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_395.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "71b12552e7de47d05fe5eb9dd015aa5a99c9469c0995ecb12c7441221c18254b",
+    "original_sha256": "772da97d6372212075d1ddbfb8185f1563aaecf50b179278582276b028459ad7"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_395/frame_395_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_395.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "645d8eda57ab7a642fdbbaeb0725dd17744070fd12a150903faf989c0827856c",
+    "original_sha256": "fb157c4c7127e36248a623c9ad881e865effb56fb85eb9c7a7d42169e1ba09f5"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_396/frame_396.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_396.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "c01211ae51e8d12f87244559d0e2a77a5f66f999f1dc40971cfd2fde9adf4add",
+    "original_sha256": "1cb091ba91fd6cd49450a3f52c2bab23de409d49b966b1459cbf2ba13d899e95"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_396/frame_396_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_396.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "7fd892b60cffaefc2b6b3f9d1df0fb613afdcb2526383358cd27962cdb397f27",
+    "original_sha256": "0def9e7df10f327e57ab79143f2d7236f69be671c5b6cc4af76ce439c642b487"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_397/frame_397.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_397.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "45cb8ad3f8476fe0a0d8750156188b82f30a2296834d35573ed750b35286309d",
+    "original_sha256": "d704a756050208acc3ba1eed0895fd101bbfc268620ebdd0c0a30a82d98e3146"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_397/frame_397_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_397.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "93856ea32fd3649f4d7a0d8e0587dc96f4840c0d43d0b613ed17a4a032de679e",
+    "original_sha256": "603d9208d0675b506cf89fbab84a65917baa1a73729856299c1a33652b3a2413"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_398/frame_398.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_398.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "084758619563b0c64348ec09e7cbcf5d0d9ff284a16885166a3946cbf3616bef",
+    "original_sha256": "17613d31da3d3c3b619638d1141dab70c94de8ad5f571c6fca5b8c2abd560290"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_398/frame_398_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_398.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "011aa549828ee31d8605279c4b73648aaaaf763e440b0885c325f2281549490a",
+    "original_sha256": "a3209e89942423de70e5779bd667ae03cffdb2e0895994eff8614c8fabea4c37"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_399/frame_399.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_399.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "10ff625f4e5ce6d606e47f08f3ab70835fcbdd029ad732e08ef736373ac881af",
+    "original_sha256": "b924eeff1a85b6ec3e2185886ca1f833bd9c5ce4539a2566c9919575a879faa7"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_399/frame_399_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_399.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "e6533b966206a960c8c65186f2df468ca7dacff91021467c5371b1fe3b84ae73",
+    "original_sha256": "084a26c66c2420647475a04199624c983fa3f9c09bea8a0e102c979ff34658b8"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_400/frame_400.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_400.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "20d1a74d2a130aaef3690a82156f34e57108b4bc71e9b6a012e8a549f3f2f2ca",
+    "original_sha256": "8c0445e85c554126bc25180261366b702deee2704932658389c09019e9ece552"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_400/frame_400_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_400.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "f95d1d20d3c1cc53e8b455a79f6c91bf8218763847ea27a5fa89c1e422812df2",
+    "original_sha256": "a240695ff560a729bbc25fcfb3bff8fcfb54bc22e4b01c18be792127e92a7582"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_401/frame_401.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_401.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "1f4606509a5834e197bb41c9d5375b7916459352b7dfa7edca4ea9bb31dbba8c",
+    "original_sha256": "255886a1c4ce70668df06e485c8300bf9944aaa958c22187cf1abc4d0f95cee2"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_401/frame_401_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_401.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "65e330babe712685df3dc433bdfe2149a5d52ed60221bc4599c429d60e4986d1",
+    "original_sha256": "46d7499abf248698ca3c0dce79636eb323a06f6c6e42b558ca5613493dbdcca2"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_402/frame_402.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_402.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "5341e4431fb080740751c1f5b866f72cd84acb4ca7358ab195e6da6ca8e73921",
+    "original_sha256": "85ccc861d19cb70fe722da6300094ac75a23327abbf013aa1907ff5336576f4d"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_402/frame_402_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_402.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "15652008dd572801cc88d69b4670cbe6fa255767963fbdf3114406a3900a3252",
+    "original_sha256": "3dcd3bb30ef1f00edc6bab808719be162a2545def54bfcf572e8362525b81ebf"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_403/frame_403.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_403.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "f6899d8e3adaee760d6c06a041e5da58b521a56f45bc47419f4d859612b973e7",
+    "original_sha256": "767a2e69f55070cc7b6dc83b861d5c791d96a313882c57a797166145d133b73b"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_403/frame_403_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_403.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "e4ee832b7f1a4c70e967404eb8d4b5fd01e2e84594323431af9ca28bb3d7f3c5",
+    "original_sha256": "17e5b2b3a49e374094846888e2d917f25c51f5af35af45b388adfcadbf0d9680"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_404/frame_404.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_404.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "3268c44586caf2a580d38049c7c4528bf43a84acbc21562df0023000a4150bad",
+    "original_sha256": "37f280ed81b4e996424e84ba39113d68d89c48b461520caf15a7efa44acf41a9"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_404/frame_404_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_404.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "0b99cd8e1ea717330fb1c38eaefa3efb90fb3bc0689fb0e64c6176a7fb1f7245",
+    "original_sha256": "4af3b76dce00316415f02e020d97bf4fa90dd81afcd56b3f9d722951e6dc516d"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_405/frame_405.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_405.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "360d651a50e2a48ffd011973f38b07a3d1aab77d2cd40b9dfd3bbfac2261fb43",
+    "original_sha256": "491411b43030c4122e29e0824da827dfd625ad00822736abbe9e6225056c131a"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_405/frame_405_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_405.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "05a153582b5d945cfde4d9de71993eaa8cb2c9baa5400af8c2759ed4e2ac4eb2",
+    "original_sha256": "14057d45c1f3a2b912362c43c05b08128e2159261d26403a95a5d6e5f7910054"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_406/frame_406.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_406.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "5c91d4b857ef13b3357bd7db3ff562c3dabdcd70276560ca56b11c3ec916356c",
+    "original_sha256": "8141f8aba14c7696f86f862c76d4e8ef8954a4aab822e6af23d516bf3b41d2d3"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_406/frame_406_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_406.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "33d33c97ae16e27321ee2ea70d56b4ca3729370ef489a0fceb90662e8572bc00",
+    "original_sha256": "802b5522e811d4857aa64bd082193cffb825297e407951000a5fd1c8d7f49b25"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_407/frame_407.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_407.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "b4c601f9d0e6f83ee58aa0da0b05a5e429b8f5d87b0165deab48bb398a491b77",
+    "original_sha256": "29cdb450e2a91603ec602edfdbe582f1570771b3303c68dfcca44c59e98a3423"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_407/frame_407_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_407.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "5ef1df9cb2deac817995e6d552f16bf0f14042192fd882e5de926bc222a4883f",
+    "original_sha256": "727516b6eb16a2790307e7a3b767af3834f2bfa5c475897cc7de41f99631800a"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_408/frame_408.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_408.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "e13c6e6edd60cb7860721f24e0b941a9412ca38f58db39da14f85b0567a84adb",
+    "original_sha256": "18405b95568de4e799332498b1e399be4e1b0cf7f80c52e16a7f822cdeadf037"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_408/frame_408_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_408.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "1c41270011cf25da7565bc77603b26aeb9a96a4da7008d88857410ccdb37ee76",
+    "original_sha256": "3f5f14207f7637cceeb56cc813ae302a1262f3591d82d7e4b98e1179f1115a30"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_409/frame_409.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_409.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "0b272479513748082b748401acf65b48c847cb798ae38c517901e503a0cc33da",
+    "original_sha256": "c73694803a897dcf2ca7a706441814dc24b48d28b68d34275294cd87bc64609d"
+  },
+  {
+    "path": "source/hud/target/subtargets/scenes/frame_409/frame_409_wireframe_setup.blend",
+    "portable_resources": true,
+    "packed_images": [
+      {
+        "name": "frame_409.png",
+        "packed": true,
+        "source": "FILE"
+      },
+      {
+        "name": "Render Result",
+        "packed": false,
+        "source": "VIEWER"
+      }
+    ],
+    "snapshot_adjusted_for_portability": true,
+    "sha256": "1be6461a710d2690138b91c320a07ecd2490f17f18a398d6c5dcf0207c8108c5",
+    "original_sha256": "82fdcdc91a1b9c93d289617cc74eb4026902a15847a2cefd11d0a993162928cc"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "version": "1.6",
+  "checked_on": "2026-10-09",
+  "engine_commit": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
+  "runtime_files": 924,
+  "changed_runtime": [
+    "hud_layout.ini",
+    "mod.ini",
+    "recommissioned.luau"
+  ],
+  "art_pngs_changed": 0,
+  "approved_subtargets_unchanged": 17,
+  "source_and_tool_files": 760,
+  "tests": [
+    "objectives-final",
+    "objectives-720",
+    "objectives-long-fitted",
+    "comms-numbering-1080",
+    "comms-numbering-720",
+    "comms-numbering-over-playing-portrait",
+    "comms-numbering-ten-options",
+    "interactive-native-comms",
+    "interactive-modded-comms",
+    "hd-whole-panel-quarter-scale-playing"
+  ],
+  "script_errors": 0,
+  "comms_policy": "Retain menu overlap and live input during portraits, per maintainer decision.",
+  "legacy_baseline": "Unmodified current OpenReliant with HUD disabled; original StarLancer executable not tested.",
+  "portrait_workaround": "Whole-radio 0.25 scaling verified; frame/emblem shrink too. Independent sizing unresolved. No HD films deployed.",
+  "source_manifest_sha256": "634988157e6cf8cea99578052b7ad34242c37da2a51917294c86b9a6ad4ef05b",
+  "runtime_manifest_sha256": "e0aa4ab5a13a09fb95f7b9d0cf2b13e27d68b331480c832f0e799befd6b4d1d9",
+  "deployment": {
+    "hud_version": "1.6",
+    "deployed_at": "20261009-033854",
+    "backup": "<OpenReliant-install>/backups/before-hud-1.6-20261009-033854",
+    "runtime_files": 924,
+    "runtime_manifest_sha256": "e0aa4ab5a13a09fb95f7b9d0cf2b13e27d68b331480c832f0e799befd6b4d1d9",
+    "deployed_hashes_match": true,
+    "engine_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
+    "engine_unchanged": true,
+    "launchers_unchanged": true,
+    "protected_nested_and_other_mod_files": 1099,
+    "nested_hud_sources_unchanged": 775,
+    "dev_test_profile_refreshed": true,
+    "public_release": "hold"
+  },
+  "public_release": "hold",
+  "posted_online": false
+}

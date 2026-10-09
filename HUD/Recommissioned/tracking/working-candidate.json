@@ -1,0 +1,44 @@
+{
+  "candidate": "HUD 1.8 refinement",
+  "checked_on": "2026-10-09",
+  "status": "deployed-working-candidate",
+  "engine": {
+    "kind": "unmodified-upstream-main",
+    "upstream_commit": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
+    "reported_version": "0.8.1",
+    "binary_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
+    "compiler": "Zig 0.17.0",
+    "optimization": "ReleaseSafe",
+    "changed_upstream_source_files": 0,
+    "private_engine_patch_applied": false
+  },
+  "official_release_smoke_test": "0.8.1",
+  "asset_manifest_sha256": "2c1febc2cacc6d42d25e3ac93a4f9367f6b2dd899071c1fce015d28cb2fb3076",
+  "source_manifest_sha256": "469c3a40d110671c524dba3b8da9cbbba8776e27f087cab34c00d3923e47f50e",
+  "runtime_files": 1154,
+  "runtime_pngs": 911,
+  "source_and_tool_files": 10151,
+  "runtime_changed": [
+    "hud_layout.ini",
+    "mod.ini",
+    "recommissioned.luau"
+  ],
+  "art_pngs_changed": 0,
+  "approved_subtargets_unchanged": 17,
+  "nested_sources_unchanged": 775,
+  "live_hashes_match": true,
+  "normal_launcher_updated": false,
+  "public_release": "hold",
+  "posted_online": false,
+  "evidence_directory": ".local/refinement-1.8/evidence",
+  "requires_0_8_api_migration": false,
+  "github_pushed": false,
+  "evidence_catalog": "tracking/refinement-1.8.json",
+  "current_refinement": "tracking/refinement-1.8.json",
+  "runtime_added": [
+    "HUDHARD_120.png",
+    "HUDHARD_121.png"
+  ],
+  "hd_portrait_films": 225,
+  "review_shell": "tracking/review-shell-1.8.json"
+}

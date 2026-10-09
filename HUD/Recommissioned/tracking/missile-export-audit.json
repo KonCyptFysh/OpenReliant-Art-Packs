@@ -1,0 +1,1442 @@
+[
+  {
+    "file": "rc_missiles_screamer_slot_00_gold.png",
+    "neutral_master": "source/hud/missiles/screamer/neutral_lod0.png",
+    "master_sha256": "9f2970cde12a31d823951334814256667db6926f73638a7dbbb3d24862f44f26",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "15f0bcc5705bbceb011d13c1d126267fb5056ad7a672a33195f72b54a7c47b44"
+  },
+  {
+    "file": "rc_missiles_screamer_slot_01_red.png",
+    "neutral_master": "source/hud/missiles/screamer/neutral_lod0.png",
+    "master_sha256": "9f2970cde12a31d823951334814256667db6926f73638a7dbbb3d24862f44f26",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "d0e9dbbaab9dd726a3958ad06d80e0fff7824dd157ef53fba8fadbd90b0b15b5"
+  },
+  {
+    "file": "rc_missiles_screamer_slot_02_red.png",
+    "neutral_master": "source/hud/missiles/screamer/neutral_lod0.png",
+    "master_sha256": "9f2970cde12a31d823951334814256667db6926f73638a7dbbb3d24862f44f26",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "bb797bc21f8bbcb1abdc72de8f6219d68da3ce771a52fa11e2231616790e26b1"
+  },
+  {
+    "file": "rc_missiles_screamer_slot_03_red.png",
+    "neutral_master": "source/hud/missiles/screamer/neutral_lod0.png",
+    "master_sha256": "9f2970cde12a31d823951334814256667db6926f73638a7dbbb3d24862f44f26",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "1df8a99559654ce14f76867593a40ea6177f5e184b382c1f7bf28426e82f3644"
+  },
+  {
+    "file": "rc_missiles_screamer_slot_04_red.png",
+    "neutral_master": "source/hud/missiles/screamer/neutral_lod0.png",
+    "master_sha256": "9f2970cde12a31d823951334814256667db6926f73638a7dbbb3d24862f44f26",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "ac39eb1af7a85a8fe41ffe3569e271deb0a8ffc6946a1eb175d74b58ef90a22e"
+  },
+  {
+    "file": "rc_missiles_screamer_slot_05_red.png",
+    "neutral_master": "source/hud/missiles/screamer/neutral_lod0.png",
+    "master_sha256": "9f2970cde12a31d823951334814256667db6926f73638a7dbbb3d24862f44f26",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "05351c2b22d9a99a47d710f18d5f6be927732d4339a1493175df195e01088c20"
+  },
+  {
+    "file": "rc_missiles_screamer_slot_06_red.png",
+    "neutral_master": "source/hud/missiles/screamer/neutral_lod0.png",
+    "master_sha256": "9f2970cde12a31d823951334814256667db6926f73638a7dbbb3d24862f44f26",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "106ba828ebf7c9f05c6a5f598bdb96c72b8341f6dacdea547f5fce2d92d5ba53"
+  },
+  {
+    "file": "rc_missiles_screamer_slot_07_red.png",
+    "neutral_master": "source/hud/missiles/screamer/neutral_lod0.png",
+    "master_sha256": "9f2970cde12a31d823951334814256667db6926f73638a7dbbb3d24862f44f26",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "76af670b9bebcee931dc40e6d095c924aa980f35b336243f4a290da684b35ac7"
+  },
+  {
+    "file": "rc_missiles_screamer_slot_08_red.png",
+    "neutral_master": "source/hud/missiles/screamer/neutral_lod0.png",
+    "master_sha256": "9f2970cde12a31d823951334814256667db6926f73638a7dbbb3d24862f44f26",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "fbbd1e5382e303ce2bdd895f1602e020096af36a4e76327d2994eca425429f72"
+  },
+  {
+    "file": "rc_missiles_screamer_slot_09_red.png",
+    "neutral_master": "source/hud/missiles/screamer/neutral_lod0.png",
+    "master_sha256": "9f2970cde12a31d823951334814256667db6926f73638a7dbbb3d24862f44f26",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "e44dd42ec5311d184eb875f0bdb5bf38eb7b3819ff43101812bf6edd9dd4ac55"
+  },
+  {
+    "file": "rc_missiles_raptor_slot_00_gold.png",
+    "neutral_master": "source/hud/missiles/raptor/neutral_lod0.png",
+    "master_sha256": "1c8a10a38c9f481658c77f07451d779da17d7ec4fbfa9f53b3ba19374a7c1ccd",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "c048a7e56c50a5e5d03906773bf73da90ab6a560ee2b5beb4a08d5a7d707694e"
+  },
+  {
+    "file": "rc_missiles_raptor_slot_01_red.png",
+    "neutral_master": "source/hud/missiles/raptor/neutral_lod0.png",
+    "master_sha256": "1c8a10a38c9f481658c77f07451d779da17d7ec4fbfa9f53b3ba19374a7c1ccd",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "5ead0fac9c01ad5fe0246ae4caf97bfd579ae96ff87147e2052519ef5d7e9a86"
+  },
+  {
+    "file": "rc_missiles_raptor_slot_02_red.png",
+    "neutral_master": "source/hud/missiles/raptor/neutral_lod0.png",
+    "master_sha256": "1c8a10a38c9f481658c77f07451d779da17d7ec4fbfa9f53b3ba19374a7c1ccd",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "ac2b8185a877a50b3de28b6e93a1a703718ac33fb3eb41b8a81f8a583b5e4f37"
+  },
+  {
+    "file": "rc_missiles_raptor_slot_03_red.png",
+    "neutral_master": "source/hud/missiles/raptor/neutral_lod0.png",
+    "master_sha256": "1c8a10a38c9f481658c77f07451d779da17d7ec4fbfa9f53b3ba19374a7c1ccd",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "3bb13a7ee1099d6d6bf558e99eb1bff19bb7498d69ff231eab408cff916c36f6"
+  },
+  {
+    "file": "rc_missiles_raptor_slot_04_red.png",
+    "neutral_master": "source/hud/missiles/raptor/neutral_lod0.png",
+    "master_sha256": "1c8a10a38c9f481658c77f07451d779da17d7ec4fbfa9f53b3ba19374a7c1ccd",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "4da5ff49a45ccc654c153af09fe71d185dea0d50d1d6919baf2a3ac208854ac2"
+  },
+  {
+    "file": "rc_missiles_raptor_slot_05_red.png",
+    "neutral_master": "source/hud/missiles/raptor/neutral_lod0.png",
+    "master_sha256": "1c8a10a38c9f481658c77f07451d779da17d7ec4fbfa9f53b3ba19374a7c1ccd",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "7e5b603115f0efc470e98c8f46eff8478e47570c0467819efc904f3c1ea181d8"
+  },
+  {
+    "file": "rc_missiles_raptor_slot_06_red.png",
+    "neutral_master": "source/hud/missiles/raptor/neutral_lod0.png",
+    "master_sha256": "1c8a10a38c9f481658c77f07451d779da17d7ec4fbfa9f53b3ba19374a7c1ccd",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "04828b2a42d6555c3f3b44928574f34f166f4b6223e2372e7a05b71bc54d6c77"
+  },
+  {
+    "file": "rc_missiles_raptor_slot_07_red.png",
+    "neutral_master": "source/hud/missiles/raptor/neutral_lod0.png",
+    "master_sha256": "1c8a10a38c9f481658c77f07451d779da17d7ec4fbfa9f53b3ba19374a7c1ccd",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "12c64fa55cf22567eb56e8795a7528eb4c8f71fcf2fcb2ac463096354fc0f44b"
+  },
+  {
+    "file": "rc_missiles_raptor_slot_08_red.png",
+    "neutral_master": "source/hud/missiles/raptor/neutral_lod0.png",
+    "master_sha256": "1c8a10a38c9f481658c77f07451d779da17d7ec4fbfa9f53b3ba19374a7c1ccd",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "1c4d78bdc520f6e190d188301dc42f2bf4f115a4efa244db6f06e2121baad670"
+  },
+  {
+    "file": "rc_missiles_raptor_slot_09_red.png",
+    "neutral_master": "source/hud/missiles/raptor/neutral_lod0.png",
+    "master_sha256": "1c8a10a38c9f481658c77f07451d779da17d7ec4fbfa9f53b3ba19374a7c1ccd",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "7fe065dae27ed90aec10ac78287fbb7e93751d761d56bfbaea6288c7a7d30997"
+  },
+  {
+    "file": "rc_missiles_havoc_slot_00_gold.png",
+    "neutral_master": "source/hud/missiles/havoc/neutral_lod0.png",
+    "master_sha256": "75d9318aec52aff2926751e697b0c5861673c18ffdb3697ae54efb56f7a67673",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "27b5451238cfd605bd81c0f102a8783267b19704015d2aa1d74477fe093ebee8"
+  },
+  {
+    "file": "rc_missiles_havoc_slot_01_red.png",
+    "neutral_master": "source/hud/missiles/havoc/neutral_lod0.png",
+    "master_sha256": "75d9318aec52aff2926751e697b0c5861673c18ffdb3697ae54efb56f7a67673",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "5ca95786cfabcaec3c5d9d69bd00c3082854296876588ff489c28618a4bfa6ed"
+  },
+  {
+    "file": "rc_missiles_havoc_slot_02_red.png",
+    "neutral_master": "source/hud/missiles/havoc/neutral_lod0.png",
+    "master_sha256": "75d9318aec52aff2926751e697b0c5861673c18ffdb3697ae54efb56f7a67673",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "b1966c9499ff81b0ffc77034551b7cf18e9c4ac3270bd13f14206ea5c70108ba"
+  },
+  {
+    "file": "rc_missiles_havoc_slot_03_red.png",
+    "neutral_master": "source/hud/missiles/havoc/neutral_lod0.png",
+    "master_sha256": "75d9318aec52aff2926751e697b0c5861673c18ffdb3697ae54efb56f7a67673",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "fdfdbb7cc5361364435d665ead4ab3516d926a2225c996f526db046ff5e443f5"
+  },
+  {
+    "file": "rc_missiles_havoc_slot_04_red.png",
+    "neutral_master": "source/hud/missiles/havoc/neutral_lod0.png",
+    "master_sha256": "75d9318aec52aff2926751e697b0c5861673c18ffdb3697ae54efb56f7a67673",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "60e2d0c394471970ea4d461f242fefdc39b3144d28b13cea63867e74297895fd"
+  },
+  {
+    "file": "rc_missiles_havoc_slot_05_red.png",
+    "neutral_master": "source/hud/missiles/havoc/neutral_lod0.png",
+    "master_sha256": "75d9318aec52aff2926751e697b0c5861673c18ffdb3697ae54efb56f7a67673",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "8ff7af191f6e0154e19ff188cbb09dd2d4eeccde542e8f32f72a7749f76572c2"
+  },
+  {
+    "file": "rc_missiles_havoc_slot_06_red.png",
+    "neutral_master": "source/hud/missiles/havoc/neutral_lod0.png",
+    "master_sha256": "75d9318aec52aff2926751e697b0c5861673c18ffdb3697ae54efb56f7a67673",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "847e4931621e85aee50a7e5479c51392c292bfa3c84b5e902410d9945710616f"
+  },
+  {
+    "file": "rc_missiles_havoc_slot_07_red.png",
+    "neutral_master": "source/hud/missiles/havoc/neutral_lod0.png",
+    "master_sha256": "75d9318aec52aff2926751e697b0c5861673c18ffdb3697ae54efb56f7a67673",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "09af8291e8bd02d12e7a1fbaa2f77521b5f1bcd1fdea7df120bac6e7dfe434e5"
+  },
+  {
+    "file": "rc_missiles_havoc_slot_08_red.png",
+    "neutral_master": "source/hud/missiles/havoc/neutral_lod0.png",
+    "master_sha256": "75d9318aec52aff2926751e697b0c5861673c18ffdb3697ae54efb56f7a67673",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "4d7795264198e70773118b98a6e7cc874fdde64ccd2243ded0fc29b95470e863"
+  },
+  {
+    "file": "rc_missiles_havoc_slot_09_red.png",
+    "neutral_master": "source/hud/missiles/havoc/neutral_lod0.png",
+    "master_sha256": "75d9318aec52aff2926751e697b0c5861673c18ffdb3697ae54efb56f7a67673",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "18f5efebfc504ab2d3194e53fb531fdd767c4749489dab02dccaf9b1d6cb6d68"
+  },
+  {
+    "file": "rc_missiles_jackhammer_slot_00_gold.png",
+    "neutral_master": "source/hud/missiles/jackhammer/neutral_lod0.png",
+    "master_sha256": "5718a570e6ff74335479222387e6a64f543319d0626824f5d5212f4dfd7417a9",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "5adb1597834d784c07f1ae34043d3477359f17347e276669eb77b981f0109bb1"
+  },
+  {
+    "file": "rc_missiles_jackhammer_slot_01_red.png",
+    "neutral_master": "source/hud/missiles/jackhammer/neutral_lod0.png",
+    "master_sha256": "5718a570e6ff74335479222387e6a64f543319d0626824f5d5212f4dfd7417a9",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "4082ec280516d98c26311058fbd15057298dd83a09a37b7673541a41103bf8aa"
+  },
+  {
+    "file": "rc_missiles_jackhammer_slot_02_red.png",
+    "neutral_master": "source/hud/missiles/jackhammer/neutral_lod0.png",
+    "master_sha256": "5718a570e6ff74335479222387e6a64f543319d0626824f5d5212f4dfd7417a9",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "67fc83fe8f2edae32c76ab48b00b5b6cf8bbcbe20f5f0f4c017df364e606f19d"
+  },
+  {
+    "file": "rc_missiles_jackhammer_slot_03_red.png",
+    "neutral_master": "source/hud/missiles/jackhammer/neutral_lod0.png",
+    "master_sha256": "5718a570e6ff74335479222387e6a64f543319d0626824f5d5212f4dfd7417a9",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "be0f544c4d796e4eacd009db5027e4893594a8edee715f566cc502ac063fc2b6"
+  },
+  {
+    "file": "rc_missiles_jackhammer_slot_04_red.png",
+    "neutral_master": "source/hud/missiles/jackhammer/neutral_lod0.png",
+    "master_sha256": "5718a570e6ff74335479222387e6a64f543319d0626824f5d5212f4dfd7417a9",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "18dabbb22586138202dba429e1c2a4193d213643c3cd86eedbad14992dab2a52"
+  },
+  {
+    "file": "rc_missiles_jackhammer_slot_05_red.png",
+    "neutral_master": "source/hud/missiles/jackhammer/neutral_lod0.png",
+    "master_sha256": "5718a570e6ff74335479222387e6a64f543319d0626824f5d5212f4dfd7417a9",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "f6ad6c09ae289dd70db6d529402635e3067b11ec92e6cbcbf06518a06e3d21b3"
+  },
+  {
+    "file": "rc_missiles_jackhammer_slot_06_red.png",
+    "neutral_master": "source/hud/missiles/jackhammer/neutral_lod0.png",
+    "master_sha256": "5718a570e6ff74335479222387e6a64f543319d0626824f5d5212f4dfd7417a9",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "5ab2d2c9d8e33bba3c036a4f221f85752316a9cb02ba63d236e949404c0afc91"
+  },
+  {
+    "file": "rc_missiles_jackhammer_slot_07_red.png",
+    "neutral_master": "source/hud/missiles/jackhammer/neutral_lod0.png",
+    "master_sha256": "5718a570e6ff74335479222387e6a64f543319d0626824f5d5212f4dfd7417a9",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "9154143442d9c2fbda2843c97ffe3eb113b5a616c863349fb9d83243def7b5d4"
+  },
+  {
+    "file": "rc_missiles_jackhammer_slot_08_red.png",
+    "neutral_master": "source/hud/missiles/jackhammer/neutral_lod0.png",
+    "master_sha256": "5718a570e6ff74335479222387e6a64f543319d0626824f5d5212f4dfd7417a9",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "8d916a68ee36e443998a9f1897f92983155940bcbdd7fb2e4bb33c322cb9210c"
+  },
+  {
+    "file": "rc_missiles_jackhammer_slot_09_red.png",
+    "neutral_master": "source/hud/missiles/jackhammer/neutral_lod0.png",
+    "master_sha256": "5718a570e6ff74335479222387e6a64f543319d0626824f5d5212f4dfd7417a9",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "66682a31d56de789f5f33e6cf16ce980a13f055cc8144d13b7c3c722c85d3dac"
+  },
+  {
+    "file": "rc_missiles_bandit_slot_00_gold.png",
+    "neutral_master": "source/hud/missiles/bandit/neutral_lod0.png",
+    "master_sha256": "ffddd957e27cae031a919033d2dd9e7c79a3b952c646d04400ac14ca28ff5b58",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "fbff68cc5413a16f819b789113529a6c356c09d9861b9455c024d5d63e7e5e9d"
+  },
+  {
+    "file": "rc_missiles_bandit_slot_01_red.png",
+    "neutral_master": "source/hud/missiles/bandit/neutral_lod0.png",
+    "master_sha256": "ffddd957e27cae031a919033d2dd9e7c79a3b952c646d04400ac14ca28ff5b58",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "05baae2439a53f1ce435ff2436098ee2db988c82d3a15ed3c8f9e521b93abed6"
+  },
+  {
+    "file": "rc_missiles_bandit_slot_02_red.png",
+    "neutral_master": "source/hud/missiles/bandit/neutral_lod0.png",
+    "master_sha256": "ffddd957e27cae031a919033d2dd9e7c79a3b952c646d04400ac14ca28ff5b58",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "9411289ee1872463f80e442b96386ab4e3c80e7f9494bf41f8f0a8101874b49b"
+  },
+  {
+    "file": "rc_missiles_bandit_slot_03_red.png",
+    "neutral_master": "source/hud/missiles/bandit/neutral_lod0.png",
+    "master_sha256": "ffddd957e27cae031a919033d2dd9e7c79a3b952c646d04400ac14ca28ff5b58",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "b48d8d9945651f851bef076b557de0a92ec5597757b80eb430b85a60715282c3"
+  },
+  {
+    "file": "rc_missiles_bandit_slot_04_red.png",
+    "neutral_master": "source/hud/missiles/bandit/neutral_lod0.png",
+    "master_sha256": "ffddd957e27cae031a919033d2dd9e7c79a3b952c646d04400ac14ca28ff5b58",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "99b4df6105f35d19f2a32c5fb0be5fbd58aa39cbca86e5028aaf525bdc1718fe"
+  },
+  {
+    "file": "rc_missiles_bandit_slot_05_red.png",
+    "neutral_master": "source/hud/missiles/bandit/neutral_lod0.png",
+    "master_sha256": "ffddd957e27cae031a919033d2dd9e7c79a3b952c646d04400ac14ca28ff5b58",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "b95a3fed62559a5000cc272c6d4395475ab9bc0d6ea638ecb2be36d4cac183e5"
+  },
+  {
+    "file": "rc_missiles_bandit_slot_06_red.png",
+    "neutral_master": "source/hud/missiles/bandit/neutral_lod0.png",
+    "master_sha256": "ffddd957e27cae031a919033d2dd9e7c79a3b952c646d04400ac14ca28ff5b58",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "ce618ebff2dc2866a81734149b335a15c48624b5b6943985d14b56ee51ac682a"
+  },
+  {
+    "file": "rc_missiles_bandit_slot_07_red.png",
+    "neutral_master": "source/hud/missiles/bandit/neutral_lod0.png",
+    "master_sha256": "ffddd957e27cae031a919033d2dd9e7c79a3b952c646d04400ac14ca28ff5b58",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "910b14905ec1536f6e6f0e4c566b8ea092a1bbf525758e15a092062c0244a48f"
+  },
+  {
+    "file": "rc_missiles_bandit_slot_08_red.png",
+    "neutral_master": "source/hud/missiles/bandit/neutral_lod0.png",
+    "master_sha256": "ffddd957e27cae031a919033d2dd9e7c79a3b952c646d04400ac14ca28ff5b58",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "2ee94f7aef3f53e3cc6b2ab26a4ccfec3d55d7d45541858b6ef98ad98daf5bd5"
+  },
+  {
+    "file": "rc_missiles_bandit_slot_09_red.png",
+    "neutral_master": "source/hud/missiles/bandit/neutral_lod0.png",
+    "master_sha256": "ffddd957e27cae031a919033d2dd9e7c79a3b952c646d04400ac14ca28ff5b58",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "6836d27d0da224713d37a5ef8f59436f7f9c4bf4e352734436634d1204ed43e7"
+  },
+  {
+    "file": "rc_missiles_vagabond_slot_00_gold.png",
+    "neutral_master": "source/hud/missiles/vagabond/neutral_lod0.png",
+    "master_sha256": "1d23582652ed77b68e2f10f1f517eb6ac27be6f81d94fa8f28cf7eba96247d04",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "86a3664614c342de883229403fc1b7eba3078157f495d114f4e91bd2699e17d4"
+  },
+  {
+    "file": "rc_missiles_vagabond_slot_01_red.png",
+    "neutral_master": "source/hud/missiles/vagabond/neutral_lod0.png",
+    "master_sha256": "1d23582652ed77b68e2f10f1f517eb6ac27be6f81d94fa8f28cf7eba96247d04",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "5c41e393465513ca3a159716b80b123ca225a44090f148d9c8b82972a5ccb5ee"
+  },
+  {
+    "file": "rc_missiles_vagabond_slot_02_red.png",
+    "neutral_master": "source/hud/missiles/vagabond/neutral_lod0.png",
+    "master_sha256": "1d23582652ed77b68e2f10f1f517eb6ac27be6f81d94fa8f28cf7eba96247d04",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "68dec72be9b91f5ea75b3df01e0c2e1d7967e4306e5adc85ce24355729ea54d0"
+  },
+  {
+    "file": "rc_missiles_vagabond_slot_03_red.png",
+    "neutral_master": "source/hud/missiles/vagabond/neutral_lod0.png",
+    "master_sha256": "1d23582652ed77b68e2f10f1f517eb6ac27be6f81d94fa8f28cf7eba96247d04",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "5f8a3e37563c6cb4c78f05fd3f339bcea4e31c28ef592384b6e743c6d595738e"
+  },
+  {
+    "file": "rc_missiles_vagabond_slot_04_red.png",
+    "neutral_master": "source/hud/missiles/vagabond/neutral_lod0.png",
+    "master_sha256": "1d23582652ed77b68e2f10f1f517eb6ac27be6f81d94fa8f28cf7eba96247d04",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "1620e2eff8231ab90c61d0c4d88e03fad6fec427450b3b9480bde96ee5f9ef7b"
+  },
+  {
+    "file": "rc_missiles_vagabond_slot_05_red.png",
+    "neutral_master": "source/hud/missiles/vagabond/neutral_lod0.png",
+    "master_sha256": "1d23582652ed77b68e2f10f1f517eb6ac27be6f81d94fa8f28cf7eba96247d04",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "3ab4dff49853cc4713696ad160618638d730d2c7b56da2186e51ce322c23fdb3"
+  },
+  {
+    "file": "rc_missiles_vagabond_slot_06_red.png",
+    "neutral_master": "source/hud/missiles/vagabond/neutral_lod0.png",
+    "master_sha256": "1d23582652ed77b68e2f10f1f517eb6ac27be6f81d94fa8f28cf7eba96247d04",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "3f21def35ba942f941aa0e1928e05a634bcb7ae51d6a3638783fc54df0a4bc47"
+  },
+  {
+    "file": "rc_missiles_vagabond_slot_07_red.png",
+    "neutral_master": "source/hud/missiles/vagabond/neutral_lod0.png",
+    "master_sha256": "1d23582652ed77b68e2f10f1f517eb6ac27be6f81d94fa8f28cf7eba96247d04",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "d1810203a16b86bbae541c4708e827151d16c9e15b9aeb9787c2fa6ecf495f7e"
+  },
+  {
+    "file": "rc_missiles_vagabond_slot_08_red.png",
+    "neutral_master": "source/hud/missiles/vagabond/neutral_lod0.png",
+    "master_sha256": "1d23582652ed77b68e2f10f1f517eb6ac27be6f81d94fa8f28cf7eba96247d04",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "f0e04fd95f75520a8c6d720e434e3d2bec3092a807dc8888e2389198bb9f46cb"
+  },
+  {
+    "file": "rc_missiles_vagabond_slot_09_red.png",
+    "neutral_master": "source/hud/missiles/vagabond/neutral_lod0.png",
+    "master_sha256": "1d23582652ed77b68e2f10f1f517eb6ac27be6f81d94fa8f28cf7eba96247d04",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "44a4e5b4fed34dbe410168bd06737cb4d8f4b0b729bfa5a4773bb3dad6b38ac5"
+  },
+  {
+    "file": "rc_missiles_solomon_slot_00_gold.png",
+    "neutral_master": "source/hud/missiles/solomon/neutral_lod0.png",
+    "master_sha256": "7aca1b0678d6f039f222d2d10e810b52b7ed1f4edd3c94f8cb31f6dfd649315c",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "0582ef6b4cb0594b60e8aeb0a6ec8abcb6dec95a1c4bf9af208c4f1bc2e8af5d"
+  },
+  {
+    "file": "rc_missiles_solomon_slot_01_red.png",
+    "neutral_master": "source/hud/missiles/solomon/neutral_lod0.png",
+    "master_sha256": "7aca1b0678d6f039f222d2d10e810b52b7ed1f4edd3c94f8cb31f6dfd649315c",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "5c93524a108efc53b49bdc491a0042bdbfd4e4e9ba3a51e30f734e24e097963c"
+  },
+  {
+    "file": "rc_missiles_solomon_slot_02_red.png",
+    "neutral_master": "source/hud/missiles/solomon/neutral_lod0.png",
+    "master_sha256": "7aca1b0678d6f039f222d2d10e810b52b7ed1f4edd3c94f8cb31f6dfd649315c",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "7feab26f1116def264e8394eb49d409944007f7fb5255023620eff1c30b773db"
+  },
+  {
+    "file": "rc_missiles_solomon_slot_03_red.png",
+    "neutral_master": "source/hud/missiles/solomon/neutral_lod0.png",
+    "master_sha256": "7aca1b0678d6f039f222d2d10e810b52b7ed1f4edd3c94f8cb31f6dfd649315c",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "9f86f407659c04b3533b205e7b2a05f7c9d16b8dcd97b7309863c6fd2f688b39"
+  },
+  {
+    "file": "rc_missiles_solomon_slot_04_red.png",
+    "neutral_master": "source/hud/missiles/solomon/neutral_lod0.png",
+    "master_sha256": "7aca1b0678d6f039f222d2d10e810b52b7ed1f4edd3c94f8cb31f6dfd649315c",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "996b4738fcbd57080cd67cf10642132ed283e276666c7f226bd3dc27e598908c"
+  },
+  {
+    "file": "rc_missiles_solomon_slot_05_red.png",
+    "neutral_master": "source/hud/missiles/solomon/neutral_lod0.png",
+    "master_sha256": "7aca1b0678d6f039f222d2d10e810b52b7ed1f4edd3c94f8cb31f6dfd649315c",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "ef579ace0c05b4b1f7afc7068e76cf3fc37db1aa17d87fb32794be5b3fb9af30"
+  },
+  {
+    "file": "rc_missiles_solomon_slot_06_red.png",
+    "neutral_master": "source/hud/missiles/solomon/neutral_lod0.png",
+    "master_sha256": "7aca1b0678d6f039f222d2d10e810b52b7ed1f4edd3c94f8cb31f6dfd649315c",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "b27842ec810d4083b3d341dcb08ad7eed3a6e772c2fdb525863d2e31785825da"
+  },
+  {
+    "file": "rc_missiles_solomon_slot_07_red.png",
+    "neutral_master": "source/hud/missiles/solomon/neutral_lod0.png",
+    "master_sha256": "7aca1b0678d6f039f222d2d10e810b52b7ed1f4edd3c94f8cb31f6dfd649315c",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "4dd65d9c0fe37dfcbec0d2fb5cb4326d999a5c342c9fdecb53af21abe8d9a9ad"
+  },
+  {
+    "file": "rc_missiles_solomon_slot_08_red.png",
+    "neutral_master": "source/hud/missiles/solomon/neutral_lod0.png",
+    "master_sha256": "7aca1b0678d6f039f222d2d10e810b52b7ed1f4edd3c94f8cb31f6dfd649315c",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "7b1503ca5963418b92b8d4578ac55324948f176797a7eec20ab16e12762ee2f6"
+  },
+  {
+    "file": "rc_missiles_solomon_slot_09_red.png",
+    "neutral_master": "source/hud/missiles/solomon/neutral_lod0.png",
+    "master_sha256": "7aca1b0678d6f039f222d2d10e810b52b7ed1f4edd3c94f8cb31f6dfd649315c",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "eb79a5056036705c8d502e5c9ffe16bca93760138f4ae6498cc06a1c7afe1437"
+  },
+  {
+    "file": "rc_missiles_hawk_slot_00_gold.png",
+    "neutral_master": "source/hud/missiles/hawk/neutral_lod0.png",
+    "master_sha256": "00e2b40020e50e59b87b036098500b7c23114f492213f2a1d8ad818d2e5dd264",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "fb1c19977a7d1dd944dcb4699fb61c7e67b2ef061c7aa1df38f756ed9747c8d1"
+  },
+  {
+    "file": "rc_missiles_hawk_slot_01_red.png",
+    "neutral_master": "source/hud/missiles/hawk/neutral_lod0.png",
+    "master_sha256": "00e2b40020e50e59b87b036098500b7c23114f492213f2a1d8ad818d2e5dd264",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "4387186624ae5338db9bf3281c1a2506fba8bca76b543f9d98bc984307643805"
+  },
+  {
+    "file": "rc_missiles_hawk_slot_02_red.png",
+    "neutral_master": "source/hud/missiles/hawk/neutral_lod0.png",
+    "master_sha256": "00e2b40020e50e59b87b036098500b7c23114f492213f2a1d8ad818d2e5dd264",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "1439fde4783f711838a322bc3b89bf05a1dacd67fca122ed6b7078895c1f4242"
+  },
+  {
+    "file": "rc_missiles_hawk_slot_03_red.png",
+    "neutral_master": "source/hud/missiles/hawk/neutral_lod0.png",
+    "master_sha256": "00e2b40020e50e59b87b036098500b7c23114f492213f2a1d8ad818d2e5dd264",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "05d6ee0293efd418b458031344e1df6cfbfea46acfd82bfc9f2c3b619fc844cb"
+  },
+  {
+    "file": "rc_missiles_hawk_slot_04_red.png",
+    "neutral_master": "source/hud/missiles/hawk/neutral_lod0.png",
+    "master_sha256": "00e2b40020e50e59b87b036098500b7c23114f492213f2a1d8ad818d2e5dd264",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "1527afbfc7a644e1178c4908ea6ffa23f5e7fb2bcdc331c069523f4e7c394c00"
+  },
+  {
+    "file": "rc_missiles_hawk_slot_05_red.png",
+    "neutral_master": "source/hud/missiles/hawk/neutral_lod0.png",
+    "master_sha256": "00e2b40020e50e59b87b036098500b7c23114f492213f2a1d8ad818d2e5dd264",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "a927db5e287db7670ff1f584b3b516f2582c3732b1d02e8dba197996c9a83805"
+  },
+  {
+    "file": "rc_missiles_hawk_slot_06_red.png",
+    "neutral_master": "source/hud/missiles/hawk/neutral_lod0.png",
+    "master_sha256": "00e2b40020e50e59b87b036098500b7c23114f492213f2a1d8ad818d2e5dd264",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "9f2b3dade17e12d22445f7fc90c50dfbe74af8354e558f66cfa8074cfa8a031d"
+  },
+  {
+    "file": "rc_missiles_hawk_slot_07_red.png",
+    "neutral_master": "source/hud/missiles/hawk/neutral_lod0.png",
+    "master_sha256": "00e2b40020e50e59b87b036098500b7c23114f492213f2a1d8ad818d2e5dd264",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "b71344d760a6ebd1dadde90ebb5562981914e8903ba7b17ca21ebbd865a1cff0"
+  },
+  {
+    "file": "rc_missiles_hawk_slot_08_red.png",
+    "neutral_master": "source/hud/missiles/hawk/neutral_lod0.png",
+    "master_sha256": "00e2b40020e50e59b87b036098500b7c23114f492213f2a1d8ad818d2e5dd264",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "f1e0c1ceaa2b87943d34c49573a38ce77032739eef81b3fa7a8c207aeea7f9f1"
+  },
+  {
+    "file": "rc_missiles_hawk_slot_09_red.png",
+    "neutral_master": "source/hud/missiles/hawk/neutral_lod0.png",
+    "master_sha256": "00e2b40020e50e59b87b036098500b7c23114f492213f2a1d8ad818d2e5dd264",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "90de8567cd408424685f649d65b2608747d7fdf88a0c0e331a164421b9a1e441"
+  },
+  {
+    "file": "rc_missiles_torpedo_slot_00_gold.png",
+    "neutral_master": "source/hud/missiles/torpedo/neutral_lod0.png",
+    "master_sha256": "9b801fd594b3cb6b5fd139026152dc598f4554f68cd4ea7dc3066be94f20220a",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "93fa09e20661c7561918387fd00e49a00044840fe77f28d94926f14c53e4d0fa"
+  },
+  {
+    "file": "rc_missiles_torpedo_slot_01_red.png",
+    "neutral_master": "source/hud/missiles/torpedo/neutral_lod0.png",
+    "master_sha256": "9b801fd594b3cb6b5fd139026152dc598f4554f68cd4ea7dc3066be94f20220a",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "b821819f03293b2e121e043af97333a44b557e6665c63239d673be000cdcb8fb"
+  },
+  {
+    "file": "rc_missiles_torpedo_slot_02_red.png",
+    "neutral_master": "source/hud/missiles/torpedo/neutral_lod0.png",
+    "master_sha256": "9b801fd594b3cb6b5fd139026152dc598f4554f68cd4ea7dc3066be94f20220a",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "2a52c033c5954bc4ef8b0ae60f7f39b553b01f86f1227859b8a5ee8abaa9d1d0"
+  },
+  {
+    "file": "rc_missiles_torpedo_slot_03_red.png",
+    "neutral_master": "source/hud/missiles/torpedo/neutral_lod0.png",
+    "master_sha256": "9b801fd594b3cb6b5fd139026152dc598f4554f68cd4ea7dc3066be94f20220a",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "89bb22eb95f4120047fc7e1990e363056baf69e5ee9e4db6e224fe01fcce42f0"
+  },
+  {
+    "file": "rc_missiles_torpedo_slot_04_red.png",
+    "neutral_master": "source/hud/missiles/torpedo/neutral_lod0.png",
+    "master_sha256": "9b801fd594b3cb6b5fd139026152dc598f4554f68cd4ea7dc3066be94f20220a",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "9f62af1f73e8093adf68dbe23fa023ab998ebc43792b407442d5c1cc1445061c"
+  },
+  {
+    "file": "rc_missiles_torpedo_slot_05_red.png",
+    "neutral_master": "source/hud/missiles/torpedo/neutral_lod0.png",
+    "master_sha256": "9b801fd594b3cb6b5fd139026152dc598f4554f68cd4ea7dc3066be94f20220a",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "e7931fe7a4fa77e62b98a6035401aa82814e04be2a3fc2c2ad279b412ec1ae2f"
+  },
+  {
+    "file": "rc_missiles_torpedo_slot_06_red.png",
+    "neutral_master": "source/hud/missiles/torpedo/neutral_lod0.png",
+    "master_sha256": "9b801fd594b3cb6b5fd139026152dc598f4554f68cd4ea7dc3066be94f20220a",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "10c151871b3a603dd4f60c78b5c161eb0e4c67841900dee15173e60787a1fdbd"
+  },
+  {
+    "file": "rc_missiles_torpedo_slot_07_red.png",
+    "neutral_master": "source/hud/missiles/torpedo/neutral_lod0.png",
+    "master_sha256": "9b801fd594b3cb6b5fd139026152dc598f4554f68cd4ea7dc3066be94f20220a",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "f0609b98d65b99f0df33c2a35829d864d61d601e3aa51e733fa43beacf412f4c"
+  },
+  {
+    "file": "rc_missiles_torpedo_slot_08_red.png",
+    "neutral_master": "source/hud/missiles/torpedo/neutral_lod0.png",
+    "master_sha256": "9b801fd594b3cb6b5fd139026152dc598f4554f68cd4ea7dc3066be94f20220a",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "6a3e3b8355ad27b233c9d11034c04a662de7bbd518722e588927defdca843fca"
+  },
+  {
+    "file": "rc_missiles_torpedo_slot_09_red.png",
+    "neutral_master": "source/hud/missiles/torpedo/neutral_lod0.png",
+    "master_sha256": "9b801fd594b3cb6b5fd139026152dc598f4554f68cd4ea7dc3066be94f20220a",
+    "old_size": [
+      512,
+      512
+    ],
+    "new_size": [
+      1024,
+      1024
+    ],
+    "opaque_recipe_matches_source": true,
+    "outline": "continuous silhouette-derived halo: 9px max filter, 3px blur, 60 percent alpha",
+    "sha256": "31d5cd89b892393fee6f322102cde618db1a4e0a553b655a820d86a88744fe80"
+  }
+]

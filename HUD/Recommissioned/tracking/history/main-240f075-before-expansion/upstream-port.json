@@ -1,0 +1,113 @@
+{
+  "checked_on": "2026-10-08",
+  "status": "partial-hud-port-verified-and-deployed",
+  "upstream_issues": {
+    "793": {
+      "state": "closed",
+      "merged_pr": 833
+    },
+    "794": {
+      "state": "closed",
+      "merged_pr": 831
+    },
+    "832": {
+      "state": "open",
+      "reason": "Parts 1 and 2 merged in #864/#866 and checked; other windows/messages remain planned in part 3",
+      "merged_part_one": 864,
+      "merged_part_two": 866
+    }
+  },
+  "normal_engine": {
+    "kind": "official-unmodified-release",
+    "reported_version": "0.7.0",
+    "upstream_tag": "v0.7.0",
+    "upstream_commit": "3b27f16779e53c03ccf177bfd2f9ec46a27bbfb7",
+    "binary_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+    "launcher_sha256": "08de4140ac487d13a70c8e18511e611031dd77575f52c6f6a0e00cabe07102cf"
+  },
+  "test_engine": {
+    "kind": "unmodified-upstream-development-test-build",
+    "upstream_commit": "240f075183abc20bb3fafe91ae30c1b0aad7ca57",
+    "binary_sha256": "1f024109ab0b055bd82fda95d0cea7a49b4b84968f58ca41ca9c342d80e80d44",
+    "compiler": "Zig 0.17.0",
+    "optimization": "ReleaseSafe",
+    "changed_upstream_source_files": 0,
+    "private_engine_patch_applied": false,
+    "note": "Source archive build reports 0.7.0; commit and binary hash identify this newer upstream build."
+  },
+  "latest_published_release": "v0.7.0",
+  "runtime_files": 592,
+  "runtime_pngs": 586,
+  "source_and_tool_files": 702,
+  "asset_manifest_sha256": "3a4f5981470c618344f1078ce88e49046b6a82214aa5cab8cceb12b5b7a88347",
+  "source_manifest_sha256": "59f6da7fbc27844f044055e74220bc11fa0010d21cfafa359f5be05f3728f5ad",
+  "existing_pngs_changed": 0,
+  "approved_subtargets_unchanged": 17,
+  "ion_cannon_frame": 406,
+  "nested_live_sources_unchanged": 775,
+  "live_hashes_match": true,
+  "review_hashes_match": true,
+  "normal_launcher_unchanged": true,
+  "layout_rectangles_verified": 91,
+  "image_cache_draws_passed": 1170,
+  "cases": [
+    {
+      "case": "hud-240f075-1080",
+      "passed": true,
+      "scope": "Coyote HUD at 1080p",
+      "result": ".local/main-dev-240f075/hud-240f075-1080.json",
+      "capture": ".local/main-dev-240f075/hud-240f075-1080.png",
+      "capture_sha256": "51f3d13826ddd7cee381626c85b73a31f1789e74b6373637fe6cd8150cb5f52d"
+    },
+    {
+      "case": "hud-240f075-720",
+      "passed": true,
+      "scope": "Coyote HUD at 720p",
+      "result": ".local/main-dev-240f075/hud-240f075-720.json",
+      "capture": ".local/main-dev-240f075/hud-240f075-720.png",
+      "capture_sha256": "852139fb49e2d0e585a45a674b1be0de5c6aa30ad15455ae0528229d884ad58a"
+    },
+    {
+      "case": "api-240f075-view-switch",
+      "passed": true,
+      "scope": "Gauge/light/clock, radar contacts and target display in cockpit/chase; hidden native instruments",
+      "result": ".local/main-dev-240f075/api-240f075-view-switch.json",
+      "capture": ".local/main-dev-240f075/api-240f075-view-switch.png",
+      "capture_sha256": "ae575ffefd8d232efafbbbe5f0d87a73e8d31f42577177843574587bc39dd0e7"
+    },
+    {
+      "case": "hud-240f075-installed",
+      "passed": true,
+      "scope": "Actual installed development launcher",
+      "result": ".local/main-dev-240f075/hud-240f075-installed.json",
+      "capture": ".local/main-dev-240f075/hud-240f075-installed.png",
+      "capture_sha256": "51f3d13826ddd7cee381626c85b73a31f1789e74b6373637fe6cd8150cb5f52d"
+    }
+  ],
+  "mod_workarounds": [
+    "One new picture decoded each frame before replacement is enabled",
+    "Separate native, weapon and counter font instances avoid the four-size atlas collision",
+    "Training ship IDs use their matching fighter art",
+    "Unsupported or missing artwork keeps the native instrument"
+  ],
+  "remaining": [
+    "Official release containing merged HUD APIs",
+    "Port now-available radar, target, gauges, ship-status and light readings into the mod; dense contact/range/subtarget/cloak cases still need testing",
+    "Damage, power, wingmen, objectives, comms and message readings planned in #832 part 3",
+    "Live gun rounds and paired-group state; retain native gunnery on Grendel/Wolverine/Reaper",
+    "Visible warning phases, device charge bars and optional window/missile/radar ring animation state",
+    "Shared-font corruption beyond four sizes; keep separate-font mod workaround",
+    "Interactive weapons, wireframe/layout user review, long missions, resizing and final gameplay QA",
+    "17 large-schematic jobs and fuel-pod frame 410 artwork"
+  ],
+  "public_release": "hold",
+  "upstream_messages_posted": false,
+  "normal_profile_used_for_tests": false,
+  "evidence_policy": "Machine-specific paths and captures remain under ignored .local/. Portable records here name the tested revision and hashes.",
+  "current_refinement": "tracking/gunnery-grid-orientation.json",
+  "previous_pass": "tracking/upstream-port-initial.json",
+  "image_cache_verification_note": "Historical 1170-draw result belongs to 410d0a6 and its 585 PNG set; not repeated for this engine-only baseline. Current HUD runtime has 586 PNGs.",
+  "previous_gunnery_alignment": "tracking/gunnery-legacy-alignment.json",
+  "development_baseline": "tracking/main-dev-baseline.json",
+  "main_checked_at": "2026-10-08T07:51:36.797939+00:00"
+}

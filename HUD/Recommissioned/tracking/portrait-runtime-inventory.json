@@ -1,0 +1,4952 @@
+[
+  {
+    "source": "source/portraits/frames/45TigersWL_Bandit",
+    "runtime": "mods/recommissioned-hud/45TigersWL_Bandit.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6248637,
+    "sha256": "929d9babd2aea8c137fba6c225f822fe5ecb7ce7df4353bad17c3495ca8e3a3a",
+    "native_sha256": "d438e74442f4a04132f86bbfbdcd1162176a6ab39ab9989d5242b7ac17c64be5",
+    "seconds": 14.55
+  },
+  {
+    "source": "source/portraits/frames/45TigersWL_Bandit_L",
+    "runtime": "mods/recommissioned-hud/45TigersWL_Bandit_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5350155,
+    "sha256": "d1df283380423128cd2466105208c97be691b09d02f25156e63e45a509eda774",
+    "native_sha256": "f1bc8a205d00ef1e962e8ffafbd80bece28fffab4e99debf9c8fc3c46845d4f9",
+    "seconds": 14.24
+  },
+  {
+    "source": "source/portraits/frames/45TigersWL_Bandit_d",
+    "runtime": "mods/recommissioned-hud/45TigersWL_Bandit_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1893056,
+    "sha256": "947a92ecaf8187e1a6cacb1e34d1593896a1ae9aca56f637310c2ae28255e0b6",
+    "native_sha256": "03f108ee10cb84f319dd8c1882c2f2f9826a340b2cbf0500c41dec157abd6839",
+    "seconds": 5.12
+  },
+  {
+    "source": "source/portraits/frames/45TigersWL_Diceman",
+    "runtime": "mods/recommissioned-hud/45TigersWL_Diceman.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5013179,
+    "sha256": "a7ce07a339932913c28a3234c9fc9f6d4b17790cc1c4b3ede9821a1ad6fab238",
+    "native_sha256": "66d0f60d4b269a3ba0cd05c72326e09495fc251772a0432238d2f985759d721f",
+    "seconds": 13.97
+  },
+  {
+    "source": "source/portraits/frames/45TigersWL_Diceman_D",
+    "runtime": "mods/recommissioned-hud/45TigersWL_Diceman_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1893056,
+    "sha256": "947a92ecaf8187e1a6cacb1e34d1593896a1ae9aca56f637310c2ae28255e0b6",
+    "native_sha256": "03f108ee10cb84f319dd8c1882c2f2f9826a340b2cbf0500c41dec157abd6839",
+    "seconds": 5.06
+  },
+  {
+    "source": "source/portraits/frames/45TigersWL_Diceman_L",
+    "runtime": "mods/recommissioned-hud/45TigersWL_Diceman_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4735037,
+    "sha256": "a48f8a7f123c4b8a8eadc3f9cfd475f75e1c7ede23590a800557fd60af7c626f",
+    "native_sha256": "2266fc61a262e1bec71eac32b2bd15307bb321af00f408bf3aaf6edd12bbd53e",
+    "seconds": 13.23
+  },
+  {
+    "source": "source/portraits/frames/45Tigers_Moose",
+    "runtime": "mods/recommissioned-hud/45Tigers_Moose.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5824598,
+    "sha256": "6607848a958879934fde64ff2d438ac35c328eddccb4cc31806c2f4332063e68",
+    "native_sha256": "d085bf93ddddb23f786613c4955b95d36693464b38dfb604c434f20e5c42ff8f",
+    "seconds": 13.37
+  },
+  {
+    "source": "source/portraits/frames/45Tigers_Moose_D",
+    "runtime": "mods/recommissioned-hud/45Tigers_Moose_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1919304,
+    "sha256": "d90d7f5412ea55308d1333b24a280fa99c4f78d01e1ecc705aee457fc4cfa6d0",
+    "native_sha256": "95a1516ad0148d1f45a5287ff5b94a00b1d4528431278ac61c1a33b0dfaf3197",
+    "seconds": 5.27
+  },
+  {
+    "source": "source/portraits/frames/45Tigers_Moose_L",
+    "runtime": "mods/recommissioned-hud/45Tigers_Moose_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5297748,
+    "sha256": "119f9584d1cf98c47bc40a7ca343169c70d753382052dc772a9ef0f3a5931f86",
+    "native_sha256": "5318dd562c2e261c9751104e1223b667a5b53785840a84ac92b80705d7478cfb",
+    "seconds": 12.77
+  },
+  {
+    "source": "source/portraits/frames/45Tigers_Plt",
+    "runtime": "mods/recommissioned-hud/45Tigers_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6950484,
+    "sha256": "84f6bf2e4b236f4723ea95952ce30dc5729671a8b66be01e1a85ef127ae8060a",
+    "native_sha256": "501c98e8d4c367c85a6c4f5e43e361588075cfe8805e2dfa48c83ac06242a31d",
+    "seconds": 13.3
+  },
+  {
+    "source": "source/portraits/frames/45Tigers_Plt_D",
+    "runtime": "mods/recommissioned-hud/45Tigers_Plt_D.fm8",
+    "frames": 15,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1687387,
+    "sha256": "d7147132c937b2b34bd8c55a412862a8ca968965daf8dbf551d43cdfa5d27d56",
+    "native_sha256": "297120051195dbc03c785ae23121f01aaba816f77548bfe84d693b80b81e51f3",
+    "seconds": 3.89
+  },
+  {
+    "source": "source/portraits/frames/45Tigers_Plt_L",
+    "runtime": "mods/recommissioned-hud/45Tigers_Plt_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6250331,
+    "sha256": "e3ab42af3160a676f61aff6b18a04f533311d90fbf6e76f3fee399f14bded260",
+    "native_sha256": "b4fe4100932cf916e7d513ed71d76403d6e85deed313f0d4040f205084996c3f",
+    "seconds": 13.41
+  },
+  {
+    "source": "source/portraits/frames/45VolntrWL_Bandit",
+    "runtime": "mods/recommissioned-hud/45VolntrWL_Bandit.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6762855,
+    "sha256": "7d968ed07b9ea50aff2e77df9b648059bdf488124417247d585854f6bd2cfa58",
+    "native_sha256": "a560712de8cb128356fa03ab213e77aafb7421f474758e5bfb7624a30624e175",
+    "seconds": 11.53
+  },
+  {
+    "source": "source/portraits/frames/45VolntrWL_Bandit_L",
+    "runtime": "mods/recommissioned-hud/45VolntrWL_Bandit_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6621290,
+    "sha256": "02b8c2b6559fbf98a54c3bded6f12168b3b47b84e3d468ce4f7dc1c7e15ee4e8",
+    "native_sha256": "84ca582ddb952fbcd644cbbeb0193a7fbfa6b7d57a1e34620c275bf54193e695",
+    "seconds": 11.26
+  },
+  {
+    "source": "source/portraits/frames/45VolntrWL_Bandit_d",
+    "runtime": "mods/recommissioned-hud/45VolntrWL_Bandit_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1838748,
+    "sha256": "f8712911b8d0a6119439790d55bdaa7682e805f94ec0204cccf46baf461c2885",
+    "native_sha256": "1c72df3f9e72d4121d15ad43312172c8de788a2c4c0a5a7c02a6c51c68294171",
+    "seconds": 3.95
+  },
+  {
+    "source": "source/portraits/frames/45VolntrWL_Viper",
+    "runtime": "mods/recommissioned-hud/45VolntrWL_Viper.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5550416,
+    "sha256": "61353d3b79418ec7d3650b5f2ec6291562e59cbd59613b4966a4b4f67badfd27",
+    "native_sha256": "67a7f349fd4d1833bfc59b76d2fe70e1c8d79174c66586471bcb2fc1b54ac06b",
+    "seconds": 13.49
+  },
+  {
+    "source": "source/portraits/frames/45VolntrWL_Viper_D",
+    "runtime": "mods/recommissioned-hud/45VolntrWL_Viper_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1928191,
+    "sha256": "8d83945ef68f1228366eee1fc41911100dfd9a16c37c8a08e46e8def78c80f0d",
+    "native_sha256": "f1925b522980ecffc06631f9359a2184f232bd242b05ab8fba90225c9ce5cd16",
+    "seconds": 4.66
+  },
+  {
+    "source": "source/portraits/frames/45VolntrWL_Viper_L",
+    "runtime": "mods/recommissioned-hud/45VolntrWL_Viper_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5553885,
+    "sha256": "28bae16291f420e600e7699a4b97ed6afd4830bf8bea5b12c0f49b389f74d511",
+    "native_sha256": "47a5743be8138fd8b58009cb599207d0c5d15b3bae588f281b6e6a281bfd0793",
+    "seconds": 13.25
+  },
+  {
+    "source": "source/portraits/frames/45Volntrs_Moose",
+    "runtime": "mods/recommissioned-hud/45Volntrs_Moose.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6704819,
+    "sha256": "5e5dc0792ced7803a799ebdc9dcd5fa49c6484a98006028ec8ad1cfba08a8e67",
+    "native_sha256": "714c410fe2b3b649ac9cf09815b2320fee256799956635a34c5143fad52b4398",
+    "seconds": 12.75
+  },
+  {
+    "source": "source/portraits/frames/45Volntrs_Moose_L",
+    "runtime": "mods/recommissioned-hud/45Volntrs_Moose_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7028250,
+    "sha256": "ab8519c0f136d7d7c580e46aece02baf18e96c485758b6c7302052afa0081e45",
+    "native_sha256": "a9b8fdab767878c38b987e87e844154f45ce92921d9f67c663d1ab4cf3a52820",
+    "seconds": 12.84
+  },
+  {
+    "source": "source/portraits/frames/45Volntrs_Moose_d",
+    "runtime": "mods/recommissioned-hud/45Volntrs_Moose_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1909829,
+    "sha256": "4dc75b29faa1a82a0ae822befc7fd0f6f0c6c744b4ccab61ffc926097a7020ef",
+    "native_sha256": "7d41af9d720a51c9e69457a1d2e0dc91caee63769733c28fa3a60f903d3b543d",
+    "seconds": 4.59
+  },
+  {
+    "source": "source/portraits/frames/45Volntrs_Plt",
+    "runtime": "mods/recommissioned-hud/45Volntrs_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6844708,
+    "sha256": "5479f2237ffc54e2726cea803ddb898a95ff9d627a1fbaf696a809fee9fece55",
+    "native_sha256": "0640253eb217e39d49b533a12a8dd0093489b22372a6458c7010a74813187337",
+    "seconds": 12.45
+  },
+  {
+    "source": "source/portraits/frames/45Volntrs_Plt_L",
+    "runtime": "mods/recommissioned-hud/45Volntrs_Plt_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5908137,
+    "sha256": "0196303318ada1273e54467a827cca5216a1364558f7bfa5934718ca8c94f579",
+    "native_sha256": "3179b3ed9e05d08e28578fe6c98fa7ece261f311c50e8737389831fb2431aa57",
+    "seconds": 11.82
+  },
+  {
+    "source": "source/portraits/frames/45Volntrs_Plt_d",
+    "runtime": "mods/recommissioned-hud/45Volntrs_Plt_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1868145,
+    "sha256": "f0f22f9e31f749771563c79e21c9b647d2edcd3f57b4218b2c50d9624ea7b55b",
+    "native_sha256": "0846e43fb8f7525255cbe990b7ca5fa38991da4d31a57f37dc2aede2088cecb6",
+    "seconds": 4.18
+  },
+  {
+    "source": "source/portraits/frames/51stWL_Plt",
+    "runtime": "mods/recommissioned-hud/51stWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5384623,
+    "sha256": "d1219481e21960da346032126d325c3efc88afdcd18b53ee08c4113fb371ba8d",
+    "native_sha256": "8f1cd5da38db4b3eac59ab774c1f8c8e0c280b2909ca681f15e7b79454bf7125",
+    "seconds": 13.17
+  },
+  {
+    "source": "source/portraits/frames/51stWL_Plt_d",
+    "runtime": "mods/recommissioned-hud/51stWL_Plt_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1719342,
+    "sha256": "99025a29345ded7902b86b4f01a90ba87af169b30d862acc1eaa4b6e2428967b",
+    "native_sha256": "99b2e8b1a6e363e68ed2f1e2343dd4d3bd072e9c1d1a7acf3f3cb2d92f6abb53",
+    "seconds": 4.61
+  },
+  {
+    "source": "source/portraits/frames/51st_Plt",
+    "runtime": "mods/recommissioned-hud/51st_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6742068,
+    "sha256": "f35321975fd798b5bfd3073f3679514353874b01dc95e1259c45fc1c6fe3e5d2",
+    "native_sha256": "43c7f01156a356aa74b0c65a6c906e42fe427a685c6f0e4e7811b3f3b8d14e64",
+    "seconds": 14.64
+  },
+  {
+    "source": "source/portraits/frames/51st_Plt_d",
+    "runtime": "mods/recommissioned-hud/51st_Plt_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1759091,
+    "sha256": "84237b1e42b1d51d6ccb64d0d213720a2e247ce2f77f3d92af810941a6c50e38",
+    "native_sha256": "8603dadd1297a16eafe24930b8ac7bff1cbc4e6861c58698558a603b4ac36c05",
+    "seconds": 4.49
+  },
+  {
+    "source": "source/portraits/frames/BlacksunWL_Plt",
+    "runtime": "mods/recommissioned-hud/BlacksunWL_Plt.fm8",
+    "frames": 81,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 11503774,
+    "sha256": "443fd832fc50ab23d7c832871c244dd33e171f8d7e9ac6e3fee206a009555dfb",
+    "native_sha256": "51a35c6d68f7169db14333bbf9768778cc4160a2630539abd4e6b2882f5dc34f",
+    "seconds": 20.41
+  },
+  {
+    "source": "source/portraits/frames/BlacksunWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/BlacksunWL_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1655368,
+    "sha256": "965490da629950a3b3222136547d17a9f3541c279beff5d4277b5a6c1cf4053b",
+    "native_sha256": "ad30ad2e5dd4e01b8d3ad06d8ee6506f75fe052b7647c70922efa83e22ad0f83",
+    "seconds": 4.42
+  },
+  {
+    "source": "source/portraits/frames/Blacksun_Plt",
+    "runtime": "mods/recommissioned-hud/Blacksun_Plt.fm8",
+    "frames": 46,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 3096618,
+    "sha256": "0bfe805140f8bec75c9efce2b51715ae9c8ab23b08832faab5806b0ee397b5b8",
+    "native_sha256": "210cf73addced56cd9bcb788784da27502115263b36898ee95dbd90556465130",
+    "seconds": 8.29
+  },
+  {
+    "source": "source/portraits/frames/Blacksun_Plt_D",
+    "runtime": "mods/recommissioned-hud/Blacksun_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1815379,
+    "sha256": "691ab480350d16e5bc0a6bf498941d75fe54ba1c90db28deb93e3221f2509a90",
+    "native_sha256": "d5e937a2fca3345b5fec23c575ec44bbbb2301b37ac533f040d4aed329190b05",
+    "seconds": 4.47
+  },
+  {
+    "source": "source/portraits/frames/Blades_Plt",
+    "runtime": "mods/recommissioned-hud/Blades_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5270951,
+    "sha256": "9dda6223f3a530bfea97fa283ef1b96bcb82269af783ddf2021d400cb26866a0",
+    "native_sha256": "0f6c3a39a8327629eafc8528ba1f6a92e6c8899e0f78e7134811945d01948d84",
+    "seconds": 9.93
+  },
+  {
+    "source": "source/portraits/frames/Blades_Plt_L",
+    "runtime": "mods/recommissioned-hud/Blades_Plt_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7488460,
+    "sha256": "5420c2967f03cfbd08dfe9bdd274d0a2bea286fdf81939b09b6b71e5ac582a95",
+    "native_sha256": "09b10af4591a7eea7b14aeba06c182ac41211e7fb411a9f2efeff2af1cce0b1e",
+    "seconds": 11.9
+  },
+  {
+    "source": "source/portraits/frames/Blades_Plt_d",
+    "runtime": "mods/recommissioned-hud/Blades_Plt_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1626116,
+    "sha256": "6add1e3141638eabed9afd3c12f125c40060562069f64958b85131c461c29e1b",
+    "native_sha256": "02ad6c52a0bae47a51f7482af377f451aa1cf133ff1558c6a45b480d5c42a352",
+    "seconds": 4.74
+  },
+  {
+    "source": "source/portraits/frames/BlckEgleWL_Plt",
+    "runtime": "mods/recommissioned-hud/BlckEgleWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7866318,
+    "sha256": "49b75d5a252fc419d96d3738a9b613777f180bb6d312ed750ab961d974648b0b",
+    "native_sha256": "d9d71dfd84a57fc064be5da2c037e6ffb95e7ab21a59c1d477b76c4f3ee50e04",
+    "seconds": 11.89
+  },
+  {
+    "source": "source/portraits/frames/BlckEgleWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/BlckEgleWL_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1784772,
+    "sha256": "c75706d2d3b8669ef1246f8c23b98d869e525216f5c856f11c7b95a3bcafbdc0",
+    "native_sha256": "93bc47ab74c40d1034ad74578fcf7f38896875b93b114c6d845cb02e18bce29b",
+    "seconds": 4.75
+  },
+  {
+    "source": "source/portraits/frames/BlckEgle_Plt",
+    "runtime": "mods/recommissioned-hud/BlckEgle_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 9469393,
+    "sha256": "a16fff5c8adb48da434124e61a1fbbf4b27f4cfddb3f298bde2059ac7a0419de",
+    "native_sha256": "c85693fea6c8d1dd2ad5e1b2ac36648943e1a89f7b933f0f09b7f575f34b06ec",
+    "seconds": 12.27
+  },
+  {
+    "source": "source/portraits/frames/BlckEgle_Plt_D",
+    "runtime": "mods/recommissioned-hud/BlckEgle_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1788686,
+    "sha256": "bb9740f5d324e52fc2bda03a6fae50056f3cbb0b1b13b8be946340b468caa354",
+    "native_sha256": "e86fd2796668207a129bfc089024ca106fe7a7306ae1cc7a917324e0fcf14763",
+    "seconds": 4.64
+  },
+  {
+    "source": "source/portraits/frames/BlckGrdIP_Plt",
+    "runtime": "mods/recommissioned-hud/BlckGrdIP_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6061232,
+    "sha256": "755b44b7b277f59dbfb2d8d6330c9a70c663df454c96ef122d09ffc48257cac6",
+    "native_sha256": "9711c03e52ed3f5593c316e0554c97dd0c0e52cfba50fc1008d438eaec92d3c9",
+    "seconds": 11.31
+  },
+  {
+    "source": "source/portraits/frames/BlckGrdIP_Plt_D",
+    "runtime": "mods/recommissioned-hud/BlckGrdIP_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1101031,
+    "sha256": "1b7b6c8be93c34061319cd72080b7d9f5f07a020506ce0100e908e3e1eb31903",
+    "native_sha256": "df304a1f7079fac63f8f70080c6cb1fd28d5089fb3d9892526e3baef1e5038df",
+    "seconds": 3.47
+  },
+  {
+    "source": "source/portraits/frames/BlckGrdNP_Plt",
+    "runtime": "mods/recommissioned-hud/BlckGrdNP_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6942870,
+    "sha256": "6937ec2b9854b285c0df676589da8dc6fa409ca529248a4daeb02385ebd804d5",
+    "native_sha256": "054852b6babfa64145231749fc66ec7b19fdbac6aaf764b2d40ca8d97063a7f8",
+    "seconds": 12.09
+  },
+  {
+    "source": "source/portraits/frames/BlckGrdNP_Plt_D",
+    "runtime": "mods/recommissioned-hud/BlckGrdNP_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1800537,
+    "sha256": "d2d9dfc05f76749308130d185d776e4a07717c8088c744e8276450d14995a865",
+    "native_sha256": "2d82d82537aeb52131c42f946c6a06ee6d4effa6442ac30b1a646db590f987e3",
+    "seconds": 4.94
+  },
+  {
+    "source": "source/portraits/frames/BlckGrd_Plt_D",
+    "runtime": "mods/recommissioned-hud/BlckGrd_Plt_D.fm8",
+    "frames": 11,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1222378,
+    "sha256": "08f239c4ef4cccdb254b60aa49685d4fb810760f2ddb5cb48fc096caddb89494",
+    "native_sha256": "97713db8def5f8d3d11af94207aaaa95f5a05d7c1af70f83aebdbcdffb87a343",
+    "seconds": 2.83
+  },
+  {
+    "source": "source/portraits/frames/BlkAces_Plt_d",
+    "runtime": "mods/recommissioned-hud/BlkAces_Plt_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1871187,
+    "sha256": "d5089db27671f2201693e56dddcc2acd4fefe020919eee82f82aacb2db998b53",
+    "native_sha256": "bb76f13c7d0f5f62ce186f480bd23fd841f5276af8566a5fb7dff0c1276e2c57",
+    "seconds": 4.36
+  },
+  {
+    "source": "source/portraits/frames/Bremen_Brdge_Off",
+    "runtime": "mods/recommissioned-hud/Bremen_Brdge_Off.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6388367,
+    "sha256": "6576f851ebc2374341745e81a7e08127af4da9fb9595bbed14ed93ba4dd99f20",
+    "native_sha256": "5dba7984fde904243aa17c39737f6180e0c4168ef686163ad2fdd45ec292ae83",
+    "seconds": 12.12
+  },
+  {
+    "source": "source/portraits/frames/Bremen_Brdge_Off_D",
+    "runtime": "mods/recommissioned-hud/Bremen_Brdge_Off_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1918381,
+    "sha256": "e079a64a160bb605ce7796a3b29e003e2f17deb14ad4ed3fa657a4f905d476d0",
+    "native_sha256": "70da5391a04adefc0adaee4a83c0dad417a3d3e498be5784c5d079f8a1f4dc46",
+    "seconds": 5.36
+  },
+  {
+    "source": "source/portraits/frames/BuccnrsWL_Plt",
+    "runtime": "mods/recommissioned-hud/BuccnrsWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7679964,
+    "sha256": "3aa575bbea7d41d7838b443497aec1915e0cc4ad26af9aceb450a03b9d20116c",
+    "native_sha256": "895d0ec17f542c05770386af280fc47e305a137e9682539bea182504eeeb0f83",
+    "seconds": 12.62
+  },
+  {
+    "source": "source/portraits/frames/CCouger_Plt_D",
+    "runtime": "mods/recommissioned-hud/CCouger_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1737698,
+    "sha256": "6f777a9e8353e6cb69790f6493785bdd203fb1f6ac9eb3b3f22f73eb97c9927d",
+    "native_sha256": "9b3c84778b064a95c7a1c27b02dc260567ee91adc766fbbeb50136d6df7e76a5",
+    "seconds": 3.64
+  },
+  {
+    "source": "source/portraits/frames/C_Fhtr_01",
+    "runtime": "mods/recommissioned-hud/C_Fhtr_01.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6112344,
+    "sha256": "2b28f8ed7a803f7e9a2c5e8ffd885efae731267839738fea5dcafeecd450c668",
+    "native_sha256": "dce4090ddeef5ad7bd40bcfd2b79a30af88d3db0ddc392c5c5c8201b664c1f35",
+    "seconds": 11.71
+  },
+  {
+    "source": "source/portraits/frames/C_Fhtr_01_D",
+    "runtime": "mods/recommissioned-hud/C_Fhtr_01_D.fm8",
+    "frames": 31,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 2331134,
+    "sha256": "5dd47f42cdbcd00c3754965b4c7d939f74037d27c7162c740fed35337e04a6e7",
+    "native_sha256": "172b371b15509dfd5032fbd942704f96fb964589b3a288bac8c94ad217d1734d",
+    "seconds": 6.88
+  },
+  {
+    "source": "source/portraits/frames/C_Kurgen_Plt_D",
+    "runtime": "mods/recommissioned-hud/C_Kurgen_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1810572,
+    "sha256": "2471402bc654a4338c421be27e4aac799940a150065807a218e4dfec1359bb34",
+    "native_sha256": "98cb1fe432afdc1fdf8057321069e74b3893de05503772791a8437e9655a7922",
+    "seconds": 5.54
+  },
+  {
+    "source": "source/portraits/frames/C_TorpWL_Plt",
+    "runtime": "mods/recommissioned-hud/C_TorpWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7306907,
+    "sha256": "3bb5ae563bded28836c9931d1b1b72b9b0722135e43e41e45ac6827f86a20885",
+    "native_sha256": "96515e751a4341d3c9eef4212fbfb280f2b25d6d4e6f5c11677aedb6cedd7ea2",
+    "seconds": 12.32
+  },
+  {
+    "source": "source/portraits/frames/C_TorpWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/C_TorpWL_Plt_D.fm8",
+    "frames": 26,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 2699972,
+    "sha256": "ae5d22728e765c0dbdb0e051ae16b27f575137373a42bc3524b425fcef6ce047",
+    "native_sha256": "8194f233449d10e5460016afd3f07e68a273264ccdde2dcc63f6da1834578076",
+    "seconds": 5.47
+  },
+  {
+    "source": "source/portraits/frames/C_comms_off1",
+    "runtime": "mods/recommissioned-hud/C_comms_off1.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7097815,
+    "sha256": "dcdf58bfcf2068d0ea38ddb6a94e7459081e77b2b1bfc85a9711541a9a489464",
+    "native_sha256": "e16c390a2a3f34326a7d1f808d9a5e904763d1d89b66210d3106d0c1c0b55e36",
+    "seconds": 11.2
+  },
+  {
+    "source": "source/portraits/frames/C_comms_off1_death",
+    "runtime": "mods/recommissioned-hud/C_comms_off1_death.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1800031,
+    "sha256": "3fb0515fec522ab280a9fe5ac997024e0f23fdc94e7663ab2edcf15014bd5479",
+    "native_sha256": "13b6c37e791ee97fc834597dc677ec1c79fec17606a843162a86e53561d6271a",
+    "seconds": 4.25
+  },
+  {
+    "source": "source/portraits/frames/Capt_Mukai",
+    "runtime": "mods/recommissioned-hud/Capt_Mukai.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7277912,
+    "sha256": "2f2fd30bb48c70d03332271ce8ad300b7aa15a158e6cb6c427ad9483cae60e62",
+    "native_sha256": "98222d33e8476868d0fa93d272ddf227ae356206736f575f93133b9d8f7ffa6a",
+    "seconds": 12.01
+  },
+  {
+    "source": "source/portraits/frames/Capt_Mukai_D",
+    "runtime": "mods/recommissioned-hud/Capt_Mukai_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1730309,
+    "sha256": "6b8cf182dc63d86a071c8748666c8625f987209bb3936ce35cde2fabc78a71bb",
+    "native_sha256": "d893fb5f39b55c05d944c79e7b9a96c53c6968089f3ecbfe19d71a0e5bf93d33",
+    "seconds": 3.81
+  },
+  {
+    "source": "source/portraits/frames/Cat_Foster",
+    "runtime": "mods/recommissioned-hud/Cat_Foster.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7379315,
+    "sha256": "26b818504460ebbeea563550a49f25f44968b37c6e911360b5b86569e598d79d",
+    "native_sha256": "b10debcf9b0055f1592d847f2ddf53326262e6d336be2e9c3c71952bff717c9e",
+    "seconds": 13.26
+  },
+  {
+    "source": "source/portraits/frames/Cat_foster_prwlr",
+    "runtime": "mods/recommissioned-hud/Cat_foster_prwlr.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6039044,
+    "sha256": "749891155853d248e1eba927f9d152d8b92842dccfe35f26cc3a81de8e883d30",
+    "native_sha256": "4ec150be916bac1255fe97ec482769070345b9dc47babfba610ea5c105107ba7",
+    "seconds": 12.74
+  },
+  {
+    "source": "source/portraits/frames/Cobra_Plt_D",
+    "runtime": "mods/recommissioned-hud/Cobra_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1795809,
+    "sha256": "410c176f97fce2dbff04973ab074dc7e6ee739d0329287bee20f3e39c16a9478",
+    "native_sha256": "77fa42b970166724dedfe171329b5f537014f2c64856507337aa330f6235d89c",
+    "seconds": 3.6
+  },
+  {
+    "source": "source/portraits/frames/CougerWL_Plt",
+    "runtime": "mods/recommissioned-hud/CougerWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4364663,
+    "sha256": "288835a17308e285afa3ee2e1ddd40b10382fd0ea101166776968ee4f68aad02",
+    "native_sha256": "97001ef771e5727b92e1ffebb69caf98fa5b247d6e48ab1e148abee982e8ccdd",
+    "seconds": 10.03
+  },
+  {
+    "source": "source/portraits/frames/CougerWL_Plt_d",
+    "runtime": "mods/recommissioned-hud/CougerWL_Plt_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1820290,
+    "sha256": "8dfc24324711ab1729fb82b4a3665902598f3a53a56cd32794f5e1ac55027512",
+    "native_sha256": "62b968d6a8b47edb0068513e0e76f0be19ec602ef237321adf52f4d65e79630a",
+    "seconds": 4.03
+  },
+  {
+    "source": "source/portraits/frames/Couger_Plt",
+    "runtime": "mods/recommissioned-hud/Couger_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5535756,
+    "sha256": "a5c334328c5d00ca491082be47f6c009409723d0c0570d43b8453288bac41ebe",
+    "native_sha256": "463b4f568564a800180b136c12dc4277a81429f9175b005a3d1beb44312b78f1",
+    "seconds": 10.18
+  },
+  {
+    "source": "source/portraits/frames/Couger_Plt_L",
+    "runtime": "mods/recommissioned-hud/Couger_Plt_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4526678,
+    "sha256": "e62370878507feb5629215faec0bcd736658cf133b3073fcc0d9088540d25779",
+    "native_sha256": "21d344f3156eead4b25f7922012275c59d054be7aa6e68627b350a568210f540",
+    "seconds": 9.24
+  },
+  {
+    "source": "source/portraits/frames/Endevr_Brdge_Off",
+    "runtime": "mods/recommissioned-hud/Endevr_Brdge_Off.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4890980,
+    "sha256": "16d77576b8f563d010900a299e01f372148a32d287417029509284faf86af72a",
+    "native_sha256": "d40aa3a703f9cdce6951f9a557d4c626f623bb0e58a7b8ca8d77647d12be45d5",
+    "seconds": 11.72
+  },
+  {
+    "source": "source/portraits/frames/Enq_RelBridge",
+    "runtime": "mods/recommissioned-hud/Enq_RelBridge.fm8",
+    "frames": 46,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4867620,
+    "sha256": "2a31521ac77685586cd079b28ae86014fc7d6a43c4327dd3b1e73b5b8e9c50bb",
+    "native_sha256": "9603cbc6ef69217911da4c468199ea195ae18c960c15eeb1465930a501cff78b",
+    "seconds": 12.09
+  },
+  {
+    "source": "source/portraits/frames/Enq_RelBridge_D",
+    "runtime": "mods/recommissioned-hud/Enq_RelBridge_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1728836,
+    "sha256": "ca5b51657d91094db84f7232014ee950108163a36145148ac88f85085ddf5113",
+    "native_sha256": "ef1f8f212ee9a7da0332c6f72f8016c5520fa9367be4a4020326c205fc3bd652",
+    "seconds": 5.12
+  },
+  {
+    "source": "source/portraits/frames/Enq_YamBridge",
+    "runtime": "mods/recommissioned-hud/Enq_YamBridge.fm8",
+    "frames": 46,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4527110,
+    "sha256": "9e6229d6008d3a6ef6c4cca7bf360f0fc0ce2fce7a12e73c04bc87736ac3d99e",
+    "native_sha256": "7596556138d62313632a2fd1df5a7921ff748fc4ee3902b1b476b9317648bf22",
+    "seconds": 9.93
+  },
+  {
+    "source": "source/portraits/frames/Enriquez_Cockpit",
+    "runtime": "mods/recommissioned-hud/Enriquez_Cockpit.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6828797,
+    "sha256": "f8e44ab90043bdf9a2ad1f8ef167ce0c25371f39b80fe06a66b21bc3238484bc",
+    "native_sha256": "557a787d81ce997262c9cdce7f83aff9fe1dbacf3673dc4d4e0c9d2109975c8f",
+    "seconds": 13.6
+  },
+  {
+    "source": "source/portraits/frames/Enriquez_Cockpit_D",
+    "runtime": "mods/recommissioned-hud/Enriquez_Cockpit_D.fm8",
+    "frames": 19,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1828209,
+    "sha256": "f032c30982e0afe5bef76ab9e4da61ebc52fb76cf7557a77cf163686067d66c3",
+    "native_sha256": "1d9473cda7b1d86d2cbd064cf1c1a9ff7c41e5d7934fca8aa333000670865838",
+    "seconds": 4.81
+  },
+  {
+    "source": "source/portraits/frames/Enriquez_Cockpit_L",
+    "runtime": "mods/recommissioned-hud/Enriquez_Cockpit_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6437344,
+    "sha256": "72f66372253e2e3eb0979fe3837cefc4be34a2d166d3333b2f87cd12aef10a4e",
+    "native_sha256": "cd2f09a0151a3ea60c41778e33b6859d86932161e9fbb966985e1f216a78f39e",
+    "seconds": 12.87
+  },
+  {
+    "source": "source/portraits/frames/FrtBear_Comms",
+    "runtime": "mods/recommissioned-hud/FrtBear_Comms.fm8",
+    "frames": 46,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4123618,
+    "sha256": "1aff6a73a5787f55533e0827c0435b8dce1c75b03d3974a606801449bf649169",
+    "native_sha256": "2cb97ea02e266403595574fd65401a0049fac1f735c37385cc54e2ed8823cdfc",
+    "seconds": 8.92
+  },
+  {
+    "source": "source/portraits/frames/FrtBear_Comms_D",
+    "runtime": "mods/recommissioned-hud/FrtBear_Comms_D.fm8",
+    "frames": 15,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1427217,
+    "sha256": "b87d8e12c90323efa884c5ff39897152cdc1a3ba0b0bcf491c32954c23f13ff5",
+    "native_sha256": "ffcb94405c0dd9a879a283940e496f9478d40ed89efe73aca2bc7b5bad60eadb",
+    "seconds": 3.41
+  },
+  {
+    "source": "source/portraits/frames/FrtBxtr_Comms",
+    "runtime": "mods/recommissioned-hud/FrtBxtr_Comms.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5686849,
+    "sha256": "2ffd8572fb52f99b4641b41dad5fe8d2a97eb0db929b33bd5a6f769804a6e09f",
+    "native_sha256": "f6c8760add10c32a62d4806b1c08f1001185ff4525a11061c76e4e281d6c9051",
+    "seconds": 9.82
+  },
+  {
+    "source": "source/portraits/frames/FrtBxtr_Comms_D",
+    "runtime": "mods/recommissioned-hud/FrtBxtr_Comms_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1228157,
+    "sha256": "3067961d16c1b6f511046362d5c4e7be7441241e6c3a93b44c52c7b3393aca50",
+    "native_sha256": "8a1c541ceb0b010d3dde7b6747f25f942e0f056e44846f40f28bb120bf07052d",
+    "seconds": 2.6
+  },
+  {
+    "source": "source/portraits/frames/Gamma_Ldr",
+    "runtime": "mods/recommissioned-hud/Gamma_Ldr.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6717504,
+    "sha256": "8f0ad5fdcc325c1a50982c8258a96bbc9ab0d542471542c253490954cb847a46",
+    "native_sha256": "e783b3e8a9331589b973d8d096524ab5967228ca1b67977a22ed7628d79af41a",
+    "seconds": 10.96
+  },
+  {
+    "source": "source/portraits/frames/Gamma_Ldr_L",
+    "runtime": "mods/recommissioned-hud/Gamma_Ldr_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5600871,
+    "sha256": "8a9902fd06b384f638e800b949194b05445204ed64cb33e123e9c3a556f8346d",
+    "native_sha256": "81ee3510725d466ee04f6ec9a407ebd957c07d7368020e790a8134a852d4ac33",
+    "seconds": 10.22
+  },
+  {
+    "source": "source/portraits/frames/Gen_Reese_Pod",
+    "runtime": "mods/recommissioned-hud/Gen_Reese_Pod.fm8",
+    "frames": 31,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 3868489,
+    "sha256": "143240ad58fca76da606cb5a911909ba320de3f9660fd05b4e16dd7a98b68db4",
+    "native_sha256": "a2d661ff1e963e5fe1961485f4ebdd83e0469d3190201e3b7f3059c0c7525ee2",
+    "seconds": 6.74
+  },
+  {
+    "source": "source/portraits/frames/Gen_Reese_Pod_D",
+    "runtime": "mods/recommissioned-hud/Gen_Reese_Pod_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1745403,
+    "sha256": "e96c8aa09389ac8cfb355f3f39a18bbdc6d81adab3a007fd112105751ada3d1c",
+    "native_sha256": "0e8c676611216269a04d5afff71741f71a12ac227357151103c404fbe54198b4",
+    "seconds": 4.17
+  },
+  {
+    "source": "source/portraits/frames/GoldWarr_Plt",
+    "runtime": "mods/recommissioned-hud/GoldWarr_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6670605,
+    "sha256": "789f40f110dfa7b7ab2c1731cb7095b6e271f2abd5a8b5edb276682663617d36",
+    "native_sha256": "90c17f1c35781d2e918133345564c0e56fda80f9899cfbcb56c52f211cde4770",
+    "seconds": 17.08
+  },
+  {
+    "source": "source/portraits/frames/GoldWarr_Plt_D",
+    "runtime": "mods/recommissioned-hud/GoldWarr_Plt_D.fm8",
+    "frames": 15,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1717746,
+    "sha256": "5000c7f302cd52777f10adb6e73ed4b728965a72a981e046b9ca18d8c3bcfaee",
+    "native_sha256": "1e2dfdcdd1845505d3e1ceb1ccb99f202456f57bc6ccfa79ba25dbc99c68c1fe",
+    "seconds": 6.01
+  },
+  {
+    "source": "source/portraits/frames/HellcatWL",
+    "runtime": "mods/recommissioned-hud/HellcatWL.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6802753,
+    "sha256": "64ab5df67f02f1feca3159632fecd157fe701f96be1d25a9cce8a588ea862dd4",
+    "native_sha256": "55d388d911cfc49f331c752b211f2e134afda59ac6ced13cef783ba4df244834",
+    "seconds": 13.82
+  },
+  {
+    "source": "source/portraits/frames/HellcatWL_d",
+    "runtime": "mods/recommissioned-hud/HellcatWL_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1854267,
+    "sha256": "af5b71c2fb6f298e7a94ba70215b076169603ab0bc2d1774ac7c9e8bb8629b25",
+    "native_sha256": "7f4b61262c33833ea71c7c77ac82a61ce50fcd8dcc4ce399444e051179567bfd",
+    "seconds": 4.53
+  },
+  {
+    "source": "source/portraits/frames/Hellcat_Plt",
+    "runtime": "mods/recommissioned-hud/Hellcat_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6188701,
+    "sha256": "8b3e88f3d1f3a2579477c36a8422c1e87ae2c17aec69a2ad9bf900e860bd36a6",
+    "native_sha256": "ed99bde3bc4fd60f42e6ae4badc9545f8aa692cd16b8ade9bcd3b1c2544ef463",
+    "seconds": 11.53
+  },
+  {
+    "source": "source/portraits/frames/Hellcat_Plt_d",
+    "runtime": "mods/recommissioned-hud/Hellcat_Plt_d.fm8",
+    "frames": 11,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1458765,
+    "sha256": "4b31d0bb5027e460f807af75645024c284d949b78f52b2ca8ccff2dc542ad7e7",
+    "native_sha256": "45e9d02b1dbed5fa587403d5c34db622a35de849c23d8f71ca57c60882f50e84",
+    "seconds": 3.3
+  },
+  {
+    "source": "source/portraits/frames/Hornet_Plt",
+    "runtime": "mods/recommissioned-hud/Hornet_Plt.fm8",
+    "frames": 60,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7010728,
+    "sha256": "dd65c92f2382a886c15c5e65468e467fe037e97a033e8c3da5dbbdde18583207",
+    "native_sha256": "ec53d17e0e92beb3e5978473e3d410bb9f8e892feae01c5237b922af6f77273f",
+    "seconds": 12.21
+  },
+  {
+    "source": "source/portraits/frames/Hornet_Plt_D",
+    "runtime": "mods/recommissioned-hud/Hornet_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 2006886,
+    "sha256": "dea33ced0608554881fc2b303e98efe1d64a56efd09610d96b186229007fdecb",
+    "native_sha256": "591d8462e8d9522ca1288a2afd4de09400ec653ab9176689d53cbb2dcd993929",
+    "seconds": 4.97
+  },
+  {
+    "source": "source/portraits/frames/JAckelWL_Plt",
+    "runtime": "mods/recommissioned-hud/JAckelWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5843926,
+    "sha256": "3fee67dccf2eb096f1e0426b681b57cc75b944aac1576306306a2a3d9767d06a",
+    "native_sha256": "db8084e12fc4f198901f0ac21008e8c5128527d1777e8a4d4c4ef16a48d4cf77",
+    "seconds": 12.71
+  },
+  {
+    "source": "source/portraits/frames/JackelWL_Plt_L",
+    "runtime": "mods/recommissioned-hud/JackelWL_Plt_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4847501,
+    "sha256": "31d221315b4d7e1a069751cd89f55e17f63a84f33d66d4aa254ea5f77c86c9ff",
+    "native_sha256": "8340d11a97e0b4b541bef5ec4597121830ce0e5dd81b9ddefef34ddc693b71a4",
+    "seconds": 11.87
+  },
+  {
+    "source": "source/portraits/frames/JackelWL_Plt_d",
+    "runtime": "mods/recommissioned-hud/JackelWL_Plt_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1920631,
+    "sha256": "91a39fcc84884cfefa3c4cddc628c664c6f0c33f1687b5613fbe1e2e1b7986b7",
+    "native_sha256": "e4467e43e0797470b6b2d9d961abe712f1ffd30110b1440cc97e819bc5ca9ff7",
+    "seconds": 4.37
+  },
+  {
+    "source": "source/portraits/frames/Jackel_Plt",
+    "runtime": "mods/recommissioned-hud/Jackel_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7094969,
+    "sha256": "a02e36e51cf6c9960fddbf576ba109a39fc5443720a8752f5805e328365690c9",
+    "native_sha256": "6b811d95d58dd799a0511a5031eff29fbb065ca8ab9df4c2e7a61ace44e9946b",
+    "seconds": 11.58
+  },
+  {
+    "source": "source/portraits/frames/Jackel_Plt_D",
+    "runtime": "mods/recommissioned-hud/Jackel_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1920631,
+    "sha256": "91a39fcc84884cfefa3c4cddc628c664c6f0c33f1687b5613fbe1e2e1b7986b7",
+    "native_sha256": "e4467e43e0797470b6b2d9d961abe712f1ffd30110b1440cc97e819bc5ca9ff7",
+    "seconds": 4.41
+  },
+  {
+    "source": "source/portraits/frames/JaguarWL_Plt",
+    "runtime": "mods/recommissioned-hud/JaguarWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6733663,
+    "sha256": "ad804bf0b60883d91204c1a68f011742defa7388eb06effc4f878ee38d9a7e2d",
+    "native_sha256": "c73a687f8c07a15d0b7b6e8d9b2b05938da97e215fae0d635d7213f37051e36f",
+    "seconds": 11.81
+  },
+  {
+    "source": "source/portraits/frames/JaguarWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/JaguarWL_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1799182,
+    "sha256": "21c894055707ce3f2aeb922873f247c18317ae2f752c8365e2509e38c7059ffb",
+    "native_sha256": "aa217c62043daf72aa7eb21336a4467228e56fb4a844a3568111899403c6bbf7",
+    "seconds": 4.15
+  },
+  {
+    "source": "source/portraits/frames/Jaguar_Plt",
+    "runtime": "mods/recommissioned-hud/Jaguar_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6886397,
+    "sha256": "804ec270a1460244dc650d2dff0f6d48cc7ef1195be6d1000c39e5073fe8abd8",
+    "native_sha256": "2c0f8d03582775b9409867f6d4b7966217673073b2439c5c4944cd4b9921f2d0",
+    "seconds": 11.86
+  },
+  {
+    "source": "source/portraits/frames/Jaguar_Plt_D",
+    "runtime": "mods/recommissioned-hud/Jaguar_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1799182,
+    "sha256": "21c894055707ce3f2aeb922873f247c18317ae2f752c8365e2509e38c7059ffb",
+    "native_sha256": "aa217c62043daf72aa7eb21336a4467228e56fb4a844a3568111899403c6bbf7",
+    "seconds": 4.21
+  },
+  {
+    "source": "source/portraits/frames/KestrlCmmnd_Comms",
+    "runtime": "mods/recommissioned-hud/KestrlCmmnd_Comms.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5929928,
+    "sha256": "8592f8a790a1d3d47bf901c727bdcbfefd6a776497ec36bd39f9ac75bf56bbe4",
+    "native_sha256": "33c0a3947c9ac20e6f39e1a7b2649e5b512751c4317c1ae95ccaafabf9907686",
+    "seconds": 9.36
+  },
+  {
+    "source": "source/portraits/frames/KestrlCmmnd_Comms_D",
+    "runtime": "mods/recommissioned-hud/KestrlCmmnd_Comms_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1737799,
+    "sha256": "bf52582849959e295b499d9f1914ebfa20219eda2973cc25c8776827003d3a19",
+    "native_sha256": "c686a202ca722fbc7e5ab587410ad3d310eb7e62444dd417883a43395736e446",
+    "seconds": 3.73
+  },
+  {
+    "source": "source/portraits/frames/Koenig_Brdge_off",
+    "runtime": "mods/recommissioned-hud/Koenig_Brdge_off.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5721026,
+    "sha256": "bb1d34b58f4c1083c11d8cf776684301dcda83eb6facc46c5478825c4e7fa9ad",
+    "native_sha256": "0026bb3a71c01b97e098a1d3e787e137094db425fdcbec27c277a1c869c14416",
+    "seconds": 9.94
+  },
+  {
+    "source": "source/portraits/frames/Kstrl_Brge_Off",
+    "runtime": "mods/recommissioned-hud/Kstrl_Brge_Off.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6439779,
+    "sha256": "6d69e146e6aa188cce1867c4cc2643700c7308347cf405241de4c3cc7bdb63a6",
+    "native_sha256": "8579c9568e625dc1ce6ba425a843bf760aefafc7fb894e582e0eeec3d5effbcb",
+    "seconds": 10.83
+  },
+  {
+    "source": "source/portraits/frames/Kulov_Borodin",
+    "runtime": "mods/recommissioned-hud/Kulov_Borodin.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6009037,
+    "sha256": "0e9a7a6d8c025b7c95a9787f945b2ed2fa0b4c0a928a160ce4a9e981e2984c70",
+    "native_sha256": "8746027eabc0dff5aa19d3e36f553cb0dc2d49e5abb5e4950582aedc934647ca",
+    "seconds": 13.7
+  },
+  {
+    "source": "source/portraits/frames/Kulov_Borodin_D",
+    "runtime": "mods/recommissioned-hud/Kulov_Borodin_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1764163,
+    "sha256": "bcc891ae9406344f96dbd09ef78e72c0b3daadd5d4d5f7ab2a40559dda115835",
+    "native_sha256": "e3bcfcebe1412df4eaebd3880aafc76a4f2f89512061b518fdd2535bf59f6fde",
+    "seconds": 5.51
+  },
+  {
+    "source": "source/portraits/frames/Kulov_Pod",
+    "runtime": "mods/recommissioned-hud/Kulov_Pod.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7206537,
+    "sha256": "62ce995faf19180344d149ddf91585b03e52972826039b52257192270c02d04d",
+    "native_sha256": "1015c2b82521bb8e9fe968a7af94644a46a2d027446611b4a177c8e545448229",
+    "seconds": 11.94
+  },
+  {
+    "source": "source/portraits/frames/Kulov_Pod_D",
+    "runtime": "mods/recommissioned-hud/Kulov_Pod_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1888747,
+    "sha256": "3746de516e32447f017430ae7f5214304a40a964486f022fd981d790c6bf1716",
+    "native_sha256": "c748674ca76cd6f0aa1df85dfa0d5c6ecca3b17de239315c2f8505c2e779fc8f",
+    "seconds": 4.99
+  },
+  {
+    "source": "source/portraits/frames/Lonestar_Plt",
+    "runtime": "mods/recommissioned-hud/Lonestar_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 9154833,
+    "sha256": "32d25b743feb8e9867f1ca723a2bbcba217062e97124f9fa5aeab811c7f880bb",
+    "native_sha256": "95c9171135cdf2001e914cae900554c84e38c0bbbfd0578d832f2fba488fe007",
+    "seconds": 11.72
+  },
+  {
+    "source": "source/portraits/frames/Lonestar_Plt_D",
+    "runtime": "mods/recommissioned-hud/Lonestar_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1607709,
+    "sha256": "4ff37dd657dcba120a5aee8eb373d935741ad48362677eff8d91fd1866434135",
+    "native_sha256": "d8439223901f83c10ff6e9a463c1dc08456f573d447e8c67fe05d5ad9e4dc3ea",
+    "seconds": 3.82
+  },
+  {
+    "source": "source/portraits/frames/Lonestar_Plt_L",
+    "runtime": "mods/recommissioned-hud/Lonestar_Plt_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8090743,
+    "sha256": "7cae18d3512a0535f7b38d80a3f740003bc0a9b3af50d4a3ee9bcbbaddc9d344",
+    "native_sha256": "45049ebe311a0baa1ebeb1ad1cd1f538f8a4891a21ca1ee81d8cfb6b64a42eb2",
+    "seconds": 12.0
+  },
+  {
+    "source": "source/portraits/frames/Mammoth_Plt_01",
+    "runtime": "mods/recommissioned-hud/Mammoth_Plt_01.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7220196,
+    "sha256": "a6039992bbea9941785ca0bbbce9620418bbf8322c1b26aad7c7e0235faf7008",
+    "native_sha256": "1f5ee60707bb3681312e5d26b63b7c0aa7e4f4d454cd4b5d38f3f2ff2c3f6c8d",
+    "seconds": 9.96
+  },
+  {
+    "source": "source/portraits/frames/Mammoth_Plt_01_D",
+    "runtime": "mods/recommissioned-hud/Mammoth_Plt_01_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1897771,
+    "sha256": "1c0d1c69ee720606dd40e15ccdca2322fbc8cb7940285832b9f9c6315ecd3665",
+    "native_sha256": "eba5bee223ba0ae71264d9e0557ca34bbd6124b5cf009c6cd49d4d4e3ca40706",
+    "seconds": 3.49
+  },
+  {
+    "source": "source/portraits/frames/Mammoth_Plt_02",
+    "runtime": "mods/recommissioned-hud/Mammoth_Plt_02.fm8",
+    "frames": 60,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7125081,
+    "sha256": "ce0eb8d3b77a4e79873f597aa7e9d9e6f7d28feeff79ad05791611aa385be7f5",
+    "native_sha256": "249bc5dbc363cded5d1f6f2fb831b4f14f4d13801622d1c5dbb2dd080e02ef24",
+    "seconds": 11.88
+  },
+  {
+    "source": "source/portraits/frames/Mammoth_Plt_02_D",
+    "runtime": "mods/recommissioned-hud/Mammoth_Plt_02_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1897771,
+    "sha256": "1c0d1c69ee720606dd40e15ccdca2322fbc8cb7940285832b9f9c6315ecd3665",
+    "native_sha256": "eba5bee223ba0ae71264d9e0557ca34bbd6124b5cf009c6cd49d4d4e3ca40706",
+    "seconds": 3.44
+  },
+  {
+    "source": "source/portraits/frames/Mammoth_Plt_03",
+    "runtime": "mods/recommissioned-hud/Mammoth_Plt_03.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5639427,
+    "sha256": "07a196a77ef8a5f035e8b31d77b5dcc2dc392c58c3c0a119e87e29200d66e6d9",
+    "native_sha256": "eeaedb6555f0e50ab625c15b4499233ede40487b0731c129c80e8411c7b87a99",
+    "seconds": 11.01
+  },
+  {
+    "source": "source/portraits/frames/Mammoth_Plt_03_d",
+    "runtime": "mods/recommissioned-hud/Mammoth_Plt_03_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1904840,
+    "sha256": "95b2735fe00dcc884564c8b3bd0ff084d578d235b661cf3b25e4eb400c36a842",
+    "native_sha256": "5e07dc86d34b340b8ba3370a040935c045c2f354cbae22e78dedb779e4d7d6fe",
+    "seconds": 5.0
+  },
+  {
+    "source": "source/portraits/frames/Mammoth_Plt_04",
+    "runtime": "mods/recommissioned-hud/Mammoth_Plt_04.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8757328,
+    "sha256": "3b418b48cfe99f622d55bb704328270cebc74d22fa86e54045a374c9eb23a692",
+    "native_sha256": "1be85b73e6a809514514aca5d56de41f5b1a1b5a6cb60f61f90ad3065d155a21",
+    "seconds": 14.34
+  },
+  {
+    "source": "source/portraits/frames/Mammoth_Plt_04_D",
+    "runtime": "mods/recommissioned-hud/Mammoth_Plt_04_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1904840,
+    "sha256": "95b2735fe00dcc884564c8b3bd0ff084d578d235b661cf3b25e4eb400c36a842",
+    "native_sha256": "5e07dc86d34b340b8ba3370a040935c045c2f354cbae22e78dedb779e4d7d6fe",
+    "seconds": 5.79
+  },
+  {
+    "source": "source/portraits/frames/MarauderWL_Plt",
+    "runtime": "mods/recommissioned-hud/MarauderWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5580097,
+    "sha256": "db48f26d411e0cd41aec100deb41fcd4a1826f6022c1820a56e59b0bc67aac62",
+    "native_sha256": "b722fbd71c8cda9f18806febbe899b32fa645a97672ebf32aecfa445b54d9d96",
+    "seconds": 13.12
+  },
+  {
+    "source": "source/portraits/frames/MarauderWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/MarauderWL_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1808115,
+    "sha256": "622a126edf4159139addfc4c3f5be6c562fbb978946e589146c8b64deddce71e",
+    "native_sha256": "68830f772bb2cafffd8bef707894b017d99c41b49c7cb74584e1d26354afe7b9",
+    "seconds": 5.01
+  },
+  {
+    "source": "source/portraits/frames/Marauders_Plt",
+    "runtime": "mods/recommissioned-hud/Marauders_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7460325,
+    "sha256": "bb1b8254d0efd6a2d08945f02c4b99ada86b542a9a38585026ef3161456a7e03",
+    "native_sha256": "47871c802dec8b7b1f7b0b50d52c9e141c1d6795b188834e43f28de5d2a5dca0",
+    "seconds": 13.5
+  },
+  {
+    "source": "source/portraits/frames/Marauders_Plt_D",
+    "runtime": "mods/recommissioned-hud/Marauders_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1878818,
+    "sha256": "1ea541b7a04427afde28adfb00976d06f9e895e022f758df24e39b7272f13bfa",
+    "native_sha256": "e193e68bdec1e77bb6baf8c6dcb1fb00b30090fc2bfab4cf95ef6e185d72723c",
+    "seconds": 4.65
+  },
+  {
+    "source": "source/portraits/frames/Marine_Combat",
+    "runtime": "mods/recommissioned-hud/Marine_Combat.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5582167,
+    "sha256": "d4f261ff732809728437f75694a1f52680a39c8c6f5907aae038387c60f7c1ad",
+    "native_sha256": "f3c5b58a6425b3c03fe96293c8be7bbc36b1eaaf45522def6b60d1302327acb1",
+    "seconds": 11.65
+  },
+  {
+    "source": "source/portraits/frames/Marine_Leader",
+    "runtime": "mods/recommissioned-hud/Marine_Leader.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7433277,
+    "sha256": "2dda2c4f5e79c8dd4129a0c607a37684e50c0a01147534b0db4f79406e40bc78",
+    "native_sha256": "a9f9af9c4d08a64aea9cc62cc2a93f76fa3e898e01ddaa39a536a22000cbbf8d",
+    "seconds": 12.05
+  },
+  {
+    "source": "source/portraits/frames/Mauler_Plt",
+    "runtime": "mods/recommissioned-hud/Mauler_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8741840,
+    "sha256": "6adf16c96e0e2ab6db0c413b0f83fd22c9aacbe9abb1d350280de23c44991291",
+    "native_sha256": "74ee1a9196b03625449c663d33cf8783bda4631a120c333df9795ec84462b87a",
+    "seconds": 14.67
+  },
+  {
+    "source": "source/portraits/frames/Mauler_Plt_D",
+    "runtime": "mods/recommissioned-hud/Mauler_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1830667,
+    "sha256": "c020624b09f5f3738de30606facd8a39bc8c604a8cd21faca22980a9f357cdfd",
+    "native_sha256": "6730d9c9c88ff08d502ba418047bd1ab1747b2c236154a7d7e506d501612c740",
+    "seconds": 4.43
+  },
+  {
+    "source": "source/portraits/frames/Mitchel_Brdge_Off",
+    "runtime": "mods/recommissioned-hud/Mitchel_Brdge_Off.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5550859,
+    "sha256": "2e5a7a2f1381a3f9342ec2824baff187f7ffe68fc1e6561c91d8c8fd85f15945",
+    "native_sha256": "40e2c57b3ca6bd67cda8efb6d7a68fa87727d40f64a6f19f5296245cf3625c0c",
+    "seconds": 9.79
+  },
+  {
+    "source": "source/portraits/frames/Mtchel_Brdge_Off_D",
+    "runtime": "mods/recommissioned-hud/Mtchel_Brdge_Off_D.fm8",
+    "frames": 32,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 3074638,
+    "sha256": "82dab732cb895cbb6c1a59dede34b64a913b8d0d163a848b103f492498df0a59",
+    "native_sha256": "d24aeb3b12041eb6be1a4435cc0a703b84e3dc406c637809bb7048c99ecb6d30",
+    "seconds": 6.96
+  },
+  {
+    "source": "source/portraits/frames/Nanny_Ldr",
+    "runtime": "mods/recommissioned-hud/Nanny_Ldr.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8203223,
+    "sha256": "a631dd7ea47e7730fa66f1153cd463d35a5b40e2dfeb7de7a5bab508d7e5e494",
+    "native_sha256": "f9d00477e01cf9d6de6af102c8d769973ecd4e6fa48690b67f7783eced9c2112",
+    "seconds": 10.97
+  },
+  {
+    "source": "source/portraits/frames/Nanny_Ldr_D",
+    "runtime": "mods/recommissioned-hud/Nanny_Ldr_D.fm8",
+    "frames": 20,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1901592,
+    "sha256": "d2002b8a0415d478b12c13b60fb60e029a5ff8b0a5e79fd9f63890b1ac0af298",
+    "native_sha256": "ba7067da82ce554df137b87f2a0de6117a3a95faa136c705d7cb4eabba17e63f",
+    "seconds": 4.0
+  },
+  {
+    "source": "source/portraits/frames/Nanny_Ldr_L",
+    "runtime": "mods/recommissioned-hud/Nanny_Ldr_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6880207,
+    "sha256": "258348693158a8ea8839ff45c0969e316d0c9dd2dfcecb1ea2f9e33a1c7285ce",
+    "native_sha256": "87c5ac7de1a3edd0586e92668ab988023448259990f8651097e6cdf4f2afa765",
+    "seconds": 10.28
+  },
+  {
+    "source": "source/portraits/frames/PirateWL_Plt",
+    "runtime": "mods/recommissioned-hud/PirateWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7874526,
+    "sha256": "7663cd7024ea984ecece63e5090808677569d8f7bce6c68af5226302117cdd07",
+    "native_sha256": "d023172e671508920c47b168407ee9403334c4e6e3435937407123f6e611d3f7",
+    "seconds": 11.89
+  },
+  {
+    "source": "source/portraits/frames/PirateWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/PirateWL_Plt_D.fm8",
+    "frames": 11,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1461213,
+    "sha256": "8efcd72482cca6a41f20bc43d5ecda2678742b0603a382398b422a5f84ec1761",
+    "native_sha256": "dd15c6d0e2e4772d02e6d12c238d0df6cdc608877892a0eaea63a1c3351b6540",
+    "seconds": 2.98
+  },
+  {
+    "source": "source/portraits/frames/PirateWL_Plt_L",
+    "runtime": "mods/recommissioned-hud/PirateWL_Plt_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4214480,
+    "sha256": "c542d87e81fe6ef19f27cb04a64710e93374f7dd299a4ac615a6fee23b69b047",
+    "native_sha256": "6e70d5bd96ea675cfb41e0360cfc87d362b92b4b31aab1da4b91b7563f0a9e0f",
+    "seconds": 9.45
+  },
+  {
+    "source": "source/portraits/frames/Pirate_Plt",
+    "runtime": "mods/recommissioned-hud/Pirate_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8363200,
+    "sha256": "00297f6961a1738a8c1e9b8561b81e6df7629d2157cb9dce7032fc3b797bcbad",
+    "native_sha256": "048257ab63ef87e649cbf55563a3948f3343f7189aac0527483cec47aedc9d7b",
+    "seconds": 11.89
+  },
+  {
+    "source": "source/portraits/frames/Pirate_Plt_D",
+    "runtime": "mods/recommissioned-hud/Pirate_Plt_D.fm8",
+    "frames": 11,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1461213,
+    "sha256": "8efcd72482cca6a41f20bc43d5ecda2678742b0603a382398b422a5f84ec1761",
+    "native_sha256": "dd15c6d0e2e4772d02e6d12c238d0df6cdc608877892a0eaea63a1c3351b6540",
+    "seconds": 2.89
+  },
+  {
+    "source": "source/portraits/frames/Prowler_Plt",
+    "runtime": "mods/recommissioned-hud/Prowler_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6123415,
+    "sha256": "b051ccf0b424c61630ab344ee903bf1a315f129b9f3b598f0c353cc7e563b8ec",
+    "native_sha256": "d14ab814b52882fd63cff493649ce9333ff4fa88393771f1dfd07556346f3b99",
+    "seconds": 11.97
+  },
+  {
+    "source": "source/portraits/frames/Prowler_Plt_D",
+    "runtime": "mods/recommissioned-hud/Prowler_Plt_D.fm8",
+    "frames": 11,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1445614,
+    "sha256": "6528505c069be64277896c8cb018395449ce63d8edd773627b8eeec316428c32",
+    "native_sha256": "778b9fc37e802889139f8f7322f3cf2a3c505cf16a5d6f05a31de15a0c397c68",
+    "seconds": 3.49
+  },
+  {
+    "source": "source/portraits/frames/Pukov_Cap",
+    "runtime": "mods/recommissioned-hud/Pukov_Cap.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4304972,
+    "sha256": "f37c051d9a902b08fd8aca29c3a5309491cdaf0bf1954c99cc5970161f893cb6",
+    "native_sha256": "d47d8da42a7f9edd3263af52e081e0eabf9c80cc11c0b79ba1a562e2816cf428",
+    "seconds": 9.85
+  },
+  {
+    "source": "source/portraits/frames/Pukov_Cap_D",
+    "runtime": "mods/recommissioned-hud/Pukov_Cap_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1748894,
+    "sha256": "970f14580469131b6ca6a6d0fb49eac77e2ad3c3c0951a15e005c7913c9da86e",
+    "native_sha256": "f1709ec746ed6aa4c84ee79d396f18f4ac9cd246fbeebaec800fc126239b5f3a",
+    "seconds": 5.23
+  },
+  {
+    "source": "source/portraits/frames/PumaWL_Plt",
+    "runtime": "mods/recommissioned-hud/PumaWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7271194,
+    "sha256": "61c733b41d8c3dd55a6d3a06b6af372333db113151426d710ca04d3967537048",
+    "native_sha256": "a41f257a50a4766f042ae5b9705d8f2987c66b9a012026e292a9b5eae1551782",
+    "seconds": 13.4
+  },
+  {
+    "source": "source/portraits/frames/PumaWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/PumaWL_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1730419,
+    "sha256": "334f8cdf05447458552a138327787918f121ebfbc94b37c4d81e089df277ef70",
+    "native_sha256": "32d0ed3b3daa790fb4633044d66251695af2b80207b7f15359458c32ce5966f3",
+    "seconds": 4.24
+  },
+  {
+    "source": "source/portraits/frames/PumaWL_Plt_L",
+    "runtime": "mods/recommissioned-hud/PumaWL_Plt_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5092620,
+    "sha256": "c90b57f49380f001f4165944830d860ad6dbd58a4bb37d6f4dc55f352a3d2a88",
+    "native_sha256": "594e210e479d6002598f5a960827c1f36b5de627ce3b756bec106f3e384e2d0c",
+    "seconds": 12.05
+  },
+  {
+    "source": "source/portraits/frames/Puma_Plt",
+    "runtime": "mods/recommissioned-hud/Puma_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6236315,
+    "sha256": "371b171a3ca2545d74e1decfe2202b4fc24442a5bd12fb68a9538b80bd455e50",
+    "native_sha256": "3c96b2c36076736b3a944b38515fbf982131ce0d7ed97ebf34d935c37e75bd21",
+    "seconds": 12.28
+  },
+  {
+    "source": "source/portraits/frames/Puma_Plt_D",
+    "runtime": "mods/recommissioned-hud/Puma_Plt_D.fm8",
+    "frames": 11,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1490046,
+    "sha256": "548c0aa83b5664a6bf79ea6b647bcb97c064b6b470eb0076777af91353d7162d",
+    "native_sha256": "7a0a992a30aa827638cec0e0c7807e5cb6d353890ad66192c752585d5f288473",
+    "seconds": 4.05
+  },
+  {
+    "source": "source/portraits/frames/RavenWL_Plt",
+    "runtime": "mods/recommissioned-hud/RavenWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5677367,
+    "sha256": "c8a9b1a881fd8250e52ff04f1cc606beb1c76cbe08ea05c86f7305555011514b",
+    "native_sha256": "8dc1d57f011d4310233f0d18111286b76f558e2cd2325daed94e5851d4177ac5",
+    "seconds": 12.79
+  },
+  {
+    "source": "source/portraits/frames/RavenWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/RavenWL_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1777833,
+    "sha256": "8005e55d65326e9dba41cb48de6613133883c30a4691c8d7ed9a3b0693bd425e",
+    "native_sha256": "3dc5b2cc21a98e7beb56f8289b3465eca6ab79da4b2237be073ef89099563ee7",
+    "seconds": 4.86
+  },
+  {
+    "source": "source/portraits/frames/Raven_Plt",
+    "runtime": "mods/recommissioned-hud/Raven_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6533424,
+    "sha256": "f510c78275b57732ca5622bdc08983965d57fd2f69419a7df34330b902251a58",
+    "native_sha256": "05ecb9873779d31d10863e4b88340f404a7aa8cea3fc66acda1fc6c9f2ff4fea",
+    "seconds": 11.84
+  },
+  {
+    "source": "source/portraits/frames/Raven_Plt_D",
+    "runtime": "mods/recommissioned-hud/Raven_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1777833,
+    "sha256": "8005e55d65326e9dba41cb48de6613133883c30a4691c8d7ed9a3b0693bd425e",
+    "native_sha256": "3dc5b2cc21a98e7beb56f8289b3465eca6ab79da4b2237be073ef89099563ee7",
+    "seconds": 4.6
+  },
+  {
+    "source": "source/portraits/frames/Rel_Brdge_Off",
+    "runtime": "mods/recommissioned-hud/Rel_Brdge_Off.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6945321,
+    "sha256": "0126865cbfb7aacf73580a7f2530bf8bdf21ce85bbd8d5a1bf522bd72633e20b",
+    "native_sha256": "efb3b671735d015dc86c2ed0c712619675b62668c8ac97c43736ef74c59b3778",
+    "seconds": 10.78
+  },
+  {
+    "source": "source/portraits/frames/Rel_Brdge_Off_D",
+    "runtime": "mods/recommissioned-hud/Rel_Brdge_Off_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1688042,
+    "sha256": "890b675445a0751606d4cde36ecbb38dc935bca54a0ee16ac39bc64fed1a50ca",
+    "native_sha256": "1d3b2b5c8cfabfd4c64134cca1e4a1e4529cd6d763a2db181b40e0eefcf14706",
+    "seconds": 4.37
+  },
+  {
+    "source": "source/portraits/frames/Ripper_Plt",
+    "runtime": "mods/recommissioned-hud/Ripper_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 9227304,
+    "sha256": "ea385d9694cea5ce83372aad11b352c1e91c54ca4f6adb6a33be0a45f27d0546",
+    "native_sha256": "9ebea0749e79d9b850392af95c6f0b0c6c9b4a47346a73da35181d1e4cf5075a",
+    "seconds": 12.07
+  },
+  {
+    "source": "source/portraits/frames/Ripper_Plt_D",
+    "runtime": "mods/recommissioned-hud/Ripper_Plt_D.fm8",
+    "frames": 11,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1208033,
+    "sha256": "f54b6e72620e953778d46aebf9d86f2988fc95e9230b26203f4ccf631a489db9",
+    "native_sha256": "d701b73ddec0470b3dfca8af678ff44be3cd899a0e27630e61804d0869ee9eb5",
+    "seconds": 2.92
+  },
+  {
+    "source": "source/portraits/frames/RoninWL_Plt",
+    "runtime": "mods/recommissioned-hud/RoninWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5520478,
+    "sha256": "871806404958c9aab62a7e6ad66aebbd098471d2e9561c01e50748bac0b1f0b7",
+    "native_sha256": "867b6242c4b4283bf3c3485061d6b1ffe3bb774baa5033cc5939b08966d2c019",
+    "seconds": 11.85
+  },
+  {
+    "source": "source/portraits/frames/RoninWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/RoninWL_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1725515,
+    "sha256": "07c4795ff22b2e8bbac55384643dbc9a4d93db932333753659aa9f788cb999f2",
+    "native_sha256": "b6328b8f33d847f85c4811567e3c9cb919169d8653579a19f4c8c05214020b0b",
+    "seconds": 4.2
+  },
+  {
+    "source": "source/portraits/frames/RoninWL_Plt_L",
+    "runtime": "mods/recommissioned-hud/RoninWL_Plt_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5238058,
+    "sha256": "89eba8edd6b326d65cae1ba7fcd08b8b6981777101f556ddf715349482b2a6c2",
+    "native_sha256": "55a56e3b74f9303168c8452329971f26a8b209a3d5dbacd6fd563b50b7481dff",
+    "seconds": 11.41
+  },
+  {
+    "source": "source/portraits/frames/Ronin_Plt",
+    "runtime": "mods/recommissioned-hud/Ronin_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 9337951,
+    "sha256": "61afed77a120ef08bb495c0c2f7b759d9ade2d2f4a7acdc0c54005db9ca50d93",
+    "native_sha256": "6affce00edf805b4da22661b66258ff5a9eebb282711ab6473de40b4c08bf87b",
+    "seconds": 12.11
+  },
+  {
+    "source": "source/portraits/frames/Ronin_Plt_D",
+    "runtime": "mods/recommissioned-hud/Ronin_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1670647,
+    "sha256": "830b8b3c9aab505bc8cde931238aee6e2cfffa799679e2135dd4a23e6884bcef",
+    "native_sha256": "68db9cebe7595177abe5181560ff4d37defd431502290a321df46afb45f239e1",
+    "seconds": 3.77
+  },
+  {
+    "source": "source/portraits/frames/SabreWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/SabreWL_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1882592,
+    "sha256": "cb07075745625445b4d2715550aff79a007699a421f900264bfe422aa37f127e",
+    "native_sha256": "c21c66f95cc5473ec955457ab1f5707455dcc98120ad797e27a55d737d109b51",
+    "seconds": 5.49
+  },
+  {
+    "source": "source/portraits/frames/SabreWL_plt_",
+    "runtime": "mods/recommissioned-hud/SabreWL_plt_.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8375156,
+    "sha256": "fd8d22541ab4f2219d89b5f1745705716a69dcd7ccb234c300c4ab157980ba51",
+    "native_sha256": "e55d6676b57e04c0f7c43e86a6c35b0d18a4f342ebcd8b7dc34644881d6ca418",
+    "seconds": 13.85
+  },
+  {
+    "source": "source/portraits/frames/Sabre_Plt",
+    "runtime": "mods/recommissioned-hud/Sabre_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7544485,
+    "sha256": "8c48129d9ddff1740a9a2ce12811dd1a7f8097fafedb37c75837a3068cd7a4dc",
+    "native_sha256": "78c21c9dfbedfccea516c150f3f35500b7404c4b30a656819096fa2058c1b974",
+    "seconds": 12.03
+  },
+  {
+    "source": "source/portraits/frames/Sabre_Plt_D",
+    "runtime": "mods/recommissioned-hud/Sabre_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1679012,
+    "sha256": "40da3ea1ae920df839143da42d142153e7a4a9d777cd8ef33256743eda7e226a",
+    "native_sha256": "b588c2e794e7849ab2bf94430d4748622be2f9a02bbfd74742ca46e9fa24c784",
+    "seconds": 5.05
+  },
+  {
+    "source": "source/portraits/frames/SaracenWL_Plt",
+    "runtime": "mods/recommissioned-hud/SaracenWL_Plt.fm8",
+    "frames": 81,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 9678619,
+    "sha256": "bab47f61016c8af88e8cfec7b631c03cb78de7afd73ac515b52c8d41947e9439",
+    "native_sha256": "f7fe5dbdd3763c89a2aafc28711e7b9311e6589513a66bde2fb83d2ece18a121",
+    "seconds": 15.57
+  },
+  {
+    "source": "source/portraits/frames/SaracenWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/SaracenWL_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1228157,
+    "sha256": "3067961d16c1b6f511046362d5c4e7be7441241e6c3a93b44c52c7b3393aca50",
+    "native_sha256": "8a1c541ceb0b010d3dde7b6747f25f942e0f056e44846f40f28bb120bf07052d",
+    "seconds": 2.63
+  },
+  {
+    "source": "source/portraits/frames/Saracen_Plt",
+    "runtime": "mods/recommissioned-hud/Saracen_Plt.fm8",
+    "frames": 46,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5047868,
+    "sha256": "757ccb3ab36d316bb16ba4e8244554c580f11f20eb8373e149077e9091a4e9d1",
+    "native_sha256": "114ee0c7dd6a07c97059b15cf6167c0ab7b9cee4eba3071250762fb67eaa095c",
+    "seconds": 10.24
+  },
+  {
+    "source": "source/portraits/frames/Saracen_Plt_D",
+    "runtime": "mods/recommissioned-hud/Saracen_Plt_D.fm8",
+    "frames": 27,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 2877784,
+    "sha256": "593794dc4a99582112425bb63d18dd6428a3a8b57ae95324ee438e0eeda168d0",
+    "native_sha256": "fed2cc75b610f8be2200bb3f3c560de31d07977dd12c46d71ba327aca583bb1c",
+    "seconds": 5.69
+  },
+  {
+    "source": "source/portraits/frames/ScorpionWL_Plt",
+    "runtime": "mods/recommissioned-hud/ScorpionWL_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6216981,
+    "sha256": "6287fb718d9625c3530acd8750640494d9b530379292e54fd881947213ee7a91",
+    "native_sha256": "4e28c3aca86bfcbebde8026f32b7c8205e105ccdd2631b10b0d422524cf679bb",
+    "seconds": 11.12
+  },
+  {
+    "source": "source/portraits/frames/ScorpionWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/ScorpionWL_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1790878,
+    "sha256": "1b499024a20803b0d779c011d98dbd331798d02d93828c69b77df8198dd37cc4",
+    "native_sha256": "354d4b38cf554d5fc7c9c458d6cb4a3822f7214fbbcfa56e8ef70d0889b3af9d",
+    "seconds": 3.91
+  },
+  {
+    "source": "source/portraits/frames/Scorpion_Plt",
+    "runtime": "mods/recommissioned-hud/Scorpion_Plt.fm8",
+    "frames": 46,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 3701690,
+    "sha256": "e0b79a2ba08c0d35a3480e94b932a14dd96957094dabdba714f6905dc830a9d6",
+    "native_sha256": "4c527278d348b85c18451ec1b11597eda640747221b66704a61b0b3aaa0eac06",
+    "seconds": 8.91
+  },
+  {
+    "source": "source/portraits/frames/Scorpion_Plt_D",
+    "runtime": "mods/recommissioned-hud/Scorpion_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1861129,
+    "sha256": "b85296d21c884d33329850f7eb942609f65468d97abd0eb69a98ee22b3842989",
+    "native_sha256": "def82cf79e069e452bfa364849d7b9ffdd72793b08c8c1dbfd013c3448f6840f",
+    "seconds": 4.26
+  },
+  {
+    "source": "source/portraits/frames/Stahl_BrdShip",
+    "runtime": "mods/recommissioned-hud/Stahl_BrdShip.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8223290,
+    "sha256": "6ba3a28f0769c681ad7e51f79caa1d73aedafe2363bbdb6f3db294a1834ce7f6",
+    "native_sha256": "3a5cf47394779a4ed4c79263d843e515882e1dba9ce8cdf317c3e6b2c3977603",
+    "seconds": 12.8
+  },
+  {
+    "source": "source/portraits/frames/Stahl_Marines",
+    "runtime": "mods/recommissioned-hud/Stahl_Marines.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8886838,
+    "sha256": "04e67552d87cca0eaabcf2f1e22decb5c01f5bdf607f292853c351096dc420e2",
+    "native_sha256": "165122ec7e07722d1c771750b04c45ba495811266f52b4ecff189e96c762313c",
+    "seconds": 13.5
+  },
+  {
+    "source": "source/portraits/frames/Stahl_RippShip",
+    "runtime": "mods/recommissioned-hud/Stahl_RippShip.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5097640,
+    "sha256": "e97eb80455e0a9868e5722586b8add595b3746ee95f5830e40f7f15e5340da97",
+    "native_sha256": "98af38b9466550299e110bf6353cd7a1b66756d076fb04318e2547021a1d91c7",
+    "seconds": 12.03
+  },
+  {
+    "source": "source/portraits/frames/Stahl_RippShip_D",
+    "runtime": "mods/recommissioned-hud/Stahl_RippShip_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1667972,
+    "sha256": "0da62bc21a518e8c1814aacb3034e49e6e048474c7ce0247c560a3adc3767d62",
+    "native_sha256": "4822eac55663e328dd0ee8a5d24d7c298c51f4d457eff162b55140e9b6274832",
+    "seconds": 4.61
+  },
+  {
+    "source": "source/portraits/frames/Stahl_RippShip_L",
+    "runtime": "mods/recommissioned-hud/Stahl_RippShip_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7393377,
+    "sha256": "51a2d1a961a6032f2a8850e2a8297b8c3f28fcdcfa7c7e5f5ec28fe6740db533",
+    "native_sha256": "0f0c2c3dd1f33b3146f78253205952f821d4893b13d03b927631ecc10b20cd14",
+    "seconds": 14.04
+  },
+  {
+    "source": "source/portraits/frames/Stiener_Ejected",
+    "runtime": "mods/recommissioned-hud/Stiener_Ejected.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6906028,
+    "sha256": "a4bebccf7ad2fe7e20275165228e394c4de295c601a230acc1bf500018cc4be7",
+    "native_sha256": "cf1a6930a3411ab248802425061a924f1cc61dca68cd695776c52aab562286ad",
+    "seconds": 15.81
+  },
+  {
+    "source": "source/portraits/frames/Stiener_Ejected_D",
+    "runtime": "mods/recommissioned-hud/Stiener_Ejected_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1844082,
+    "sha256": "8b591cb24bd0f538c8305d8a4d596f84fbc1d5eba960df68a483dc66549f4629",
+    "native_sha256": "d12eaf3cf3f780a82961555c605d70ec8a5a0a8d047f27a2f173cf33f0431983",
+    "seconds": 5.68
+  },
+  {
+    "source": "source/portraits/frames/StingerWL_Plt_D",
+    "runtime": "mods/recommissioned-hud/StingerWL_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1800136,
+    "sha256": "a412d1b01fe0c8add29c17bb451b08aee11dcdc5279d673351a9a074b0fc3dc0",
+    "native_sha256": "28dbc6c322faafd8f59881f0560b78fd7a0253ef2391d02f1736fbd7ebd1dc0e",
+    "seconds": 4.19
+  },
+  {
+    "source": "source/portraits/frames/StingerWL_Plt_L",
+    "runtime": "mods/recommissioned-hud/StingerWL_Plt_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8001050,
+    "sha256": "b140688591209e08aff2ee43f2eaf7ab1c5a597ca75b28266f00637be97c80d4",
+    "native_sha256": "fc414ec98e44f5629daf5bb7b2bd30617bcf2f0942e9de0009f3361c161fab37",
+    "seconds": 13.24
+  },
+  {
+    "source": "source/portraits/frames/Stinger_Plt",
+    "runtime": "mods/recommissioned-hud/Stinger_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7766472,
+    "sha256": "259ff61f6f611cde9847407ec3791e8850fc97a1995f9b5d1616d33605e42d00",
+    "native_sha256": "e9450ed1f183e15804597602b43470bb753da4c4de845b141e403bdd727dfc44",
+    "seconds": 13.75
+  },
+  {
+    "source": "source/portraits/frames/Stinger_Plt_D",
+    "runtime": "mods/recommissioned-hud/Stinger_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1916589,
+    "sha256": "18b5d7f041382d00219b9e05cc0e0d902f2b330fd06f4028459dd1e7129ce0a4",
+    "native_sha256": "085df0f7acf4c6072523a66085a21a35538cbe1c88dd471fa6c02c20f3cafb21",
+    "seconds": 4.65
+  },
+  {
+    "source": "source/portraits/frames/Stork_Plt",
+    "runtime": "mods/recommissioned-hud/Stork_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7831802,
+    "sha256": "a8cf4b5bb456ca438016328993d125f528162ae6af47fc8af8075f951e5a19a8",
+    "native_sha256": "538e78eef30a773bb7acd5baa27c780af3d656ed4c623b26b96106e5ef8aedaa",
+    "seconds": 12.53
+  },
+  {
+    "source": "source/portraits/frames/Stork_Plt_D",
+    "runtime": "mods/recommissioned-hud/Stork_Plt_D.fm8",
+    "frames": 11,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1448496,
+    "sha256": "5912b5e1e3b7905ab2b16956e56747370c2a0096fe2cc0f26de7d269f50ade06",
+    "native_sha256": "1b1094038bcc630283d3056d5245b8375d0e410ed06ff2e22cd11349b1cda6c4",
+    "seconds": 3.06
+  },
+  {
+    "source": "source/portraits/frames/Ullys_Capt",
+    "runtime": "mods/recommissioned-hud/Ullys_Capt.fm8",
+    "frames": 41,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4358150,
+    "sha256": "a98e62cfbee138e366578aed0025de9c7b0b5b9537947359983fe652d8e0ba37",
+    "native_sha256": "66bd6a8e3aa4c9fffbfbafde887f4332ce5b8f09babb950d7d14e5dd6d29f3fb",
+    "seconds": 9.48
+  },
+  {
+    "source": "source/portraits/frames/Ullys_Capt_Panic",
+    "runtime": "mods/recommissioned-hud/Ullys_Capt_Panic.fm8",
+    "frames": 26,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 2751548,
+    "sha256": "481eb3c3ac2fe9c8aa195e45f89ba4fd85e03d276c61fe10a8985746a36f8562",
+    "native_sha256": "d90dd23de1a1a92852a7601af570f943cb9934114a0adb34f31c3e5aab2dad38",
+    "seconds": 6.76
+  },
+  {
+    "source": "source/portraits/frames/VampireWL_Stiener",
+    "runtime": "mods/recommissioned-hud/VampireWL_Stiener.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8432073,
+    "sha256": "cd460227e8932b208be3736a09987370c2e927fc0c688d76d391f9b1f90d2e0f",
+    "native_sha256": "9db95f69cb478b23e116f0db460e188d619a7895e63bfe20382082f16ba34b27",
+    "seconds": 12.81
+  },
+  {
+    "source": "source/portraits/frames/VampireWL_Stiener_D",
+    "runtime": "mods/recommissioned-hud/VampireWL_Stiener_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1673235,
+    "sha256": "ac8799c9fa83b4ec4975daf698470755a3bfd6d4e56c37bf77a6bdd576f194de",
+    "native_sha256": "d3b1139c9c53279dc05b49ad061eac868e0f479cb3547a3061830bbb6ae29991",
+    "seconds": 4.24
+  },
+  {
+    "source": "source/portraits/frames/VampireWL_Stiener_L",
+    "runtime": "mods/recommissioned-hud/VampireWL_Stiener_L.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7935074,
+    "sha256": "d4a40a512754692a91be748a397406ae8550ce0267eacda26deeb7ca1ca45fb8",
+    "native_sha256": "85f5a831974a869773e0951a830965b55c9ce6db755862d36a9936aaef3299c0",
+    "seconds": 12.32
+  },
+  {
+    "source": "source/portraits/frames/Vampire_Plt",
+    "runtime": "mods/recommissioned-hud/Vampire_Plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8324952,
+    "sha256": "570c87d46721566de6b596b3dfb631569d24100a1c877a5035ea7a2691f53ff5",
+    "native_sha256": "9588b30ab30c7ce94958a9cc2bd3de1bbe070b8a9b9d9ac0cbd61a53fc19fbe8",
+    "seconds": 12.51
+  },
+  {
+    "source": "source/portraits/frames/Vampire_Plt_D",
+    "runtime": "mods/recommissioned-hud/Vampire_Plt_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1724716,
+    "sha256": "347c3daf30ca2c1f4ce33afbb67f485062f17e30b9c28edc6c64a534da7bc9c6",
+    "native_sha256": "6a8ec81ed433eace4c829fc85481930505058ef3a2a5c43e71f3a0aa0a50a2ff",
+    "seconds": 3.77
+  },
+  {
+    "source": "source/portraits/frames/Victorious_Brdge_Off",
+    "runtime": "mods/recommissioned-hud/Victorious_Brdge_Off.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6202632,
+    "sha256": "256d3a29bb395bd247cca5b636ef113c79680672ba861aeaec989030dcabb972",
+    "native_sha256": "5d64e36f271aabaae6d261a06ddf43f0d9255110638757a1c4a447e1fbe63048",
+    "seconds": 9.63
+  },
+  {
+    "source": "source/portraits/frames/Victorious_Brdge_Off_D",
+    "runtime": "mods/recommissioned-hud/Victorious_Brdge_Off_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1678855,
+    "sha256": "efe2bb062b71c6af275bf1b1b236fbbb43e9e0dd4f3f32d988bc0b5258b497b2",
+    "native_sha256": "7bbffc504118449e2037f70621eb07a310bba7b3a846c57a63e64df75716611c",
+    "seconds": 4.79
+  },
+  {
+    "source": "source/portraits/frames/VirtFlt_Ins",
+    "runtime": "mods/recommissioned-hud/VirtFlt_Ins.fm8",
+    "frames": 81,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8544422,
+    "sha256": "75cfe10ec8201a540097218366cd69ff50d4b4145a48d723b9e174d9d36538b9",
+    "native_sha256": "0014baf84e71b4ea0f9c76a63f42fb04f53b60c8cd1c10a35ecd66d2e1546011",
+    "seconds": 19.63
+  },
+  {
+    "source": "source/portraits/frames/Washngtn_Brdge_Off",
+    "runtime": "mods/recommissioned-hud/Washngtn_Brdge_Off.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5503467,
+    "sha256": "e0c759504f5bb16091ee777aae5fddc3a07211f0008a7512a5cb0b123e44c6d5",
+    "native_sha256": "8c325b8301c850d5f0bd8ca88a9df04299e12d9f2f26cf64575c20aac600b7a3",
+    "seconds": 10.57
+  },
+  {
+    "source": "source/portraits/frames/Yam_Brdge_Off",
+    "runtime": "mods/recommissioned-hud/Yam_Brdge_Off.fm8",
+    "frames": 66,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8011099,
+    "sha256": "22cf38baa4b6bc5c4d2476588d8faa386f04e0af7e5d5287f63e481de682e1ae",
+    "native_sha256": "1915521db4399285cdff21714c6cf97c1e054e57b5765b5e743999b49fa71a62",
+    "seconds": 14.36
+  },
+  {
+    "source": "source/portraits/frames/Yam_Brdge_Off_D",
+    "runtime": "mods/recommissioned-hud/Yam_Brdge_Off_D.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1632722,
+    "sha256": "43bca907435b8bf3d452cb753dd22cc9f7abd1bcfb9057a33182278e41f4eff1",
+    "native_sha256": "a8ffa5901ee198ebee8b14bbf7d20ef3a5c73b5eae80e23706ebc1191d6b4468",
+    "seconds": 4.83
+  },
+  {
+    "source": "source/portraits/frames/baxbc",
+    "runtime": "mods/recommissioned-hud/baxbc.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5974645,
+    "sha256": "2f73820508a41b351929a245331fefb10bb927d0a97e0e811c52dce00d389c76",
+    "native_sha256": "f0c7d207828e6117c0ece1da6e420c59fc2322a15846ac4c492cbf10a90adcd3",
+    "seconds": 11.46
+  },
+  {
+    "source": "source/portraits/frames/enriquez",
+    "runtime": "mods/recommissioned-hud/enriquez.fm8",
+    "frames": 46,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4527110,
+    "sha256": "9e6229d6008d3a6ef6c4cca7bf360f0fc0ce2fce7a12e73c04bc87736ac3d99e",
+    "native_sha256": "7596556138d62313632a2fd1df5a7921ff748fc4ee3902b1b476b9317648bf22",
+    "seconds": 10.38
+  },
+  {
+    "source": "source/portraits/frames/frtcrtr_comms",
+    "runtime": "mods/recommissioned-hud/frtcrtr_comms.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5861802,
+    "sha256": "5a8a5b11a305279202aa5ff9f83c3311366b6c8f2aa4740ccd72f6c19e07dd1e",
+    "native_sha256": "0e1bff9204c78d6da8e18457b2d9b65cffab1db70632f29e426dc96eb29a07b5",
+    "seconds": 10.23
+  },
+  {
+    "source": "source/portraits/frames/frtcrtr_comms_death",
+    "runtime": "mods/recommissioned-hud/frtcrtr_comms_death.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1228157,
+    "sha256": "3067961d16c1b6f511046362d5c4e7be7441241e6c3a93b44c52c7b3393aca50",
+    "native_sha256": "8a1c541ceb0b010d3dde7b6747f25f942e0f056e44846f40f28bb120bf07052d",
+    "seconds": 2.68
+  },
+  {
+    "source": "source/portraits/frames/frtshrmn_comms",
+    "runtime": "mods/recommissioned-hud/frtshrmn_comms.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6356787,
+    "sha256": "d983a0a656d042afc719dd90c70f5b58edd6791561d17bdf73aedc4793048504",
+    "native_sha256": "6154887ce9d4ccd5f093703941f412e5f35f880b63550da20626c4f93b3821d5",
+    "seconds": 10.23
+  },
+  {
+    "source": "source/portraits/frames/general",
+    "runtime": "mods/recommissioned-hud/general.fm8",
+    "frames": 28,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 2398014,
+    "sha256": "23b22cffbe62656cb334279389de222ff2bce2df8982fc41a3580d47bd7e6f54",
+    "native_sha256": "2f5dc55d972e816e593ad5d858b15633683d0a8697ac06d1c6ab58bb482db3f0",
+    "seconds": 4.5
+  },
+  {
+    "source": "source/portraits/frames/goldwarrWL_plt",
+    "runtime": "mods/recommissioned-hud/goldwarrWL_plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7451496,
+    "sha256": "07fe762125a4fb22d783d118cbe39e6f0a20feacf9f798f1573bac9fdf2e8f2d",
+    "native_sha256": "bcd72c8212c5ee9f19fd8049156f935dafcabad76851ee9d73acbf3f7ae94d0a",
+    "seconds": 14.41
+  },
+  {
+    "source": "source/portraits/frames/goldwarrWL_plt_d",
+    "runtime": "mods/recommissioned-hud/goldwarrWL_plt_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1870567,
+    "sha256": "c1418e886e0c0152207ef72657faa5f2118bc378ba5a5b74ea8384156df24f6d",
+    "native_sha256": "6dd4ed17cf903b3e0a832fde3fd951ff671a7d5ddabfee07653354b98c2f7e0f",
+    "seconds": 4.77
+  },
+  {
+    "source": "source/portraits/frames/hellcatwl_l",
+    "runtime": "mods/recommissioned-hud/hellcatwl_l.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7359147,
+    "sha256": "9ac999ffaadca1e8acba480d06172d3ca5610f055696c692482a93e029a6158f",
+    "native_sha256": "15362fd1484af66d4236ad66f3f30b2ed82caeae6fdf1668979c187ea422f1db",
+    "seconds": 13.1
+  },
+  {
+    "source": "source/portraits/frames/hornetwl_plt",
+    "runtime": "mods/recommissioned-hud/hornetwl_plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7391453,
+    "sha256": "184393d9ce7b027d595327c4a47b0986ffcdb2c5b09f33246e4118726b29fda3",
+    "native_sha256": "5719bc41cb313f1719541f362e63a49f5b001050488838d55bc57a542e9490e6",
+    "seconds": 13.37
+  },
+  {
+    "source": "source/portraits/frames/hornetwl_plt_d",
+    "runtime": "mods/recommissioned-hud/hornetwl_plt_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1601117,
+    "sha256": "bf88853851578d2a533f52b64ee03bfc0be4bc1564d9fb39f9c6386c633b719f",
+    "native_sha256": "b8cb5f2ea9ef05c3f1155886e24220ece97ffb8c305fd2a3ab3225da99f9b592",
+    "seconds": 5.02
+  },
+  {
+    "source": "source/portraits/frames/hornetwl_plt_l",
+    "runtime": "mods/recommissioned-hud/hornetwl_plt_l.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5379000,
+    "sha256": "86ee46038027b8ac4b820da27a91cfb0411d6eb82f2ee42d15bc73dd352c2097",
+    "native_sha256": "38066b3611479a891bb80a20d18f45cdb2c82385efae7aed4f93190a15ce7f87",
+    "seconds": 12.18
+  },
+  {
+    "source": "source/portraits/frames/kurgen_pil",
+    "runtime": "mods/recommissioned-hud/kurgen_pil.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7469980,
+    "sha256": "dea495018452c79f8b8b843e0e1c05a40d99e7fcf91dd57fe1f7ea47d68a664c",
+    "native_sha256": "625b816024f51499d1f9bdb10d7d35d7fefb60cce0c6dbd9eb547cdf81f996cd",
+    "seconds": 12.07
+  },
+  {
+    "source": "source/portraits/frames/mammoth_plt_05",
+    "runtime": "mods/recommissioned-hud/mammoth_plt_05.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 7675636,
+    "sha256": "e76c4b60c5c58fbffeb94c5c689850943316eb84ab5fa67c2cdfd061a7dba300",
+    "native_sha256": "39478cae4a284a652775aad9f206cf4a1c2cdf7cc88dbbcf355d9dbe1b4edda8",
+    "seconds": 9.55
+  },
+  {
+    "source": "source/portraits/frames/mammoth_plt_05_d",
+    "runtime": "mods/recommissioned-hud/mammoth_plt_05_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1758727,
+    "sha256": "4097702b0987296f066dc12eb89ac599f6a52d96ef123635d936e2a9d2b62b02",
+    "native_sha256": "18f70bc9251e72b7ac52a9417fa68a8546165ca253b758270a6bd7b962f1dff7",
+    "seconds": 4.17
+  },
+  {
+    "source": "source/portraits/frames/mammoth_plt_06",
+    "runtime": "mods/recommissioned-hud/mammoth_plt_06.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6271593,
+    "sha256": "4ca74249eaa1017e9cd2211458d27b151ffce7f23d11d1755a81757f7de05ca0",
+    "native_sha256": "f723fa55c61dac6eee752ea484cf317893f961befdd19f1d783515067b13a0b4",
+    "seconds": 10.16
+  },
+  {
+    "source": "source/portraits/frames/mammoth_plt_06_d",
+    "runtime": "mods/recommissioned-hud/mammoth_plt_06_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1767273,
+    "sha256": "7445dbf6eab9665558bb2bf5c7e7b8041a1f61a87fac4616a712446470fdf0ea",
+    "native_sha256": "c4efe9e5cf7ea428fe859f2c2c98b0a3e9b0a6dc8f9efe0c1da0f4c070bd7490",
+    "seconds": 3.93
+  },
+  {
+    "source": "source/portraits/frames/mammoth_plt_07",
+    "runtime": "mods/recommissioned-hud/mammoth_plt_07.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5883677,
+    "sha256": "f4c5b06e4b140a1043d5a518547f7fb1b251d689e0c76f06e21f47f471ac9c64",
+    "native_sha256": "9c1234c4694a20e2824a2e032f0171f373a85a40b2eeeee76c475f0bd6171dc9",
+    "seconds": 9.98
+  },
+  {
+    "source": "source/portraits/frames/mammoth_plt_07_d",
+    "runtime": "mods/recommissioned-hud/mammoth_plt_07_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1719618,
+    "sha256": "7fa3b7bc436992c471586d7d029b35144d82a9e361aeec26ec7b254832ca95b4",
+    "native_sha256": "0b24b318141dd38ff349a66a03336c79113597fd8f887b276c17d12142f7cd98",
+    "seconds": 4.05
+  },
+  {
+    "source": "source/portraits/frames/maulerwl_plt",
+    "runtime": "mods/recommissioned-hud/maulerwl_plt.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5529201,
+    "sha256": "a08ad6e96e1f6e8aaaf3b78e71d64d274324a23afd4866d0c67b3f723bafd867",
+    "native_sha256": "e8b6ded592f4d61f9adf7dc9250fb401f770f805deb16a94d2897499489635b0",
+    "seconds": 15.32
+  },
+  {
+    "source": "source/portraits/frames/maulerwl_plt_d",
+    "runtime": "mods/recommissioned-hud/maulerwl_plt_d.fm8",
+    "frames": 16,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1819451,
+    "sha256": "065285b504515e0ac00563fc255ff66b32733e176f36daedc338164f2b659502",
+    "native_sha256": "c4a21bf8549bbcb1a18a5edc5dbf44eefaf069fef6770c696408951b870895d5",
+    "seconds": 4.45
+  },
+  {
+    "source": "source/portraits/frames/maulerwl_plt_l",
+    "runtime": "mods/recommissioned-hud/maulerwl_plt_l.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5392623,
+    "sha256": "a40dd3b1dc9cf7bd1c369adebaaae6d194ab30c38c6f9e6558f28ff1c53da7bb",
+    "native_sha256": "9f2d8f1fef944a733f06cfb39e14d909a7dbcccb4a8018b332f831538d3474f3",
+    "seconds": 14.64
+  },
+  {
+    "source": "source/portraits/frames/nannyp",
+    "runtime": "mods/recommissioned-hud/nannyp.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 8203223,
+    "sha256": "a631dd7ea47e7730fa66f1153cd463d35a5b40e2dfeb7de7a5bab508d7e5e494",
+    "native_sha256": "f9d00477e01cf9d6de6af102c8d769973ecd4e6fa48690b67f7783eced9c2112",
+    "seconds": 11.31
+  },
+  {
+    "source": "source/portraits/frames/russbom",
+    "runtime": "mods/recommissioned-hud/russbom.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6933973,
+    "sha256": "e293e58d639141f288732f54df2f0ce4dce3d67bce64c90bfd74c1ef1f7c1b7c",
+    "native_sha256": "5fccd221d8a0b74d4214ee847a74c4c9a4b630c7c49464a9ea31c9ce8e77d94a",
+    "seconds": 12.23
+  },
+  {
+    "source": "source/portraits/frames/russbomd",
+    "runtime": "mods/recommissioned-hud/russbomd.fm8",
+    "frames": 13,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 1299513,
+    "sha256": "313439432861bdd3f3eac08ed059f7bdb4bc88896a5dd0907c5ea837934c9d28",
+    "native_sha256": "8a21358f1a1fab19600f998b7b2e6b39a9d4c08e65a81477f78375e73eb5f2e5",
+    "seconds": 3.11
+  },
+  {
+    "source": "source/portraits/frames/russd",
+    "runtime": "mods/recommissioned-hud/russd.fm8",
+    "frames": 31,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 2235233,
+    "sha256": "0ae7a51ff4944b3d2cfd4e9149ef8aef2a3956d87333c1fa8bf86693584463e0",
+    "native_sha256": "6eb534e1d4cfa1f2114b8d6c4ae8f3765a25d7cbcc029f089fcfb0cc46b89e2a",
+    "seconds": 6.85
+  },
+  {
+    "source": "source/portraits/frames/russp",
+    "runtime": "mods/recommissioned-hud/russp.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5499547,
+    "sha256": "9a46cd6b80d279c601818c8793675a9b902dd607491529007c024edf4a7566db",
+    "native_sha256": "c18c63d825a166a1cbe22de3dd0e875aba3a28eb7fa891b91192975f27249295",
+    "seconds": 11.17
+  },
+  {
+    "source": "source/portraits/frames/sladin_cap_normal",
+    "runtime": "mods/recommissioned-hud/sladin_cap_normal.fm8",
+    "frames": 51,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 5528122,
+    "sha256": "785707f7fda6dfe291afb41bf137aa94095c1044ab553b8c584d2f87e78ede75",
+    "native_sha256": "ee5b383b7df683cfc41f25e557520e96364e6324e9436d9e6832788c1b50ae7b",
+    "seconds": 10.24
+  },
+  {
+    "source": "source/portraits/frames/static",
+    "runtime": "mods/recommissioned-hud/static.fm8",
+    "frames": 101,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 18006759,
+    "sha256": "728204adf13bf94fd493856a5b6c263da48a4092b4964342612d4645d3067911",
+    "native_sha256": "6761ee1badc1a5dc8f7b7cffca34297578a5170a04fb8f5f6ce7146683c7cbb4",
+    "seconds": 17.66
+  },
+  {
+    "source": "source/portraits/frames/test",
+    "runtime": "mods/recommissioned-hud/test.fm8",
+    "frames": 61,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 6279119,
+    "sha256": "b3f6bec552ed6f315f8b41ba051be12fb573465c489302f55fa7970861573188",
+    "native_sha256": "49ed8e72dbb37571ff92557e6cfef9a79d024542cb296460ab409148ae852924",
+    "seconds": 11.04
+  },
+  {
+    "source": "source/portraits/frames/ulycap",
+    "runtime": "mods/recommissioned-hud/ulycap.fm8",
+    "frames": 41,
+    "fps": 15,
+    "content_size": [
+      480,
+      400
+    ],
+    "encoded_size": [
+      484,
+      404
+    ],
+    "logical_size": [
+      120,
+      100
+    ],
+    "bytes": 4358150,
+    "sha256": "a98e62cfbee138e366578aed0025de9c7b0b5b9537947359983fe652d8e0ba37",
+    "native_sha256": "66bd6a8e3aa4c9fffbfbafde887f4332ce5b8f09babb950d7d14e5dd6d29f3fb",
+    "seconds": 8.93
+  }
+]

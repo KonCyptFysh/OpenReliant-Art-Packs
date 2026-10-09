@@ -1,9 +1,9 @@
 const $ = (selector) => document.querySelector(selector);
 const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const formatSize = bytes => `${(bytes / 1024 / 1024).toFixed(1)} MB`;
-const previewSource = asset => asset.previewType === 'render' ? 'Blender material preview' : 'Captured in OpenReliant 0.7.0';
-const previewLabel = asset => asset.previewType === 'render' ? 'Render gallery' : 'Photo gallery';
-const previewSummary = asset => asset.previewType === 'render' ? (asset.model ? '3D + rendered previews' : 'Rendered previews') : asset.model ? '3D + in-game preview' : asset.images?.length > 1 ? `${asset.images.length} in-game photos` : asset.preview ? 'In-game preview' : 'Work in progress';
+const previewSource = (asset, photo = null) => photo?.sourceLabel || asset.previewSource || (asset.previewType === 'render' ? 'Blender material preview' : `Captured in OpenReliant ${asset.engine || '0.7.0'}`);
+const previewLabel = asset => asset.previewType === 'mixed' ? 'Image gallery' : asset.previewType === 'render' ? 'Render gallery' : 'Photo gallery';
+const previewSummary = asset => asset.previewType === 'mixed' ? 'Artwork + in-game gallery' : asset.previewType === 'render' ? (asset.model ? '3D + rendered previews' : 'Rendered previews') : asset.model ? '3D + in-game preview' : asset.images?.length > 1 ? `${asset.images.length} in-game photos` : asset.preview ? 'In-game preview' : 'Work in progress';
 const dialog = $('#asset-dialog');
 let catalogue, selectedCategory, currentAsset, previewSequence = 0, viewerImport, galleryIndex = 0, previewKind;
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -96,12 +96,12 @@ async function showPreview(kind) {
     const photo = photos[galleryIndex];
     const image = document.createElement('img');
     image.src = photo.src;
-    image.alt = `${photo.caption} — ${previewSource(asset)}`;
+    image.alt = `${photo.caption} — ${previewSource(asset, photo)}`;
     stage.append(image);
     $('#gallery-controls').hidden = photos.length < 2;
     $('#gallery-caption').textContent = photo.caption;
     $('#gallery-count').textContent = `${galleryIndex + 1} / ${photos.length}`;
-    $('#preview-hint').textContent = previewSource(asset);
+    $('#preview-hint').textContent = previewSource(asset, photo);
   } else {
     stage.innerHTML = '<div class="placeholder-art"><span class="placeholder-icon" aria-hidden="true">◇</span><span>COMING SOON</span></div>';
     $('#preview-hint').textContent = 'Artwork is still being revised.';
@@ -115,7 +115,7 @@ function openAsset(id) {
   galleryIndex = 0;
   const category = catalogue.categories.find(c => c.id === asset.category);
   const available = asset.status === 'available';
-  $('#asset-details').innerHTML = `<p class="eyebrow">${escapeHTML(category.name)}</p><h2 id="asset-title">${escapeHTML(asset.name)}</h2><p class="asset-description">${escapeHTML(asset.description)}</p><dl class="detail-facts"><div><dt>Status</dt><dd>${available ? 'Public beta' : 'Coming soon'}</dd></div><div><dt>OpenReliant</dt><dd>${catalogue.engine}</dd></div>${asset.assetRevision ? `<div><dt>Artwork revision</dt><dd>${escapeHTML(asset.assetRevision)}</dd></div>` : ''}${available ? `<div><dt>Download</dt><dd>${formatSize(asset.downloadBytes)} · ZIP</dd></div>` : ''}</dl><div class="detail-notes"><h3>Still on the workbench</h3><ul>${(asset.notes || []).map(note => `<li>${escapeHTML(note)}</li>`).join('')}</ul></div>${available ? `<a class="button primary" href="${escapeHTML(asset.download)}">Download ${escapeHTML(asset.name)} <span aria-hidden="true">↓</span></a><div class="secondary-links"><a href="${escapeHTML(asset.release)}">Release notes</a><a href="${escapeHTML(asset.download)}.sha256">Checksum</a><a href="${catalogue.repository}/tree/main/${asset.folder.split('/').map(encodeURIComponent).join('/')}/source">Editable source</a></div>` : '<button class="button coming-button" disabled>Coming soon</button>'}<p class="detail-warning">${asset.model ? 'The 3D hull preview uses reduced textures and browser lighting; loadout weapons and engine effects are omitted. ' : ''}${asset.previewType === 'render' ? 'The still images are Blender material previews; lighting differs in game. ' : asset.model ? 'Check the in-game capture for the current engine appearance. ' : ''}${available ? 'Beta testing covers format checks and bounded rendering on Linux; broader gameplay and other platforms are still to be tested.' : 'This entry has no published download yet.'}</p>`;
+  $('#asset-details').innerHTML = `<p class="eyebrow">${escapeHTML(category.name)}</p><h2 id="asset-title">${escapeHTML(asset.name)}</h2><p class="asset-description">${escapeHTML(asset.description)}</p><dl class="detail-facts"><div><dt>Status</dt><dd>${available ? 'Public beta' : 'Coming soon'}</dd></div><div><dt>OpenReliant</dt><dd>${escapeHTML(asset.engine || catalogue.engine)}</dd></div>${asset.assetRevision ? `<div><dt>Artwork revision</dt><dd>${escapeHTML(asset.assetRevision)}</dd></div>` : ''}${available ? `<div><dt>Download</dt><dd>${formatSize(asset.downloadBytes)} · ZIP</dd></div>` : ''}</dl><div class="detail-notes"><h3>Still on the workbench</h3><ul>${(asset.notes || []).map(note => `<li>${escapeHTML(note)}</li>`).join('')}</ul></div>${available ? `<a class="button primary" href="${escapeHTML(asset.download)}">Download ${escapeHTML(asset.name)} <span aria-hidden="true">↓</span></a><div class="secondary-links"><a href="${escapeHTML(asset.release)}">Release notes</a><a href="${escapeHTML(asset.download)}.sha256">Checksum</a><a href="${catalogue.repository}/tree/main/${asset.folder.split('/').map(encodeURIComponent).join('/')}/source">Editable source</a></div>` : '<button class="button coming-button" disabled>Coming soon</button>'}<p class="detail-warning">${asset.model ? 'The 3D hull preview uses reduced textures and browser lighting; loadout weapons and engine effects are omitted. ' : ''}${asset.previewType === 'mixed' ? 'The cover is a composition of the mod artwork; the other images are engine captures. ' : asset.previewType === 'render' ? 'The still images are Blender material previews; lighting differs in game. ' : asset.model ? 'Check the in-game capture for the current engine appearance. ' : ''}${available ? 'Beta testing covers format checks and bounded rendering on Linux; broader gameplay and other platforms are still to be tested.' : 'This entry has no published download yet.'}</p>`;
   $('#show-3d').hidden = !asset.model;
   $('#show-image').hidden = !galleryImages(asset).length;
   $('#show-image').textContent = galleryImages(asset).length > 1 ? previewLabel(asset) : asset.previewType === 'render' ? 'Rendered preview' : 'In-game capture';

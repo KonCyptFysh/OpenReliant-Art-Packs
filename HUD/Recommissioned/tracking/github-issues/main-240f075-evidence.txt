@@ -1,0 +1,52 @@
+HUD feedback evidence, 8 October 2026
+
+Upstream: https://github.com/OpenReliant/openreliant/commit/240f075183abc20bb3fafe91ae30c1b0aad7ca57
+New readings: https://github.com/OpenReliant/openreliant/pull/864
+Radar/target: https://github.com/OpenReliant/openreliant/pull/866
+Planned readings: https://github.com/OpenReliant/openreliant/issues/832
+API freeze: https://github.com/OpenReliant/openreliant/issues/751
+
+Build: Linux x86_64, Zig 0.17.0, ReleaseSafe, zero changed upstream source files.
+Binary SHA-256: 1f024109ab0b055bd82fda95d0cea7a49b4b84968f58ca41ca9c342d80e80d44
+The archive build can label itself 0.7.0. The commit/hash above identify the dev build.
+
+Font test: font-sizes folder from source/compatibility-probes/main-86aa967.
+Copy it into an isolated game-data/mods folder. Disable other HUD scripts, enter
+a mission in cockpit view at 1920x1080, and compare the two columns.
+Left: one Oxanium resource at scales 1, 1.2, 1.4, 1.6, 1.8, 2 in the same frame.
+Right: byte-identical font files, with an independent resource per size.
+Rows 1 and 2 differ by 1474 and 2342 pixels; the other four rows match exactly.
+No script error or crash; the first two left rows visibly contain broken glyphs.
+The font is distributed under the included SIL Open Font License.
+
+Likely cause, not an engine fix verified here:
+src/engine/game/hud/outline.zig:359 keeps four sizes.
+Outline.at (406 onwards) evicts by draw-use order, without current-frame protection.
+render (481 onwards) reuses matching-sized atlas image/pixel storage.
+Earlier glyph quads retain an atlas image reference (465).
+Suggested regression: compare the rendered six-size shared-font rows against
+independent-font rows after all draw calls complete, then repeat across frames.
+
+Gun-state source: src/scripting/instruments.zig Guns.
+Light-state source: src/engine/game/hud.zig lightsShown/IconTest/lightsWith and drawLights.
+The names list uses the active state, while native drawing applies flashes and
+device charge bars separately. No scripted light charge/visible-phase field is
+present in this revision. These are source-confirmed omissions, not mission-tested
+failures of each device. Suggested fields are proposals, not existing API names.
+
+readings probe (source/compatibility-probes/main-240f075): frame 30 cockpit/instruments_shown=true; frame 60 set_view("chase")
+succeeds; frame 180 chase/instruments_shown=false. Readings remain available and
+the clock advances from 00:00 to 00:01. Both views report 9 radar contacts (4 hostile, 4 other, 1 selected target).
+The selected SABER/JACKALS target reports range 70, speed 0 and its shield/armour
+arcs in both views. The large-target/subtarget/cloak cases remain untested.
+The CLI --view 1 setting alone retains the
+instrumented cockpit camera in its chase mode; the explicit switch is the useful
+test of readings with instruments hidden.
+
+HUD sanity checks: 1080p and 720p images match the previous build byte-for-byte;
+The earlier 86aa967 build also passed Mirage FULL GUNS and Wolverine native
+gunnery fallback without script errors; those two cases were not repeated on
+240f075. All 592 runtime files and approved subtargets 393-409 are unchanged.
+These are focused checks, not complete gameplay or release certification.
+
+Prepared locally for the user to send. Nothing posted upstream. Public mod release held.

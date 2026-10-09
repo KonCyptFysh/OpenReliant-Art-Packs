@@ -1,0 +1,338 @@
+{
+  "checked_on": "2026-10-07",
+  "source_authority": "Maintainer explicitly identified this as all finished subtargets.",
+  "frames": [
+    {
+      "frame": 393,
+      "source": "frame_393.tga",
+      "runtime": "rc_target_subtargets_frame_393.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "8ec8896819a740c8ebed45420ad5198105c3b31628bf6ba3b1ea9422f019da27",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "660e9927c50214e6754b69b4ffd9ffd64fb9752c5319f7d15b9a03928c222680",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_393.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_393.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 394,
+      "source": "frame_394.tga",
+      "runtime": "rc_target_subtargets_frame_394.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "c08578800abcfdd8abc6a871f90f38434565b736f6d9193bede73cf64bd37e45",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "f33a8a900f0e3ab7a0848bbc713828538c4528bd03a02fca433fe90af9be7d87",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_394.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_394.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 395,
+      "source": "frame_395.tga",
+      "runtime": "rc_target_subtargets_frame_395.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "22f87bc3057cc134aa9d8b95fbf7dc8aabc03a6fca2308479a59c70a3423f8f5",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "1ef0b4ef4e45f2a736bbfb7d107fbfe595d3cd36d92ca2471ba6e36e96b0e8ef",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_395.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_395.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 396,
+      "source": "frame_396.tga",
+      "runtime": "rc_target_subtargets_frame_396.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "f62e00fe772e27d55c77f68bd0212d47b05b1784f1b34c00b6d798da4f8685d7",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "9267b91404d8efe5d10d862edeb43b70d80a78953345bcadb44bb407e0028e28",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_396.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_396.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 397,
+      "source": "frame_397.tga",
+      "runtime": "rc_target_subtargets_frame_397.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "a9d4e7d2377d5467509a9682ad710c17a385bf3f9431830f16dcbcd7c0a416af",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "eee5e050dc6c16ef910b07f8b22c7cdd4955782442f5d918da5e56762e7f5986",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_397.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_397.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 398,
+      "source": "frame_398.tga",
+      "runtime": "rc_target_subtargets_frame_398.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "825402e46933d8b696f67c0045251de2a6ceda474301e8d64ac5f42d55cb93b5",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "81acba704d9d18161e39bbd6dbcceee4c92cebae0f0e689c2c7863a18288aab8",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_398.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_398.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 399,
+      "source": "frame_399.tga",
+      "runtime": "rc_target_subtargets_frame_399.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "d9515b5a56a62830d00d1413d8be898d71c2578ce3a8a9ad0899ecf65c9b52be",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "9e209315cd4d3078ad1f377d6e2eaaf3b5b279e6951eab2abad79e53968a10c8",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_399.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_399.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 400,
+      "source": "frame_400.tga",
+      "runtime": "rc_target_subtargets_frame_400.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "ca19569c1506d5655a94ee54845d1e4ad6e056df4378f2670fc83299b18220b4",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "6cac5b75a77faa4e53298e9315e5ca9d00b1b49430f38fa3017e997d95c184a7",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_400.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_400.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 401,
+      "source": "frame_401.tga",
+      "runtime": "rc_target_subtargets_frame_401.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "c1fe9e2620c934dbba491d9b5bcee2d35f479136864181dbf4062cd5181ddd9a",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "db6f731a7e5c1034719ed5a0d43b0861d60042d0f5c0a701351216b0848afb46",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_401.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_401.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 402,
+      "source": "frame_402.tga",
+      "runtime": "rc_target_subtargets_frame_402.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "34e4e655913b33d5e244d60720d2e8128279aebaf66c64c41b9fda0d07b632a1",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "c4128453ab43f7cfe78485543f3fbd2fb243a86416e2d8833749acb1d7cc4b42",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_402.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_402.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 403,
+      "source": "frame_403.tga",
+      "runtime": "rc_target_subtargets_frame_403.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "cc4d831b1f54acb8727c953d0c5e63615490ef49db0bc0d82b44edb828df3a1e",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "f17205bf384fbd416ac70e9eb5db583fe32465fa65d29887bff59749c8dbf107",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_403.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_403.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 404,
+      "source": "frame_404.tga",
+      "runtime": "rc_target_subtargets_frame_404.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "460f2104aa6cfa0c22ae20f0b8e79528def3beabc36ef11a30a0c6fce50449f3",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "3adbbf44a7f0161f8e3510b55c7c7873aa76c6627e07239473380104eb10aeb6",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_404.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_404.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 405,
+      "source": "frame_405.tga",
+      "runtime": "rc_target_subtargets_frame_405.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "1157c2d26fc3a87cba342060c50c427f7a0ff1ae0eb4eddeae3d048b02b9358c",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "027fb05b3cdb77e9e96029a8de47206f8e74a90a728c0c2530a43d1e9f1d6149",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_405.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_405.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 406,
+      "source": "frame_406.tga",
+      "runtime": "rc_target_subtargets_frame_406.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "4534a2d9ad59ecc97da54b5c4f6666d45fd6b2675935d5040a86e8c32391f0b9",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "fc485d77d92a074994d3d922dbf2d4dc7f6e8497480489bc0d53ead841bfd95a",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_406.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_406.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 407,
+      "source": "frame_407.tga",
+      "runtime": "rc_target_subtargets_frame_407.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "d8cb851eb47d18fa1daf1fd22306b4dbcb576aa52b20c615bbf7fcda0dc782f3",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "6d3099f8bfff250d8304a376c47ace9c13f54353be5aca9f0c620521122b09d5",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_407.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_407.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 408,
+      "source": "frame_408.tga",
+      "runtime": "rc_target_subtargets_frame_408.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "73ddc9eaf039dcf6105a99b0c3d06c0cadbeabece20ee8c188d7a7102e91d223",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "1cc2a2d2c535269b3cc360a3f0285e1f825624a44be3903e26760fceccabb099",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_408.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_408.png",
+      "live_matches_repository": true
+    },
+    {
+      "frame": 409,
+      "source": "frame_409.tga",
+      "runtime": "rc_target_subtargets_frame_409.png",
+      "size": [
+        528,
+        416
+      ],
+      "source_sha256": "49d0114aca5887bef24c07b5b58d2d31c23c7f57162263726ef5ca00d49b48e6",
+      "runtime_present": true,
+      "art_status": "finished-per-maintainer",
+      "runtime_sha256": "ba24901b95fd34239d00925435843e4382c8e83257d782a6920512d970aae051",
+      "rgba_equal": true,
+      "alpha_equal": true,
+      "visible_rgb_equal": true,
+      "repository_source": "source/hud/target/subtargets/frame_409.tga",
+      "repository_runtime": "mods/recommissioned-hud/rc_target_subtargets_frame_409.png",
+      "live_matches_repository": true
+    }
+  ],
+  "gameplay_validation": "No new in-game capture in this audit.",
+  "scope": "The approved source folder contains frames 393 through 409. This record verifies installed pixels, not gameplay or a frozen release package.",
+  "repository_and_live_verification": {
+    "checked_on": "2026-10-07",
+    "frames": 17,
+    "all_file_hashes_unchanged": true,
+    "all_rgba_equal": true,
+    "asset_manifest_sha256": "8ef978007b866a3d8d111fba43698a34a68d2c970efb119902afaaf9232c5c98"
+  }
+}

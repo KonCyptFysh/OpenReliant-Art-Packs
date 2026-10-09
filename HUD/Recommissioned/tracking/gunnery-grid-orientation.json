@@ -1,0 +1,50 @@
+{
+  "checked_on": "2026-10-08",
+  "status": "floor-grid-orientation-fixed-tested-and-deployed",
+  "reference": "Native gunnery floor p17 uses mirror mode 2; preceding renderer uses down=true",
+  "scope": "Confirmed gunnery background floor-grid orientation defect",
+  "runtime_files": 592,
+  "runtime_pngs": 586,
+  "source_and_tool_files": 686,
+  "asset_manifest_sha256": "3a4f5981470c618344f1078ce88e49046b6a82214aa5cab8cceb12b5b7a88347",
+  "source_manifest_sha256": "8ee95b9e82d6ca0658ba6d4ed903a69b18f5e116a90e897403a12da6f035458f",
+  "new_runtime": [
+    "rc_wireframes_gunnery_floor.png"
+  ],
+  "changed_existing_runtime": [
+    "recommissioned.luau"
+  ],
+  "unchanged_existing_pngs": 585,
+  "unchanged_editable_art": true,
+  "lossless_pixel_row_mirror": true,
+  "dimensions": [
+    387,
+    75
+  ],
+  "approved_subtargets_unchanged": 17,
+  "ion_cannon_frame": 406,
+  "nested_sources_unchanged": 775,
+  "live_hashes_match": true,
+  "review_hashes_match": true,
+  "launchers_unchanged": true,
+  "ship_and_grid_placement_changed": false,
+  "checks": [
+    {
+      "case": "gunnery-grid-fixed-1080",
+      "passed": true,
+      "scope": "Floor-grid orientation and HUD rendering",
+      "result": ".local/gunnery-grid/gunnery-grid-fixed-1080.json",
+      "capture": ".local/gunnery-grid/gunnery-grid-fixed-1080.png",
+      "capture_sha256": "51f3d13826ddd7cee381626c85b73a31f1789e74b6373637fe6cd8150cb5f52d"
+    },
+    {
+      "case": "gunnery-grid-fixed-720",
+      "passed": true,
+      "scope": "Floor-grid orientation and HUD rendering",
+      "result": ".local/gunnery-grid/gunnery-grid-fixed-720.json",
+      "capture": ".local/gunnery-grid/gunnery-grid-fixed-720.png",
+      "capture_sha256": "852139fb49e2d0e585a45a674b1be0de5c6aa30ad15455ae0528229d884ad58a"
+    }
+  ],
+  "release": "hold"
+}

@@ -1,0 +1,109 @@
+{
+  "status": "pending",
+  "scope": "Release validation remains pending; working-candidate checks below are complete.",
+  "checked_on": "2026-10-07",
+  "engine_build": {
+    "upstream_commit": "4150676e798176f3bbcc7c9872c52c20a333f296",
+    "reported_version": "0.7.0 development",
+    "hud_version": "1.1",
+    "compiler": "Zig 0.16.0",
+    "optimization": "ReleaseSafe",
+    "binary_sha256": "20b723afdf72194554f160b658be761ac9f3661aad8d470100becaa4655c71a1",
+    "launcher_sha256": "cd25fb9fc4a5cd68ba1314a8aee5b2f131f5183d1c162d0422df676b7fe13547",
+    "changed_during_handoff": false
+  },
+  "tested_platforms": [
+    {
+      "os": "Fedora Linux 42 KDE",
+      "architecture": "x86_64",
+      "display": "X11 via SDL",
+      "capture_resolution": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "asset_manifest_sha256": "8ef978007b866a3d8d111fba43698a34a68d2c970efb119902afaaf9232c5c98",
+  "source_manifest_sha256": "f30508ad673805a5422d1da2f0e6ec6cdc7432f48e5046422afa2f8d5b9a0225",
+  "checks": [
+    {
+      "name": "Portable source export",
+      "result": "passed",
+      "detail": "All 589 regenerated runtime files equal the prior tested HUD 1.1 installation byte-for-byte; no absolute source paths or game-frame extracts required."
+    },
+    {
+      "name": "Exact live deployment",
+      "result": "passed",
+      "detail": "All 589 flat live files match asset-manifest.json. Exactly 38 inventoried unused files removed after a full flat-file backup. All 775 nested source files preserved."
+    },
+    {
+      "name": "Sprite transparency",
+      "result": "passed",
+      "detail": "All 585 shipped PNGs have zero RGB under alpha zero. Normal sprite export preserves every alpha and visible RGBA value. Prior full audit covered 619 PNGs, with 358 needing cleanup."
+    },
+    {
+      "name": "Missile export",
+      "result": "passed",
+      "detail": "All 90 poses reproduced at 1024 from nine neutral masters and authored halos; opaque source recipe checked for every pose."
+    },
+    {
+      "name": "Approved subtargets",
+      "result": "passed",
+      "detail": "393-409: original TGA hashes and deployed PNG hashes unchanged; exact 528x416 RGBA equality. Frame 406 remains Ion Cannon; no 410 replacement added."
+    },
+    {
+      "name": "Portable Blender scenes",
+      "result": "passed",
+      "detail": "34 selected base/wireframe scenes reopened with packed reference images and relative output paths. Original authoring scenes preserved."
+    },
+    {
+      "name": "Engine source handoff",
+      "result": "passed",
+      "detail": "Complete patch against 4150676 reconstructs all eleven changed/added files byte-for-byte. Installed binary and launcher hashes unchanged."
+    },
+    {
+      "name": "Existing launcher smoke test",
+      "result": "passed",
+      "detail": "Live HUD loaded at 1920x1080: 29 roots, 61 children; screenshot saved; normal exit code 0."
+    },
+    {
+      "name": "Deployed instrument scene",
+      "result": "passed",
+      "detail": "Isolated mission 991 uses the deployed HUD and eight installed ship mods. Enlarged gunnery/text, solid synchronised bar, missile readout, radar and reticles visually inspected; exit code 0."
+    },
+    {
+      "name": "Prior firing-mode and target tests",
+      "result": "passed-prior-same-assets",
+      "detail": "HUD 1.1 evidence confirms full/synchronised solid bars, interactive individual split bars, target brackets and screen-edge cue. All retained runtime bytes and engine are unchanged."
+    },
+    {
+      "name": "Package guard tests",
+      "result": "passed",
+      "detail": "Nine existing package tests pass; package_mod.py --check still refuses the held release."
+    },
+    {
+      "name": "Engine unit tests",
+      "result": "passed-prior-same-source",
+      "detail": "Existing HUD 1.1 run passed 2042/2042; no engine changes or unnecessary rebuild in this handoff."
+    },
+    {
+      "name": "Editable mission fixtures",
+      "result": "passed",
+      "detail": "All three preserved Zig fixture generators reproduce their checked-in DTE bytes exactly against the pinned engine source."
+    }
+  ],
+  "limitations": [
+    "Final public release remains on hold; this is a deployed working candidate, not a release freeze.",
+    "Official OpenReliant v0.7.0 lacks the custom renderer; compatibility and engine upgrades belong to release preparation.",
+    "Final gameplay, campaign transitions, additional resolutions, missing-schematic fallback and fresh install/disable/uninstall checks remain HUD-QA-01 work.",
+    "17 large-schematic jobs covering 19 runtime names remain unfinished; fuel-pod frame 410 remains a separate review item.",
+    "1024 missile exports avoid the earlier 512 reduction, but fine texture detail remains limited by the selected neutral renders.",
+    "Subtarget byte/pixel verification does not substitute for gameplay testing of each target type.",
+    "Git LFS is unavailable; all repository files remain unstaged, with no first commit or GitHub remote/upload."
+  ],
+  "evidence_catalog": "tracking/working-candidate.json",
+  "test_environment_notes": [
+    "The live nested HUD/hud directory is intentionally preserved and ignored by the flat mod loader.",
+    "The isolated no-sound test directory omitted force-feedback files; its warnings do not indicate a HUD load failure."
+  ]
+}

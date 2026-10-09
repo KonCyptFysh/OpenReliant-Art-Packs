@@ -1,0 +1,169 @@
+{
+  "checked_on": "2026-10-08",
+  "status": "current-main-built-tested-installed",
+  "main_check": {
+    "checked_at": "2026-10-08T07:51:36.797939+00:00",
+    "commit": "240f075183abc20bb3fafe91ae30c1b0aad7ca57",
+    "commit_date": "2026-10-08T07:45:13Z",
+    "subject": "feat: scripts read the radar's contacts and the target display (#866)"
+  },
+  "engine": {
+    "kind": "unmodified-upstream-development-test-build",
+    "upstream_commit": "240f075183abc20bb3fafe91ae30c1b0aad7ca57",
+    "binary_sha256": "1f024109ab0b055bd82fda95d0cea7a49b4b84968f58ca41ca9c342d80e80d44",
+    "compiler": "Zig 0.17.0",
+    "optimization": "ReleaseSafe",
+    "changed_upstream_source_files": 0,
+    "private_engine_patch_applied": false,
+    "note": "Source archive build reports 0.7.0; commit and binary hash identify this newer upstream build."
+  },
+  "runtime_files": 592,
+  "runtime_pngs": 586,
+  "source_and_tool_files": 702,
+  "runtime_changed_this_pass": false,
+  "asset_manifest_sha256": "3a4f5981470c618344f1078ce88e49046b6a82214aa5cab8cceb12b5b7a88347",
+  "source_manifest_sha256": "59f6da7fbc27844f044055e74220bc11fa0010d21cfafa359f5be05f3728f5ad",
+  "source_archive_sha256": "bb774e8bfaf4d17fe764fb79ef5c4d789b40a8649b9fabcc1567868de196890a",
+  "upstream_source_files_checked": 655,
+  "approved_subtargets_unchanged": 17,
+  "ion_cannon_frame": 406,
+  "normal_launcher_unchanged": true,
+  "live_hashes_match": true,
+  "review_hashes_match": true,
+  "cases": [
+    {
+      "case": "hud-240f075-1080",
+      "passed": true,
+      "scope": "Coyote HUD at 1080p",
+      "result": ".local/main-dev-240f075/hud-240f075-1080.json",
+      "capture": ".local/main-dev-240f075/hud-240f075-1080.png",
+      "capture_sha256": "51f3d13826ddd7cee381626c85b73a31f1789e74b6373637fe6cd8150cb5f52d"
+    },
+    {
+      "case": "hud-240f075-720",
+      "passed": true,
+      "scope": "Coyote HUD at 720p",
+      "result": ".local/main-dev-240f075/hud-240f075-720.json",
+      "capture": ".local/main-dev-240f075/hud-240f075-720.png",
+      "capture_sha256": "852139fb49e2d0e585a45a674b1be0de5c6aa30ad15455ae0528229d884ad58a"
+    },
+    {
+      "case": "api-240f075-view-switch",
+      "passed": true,
+      "scope": "Gauge/light/clock, radar contacts and target display in cockpit/chase; hidden native instruments",
+      "result": ".local/main-dev-240f075/api-240f075-view-switch.json",
+      "capture": ".local/main-dev-240f075/api-240f075-view-switch.png",
+      "capture_sha256": "ae575ffefd8d232efafbbbe5f0d87a73e8d31f42577177843574587bc39dd0e7"
+    },
+    {
+      "case": "hud-240f075-installed",
+      "passed": true,
+      "scope": "Actual installed development launcher",
+      "result": ".local/main-dev-240f075/hud-240f075-installed.json",
+      "capture": ".local/main-dev-240f075/hud-240f075-installed.png",
+      "capture_sha256": "51f3d13826ddd7cee381626c85b73a31f1789e74b6373637fe6cd8150cb5f52d"
+    }
+  ],
+  "font_diagnostic": {
+    "confirmed_corruption": true,
+    "rows": [
+      {
+        "scale": 1,
+        "different_pixels": 1474,
+        "matches_control": false
+      },
+      {
+        "scale": 1.2,
+        "different_pixels": 2342,
+        "matches_control": false
+      },
+      {
+        "scale": 1.4,
+        "different_pixels": 0,
+        "matches_control": true
+      },
+      {
+        "scale": 1.6,
+        "different_pixels": 0,
+        "matches_control": true
+      },
+      {
+        "scale": 1.8,
+        "different_pixels": 0,
+        "matches_control": true
+      },
+      {
+        "scale": 2,
+        "different_pixels": 0,
+        "matches_control": true
+      }
+    ],
+    "scope": "Six sizes in one frame; same font bytes and parameters apart from resource instance and x position.",
+    "result": ".local/main-dev-240f075/font-240f075-six-sizes.json",
+    "capture": ".local/main-dev-240f075/font-240f075-six-sizes.png",
+    "classification": "confirmed-current-upstream-bug",
+    "mod_workaround": "Separate font resource instances"
+  },
+  "new_apis_runtime_checked": [
+    "gauges",
+    "fuel",
+    "countermeasures",
+    "kills",
+    "ship_status",
+    "lights",
+    "clock",
+    "view_name",
+    "caption",
+    "radar.contacts",
+    "target_display"
+  ],
+  "new_api_check_limit": "Synthetic mission, selected Sabre and current radar contacts in cockpit and chase; no dense radar, range switching, large target/subtargets or cloaked target test yet.",
+  "new_source_confirmed_gaps": [
+    {
+      "name": "Live gun rounds and pairing state",
+      "evidence": "src/scripting/instruments.zig Guns has group/groups/all/synchronised/gun/charge/full_charge, no rounds or paired boolean; objects.zig also has no live gun-round field."
+    },
+    {
+      "name": "Light presentation state",
+      "evidence": "lights returns names only. lightsShown uses IconTest.set and treats flashing icons as active, not the visible phase. No device charge in HUD fields; countermeasure readout is only a count."
+    },
+    {
+      "name": "Window, missile and radar ring animation state",
+      "evidence": "open_windows returns names; missiles returns armed/left/ring; radar exposes range/reach/zooming/contacts but not the current ring frame or transition progress. Optional native-animation fidelity request."
+    },
+    {
+      "name": "Picture mirroring/source rectangles",
+      "evidence": "picture size/style support colour and alpha. Mod-side mirrored/cropped exports are a working alternative; convenience rather than a release blocker."
+    }
+  ],
+  "upstream_planned": [
+    "Damage, power, wingmen, objectives, comms and message lines (#832 part 3)"
+  ],
+  "remaining": [
+    "Official release containing merged HUD APIs",
+    "Port now-available radar, target, gauges, ship-status and light readings into the mod; dense contact/range/subtarget/cloak cases still need testing",
+    "Damage, power, wingmen, objectives, comms and message readings planned in #832 part 3",
+    "Live gun rounds and paired-group state; retain native gunnery on Grendel/Wolverine/Reaper",
+    "Visible warning phases, device charge bars and optional window/missile/radar ring animation state",
+    "Shared-font corruption beyond four sizes; keep separate-font mod workaround",
+    "Interactive weapons, wireframe/layout user review, long missions, resizing and final gameplay QA",
+    "17 large-schematic jobs and fuel-pod frame 410 artwork"
+  ],
+  "author_note": "tracking/github-issues/main-240f075-author-note.txt",
+  "author_evidence": "tracking/github-issues/main-240f075-evidence.txt",
+  "editable_probes": [
+    "source/compatibility-probes/main-240f075",
+    "source/compatibility-probes/main-86aa967/font-sizes"
+  ],
+  "feedback_bundle": ".local/main-dev-240f075/hud-main-240f075-feedback.zip",
+  "upstream_messages_posted": false,
+  "public_release": "hold",
+  "previous_engine_commit": "86aa967486e8e0191dbbd572acb8e894a30833f4",
+  "art_refinement_record": "tracking/gunnery-grid-orientation.json",
+  "installed_test_notes": [
+    "No script errors; normal screenshot exit code 0.",
+    "Five existing nested-folder warnings from the separate Mirage art mod, not the HUD. Other art mods were not changed."
+  ],
+  "previous_baseline": "tracking/main-dev-baseline-86aa967.json",
+  "previous_weapon_checks": "FULL GUNS and Wolverine native fallback checked on 86aa967 earlier in this pass; not repeated on 240f075."
+}

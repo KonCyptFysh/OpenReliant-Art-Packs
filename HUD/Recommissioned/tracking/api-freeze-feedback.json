@@ -1,0 +1,181 @@
+{
+  "checked_on": "2026-10-09",
+  "scope": "Manual issue drafts and isolated probes; no playable HUD export/deployment changes",
+  "build": {
+    "commit": "57c394b5bb7e9ddc5d171db07f039449854d98c1",
+    "compiler": "Zig 0.17.0",
+    "optimization": "ReleaseSafe",
+    "source_archive_sha256": "67d4785ff80ebb58979ef9253d545bbde4fe56567d9b8634c399d456b0797589",
+    "source_files_verified": 656,
+    "changed_source_files": 0,
+    "binary_sha256": "76c864bf7fa6885a5e933d1a357dfb09026ff5a54f596fb23c1fbc479b8c4f72",
+    "installed_game_changed": false
+  },
+  "source_and_tool_files": 733,
+  "source_manifest_sha256": "fb8dc27928c70e3b58b9fc3c6b2f0e700fa25d51b079a66c4a8c6d1ee45a0023",
+  "runtime_manifest_sha256": "5c37b96010747737f3c6c526e13f40cee908ddc22ef95ce7d1f95ee496c08c08",
+  "upstream_messages_posted": false,
+  "public_release": "hold",
+  "normal_launcher_changed": false,
+  "installed_review_build_changed": false,
+  "approved_subtargets_changed": false,
+  "ion_cannon_frame": 406,
+  "drafts": "tracking/github-issues/api-freeze-2026-10-09/README.md",
+  "attachments": [
+    {
+      "attachment": "01-gun-ammunition-and-pairing.zip",
+      "bytes": 772492,
+      "sha256": "97599bf8b2732b79efe2d45187cfb18e55deae2182a274e466e80d45f3fae7b0",
+      "case": "gun-base-current",
+      "source_files": 11
+    },
+    {
+      "attachment": "02-stable-subtarget-identity.zip",
+      "bytes": 732590,
+      "sha256": "78831830462caf852007882629ddbd999ea0abb6585c69ac3e95c647d68f1078",
+      "case": "subtarget-current",
+      "source_files": 11
+    },
+    {
+      "attachment": "03-warning-and-device-presentation.zip",
+      "bytes": 758744,
+      "sha256": "41cff1bda14abaef9784904630de8fda8ba518ef6fc0e2cc44ea636ebb1faa69",
+      "case": "lights-current",
+      "source_files": 11
+    },
+    {
+      "attachment": "04-shared-font-sizes.zip",
+      "bytes": 260909,
+      "sha256": "b3c4ff4e1006d607bb4aec5e1f35ebb969abbc75ffcd5a30c610cceefdd73a03",
+      "case": "font-current",
+      "source_files": 20
+    },
+    {
+      "attachment": "05-animation-progress.zip",
+      "bytes": 779625,
+      "sha256": "f6ff26699e9d6cc0f1425c9b622dc8cef7334fa42141d7afa8df8f8f5f30a0bc",
+      "case": "presentation-current",
+      "source_files": 11
+    },
+    {
+      "attachment": "07-missing-sprite-pieces.zip",
+      "bytes": 19426403,
+      "sha256": "afc93c31c5403d0870a36999d0b2eca62058ee593bab582793ca3f7983229f60",
+      "case": "reduced-hud-sweep-current",
+      "source_files": 668
+    },
+    {
+      "attachment": "08-subtarget-shutdown-leaks.zip",
+      "bytes": 1459738,
+      "sha256": "a4e48c6793ce2d59fd20b78ce8d767f31190c4e436ffbba2ffdd0c7ea8c8bc63",
+      "case": "subtarget-native-current",
+      "source_files": 13
+    }
+  ],
+  "packaged_runtime_checks": [
+    {
+      "attachment": "01-gun-ammunition-and-pairing.zip",
+      "zip_sha256": "97599bf8b2732b79efe2d45187cfb18e55deae2182a274e466e80d45f3fae7b0",
+      "manifest_verified": true,
+      "runtime_exit_code": 0,
+      "script_warnings": 0,
+      "errors": 0,
+      "capture_sha256": "147d903fce4df1bc9277b091a55cf235934f94585bbc021d1e68afe82a2450e7",
+      "note": "No diagnostics",
+      "ticks": 180,
+      "mission": 0,
+      "native_rounds_visible": 3000
+    },
+    {
+      "attachment": "02-stable-subtarget-identity.zip",
+      "zip_sha256": "78831830462caf852007882629ddbd999ea0abb6585c69ac3e95c647d68f1078",
+      "manifest_verified": true,
+      "runtime_exit_code": 0,
+      "script_warnings": 0,
+      "errors": 30,
+      "capture_sha256": "cb043bf21f7c4b53653aeb4fa55406d974f2592c0240890d5c9e0552d592cce2",
+      "note": "Expected reproduced allocator diagnostics",
+      "ticks": 180
+    },
+    {
+      "attachment": "03-warning-and-device-presentation.zip",
+      "zip_sha256": "41cff1bda14abaef9784904630de8fda8ba518ef6fc0e2cc44ea636ebb1faa69",
+      "manifest_verified": true,
+      "runtime_exit_code": 0,
+      "script_warnings": 0,
+      "errors": 0,
+      "capture_sha256": "28ce432e82cb374236c5d89e164ac1b1b16be20686d95da98e47c8a437bb5139",
+      "note": "No diagnostics",
+      "ticks": 180
+    },
+    {
+      "attachment": "04-shared-font-sizes.zip",
+      "zip_sha256": "b3c4ff4e1006d607bb4aec5e1f35ebb969abbc75ffcd5a30c610cceefdd73a03",
+      "manifest_verified": true,
+      "runtime_exit_code": 0,
+      "script_warnings": 0,
+      "errors": 0,
+      "capture_sha256": "7f5543410723dd3a132be1b6fa3061e22dc0cb146b0b9e74ac02c6b41f11eab3",
+      "note": "No diagnostics",
+      "ticks": 180
+    },
+    {
+      "attachment": "05-animation-progress.zip",
+      "zip_sha256": "f6ff26699e9d6cc0f1425c9b622dc8cef7334fa42141d7afa8df8f8f5f30a0bc",
+      "manifest_verified": true,
+      "runtime_exit_code": 0,
+      "script_warnings": 0,
+      "errors": 0,
+      "capture_sha256": "1cf439d9449c18e2c1e6de0de6c8918edfcbb8a6a8c3dd437f9bf988e10c6d10",
+      "note": "No diagnostics",
+      "ticks": 180
+    },
+    {
+      "attachment": "07-missing-sprite-pieces.zip",
+      "zip_sha256": "afc93c31c5403d0870a36999d0b2eca62058ee593bab582793ca3f7983229f60",
+      "manifest_verified": true,
+      "runtime_exit_code": 0,
+      "script_warnings": 0,
+      "errors": 0,
+      "capture_sha256": "a19a863f28318a2732a1f583f49769c1fa4b5fb82adf58dde950db569b21793c",
+      "note": "No diagnostics",
+      "ticks": 220
+    },
+    {
+      "attachment": "08-subtarget-shutdown-leaks.zip",
+      "zip_sha256": "a4e48c6793ce2d59fd20b78ce8d767f31190c4e436ffbba2ffdd0c7ea8c8bc63",
+      "manifest_verified": true,
+      "runtime_exit_code": 0,
+      "script_warnings": 0,
+      "errors": 30,
+      "capture_sha256": "8cbc87aa203e4083867df634cfc748d34602314d494a5fad910d4d06ab8faad7",
+      "note": "Expected reproduced allocator diagnostics",
+      "ticks": 180
+    }
+  ],
+  "findings": {
+    "gun_state": "Mission 0 keeps the ordinary Wolverine; native panel visibly shows 3000 rounds while observer fields remain absent. Startup probe confirmed. Interactive input harness did not capture firing/toggling; no successful ammo depletion test claimed.",
+    "subtarget_identity": "Reliant Engine component 4 selected; translated name/armor present; semantic class/icon absent.",
+    "light_presentation": "API/native source checked and observer startup verified; individual flash/device states not exhaustively exercised.",
+    "font_sizes": "Six-size shared-font corruption reproduced; first two rows differ by 2479/3399 pixels, last four equal independent-font controls.",
+    "animation_progress": "Current fields and startup observer checked; optional fidelity request, not exhaustive animation testing.",
+    "power_ball": "Comment prepared for existing #509; scripted reuse is related to, but distinct from, image resolution support.",
+    "sprite_loss": "Reproduced on current main at tick 220 in the synthetic state sweep. Same-tick static custom and native state-sweep controls retain ordinary icons. Cause unresolved; not a proven engine fault.",
+    "shutdown_leaks": "30 SafeAllocator diagnostics with named-subtarget scene, both with observer and without any Luau. Exit 0. Cause and growth uninvestigated."
+  },
+  "retired_reports": [
+    "#793 replacement merged",
+    "#794 image-cache merged",
+    "#832 expanded readings merged",
+    "Old InvalidFont case works on main",
+    "White matte/export and legacy placement fixes remain local resolved work"
+  ],
+  "release_validation": "pending; probes do not constitute full HUD campaign/release QA",
+  "post_preparation_verification": {
+    "runtime_files": 924,
+    "source_and_tool_files": 733,
+    "approved_subtargets_unchanged": 17,
+    "runtime_manifest_sha256": "5c37b96010747737f3c6c526e13f40cee908ddc22ef95ce7d1f95ee496c08c08",
+    "live_hashes_match": true
+  }
+}

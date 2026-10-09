@@ -619,6 +619,49 @@
           "caption": "Fuel pod \u2014 Loadout top panel"
         }
       ]
+    },
+    {
+      "id": "recommissioned-hud",
+      "name": "Recommissioned HUD",
+      "category": "hud",
+      "status": "coming-soon",
+      "description": "StarLancer\u2019s red wireframes and amber instruments, rebuilt with larger displays and HD portraits.",
+      "preview": "assets/hud/hud-cover.png",
+      "previewType": "mixed",
+      "previewSource": "Artwork composition using the actual HUD exports",
+      "engine": "0.8.1",
+      "defaultPreview": "image",
+      "images": [
+        {
+          "src": "assets/hud/hud-cover.png",
+          "caption": "Predator gunnery wireframe \u2014 artwork composition from the HUD pack",
+          "sourceLabel": "Artwork composition; not a gameplay screenshot"
+        },
+        {
+          "src": "assets/hud/hud-gameplay.png",
+          "caption": "Grendel cockpit \u2014 full HUD with native comms over an HD portrait",
+          "sourceLabel": "OpenReliant 0.8.1 / main 220affa \u2014 controlled test scene"
+        },
+        {
+          "src": "assets/hud/hud-portrait.png",
+          "caption": "HD Bridge Officer portrait and shared red wireframes",
+          "sourceLabel": "OpenReliant 0.8.1 / main 220affa \u2014 controlled test scene"
+        },
+        {
+          "src": "assets/hud/hud-comms.png",
+          "caption": "Comms columns and instrument layout with the portrait closed",
+          "sourceLabel": "OpenReliant 0.8.1 / main 220affa \u2014 controlled test scene"
+        }
+      ],
+      "notes": [
+        "Enable Mod Effects and restart. HD portraits use the included device.glsl; another replacement of that shader needs merging.",
+        "Speaker-name placement is still native and can overlap COMMS. Comms remains usable during transmissions.",
+        "Some target schematics use native fallback. Native power-ball reuse, mission-29 t_grendel ammunition and wider campaign/platform QA remain open."
+      ],
+      "folder": "HUD/Recommissioned",
+      "version": "0.1.0-beta.1",
+      "assetRevision": "1.8",
+      "modFolder": "recommissioned-hud"
     }
   ]
 }

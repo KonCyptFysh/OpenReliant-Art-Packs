@@ -1,0 +1,17 @@
+[
+  {
+    "file": "source/test-fixtures/mission991.dte",
+    "rebuilt_identically": true,
+    "sha256": "20a6bc79a1e4eff82d8c24bbaafeb862b96acebf55cba7a712536f871e290694"
+  },
+  {
+    "file": "source/test-fixtures/mission992.dte",
+    "rebuilt_identically": true,
+    "sha256": "025560e32bc7019690b02f888859f12e74759669f6d40954e9c2f3377136dacf"
+  },
+  {
+    "file": "source/test-fixtures/mission993.dte",
+    "rebuilt_identically": true,
+    "sha256": "ae2efd35b113bc47963b22d7f16a8760e37a6610be1e707bee78884efc86918e"
+  }
+]

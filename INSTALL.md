@@ -12,3 +12,9 @@ Each ship is an independent download. The category folders and editable sources 
 To remove a pack, close the game and move only its mod folder outside `mods`, or disable it and restart. Restore the backed-up folder to roll back.
 
 Current beta validation covers bounded loading and rendering on Linux. Individual pack notes disclose unfinished art and untested gameplay or platforms. Report the pack version, engine version, ship and mission with any issue.
+
+## Recommissioned HUD beta
+
+The HUD requires OpenReliant 0.8.1 and Mod Effects enabled. See
+[HUD installation and shader compatibility](HUD/Recommissioned/INSTALL.md).
+Older ship-pack 0.7.0 requirements do not apply to the HUD.

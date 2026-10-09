@@ -1,0 +1,158 @@
+{
+  "checked_against": "source/engine-patch/overlay/src/engine/game/hud/recommissioned.zig",
+  "native_alias_map": "tools/native-replacements.json",
+  "files": [
+    {
+      "file": "rc_lock.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_missiles_bandit_neutral_lod0.png",
+      "reason": "Neutral missile render is an editable export input; renderer requests slot_NN poses only."
+    },
+    {
+      "file": "rc_missiles_havoc_neutral_lod0.png",
+      "reason": "Neutral missile render is an editable export input; renderer requests slot_NN poses only."
+    },
+    {
+      "file": "rc_missiles_hawk_neutral_lod0.png",
+      "reason": "Neutral missile render is an editable export input; renderer requests slot_NN poses only."
+    },
+    {
+      "file": "rc_missiles_jackhammer_neutral_lod0.png",
+      "reason": "Neutral missile render is an editable export input; renderer requests slot_NN poses only."
+    },
+    {
+      "file": "rc_missiles_raptor_neutral_lod0.png",
+      "reason": "Neutral missile render is an editable export input; renderer requests slot_NN poses only."
+    },
+    {
+      "file": "rc_missiles_screamer_neutral_lod0.png",
+      "reason": "Neutral missile render is an editable export input; renderer requests slot_NN poses only."
+    },
+    {
+      "file": "rc_missiles_solomon_neutral_lod0.png",
+      "reason": "Neutral missile render is an editable export input; renderer requests slot_NN poses only."
+    },
+    {
+      "file": "rc_missiles_torpedo_neutral_lod0.png",
+      "reason": "Neutral missile render is an editable export input; renderer requests slot_NN poses only."
+    },
+    {
+      "file": "rc_missiles_vagabond_neutral_lod0.png",
+      "reason": "Neutral missile render is an editable export input; renderer requests slot_NN poses only."
+    },
+    {
+      "file": "rc_target_target_gold_1.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_target_gold_2.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_target_gold_3.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_target_gold_4.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_target_green_1.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_target_green_2.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_target_green_3.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_target_green_4.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_target_red_1.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_target_red_2.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_target_red_3.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_target_red_4.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_ally_edge_down.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_ally_edge_left.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_ally_edge_right.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_ally_edge_up.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_chasepoint_ally.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_chasepoint_enemy.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_chasepoint_white.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_enemy_edge_down.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_enemy_edge_left.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_enemy_edge_right.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_target_enemy_edge_up.png",
+      "reason": "Renderer uses the native alias; duplicate rc_ export is not referenced."
+    },
+    {
+      "file": "rc_wireframes_frame_122.png",
+      "reason": "No reference in the current renderer; the active grids use frames 120, 121, 123-126 or named grids."
+    },
+    {
+      "file": "asset-provenance.json",
+      "reason": "Authoring/audit document; retained outside runtime with portable records."
+    },
+    {
+      "file": "sprite-cleanup-audit.json",
+      "reason": "Authoring/audit document; retained outside runtime with portable records."
+    },
+    {
+      "file": "missile-export-audit.json",
+      "reason": "Authoring/audit document; retained outside runtime with portable records."
+    },
+    {
+      "file": "README.txt",
+      "reason": "Authoring/audit document; retained outside runtime with portable records."
+    }
+  ]
+}

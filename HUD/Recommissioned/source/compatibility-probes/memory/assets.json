@@ -1,0 +1,70 @@
+[
+  {
+    "runtime_source": "rc_missiles_bandit_slot_00_gold.png",
+    "probe_name": "rc_missiles_bandit_slot_00_gold.png"
+  },
+  {
+    "runtime_source": "rc_missiles_bandit_slot_01_red.png",
+    "probe_name": "rc_missiles_bandit_slot_01_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_bandit_slot_02_red.png",
+    "probe_name": "rc_missiles_bandit_slot_02_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_bandit_slot_03_red.png",
+    "probe_name": "rc_missiles_bandit_slot_03_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_bandit_slot_04_red.png",
+    "probe_name": "rc_missiles_bandit_slot_04_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_bandit_slot_05_red.png",
+    "probe_name": "rc_missiles_bandit_slot_05_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_bandit_slot_06_red.png",
+    "probe_name": "rc_missiles_bandit_slot_06_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_bandit_slot_07_red.png",
+    "probe_name": "rc_missiles_bandit_slot_07_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_bandit_slot_08_red.png",
+    "probe_name": "rc_missiles_bandit_slot_08_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_bandit_slot_09_red.png",
+    "probe_name": "rc_missiles_bandit_slot_09_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_havoc_slot_00_gold.png",
+    "probe_name": "rc_missiles_havoc_slot_00_gold.png"
+  },
+  {
+    "runtime_source": "rc_missiles_havoc_slot_01_red.png",
+    "probe_name": "rc_missiles_havoc_slot_01_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_havoc_slot_02_red.png",
+    "probe_name": "rc_missiles_havoc_slot_02_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_havoc_slot_03_red.png",
+    "probe_name": "rc_missiles_havoc_slot_03_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_havoc_slot_04_red.png",
+    "probe_name": "rc_missiles_havoc_slot_04_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_havoc_slot_05_red.png",
+    "probe_name": "rc_missiles_havoc_slot_05_red.png"
+  },
+  {
+    "runtime_source": "rc_missiles_havoc_slot_06_red.png",
+    "probe_name": "rc_missiles_havoc_slot_06_red.png"
+  }
+]

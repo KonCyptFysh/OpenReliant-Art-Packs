@@ -1,0 +1,71 @@
+{
+  "checked_on": "2026-10-09",
+  "upstream_revision": "57c394b5bb7e9ddc5d171db07f039449854d98c1",
+  "posted": true,
+  "runtime_changed": false,
+  "release": "hold",
+  "attachments": [
+    {
+      "attachment": "01-gun-ammunition-and-pairing.zip",
+      "bytes": 772492,
+      "sha256": "97599bf8b2732b79efe2d45187cfb18e55deae2182a274e466e80d45f3fae7b0",
+      "case": "gun-base-current",
+      "source_files": 11
+    },
+    {
+      "attachment": "02-stable-subtarget-identity.zip",
+      "bytes": 732590,
+      "sha256": "78831830462caf852007882629ddbd999ea0abb6585c69ac3e95c647d68f1078",
+      "case": "subtarget-current",
+      "source_files": 11
+    },
+    {
+      "attachment": "03-warning-and-device-presentation.zip",
+      "bytes": 758744,
+      "sha256": "41cff1bda14abaef9784904630de8fda8ba518ef6fc0e2cc44ea636ebb1faa69",
+      "case": "lights-current",
+      "source_files": 11
+    },
+    {
+      "attachment": "04-shared-font-sizes.zip",
+      "bytes": 260909,
+      "sha256": "b3c4ff4e1006d607bb4aec5e1f35ebb969abbc75ffcd5a30c610cceefdd73a03",
+      "case": "font-current",
+      "source_files": 20
+    },
+    {
+      "attachment": "05-animation-progress.zip",
+      "bytes": 779625,
+      "sha256": "f6ff26699e9d6cc0f1425c9b622dc8cef7334fa42141d7afa8df8f8f5f30a0bc",
+      "case": "presentation-current",
+      "source_files": 11
+    },
+    {
+      "attachment": "07-missing-sprite-pieces.zip",
+      "bytes": 19426403,
+      "sha256": "afc93c31c5403d0870a36999d0b2eca62058ee593bab582793ca3f7983229f60",
+      "case": "reduced-hud-sweep-current",
+      "source_files": 668
+    },
+    {
+      "attachment": "08-subtarget-shutdown-leaks.zip",
+      "bytes": 1459738,
+      "sha256": "a4e48c6793ce2d59fd20b78ce8d767f31190c4e436ffbba2ffdd0c7ea8c8bc63",
+      "case": "subtarget-native-current",
+      "source_files": 13
+    }
+  ],
+  "submitted_by_user": true,
+  "submission_verified_on": "2026-10-09",
+  "upstream_issues": {
+    "889": "https://github.com/OpenReliant/openreliant/issues/889",
+    "890": "https://github.com/OpenReliant/openreliant/issues/890",
+    "891": "https://github.com/OpenReliant/openreliant/issues/891",
+    "892": "https://github.com/OpenReliant/openreliant/issues/892",
+    "893": "https://github.com/OpenReliant/openreliant/issues/893",
+    "894": "https://github.com/OpenReliant/openreliant/issues/894",
+    "895": "https://github.com/OpenReliant/openreliant/issues/895"
+  },
+  "power_ball_comment_posted": false,
+  "current_review": "tracking/upstream-0.8.1-review.json"
+}

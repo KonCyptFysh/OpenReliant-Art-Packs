@@ -1,0 +1,93 @@
+{
+  "hud_version": "1.7",
+  "engine_commit": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
+  "engine_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
+  "runtime_files": 1152,
+  "runtime_manifest_sha256": "a70c34fbaf744975b26b836dee0c38ec8c5bca102996aeb4a3fe92cb09fa2df0",
+  "archive_sha256": "435726da10299f72889673c3575a4e7b2bf93df28c8d9164bc447c229df73be6",
+  "runtime_extracted_from_review_archive": true,
+  "profile_state_separate": true,
+  "legacy_profile_contains_hud": false,
+  "portrait_fixture": "mission990.dte",
+  "portrait_film": "Rel_Brdge_Off.fm8",
+  "portrait_repeats_seconds": 25,
+  "sound": "20-second silent native speech file; audio stays enabled",
+  "public_release": "hold",
+  "portrait_repeats_count": 36,
+  "portrait_review_minutes": 15,
+  "launcher": "<OpenReliant-install>/launch-hud-review.sh",
+  "profiles": "<OpenReliant-install>/reviews/hud-1.7",
+  "editable_source": "source/test-fixtures/hud-1.7-review",
+  "runtime_changed": false,
+  "smoke_tests": "passed",
+  "user_playthrough": "pending",
+  "smoke_test_results": [
+    {
+      "mode": "portraits",
+      "command": [
+        "<OpenReliant-install>/launch-hud-review.sh",
+        "portraits",
+        "--screenshot",
+        "<workspace>/work/hud-1.7-portraits/review-shell/evidence/portraits.png",
+        "--screenshot-ticks",
+        "150"
+      ],
+      "exit_code": 0,
+      "seconds": 10.1,
+      "capture_exists": true,
+      "test_only_screenshot_exit": true,
+      "screenshot_sha256": "b32735fd5a010e06d1056fb22b1145c58a81a40629b0b022b47b6d7591e6f9ae"
+    },
+    {
+      "mode": "legacy",
+      "command": [
+        "<OpenReliant-install>/launch-hud-review.sh",
+        "legacy",
+        "--screenshot",
+        "<workspace>/work/hud-1.7-portraits/review-shell/evidence/legacy.png",
+        "--screenshot-ticks",
+        "150"
+      ],
+      "exit_code": 0,
+      "seconds": 5.3,
+      "capture_exists": true,
+      "test_only_screenshot_exit": true,
+      "screenshot_sha256": "b8c22be1358d1fdcae610c06e78aaa1f3d18d6f659125f0c1a9023ed3d1137a2"
+    },
+    {
+      "mode": "flight",
+      "command": [
+        "<OpenReliant-install>/launch-hud-review.sh",
+        "flight",
+        "--screenshot",
+        "<workspace>/work/hud-1.7-portraits/review-shell/evidence/flight.png",
+        "--screenshot-ticks",
+        "150"
+      ],
+      "exit_code": 0,
+      "seconds": 5.8,
+      "capture_exists": true,
+      "test_only_screenshot_exit": true,
+      "screenshot_sha256": "7e3a483edcb7740a86c843ad04d55ecd2205e4f5a47939e851f9d19557c2134d"
+    },
+    {
+      "mode": "menu",
+      "command": [
+        "<OpenReliant-install>/launch-hud-review.sh",
+        "menu",
+        "--screenshot",
+        "<workspace>/work/hud-1.7-portraits/review-shell/evidence/menu.png",
+        "--screenshot-ticks",
+        "150"
+      ],
+      "exit_code": 0,
+      "seconds": 5.5,
+      "capture_exists": true,
+      "test_only_screenshot_exit": true,
+      "screenshot_sha256": "c3b7a4abaeb3ee6bd72c9ea95b1a1adb25117eef4159cd99d463c4fdeeb523fe"
+    }
+  ],
+  "visual_review": "HD and legacy portrait fit, full HUD, and game menu verified; manual user playthrough pending.",
+  "source_manifest_sha256": "1393c165a20b2caecbf82d6f5c25ad2bd044a5dda2aadc27b10f3cd394842069",
+  "source_and_tool_files": 10136
+}
