@@ -1,0 +1,32 @@
+{
+  "status": "published-beta",
+  "verified_at_utc": "2026-10-09T07:33:01.441635+00:00",
+  "source_commit": "9a7ebe56ebee8c477a2202e04d0fa63db374c026",
+  "tag": "hud-v0.1.0-beta.1",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hud-v0.1.0-beta.1",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hud-v0.1.0-beta.1/openreliant-recommissioned-hud-0.1.0-beta.1.zip",
+  "package_bytes": 805636271,
+  "package_sha256": "a2a88eb24e80edad74ce756dae4e82c7e041bb2b8b02c0cf90ba90d43b7ef203",
+  "github_asset_digest_matches": true,
+  "remote_hud_tree_files": 11435,
+  "remote_lfs_samples_verified": [
+    {
+      "path": "mods/recommissioned-hud/Rel_Brdge_Off.fm8",
+      "sha256": "0126865cbfb7aacf73580a7f2530bf8bdf21ce85bbd8d5a1bf522bd72633e20b",
+      "bytes": 6945321
+    },
+    {
+      "path": "mods/recommissioned-hud/rc_target_subtargets_frame_406.png",
+      "sha256": "fc485d77d92a074994d3d922dbf2d4dc7f6e8497480489bc0d53ead841bfd95a",
+      "bytes": 53846
+    },
+    {
+      "path": "source/portraits/frames/45TigersWL_Bandit/frames/frame_0001.png",
+      "sha256": "90a5d2d2aa8c45bd62c27c92861c1c0c61e2acf32c90fc8d372f92686e62ac11",
+      "bytes": 225130
+    }
+  ],
+  "runtime_files": 1155,
+  "source_and_tool_files": 10161,
+  "stable_release": "pending"
+}
