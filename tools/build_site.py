@@ -2,6 +2,7 @@
 """Validate catalogue metadata, native mod requirements, and static preview files."""
 
 import configparser
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -168,9 +169,39 @@ def validate(root, data):
     return data
 
 
+def version_site_assets(root):
+    """Give changed page code new URLs, including its module dependency."""
+    docs = Path(root) / "docs"
+    app_path, index_path = docs / "app.js", docs / "index.html"
+    app, index = app_path.read_text(), index_path.read_text()
+
+    def digest(content):
+        return hashlib.sha256(content).hexdigest()[:16]
+
+    utility_version = digest((docs / "catalogue-utils.js").read_bytes())
+    app, count = re.subn(
+        r"""(from\s+['"]\./catalogue-utils\.js)(?:\?[^'"]*)?(['"])""",
+        lambda match: match[1] + "?v=" + utility_version + match[2], app,
+    )
+    require(count == 1, "Expected one catalogue-utils import in app.js")
+    versions = {
+        "app.js": digest(app.encode("utf-8")),
+        "style.css": digest((docs / "style.css").read_bytes()),
+    }
+    for filename, version in versions.items():
+        index, count = re.subn(
+            r"""((?:src|href)=['"]""" + re.escape(filename) + r""")(?:\?[^'"]*)?(['"])""",
+            lambda match: match[1] + "?v=" + version + match[2], index,
+        )
+        require(count == 1, f"Expected one {filename} reference in index.html")
+    app_path.write_text(app, encoding="utf-8")
+    index_path.write_text(index, encoding="utf-8")
+
+
 def build(root=ROOT):
     root = Path(root)
     data = validate(root, json.loads((root / "catalog.json").read_text()))
+    version_site_assets(root)
     (root / "docs/catalog.json").write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     tracked = [asset for asset in data["assets"] if asset.get("countsTowardProgress", True)]
     available = sum(asset["status"] == "available" for asset in tracked)

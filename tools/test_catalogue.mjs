@@ -5,10 +5,11 @@ import { readFileSync } from 'node:fs';
 // Load the browser ES module without adding a package manager or changing this
 // buildless repository's module configuration.
 const utilitySource = readFileSync(new URL('../docs/catalogue-utils.js', import.meta.url), 'utf8');
+const utilities = await import(`data:text/javascript;base64,${Buffer.from(utilitySource).toString('base64')}`);
 const {
   selectLivery, resolveAsset, assetStatus, countAssets, requirementsFor,
   resolveDependencies, filterAssets, resolveLocation,
-} = await import(`data:text/javascript;base64,${Buffer.from(utilitySource).toString('base64')}`);
+} = utilities;
 
 function ship() {
   return {
@@ -219,4 +220,62 @@ test('real catalogue progress, preview resolution and planned dependency agree',
   assert.equal(dependency.assetId, 'friends-and-foes');
   assert.equal(dependency.modFolder, 'friends-and-foes');
   assert.equal(dependency.status, data.assets.find(asset => asset.id === 'friends-and-foes').status);
+});
+
+// Execute the real entry script against controls parsed from the shipped HTML.
+// This is a DOM fixture for startup/selection, not a browser or layout test.
+test('the shipped page starts and both hierarchy levels select the expected assets', async () => {
+  const html = readFileSync(new URL('../docs/index.html', import.meta.url), 'utf8');
+  const source = readFileSync(new URL('../docs/app.js', import.meta.url), 'utf8');
+  const data = JSON.parse(readFileSync(new URL('../docs/catalog.json', import.meta.url), 'utf8'));
+  const events = new Map();
+  let focused;
+  const attributes = text => Object.fromEntries([...text.matchAll(/([\w-]+)="([^"]*)"/g)].map(match => [match[1], match[2]]));
+  function element(tag, attrs) {
+    return {
+      attrs, innerHTML: '', textContent: '', scrollTop: 0,
+      value: tag === 'select' ? 'all' : '', checked: false,
+      dataset: Object.fromEntries(Object.entries(attrs).filter(([name]) => name.startsWith('data-')).map(([name, value]) => [name.slice(5), value])),
+      addEventListener() {}, setAttribute(name, value) { this.attrs[name] = String(value); },
+      focus() { focused = this; },
+      closest(selector) { return selector === '#group-nav button[data-group]' && this.dataset.group ? this : null; },
+      querySelectorAll(selector) {
+        assert.equal(selector, 'button');
+        return [...this.innerHTML.matchAll(/<button\b([^>]*)>/g)].map(match => element('button', attributes(match[1])));
+      },
+    };
+  }
+  const nodes = [...html.matchAll(/<(\w+)\b([^>]*)>/g)].map(match => element(match[1], attributes(match[2])));
+  const document = {
+    querySelector(selector) {
+      if (selector.startsWith('#')) return nodes.find(node => node.attrs.id === selector.slice(1)) || null;
+      if (selector.startsWith('.')) return nodes.find(node => (node.attrs.class || '').split(/\s+/).includes(selector.slice(1))) || null;
+      throw new Error('Unhandled fixture selector: ' + selector);
+    },
+    addEventListener(type, handler) { events.set(type, handler); },
+  };
+  const location = new URL('https://example.test/?group=small-combat-craft');
+  const history = { replaceState(_state, _title, url) { location.href = url; } };
+  const AsyncFunction = Object.getPrototypeOf(async function () {}).constructor;
+  const entry = new AsyncFunction('document', 'matchMedia', 'fetch', 'location', 'history', 'utilities',
+    source.replace(/import\s*\{([\s\S]*?)\}\s*from\s*['"][^'"]+['"];?/, 'const {$1} = utilities;'));
+  await entry(document, () => ({ matches: false }), async () => ({ ok: true, json: async () => data }), location, history, utilities);
+  const node = id => document.querySelector('#' + id);
+  const counts = countAssets(data.assets);
+  assert.equal(node('progress-heading').textContent, counts.available + ' of ' + counts.total + ' assets available');
+  assert.equal(node('group-nav').querySelectorAll('button').length, data.groups.length + data.categories.length);
+  assert.ok(node('asset-grid').innerHTML.includes('class="asset-card"'));
+
+  for (const categoryId of ['torpedo-bombers', null]) {
+    const button = node('group-nav').querySelectorAll('button').find(button => button.dataset.group === 'small-combat-craft' && (button.dataset.category || null) === categoryId);
+    assert.ok(button);
+    events.get('click')({ target: button });
+    const expected = filterAssets(data, { group: 'small-combat-craft', category: categoryId || 'all' });
+    assert.equal((node('asset-grid').innerHTML.match(/class="asset-card"/g) || []).length, expected.length);
+    assert.equal(location.searchParams.get('category'), categoryId);
+    assert.equal(focused.dataset.category || null, categoryId);
+    const selected = node('group-nav').querySelectorAll('button').filter(button => button.attrs['aria-pressed'] === 'true');
+    assert.equal(selected.length, 1);
+    assert.equal(selected[0].dataset.category || null, categoryId);
+  }
 });

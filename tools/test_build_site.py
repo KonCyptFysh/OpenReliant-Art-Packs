@@ -49,6 +49,10 @@ class CatalogueChecks(unittest.TestCase):
         self.write("docs/assets/coyote-worn.png", b"Synthetic preview; image decoding is outside this validator.")
         self.write("docs/models/coyote-worn.glb", b"Synthetic model; model decoding is outside this validator.")
         self.write_package("packs/coyote", "coyote-worn")
+        self.write("docs/index.html", '<link href="style.css?v=old"><script type="module" src="app.js?v=old"></script>')
+        self.write("docs/app.js", "import {} from './catalogue-utils.js';\n")
+        self.write("docs/catalogue-utils.js", "export const version = 1;\n")
+        self.write("docs/style.css", "body { color: white; }\n")
 
     @staticmethod
     def published(edition_id, mod_folder):
@@ -353,6 +357,47 @@ class CatalogueChecks(unittest.TestCase):
                 data["assets"][0]["liveries"][0][field] = value
                 with self.assertRaisesRegex(ValueError, "release download|published tag"):
                     self.validate(data)
+
+    def test_page_code_changes_get_new_cache_urls(self):
+        site.version_site_assets(self.root)
+        initial = (self.root / "docs/index.html").read_text()
+        app = self.root / "docs/app.js"
+        app.write_text(app.read_text() + "// Changed navigation\n")
+        site.version_site_assets(self.root)
+        changed = (self.root / "docs/index.html").read_text()
+        self.assertNotEqual(initial, changed)
+        self.assertEqual(initial.split("<script")[0], changed.split("<script")[0])
+
+    def test_module_dependency_changes_refresh_the_entry_script_url(self):
+        site.version_site_assets(self.root)
+        initial_app = (self.root / "docs/app.js").read_text()
+        initial_index = (self.root / "docs/index.html").read_text()
+        self.write("docs/catalogue-utils.js", "export const version = 2;\n")
+        site.version_site_assets(self.root)
+        self.assertNotEqual(initial_app, (self.root / "docs/app.js").read_text())
+        self.assertNotEqual(initial_index, (self.root / "docs/index.html").read_text())
+
+    def test_stylesheet_changes_refresh_only_the_stylesheet_url(self):
+        site.version_site_assets(self.root)
+        initial = (self.root / "docs/index.html").read_text()
+        self.write("docs/style.css", "body { color: orange; }\n")
+        site.version_site_assets(self.root)
+        changed = (self.root / "docs/index.html").read_text()
+        self.assertNotEqual(initial, changed)
+        self.assertEqual(initial.split("<script")[1], changed.split("<script")[1])
+
+    def test_repeated_builds_keep_identical_cache_urls(self):
+        site.version_site_assets(self.root)
+        before = {name: (self.root / "docs" / name).read_bytes() for name in ["app.js", "index.html"]}
+        site.version_site_assets(self.root)
+        self.assertEqual(before, {name: (self.root / "docs" / name).read_bytes() for name in before})
+
+    def test_missing_script_reference_fails_before_writing_page_code(self):
+        before = (self.root / "docs/app.js").read_bytes()
+        self.write("docs/index.html", '<link href="style.css">')
+        with self.assertRaisesRegex(ValueError, "app.js reference"):
+            site.version_site_assets(self.root)
+        self.assertEqual(before, (self.root / "docs/app.js").read_bytes())
 
     def test_failed_build_leaves_the_previous_published_catalogue_intact(self):
         self.planned["download"] = self.worn["download"]
