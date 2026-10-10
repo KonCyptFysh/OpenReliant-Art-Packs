@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-10T01:30:58.193898+00:00",
+  "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "1.0",
+  "asset_manifest_sha256": "831c7b9512c255030ddd1975dc177b98f798467a6c95aa80228edc6b76c96b50",
+  "source_manifest_sha256": "40de41926ce1b6eae13712059fad35001bb5f54e5f9995366fa919f69a2167e7",
+  "packaging_ready": true,
+  "user_approved": true,
+  "checks": [
+    "Official 0.8.1 native SHP and DTE round-trip checks passed.",
+    "All 1918 native faces checked for shared-corner UV continuity.",
+    "Only texture names, four finest-detail wing-edge UV faces and 145 continuation counts changed; all other native bytes preserved.",
+    "Delivered 4096-square maps decode, normals are normalized and glass interiors flat; ORM channels match source maps.",
+    "Official 0.8.1 texture loader generates green/red colours and inherits normal/ORM bytes.",
+    "Packed relative Blender source reopened with geometry, UV, normal, transform and material parity.",
+    "Front, opposite, rear and underside Blender authoring previews inspected.",
+    "Review launcher passes shell syntax checks.",
+    "User approved artwork 1.0 and requested publication.",
+    "Four user in-game photographs inspected; approved SHP and material bytes are unchanged.",
+    "Final release runtime files match the installed mod."
+  ],
+  "runtime_visual_review": "user_approved_artwork_1.0_without_revisions",
+  "limitations": [
+    "Full campaign combat, damage, animation-cycle, ejection, distance transitions and other platforms remain untested.",
+    "Dedicated emissive maps are deferred."
+  ],
+  "tested_platforms": [
+    "Linux x86_64 \u2014 official 0.8.1 native and texture-loader checks; user in-game artwork review"
+  ],
+  "gallery_validation": "gallery-validation.json",
+  "game_launched_by_agent": false
+}

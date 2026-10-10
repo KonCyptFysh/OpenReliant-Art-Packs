@@ -1,0 +1,25 @@
+{
+  "parts": [
+    {
+      "part": "Saracen_Cpit",
+      "vertices": 18,
+      "faces": 20,
+      "visible_faces": 8
+    },
+    {
+      "part": "Saracen",
+      "vertices": 306,
+      "faces": 596,
+      "visible_faces": 584
+    }
+  ],
+  "source_sha256": "01a8d4d43d1a8297629caf782844c08f57721d14cabce85d9eef15a64c2894b4",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ]
+  ],
+  "geometry_signature": "22a292818aebd7a00c3d6672c8ef9b5e2882f5b2ab37862d792517235b7ee4ed"
+}

@@ -1,0 +1,282 @@
+{
+  "status": "approved-release-snapshot",
+  "ship": "Saracen",
+  "asset_revision": "1.0",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 1415,
+      "sha256": "4e73692696c04e4e3c8a35a3d954877007149f5ec55e80cc13164e0ab240f3f7"
+    },
+    {
+      "path": "source/authoring/README.md",
+      "bytes": 905,
+      "sha256": "cca9af159900027b2117ac289c9a10fac053705e603b2ab8521616fa94a62cde"
+    },
+    {
+      "path": "source/authoring/animation_preservation.json",
+      "bytes": 1021,
+      "sha256": "f914155529df6d9c854f1a8c3c5eb2326cab7187732c21a5eb21f0ae4b8aaa80"
+    },
+    {
+      "path": "source/authoring/audit/inspection_mission.json",
+      "bytes": 380,
+      "sha256": "51d14d21daaf6e716c1b29686887c91ca613e3e862cf392cda565b97787eb580"
+    },
+    {
+      "path": "source/authoring/authoring_review.json",
+      "bytes": 1369,
+      "sha256": "07d8d6a2b352d3542f352ea98dd3f84b14a3dcb3feb72889eb70aeb4cac1c016"
+    },
+    {
+      "path": "source/authoring/baseline_audit.json",
+      "bytes": 558,
+      "sha256": "3a7abe2dda119bc190ea963ebc5680df456632695daf1a7f7c9815961817737c"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 14194,
+      "sha256": "74b92f30e917844ff8e9bec39e4b05d57a5bf5ada08d25c0ee9dca096defa549"
+    },
+    {
+      "path": "source/authoring/build_source.py",
+      "bytes": 7304,
+      "sha256": "92f9baeab0c0e0406fd099a6d6bc3b9b965ac8b12d5bf7d8ccb7a61f5b961841"
+    },
+    {
+      "path": "source/authoring/compatibility-0.8.json",
+      "bytes": 2103,
+      "sha256": "02224e5d344bd9814ddfe9cea30c63a169c972a56156de2a1ef332b1d5e0f17d"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 8102,
+      "sha256": "e728e620411d0a41b8a3d94c6cffd7281c866c984664185ccb078e9bf456cd6c"
+    },
+    {
+      "path": "source/authoring/finish_review.py",
+      "bytes": 19600,
+      "sha256": "cf4e95f8573321f9de8e7a94082e1ab9752b531e657d6a108f12af1df589d93e"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 3597,
+      "sha256": "d395b17eeebd3c3bd440dd259bd5b498a739a6779353c0ec963f874ec76b344e"
+    },
+    {
+      "path": "source/authoring/inspection.py",
+      "bytes": 3503,
+      "sha256": "99829e8d2f417a8df6795ee55bd6f46128b692675e8e7d83ebc05cf5824423b3"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 269,
+      "sha256": "1d2c1ca18cf4b8e72b6537f0380c73078a8de2c502229cc2ab9fb571a8edf523"
+    },
+    {
+      "path": "source/authoring/mission976-ships.txt",
+      "bytes": 253,
+      "sha256": "14e7c86462bd5a204e95e793fcb782d0d9ac3689d10342fc2b60b661e80c2896"
+    },
+    {
+      "path": "source/authoring/native-chunks.json",
+      "bytes": 9780,
+      "sha256": "69b1fa0322077994dbf9189d83af5881da2185ac2a4b86302179bc5dbe255803"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 553,
+      "sha256": "32120f0fea0492dc6284f525f0a8030fef0b833598232f0488d8f3e6602496eb"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 19365,
+      "sha256": "0c6fd1e5ef0c16978a0b28162972d5cf0e517b7126d5b8323d5c2fa8058c6959"
+    },
+    {
+      "path": "source/authoring/parse_native.py",
+      "bytes": 2350,
+      "sha256": "0d80830ecad75584a56f5df5390bb001efc5ec5ce04cf2c1b90434ab56032833"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2424,
+      "sha256": "4d1887fb608d1bc23724d999d501082b58af0bd18c0731d01486c00f89333b94"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 15635,
+      "sha256": "5ea18ea7319613ac89fcbd34fe09bc8c61667a97fdf4e541cbabd489d5a46f85"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 1423,
+      "sha256": "98639cfef931c0016246a9b1c2d6547651ad5e3fd9123e9e67577101470567bb"
+    },
+    {
+      "path": "source/authoring/source_uv_audit.json",
+      "bytes": 3214,
+      "sha256": "5de1420f655d7151a13da0795a8e67b8ead13cc5dadcc5c7987573e5c2d0fd6b"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 346964,
+      "sha256": "c1088cab745167773a8be77c1249f8838705f7568e0ffad1ffc46d6586612d13"
+    },
+    {
+      "path": "source/maps/saracen_hull_basecolor_v1.png",
+      "bytes": 16048591,
+      "sha256": "732e8033ccec292035b1276da743c4b9f4f55d5fcb2f85d317278278a438826b"
+    },
+    {
+      "path": "source/maps/saracen_hull_fins_v1.png",
+      "bytes": 74127,
+      "sha256": "6725f1a6fa39bc49ae0671b64ce7eb4e0386f8e75ea4f4fcf7745604fe641dcf"
+    },
+    {
+      "path": "source/maps/saracen_hull_flat_graphics_v1.png",
+      "bytes": 70319,
+      "sha256": "a220092845d0920cb783e361a9de29d343ad56f9f610eca9fd72df57f79b1093"
+    },
+    {
+      "path": "source/maps/saracen_hull_glass_v1.png",
+      "bytes": 70112,
+      "sha256": "5701efc44c56c9387e32ae62f91dbf7a5c858778f9b546111899853af45e5e8d"
+    },
+    {
+      "path": "source/maps/saracen_hull_glazing_v1.png",
+      "bytes": 3030277,
+      "sha256": "c63fb718c2196a245d90d9feabcf0b6f8044b32dd0f7a9fb2b893f86ba50bcd6"
+    },
+    {
+      "path": "source/maps/saracen_hull_height_v1.png",
+      "bytes": 217061,
+      "sha256": "0fbaf4431b4dcf38c4cbc079ed6f7fec08a964dda72f69e67f0ec32546d48bea"
+    },
+    {
+      "path": "source/maps/saracen_hull_metallic_v1.png",
+      "bytes": 7360688,
+      "sha256": "2335ca3211f775e04182f4d4815342157c27c7cb5b89d51bcbd8d91465a1331a"
+    },
+    {
+      "path": "source/maps/saracen_hull_normal_v1.png",
+      "bytes": 477900,
+      "sha256": "2a6e61cae4022f1aabe08e7900c54d537ba44de286c3d5001c33dcf40f650fbd"
+    },
+    {
+      "path": "source/maps/saracen_hull_paint_v1.png",
+      "bytes": 4161997,
+      "sha256": "f3217da1547487961a321408b7ab45a4b6f020d43123879f3dea41fecb7e3533"
+    },
+    {
+      "path": "source/maps/saracen_hull_panels_v1.png",
+      "bytes": 305894,
+      "sha256": "7b63bf1fa10f5ac8b1247d373bdb130a3e7e77d76d7377b2dbf7195593c4e4e9"
+    },
+    {
+      "path": "source/maps/saracen_hull_reconstruction_v1.png",
+      "bytes": 3368399,
+      "sha256": "32a39661f9958d35e19c8a5f046cd2af31401df0165d30968fd3151043298a86"
+    },
+    {
+      "path": "source/maps/saracen_hull_roughness_v1.png",
+      "bytes": 5755202,
+      "sha256": "cdaec1f2473e764415eb72b43091d8ee760db5244d95b7e58abbd796cd099ba6"
+    },
+    {
+      "path": "source/maps/saracen_hull_seal_v1.png",
+      "bytes": 82092,
+      "sha256": "d1b4105495a1c609afca61e03afa11d1d57ba0f89328e4345a8ff7cc09a6cc45"
+    },
+    {
+      "path": "source/maps/saracen_hull_structure_v1.png",
+      "bytes": 172149,
+      "sha256": "b7530f910310a438c398aa9c9346d5e99180d2d8050b4cd773f4481f8340cccc"
+    },
+    {
+      "path": "source/originals/mid_saracen.SHP",
+      "bytes": 192032,
+      "sha256": "01a8d4d43d1a8297629caf782844c08f57721d14cabce85d9eef15a64c2894b4"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 1687077,
+      "sha256": "019f9a0bd2c87d75caa7556c5006deff78ec3ee1b117f5b560024cf138712121"
+    },
+    {
+      "path": "source/originals/saracen.png",
+      "bytes": 72120,
+      "sha256": "f39ee2b1890b7285062eb4a35140a3d80b17ee6d88947296639f80aa4085a193"
+    },
+    {
+      "path": "source/resources/2335ca3211f7_saracen_hull_metallic_v1.png",
+      "bytes": 7360688,
+      "sha256": "2335ca3211f775e04182f4d4815342157c27c7cb5b89d51bcbd8d91465a1331a"
+    },
+    {
+      "path": "source/resources/2a6e61cae402_saracen_hull_normal_v1.png",
+      "bytes": 477900,
+      "sha256": "2a6e61cae4022f1aabe08e7900c54d537ba44de286c3d5001c33dcf40f650fbd"
+    },
+    {
+      "path": "source/resources/732e8033ccec_saracen_hull_basecolor_v1.png",
+      "bytes": 16048591,
+      "sha256": "732e8033ccec292035b1276da743c4b9f4f55d5fcb2f85d317278278a438826b"
+    },
+    {
+      "path": "source/resources/cdaec1f2473e_saracen_hull_roughness_v1.png",
+      "bytes": 5755202,
+      "sha256": "cdaec1f2473e764415eb72b43091d8ee760db5244d95b7e58abbd796cd099ba6"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-firing.png",
+      "bytes": 1239219,
+      "sha256": "905184b2c8fa9bd4195d74e8025b07bc23b5ac9d52dbea0d0d0359ee536dbf24"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-overview.png",
+      "bytes": 1019584,
+      "sha256": "645b97e231cecb06c05562c1e652f5df3982e7a598d787a6b14598b0f3fe3e41"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-rear.png",
+      "bytes": 913745,
+      "sha256": "aedc5786ff11d3e5a166c3a536f9d7deb455db5e14e63e607913ad7889bf87fa"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-underside.png",
+      "bytes": 1169017,
+      "sha256": "ec6c06c67819421c07ab74fab4962425edb92e4bf3dcee7cce37ea84edd0ea67"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 738342,
+      "sha256": "c9c5d4891714218a85d26aace3df89be3365ff341c37cac43cb732455b1cf2e1"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 788704,
+      "sha256": "e2eae4b11a0c8a31f137afedf2e4939605a3ebff67d78d942f02e94810543788"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 812257,
+      "sha256": "48be85e871bbc0ab8ea83014da9ce91fd3207379cbf3fc79b2c653a44e7afd0f"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_rear.png",
+      "bytes": 742242,
+      "sha256": "6ed7b4bc92a962f015f28618376776a59b75a19f097aa3602fc32ebce521fcb6"
+    },
+    {
+      "path": "source/review/reconstruction_v1/source_front.png",
+      "bytes": 472959,
+      "sha256": "b44f69237375f19192287f583713f5503558750118afa1434dcc4f6fb9b3b176"
+    },
+    {
+      "path": "source/saracen_worn_pbr_v1.blend",
+      "bytes": 30227687,
+      "sha256": "05679028afae78965bfc115d16c8f14ec4356c38c7737e261076d651526b0fdb"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "path": "mods/110-saracen-worn-v1/license.txt",
+    "bytes": 248,
+    "sha256": "35fc757c881fafc5bfa59e25b42ffbd2171772fbf81c214263d40350b8f1d6d6"
+  },
+  {
+    "path": "mods/110-saracen-worn-v1/mid_saracen.SHP",
+    "bytes": 192032,
+    "sha256": "a9036b8e9644a8c84c15e34456e7f078a48983e51e6076a96645e6352d369bfd"
+  },
+  {
+    "path": "mods/110-saracen-worn-v1/mission976.dte",
+    "bytes": 480,
+    "sha256": "00d2a8988c91088efbffe171d89b4e06e2d23acadf8e78e0b25fa0d650c163d0"
+  },
+  {
+    "path": "mods/110-saracen-worn-v1/mod.ini",
+    "bytes": 274,
+    "sha256": "19fed730f8c8962101a1d38f97de5bb7b6b589a629262b820b869e9afb42eee9"
+  },
+  {
+    "path": "mods/110-saracen-worn-v1/mod.png",
+    "bytes": 1019584,
+    "sha256": "645b97e231cecb06c05562c1e652f5df3982e7a598d787a6b14598b0f3fe3e41"
+  },
+  {
+    "path": "mods/110-saracen-worn-v1/orsr1_hull.png",
+    "bytes": 16048591,
+    "sha256": "732e8033ccec292035b1276da743c4b9f4f55d5fcb2f85d317278278a438826b"
+  },
+  {
+    "path": "mods/110-saracen-worn-v1/orsr1_hull_normal.png",
+    "bytes": 477900,
+    "sha256": "2a6e61cae4022f1aabe08e7900c54d537ba44de286c3d5001c33dcf40f650fbd"
+  },
+  {
+    "path": "mods/110-saracen-worn-v1/orsr1_hull_orm.png",
+    "bytes": 9190132,
+    "sha256": "4400474c024a5c9fb453cb336b1774f2a9fd82132c04188a5c033d161a076e53"
+  }
+]

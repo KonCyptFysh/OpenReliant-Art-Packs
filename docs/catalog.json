@@ -995,6 +995,44 @@
       "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1",
       "checksum": "0aee16395ae45dee9ee033e7515b463e2b79ab38fc87fceda960461d07953412",
       "downloadBytes": 26437763
+    },
+    {
+      "id": "saracen",
+      "name": "Saracen - Worn Paint",
+      "category": "coalition-fighters",
+      "folder": "Coalition Fighters/Saracen",
+      "status": "coming-soon",
+      "assetRevision": "1.0",
+      "description": "Worn grey alloy and bronze panelling, recessed green glazing and corrected wing-edge UVs and native texture joins.",
+      "modFolder": "110-saracen-worn-v1",
+      "preview": "assets/saracen/flight-overview.webp",
+      "defaultPreview": "image",
+      "images": [
+        {
+          "src": "assets/saracen/flight-overview.webp",
+          "caption": "Saracen \u2014 Front three-quarter view"
+        },
+        {
+          "src": "assets/saracen/flight-firing.webp",
+          "caption": "Saracen \u2014 Upper view with guns firing"
+        },
+        {
+          "src": "assets/saracen/flight-underside.webp",
+          "caption": "Saracen \u2014 Underside"
+        },
+        {
+          "src": "assets/saracen/flight-rear.webp",
+          "caption": "Saracen \u2014 Rear view"
+        }
+      ],
+      "previewSource": "User in-game capture",
+      "engine": "0.8.1",
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing."
+      ],
+      "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
+      "model": "models/saracen.glb"
     }
   ]
 }

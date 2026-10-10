@@ -1,0 +1,126 @@
+{
+  "source_detail_meshes": [
+    {
+      "part": "Saracen Cpit",
+      "lod": 0,
+      "visible_nonzero_area_faces": 8,
+      "maximum_anisotropy": 1.127144087570898,
+      "above_100": []
+    },
+    {
+      "part": "Saracen Cpit",
+      "lod": 1,
+      "visible_nonzero_area_faces": 8,
+      "maximum_anisotropy": 1.127144087570898,
+      "above_100": []
+    },
+    {
+      "part": "Saracen Cpit",
+      "lod": 2,
+      "visible_nonzero_area_faces": 4,
+      "maximum_anisotropy": 12.234484441287883,
+      "above_100": []
+    },
+    {
+      "part": "Saracen Cpit",
+      "lod": 3,
+      "visible_nonzero_area_faces": 4,
+      "maximum_anisotropy": 12.234484441287883,
+      "above_100": []
+    },
+    {
+      "part": "Saracen Cpit",
+      "lod": 4,
+      "visible_nonzero_area_faces": 4,
+      "maximum_anisotropy": 12.234484441287883,
+      "above_100": []
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "visible_nonzero_area_faces": 584,
+      "maximum_anisotropy": 66185.47936653132,
+      "above_100": [
+        {
+          "face": 66,
+          "anisotropy": 63566.354962676436,
+          "uv_area": 1.335109800495685e-08
+        },
+        {
+          "face": 83,
+          "anisotropy": 66185.47936653132,
+          "uv_area": 1.3102237517159678e-08
+        }
+      ]
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "visible_nonzero_area_faces": 398,
+      "maximum_anisotropy": 7.090085919578056,
+      "above_100": []
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "visible_nonzero_area_faces": 271,
+      "maximum_anisotropy": 101.63257797489891,
+      "above_100": [
+        {
+          "face": 212,
+          "anisotropy": 101.63247990329894,
+          "uv_area": 0.0005282572958393853
+        },
+        {
+          "face": 240,
+          "anisotropy": 101.63257797489891,
+          "uv_area": 0.0005282572958393853
+        }
+      ]
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "visible_nonzero_area_faces": 175,
+      "maximum_anisotropy": 30.167658778091802,
+      "above_100": []
+    },
+    {
+      "part": "Saracen",
+      "lod": 4,
+      "visible_nonzero_area_faces": 110,
+      "maximum_anisotropy": 64.92143295264046,
+      "above_100": []
+    },
+    {
+      "part": "Saracen",
+      "lod": 5,
+      "visible_nonzero_area_faces": 90,
+      "maximum_anisotropy": 49.29176036534498,
+      "above_100": []
+    },
+    {
+      "part": "Saracen",
+      "lod": 6,
+      "visible_nonzero_area_faces": 65,
+      "maximum_anisotropy": 22.760096729622184,
+      "above_100": []
+    },
+    {
+      "part": "Saracen",
+      "lod": 7,
+      "visible_nonzero_area_faces": 46,
+      "maximum_anisotropy": 27.210111818949585,
+      "above_100": []
+    },
+    {
+      "part": "Saracen",
+      "lod": 8,
+      "visible_nonzero_area_faces": 30,
+      "maximum_anisotropy": 42.01056108082955,
+      "above_100": []
+    }
+  ],
+  "repair": "LOD0 Saracen faces 66 and 83 have collapsed UV corners; repair adjacent quad faces 73 and 78 for continuous plain alloy mapping",
+  "lower_lods": "Retained original UVs; long narrow faces 212 and 240 at hull LOD2 have ~102 anisotropy and nonzero UV area. Distance-transition appearance pending user gameplay review."
+}

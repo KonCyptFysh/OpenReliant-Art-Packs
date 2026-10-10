@@ -1,0 +1,12 @@
+{
+  "mission": 976,
+  "name": "Recommissioned - Saracen Inspection",
+  "player_ship_type": 46,
+  "placed_ships": 1,
+  "other_ships": 0,
+  "triggers": 0,
+  "script": "Create only the player's flight group; return.",
+  "retail_mission_data_copied": false,
+  "sha256": "00d2a8988c91088efbffe171d89b4e06e2d23acadf8e78e0b25fa0d650c163d0",
+  "status": "requires runtime verification"
+}

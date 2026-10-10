@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "${SARACEN_WORKSPACE}/saracen_worn_pbr_v1.blend",
+  "canonical_sha256": "fac9aad3b8bca70874d94733f10bc57b43a0e71bbf1631f2b8c88a92d5c574ab",
+  "snapshot": "${ART_PACK_REPOSITORY}/Coalition Fighters/Saracen/source/saracen_worn_pbr_v1.blend",
+  "snapshot_sha256": "05679028afae78965bfc115d16c8f14ec4356c38c7737e261076d651526b0fdb",
+  "mesh_signature": "eca1e7f88bfbca1106c7f2430063851d82ebdc3b8bf7ee7dfb6f433ac378cb66",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "saracen_hull_basecolor_v1.png",
+      "path": "//resources/732e8033ccec_saracen_hull_basecolor_v1.png",
+      "sha256": "732e8033ccec292035b1276da743c4b9f4f55d5fcb2f85d317278278a438826b"
+    },
+    {
+      "image": "saracen_hull_metallic_v1.png",
+      "path": "//resources/2335ca3211f7_saracen_hull_metallic_v1.png",
+      "sha256": "2335ca3211f775e04182f4d4815342157c27c7cb5b89d51bcbd8d91465a1331a"
+    },
+    {
+      "image": "saracen_hull_normal_v1.png",
+      "path": "//resources/2a6e61cae402_saracen_hull_normal_v1.png",
+      "sha256": "2a6e61cae4022f1aabe08e7900c54d537ba44de286c3d5001c33dcf40f650fbd"
+    },
+    {
+      "image": "saracen_hull_roughness_v1.png",
+      "path": "//resources/cdaec1f2473e_saracen_hull_roughness_v1.png",
+      "sha256": "cdaec1f2473e764415eb72b43091d8ee760db5244d95b7e58abbd796cd099ba6"
+    }
+  ]
+}

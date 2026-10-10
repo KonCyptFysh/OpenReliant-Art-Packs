@@ -1,0 +1,24 @@
+{
+  "tool": "built-in imagegen",
+  "ship": "Saracen",
+  "master_resolution": 1254,
+  "delivery_resolution": 4096,
+  "passes": [
+    {
+      "name": "reconstruction_v1",
+      "prompt": "Use case: precise-object-edit. Asset type: exact fixed-UV diffuse texture atlas for the StarLancer Coalition Saracen spacecraft. The attached 256x256 image is the EDIT TARGET. Reconstruct this exact full-bleed square atlas at high resolution in the same faithful worn painted spacecraft style. Preserve every feature's normalized coordinates, dimensions, outline, orientation and spacing exactly: grey alloy plates, thin black panel seams, bronze-brown panels and machinery housings across the middle and lower left, the little geometric bronze-panel insignia, red triangular warning decals, amber indicators, yellow-black hazard stripes, black vent housings, straight parallel ribs, circular recesses and mechanical panels. Preserve the original grey/bronze palette, painted markings, worn finish and chipped edges. Clarify existing details without adding new seams, rivets, logos, text or decorative machinery. The dark green glazing apertures at the very top left, upper middle-left and far top-right must have smooth opaque deep green interiors with restrained plain colour and no bright lines, marbling, squiggles, scratches or baked reflection pattern; preserve their precise existing shapes and frames. Do not turn yellow indicator panels into glass. Keep all vent ribs straight and bounded inside their housings. Avoid hard baked directional highlights and large fake shadow rims: physical surface response will come from separate material maps. Exact spatial registration is essential for this existing UV layout. No spaceship rendering, perspective, rearrangement of islands, rotation, crop, padding, border or changed aspect. Output only the complete opaque square atlas.",
+      "input": "source/saracen.png",
+      "output": "maps/saracen_hull_reconstruction_v1.png",
+      "input_sha256": "f39ee2b1890b7285062eb4a35140a3d80b17ee6d88947296639f80aa4085a193",
+      "output_sha256": "32a39661f9958d35e19c8a5f046cd2af31401df0165d30968fd3151043298a86"
+    },
+    {
+      "name": "glazing_v1",
+      "prompt": "Use case: precise-object-edit. Edit the attached 1254-square Saracen UV texture atlas. Refine ONLY the interiors of its FIVE dark-green glass panes at the very top. Pane locations: two horizontal rounded slits x49\u2013226 y18\u201344 and x49\u2013226 y65\u201388; one larger clipped rectangle x278\u2013424 y23\u201382; one tiny polygon x975\u20131033 y44\u201362; one clipped rectangle x1077\u20131198 y24\u201359. Within each of those exact existing apertures, use plain smooth opaque deep forest-green glass with very little tonal variation and no scratches, mottling, bright edge reflection, lines or painted cloudy pattern. Preserve all window outlines and metal frames exactly. Reflections will be supplied by the game material. Preserve the rest of the complete atlas in its current positions and appearance, including all grey worn metal, bronze-brown panelling, red triangle markings, yellow indicators and hazard stripes, ribs, circular wells and fine panel lines. No moved UV islands, new panels, border, perspective or resizing. Output the complete opaque square atlas only.",
+      "input": "maps/saracen_hull_reconstruction_v1.png",
+      "output": "maps/saracen_hull_glazing_v1.png",
+      "input_sha256": "32a39661f9958d35e19c8a5f046cd2af31401df0165d30968fd3151043298a86",
+      "output_sha256": "c63fb718c2196a245d90d9feabcf0b6f8044b32dd0f7a9fb2b893f86ba50bcd6"
+    }
+  ]
+}

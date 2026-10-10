@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "gallery_media": "Four actual in-game screenshots from the user review",
+  "artwork_revision": "1.0",
+  "captures": [
+    {
+      "image": "flight-overview.png",
+      "original_filename": "Screenshot_20261010_122015.png",
+      "sha256": "645b97e231cecb06c05562c1e652f5df3982e7a598d787a6b14598b0f3fe3e41",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Saracen review install",
+      "captured_at_utc": "2026-10-10T01:20:19.501597+00:00",
+      "gallery_file": "assets/saracen/flight-overview.webp",
+      "gallery_sha256": "46d86c99bc802e50628601e21f276ed7e0dd19d24fa417c05ae8ad5e481c39b7",
+      "caption": "Saracen \u2014 Front three-quarter view",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    },
+    {
+      "image": "flight-firing.png",
+      "original_filename": "Screenshot_20261010_122027.png",
+      "sha256": "905184b2c8fa9bd4195d74e8025b07bc23b5ac9d52dbea0d0d0359ee536dbf24",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Saracen review install",
+      "captured_at_utc": "2026-10-10T01:20:36.756513+00:00",
+      "gallery_file": "assets/saracen/flight-firing.webp",
+      "gallery_sha256": "b9988df8ddd9513b30fd5c65fb59b4ce11933a8aac08b9a3ae948bff29682c14",
+      "caption": "Saracen \u2014 Upper view with guns firing",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    },
+    {
+      "image": "flight-underside.png",
+      "original_filename": "Screenshot_20261010_122045.png",
+      "sha256": "ec6c06c67819421c07ab74fab4962425edb92e4bf3dcee7cce37ea84edd0ea67",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Saracen review install",
+      "captured_at_utc": "2026-10-10T01:20:49.906449+00:00",
+      "gallery_file": "assets/saracen/flight-underside.webp",
+      "gallery_sha256": "15d689b057e5b5c93c8c5110a64e4cf2f30a00d27a2ad1df71a2684fba597a83",
+      "caption": "Saracen \u2014 Underside",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    },
+    {
+      "image": "flight-rear.png",
+      "original_filename": "Screenshot_20261010_122103.png",
+      "sha256": "aedc5786ff11d3e5a166c3a536f9d7deb455db5e14e63e607913ad7889bf87fa",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "source": "User-created in-game capture saved after the Saracen review install",
+      "captured_at_utc": "2026-10-10T01:21:06.818367+00:00",
+      "gallery_file": "assets/saracen/flight-rear.webp",
+      "gallery_sha256": "1ae649296b7ced9399a692703ae7fca9be174cfcdf553c061e72abf72728ed10",
+      "caption": "Saracen \u2014 Rear view",
+      "conversion": "WebP encoding only; original framing and pixels not edited",
+      "visually_inspected": true
+    }
+  ],
+  "approved_runtime_before_metadata_sha256": "9bd2eae0682820b555b1702701d0d8cd44cba448b5c3210d927fc3e954716a14",
+  "published_runtime_manifest_sha256": "831c7b9512c255030ddd1975dc177b98f798467a6c95aa80228edc6b76c96b50",
+  "approved_model_and_material_bytes_unchanged": true,
+  "engine_note": "Review launcher targets official OpenReliant 0.8.1. Screenshots themselves do not encode an engine build.",
+  "coverage": "In-game appearance from front three-quarter, upper firing, underside and rear views. No automated game launch was performed for publication."
+}

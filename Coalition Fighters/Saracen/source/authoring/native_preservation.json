@@ -1,0 +1,1162 @@
+{
+  "passed": true,
+  "source_sha256": "01a8d4d43d1a8297629caf782844c08f57721d14cabce85d9eef15a64c2894b4",
+  "output_sha256": "a9036b8e9644a8c84c15e34456e7f078a48983e51e6076a96645e6352d369bfd",
+  "uv_edits": [
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 66
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 73
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 78
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 83
+    }
+  ],
+  "continuation_corrections": [
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 2,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 3,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 6,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 7,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 66,
+      "prior": 7,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 67,
+      "prior": 6,
+      "remaining": 5
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 68,
+      "prior": 5,
+      "remaining": 4
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 69,
+      "prior": 4,
+      "remaining": 3
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 70,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 71,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 72,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 76,
+      "prior": 6,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 77,
+      "prior": 5,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 78,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 346,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 347,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 350,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 351,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 556,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 557,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 560,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 561,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 566,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 567,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 572,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "face": 573,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 2,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 3,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 4,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 101,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 102,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 224,
+      "prior": 9,
+      "remaining": 3
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 225,
+      "prior": 8,
+      "remaining": 2
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 226,
+      "prior": 7,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 227,
+      "prior": 6,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 240,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 241,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 251,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 252,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 253,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 286,
+      "prior": 6,
+      "remaining": 2
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 287,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 288,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 331,
+      "prior": 6,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 332,
+      "prior": 5,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 333,
+      "prior": 4,
+      "remaining": 2
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 334,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 335,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 388,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 389,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 394,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "face": 395,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 2,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 3,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 4,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 57,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 58,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 61,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 62,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 73,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 74,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 75,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 162,
+      "prior": 5,
+      "remaining": 2
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 163,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 164,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 170,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 171,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 172,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 179,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 180,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 181,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 209,
+      "prior": 7,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 210,
+      "prior": 6,
+      "remaining": 3
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 211,
+      "prior": 5,
+      "remaining": 2
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 212,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 213,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 237,
+      "prior": 7,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 238,
+      "prior": 6,
+      "remaining": 3
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 239,
+      "prior": 5,
+      "remaining": 2
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 240,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 241,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 275,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "face": 277,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 0,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 1,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 2,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 7,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 8,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 12,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 13,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 40,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 41,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 44,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 45,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 56,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 57,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 58,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 86,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 105,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 109,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 110,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 111,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 116,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 117,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 118,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 123,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 124,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 128,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 129,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 152,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 179,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "face": 181,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 4,
+      "face": 31,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 4,
+      "face": 32,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 4,
+      "face": 33,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 4,
+      "face": 54,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 4,
+      "face": 55,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 4,
+      "face": 56,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 4,
+      "face": 87,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 4,
+      "face": 114,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 4,
+      "face": 116,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 5,
+      "face": 21,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 5,
+      "face": 22,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 5,
+      "face": 23,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 5,
+      "face": 40,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 5,
+      "face": 41,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Saracen",
+      "lod": 5,
+      "face": 42,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 5,
+      "face": 67,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 5,
+      "face": 83,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 5,
+      "face": 85,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 6,
+      "face": 16,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 6,
+      "face": 26,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 6,
+      "face": 37,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 6,
+      "face": 45,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 6,
+      "face": 57,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 6,
+      "face": 59,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 7,
+      "face": 15,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 7,
+      "face": 22,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 7,
+      "face": 30,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 7,
+      "face": 42,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 7,
+      "face": 44,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 8,
+      "face": 6,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 8,
+      "face": 14,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 8,
+      "face": 26,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Saracen",
+      "lod": 8,
+      "face": 28,
+      "prior": 1,
+      "remaining": 0
+    }
+  ],
+  "detail_meshes": [
+    {
+      "part": "Saracen Cpit",
+      "lod": 0,
+      "faces": 20,
+      "groups_before": 9,
+      "groups_after": 9,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen Cpit",
+      "lod": 1,
+      "faces": 20,
+      "groups_before": 9,
+      "groups_after": 9,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen Cpit",
+      "lod": 2,
+      "faces": 16,
+      "groups_before": 9,
+      "groups_after": 9,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen Cpit",
+      "lod": 3,
+      "faces": 16,
+      "groups_before": 9,
+      "groups_after": 9,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen Cpit",
+      "lod": 4,
+      "faces": 16,
+      "groups_before": 9,
+      "groups_after": 9,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen",
+      "lod": 0,
+      "faces": 596,
+      "groups_before": 195,
+      "groups_after": 207,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen",
+      "lod": 1,
+      "faces": 410,
+      "groups_before": 173,
+      "groups_after": 184,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen",
+      "lod": 2,
+      "faces": 283,
+      "groups_before": 130,
+      "groups_after": 147,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen",
+      "lod": 3,
+      "faces": 187,
+      "groups_before": 102,
+      "groups_after": 121,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen",
+      "lod": 4,
+      "faces": 122,
+      "groups_before": 77,
+      "groups_after": 85,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen",
+      "lod": 5,
+      "faces": 91,
+      "groups_before": 56,
+      "groups_after": 64,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen",
+      "lod": 6,
+      "faces": 65,
+      "groups_before": 45,
+      "groups_after": 51,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen",
+      "lod": 7,
+      "faces": 46,
+      "groups_before": 32,
+      "groups_after": 37,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Saracen",
+      "lod": 8,
+      "faces": 30,
+      "groups_before": 22,
+      "groups_after": 26,
+      "all_shared_corner_uvs_match": true
+    }
+  ],
+  "all_1918_faces_checked": true,
+  "geometry_normals_attachments_animation_collision_and_winding_byte_identical": true,
+  "allowed_changes": "Texture names, four finest-detail wing-edge UV faces, and primitive continuation counts at UV seams only",
+  "changed_bytes": 381
+}

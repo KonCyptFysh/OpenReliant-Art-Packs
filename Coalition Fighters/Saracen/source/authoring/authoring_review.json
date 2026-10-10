@@ -1,0 +1,30 @@
+{
+  "reviewed_at_utc": "2026-10-10T01:10:13.019521+00:00",
+  "views": [
+    {
+      "path": "${SARACEN_WORKSPACE}/review/reconstruction_v1/material_front.png",
+      "sha256": "e2eae4b11a0c8a31f137afedf2e4939605a3ebff67d78d942f02e94810543788"
+    },
+    {
+      "path": "${SARACEN_WORKSPACE}/review/reconstruction_v1/material_opposite.png",
+      "sha256": "48be85e871bbc0ab8ea83014da9ce91fd3207379cbf3fc79b2c653a44e7afd0f"
+    },
+    {
+      "path": "${SARACEN_WORKSPACE}/review/reconstruction_v1/material_belly.png",
+      "sha256": "c9c5d4891714218a85d26aace3df89be3365ff341c37cac43cb732455b1cf2e1"
+    },
+    {
+      "path": "${SARACEN_WORKSPACE}/review/reconstruction_v1/material_rear.png",
+      "sha256": "6ed7b4bc92a962f015f28618376776a59b75a19f097aa3602fc32ebce521fcb6"
+    }
+  ],
+  "source": "Blender authoring previews",
+  "observations": [
+    "Original grey alloy, bronze panelling, warning triangles and hazard markings retained.",
+    "All five atlas glazing apertures use smooth green colour with recessed borders and flat interior normals.",
+    "Front, opposite, underside and rear reviewed; no additional obvious first-pass issue identified.",
+    "Four finest-detail wing-edge faces repaired around two collapsed UV triangles. Geometry and original UV layers preserved."
+  ],
+  "runtime_visual_review": "pending_user",
+  "not_game_captures": true
+}

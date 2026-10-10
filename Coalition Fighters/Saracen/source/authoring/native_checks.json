@@ -1,0 +1,14 @@
+[
+  {
+    "file": "mid_saracen.SHP",
+    "exit_code": 0,
+    "output": "ok: 2 parts, 1070 vertices, 1918 faces\nbounds: 2 model_space\nwritten again: the same bytes\n",
+    "sha256": "a9036b8e9644a8c84c15e34456e7f078a48983e51e6076a96645e6352d369bfd"
+  },
+  {
+    "file": "mission976.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "00d2a8988c91088efbffe171d89b4e06e2d23acadf8e78e0b25fa0d650c163d0"
+  }
+]
