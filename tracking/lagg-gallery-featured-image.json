@@ -1,0 +1,15 @@
+{
+  "asset": "lagg",
+  "updated_at_utc": "2026-10-10T00:34:49.727452+00:00",
+  "request": "Match the Lagg gallery image to the presentation of the other cards.",
+  "previous_preview": "assets/lagg/flight-overview.webp",
+  "preview": "assets/lagg/flight-firing.webp",
+  "caption": "Lagg \u2014 Guns firing",
+  "source": "Existing original user in-game capture Screenshot_20261010_104023.png",
+  "selection_reason": "Brighter right-facing three-quarter angle with the blue nebula background, matching neighbouring Coalition fighter cards.",
+  "image_pixels_changed": false,
+  "gallery_photos_preserved": 5,
+  "selected_webp_sha256": "6356bed296efa8f7971ca718848520d4a326aa0cbdb492d617d98dbd12092bea",
+  "runtime_manifest_sha256_unchanged": "9e8221846fdb45279a48d8fd320404fd1bdb6970d7f40fc8f5d78e3ba61b0cc9",
+  "existing_beta_release_unchanged": true
+}
