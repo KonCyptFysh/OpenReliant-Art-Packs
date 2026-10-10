@@ -1,0 +1,39 @@
+{
+  "package_name": "openreliant-karak",
+  "version": "0.1.0-beta.1",
+  "asset_revision": "1.0",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.8.1",
+  "mod_folders": [
+    "112-karak-worn-v1"
+  ],
+  "asset_manifest_sha256": "39d886f75c02af823eec33f65bdae869f38653ee33d853d39305ef335baf8073",
+  "source_manifest_sha256": "45dbad4c476ffaca01ce679738fbb9b69d31f44e3f3f906d2a08ac978b3c70d5",
+  "channel": "beta",
+  "user_approved": true,
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json",
+    "compatibility-0.8.json",
+    "tools/launch-karak-test.sh",
+    "approval.json",
+    "gallery-validation.json",
+    "preview-validation.json"
+  ],
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-10T13:15:35.865176+00:00",
+    "asset_revision": "1.0",
+    "instruction": "That'll do, I'll come back to it later. Ship it",
+    "scope": "Current Karak artwork accepted for this beta round and publication.",
+    "qualification": "Accepted for now, with later touch-ups explicitly left open. This does not claim exhaustive gameplay or platform testing."
+  }
+}

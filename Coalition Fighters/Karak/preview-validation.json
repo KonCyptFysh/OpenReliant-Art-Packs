@@ -1,0 +1,42 @@
+{
+  "model": "Chin_Zhuhai.SHP",
+  "model_sha256": "850f108196e3d536f54a93f9d8303b08ce51ca5576bb5695eb8b8e8d40f81ba4",
+  "preview_sha256": "8e15f9d4454562281b8b5fe584e9c693c395635852892328985c5bb799f4d15c",
+  "preview_bytes": 1777984,
+  "highest_detail_geometry": true,
+  "textures": [
+    {
+      "runtime_file": "orkr1_hull.png",
+      "sha256": "a2f0cbb7336cea379d5628971dfc4fb39ed3621367ba17b09b7d67865312e439",
+      "kind": "base",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orkr1_hull_normal.png",
+      "sha256": "4a333399b38eaa0d331d3d9b6fc537ecc11be4babca86debbee8b8755f66a9d4",
+      "kind": "normal",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orkr1_hull_orm.png",
+      "sha256": "41f4b0b7b24b10275a44ad96c8c680a2d4fd1ddee5ed9ed36d08c8273f33bf20",
+      "kind": "orm",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "limitations": "Static native rest pose with reduced 1024px material maps and browser lighting. Engine effects, animations and loadout attachments omitted. No in-game gallery photograph yet.",
+  "parts": 2,
+  "visible_triangles": 264,
+  "native_part_origins_verified": true,
+  "asset_revision": "1.0",
+  "asset_manifest_sha256": "39d886f75c02af823eec33f65bdae869f38653ee33d853d39305ef335baf8073"
+}

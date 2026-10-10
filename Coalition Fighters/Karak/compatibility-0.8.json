@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "scope": "Official 0.8.1 native and texture-loader checks plus user acceptance for this beta round",
+  "checked_at_utc": "2026-10-10T11:54:15.997950+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+  "native_checks": [
+    {
+      "file": "Chin_Zhuhai.SHP",
+      "exit_code": 0,
+      "output": "ok: 2 parts, 562 vertices, 855 faces\nbounds: 2 oriented\nwritten again: the same bytes\n",
+      "sha256": "850f108196e3d536f54a93f9d8303b08ce51ca5576bb5695eb8b8e8d40f81ba4"
+    },
+    {
+      "file": "mission974.dte",
+      "exit_code": 0,
+      "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+      "sha256": "8e2d7c1e57079d8ca720610790a6368a7194ee9d2986702aee8895d6c3423868"
+    }
+  ],
+  "texture_loader": {
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "output": "PASS orkr1_hull: base, green, red; normal and ORM inherited byte-for-byte; generated colour channels verified",
+    "read_original_pixels": true,
+    "checked_output_longest_side": 256,
+    "green_and_red_generated": true,
+    "normal_and_orm_inherited_byte_identically": true,
+    "input_files": [
+      {
+        "path": "orkr1_hull.png",
+        "bytes": 17876202,
+        "sha256": "a2f0cbb7336cea379d5628971dfc4fb39ed3621367ba17b09b7d67865312e439"
+      },
+      {
+        "path": "orkr1_hull_normal.png",
+        "bytes": 436762,
+        "sha256": "4a333399b38eaa0d331d3d9b6fc537ecc11be4babca86debbee8b8755f66a9d4"
+      },
+      {
+        "path": "orkr1_hull_orm.png",
+        "bytes": 10488730,
+        "sha256": "41f4b0b7b24b10275a44ad96c8c680a2d4fd1ddee5ed9ed36d08c8273f33bf20"
+      }
+    ]
+  },
+  "duplicated_colour_textures": false,
+  "game_launched": false,
+  "runtime_visual_review": "user_accepted_artwork_1_0_for_this_round",
+  "approval_record": "approval.json"
+}
