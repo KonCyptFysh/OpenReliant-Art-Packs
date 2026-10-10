@@ -613,5 +613,50 @@
       "narrow_screen_photo_layout_checked": true,
       "gallery_wraparound": true
     }
+  },
+  "salin": {
+    "model": "Luda.SHP",
+    "model_sha256": "3f2fd2d3fa8f97a7926e534c6ae69e8c7b7766cdb59f29cc3a0e2cec7caf1683",
+    "preview_sha256": "f8e9a5b46364d70562e28a393e30ef089f875af4d3bd478e0df70adc32f456c1",
+    "preview_bytes": 1569200,
+    "highest_detail_geometry": true,
+    "textures": [
+      {
+        "runtime_file": "orsn1_hull.png",
+        "sha256": "520654f8e8cbabcde823abcca9922c042564c8aa62ca29e680a40288bce607ac",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orsn1_hull_normal.png",
+        "sha256": "11ffb8f2b4db65ebc25d4515417fb21132a1392c8170d2f995dc735d8e6ae699",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orsn1_hull_orm.png",
+        "sha256": "56bc79c89e1fc814cd0a41da5014f209f255b8776ee2c4e4cae48313d6034ff7",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "limitations": "Static rotatable viewing copy with 1024-pixel textures and browser lighting. Engine effects, animation and loadout attachments are omitted; four in-game photos show the actual engine appearance.",
+    "pose": "native rest pose matching the approved authoring scene",
+    "parts": 1,
+    "visible_triangles": 456,
+    "native_part_origins_verified": true,
+    "source_scene_sha256": "2c5f18f5aeddc296a7263a86f5ce01c69147e50ec7108b7c32b7ab30e14e2dff",
+    "engine_exporter": "Official OpenReliant sltool 0.8.1",
+    "native_runtime_unchanged": true,
+    "asset_manifest_sha256": "60764e5bfb1fec277a2658febde1205581d91a721e5275d352dedb02cbdf0c32"
   }
 }
