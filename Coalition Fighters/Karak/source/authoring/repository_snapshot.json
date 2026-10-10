@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "${KARAK_WORKSPACE}/karak_worn_pbr_v1.blend",
+  "canonical_sha256": "5a6be068b7b2c3d1dba43d61f151ddf13e09eeeb685aa8954df72304ced5d089",
+  "snapshot": "${ART_PACK_REPOSITORY}/Coalition Fighters/Karak/source/karak_worn_pbr_v1.blend",
+  "snapshot_sha256": "2a659e9224f276cce2c978f382cee396661d702fe7805cbaa3a0d361befdfbd7",
+  "mesh_signature": "c091cd1385b290b43778f1c3883f8856cc278f4bc27c154ee114509081ae3e5e",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "karak_hull_basecolor_v1.png",
+      "path": "//resources/a2f0cbb7336c_karak_hull_basecolor_v1.png",
+      "sha256": "a2f0cbb7336cea379d5628971dfc4fb39ed3621367ba17b09b7d67865312e439"
+    },
+    {
+      "image": "karak_hull_metallic_v1.png",
+      "path": "//resources/a4fc8e4706f3_karak_hull_metallic_v1.png",
+      "sha256": "a4fc8e4706f35738e77c35516074037603f8050b8b209c19c879bc464bab03a8"
+    },
+    {
+      "image": "karak_hull_normal_v1.png",
+      "path": "//resources/4a333399b38e_karak_hull_normal_v1.png",
+      "sha256": "4a333399b38eaa0d331d3d9b6fc537ecc11be4babca86debbee8b8755f66a9d4"
+    },
+    {
+      "image": "karak_hull_roughness_v1.png",
+      "path": "//resources/3cccb7682ed2_karak_hull_roughness_v1.png",
+      "sha256": "3cccb7682ed230d76c19c394c3a21db1075e53072dd359ee00dba9b4769b16d9"
+    }
+  ]
+}

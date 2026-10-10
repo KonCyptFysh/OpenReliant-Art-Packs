@@ -1,0 +1,12 @@
+{
+  "mission": 974,
+  "name": "Recommissioned - Karak Inspection",
+  "player_ship_type": 40,
+  "placed_ships": 1,
+  "other_ships": 0,
+  "triggers": 0,
+  "script": "Create only the player's flight group; return.",
+  "retail_mission_data_copied": false,
+  "sha256": "8e2d7c1e57079d8ca720610790a6368a7194ee9d2986702aee8895d6c3423868",
+  "status": "requires runtime verification"
+}

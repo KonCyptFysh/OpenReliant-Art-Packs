@@ -1,0 +1,2 @@
+index  object  group  pilot  kind  name                           position                                  yaw  pitch  roll
+    0       0      0      -    40  Karak - Inspection             (           0,            0,            0)    +0     +0    +0

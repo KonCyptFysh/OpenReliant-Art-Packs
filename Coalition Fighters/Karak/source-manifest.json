@@ -1,0 +1,272 @@
+{
+  "status": "approved-release-snapshot",
+  "ship": "Karak",
+  "asset_revision": "1.0",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 1332,
+      "sha256": "1f3bf30b137312cfff5e092115da393b76dde12656b2cf7ad962a093dd3365a9"
+    },
+    {
+      "path": "source/authoring/README.md",
+      "bytes": 892,
+      "sha256": "8b2131e88459e4773622d211fc4b8962a8a09ac1d2e877928ed6bc35219a768a"
+    },
+    {
+      "path": "source/authoring/animation_preservation.json",
+      "bytes": 1022,
+      "sha256": "74b3e253c0d0fda20a5d757a9f794892d2e3ad01d569d2e82424709e24e59186"
+    },
+    {
+      "path": "source/authoring/audit/inspection_mission.json",
+      "bytes": 378,
+      "sha256": "675c5bf4d503eac3a56f0bc45eb2fcaf4efa0d23e7797bd5b391a5d28bf5d4f8"
+    },
+    {
+      "path": "source/authoring/authoring_review.json",
+      "bytes": 1214,
+      "sha256": "f8d62f544b39040f7ff7d217e6a7f0cac5ef01bc266787316a23ffabdc712f07"
+    },
+    {
+      "path": "source/authoring/baseline_audit.json",
+      "bytes": 566,
+      "sha256": "6589fcb829d569c4d64db04775ba4883e7e06a8659180d2d511cdcefa6f95228"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 8884,
+      "sha256": "5545ceb4323644fcad807b6f1bb114d1a18e3e61ca0af6b4eb9b621fd1af9f8a"
+    },
+    {
+      "path": "source/authoring/build_source.py",
+      "bytes": 7289,
+      "sha256": "66f053b3d23e0621f0eff2f69dba83b66b84d27beeffbe66aab54aae516eac09"
+    },
+    {
+      "path": "source/authoring/compatibility-0.8.json",
+      "bytes": 2099,
+      "sha256": "fb6c1a9ff942cd381901e88c941f45358bcdb1fe56ac6821fac3ac95b23a879d"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 8016,
+      "sha256": "a614a479067a29311a0cb00603efc490988114dc0427c02747df2d628ab8f531"
+    },
+    {
+      "path": "source/authoring/finish_review.py",
+      "bytes": 20272,
+      "sha256": "fe5d35ec9daae8a5200aa3655c17de95b2e0193e882d14a5002637e56937ca1b"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 1820,
+      "sha256": "bf7be390b55c76ed686541ff2fba2375d50dfd0a0b4ad0d156eaa0ac350f93ce"
+    },
+    {
+      "path": "source/authoring/inspection.py",
+      "bytes": 3495,
+      "sha256": "22da5ed59cbd2f029ba0fad29db0bb5ffb4b1e771e0133cf8b1602e076bb810a"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 268,
+      "sha256": "f84cec8bb377ae27eaac10bbad53dac8413e97161581679a13f72e4e4f686f37"
+    },
+    {
+      "path": "source/authoring/mission974-ships.txt",
+      "bytes": 253,
+      "sha256": "6e375d2a1b6c7ee538a15ed5d45d7aa869e1441e72cbd59b23e489267fb2f5ef"
+    },
+    {
+      "path": "source/authoring/native-chunks.json",
+      "bytes": 11649,
+      "sha256": "654f6f65231e3f5c51ce74a226f1b4188e80068ff6c9576313d030a15d54937a"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 548,
+      "sha256": "c04a89dc3ac26ec08eddab9b7d0c19128a880900c3ad338bdc53058e134630b3"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 6148,
+      "sha256": "fea34bfac5a1134a1383ad39be23beb2e7e8b4507d543487497140c6a2a24056"
+    },
+    {
+      "path": "source/authoring/native_summary.json",
+      "bytes": 4925,
+      "sha256": "00221778662459115487c9fb7e6361fc8e72cd3e6940602710a0d110762dfd8a"
+    },
+    {
+      "path": "source/authoring/parse_native.py",
+      "bytes": 2348,
+      "sha256": "d057758b75f4e2c12ff44c402aaccba5021b7dd1b032ea2d618297d56981d7b3"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2416,
+      "sha256": "a41afdbec88b4787bf401f27ee55addee141b9aa335ad2456dde6585725016d1"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 18144,
+      "sha256": "5cbadf3740f8b4c5f459f87593ee8bc30a8e25c682c270f0e3c65b3370fa693c"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 1399,
+      "sha256": "a7979d86232d4ed29eab12862debe045a5532f63087a43b9ce273addfffdb526"
+    },
+    {
+      "path": "source/authoring/source_uv_audit.json",
+      "bytes": 5065,
+      "sha256": "33a1a4c428cb91bdc94c2811dc089ed69bebcc0cfd9cec06410aa1ee8cfbc112"
+    },
+    {
+      "path": "source/authoring/source_uv_audit.py",
+      "bytes": 1122,
+      "sha256": "4b50c40ae19b553ff30cee3b9ff615eaea04469c916fa106c6c3f6a467d17e04"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 163454,
+      "sha256": "fecce9e37d8e8cab8d48aa5b1f5a9fd70f67eb0386d9687dd066393b2fe2f66b"
+    },
+    {
+      "path": "source/karak_worn_pbr_v1.blend",
+      "bytes": 33558622,
+      "sha256": "2a659e9224f276cce2c978f382cee396661d702fe7805cbaa3a0d361befdfbd7"
+    },
+    {
+      "path": "source/maps/karak_hull_basecolor_v1.png",
+      "bytes": 17876202,
+      "sha256": "a2f0cbb7336cea379d5628971dfc4fb39ed3621367ba17b09b7d67865312e439"
+    },
+    {
+      "path": "source/maps/karak_hull_fins_v1.png",
+      "bytes": 54962,
+      "sha256": "8155ca76cc68c87308d374cd0fbf206482526c993e301bdaff85f02be543d71a"
+    },
+    {
+      "path": "source/maps/karak_hull_flat_graphics_v1.png",
+      "bytes": 63225,
+      "sha256": "de06dabb920b81ea10fe2e5120a7887a0ec3c9ecd7c98ccceaf37301f7ae4ec0"
+    },
+    {
+      "path": "source/maps/karak_hull_frame_v1.png",
+      "bytes": 155783,
+      "sha256": "b0e1834d1ea0fd384662cb9f4ebe8cf1728a36d148279f0e4d49968508fa60fe"
+    },
+    {
+      "path": "source/maps/karak_hull_glass_v1.png",
+      "bytes": 94081,
+      "sha256": "e7814e33986571d92b3a812a139f3b199fafdea62a53cc79d3a6ae44b6a79416"
+    },
+    {
+      "path": "source/maps/karak_hull_height_v1.png",
+      "bytes": 191106,
+      "sha256": "af6970fd3658a066ee529b3bb87fc912f86226046e88b39bd9fa56ccfa35c3db"
+    },
+    {
+      "path": "source/maps/karak_hull_metallic_v1.png",
+      "bytes": 8262461,
+      "sha256": "a4fc8e4706f35738e77c35516074037603f8050b8b209c19c879bc464bab03a8"
+    },
+    {
+      "path": "source/maps/karak_hull_normal_v1.png",
+      "bytes": 436762,
+      "sha256": "4a333399b38eaa0d331d3d9b6fc537ecc11be4babca86debbee8b8755f66a9d4"
+    },
+    {
+      "path": "source/maps/karak_hull_paint_v1.png",
+      "bytes": 4174882,
+      "sha256": "709688ced9c5e3f8959b4273aa1155e3270333773d0740c6e18734e045985e8e"
+    },
+    {
+      "path": "source/maps/karak_hull_panels_v1.png",
+      "bytes": 230503,
+      "sha256": "0d60de2745e813eb64e4b8fce86d877061a1f4fc3997fbb2803cfb58631c8412"
+    },
+    {
+      "path": "source/maps/karak_hull_reconstructed_v1.png",
+      "bytes": 3376850,
+      "sha256": "2cf2401c1cf9df636a4ebf2305cc093fbc291b1496a9c88031f77dae66f74a18"
+    },
+    {
+      "path": "source/maps/karak_hull_roughness_v1.png",
+      "bytes": 6445273,
+      "sha256": "3cccb7682ed230d76c19c394c3a21db1075e53072dd359ee00dba9b4769b16d9"
+    },
+    {
+      "path": "source/maps/karak_hull_seal_v1.png",
+      "bytes": 114165,
+      "sha256": "c7c96521851c0a09aae1eb46087bd671c3087f21dfc27dc01d176f2acd9ee36d"
+    },
+    {
+      "path": "source/maps/karak_hull_structure_v1.png",
+      "bytes": 183550,
+      "sha256": "9f7a2c63bf46fe002a14d1fff1e13126844c122dea2cb676c5f52fcc6c66966e"
+    },
+    {
+      "path": "source/originals/Chin_Zhuhai.SHP",
+      "bytes": 91420,
+      "sha256": "bc1aec7b39c30ee2b4d3343914ffc69b3fd2631cd5e86c00fb2b74a6f8585111"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 768724,
+      "sha256": "ad14a571a6e6187eb3fd4b7cc17a87c00caa674a40e3c671963954f1885d404a"
+    },
+    {
+      "path": "source/originals/rusn_1.png",
+      "bytes": 61489,
+      "sha256": "97f2ad59d1747abd23a96a842b86839b1ab37d4aee49bf58b50704dd4303267a"
+    },
+    {
+      "path": "source/resources/3cccb7682ed2_karak_hull_roughness_v1.png",
+      "bytes": 6445273,
+      "sha256": "3cccb7682ed230d76c19c394c3a21db1075e53072dd359ee00dba9b4769b16d9"
+    },
+    {
+      "path": "source/resources/4a333399b38e_karak_hull_normal_v1.png",
+      "bytes": 436762,
+      "sha256": "4a333399b38eaa0d331d3d9b6fc537ecc11be4babca86debbee8b8755f66a9d4"
+    },
+    {
+      "path": "source/resources/a2f0cbb7336c_karak_hull_basecolor_v1.png",
+      "bytes": 17876202,
+      "sha256": "a2f0cbb7336cea379d5628971dfc4fb39ed3621367ba17b09b7d67865312e439"
+    },
+    {
+      "path": "source/resources/a4fc8e4706f3_karak_hull_metallic_v1.png",
+      "bytes": 8262461,
+      "sha256": "a4fc8e4706f35738e77c35516074037603f8050b8b209c19c879bc464bab03a8"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 1050381,
+      "sha256": "217befc6e13a3f56db3b4af9aadee99c8e4d065f99b69232faa27a48a337a2c8"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 1061863,
+      "sha256": "528da53fcecf734497a0d23f3a00b144ec65e4bd78318f4127c3795f12a27da4"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 1086791,
+      "sha256": "a3a401893d6ed6652c7a4b630bc2b148f41bf1cb4b9505f16e197e4f67c27c06"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_rear.png",
+      "bytes": 987311,
+      "sha256": "347381866ea7ed40a7f759987e72757a27dbd0ac7961a82e7c9cd99ed9980d25"
+    },
+    {
+      "path": "source/review/reconstruction_v1/source_front.png",
+      "bytes": 385209,
+      "sha256": "91d19f58e33bda7a46d3bbbdc5a92253611d89159f4bf38b1055ee514e7ebf1a"
+    }
+  ]
+}

@@ -1594,8 +1594,8 @@
       "name": "Karac",
       "category": "coalition-fighters",
       "status": "coming-soon",
-      "workStatus": "planned",
-      "description": "Karac fighter restoration. Planned; artwork has not started.",
+      "workStatus": "in-progress",
+      "description": "Worn silver-grey Coalition hull, red and yellow markings, recessed green glazing and structural panel relief.",
       "entryType": "ship",
       "faction": "coalition",
       "shipClass": "Fighter",
@@ -1605,12 +1605,33 @@
           "id": "worn-paint",
           "name": "Worn Paint",
           "status": "coming-soon",
-          "engineStatus": "to-be-confirmed"
+          "assetRevision": "1.0",
+          "modFolder": "112-karak-worn-v1",
+          "preview": "assets/karak/material-front.webp",
+          "defaultPreview": "model",
+          "images": [
+            {
+              "src": "assets/karak/material-front.webp",
+              "caption": "Karak — Blender material preview of artwork 1.0; in-game photo pending"
+            }
+          ],
+          "previewSource": "Blender authoring preview; in-game photo pending",
+          "previewType": "render",
+          "previewArtworkRevision": "1.0",
+          "engine": "0.8.1",
+          "model": "models/karak.glb",
+          "notes": [
+            "Accepted for this round; later touch-ups remain open.",
+            "The still is a Blender material preview. An in-game gallery photo is pending.",
+            "Dedicated emissives and broader campaign/platform testing remain open."
+          ],
+          "validationSummary": "Accepted for this beta round. Official 0.8.1 native, material-loader and preservation checks passed. Broader gameplay remains untested."
         }
       ],
       "aliases": [
         "Karak"
-      ]
+      ],
+      "folder": "Coalition Fighters/Karak"
     },
     {
       "id": "galahad",

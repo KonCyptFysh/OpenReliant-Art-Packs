@@ -1,0 +1,14 @@
+[
+  {
+    "file": "Chin_Zhuhai.SHP",
+    "exit_code": 0,
+    "output": "ok: 2 parts, 562 vertices, 855 faces\nbounds: 2 oriented\nwritten again: the same bytes\n",
+    "sha256": "850f108196e3d536f54a93f9d8303b08ce51ca5576bb5695eb8b8e8d40f81ba4"
+  },
+  {
+    "file": "mission974.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "8e2d7c1e57079d8ca720610790a6368a7194ee9d2986702aee8895d6c3423868"
+  }
+]

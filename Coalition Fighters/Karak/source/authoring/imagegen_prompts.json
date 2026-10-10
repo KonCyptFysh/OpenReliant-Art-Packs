@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen",
+  "passes": [
+    {
+      "prompt": "Use case: precise-object-edit. Asset type: fixed-layout worn spaceship UV texture atlas for the StarLancer Karak (Karac) Coalition fighter. The provided image is the original 256-square RUSN_1 atlas, EDIT TARGET. Reconstruct this EXACT atlas at higher resolution, square and edge-to-edge. Preserve every feature's normalized position, silhouette, width, seams, UV island boundary, colour and orientation. Do not rearrange, enlarge or redesign panels, vents, windows, signs or markings. Retain the original worn dark grey steel, silver wear/chipping, small red/yellow star, red stripe with thin yellow edging, yellow/black and red/white caution borders, black mechanical recesses, subtle coloured indicator lamps. Sharpen existing straight economical panel gaps and bounded ribbed vents; preserve the amount of wear, no extra grime, no invented structures. Small green cockpit/window panes, especially the horizontal glazing strip around x2%-18%, y35%-40%, and the cropped glass at right edge around y36%-42%, must retain exact shapes and framing but have smooth opaque very dark desaturated green interiors with NO baked reflections, no bright streaks, no scratching, no highlights. Preserve all existing metal window frames. Diffuse albedo only, no new lighting, no glow halos, no 3D perspective. No added text or symbols. Output complete flat UV texture atlas, no crop, no margin, no background.",
+      "input": "source/rusn_1.png",
+      "output": "maps/karak_hull_reconstructed_v1.png",
+      "input_sha256": "97f2ad59d1747abd23a96a842b86839b1ab37d4aee49bf58b50704dd4303267a",
+      "output_sha256": "2cf2401c1cf9df636a4ebf2305cc093fbc291b1496a9c88031f77dae66f74a18",
+      "output_dimensions": [
+        1254,
+        1254
+      ]
+    }
+  ]
+}

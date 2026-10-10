@@ -1,0 +1,312 @@
+{
+  "passed": true,
+  "source_sha256": "bc1aec7b39c30ee2b4d3343914ffc69b3fd2631cd5e86c00fb2b74a6f8585111",
+  "output_sha256": "850f108196e3d536f54a93f9d8303b08ce51ca5576bb5695eb8b8e8d40f81ba4",
+  "uv_edits": [],
+  "continuation_corrections": [
+    {
+      "part": "Zhuhai Body",
+      "lod": 0,
+      "face": 61,
+      "prior": 7,
+      "remaining": 5
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 0,
+      "face": 62,
+      "prior": 6,
+      "remaining": 4
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 0,
+      "face": 63,
+      "prior": 5,
+      "remaining": 3
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 0,
+      "face": 64,
+      "prior": 4,
+      "remaining": 2
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 0,
+      "face": 65,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 0,
+      "face": 66,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 0,
+      "face": 74,
+      "prior": 5,
+      "remaining": 4
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 0,
+      "face": 75,
+      "prior": 4,
+      "remaining": 3
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 0,
+      "face": 76,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 0,
+      "face": 77,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 0,
+      "face": 78,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 1,
+      "face": 54,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 1,
+      "face": 55,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 2,
+      "face": 11,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 2,
+      "face": 12,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 2,
+      "face": 19,
+      "prior": 4,
+      "remaining": 2
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 2,
+      "face": 20,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 2,
+      "face": 21,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 2,
+      "face": 37,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 2,
+      "face": 38,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 3,
+      "face": 25,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 3,
+      "face": 26,
+      "prior": 2,
+      "remaining": 0
+    }
+  ],
+  "detail_meshes": [
+    {
+      "part": "Zhuhai Cockpit",
+      "lod": 0,
+      "faces": 108,
+      "groups_before": 41,
+      "groups_after": 41,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Cockpit",
+      "lod": 1,
+      "faces": 74,
+      "groups_before": 37,
+      "groups_after": 37,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Cockpit",
+      "lod": 2,
+      "faces": 50,
+      "groups_before": 27,
+      "groups_after": 27,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Cockpit",
+      "lod": 3,
+      "faces": 34,
+      "groups_before": 22,
+      "groups_after": 22,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Cockpit",
+      "lod": 4,
+      "faces": 22,
+      "groups_before": 17,
+      "groups_after": 17,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Cockpit",
+      "lod": 5,
+      "faces": 14,
+      "groups_before": 10,
+      "groups_after": 10,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Cockpit",
+      "lod": 6,
+      "faces": 8,
+      "groups_before": 7,
+      "groups_after": 7,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Cockpit",
+      "lod": 7,
+      "faces": 4,
+      "groups_before": 3,
+      "groups_after": 3,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Cockpit",
+      "lod": 8,
+      "faces": 1,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 0,
+      "faces": 176,
+      "groups_before": 60,
+      "groups_after": 62,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 1,
+      "faces": 122,
+      "groups_before": 58,
+      "groups_after": 59,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 2,
+      "faces": 84,
+      "groups_before": 36,
+      "groups_after": 39,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 3,
+      "faces": 58,
+      "groups_before": 31,
+      "groups_after": 32,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 4,
+      "faces": 38,
+      "groups_before": 26,
+      "groups_after": 26,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 5,
+      "faces": 26,
+      "groups_before": 21,
+      "groups_after": 21,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 6,
+      "faces": 18,
+      "groups_before": 16,
+      "groups_after": 16,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 7,
+      "faces": 12,
+      "groups_before": 11,
+      "groups_after": 11,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Zhuhai Body",
+      "lod": 8,
+      "faces": 6,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    }
+  ],
+  "all_855_faces_checked": true,
+  "geometry_normals_attachments_animation_collision_and_winding_byte_identical": true,
+  "allowed_changes": "Texture names, primitive continuation counts at UV seams only",
+  "changed_bytes": 202
+}

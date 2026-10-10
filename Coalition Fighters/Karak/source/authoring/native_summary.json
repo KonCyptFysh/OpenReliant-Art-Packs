@@ -1,0 +1,292 @@
+[
+  {
+    "name": "Zhuhai Cockpit",
+    "parent": 1,
+    "origin": [
+      -204.1806182861328,
+      -22.932125091552734,
+      575.96630859375
+    ],
+    "tracks": [
+      {
+        "name": "",
+        "length": 100,
+        "mode": 0,
+        "keys": [
+          {
+            "time": 0,
+            "angles": [
+              -0.0,
+              0.0,
+              -0.0
+            ],
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "time": 100,
+            "angles": [
+              -0.0,
+              0.0,
+              -0.0
+            ],
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ],
+    "lods": [
+      {
+        "lod": 0,
+        "faces": 108,
+        "visible": 98,
+        "material_use": {
+          "0": 108
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 1,
+        "faces": 74,
+        "visible": 66,
+        "material_use": {
+          "0": 74
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 2,
+        "faces": 50,
+        "visible": 43,
+        "material_use": {
+          "0": 50
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 3,
+        "faces": 34,
+        "visible": 29,
+        "material_use": {
+          "0": 34
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 4,
+        "faces": 22,
+        "visible": 20,
+        "material_use": {
+          "0": 22
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 5,
+        "faces": 14,
+        "visible": 12,
+        "material_use": {
+          "0": 14
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 6,
+        "faces": 8,
+        "visible": 6,
+        "material_use": {
+          "0": 8
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 7,
+        "faces": 4,
+        "visible": 4,
+        "material_use": {
+          "0": 4
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 8,
+        "faces": 1,
+        "visible": 1,
+        "material_use": {
+          "0": 1
+        },
+        "visible_materials": [
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Zhuhai Body",
+    "parent": -1,
+    "origin": [
+      -204.0537109375,
+      -18.030609130859375,
+      115.87321472167969
+    ],
+    "tracks": [
+      {
+        "name": "",
+        "length": 100,
+        "mode": 0,
+        "keys": [
+          {
+            "time": 0,
+            "angles": [
+              -0.0,
+              0.0,
+              -0.0
+            ],
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "time": 100,
+            "angles": [
+              -0.0,
+              0.0,
+              -0.0
+            ],
+            "offset": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ]
+      }
+    ],
+    "lods": [
+      {
+        "lod": 0,
+        "faces": 176,
+        "visible": 166,
+        "material_use": {
+          "0": 176
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 1,
+        "faces": 122,
+        "visible": 113,
+        "material_use": {
+          "0": 122
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 2,
+        "faces": 84,
+        "visible": 80,
+        "material_use": {
+          "0": 84
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 3,
+        "faces": 58,
+        "visible": 56,
+        "material_use": {
+          "0": 58
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 4,
+        "faces": 38,
+        "visible": 36,
+        "material_use": {
+          "0": 38
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 5,
+        "faces": 26,
+        "visible": 25,
+        "material_use": {
+          "0": 26
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 6,
+        "faces": 18,
+        "visible": 17,
+        "material_use": {
+          "0": 18
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 7,
+        "faces": 12,
+        "visible": 11,
+        "material_use": {
+          "0": 12
+        },
+        "visible_materials": [
+          0
+        ]
+      },
+      {
+        "lod": 8,
+        "faces": 6,
+        "visible": 6,
+        "material_use": {
+          "0": 6
+        },
+        "visible_materials": [
+          0
+        ]
+      }
+    ]
+  }
+]

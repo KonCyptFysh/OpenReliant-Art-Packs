@@ -1,0 +1,25 @@
+{
+  "parts": [
+    {
+      "part": "Zhuhai_Cockpit",
+      "vertices": 68,
+      "faces": 108,
+      "visible_faces": 98
+    },
+    {
+      "part": "Zhuhai_Body",
+      "vertices": 102,
+      "faces": 176,
+      "visible_faces": 166
+    }
+  ],
+  "source_sha256": "bc1aec7b39c30ee2b4d3343914ffc69b3fd2631cd5e86c00fb2b74a6f8585111",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ]
+  ],
+  "geometry_signature": "7c627031cfe11dfb556ca6a454332206e04c99fd72a75876c9fc541215d27b2e"
+}

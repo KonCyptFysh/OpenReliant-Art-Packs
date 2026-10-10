@@ -1,0 +1,32 @@
+{
+  "reviewed_at_utc": "2026-10-10T11:54:15.997950+00:00",
+  "kind": "Blender authoring previews, not gameplay",
+  "views": [
+    {
+      "path": "review/reconstruction_v1/material_front.png",
+      "bytes": 1061863,
+      "sha256": "528da53fcecf734497a0d23f3a00b144ec65e4bd78318f4127c3795f12a27da4"
+    },
+    {
+      "path": "review/reconstruction_v1/material_opposite.png",
+      "bytes": 1086791,
+      "sha256": "a3a401893d6ed6652c7a4b630bc2b148f41bf1cb4b9505f16e197e4f67c27c06"
+    },
+    {
+      "path": "review/reconstruction_v1/material_belly.png",
+      "bytes": 1050381,
+      "sha256": "217befc6e13a3f56db3b4af9aadee99c8e4d065f99b69232faa27a48a337a2c8"
+    },
+    {
+      "path": "review/reconstruction_v1/material_rear.png",
+      "bytes": 987311,
+      "sha256": "347381866ea7ed40a7f759987e72757a27dbd0ac7961a82e7c9cd99ed9980d25"
+    }
+  ],
+  "observations": [
+    "Native silhouette and original panel/marking layout retained.",
+    "Green panes are separated from metal framing; studio reflections are rendered, not painted into the glass.",
+    "Rear recesses and underside markings inspected; no collapsed or missing visible UV faces identified."
+  ],
+  "runtime_visual_review": "pending_user"
+}
