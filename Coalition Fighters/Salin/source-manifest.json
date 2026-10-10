@@ -1,0 +1,287 @@
+{
+  "status": "approved-release-snapshot",
+  "ship": "Salin",
+  "asset_revision": "1.0",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 1299,
+      "sha256": "6f70199dc57557805470d6e55fdcbe396171b586de3b6459e4b98f884614721f"
+    },
+    {
+      "path": "source/authoring/README.md",
+      "bytes": 901,
+      "sha256": "bb64dc2ea2b8c8964884090e66e7dab4ad575b710824487d579e16734beab6d2"
+    },
+    {
+      "path": "source/authoring/animation_preservation.json",
+      "bytes": 627,
+      "sha256": "ff0cd2be6416782feb55ef534a4dbb8a08165924dbb4517241eca60a03c62bcb"
+    },
+    {
+      "path": "source/authoring/audit/inspection_mission.json",
+      "bytes": 378,
+      "sha256": "2fafaa0c791d6ce5df79648960944a30e953c5baa09364de9439ed5375fdfbcb"
+    },
+    {
+      "path": "source/authoring/baseline_audit.json",
+      "bytes": 447,
+      "sha256": "30746917d224ae00bb941b1bdec7775dd8c2fbe0c26f06a73dbc2f36ff2e3d29"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 14945,
+      "sha256": "a2b4e2a6ab7d78d735327d00bc6259fd4d70b5d612731587c7a02183a6fcfa44"
+    },
+    {
+      "path": "source/authoring/build_source.py",
+      "bytes": 7280,
+      "sha256": "de3520d05cbd3a8946c31e54c21780afc619b31a0fbcc3e1ae48adbc82ed78f5"
+    },
+    {
+      "path": "source/authoring/compatibility-0.8.json",
+      "bytes": 2094,
+      "sha256": "1fa927fee4cd2c06164c0a8b69ab2aafb58315a580b69f7f69a9448eba1182f6"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 7937,
+      "sha256": "2ac2522741aaa9ea427d78b1c1d9e0192ce2e123a4f3d8db6fc5ec59a82ebde3"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 3697,
+      "sha256": "a772fef1fc0d2ed9beba55f8616203b21155ebe4bc487fbfd647ac11af6e9d00"
+    },
+    {
+      "path": "source/authoring/inspection.py",
+      "bytes": 3495,
+      "sha256": "f7bff48122e1e3ccbf9eb89ed21966bb4ec8a9b0d747489403703ef00a64d8a2"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 268,
+      "sha256": "5481e39c61db276fdf8c6c2d798ec6740b83a424a04b3a165bcbe6154b8bfed9"
+    },
+    {
+      "path": "source/authoring/mission977-ships.txt",
+      "bytes": 253,
+      "sha256": "c487ce5a10c9086d8bc108b867eec18e5b3d0f2a0b48f0d9ae178f38e2bb66f1"
+    },
+    {
+      "path": "source/authoring/native-chunks.json",
+      "bytes": 5192,
+      "sha256": "3f867c1d2c73b05abcc60bd5f76065057ab6da192f2ea934f7a40f4a68acddc9"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 544,
+      "sha256": "1bdaf69ab30c98aa21047f79dd5ff7807488869dcc68cfa3eca0e47fbf9a1288"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 6484,
+      "sha256": "203866f7648df71131c6a9adc0e8cc4261abbcf13324eb15844ca0d998a05f8e"
+    },
+    {
+      "path": "source/authoring/parse_native.py",
+      "bytes": 2341,
+      "sha256": "ab2adbbc8a8888f3472cd9346d0be70bf51cb38229ff6dc71bff39751cf8ebe6"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2416,
+      "sha256": "5a12662b01647f3b8a6a4a59a6e7e240863304761a9ff7d619ed6d88770b1d01"
+    },
+    {
+      "path": "source/authoring/prepare_review_snapshot.py",
+      "bytes": 18347,
+      "sha256": "3ed8f37573ed406326bef3b87a4d3162829590839fab8d66be32f2decccb799b"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 20241,
+      "sha256": "cbcb0110297dcc2adf313ab6e26845ff0be9942dc66f64212b011e0868f45eeb"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 1399,
+      "sha256": "aa249120fba29e6ae04a14c7206fcd917f477be0e0623ed4a52c2bb5867fe68c"
+    },
+    {
+      "path": "source/authoring/resume_materials.py",
+      "bytes": 5658,
+      "sha256": "c0f3137545f2a242ada34334d1f9f03cf83215c1423cf73a679213fd1fbc0ca4"
+    },
+    {
+      "path": "source/authoring/uv_audit.json",
+      "bytes": 645,
+      "sha256": "15d53227622da4f484001c406c6f7f63ae01254cf31d660043693d310c291bd5"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 255743,
+      "sha256": "6f57e06d15a682fb23565a1244f500dfa293c86c476ca3cc732e7f060cfc9e37"
+    },
+    {
+      "path": "source/maps/salin_hull_basecolor_v1.png",
+      "bytes": 16051919,
+      "sha256": "520654f8e8cbabcde823abcca9922c042564c8aa62ca29e680a40288bce607ac"
+    },
+    {
+      "path": "source/maps/salin_hull_fins_v1.png",
+      "bytes": 65081,
+      "sha256": "85471d05eabe2b5a322ba94cf1a106a5bdb79ace279f8d8989529eee12ea00cd"
+    },
+    {
+      "path": "source/maps/salin_hull_flat_graphics_v1.png",
+      "bytes": 74170,
+      "sha256": "44637e82eefa5d311810fcf7204a931c8b9183117635c884fa5789d7012f9d4a"
+    },
+    {
+      "path": "source/maps/salin_hull_glass_v1.png",
+      "bytes": 87581,
+      "sha256": "07d336e8f5dfdc5247511400edaf88b941a2278573ed3f67b5daaebc39358f40"
+    },
+    {
+      "path": "source/maps/salin_hull_glazing_v1.png",
+      "bytes": 2965932,
+      "sha256": "c1020fabab14f57214b19924d7821a95edafa5f91c8072692c4e8a1cbe511599"
+    },
+    {
+      "path": "source/maps/salin_hull_height_v1.png",
+      "bytes": 276711,
+      "sha256": "cb19cd1e3987308dc8e1a33e13ab5605339568ffb48732ebdfc67a6d71f7e90b"
+    },
+    {
+      "path": "source/maps/salin_hull_metallic_v1.png",
+      "bytes": 7063483,
+      "sha256": "8ddbf343b5db2116523335849d7253694ffba7dfebae99d5e73ae59d553d6c84"
+    },
+    {
+      "path": "source/maps/salin_hull_normal_v1.png",
+      "bytes": 617441,
+      "sha256": "11ffb8f2b4db65ebc25d4515417fb21132a1392c8170d2f995dc735d8e6ae699"
+    },
+    {
+      "path": "source/maps/salin_hull_paint_v1.png",
+      "bytes": 2912309,
+      "sha256": "b815ceedd1d291db1ad6b3fd05622ec3e5ba4afa03ae1cc7b6925f9843ea42dd"
+    },
+    {
+      "path": "source/maps/salin_hull_panels_v1.png",
+      "bytes": 456509,
+      "sha256": "4628e4ed9e2b18e1a451a8d81fff4aee98c0da3a45f4d3a70a05e32bf100ccaa"
+    },
+    {
+      "path": "source/maps/salin_hull_reconstruction_v1.png",
+      "bytes": 3398160,
+      "sha256": "d7c11efac7725c4a94c8f012bb82b565fed08efb9b7c005fc1ab888f6100421e"
+    },
+    {
+      "path": "source/maps/salin_hull_roughness_v1.png",
+      "bytes": 5274823,
+      "sha256": "36dcdff0c5672dd68b344bcdf64f67be87c744985156231574eb91cf7c0db661"
+    },
+    {
+      "path": "source/maps/salin_hull_seal_v1.png",
+      "bytes": 100119,
+      "sha256": "43202dd717eff28805874fc261cfb62ec1172c12bff95e9fe66192b2df79da24"
+    },
+    {
+      "path": "source/maps/salin_hull_structure_v1.png",
+      "bytes": 185390,
+      "sha256": "9d420f7268fd69bcdac2ccce2347f6000dcf2e27ebb7d3c3ee41edaec953c00f"
+    },
+    {
+      "path": "source/originals/Luda.SHP",
+      "bytes": 89586,
+      "sha256": "05a0ec2a35d55f41f0a020c0b5aa01c3a1de9f8f8f4b57e3e395731552cf7c7b"
+    },
+    {
+      "path": "source/originals/luda.png",
+      "bytes": 70195,
+      "sha256": "a8802f1483a853161325eb8ef3695cf0ac0df7e6f8a42a3fe543086c2bd19d82"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 779350,
+      "sha256": "2d6ac7b62159c828a05464f645b541373140c105d992fd9de6907e9973a5469e"
+    },
+    {
+      "path": "source/resources/11ffb8f2b4db_salin_hull_normal_v1.png",
+      "bytes": 617441,
+      "sha256": "11ffb8f2b4db65ebc25d4515417fb21132a1392c8170d2f995dc735d8e6ae699"
+    },
+    {
+      "path": "source/resources/36dcdff0c567_salin_hull_roughness_v1.png",
+      "bytes": 5274823,
+      "sha256": "36dcdff0c5672dd68b344bcdf64f67be87c744985156231574eb91cf7c0db661"
+    },
+    {
+      "path": "source/resources/520654f8e8cb_salin_hull_basecolor_v1.png",
+      "bytes": 16051919,
+      "sha256": "520654f8e8cbabcde823abcca9922c042564c8aa62ca29e680a40288bce607ac"
+    },
+    {
+      "path": "source/resources/8ddbf343b5db_salin_hull_metallic_v1.png",
+      "bytes": 7063483,
+      "sha256": "8ddbf343b5db2116523335849d7253694ffba7dfebae99d5e73ae59d553d6c84"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-overview.png",
+      "bytes": 1250901,
+      "sha256": "f78f611147b5af1101bfa60769928ed05f5209d19f29e8f3f331093bafc7a581"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-rear.png",
+      "bytes": 1092557,
+      "sha256": "061982c81ea504f81787febaef395552a6ed82af312357c3a6603339a8a7ecf2"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-side.png",
+      "bytes": 998839,
+      "sha256": "3adcf6c35018661414ee19e783b094a5deb63db98f1d1323f4528dd961dc2ec9"
+    },
+    {
+      "path": "source/review/gallery_v1/flight-underside.png",
+      "bytes": 1276502,
+      "sha256": "1511b4f78e184bb0ae8fa496000607cca088a57c9aa9615812adb50ee90fbc07"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 808450,
+      "sha256": "43c70b8bc2848d7975717edd241e49e89ec7d2ffbf883261ec2371f359aa172f"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 753357,
+      "sha256": "6f6cce407e6a5af4a27d967db6ed5bb9b1b5e78dcb9804f87bcc5e187f1455ce"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 785483,
+      "sha256": "51f86e8abee340995a297cfbc2253789abd6aa10ff34748d965a6a1341bbf295"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_rear.png",
+      "bytes": 874781,
+      "sha256": "10efaf41e0e3ffd1668b6bfe90c2e7caa9be610ea2f7be760c15ff314be27f33"
+    },
+    {
+      "path": "source/review/reconstruction_v1/source_front.png",
+      "bytes": 301058,
+      "sha256": "f4d3273dd5601b53cd8a3c499863f670bb17c6105d7534f30a84b6b2f3da96b4"
+    },
+    {
+      "path": "source/review/reconstruction_v1/uv_audit_intake_lips.png",
+      "bytes": 525097,
+      "sha256": "9930128900675143aa08cc1021453c9cb11ba05c15918b0a80c4edc1b48fe8a3"
+    },
+    {
+      "path": "source/salin_worn_pbr_v1.blend",
+      "bytes": 29563544,
+      "sha256": "88919b872294332b1cdab8b2b799b1963106b6dc083e0810ab395ea59e3d5f11"
+    }
+  ]
+}

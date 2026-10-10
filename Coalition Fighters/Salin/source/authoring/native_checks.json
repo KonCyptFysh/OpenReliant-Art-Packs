@@ -1,0 +1,14 @@
+[
+  {
+    "file": "Luda.SHP",
+    "exit_code": 0,
+    "output": "ok: 1 parts, 466 vertices, 898 faces\nbounds: 1 model_space\nwritten again: the same bytes\n",
+    "sha256": "3f2fd2d3fa8f97a7926e534c6ae69e8c7b7766cdb59f29cc3a0e2cec7caf1683"
+  },
+  {
+    "file": "mission977.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "da9b21a77b8fc98950431b04517a548f615641b0c02bc8a15cdf8fa24e009bfb"
+  }
+]

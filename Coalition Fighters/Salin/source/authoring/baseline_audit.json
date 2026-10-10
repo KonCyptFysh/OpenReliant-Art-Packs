@@ -1,0 +1,19 @@
+{
+  "parts": [
+    {
+      "part": "Salin",
+      "vertices": 230,
+      "faces": 456,
+      "visible_faces": 456
+    }
+  ],
+  "source_sha256": "05a0ec2a35d55f41f0a020c0b5aa01c3a1de9f8f8f4b57e3e395731552cf7c7b",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ]
+  ],
+  "geometry_signature": "3beeaa00cff109b4d904319fde261120134c262344424e5e17d84e5793f9187b"
+}

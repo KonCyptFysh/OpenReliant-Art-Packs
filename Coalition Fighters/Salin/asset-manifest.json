@@ -1,0 +1,42 @@
+[
+  {
+    "path": "mods/109-salin-worn-v1/Luda.SHP",
+    "bytes": 89586,
+    "sha256": "3f2fd2d3fa8f97a7926e534c6ae69e8c7b7766cdb59f29cc3a0e2cec7caf1683"
+  },
+  {
+    "path": "mods/109-salin-worn-v1/license.txt",
+    "bytes": 246,
+    "sha256": "6c4fd977c24f5fedf893e457fa2585711e10f45fe289b03782c594b9398844bf"
+  },
+  {
+    "path": "mods/109-salin-worn-v1/mission977.dte",
+    "bytes": 478,
+    "sha256": "da9b21a77b8fc98950431b04517a548f615641b0c02bc8a15cdf8fa24e009bfb"
+  },
+  {
+    "path": "mods/109-salin-worn-v1/mod.ini",
+    "bytes": 248,
+    "sha256": "09a839121b3b1579dcfd85bc5cfb7e874839f5ec021f96eacc9eb9466ddcde25"
+  },
+  {
+    "path": "mods/109-salin-worn-v1/mod.png",
+    "bytes": 1250901,
+    "sha256": "f78f611147b5af1101bfa60769928ed05f5209d19f29e8f3f331093bafc7a581"
+  },
+  {
+    "path": "mods/109-salin-worn-v1/orsn1_hull.png",
+    "bytes": 16051919,
+    "sha256": "520654f8e8cbabcde823abcca9922c042564c8aa62ca29e680a40288bce607ac"
+  },
+  {
+    "path": "mods/109-salin-worn-v1/orsn1_hull_normal.png",
+    "bytes": 617441,
+    "sha256": "11ffb8f2b4db65ebc25d4515417fb21132a1392c8170d2f995dc735d8e6ae699"
+  },
+  {
+    "path": "mods/109-salin-worn-v1/orsn1_hull_orm.png",
+    "bytes": 8526720,
+    "sha256": "56bc79c89e1fc814cd0a41da5014f209f255b8776ee2c4e4cae48313d6034ff7"
+  }
+]

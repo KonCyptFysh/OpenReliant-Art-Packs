@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen",
+  "restoration": "Use case: precise-object-edit. Asset type: exact UV-aligned diffuse texture atlas for the StarLancer Coalition Salin fighter (native Luda). The attached 256-square image is the EDIT TARGET. Reconstruct this exact full-bleed square atlas at high resolution, faithfully restoring the worn painted spacecraft artwork. Keep every feature in exactly the same normalized coordinates, silhouette, orientation and size: grey metal panel plates and fine panel gaps, the red five-pointed stars outlined in gold, red horizontal bands bordered with gold, every triangular warning sign, tiny amber indicator cluster, round socket and rectangular mechanical housing. Retain all existing age, chips and mottled weathered grey metal character, the subdued red-and-gold paint colours and economical panel shapes. Keep all radiator/vent ribs straight and parallel inside their original precisely bounded frames. Increase clarity while respecting the source: no extra seams, rivets, insignia, words or invented details. Any actual cockpit glass must be smooth plain opaque dark amber, preserving its frame and original silhouette, with no painted cloudy reflections or internal pattern. Avoid harsh baked directional highlights or raised shadow rims; normal and reflection maps will be authored separately. Preserve exact spatial registration because this texture is applied to an existing fixed native model. No perspective, ship rendering, atlas rearrangement, crop, rotation, padding or border. Output the complete opaque square texture only.",
+  "glass_refinement": "Use case: precise-object-edit. Edit this Salin spacecraft UV atlas. Change ONLY the interiors of the FOUR amber cockpit window apertures, preserving the entire surrounding texture in exactly the same positions. The image is 1254x1254: window 1 is the small sloping triangle around x224\u2013296 y578\u2013625; window 2 is the long diagonal pane around x317\u2013440 y530\u2013590; window 3 is the lower octagonal pane around x439\u2013554 y891\u2013948; window 4 is the lower long octagonal pane around x591\u2013737 y891\u2013947. Fill those four glass interiors with smooth opaque dark amber-brown, almost flat colour, no yellow bands, mottling, scratches, marbling, cloudy painted reflection or bright highlights. Preserve each original window silhouette and all its existing metal/rubber frame exactly. No new mullions, painted shadows or raised rim. All other amber items including the tiny indicator displays and gold paint borders remain unchanged. Preserve every grey worn panel, star, red stripe, decal, vent and mechanical detail with exact registration and the same square dimensions. Output the whole opaque atlas only.",
+  "outputs": [
+    "salin_hull_reconstruction_v1.png",
+    "salin_hull_glazing_v1.png"
+  ],
+  "master_dimensions": [
+    1254,
+    1254
+  ],
+  "input": {
+    "path": "${SALIN_WORKSPACE}/source/luda.png",
+    "sha256": "a8802f1483a853161325eb8ef3695cf0ac0df7e6f8a42a3fe543086c2bd19d82"
+  },
+  "generated_outputs": [
+    {
+      "path": "${SALIN_WORKSPACE}/maps/salin_hull_reconstruction_v1.png",
+      "sha256": "d7c11efac7725c4a94c8f012bb82b565fed08efb9b7c005fc1ab888f6100421e",
+      "generated_original": "/home/lva-8700/.codex/generated_images/01a0efc3-3a2f-7fe3-b0c1-2dec3263b764/exec-640e0aec-49e8-4530-8dfc-e105a9ee39ef.png"
+    },
+    {
+      "path": "${SALIN_WORKSPACE}/maps/salin_hull_glazing_v1.png",
+      "sha256": "c1020fabab14f57214b19924d7821a95edafa5f91c8072692c4e8a1cbe511599",
+      "generated_original": "/home/lva-8700/.codex/generated_images/01a0efc3-3a2f-7fe3-b0c1-2dec3263b764/exec-7ea135c4-4432-4a12-9865-917338d3f29f.png"
+    }
+  ]
+}

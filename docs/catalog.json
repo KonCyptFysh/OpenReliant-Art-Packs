@@ -951,6 +951,44 @@
       "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1",
       "checksum": "c0e4d62fe837273eb58b42fe8a89703b802c8d85d09b33d04823b9ac81ea9ca1",
       "downloadBytes": 25807007
+    },
+    {
+      "id": "salin",
+      "name": "Salin - Worn Paint",
+      "category": "coalition-fighters",
+      "folder": "Coalition Fighters/Salin",
+      "status": "coming-soon",
+      "assetRevision": "1.0",
+      "description": "Worn silver-grey Coalition hull, red-and-gold markings, recessed amber glazing and corrected native texture joins.",
+      "modFolder": "109-salin-worn-v1",
+      "preview": "assets/salin/flight-overview.webp",
+      "defaultPreview": "image",
+      "images": [
+        {
+          "src": "assets/salin/flight-overview.webp",
+          "caption": "Salin \u2014 In-game overview and guns firing"
+        },
+        {
+          "src": "assets/salin/flight-rear.webp",
+          "caption": "Salin \u2014 Rear view"
+        },
+        {
+          "src": "assets/salin/flight-underside.webp",
+          "caption": "Salin \u2014 Underside"
+        },
+        {
+          "src": "assets/salin/flight-side.webp",
+          "caption": "Salin \u2014 Side view"
+        }
+      ],
+      "previewSource": "User in-game capture",
+      "engine": "0.8.1",
+      "notes": [
+        "Custom emissive maps are planned for a later update.",
+        "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing."
+      ],
+      "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
+      "model": "models/salin.glb"
     }
   ]
 }

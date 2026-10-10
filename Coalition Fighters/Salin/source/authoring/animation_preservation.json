@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "chunks": [
+    {
+      "tag": 1,
+      "bytes": 318,
+      "sha256": "63e2b24176a45c6b00e36f19eac6fc1a5172276a6feff86a44f8d0c18750770b"
+    },
+    {
+      "tag": 9,
+      "bytes": 1686,
+      "sha256": "1bac9be9e1d94b1a579e88f4724f4ad59d74dbd5aedf25bf75cc5f6cf0b14280"
+    },
+    {
+      "tag": 10,
+      "bytes": 30,
+      "sha256": "ddba17fe07790365934ac5742d0ed8e3a42ec579c254540182b7215a898b6af3"
+    },
+    {
+      "tag": 11,
+      "bytes": 62,
+      "sha256": "c754efb62022d94b6db39cb44e784e259f359618ff316578861ffb75b659c4bc"
+    }
+  ],
+  "entire_animation_and_attachments_byte_identical": true
+}

@@ -1,0 +1,2 @@
+index  object  group  pilot  kind  name                           position                                  yaw  pitch  roll
+    0       0      0      -    41  Salin - Inspection             (           0,            0,            0)    +0     +0    +0

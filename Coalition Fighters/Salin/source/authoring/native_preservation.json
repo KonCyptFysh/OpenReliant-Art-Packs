@@ -1,0 +1,378 @@
+{
+  "passed": true,
+  "source_sha256": "05a0ec2a35d55f41f0a020c0b5aa01c3a1de9f8f8f4b57e3e395731552cf7c7b",
+  "output_sha256": "3f2fd2d3fa8f97a7926e534c6ae69e8c7b7766cdb59f29cc3a0e2cec7caf1683",
+  "uv_edits": [],
+  "continuation_corrections": [
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 92,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 93,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 96,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 97,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 102,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 103,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 131,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 135,
+      "prior": 6,
+      "remaining": 2
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 136,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 137,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 138,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 139,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 140,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 351,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 0,
+      "face": 357,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 1,
+      "face": 173,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 1,
+      "face": 179,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 1,
+      "face": 182,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Salin",
+      "lod": 1,
+      "face": 183,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 1,
+      "face": 186,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Salin",
+      "lod": 1,
+      "face": 187,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 2,
+      "face": 84,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 2,
+      "face": 90,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 2,
+      "face": 93,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Salin",
+      "lod": 2,
+      "face": 94,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 2,
+      "face": 97,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Salin",
+      "lod": 2,
+      "face": 98,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 2,
+      "face": 101,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 2,
+      "face": 103,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 2,
+      "face": 110,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Salin",
+      "lod": 2,
+      "face": 111,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 3,
+      "face": 3,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 3,
+      "face": 35,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 3,
+      "face": 40,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 3,
+      "face": 42,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Salin",
+      "lod": 3,
+      "face": 43,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 3,
+      "face": 46,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Salin",
+      "lod": 3,
+      "face": 47,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 3,
+      "face": 50,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 3,
+      "face": 54,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 4,
+      "face": 16,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 4,
+      "face": 21,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 4,
+      "face": 23,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Salin",
+      "lod": 5,
+      "face": 9,
+      "prior": 1,
+      "remaining": 0
+    }
+  ],
+  "detail_meshes": [
+    {
+      "part": "Salin",
+      "lod": 0,
+      "faces": 456,
+      "groups_before": 178,
+      "groups_after": 187,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Salin",
+      "lod": 1,
+      "faces": 228,
+      "groups_before": 119,
+      "groups_after": 123,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Salin",
+      "lod": 2,
+      "faces": 114,
+      "groups_before": 56,
+      "groups_after": 63,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Salin",
+      "lod": 3,
+      "faces": 56,
+      "groups_before": 29,
+      "groups_after": 36,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Salin",
+      "lod": 4,
+      "faces": 26,
+      "groups_before": 16,
+      "groups_after": 19,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Salin",
+      "lod": 5,
+      "faces": 12,
+      "groups_before": 9,
+      "groups_after": 10,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Salin",
+      "lod": 6,
+      "faces": 6,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    }
+  ],
+  "all_898_faces_checked": true,
+  "geometry_normals_attachments_animation_collision_and_winding_byte_identical": true,
+  "allowed_changes": "Texture names, primitive continuation counts at UV seams only",
+  "changed_bytes": 114
+}

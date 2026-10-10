@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "visible_faces_checked": 456,
+  "all_uv_triangles_non_degenerate": true,
+  "maximum_anisotropy": 19.61307642566375,
+  "reviewed_exceptions": [
+    {
+      "face": 221,
+      "anisotropy": 19.404541141639825,
+      "location": "narrow upper intake lip",
+      "decision": "Preserve original UVs; these faces sample plain metal, without decals or rib detail."
+    },
+    {
+      "face": 222,
+      "anisotropy": 19.61307642566375,
+      "location": "narrow upper intake lip",
+      "decision": "Preserve original UVs; these faces sample plain metal, without decals or rib detail."
+    }
+  ],
+  "coordinates_changed": false
+}

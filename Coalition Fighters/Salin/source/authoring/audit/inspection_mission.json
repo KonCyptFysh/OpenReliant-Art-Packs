@@ -1,0 +1,12 @@
+{
+  "mission": 977,
+  "name": "Recommissioned - Salin Inspection",
+  "player_ship_type": 41,
+  "placed_ships": 1,
+  "other_ships": 0,
+  "triggers": 0,
+  "script": "Create only the player's flight group; return.",
+  "retail_mission_data_copied": false,
+  "sha256": "da9b21a77b8fc98950431b04517a548f615641b0c02bc8a15cdf8fa24e009bfb",
+  "status": "requires runtime verification"
+}

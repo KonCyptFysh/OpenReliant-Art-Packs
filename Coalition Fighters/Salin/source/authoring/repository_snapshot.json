@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "${SALIN_WORKSPACE}/salin_worn_pbr_v1.blend",
+  "canonical_sha256": "2c5f18f5aeddc296a7263a86f5ce01c69147e50ec7108b7c32b7ab30e14e2dff",
+  "snapshot": "${ART_PACK_REPOSITORY}/Coalition Fighters/Salin/source/salin_worn_pbr_v1.blend",
+  "snapshot_sha256": "88919b872294332b1cdab8b2b799b1963106b6dc083e0810ab395ea59e3d5f11",
+  "mesh_signature": "652ba2acd00cad6dbae3467f254dc67b517401495a5bbf43d5e47279271d84d7",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "salin_hull_basecolor_v1.png",
+      "path": "//resources/520654f8e8cb_salin_hull_basecolor_v1.png",
+      "sha256": "520654f8e8cbabcde823abcca9922c042564c8aa62ca29e680a40288bce607ac"
+    },
+    {
+      "image": "salin_hull_metallic_v1.png",
+      "path": "//resources/8ddbf343b5db_salin_hull_metallic_v1.png",
+      "sha256": "8ddbf343b5db2116523335849d7253694ffba7dfebae99d5e73ae59d553d6c84"
+    },
+    {
+      "image": "salin_hull_normal_v1.png",
+      "path": "//resources/11ffb8f2b4db_salin_hull_normal_v1.png",
+      "sha256": "11ffb8f2b4db65ebc25d4515417fb21132a1392c8170d2f995dc735d8e6ae699"
+    },
+    {
+      "image": "salin_hull_roughness_v1.png",
+      "path": "//resources/36dcdff0c567_salin_hull_roughness_v1.png",
+      "sha256": "36dcdff0c5672dd68b344bcdf64f67be87c744985156231574eb91cf7c0db661"
+    }
+  ]
+}
