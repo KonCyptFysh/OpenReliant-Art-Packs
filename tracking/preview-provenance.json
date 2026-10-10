@@ -658,5 +658,50 @@
     "engine_exporter": "Official OpenReliant sltool 0.8.1",
     "native_runtime_unchanged": true,
     "asset_manifest_sha256": "60764e5bfb1fec277a2658febde1205581d91a721e5275d352dedb02cbdf0c32"
+  },
+  "saracen": {
+    "model": "mid_saracen.SHP",
+    "model_sha256": "a9036b8e9644a8c84c15e34456e7f078a48983e51e6076a96645e6352d369bfd",
+    "preview_sha256": "9347a26d85763f2c90a599789473668f3fc3fbabbdf9e3e4f3b1cf9f0f1c8af7",
+    "preview_bytes": 1673076,
+    "highest_detail_geometry": true,
+    "textures": [
+      {
+        "runtime_file": "orsr1_hull.png",
+        "sha256": "732e8033ccec292035b1276da743c4b9f4f55d5fcb2f85d317278278a438826b",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orsr1_hull_normal.png",
+        "sha256": "2a6e61cae4022f1aabe08e7900c54d537ba44de286c3d5001c33dcf40f650fbd",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orsr1_hull_orm.png",
+        "sha256": "4400474c024a5c9fb453cb336b1774f2a9fd82132c04188a5c033d161a076e53",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "limitations": "Static rotatable viewing copy with 1024-pixel textures and browser lighting. Engine effects, animation and loadout attachments are omitted; four in-game photos show the actual engine appearance.",
+    "pose": "native rest pose matching the approved authoring scene",
+    "parts": 2,
+    "visible_triangles": 592,
+    "native_part_origins_verified": true,
+    "source_scene_sha256": "fac9aad3b8bca70874d94733f10bc57b43a0e71bbf1631f2b8c88a92d5c574ab",
+    "engine_exporter": "Official OpenReliant sltool 0.8.1",
+    "native_runtime_unchanged": true,
+    "asset_manifest_sha256": "831c7b9512c255030ddd1975dc177b98f798467a6c95aa80228edc6b76c96b50"
   }
 }

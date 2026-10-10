@@ -11,7 +11,8 @@ Coalition fighter artwork and restorations.
 | [Cossack](Cossack/README.md) | Worn artwork 1.0 approved | [Beta 0.1.0-beta.1](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1) · [Gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=cossack) |
 | [Lagg](Lagg/README.md) | Worn artwork 1.0 approved | [Beta 0.1.0-beta.1](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1) · [Gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=lagg) |
 | [Salin](Salin/README.md) | Worn artwork 1.0 approved | [Beta 0.1.0-beta.1](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1) · [Gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=salin) |
+| [Saracen](Saracen/README.md) | Worn artwork 1.0 approved | Beta publication in progress |
 
 Torpedo bombers are grouped under [Torpedo Bombers](../Torpedo%20Bombers/README.md).
 
-Haidar, Karak and Saracen have not been started. The public gallery will be updated after individual artwork approval and release validation.
+Haidar and Karak have not been started. The public gallery will be updated after individual artwork approval and release validation.
