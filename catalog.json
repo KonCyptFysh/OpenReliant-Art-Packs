@@ -1001,7 +1001,7 @@
       "name": "Saracen - Worn Paint",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Saracen",
-      "status": "coming-soon",
+      "status": "available",
       "assetRevision": "1.0",
       "description": "Worn grey alloy and bronze panelling, recessed green glazing and corrected wing-edge UVs and native texture joins.",
       "modFolder": "110-saracen-worn-v1",
@@ -1032,7 +1032,13 @@
         "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing."
       ],
       "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
-      "model": "models/saracen.glb"
+      "model": "models/saracen.glb",
+      "version": "0.1.0-beta.1",
+      "tag": "saracen-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1/openreliant-saracen-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1",
+      "checksum": "0d187fd3023596d3437035fff64209ff11ce3f9ed8c745a3d50401b98d17b49f",
+      "downloadBytes": 26761636
     }
   ]
 }
