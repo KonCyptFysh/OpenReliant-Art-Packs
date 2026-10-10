@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-10T11:26:37.541419+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1",
+  "tag": "haidar-v0.1.0-beta.1",
+  "source_commit": "26a4f4f6fbe88343f1ad012ed859786a4cc6b28c",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/haidar-v0.1.0-beta.1/openreliant-haidar-0.1.0-beta.1.zip",
+  "zip_sha256": "930327f962ef3fae0e7352a1b9adb43d51093a6335a75b2c8637fa678affdc84",
+  "download_bytes": 40549074,
+  "github_asset_digest_matches": true,
+  "downloaded_zip_and_checksum_match": true,
+  "downloaded_runtime_files_match": true
+}
