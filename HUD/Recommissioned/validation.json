@@ -55,7 +55,8 @@
     "Portraits work with mod effects disabled",
     "Comms column ink alignment and native power ball visible",
     "Fresh #894 reproduction retained; not marked resolved",
-    "Normal launcher with 23 installed mods: 1080p screenshot, no script warnings, normal exit"
+    "Normal launcher with 23 installed mods: 1080p screenshot, no script warnings, normal exit",
+    "Single HOG mod: 1184 extracted hashes match, script loads, 1080p no-mod-effects portrait capture identical to folder mod"
   ],
   "limitations": [
     "Synthetic state sweep still shows missing portions of icons on 0.9.0; #894 remains open. Fixed-tick captures do not prove persistence or recovery during interactive flight.",
@@ -68,5 +69,6 @@
   "previous_pass": "tracking/portrait-completion-1.9.json",
   "current_refinement": "tracking/integration-0.9.json",
   "authoring_source_manifest_sha256": "fa9a0de9ecb5ee2a0bf6c1e7dd92230e41dafd7a9f3b296c4f36f603860b989f",
-  "git_source_publication": "Maintainer accepted this working update for Git; extensive playtesting remains. No new player release."
+  "git_source_publication": "Maintainer accepted this working update for Git; extensive playtesting remains. No new player release.",
+  "drop_in_packaging": "tracking/drop-in-package-1.10.json"
 }
