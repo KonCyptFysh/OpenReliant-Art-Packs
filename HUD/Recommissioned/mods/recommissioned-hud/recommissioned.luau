@@ -1001,223 +1001,6 @@ local assets = {
     ["wireframes/wing_status_grid"] = "rc_wireframes_wing_status_grid.png",
     ["wireframes/wing_status_grid_mirror_x"] = "rc_wireframes_wing_status_grid_mirror_x.png",
 }
-local commsInkBearing = {
-    [33] = 1.280499,
-    [34] = 1.29516,
-    [35] = 1.518385,
-    [36] = 1.693104,
-    [37] = 2.204075,
-    [38] = 1.332173,
-    [39] = 1.565096,
-    [40] = 1.202413,
-    [41] = 1.031461,
-    [42] = 1.124875,
-    [43] = 1.082825,
-    [44] = 0.91749,
-    [45] = 1.916778,
-    [46] = 1.360725,
-    [47] = 1.417239,
-    [48] = 2.351059,
-    [49] = -0.218443,
-    [50] = 1.359806,
-    [51] = 1.909365,
-    [52] = 1.895053,
-    [53] = 2.092954,
-    [54] = 2.070553,
-    [55] = 1.851059,
-    [56] = 1.498423,
-    [57] = 1.957702,
-    [58] = 0.811739,
-    [59] = 1.02086,
-    [60] = 1.435598,
-    [61] = 1.510695,
-    [62] = 1.712872,
-    [63] = 1.534293,
-    [64] = 1.962551,
-    [65] = 1.179466,
-    [66] = 1.425914,
-    [67] = 1.350558,
-    [68] = 1.556833,
-    [69] = 1.719801,
-    [70] = 1.867164,
-    [71] = 1.270852,
-    [72] = 0.770852,
-    [73] = 1.020445,
-    [74] = 1.445591,
-    [75] = 1.3939,
-    [76] = 1.167388,
-    [77] = 1.126206,
-    [78] = 1.251135,
-    [79] = 1.170824,
-    [80] = 1.340129,
-    [81] = 1.418209,
-    [82] = 1.374699,
-    [83] = 1.873461,
-    [84] = 1.375935,
-    [85] = 1.481599,
-    [86] = 1.588864,
-    [87] = 2.252719,
-    [88] = 0.48436,
-    [89] = 0.942656,
-    [90] = 1.734425,
-    [91] = 0.575112,
-    [92] = 1.417239,
-    [93] = 0.575072,
-    [94] = 1.366848,
-    [95] = 1.861189,
-    [96] = 1.571607,
-    [97] = 0.907982,
-    [98] = 0.965308,
-    [99] = 0.704893,
-    [100] = 0.965308,
-    [101] = 0.745815,
-    [102] = 0.953004,
-    [103] = 1.242542,
-    [104] = 0.256282,
-    [105] = 0.402926,
-    [106] = 0.328278,
-    [107] = 0.666906,
-    [108] = 0.433942,
-    [109] = 0.815555,
-    [110] = 0.951569,
-    [111] = 1.051093,
-    [112] = 1.242542,
-    [113] = 0.965308,
-    [114] = 1.363946,
-    [115] = 1.172982,
-    [116] = 0.669225,
-    [117] = 1.103925,
-    [118] = 0.794895,
-    [119] = 0.937609,
-    [120] = 0.327865,
-    [121] = 0.831778,
-    [122] = 1.420134,
-    [123] = 0.20545,
-    [124] = 0.984179,
-    [125] = 0.205612,
-    [126] = 1.293118,
-    [127] = 1.73069,
-    [8364] = 2.255525,
-    [8218] = 0.917611,
-    [402] = 1.061724,
-    [8222] = 1.256398,
-    [8230] = 2.426427,
-    [8224] = 1.399453,
-    [8225] = 1.399453,
-    [710] = 2.848262,
-    [8240] = 2.772494,
-    [352] = 1.873461,
-    [8249] = 1.052233,
-    [338] = 2.85106,
-    [381] = 1.234425,
-    [8216] = 0.917853,
-    [8217] = 0.917368,
-    [8220] = 1.256156,
-    [8221] = 1.256317,
-    [8226] = 0.733406,
-    [8211] = 1.861189,
-    [8212] = 3.144711,
-    [732] = 2.138551,
-    [8482] = 1.689467,
-    [353] = 1.172982,
-    [8250] = 1.054295,
-    [339] = 1.5254,
-    [382] = 1.709387,
-    [376] = 0.942656,
-    [161] = 1.280499,
-    [162] = 0.708166,
-    [163] = 1.747198,
-    [164] = 0.980994,
-    [165] = 1.972467,
-    [166] = 1.706945,
-    [167] = 1.172941,
-    [168] = 0.672457,
-    [169] = 1.30564,
-    [170] = 1.67581,
-    [171] = 1.360518,
-    [172] = 1.914688,
-    [174] = 0.80564,
-    [175] = 2.958939,
-    [176] = 0.977948,
-    [177] = 2.082825,
-    [178] = 1.39196,
-    [179] = 1.562309,
-    [180] = 1.378523,
-    [181] = 2.036789,
-    [182] = 1.591313,
-    [183] = 1.558551,
-    [184] = 0.942279,
-    [185] = 1.053972,
-    [186] = 1.67388,
-    [187] = 1.287176,
-    [188] = 1.862409,
-    [189] = 1.609042,
-    [190] = 3.832931,
-    [191] = 2.567498,
-    [192] = 1.642828,
-    [193] = 1.906078,
-    [194] = 1.142828,
-    [195] = 1.426607,
-    [196] = 1.642828,
-    [197] = 1.906078,
-    [198] = 1.858026,
-    [199] = 1.703195,
-    [200] = 1.370437,
-    [201] = 2.156417,
-    [202] = 1.861691,
-    [203] = 1.647671,
-    [204] = 1.374763,
-    [205] = 1.37824,
-    [206] = 1.34806,
-    [207] = 1.311276,
-    [208] = 0.855878,
-    [209] = 1.251135,
-    [210] = 2.02346,
-    [211] = 1.803967,
-    [212] = 1.52346,
-    [213] = 2.242954,
-    [214] = 2.02346,
-    [215] = 1.700631,
-    [216] = 2.02346,
-    [217] = 1.848456,
-    [218] = 1.628963,
-    [219] = 2.128963,
-    [220] = 1.848456,
-    [221] = 1.86652,
-    [222] = 2.198239,
-    [223] = 2.445591,
-    [224] = 1.188489,
-    [225] = 1.468996,
-    [226] = 1.688489,
-    [227] = 1.907982,
-    [228] = 1.188489,
-    [229] = 1.468996,
-    [230] = 1.448614,
-    [231] = 1.346783,
-    [232] = 1.314672,
-    [233] = 1.823419,
-    [234] = 1.965308,
-    [235] = 1.103925,
-    [236] = 1.516776,
-    [237] = 1.375046,
-    [238] = 1.347858,
-    [239] = 1.311114,
-    [240] = 1.551093,
-    [241] = 1.823419,
-    [242] = 1.623223,
-    [243] = 1.623223,
-    [244] = 1.623223,
-    [245] = 1.623223,
-    [246] = 1.623223,
-    [247] = 1.680797,
-    [248] = 2.051093,
-    [249] = 0.893178,
-    [250] = 0.965308,
-    [251] = 1.893178,
-    [252] = 1.965308,
-    [253] = 1.548901,
-    [254] = 2.103925,
-}
 local gunArtTop = {
     ["gunnery/ship_wireframes/coyote/wireframe"] = 0.09698275862068965,
     ["gunnery/ship_wireframes/crusader/wireframe"] = 0.1896551724137931,
@@ -2310,22 +2093,34 @@ local radarArt = {"radar/00_353_Short", "radar/01_S_to_M_1", "radar/02_S_to_M_2"
 local hud = require("openreliant.hud")
 local ship = require("openreliant.self")
 
--- Released 0.7.0 does not understand replaces/layout. Keep its native instruments.
-local supported, bounds = pcall(function() return hud.bounds end)
-if not supported or type(bounds) ~= "function" then
-    print("Recommissioned HUD: native artwork only; this engine predates upstream HUD replacement support (#833).")
+-- The films and instrument parts in this pack require official 0.9.0.
+local supported, parts, powerBall = pcall(function() return hud.part_bounds, hud.power_ball end)
+if not supported or type(parts) ~= "function" or type(powerBall) ~= "function" then
+    print("Recommissioned HUD 1.10 requires OpenReliant 0.9.0. Restore the previous complete HUD on older engines.")
     return {}
 end
 
 local orange = vector.create(1, 0.42, 0)
 local function point(x, y) return vector.create(x, y, 0) end
 local windowFactor = 1
+-- Where an authored height stands on the screen, for a panel authored at panelY.
+-- As the game anchors its own instruments, a panel in the top third keeps its
+-- distance from the top edge, one in the bottom third from the foot, and the
+-- rest from the middle. On a 16:9 screen the three agree; on a taller one, such
+-- as 16:10, the top and bottom panels stay at their edges.
+local function anchoredY(y, panelY, s)
+    if panelY < 360 then return y * s end
+    if panelY > 720 then return hud.height - (1080 - y) * s end
+    return hud.height / 2 + (y - 540) * s
+end
 local function screenRect(name)
     local r = rects[name]
+    local panel = rects[string.match(name, "^[^.]+")]
     local s = math.min(hud.width / 1920, hud.height / 1080)
+    local y = anchoredY(r[2], panel[2], s)
     -- Native windows grow away from the screen center as they close.
     return {hud.width / 2 + (r[1] - 960) * s * windowFactor,
-        hud.height / 2 + (r[2] - 540) * s * windowFactor,
+        hud.height / 2 + (y - hud.height / 2) * windowFactor,
         r[3] * s * windowFactor, r[4] * s * windowFactor}
 end
 
@@ -2594,7 +2389,7 @@ local function fitRadioFrame()
     -- fitting the native pieces to the authored upper-grid rectangle.
     local size = upper[3] * s / 129
     local x = hud.width/2 + (upper[1]-960-upper[3]/2)*s - 11*size
-    local y = hud.height/2 + (upper[2]-540-upper[4]/2)*s
+    local y = anchoredY(upper[2]-upper[4]/2, rects["comms"][2], s)
     local scale, dx, dy = size/unit, (x-16*size)/unit, (y-16*size)/unit
     local key = string.format("%.4f/%.4f/%.4f",scale,dx,dy)
     local nextLayout = nil
@@ -2617,6 +2412,14 @@ local function fitRadioFrame()
         hud.set_display_enabled(radioLayout.id,true)
     end
 end
+-- The speaker's name at the foot of the portrait, short and long names ending at
+-- the same point. Offsets are in the radio window's own pixels, so they follow
+-- its layout: the face stands at (13, 19), 120 by 100, the name at (1, 2), and
+-- BLUFONT's capitals fill rows 4 to 11 of its 17.
+hud.register_display("radio_parts", {
+    parts = {radio_speaker = {offset = point(128, 101), align = "right"}},
+    frame = function() end,
+})
 local function sharedFrame(factor)
     local unit = nativeUnit()
     local layout = radioLayout or {scale=1,dx=0,dy=0}
@@ -2910,14 +2713,9 @@ end,function()
         label(item[4],relative(r,0,16,68,14,68,118),14*r[3]/68,"rc_power.ttf")
         label(tostring(state[item[2]]).."%",relative(r,0,39,68,18,68,118),18*r[3]/68,"rc_power_values.ttf")
     end
-    -- The native animated ball is not exposed. Draw an honest allocation plot
-    -- in its authored rectangle: shields at the top, guns/engines at the foot.
+    -- The native ball, turning with the power setting, in its authored rectangle.
     local r=screenRect("power_distribution.child_orb")
-    local a,b,c=point(r[1],r[2]-r[4]*0.45),point(r[1]-r[3]*0.45,r[2]+r[4]*0.4),point(r[1]+r[3]*0.45,r[2]+r[4]*0.4)
-    for _, edge in {{a,b},{b,c},{c,a}} do hud.line(edge[1],edge[2],{color=vector.create(0.6,0.035,0),width=math.max(1,r[3]/90)}) end
-    local total=math.max(1,state.shields+state.weapons+state.engines)
-    local at=(a*state.shields+b*state.weapons+c*state.engines)/total
-    fill({at.x,at.y,r[3]*0.06,r[4]*0.06})
+    hud.power_ball(point(r[1]-r[3]/2,r[2]-r[4]/2),point(r[3],r[4]))
 end)
 
 instrument("wing_panel", {"wing_status"},function()
@@ -3034,12 +2832,10 @@ end,function()
     local left=r[1]-r[3]/2
     -- Align visible ink, not the legacy glyph advance boxes. In particular,
     -- the native '1' advances only three pixels and otherwise appears indented.
-    local inkScale = scale*measured.height/17
+    local style={font="rc_comms.ttf",base_font="hud",scale=scale,color=orange}
     local function column(text, x, y)
-        local first = utf8.codepoint(text)
-        local bearing = commsInkBearing[first] or 0
-        hud.text(point(x-bearing*inkScale,y),text,
-            {font="rc_comms.ttf",base_font="hud",scale=scale,color=orange})
+        local ink=hud.measure(text,style).ink
+        hud.text(point(x-(if ink then ink.left else 0),y),text,style)
     end
     for i,text in hud.comms do
         local top=start+(i-1)*h-measured.height*scale*8/17
