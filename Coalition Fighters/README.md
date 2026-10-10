@@ -13,7 +13,7 @@ Coalition fighter artwork and restorations.
 | [Salin](Salin/README.md) | Worn artwork 1.0 approved | [Beta 0.1.0-beta.1](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1) · [Gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=salin) |
 | [Saracen](Saracen/README.md) | Worn artwork 1.0 approved | [Beta 0.1.0-beta.1](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1) · [Gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=saracen) |
 | [Haidar](Haidar/README.md) | Worn artwork 1.3 approved | [Beta 0.1.0-beta.1](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1) · [Gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=haidar) |
-| [Karak](Karak/README.md) | Worn artwork 1.0 approved for this round | Beta publication in progress |
+| [Karak](Karak/README.md) | Worn artwork 1.0 approved for this round | [Beta 0.1.0-beta.1](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1) · [Gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=karac) |
 
 Torpedo bombers are grouped under [Torpedo Bombers](../Torpedo%20Bombers/README.md).
 

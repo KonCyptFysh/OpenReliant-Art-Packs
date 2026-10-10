@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-10T13:24:25.459263+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1",
+  "tag": "karak-v0.1.0-beta.1",
+  "source_commit": "a8d139acb2ebd043c3f83de277e485a2988a9b96",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/karak-v0.1.0-beta.1/openreliant-karak-0.1.0-beta.1.zip",
+  "zip_sha256": "b6f2b62bd866561bdf0052b0676e2a555af5cbcbeb47564c2342b407e2bccd0e",
+  "download_bytes": 29855001,
+  "github_asset_digest_matches": true,
+  "downloaded_zip_and_checksum_match": true,
+  "downloaded_runtime_files_match": true
+}

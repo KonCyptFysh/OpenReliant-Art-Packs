@@ -1593,8 +1593,8 @@
       "id": "karac",
       "name": "Karac",
       "category": "coalition-fighters",
-      "status": "coming-soon",
-      "workStatus": "in-progress",
+      "status": "available",
+      "workStatus": "released",
       "description": "Worn silver-grey Coalition hull, red and yellow markings, recessed green glazing and structural panel relief.",
       "entryType": "ship",
       "faction": "coalition",
@@ -1604,7 +1604,7 @@
         {
           "id": "worn-paint",
           "name": "Worn Paint",
-          "status": "coming-soon",
+          "status": "available",
           "assetRevision": "1.0",
           "modFolder": "112-karak-worn-v1",
           "preview": "assets/karak/material-front.webp",
@@ -1625,7 +1625,13 @@
             "The still is a Blender material preview. An in-game gallery photo is pending.",
             "Dedicated emissives and broader campaign/platform testing remain open."
           ],
-          "validationSummary": "Accepted for this beta round. Official 0.8.1 native, material-loader and preservation checks passed. Broader gameplay remains untested."
+          "validationSummary": "Accepted for this beta round. Official 0.8.1 native, material-loader and preservation checks passed. Broader gameplay remains untested.",
+          "version": "0.1.0-beta.1",
+          "tag": "karak-v0.1.0-beta.1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/karak-v0.1.0-beta.1/openreliant-karak-0.1.0-beta.1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1",
+          "checksum": "b6f2b62bd866561bdf0052b0676e2a555af5cbcbeb47564c2342b407e2bccd0e",
+          "downloadBytes": 29855001
         }
       ],
       "aliases": [
