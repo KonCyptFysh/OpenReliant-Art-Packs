@@ -115,5 +115,6 @@
   },
   "authoring_source_manifest_sha256": "fa9a0de9ecb5ee2a0bf6c1e7dd92230e41dafd7a9f3b296c4f36f603860b989f",
   "publication_scope": "Git source/runtime only; beta.1 release and download unchanged",
-  "maintainer_acceptance": "Accepted for Git publication; extensive playtesting remains"
+  "maintainer_acceptance": "Accepted for Git publication; extensive playtesting remains",
+  "drop_in_packaging": "tracking/drop-in-package-1.10.json"
 }

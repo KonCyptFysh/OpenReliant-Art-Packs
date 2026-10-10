@@ -48,3 +48,9 @@ playtesting still needed. Public beta.1 remains HUD 1.8. No new beta/stable rele
 or player ZIP is published; unfinished artwork and full release review remain.
 
 The normal launcher also passed a 1080p screenshot check with all 23 installed mods. It loaded HUD 1.10 on the official 0.9.0 binary and exited normally without script warnings.
+
+Single-file player packaging was also checked with official `sltool hog pack`.
+All 1,184 extracted files match the runtime manifest. The `.hog`-only HUD test
+loaded the script without warnings and produced a byte-identical 1080p portrait
+capture to the tested folder mod, with Mod Effects disabled. This is packaging
+and bounded runtime evidence, not a new public download or full playtesting.
