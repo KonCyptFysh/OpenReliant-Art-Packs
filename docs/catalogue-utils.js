@@ -1,6 +1,6 @@
 // Catalogue rules shared by the page and its validation fixtures.
 export const DEFAULT_GROUPS = [
-  { id: 'small-combat-craft', name: 'Small combat craft' },
+  { id: 'small-combat-craft', name: 'Fighters & Bombers' },
   { id: 'fleet-warships', name: 'Fleet warships' },
   { id: 'transports-and-support', name: 'Transports & support' },
   { id: 'satellites-and-defence', name: 'Satellites & defence' },

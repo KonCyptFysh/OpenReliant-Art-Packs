@@ -7,12 +7,14 @@ mod folder names, editable sources, screenshots and GLBs are preserved.
 
 ## Groups and categories
 
-The sidebar selects a broad group; the type filter selects its more specific
-category. Faction, ship class and alternative names are separate metadata.
+The sidebar shows an expanded hierarchy: select a broad group to see all its
+assets, or select an indented category directly. Both levels remain clickable.
+The menu scrolls independently on desktop and stays vertically scrollable on
+small screens. Faction, ship class and alternative names are separate metadata.
 
 | Group | Categories covered |
 | --- | --- |
-| Small combat craft | Alliance fighters, Coalition fighters, torpedo bombers |
+| Fighters & Bombers | Alliance fighters, Coalition fighters, torpedo bombers |
 | Fleet warships | Corvettes, fleet destroyers, command ships, cruisers, carriers, supercarriers |
 | Transports and support | Freight, shuttles, troop and assault transports, cargo handling, rescue, replenishment, engineering, research, civilian liners, prison ships |
 | Satellites and defence | Early-warning satellites, defence satellites, heavy weapon platforms |

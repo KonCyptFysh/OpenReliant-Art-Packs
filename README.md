@@ -8,7 +8,7 @@ The gallery provides in-game screenshots and rotatable model previews where avai
 
 ## Browse the collection
 
-- [Small Combat Craft](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?group=small-combat-craft#collection)
+- [Fighters & Bombers](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?group=small-combat-craft#collection)
 - [Fleet Warships](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?group=fleet-warships#collection)
 - [Transports and Support](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?group=transports-and-support#collection)
 - [Satellites and Defence](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?group=satellites-and-defence#collection)
