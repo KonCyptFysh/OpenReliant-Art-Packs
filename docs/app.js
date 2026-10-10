@@ -67,16 +67,18 @@ function renderProgress() {
 }
 
 function renderNavigation() {
-  $('#group-nav').innerHTML = catalogueGroups(catalogue).map(group => {
+  const nav = $('#group-nav');
+  const scrollTop = nav.scrollTop;
+  nav.innerHTML = '<ul class="catalogue-tree">' + catalogueGroups(catalogue).map(group => {
     const counts = countAssets(catalogue.assets.filter(asset => groupForCategory(catalogue, asset.category) === group.id), { includeUnconfirmed: true });
-    return `<button type="button" class="category-button" data-group="${escapeHTML(group.id)}" aria-pressed="${group.id === selectedGroup}" aria-label="${escapeHTML(group.name)}, ${counts.available} available of ${counts.total} listed"><span>${escapeHTML(group.name)}</span><small aria-hidden="true">${counts.available}/${counts.total}</small></button>`;
-  }).join('');
-  const categories = catalogue.categories.filter(category => groupForCategory(catalogue, category.id) === selectedGroup);
-  $('#type-filter').innerHTML = '<option value="all">All types</option>' + categories.map(category => {
-    const counts = countAssets(catalogue.assets.filter(asset => asset.category === category.id), { includeUnconfirmed: true });
-    return `<option value="${escapeHTML(category.id)}">${escapeHTML(category.name)} (${counts.available}/${counts.total})</option>`;
-  }).join('');
-  $('#type-filter').value = selectedCategory;
+    const categories = catalogue.categories.filter(category => groupForCategory(catalogue, category.id) === group.id);
+    const children = categories.map(category => {
+      const categoryCounts = countAssets(catalogue.assets.filter(asset => asset.category === category.id), { includeUnconfirmed: true });
+      return `<li><button type="button" class="category-button subcategory-button" data-group="${escapeHTML(group.id)}" data-category="${escapeHTML(category.id)}" aria-pressed="${group.id === selectedGroup && category.id === selectedCategory}" aria-label="${escapeHTML(category.name)}, ${categoryCounts.available} available of ${categoryCounts.total} listed"><span>${escapeHTML(category.name)}</span><small aria-hidden="true">${categoryCounts.available}/${categoryCounts.total}</small></button></li>`;
+    }).join('');
+    return `<li class="catalogue-group${group.id === selectedGroup ? ' current-group' : ''}"><button type="button" id="nav-${escapeHTML(group.id)}" class="category-button group-button" data-group="${escapeHTML(group.id)}" aria-pressed="${group.id === selectedGroup && selectedCategory === 'all'}" aria-label="All ${escapeHTML(group.name)}, ${counts.available} available of ${counts.total} listed"><span>${escapeHTML(group.name)}</span><small aria-hidden="true">${counts.available}/${counts.total}</small></button><ul class="subcategory-list" aria-labelledby="nav-${escapeHTML(group.id)}">${children}</ul></li>`;
+  }).join('') + '</ul>';
+  nav.scrollTop = scrollTop;
 }
 
 function render() {
@@ -90,9 +92,8 @@ function render() {
     status: $('#status-filter').value, faction: $('#faction-filter').value,
     searchAllGroups: $('#search-all-groups').checked,
   });
-  $('#type-filter').disabled = globalSearch;
   $('#search-scope').hidden = !query;
-  $('#search-help').textContent = globalSearch ? 'Searching all groups; type filtering resumes when you clear the search.' : 'Search by name, alias or ship class.';
+  $('#search-help').textContent = globalSearch ? 'Searching all groups; category filtering resumes when you clear the search.' : 'Search by name, alias or ship class.';
   $('#clear-search').hidden = !query;
   $('#category-heading').textContent = globalSearch ? 'Search across the collection' : category?.name || group?.name || 'Collection';
   $('#group-description').textContent = globalSearch ? 'Matches from every group. Availability and faction filters still apply.' : category?.description || group?.description || '';
@@ -280,15 +281,15 @@ function refreshFilters() {
 }
 
 document.addEventListener('click', event => {
-  const group = event.target.closest('[data-group]');
+  const group = event.target.closest('#group-nav button[data-group]');
   if (group) {
     selectedGroup = group.dataset.group;
-    selectedCategory = 'all';
+    selectedCategory = group.dataset.category || 'all';
     $('#search').value = '';
     renderNavigation();
     refreshFilters();
     // Navigation is rerendered to update selection; preserve keyboard focus.
-    [...$('#group-nav').querySelectorAll('button')].find(button => button.dataset.group === selectedGroup)?.focus({ preventScroll: true });
+    [...$('#group-nav').querySelectorAll('button')].find(button => button.dataset.group === selectedGroup && (button.dataset.category || 'all') === selectedCategory)?.focus({ preventScroll: true });
   }
   const asset = event.target.closest('[data-asset]');
   if (asset && !(event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)) {
@@ -310,7 +311,6 @@ $('#clear-search').addEventListener('click', () => { $('#search').value = ''; re
 $('#search-all-groups').addEventListener('change', refreshFilters);
 $('#status-filter').addEventListener('change', refreshFilters);
 $('#faction-filter').addEventListener('change', refreshFilters);
-$('#type-filter').addEventListener('change', () => { selectedCategory = $('#type-filter').value; refreshFilters(); });
 $('#asset-details').addEventListener('change', event => { if (event.target.id === 'livery-select') changeLivery(event.target.value); });
 $('.close-dialog').addEventListener('click', closePreview);
 dialog.addEventListener('cancel', event => { event.preventDefault(); closePreview(); });

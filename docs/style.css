@@ -38,7 +38,7 @@
 .search-wrap{min-height:46px}
 #clear-search{align-self:stretch;width:44px;flex-shrink:0;border:0;background:none;color:var(--muted);font-size:24px}
 #clear-search:hover{color:var(--ink);background:var(--panel-light)}
-.filter-row{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(2,minmax(0,1fr));gap:10px}
+.filter-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .filter-control{display:flex;flex-direction:column;gap:5px;min-width:0}
 .filter-control>span{font:9px var(--mono);color:var(--muted);letter-spacing:.05em}
 .catalogue-toolbar .filter-control select{width:100%;min-width:0;min-height:44px;padding:10px 26px 10px 10px;text-overflow:ellipsis}
@@ -88,12 +88,30 @@
   .category-button small{display:inline;font-size:9px}
   .category-button{white-space:normal;max-width:210px}
   .filter-row{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 8px}
-  .filter-control:first-child{grid-column:1/-1}
   .catalogue-toolbar .filter-control select{font-size:11px}
   .search-options{margin-bottom:19px}
   .group-description{font-size:10px}
   .card-livery{font-size:8px}
   .dependency-badge,.scope-badge{font-size:8px}
+}
+
+/* Keep both hierarchy levels visible and directly selectable. */
+.collection-layout{grid-template-columns:250px minmax(0,1fr);gap:32px}
+.collection-sidebar #group-nav{display:block;max-height:calc(100dvh - 230px);min-height:180px;overflow:auto;padding:5px 8px 5px 5px;scrollbar-width:thin;scrollbar-color:#52634b transparent}
+.catalogue-tree,.subcategory-list{list-style:none;margin:0;padding:0}
+.catalogue-group+.catalogue-group{margin-top:16px}
+.catalogue-tree .category-button{width:100%;max-width:none;white-space:normal;border:0;border-left:2px solid transparent;min-height:44px}
+.catalogue-tree .group-button{font-size:12px;font-weight:700;color:#bdc9b8}
+.catalogue-tree .subcategory-list{margin:4px 0 0 14px;border-left:1px solid var(--line)}
+.catalogue-tree .subcategory-button{font-size:11px;padding:9px 11px}
+.catalogue-tree .category-button[aria-pressed=true]{border-left-color:var(--accent);color:var(--ink)}
+.catalogue-tree .current-group>.group-button{color:var(--accent)}
+.catalogue-tree .category-button:focus-visible{outline-offset:1px}
+@media(min-width:761px) and (max-width:1150px){.collection-layout{grid-template-columns:225px minmax(0,1fr);gap:24px}}
+@media(max-width:760px){
+  .collection-sidebar #group-nav{max-height:min(55dvh,420px);min-height:0;border:1px solid var(--line);background:var(--panel);padding:9px}
+  .catalogue-tree .group-button{font-size:12px}
+  .catalogue-tree .subcategory-button{font-size:11px}
 }
 @media(max-width:440px){
   .card-livery{font-size:7px}

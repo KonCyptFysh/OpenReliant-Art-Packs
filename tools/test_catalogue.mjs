@@ -42,7 +42,7 @@ function ship() {
 
 function catalogue() {
   return {
-    groups: [{ id: 'small-combat-craft', name: 'Small Combat Craft' }, { id: 'fleet-warships', name: 'Fleet Warships' }],
+    groups: [{ id: 'small-combat-craft', name: 'Fighters & Bombers' }, { id: 'fleet-warships', name: 'Fleet Warships' }],
     categories: [
       { id: 'alliance-fighters', name: 'Alliance Fighters', group: 'small-combat-craft' },
       { id: 'coalition-fighters', name: 'Coalition Fighters', group: 'small-combat-craft' },
