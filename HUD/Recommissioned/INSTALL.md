@@ -1,29 +1,25 @@
-# Install the beta
+# Installation
 
-1. Use OpenReliant 0.8.1 with your own StarLancer game data. Close the game.
-2. Extract this ZIP into the game-data folder, keeping the layout
-   `mods/recommissioned-hud/mod.ini`. The individual runtime files must stay
-   directly inside `recommissioned-hud`, not another nested folder.
-3. Move any older Recommissioned HUD folder outside `mods`; do not load both
-   an older `HUD` copy and this new `recommissioned-hud` folder.
-4. Enable **Mod Effects** and restart the game. Test Instant Action first.
+HUD 1.10 requires official OpenReliant 0.9.0 or later. This Git snapshot contains
+the current source and runtime; the existing beta.1 player ZIP still contains
+HUD 1.8 for OpenReliant 0.8.1. No new player ZIP is published with this update.
 
-No engine binary, base game archives, test missions or executable installer
-is included. The normal mod loader applies the artwork and scripted layout.
-The distributed hud_layout.ini records the authored layout; editable scripts
-and tools in the repository generate the runtime script from those placements.
-The engine does not directly interpret that private layout file.
+To test 1.10, clone this repository with Git LFS installed and run `git lfs pull`.
+GitHub's source-code ZIP is not the player package and may contain LFS pointers.
+Copy the contents of `mods/recommissioned-hud` into one flat HUD mod folder under
+your OpenReliant game-data `mods` directory. Do not copy `source` or `tools` there.
 
-The HD portrait films and device.glsl are a pair. A different mod overriding
-device.glsl needs the shader changes merged. With the shader disabled or
-incompatible, portraits can become oversized. To keep this HUD with native
-portraits, remove device.glsl and all 225 .fm8 files together from its folder.
-Do not remove or alter the original game archives.
+Close the game and back up any previous HUD outside the active mods directory.
+Replace its flat runtime files, rather than copying over them. Remove the obsolete
+`device.glsl`, `portrait-shader-notice.txt` and `OpenReliant-MPL-2.0.txt` from HUD 1.9.
+All 257 FM8 films must be replaced with the new 480x400 exports. Do not mix the old
+padded films with 0.9.0. Preserve any separate editable sources in your old folder.
 
-To uninstall, close the game and move the whole recommissioned-hud folder
-outside mods. Your original game data and saves are not changed by the pack.
+Use only one enabled HUD copy. Enable it in GAME OPTIONS → MODS and restart.
+MOD EFFECTS may be on or off; this HUD no longer overrides a shader. A StarLancer
+installation configured for OpenReliant is required. The pack does not include
+the game archives or an engine executable.
 
-Tested build: unmodified main 220affa78729a2ce7dcb49602e4f38a4a53d5dc1,
-reporting 0.8.1; Linux, 1080p and 720p. Other platforms and newer renderer
-versions are not yet certified. For reports include engine version, screen
-size, Mod Effects setting, other enabled mods and a screenshot or log.
+The maintainer accepted this working update for Git publication. Full campaigns,
+localization, prolonged combat and broader playtesting remain pending. See
+KNOWN_ISSUES.md for the remaining rendering and artwork limitations.

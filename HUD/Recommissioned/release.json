@@ -2,12 +2,12 @@
   "package_name": "openreliant-recommissioned-hud",
   "version": "0.1.0-beta.2",
   "status": "hold",
-  "hold_reason": "Git source/runtime update authorized; no beta.2 release authorized or published. Wider user review and final release QA remain pending.",
-  "minimum_openreliant": "0.8.1",
+  "hold_reason": "Git source/runtime publication authorized and accepted; extensive playtesting, #894 investigation, unfinished artwork and final release checks remain. No new player release. Beta.1 is unchanged.",
+  "minimum_openreliant": "0.9.0",
   "mod_folders": [
     "recommissioned-hud"
   ],
-  "asset_manifest_sha256": "8e517f507f9c1fde063a7590a109ea87c65e8709d6734c43e709d56c1252377b",
+  "asset_manifest_sha256": "6877070e2920e7767b4c5fc7abbf2a6330d1d7e42081bf23babb295ae1bc9fd4",
   "include_documents": [
     "README.md",
     "INSTALL.md",
@@ -21,7 +21,7 @@
     "release.json"
   ],
   "channel": "beta",
-  "asset_revision": "1.9",
-  "source_manifest_sha256": "547857ad6fba07624514457dc191b401f1c1a96d01a9e81c24afb572d7816e2b",
+  "asset_revision": "1.10",
+  "source_manifest_sha256": "3e210a42ee91481de61cad099c338c5e47a23d43627494341a66f121b7c533cd",
   "previous_public_beta": "hud-v0.1.0-beta.1"
 }

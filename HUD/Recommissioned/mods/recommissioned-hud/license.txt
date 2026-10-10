@@ -17,6 +17,5 @@ licensed third-party contributions retain their own terms and credit notices.
 This is independent fan artwork for StarLancer, compatible with OpenReliant.
 This licence does not apply to either project's separate work.
 
-HUD shader: OpenReliant contributors, MPL-2.0; see portrait-shader-notice.txt
-and OpenReliant-MPL-2.0.txt. Font: Oxanium, SIL Open Font License; see
-Oxanium-OFL.txt. These separately licensed works retain their original terms.
+Font: Oxanium, SIL Open Font License; see Oxanium-OFL.txt.
+This separately licensed work retains its original terms.

@@ -1,50 +1,29 @@
 # Recommissioned HUD
-**Git source/runtime: HUD 1.9. Player download: HUD 1.8 / beta.1.**
 
-This Git update adds the 32 missing portrait filenames: 17 newly restored
-sequences and 15 exact aliases. The editable collection now covers 257 films
-and 10,909 frames at 480x400. All existing artwork and approved subtargets
-remain unchanged. The 1,187 runtime exports match the maintainer's tested
-deployment. See [portrait completion and test limits](docs/REFINEMENT_1.9_STATUS.md).
+**Git source/runtime update: HUD 1.10 for official OpenReliant 0.9.0.**
+All 257 HD portrait films now use the engine's native sizing. The speaker name
+ends at the portrait's lower right, the power panel uses the native animated
+ball, and comms columns use the engine's visible text bounds. Panels stay
+anchored to the appropriate screen edge on 16:10 displays.
 
-No new player ZIP or release tag accompanies this update. The
-[existing beta download](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hud-v0.1.0-beta.1)
-and gallery are unchanged. Beta.2 and broader user review remain pending.
+This is a flat folder mod. There is no engine patch or shader override, and
+portraits work with MOD EFFECTS disabled. The 10,909 editable portrait frames,
+911 runtime PNGs and approved subtargets 393–409 are preserved. Ion Cannon is 406.
+Comms remains usable over a portrait, with the shared frame beneath both.
 
-A drop-in StarLancer HUD overhaul for OpenReliant 0.8.1. The existing beta download
-packages HUD revision 1.8: red wireframes, amber instruments, larger text,
-missile and gunnery displays, target components, and 225 HD portrait films.
-No companion engine or executable is included.
+See [current integration](docs/INTEGRATION_0.9_STATUS.md),
+[installation](INSTALL.md), [known issues](KNOWN_ISSUES.md) and
+[asset status](ASSET_STATUS.md). Full campaign review, unfinished artwork and
+final release QA remain pending.
 
-Extract the ZIP's `mods/recommissioned-hud` folder into your OpenReliant game
-folder. Keep **Mod Effects enabled**, restart the game after installation,
-and remove any older copy of this HUD to avoid loading it twice.
-See [installation](INSTALL.md) and [known issues](KNOWN_ISSUES.md).
+The [public beta download](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hud-v0.1.0-beta.1)
+remains HUD 1.8, tested on 0.8.1. This Git snapshot contains HUD 1.10 for
+OpenReliant 0.9.0. The maintainer accepted this working update for publication;
+extensive playtesting remains. No new player release or public ZIP has been made.
 
-The HD portraits use a paired `device.glsl` shader. Other mods replacing that
-same shader need a merged shader; unrelated shaders are not automatically
-incompatible. With Mod Effects disabled or an incompatible/overridden shader,
-the films can appear oversized. Portrait speaker names still use native
-placement and can overlap the comms heading. Comms remains usable during
-portraits by design.
+- [Working exports and local testing](WORKFLOW.md)
+- [Release notes](CHANGELOG.md)
+- [Maintainer guide](docs/MAINTAINER_GUIDE.md)
 
-Tested on Linux at 1920x1080 and 1280x720 using unmodified upstream main
-220affa (reports 0.8.1). This is bounded beta validation, not full campaign or
-cross-platform certification. The renderer workaround may need revision on
-later engine builds even if the scripting API stays unchanged.
-
-Editable artwork, script templates and export tools are preserved in `source/`
-and `tools/`. Approved subtargets 393–409 are unchanged; Ion Cannon is 406.
-The remaining large target schematics and component 410 use native fallback.
-The [current refinement notes](docs/REFINEMENT_1.8_STATUS.md) and
-[author feedback draft](docs/AUTHOR_NOTES_1.8.md) explain current limitations.
-Dated records describe earlier held candidates; this beta was explicitly
-approved for publication on 9 October 2026. A final stable release is pending.
-
-Gallery cover: designed composition of the actual mod assets. The other
-images are unretouched engine captures from controlled test scenes, not
-representative of every mission or ship. Cover source is in `source/gallery`.
-
-KonCyptFysh's original contributions use CC-BY-NC-SA-4.0. Original StarLancer
-material, the MPL-2.0 shader and OFL font retain their respective rights/terms.
-See [credits](CREDITS.md) and [licensing](LICENSING.md).
+A StarLancer installation for OpenReliant is required. The source-code archive
+is not the player download. Keep editable sources when replacing runtime files.
