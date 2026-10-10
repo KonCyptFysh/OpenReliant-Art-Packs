@@ -50,11 +50,6 @@ def build(root, output):
     lines += ['}', 'local assets = {']
     for name, file in sorted(assets.items()):
         lines.append(f'    [{json.dumps(name)}] = {json.dumps(file)},')
-    lines += ['}', 'local commsInkBearing = {']
-    metrics = json.loads((root / 'source/scripts/comms-ink-metrics.json').read_text())
-    assert hashlib.sha256((root / 'source/runtime-meta/rc_comms.ttf').read_bytes()).hexdigest() == metrics['outline_font_sha256'], 'Regenerate comms ink metrics after changing the font'
-    for code, bearing in metrics['ink_bearings'].items():
-        lines.append(f'    [{code}] = {bearing},')
     lines += ['}', 'local gunArtTop = {']
     for item in plan:
         if item['key'].startswith('gunnery/ship_wireframes/') and item['key'].endswith('/wireframe'):

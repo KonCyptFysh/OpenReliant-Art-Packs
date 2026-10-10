@@ -1,9 +1,11 @@
+> Historical reference only. HUD 1.10 uses official OpenReliant 0.9.0 portrait sizing and exports no shader.
+
 # HD portrait presentation, HUD 1.7
 
-`device.glsl` is the editable mod export. `device.upstream-220affa.glsl` is its
+`../compatibility/hud-1.9/device.glsl` is the retired editable workaround. `device.upstream-220affa.glsl` is its
 unchanged upstream baseline. Only the marked fragment-stage block differs.
 Source: OpenReliant/openreliant commit 220affa78729a2ce7dcb49602e4f38a4a53d5dc1,
-`src/platform/shaders/device.glsl`, MPL-2.0. Full licence supplied in runtime-meta.
+`src/platform/shaders/device.glsl`, MPL-2.0. Full licence preserved beside the retired shader.
 
 The public whole-shader mod feature loads a flat device.glsl. The added block
 recognizes our 484x404 FM8 textures by the reserved magenta padding pixel, only

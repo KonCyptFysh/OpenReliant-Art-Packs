@@ -1,5 +1,17 @@
 # HUD asset status
 
+## HUD 1.10, 10 October 2026: official OpenReliant 0.9.0
+
+- Adopted the author's PR #7 for native speaker placement, power ball, comms ink bounds and screen-edge anchoring on 16:10.
+- Re-encoded all 257 portraits at 480x400. All 10,909 frames decode correctly; source artwork, frame counts and native timing are preserved.
+- Removed the runtime portrait shader and its two notices. Historical source and licence remain archived. MOD EFFECTS is no longer required by the HUD.
+- All 911 runtime PNGs and approved subtargets 393–409 remain byte-identical. Ion Cannon is 406.
+- Deployed all 1,184 exact exports and installed the official 0.9.0 release. Preserved 775 nested HUD sources and unrelated mods/settings at installation.
+- Portraits at 1080p/720p/16:10, comms columns and native power ball pass bounded capture review. The synthetic state sweep still reproduces #894; #1028 remains open for editable display layouts.
+- Git source/runtime update accepted by the maintainer. Public beta.1 stays HUD 1.8; this Git snapshot is HUD 1.10. Extensive playtesting remains, and no new player release is published.
+
+See [integration evidence](docs/INTEGRATION_0.9_STATUS.md) and [author notes](docs/AUTHOR_NOTES_0.9.md). Older entries below are historical.
+
 ## HUD 1.9 portrait completion, 9 October 2026 — Git source/runtime update
 
 - Completed all 32 missing archive filenames: 17 new RealBasicVSR x4 video
@@ -23,7 +35,8 @@
 There are 1,187 flat runtime files. Only mod.ini changed among the previous
 1,155 files; all sprites, layout, script, shader and approved subtargets
 393–409 remain unchanged. The first public beta remains 1.8 / beta.1.
-This Git snapshot contains HUD 1.9. No new player release is published; beta.2 and further user review remain pending.
+The HUD 1.9 source/runtime snapshot is published in Git at `668a86ab7aa61fb1eb8a0f0f37c9451f34458e54`.
+Beta.1 remains the current player download; beta.2 and wider user review remain pending.
 See tracking/portrait-completion-1.9.json for codec and gameplay evidence.
 
 ## First public beta published — 9 October 2026

@@ -1,5 +1,15 @@
 # Known issues and tracked work
 
+## Current HUD 1.10 on official 0.9.0
+
+The four requests #998–1001 are delivered and integrated. Native HD portrait sizing, independent speaker-name placement, native power ball and ink-aligned comms columns replace the old workarounds. No portrait shader dependency remains.
+
+#894 still reproduces in the synthetic state-change fixture at tick 220 on 0.9.0; some icon portions are missing. Normal portrait/panel captures are clean, and no script warning explains the difference. Cause and persistence in interactive flight remain unproven. #1028 is still open: the radio layout cache handles up to 24 unique sizes/scales per session. Restart after exhausting it.
+
+The maintainer accepted the current working update for Git publication. Full campaigns, localization, interruption combinations and prolonged combat remain pending. The 17 large-schematic jobs and frame 410 remain unfinished; the instant-action ammunition report stays deferred. Public beta.1 remains unchanged; this Git snapshot is HUD 1.10.
+
+See [current evidence](docs/INTEGRATION_0.9_STATUS.md). All shader/portrait limitations in older sections below describe historical builds, not this 0.9.0 candidate.
+
 ## HUD 1.9 portrait additions
 
 All 257 archive filenames now have HD exports. Previously unused alternatives
@@ -7,13 +17,6 @@ remain unused unless a pilot is deliberately assigned to them; this pass adds
 assets, not campaign casting changes. The existing shader dependency and native
 speaker-name placement limitations remain. Full campaign review of the new
 films is pending. The instant-action ammunition report remains deferred.
-
-## First public beta — 9 October 2026
-
-HUD revision 1.8 is approved for this beta as-is. Artwork, script and shader
-bytes match the tested candidate. Release metadata and licence notices were
-added for publication. The earlier release hold below is historical; final
-stable release and broader QA remain pending.
 
 ## Current HUD 1.8
 

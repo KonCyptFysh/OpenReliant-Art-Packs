@@ -3,22 +3,34 @@
 local hud = require("openreliant.hud")
 local ship = require("openreliant.self")
 
--- Released 0.7.0 does not understand replaces/layout. Keep its native instruments.
-local supported, bounds = pcall(function() return hud.bounds end)
-if not supported or type(bounds) ~= "function" then
-    print("Recommissioned HUD: native artwork only; this engine predates upstream HUD replacement support (#833).")
+-- The films and instrument parts in this pack require official 0.9.0.
+local supported, parts, powerBall = pcall(function() return hud.part_bounds, hud.power_ball end)
+if not supported or type(parts) ~= "function" or type(powerBall) ~= "function" then
+    print("Recommissioned HUD 1.10 requires OpenReliant 0.9.0. Restore the previous complete HUD on older engines.")
     return {}
 end
 
 local orange = vector.create(1, 0.42, 0)
 local function point(x, y) return vector.create(x, y, 0) end
 local windowFactor = 1
+-- Where an authored height stands on the screen, for a panel authored at panelY.
+-- As the game anchors its own instruments, a panel in the top third keeps its
+-- distance from the top edge, one in the bottom third from the foot, and the
+-- rest from the middle. On a 16:9 screen the three agree; on a taller one, such
+-- as 16:10, the top and bottom panels stay at their edges.
+local function anchoredY(y, panelY, s)
+    if panelY < 360 then return y * s end
+    if panelY > 720 then return hud.height - (1080 - y) * s end
+    return hud.height / 2 + (y - 540) * s
+end
 local function screenRect(name)
     local r = rects[name]
+    local panel = rects[string.match(name, "^[^.]+")]
     local s = math.min(hud.width / 1920, hud.height / 1080)
+    local y = anchoredY(r[2], panel[2], s)
     -- Native windows grow away from the screen center as they close.
     return {hud.width / 2 + (r[1] - 960) * s * windowFactor,
-        hud.height / 2 + (r[2] - 540) * s * windowFactor,
+        hud.height / 2 + (y - hud.height / 2) * windowFactor,
         r[3] * s * windowFactor, r[4] * s * windowFactor}
 end
 

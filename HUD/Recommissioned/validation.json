@@ -1,24 +1,22 @@
 {
-  "status": "pending-user-review",
-  "scope": "HUD 1.9 source, codec, and bounded 0.8.1 portrait-fit checks passed; full campaign review pending",
-  "checked_on": "2026-10-09",
+  "status": "pending-release-review",
+  "scope": "HUD 1.10 codec, preservation, deployment and bounded official 0.9.0 captures passed; unresolved rendering regression and broader release review remain.",
+  "checked_on": "2026-10-10",
   "engine_build": {
-    "kind": "unmodified-upstream-main",
-    "upstream_commit": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
-    "reported_version": "0.8.1",
-    "binary_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
-    "compiler": "Zig 0.17.0",
-    "optimization": "ReleaseSafe",
+    "kind": "official-release-binary",
+    "reported_version": "0.9.0",
+    "upstream_commit": "fa1c0982879fecef5dcfad03d35e9a04ca4cfae3",
+    "binary_sha256": "26d53f50101ba0963685a4b94326fa257d3c370370359190da46e6a6c771c5c1",
+    "release_url": "https://github.com/OpenReliant/openreliant/releases/tag/v0.9.0",
     "changed_upstream_source_files": 0,
     "private_engine_patch_applied": false
   },
   "normal_engine": {
-    "kind": "unmodified-upstream-main",
-    "upstream_commit": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
-    "reported_version": "0.8.1",
-    "binary_sha256": "ed31461a1158f533be31fd8d494c150e1e2c975fc79eb37a1e376366556c8b2a",
-    "compiler": "Zig 0.17.0",
-    "optimization": "ReleaseSafe",
+    "kind": "official-release-binary",
+    "reported_version": "0.9.0",
+    "upstream_commit": "fa1c0982879fecef5dcfad03d35e9a04ca4cfae3",
+    "binary_sha256": "26d53f50101ba0963685a4b94326fa257d3c370370359190da46e6a6c771c5c1",
+    "release_url": "https://github.com/OpenReliant/openreliant/releases/tag/v0.9.0",
     "changed_upstream_source_files": 0,
     "private_engine_patch_applied": false
   },
@@ -35,38 +33,42 @@
         [
           1280,
           720
+        ],
+        [
+          1920,
+          1200
         ]
-      ],
-      "graphics_hardware_present": [
-        "Intel Iris Xe [8086:46a6]",
-        "NVIDIA RTX 3070 Mobile [10de:249d]"
-      ],
-      "active_render_device": "not independently identified in this pass"
+      ]
     }
   ],
-  "asset_manifest_sha256": "8e517f507f9c1fde063a7590a109ea87c65e8709d6734c43e709d56c1252377b",
-  "tested_asset_manifest_sha256": "8e517f507f9c1fde063a7590a109ea87c65e8709d6734c43e709d56c1252377b",
-  "source_manifest_sha256": "547857ad6fba07624514457dc191b401f1c1a96d01a9e81c24afb572d7816e2b",
+  "asset_manifest_sha256": null,
+  "tested_asset_manifest_sha256": "6877070e2920e7767b4c5fc7abbf2a6330d1d7e42081bf23babb295ae1bc9fd4",
+  "source_manifest_sha256": "3e210a42ee91481de61cad099c338c5e47a23d43627494341a66f121b7c533cd",
   "checks": [
-    "Original 9,353 HD source hashes preserved",
-    "Original 225 runtime film hashes preserved",
-    "All 32 additions / 1,556 frames decoded",
-    "484x404 dimensions, opaque 480x400 content, four-pixel shader padding verified",
-    "15 exact HD aliases verified",
-    "McGann/Puma 1080p and Stinger 720p isolated fit captures passed",
-    "All 17 approved subtargets preserved"
+    "All 1184 runtime inventory hashes",
+    "All 11780 portable source/tool inventory hashes; authoring inventory separately verified",
+    "All 10909 portrait frames decoded at 480x400 with opaque content and native counts",
+    "All editable artwork preserved; all 911 exported PNGs unchanged",
+    "All 17 approved subtargets unchanged",
+    "All live runtime hashes match; 775 nested HUD sources preserved",
+    "Portrait/name bounds at 1080p, 720p and 16:10",
+    "Portraits work with mod effects disabled",
+    "Comms column ink alignment and native power ball visible",
+    "Fresh #894 reproduction retained; not marked resolved",
+    "Normal launcher with 23 installed mods: 1080p screenshot, no script warnings, normal exit",
+    "Single HOG mod: 1184 extracted hashes match, script loads, 1080p no-mod-effects portrait capture identical to folder mod"
   ],
   "limitations": [
-    "Native power-ball reuse remains an upstream presentation request; triangle placeholder retained.",
-    "17 large-schematic jobs and fuel-pod frame 410 are artwork backlog; approved 393-409 unchanged.",
-    "Full campaign/dense combat/localization/alt-tab/relaunch and final user review pending.",
-    "Armour-hit overlays and spectral charge integration need dedicated combat/device coverage.",
-    "Messages/prompts/radio portraits remain native.",
-    "#894 has not recurred in sampled current captures; broad resolution is not claimed.",
-    "Speaker name remains native; independent bottom-right placement needs upstream text controls. HD portrait shader limitations from 1.7 remain."
+    "Synthetic state sweep still shows missing portions of icons on 0.9.0; #894 remains open. Fixed-tick captures do not prove persistence or recovery during interactive flight.",
+    "Dynamic layout updates remain #1028. The existing cache supports up to 24 unique window/UI-scale layouts in one session.",
+    "Full campaigns, localization, interruption combinations, prolonged combat remain pending; the maintainer accepted this working update for Git publication.",
+    "17 large-schematic art jobs and fuel-pod frame 410 remain unfinished. Ion Cannon is approved frame 406.",
+    "Instant-action t_grendel ammunition report remains deferred at user request."
   ],
-  "evidence_catalog": "tracking/portrait-completion-1.9.json",
-  "previous_pass": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/tree/hud-v0.1.0-beta.1/HUD/Recommissioned",
-  "current_refinement": "tracking/portrait-completion-1.9.json",
-  "git_source_publication": "Authorized independently of beta.2 release; bounded tests passed, wider user review remains pending."
+  "evidence_catalog": "tracking/integration-0.9.json",
+  "previous_pass": "tracking/portrait-completion-1.9.json",
+  "current_refinement": "tracking/integration-0.9.json",
+  "authoring_source_manifest_sha256": "fa9a0de9ecb5ee2a0bf6c1e7dd92230e41dafd7a9f3b296c4f36f603860b989f",
+  "git_source_publication": "Maintainer accepted this working update for Git; extensive playtesting remains. No new player release.",
+  "drop_in_packaging": "tracking/drop-in-package-1.10.json"
 }

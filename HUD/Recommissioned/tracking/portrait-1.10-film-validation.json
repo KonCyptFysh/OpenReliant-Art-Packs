@@ -1,0 +1,3358 @@
+{
+  "status": "passed",
+  "films": 257,
+  "frames": 10909,
+  "all_frames_decoded": true,
+  "all_frames_opaque": true,
+  "encoded_dimensions": [
+    480,
+    400
+  ],
+  "shader_required": false,
+  "native_15fps_counts_preserved": true,
+  "audit_note": "First audit process ended after logging 256 completed films; static.fm8 was independently checked against its 101 extracted frames and source PNGs to complete this record. No source art was changed.",
+  "colour_conversion": "FM8 uses a shared 256-colour palette per film; measured RGB error is quantization, not claimed lossless.",
+  "records": [
+    {
+      "filename": "45TigersWL_Bandit.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.23161,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "8e265313789f7bf98862ad6cdf5a23525f408ea35175bfe9ebc8b2f9f5162a6a",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "11ebe7b7e23ce8bbbf917c8d822b6ec5749f729b1d080dc8ff9b3a3158ef1275"
+    },
+    {
+      "filename": "45TigersWL_Bandit_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.86719,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "e6584de97cb164bc56426ff31e2aead74a105941be1fe99d763e6ea53e1b1382",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "eec15b3ac1cf84f91f7b23d4c7ec0f756810c2c2d39d9a25d5598be0c7f52c69"
+    },
+    {
+      "filename": "45TigersWL_Bandit_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.76519,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "e2605ac68ab1bce04828b8bd7b965c7fcc998f04eec628945d0bbbea22b35a2f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "7fa5e11ae35259f20e0abc38b1cddd6aefcea6a5a3e68764de644a5b6d0fc383"
+    },
+    {
+      "filename": "45TigersWL_Diceman.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.86159,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b844e4bb7ec7b5fa1e6918211f679342548b487a3a0006e7310ec910e6c52104",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5194fd10f3ec904880f3817d1aab8c1be04894a908e1ab38a731d4d0425b38b5"
+    },
+    {
+      "filename": "45TigersWL_Diceman_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.76519,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "e2605ac68ab1bce04828b8bd7b965c7fcc998f04eec628945d0bbbea22b35a2f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "7fa5e11ae35259f20e0abc38b1cddd6aefcea6a5a3e68764de644a5b6d0fc383"
+    },
+    {
+      "filename": "45TigersWL_Diceman_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.64557,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "c9e27266df4b5f7a0a9231955e0f476150357623cab065738a4aa5cfb00ba8dd",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "cd212efa08e59b955d56ef120701a59eda6dacea8d8ec81016b4bbee1340ca56"
+    },
+    {
+      "filename": "45Tigers_Moose.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.45818,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "346caf23abada2b65911e1fc9f2a78212e5ede3470f6fdfe67fc97b765f5d81d",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "f2e553e0a792eefc76ee57d58e6114887f929b5c0f7a6e34f514386b9cae8db3"
+    },
+    {
+      "filename": "45Tigers_Moose_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.91904,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "1dee4a9b19402c553c56de970305ac8f96aaae1d2a7e93cb5253dbf4837cddff",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "1d5eeec709890eb362757d56e52207db141506d82d8fed8da7f5bb242e5e77d8"
+    },
+    {
+      "filename": "45Tigers_Moose_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.77552,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "6797c658fa5f404a4c31fdcaa840855c670e821e25dd5b8631fcb386d043beba",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "d850687afc47461357d564899745baaf3c8f56606410a48b02b979ea620e2f1e"
+    },
+    {
+      "filename": "45Tigers_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.14539,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b51d9c3817509d816f7f07b5fb80485d385bf7c7991104db2c0e4a85f05e93a5",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "6cd8e3c2582019c51af6ff29722dd44c8ec522ddf17429cff232cd08eb881479"
+    },
+    {
+      "filename": "45Tigers_Plt_D.fm8",
+      "frames": 15,
+      "palette_quantization_mae": 2.30586,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "abe6d5a3f68cd3823a42e7b263b24da0fb39a2a39614ed1dbe38a6526ad87c41",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "aede598da5af334b0520d7f1b06936e9fdcd7b1d74f056d7baec1795081fd35b"
+    },
+    {
+      "filename": "45Tigers_Plt_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.6394,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "1fa62096552de3130ccfed874551fda2bb05dba0b902cf37c6685c99a83249cc",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "32d9a04d0a34ac7ee48b79b2dcf688c62c69d307af9812d7e9bd87bd751a5175"
+    },
+    {
+      "filename": "45VolntrWL_Bandit.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.8752,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "86169ab6710a9ac49d50029160e30e85307f3aa7d06ce4cdba517c7507fe4da5",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c60f6ff758cbe46df153b2a7a5e5bf6bbeeb5f63e18492272350215d17437a7d"
+    },
+    {
+      "filename": "45VolntrWL_Bandit_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.77948,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b1cd02a3dd5cb2d0f4130a6ddb31c8afcefc89be172f01981a24581b50d69f42",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "9f2a21bdccde10e05c9fad0ed131e694476a8e7aad6da22624231b7f4a2f3213"
+    },
+    {
+      "filename": "45VolntrWL_Bandit_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.96933,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "0f322d841fea4fd074697a0a8c8dba3135ad9b668e5355396b4b11f2ca4d39b7",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "f0c4b7d14437956e476a347a26d60b7235471a78fc0072dc1b294e884a4b524c"
+    },
+    {
+      "filename": "45VolntrWL_Viper.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.89214,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b8d2246c081ff21c49d1cf4d84a5d6f386e480fc8983789e22ca9fae03398ca4",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "f26e4a01b3d4f2a5f5680687af57ac0fdae599b61c8618383ebb273be6c3f62a"
+    },
+    {
+      "filename": "45VolntrWL_Viper_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.4894,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "8cac056d5505bda8f0ba37c056573390d0490d986a4dfdd21dd1e78b219e3f52",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "675a44763e042b3bd64768373bb7b91ab2d02aac0b8ed3eade568efe9da1ba27"
+    },
+    {
+      "filename": "45VolntrWL_Viper_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.7151,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "ba1435231752c88d7d131606d2b7cbfe29c05dca2cc54262105fd76af1cd3d74",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "496fbbae174d85bee2ac15653831d086a380f575ea91c6f7b557894ef54e09f2"
+    },
+    {
+      "filename": "45Volntrs_Moose.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.88438,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "d505e691d451a159eefaa57b02bbf29aa289b3ac0a4f229480a9cf4336ddffcc",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "84391781db0701027e875f18b18529a6ba702fe77f977808e51840c757c1d817"
+    },
+    {
+      "filename": "45Volntrs_Moose_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.79493,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "2a0ed7ff977054419b1abf1879b0518179ec26a85784de5bf23b2dc5455a7cd1",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "02567e652d4bfcc0120459be2bd12299441f9e7d5007d27b68dfd2882947d5f4"
+    },
+    {
+      "filename": "45Volntrs_Moose_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.48346,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "e1205bb8f2734b9bf9ac14870daef8d8bb575eb718662029de5a3262da46cbbe",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "f01a64206ed1d717a2ba899a78b0505eb9bbc180ff31e7a540af9a49e892723b"
+    },
+    {
+      "filename": "45Volntrs_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.61142,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "80c515d20e64718167c3641654a72b9b987311d3d0fa66c0544cc2979849f037",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "74fc68d8330a4cc1a0fd0889c5b669015a3ae7a1a5259a8d5e5ec5536386f101"
+    },
+    {
+      "filename": "45Volntrs_Plt_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.98934,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "4aa17f1ea5ca088f6b247919c14e167f54521ccc08d9ba6a3c9c541b9010d660",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "784e9ed7ecdbba20dd1bc051de90e8efe52929229569784a3275cb88bf88ebe1"
+    },
+    {
+      "filename": "45Volntrs_Plt_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.38232,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "3f70f1e8a2e7470b7bf6f43e9e6736dd74caf36fb30f595a4758b1917004081f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "14c81c4316d1e0d1badda0a5493dbf9624eb1a177c1f7f2910a7b4d50ba4f376"
+    },
+    {
+      "filename": "51stWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.31922,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "4f367703d87caf683932b268e1528b1862c92c9cf0854eb11c16625d4256f377",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "6b527a14b87af96479468bf2684e3c99ba95d6041b4eb583ae03c99fdbf09398"
+    },
+    {
+      "filename": "51stWL_Plt_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 4.40924,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "fee938f58de067e8e6697b391ede7153fab2c4021aea0efccd67172b95cdc267",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "62199229d1c9b8eee014c19acdf531b19b7ac25c4953fffaa16a20a8d1555b65"
+    },
+    {
+      "filename": "51st_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.4694,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "aa3c6c0df0d85c0b150e5f2ee9208b367106bb7ef7d05aa3ead9366e9913136c",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "0b46e889475fc269a10028316d0db19b1a0615ca11ed2b3f3f99f2c6ce218d74"
+    },
+    {
+      "filename": "51st_Plt_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 4.10005,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "9b32b5969a9839c0b3f87b521719dd24146fa8ac93fd7d8576abd385e55f3657",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "e3c9f229f8b8ecd9ff6761a3ea6d3241240cb958ecb3fc99a8aa14feee421680"
+    },
+    {
+      "filename": "BGUARDD.FM8",
+      "frames": 11,
+      "palette_quantization_mae": 2.49168,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "3179e57d6836998a17c7db7140ec5a9787ddd289c34cf2a14510e5f7b49cddde",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "4e9289b6de33a5068b3863a4e97573496144c6fb87e652a91b85072e2c7d273f"
+    },
+    {
+      "filename": "BGUARDP.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 0.71235,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b6658c838f49224447af17524ff25b9a4fce38e3ccf3499eeca28cc30a82e93f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "140edd0d8a6634c36ad374aeffdd57e692da46db8be550b2f414a9f3c14a553e"
+    },
+    {
+      "filename": "BLACKGUA.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 0.71235,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b6658c838f49224447af17524ff25b9a4fce38e3ccf3499eeca28cc30a82e93f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "140edd0d8a6634c36ad374aeffdd57e692da46db8be550b2f414a9f3c14a553e"
+    },
+    {
+      "filename": "BUCC.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.2734,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "fb221179363ae5ffdadff0f932ef9b99f5ea5ec920934f2fb5e18d19135b4802",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "34618011276dfac3675f8d6bedb5a4a7a19241a641c644c700273ef5c0275bdf"
+    },
+    {
+      "filename": "BUCCDETH.FM8",
+      "frames": 16,
+      "palette_quantization_mae": 3.95131,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "a665e1b4dd5c0fa7214a69a9b6b6f9e85865ab67a53c9ad87131e1f04d67bd0c",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c0ca80081ecd8884ddd48ab61363583f12417a730d9a34ca5093584493229bc8"
+    },
+    {
+      "filename": "BlacksunWL_Plt.fm8",
+      "frames": 81,
+      "palette_quantization_mae": 1.81992,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "6c86407dd1d35c7c8e8740e23ae9c5faa6dbf121d462759d79df10f28854f1e1",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b3b9fd7c6511f1382bc9608bf759d7338fbc8ad6750c828236882c3dbc7e693f"
+    },
+    {
+      "filename": "BlacksunWL_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.53488,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "8c71f8ed71071b28e05f33e663bc6b62d7ef2c461be823f71be84e683cac6c61",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "566ca8998e65f7abc495e92bbece0545a40e0ae8f5de2d248940bcd0d2b0fc58"
+    },
+    {
+      "filename": "Blacksun_Plt.fm8",
+      "frames": 46,
+      "palette_quantization_mae": 2.30727,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "2f8e689c4b892ed515ca7ca64275d1a80982709242db5b155702cbd98026f25e",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "7e9a2d24e1756e7bd0bbc731cb813ec338836e872318e380ebf2014e39a69bd6"
+    },
+    {
+      "filename": "Blacksun_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.70323,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "3a7a59a6c3003b99e822a62efd93674093ad07c932f0fe9f2701375f8f4516f9",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "f34ffee07156f4eec43e1f8d56df48bb218d1563652a23d1f5864f09ab663f0d"
+    },
+    {
+      "filename": "Blades_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.4242,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b78721a69b2361fb7903d654f5de5997797ea93680cc62ec932139cbfeab4a60",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "96b6a4c6e01055e6c8f0a0cb06d580bb170ffa1d9dab2c00ce49d1f64c45c21c"
+    },
+    {
+      "filename": "Blades_Plt_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.29295,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "d1269b8058200e94abc0f4b182cf72b2c2d924bff0fe523dc477ccdaea9cd3e2",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "f1c5f006cdf464d43f7469e79117e4a9b297cc8d91fb741afeab9a27c17865b8"
+    },
+    {
+      "filename": "Blades_Plt_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 4.3824,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "f8f996809fe8f816134e93ba2214527322d6a8fa5a25e9fb70e6c549daf56590",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "2099122eff42f71650aa725e57c1cf8d889b7bf9d1bddd53474b879831dc9da5"
+    },
+    {
+      "filename": "BlckEgleWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.17474,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "92f127c4ddb357a64fc94e0df449154401238778bd6bcbdb429abfcd8ea80f35",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "25ab74dfface5e290561c994662fe9a4d8e6512c87c1b4311325fd4abcdfeb28"
+    },
+    {
+      "filename": "BlckEgleWL_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.35523,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "ab18f8575b7ff60f933e72065d5ea8cc7b6055bd7014641b1c78ad5a176db759",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "f60edd0614ef9e985d6c74f677e9b0b5d0d10cf7b5018d292c71e16bd2b28b5f"
+    },
+    {
+      "filename": "BlckEgle_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 0.76654,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "beb15e2fb400126fb29de61b4282793e13d841ea7383fc9ac0ed5646dc24c311",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "02f3baef6f60ef31f5b434f979c0b540b13de622f4903c88b76eeeac4b588600"
+    },
+    {
+      "filename": "BlckEgle_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.62103,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "3bc830f5526aec6e978463eacd2c2abfa9514fcc0e6fbe8bea37ab97de7397c1",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "882337cb724c206b5bac2b353a26609fac73ec6d28348b6d9cc36e94582b8f64"
+    },
+    {
+      "filename": "BlckGrdIP_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.81595,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "108de6f81cdaedfb557b591a7d6c834b82a4398c2ffac5ef5744a57aa16a5b6e",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "ae5c411b6e414ae6e8b8d2b52153bcff4026c6e50ba72eebfa41b8fca4e65547"
+    },
+    {
+      "filename": "BlckGrdIP_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 1.47459,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "8c2a592d5de77993153b945f49f44859bf2f87d75c7b1980260d41183f3d35d2",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "9cb11a1cc9283137c5d446e5e02d616f3269104b6424bb35b1317df0e9d57af1"
+    },
+    {
+      "filename": "BlckGrdNP_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.66475,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "ae9bc77194467b83d7812414a6ca053e9d3c0bfa5a1cf90de8f40bc50505bc62",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "33917da39ef051a40065ac3b0a0bde7a09f80e28312dd4e7bf5710c35deb6c82"
+    },
+    {
+      "filename": "BlckGrdNP_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.74391,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "ded8609af27c3f77e49172c161fb8638c7cee8eeb76033e34f4e3f4b1ce85111",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "a1ff94106aa02b6fce93e091fca6d8239f44f6d465695859a39e52bbeda1d59b"
+    },
+    {
+      "filename": "BlckGrd_Plt_D.fm8",
+      "frames": 11,
+      "palette_quantization_mae": 2.49168,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "3179e57d6836998a17c7db7140ec5a9787ddd289c34cf2a14510e5f7b49cddde",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "4e9289b6de33a5068b3863a4e97573496144c6fb87e652a91b85072e2c7d273f"
+    },
+    {
+      "filename": "BlkAces_Plt_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.66429,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "6065aa5cfaa3b820639830cd11264fb2b705762d7a54b5a579bd3414f6d0cb7a",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "8787287e88f0cea7e6df5050a95c2f5807e19c7033ff32635890beb0c96241c5"
+    },
+    {
+      "filename": "Bremen_Brdge_Off.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.72526,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "5272fa969de23b184764fd5d483745dd943f4c934ff2667299a1ef27b3cb61bf",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "713c568371bfe6dbbf16ecefe0505b99950fc0f2e20891a81a806b2a09d58f04"
+    },
+    {
+      "filename": "Bremen_Brdge_Off_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.86355,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "a6340ad1b4752bea480aa1921591f9871232f1a93f37115e1092aeda3667bc69",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "4c13fb237750146faf675ba505e8155d60fd78d82dd064f7d2ac1a5514155655"
+    },
+    {
+      "filename": "BuccnrsWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.44083,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "eb97b381df96ad206c5d3820a0f9a8476c497183249df17dce26c24f9d1bdc56",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "fa869ed296eb0cfcf629332facaba070fa13112d15e41d04913b926b92f9a236"
+    },
+    {
+      "filename": "CARGOD.FM8",
+      "frames": 16,
+      "palette_quantization_mae": 1.641,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "39ca379e42a46454dea4c653bf2af646e8e8051b81413a0b011b12bea0a23fdf",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "cdde19dda07261411215a6944505c6b4ed16a5183ff19c04b2e5154465af0e65"
+    },
+    {
+      "filename": "CARGOL.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.19184,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "a648e960372a76878f6be29a88fadc3b93841e16a929ac439d06a2c25ac3967e",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "989074953e51f90682b49324a83f73513ffd80129ef4783ab374e48401ca5835"
+    },
+    {
+      "filename": "CARGOP.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.26667,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "73f9ba536544763ceead4a4aeaff27700d78d363045da1895fb7f3bf56e34393",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "e69c896f2adf362bcb788758461da44dcf63204a7eb6349b9fca7b18c0d5e488"
+    },
+    {
+      "filename": "CCouger_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.41648,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "0851a108d76ff2a06d6ca122d6b35625e1a2643490adf73c8c0954b48ae9d980",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "70393cdf4f4783f9718f5795fb6c34971dd1e0d9d2ca594aeaca7595713708eb"
+    },
+    {
+      "filename": "COB.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.94336,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "fd2b85f2448a88bf9d13ac0ac965554b6811412093415ad8ed0cbc5bc09746b7",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "53ab8fe94112f660c6affc7e58aadd9a3ebc7f1de3af0fcb6399d8334607ff6c"
+    },
+    {
+      "filename": "COMMSOFF.FM8",
+      "frames": 51,
+      "palette_quantization_mae": 0.99048,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "1ae461a5e5a4e06783839aa51d251f29f5c81a3c432d3d8d7617ff7dac4753ff",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "7c826c31f97bec05f37973b6042431f94f7ab902ea7e46825de1462b1d752707"
+    },
+    {
+      "filename": "CONDL.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.1354,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "1a3f6da711a28b5ddb979f01552da7aa5eed731033bd7a2c6efc67a961dc3520",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "4c5a938b10e2bba8f948f5e18b13a5452b6813d13d31f89ee9f36d8230f62b0e"
+    },
+    {
+      "filename": "CONDP.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.04256,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "44770ac0d953f5a34fee2c82abc4051895419fdb2e058c6b2a14d9c99d5b1c59",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "1cf23575c12e8521982f1faf3e4e2117084e9b12bee6e2bd317e653d41ce6d43"
+    },
+    {
+      "filename": "CONDWL.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.09467,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "8ba47432230b5cca17250543dcca9a6efd764ca2170df2b6dc8e81d73fb9b421",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "822b3cf0b5b2502d6e64e7440167aec905a134e2a76fb52b37411d46d8e0f5b9"
+    },
+    {
+      "filename": "CONDWLL.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.22588,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "9864f3314f2970855c91deef0ef27881ab441c62afa39b4fbab8b5d6df340be2",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c3982175d1083196edfd2285c4d40b2158860b6e57351003dcd80b1c7336c76c"
+    },
+    {
+      "filename": "C_Fhtr_01.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.75005,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "dc8fd3e03cb65ff94627632a99b86f1af7c0614dd23b4d91425a6b34267fd37d",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "2abe8e74ff8a01daf93df37400544f40b8c8bab0457c21578bf68505afc1918b"
+    },
+    {
+      "filename": "C_Fhtr_01_D.fm8",
+      "frames": 31,
+      "palette_quantization_mae": 3.05566,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "fce8cfc9b1671371ff677639e898882cf1a71b03f4100a67afd30e26039d4f58",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "1bfcaf3f1387066d011fb42a317b17995f2f26d501c84e7ec0dca0abc15da902"
+    },
+    {
+      "filename": "C_Kurgen_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.27398,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "5f8ec444ee1b750245451a825fdfaf31f8a360c6b52a5998ffd85213ca1a6f1e",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "9c9391ef1da6a32447ec20beca98512207bed95a10c3edcffac76a3d2dd54702"
+    },
+    {
+      "filename": "C_TorpWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.69547,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "8c37ddceb3fa154aaeb395975dbe7deab963cecbf73e91ddc036d03b548f7e59",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "fbcf4dc79a8e927dc93db0a11c4665676127d7ea9e070f439497f9751f2a3f18"
+    },
+    {
+      "filename": "C_TorpWL_Plt_D.fm8",
+      "frames": 26,
+      "palette_quantization_mae": 2.13373,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "0173623ff86d68def7aa699bd8bbf8ff3ec800b6470b510c1173b5e38a544ac3",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "6d8e69cb09e90617804f2704203a0b20da1ca3afc9c73b116287b8a552c39b1b"
+    },
+    {
+      "filename": "C_comms_off1.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.35764,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "5438b2d09f436b3e3e16d615738d5c2f0d94f9cf4942b740704c12cbdb9a753a",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c04b21800d5fb5eeb7e9110df7f0846e5248591308418fe53e9c2578d327cff9"
+    },
+    {
+      "filename": "C_comms_off1_death.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.46084,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "489ead1ef1c1310af91675bcdd1274dc74ad165b95c7174b032514c05626729c",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "a7743707391c3a2a776ebb83b3bf2f478eba9a8214e6626b2b60ea55afe1242d"
+    },
+    {
+      "filename": "Capt_Mukai.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.69188,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "767dbd32541346238058fac3dba7026897a42a5a46ee015a942a6ad04933d4bc",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5c949a811ac798ed106f5094ec0169c5ff8ff2eabb91b921ff95191e26b0ec9e"
+    },
+    {
+      "filename": "Capt_Mukai_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.0193,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "58dae3f54a62162f14a9b9c0653753885d0967b4394f21aae41d0afe02900f91",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "10ee30a33fcd40edf7c58fdb614deda611769270abb7f227c02fa235539f8b68"
+    },
+    {
+      "filename": "Cat_Foster.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.12633,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "75002c55efc911015316db921e3ea40e04e417fd515def102c5e033781cba357",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "bb15e7f3adea20005c069e8a009d4b163a3b55be1db8f425d44512a13712e62d"
+    },
+    {
+      "filename": "Cat_foster_prwlr.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.42808,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "99542355f0bd7e5ab50187b7be01f90d0c653aaba5d4fb311a80987b624bcee0",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "47df5cd905870b3facdb958aabc440c0c76e82d086c774256ba0061f3665d583"
+    },
+    {
+      "filename": "Cobra_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.23349,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "ae900035c816b07db15085ba61d8d39b3d43e4622add0a6a959f9bff0b8e3141",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "06caa0cfb9b610b5960657b1dd99e07d02bf2cccf843d80196e8d5a547b84ae5"
+    },
+    {
+      "filename": "CougerWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.23856,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "9a1c397590ee220a30896a73f63b026db9577535d5792de554836686ad2cbdfb",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "ca4e6466c69ac4a4008c19bf9e57204ec5f72072fffd81528e6587808d61d059"
+    },
+    {
+      "filename": "CougerWL_Plt_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.17463,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "c29e37dc044118f6fa9a760defbef05040dc8cf56ffa6e4a08957ad59bc0d036",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "ad4c30694d3fb3112adaecf97b138dc7b209a5f981859563bbe58b0dfb692983"
+    },
+    {
+      "filename": "Couger_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.83395,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "33286adf39ecff12025c7192af29623f7a5e416c2c385d05839228c6e80d3ea7",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "f2304ec39d3ffc38abe2779c54ca19a8867a2f29e567e50b693042c025855c28"
+    },
+    {
+      "filename": "Couger_Plt_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 3.00329,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "09196dd0e602ed0e7806878a4d2d0cabaee7dc426739919c3e0cec9b9751bbe1",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "16a32715e82c97ca959c0296abd34b54a3437ed8024ebd49fdbc4fccf8048ad5"
+    },
+    {
+      "filename": "Endevr_Brdge_Off.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 3.27926,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "68fee4a6c4daa8887d3089db162fe475af6fa5a494575d366c2a2c219e1b1c80",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "7acd03b629d1fb2021300196f55acabc3d9b6e12c9cbbf59f9aac45414f2709f"
+    },
+    {
+      "filename": "Enq_RelBridge.fm8",
+      "frames": 46,
+      "palette_quantization_mae": 3.04854,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "140d27202b573d6948010d558c79abaff5f30a3bbce0d5810b960131cb739cd4",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "d227ba5ec85d4b58bc171688b657fc0f7f208227841594bf93a36ecdfa5e0d9d"
+    },
+    {
+      "filename": "Enq_RelBridge_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 4.20193,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "99c8a70ded83d610113a54913aa1e427583ca247e0399f217ff727be2fed7d7f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "73c82e4ef0e0b8d732eadbd793d0590fa14be9f4123eb73d5fb0daa852724418"
+    },
+    {
+      "filename": "Enq_YamBridge.fm8",
+      "frames": 46,
+      "palette_quantization_mae": 2.45025,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "bfae357f75bd24fea73d7feaeaa9cbd83331b93624b4d00cd84b331738712cde",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "025e70c0be29e949d20d5cff6dd0a633cb30ec1b18386ef6b7c88d17cfddfed7"
+    },
+    {
+      "filename": "Enriquez_Cockpit.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.07833,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "a0e5ca9a93bf4589198e461d1bc46b88ba54398139db599f0e49c0d16216a66c",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "a28e80970c3afb583b09dd76c5c18198b171a03cca090ae555cbf5098f62659a"
+    },
+    {
+      "filename": "Enriquez_Cockpit_D.fm8",
+      "frames": 19,
+      "palette_quantization_mae": 2.45711,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "bd2f98c2a69e2f8b8cfb4b80e142cf8aaec6b1a1ff12ef8aaf46f6d723551d53",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "2bc9860ac15b8be6f6814f8ae22fe07c82011cb5591ad0424290c9b62532aa0e"
+    },
+    {
+      "filename": "Enriquez_Cockpit_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.14581,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "e6260c04c2b534697514c6f632b74f99c5317fa453b25c209c0bdc2bcca119d3",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "7e0b882aa77db704bd9c688abfe3587a85db75d8558bb325b44b39b16631d67a"
+    },
+    {
+      "filename": "FOSTDED.FM8",
+      "frames": 16,
+      "palette_quantization_mae": 2.26737,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "cfe19b1f2c2c7f51170626f99716c3c40bd16681b5bf264aed94ce171ab7ac1b",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "4ddc67bc8e067c38af3686e99e8546664ac78e4ba973581692b8dca0904cdb5c"
+    },
+    {
+      "filename": "FrtBear_Comms.fm8",
+      "frames": 46,
+      "palette_quantization_mae": 2.4005,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "41bd72229d93d9b88c21939582edfa0f22b4c9f4430bed0d857d4a3d99b12130",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "0f2e65039c6b8b1b54980e4056447e2a2e50491c260ca83eec5c50473864b1b7"
+    },
+    {
+      "filename": "FrtBear_Comms_D.fm8",
+      "frames": 15,
+      "palette_quantization_mae": 2.65701,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "f8721069319b5a3055126939b8179815027fb51a5ee185e420a84bae583a2ca4",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "4fc75d64e260345eba6ce5569fb2bbbb69ab8213a90f9b1eb105ada20b31478f"
+    },
+    {
+      "filename": "FrtBxtr_Comms.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.80818,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "89b36d5f47996442c9b0305d2c9648ddf656c6f33646df2b704989ce6ad6d52d",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b2b7d9ff114d7d2ca587bf383b6abc7d51088f0d31bb2456798179101fb45be9"
+    },
+    {
+      "filename": "FrtBxtr_Comms_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 1.41569,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "04df37bbb41b790e57b8eba0a57d2961a97f7c0d03f7363725092ae4c7b3f731",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5051eff986be760fbe1731e7e0f2b31736a0eb8f8d8ea478bedf4df90baa75ea"
+    },
+    {
+      "filename": "GAMMADEA.FM8",
+      "frames": 11,
+      "palette_quantization_mae": 1.89614,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "611eac98bc17a9b9864e7285368067c89111b89efd66e1333f6c6c2d2418f035",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "bc042320984104793812a08bbc569fa9fca5cffda21d714a2f89f3c4790ebaa7"
+    },
+    {
+      "filename": "GAMMAP.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.33164,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "0bdd896531f13de9b64379d1a4a6e924546adabb4986e005326259ab9c925dbe",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "8d8f7b1262feb435fe4254cc91405d016adf8c801c93abc6d464f28872f8673a"
+    },
+    {
+      "filename": "Gamma_Ldr.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.33164,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "0bdd896531f13de9b64379d1a4a6e924546adabb4986e005326259ab9c925dbe",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "8d8f7b1262feb435fe4254cc91405d016adf8c801c93abc6d464f28872f8673a"
+    },
+    {
+      "filename": "Gamma_Ldr_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.42494,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "cfaf4cd24b60adb6292a0a09c6039064f9f0e51e0d946ec7859526281470f136",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "14548134e42fc5b99871a53f8b03ff1e94e3a897532d97a4618b243a93cecb39"
+    },
+    {
+      "filename": "Gen_Reese_Pod.fm8",
+      "frames": 31,
+      "palette_quantization_mae": 1.55033,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "9212c8dd1f3cbf630bda7b15a40eceee0f20b141b68970ff70c050a552b15d6a",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "169745bb53be1f5a6fc977d98d18cc252d5db4831fb454adad73ac11ce0b0e7c"
+    },
+    {
+      "filename": "Gen_Reese_Pod_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.35131,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "0d60ce62901cee62d7960fac39f4dc07adab12812d96ba8566beebca7cac0e98",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "a0a5445c9accf68ce3a1abf5372ed5bd8d693e6befb9bf0b24a5a4cd460010be"
+    },
+    {
+      "filename": "GoldWarr_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.0534,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "3c77fcd16428f4be424ba8c592276368224384423ab9a85033c2b21fbaddbe46",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5cd2044b48ad4a4220c7d752ffc6d24a3e308fbec1dabb6ee0229bba7c98b713"
+    },
+    {
+      "filename": "GoldWarr_Plt_D.fm8",
+      "frames": 15,
+      "palette_quantization_mae": 3.49482,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "2782377adbb83e4efdb2eb1225c308a6f89a4c447a46d4a6a3ed1f909e04efe2",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "09086375ce8f1a29c9a6cbe987ea870b1ec01263bbce3ba61bba74f751a1e830"
+    },
+    {
+      "filename": "HellcatWL.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.07433,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "c57da3bc5c14b2fa4bc7142b1bac051301ac9f39e2efcbe56e10eb7574a73783",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5a4920b85cc8d7f9767ff2bb8b405be4031b2605047f3378d6b72e9d8c7b1428"
+    },
+    {
+      "filename": "HellcatWL_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.80418,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "8780c9c3ae609b9e237a400fa73dc78eb221ee290b46feccafac161d4dae52dc",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b5eecc26c12f06548eccdee56f4e15835ad404996d6368198f2773a677ef54f0"
+    },
+    {
+      "filename": "Hellcat_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.76912,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "3a1cb0b228e68e06e2b153075c625a34933190c93180326c5605b7290068420c",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "e47c3332f87a35824611ef221cd2c4fc2caf16123c7265eb03d4d76013b028e6"
+    },
+    {
+      "filename": "Hellcat_Plt_d.fm8",
+      "frames": 11,
+      "palette_quantization_mae": 2.36093,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "41f173b56c8ea5fede4dbe2e767dc335770bffc2b7553bc8221a0b38f2765b98",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "d03fdafbfad63f03eed8855edeff404b0b571abc69dd497a301331ac9812a3b2"
+    },
+    {
+      "filename": "Hornet_Plt.fm8",
+      "frames": 60,
+      "palette_quantization_mae": 1.42479,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "1cb88ceecfe4a7f9fd2ea746ddbc1d2b8019f75ecba4ab56d68671705fbdd586",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "2b111934c8fb0b982e7dda10218c07fe9c8ed3a5ebb04133a80ca07014b8f208"
+    },
+    {
+      "filename": "Hornet_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.48076,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "1422a4e756fc26204095590629db40317d58b31a4e3ddb63fc14b7ad204282dc",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "040877dea9e32a8bf9ce68fe44766aa36908ef9a35db1ace22673878c49709e5"
+    },
+    {
+      "filename": "JAckelWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.33094,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "47877e51ee7fef3515fe73fe20f8e1dde181811e08bf19d8ba390db84dd38d37",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "641ca161f19655afb62fa7dc4749fddacd16fed2b14becd8f625611cf3b1babe"
+    },
+    {
+      "filename": "JackelWL_Plt_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 3.01165,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "8435ff07fde8053f2772ef4d47ebbf56927d307550d63342f048633dc879a9de",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "d953070daee19fceb204a2ba16cc7f5ec2d42180da7f69df8a377214cd09e23c"
+    },
+    {
+      "filename": "JackelWL_Plt_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.27813,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "7893825c9afca59f456fc21a4745da0edade1190746d8ecf50bc83706465721f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "e4ebfd681a2908e883cfeca5eefd5d549fc67bfa27035a6dcd5abef3377d9d13"
+    },
+    {
+      "filename": "Jackel_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.70715,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "21cdac13c7a7e8d2334b58d74031a07bb20ee8e50e37421317a119174f5b52e7",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "24e290335811b9dbe0cf69108a60960230da2203bf007c0afa937c4a6ea472ba"
+    },
+    {
+      "filename": "Jackel_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.27813,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "7893825c9afca59f456fc21a4745da0edade1190746d8ecf50bc83706465721f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "e4ebfd681a2908e883cfeca5eefd5d549fc67bfa27035a6dcd5abef3377d9d13"
+    },
+    {
+      "filename": "JaguarWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.70942,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "5cfb52a23064bd128ed14840d9ea99d83fd58f85ce9dd9df99c84f588b11bd27",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c024dc5ab95ab56435048da5b20795219855c30de9d887f837c372fecee5b44d"
+    },
+    {
+      "filename": "JaguarWL_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.58637,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "6f59972a63a23df77b76c90d2f0214b54c7e001e333ea6278bd50b43ceb6af6f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5c0cba3d0010b9e20d28b7faa079934021eaa6d7a7c10d2e86e48176b9f2dd98"
+    },
+    {
+      "filename": "Jaguar_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.81224,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "c3abcf42a9faf4fa063a348468bca17fd9686c0a0b778b0ea8c09e0125cfec77",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "1d412337a891ec5f8fb14c5b766d5b81e67b31a9d7474691288adf37ca387753"
+    },
+    {
+      "filename": "Jaguar_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.58637,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "6f59972a63a23df77b76c90d2f0214b54c7e001e333ea6278bd50b43ceb6af6f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5c0cba3d0010b9e20d28b7faa079934021eaa6d7a7c10d2e86e48176b9f2dd98"
+    },
+    {
+      "filename": "KestrlCmmnd_Comms.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.3064,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "6a986fea3d20444de357cef2466ef37e7ed2ac373e104c540ab24eaaad8a0269",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "83d1191702e4dd2251f482fff580e51b4cac9565c94ecbb27a3070738c668bda"
+    },
+    {
+      "filename": "KestrlCmmnd_Comms_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.66858,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "31e26bb1b000d10b352c3f7ff567bf7d87cc1972876fa231f8269e8b72cb1764",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "0ac11c007f085de218f24a86d0bbde24db0e51f2975addb7ffa884c3a52439cd"
+    },
+    {
+      "filename": "Koenig_Brdge_off.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 2.03689,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "0682b15bd10960dfe6c1fa84936dbf34e2c471a05c5e1b08dd0a282d945ca40b",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "1086189860319648f79aa53dbaa25636af60c781e8425d6f902cc06736b39b28"
+    },
+    {
+      "filename": "Kstrl_Brge_Off.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 2.1561,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "db8ec884357a8c2f1c75b44e8050f0b53c6f937ab03f6c39c50c7d83e34453c8",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "ae3ba9b0c33d2d911fe52a37afd23aa09182775d4174708cecaa93eb332a90aa"
+    },
+    {
+      "filename": "Kulov_Borodin.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.56732,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "770e6c5dac722ba65f43e1e28f24d32c01f41d1559e8e5ba4580c61b8e64c37d",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "92d4fe8523e64155a8ec9e593b0d3d38523de48a2cd1ade9be2b8250a12a814e"
+    },
+    {
+      "filename": "Kulov_Borodin_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.0029,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "c322430e2ad456804625e23cb22d0ccd865ca397097d2faa8be1e9276a778f70",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b34f73a25b74aeff07c4bccc18ef41952d7051d45d30b7e4099a36948b440e2c"
+    },
+    {
+      "filename": "Kulov_Pod.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.56399,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "f900545dac8fec5121953d423f071032da040cb3821c99e99a95f834483ebe0d",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5fde62e95ed9f6c3e95821ebf8a1ec0649a9e51ac4382694d218e6e702eb2968"
+    },
+    {
+      "filename": "Kulov_Pod_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.59048,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "828db0d8e589b89ed61b7ea9235823a687ce99837717f99915b8224055148202",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c87fdab6232653930996353acf08b8b3375844f1eb4d24fa33e23f4d131140ea"
+    },
+    {
+      "filename": "Lonestar_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.26667,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "73f9ba536544763ceead4a4aeaff27700d78d363045da1895fb7f3bf56e34393",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "e69c896f2adf362bcb788758461da44dcf63204a7eb6349b9fca7b18c0d5e488"
+    },
+    {
+      "filename": "Lonestar_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 1.641,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "39ca379e42a46454dea4c653bf2af646e8e8051b81413a0b011b12bea0a23fdf",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "cdde19dda07261411215a6944505c6b4ed16a5183ff19c04b2e5154465af0e65"
+    },
+    {
+      "filename": "Lonestar_Plt_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.19184,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "a648e960372a76878f6be29a88fadc3b93841e16a929ac439d06a2c25ac3967e",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "989074953e51f90682b49324a83f73513ffd80129ef4783ab374e48401ca5835"
+    },
+    {
+      "filename": "MCGALOOK.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 3.74323,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "9295569e4f997a2108f84ec4ceff7e49efe45d8137ed933d37a677fd38a2b976",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "e8b2e2002c80fbce29c0f49b66b7713ac60f3de7d02fc2d3659856e73a58823d"
+    },
+    {
+      "filename": "MCGANNNO.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 2.7596,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "5825336c6ca527d70acd8b88f031673af288aca31ac65fa2018766be2eec53a5",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "3c5987a96ba12bdcfed4541f769e12e592934406ea5f1e6141cb353fe4b13231"
+    },
+    {
+      "filename": "MCGDEATH.FM8",
+      "frames": 16,
+      "palette_quantization_mae": 2.88393,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "7e836aa902fd09f84a245653462e30644d55870237562850a59bb9d9ce344a6a",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "0eb7972ad091ea335997311b8bc319bf195d4d6c0c16474749da385ceb27af2e"
+    },
+    {
+      "filename": "Mammoth_Plt_01.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.00109,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "45a616a12689072fad5512397821c433ebc2abe8850075fc214b5a26d04d5e8f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "788721e5fe524d5c8d01ce44f1e8abe791fd6204e178be50e6514f88285702bf"
+    },
+    {
+      "filename": "Mammoth_Plt_01_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 1.8562,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "dfc52918b0ee4cf80b5b5dd4d9a32aa7e4d59f2da35fc250b2ebad0d344e7eb3",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "9220097c910c1ed17d34ea1ba9ecd6744160f5886e9fdb32289b6467edb78ec8"
+    },
+    {
+      "filename": "Mammoth_Plt_02.fm8",
+      "frames": 60,
+      "palette_quantization_mae": 1.39133,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "09efd0d0bddfb829410f21a4ba75d2ecbb05731ebabaacf6d2a10cbb28d14680",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b08092597f617b938e4d2b6364534076015b2dfa8a783684fe4025ab1c0541c2"
+    },
+    {
+      "filename": "Mammoth_Plt_02_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 1.8562,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "dfc52918b0ee4cf80b5b5dd4d9a32aa7e4d59f2da35fc250b2ebad0d344e7eb3",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "9220097c910c1ed17d34ea1ba9ecd6744160f5886e9fdb32289b6467edb78ec8"
+    },
+    {
+      "filename": "Mammoth_Plt_03.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.76315,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "f3fe4ec6d3f55d29f372dec9c3c06106330a69da26f48fcbb1ba4244ab7b1f2d",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b3e7b29c04377a43d401ac6e7588bae843e1c620a406feca5a5bece162cf1ee8"
+    },
+    {
+      "filename": "Mammoth_Plt_03_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.96294,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "ba89e075c54230f93358145b2fcf153b6c073c098638fd6601b06ce70cc4f171",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "08e6cabea9eff1ec1ce2686d0727ecb3e176856afcafdf39bf01e3f5f5ad9497"
+    },
+    {
+      "filename": "Mammoth_Plt_04.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.35472,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "90a4bcbc64de280f8e699f250b5ee25bc6946515d51d7daf9ac1174b56de675b",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "76d907ddbe362d1acddc50b26a172fdfdcc0f3b0596f8840638b9b1a2200b957"
+    },
+    {
+      "filename": "Mammoth_Plt_04_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.96294,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "ba89e075c54230f93358145b2fcf153b6c073c098638fd6601b06ce70cc4f171",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "08e6cabea9eff1ec1ce2686d0727ecb3e176856afcafdf39bf01e3f5f5ad9497"
+    },
+    {
+      "filename": "MarauderWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.87004,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "7d90c7ae92ab3cfa6a860fcacfe298edc8bb5564e770d03bfabeead73d43ae92",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "a34c68ca847e537ff652222343774e6f3ae71359f176854e9a664f882c323ed8"
+    },
+    {
+      "filename": "MarauderWL_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.60323,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "9c10db4ea2ea8ccd411418f8553d92746fd7cf0c4e96fe14687537ec456b1a1b",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "cc98ca1b614ea6663aa22452a62ec3a93b2633ebb6a53aeeb002a21e6b12a5be"
+    },
+    {
+      "filename": "Marauders_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.58113,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "5868441fd6fc635bc0fd7f95d96a614ca234cf9f40e8fce1f85e4b7e92aa3886",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c558701539170f26ba54c6327e1655c949119f7d5b8f8130a8017a0f970d498c"
+    },
+    {
+      "filename": "Marauders_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.5069,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "ba3cc38887b888cf73c868214c9806f422333da6bc970154e730d8f6c7f4fe91",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "7444e94bf4c2a49b886845a02707af15badc54963ec63fcf999974ce8c030045"
+    },
+    {
+      "filename": "Marine_Combat.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 2.08087,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "71607aa4727758151bf8786396075e929dbe29de0971968f279dd4db3927a1f2",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "9fd72fa08109da79540712ba5a56b83b360da43c8e813683f1dcc19fa29567c3"
+    },
+    {
+      "filename": "Marine_Leader.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.62791,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "38cceaed7f721ce281dc34eefd8cbd7f50c5e542788b48ad3dc276468cc02bd5",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "8612788f111a05858ab76e7445bbbbcb5042ba996c50d96a0854f18ce4410547"
+    },
+    {
+      "filename": "Mauler_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.70669,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "17c2b91f742091e74a35854694a401ee41fa37ef28ad0f3e377b7d3aceabe65e",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "259c13f45cb3f9072ccfd06af1759248cd31e1def78e88ed18baac2d814112ca"
+    },
+    {
+      "filename": "Mauler_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.61364,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "7f3d43e3b6b8f04709355c64b6956144572a9c419f15454b06b3ed84f44a75e9",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "ed3890e88d283de25eba976944787afe8f52b9c43bc06e6d82348ea1f438eb8a"
+    },
+    {
+      "filename": "Mitchel_Brdge_Off.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.59527,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "fa1559903d81fd4b40f0c22a46dc1752337b82007bff7ec31db3c1594d7c5728",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "59e9b47a60891a976a70266e3b1941cc0cafec33e03dd26fa98825b6ecb8b8a5"
+    },
+    {
+      "filename": "Mtchel_Brdge_Off_D.fm8",
+      "frames": 32,
+      "palette_quantization_mae": 2.38727,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "87dabd3b579b10656acfa3728af8fbcf7def4f3f443b270550cef668ff460266",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "021b3ea52fd1280146cf85a09714e8119d7673a4ecb5dbfa2340f3d8d129f883"
+    },
+    {
+      "filename": "NANNYD.FM8",
+      "frames": 20,
+      "palette_quantization_mae": 1.82679,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "c152ac4264c23192e7abbb23e1460f6199aca6ff3f314b629b6b4979dbbc99dd",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "bb130f9a887c3804f4b9e2969628edc8c191efe48ec20562e2eba5dcc4a43335"
+    },
+    {
+      "filename": "NANNYL.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 0.95385,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "254541f1e7ab94ccc082221065856b7df785f71ef5d0ad01c13db6a70677d60a",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "95d01f1b83d182827e369c4aab896efd3249af3d9a8e4261d3274531498004e4"
+    },
+    {
+      "filename": "Nanny_Ldr.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 0.83805,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "7c3a533be46842c1819e0e91aeeb10189570519b20c8140da9d88987253470bc",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "d67ad19535d2b9d2d1de8988e9b86f96368d25cabfb50713b446409d9c9bc501"
+    },
+    {
+      "filename": "Nanny_Ldr_D.fm8",
+      "frames": 20,
+      "palette_quantization_mae": 1.82679,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "c152ac4264c23192e7abbb23e1460f6199aca6ff3f314b629b6b4979dbbc99dd",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "bb130f9a887c3804f4b9e2969628edc8c191efe48ec20562e2eba5dcc4a43335"
+    },
+    {
+      "filename": "Nanny_Ldr_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 0.95385,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "254541f1e7ab94ccc082221065856b7df785f71ef5d0ad01c13db6a70677d60a",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "95d01f1b83d182827e369c4aab896efd3249af3d9a8e4261d3274531498004e4"
+    },
+    {
+      "filename": "PROWLD.FM8",
+      "frames": 11,
+      "palette_quantization_mae": 2.59414,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "d9a92216ae2e244a487dea7f9c627a31c7c04e1d24b1a2a56f925c2a953a4f59",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5337478ac1f54b743311d9d862370bf6f7b06228a765ea562843533e6d8ed251"
+    },
+    {
+      "filename": "PROWLP.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.90564,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b4c75c030908ec08945741ebafeade1df5b9cbc1109587444cc06f88ed3eb1a8",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "d3286e2336c53c2a9a4b849b501a78e0f86c316872bacff1719a8dbcdcf4b0e1"
+    },
+    {
+      "filename": "PUMAG.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.03934,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "599ef65955adc53a8af8ca198dc8cd9f430788300140253bd8627738a8f75f6c",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "359648c0dbe160776552faea7f2bbcd75eeabacb1ed5c3181189a51ba236f6ab"
+    },
+    {
+      "filename": "PUMATANG.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.2213,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "a21615775b717f9620563c98ca5773517dfbf4c91443651c09d1eec34b6cb1d2",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "a90f616a91a3a1066d58ddb0105d2ee0330175d743b56cc8c30e46def58a1daf"
+    },
+    {
+      "filename": "PUMATANL.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.66591,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "39d54fec57b7da1cbb7198e8e034829f16bcf2507473b21d1d4d6f8ef4834f49",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "a5342bdb769fa5561f1d9206cba8562724b81659cc7185f76672a3a03369e0c2"
+    },
+    {
+      "filename": "PirateWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.44474,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "d0f52d395d535f050fd5273280e05d04121236b53e0730102fd8e15ffe2fbb95",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "bcd261fb7deb66bdd3141c32b701e39d28ce18dffb3c3a72f0e85a866db9f53c"
+    },
+    {
+      "filename": "PirateWL_Plt_D.fm8",
+      "frames": 11,
+      "palette_quantization_mae": 1.98439,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "5306543f5077197c4ef12e082b9072eede31adfe0e299c6b9e3966f1f08c8fac",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "1d98f4e13870751e840d01a5e3a0b263fa8d8d0b9524c85c4295a5040c83db31"
+    },
+    {
+      "filename": "PirateWL_Plt_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.2465,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "ce961122f84407ca21865e34dbcdfadaedd6a4a73cea5ace5f54dfcc844de2a7",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "a95b2e8689c971ccbddad25f39fbc281739d0fcd7fd45074cecbca16a9c6c04c"
+    },
+    {
+      "filename": "Pirate_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.03122,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b9229a62d609af8aec9b40e7093de6413697d0daf9c08b5521664b2eea611d15",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "62c4a1a8cc835686e816d8919df011a2dbd765f88d3c251ebd6062852a80915e"
+    },
+    {
+      "filename": "Pirate_Plt_D.fm8",
+      "frames": 11,
+      "palette_quantization_mae": 1.98439,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "5306543f5077197c4ef12e082b9072eede31adfe0e299c6b9e3966f1f08c8fac",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "1d98f4e13870751e840d01a5e3a0b263fa8d8d0b9524c85c4295a5040c83db31"
+    },
+    {
+      "filename": "Prowler_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.90564,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b4c75c030908ec08945741ebafeade1df5b9cbc1109587444cc06f88ed3eb1a8",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "d3286e2336c53c2a9a4b849b501a78e0f86c316872bacff1719a8dbcdcf4b0e1"
+    },
+    {
+      "filename": "Prowler_Plt_D.fm8",
+      "frames": 11,
+      "palette_quantization_mae": 2.59414,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "d9a92216ae2e244a487dea7f9c627a31c7c04e1d24b1a2a56f925c2a953a4f59",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5337478ac1f54b743311d9d862370bf6f7b06228a765ea562843533e6d8ed251"
+    },
+    {
+      "filename": "Pukov_Cap.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.71251,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "42639d53143aae9c9c561b5b7a7939fe33c4f2035dd98d2105d874d3661b1927",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "1b57de002e94481cf9eb628cbb2cb817ad89eb38abac2a6236b469ec790dd269"
+    },
+    {
+      "filename": "Pukov_Cap_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.44983,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "5608312c4ea3666c7a38028b39f09eb66a28a6dcbf2d6b3f8a53f80e71a9332a",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b24bd772ad3d786e0649dc514149dfc4031d52a257a2a3d740aded153303d4be"
+    },
+    {
+      "filename": "PumaWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.58914,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "074d8b429ff1063878cdf3e741474b6e06e3f6aa5a516cdcf1e4895940a0504f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "8cfaff976afcc723cb9101e0e6500da22e1712989be7e081930b642745bd71d1"
+    },
+    {
+      "filename": "PumaWL_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.87006,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "4e8df52f0025f5056e592c284009d283114456e88913678199fd22a15ff3faf9",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "1bcde14708edae88c8a9d1583d0301a9c626ed4b667b287bdb2b5f58d13d5d44"
+    },
+    {
+      "filename": "PumaWL_Plt_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.85046,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "2d30083b01db2a4cc070271a6b75b5a478134d1836fc95ba4a0fd0b8e037abe8",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "fadc17008a525e4538a3f57c0dc914666c8f753cb26a739bebd0cfef1c4072c5"
+    },
+    {
+      "filename": "Puma_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.77281,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "84f145d28ea2404033d79df262fb6e9c8f0c72bff5d3031a41f5decbcbc0d29f",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "7deaf28a8efac32b708dc235cf74e2d83ad32baf24dd71b016b71105ecc41358"
+    },
+    {
+      "filename": "Puma_Plt_D.fm8",
+      "frames": 11,
+      "palette_quantization_mae": 2.61885,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "e62cdd0b2cb7b72b8fa88b2375b44ddec3f97b277df4966d8d636f856ccfed85",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "653626aff1692d7629d7e6ec9e62dd92c1f5864e448df48e6cab3b1d71f34624"
+    },
+    {
+      "filename": "RUSSBOMB.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.69547,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "8c37ddceb3fa154aaeb395975dbe7deab963cecbf73e91ddc036d03b548f7e59",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "fbcf4dc79a8e927dc93db0a11c4665676127d7ea9e070f439497f9751f2a3f18"
+    },
+    {
+      "filename": "RavenWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.32676,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "1fd74184c4b5a95fec7c5ee8f87e07162ca045d221a87391fbda2b176c0a3654",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "2560be6304556dbe86f75a39018d1e530f592105a810963be1aa9085b441c6d7"
+    },
+    {
+      "filename": "RavenWL_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 4.00925,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "d67044af6f7203d177915771e8d384d2a51a5e61b9670aeeff0efea9906c7e74",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "dabe2e0456e6d07be9425f2bee37ee373ff3af44f7dffa3e9b8bf6ba84b70517"
+    },
+    {
+      "filename": "Raven_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.38974,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "33113b23d221a94f47826a821787954fcb703cf80d824d8781953ba96bd8affe",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "13fbd61590ff97b4bde5be9e527ee3a167cb9df4f72608a6e3a6ce11a7ac2f84"
+    },
+    {
+      "filename": "Raven_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 4.00925,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "d67044af6f7203d177915771e8d384d2a51a5e61b9670aeeff0efea9906c7e74",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "dabe2e0456e6d07be9425f2bee37ee373ff3af44f7dffa3e9b8bf6ba84b70517"
+    },
+    {
+      "filename": "Rel_Brdge_Off.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.45478,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "378d337aa06b2d59234487de37f030e30aafd95ef123ff7f7a035d9a4ea19ad3",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b6b7507ac37283fc088d36fdfa14f994e6d37140a06c0d0bfcb4ade193ced629"
+    },
+    {
+      "filename": "Rel_Brdge_Off_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.27091,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "664d9934ae901553ab9a6a06d06aad3d9f3c5257562c11a39875a7bd343469d1",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "763bb0ed4c50d8072b3c328d8098c228fe8f3858c930ad8e086e2005a9030acd"
+    },
+    {
+      "filename": "Ripper_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 0.93187,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "6fff00af059ff681d1a472f55edaaea9726332ab199c0938ee7d9331dfd7572a",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "9e52450ebc1b77595a884069bd71328c4f71bde10306f5a8972f577ac763c7f4"
+    },
+    {
+      "filename": "Ripper_Plt_D.fm8",
+      "frames": 11,
+      "palette_quantization_mae": 3.1574,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "7852b240a2cef68133455388801a91babb5584bd3643e0c3b5747f6fb133c814",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b2f78273d2f6c7997f16473e064d7643e05bfa1d82910e7f8686546c9246a458"
+    },
+    {
+      "filename": "RoninWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.58592,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "44c4a4b7a2566ce0404ebf8260fa70e7ff300d610b9fd8c823a185a4ab6f4c20",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "f050f4b679d809edf4f75e34e524710bd7a8ab3e7eaa02dfe005372e931f6537"
+    },
+    {
+      "filename": "RoninWL_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.89358,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "1b2f26291271621bf4b9a8c0d9f593d427672c308a5d8b71113d38295821d9d4",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "26d97584dc2b4583a1daa92df7e902c661e2f3addf6509a91f2943c06e3c8960"
+    },
+    {
+      "filename": "RoninWL_Plt_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.45476,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "050df437808125fe854398d22fac930f9542601249a1fecdc3e794fe9e9c98d8",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "9e310d2ff169faf5528f8f0a953585e42a019a433c288ded7de8fcccea1738e5"
+    },
+    {
+      "filename": "Ronin_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 0.83347,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b9940f037a831c6585bcee21fc937b8ca70e3ade03cbac01f96c4a49b24a54f6",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c13e3902429ac132976fc0682720d9907b077ea3c7f90c230d80c58c4b71af19"
+    },
+    {
+      "filename": "Ronin_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.71225,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "141fe3026923b348211aaa045aa770077d414a7f62c80c548496e1c2454888c1",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "ee797c48b01dbece8555e92f498361eeb2da959cbac097923073c354e4c54da7"
+    },
+    {
+      "filename": "STEINP.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.37584,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "321558540752f25013082b50bba10c478eb553e1cce2615fc8620160b6155e0d",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "a2154c5c3039dc2bca10ce4e85c9c02ec88ab7cce915b1cbe025f3d62263cbbd"
+    },
+    {
+      "filename": "STINGWL.FM8",
+      "frames": 61,
+      "palette_quantization_mae": 1.35998,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "78b1f0858bb56d04e71fcb622b2b6e767fffa00883a7f3195eff1421c713ea35",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "2dc4cd64c91d5603125d5645ec2adb218f2786d3e84929be76d510a40779fc59"
+    },
+    {
+      "filename": "SabreWL_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.16934,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "7a71b286807faf3286cd62c3ebebe5293b0dd27f92e5047b7a67f6174401cad7",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "2690e2eed01a42ff3a3b255666d55814676d424d54515be941d3584fe21cbe4d"
+    },
+    {
+      "filename": "SabreWL_plt_.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.79204,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "76a708ef3fe9b470ee84b33f6b53d324602490358a0c6a8ecbb592beffef78b9",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "2e6399df8b3f1d7815f85a7ff07887cb164701d817a512e439994202d238ce80"
+    },
+    {
+      "filename": "Sabre_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.17567,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "88d5e37a5412ac559e41b4c6f64d7869f7d5ed1d04336e236279a34d783208f5",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "738f5e2fdca73fbe64064db31c3f6ac34a7a33972fcef5ec06c5ef340ed40952"
+    },
+    {
+      "filename": "Sabre_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.92123,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "788380b9aa713b6633341ca99ca04a5e129ea71f23fdd4a4de07eec98b4af3c0",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "74ea1a14785d50fb1521232f405e3a9a69c322a784f9bfaa3b1602c2dfdf234c"
+    },
+    {
+      "filename": "SaracenWL_Plt.fm8",
+      "frames": 81,
+      "palette_quantization_mae": 1.36151,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "a54103f67e7d9cdc8dc0de81a6603d90beb2d51b22e4c35620fd3a8c7122f60c",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b439ae447ed8d68719287a12ca55de39def4150f149e1d17d8459387eede7ec6"
+    },
+    {
+      "filename": "SaracenWL_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 1.41569,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "04df37bbb41b790e57b8eba0a57d2961a97f7c0d03f7363725092ae4c7b3f731",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5051eff986be760fbe1731e7e0f2b31736a0eb8f8d8ea478bedf4df90baa75ea"
+    },
+    {
+      "filename": "Saracen_Plt.fm8",
+      "frames": 46,
+      "palette_quantization_mae": 1.78582,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "ea22b42bad7d5eb9d238a77e382973e1297e14be8e9d4e53fa3ea8652059b1b8",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5ee3d423624f58e79a1f81113df0f9d32b09f4395edf9e823860adbebc91f048"
+    },
+    {
+      "filename": "Saracen_Plt_D.fm8",
+      "frames": 27,
+      "palette_quantization_mae": 2.16823,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "c099f7b5871851377daeb4f1376e7fcdf192c3e20da9584aa7b4ba87563196ca",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "26349162977a99ef19a5958a8a07291bdef82628c7ddd234712a985b0ff28b96"
+    },
+    {
+      "filename": "ScorpionWL_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.37564,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "3b517ed7447d7287c368bcb0a5445a79de4054ec7e98892042da59171e5da6f4",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b5c4eda68fc2b8d8097f4e78bfbf9f2808a5e0fb2595572c4d2e60c336dcfadc"
+    },
+    {
+      "filename": "ScorpionWL_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.1253,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "f3e3f1985ee6b58ef915eaccefb0c91f52cdfe97b0d2effea0956d0cd05629a7",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "8a33c47f25ccde88639c3c4274641be26602dd19335450ab627108ac388f7b81"
+    },
+    {
+      "filename": "Scorpion_Plt.fm8",
+      "frames": 46,
+      "palette_quantization_mae": 2.40295,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b26accd5324c482032d79fbfa4819bb2f6438e9adbcd44d58bc99ee60abe7095",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c381720f3ab29a449648fa4f661fee6d72a11897cf7fef87218e417a0831642d"
+    },
+    {
+      "filename": "Scorpion_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.15446,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "e1e04348500556852a7ba371f6a6beff630feb8ce621130a68c9df88bfaed17e",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "36b674b7d5f9b3aad906a5499a98a90cd2a835280427cf73c35fa6624beec49e"
+    },
+    {
+      "filename": "Stahl_BrdShip.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.54574,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "6474c3938971e81dff025ec45b5325f7e5543a9c9efcd3288b6a9b474b520702",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "6cf6b4d3b13035850f0a984116ce5e7444a0e4422ab653e9a48258ec24a48d29"
+    },
+    {
+      "filename": "Stahl_Marines.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.37139,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "201d534dc2f71b481bf2752ba5053ae1ebd9e8015c7cffd0fa02e836fecb4a5a",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "2628d4f56b7d3c2292904bebce449f83a029df87d6ea66d497475d45ae3a4a25"
+    },
+    {
+      "filename": "Stahl_RippShip.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.58544,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "7968ce3d1aa3d37eda9d91e8d6c72469df7c9412f02178f51e0600d3b62bdd04",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "e801524d31187e9123237502d02a65356bf6eb8ea4eec27c172b377d7e7bb223"
+    },
+    {
+      "filename": "Stahl_RippShip_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 4.01666,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "9d5ca96f8af72e6bab84cda0cb7c0041e4efcbf7368deaff4e3d5fe3e18a6619",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "dceb66eae8f024aff55ddac99b6a4e79ef39204d453e639e78d3560a469bd2cc"
+    },
+    {
+      "filename": "Stahl_RippShip_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.99246,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "0ce38f21235c626c08b7d2e93cee44b0b8453cef9553b6269db2e2e5417fccc7",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c16b3b47c6a374a1ded86a065c39749f700bb0d49cd11ad5fa829cc8f3721b11"
+    },
+    {
+      "filename": "Stiener_Ejected.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.60524,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "a05c4592596c200804f25ee17cfbbacd9ea2b729dd5b2b397297ffa575f5bf62",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "d8fa45c8a36aa661c8581e8b6c4e153c16a70c58fd9bbac50c2f543958736b39"
+    },
+    {
+      "filename": "Stiener_Ejected_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 4.02132,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "05a879371a63d325039e073b7a95f35bf5a73012e558d3a320f696636ee3a277",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "e02a67ad4337c3003fe8563d54271f4ccc0eb7c30cff4cea81695f1806d88570"
+    },
+    {
+      "filename": "StingerWL_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.11677,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "9c0c56a805f3b29a31dd5f12e27af2f608f82673691cdc5901f118abc005b345",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "fa248fe24633c0a5644a2e984bda4094ab68ee08ef23c3a32baee8f8e2727aa6"
+    },
+    {
+      "filename": "StingerWL_Plt_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.4026,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "6e179983566e60962e30b44162ee53ac3333ae282aac0abcb9eaa58a3d066732",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "0eac9c2612e71bf5190ba85dee48b1d6de8c99ef6b436dc5ed705bdda7bfb41f"
+    },
+    {
+      "filename": "Stinger_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.23722,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "91481cc3f13ee05b3c8e6945f8fb1aa7a93b740d881844d1ede5f909e14650f8",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "190f061f73dfef7b656490fe2743bbd91d21b5091c713d432dd74f494d7854c3"
+    },
+    {
+      "filename": "Stinger_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.28468,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "57a4dd282c60d28325e3264b11c80e98e705178e9e594bac8b29fd825f960dad",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "4390bfd9eb80bd9c19b3bf5cdaf65e5372d7398e7c3877c7b6a82b2bb7256e48"
+    },
+    {
+      "filename": "Stork_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.04256,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "44770ac0d953f5a34fee2c82abc4051895419fdb2e058c6b2a14d9c99d5b1c59",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "1cf23575c12e8521982f1faf3e4e2117084e9b12bee6e2bd317e653d41ce6d43"
+    },
+    {
+      "filename": "Stork_Plt_D.fm8",
+      "frames": 11,
+      "palette_quantization_mae": 1.73495,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "040f1612f70f6f8e7cf5097569ffef65413a904118ecf7d503555b366876c679",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "1a4422e6dd9797fc006698fc55a93c32659bda77525f47880b37766eaeae52c5"
+    },
+    {
+      "filename": "ULYCAPD.FM8",
+      "frames": 26,
+      "palette_quantization_mae": 2.69684,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "70bd85fb3a44e58eed4f49a84aa678cda128fef24aeff33a99cde53585eda8e0",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "3ae69434aa9fefc16e9b2754b5456ada03342a43e9d0826fe53ff13f93849e98"
+    },
+    {
+      "filename": "Ullys_Capt.fm8",
+      "frames": 41,
+      "palette_quantization_mae": 2.16917,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "c04db54bdea4e53da05b0abe1bad9841099e68d77759f7541963d103acb84cd1",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "7a7ec5abf63d9b70d52b147ce547d413569b353edab3ea79240316d64359415c"
+    },
+    {
+      "filename": "Ullys_Capt_Panic.fm8",
+      "frames": 26,
+      "palette_quantization_mae": 2.69684,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "70bd85fb3a44e58eed4f49a84aa678cda128fef24aeff33a99cde53585eda8e0",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "3ae69434aa9fefc16e9b2754b5456ada03342a43e9d0826fe53ff13f93849e98"
+    },
+    {
+      "filename": "VIRTUAL.FM8",
+      "frames": 81,
+      "palette_quantization_mae": 2.39435,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "715024bfaf4de68421348a653ad06829c36343380504faa8bc08925095524dfa",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5de0d1036dc70a12809cc8f700d4d9eed5ea076d848ba47e38389d50d064e2e4"
+    },
+    {
+      "filename": "VampireWL_Stiener.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.2089,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "251dc7e35536fded6523874ad7897bd9788ca2c462d2627c412036a404e1aca8",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b795849bb65653784cc7dcd1d78ae39834fb3c4ad010998777e304dfe787c010"
+    },
+    {
+      "filename": "VampireWL_Stiener_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 4.36072,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "76987c23991b917b0fed0e1af8d3b86857c55526b7d8d5867c2f3d120857fe1a",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c8976a7afa91035210425c377ea194b5bb377c3a0da6b7207d673fc37b13ba34"
+    },
+    {
+      "filename": "VampireWL_Stiener_L.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.29789,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "aeb63f3bbc4f9a3017f164471dc6cf3cb57b44f22b75e06ec376714a4f23fd7e",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "24e2caa7c5660915bd2fb03bd36b7af3dfb5217c43d1c230da3d936ca7f69957"
+    },
+    {
+      "filename": "Vampire_Plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 0.84127,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "92ca9fc6eb7491dc3d02e2e23aeadf5f2bf8010840536dc838c6a69569c463d2",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "6784dc1b6c8a11ed8e50d980220c445efdfd7deb8d3cfac9ae3176a2aaebc1b2"
+    },
+    {
+      "filename": "Vampire_Plt_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.17177,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "51bc0f2dea3c4f9eca338b552e2d779b4e94bd6447bc19088364b2c079b1fc42",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c1404cc56915b1cf484a141b731b5f4b3b6daaedca1bd7e624b72710641be26d"
+    },
+    {
+      "filename": "Victorious_Brdge_Off.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.01591,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "ba8c389d32cb5392217675044f06a3d79325957945e8925acef080355097473e",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "31b2e084ceb1eda318161f940de245b1e632ab1fd670723e4c0630187bfb061d"
+    },
+    {
+      "filename": "Victorious_Brdge_Off_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.21886,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "e0bcdbee28941c595035d71ebbe6db8029bc000a47b2263cd28f15d2d87efe4b",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "4fad0d61d91d883ffdfd52e8c54de77960a31c04d0d2a344a3727c44884eb262"
+    },
+    {
+      "filename": "VirtFlt_Ins.fm8",
+      "frames": 81,
+      "palette_quantization_mae": 2.39435,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "715024bfaf4de68421348a653ad06829c36343380504faa8bc08925095524dfa",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5de0d1036dc70a12809cc8f700d4d9eed5ea076d848ba47e38389d50d064e2e4"
+    },
+    {
+      "filename": "Washngtn_Brdge_Off.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.76551,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "a1ba0678aae1351ae9111f568dc737f081e9cc011e0e98b85b9582e887b909f3",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "1b48a353761b21cda71cdd32b77a8d21b36beeb62c9c9fbc4e4519b691469649"
+    },
+    {
+      "filename": "Yam_Brdge_Off.fm8",
+      "frames": 66,
+      "palette_quantization_mae": 1.4594,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "489ab79c9ac571557cca0d24c042d729bec9dd6721b48356dc34af9ff442c584",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "96ebadb9926b15e5709d7aa4ea7f20dc835065c4c3551268033c72d893165fc8"
+    },
+    {
+      "filename": "Yam_Brdge_Off_D.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.21633,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "c0e6f87cdc1bb914ae7b04828cc6302e3ca91b47d182a0b9b0a679eb4186e498",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "8251f076d2e71278b8fc37a97e13550e0949af26f1ef1456d116609df69f8882"
+    },
+    {
+      "filename": "baxbc.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 2.44892,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "4bbd91c33b76f73078307ddbb000cc4b9a8871284aa92ddcf97637a60b663ac9",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "69508dcbae7583f35fc8f4e837a9e488a98912e17f293560e7c3790b38a517e5"
+    },
+    {
+      "filename": "enriquez.fm8",
+      "frames": 46,
+      "palette_quantization_mae": 2.45025,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "bfae357f75bd24fea73d7feaeaa9cbd83331b93624b4d00cd84b331738712cde",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "025e70c0be29e949d20d5cff6dd0a633cb30ec1b18386ef6b7c88d17cfddfed7"
+    },
+    {
+      "filename": "frtcrtr_comms.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.50183,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "a3b7e4e725ce54f5ca21430c11eb9275e41b110f21e53c0800b42a17efd0c3be",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "3458b178c20a771c38b9f55889ef545bb254c80944ad7f1e5d3701900dce1db2"
+    },
+    {
+      "filename": "frtcrtr_comms_death.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 1.41569,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "04df37bbb41b790e57b8eba0a57d2961a97f7c0d03f7363725092ae4c7b3f731",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "5051eff986be760fbe1731e7e0f2b31736a0eb8f8d8ea478bedf4df90baa75ea"
+    },
+    {
+      "filename": "frtshrmn_comms.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.50109,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "92b04d0b63b38530103ed8c84efe8a9333cf90220a8a0ceb0b28e393bd1dec3d",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "2202a2c732ea6c2fe785436a780dd4fa5938f3348f0f4a646fc9ae27a45e7f48"
+    },
+    {
+      "filename": "general.fm8",
+      "frames": 28,
+      "palette_quantization_mae": 1.15533,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "3c9b8d65b2498c12d1a6f1f209afb4366935be58338e6b74a6b742489af3d020",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "810bb0cca8807ebcd6c16f041bef84aa86ca598cb444e6d3fd165d110bdc659c"
+    },
+    {
+      "filename": "goldwarrWL_plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.94613,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "eb43ff3afe588c19016c8dff0c5d622262c971f3746560209e27aaca8dc66f3e",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "a289e03e173c0a01228fabb581b996a92311de4bcc0b33e208db9a2d2ed819df"
+    },
+    {
+      "filename": "goldwarrWL_plt_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.83169,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "6c16339162ee83d6b78ee0aebf303b858282294061990bf481df694ac074dc1b",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "9f1493d76b755320a8017530ef443fa1cbb024f820ad657e0d4bf6ac2a00eeb2"
+    },
+    {
+      "filename": "hellcatwl_l.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.782,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "44093840a3d5da47551919a5be6ed467fac48dee41eff97668dc89eb8f4b4bd9",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "f0e816df6d076950691baaf6659decae6456d6078ed54fc1db701b297243bcf1"
+    },
+    {
+      "filename": "hornetwl_plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.60406,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "7dee378db0d425ef9bf7435a8626d6e71ff3dd212d3ae548ca4aaee122fd81b6",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "c3e96c4f56406c729435c27a3213db117cd18ab09092652a8216a91f10562b08"
+    },
+    {
+      "filename": "hornetwl_plt_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 4.40112,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "46ae11c952e6e6b0d6a2fca18056a17d05325c00174fa14e7b21ce2cfd159870",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "8dbeb299a16f5748e4f0f091d1e862d1f86a0555afc9374fce1c1b92e2180d49"
+    },
+    {
+      "filename": "hornetwl_plt_l.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.45058,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "cbdc3e3ad2c49126625e4ca929089290599bef1ade44194eece34fc369e35441",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "44a6cd3398ad12f910ebf39c92200ba2791125cdb78155131ccf954bd6443c62"
+    },
+    {
+      "filename": "kurgen_pil.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.41156,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "af36ee9f3d0a5ad851f58be5028952f3a1dd4e4545d4de3fa4b82e5da3155d0b",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "2ecd8dded1fd9d02ebe72b1a2626fe9ba6d97930632e17f3ed4b463d9ace9916"
+    },
+    {
+      "filename": "mammoth_plt_05.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 0.88308,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "bda3368209058f0ee1e56dbc1f3608652c2b21dd8a2b448d88d8ee1d7335d9c6",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "887e2552a85bb82b27ea60e188bae6eb458f30bc5f435250878361ce26198c95"
+    },
+    {
+      "filename": "mammoth_plt_05_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.01746,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "d9dd94806442a5c2d497117da57ab27ed50696a8843fd76c24b2966324c0f6ea",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "6c89440c9863155aab48f45fa0e8cd8584247a4a7837e24231277aa45455d56c"
+    },
+    {
+      "filename": "mammoth_plt_06.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.4734,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "861858237b6101b6f42dcde371f9fd6632d6dd45af4db27988f3254cfd0bf171",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "08eaa9f2980b9ae34d322565184e0ce8ba2de7c506b4730b2ab92571c5d1fb56"
+    },
+    {
+      "filename": "mammoth_plt_06_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 2.83228,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "8c001d79ac0bb0128ae7f7bb9d782bd6e40a9c8991469d72342c673026af64ab",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "d9b0294f59c409527bf6efb158f7220c5c63240ed3b1987c364948dfbe4427c3"
+    },
+    {
+      "filename": "mammoth_plt_07.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.80368,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "7e49f7635f3cc656a3906d4f58a9468a4e58acbf2bcc99316e38985b452f99f5",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "ad20e426857175b0a7e727d8ecf3e69fc222f8550b1f78625dda9a787d4c5cb5"
+    },
+    {
+      "filename": "mammoth_plt_07_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.13153,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "57a187330fc3d46f4eac92ce812a97f835c7d019e9c317e1e44af531dd25713c",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "3b33d2324829838de1cc22cfb79a7324f3a692c75386ecf0210cccbe13081472"
+    },
+    {
+      "filename": "maulerwl_plt.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.93084,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "4deea87ec1ad19da84fd56d060029cf2369039bffc90764cb92a637dd0e1f0b5",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b6d4ad92d708e61598010b26f3b4da5ddf20a7aa8a67d8005af5929e163c2adc"
+    },
+    {
+      "filename": "maulerwl_plt_d.fm8",
+      "frames": 16,
+      "palette_quantization_mae": 3.43632,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "01a6ef9a0e2612b44d294fd1e72561a66efd32bedb546a90e087d239212e7057",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "426ddaf4b9acaf5884afdedc93ceafa9e6aba84c61e2ddcf62466c7f518d39ac"
+    },
+    {
+      "filename": "maulerwl_plt_l.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 2.95485,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "b754829f747a729414a8baff1f0c8a8904bd6a158aa0da2d60f9dfc55c866007",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "cfea9ff3ff36f99ab0e56387d6036246740405f00df32a9d2ef5d4e848ba55be"
+    },
+    {
+      "filename": "nannyp.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 0.83805,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "7c3a533be46842c1819e0e91aeeb10189570519b20c8140da9d88987253470bc",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "d67ad19535d2b9d2d1de8988e9b86f96368d25cabfb50713b446409d9c9bc501"
+    },
+    {
+      "filename": "russbom.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.78848,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "8876b4885af17163c17c655e1e962325cc9655e26139ea4ffecfb8eb61965a78",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "b93c223cf79ae941071588c0f61d801691055b4342eea32f2738677a69815b2b"
+    },
+    {
+      "filename": "russbomd.fm8",
+      "frames": 13,
+      "palette_quantization_mae": 2.58443,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "49c0ac40afcd70ceda1680916f14ce5d4be94a0bb39ab7024fe37a3213387fd2",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "7c85220521d399514e7e845e05bc8dad3fab78d2c7a0c94e6a0e52c4c0ca6ecc"
+    },
+    {
+      "filename": "russd.fm8",
+      "frames": 31,
+      "palette_quantization_mae": 3.71847,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "cb9488be272f513ba9ac51fe2c869a5d38595c0be1cf81432df1096ef37a1c17",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "06224dcca0d3f7cdbc074402007e76499a1ae2ec5d44dab77374546e4230bc95"
+    },
+    {
+      "filename": "russp.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.92816,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "c2fe124aaab1f6c9b741de527f2f536205dd3af34e67152009e24a8c3da3bd91",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "728e3366ac1044e16dc8b3c677125d9c3b380da6181e4aed586733e4b6c298a8"
+    },
+    {
+      "filename": "sladin_cap_normal.fm8",
+      "frames": 51,
+      "palette_quantization_mae": 1.62689,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "e9eee64067862da24736d01be46645ed069f501d9c1a50e14571cd8f7e291f83",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "3f24c51eb6c5d376dabcd882142cb55cdf3d842ac1bea92a88e8cd701c16f205"
+    },
+    {
+      "filename": "static.fm8",
+      "frames": 101,
+      "palette_quantization_mae": 0.5936582767137206,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "8834a482a979f68fa58b5b32611f80773b45626d37bd6ea61d88f4efa094bcc4",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "a5ed30c111b026ab7d2b327e22ab512e3fdbc392fb159d99f604242f222783ff"
+    },
+    {
+      "filename": "test.fm8",
+      "frames": 61,
+      "palette_quantization_mae": 1.2734,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "fb221179363ae5ffdadff0f932ef9b99f5ea5ec920934f2fb5e18d19135b4802",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "34618011276dfac3675f8d6bedb5a4a7a19241a641c644c700273ef5c0275bdf"
+    },
+    {
+      "filename": "ulycap.fm8",
+      "frames": 41,
+      "palette_quantization_mae": 2.16917,
+      "full_frame_decode_dimensions_alpha_checked": true,
+      "runtime_sha256": "c04db54bdea4e53da05b0abe1bad9841099e68d77759f7541963d103acb84cd1",
+      "encoded_dimensions": [
+        480,
+        400
+      ],
+      "fps": 15,
+      "source_sequence_sha256": "7a7ec5abf63d9b70d52b147ce547d413569b353edab3ea79240316d64359415c"
+    }
+  ]
+}

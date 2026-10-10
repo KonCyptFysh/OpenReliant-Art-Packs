@@ -1,6 +1,6 @@
 # Editable source snapshots
 
-The HUD 1.9 source/runtime snapshot is captured here. The script templates and export
+The HUD 1.10 source/runtime snapshot is captured here. The script templates and export
 recipes are maintained in this repository. Artwork masters and external
 authoring originals are preserved. Refresh an edited artwork snapshot deliberately,
 export in the repository, then deploy those exact files to the existing HUD mod.

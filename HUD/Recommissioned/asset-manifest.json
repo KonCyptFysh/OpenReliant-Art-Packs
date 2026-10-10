@@ -1,158 +1,158 @@
 [
   {
     "path": "mods/recommissioned-hud/45TigersWL_Bandit.fm8",
-    "bytes": 6248637,
-    "sha256": "929d9babd2aea8c137fba6c225f822fe5ecb7ce7df4353bad17c3495ca8e3a3a"
+    "bytes": 6228079,
+    "sha256": "8e265313789f7bf98862ad6cdf5a23525f408ea35175bfe9ebc8b2f9f5162a6a"
   },
   {
     "path": "mods/recommissioned-hud/45TigersWL_Bandit_L.fm8",
-    "bytes": 5350155,
-    "sha256": "d1df283380423128cd2466105208c97be691b09d02f25156e63e45a509eda774"
+    "bytes": 5328459,
+    "sha256": "e6584de97cb164bc56426ff31e2aead74a105941be1fe99d763e6ea53e1b1382"
   },
   {
     "path": "mods/recommissioned-hud/45TigersWL_Bandit_d.fm8",
-    "bytes": 1893056,
-    "sha256": "947a92ecaf8187e1a6cacb1e34d1593896a1ae9aca56f637310c2ae28255e0b6"
+    "bytes": 1886937,
+    "sha256": "e2605ac68ab1bce04828b8bd7b965c7fcc998f04eec628945d0bbbea22b35a2f"
   },
   {
     "path": "mods/recommissioned-hud/45TigersWL_Diceman.fm8",
-    "bytes": 5013179,
-    "sha256": "a7ce07a339932913c28a3234c9fc9f6d4b17790cc1c4b3ede9821a1ad6fab238"
+    "bytes": 4991226,
+    "sha256": "b844e4bb7ec7b5fa1e6918211f679342548b487a3a0006e7310ec910e6c52104"
   },
   {
     "path": "mods/recommissioned-hud/45TigersWL_Diceman_D.fm8",
-    "bytes": 1893056,
-    "sha256": "947a92ecaf8187e1a6cacb1e34d1593896a1ae9aca56f637310c2ae28255e0b6"
+    "bytes": 1886937,
+    "sha256": "e2605ac68ab1bce04828b8bd7b965c7fcc998f04eec628945d0bbbea22b35a2f"
   },
   {
     "path": "mods/recommissioned-hud/45TigersWL_Diceman_L.fm8",
-    "bytes": 4735037,
-    "sha256": "a48f8a7f123c4b8a8eadc3f9cfd475f75e1c7ede23590a800557fd60af7c626f"
+    "bytes": 4713095,
+    "sha256": "c9e27266df4b5f7a0a9231955e0f476150357623cab065738a4aa5cfb00ba8dd"
   },
   {
     "path": "mods/recommissioned-hud/45Tigers_Moose.fm8",
-    "bytes": 5824598,
-    "sha256": "6607848a958879934fde64ff2d438ac35c328eddccb4cc31806c2f4332063e68"
+    "bytes": 5802735,
+    "sha256": "346caf23abada2b65911e1fc9f2a78212e5ede3470f6fdfe67fc97b765f5d81d"
   },
   {
     "path": "mods/recommissioned-hud/45Tigers_Moose_D.fm8",
-    "bytes": 1919304,
-    "sha256": "d90d7f5412ea55308d1333b24a280fa99c4f78d01e1ecc705aee457fc4cfa6d0"
+    "bytes": 1913746,
+    "sha256": "1dee4a9b19402c553c56de970305ac8f96aaae1d2a7e93cb5253dbf4837cddff"
   },
   {
     "path": "mods/recommissioned-hud/45Tigers_Moose_L.fm8",
-    "bytes": 5297748,
-    "sha256": "119f9584d1cf98c47bc40a7ca343169c70d753382052dc772a9ef0f3a5931f86"
+    "bytes": 5278345,
+    "sha256": "6797c658fa5f404a4c31fdcaa840855c670e821e25dd5b8631fcb386d043beba"
   },
   {
     "path": "mods/recommissioned-hud/45Tigers_Plt.fm8",
-    "bytes": 6950484,
-    "sha256": "84f6bf2e4b236f4723ea95952ce30dc5729671a8b66be01e1a85ef127ae8060a"
+    "bytes": 6927743,
+    "sha256": "b51d9c3817509d816f7f07b5fb80485d385bf7c7991104db2c0e4a85f05e93a5"
   },
   {
     "path": "mods/recommissioned-hud/45Tigers_Plt_D.fm8",
-    "bytes": 1687387,
-    "sha256": "d7147132c937b2b34bd8c55a412862a8ca968965daf8dbf551d43cdfa5d27d56"
+    "bytes": 1681639,
+    "sha256": "abe6d5a3f68cd3823a42e7b263b24da0fb39a2a39614ed1dbe38a6526ad87c41"
   },
   {
     "path": "mods/recommissioned-hud/45Tigers_Plt_L.fm8",
-    "bytes": 6250331,
-    "sha256": "e3ab42af3160a676f61aff6b18a04f533311d90fbf6e76f3fee399f14bded260"
+    "bytes": 6227915,
+    "sha256": "1fa62096552de3130ccfed874551fda2bb05dba0b902cf37c6685c99a83249cc"
   },
   {
     "path": "mods/recommissioned-hud/45VolntrWL_Bandit.fm8",
-    "bytes": 6762855,
-    "sha256": "7d968ed07b9ea50aff2e77df9b648059bdf488124417247d585854f6bd2cfa58"
+    "bytes": 6739549,
+    "sha256": "86169ab6710a9ac49d50029160e30e85307f3aa7d06ce4cdba517c7507fe4da5"
   },
   {
     "path": "mods/recommissioned-hud/45VolntrWL_Bandit_L.fm8",
-    "bytes": 6621290,
-    "sha256": "02b8c2b6559fbf98a54c3bded6f12168b3b47b84e3d468ce4f7dc1c7e15ee4e8"
+    "bytes": 6598252,
+    "sha256": "b1cd02a3dd5cb2d0f4130a6ddb31c8afcefc89be172f01981a24581b50d69f42"
   },
   {
     "path": "mods/recommissioned-hud/45VolntrWL_Bandit_d.fm8",
-    "bytes": 1838748,
-    "sha256": "f8712911b8d0a6119439790d55bdaa7682e805f94ec0204cccf46baf461c2885"
+    "bytes": 1832599,
+    "sha256": "0f322d841fea4fd074697a0a8c8dba3135ad9b668e5355396b4b11f2ca4d39b7"
   },
   {
     "path": "mods/recommissioned-hud/45VolntrWL_Viper.fm8",
-    "bytes": 5550416,
-    "sha256": "61353d3b79418ec7d3650b5f2ec6291562e59cbd59613b4966a4b4f67badfd27"
+    "bytes": 5528462,
+    "sha256": "b8d2246c081ff21c49d1cf4d84a5d6f386e480fc8983789e22ca9fae03398ca4"
   },
   {
     "path": "mods/recommissioned-hud/45VolntrWL_Viper_D.fm8",
-    "bytes": 1928191,
-    "sha256": "8d83945ef68f1228366eee1fc41911100dfd9a16c37c8a08e46e8def78c80f0d"
+    "bytes": 1922205,
+    "sha256": "8cac056d5505bda8f0ba37c056573390d0490d986a4dfdd21dd1e78b219e3f52"
   },
   {
     "path": "mods/recommissioned-hud/45VolntrWL_Viper_L.fm8",
-    "bytes": 5553885,
-    "sha256": "28bae16291f420e600e7699a4b97ed6afd4830bf8bea5b12c0f49b389f74d511"
+    "bytes": 5532097,
+    "sha256": "ba1435231752c88d7d131606d2b7cbfe29c05dca2cc54262105fd76af1cd3d74"
   },
   {
     "path": "mods/recommissioned-hud/45Volntrs_Moose.fm8",
-    "bytes": 6704819,
-    "sha256": "5e5dc0792ced7803a799ebdc9dcd5fa49c6484a98006028ec8ad1cfba08a8e67"
+    "bytes": 6698079,
+    "sha256": "d505e691d451a159eefaa57b02bbf29aa289b3ac0a4f229480a9cf4336ddffcc"
   },
   {
     "path": "mods/recommissioned-hud/45Volntrs_Moose_L.fm8",
-    "bytes": 7028250,
-    "sha256": "ab8519c0f136d7d7c580e46aece02baf18e96c485758b6c7302052afa0081e45"
+    "bytes": 7004614,
+    "sha256": "2a0ed7ff977054419b1abf1879b0518179ec26a85784de5bf23b2dc5455a7cd1"
   },
   {
     "path": "mods/recommissioned-hud/45Volntrs_Moose_d.fm8",
-    "bytes": 1909829,
-    "sha256": "4dc75b29faa1a82a0ae822befc7fd0f6f0c6c744b4ccab61ffc926097a7020ef"
+    "bytes": 1904610,
+    "sha256": "e1205bb8f2734b9bf9ac14870daef8d8bb575eb718662029de5a3262da46cbbe"
   },
   {
     "path": "mods/recommissioned-hud/45Volntrs_Plt.fm8",
-    "bytes": 6844708,
-    "sha256": "5479f2237ffc54e2726cea803ddb898a95ff9d627a1fbaf696a809fee9fece55"
+    "bytes": 6820969,
+    "sha256": "80c515d20e64718167c3641654a72b9b987311d3d0fa66c0544cc2979849f037"
   },
   {
     "path": "mods/recommissioned-hud/45Volntrs_Plt_L.fm8",
-    "bytes": 5908137,
-    "sha256": "0196303318ada1273e54467a827cca5216a1364558f7bfa5934718ca8c94f579"
+    "bytes": 5886156,
+    "sha256": "4aa17f1ea5ca088f6b247919c14e167f54521ccc08d9ba6a3c9c541b9010d660"
   },
   {
     "path": "mods/recommissioned-hud/45Volntrs_Plt_d.fm8",
-    "bytes": 1868145,
-    "sha256": "f0f22f9e31f749771563c79e21c9b647d2edcd3f57b4218b2c50d9624ea7b55b"
+    "bytes": 1862137,
+    "sha256": "3f70f1e8a2e7470b7bf6f43e9e6736dd74caf36fb30f595a4758b1917004081f"
   },
   {
     "path": "mods/recommissioned-hud/51stWL_Plt.fm8",
-    "bytes": 5384623,
-    "sha256": "d1219481e21960da346032126d325c3efc88afdcd18b53ee08c4113fb371ba8d"
+    "bytes": 5366937,
+    "sha256": "4f367703d87caf683932b268e1528b1862c92c9cf0854eb11c16625d4256f377"
   },
   {
     "path": "mods/recommissioned-hud/51stWL_Plt_d.fm8",
-    "bytes": 1719342,
-    "sha256": "99025a29345ded7902b86b4f01a90ba87af169b30d862acc1eaa4b6e2428967b"
+    "bytes": 1712251,
+    "sha256": "fee938f58de067e8e6697b391ede7153fab2c4021aea0efccd67172b95cdc267"
   },
   {
     "path": "mods/recommissioned-hud/51st_Plt.fm8",
-    "bytes": 6742068,
-    "sha256": "f35321975fd798b5bfd3073f3679514353874b01dc95e1259c45fc1c6fe3e5d2"
+    "bytes": 6718323,
+    "sha256": "aa3c6c0df0d85c0b150e5f2ee9208b367106bb7ef7d05aa3ead9366e9913136c"
   },
   {
     "path": "mods/recommissioned-hud/51st_Plt_d.fm8",
-    "bytes": 1759091,
-    "sha256": "84237b1e42b1d51d6ccb64d0d213720a2e247ce2f77f3d92af810941a6c50e38"
+    "bytes": 1754929,
+    "sha256": "9b32b5969a9839c0b3f87b521719dd24146fa8ac93fd7d8576abd385e55f3657"
   },
   {
     "path": "mods/recommissioned-hud/BGUARDD.FM8",
-    "bytes": 1222378,
-    "sha256": "08f239c4ef4cccdb254b60aa49685d4fb810760f2ddb5cb48fc096caddb89494"
+    "bytes": 1218960,
+    "sha256": "3179e57d6836998a17c7db7140ec5a9787ddd289c34cf2a14510e5f7b49cddde"
   },
   {
     "path": "mods/recommissioned-hud/BGUARDP.FM8",
-    "bytes": 9189412,
-    "sha256": "08b33e1a0cba7dc83388e207b51ebc51b0619a1e4d5235a2942ae496a0cb81cf"
+    "bytes": 9183115,
+    "sha256": "b6658c838f49224447af17524ff25b9a4fce38e3ccf3499eeca28cc30a82e93f"
   },
   {
     "path": "mods/recommissioned-hud/BLACKGUA.FM8",
-    "bytes": 9189412,
-    "sha256": "08b33e1a0cba7dc83388e207b51ebc51b0619a1e4d5235a2942ae496a0cb81cf"
+    "bytes": 9183115,
+    "sha256": "b6658c838f49224447af17524ff25b9a4fce38e3ccf3499eeca28cc30a82e93f"
   },
   {
     "path": "mods/recommissioned-hud/BLUFONT.ttf",
@@ -161,343 +161,343 @@
   },
   {
     "path": "mods/recommissioned-hud/BUCC.FM8",
-    "bytes": 6279119,
-    "sha256": "b3f6bec552ed6f315f8b41ba051be12fb573465c489302f55fa7970861573188"
+    "bytes": 6247701,
+    "sha256": "fb221179363ae5ffdadff0f932ef9b99f5ea5ec920934f2fb5e18d19135b4802"
   },
   {
     "path": "mods/recommissioned-hud/BUCCDETH.FM8",
-    "bytes": 1617566,
-    "sha256": "0c4e69af4a2f0c36f0059c735ab32705725eba9a7ef73c8536bad0d50899784e"
+    "bytes": 1611270,
+    "sha256": "a665e1b4dd5c0fa7214a69a9b6b6f9e85865ab67a53c9ad87131e1f04d67bd0c"
   },
   {
     "path": "mods/recommissioned-hud/BlacksunWL_Plt.fm8",
-    "bytes": 11503774,
-    "sha256": "443fd832fc50ab23d7c832871c244dd33e171f8d7e9ac6e3fee206a009555dfb"
+    "bytes": 11472685,
+    "sha256": "6c86407dd1d35c7c8e8740e23ae9c5faa6dbf121d462759d79df10f28854f1e1"
   },
   {
     "path": "mods/recommissioned-hud/BlacksunWL_Plt_D.fm8",
-    "bytes": 1655368,
-    "sha256": "965490da629950a3b3222136547d17a9f3541c279beff5d4277b5a6c1cf4053b"
+    "bytes": 1649182,
+    "sha256": "8c71f8ed71071b28e05f33e663bc6b62d7ef2c461be823f71be84e683cac6c61"
   },
   {
     "path": "mods/recommissioned-hud/Blacksun_Plt.fm8",
-    "bytes": 3096618,
-    "sha256": "0bfe805140f8bec75c9efce2b51715ae9c8ab23b08832faab5806b0ee397b5b8"
+    "bytes": 3081268,
+    "sha256": "2f8e689c4b892ed515ca7ca64275d1a80982709242db5b155702cbd98026f25e"
   },
   {
     "path": "mods/recommissioned-hud/Blacksun_Plt_D.fm8",
-    "bytes": 1815379,
-    "sha256": "691ab480350d16e5bc0a6bf498941d75fe54ba1c90db28deb93e3221f2509a90"
+    "bytes": 1811106,
+    "sha256": "3a7a59a6c3003b99e822a62efd93674093ad07c932f0fe9f2701375f8f4516f9"
   },
   {
     "path": "mods/recommissioned-hud/Blades_Plt.fm8",
-    "bytes": 5270951,
-    "sha256": "9dda6223f3a530bfea97fa283ef1b96bcb82269af783ddf2021d400cb26866a0"
+    "bytes": 5250458,
+    "sha256": "b78721a69b2361fb7903d654f5de5997797ea93680cc62ec932139cbfeab4a60"
   },
   {
     "path": "mods/recommissioned-hud/Blades_Plt_L.fm8",
-    "bytes": 7488460,
-    "sha256": "5420c2967f03cfbd08dfe9bdd274d0a2bea286fdf81939b09b6b71e5ac582a95"
+    "bytes": 7464778,
+    "sha256": "d1269b8058200e94abc0f4b182cf72b2c2d924bff0fe523dc477ccdaea9cd3e2"
   },
   {
     "path": "mods/recommissioned-hud/Blades_Plt_d.fm8",
-    "bytes": 1626116,
-    "sha256": "6add1e3141638eabed9afd3c12f125c40060562069f64958b85131c461c29e1b"
+    "bytes": 1621711,
+    "sha256": "f8f996809fe8f816134e93ba2214527322d6a8fa5a25e9fb70e6c549daf56590"
   },
   {
     "path": "mods/recommissioned-hud/BlckEgleWL_Plt.fm8",
-    "bytes": 7866318,
-    "sha256": "49b75d5a252fc419d96d3738a9b613777f180bb6d312ed750ab961d974648b0b"
+    "bytes": 7842472,
+    "sha256": "92f127c4ddb357a64fc94e0df449154401238778bd6bcbdb429abfcd8ea80f35"
   },
   {
     "path": "mods/recommissioned-hud/BlckEgleWL_Plt_D.fm8",
-    "bytes": 1784772,
-    "sha256": "c75706d2d3b8669ef1246f8c23b98d869e525216f5c856f11c7b95a3bcafbdc0"
+    "bytes": 1782572,
+    "sha256": "ab18f8575b7ff60f933e72065d5ea8cc7b6055bd7014641b1c78ad5a176db759"
   },
   {
     "path": "mods/recommissioned-hud/BlckEgle_Plt.fm8",
-    "bytes": 9469393,
-    "sha256": "a16fff5c8adb48da434124e61a1fbbf4b27f4cfddb3f298bde2059ac7a0419de"
+    "bytes": 9445573,
+    "sha256": "beb15e2fb400126fb29de61b4282793e13d841ea7383fc9ac0ed5646dc24c311"
   },
   {
     "path": "mods/recommissioned-hud/BlckEgle_Plt_D.fm8",
-    "bytes": 1788686,
-    "sha256": "bb9740f5d324e52fc2bda03a6fae50056f3cbb0b1b13b8be946340b468caa354"
+    "bytes": 1783372,
+    "sha256": "3bc830f5526aec6e978463eacd2c2abfa9514fcc0e6fbe8bea37ab97de7397c1"
   },
   {
     "path": "mods/recommissioned-hud/BlckGrdIP_Plt.fm8",
-    "bytes": 6061232,
-    "sha256": "755b44b7b277f59dbfb2d8d6330c9a70c663df454c96ef122d09ffc48257cac6"
+    "bytes": 6038992,
+    "sha256": "108de6f81cdaedfb557b591a7d6c834b82a4398c2ffac5ef5744a57aa16a5b6e"
   },
   {
     "path": "mods/recommissioned-hud/BlckGrdIP_Plt_D.fm8",
-    "bytes": 1101031,
-    "sha256": "1b7b6c8be93c34061319cd72080b7d9f5f07a020506ce0100e908e3e1eb31903"
+    "bytes": 1096568,
+    "sha256": "8c2a592d5de77993153b945f49f44859bf2f87d75c7b1980260d41183f3d35d2"
   },
   {
     "path": "mods/recommissioned-hud/BlckGrdNP_Plt.fm8",
-    "bytes": 6942870,
-    "sha256": "6937ec2b9854b285c0df676589da8dc6fa409ca529248a4daeb02385ebd804d5"
+    "bytes": 6919575,
+    "sha256": "ae9bc77194467b83d7812414a6ca053e9d3c0bfa5a1cf90de8f40bc50505bc62"
   },
   {
     "path": "mods/recommissioned-hud/BlckGrdNP_Plt_D.fm8",
-    "bytes": 1800537,
-    "sha256": "d2d9dfc05f76749308130d185d776e4a07717c8088c744e8276450d14995a865"
+    "bytes": 1794419,
+    "sha256": "ded8609af27c3f77e49172c161fb8638c7cee8eeb76033e34f4e3f4b1ce85111"
   },
   {
     "path": "mods/recommissioned-hud/BlckGrd_Plt_D.fm8",
-    "bytes": 1222378,
-    "sha256": "08f239c4ef4cccdb254b60aa49685d4fb810760f2ddb5cb48fc096caddb89494"
+    "bytes": 1218960,
+    "sha256": "3179e57d6836998a17c7db7140ec5a9787ddd289c34cf2a14510e5f7b49cddde"
   },
   {
     "path": "mods/recommissioned-hud/BlkAces_Plt_d.fm8",
-    "bytes": 1871187,
-    "sha256": "d5089db27671f2201693e56dddcc2acd4fefe020919eee82f82aacb2db998b53"
+    "bytes": 1867258,
+    "sha256": "6065aa5cfaa3b820639830cd11264fb2b705762d7a54b5a579bd3414f6d0cb7a"
   },
   {
     "path": "mods/recommissioned-hud/Bremen_Brdge_Off.fm8",
-    "bytes": 6388367,
-    "sha256": "6576f851ebc2374341745e81a7e08127af4da9fb9595bbed14ed93ba4dd99f20"
+    "bytes": 6373228,
+    "sha256": "5272fa969de23b184764fd5d483745dd943f4c934ff2667299a1ef27b3cb61bf"
   },
   {
     "path": "mods/recommissioned-hud/Bremen_Brdge_Off_D.fm8",
-    "bytes": 1918381,
-    "sha256": "e079a64a160bb605ce7796a3b29e003e2f17deb14ad4ed3fa657a4f905d476d0"
+    "bytes": 1913288,
+    "sha256": "a6340ad1b4752bea480aa1921591f9871232f1a93f37115e1092aeda3667bc69"
   },
   {
     "path": "mods/recommissioned-hud/BuccnrsWL_Plt.fm8",
-    "bytes": 7679964,
-    "sha256": "3aa575bbea7d41d7838b443497aec1915e0cc4ad26af9aceb450a03b9d20116c"
+    "bytes": 7660344,
+    "sha256": "eb97b381df96ad206c5d3820a0f9a8476c497183249df17dce26c24f9d1bdc56"
   },
   {
     "path": "mods/recommissioned-hud/CARGOD.FM8",
-    "bytes": 1607709,
-    "sha256": "4ff37dd657dcba120a5aee8eb373d935741ad48362677eff8d91fd1866434135"
+    "bytes": 1601673,
+    "sha256": "39ca379e42a46454dea4c653bf2af646e8e8051b81413a0b011b12bea0a23fdf"
   },
   {
     "path": "mods/recommissioned-hud/CARGOL.FM8",
-    "bytes": 8090743,
-    "sha256": "7cae18d3512a0535f7b38d80a3f740003bc0a9b3af50d4a3ee9bcbbaddc9d344"
+    "bytes": 8068148,
+    "sha256": "a648e960372a76878f6be29a88fadc3b93841e16a929ac439d06a2c25ac3967e"
   },
   {
     "path": "mods/recommissioned-hud/CARGOP.FM8",
-    "bytes": 9154833,
-    "sha256": "32d25b743feb8e9867f1ca723a2bbcba217062e97124f9fa5aeab811c7f880bb"
+    "bytes": 9133448,
+    "sha256": "73f9ba536544763ceead4a4aeaff27700d78d363045da1895fb7f3bf56e34393"
   },
   {
     "path": "mods/recommissioned-hud/CCouger_Plt_D.fm8",
-    "bytes": 1737698,
-    "sha256": "6f777a9e8353e6cb69790f6493785bdd203fb1f6ac9eb3b3f22f73eb97c9927d"
+    "bytes": 1731256,
+    "sha256": "0851a108d76ff2a06d6ca122d6b35625e1a2643490adf73c8c0954b48ae9d980"
   },
   {
     "path": "mods/recommissioned-hud/COB.FM8",
-    "bytes": 6690447,
-    "sha256": "a9ad5bb11f6e77e40d9d3a207b242ae73d616c01a6d4acb2e952da6758b70c13"
+    "bytes": 6666909,
+    "sha256": "fd2b85f2448a88bf9d13ac0ac965554b6811412093415ad8ed0cbc5bc09746b7"
   },
   {
     "path": "mods/recommissioned-hud/COMMSOFF.FM8",
-    "bytes": 6425030,
-    "sha256": "6b89b70af849e48bdc7fbb60b78c6d32b039ee2154d6d2202c33d92aac536636"
+    "bytes": 6405877,
+    "sha256": "1ae461a5e5a4e06783839aa51d251f29f5c81a3c432d3d8d7617ff7dac4753ff"
   },
   {
     "path": "mods/recommissioned-hud/CONDL.FM8",
-    "bytes": 7223458,
-    "sha256": "a618d7bcee28ce5f34b642608967adb01531fcba123f35d4eda22bf35cb48769"
+    "bytes": 7200059,
+    "sha256": "1a3f6da711a28b5ddb979f01552da7aa5eed731033bd7a2c6efc67a961dc3520"
   },
   {
     "path": "mods/recommissioned-hud/CONDP.FM8",
-    "bytes": 7831802,
-    "sha256": "a8cf4b5bb456ca438016328993d125f528162ae6af47fc8af8075f951e5a19a8"
+    "bytes": 7808050,
+    "sha256": "44770ac0d953f5a34fee2c82abc4051895419fdb2e058c6b2a14d9c99d5b1c59"
   },
   {
     "path": "mods/recommissioned-hud/CONDWL.FM8",
-    "bytes": 7585373,
-    "sha256": "70de3cb2db2c8fcdf390c8223cadf15e0b8b63df0e27a55360e97bdc1d4c69e9"
+    "bytes": 7561586,
+    "sha256": "8ba47432230b5cca17250543dcca9a6efd764ca2170df2b6dc8e81d73fb9b421"
   },
   {
     "path": "mods/recommissioned-hud/CONDWLL.FM8",
-    "bytes": 7164484,
-    "sha256": "1297b8d0e81dd4375da57e0676e794a53f0f2b4e0b4cd4cb5a43d1a13463fd16"
+    "bytes": 7140759,
+    "sha256": "9864f3314f2970855c91deef0ef27881ab441c62afa39b4fbab8b5d6df340be2"
   },
   {
     "path": "mods/recommissioned-hud/C_Fhtr_01.fm8",
-    "bytes": 6112344,
-    "sha256": "2b28f8ed7a803f7e9a2c5e8ffd885efae731267839738fea5dcafeecd450c668"
+    "bytes": 6089846,
+    "sha256": "dc8fd3e03cb65ff94627632a99b86f1af7c0614dd23b4d91425a6b34267fd37d"
   },
   {
     "path": "mods/recommissioned-hud/C_Fhtr_01_D.fm8",
-    "bytes": 2331134,
-    "sha256": "5dd47f42cdbcd00c3754965b4c7d939f74037d27c7162c740fed35337e04a6e7"
+    "bytes": 2320382,
+    "sha256": "fce8cfc9b1671371ff677639e898882cf1a71b03f4100a67afd30e26039d4f58"
   },
   {
     "path": "mods/recommissioned-hud/C_Kurgen_Plt_D.fm8",
-    "bytes": 1810572,
-    "sha256": "2471402bc654a4338c421be27e4aac799940a150065807a218e4dfec1359bb34"
+    "bytes": 1804443,
+    "sha256": "5f8ec444ee1b750245451a825fdfaf31f8a360c6b52a5998ffd85213ca1a6f1e"
   },
   {
     "path": "mods/recommissioned-hud/C_TorpWL_Plt.fm8",
-    "bytes": 7306907,
-    "sha256": "3bb5ae563bded28836c9931d1b1b72b9b0722135e43e41e45ac6827f86a20885"
+    "bytes": 7283066,
+    "sha256": "8c37ddceb3fa154aaeb395975dbe7deab963cecbf73e91ddc036d03b548f7e59"
   },
   {
     "path": "mods/recommissioned-hud/C_TorpWL_Plt_D.fm8",
-    "bytes": 2699972,
-    "sha256": "ae5d22728e765c0dbdb0e051ae16b27f575137373a42bc3524b425fcef6ce047"
+    "bytes": 2690143,
+    "sha256": "0173623ff86d68def7aa699bd8bbf8ff3ec800b6470b510c1173b5e38a544ac3"
   },
   {
     "path": "mods/recommissioned-hud/C_comms_off1.fm8",
-    "bytes": 7097815,
-    "sha256": "dcdf58bfcf2068d0ea38ddb6a94e7459081e77b2b1bfc85a9711541a9a489464"
+    "bytes": 7074313,
+    "sha256": "5438b2d09f436b3e3e16d615738d5c2f0d94f9cf4942b740704c12cbdb9a753a"
   },
   {
     "path": "mods/recommissioned-hud/C_comms_off1_death.fm8",
-    "bytes": 1800031,
-    "sha256": "3fb0515fec522ab280a9fe5ac997024e0f23fdc94e7663ab2edcf15014bd5479"
+    "bytes": 1793940,
+    "sha256": "489ead1ef1c1310af91675bcdd1274dc74ad165b95c7174b032514c05626729c"
   },
   {
     "path": "mods/recommissioned-hud/Capt_Mukai.fm8",
-    "bytes": 7277912,
-    "sha256": "2f2fd30bb48c70d03332271ce8ad300b7aa15a158e6cb6c427ad9483cae60e62"
+    "bytes": 7267270,
+    "sha256": "767dbd32541346238058fac3dba7026897a42a5a46ee015a942a6ad04933d4bc"
   },
   {
     "path": "mods/recommissioned-hud/Capt_Mukai_D.fm8",
-    "bytes": 1730309,
-    "sha256": "6b8cf182dc63d86a071c8748666c8625f987209bb3936ce35cde2fabc78a71bb"
+    "bytes": 1723760,
+    "sha256": "58dae3f54a62162f14a9b9c0653753885d0967b4394f21aae41d0afe02900f91"
   },
   {
     "path": "mods/recommissioned-hud/Cat_Foster.fm8",
-    "bytes": 7379315,
-    "sha256": "26b818504460ebbeea563550a49f25f44968b37c6e911360b5b86569e598d79d"
+    "bytes": 7355532,
+    "sha256": "75002c55efc911015316db921e3ea40e04e417fd515def102c5e033781cba357"
   },
   {
     "path": "mods/recommissioned-hud/Cat_foster_prwlr.fm8",
-    "bytes": 6039044,
-    "sha256": "749891155853d248e1eba927f9d152d8b92842dccfe35f26cc3a81de8e883d30"
+    "bytes": 6019263,
+    "sha256": "99542355f0bd7e5ab50187b7be01f90d0c653aaba5d4fb311a80987b624bcee0"
   },
   {
     "path": "mods/recommissioned-hud/Cobra_Plt_D.fm8",
-    "bytes": 1795809,
-    "sha256": "410c176f97fce2dbff04973ab074dc7e6ee739d0329287bee20f3e39c16a9478"
+    "bytes": 1789785,
+    "sha256": "ae900035c816b07db15085ba61d8d39b3d43e4622add0a6a959f9bff0b8e3141"
   },
   {
     "path": "mods/recommissioned-hud/CougerWL_Plt.fm8",
-    "bytes": 4364663,
-    "sha256": "288835a17308e285afa3ee2e1ddd40b10382fd0ea101166776968ee4f68aad02"
+    "bytes": 4342558,
+    "sha256": "9a1c397590ee220a30896a73f63b026db9577535d5792de554836686ad2cbdfb"
   },
   {
     "path": "mods/recommissioned-hud/CougerWL_Plt_d.fm8",
-    "bytes": 1820290,
-    "sha256": "8dfc24324711ab1729fb82b4a3665902598f3a53a56cd32794f5e1ac55027512"
+    "bytes": 1813969,
+    "sha256": "c29e37dc044118f6fa9a760defbef05040dc8cf56ffa6e4a08957ad59bc0d036"
   },
   {
     "path": "mods/recommissioned-hud/Couger_Plt.fm8",
-    "bytes": 5535756,
-    "sha256": "a5c334328c5d00ca491082be47f6c009409723d0c0570d43b8453288bac41ebe"
+    "bytes": 5513543,
+    "sha256": "33286adf39ecff12025c7192af29623f7a5e416c2c385d05839228c6e80d3ea7"
   },
   {
     "path": "mods/recommissioned-hud/Couger_Plt_L.fm8",
-    "bytes": 4526678,
-    "sha256": "e62370878507feb5629215faec0bcd736658cf133b3073fcc0d9088540d25779"
+    "bytes": 4515042,
+    "sha256": "09196dd0e602ed0e7806878a4d2d0cabaee7dc426739919c3e0cec9b9751bbe1"
   },
   {
     "path": "mods/recommissioned-hud/Endevr_Brdge_Off.fm8",
-    "bytes": 4890980,
-    "sha256": "16d77576b8f563d010900a299e01f372148a32d287417029509284faf86af72a"
+    "bytes": 4868870,
+    "sha256": "68fee4a6c4daa8887d3089db162fe475af6fa5a494575d366c2a2c219e1b1c80"
   },
   {
     "path": "mods/recommissioned-hud/Enq_RelBridge.fm8",
-    "bytes": 4867620,
-    "sha256": "2a31521ac77685586cd079b28ae86014fc7d6a43c4327dd3b1e73b5b8e9c50bb"
+    "bytes": 4851009,
+    "sha256": "140d27202b573d6948010d558c79abaff5f30a3bbce0d5810b960131cb739cd4"
   },
   {
     "path": "mods/recommissioned-hud/Enq_RelBridge_D.fm8",
-    "bytes": 1728836,
-    "sha256": "ca5b51657d91094db84f7232014ee950108163a36145148ac88f85085ddf5113"
+    "bytes": 1722904,
+    "sha256": "99c8a70ded83d610113a54913aa1e427583ca247e0399f217ff727be2fed7d7f"
   },
   {
     "path": "mods/recommissioned-hud/Enq_YamBridge.fm8",
-    "bytes": 4527110,
-    "sha256": "9e6229d6008d3a6ef6c4cca7bf360f0fc0ce2fce7a12e73c04bc87736ac3d99e"
+    "bytes": 4510281,
+    "sha256": "bfae357f75bd24fea73d7feaeaa9cbd83331b93624b4d00cd84b331738712cde"
   },
   {
     "path": "mods/recommissioned-hud/Enriquez_Cockpit.fm8",
-    "bytes": 6828797,
-    "sha256": "f8e44ab90043bdf9a2ad1f8ef167ce0c25371f39b80fe06a66b21bc3238484bc"
+    "bytes": 6804734,
+    "sha256": "a0e5ca9a93bf4589198e461d1bc46b88ba54398139db599f0e49c0d16216a66c"
   },
   {
     "path": "mods/recommissioned-hud/Enriquez_Cockpit_D.fm8",
-    "bytes": 1828209,
-    "sha256": "f032c30982e0afe5bef76ab9e4da61ebc52fb76cf7557a77cf163686067d66c3"
+    "bytes": 1821195,
+    "sha256": "bd2f98c2a69e2f8b8cfb4b80e142cf8aaec6b1a1ff12ef8aaf46f6d723551d53"
   },
   {
     "path": "mods/recommissioned-hud/Enriquez_Cockpit_L.fm8",
-    "bytes": 6437344,
-    "sha256": "72f66372253e2e3eb0979fe3837cefc4be34a2d166d3333b2f87cd12aef10a4e"
+    "bytes": 6414062,
+    "sha256": "e6260c04c2b534697514c6f632b74f99c5317fa453b25c209c0bdc2bcca119d3"
   },
   {
     "path": "mods/recommissioned-hud/FOSTDED.FM8",
-    "bytes": 1766014,
-    "sha256": "97c474ea4821105dc1d821817b295a5efe7c6792ab7149560b5b3845e54860ce"
+    "bytes": 1760256,
+    "sha256": "cfe19b1f2c2c7f51170626f99716c3c40bd16681b5bf264aed94ce171ab7ac1b"
   },
   {
     "path": "mods/recommissioned-hud/FrtBear_Comms.fm8",
-    "bytes": 4123618,
-    "sha256": "1aff6a73a5787f55533e0827c0435b8dce1c75b03d3974a606801449bf649169"
+    "bytes": 4106988,
+    "sha256": "41bd72229d93d9b88c21939582edfa0f22b4c9f4430bed0d857d4a3d99b12130"
   },
   {
     "path": "mods/recommissioned-hud/FrtBear_Comms_D.fm8",
-    "bytes": 1427217,
-    "sha256": "b87d8e12c90323efa884c5ff39897152cdc1a3ba0b0bcf491c32954c23f13ff5"
+    "bytes": 1421755,
+    "sha256": "f8721069319b5a3055126939b8179815027fb51a5ee185e420a84bae583a2ca4"
   },
   {
     "path": "mods/recommissioned-hud/FrtBxtr_Comms.fm8",
-    "bytes": 5686849,
-    "sha256": "2ffd8572fb52f99b4641b41dad5fe8d2a97eb0db929b33bd5a6f769804a6e09f"
+    "bytes": 5667361,
+    "sha256": "89b36d5f47996442c9b0305d2c9648ddf656c6f33646df2b704989ce6ad6d52d"
   },
   {
     "path": "mods/recommissioned-hud/FrtBxtr_Comms_D.fm8",
-    "bytes": 1228157,
-    "sha256": "3067961d16c1b6f511046362d5c4e7be7441241e6c3a93b44c52c7b3393aca50"
+    "bytes": 1222768,
+    "sha256": "04df37bbb41b790e57b8eba0a57d2961a97f7c0d03f7363725092ae4c7b3f731"
   },
   {
     "path": "mods/recommissioned-hud/GAMMADEA.FM8",
-    "bytes": 1195072,
-    "sha256": "37e7853f97a8e346d7a7557d9b9b941a37c9ed5a79b6e1f54249143c3c641016"
+    "bytes": 1190831,
+    "sha256": "611eac98bc17a9b9864e7285368067c89111b89efd66e1333f6c6c2d2418f035"
   },
   {
     "path": "mods/recommissioned-hud/GAMMAP.FM8",
-    "bytes": 6717504,
-    "sha256": "8f0ad5fdcc325c1a50982c8258a96bbc9ab0d542471542c253490954cb847a46"
+    "bytes": 6693584,
+    "sha256": "0bdd896531f13de9b64379d1a4a6e924546adabb4986e005326259ab9c925dbe"
   },
   {
     "path": "mods/recommissioned-hud/Gamma_Ldr.fm8",
-    "bytes": 6717504,
-    "sha256": "8f0ad5fdcc325c1a50982c8258a96bbc9ab0d542471542c253490954cb847a46"
+    "bytes": 6693584,
+    "sha256": "0bdd896531f13de9b64379d1a4a6e924546adabb4986e005326259ab9c925dbe"
   },
   {
     "path": "mods/recommissioned-hud/Gamma_Ldr_L.fm8",
-    "bytes": 5600871,
-    "sha256": "8a9902fd06b384f638e800b949194b05445204ed64cb33e123e9c3a556f8346d"
+    "bytes": 5578296,
+    "sha256": "cfaf4cd24b60adb6292a0a09c6039064f9f0e51e0d946ec7859526281470f136"
   },
   {
     "path": "mods/recommissioned-hud/Gen_Reese_Pod.fm8",
-    "bytes": 3868489,
-    "sha256": "143240ad58fca76da606cb5a911909ba320de3f9660fd05b4e16dd7a98b68db4"
+    "bytes": 3856597,
+    "sha256": "9212c8dd1f3cbf630bda7b15a40eceee0f20b141b68970ff70c050a552b15d6a"
   },
   {
     "path": "mods/recommissioned-hud/Gen_Reese_Pod_D.fm8",
-    "bytes": 1745403,
-    "sha256": "e96c8aa09389ac8cfb355f3f39a18bbdc6d81adab3a007fd112105751ada3d1c"
+    "bytes": 1749879,
+    "sha256": "0d60ce62901cee62d7960fac39f4dc07adab12812d96ba8566beebca7cac0e98"
   },
   {
     "path": "mods/recommissioned-hud/GoldWarr_Plt.fm8",
-    "bytes": 6670605,
-    "sha256": "789f40f110dfa7b7ab2c1731cb7095b6e271f2abd5a8b5edb276682663617d36"
+    "bytes": 6756102,
+    "sha256": "3c77fcd16428f4be424ba8c592276368224384423ab9a85033c2b21fbaddbe46"
   },
   {
     "path": "mods/recommissioned-hud/GoldWarr_Plt_D.fm8",
-    "bytes": 1717746,
-    "sha256": "5000c7f302cd52777f10adb6e73ed4b728965a72a981e046b9ca18d8c3bcfaee"
+    "bytes": 1712283,
+    "sha256": "2782377adbb83e4efdb2eb1225c308a6f89a4c447a46d4a6a3ed1f909e04efe2"
   },
   {
     "path": "mods/recommissioned-hud/HUDHARD_120.png",
@@ -626,268 +626,263 @@
   },
   {
     "path": "mods/recommissioned-hud/HellcatWL.fm8",
-    "bytes": 6802753,
-    "sha256": "64ab5df67f02f1feca3159632fecd157fe701f96be1d25a9cce8a588ea862dd4"
+    "bytes": 6779030,
+    "sha256": "c57da3bc5c14b2fa4bc7142b1bac051301ac9f39e2efcbe56e10eb7574a73783"
   },
   {
     "path": "mods/recommissioned-hud/HellcatWL_d.fm8",
-    "bytes": 1854267,
-    "sha256": "af5b71c2fb6f298e7a94ba70215b076169603ab0bc2d1774ac7c9e8bb8629b25"
+    "bytes": 1851012,
+    "sha256": "8780c9c3ae609b9e237a400fa73dc78eb221ee290b46feccafac161d4dae52dc"
   },
   {
     "path": "mods/recommissioned-hud/Hellcat_Plt.fm8",
-    "bytes": 6188701,
-    "sha256": "8b3e88f3d1f3a2579477c36a8422c1e87ae2c17aec69a2ad9bf900e860bd36a6"
+    "bytes": 6166565,
+    "sha256": "3a1cb0b228e68e06e2b153075c625a34933190c93180326c5605b7290068420c"
   },
   {
     "path": "mods/recommissioned-hud/Hellcat_Plt_d.fm8",
-    "bytes": 1458765,
-    "sha256": "4b31d0bb5027e460f807af75645024c284d949b78f52b2ca8ccff2dc542ad7e7"
+    "bytes": 1454274,
+    "sha256": "41f173b56c8ea5fede4dbe2e767dc335770bffc2b7553bc8221a0b38f2765b98"
   },
   {
     "path": "mods/recommissioned-hud/Hornet_Plt.fm8",
-    "bytes": 7010728,
-    "sha256": "dd65c92f2382a886c15c5e65468e467fe037e97a033e8c3da5dbbdde18583207"
+    "bytes": 7148136,
+    "sha256": "1cb88ceecfe4a7f9fd2ea746ddbc1d2b8019f75ecba4ab56d68671705fbdd586"
   },
   {
     "path": "mods/recommissioned-hud/Hornet_Plt_D.fm8",
-    "bytes": 2006886,
-    "sha256": "dea33ced0608554881fc2b303e98efe1d64a56efd09610d96b186229007fdecb"
+    "bytes": 2001545,
+    "sha256": "1422a4e756fc26204095590629db40317d58b31a4e3ddb63fc14b7ad204282dc"
   },
   {
     "path": "mods/recommissioned-hud/JAckelWL_Plt.fm8",
-    "bytes": 5843926,
-    "sha256": "3fee67dccf2eb096f1e0426b681b57cc75b944aac1576306306a2a3d9767d06a"
+    "bytes": 5834433,
+    "sha256": "47877e51ee7fef3515fe73fe20f8e1dde181811e08bf19d8ba390db84dd38d37"
   },
   {
     "path": "mods/recommissioned-hud/JackelWL_Plt_L.fm8",
-    "bytes": 4847501,
-    "sha256": "31d221315b4d7e1a069751cd89f55e17f63a84f33d66d4aa254ea5f77c86c9ff"
+    "bytes": 4828314,
+    "sha256": "8435ff07fde8053f2772ef4d47ebbf56927d307550d63342f048633dc879a9de"
   },
   {
     "path": "mods/recommissioned-hud/JackelWL_Plt_d.fm8",
-    "bytes": 1920631,
-    "sha256": "91a39fcc84884cfefa3c4cddc628c664c6f0c33f1687b5613fbe1e2e1b7986b7"
+    "bytes": 1914844,
+    "sha256": "7893825c9afca59f456fc21a4745da0edade1190746d8ecf50bc83706465721f"
   },
   {
     "path": "mods/recommissioned-hud/Jackel_Plt.fm8",
-    "bytes": 7094969,
-    "sha256": "a02e36e51cf6c9960fddbf576ba109a39fc5443720a8752f5805e328365690c9"
+    "bytes": 7071138,
+    "sha256": "21cdac13c7a7e8d2334b58d74031a07bb20ee8e50e37421317a119174f5b52e7"
   },
   {
     "path": "mods/recommissioned-hud/Jackel_Plt_D.fm8",
-    "bytes": 1920631,
-    "sha256": "91a39fcc84884cfefa3c4cddc628c664c6f0c33f1687b5613fbe1e2e1b7986b7"
+    "bytes": 1914844,
+    "sha256": "7893825c9afca59f456fc21a4745da0edade1190746d8ecf50bc83706465721f"
   },
   {
     "path": "mods/recommissioned-hud/JaguarWL_Plt.fm8",
-    "bytes": 6733663,
-    "sha256": "ad804bf0b60883d91204c1a68f011742defa7388eb06effc4f878ee38d9a7e2d"
+    "bytes": 6711160,
+    "sha256": "5cfb52a23064bd128ed14840d9ea99d83fd58f85ce9dd9df99c84f588b11bd27"
   },
   {
     "path": "mods/recommissioned-hud/JaguarWL_Plt_D.fm8",
-    "bytes": 1799182,
-    "sha256": "21c894055707ce3f2aeb922873f247c18317ae2f752c8365e2509e38c7059ffb"
+    "bytes": 1792514,
+    "sha256": "6f59972a63a23df77b76c90d2f0214b54c7e001e333ea6278bd50b43ceb6af6f"
   },
   {
     "path": "mods/recommissioned-hud/Jaguar_Plt.fm8",
-    "bytes": 6886397,
-    "sha256": "804ec270a1460244dc650d2dff0f6d48cc7ef1195be6d1000c39e5073fe8abd8"
+    "bytes": 6862660,
+    "sha256": "c3abcf42a9faf4fa063a348468bca17fd9686c0a0b778b0ea8c09e0125cfec77"
   },
   {
     "path": "mods/recommissioned-hud/Jaguar_Plt_D.fm8",
-    "bytes": 1799182,
-    "sha256": "21c894055707ce3f2aeb922873f247c18317ae2f752c8365e2509e38c7059ffb"
+    "bytes": 1792514,
+    "sha256": "6f59972a63a23df77b76c90d2f0214b54c7e001e333ea6278bd50b43ceb6af6f"
   },
   {
     "path": "mods/recommissioned-hud/KestrlCmmnd_Comms.fm8",
-    "bytes": 5929928,
-    "sha256": "8592f8a790a1d3d47bf901c727bdcbfefd6a776497ec36bd39f9ac75bf56bbe4"
+    "bytes": 5909680,
+    "sha256": "6a986fea3d20444de357cef2466ef37e7ed2ac373e104c540ab24eaaad8a0269"
   },
   {
     "path": "mods/recommissioned-hud/KestrlCmmnd_Comms_D.fm8",
-    "bytes": 1737799,
-    "sha256": "bf52582849959e295b499d9f1914ebfa20219eda2973cc25c8776827003d3a19"
+    "bytes": 1731619,
+    "sha256": "31e26bb1b000d10b352c3f7ff567bf7d87cc1972876fa231f8269e8b72cb1764"
   },
   {
     "path": "mods/recommissioned-hud/Koenig_Brdge_off.fm8",
-    "bytes": 5721026,
-    "sha256": "bb1d34b58f4c1083c11d8cf776684301dcda83eb6facc46c5478825c4e7fa9ad"
+    "bytes": 5701587,
+    "sha256": "0682b15bd10960dfe6c1fa84936dbf34e2c471a05c5e1b08dd0a282d945ca40b"
   },
   {
     "path": "mods/recommissioned-hud/Kstrl_Brge_Off.fm8",
-    "bytes": 6439779,
-    "sha256": "6d69e146e6aa188cce1867c4cc2643700c7308347cf405241de4c3cc7bdb63a6"
+    "bytes": 6419942,
+    "sha256": "db8ec884357a8c2f1c75b44e8050f0b53c6f937ab03f6c39c50c7d83e34453c8"
   },
   {
     "path": "mods/recommissioned-hud/Kulov_Borodin.fm8",
-    "bytes": 6009037,
-    "sha256": "0e9a7a6d8c025b7c95a9787f945b2ed2fa0b4c0a928a160ce4a9e981e2984c70"
+    "bytes": 5986956,
+    "sha256": "770e6c5dac722ba65f43e1e28f24d32c01f41d1559e8e5ba4580c61b8e64c37d"
   },
   {
     "path": "mods/recommissioned-hud/Kulov_Borodin_D.fm8",
-    "bytes": 1764163,
-    "sha256": "bcc891ae9406344f96dbd09ef78e72c0b3daadd5d4d5f7ab2a40559dda115835"
+    "bytes": 1757942,
+    "sha256": "c322430e2ad456804625e23cb22d0ccd865ca397097d2faa8be1e9276a778f70"
   },
   {
     "path": "mods/recommissioned-hud/Kulov_Pod.fm8",
-    "bytes": 7206537,
-    "sha256": "62ce995faf19180344d149ddf91585b03e52972826039b52257192270c02d04d"
+    "bytes": 7182720,
+    "sha256": "f900545dac8fec5121953d423f071032da040cb3821c99e99a95f834483ebe0d"
   },
   {
     "path": "mods/recommissioned-hud/Kulov_Pod_D.fm8",
-    "bytes": 1888747,
-    "sha256": "3746de516e32447f017430ae7f5214304a40a964486f022fd981d790c6bf1716"
+    "bytes": 1886604,
+    "sha256": "828db0d8e589b89ed61b7ea9235823a687ce99837717f99915b8224055148202"
   },
   {
     "path": "mods/recommissioned-hud/Lonestar_Plt.fm8",
-    "bytes": 9154833,
-    "sha256": "32d25b743feb8e9867f1ca723a2bbcba217062e97124f9fa5aeab811c7f880bb"
+    "bytes": 9133448,
+    "sha256": "73f9ba536544763ceead4a4aeaff27700d78d363045da1895fb7f3bf56e34393"
   },
   {
     "path": "mods/recommissioned-hud/Lonestar_Plt_D.fm8",
-    "bytes": 1607709,
-    "sha256": "4ff37dd657dcba120a5aee8eb373d935741ad48362677eff8d91fd1866434135"
+    "bytes": 1601673,
+    "sha256": "39ca379e42a46454dea4c653bf2af646e8e8051b81413a0b011b12bea0a23fdf"
   },
   {
     "path": "mods/recommissioned-hud/Lonestar_Plt_L.fm8",
-    "bytes": 8090743,
-    "sha256": "7cae18d3512a0535f7b38d80a3f740003bc0a9b3af50d4a3ee9bcbbaddc9d344"
+    "bytes": 8068148,
+    "sha256": "a648e960372a76878f6be29a88fadc3b93841e16a929ac439d06a2c25ac3967e"
   },
   {
     "path": "mods/recommissioned-hud/MCGALOOK.FM8",
-    "bytes": 4446674,
-    "sha256": "60609cfc7f008c7e26a462d6ebc0c1e4626bc7edd0f4d50b358b011029525d54"
+    "bytes": 4424632,
+    "sha256": "9295569e4f997a2108f84ec4ceff7e49efe45d8137ed933d37a677fd38a2b976"
   },
   {
     "path": "mods/recommissioned-hud/MCGANNNO.FM8",
-    "bytes": 5333582,
-    "sha256": "1be3c2101e8498840bbb326c5792677e313874775973d75b915e990c85aa51f6"
+    "bytes": 5311644,
+    "sha256": "5825336c6ca527d70acd8b88f031673af288aca31ac65fa2018766be2eec53a5"
   },
   {
     "path": "mods/recommissioned-hud/MCGDEATH.FM8",
-    "bytes": 1915722,
-    "sha256": "1914c8bcf813c0f477d8b104a4c68e92d33e1b11b5778c2962be403205cd612b"
+    "bytes": 1911314,
+    "sha256": "7e836aa902fd09f84a245653462e30644d55870237562850a59bb9d9ce344a6a"
   },
   {
     "path": "mods/recommissioned-hud/Mammoth_Plt_01.fm8",
-    "bytes": 7220196,
-    "sha256": "a6039992bbea9941785ca0bbbce9620418bbf8322c1b26aad7c7e0235faf7008"
+    "bytes": 7209551,
+    "sha256": "45a616a12689072fad5512397821c433ebc2abe8850075fc214b5a26d04d5e8f"
   },
   {
     "path": "mods/recommissioned-hud/Mammoth_Plt_01_D.fm8",
-    "bytes": 1897771,
-    "sha256": "1c0d1c69ee720606dd40e15ccdca2322fbc8cb7940285832b9f9c6315ecd3665"
+    "bytes": 1896053,
+    "sha256": "dfc52918b0ee4cf80b5b5dd4d9a32aa7e4d59f2da35fc250b2ebad0d344e7eb3"
   },
   {
     "path": "mods/recommissioned-hud/Mammoth_Plt_02.fm8",
-    "bytes": 7125081,
-    "sha256": "ce0eb8d3b77a4e79873f597aa7e9d9e6f7d28feeff79ad05791611aa385be7f5"
+    "bytes": 7110215,
+    "sha256": "09efd0d0bddfb829410f21a4ba75d2ecbb05731ebabaacf6d2a10cbb28d14680"
   },
   {
     "path": "mods/recommissioned-hud/Mammoth_Plt_02_D.fm8",
-    "bytes": 1897771,
-    "sha256": "1c0d1c69ee720606dd40e15ccdca2322fbc8cb7940285832b9f9c6315ecd3665"
+    "bytes": 1896053,
+    "sha256": "dfc52918b0ee4cf80b5b5dd4d9a32aa7e4d59f2da35fc250b2ebad0d344e7eb3"
   },
   {
     "path": "mods/recommissioned-hud/Mammoth_Plt_03.fm8",
-    "bytes": 5639427,
-    "sha256": "07a196a77ef8a5f035e8b31d77b5dcc2dc392c58c3c0a119e87e29200d66e6d9"
+    "bytes": 5639696,
+    "sha256": "f3fe4ec6d3f55d29f372dec9c3c06106330a69da26f48fcbb1ba4244ab7b1f2d"
   },
   {
     "path": "mods/recommissioned-hud/Mammoth_Plt_03_d.fm8",
-    "bytes": 1904840,
-    "sha256": "95b2735fe00dcc884564c8b3bd0ff084d578d235b661cf3b25e4eb400c36a842"
+    "bytes": 1898459,
+    "sha256": "ba89e075c54230f93358145b2fcf153b6c073c098638fd6601b06ce70cc4f171"
   },
   {
     "path": "mods/recommissioned-hud/Mammoth_Plt_04.fm8",
-    "bytes": 8757328,
-    "sha256": "3b418b48cfe99f622d55bb704328270cebc74d22fa86e54045a374c9eb23a692"
+    "bytes": 8733352,
+    "sha256": "90a4bcbc64de280f8e699f250b5ee25bc6946515d51d7daf9ac1174b56de675b"
   },
   {
     "path": "mods/recommissioned-hud/Mammoth_Plt_04_D.fm8",
-    "bytes": 1904840,
-    "sha256": "95b2735fe00dcc884564c8b3bd0ff084d578d235b661cf3b25e4eb400c36a842"
+    "bytes": 1898459,
+    "sha256": "ba89e075c54230f93358145b2fcf153b6c073c098638fd6601b06ce70cc4f171"
   },
   {
     "path": "mods/recommissioned-hud/MarauderWL_Plt.fm8",
-    "bytes": 5580097,
-    "sha256": "db48f26d411e0cd41aec100deb41fcd4a1826f6022c1820a56e59b0bc67aac62"
+    "bytes": 5557988,
+    "sha256": "7d90c7ae92ab3cfa6a860fcacfe298edc8bb5564e770d03bfabeead73d43ae92"
   },
   {
     "path": "mods/recommissioned-hud/MarauderWL_Plt_D.fm8",
-    "bytes": 1808115,
-    "sha256": "622a126edf4159139addfc4c3f5be6c562fbb978946e589146c8b64deddce71e"
+    "bytes": 1802998,
+    "sha256": "9c10db4ea2ea8ccd411418f8553d92746fd7cf0c4e96fe14687537ec456b1a1b"
   },
   {
     "path": "mods/recommissioned-hud/Marauders_Plt.fm8",
-    "bytes": 7460325,
-    "sha256": "bb1b8254d0efd6a2d08945f02c4b99ada86b542a9a38585026ef3161456a7e03"
+    "bytes": 7436643,
+    "sha256": "5868441fd6fc635bc0fd7f95d96a614ca234cf9f40e8fce1f85e4b7e92aa3886"
   },
   {
     "path": "mods/recommissioned-hud/Marauders_Plt_D.fm8",
-    "bytes": 1878818,
-    "sha256": "1ea541b7a04427afde28adfb00976d06f9e895e022f758df24e39b7272f13bfa"
+    "bytes": 1873000,
+    "sha256": "ba3cc38887b888cf73c868214c9806f422333da6bc970154e730d8f6c7f4fe91"
   },
   {
     "path": "mods/recommissioned-hud/Marine_Combat.fm8",
-    "bytes": 5582167,
-    "sha256": "d4f261ff732809728437f75694a1f52680a39c8c6f5907aae038387c60f7c1ad"
+    "bytes": 5562828,
+    "sha256": "71607aa4727758151bf8786396075e929dbe29de0971968f279dd4db3927a1f2"
   },
   {
     "path": "mods/recommissioned-hud/Marine_Leader.fm8",
-    "bytes": 7433277,
-    "sha256": "2dda2c4f5e79c8dd4129a0c607a37684e50c0a01147534b0db4f79406e40bc78"
+    "bytes": 7414020,
+    "sha256": "38cceaed7f721ce281dc34eefd8cbd7f50c5e542788b48ad3dc276468cc02bd5"
   },
   {
     "path": "mods/recommissioned-hud/Mauler_Plt.fm8",
-    "bytes": 8741840,
-    "sha256": "6adf16c96e0e2ab6db0c413b0f83fd22c9aacbe9abb1d350280de23c44991291"
+    "bytes": 8718095,
+    "sha256": "17c2b91f742091e74a35854694a401ee41fa37ef28ad0f3e377b7d3aceabe65e"
   },
   {
     "path": "mods/recommissioned-hud/Mauler_Plt_D.fm8",
-    "bytes": 1830667,
-    "sha256": "c020624b09f5f3738de30606facd8a39bc8c604a8cd21faca22980a9f357cdfd"
+    "bytes": 1824724,
+    "sha256": "7f3d43e3b6b8f04709355c64b6956144572a9c419f15454b06b3ed84f44a75e9"
   },
   {
     "path": "mods/recommissioned-hud/Mitchel_Brdge_Off.fm8",
-    "bytes": 5550859,
-    "sha256": "2e5a7a2f1381a3f9342ec2824baff187f7ffe68fc1e6561c91d8c8fd85f15945"
+    "bytes": 5532912,
+    "sha256": "fa1559903d81fd4b40f0c22a46dc1752337b82007bff7ec31db3c1594d7c5728"
   },
   {
     "path": "mods/recommissioned-hud/Mtchel_Brdge_Off_D.fm8",
-    "bytes": 3074638,
-    "sha256": "82dab732cb895cbb6c1a59dede34b64a913b8d0d163a848b103f492498df0a59"
+    "bytes": 3062649,
+    "sha256": "87dabd3b579b10656acfa3728af8fbcf7def4f3f443b270550cef668ff460266"
   },
   {
     "path": "mods/recommissioned-hud/NANNYD.FM8",
-    "bytes": 1901592,
-    "sha256": "d2002b8a0415d478b12c13b60fb60e029a5ff8b0a5e79fd9f63890b1ac0af298"
+    "bytes": 1894129,
+    "sha256": "c152ac4264c23192e7abbb23e1460f6199aca6ff3f314b629b6b4979dbbc99dd"
   },
   {
     "path": "mods/recommissioned-hud/NANNYL.FM8",
-    "bytes": 6880207,
-    "sha256": "258348693158a8ea8839ff45c0969e316d0c9dd2dfcecb1ea2f9e33a1c7285ce"
+    "bytes": 6856683,
+    "sha256": "254541f1e7ab94ccc082221065856b7df785f71ef5d0ad01c13db6a70677d60a"
   },
   {
     "path": "mods/recommissioned-hud/Nanny_Ldr.fm8",
-    "bytes": 8203223,
-    "sha256": "a631dd7ea47e7730fa66f1153cd463d35a5b40e2dfeb7de7a5bab508d7e5e494"
+    "bytes": 8179493,
+    "sha256": "7c3a533be46842c1819e0e91aeeb10189570519b20c8140da9d88987253470bc"
   },
   {
     "path": "mods/recommissioned-hud/Nanny_Ldr_D.fm8",
-    "bytes": 1901592,
-    "sha256": "d2002b8a0415d478b12c13b60fb60e029a5ff8b0a5e79fd9f63890b1ac0af298"
+    "bytes": 1894129,
+    "sha256": "c152ac4264c23192e7abbb23e1460f6199aca6ff3f314b629b6b4979dbbc99dd"
   },
   {
     "path": "mods/recommissioned-hud/Nanny_Ldr_L.fm8",
-    "bytes": 6880207,
-    "sha256": "258348693158a8ea8839ff45c0969e316d0c9dd2dfcecb1ea2f9e33a1c7285ce"
-  },
-  {
-    "path": "mods/recommissioned-hud/OpenReliant-MPL-2.0.txt",
-    "bytes": 16726,
-    "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    "bytes": 6856683,
+    "sha256": "254541f1e7ab94ccc082221065856b7df785f71ef5d0ad01c13db6a70677d60a"
   },
   {
     "path": "mods/recommissioned-hud/Oxanium-OFL.txt",
@@ -896,383 +891,383 @@
   },
   {
     "path": "mods/recommissioned-hud/PROWLD.FM8",
-    "bytes": 1445614,
-    "sha256": "6528505c069be64277896c8cb018395449ce63d8edd773627b8eeec316428c32"
+    "bytes": 1441711,
+    "sha256": "d9a92216ae2e244a487dea7f9c627a31c7c04e1d24b1a2a56f925c2a953a4f59"
   },
   {
     "path": "mods/recommissioned-hud/PROWLP.FM8",
-    "bytes": 6123415,
-    "sha256": "b051ccf0b424c61630ab344ee903bf1a315f129b9f3b598f0c353cc7e563b8ec"
+    "bytes": 6103058,
+    "sha256": "b4c75c030908ec08945741ebafeade1df5b9cbc1109587444cc06f88ed3eb1a8"
   },
   {
     "path": "mods/recommissioned-hud/PUMAG.FM8",
-    "bytes": 8107912,
-    "sha256": "786eb7d0560cef6fe78ca5ac8a0d7274dd125a055f24373250c1e92c765cc1b1"
+    "bytes": 8082601,
+    "sha256": "599ef65955adc53a8af8ca198dc8cd9f430788300140253bd8627738a8f75f6c"
   },
   {
     "path": "mods/recommissioned-hud/PUMATANG.FM8",
-    "bytes": 7192919,
-    "sha256": "a183eca8f48234696b4411d9bc479c4e130c8321147bbb0b12b4655ae81c5be5"
+    "bytes": 7169116,
+    "sha256": "a21615775b717f9620563c98ca5773517dfbf4c91443651c09d1eec34b6cb1d2"
   },
   {
     "path": "mods/recommissioned-hud/PUMATANL.FM8",
-    "bytes": 5509486,
-    "sha256": "f9d59d5ccf1efe1047f5153f2c03adabe84c06220efaa5722ac8f4dd2c847013"
+    "bytes": 5494143,
+    "sha256": "39d54fec57b7da1cbb7198e8e034829f16bcf2507473b21d1d4d6f8ef4834f49"
   },
   {
     "path": "mods/recommissioned-hud/PirateWL_Plt.fm8",
-    "bytes": 7874526,
-    "sha256": "7663cd7024ea984ecece63e5090808677569d8f7bce6c68af5226302117cdd07"
+    "bytes": 7851948,
+    "sha256": "d0f52d395d535f050fd5273280e05d04121236b53e0730102fd8e15ffe2fbb95"
   },
   {
     "path": "mods/recommissioned-hud/PirateWL_Plt_D.fm8",
-    "bytes": 1461213,
-    "sha256": "8efcd72482cca6a41f20bc43d5ecda2678742b0603a382398b422a5f84ec1761"
+    "bytes": 1456940,
+    "sha256": "5306543f5077197c4ef12e082b9072eede31adfe0e299c6b9e3966f1f08c8fac"
   },
   {
     "path": "mods/recommissioned-hud/PirateWL_Plt_L.fm8",
-    "bytes": 4214480,
-    "sha256": "c542d87e81fe6ef19f27cb04a64710e93374f7dd299a4ac615a6fee23b69b047"
+    "bytes": 4192325,
+    "sha256": "ce961122f84407ca21865e34dbcdfadaedd6a4a73cea5ace5f54dfcc844de2a7"
   },
   {
     "path": "mods/recommissioned-hud/Pirate_Plt.fm8",
-    "bytes": 8363200,
-    "sha256": "00297f6961a1738a8c1e9b8561b81e6df7629d2157cb9dce7032fc3b797bcbad"
+    "bytes": 8339415,
+    "sha256": "b9229a62d609af8aec9b40e7093de6413697d0daf9c08b5521664b2eea611d15"
   },
   {
     "path": "mods/recommissioned-hud/Pirate_Plt_D.fm8",
-    "bytes": 1461213,
-    "sha256": "8efcd72482cca6a41f20bc43d5ecda2678742b0603a382398b422a5f84ec1761"
+    "bytes": 1456940,
+    "sha256": "5306543f5077197c4ef12e082b9072eede31adfe0e299c6b9e3966f1f08c8fac"
   },
   {
     "path": "mods/recommissioned-hud/Prowler_Plt.fm8",
-    "bytes": 6123415,
-    "sha256": "b051ccf0b424c61630ab344ee903bf1a315f129b9f3b598f0c353cc7e563b8ec"
+    "bytes": 6103058,
+    "sha256": "b4c75c030908ec08945741ebafeade1df5b9cbc1109587444cc06f88ed3eb1a8"
   },
   {
     "path": "mods/recommissioned-hud/Prowler_Plt_D.fm8",
-    "bytes": 1445614,
-    "sha256": "6528505c069be64277896c8cb018395449ce63d8edd773627b8eeec316428c32"
+    "bytes": 1441711,
+    "sha256": "d9a92216ae2e244a487dea7f9c627a31c7c04e1d24b1a2a56f925c2a953a4f59"
   },
   {
     "path": "mods/recommissioned-hud/Pukov_Cap.fm8",
-    "bytes": 4304972,
-    "sha256": "f37c051d9a902b08fd8aca29c3a5309491cdaf0bf1954c99cc5970161f893cb6"
+    "bytes": 4287203,
+    "sha256": "42639d53143aae9c9c561b5b7a7939fe33c4f2035dd98d2105d874d3661b1927"
   },
   {
     "path": "mods/recommissioned-hud/Pukov_Cap_D.fm8",
-    "bytes": 1748894,
-    "sha256": "970f14580469131b6ca6a6d0fb49eac77e2ad3c3c0951a15e005c7913c9da86e"
+    "bytes": 1743164,
+    "sha256": "5608312c4ea3666c7a38028b39f09eb66a28a6dcbf2d6b3f8a53f80e71a9332a"
   },
   {
     "path": "mods/recommissioned-hud/PumaWL_Plt.fm8",
-    "bytes": 7271194,
-    "sha256": "61c733b41d8c3dd55a6d3a06b6af372333db113151426d710ca04d3967537048"
+    "bytes": 7279614,
+    "sha256": "074d8b429ff1063878cdf3e741474b6e06e3f6aa5a516cdcf1e4895940a0504f"
   },
   {
     "path": "mods/recommissioned-hud/PumaWL_Plt_D.fm8",
-    "bytes": 1730419,
-    "sha256": "334f8cdf05447458552a138327787918f121ebfbc94b37c4d81e089df277ef70"
+    "bytes": 1724427,
+    "sha256": "4e8df52f0025f5056e592c284009d283114456e88913678199fd22a15ff3faf9"
   },
   {
     "path": "mods/recommissioned-hud/PumaWL_Plt_L.fm8",
-    "bytes": 5092620,
-    "sha256": "c90b57f49380f001f4165944830d860ad6dbd58a4bb37d6f4dc55f352a3d2a88"
+    "bytes": 5070587,
+    "sha256": "2d30083b01db2a4cc070271a6b75b5a478134d1836fc95ba4a0fd0b8e037abe8"
   },
   {
     "path": "mods/recommissioned-hud/Puma_Plt.fm8",
-    "bytes": 6236315,
-    "sha256": "371b171a3ca2545d74e1decfe2202b4fc24442a5bd12fb68a9538b80bd455e50"
+    "bytes": 6214039,
+    "sha256": "84f145d28ea2404033d79df262fb6e9c8f0c72bff5d3031a41f5decbcbc0d29f"
   },
   {
     "path": "mods/recommissioned-hud/Puma_Plt_D.fm8",
-    "bytes": 1490046,
-    "sha256": "548c0aa83b5664a6bf79ea6b647bcb97c064b6b470eb0076777af91353d7162d"
+    "bytes": 1485913,
+    "sha256": "e62cdd0b2cb7b72b8fa88b2375b44ddec3f97b277df4966d8d636f856ccfed85"
   },
   {
     "path": "mods/recommissioned-hud/RUSSBOMB.FM8",
-    "bytes": 7306907,
-    "sha256": "3bb5ae563bded28836c9931d1b1b72b9b0722135e43e41e45ac6827f86a20885"
+    "bytes": 7283066,
+    "sha256": "8c37ddceb3fa154aaeb395975dbe7deab963cecbf73e91ddc036d03b548f7e59"
   },
   {
     "path": "mods/recommissioned-hud/RavenWL_Plt.fm8",
-    "bytes": 5677367,
-    "sha256": "c8a9b1a881fd8250e52ff04f1cc606beb1c76cbe08ea05c86f7305555011514b"
+    "bytes": 5655066,
+    "sha256": "1fd74184c4b5a95fec7c5ee8f87e07162ca045d221a87391fbda2b176c0a3654"
   },
   {
     "path": "mods/recommissioned-hud/RavenWL_Plt_D.fm8",
-    "bytes": 1777833,
-    "sha256": "8005e55d65326e9dba41cb48de6613133883c30a4691c8d7ed9a3b0693bd425e"
+    "bytes": 1771535,
+    "sha256": "d67044af6f7203d177915771e8d384d2a51a5e61b9670aeeff0efea9906c7e74"
   },
   {
     "path": "mods/recommissioned-hud/Raven_Plt.fm8",
-    "bytes": 6533424,
-    "sha256": "f510c78275b57732ca5622bdc08983965d57fd2f69419a7df34330b902251a58"
+    "bytes": 6509710,
+    "sha256": "33113b23d221a94f47826a821787954fcb703cf80d824d8781953ba96bd8affe"
   },
   {
     "path": "mods/recommissioned-hud/Raven_Plt_D.fm8",
-    "bytes": 1777833,
-    "sha256": "8005e55d65326e9dba41cb48de6613133883c30a4691c8d7ed9a3b0693bd425e"
+    "bytes": 1771535,
+    "sha256": "d67044af6f7203d177915771e8d384d2a51a5e61b9670aeeff0efea9906c7e74"
   },
   {
     "path": "mods/recommissioned-hud/Rel_Brdge_Off.fm8",
-    "bytes": 6945321,
-    "sha256": "0126865cbfb7aacf73580a7f2530bf8bdf21ce85bbd8d5a1bf522bd72633e20b"
+    "bytes": 6925796,
+    "sha256": "378d337aa06b2d59234487de37f030e30aafd95ef123ff7f7a035d9a4ea19ad3"
   },
   {
     "path": "mods/recommissioned-hud/Rel_Brdge_Off_D.fm8",
-    "bytes": 1688042,
-    "sha256": "890b675445a0751606d4cde36ecbb38dc935bca54a0ee16ac39bc64fed1a50ca"
+    "bytes": 1683136,
+    "sha256": "664d9934ae901553ab9a6a06d06aad3d9f3c5257562c11a39875a7bd343469d1"
   },
   {
     "path": "mods/recommissioned-hud/Ripper_Plt.fm8",
-    "bytes": 9227304,
-    "sha256": "ea385d9694cea5ce83372aad11b352c1e91c54ca4f6adb6a33be0a45f27d0546"
+    "bytes": 9205191,
+    "sha256": "6fff00af059ff681d1a472f55edaaea9726332ab199c0938ee7d9331dfd7572a"
   },
   {
     "path": "mods/recommissioned-hud/Ripper_Plt_D.fm8",
-    "bytes": 1208033,
-    "sha256": "f54b6e72620e953778d46aebf9d86f2988fc95e9230b26203f4ccf631a489db9"
+    "bytes": 1204166,
+    "sha256": "7852b240a2cef68133455388801a91babb5584bd3643e0c3b5747f6fb133c814"
   },
   {
     "path": "mods/recommissioned-hud/RoninWL_Plt.fm8",
-    "bytes": 5520478,
-    "sha256": "871806404958c9aab62a7e6ad66aebbd098471d2e9561c01e50748bac0b1f0b7"
+    "bytes": 5499564,
+    "sha256": "44c4a4b7a2566ce0404ebf8260fa70e7ff300d610b9fd8c823a185a4ab6f4c20"
   },
   {
     "path": "mods/recommissioned-hud/RoninWL_Plt_D.fm8",
-    "bytes": 1725515,
-    "sha256": "07c4795ff22b2e8bbac55384643dbc9a4d93db932333753659aa9f788cb999f2"
+    "bytes": 1727493,
+    "sha256": "1b2f26291271621bf4b9a8c0d9f593d427672c308a5d8b71113d38295821d9d4"
   },
   {
     "path": "mods/recommissioned-hud/RoninWL_Plt_L.fm8",
-    "bytes": 5238058,
-    "sha256": "89eba8edd6b326d65cae1ba7fcd08b8b6981777101f556ddf715349482b2a6c2"
+    "bytes": 5216127,
+    "sha256": "050df437808125fe854398d22fac930f9542601249a1fecdc3e794fe9e9c98d8"
   },
   {
     "path": "mods/recommissioned-hud/Ronin_Plt.fm8",
-    "bytes": 9337951,
-    "sha256": "61afed77a120ef08bb495c0c2f7b759d9ade2d2f4a7acdc0c54005db9ca50d93"
+    "bytes": 9314192,
+    "sha256": "b9940f037a831c6585bcee21fc937b8ca70e3ade03cbac01f96c4a49b24a54f6"
   },
   {
     "path": "mods/recommissioned-hud/Ronin_Plt_D.fm8",
-    "bytes": 1670647,
-    "sha256": "830b8b3c9aab505bc8cde931238aee6e2cfffa799679e2135dd4a23e6884bcef"
+    "bytes": 1668799,
+    "sha256": "141fe3026923b348211aaa045aa770077d414a7f62c80c548496e1c2454888c1"
   },
   {
     "path": "mods/recommissioned-hud/STEINP.FM8",
-    "bytes": 6122350,
-    "sha256": "a691fd642d98243fda40b1102ac727b239dee71afe76bc612420ac814d5085df"
+    "bytes": 6099058,
+    "sha256": "321558540752f25013082b50bba10c478eb553e1cce2615fc8620160b6155e0d"
   },
   {
     "path": "mods/recommissioned-hud/STINGWL.FM8",
-    "bytes": 8178065,
-    "sha256": "94124b66702ca596268183f24228ecf2c67b30e76a337cc0719ab1117c933c88"
+    "bytes": 8155204,
+    "sha256": "78b1f0858bb56d04e71fcb622b2b6e767fffa00883a7f3195eff1421c713ea35"
   },
   {
     "path": "mods/recommissioned-hud/SabreWL_Plt_D.fm8",
-    "bytes": 1882592,
-    "sha256": "cb07075745625445b4d2715550aff79a007699a421f900264bfe422aa37f127e"
+    "bytes": 1876541,
+    "sha256": "7a71b286807faf3286cd62c3ebebe5293b0dd27f92e5047b7a67f6174401cad7"
   },
   {
     "path": "mods/recommissioned-hud/SabreWL_plt_.fm8",
-    "bytes": 8375156,
-    "sha256": "fd8d22541ab4f2219d89b5f1745705716a69dcd7ccb234c300c4ab157980ba51"
+    "bytes": 8351227,
+    "sha256": "76a708ef3fe9b470ee84b33f6b53d324602490358a0c6a8ecbb592beffef78b9"
   },
   {
     "path": "mods/recommissioned-hud/Sabre_Plt.fm8",
-    "bytes": 7544485,
-    "sha256": "8c48129d9ddff1740a9a2ce12811dd1a7f8097fafedb37c75837a3068cd7a4dc"
+    "bytes": 7520595,
+    "sha256": "88d5e37a5412ac559e41b4c6f64d7869f7d5ed1d04336e236279a34d783208f5"
   },
   {
     "path": "mods/recommissioned-hud/Sabre_Plt_D.fm8",
-    "bytes": 1679012,
-    "sha256": "40da3ea1ae920df839143da42d142153e7a4a9d777cd8ef33256743eda7e226a"
+    "bytes": 1672902,
+    "sha256": "788380b9aa713b6633341ca99ca04a5e129ea71f23fdd4a4de07eec98b4af3c0"
   },
   {
     "path": "mods/recommissioned-hud/SaracenWL_Plt.fm8",
-    "bytes": 9678619,
-    "sha256": "bab47f61016c8af88e8cfec7b631c03cb78de7afd73ac515b52c8d41947e9439"
+    "bytes": 9698701,
+    "sha256": "a54103f67e7d9cdc8dc0de81a6603d90beb2d51b22e4c35620fd3a8c7122f60c"
   },
   {
     "path": "mods/recommissioned-hud/SaracenWL_Plt_D.fm8",
-    "bytes": 1228157,
-    "sha256": "3067961d16c1b6f511046362d5c4e7be7441241e6c3a93b44c52c7b3393aca50"
+    "bytes": 1222768,
+    "sha256": "04df37bbb41b790e57b8eba0a57d2961a97f7c0d03f7363725092ae4c7b3f731"
   },
   {
     "path": "mods/recommissioned-hud/Saracen_Plt.fm8",
-    "bytes": 5047868,
-    "sha256": "757ccb3ab36d316bb16ba4e8244554c580f11f20eb8373e149077e9091a4e9d1"
+    "bytes": 5029921,
+    "sha256": "ea22b42bad7d5eb9d238a77e382973e1297e14be8e9d4e53fa3ea8652059b1b8"
   },
   {
     "path": "mods/recommissioned-hud/Saracen_Plt_D.fm8",
-    "bytes": 2877784,
-    "sha256": "593794dc4a99582112425bb63d18dd6428a3a8b57ae95324ee438e0eeda168d0"
+    "bytes": 2867399,
+    "sha256": "c099f7b5871851377daeb4f1376e7fcdf192c3e20da9584aa7b4ba87563196ca"
   },
   {
     "path": "mods/recommissioned-hud/ScorpionWL_Plt.fm8",
-    "bytes": 6216981,
-    "sha256": "6287fb718d9625c3530acd8750640494d9b530379292e54fd881947213ee7a91"
+    "bytes": 6197704,
+    "sha256": "3b517ed7447d7287c368bcb0a5445a79de4054ec7e98892042da59171e5da6f4"
   },
   {
     "path": "mods/recommissioned-hud/ScorpionWL_Plt_D.fm8",
-    "bytes": 1790878,
-    "sha256": "1b499024a20803b0d779c011d98dbd331798d02d93828c69b77df8198dd37cc4"
+    "bytes": 1785654,
+    "sha256": "f3e3f1985ee6b58ef915eaccefb0c91f52cdfe97b0d2effea0956d0cd05629a7"
   },
   {
     "path": "mods/recommissioned-hud/Scorpion_Plt.fm8",
-    "bytes": 3701690,
-    "sha256": "e0b79a2ba08c0d35a3480e94b932a14dd96957094dabdba714f6905dc830a9d6"
+    "bytes": 3686948,
+    "sha256": "b26accd5324c482032d79fbfa4819bb2f6438e9adbcd44d58bc99ee60abe7095"
   },
   {
     "path": "mods/recommissioned-hud/Scorpion_Plt_D.fm8",
-    "bytes": 1861129,
-    "sha256": "b85296d21c884d33329850f7eb942609f65468d97abd0eb69a98ee22b3842989"
+    "bytes": 1856104,
+    "sha256": "e1e04348500556852a7ba371f6a6beff630feb8ce621130a68c9df88bfaed17e"
   },
   {
     "path": "mods/recommissioned-hud/Stahl_BrdShip.fm8",
-    "bytes": 8223290,
-    "sha256": "6ba3a28f0769c681ad7e51f79caa1d73aedafe2363bbdb6f3db294a1834ce7f6"
+    "bytes": 8199445,
+    "sha256": "6474c3938971e81dff025ec45b5325f7e5543a9c9efcd3288b6a9b474b520702"
   },
   {
     "path": "mods/recommissioned-hud/Stahl_Marines.fm8",
-    "bytes": 8886838,
-    "sha256": "04e67552d87cca0eaabcf2f1e22decb5c01f5bdf607f292853c351096dc420e2"
+    "bytes": 8873869,
+    "sha256": "201d534dc2f71b481bf2752ba5053ae1ebd9e8015c7cffd0fa02e836fecb4a5a"
   },
   {
     "path": "mods/recommissioned-hud/Stahl_RippShip.fm8",
-    "bytes": 5097640,
-    "sha256": "e97eb80455e0a9868e5722586b8add595b3746ee95f5830e40f7f15e5340da97"
+    "bytes": 5076915,
+    "sha256": "7968ce3d1aa3d37eda9d91e8d6c72469df7c9412f02178f51e0600d3b62bdd04"
   },
   {
     "path": "mods/recommissioned-hud/Stahl_RippShip_D.fm8",
-    "bytes": 1667972,
-    "sha256": "0da62bc21a518e8c1814aacb3034e49e6e048474c7ce0247c560a3adc3767d62"
+    "bytes": 1665869,
+    "sha256": "9d5ca96f8af72e6bab84cda0cb7c0041e4efcbf7368deaff4e3d5fe3e18a6619"
   },
   {
     "path": "mods/recommissioned-hud/Stahl_RippShip_L.fm8",
-    "bytes": 7393377,
-    "sha256": "51a2d1a961a6032f2a8850e2a8297b8c3f28fcdcfa7c7e5f5ec28fe6740db533"
+    "bytes": 7371854,
+    "sha256": "0ce38f21235c626c08b7d2e93cee44b0b8453cef9553b6269db2e2e5417fccc7"
   },
   {
     "path": "mods/recommissioned-hud/Stiener_Ejected.fm8",
-    "bytes": 6906028,
-    "sha256": "a4bebccf7ad2fe7e20275165228e394c4de295c601a230acc1bf500018cc4be7"
+    "bytes": 6888128,
+    "sha256": "a05c4592596c200804f25ee17cfbbacd9ea2b729dd5b2b397297ffa575f5bf62"
   },
   {
     "path": "mods/recommissioned-hud/Stiener_Ejected_D.fm8",
-    "bytes": 1844082,
-    "sha256": "8b591cb24bd0f538c8305d8a4d596f84fbc1d5eba960df68a483dc66549f4629"
+    "bytes": 1838388,
+    "sha256": "05a879371a63d325039e073b7a95f35bf5a73012e558d3a320f696636ee3a277"
   },
   {
     "path": "mods/recommissioned-hud/StingerWL_Plt_D.fm8",
-    "bytes": 1800136,
-    "sha256": "a412d1b01fe0c8add29c17bb451b08aee11dcdc5279d673351a9a074b0fc3dc0"
+    "bytes": 1801696,
+    "sha256": "9c0c56a805f3b29a31dd5f12e27af2f608f82673691cdc5901f118abc005b345"
   },
   {
     "path": "mods/recommissioned-hud/StingerWL_Plt_L.fm8",
-    "bytes": 8001050,
-    "sha256": "b140688591209e08aff2ee43f2eaf7ab1c5a597ca75b28266f00637be97c80d4"
+    "bytes": 7978106,
+    "sha256": "6e179983566e60962e30b44162ee53ac3333ae282aac0abcb9eaa58a3d066732"
   },
   {
     "path": "mods/recommissioned-hud/Stinger_Plt.fm8",
-    "bytes": 7766472,
-    "sha256": "259ff61f6f611cde9847407ec3791e8850fc97a1995f9b5d1616d33605e42d00"
+    "bytes": 7752272,
+    "sha256": "91481cc3f13ee05b3c8e6945f8fb1aa7a93b740d881844d1ede5f909e14650f8"
   },
   {
     "path": "mods/recommissioned-hud/Stinger_Plt_D.fm8",
-    "bytes": 1916589,
-    "sha256": "18b5d7f041382d00219b9e05cc0e0d902f2b330fd06f4028459dd1e7129ce0a4"
+    "bytes": 1910723,
+    "sha256": "57a4dd282c60d28325e3264b11c80e98e705178e9e594bac8b29fd825f960dad"
   },
   {
     "path": "mods/recommissioned-hud/Stork_Plt.fm8",
-    "bytes": 7831802,
-    "sha256": "a8cf4b5bb456ca438016328993d125f528162ae6af47fc8af8075f951e5a19a8"
+    "bytes": 7808050,
+    "sha256": "44770ac0d953f5a34fee2c82abc4051895419fdb2e058c6b2a14d9c99d5b1c59"
   },
   {
     "path": "mods/recommissioned-hud/Stork_Plt_D.fm8",
-    "bytes": 1448496,
-    "sha256": "5912b5e1e3b7905ab2b16956e56747370c2a0096fe2cc0f26de7d269f50ade06"
+    "bytes": 1444526,
+    "sha256": "040f1612f70f6f8e7cf5097569ffef65413a904118ecf7d503555b366876c679"
   },
   {
     "path": "mods/recommissioned-hud/ULYCAPD.FM8",
-    "bytes": 2751548,
-    "sha256": "481eb3c3ac2fe9c8aa195e45f89ba4fd85e03d276c61fe10a8985746a36f8562"
+    "bytes": 2738650,
+    "sha256": "70bd85fb3a44e58eed4f49a84aa678cda128fef24aeff33a99cde53585eda8e0"
   },
   {
     "path": "mods/recommissioned-hud/Ullys_Capt.fm8",
-    "bytes": 4358150,
-    "sha256": "a98e62cfbee138e366578aed0025de9c7b0b5b9537947359983fe652d8e0ba37"
+    "bytes": 4347188,
+    "sha256": "c04db54bdea4e53da05b0abe1bad9841099e68d77759f7541963d103acb84cd1"
   },
   {
     "path": "mods/recommissioned-hud/Ullys_Capt_Panic.fm8",
-    "bytes": 2751548,
-    "sha256": "481eb3c3ac2fe9c8aa195e45f89ba4fd85e03d276c61fe10a8985746a36f8562"
+    "bytes": 2738650,
+    "sha256": "70bd85fb3a44e58eed4f49a84aa678cda128fef24aeff33a99cde53585eda8e0"
   },
   {
     "path": "mods/recommissioned-hud/VIRTUAL.FM8",
-    "bytes": 8544422,
-    "sha256": "75cfe10ec8201a540097218366cd69ff50d4b4145a48d723b9e174d9d36538b9"
+    "bytes": 8513285,
+    "sha256": "715024bfaf4de68421348a653ad06829c36343380504faa8bc08925095524dfa"
   },
   {
     "path": "mods/recommissioned-hud/VampireWL_Stiener.fm8",
-    "bytes": 8432073,
-    "sha256": "cd460227e8932b208be3736a09987370c2e927fc0c688d76d391f9b1f90d2e0f"
+    "bytes": 8408976,
+    "sha256": "251dc7e35536fded6523874ad7897bd9788ca2c462d2627c412036a404e1aca8"
   },
   {
     "path": "mods/recommissioned-hud/VampireWL_Stiener_D.fm8",
-    "bytes": 1673235,
-    "sha256": "ac8799c9fa83b4ec4975daf698470755a3bfd6d4e56c37bf77a6bdd576f194de"
+    "bytes": 1667095,
+    "sha256": "76987c23991b917b0fed0e1af8d3b86857c55526b7d8d5867c2f3d120857fe1a"
   },
   {
     "path": "mods/recommissioned-hud/VampireWL_Stiener_L.fm8",
-    "bytes": 7935074,
-    "sha256": "d4a40a512754692a91be748a397406ae8550ce0267eacda26deeb7ca1ca45fb8"
+    "bytes": 7912002,
+    "sha256": "aeb63f3bbc4f9a3017f164471dc6cf3cb57b44f22b75e06ec376714a4f23fd7e"
   },
   {
     "path": "mods/recommissioned-hud/Vampire_Plt.fm8",
-    "bytes": 8324952,
-    "sha256": "570c87d46721566de6b596b3dfb631569d24100a1c877a5035ea7a2691f53ff5"
+    "bytes": 8301139,
+    "sha256": "92ca9fc6eb7491dc3d02e2e23aeadf5f2bf8010840536dc838c6a69569c463d2"
   },
   {
     "path": "mods/recommissioned-hud/Vampire_Plt_D.fm8",
-    "bytes": 1724716,
-    "sha256": "347c3daf30ca2c1f4ce33afbb67f485062f17e30b9c28edc6c64a534da7bc9c6"
+    "bytes": 1736773,
+    "sha256": "51bc0f2dea3c4f9eca338b552e2d779b4e94bd6447bc19088364b2c079b1fc42"
   },
   {
     "path": "mods/recommissioned-hud/Victorious_Brdge_Off.fm8",
-    "bytes": 6202632,
-    "sha256": "256d3a29bb395bd247cca5b636ef113c79680672ba861aeaec989030dcabb972"
+    "bytes": 6182371,
+    "sha256": "ba8c389d32cb5392217675044f06a3d79325957945e8925acef080355097473e"
   },
   {
     "path": "mods/recommissioned-hud/Victorious_Brdge_Off_D.fm8",
-    "bytes": 1678855,
-    "sha256": "efe2bb062b71c6af275bf1b1b236fbbb43e9e0dd4f3f32d988bc0b5258b497b2"
+    "bytes": 1672407,
+    "sha256": "e0bcdbee28941c595035d71ebbe6db8029bc000a47b2263cd28f15d2d87efe4b"
   },
   {
     "path": "mods/recommissioned-hud/VirtFlt_Ins.fm8",
-    "bytes": 8544422,
-    "sha256": "75cfe10ec8201a540097218366cd69ff50d4b4145a48d723b9e174d9d36538b9"
+    "bytes": 8513285,
+    "sha256": "715024bfaf4de68421348a653ad06829c36343380504faa8bc08925095524dfa"
   },
   {
     "path": "mods/recommissioned-hud/Washngtn_Brdge_Off.fm8",
-    "bytes": 5503467,
-    "sha256": "e0c759504f5bb16091ee777aae5fddc3a07211f0008a7512a5cb0b123e44c6d5"
+    "bytes": 5485512,
+    "sha256": "a1ba0678aae1351ae9111f568dc737f081e9cc011e0e98b85b9582e887b909f3"
   },
   {
     "path": "mods/recommissioned-hud/Yam_Brdge_Off.fm8",
-    "bytes": 8011099,
-    "sha256": "22cf38baa4b6bc5c4d2476588d8faa386f04e0af7e5d5287f63e481de682e1ae"
+    "bytes": 7985471,
+    "sha256": "489ab79c9ac571557cca0d24c042d729bec9dd6721b48356dc34af9ff442c584"
   },
   {
     "path": "mods/recommissioned-hud/Yam_Brdge_Off_D.fm8",
-    "bytes": 1632722,
-    "sha256": "43bca907435b8bf3d452cb753dd22cc9f7abd1bcfb9057a33182278e41f4eff1"
+    "bytes": 1626577,
+    "sha256": "c0e6f87cdc1bb914ae7b04828cc6302e3ca91b47d182a0b9b0a679eb4186e498"
   },
   {
     "path": "mods/recommissioned-hud/baxbc.fm8",
-    "bytes": 5974645,
-    "sha256": "2f73820508a41b351929a245331fefb10bb927d0a97e0e811c52dce00d389c76"
+    "bytes": 5954908,
+    "sha256": "4bbd91c33b76f73078307ddbb000cc4b9a8871284aa92ddcf97637a60b663ac9"
   },
   {
     "path": "mods/recommissioned-hud/chasepointat.png",
@@ -1290,64 +1285,59 @@
     "sha256": "e3180a1c6f195b375ba5e2e014e529615332b12bbf4e4580296f288acf2e87ec"
   },
   {
-    "path": "mods/recommissioned-hud/device.glsl",
-    "bytes": 39377,
-    "sha256": "2c1e03363724b24884d9fb064156fcae67827eaad03066e1e436aa14ecc49322"
-  },
-  {
     "path": "mods/recommissioned-hud/enriquez.fm8",
-    "bytes": 4527110,
-    "sha256": "9e6229d6008d3a6ef6c4cca7bf360f0fc0ce2fce7a12e73c04bc87736ac3d99e"
+    "bytes": 4510281,
+    "sha256": "bfae357f75bd24fea73d7feaeaa9cbd83331b93624b4d00cd84b331738712cde"
   },
   {
     "path": "mods/recommissioned-hud/frtcrtr_comms.fm8",
-    "bytes": 5861802,
-    "sha256": "5a8a5b11a305279202aa5ff9f83c3311366b6c8f2aa4740ccd72f6c19e07dd1e"
+    "bytes": 5842884,
+    "sha256": "a3b7e4e725ce54f5ca21430c11eb9275e41b110f21e53c0800b42a17efd0c3be"
   },
   {
     "path": "mods/recommissioned-hud/frtcrtr_comms_death.fm8",
-    "bytes": 1228157,
-    "sha256": "3067961d16c1b6f511046362d5c4e7be7441241e6c3a93b44c52c7b3393aca50"
+    "bytes": 1222768,
+    "sha256": "04df37bbb41b790e57b8eba0a57d2961a97f7c0d03f7363725092ae4c7b3f731"
   },
   {
     "path": "mods/recommissioned-hud/frtshrmn_comms.fm8",
-    "bytes": 6356787,
-    "sha256": "d983a0a656d042afc719dd90c70f5b58edd6791561d17bdf73aedc4793048504"
+    "bytes": 6337799,
+    "sha256": "92b04d0b63b38530103ed8c84efe8a9333cf90220a8a0ceb0b28e393bd1dec3d"
   },
   {
     "path": "mods/recommissioned-hud/general.fm8",
-    "bytes": 2398014,
-    "sha256": "23b22cffbe62656cb334279389de222ff2bce2df8982fc41a3580d47bd7e6f54"
+    "bytes": 2388152,
+    "sha256": "3c9b8d65b2498c12d1a6f1f209afb4366935be58338e6b74a6b742489af3d020"
   },
   {
     "path": "mods/recommissioned-hud/goldwarrWL_plt.fm8",
-    "bytes": 7451496,
-    "sha256": "07fe762125a4fb22d783d118cbe39e6f0a20feacf9f798f1573bac9fdf2e8f2d"
+    "bytes": 7427814,
+    "sha256": "eb43ff3afe588c19016c8dff0c5d622262c971f3746560209e27aaca8dc66f3e"
   },
   {
     "path": "mods/recommissioned-hud/goldwarrWL_plt_d.fm8",
-    "bytes": 1870567,
-    "sha256": "c1418e886e0c0152207ef72657faa5f2118bc378ba5a5b74ea8384156df24f6d"
+    "bytes": 1864755,
+    "sha256": "6c16339162ee83d6b78ee0aebf303b858282294061990bf481df694ac074dc1b"
   },
   {
     "path": "mods/recommissioned-hud/hellcatwl_l.fm8",
-    "bytes": 7359147,
-    "sha256": "9ac999ffaadca1e8acba480d06172d3ca5610f055696c692482a93e029a6158f"
+    "bytes": 7335694,
+    "sha256": "44093840a3d5da47551919a5be6ed467fac48dee41eff97668dc89eb8f4b4bd9"
   },
   {
     "path": "mods/recommissioned-hud/hornetwl_plt.fm8",
-    "bytes": 7391453,
-    "sha256": "184393d9ce7b027d595327c4a47b0986ffcdb2c5b09f33246e4118726b29fda3"
+    "bytes": 7368926,
+    "sha256": "7dee378db0d425ef9bf7435a8626d6e71ff3dd212d3ae548ca4aaee122fd81b6"
   },
   {
     "path": "mods/recommissioned-hud/hornetwl_plt_d.fm8",
-    "bytes": 1601117,
-    "sha256": "bf88853851578d2a533f52b64ee03bfc0be4bc1564d9fb39f9c6386c633b719f"
+    "bytes": 1595065,
+    "sha256": "46ae11c952e6e6b0d6a2fca18056a17d05325c00174fa14e7b21ce2cfd159870"
   },
   {
     "path": "mods/recommissioned-hud/hornetwl_plt_l.fm8",
-    "bytes": 5379000,
-    "sha256": "86ee46038027b8ac4b820da27a91cfb0411d6eb82f2ee42d15bc73dd352c2097"
+    "bytes": 5359793,
+    "sha256": "cbdc3e3ad2c49126625e4ca929089290599bef1ade44194eece34fc369e35441"
   },
   {
     "path": "mods/recommissioned-hud/hud_layout.ini",
@@ -1356,73 +1346,68 @@
   },
   {
     "path": "mods/recommissioned-hud/kurgen_pil.fm8",
-    "bytes": 7469980,
-    "sha256": "dea495018452c79f8b8b843e0e1c05a40d99e7fcf91dd57fe1f7ea47d68a664c"
+    "bytes": 7446479,
+    "sha256": "af36ee9f3d0a5ad851f58be5028952f3a1dd4e4545d4de3fa4b82e5da3155d0b"
   },
   {
     "path": "mods/recommissioned-hud/license.txt",
-    "bytes": 1227,
-    "sha256": "0cc57f844ce08309d1d537f28e472a25577842a29e20d498feab52cf8c129195"
+    "bytes": 1117,
+    "sha256": "f77053608396dc304ee7d517c34bab2518a470b4b1deb2931e8511c90a8d61ec"
   },
   {
     "path": "mods/recommissioned-hud/mammoth_plt_05.fm8",
-    "bytes": 7675636,
-    "sha256": "e76c4b60c5c58fbffeb94c5c689850943316eb84ab5fa67c2cdfd061a7dba300"
+    "bytes": 7658282,
+    "sha256": "bda3368209058f0ee1e56dbc1f3608652c2b21dd8a2b448d88d8ee1d7335d9c6"
   },
   {
     "path": "mods/recommissioned-hud/mammoth_plt_05_d.fm8",
-    "bytes": 1758727,
-    "sha256": "4097702b0987296f066dc12eb89ac599f6a52d96ef123635d936e2a9d2b62b02"
+    "bytes": 1752621,
+    "sha256": "d9dd94806442a5c2d497117da57ab27ed50696a8843fd76c24b2966324c0f6ea"
   },
   {
     "path": "mods/recommissioned-hud/mammoth_plt_06.fm8",
-    "bytes": 6271593,
-    "sha256": "4ca74249eaa1017e9cd2211458d27b151ffce7f23d11d1755a81757f7de05ca0"
+    "bytes": 6251848,
+    "sha256": "861858237b6101b6f42dcde371f9fd6632d6dd45af4db27988f3254cfd0bf171"
   },
   {
     "path": "mods/recommissioned-hud/mammoth_plt_06_d.fm8",
-    "bytes": 1767273,
-    "sha256": "7445dbf6eab9665558bb2bf5c7e7b8041a1f61a87fac4616a712446470fdf0ea"
+    "bytes": 1761019,
+    "sha256": "8c001d79ac0bb0128ae7f7bb9d782bd6e40a9c8991469d72342c673026af64ab"
   },
   {
     "path": "mods/recommissioned-hud/mammoth_plt_07.fm8",
-    "bytes": 5883677,
-    "sha256": "f4c5b06e4b140a1043d5a518547f7fb1b251d689e0c76f06e21f47f471ac9c64"
+    "bytes": 5863846,
+    "sha256": "7e49f7635f3cc656a3906d4f58a9468a4e58acbf2bcc99316e38985b452f99f5"
   },
   {
     "path": "mods/recommissioned-hud/mammoth_plt_07_d.fm8",
-    "bytes": 1719618,
-    "sha256": "7fa3b7bc436992c471586d7d029b35144d82a9e361aeec26ec7b254832ca95b4"
+    "bytes": 1713596,
+    "sha256": "57a187330fc3d46f4eac92ce812a97f835c7d019e9c317e1e44af531dd25713c"
   },
   {
     "path": "mods/recommissioned-hud/maulerwl_plt.fm8",
-    "bytes": 5529201,
-    "sha256": "a08ad6e96e1f6e8aaaf3b78e71d64d274324a23afd4866d0c67b3f723bafd867"
+    "bytes": 5509398,
+    "sha256": "4deea87ec1ad19da84fd56d060029cf2369039bffc90764cb92a637dd0e1f0b5"
   },
   {
     "path": "mods/recommissioned-hud/maulerwl_plt_d.fm8",
-    "bytes": 1819451,
-    "sha256": "065285b504515e0ac00563fc255ff66b32733e176f36daedc338164f2b659502"
+    "bytes": 1813384,
+    "sha256": "01a6ef9a0e2612b44d294fd1e72561a66efd32bedb546a90e087d239212e7057"
   },
   {
     "path": "mods/recommissioned-hud/maulerwl_plt_l.fm8",
-    "bytes": 5392623,
-    "sha256": "a40dd3b1dc9cf7bd1c369adebaaae6d194ab30c38c6f9e6558f28ff1c53da7bb"
+    "bytes": 5370583,
+    "sha256": "b754829f747a729414a8baff1f0c8a8904bd6a158aa0da2d60f9dfc55c866007"
   },
   {
     "path": "mods/recommissioned-hud/mod.ini",
-    "bytes": 417,
-    "sha256": "9a09696ab1aeaa29b46d4b0fa0de4a8f7c831cc4f79f4b544826296115e72b61"
+    "bytes": 445,
+    "sha256": "b3a36a36629e2febb0c1fd769e587abb60b256275f6c3229d066536176385b46"
   },
   {
     "path": "mods/recommissioned-hud/nannyp.fm8",
-    "bytes": 8203223,
-    "sha256": "a631dd7ea47e7730fa66f1153cd463d35a5b40e2dfeb7de7a5bab508d7e5e494"
-  },
-  {
-    "path": "mods/recommissioned-hud/portrait-shader-notice.txt",
-    "bytes": 1079,
-    "sha256": "baa0aef573ffa51918da0b4f3e1d98ea6b4e96e30323890d0cece2ccbe0c808b"
+    "bytes": 8179493,
+    "sha256": "7c3a533be46842c1819e0e91aeeb10189570519b20c8140da9d88987253470bc"
   },
   {
     "path": "mods/recommissioned-hud/rc_aim_red.png",
@@ -5891,47 +5876,47 @@
   },
   {
     "path": "mods/recommissioned-hud/recommissioned.luau",
-    "bytes": 170139,
-    "sha256": "550ef6d9ed82aa2b564b8e1f0e7e1058541a6be7a0e6abde109fac24a19629d0"
+    "bytes": 166113,
+    "sha256": "4e991fb7a4cfdc1b017d61eba248486a21aa5f2aa761302c467c789f4000e2a0"
   },
   {
     "path": "mods/recommissioned-hud/russbom.fm8",
-    "bytes": 6933973,
-    "sha256": "e293e58d639141f288732f54df2f0ce4dce3d67bce64c90bfd74c1ef1f7c1b7c"
+    "bytes": 6910210,
+    "sha256": "8876b4885af17163c17c655e1e962325cc9655e26139ea4ffecfb8eb61965a78"
   },
   {
     "path": "mods/recommissioned-hud/russbomd.fm8",
-    "bytes": 1299513,
-    "sha256": "313439432861bdd3f3eac08ed059f7bdb4bc88896a5dd0907c5ea837934c9d28"
+    "bytes": 1294593,
+    "sha256": "49c0ac40afcd70ceda1680916f14ce5d4be94a0bb39ab7024fe37a3213387fd2"
   },
   {
     "path": "mods/recommissioned-hud/russd.fm8",
-    "bytes": 2235233,
-    "sha256": "0ae7a51ff4944b3d2cfd4e9149ef8aef2a3956d87333c1fa8bf86693584463e0"
+    "bytes": 2224040,
+    "sha256": "cb9488be272f513ba9ac51fe2c869a5d38595c0be1cf81432df1096ef37a1c17"
   },
   {
     "path": "mods/recommissioned-hud/russp.fm8",
-    "bytes": 5499547,
-    "sha256": "9a46cd6b80d279c601818c8793675a9b902dd607491529007c024edf4a7566db"
+    "bytes": 5477673,
+    "sha256": "c2fe124aaab1f6c9b741de527f2f536205dd3af34e67152009e24a8c3da3bd91"
   },
   {
     "path": "mods/recommissioned-hud/sladin_cap_normal.fm8",
-    "bytes": 5528122,
-    "sha256": "785707f7fda6dfe291afb41bf137aa94095c1044ab553b8c584d2f87e78ede75"
+    "bytes": 5508475,
+    "sha256": "e9eee64067862da24736d01be46645ed069f501d9c1a50e14571cd8f7e291f83"
   },
   {
     "path": "mods/recommissioned-hud/static.fm8",
-    "bytes": 18006759,
-    "sha256": "728204adf13bf94fd493856a5b6c263da48a4092b4964342612d4645d3067911"
+    "bytes": 17967109,
+    "sha256": "8834a482a979f68fa58b5b32611f80773b45626d37bd6ea61d88f4efa094bcc4"
   },
   {
     "path": "mods/recommissioned-hud/test.fm8",
-    "bytes": 6279119,
-    "sha256": "b3f6bec552ed6f315f8b41ba051be12fb573465c489302f55fa7970861573188"
+    "bytes": 6247701,
+    "sha256": "fb221179363ae5ffdadff0f932ef9b99f5ea5ec920934f2fb5e18d19135b4802"
   },
   {
     "path": "mods/recommissioned-hud/ulycap.fm8",
-    "bytes": 4358150,
-    "sha256": "a98e62cfbee138e366578aed0025de9c7b0b5b9537947359983fe652d8e0ba37"
+    "bytes": 4347188,
+    "sha256": "c04db54bdea4e53da05b0abe1bad9841099e68d77759f7541963d103acb84cd1"
   }
 ]

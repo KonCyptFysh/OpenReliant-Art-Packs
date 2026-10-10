@@ -17,7 +17,7 @@ sprite aliases are exported without redundant `rc_` copies.
 `source/scripts/layout-descriptors.json` and `source/scripts/hud.luau` into the
 flat `recommissioned.luau` player script. It also reads the preserved ship
 wireframes' alpha bounds so taller silhouettes stay below the gunnery heading. This is ordinary mod code using the
-upstream HUD API. It detects older engines and keeps their native instruments.
+upstream HUD API. HUD 1.10 requires OpenReliant 0.9.0 for native film sizing and instrument parts.
 See `docs/UPSTREAM_HUD_PORT.md` for the supported panels and remaining gaps.
 
 A separate `wireframes/gunnery_floor` export reverses the rows of the preserved
@@ -53,3 +53,10 @@ Neither tool installs to the game, changes the launcher or publishes a release.
 including uppercase .FM8 members. `restore_portraits.py` restores additional
 whole video sequences with the established RealBasicVSR x4 model. See
 `source/portraits/README.md` for checkpoint, inputs and output conventions.
+
+## OpenReliant 0.9.0 export
+
+All films encode directly at 480x400. The exporter no longer includes a shader.
+The old shader, notices and comms bearing tools are archived under
+`source/compatibility/hud-1.9` and never deployed. The runtime uses
+`hud.measure(...).ink`, `parts.radio_speaker` and `hud.power_ball`.

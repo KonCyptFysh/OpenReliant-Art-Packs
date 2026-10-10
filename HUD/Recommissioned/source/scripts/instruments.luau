@@ -59,7 +59,7 @@ local function fitRadioFrame()
     -- fitting the native pieces to the authored upper-grid rectangle.
     local size = upper[3] * s / 129
     local x = hud.width/2 + (upper[1]-960-upper[3]/2)*s - 11*size
-    local y = hud.height/2 + (upper[2]-540-upper[4]/2)*s
+    local y = anchoredY(upper[2]-upper[4]/2, rects["comms"][2], s)
     local scale, dx, dy = size/unit, (x-16*size)/unit, (y-16*size)/unit
     local key = string.format("%.4f/%.4f/%.4f",scale,dx,dy)
     local nextLayout = nil
@@ -82,6 +82,14 @@ local function fitRadioFrame()
         hud.set_display_enabled(radioLayout.id,true)
     end
 end
+-- The speaker's name at the foot of the portrait, short and long names ending at
+-- the same point. Offsets are in the radio window's own pixels, so they follow
+-- its layout: the face stands at (13, 19), 120 by 100, the name at (1, 2), and
+-- BLUFONT's capitals fill rows 4 to 11 of its 17.
+hud.register_display("radio_parts", {
+    parts = {radio_speaker = {offset = point(128, 101), align = "right"}},
+    frame = function() end,
+})
 local function sharedFrame(factor)
     local unit = nativeUnit()
     local layout = radioLayout or {scale=1,dx=0,dy=0}
@@ -375,14 +383,9 @@ end,function()
         label(item[4],relative(r,0,16,68,14,68,118),14*r[3]/68,"rc_power.ttf")
         label(tostring(state[item[2]]).."%",relative(r,0,39,68,18,68,118),18*r[3]/68,"rc_power_values.ttf")
     end
-    -- The native animated ball is not exposed. Draw an honest allocation plot
-    -- in its authored rectangle: shields at the top, guns/engines at the foot.
+    -- The native ball, turning with the power setting, in its authored rectangle.
     local r=screenRect("power_distribution.child_orb")
-    local a,b,c=point(r[1],r[2]-r[4]*0.45),point(r[1]-r[3]*0.45,r[2]+r[4]*0.4),point(r[1]+r[3]*0.45,r[2]+r[4]*0.4)
-    for _, edge in {{a,b},{b,c},{c,a}} do hud.line(edge[1],edge[2],{color=vector.create(0.6,0.035,0),width=math.max(1,r[3]/90)}) end
-    local total=math.max(1,state.shields+state.weapons+state.engines)
-    local at=(a*state.shields+b*state.weapons+c*state.engines)/total
-    fill({at.x,at.y,r[3]*0.06,r[4]*0.06})
+    hud.power_ball(point(r[1]-r[3]/2,r[2]-r[4]/2),point(r[3],r[4]))
 end)
 
 instrument("wing_panel", {"wing_status"},function()
@@ -499,12 +502,10 @@ end,function()
     local left=r[1]-r[3]/2
     -- Align visible ink, not the legacy glyph advance boxes. In particular,
     -- the native '1' advances only three pixels and otherwise appears indented.
-    local inkScale = scale*measured.height/17
+    local style={font="rc_comms.ttf",base_font="hud",scale=scale,color=orange}
     local function column(text, x, y)
-        local first = utf8.codepoint(text)
-        local bearing = commsInkBearing[first] or 0
-        hud.text(point(x-bearing*inkScale,y),text,
-            {font="rc_comms.ttf",base_font="hud",scale=scale,color=orange})
+        local ink=hud.measure(text,style).ink
+        hud.text(point(x-(if ink then ink.left else 0),y),text,style)
     end
     for i,text in hud.comms do
         local top=start+(i-1)*h-measured.height*scale*8/17
