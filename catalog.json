@@ -913,9 +913,13 @@
       "assetRevision": "1.0",
       "description": "Worn silver-grey Coalition hull, red star markings, recessed amber glazing and corrected native texture joins.",
       "modFolder": "108-lagg-worn-v1",
-      "preview": "assets/lagg/flight-overview.webp",
+      "preview": "assets/lagg/flight-firing.webp",
       "defaultPreview": "image",
       "images": [
+        {
+          "src": "assets/lagg/flight-firing.webp",
+          "caption": "Lagg \u2014 Guns firing"
+        },
         {
           "src": "assets/lagg/flight-overview.webp",
           "caption": "Lagg \u2014 In-game overview"
@@ -931,10 +935,6 @@
         {
           "src": "assets/lagg/flight-rear.webp",
           "caption": "Lagg \u2014 Rear view"
-        },
-        {
-          "src": "assets/lagg/flight-firing.webp",
-          "caption": "Lagg \u2014 Guns firing"
         }
       ],
       "previewSource": "User in-game capture",
@@ -957,7 +957,7 @@
       "name": "Salin - Worn Paint",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Salin",
-      "status": "coming-soon",
+      "status": "available",
       "assetRevision": "1.0",
       "description": "Worn silver-grey Coalition hull, red-and-gold markings, recessed amber glazing and corrected native texture joins.",
       "modFolder": "109-salin-worn-v1",
@@ -988,7 +988,13 @@
         "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing."
       ],
       "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
-      "model": "models/salin.glb"
+      "model": "models/salin.glb",
+      "version": "0.1.0-beta.1",
+      "tag": "salin-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1/openreliant-salin-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1",
+      "checksum": "0aee16395ae45dee9ee033e7515b463e2b79ab38fc87fceda960461d07953412",
+      "downloadBytes": 26437763
     }
   ]
 }
