@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "title": "KonCyptFysh Art Packs",
   "owner": "KonCyptFysh",
   "repository": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs",
@@ -9,713 +9,1122 @@
       "id": "alliance-fighters",
       "name": "Alliance Fighters",
       "folder": "Alliance Fighters",
-      "description": "Restored Alliance fighters, with individual downloads and editable sources."
+      "description": "Restored Alliance fighters, with individual downloads and editable sources.",
+      "group": "small-combat-craft"
     },
     {
       "id": "coalition-fighters",
       "name": "Coalition Fighters",
       "folder": "Coalition Fighters",
-      "description": "Coalition fighter artwork and restorations."
+      "description": "Coalition fighter artwork and restorations.",
+      "group": "small-combat-craft"
     },
     {
       "id": "torpedo-bombers",
       "name": "Torpedo Bombers",
       "folder": "Torpedo Bombers",
-      "description": "Alliance and Coalition torpedo bombers, with deployment mechanisms preserved."
+      "description": "Alliance and Coalition torpedo bombers, with deployment mechanisms preserved.",
+      "group": "small-combat-craft"
+    },
+    {
+      "id": "corvettes-and-gunboats",
+      "name": "Corvettes and Gunboats",
+      "group": "fleet-warships",
+      "description": "Prowler and Kurgen escort and gunboat hulls."
+    },
+    {
+      "id": "fleet-destroyers",
+      "name": "Fleet Destroyers",
+      "group": "fleet-warships",
+      "description": "Fleet destroyers and their named vessel identities."
+    },
+    {
+      "id": "command-ships",
+      "name": "Command Ships",
+      "group": "fleet-warships",
+      "description": "Mobile command vessels, including the Berijev."
+    },
+    {
+      "id": "cruisers",
+      "name": "Cruisers",
+      "group": "fleet-warships",
+      "description": "Coalition Cyclone and Tornado cruiser families."
     },
     {
       "id": "alliance-capital-ships",
-      "name": "Alliance Capital Ships",
+      "name": "Alliance Carriers",
       "folder": "Alliance Capital Ships",
-      "description": "Alliance carriers, cruisers and support ships."
+      "description": "Alliance carrier hulls, with their original Class 1, Class 3 and Class 4 designations.",
+      "group": "fleet-warships"
     },
     {
       "id": "coalition-capital-ships",
-      "name": "Coalition Capital Ships",
+      "name": "Coalition Carriers",
       "folder": "Coalition Capital Ships",
-      "description": "Coalition capital ship artwork and restorations."
+      "description": "Coalition Class 1, Class 2 and Class 3 carriers and the Czar supercarrier.",
+      "group": "fleet-warships"
+    },
+    {
+      "id": "supercarriers",
+      "name": "Supercarriers",
+      "group": "fleet-warships",
+      "description": "The Czar supercarrier and its associated ship artwork."
     },
     {
       "id": "uncategorised-ships",
       "name": "Uncategorised Ships",
       "folder": "Uncategorised Ships",
-      "description": "Ships outside the main fleet categories."
+      "description": "Source hulls awaiting classification.",
+      "group": "fleet-warships"
+    },
+    {
+      "id": "freighters-and-cargo-transports",
+      "name": "Freighters and Cargo Transports",
+      "group": "transports-and-support",
+      "description": "Bulk cargo carriers, freighters and fleet supply transports."
+    },
+    {
+      "id": "shuttles-and-light-transports",
+      "name": "Shuttles and Light Transports",
+      "group": "transports-and-support",
+      "description": "Small personnel shuttles and utility transports."
+    },
+    {
+      "id": "troop-transports",
+      "name": "Troop Transports",
+      "group": "transports-and-support",
+      "description": "Troop-carrying hulls and their associated transport pods."
+    },
+    {
+      "id": "assault-and-boarding-craft",
+      "name": "Assault and Boarding Craft",
+      "group": "transports-and-support",
+      "description": "Craft used to deliver boarding teams and assault parties."
+    },
+    {
+      "id": "cargo-movers-and-tugs",
+      "name": "Cargo Movers and Tugs",
+      "group": "transports-and-support",
+      "description": "Small craft used to collect, move and place cargo."
+    },
+    {
+      "id": "rescue-and-resupply",
+      "name": "Rescue and Resupply",
+      "group": "transports-and-support",
+      "description": "Rescue vessels and fighter replenishment craft."
+    },
+    {
+      "id": "deployment-and-engineering",
+      "name": "Deployment and Engineering Craft",
+      "group": "transports-and-support",
+      "description": "Mobile craft used to deploy satellites and service infrastructure."
+    },
+    {
+      "id": "science-vessels",
+      "name": "Science Vessels",
+      "group": "transports-and-support",
+      "description": "Specialist research and science ships."
+    },
+    {
+      "id": "civilian-liners",
+      "name": "Civilian Liners",
+      "group": "transports-and-support",
+      "description": "Large civilian passenger vessels."
+    },
+    {
+      "id": "prison-ships",
+      "name": "Prison Ships",
+      "group": "transports-and-support",
+      "description": "Specialist detention and prisoner-transport vessels."
+    },
+    {
+      "id": "early-warning-satellites",
+      "name": "Early-Warning Satellites",
+      "group": "satellites-and-defence",
+      "description": "Radar and early-warning satellite installations."
+    },
+    {
+      "id": "defence-satellites",
+      "name": "Defence Satellites",
+      "group": "satellites-and-defence",
+      "description": "Armed satellites and fixed defensive satellite networks."
+    },
+    {
+      "id": "heavy-weapon-platforms",
+      "name": "Heavy Weapon Platforms",
+      "group": "satellites-and-defence",
+      "description": "Large independent weapon emplacements, including ion-cannon platforms."
+    },
+    {
+      "id": "fleet-bases-and-forts",
+      "name": "Fleet Bases and Forts",
+      "group": "stations-and-infrastructure",
+      "description": "Alliance fleet bases and fortified installations."
+    },
+    {
+      "id": "command-stations",
+      "name": "Command and Battle Stations",
+      "group": "stations-and-infrastructure",
+      "description": "Large command installations and battle stations, including Borodin."
+    },
+    {
+      "id": "shipyards",
+      "name": "Shipyards and Construction Docks",
+      "group": "stations-and-infrastructure",
+      "description": "Construction yards and dock infrastructure, including the Czar facility."
+    },
+    {
+      "id": "supply-depots",
+      "name": "Supply Depots",
+      "group": "stations-and-infrastructure",
+      "description": "Supply and storage installations, including Kronstadt."
+    },
+    {
+      "id": "mining-and-processing",
+      "name": "Mining and Processing Installations",
+      "group": "stations-and-infrastructure",
+      "description": "Mining facilities, processing structures and associated storage."
+    },
+    {
+      "id": "research-facilities",
+      "name": "Research Facilities",
+      "group": "stations-and-infrastructure",
+      "description": "Research installations and their associated exterior assets."
+    },
+    {
+      "id": "warp-infrastructure",
+      "name": "Warp Gates and Infrastructure",
+      "group": "stations-and-infrastructure",
+      "description": "Experimental warp gates, control hubs and gate infrastructure."
     },
     {
       "id": "weapons",
-      "name": "Weapons",
+      "name": "Missiles, Torpedoes and Pods",
       "folder": "Weapons",
-      "description": "Weapon models, textures and visual effects."
+      "description": "The existing ordnance pack, including missiles, launch pods, torpedoes and the fuel pod.",
+      "group": "weapons-and-components"
+    },
+    {
+      "id": "mines-and-demolition",
+      "name": "Mines and Demolition Charges",
+      "group": "weapons-and-components",
+      "description": "Deployable mines and mission demolition charges."
+    },
+    {
+      "id": "turrets-and-gun-mounts",
+      "name": "Turrets and Gun Mounts",
+      "group": "weapons-and-components",
+      "description": "Ship and station guns, turrets and weapon mounts."
+    },
+    {
+      "id": "propulsion-and-power",
+      "name": "Propulsion and Power Systems",
+      "group": "weapons-and-components",
+      "description": "Engines, drives, shield generators and power equipment."
+    },
+    {
+      "id": "sensors-and-communications",
+      "name": "Sensors and Communications",
+      "group": "weapons-and-components",
+      "description": "Sensors, communications equipment and their associated structures."
+    },
+    {
+      "id": "structural-and-docking",
+      "name": "Structural and Docking Components",
+      "group": "weapons-and-components",
+      "description": "Doors, hatches, docking structures and other separable structural components."
+    },
+    {
+      "id": "cargo-containers",
+      "name": "Cargo Containers",
+      "group": "weapons-and-components",
+      "description": "Cargo pods, supply containers and mission fuel-cell containers."
+    },
+    {
+      "id": "escape-pods",
+      "name": "Escape Pods",
+      "group": "weapons-and-components",
+      "description": "Alliance and Coalition ejection and escape pods."
+    },
+    {
+      "id": "recoverable-mission-objects",
+      "name": "Recoverable Mission Objects",
+      "group": "weapons-and-components",
+      "description": "Flight recorders, communications beacons and similar mission objects."
     },
     {
       "id": "environment-and-planets",
       "name": "Environment and Planets",
       "folder": "Environment and Planets",
-      "description": "Worlds, backdrops and environmental artwork."
+      "description": "Worlds, backdrops and environmental artwork. Detailed asset scope has not yet been added.",
+      "group": "environment-and-planets"
     },
     {
       "id": "hud",
       "name": "HUD",
       "folder": "HUD",
-      "description": "Interface artwork, targeting displays and cockpit overlays."
+      "description": "Interface artwork, targeting displays and cockpit overlays.",
+      "group": "hud-and-mission-mods"
+    },
+    {
+      "id": "art-packs",
+      "name": "Art Packs",
+      "group": "hud-and-mission-mods",
+      "description": "Reusable artwork packs for other mod authors and campaigns."
+    },
+    {
+      "id": "mission-mods",
+      "name": "Mission Mods",
+      "group": "hud-and-mission-mods",
+      "description": "Mission-specific integrations that use the catalogue art packs."
+    },
+    {
+      "id": "cockpit-interiors",
+      "name": "Cockpit Interiors",
+      "group": "cockpits",
+      "description": "Cockpit surfaces, instruments and illuminated controls, with emissives for screens and buttons."
     }
   ],
   "assets": [
     {
       "id": "coyote",
-      "name": "Coyote - Worn Paint",
+      "name": "Coyote",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Coyote",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "4.0",
       "description": "Clean structural relief, worn green paint and distinctive radiator fins.",
-      "modFolder": "30-coyote-worn-v4",
-      "preview": "assets/coyote.webp",
-      "model": "models/coyote.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2/openreliant-coyote-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2",
-      "checksum": "6e0390bb1316c80aebed2e01c45b79f1974178af34d92ef510467a9c8de6772e",
-      "notes": [
-        "Texture refinements remain in progress.",
-        "Custom emissive maps are planned for a later update."
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "4.0",
+          "modFolder": "30-coyote-worn-v4",
+          "preview": "assets/coyote.webp",
+          "model": "models/coyote.glb",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2/openreliant-coyote-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2",
+          "checksum": "6e0390bb1316c80aebed2e01c45b79f1974178af34d92ef510467a9c8de6772e",
+          "notes": [
+            "Texture refinements remain in progress.",
+            "Custom emissive maps are planned for a later update."
+          ],
+          "tag": "coyote-v0.1.0-beta.2",
+          "downloadBytes": 114738284,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+        }
       ],
-      "tag": "coyote-v0.1.0-beta.2",
-      "downloadBytes": 114738284,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "alliance"
     },
     {
       "id": "predator",
-      "name": "Predator - Worn Paint",
+      "name": "Predator",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Predator",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "16.1",
       "description": "Continuous wing fins, repaired surface detail and restrained paint markings.",
-      "modFolder": "40-predator-worn-v14",
-      "preview": "assets/predator.webp",
-      "model": "models/predator.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2/openreliant-predator-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2",
-      "checksum": "c7e284ec829927d5a44ca2a338700efd9200a3212ef1520cf8e61d82b832ad2e",
-      "notes": [
-        "Texture refinements remain in progress.",
-        "Custom emissive maps are planned for a later update."
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "16.1",
+          "modFolder": "40-predator-worn-v14",
+          "preview": "assets/predator.webp",
+          "model": "models/predator.glb",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2/openreliant-predator-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2",
+          "checksum": "c7e284ec829927d5a44ca2a338700efd9200a3212ef1520cf8e61d82b832ad2e",
+          "notes": [
+            "Texture refinements remain in progress.",
+            "Custom emissive maps are planned for a later update."
+          ],
+          "tag": "predator-v0.1.0-beta.2",
+          "downloadBytes": 129821541,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+        }
       ],
-      "tag": "predator-v0.1.0-beta.2",
-      "downloadBytes": 129821541,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "alliance"
     },
     {
       "id": "reaper",
-      "name": "Reaper - Worn Paint",
+      "name": "Reaper",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Reaper",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "3.1",
       "description": "Aligned surface detail, repaired glass and differentiated materials.",
-      "modFolder": "50-reaper-worn-v3",
-      "preview": "assets/reaper.webp",
-      "model": "models/reaper.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2/openreliant-reaper-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2",
-      "checksum": "e3429756ecc15537d1224c2d3ba57ef5c39facaff011dffc0eeeac4941b071a3",
-      "notes": [
-        "Texture refinements remain in progress.",
-        "Custom emissive maps are planned for a later update."
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "3.1",
+          "modFolder": "50-reaper-worn-v3",
+          "preview": "assets/reaper.webp",
+          "model": "models/reaper.glb",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2/openreliant-reaper-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2",
+          "checksum": "e3429756ecc15537d1224c2d3ba57ef5c39facaff011dffc0eeeac4941b071a3",
+          "notes": [
+            "Texture refinements remain in progress.",
+            "Custom emissive maps are planned for a later update."
+          ],
+          "tag": "reaper-v0.1.0-beta.2",
+          "downloadBytes": 60756289,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+        }
       ],
-      "tag": "reaper-v0.1.0-beta.2",
-      "downloadBytes": 60756289,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "alliance"
     },
     {
       "id": "wolverine",
-      "name": "Wolverine - Worn Paint",
+      "name": "Wolverine",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Wolverine",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "2.0",
       "description": "Worn steel, warm markings and smoked-green glazing.",
-      "modFolder": "60-wolverine-worn-v1",
-      "preview": "assets/wolverine.webp",
-      "model": "models/wolverine.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2/openreliant-wolverine-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2",
-      "checksum": "37de88966aeae03b3d54eca55a7aed3f2e1a839ed65f589035f41ce6ea3027c1",
-      "notes": [
-        "Texture refinements remain in progress.",
-        "Custom emissive maps are planned for a later update."
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "2.0",
+          "modFolder": "60-wolverine-worn-v1",
+          "preview": "assets/wolverine.webp",
+          "model": "models/wolverine.glb",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2/openreliant-wolverine-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2",
+          "checksum": "37de88966aeae03b3d54eca55a7aed3f2e1a839ed65f589035f41ce6ea3027c1",
+          "notes": [
+            "Texture refinements remain in progress.",
+            "Custom emissive maps are planned for a later update."
+          ],
+          "tag": "wolverine-v0.1.0-beta.2",
+          "downloadBytes": 32297711,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+        }
       ],
-      "tag": "wolverine-v0.1.0-beta.2",
-      "downloadBytes": 32297711,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "alliance"
     },
     {
       "id": "tempest",
-      "name": "Tempest - Worn Paint",
+      "name": "Tempest",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Tempest",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "1.0",
       "description": "Dark steel, red livery and continuous radiator detail.",
-      "modFolder": "70-tempest-worn-v1",
-      "preview": "assets/tempest.webp",
-      "model": "models/tempest.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2/openreliant-tempest-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2",
-      "checksum": "53f30262b4af1011a90814d06776273b61452f7b7db4a2c2e226c9f39ac5b193",
-      "notes": [
-        "Texture refinements remain in progress.",
-        "Custom emissive maps are planned for a later update."
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "1.0",
+          "modFolder": "70-tempest-worn-v1",
+          "preview": "assets/tempest.webp",
+          "model": "models/tempest.glb",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2/openreliant-tempest-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2",
+          "checksum": "53f30262b4af1011a90814d06776273b61452f7b7db4a2c2e226c9f39ac5b193",
+          "notes": [
+            "Texture refinements remain in progress.",
+            "Custom emissive maps are planned for a later update."
+          ],
+          "tag": "tempest-v0.1.0-beta.2",
+          "downloadBytes": 32308856,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+        }
       ],
-      "tag": "tempest-v0.1.0-beta.2",
-      "downloadBytes": 32308856,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "alliance"
     },
     {
       "id": "shroud",
-      "name": "Shroud - Worn Paint",
+      "name": "Shroud",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Shroud",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "2.0",
       "description": "Bronze and steel finishes, wing radiators and smoked glass.",
-      "modFolder": "80-shroud-worn-v1",
-      "preview": "assets/shroud.webp",
-      "model": "models/shroud.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2/openreliant-shroud-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2",
-      "checksum": "fdc23464300d888110d21f61a66f61ba3f325727ff0e1bc9b8ecaaeff626ef2f",
-      "notes": [
-        "Texture refinements remain in progress.",
-        "Custom emissive maps are planned for a later update."
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "2.0",
+          "modFolder": "80-shroud-worn-v1",
+          "preview": "assets/shroud.webp",
+          "model": "models/shroud.glb",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2/openreliant-shroud-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2",
+          "checksum": "fdc23464300d888110d21f61a66f61ba3f325727ff0e1bc9b8ecaaeff626ef2f",
+          "notes": [
+            "Texture refinements remain in progress.",
+            "Custom emissive maps are planned for a later update."
+          ],
+          "tag": "shroud-v0.1.0-beta.2",
+          "downloadBytes": 39383406,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+        }
       ],
-      "tag": "shroud-v0.1.0-beta.2",
-      "downloadBytes": 39383406,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "alliance"
     },
     {
       "id": "mirage",
-      "name": "Mirage - Worn Paint",
+      "name": "Mirage",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Mirage",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "3.0",
       "description": "Original-style canopy boundaries, worn glazing and deep surface relief.",
-      "modFolder": "90-mirage-worn-v1",
-      "preview": "assets/mirage.webp",
-      "model": "models/mirage.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.2/openreliant-mirage-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.2",
-      "checksum": "37d1cb6962199ea966ad67554bed2614a965fd1b816d35ac37185856cb86e4d5",
-      "notes": [
-        "Texture refinements remain in progress.",
-        "Custom emissive maps are planned for a later update."
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "3.0",
+          "modFolder": "90-mirage-worn-v1",
+          "preview": "assets/mirage.webp",
+          "model": "models/mirage.glb",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.2/openreliant-mirage-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.2",
+          "checksum": "37d1cb6962199ea966ad67554bed2614a965fd1b816d35ac37185856cb86e4d5",
+          "notes": [
+            "Texture refinements remain in progress.",
+            "Custom emissive maps are planned for a later update."
+          ],
+          "tag": "mirage-v0.1.0-beta.2",
+          "downloadBytes": 30797461,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+        }
       ],
-      "tag": "mirage-v0.1.0-beta.2",
-      "downloadBytes": 30797461,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "alliance",
+      "aliases": [
+        "Mirage IV"
+      ]
     },
     {
       "id": "naginata",
-      "name": "Naginata - Worn Paint",
+      "name": "Naginata",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Naginata",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "4.0",
       "description": "Revised wing edges, engine-wear scale and louvred exhausts.",
-      "modFolder": "95-naginata-worn-v1",
-      "preview": "assets/naginata.webp",
-      "model": "models/naginata.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.2/openreliant-naginata-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.2",
-      "checksum": "a0e903e86557f74777536ddd0ed5ad9d7bcaad375c5d897c65243dc47397ccf0",
-      "notes": [
-        "Texture refinements remain in progress.",
-        "Custom emissive maps are planned for a later update.",
-        "Wing-edge UVs and reconstructed exhausts still need final visual approval."
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "4.0",
+          "modFolder": "95-naginata-worn-v1",
+          "preview": "assets/naginata.webp",
+          "model": "models/naginata.glb",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.2/openreliant-naginata-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.2",
+          "checksum": "a0e903e86557f74777536ddd0ed5ad9d7bcaad375c5d897c65243dc47397ccf0",
+          "notes": [
+            "Texture refinements remain in progress.",
+            "Custom emissive maps are planned for a later update.",
+            "Wing-edge UVs and reconstructed exhausts still need final visual approval."
+          ],
+          "tag": "naginata-v0.1.0-beta.2",
+          "downloadBytes": 94758166,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+        }
       ],
-      "tag": "naginata-v0.1.0-beta.2",
-      "downloadBytes": 94758166,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "alliance"
     },
     {
       "id": "patriot",
-      "name": "Patriot - Worn Paint",
+      "name": "Patriot",
       "category": "alliance-fighters",
       "status": "available",
       "description": "Six-fin intakes, bright radiator metal and continuous outer-engine panels.",
-      "preview": "assets/patriot.webp",
-      "model": "models/patriot.glb",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2/openreliant-patriot-0.1.0-beta.2.zip",
-      "notes": [
-        "Patriot v3 artwork is complete and approved for this beta.",
-        "Custom emissive maps are planned for a later update.",
-        "Lower-detail models, later-campaign liveries and broader gameplay testing remain on the workbench."
-      ],
       "folder": "Alliance Fighters/Patriot",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "3.0",
-      "modFolder": "96-patriot-worn-v1",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.2",
-      "checksum": "ad2bde7d0aee79852cf895731c854d121f90eb04980d9ac6c4daf212f77cfea8",
-      "tag": "patriot-v0.1.0-beta.2",
-      "downloadBytes": 147417133,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "preview": "assets/patriot.webp",
+          "model": "models/patriot.glb",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2/openreliant-patriot-0.1.0-beta.2.zip",
+          "notes": [
+            "Patriot v3 artwork is complete and approved for this beta.",
+            "Custom emissive maps are planned for a later update.",
+            "Lower-detail models, later-campaign liveries and broader gameplay testing remain on the workbench."
+          ],
+          "version": "0.1.0-beta.2",
+          "assetRevision": "3.0",
+          "modFolder": "96-patriot-worn-v1",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.2",
+          "checksum": "ad2bde7d0aee79852cf895731c854d121f90eb04980d9ac6c4daf212f77cfea8",
+          "tag": "patriot-v0.1.0-beta.2",
+          "downloadBytes": 147417133,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+        }
+      ],
+      "entryType": "ship",
+      "faction": "alliance"
     },
     {
       "id": "phoenix",
-      "name": "Phoenix - Worn Paint",
+      "name": "Phoenix",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Phoenix",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "7.0",
       "description": "Worn olive and bronze, smooth glazing, aligned belly panels and corrected intake relief.",
-      "modFolder": "98-phoenix-worn-v1",
-      "preview": "assets/phoenix/flight-overview.webp",
-      "model": "models/phoenix.glb",
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Firing, turret and Nova cannon behaviour, damage, ejection and distance transitions still need separate gameplay testing."
-      ],
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/phoenix/flight-overview.webp",
-          "caption": "Phoenix \u2014 In-game overview"
-        },
-        {
-          "src": "assets/phoenix/flight-opposite.webp",
-          "caption": "Phoenix \u2014 Opposite side"
-        },
-        {
-          "src": "assets/phoenix/flight-rear.webp",
-          "caption": "Phoenix \u2014 Rear view"
-        },
-        {
-          "src": "assets/phoenix/flight-belly.webp",
-          "caption": "Phoenix \u2014 Underside"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "7.0",
+          "modFolder": "98-phoenix-worn-v1",
+          "preview": "assets/phoenix/flight-overview.webp",
+          "model": "models/phoenix.glb",
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Firing, turret and Nova cannon behaviour, damage, ejection and distance transitions still need separate gameplay testing."
+          ],
+          "images": [
+            {
+              "src": "assets/phoenix/flight-overview.webp",
+              "caption": "Phoenix — In-game overview"
+            },
+            {
+              "src": "assets/phoenix/flight-opposite.webp",
+              "caption": "Phoenix — Opposite side"
+            },
+            {
+              "src": "assets/phoenix/flight-rear.webp",
+              "caption": "Phoenix — Rear view"
+            },
+            {
+              "src": "assets/phoenix/flight-belly.webp",
+              "caption": "Phoenix — Underside"
+            }
+          ],
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2/openreliant-phoenix-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.2",
+          "checksum": "8cefee26d1ef3d5d419663586570cc17d901f432ad283d8fc5250d5cb6901ef3",
+          "tag": "phoenix-v0.1.0-beta.2",
+          "downloadBytes": 117681692,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
         }
       ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2/openreliant-phoenix-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.2",
-      "checksum": "8cefee26d1ef3d5d419663586570cc17d901f432ad283d8fc5250d5cb6901ef3",
-      "tag": "phoenix-v0.1.0-beta.2",
-      "downloadBytes": 117681692,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "alliance"
     },
     {
       "id": "crusader",
-      "name": "Crusader - Worn Paint",
+      "name": "Crusader",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Crusader",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "2.0",
       "description": "Worn steel and red-and-white markings, a silver RAF bird, aligned engine collars and smooth glazing.",
-      "modFolder": "99-crusader-worn-v1",
-      "preview": "assets/crusader/flight-overview.webp",
-      "model": "models/crusader.glb",
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/crusader/flight-overview.webp",
-          "caption": "Crusader \u2014 In-game overview"
-        },
-        {
-          "src": "assets/crusader/flight-rear.webp",
-          "caption": "Crusader \u2014 Rear engines"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "2.0",
+          "modFolder": "99-crusader-worn-v1",
+          "preview": "assets/crusader/flight-overview.webp",
+          "model": "models/crusader.glb",
+          "images": [
+            {
+              "src": "assets/crusader/flight-overview.webp",
+              "caption": "Crusader — In-game overview"
+            },
+            {
+              "src": "assets/crusader/flight-rear.webp",
+              "caption": "Crusader — Rear engines"
+            }
+          ],
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Firing, tail-gun motion, damage, ejection and distance transitions still need gameplay testing.",
+            "Engine collar UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
+          ],
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/crusader-v0.1.0-beta.2/openreliant-crusader-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/crusader-v0.1.0-beta.2",
+          "checksum": "48ef3380a7165277f7f4cec905fc1270c36d80569f5558b3b97da633a227a9a2",
+          "tag": "crusader-v0.1.0-beta.2",
+          "downloadBytes": 92638778,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
         }
       ],
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Firing, tail-gun motion, damage, ejection and distance transitions still need gameplay testing.",
-        "Engine collar UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
-      ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/crusader-v0.1.0-beta.2/openreliant-crusader-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/crusader-v0.1.0-beta.2",
-      "checksum": "48ef3380a7165277f7f4cec905fc1270c36d80569f5558b3b97da633a227a9a2",
-      "tag": "crusader-v0.1.0-beta.2",
-      "downloadBytes": 92638778,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "alliance"
     },
     {
       "id": "sai",
-      "name": "Sai - Worn Paint",
+      "name": "Sai",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Sai",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "4.0",
       "description": "Worn silver-grey and bronze, restored Japanese markings, smooth reflective glazing and repaired fin UVs.",
-      "modFolder": "100-sai-worn-v1",
-      "preview": "assets/sai/flight-overview-v4.webp",
-      "model": "models/sai-v4.glb",
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/sai/flight-overview-v4.webp",
-          "caption": "Sai \u2014 Revision 4.0 in-game overview"
-        },
-        {
-          "src": "assets/sai/flight-rear-v4.webp",
-          "caption": "Sai \u2014 Revision 4.0 rear view"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "4.0",
+          "modFolder": "100-sai-worn-v1",
+          "preview": "assets/sai/flight-overview-v4.webp",
+          "model": "models/sai-v4.glb",
+          "images": [
+            {
+              "src": "assets/sai/flight-overview-v4.webp",
+              "caption": "Sai — Revision 4.0 in-game overview"
+            },
+            {
+              "src": "assets/sai/flight-rear-v4.webp",
+              "caption": "Sai — Revision 4.0 rear view"
+            }
+          ],
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Firing, fin motion, damage and distance transitions still need gameplay testing.",
+            "Fin UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
+          ],
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2/openreliant-sai-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2",
+          "checksum": "f85efff7770ad0f142e983419ae9db3b2facfe1a7eaf1cba333690c6d8338393",
+          "tag": "sai-v0.1.0-beta.2",
+          "downloadBytes": 70808411,
+          "defaultPreview": "image",
+          "previewArtworkRevision": "4.0",
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
         }
       ],
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Firing, fin motion, damage and distance transitions still need gameplay testing.",
-        "Fin UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
-      ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2/openreliant-sai-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2",
-      "checksum": "f85efff7770ad0f142e983419ae9db3b2facfe1a7eaf1cba333690c6d8338393",
-      "tag": "sai-v0.1.0-beta.2",
-      "downloadBytes": 70808411,
-      "defaultPreview": "image",
-      "previewArtworkRevision": "4.0",
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "alliance"
     },
     {
       "id": "grendal",
-      "name": "Grendal - Worn Paint",
+      "name": "Grendal",
       "category": "alliance-fighters",
       "folder": "Alliance Fighters/Grendal",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "1.1",
       "description": "Worn grey livery, original German markings, reflective glazing and aligned radiator cooling ribs.",
-      "modFolder": "101-grendal-worn-v1",
-      "preview": "assets/grendal/flight-overview.webp",
-      "model": "models/grendal.glb",
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/grendal/flight-overview.webp",
-          "caption": "Grendal \u2014 In-game overview"
-        },
-        {
-          "src": "assets/grendal/flight-rear.webp",
-          "caption": "Grendal \u2014 Rear view"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "1.1",
+          "modFolder": "101-grendal-worn-v1",
+          "preview": "assets/grendal/flight-overview.webp",
+          "model": "models/grendal.glb",
+          "images": [
+            {
+              "src": "assets/grendal/flight-overview.webp",
+              "caption": "Grendal — In-game overview"
+            },
+            {
+              "src": "assets/grendal/flight-rear.webp",
+              "caption": "Grendal — Rear view"
+            }
+          ],
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Firing, moving parts, damage and distance transitions still need gameplay testing.",
+            "UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
+          ],
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.2/openreliant-grendal-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.2",
+          "checksum": "eee7fcdb2625345ec46901c1b47a2357b3a4e6b0f4513bf2f138ed34cafb596e",
+          "tag": "grendal-v0.1.0-beta.2",
+          "downloadBytes": 28318786,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
         }
       ],
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Firing, moving parts, damage and distance transitions still need gameplay testing.",
-        "UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
-      ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.2/openreliant-grendal-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.2",
-      "checksum": "eee7fcdb2625345ec46901c1b47a2357b3a4e6b0f4513bf2f138ed34cafb596e",
-      "tag": "grendal-v0.1.0-beta.2",
-      "downloadBytes": 28318786,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "alliance",
+      "aliases": [
+        "Grendel"
+      ]
     },
     {
       "id": "saber",
-      "name": "Saber - Worn Paint",
+      "name": "Saber",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Saber",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "1.0",
       "description": "Worn silver-grey and red Coalition livery, original star markings, reflective amber glazing and repaired machinery UVs.",
-      "modFolder": "102-saber-worn-v1",
-      "preview": "assets/saber/flight-overview.webp",
-      "model": "models/saber.glb",
-      "defaultPreview": "image",
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/saber/flight-overview.webp",
-          "caption": "Saber \u2014 In-game overview"
-        },
-        {
-          "src": "assets/saber/flight-rear.webp",
-          "caption": "Saber \u2014 Rear view"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "1.0",
+          "modFolder": "102-saber-worn-v1",
+          "preview": "assets/saber/flight-overview.webp",
+          "model": "models/saber.glb",
+          "defaultPreview": "image",
+          "images": [
+            {
+              "src": "assets/saber/flight-overview.webp",
+              "caption": "Saber — In-game overview"
+            },
+            {
+              "src": "assets/saber/flight-rear.webp",
+              "caption": "Saber — Rear view"
+            }
+          ],
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Firing, cockpit ejection, damage and distance transitions still need gameplay testing.",
+            "Machinery UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
+          ],
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.2/openreliant-saber-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.2",
+          "checksum": "48bd9acabd7d6ad8b27b4d45ca99abd05f9a46227357d835aef5661029fcb71a",
+          "tag": "saber-v0.1.0-beta.2",
+          "downloadBytes": 28810411,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
         }
       ],
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Firing, cockpit ejection, damage and distance transitions still need gameplay testing.",
-        "Machinery UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
-      ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.2/openreliant-saber-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.2",
-      "checksum": "48bd9acabd7d6ad8b27b4d45ca99abd05f9a46227357d835aef5661029fcb71a",
-      "tag": "saber-v0.1.0-beta.2",
-      "downloadBytes": 28810411,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "coalition",
+      "aliases": [
+        "Sabre"
+      ]
     },
     {
       "id": "basilisk",
-      "name": "Basilisk - Worn Paint",
+      "name": "Basilisk",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Basilisk",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "1.3",
       "description": "Worn dark-grey and red Coalition livery, smoother reflective nose and gun housing, frame-fitted amber glazing and repaired UV seams.",
-      "modFolder": "103-basilisk-worn-v1",
-      "preview": "assets/basilisk/flight-overview.webp",
-      "model": "models/basilisk.glb",
-      "defaultPreview": "image",
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/basilisk/flight-overview.webp",
-          "caption": "Basilisk \u2014 In-game overview"
-        },
-        {
-          "src": "assets/basilisk/flight-rear.webp",
-          "caption": "Basilisk \u2014 Rear view"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "1.3",
+          "modFolder": "103-basilisk-worn-v1",
+          "preview": "assets/basilisk/flight-overview.webp",
+          "model": "models/basilisk.glb",
+          "defaultPreview": "image",
+          "images": [
+            {
+              "src": "assets/basilisk/flight-overview.webp",
+              "caption": "Basilisk — In-game overview"
+            },
+            {
+              "src": "assets/basilisk/flight-rear.webp",
+              "caption": "Basilisk — Rear view"
+            }
+          ],
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Cloaking, firing, cockpit ejection, damage and distance transitions still need broader gameplay testing.",
+            "UV repairs and the gun-housing material remap apply to the finest model; lower-detail UVs remain original."
+          ],
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.2/openreliant-basilisk-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.2",
+          "checksum": "5abaead824b097d0a211d41e630380b4b2aea8c5edc0ca3a0e047b76109b83c5",
+          "tag": "basilisk-v0.1.0-beta.2",
+          "downloadBytes": 26912752,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
         }
       ],
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Cloaking, firing, cockpit ejection, damage and distance transitions still need broader gameplay testing.",
-        "UV repairs and the gun-housing material remap apply to the finest model; lower-detail UVs remain original."
-      ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.2/openreliant-basilisk-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.2",
-      "checksum": "5abaead824b097d0a211d41e630380b4b2aea8c5edc0ca3a0e047b76109b83c5",
-      "tag": "basilisk-v0.1.0-beta.2",
-      "downloadBytes": 26912752,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "coalition"
     },
     {
       "id": "kamov",
-      "name": "Kamov - Worn Paint",
+      "name": "Kamov",
       "category": "torpedo-bombers",
       "folder": "Torpedo Bombers/Kamov",
       "status": "available",
-      "version": "0.1.0-beta.2",
-      "assetRevision": "1.0",
       "description": "Worn grey and red Coalition torpedo bomber, with amber glazing, structural normal maps and the original deploying torpedo bays. One exterior replacement covers player and AI ships.",
-      "modFolder": "104-kamov-worn-v1",
-      "preview": "assets/kamov/flight-stowed.webp",
-      "model": "models/kamov.glb",
-      "defaultPreview": "image",
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/kamov/flight-stowed.webp",
-          "caption": "Kamov \u2014 Torpedoes stowed"
-        },
-        {
-          "src": "assets/kamov/flight-deployed.webp",
-          "caption": "Kamov \u2014 Torpedoes deployed"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.2",
+          "assetRevision": "1.0",
+          "modFolder": "104-kamov-worn-v1",
+          "preview": "assets/kamov/flight-stowed.webp",
+          "model": "models/kamov.glb",
+          "defaultPreview": "image",
+          "images": [
+            {
+              "src": "assets/kamov/flight-stowed.webp",
+              "caption": "Kamov — Torpedoes stowed"
+            },
+            {
+              "src": "assets/kamov/flight-deployed.webp",
+              "caption": "Kamov — Torpedoes deployed"
+            }
+          ],
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Manual firing, full mission 25 and AI combat, cloaking, damage, ejection and distance transitions still need broader gameplay testing.",
+            "The 3D preview shows the stowed model. In-game photographs show both bay states; the download preserves the original deployment animation."
+          ],
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kamov-v0.1.0-beta.2/openreliant-kamov-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.2",
+          "checksum": "77e1df3671a739a183e546058d666b55ff8252c73dea35a5194d17da7191a972",
+          "tag": "kamov-v0.1.0-beta.2",
+          "downloadBytes": 27677993,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
         }
       ],
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Manual firing, full mission 25 and AI combat, cloaking, damage, ejection and distance transitions still need broader gameplay testing.",
-        "The 3D preview shows the stowed model. In-game photographs show both bay states; the download preserves the original deployment animation."
-      ],
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kamov-v0.1.0-beta.2/openreliant-kamov-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.2",
-      "checksum": "77e1df3671a739a183e546058d666b55ff8252c73dea35a5194d17da7191a972",
-      "tag": "kamov-v0.1.0-beta.2",
-      "downloadBytes": 27677993,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Torpedo Bomber",
+      "aliases": [
+        "Kamov Stealth",
+        "Kamov#Stealth"
+      ]
     },
     {
       "id": "ordnance",
-      "name": "Missiles, Torpedoes and Fuel Pod - Worn Paint",
+      "name": "Missiles, Torpedoes and Fuel Pod",
       "category": "weapons",
       "folder": "Weapons/Missile Packs and Torpedoes",
       "status": "available",
-      "version": "0.1.0-beta.4",
-      "assetRevision": "1.2",
       "description": "Nine missiles, four launch pods, both torpedoes and the fuel pod, with matching loadout variants: 32 models in one pack.",
-      "modFolder": "97-ordnance-worn-v1",
-      "preview": "assets/ordnance/06_jackhammer.png",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4/openreliant-ordnance-0.1.0-beta.4.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4",
-      "checksum": "9ec252c744f92353024d2d0726b1960a3c70e86f813955d34440272530ea247e",
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Firing, mounted animations and distance transitions still need separate gameplay testing."
-      ],
-      "tag": "ordnance-v0.1.0-beta.4",
-      "downloadBytes": 85412755,
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/ordnance/06_jackhammer.png",
-          "caption": "Jackhammer \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/06_jackhammer_other.png",
-          "caption": "Jackhammer \u2014 Opposite side"
-        },
-        {
-          "src": "assets/ordnance/01_screamer.png",
-          "caption": "Screamer \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/01_screamer_rear.png",
-          "caption": "Screamer \u2014 Rear"
-        },
-        {
-          "src": "assets/ordnance/02_screamer_pod.png",
-          "caption": "Screamer pod \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/02_screamer_pod_other.png",
-          "caption": "Screamer pod \u2014 Opposite side"
-        },
-        {
-          "src": "assets/ordnance/02_screamer_pod_under.png",
-          "caption": "Screamer pod \u2014 Underside"
-        },
-        {
-          "src": "assets/ordnance/02_screamer_pod_loadout.png",
-          "caption": "Screamer pod \u2014 Loadout model"
-        },
-        {
-          "src": "assets/ordnance/03_raptor.png",
-          "caption": "Raptor \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/03_raptor_other.png",
-          "caption": "Raptor \u2014 Opposite side"
-        },
-        {
-          "src": "assets/ordnance/04_raptor_pod.png",
-          "caption": "Raptor pod \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/04_raptor_pod_other.png",
-          "caption": "Raptor pod \u2014 Opposite side"
-        },
-        {
-          "src": "assets/ordnance/04_raptor_pod_under.png",
-          "caption": "Raptor pod \u2014 Underside"
-        },
-        {
-          "src": "assets/ordnance/04_raptor_pod_loadout.png",
-          "caption": "Raptor pod \u2014 Loadout model"
-        },
-        {
-          "src": "assets/ordnance/05_havoc.png",
-          "caption": "Havoc \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/05_havoc_rear.png",
-          "caption": "Havoc \u2014 Rear"
-        },
-        {
-          "src": "assets/ordnance/07_bandit.png",
-          "caption": "Bandit \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/07_bandit_other.png",
-          "caption": "Bandit \u2014 Opposite side"
-        },
-        {
-          "src": "assets/ordnance/08_vagabond.png",
-          "caption": "Vagabond \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/08_vagabond_rear.png",
-          "caption": "Vagabond \u2014 Rear"
-        },
-        {
-          "src": "assets/ordnance/09_solomon_pod.png",
-          "caption": "Solomon pod \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/10_solomon.png",
-          "caption": "Solomon missile \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/10_solomon_rear.png",
-          "caption": "Solomon missile \u2014 Rear"
-        },
-        {
-          "src": "assets/ordnance/11_imp.png",
-          "caption": "Imp \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/11_imp_other.png",
-          "caption": "Imp \u2014 Opposite side"
-        },
-        {
-          "src": "assets/ordnance/12_hawk.png",
-          "caption": "Hawk \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/12_hawk_rear_clear.png",
-          "caption": "Hawk \u2014 Rear"
-        },
-        {
-          "src": "assets/ordnance/13_hawk_pod.png",
-          "caption": "Hawk pod \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/14_alliance_torpedo.png",
-          "caption": "Alliance torpedo \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/15_coalition_torpedo_close.png",
-          "caption": "Coalition torpedo \u2014 Overview"
-        },
-        {
-          "src": "assets/ordnance/15_coalition_torpedo_other.png",
-          "caption": "Coalition torpedo \u2014 Opposite side"
-        },
-        {
-          "src": "assets/ordnance/16_fuel_pod_top.png",
-          "caption": "Fuel pod \u2014 Top panel"
-        },
-        {
-          "src": "assets/ordnance/16_fuel_pod_loadout_top.png",
-          "caption": "Fuel pod \u2014 Loadout top panel"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "version": "0.1.0-beta.4",
+          "assetRevision": "1.2",
+          "modFolder": "97-ordnance-worn-v1",
+          "preview": "assets/ordnance/06_jackhammer.png",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4/openreliant-ordnance-0.1.0-beta.4.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4",
+          "checksum": "9ec252c744f92353024d2d0726b1960a3c70e86f813955d34440272530ea247e",
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Firing, mounted animations and distance transitions still need separate gameplay testing."
+          ],
+          "tag": "ordnance-v0.1.0-beta.4",
+          "downloadBytes": 85412755,
+          "images": [
+            {
+              "src": "assets/ordnance/06_jackhammer.png",
+              "caption": "Jackhammer — Overview"
+            },
+            {
+              "src": "assets/ordnance/06_jackhammer_other.png",
+              "caption": "Jackhammer — Opposite side"
+            },
+            {
+              "src": "assets/ordnance/01_screamer.png",
+              "caption": "Screamer — Overview"
+            },
+            {
+              "src": "assets/ordnance/01_screamer_rear.png",
+              "caption": "Screamer — Rear"
+            },
+            {
+              "src": "assets/ordnance/02_screamer_pod.png",
+              "caption": "Screamer pod — Overview"
+            },
+            {
+              "src": "assets/ordnance/02_screamer_pod_other.png",
+              "caption": "Screamer pod — Opposite side"
+            },
+            {
+              "src": "assets/ordnance/02_screamer_pod_under.png",
+              "caption": "Screamer pod — Underside"
+            },
+            {
+              "src": "assets/ordnance/02_screamer_pod_loadout.png",
+              "caption": "Screamer pod — Loadout model"
+            },
+            {
+              "src": "assets/ordnance/03_raptor.png",
+              "caption": "Raptor — Overview"
+            },
+            {
+              "src": "assets/ordnance/03_raptor_other.png",
+              "caption": "Raptor — Opposite side"
+            },
+            {
+              "src": "assets/ordnance/04_raptor_pod.png",
+              "caption": "Raptor pod — Overview"
+            },
+            {
+              "src": "assets/ordnance/04_raptor_pod_other.png",
+              "caption": "Raptor pod — Opposite side"
+            },
+            {
+              "src": "assets/ordnance/04_raptor_pod_under.png",
+              "caption": "Raptor pod — Underside"
+            },
+            {
+              "src": "assets/ordnance/04_raptor_pod_loadout.png",
+              "caption": "Raptor pod — Loadout model"
+            },
+            {
+              "src": "assets/ordnance/05_havoc.png",
+              "caption": "Havoc — Overview"
+            },
+            {
+              "src": "assets/ordnance/05_havoc_rear.png",
+              "caption": "Havoc — Rear"
+            },
+            {
+              "src": "assets/ordnance/07_bandit.png",
+              "caption": "Bandit — Overview"
+            },
+            {
+              "src": "assets/ordnance/07_bandit_other.png",
+              "caption": "Bandit — Opposite side"
+            },
+            {
+              "src": "assets/ordnance/08_vagabond.png",
+              "caption": "Vagabond — Overview"
+            },
+            {
+              "src": "assets/ordnance/08_vagabond_rear.png",
+              "caption": "Vagabond — Rear"
+            },
+            {
+              "src": "assets/ordnance/09_solomon_pod.png",
+              "caption": "Solomon pod — Overview"
+            },
+            {
+              "src": "assets/ordnance/10_solomon.png",
+              "caption": "Solomon missile — Overview"
+            },
+            {
+              "src": "assets/ordnance/10_solomon_rear.png",
+              "caption": "Solomon missile — Rear"
+            },
+            {
+              "src": "assets/ordnance/11_imp.png",
+              "caption": "Imp — Overview"
+            },
+            {
+              "src": "assets/ordnance/11_imp_other.png",
+              "caption": "Imp — Opposite side"
+            },
+            {
+              "src": "assets/ordnance/12_hawk.png",
+              "caption": "Hawk — Overview"
+            },
+            {
+              "src": "assets/ordnance/12_hawk_rear_clear.png",
+              "caption": "Hawk — Rear"
+            },
+            {
+              "src": "assets/ordnance/13_hawk_pod.png",
+              "caption": "Hawk pod — Overview"
+            },
+            {
+              "src": "assets/ordnance/14_alliance_torpedo.png",
+              "caption": "Alliance torpedo — Overview"
+            },
+            {
+              "src": "assets/ordnance/15_coalition_torpedo_close.png",
+              "caption": "Coalition torpedo — Overview"
+            },
+            {
+              "src": "assets/ordnance/15_coalition_torpedo_other.png",
+              "caption": "Coalition torpedo — Opposite side"
+            },
+            {
+              "src": "assets/ordnance/16_fuel_pod_top.png",
+              "caption": "Fuel pod — Top panel"
+            },
+            {
+              "src": "assets/ordnance/16_fuel_pod_loadout_top.png",
+              "caption": "Fuel pod — Loadout top panel"
+            }
+          ],
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
         }
       ],
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+      "entryType": "pack",
+      "faction": "shared"
     },
     {
       "id": "recommissioned-hud",
       "name": "Recommissioned HUD",
       "category": "hud",
       "status": "available",
-      "description": "StarLancer\u2019s red wireframes and amber instruments, rebuilt with larger displays and HD portraits.",
+      "description": "StarLancer’s red wireframes and amber instruments, rebuilt with larger displays and HD portraits.",
       "preview": "assets/hud/hud-cover.png",
       "previewType": "mixed",
       "previewSource": "Artwork composition using the actual HUD exports",
@@ -724,23 +1133,23 @@
       "images": [
         {
           "src": "assets/hud/hud-cover.png",
-          "caption": "Predator gunnery wireframe \u2014 artwork composition from the HUD pack",
+          "caption": "Predator gunnery wireframe — artwork composition from the HUD pack",
           "sourceLabel": "Artwork composition; not a gameplay screenshot"
         },
         {
           "src": "assets/hud/hud-gameplay.png",
-          "caption": "Grendel cockpit \u2014 full HUD with native comms over an HD portrait",
-          "sourceLabel": "OpenReliant 0.8.1 / main 220affa \u2014 controlled test scene"
+          "caption": "Grendel cockpit — full HUD with native comms over an HD portrait",
+          "sourceLabel": "OpenReliant 0.8.1 / main 220affa — controlled test scene"
         },
         {
           "src": "assets/hud/hud-portrait.png",
           "caption": "HD Bridge Officer portrait and shared red wireframes",
-          "sourceLabel": "OpenReliant 0.8.1 / main 220affa \u2014 controlled test scene"
+          "sourceLabel": "OpenReliant 0.8.1 / main 220affa — controlled test scene"
         },
         {
           "src": "assets/hud/hud-comms.png",
           "caption": "Comms columns and instrument layout with the portrait closed",
-          "sourceLabel": "OpenReliant 0.8.1 / main 220affa \u2014 controlled test scene"
+          "sourceLabel": "OpenReliant 0.8.1 / main 220affa — controlled test scene"
         }
       ],
       "notes": [
@@ -760,285 +1169,2150 @@
     },
     {
       "id": "hades",
-      "name": "Hades - Worn Paint",
+      "name": "Hades",
       "category": "torpedo-bombers",
       "folder": "Torpedo Bombers/Hades",
       "status": "coming-soon",
       "description": "Hades torpedo-bomber restoration. Planned; artwork has not started.",
-      "notes": [
-        "Artwork has not started. No published download yet."
+      "workStatus": "planned",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "notes": [
+            "Artwork has not started. No published download yet."
+          ],
+          "engineStatus": "to-be-confirmed"
+        }
       ],
-      "workStatus": "planned"
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Torpedo Bomber"
     },
     {
       "id": "scimitar",
-      "name": "Scimitar - Worn Paint",
+      "name": "Scimitar",
       "category": "torpedo-bombers",
       "folder": "Torpedo Bombers/Scimitar",
       "status": "coming-soon",
       "description": "Scimitar torpedo-bomber restoration. Planned; artwork has not started.",
-      "notes": [
-        "Artwork has not started. No published download yet."
+      "workStatus": "planned",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "notes": [
+            "Artwork has not started. No published download yet."
+          ],
+          "engineStatus": "to-be-confirmed"
+        }
       ],
-      "workStatus": "planned"
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Torpedo Bomber"
     },
     {
       "id": "loki",
-      "name": "Loki - Worn Paint",
+      "name": "Loki",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Loki",
       "status": "available",
       "description": "Worn industrial hull, hazard markings and recessed amber glazing, with the original articulated legs and folding mechanism.",
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "AI combat, firing, damage, distance transitions and the complete repeating animation cycle still need broader gameplay testing."
-      ],
-      "assetRevision": "1.1",
-      "modFolder": "105-loki-worn-v1",
-      "preview": "assets/loki/flight-folded.webp",
-      "defaultPreview": "image",
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/loki/flight-folded.webp",
-          "caption": "Loki \u2014 Folded legs"
-        },
-        {
-          "src": "assets/loki/flight-fighting.webp",
-          "caption": "Loki \u2014 Fighting position"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "AI combat, firing, damage, distance transitions and the complete repeating animation cycle still need broader gameplay testing."
+          ],
+          "assetRevision": "1.1",
+          "modFolder": "105-loki-worn-v1",
+          "preview": "assets/loki/flight-folded.webp",
+          "defaultPreview": "image",
+          "images": [
+            {
+              "src": "assets/loki/flight-folded.webp",
+              "caption": "Loki — Folded legs"
+            },
+            {
+              "src": "assets/loki/flight-fighting.webp",
+              "caption": "Loki — Fighting position"
+            }
+          ],
+          "version": "0.1.0-beta.2",
+          "tag": "loki-v0.1.0-beta.2",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/loki-v0.1.0-beta.2/openreliant-loki-0.1.0-beta.2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.2",
+          "checksum": "0db2dc9084a172ccddaa694da764c76b4c4be8e03d9ca092a1ae18249305fd40",
+          "downloadBytes": 25779368,
+          "previewSource": "Captured in OpenReliant 0.7.0",
+          "engine": "0.8.1",
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing.",
+          "model": "models/loki.glb"
         }
       ],
-      "version": "0.1.0-beta.2",
-      "tag": "loki-v0.1.0-beta.2",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/loki-v0.1.0-beta.2/openreliant-loki-0.1.0-beta.2.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.2",
-      "checksum": "0db2dc9084a172ccddaa694da764c76b4c4be8e03d9ca092a1ae18249305fd40",
-      "downloadBytes": 25779368,
-      "previewSource": "Captured in OpenReliant 0.7.0",
-      "engine": "0.8.1",
-      "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing.",
-      "model": "models/loki.glb"
+      "entryType": "ship",
+      "faction": "coalition"
     },
     {
       "id": "azan",
-      "name": "Azan - Worn Paint",
+      "name": "Azan",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Azan",
       "status": "available",
-      "assetRevision": "1.0",
       "description": "Worn silver-grey Coalition hull, red star markings, recessed amber glazing and repaired inner tail-edge UVs.",
-      "modFolder": "106-azan-worn-v1",
-      "preview": "assets/azan/flight-overview.webp",
-      "defaultPreview": "image",
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/azan/flight-overview.webp",
-          "caption": "Azan \u2014 In-game overview"
-        },
-        {
-          "src": "assets/azan/flight-rear.webp",
-          "caption": "Azan \u2014 Rear view"
-        },
-        {
-          "src": "assets/azan/flight-underside.webp",
-          "caption": "Azan \u2014 Underside"
-        },
-        {
-          "src": "assets/azan/flight-firing.webp",
-          "caption": "Azan \u2014 Guns firing"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "assetRevision": "1.0",
+          "modFolder": "106-azan-worn-v1",
+          "preview": "assets/azan/flight-overview.webp",
+          "defaultPreview": "image",
+          "images": [
+            {
+              "src": "assets/azan/flight-overview.webp",
+              "caption": "Azan — In-game overview"
+            },
+            {
+              "src": "assets/azan/flight-rear.webp",
+              "caption": "Azan — Rear view"
+            },
+            {
+              "src": "assets/azan/flight-underside.webp",
+              "caption": "Azan — Underside"
+            },
+            {
+              "src": "assets/azan/flight-firing.webp",
+              "caption": "Azan — Guns firing"
+            }
+          ],
+          "previewSource": "User in-game capture",
+          "engine": "0.8.1",
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing.",
+            "Tail UV repairs apply to the finest detail level; lower-detail mappings are retained."
+          ],
+          "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
+          "version": "0.1.0-beta.1",
+          "tag": "azan-v0.1.0-beta.1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/azan-v0.1.0-beta.1/openreliant-azan-0.1.0-beta.1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1",
+          "checksum": "44bcba00acddb6f8a104d7204433b4bfe2335c92827b92c84c2ec50d0600d80a",
+          "downloadBytes": 26677406,
+          "model": "models/azan.glb"
         }
       ],
-      "previewSource": "User in-game capture",
-      "engine": "0.8.1",
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing.",
-        "Tail UV repairs apply to the finest detail level; lower-detail mappings are retained."
-      ],
-      "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
-      "version": "0.1.0-beta.1",
-      "tag": "azan-v0.1.0-beta.1",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/azan-v0.1.0-beta.1/openreliant-azan-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1",
-      "checksum": "44bcba00acddb6f8a104d7204433b4bfe2335c92827b92c84c2ec50d0600d80a",
-      "downloadBytes": 26677406,
-      "model": "models/azan.glb"
+      "entryType": "ship",
+      "faction": "coalition"
     },
     {
       "id": "cossack",
-      "name": "Cossack - Worn Paint",
+      "name": "Cossack",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Cossack",
       "status": "available",
-      "assetRevision": "1.0",
       "description": "Worn silver-grey Coalition hull, red star markings, recessed amber glazing and repaired cockpit underside UVs.",
-      "modFolder": "107-cossack-worn-v1",
-      "preview": "assets/cossack/flight-overview.webp",
-      "defaultPreview": "image",
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/cossack/flight-overview.webp",
-          "caption": "Cossack \u2014 In-game overview"
-        },
-        {
-          "src": "assets/cossack/flight-top.webp",
-          "caption": "Cossack \u2014 Top view"
-        },
-        {
-          "src": "assets/cossack/flight-underside.webp",
-          "caption": "Cossack \u2014 Underside"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "assetRevision": "1.0",
+          "modFolder": "107-cossack-worn-v1",
+          "preview": "assets/cossack/flight-overview.webp",
+          "defaultPreview": "image",
+          "images": [
+            {
+              "src": "assets/cossack/flight-overview.webp",
+              "caption": "Cossack — In-game overview"
+            },
+            {
+              "src": "assets/cossack/flight-top.webp",
+              "caption": "Cossack — Top view"
+            },
+            {
+              "src": "assets/cossack/flight-underside.webp",
+              "caption": "Cossack — Underside"
+            }
+          ],
+          "previewSource": "User in-game capture",
+          "engine": "0.8.1",
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing.",
+            "Cockpit underside UV repairs apply to the finest detail level; lower-detail mappings are retained."
+          ],
+          "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
+          "model": "models/cossack.glb",
+          "version": "0.1.0-beta.1",
+          "tag": "cossack-v0.1.0-beta.1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1/openreliant-cossack-0.1.0-beta.1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1",
+          "checksum": "a599bfbb7fd11f79254b199f46e9721c7486a991bada37177fd1140e6d96b43c",
+          "downloadBytes": 26257495
         }
       ],
-      "previewSource": "User in-game capture",
-      "engine": "0.8.1",
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing.",
-        "Cockpit underside UV repairs apply to the finest detail level; lower-detail mappings are retained."
-      ],
-      "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
-      "model": "models/cossack.glb",
-      "version": "0.1.0-beta.1",
-      "tag": "cossack-v0.1.0-beta.1",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1/openreliant-cossack-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1",
-      "checksum": "a599bfbb7fd11f79254b199f46e9721c7486a991bada37177fd1140e6d96b43c",
-      "downloadBytes": 26257495
+      "entryType": "ship",
+      "faction": "coalition",
+      "aliases": [
+        "Cossac",
+        "Kossac",
+        "Kossack"
+      ]
     },
     {
       "id": "lagg",
-      "name": "Lagg - Worn Paint",
+      "name": "Lagg",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Lagg",
       "status": "available",
-      "assetRevision": "1.0",
       "description": "Worn silver-grey Coalition hull, red star markings, recessed amber glazing and corrected native texture joins.",
-      "modFolder": "108-lagg-worn-v1",
-      "preview": "assets/lagg/flight-firing.webp",
-      "defaultPreview": "image",
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/lagg/flight-firing.webp",
-          "caption": "Lagg \u2014 Guns firing"
-        },
-        {
-          "src": "assets/lagg/flight-overview.webp",
-          "caption": "Lagg \u2014 In-game overview"
-        },
-        {
-          "src": "assets/lagg/flight-top.webp",
-          "caption": "Lagg \u2014 Top view"
-        },
-        {
-          "src": "assets/lagg/flight-underside.webp",
-          "caption": "Lagg \u2014 Underside"
-        },
-        {
-          "src": "assets/lagg/flight-rear.webp",
-          "caption": "Lagg \u2014 Rear view"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "assetRevision": "1.0",
+          "modFolder": "108-lagg-worn-v1",
+          "preview": "assets/lagg/flight-firing.webp",
+          "defaultPreview": "image",
+          "images": [
+            {
+              "src": "assets/lagg/flight-firing.webp",
+              "caption": "Lagg — Guns firing"
+            },
+            {
+              "src": "assets/lagg/flight-overview.webp",
+              "caption": "Lagg — In-game overview"
+            },
+            {
+              "src": "assets/lagg/flight-top.webp",
+              "caption": "Lagg — Top view"
+            },
+            {
+              "src": "assets/lagg/flight-underside.webp",
+              "caption": "Lagg — Underside"
+            },
+            {
+              "src": "assets/lagg/flight-rear.webp",
+              "caption": "Lagg — Rear view"
+            }
+          ],
+          "previewSource": "User in-game capture",
+          "engine": "0.8.1",
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing."
+          ],
+          "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
+          "model": "models/lagg.glb",
+          "version": "0.1.0-beta.1",
+          "tag": "lagg-v0.1.0-beta.1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/lagg-v0.1.0-beta.1/openreliant-lagg-0.1.0-beta.1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1",
+          "checksum": "c0e4d62fe837273eb58b42fe8a89703b802c8d85d09b33d04823b9ac81ea9ca1",
+          "downloadBytes": 25807007
         }
       ],
-      "previewSource": "User in-game capture",
-      "engine": "0.8.1",
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing."
-      ],
-      "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
-      "model": "models/lagg.glb",
-      "version": "0.1.0-beta.1",
-      "tag": "lagg-v0.1.0-beta.1",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/lagg-v0.1.0-beta.1/openreliant-lagg-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1",
-      "checksum": "c0e4d62fe837273eb58b42fe8a89703b802c8d85d09b33d04823b9ac81ea9ca1",
-      "downloadBytes": 25807007
+      "entryType": "ship",
+      "faction": "coalition"
     },
     {
       "id": "salin",
-      "name": "Salin - Worn Paint",
+      "name": "Salin",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Salin",
       "status": "available",
-      "assetRevision": "1.0",
       "description": "Worn silver-grey Coalition hull, red-and-gold markings, recessed amber glazing and corrected native texture joins.",
-      "modFolder": "109-salin-worn-v1",
-      "preview": "assets/salin/flight-overview.webp",
-      "defaultPreview": "image",
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/salin/flight-overview.webp",
-          "caption": "Salin \u2014 In-game overview and guns firing"
-        },
-        {
-          "src": "assets/salin/flight-rear.webp",
-          "caption": "Salin \u2014 Rear view"
-        },
-        {
-          "src": "assets/salin/flight-underside.webp",
-          "caption": "Salin \u2014 Underside"
-        },
-        {
-          "src": "assets/salin/flight-side.webp",
-          "caption": "Salin \u2014 Side view"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "assetRevision": "1.0",
+          "modFolder": "109-salin-worn-v1",
+          "preview": "assets/salin/flight-overview.webp",
+          "defaultPreview": "image",
+          "images": [
+            {
+              "src": "assets/salin/flight-overview.webp",
+              "caption": "Salin — In-game overview and guns firing"
+            },
+            {
+              "src": "assets/salin/flight-rear.webp",
+              "caption": "Salin — Rear view"
+            },
+            {
+              "src": "assets/salin/flight-underside.webp",
+              "caption": "Salin — Underside"
+            },
+            {
+              "src": "assets/salin/flight-side.webp",
+              "caption": "Salin — Side view"
+            }
+          ],
+          "previewSource": "User in-game capture",
+          "engine": "0.8.1",
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing."
+          ],
+          "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
+          "model": "models/salin.glb",
+          "version": "0.1.0-beta.1",
+          "tag": "salin-v0.1.0-beta.1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1/openreliant-salin-0.1.0-beta.1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1",
+          "checksum": "0aee16395ae45dee9ee033e7515b463e2b79ab38fc87fceda960461d07953412",
+          "downloadBytes": 26437763
         }
       ],
-      "previewSource": "User in-game capture",
-      "engine": "0.8.1",
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing."
-      ],
-      "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
-      "model": "models/salin.glb",
-      "version": "0.1.0-beta.1",
-      "tag": "salin-v0.1.0-beta.1",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1/openreliant-salin-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1",
-      "checksum": "0aee16395ae45dee9ee033e7515b463e2b79ab38fc87fceda960461d07953412",
-      "downloadBytes": 26437763
+      "entryType": "ship",
+      "faction": "coalition",
+      "aliases": [
+        "Sailin"
+      ]
     },
     {
       "id": "saracen",
-      "name": "Saracen - Worn Paint",
+      "name": "Saracen",
       "category": "coalition-fighters",
       "folder": "Coalition Fighters/Saracen",
       "status": "available",
-      "assetRevision": "1.0",
       "description": "Worn grey alloy and bronze panelling, recessed green glazing and corrected wing-edge UVs and native texture joins.",
-      "modFolder": "110-saracen-worn-v1",
-      "preview": "assets/saracen/flight-overview.webp",
-      "defaultPreview": "image",
-      "images": [
+      "defaultLivery": "worn-paint",
+      "liveries": [
         {
-          "src": "assets/saracen/flight-overview.webp",
-          "caption": "Saracen \u2014 Front three-quarter view"
-        },
-        {
-          "src": "assets/saracen/flight-firing.webp",
-          "caption": "Saracen \u2014 Upper view with guns firing"
-        },
-        {
-          "src": "assets/saracen/flight-underside.webp",
-          "caption": "Saracen \u2014 Underside"
-        },
-        {
-          "src": "assets/saracen/flight-rear.webp",
-          "caption": "Saracen \u2014 Rear view"
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "available",
+          "assetRevision": "1.0",
+          "modFolder": "110-saracen-worn-v1",
+          "preview": "assets/saracen/flight-overview.webp",
+          "defaultPreview": "image",
+          "images": [
+            {
+              "src": "assets/saracen/flight-overview.webp",
+              "caption": "Saracen — Front three-quarter view"
+            },
+            {
+              "src": "assets/saracen/flight-firing.webp",
+              "caption": "Saracen — Upper view with guns firing"
+            },
+            {
+              "src": "assets/saracen/flight-underside.webp",
+              "caption": "Saracen — Underside"
+            },
+            {
+              "src": "assets/saracen/flight-rear.webp",
+              "caption": "Saracen — Rear view"
+            }
+          ],
+          "previewSource": "User in-game capture",
+          "engine": "0.8.1",
+          "notes": [
+            "Custom emissive maps are planned for a later update.",
+            "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing."
+          ],
+          "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
+          "model": "models/saracen.glb",
+          "version": "0.1.0-beta.1",
+          "tag": "saracen-v0.1.0-beta.1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1/openreliant-saracen-0.1.0-beta.1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1",
+          "checksum": "0d187fd3023596d3437035fff64209ff11ce3f9ed8c745a3d50401b98d17b49f",
+          "downloadBytes": 26761636
         }
       ],
-      "previewSource": "User in-game capture",
-      "engine": "0.8.1",
-      "notes": [
-        "Custom emissive maps are planned for a later update.",
-        "Full campaign combat, damage, ejection, animation cycles and distance transitions still need testing."
+      "entryType": "ship",
+      "faction": "coalition"
+    },
+    {
+      "id": "haidar",
+      "name": "Haidar",
+      "category": "coalition-fighters",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Haidar fighter restoration. Planned; artwork has not started.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Fighter",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
       ],
-      "validationSummary": "User-approved artwork. Official OpenReliant 0.8.1 native-file and texture-loader checks passed; broader gameplay and other platforms remain to be tested.",
-      "model": "models/saracen.glb",
-      "version": "0.1.0-beta.1",
-      "tag": "saracen-v0.1.0-beta.1",
-      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1/openreliant-saracen-0.1.0-beta.1.zip",
-      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1",
-      "checksum": "0d187fd3023596d3437035fff64209ff11ce3f9ed8c745a3d50401b98d17b49f",
-      "downloadBytes": 26761636
+      "aliases": [
+        "Haider"
+      ]
+    },
+    {
+      "id": "karac",
+      "name": "Karac",
+      "category": "coalition-fighters",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Karac fighter restoration. Planned; artwork has not started.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Fighter",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Karak"
+      ]
+    },
+    {
+      "id": "galahad",
+      "name": "Galahad",
+      "category": "torpedo-bombers",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Galahad torpedo-bomber restoration, including its smaller two-torpedo configuration.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Torpedo Bomber",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ]
+    },
+    {
+      "id": "prowler",
+      "name": "Prowler",
+      "category": "corvettes-and-gunboats",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Prowler escort-corvette restoration, covering the hull used for escort and personnel-transfer duties.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Carrier Escort Corvette",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ]
+    },
+    {
+      "id": "kurgen",
+      "name": "Kurgen",
+      "category": "corvettes-and-gunboats",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Kurgen gunboat restoration, including its prominent gun mounts.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Gunboat / Corvette",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ]
+    },
+    {
+      "id": "kestrel",
+      "name": "Kestrel",
+      "category": "fleet-destroyers",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Kestrel fleet-destroyer restoration, including the class represented by ANS Churchill.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Fleet Destroyer",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "ANS Churchill",
+        "Churchill"
+      ]
+    },
+    {
+      "id": "berijev",
+      "name": "Berijev",
+      "category": "command-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Berijev command-ship restoration, including its communications equipment and boarding targets.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Command Ship",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Beriev"
+      ]
+    },
+    {
+      "id": "zakov",
+      "name": "CS Zakov",
+      "category": "cruisers",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The extracted Zakov cruiser hull, catalogued with the Cyclone cruiser family.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Cyclone-class Cruiser",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Zakov"
+      ]
+    },
+    {
+      "id": "kiev",
+      "name": "CS Kiev",
+      "category": "cruisers",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The extracted Kiev cruiser hull, catalogued with the Tornado cruiser family.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Tornado-class Cruiser",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Kiev"
+      ]
+    },
+    {
+      "id": "reliant",
+      "name": "ANS Reliant",
+      "category": "alliance-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The Reliant carrier hull, including its exterior and associated moving structures.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Class 4 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Reliant"
+      ]
+    },
+    {
+      "id": "endeavor",
+      "name": "ANS Endeavor",
+      "category": "alliance-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The Endeavor carrier hull, retained as its own extracted-model restoration.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Class 3 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Endeavor",
+        "Endeavour",
+        "ANS Endeavour"
+      ]
+    },
+    {
+      "id": "victorious",
+      "name": "ANS Victorious",
+      "category": "alliance-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The Victorious carrier hull, retained separately from the other Alliance Class 1 designs.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Class 1 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Victorious"
+      ]
+    },
+    {
+      "id": "bremen",
+      "name": "ANS Bremen",
+      "category": "alliance-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The Bremen carrier hull, retained as its own extracted-model restoration.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Class 1 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Bremen"
+      ]
+    },
+    {
+      "id": "intrepid",
+      "name": "ANS Intrepid",
+      "category": "alliance-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The Intrepid carrier hull, retained separately from the other Alliance Class 1 designs.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Class 1 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Intrepid"
+      ]
+    },
+    {
+      "id": "yamato",
+      "name": "ANS Yamato",
+      "category": "alliance-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The Yamato carrier hull, including its exterior, hangars and distinctive fleet-carrier structure.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Class 1 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Yamato"
+      ]
+    },
+    {
+      "id": "badanov",
+      "name": "CS Badanov",
+      "category": "coalition-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The extracted Badanov carrier hull, including its exterior and carrier equipment.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Class 3 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Badanov"
+      ]
+    },
+    {
+      "id": "rameses",
+      "name": "CS Rameses",
+      "category": "coalition-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The extracted Rameses carrier hull, retained separately from the Krasnaya design.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Class 2 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Rameses",
+        "Ramases",
+        "CS Ramases"
+      ]
+    },
+    {
+      "id": "krasnaya",
+      "name": "CS Krasnaya",
+      "category": "coalition-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The extracted Krasnaya carrier hull. Krasny remains a separately named vessel pending source audit.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Class 2 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Krasnaya"
+      ]
+    },
+    {
+      "id": "pukov",
+      "name": "CS Pukov",
+      "category": "coalition-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The Pukov carrier hull, including its large flight facilities and armoured exterior.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Class 1 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Pukov"
+      ]
+    },
+    {
+      "id": "czar",
+      "name": "CS Czar",
+      "category": "supercarriers",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "The Czar supercarrier hull. Its shipyard is tracked as a separate installation.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Supercarrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Czar"
+      ]
+    },
+    {
+      "id": "mammoth",
+      "name": "Mammoth",
+      "category": "freighters-and-cargo-transports",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Mammoth heavy cargo-carrier restoration, covering the common hull used by named campaign transports.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Cargo Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Larson's Pride",
+        "Larsons Pride",
+        "Sierra Madre",
+        "Crimson Sky"
+      ],
+      "notes": [
+        "Named campaign transports are search aliases for this hull entry; unique markings and material variants will be audited."
+      ]
+    },
+    {
+      "id": "luenenburg",
+      "name": "Luenenburg",
+      "category": "freighters-and-cargo-transports",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Luenenburg cargo-carrier restoration.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Cargo Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Lueneburg"
+      ]
+    },
+    {
+      "id": "gurevich",
+      "name": "Gurevich",
+      "category": "freighters-and-cargo-transports",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Gurevich freighter restoration, retained separately from the Shavrov hull.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Cargo Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ]
+    },
+    {
+      "id": "shavrov",
+      "name": "Shavrov",
+      "category": "freighters-and-cargo-transports",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Shavrov supply-transport restoration, including the hull used as a captured transport.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Freighter / Supply Transport",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Sharov",
+        "Sherov"
+      ]
+    },
+    {
+      "id": "lonestar",
+      "name": "Lonestar",
+      "category": "shuttles-and-light-transports",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Lonestar shuttle restoration, including its personnel and remote-control mission roles.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Transport Shuttle",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Lonestar Shuttle",
+        "Beta-9"
+      ]
+    },
+    {
+      "id": "yakob",
+      "name": "Yakob",
+      "category": "shuttles-and-light-transports",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Yakob transport restoration, using the extracted-model inventory name.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Transport",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "notes": [
+        "The source name and detailed transport classification will be checked against the original asset inventory."
+      ]
+    },
+    {
+      "id": "kalan",
+      "name": "Kalan",
+      "category": "shuttles-and-light-transports",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Kalan shuttle restoration.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Transport Shuttle",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "notes": [
+        "Listed in the Coalition ship roster; extracted-model and texture identifiers still need to be recorded."
+      ]
+    },
+    {
+      "id": "scarab",
+      "name": "Scarab",
+      "category": "troop-transports",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Scarab troop-transport restoration, including its associated troop pods as one restoration scope.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Troop Transport",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "notes": [
+        "Detached troop pods are part of this hull scope; individual attachment and material variants await source audit."
+      ]
+    },
+    {
+      "id": "breacher",
+      "name": "Boarding Ship / Breacher",
+      "category": "assault-and-boarding-craft",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Alliance assault-transport restoration for marine boarding operations.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Assault Transport",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Boarding ship",
+        "Breacher",
+        "Assault transport"
+      ],
+      "notes": [
+        "The boarding-ship and Breacher source labels will be checked against the extracted mesh and texture identifiers."
+      ]
+    },
+    {
+      "id": "ripper",
+      "name": "Ripper",
+      "category": "cargo-movers-and-tugs",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Ripper cargo-mover restoration, including its cargo-handling mechanism.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Cargo Mover",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ]
+    },
+    {
+      "id": "nanny",
+      "name": "Nanny",
+      "category": "rescue-and-resupply",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Nanny restoration for rescue and replenishment duties.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Rescue / Resupply Ship",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Nanny ship",
+        "Nanny rescue",
+        "Nanny support"
+      ],
+      "notes": [
+        "Support and rescue configurations remain within this entry until their model and texture differences are audited."
+      ]
+    },
+    {
+      "id": "antonov",
+      "name": "Antonov",
+      "category": "rescue-and-resupply",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Antonov rescue-ship restoration, including its escape-pod recovery configuration.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Rescue Ship",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Antonov rescue",
+        "Antonov support"
+      ],
+      "notes": [
+        "Support and rescue configurations remain within this entry until their model and texture differences are audited."
+      ]
+    },
+    {
+      "id": "stork",
+      "name": "Stork",
+      "category": "deployment-and-engineering",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Stork satellite-layer restoration. The deployed satellites are tracked separately.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Satellite Layer",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Condors",
+        "Condor satellite-laying squadron"
+      ],
+      "notes": [
+        "Condors is a mission group name, not a second hull class."
+      ]
+    },
+    {
+      "id": "riza",
+      "name": "Riza",
+      "category": "science-vessels",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Riza science-vessel restoration, including its specialist research equipment.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Science Vessel",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Science ship",
+        "Science vessel"
+      ]
+    },
+    {
+      "id": "ulysses",
+      "name": "ANS Ulysses",
+      "category": "civilian-liners",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Ulysses passenger-liner restoration. This large civilian hull is counted once here, outside the warship categories.",
+      "entryType": "ship",
+      "faction": "alliance",
+      "shipClass": "Civilian Liner",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Ulysses",
+        "Ulysse",
+        "Ulysees"
+      ]
+    },
+    {
+      "id": "saladin",
+      "name": "Saladin",
+      "category": "prison-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Saladin prison-ship restoration, including its distinctive hull and detention-vessel structures.",
+      "entryType": "ship",
+      "faction": "coalition",
+      "shipClass": "Prison Ship",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Prison ship"
+      ]
+    },
+    {
+      "id": "kirov",
+      "name": "CS Kirov",
+      "category": "cruisers",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "CS Kirov is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "coalition",
+      "shipClass": "Tornado-class Cruiser",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Kirov"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "morzov",
+      "name": "CS Morzov",
+      "category": "cruisers",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "CS Morzov is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "coalition",
+      "shipClass": "Tornado-class Cruiser",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Morzov"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "shinnik",
+      "name": "CS Shinnik",
+      "category": "cruisers",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "CS Shinnik is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "coalition",
+      "shipClass": "Tornado-class Cruiser",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Shinnik"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "kresta",
+      "name": "CS Kresta",
+      "category": "cruisers",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "CS Kresta is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "coalition",
+      "shipClass": "Cyclone-class Cruiser",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Kresta"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established.",
+        "The reference roster describes this vessel, but a retail campaign appearance is not established."
+      ]
+    },
+    {
+      "id": "yevstafiy",
+      "name": "CS Yevstafiy",
+      "category": "cruisers",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "CS Yevstafiy is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "coalition",
+      "shipClass": "Cyclone-class Cruiser",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Yevstafiy"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "krasny",
+      "name": "CS Krasny",
+      "category": "coalition-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "CS Krasny is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "coalition",
+      "shipClass": "Class 3 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Krasny"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "kozah",
+      "name": "CS Kozah",
+      "category": "coalition-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "CS Kozah is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "coalition",
+      "shipClass": "Class 2 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Kozah"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "bokov",
+      "name": "CS Bokov",
+      "category": "coalition-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "CS Bokov is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "coalition",
+      "shipClass": "Class 2 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Bokov"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "bulatov",
+      "name": "CS Bulatov",
+      "category": "coalition-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "CS Bulatov is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "coalition",
+      "shipClass": "Class 2 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Bulatov"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "kozlov",
+      "name": "CS Kozlov",
+      "category": "coalition-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "CS Kozlov is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "coalition",
+      "shipClass": "Class 2 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Kozlov"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "ufelsky",
+      "name": "CS Ufelsky",
+      "category": "coalition-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "CS Ufelsky is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "coalition",
+      "shipClass": "Class 2 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Ufelsky"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "koenig",
+      "name": "ANS Koenig",
+      "category": "alliance-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "ANS Koenig is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "alliance",
+      "shipClass": "Class 1 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Koenig"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "washington",
+      "name": "ANS Washington",
+      "category": "alliance-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "ANS Washington is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "alliance",
+      "shipClass": "Class 1 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Washington"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "mitchell",
+      "name": "ANS Mitchell",
+      "category": "alliance-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "ANS Mitchell is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "alliance",
+      "shipClass": "Class 1 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Mitchell"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "varyag",
+      "name": "CS Varyag",
+      "category": "coalition-capital-ships",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "CS Varyag is reserved as a named-vessel entry. Its base-hull mapping and any unique artwork remain to be audited.",
+      "entryType": "named-vessel",
+      "faction": "coalition",
+      "shipClass": "Class 1 Carrier",
+      "defaultLivery": "worn-paint",
+      "liveries": [
+        {
+          "id": "worn-paint",
+          "name": "Worn Paint",
+          "status": "coming-soon",
+          "engineStatus": "to-be-confirmed"
+        }
+      ],
+      "aliases": [
+        "Varyag"
+      ],
+      "countsTowardProgress": false,
+      "scopeStatus": "pending-audit",
+      "notes": [
+        "Named vessel retained for discovery; model and texture sharing await audit. Excluded from completion totals until its restoration scope is established."
+      ]
+    },
+    {
+      "id": "early-warning-satellite-pack",
+      "name": "Early-Warning Satellites",
+      "category": "early-warning-satellites",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "One planned restoration batch for the early-warning satellites deployed during the campaign; the individual models and variants still need inventory.",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "alliance",
+      "aliases": [
+        "Radar satellites",
+        "Condor satellites"
+      ]
+    },
+    {
+      "id": "defence-satellite-pack",
+      "name": "Defence Satellites",
+      "category": "defence-satellites",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "One planned restoration batch for armed defensive satellites, including the Coalition satellite networks. Individual models and variants still need inventory.",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "coalition",
+      "aliases": [
+        "Grazer",
+        "Defense satellites"
+      ]
+    },
+    {
+      "id": "dark-reign",
+      "name": "Dark Reign Ion Cannon",
+      "category": "heavy-weapon-platforms",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Restoration of the Dark Reign heavy ion-cannon installation and its associated platform.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "coalition",
+      "aliases": [
+        "Dark Reign",
+        "Ion cannon platform"
+      ]
+    },
+    {
+      "id": "fort-sherman",
+      "name": "Fort Sherman",
+      "category": "fleet-bases-and-forts",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Fort Sherman station restoration. Shared geometry and any mission-specific surface variants will be checked during the station inventory.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "alliance"
+    },
+    {
+      "id": "fort-baxter",
+      "name": "Fort Baxter",
+      "category": "fleet-bases-and-forts",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Fort Baxter station restoration. Shared geometry and any mission-specific surface variants will be checked during the station inventory.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "alliance"
+    },
+    {
+      "id": "fort-carter",
+      "name": "Fort Carter",
+      "category": "fleet-bases-and-forts",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Fort Carter station restoration. Shared geometry and any mission-specific surface variants will be checked during the station inventory.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "alliance"
+    },
+    {
+      "id": "fort-bear",
+      "name": "Fort Bear",
+      "category": "fleet-bases-and-forts",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Fort Bear station restoration. Shared geometry and any mission-specific surface variants will be checked during the station inventory.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "alliance"
+    },
+    {
+      "id": "fort-vanguard",
+      "name": "Fort Vanguard",
+      "category": "fleet-bases-and-forts",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Fort Vanguard station restoration. Shared geometry and any mission-specific surface variants will be checked during the station inventory.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "alliance"
+    },
+    {
+      "id": "czar-shipyard",
+      "name": "Czar Shipyard",
+      "category": "shipyards",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Restoration of the shipyard installation used during the attack on the Czar; the carrier hull is a separate catalogue entry.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "coalition",
+      "aliases": [
+        "Czar dock",
+        "Czar drydock"
+      ]
+    },
+    {
+      "id": "kronstadt",
+      "name": "Kronstadt Supply Depot",
+      "category": "supply-depots",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Kronstadt supply-depot restoration, including its exterior cargo-access structures.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "coalition",
+      "aliases": [
+        "Kronstadt"
+      ]
+    },
+    {
+      "id": "stalag",
+      "name": "Stalag Mining Facility",
+      "category": "mining-and-processing",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Stalag mining and fuel-cell storage facility restoration.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "coalition",
+      "aliases": [
+        "Stalag",
+        "Fuel-cell depot"
+      ]
+    },
+    {
+      "id": "latov",
+      "name": "Latov Research Base",
+      "category": "research-facilities",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Latov research and warp-control facility restoration.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "coalition",
+      "aliases": [
+        "Latov",
+        "Latov base"
+      ]
+    },
+    {
+      "id": "borodin",
+      "name": "CS Borodin Command Station",
+      "category": "command-stations",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Borodin fortified command-station restoration, including its separable station sections.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "coalition",
+      "aliases": [
+        "Borodin",
+        "Boridin",
+        "CS Boridin"
+      ]
+    },
+    {
+      "id": "experimental-warp-gate",
+      "name": "Experimental Warp Gate",
+      "category": "warp-infrastructure",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Restoration of the experimental Coalition warp-gate installation and its exposed core structures.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "coalition",
+      "aliases": [
+        "Warp gate",
+        "Warp portal"
+      ]
+    },
+    {
+      "id": "warp-gate-hub",
+      "name": "Warp Gate Hub",
+      "category": "warp-infrastructure",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Restoration of the Coalition warp-gate command hub, distinct from the experimental gate installation.",
+      "entryType": "installation",
+      "engineStatus": "to-be-confirmed",
+      "faction": "coalition",
+      "aliases": [
+        "Warp control hub",
+        "Warp command hub"
+      ]
+    },
+    {
+      "id": "mines-and-demolition-pack",
+      "name": "Mines and Demolition Charges",
+      "category": "mines-and-demolition",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "One planned batch for deployable mines and mission demolition charges. Model variants and texture sharing still need to be inventoried.",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "shared",
+      "aliases": [
+        "Mines",
+        "Demolition charges",
+        "Explosive charges"
+      ]
+    },
+    {
+      "id": "turrets-and-gun-mounts-pack",
+      "name": "Turrets and Gun Mounts",
+      "category": "turrets-and-gun-mounts",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "One planned batch for ship and station gun mounts. Shared and hull-specific materials will be identified before per-component scope is assigned.",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "shared",
+      "aliases": [
+        "Turrets",
+        "Flak turrets",
+        "Gun mounts"
+      ]
+    },
+    {
+      "id": "propulsion-and-power-pack",
+      "name": "Propulsion and Power Systems",
+      "category": "propulsion-and-power",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "One planned batch for engines, drives, generators and power equipment. Separate meshes and shared materials still need a source audit.",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "shared",
+      "aliases": [
+        "Engines",
+        "Gravity drives",
+        "Shield generators",
+        "Power cores"
+      ]
+    },
+    {
+      "id": "sensors-and-communications-pack",
+      "name": "Sensors and Communications",
+      "category": "sensors-and-communications",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "One planned batch for sensors and communications equipment. Individual component families still need to be inventoried.",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "shared",
+      "aliases": [
+        "Sensors",
+        "Communications towers",
+        "Antennae",
+        "Dishes"
+      ]
+    },
+    {
+      "id": "structural-and-docking-pack",
+      "name": "Structural and Docking Components",
+      "category": "structural-and-docking",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "One planned batch for separable doors, hatches, docking equipment and structural parts. Ship-specific and shared components will be distinguished during source audit.",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "shared",
+      "aliases": [
+        "Doors",
+        "Hatches",
+        "Docking structures",
+        "Armour plates"
+      ]
+    },
+    {
+      "id": "cargo-container-pack",
+      "name": "Cargo Containers",
+      "category": "cargo-containers",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "One planned batch for cargo pods, supply containers and mission fuel-cell containers. The fighter fuel pod remains in the existing ordnance pack.",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "shared",
+      "aliases": [
+        "Cargo pods",
+        "Supply containers",
+        "Fuel cells"
+      ]
+    },
+    {
+      "id": "escape-pod-pack",
+      "name": "Escape Pods",
+      "category": "escape-pods",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "One planned batch for Alliance and Coalition escape and ejection pods, with faction and configuration variants inventoried together.",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "shared",
+      "aliases": [
+        "Ejection pods",
+        "Lifepods"
+      ]
+    },
+    {
+      "id": "recoverable-mission-object-pack",
+      "name": "Recorders and Mission Beacons",
+      "category": "recoverable-mission-objects",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "One planned batch for recoverable flight recorders, communications beacons and related mission objects. Individual models still need inventory.",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "shared",
+      "aliases": [
+        "Black boxes",
+        "Flight recorders",
+        "Communications beacons"
+      ]
+    },
+    {
+      "id": "friends-and-foes",
+      "name": "Friends and Foes",
+      "category": "art-packs",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Reusable allegiance-reversed artwork for Coalition-friendly and Alliance-hostile campaigns: green Coalition and red Alliance damage and target indicators.",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "shared",
+      "aliases": [
+        "Friends & Foes",
+        "Reversed allegiance indicators"
+      ],
+      "notes": [
+        "Planned art pack. The native mod folder name is reserved; no release or download is published."
+      ],
+      "modFolder": "friends-and-foes"
+    },
+    {
+      "id": "vanilla-mission-damage-indicators",
+      "name": "Vanilla Mission Damage Indicators",
+      "category": "mission-mods",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "description": "Friendly Kamovs use green damage indicators in the left-side orientation; McGann uses red indicators in the right-side orientation. Requires the Friends and Foes art pack.",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "shared",
+      "aliases": [
+        "Kamov friendly green",
+        "McGann enemy red",
+        "Vanilla campaign indicators"
+      ],
+      "notes": [
+        "Planned mission integration. The native dependency refers to the Friends and Foes mod folder; no release or download is published."
+      ],
+      "modFolder": "vanilla-mission-damage-indicators",
+      "requires": [
+        "friends-and-foes"
+      ]
+    },
+    {
+      "id": "cockpit-retextures-and-emissives",
+      "name": "Cockpit Retextures and Emissives",
+      "category": "cockpit-interiors",
+      "status": "coming-soon",
+      "workStatus": "planned",
+      "milestone": "long-term",
+      "entryType": "pack",
+      "engineStatus": "to-be-confirmed",
+      "faction": "shared",
+      "description": "Long-term restoration of cockpit interiors, including panel textures and emissive lighting for screens, buttons and other illuminated controls.",
+      "aliases": [
+        "Cockpits",
+        "Cockpit interiors",
+        "Cockpit screens",
+        "Cockpit buttons",
+        "Cockpit emissives",
+        "Instrument lighting"
+      ],
+      "notes": [
+        "Long-term milestone; no cockpit texture or emissive download is published yet.",
+        "The planned pack covers interior retexturing plus screen, button and control emissives.",
+        "Tracked as one cockpit pack until the individual cockpit models and shared texture sets are inventoried. Separate cockpit entries can then replace this combined scope without counting the same work twice."
+      ]
     }
+  ],
+  "groups": [
+    {
+      "id": "small-combat-craft",
+      "name": "Small Combat Craft",
+      "description": "Alliance and Coalition fighters, interceptors and torpedo bombers."
+    },
+    {
+      "id": "fleet-warships",
+      "name": "Fleet Warships",
+      "description": "Corvettes, gunboats, destroyers, command ships, cruisers and carriers."
+    },
+    {
+      "id": "transports-and-support",
+      "name": "Transports and Support",
+      "description": "Cargo, personnel, rescue, boarding, deployment and specialist vessels."
+    },
+    {
+      "id": "satellites-and-defence",
+      "name": "Satellites and Defence",
+      "description": "Early-warning satellites, defensive satellites and heavy weapon platforms."
+    },
+    {
+      "id": "stations-and-infrastructure",
+      "name": "Stations and Infrastructure",
+      "description": "Forts, shipyards, depots, research facilities and warp installations."
+    },
+    {
+      "id": "weapons-and-components",
+      "name": "Weapons and Components",
+      "description": "Ordnance, ship equipment, cargo objects and recoverable mission assets."
+    },
+    {
+      "id": "environment-and-planets",
+      "name": "Environment and Planets",
+      "description": "Worlds, backdrops and environmental artwork."
+    },
+    {
+      "id": "hud-and-mission-mods",
+      "name": "HUD, Art Packs and Mission Mods",
+      "description": "Interface artwork, reusable art packs and mission-specific integrations."
+    },
+    {
+      "id": "cockpits",
+      "name": "Cockpits",
+      "description": "Long-term cockpit restoration: interior textures and emissive lighting for screens, buttons and illuminated controls."
+    }
+  ],
+  "progress": {
+    "description": "Available catalogue assets and packs; beta refinements and additional liveries remain ongoing.",
+    "scopeDescription": "Each base asset or explicit pack counts once. Named vessels awaiting a model and texture audit are shown for discovery but excluded from completion totals."
+  },
+  "sources": [
+    {
+      "id": "alliance-roster",
+      "title": "StarLancer Alliance ship roster",
+      "url": "https://starlancer.fandom.com/wiki/Alliance_spaceships"
+    },
+    {
+      "id": "coalition-roster",
+      "title": "StarLancer Coalition ship roster",
+      "url": "https://starlancer.fandom.com/wiki/Coalition_spaceships"
+    },
+    {
+      "id": "model-inventory",
+      "title": "Extracted StarLancer model inventory and conversion notes",
+      "url": "https://www.hard-light.net/forums/index.php?topic=93242.0"
+    },
+    {
+      "id": "campaign-roster",
+      "title": "StarLancer campaign missions and named facilities",
+      "url": "https://starlancer.fandom.com/wiki/Campaign_missions"
+    },
+    {
+      "id": "campaign-walkthrough",
+      "title": "StarLancer PC campaign walkthrough by Starmasta",
+      "url": "https://swat-portal.com/forum/thread/10827-starlancer-walkthrough-by-starmasta/"
+    },
+    {
+      "id": "galahad-roster",
+      "title": "Galahad bomber reference",
+      "url": "https://starlancer.fandom.com/wiki/Galahad"
+    },
+    {
+      "id": "borodin-reference",
+      "title": "Borodin command-station reference",
+      "url": "https://starlancer.fandom.com/wiki/CS_Borodin"
+    },
+    {
+      "id": "pukov-reference",
+      "title": "Pukov and Varyag carrier reference",
+      "url": "https://starlancer.fandom.com/wiki/CS_Pukov"
+    }
+  ],
+  "inventoryNotes": [
+    "Groups and detailed categories organise the restoration work; they are not a verbatim reproduction of the game's internal asset taxonomy.",
+    "Available status records a published catalogue release. It does not mean every livery, lower-detail model, emissive map or gameplay test is finished.",
+    "Each base hull or explicitly described batch counts once. Liveries, screenshots, deployment states and source-name aliases do not create extra completion units.",
+    "Named-vessel entries marked pending-audit remain visible but do not count toward progress. A shared ship class does not prove shared meshes or textures, and distinct extracted hulls remain separate.",
+    "Names and aliases preserve existing published IDs and common source spellings. Unverified name-to-mesh mappings, including new transport entries, still need an extracted-source audit.",
+    "Component packs are planned batches, not claims about the number of unique meshes or shared texture sets. Existing missiles, torpedoes, launch pods and the fighter fuel pod remain one ordnance pack.",
+    "The named station entries reserve restoration scopes; shared geometry and mission-specific variants will be audited before their final material inventory is assigned.",
+    "No speculative planet or backdrop roster has been added. Environment and Planets remains available as a category for future verified scope."
   ]
 }
