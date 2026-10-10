@@ -1545,8 +1545,8 @@
       "id": "haidar",
       "name": "Haidar",
       "category": "coalition-fighters",
-      "status": "coming-soon",
-      "workStatus": "in-progress",
+      "status": "available",
+      "workStatus": "released",
       "description": "Restored worn hull, inset green glazing, aligned canopy frames and local panel and caution-border repairs.",
       "entryType": "ship",
       "faction": "coalition",
@@ -1556,7 +1556,7 @@
         {
           "id": "worn-paint",
           "name": "Worn Paint",
-          "status": "coming-soon",
+          "status": "available",
           "assetRevision": "1.3",
           "modFolder": "111-haidar-worn-v1",
           "preview": "assets/haidar/flight-review.webp",
@@ -1575,7 +1575,13 @@
             "In-game photo predates the final seam and canopy refinements. The 3D preview shows shipped artwork 1.3.",
             "Further refinements, dedicated emissives and broader campaign/platform testing remain open."
           ],
-          "validationSummary": "Accepted for this beta round. Official 0.8.1 native, material-loader and preservation checks passed. Broader gameplay remains untested."
+          "validationSummary": "Accepted for this beta round. Official 0.8.1 native, material-loader and preservation checks passed. Broader gameplay remains untested.",
+          "version": "0.1.0-beta.1",
+          "tag": "haidar-v0.1.0-beta.1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/haidar-v0.1.0-beta.1/openreliant-haidar-0.1.0-beta.1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1",
+          "checksum": "930327f962ef3fae0e7352a1b9adb43d51093a6335a75b2c8637fa678affdc84",
+          "downloadBytes": 40549074
         }
       ],
       "aliases": [
