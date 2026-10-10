@@ -1,0 +1,12 @@
+{
+  "mission": 975,
+  "name": "Recommissioned - Haidar Inspection",
+  "player_ship_type": 39,
+  "placed_ships": 1,
+  "other_ships": 0,
+  "triggers": 0,
+  "script": "Create only the player's flight group; return.",
+  "retail_mission_data_copied": false,
+  "sha256": "d5ece271db4bdd7de73edb53a39099b8938063668d384e27228e8d9e1606e27e",
+  "status": "requires runtime verification"
+}

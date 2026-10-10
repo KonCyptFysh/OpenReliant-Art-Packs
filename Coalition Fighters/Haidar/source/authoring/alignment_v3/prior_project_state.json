@@ -1,0 +1,55 @@
+{
+  "ship": "Haidar",
+  "native_name": "Haidar",
+  "native_file": "Chin_Han.SHP",
+  "ship_type": 39,
+  "active_variant": "worn",
+  "status": "ready_for_user_review",
+  "user_approved": false,
+  "published": false,
+  "latest_scene": "${HAIDAR_WORKSPACE}/haidar_worn_pbr_v2.blend",
+  "originals": [
+    {
+      "path": "source/Chin_Han.SHP",
+      "source": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/extracted/models/other_models/original_payloads/RESOURCE.HOG/0626_027703D5/Chin_Han.SHP",
+      "sha256": "0438be94665f8ca01189a4ffee9651b9dbb8f1875dc9a11b07b7f02668c1a761"
+    },
+    {
+      "path": "source/brit2.png",
+      "source": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/extracted/textures/cache/TCACHEHW/0206_brit2/brit2.png",
+      "sha256": "4c8b7411d6d31df47d5a1a3913121778a3931c285a64e93c69053a530c673a69"
+    }
+  ],
+  "pbr_release_gate": {
+    "status": "satisfied",
+    "engine": "Official OpenReliant 0.8.1"
+  },
+  "progress": {
+    "texture_uv": "nose_and_collar_mapping_revised_pending_user_review",
+    "pbr_authoring": "clean_glass_and_continuous_panel_materials_complete",
+    "pbr_tuning": "authoring_closeups_checked_runtime_pending",
+    "engine_validation": "official_0_8_1_non_visual_checks_passed_runtime_pending"
+  },
+  "loadout_texture_variants": "engine_generated_no_g_or_r_copies",
+  "updated_at_utc": "2026-10-10T03:31:14.919470+00:00",
+  "latest_deliverables": "${HAIDAR_WORKSPACE}/exports/openreliant_0_8_v1",
+  "repository_asset": "${ART_PACK_REPOSITORY}/Coalition Fighters/Haidar",
+  "review_launcher": "/home/lva-8700/Games/OpenReliant/launch-haidar-test.sh",
+  "engine_validation": {
+    "build": "Official OpenReliant 0.8.1 linux-x86_64",
+    "date_utc": "2026-10-10T03:31:14.919470+00:00",
+    "non_visual_checks": "passed",
+    "visual_review": "pending_user_revision_1_1",
+    "game_launched": false,
+    "evidence": "${HAIDAR_WORKSPACE}/work/seams_v2/compatibility-0.8.json"
+  },
+  "current_manifest": "${HAIDAR_WORKSPACE}/manifest.json",
+  "review_notes": [
+    "Continuous nose surface mapping like Naginata",
+    "Remove baked window reflections and inner dividers",
+    "Flat glass and gasket normals to remove bright edge artefacts",
+    "Align cockpit shoulders and complete panel gaps"
+  ],
+  "asset_revision": "1.1",
+  "previous_scene": "${HAIDAR_WORKSPACE}/haidar_worn_pbr_v1.blend"
+}

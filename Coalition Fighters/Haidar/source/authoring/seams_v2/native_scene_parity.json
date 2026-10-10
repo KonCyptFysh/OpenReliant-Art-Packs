@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "checked_finest_detail_faces": 478,
+  "max_uv_component_error": 2.9802322387695312e-08,
+  "material_indices_match_blender": true
+}

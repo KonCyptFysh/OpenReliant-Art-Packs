@@ -1,0 +1,19 @@
+{
+  "tool": "built-in image_gen",
+  "passes": [
+    {
+      "prompt": "Use case: precise-object-edit. Asset type: fixed-layout worn spaceship UV texture atlas for the StarLancer Haidar fighter. Image 1 is the immutable original 256x256 atlas, EDIT TARGET. Reconstruct this exact atlas at higher resolution, square. Preserve every feature's exact normalized position, silhouette, width, edge boundary, colour and orientation. Do not rearrange, enlarge or move any panel, window, vent, marking or UV island. Retain its dark weathered silver-grey steel hull, charcoal mechanical areas, red painted geometric stripes, yellow/red small star stripe and worn edge chipping. Sharpen the same readable economical panel seams and mechanical ribs. Repair pixel blur into plausible painted metal detail without excessive grime or new structures. All green cockpit/window regions must be flat opaque very dark green glass, smooth uniform interiors with NO painted highlights, NO scratched streaks and NO reflections baked into them. Preserve their original outlines exactly and surrounding frames. Straighten the existing vent ribs but keep them bounded inside their original housings. Flat diffuse albedo, no new directional lighting, glows or dramatic specular highlights. No new text or markings. This is the complete flat UV atlas, not a spaceship render, no margins, no cropping, no background.",
+      "input": "source/brit2.png",
+      "output": "maps/haidar_hull_reconstructed_v1.png",
+      "input_sha256": "4c8b7411d6d31df47d5a1a3913121778a3931c285a64e93c69053a530c673a69",
+      "output_sha256": "46ceb34ce1ec42d815400348df5fd60e6074cdbb08584c3a0a414a3275ae1f0f"
+    },
+    {
+      "prompt": "Use case: precise-object-edit. Edit this exact fixed-layout Haidar spaceship UV atlas. Change ONLY the interior pixels of the dark green glass windows. Remove the light green horizontal reflection streaks and geometric highlight patches inside the panes at left middle x1%-15%,y40%-48%; center x33%-57%,y58%-63%; and lower right x77%-84%,y74%-99%. Every individual pane should have a uniform very dark desaturated green interior, with no scratches, no reflections, no highlights, no directional shading. Preserve all existing dark mullions/window divisions and outlines, metal frames, sizes and locations. Preserve all other atlas pixels and the exact full canvas layout. No other edits or new details. Output same square atlas.",
+      "input": "maps/haidar_hull_reconstructed_v1.png",
+      "output": "maps/haidar_hull_glazing_v1.png",
+      "input_sha256": "46ceb34ce1ec42d815400348df5fd60e6074cdbb08584c3a0a414a3275ae1f0f",
+      "output_sha256": "0d06326890a9fb2070cfd48771e05a70c9aad403ef2e5407934e8ba7da5814a0"
+    }
+  ]
+}

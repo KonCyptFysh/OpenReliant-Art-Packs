@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "part": "Han_Body",
+      "vertices": 143,
+      "faces": 274,
+      "visible_faces": 270
+    },
+    {
+      "part": "Han_Right_Wing",
+      "vertices": 33,
+      "faces": 62,
+      "visible_faces": 62
+    },
+    {
+      "part": "Han_Left_Wing_Tip",
+      "vertices": 10,
+      "faces": 16,
+      "visible_faces": 16
+    },
+    {
+      "part": "Han_Left_Wing",
+      "vertices": 33,
+      "faces": 62,
+      "visible_faces": 62
+    },
+    {
+      "part": "Han_Cockpit",
+      "vertices": 32,
+      "faces": 48,
+      "visible_faces": 44
+    },
+    {
+      "part": "Han_Right_Wing_Tip",
+      "vertices": 10,
+      "faces": 16,
+      "visible_faces": 16
+    }
+  ],
+  "source_sha256": "0438be94665f8ca01189a4ffee9651b9dbb8f1875dc9a11b07b7f02668c1a761",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ]
+  ],
+  "geometry_signature": "22ea1d62ef2024449cec25956ece32447c5c10a60a23c5496fee1a07ad6e01be"
+}

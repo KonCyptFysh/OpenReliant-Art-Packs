@@ -1,0 +1,14 @@
+[
+  {
+    "file": "Chin_Han.SHP",
+    "exit_code": 0,
+    "output": "ok: 6 parts, 826 vertices, 1349 faces\nbounds: 6 oriented\nwritten again: the same bytes\n",
+    "sha256": "a65caa2e1ed3f710eaa9b0c6752e0aac862ea74b5b4619c6dd2d5c5d42d086d7"
+  },
+  {
+    "file": "mission975.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "d5ece271db4bdd7de73edb53a39099b8938063668d384e27228e8d9e1606e27e"
+  }
+]

@@ -1,0 +1,398 @@
+{
+  "scope": "Independent bilinear sampling of the delivered repair base colour on both sides of shared geometry edges with separate UV islands",
+  "samples_per_edge": 29,
+  "edges": [
+    {
+      "faces": [
+        [
+          "Han_Body",
+          8
+        ],
+        [
+          "Han_Body",
+          160
+        ]
+      ],
+      "max_channel_difference": 0.06076404287300735,
+      "mean_difference": 0.019126214788065952,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          11
+        ],
+        [
+          "Han_Body",
+          161
+        ]
+      ],
+      "max_channel_difference": 0.053777494368964784,
+      "mean_difference": 0.015817777401257338,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          175
+        ],
+        [
+          "Han_Body",
+          183
+        ]
+      ],
+      "max_channel_difference": 0.1231734260110327,
+      "mean_difference": 0.02131894298499399,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          176
+        ],
+        [
+          "Han_Body",
+          186
+        ]
+      ],
+      "max_channel_difference": 0.06123860677083681,
+      "mean_difference": 0.016690125020689093,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          257
+        ],
+        [
+          "Han_Cockpit",
+          36
+        ]
+      ],
+      "max_channel_difference": 0.030286247702205768,
+      "mean_difference": 0.008920900968595226,
+      "crosses_native_parts": true
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          262
+        ],
+        [
+          "Han_Body",
+          267
+        ]
+      ],
+      "max_channel_difference": 0.1273754023024627,
+      "mean_difference": 0.013685717490499561,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          263
+        ],
+        [
+          "Han_Cockpit",
+          22
+        ]
+      ],
+      "max_channel_difference": 0.020131132125853865,
+      "mean_difference": 0.004345475827600792,
+      "crosses_native_parts": true
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          265
+        ],
+        [
+          "Han_Cockpit",
+          25
+        ]
+      ],
+      "max_channel_difference": 0.02194690180759591,
+      "mean_difference": 0.0038864491729438673,
+      "crosses_native_parts": true
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          265
+        ],
+        [
+          "Han_Body",
+          270
+        ]
+      ],
+      "max_channel_difference": 0.06112431723019322,
+      "mean_difference": 0.011736078412468895,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          266
+        ],
+        [
+          "Han_Body",
+          269
+        ]
+      ],
+      "max_channel_difference": 0.16848495212595999,
+      "mean_difference": 0.02188646743075129,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          268
+        ],
+        [
+          "Han_Cockpit",
+          21
+        ]
+      ],
+      "max_channel_difference": 0.028987955729166515,
+      "mean_difference": 0.0058270615179082065,
+      "crosses_native_parts": true
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          271
+        ],
+        [
+          "Han_Cockpit",
+          35
+        ]
+      ],
+      "max_channel_difference": 0.01956468290441525,
+      "mean_difference": 0.006077776974430169,
+      "crosses_native_parts": true
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          271
+        ],
+        [
+          "Han_Body",
+          272
+        ]
+      ],
+      "max_channel_difference": 0.08995220468558474,
+      "mean_difference": 0.011022574487257415,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Body",
+          272
+        ],
+        [
+          "Han_Cockpit",
+          18
+        ]
+      ],
+      "max_channel_difference": 0.017204781326592963,
+      "mean_difference": 0.0048300039529100575,
+      "crosses_native_parts": true
+    },
+    {
+      "faces": [
+        [
+          "Han_Cockpit",
+          0
+        ],
+        [
+          "Han_Cockpit",
+          1
+        ]
+      ],
+      "max_channel_difference": 0.04165127052217571,
+      "mean_difference": 0.014162359223564147,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Cockpit",
+          1
+        ],
+        [
+          "Han_Cockpit",
+          29
+        ]
+      ],
+      "max_channel_difference": 0.044007534849874075,
+      "mean_difference": 0.013339326321160477,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Cockpit",
+          2
+        ],
+        [
+          "Han_Cockpit",
+          31
+        ]
+      ],
+      "max_channel_difference": 0.06259895833333701,
+      "mean_difference": 0.013593377995526519,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Cockpit",
+          15
+        ],
+        [
+          "Han_Cockpit",
+          30
+        ]
+      ],
+      "max_channel_difference": 0.07997702675589624,
+      "mean_difference": 0.014673453287560707,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Cockpit",
+          16
+        ],
+        [
+          "Han_Cockpit",
+          28
+        ]
+      ],
+      "max_channel_difference": 0.05665602635823497,
+      "mean_difference": 0.016310595715615106,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Cockpit",
+          16
+        ],
+        [
+          "Han_Cockpit",
+          17
+        ]
+      ],
+      "max_channel_difference": 0.07496922347982632,
+      "mean_difference": 0.024936786743980185,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Cockpit",
+          18
+        ],
+        [
+          "Han_Cockpit",
+          34
+        ]
+      ],
+      "max_channel_difference": 0.08048682445652344,
+      "mean_difference": 0.013881654691963596,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Cockpit",
+          21
+        ],
+        [
+          "Han_Cockpit",
+          36
+        ]
+      ],
+      "max_channel_difference": 0.09678013548832731,
+      "mean_difference": 0.014880468957208291,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Cockpit",
+          22
+        ],
+        [
+          "Han_Cockpit",
+          37
+        ]
+      ],
+      "max_channel_difference": 0.0896940678615269,
+      "mean_difference": 0.015942630930808565,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Cockpit",
+          25
+        ],
+        [
+          "Han_Cockpit",
+          35
+        ]
+      ],
+      "max_channel_difference": 0.0710989768832122,
+      "mean_difference": 0.015149672939270322,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Cockpit",
+          27
+        ],
+        [
+          "Han_Cockpit",
+          28
+        ]
+      ],
+      "max_channel_difference": 0.03842743278952343,
+      "mean_difference": 0.012284141390931392,
+      "crosses_native_parts": false
+    },
+    {
+      "faces": [
+        [
+          "Han_Cockpit",
+          29
+        ],
+        [
+          "Han_Cockpit",
+          30
+        ]
+      ],
+      "max_channel_difference": 0.04664287492339325,
+      "mean_difference": 0.011717343371434505,
+      "crosses_native_parts": false
+    }
+  ],
+  "max_difference": 0.16848495212595999,
+  "mean_difference": 0.013309360692284446
+}

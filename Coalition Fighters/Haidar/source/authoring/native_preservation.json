@@ -1,0 +1,602 @@
+{
+  "passed": true,
+  "source_sha256": "0438be94665f8ca01189a4ffee9651b9dbb8f1875dc9a11b07b7f02668c1a761",
+  "output_sha256": "b69cc95b29a0f845660acf16cca215d295d4c40bb9e2d53353b9e8bf6fa52596",
+  "uv_edits": [],
+  "continuation_corrections": [
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 8,
+      "prior": 7,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 9,
+      "prior": 6,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 10,
+      "prior": 5,
+      "remaining": 3
+    },
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 11,
+      "prior": 4,
+      "remaining": 2
+    },
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 12,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 13,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 16,
+      "prior": 5,
+      "remaining": 2
+    },
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 17,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 18,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 235,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 236,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 243,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "face": 244,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 2,
+      "prior": 5,
+      "remaining": 2
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 3,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 4,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 40,
+      "prior": 4,
+      "remaining": 3
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 41,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 42,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 43,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 60,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 61,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 151,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 152,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 159,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "face": 160,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 2,
+      "face": 1,
+      "prior": 5,
+      "remaining": 2
+    },
+    {
+      "part": "Han Body",
+      "lod": 2,
+      "face": 2,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 2,
+      "face": 3,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 2,
+      "face": 109,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 2,
+      "face": 110,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 3,
+      "face": 71,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 3,
+      "face": 72,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 4,
+      "face": 43,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Han Body",
+      "lod": 4,
+      "face": 44,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Han Body",
+      "lod": 4,
+      "face": 56,
+      "prior": 1,
+      "remaining": 0
+    }
+  ],
+  "detail_meshes": [
+    {
+      "part": "Han Body",
+      "lod": 0,
+      "faces": 274,
+      "groups_before": 102,
+      "groups_after": 107,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Body",
+      "lod": 1,
+      "faces": 190,
+      "groups_before": 90,
+      "groups_after": 95,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Body",
+      "lod": 2,
+      "faces": 132,
+      "groups_before": 77,
+      "groups_after": 79,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Body",
+      "lod": 3,
+      "faces": 91,
+      "groups_before": 60,
+      "groups_after": 61,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Body",
+      "lod": 4,
+      "faces": 60,
+      "groups_before": 42,
+      "groups_after": 44,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Body",
+      "lod": 5,
+      "faces": 40,
+      "groups_before": 30,
+      "groups_after": 30,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Body",
+      "lod": 6,
+      "faces": 27,
+      "groups_before": 19,
+      "groups_after": 19,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Body",
+      "lod": 7,
+      "faces": 17,
+      "groups_before": 14,
+      "groups_after": 14,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Body",
+      "lod": 8,
+      "faces": 11,
+      "groups_before": 9,
+      "groups_after": 9,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing",
+      "lod": 0,
+      "faces": 62,
+      "groups_before": 25,
+      "groups_after": 25,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing",
+      "lod": 1,
+      "faces": 41,
+      "groups_before": 22,
+      "groups_after": 22,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing",
+      "lod": 2,
+      "faces": 28,
+      "groups_before": 19,
+      "groups_after": 19,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing",
+      "lod": 3,
+      "faces": 15,
+      "groups_before": 9,
+      "groups_after": 9,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing",
+      "lod": 4,
+      "faces": 6,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing",
+      "lod": 5,
+      "faces": 4,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing",
+      "lod": 6,
+      "faces": 2,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing",
+      "lod": 7,
+      "faces": 1,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing Tip",
+      "lod": 0,
+      "faces": 16,
+      "groups_before": 5,
+      "groups_after": 5,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing Tip",
+      "lod": 1,
+      "faces": 8,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing Tip",
+      "lod": 2,
+      "faces": 3,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing Tip",
+      "lod": 3,
+      "faces": 2,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing Tip",
+      "lod": 4,
+      "faces": 1,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing",
+      "lod": 0,
+      "faces": 62,
+      "groups_before": 25,
+      "groups_after": 25,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing",
+      "lod": 1,
+      "faces": 41,
+      "groups_before": 22,
+      "groups_after": 22,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing",
+      "lod": 2,
+      "faces": 28,
+      "groups_before": 19,
+      "groups_after": 19,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing",
+      "lod": 3,
+      "faces": 15,
+      "groups_before": 9,
+      "groups_after": 9,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing",
+      "lod": 4,
+      "faces": 6,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing",
+      "lod": 5,
+      "faces": 4,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing",
+      "lod": 6,
+      "faces": 2,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Left Wing",
+      "lod": 7,
+      "faces": 1,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Cockpit",
+      "lod": 0,
+      "faces": 48,
+      "groups_before": 13,
+      "groups_after": 13,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Cockpit",
+      "lod": 1,
+      "faces": 32,
+      "groups_before": 13,
+      "groups_after": 13,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Cockpit",
+      "lod": 2,
+      "faces": 22,
+      "groups_before": 7,
+      "groups_after": 7,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Cockpit",
+      "lod": 3,
+      "faces": 14,
+      "groups_before": 10,
+      "groups_after": 10,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Cockpit",
+      "lod": 4,
+      "faces": 8,
+      "groups_before": 8,
+      "groups_after": 8,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Cockpit",
+      "lod": 5,
+      "faces": 4,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Cockpit",
+      "lod": 6,
+      "faces": 1,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing Tip",
+      "lod": 0,
+      "faces": 16,
+      "groups_before": 5,
+      "groups_after": 5,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing Tip",
+      "lod": 1,
+      "faces": 8,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing Tip",
+      "lod": 2,
+      "faces": 3,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing Tip",
+      "lod": 3,
+      "faces": 2,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Han Right Wing Tip",
+      "lod": 4,
+      "faces": 1,
+      "groups_before": 1,
+      "groups_after": 1,
+      "all_shared_corner_uvs_match": true
+    }
+  ],
+  "all_1349_faces_checked": true,
+  "geometry_normals_attachments_animation_collision_and_winding_byte_identical": true,
+  "allowed_changes": "Texture names, primitive continuation counts at UV seams only",
+  "changed_bytes": 414
+}

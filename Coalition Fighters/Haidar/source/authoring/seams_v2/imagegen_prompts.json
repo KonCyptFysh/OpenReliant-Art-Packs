@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Edit target: the supplied Haidar spacecraft UV atlas. Remove ALL internal divider lines, mullions, decorative pseudo-frames and reflection streaks inside its green glass areas. Merge the large green group at x1%-15%, y40%-48% into ONE uninterrupted dark green pane inside the existing outer frame. Merge the wide green side-window group at x33%-49%, y58%-62% into ONE uninterrupted dark green pane, preserving its complete outer silhouette. Keep the separate small triangular green pane just to its right separate. Merge the two green portions in the lower-right large pane x77%-84%, y74%-89% into ONE pane by deleting the horizontal internal divider. Keep the lower-right last pane x77%-84%,y88%-99% separate. All panes should have constant dark desaturated green interiors, no baked lighting, no highlights, no gradients, no textures or lines. Preserve the exact outer metal frame outlines, canvas layout, every hull panel, paint, star, vent and worn texture outside the pane interiors. Same square size. No rearrangement or new content.",
+  "input": "${HAIDAR_WORKSPACE}/maps/haidar_hull_glazing_v1.png",
+  "input_sha256": "0d06326890a9fb2070cfd48771e05a70c9aad403ef2e5407934e8ba7da5814a0",
+  "output": "${HAIDAR_WORKSPACE}/maps/seams_v2/glazing_reference_v2.png",
+  "output_sha256": "e0f720c67e0977d5a30b11ce44854c61d0fc005be6a977294045e5f67e15027b",
+  "usage": "Glazing reference with deleted internal dividers; physical flat glass material baked through original outer contours in Blender. Generated changes elsewhere on atlas not used."
+}

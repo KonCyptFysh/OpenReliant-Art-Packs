@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "scope": "Official 0.8.1 native and texture-loader checks plus user acceptance for this beta round",
+  "checked_at_utc": "2026-10-10T05:58:06.628642+00:00",
+  "engine": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
+  "native_checks": [
+    {
+      "file": "Chin_Han.SHP",
+      "exit_code": 0,
+      "output": "ok: 6 parts, 826 vertices, 1349 faces\nbounds: 6 oriented\nwritten again: the same bytes\n",
+      "sha256": "4887a23eae1f1f61291818dda121af30609b1c7839ba5c7e6181f7d1c10b9085"
+    },
+    {
+      "file": "mission975.dte",
+      "exit_code": 0,
+      "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+      "sha256": "d5ece271db4bdd7de73edb53a39099b8938063668d384e27228e8d9e1606e27e"
+    }
+  ],
+  "texture_loader": {
+    "output": "PASS orhd1_hull: base, green, red; normal and ORM inherited byte-for-byte; generated colour channels verified\nPASS orhd4_local: base, green, red; normal and ORM inherited byte-for-byte; generated colour channels verified",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "probe_source_sha256": "d1f8a83dcf634af76d28eec0eb4e06b0bde4465b355de7274fd5b1929a5ec1e9",
+    "green_and_red_generated": true,
+    "normal_and_orm_inherited_byte_identically": true
+  },
+  "duplicated_colour_textures": false,
+  "game_launched": false,
+  "runtime_visual_review": "user_accepted_artwork_1_3_for_this_round",
+  "approval_record": "approval.json"
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "materials": {
+    "hull": {
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "normal_max_unit_error": 0.009383201599121094,
+      "orm_channels_exact": true,
+      "glass_interior_colour": [
+        28,
+        43,
+        37
+      ],
+      "glass_roughness": 40,
+      "glass_interiors_flat": true
+    },
+    "repair": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "normal_max_unit_error": 0.008773565292358398,
+      "orm_channels_exact": true
+    }
+  },
+  "duplicate_colour_textures": false
+}

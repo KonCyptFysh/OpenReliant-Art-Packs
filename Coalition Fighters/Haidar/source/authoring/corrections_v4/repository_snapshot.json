@@ -1,0 +1,51 @@
+{
+  "canonical_scene": "${HAIDAR_WORKSPACE}/haidar_worn_pbr_v4.blend",
+  "canonical_sha256": "082727ae8210049316005e14db52d71ca0c41b5c04d6e139a7b0bb7c6ff165be",
+  "snapshot": "${ART_PACK_REPOSITORY}/Coalition Fighters/Haidar/source/haidar_worn_pbr_v4.blend",
+  "snapshot_sha256": "6e9d45555feda118fee85e3a7db1d5d399d461cf676b2c9ccd007ba56d35c78c",
+  "mesh_signature": "98d03adee4c8a46f6897b177274fc78c134844332b09befc69d895b32eaf3971",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "haidar_hull_basecolor_v4.png",
+      "path": "//resources/a6b38368ec4c_haidar_hull_basecolor_v4.png",
+      "sha256": "a6b38368ec4c117e1d212be8f53dcd31f26948b29e22528706d17635f4a96f8c"
+    },
+    {
+      "image": "haidar_hull_metallic_v4.png",
+      "path": "//resources/b1aea548db0b_haidar_hull_metallic_v4.png",
+      "sha256": "b1aea548db0b5cd9e8f7e9dfc0a30e46ce124ebbd71579274844a9ff4258bfe1"
+    },
+    {
+      "image": "haidar_hull_normal_v4.png",
+      "path": "//resources/db5fa82f5b92_haidar_hull_normal_v4.png",
+      "sha256": "db5fa82f5b925083689b206d45e25d8ca1b7ca8f759f5d3de7d8cc1e4b5aa775"
+    },
+    {
+      "image": "haidar_hull_roughness_v4.png",
+      "path": "//resources/20be2748f262_haidar_hull_roughness_v4.png",
+      "sha256": "20be2748f26212e9255defd3d5a8ba515beb04cedcf9362d408810afd9cf2166"
+    },
+    {
+      "image": "haidar_local_basecolor_v4.png",
+      "path": "//resources/0dd0abd602ec_haidar_local_basecolor_v4.png",
+      "sha256": "0dd0abd602ec2f7612ebb589d7594b392345c842c820e23edb4ac3ddd8504fed"
+    },
+    {
+      "image": "haidar_local_metallic_v4.png",
+      "path": "//resources/6e8d488c336b_haidar_local_metallic_v4.png",
+      "sha256": "6e8d488c336b07bcb9d70097bcc4c30ac68e13fd098a32981e21ee8c8c27de15"
+    },
+    {
+      "image": "haidar_local_normal_v4.png",
+      "path": "//resources/b897d24de242_haidar_local_normal_v4.png",
+      "sha256": "b897d24de242e2b20000aa967a93096d2b7d5ef185825e936d83ddf82d09c8c3"
+    },
+    {
+      "image": "haidar_local_roughness_v4.png",
+      "path": "//resources/3564115d9679_haidar_local_roughness_v4.png",
+      "sha256": "3564115d96794f6fb1289437c965a9a434bce1de5f28b8397efae9d6b17c250f"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "original_inputs_unchanged": true,
+  "all_51_rejected_faces_back_on_original_material": true,
+  "stored_faces": 478,
+  "unchanged_uv_faces": 467,
+  "changed_uv_faces": [
+    [
+      "Han_Body",
+      257
+    ],
+    [
+      "Han_Body",
+      262
+    ],
+    [
+      "Han_Body",
+      263
+    ],
+    [
+      "Han_Body",
+      264
+    ],
+    [
+      "Han_Body",
+      265
+    ],
+    [
+      "Han_Body",
+      266
+    ],
+    [
+      "Han_Body",
+      267
+    ],
+    [
+      "Han_Body",
+      268
+    ],
+    [
+      "Han_Body",
+      269
+    ],
+    [
+      "Han_Body",
+      272
+    ],
+    [
+      "Han_Body",
+      273
+    ]
+  ],
+  "original_layout_retained": true,
+  "shoulder_band_max_registration_error_master_pixels": 1.5909899036548047e-05,
+  "max_v_coordinate_shift_master_pixels": 0.0,
+  "non_window_map_locality": {
+    "basecolor": {
+      "maximum_byte_change_outside_window_footprint": 0,
+      "changed_pixels_percent": 2.4177908897399902
+    },
+    "normal": {
+      "maximum_byte_change_outside_window_footprint": 1,
+      "changed_pixels_percent": 1.2644946575164795
+    },
+    "roughness": {
+      "maximum_byte_change_outside_window_footprint": 0,
+      "changed_pixels_percent": 2.3972272872924805
+    },
+    "metallic": {
+      "maximum_byte_change_outside_window_footprint": 0,
+      "changed_pixels_percent": 0.16837716102600098
+    }
+  },
+  "flat_glass_pixels": 205181,
+  "glass_colour": [
+    28,
+    43,
+    37
+  ],
+  "glass_height_median": -0.8941176470588235,
+  "frame_height_samples": [
+    0.1725490196078434,
+    0.1725490196078434,
+    0.1725490196078434,
+    0.1725490196078434,
+    0.1725490196078434,
+    0.1725490196078434,
+    0.1725490196078434
+  ],
+  "max_frame_bevel_normal_angle_degrees": 28.43362045288086,
+  "native_scene_uv_max_error": 0.0,
+  "geometry_and_original_normals_preserved": true,
+  "visual_scope": "Both-side Blender authoring views; in-game review pending"
+}

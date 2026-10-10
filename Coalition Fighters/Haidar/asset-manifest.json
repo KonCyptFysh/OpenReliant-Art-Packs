@@ -1,0 +1,57 @@
+[
+  {
+    "path": "mods/111-haidar-worn-v1/Chin_Han.SHP",
+    "bytes": 142692,
+    "sha256": "4887a23eae1f1f61291818dda121af30609b1c7839ba5c7e6181f7d1c10b9085"
+  },
+  {
+    "path": "mods/111-haidar-worn-v1/license.txt",
+    "bytes": 247,
+    "sha256": "51d5bdf0548612d5053c992bf617c001ec3ac9779114bbb2823656ee6318d5e7"
+  },
+  {
+    "path": "mods/111-haidar-worn-v1/mission975.dte",
+    "bytes": 479,
+    "sha256": "d5ece271db4bdd7de73edb53a39099b8938063668d384e27228e8d9e1606e27e"
+  },
+  {
+    "path": "mods/111-haidar-worn-v1/mod.ini",
+    "bytes": 255,
+    "sha256": "7ea69d75661a5baca3dc7b7db89538a2b83d05c0641ebcb8a33c15dd1f5f061d"
+  },
+  {
+    "path": "mods/111-haidar-worn-v1/mod.png",
+    "bytes": 874875,
+    "sha256": "71a1aa545c91289854c8bdb40ac03fbec13a3fdbcfc5f3ae1858628b47e4d4dd"
+  },
+  {
+    "path": "mods/111-haidar-worn-v1/orhd1_hull.png",
+    "bytes": 20585866,
+    "sha256": "a6b38368ec4c117e1d212be8f53dcd31f26948b29e22528706d17635f4a96f8c"
+  },
+  {
+    "path": "mods/111-haidar-worn-v1/orhd1_hull_normal.png",
+    "bytes": 935449,
+    "sha256": "db5fa82f5b925083689b206d45e25d8ca1b7ca8f759f5d3de7d8cc1e4b5aa775"
+  },
+  {
+    "path": "mods/111-haidar-worn-v1/orhd1_hull_orm.png",
+    "bytes": 9248739,
+    "sha256": "cb814db0acf4063e9013aa7d1420083efab32f24a4f2007785c90135c6534d1c"
+  },
+  {
+    "path": "mods/111-haidar-worn-v1/orhd4_local.png",
+    "bytes": 7528711,
+    "sha256": "0dd0abd602ec2f7612ebb589d7594b392345c842c820e23edb4ac3ddd8504fed"
+  },
+  {
+    "path": "mods/111-haidar-worn-v1/orhd4_local_normal.png",
+    "bytes": 256082,
+    "sha256": "b897d24de242e2b20000aa967a93096d2b7d5ef185825e936d83ddf82d09c8c3"
+  },
+  {
+    "path": "mods/111-haidar-worn-v1/orhd4_local_orm.png",
+    "bytes": 1238647,
+    "sha256": "e8a47c14aeba9786c1c60ab1891d4bbfe84a0ed102e0b4e579dfa5e53d83cf45"
+  }
+]

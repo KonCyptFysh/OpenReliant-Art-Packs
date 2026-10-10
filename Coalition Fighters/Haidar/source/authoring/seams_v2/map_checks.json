@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "materials": {
+    "hull": {
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "normal_max_unit_error": 0.0073699951171875,
+      "orm_channels_exact": true,
+      "glass_interior_colour": [
+        28,
+        43,
+        37
+      ],
+      "glass_roughness": 40,
+      "glass_edge_max_degrees": 0.31775182485580444,
+      "glass_and_gasket_normals_flat": true,
+      "non_glass_max_channel_change": {
+        "basecolor": 0,
+        "normal": 1,
+        "roughness": 0,
+        "metallic": 0
+      }
+    },
+    "repair": {
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "normal_max_unit_error": 0.00968778133392334,
+      "orm_channels_exact": true
+    }
+  },
+  "duplicate_colour_textures": false
+}

@@ -1,0 +1,44 @@
+{
+  "checked_at_utc": "2026-10-10T03:30:03.278795+00:00",
+  "scope": "Blender authoring preview; not an in-game capture",
+  "observations": [
+    "Both sides preserve the same outer window shapes and uninterrupted interior glazing.",
+    "Specular highlights on panes are smooth at grazing angles; normal maps are neutral across panes and gaskets.",
+    "Nose and shoulder lines continue over facet and part joins.",
+    "New worn-metal scale fits the surrounding hull; original shoulder louvres are retained."
+  ],
+  "files": [
+    {
+      "path": "${HAIDAR_WORKSPACE}/review/seams_v2/material_front.png",
+      "sha256": "2e5e8bb19dad203b4b48c2612928cd4b6b44c1dfc859d9cd05db8b9abf7824d7"
+    },
+    {
+      "path": "${HAIDAR_WORKSPACE}/review/seams_v2/material_opposite.png",
+      "sha256": "f5c1ba34d37fd0149e10fc83dbde96dcafbee78fbe2f9399c465944a4e002a8d"
+    },
+    {
+      "path": "${HAIDAR_WORKSPACE}/review/seams_v2/material_belly.png",
+      "sha256": "8c5e99ec8529fbed03cffaf8ab1e163d584f75054fae5666fd3170f3644b13d9"
+    },
+    {
+      "path": "${HAIDAR_WORKSPACE}/review/seams_v2/material_rear.png",
+      "sha256": "e0a053259232f987d714f4fd173adcbd3237c3513154ab45980d8f2c76082f2f"
+    },
+    {
+      "path": "${HAIDAR_WORKSPACE}/review/seams_v2/canopy_right.png",
+      "sha256": "83dab8daed0738911fbf8c7898427cd4eabdff01748d7ee2a6efaf01ca97e41a"
+    },
+    {
+      "path": "${HAIDAR_WORKSPACE}/review/seams_v2/canopy_left.png",
+      "sha256": "0067ec66cbff6f492ab977441960dc802e2d62f7fd3138adf691c447a5354fd5"
+    },
+    {
+      "path": "${HAIDAR_WORKSPACE}/review/seams_v2/canopy_roof.png",
+      "sha256": "e3a89dc4192d9bdb9790df857728135a47bc7772a5d76e1ebb4d4f55bfd45735"
+    },
+    {
+      "path": "${HAIDAR_WORKSPACE}/review/seams_v2/canopy_grazing.png",
+      "sha256": "11795fb668da77fe16dbe0986c74e857975f5e32b9dc9bb8ba7ba9e42f960aa1"
+    }
+  ]
+}

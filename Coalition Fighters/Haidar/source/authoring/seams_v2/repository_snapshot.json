@@ -1,0 +1,51 @@
+{
+  "canonical_scene": "${HAIDAR_WORKSPACE}/haidar_worn_pbr_v2.blend",
+  "canonical_sha256": "ece8213a52a8ba858c59c6df1798f190fc59a884b0115190c24ba8c8fadacd48",
+  "snapshot": "${ART_PACK_REPOSITORY}/Coalition Fighters/Haidar/source/haidar_worn_pbr_v2.blend",
+  "snapshot_sha256": "be444646377bf9992c9aee952c3817099cc59b8053233afd8102378608db99ac",
+  "mesh_signature": "52c0a787e0dd5c8331dfa3a0321341ffd20b36cdb7c9a003b5eadd1dc2cbbfe8",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "haidar_hull_basecolor_v2.png",
+      "path": "//resources/1b56de19436b_haidar_hull_basecolor_v2.png",
+      "sha256": "1b56de19436bdfeb0129b9fee2d0532d2c6a983a4950807198a78658f7f4e553"
+    },
+    {
+      "image": "haidar_hull_metallic_v2.png",
+      "path": "//resources/47d29ddc1b38_haidar_hull_metallic_v2.png",
+      "sha256": "47d29ddc1b38b14d06437dd83101f5a1b953283343e09f8b50f5e57ddf01ff6e"
+    },
+    {
+      "image": "haidar_hull_normal_v2.png",
+      "path": "//resources/2799966e386d_haidar_hull_normal_v2.png",
+      "sha256": "2799966e386dd98ec9150bfc25328bf70a64501ec0f079f400e914dbeb501aec"
+    },
+    {
+      "image": "haidar_hull_roughness_v2.png",
+      "path": "//resources/d46bf285d96f_haidar_hull_roughness_v2.png",
+      "sha256": "d46bf285d96fac51684bc489ba298ac9c6517d551c0332b6a54fc6483c96002a"
+    },
+    {
+      "image": "haidar_repair_basecolor_v2.png",
+      "path": "//resources/8e21abdea6c2_haidar_repair_basecolor_v2.png",
+      "sha256": "8e21abdea6c232119ae3b9630a4f666b77fcb3f1bd88c14d892dc1577f1437ec"
+    },
+    {
+      "image": "haidar_repair_metallic_v2.png",
+      "path": "//resources/5410636065bd_haidar_repair_metallic_v2.png",
+      "sha256": "5410636065bd62f5687a737c03bae22d6e9ecf28204e856b510c5e6d36cf6423"
+    },
+    {
+      "image": "haidar_repair_normal_v2.png",
+      "path": "//resources/6803cdbdae87_haidar_repair_normal_v2.png",
+      "sha256": "6803cdbdae876968238bca16bc16fd8d808793c22f3689cbcce98a4820b1097f"
+    },
+    {
+      "image": "haidar_repair_roughness_v2.png",
+      "path": "//resources/ee4d26a8b6b2_haidar_repair_roughness_v2.png",
+      "sha256": "ee4d26a8b6b277cf5714e048f2e2c21d2917eab5322e85dd2b8272cfcac9a4d6"
+    }
+  ]
+}

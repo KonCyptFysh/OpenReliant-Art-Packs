@@ -1,0 +1,247 @@
+{
+  "passed": true,
+  "original_inputs_and_prior_scene_unchanged": true,
+  "stored_faces": 478,
+  "unchanged_uv_faces": 433,
+  "changed_uv_faces": [
+    [
+      "Han_Body",
+      9
+    ],
+    [
+      "Han_Body",
+      10
+    ],
+    [
+      "Han_Body",
+      13
+    ],
+    [
+      "Han_Body",
+      14
+    ],
+    [
+      "Han_Body",
+      16
+    ],
+    [
+      "Han_Body",
+      17
+    ],
+    [
+      "Han_Body",
+      18
+    ],
+    [
+      "Han_Body",
+      19
+    ],
+    [
+      "Han_Body",
+      20
+    ],
+    [
+      "Han_Body",
+      21
+    ],
+    [
+      "Han_Body",
+      22
+    ],
+    [
+      "Han_Body",
+      24
+    ],
+    [
+      "Han_Body",
+      29
+    ],
+    [
+      "Han_Body",
+      30
+    ],
+    [
+      "Han_Body",
+      79
+    ],
+    [
+      "Han_Body",
+      120
+    ],
+    [
+      "Han_Body",
+      158
+    ],
+    [
+      "Han_Body",
+      163
+    ],
+    [
+      "Han_Body",
+      164
+    ],
+    [
+      "Han_Body",
+      187
+    ],
+    [
+      "Han_Body",
+      188
+    ],
+    [
+      "Han_Body",
+      207
+    ],
+    [
+      "Han_Body",
+      208
+    ],
+    [
+      "Han_Body",
+      209
+    ],
+    [
+      "Han_Body",
+      210
+    ],
+    [
+      "Han_Body",
+      236
+    ],
+    [
+      "Han_Body",
+      237
+    ],
+    [
+      "Han_Body",
+      238
+    ],
+    [
+      "Han_Body",
+      240
+    ],
+    [
+      "Han_Body",
+      244
+    ],
+    [
+      "Han_Body",
+      245
+    ],
+    [
+      "Han_Body",
+      264
+    ],
+    [
+      "Han_Body",
+      265
+    ],
+    [
+      "Han_Body",
+      272
+    ],
+    [
+      "Han_Body",
+      273
+    ],
+    [
+      "Han_Left_Wing_Tip",
+      3
+    ],
+    [
+      "Han_Left_Wing_Tip",
+      4
+    ],
+    [
+      "Han_Left_Wing_Tip",
+      5
+    ],
+    [
+      "Han_Left_Wing_Tip",
+      6
+    ],
+    [
+      "Han_Cockpit",
+      26
+    ],
+    [
+      "Han_Cockpit",
+      27
+    ],
+    [
+      "Han_Right_Wing_Tip",
+      3
+    ],
+    [
+      "Han_Right_Wing_Tip",
+      4
+    ],
+    [
+      "Han_Right_Wing_Tip",
+      5
+    ],
+    [
+      "Han_Right_Wing_Tip",
+      6
+    ]
+  ],
+  "face_local_repairs": 7,
+  "map_locality": {
+    "basecolor": {
+      "maximum_byte_change_outside_allowed_footprints": 0,
+      "changed_pixels_percent": 1.253575086593628
+    },
+    "normal": {
+      "maximum_byte_change_outside_allowed_footprints": 1,
+      "changed_pixels_percent": 0.39510130882263184
+    },
+    "roughness": {
+      "maximum_byte_change_outside_allowed_footprints": 0,
+      "changed_pixels_percent": 0.33549070358276367
+    },
+    "metallic": {
+      "maximum_byte_change_outside_allowed_footprints": 0,
+      "changed_pixels_percent": 0.17757415771484375
+    }
+  },
+  "herringbone_centre_max_byte_difference": 0,
+  "flat_glass_pixels": 230894,
+  "glass_colour": [
+    28,
+    43,
+    37
+  ],
+  "glass_height_median": -0.8941176470588235,
+  "frame_height_samples": [
+    0.1725490196078434,
+    0.1725490196078434,
+    0.1725490196078434,
+    0.1725490196078434
+  ],
+  "roof_side_alignment": [
+    {
+      "side_u": 490.5,
+      "native_z": 536.8660905538146,
+      "roof_u": 153.72510509467904,
+      "shared_vertices": [
+        28,
+        31
+      ],
+      "alignment_error_native_units": 0.0
+    },
+    {
+      "side_u": 555.0,
+      "native_z": 570.7019806355518,
+      "roof_u": 87.26023190086087,
+      "shared_vertices": [
+        28,
+        31
+      ],
+      "alignment_error_native_units": 0.0
+    }
+  ],
+  "front_and_rear_divider_colour_and_relief_removed": true,
+  "native_scene_uv_max_error": 2.9802322387695312e-08,
+  "geometry_and_original_normals_preserved": true,
+  "visual_scope": "Both-side and roof/belly Blender authoring views; in-game review pending"
+}

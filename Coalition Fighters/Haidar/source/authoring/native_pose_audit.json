@@ -1,0 +1,14 @@
+{
+  "native_file": "Chin_Han.SHP",
+  "ship_type": 39,
+  "parts": 6,
+  "stored_lod0_triangles": 478,
+  "visible_lod0_triangles": 470,
+  "all_detail_meshes": 42,
+  "all_triangles": 1349,
+  "pose": "Each part translated by its model-space origin; original orientation sets animation axes only. No parent-origin double translation.",
+  "native_track_headers": 6,
+  "native_animation_keyframes": 0,
+  "animation_attachment_preservation": "Required byte-identical native export",
+  "evidence": "Official 0.8.1 src/formats/shp/to_gltf.zig lines 5-9 and src/engine/game/objects.zig Model setup"
+}

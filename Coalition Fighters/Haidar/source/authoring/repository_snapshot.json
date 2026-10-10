@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "${HAIDAR_WORKSPACE}/haidar_worn_pbr_v1.blend",
+  "canonical_sha256": "86f20019d4d753e2985479386be3b3dc327052ac306ae73511e093aeefed26ef",
+  "snapshot": "${ART_PACK_REPOSITORY}/Coalition Fighters/Haidar/source/haidar_worn_pbr_v1.blend",
+  "snapshot_sha256": "fc7ce3c9b74c190ddd5f043b46cd5612b2c1738562e214509dfc34c37c71f886",
+  "mesh_signature": "02523f02a06f9dce3258e8204085863cb96f23b06a0682ae46be1a018c375896",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "haidar_hull_basecolor_v1.png",
+      "path": "//resources/4e462a099918_haidar_hull_basecolor_v1.png",
+      "sha256": "4e462a0999186692f99132aa80e2b4227eb32704689ade949e7b15c3ebd3c731"
+    },
+    {
+      "image": "haidar_hull_metallic_v1.png",
+      "path": "//resources/6a37d9c51ef7_haidar_hull_metallic_v1.png",
+      "sha256": "6a37d9c51ef706264013f29a4126b849acd25d3f02fafc7d6566492c50c390a4"
+    },
+    {
+      "image": "haidar_hull_normal_v1.png",
+      "path": "//resources/eb586ba5ab3b_haidar_hull_normal_v1.png",
+      "sha256": "eb586ba5ab3bb86f63c47eb9ddd918f0c1f44ecd49106d4c449d1aa73b0807b3"
+    },
+    {
+      "image": "haidar_hull_roughness_v1.png",
+      "path": "//resources/0a40780a6e8c_haidar_hull_roughness_v1.png",
+      "sha256": "0a40780a6e8c6e18ce138e70b20c89b0fad7de22e77de8bc6d6394e57750553c"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "ship": "Haidar",
+  "variant": "worn",
+  "asset_revision": "1.2",
+  "status": "ready_for_user_review",
+  "user_approved": false,
+  "published": false,
+  "scene": {
+    "path": "haidar_worn_pbr_v3.blend",
+    "bytes": 37902295,
+    "sha256": "4273c9e3fd58d1f1b291c6bb7c622c4b05d99f17cdd217abb9f923b46f9c557c"
+  },
+  "pbr_release_gate": {
+    "status": "satisfied",
+    "engine": "Official OpenReliant 0.8.1"
+  },
+  "progress": {
+    "texture_uv": "original_artwork_restored_local_shoulder_alignment_pending_review",
+    "pbr_authoring": "new_frames_with_independent_relief_and_recessed_flat_glass_complete",
+    "pbr_tuning": "both_side_authoring_previews_checked_runtime_pending",
+    "engine_validation": "official_0_8_1_non_visual_checks_passed_runtime_pending"
+  },
+  "engine_validation": {
+    "build": "Official OpenReliant 0.8.1 linux-x86_64",
+    "date_utc": "2026-10-10T04:40:43.751708+00:00",
+    "non_visual_checks": "passed",
+    "visual_review": "pending_user_revision_1_2",
+    "game_launched": false,
+    "evidence": "${HAIDAR_WORKSPACE}/work/alignment_v3/compatibility-0.8.json"
+  },
+  "maps": {
+    "hull": {
+      "basecolor": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_hull_basecolor_v3.png",
+        "sha256": "4bbc80d07c3df3c1afb4e6c64278d0524c71f11bdc78031e2859a02f9be8cf65",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_hull_normal_v3.png",
+        "sha256": "a4eeccde34ff6f2e3ff606d79f497bf137358a4ab04e61bd2ca589ad28766b25",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_hull_roughness_v3.png",
+        "sha256": "10fdaacfebf1e737dcf1688b3b7884068009117ee01d560e9799830669d84b34",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_hull_metallic_v3.png",
+        "sha256": "8ed6a5f1eb07eb928c66e33e2758b0ab3af39245985ef215f7e358670782d452",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_hull_height_v3.png",
+        "sha256": "4fd38c8a035c77f0931e76c3d87984d15a6fbfae353d1e07a45c45998b05655e",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "glass": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_hull_glass_v3.png",
+        "sha256": "9fbf5b3fce702ba1ecad5650a504434852994369d1ac1d313bf9c924d9e66e82",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "seal": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_hull_seal_v3.png",
+        "sha256": "ba22dc231525ba311c18ab34908bb2d2a53a2b971c3e09ed055785197b168b21",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "${HAIDAR_WORKSPACE}/maps/haidar_hull_flat_graphics_v1.png",
+        "sha256": "5b36f4c429d91b50a9868a8eafec1ebdce6d69814ad3f39b8a06263c1d858b2c",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_hull_structure_v3.png",
+        "sha256": "966c347eb4f409a1cec185d5f3c1f2a24e4dfe9a8f61e82910314165ea107666",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "fins": {
+        "path": "${HAIDAR_WORKSPACE}/maps/haidar_hull_fins_v1.png",
+        "sha256": "4e3b02eb85cb44457032d0d7615ed93f4fd18ce581ae674fc7b603b2e4cc59bc",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "panels": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_hull_panels_v3.png",
+        "sha256": "06a7437a3c28569fd82024cb563c4d99cfc246a3566aa4e6efef7c31ccc17f5e",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "paint": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_hull_paint_v3.png",
+        "sha256": "65bb0f3de3a3d92431cadc999df35f7dd87790a4a7f4331f2683aa8a935fd49c",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "frame_mask": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_frame_mask_v3.png",
+        "sha256": "770b3f0e0e8ec95ca7e3b37c082983c1ecf05679c1460f2d557ce9ebc6c67fae",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "glazing_edit_mask": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_glazing_edit_mask_v3.png",
+        "sha256": "fd5bc6249ccd9de7b88a7a384c0b6da0fe887c5eddb2630122576e0d3348b123",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "frame_height": {
+        "path": "${HAIDAR_WORKSPACE}/maps/alignment_v3/haidar_frame_height_v3.png",
+        "sha256": "802e95d9187525d998dcfb6b48c23b003ac81ac48763734aa094273e5423df60",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    }
+  },
+  "runtime_exports": [
+    {
+      "path": "mods/111-haidar-worn-v1/Chin_Han.SHP",
+      "bytes": 142564,
+      "sha256": "a65caa2e1ed3f710eaa9b0c6752e0aac862ea74b5b4619c6dd2d5c5d42d086d7"
+    },
+    {
+      "path": "mods/111-haidar-worn-v1/license.txt",
+      "bytes": 247,
+      "sha256": "51d5bdf0548612d5053c992bf617c001ec3ac9779114bbb2823656ee6318d5e7"
+    },
+    {
+      "path": "mods/111-haidar-worn-v1/mission975.dte",
+      "bytes": 479,
+      "sha256": "d5ece271db4bdd7de73edb53a39099b8938063668d384e27228e8d9e1606e27e"
+    },
+    {
+      "path": "mods/111-haidar-worn-v1/mod.ini",
+      "bytes": 273,
+      "sha256": "7d6327465bcf836f1308cc363467919425a30b0c60a04904d69a331c1594af54"
+    },
+    {
+      "path": "mods/111-haidar-worn-v1/mod.png",
+      "bytes": 875252,
+      "sha256": "baa2f5d04f5a310c84559ee1ca947755ed57865515625b39631f7678f21367e5"
+    },
+    {
+      "path": "mods/111-haidar-worn-v1/orhd1_hull.png",
+      "bytes": 20437747,
+      "sha256": "4bbc80d07c3df3c1afb4e6c64278d0524c71f11bdc78031e2859a02f9be8cf65"
+    },
+    {
+      "path": "mods/111-haidar-worn-v1/orhd1_hull_normal.png",
+      "bytes": 917212,
+      "sha256": "a4eeccde34ff6f2e3ff606d79f497bf137358a4ab04e61bd2ca589ad28766b25"
+    },
+    {
+      "path": "mods/111-haidar-worn-v1/orhd1_hull_orm.png",
+      "bytes": 9248390,
+      "sha256": "a3ad2dfee849e391f026ee56a3f8a65ec504bf9757d2b2fa1819f215772e4347"
+    }
+  ],
+  "review_evidence": "${HAIDAR_WORKSPACE}/review/alignment_v3",
+  "remaining": [
+    "User in-game review",
+    "Campaign, damage, animation, ejection and distance transitions",
+    "Dedicated emissive maps"
+  ]
+}
