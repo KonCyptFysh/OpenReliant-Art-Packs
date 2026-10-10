@@ -254,14 +254,14 @@
     "category": "compatibility",
     "status": "open",
     "milestone": "0.1.0-beta.1",
-    "description": "Ordinary drop-in HUD 1.4 runs on unmodified main 220affa and requires official 0.8.1. No engine patch or executable in the mod. Native fallback and disable checks passed; final official-release/campaign/user review remains.",
+    "description": "HUD 1.10 is a flat drop-in mod on official 0.9.0, with native HD film sizing and no engine patch or shader override. Bounded layout/codec/deployment checks passed; final campaign/user/failure-fallback review remains.",
     "acceptance": [
       "Agree an upstream-supported customization path; no replacement game executable.",
       "Export one ordinary mod folder from preserved editable sources.",
       "Prove intended placement and live behavior on the official release, including disable/failure fallback.",
       "Record final platform/resolution/mission validation and exact hashes before release."
     ],
-    "handoff": "Normal launcher updated to current main by explicit user request. Public release held."
+    "handoff": "Normal engine and launchers upgraded to official 0.9.0 at explicit user request. New release held."
   },
   {
     "id": "HUD-FIX-01",
@@ -427,8 +427,8 @@
     "category": "needs-investigation",
     "status": "open",
     "milestone": "HUD working review",
-    "description": "No missing sprite pieces observed in updated fixed-tick state sweep, successful live control captures or five samples of the protected Mirage live run. The longer controller ended on lost focus, so do not claim a completed two-minute/full-gameplay pass. #894 remains open upstream. Retain original log and capture/video for any recurrence; cause not proven.",
-    "verification": "tracking/integration-0.8.json",
+    "description": "Reproduced missing portions of afterburner, countermeasure, damage, power and wing icons in the preserved state sweep at tick 220 on official 0.9.0, ship 5. Normal captures are clean. No script warnings or process failure; no proven cause. Keep #894 open; persistence during interactive flight is unverified.",
+    "verification": "tracking/integration-0.9.json",
     "upstream_posted": true,
     "acceptance": [
       "Reduce to a reproducible case with and without the mod at the same state.",
@@ -479,13 +479,17 @@
     "id": "HUD-UPSTREAM-08",
     "title": "Supported reuse of native power-ball drawing",
     "category": "upstream-feature",
-    "status": "open",
+    "status": "closed",
     "milestone": "0.8 feedback",
-    "description": "Native power-ball reuse remains unavailable inside a replacement power panel. Current-main standalone probe and simpler author note are prepared locally; no comment posted.",
-    "verification": "tracking/integration-0.8.json",
+    "description": "Official 0.9.0 adds hud.power_ball; integrated and visually checked in HUD 1.10.",
+    "verification": "tracking/integration-0.9.json",
     "submission_draft": "docs/AUTHOR_NOTES_0.8.md",
-    "upstream_posted": false,
-    "submission_status": "ready-comment-existing-509"
+    "upstream_posted": true,
+    "submission_status": "user-submitted-upstream-closed",
+    "upstream_urls": [
+      "https://github.com/OpenReliant/openreliant/issues/1000"
+    ],
+    "resolved_on": "2026-10-10"
   },
   {
     "id": "HUD-UPSTREAM-09",
@@ -545,13 +549,18 @@
   {
     "id": "HUD-PORTRAIT-HD-01",
     "title": "480x400 face films render four times larger than radio panel",
-    "status": "workaround-verified-working-candidate",
+    "status": "closed",
     "evidence": "source/compatibility-probes/main-220affa/refinement-1.7/README.md",
-    "workaround_review": "225 native HD FM8 films plus a tagged shader remap; no engine patch. Version-specific shader/Mod Effects dependency, oversized API bounds and broader QA remain.",
-    "latest_notes": "docs/AUTHOR_NOTES_1.7.md",
-    "version": "1.7",
-    "verification": "tracking/refinement-1.7.json",
-    "original_reproduction": "source/compatibility-probes/main-220affa/refinement-1.5/hd-radio-film/README.md"
+    "workaround_review": "Retired. All 257 films re-encoded at 480x400; official 0.9.0 supplies logical sizing. No shader dependency. Native bounds and lower-right speaker name verified.",
+    "latest_notes": "docs/AUTHOR_NOTES_0.9.md",
+    "version": "1.10",
+    "verification": "tracking/integration-0.9.json",
+    "original_reproduction": "source/compatibility-probes/main-220affa/refinement-1.5/hd-radio-film/README.md",
+    "upstream_urls": [
+      "https://github.com/OpenReliant/openreliant/issues/998",
+      "https://github.com/OpenReliant/openreliant/issues/999"
+    ],
+    "resolved_on": "2026-10-10"
   },
   {
     "id": "HUD-OBJECTIVES-01",
@@ -563,7 +572,9 @@
     "id": "HUD-COMMS-NUMBERING-01",
     "title": "Comms first period and option alignment",
     "status": "resolved-working-candidate",
-    "version": "1.6"
+    "version": "1.10",
+    "description": "Separate columns use the native visible-ink bounds from #1001; the old font bearing table is retired.",
+    "verification": "tracking/integration-0.9.json"
   },
   {
     "id": "HUD-COMMS-PORTRAIT-01",
@@ -579,5 +590,16 @@
     "status": "resolved-working-candidate",
     "version": "1.7",
     "verification": "tracking/refinement-1.7.json"
+  },
+  {
+    "id": "HUD-LAYOUT-UPDATE-01",
+    "title": "Change native display layout after registration",
+    "category": "upstream-feature",
+    "status": "open-upstream",
+    "description": "The author tracks editable display layouts in #1028. Retain the bounded 24-entry radio layout cache until the official API supports updates.",
+    "upstream_urls": [
+      "https://github.com/OpenReliant/openreliant/issues/1028"
+    ],
+    "verification": "tracking/integration-0.9.json"
   }
 ]

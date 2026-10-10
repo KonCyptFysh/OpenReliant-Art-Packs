@@ -1,17 +1,16 @@
-# HUD-RENDER-01: missing sprite/text pieces in selected scenes
+# HUD-RENDER-01: missing sprite portions during a state sweep
 
-Status: open local investigation; not submitted upstream and not attributed to
-an engine/cache defect yet. Main 30163d9, unmodified.
+Status: open, user-submitted as upstream #894. Reproduced on official 0.9.0
+fa1c098 with HUD 1.10, 10 October 2026. This supersedes the older main-30163d9
+status; it does not prove the cause is in the engine.
 
-The dynamic state sweep and an ordinary Mirage review scene lose pieces of
-icons, gauges and sometimes text without errors. Normal Coyote flight and the
-fixed-position dynamic-state control are clean. One-image-per-frame loading
-and leaving native gauges enabled did not remove the fault. Native comparison
-captures exist but have different layout/draw load, so they do not identify a
-cause. Approved artwork files are unchanged and pass the export audit.
+Run the preserved state-sweep global script with mission991.dte, ship 5, view 2,
+1920x1080, tick 220. The screenshot loses portions of fuel/countermeasure,
+damage, power and wing icons. Ordinary panel and portrait captures remain clean.
+All 911 PNGs are byte-identical to the prior export. No script warnings or
+process failure occurred. Persistence during interactive flight is unverified.
 
-Reproduce with source/compatibility-probes/main-30163d9/state-sweep in the
-isolated mission 991, capture around tick 220. Compare fixed-position and
-constant-ratio controls; also try Mirage (ship 5) in ordinary mission 991.
-See tracking/hud-api-expansion.json and ignored .local/api-expansion/ for logs,
-captures and exact engine/runtime pins. Full visual QA remains pending.
+Evidence: tracking/integration-0.9.json and local integration-0.9 evidence,
+state-sweep-220.png/log/json. Author reply acknowledges two earlier fixes,
+#902 and #963, but does not establish that this visible result is their cause.
+Keep original and new evidence. Do not claim resolution or submit a duplicate.

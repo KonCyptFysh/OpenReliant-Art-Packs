@@ -8,31 +8,26 @@ and 15 exact HD aliases, filling all 32 previously missing uppercase filenames.
 frame counts and archive-member checksums. Every source sequence matches its
 native counterpart; playback remains 15 frames per second in the game.
 
-`tools/build_portraits.py` uses the unmodified upstream sltool encoder. It adds
-four transparent pixels at the right and bottom in temporary files, producing
-484x404 native FM8 files with 480x400 visible content. The reserved palette
-colour at the bottom-right plus dimensions and HUD draw state identify the
-films to the paired shader. The padding is never drawn. FM8 uses a shared
-256-colour palette per film, so runtime conversion quantizes colour; it does
-not resize, sharpen or redraw the originals.
+`tools/build_portraits.py` uses the unmodified OpenReliant 0.9.0 sltool encoder.
+It encodes the source frames directly as 480x400 FM8 films. OpenReliant 0.9.0
+fits every face film to its native 120x100 logical rectangle, then applies HUD
+scaling. No shader, marker or padding is needed. The shared 256-colour film
+palette quantizes colour; the export does not resize or redraw the originals.
 
-Rebuild with Python/Pillow and sltool from tested main 220affa:
+Rebuild with Python/Pillow and the official 0.9.0 sltool:
 
     python tools/build_portraits.py --sltool /path/to/sltool --native /path/to/extracted/pilots
 
-The native folder is read only and is used to check names/counts/checksums.
-The command writes the 257 flat FM8 files and tracking/portrait-runtime-inventory.json.
-It accepts both .fm8 and .FM8 names. Use `--missing` to preserve verified existing
-films and encode only additions; changed existing sources or exports are rejected.
-Then `tools/build_mod.py` preserves these checked film exports while rebuilding
-the HUD, and exports `source/shaders/device.glsl` alongside them. A missing or
-changed film is an error, never silently discarded. Update manifests and run
-`tools/verify_working_copy.py` after a coherent export, before deployment.
+The native folder is read only and checks names, counts and checksums.
+The command writes 257 flat FM8 files and tracking/portrait-runtime-inventory.json.
+It accepts both .fm8 and .FM8 names. `--missing` preserves verified 480x400 exports
+and rebuilds old padded exports. Changed existing source or export hashes are
+rejected for films being reused. `tools/build_mod.py` includes only checked films.
+Update manifests and run `tools/verify_working_copy.py` before deployment.
 
-The shader is based on the exact upstream device.glsl saved beside its editable
-version. See source/shaders/README.md for compatibility and known limits.
-HUD 1.8 remains the published beta; the 1.9 additions are available in Git, without a new player release.
-This does not license underlying StarLancer art.
+HUD 1.10 requires OpenReliant 0.9.0. The old 1.9 shader and notices are preserved
+under source/compatibility/hud-1.9 as history, excluded from runtime exports.
+The public beta download remains HUD 1.8; this Git source/runtime snapshot is 1.10. This does not license underlying StarLancer art.
 
 ## Video restoration provenance
 

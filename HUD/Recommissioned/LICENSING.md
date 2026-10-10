@@ -1,24 +1,10 @@
 # Licensing
 
-KonCyptFysh StarLancer Art Packs
+KonCyptFysh's original copyrightable restoration contributions use
+CC-BY-NC-SA-4.0, as stated in the runtime license.txt. That grant excludes
+underlying StarLancer material and other third-party rights.
 
-Original copyrightable restoration artwork and modifications contributed by
-KonCyptFysh are licensed under Creative Commons Attribution-NonCommercial-
-ShareAlike 4.0 International (CC-BY-NC-SA-4.0).
-
-License summary: https://creativecommons.org/licenses/by-nc-sa/4.0/
-Full legal terms: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
-Attribution: KonCyptFysh — https://github.com/KonCyptFysh/OpenReliant-Art-Packs
-
-The licence applies only to rights held by KonCyptFysh in those contributions.
-Underlying StarLancer models, textures, designs and other third-party material
-are excluded from this grant; their rights remain with their respective holders.
-This notice does not grant permission on those holders' behalf. Separately
-licensed third-party contributions retain their own terms and credit notices.
-
-This is independent fan artwork for StarLancer, compatible with OpenReliant.
-This licence does not apply to either project's separate work.
-
-HUD shader: OpenReliant contributors, MPL-2.0; see portrait-shader-notice.txt
-and OpenReliant-MPL-2.0.txt. Font: Oxanium, SIL Open Font License; see
-Oxanium-OFL.txt. These separately licensed works retain their original terms.
+Oxanium retains its SIL Open Font License and notice. Historical engine source,
+test generators and the retired portrait shader retain their applicable MPL-2.0
+notices in the editable source collection. HUD 1.10 contains no runtime shader
+or engine executable. Keep each notice with the files to which it applies.

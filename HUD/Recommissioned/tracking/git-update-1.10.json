@@ -1,0 +1,17 @@
+{
+  "scope": "HUD 1.10 Git source/runtime update; no player release",
+  "authorization": "Maintainer accepted the current working update and requested publication to Git; extensive playtesting remains.",
+  "base_commit": "033d85449c5560077890ce0695e48daecb93b978",
+  "asset_manifest_sha256": "6877070e2920e7767b4c5fc7abbf2a6330d1d7e42081bf23babb295ae1bc9fd4",
+  "source_manifest_sha256": "3e210a42ee91481de61cad099c338c5e47a23d43627494341a66f121b7c533cd",
+  "authoring_source_manifest_sha256": "fa9a0de9ecb5ee2a0bf6c1e7dd92230e41dafd7a9f3b296c4f36f603860b989f",
+  "runtime_files": 1184,
+  "source_and_tool_files": 11780,
+  "editable_portrait_frames": 10909,
+  "all_runtime_pngs_preserved": 911,
+  "approved_subtargets_preserved": "393-409; Ion Cannon 406",
+  "minimum_openreliant": "0.9.0",
+  "public_beta_preserved": "hud-v0.1.0-beta.1",
+  "publication_checkout": "isolated checkout; concurrent Saracen checkout untouched",
+  "testing": "Codec and bounded captures passed; full playtesting remains. #894 and #1028 remain open."
+}

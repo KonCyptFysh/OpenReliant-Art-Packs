@@ -1,9 +1,7 @@
-"""Pack unchanged 480x400 source frames into native films with a shader size tag.
+"""Pack unchanged 480x400 source frames into native films for OpenReliant 0.9.0.
 
-Requires Pillow and the unmodified upstream sltool. Four transparent pixels of
-padding at right/bottom identify our 484x404 films without matching arbitrary
-480x400 textures. The shader shows only the original content at 120x100 logical
-pixels. Padding is generated in temporary storage, never in editable sources.
+The official engine fits every face film to 120x100 logical pixels. Encode the
+source frames directly, without the obsolete shader marker or padded border.
 """
 from pathlib import Path
 import argparse, concurrent.futures, hashlib, json, re, subprocess, tempfile, time
@@ -48,7 +46,7 @@ def main():
             source_digest.update(p.name.encode())
             source_digest.update(p.read_bytes())
         source_sha = source_digest.hexdigest()
-        if args.missing and folder.name in existing:
+        if args.missing and folder.name in existing and existing[folder.name]['encoded_size'] == [480, 400]:
             record = dict(existing[folder.name])
             target = ROOT/record['runtime']
             assert target.is_file() and hashlib.sha256(target.read_bytes()).hexdigest() == record['sha256'], target
@@ -60,21 +58,23 @@ def main():
                 for p in frames:
                     assert hashlib.sha256(p.read_bytes()).hexdigest() == source_hashes[p.relative_to(source).as_posix()], p
             record['source_sequence_sha256'] = source_sha
+            assert info(args.sltool, target) == (len(frames), 480, 400)
             return record
         old = info(args.sltool, original)
         assert old == (len(frames), 120, 100), (folder.name, old, len(frames))
+        for p in frames:
+            with Image.open(p) as im:
+                assert im.size == (480, 400), p
+        # Stage the film so an interrupted encoder cannot replace a good export.
         with tempfile.TemporaryDirectory(prefix='rc-portrait-') as temporary:
-            for p in frames:
-                with Image.open(p) as im:
-                    assert im.size == (480, 400)
-                    packed = Image.new('RGBA', (484, 404))
-                    packed.paste(im.convert('RGBA'), (0, 0))
-                    packed.save(Path(temporary)/p.name, compress_level=1)
+            encoded = Path(temporary)/original.name
+            subprocess.run([str(args.sltool), 'fm8', 'encode', str(folder/'frames'), str(encoded)], check=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+            assert info(args.sltool, encoded) == (len(frames), 480, 400)
             target = out/original.name
-            subprocess.run([str(args.sltool), 'fm8', 'encode', temporary, str(target)], check=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-        assert info(args.sltool, target) == (len(frames), 484, 404)
+            target.write_bytes(encoded.read_bytes())
         record = {'source': folder.relative_to(ROOT).as_posix(), 'runtime': target.relative_to(ROOT).as_posix(),
-                  'frames':len(frames), 'fps':15, 'content_size':[480,400], 'encoded_size':[484,404],
+                  'frames':len(frames), 'fps':15, 'content_size':[480,400], 'encoded_size':[480,400],
+                  'minimum_openreliant':'0.9.0', 'shader_required':False,
                   'logical_size':[120,100], 'bytes':target.stat().st_size,
                   'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),
                   'native_sha256':hashlib.sha256(original.read_bytes()).hexdigest(),

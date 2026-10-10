@@ -1,16 +1,120 @@
 {
-  "candidate": "HUD 1.9 portrait completion",
-  "checked_on": "2026-10-09",
   "status": "git-source-runtime-snapshot",
-  "runtime_files": 1187,
-  "hd_portrait_films": 257,
-  "source_frames": 10909,
-  "source_and_tool_files": 11779,
-  "source_manifest_sha256": "547857ad6fba07624514457dc191b401f1c1a96d01a9e81c24afb572d7816e2b",
-  "asset_manifest_sha256": "8e517f507f9c1fde063a7590a109ea87c65e8709d6734c43e709d56c1252377b",
+  "checked_on": "2026-10-10",
+  "hud_version": "1.10",
+  "engine": {
+    "kind": "official-release-binary",
+    "reported_version": "0.9.0",
+    "upstream_commit": "fa1c0982879fecef5dcfad03d35e9a04ca4cfae3",
+    "binary_sha256": "26d53f50101ba0963685a4b94326fa257d3c370370359190da46e6a6c771c5c1",
+    "release_url": "https://github.com/OpenReliant/openreliant/releases/tag/v0.9.0",
+    "changed_upstream_source_files": 0,
+    "private_engine_patch_applied": false
+  },
+  "author_patch": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/pull/7",
+  "upstream_fix": "https://github.com/OpenReliant/openreliant/pull/1027",
+  "resolved_upstream_issues": [
+    998,
+    999,
+    1000,
+    1001
+  ],
+  "runtime_files": 1184,
+  "runtime_pngs_unchanged": 911,
+  "runtime_films": 257,
+  "hd_source_frames_unchanged": 10909,
   "approved_subtargets_unchanged": 17,
-  "evidence_catalog": "tracking/portrait-completion-1.9.json",
-  "player_release": "hud-v0.1.0-beta.1 (HUD 1.8)",
-  "next_release": "held",
-  "live_hashes_match": true
+  "ion_cannon_frame": 406,
+  "source_and_tool_files": 11780,
+  "asset_manifest_sha256": "6877070e2920e7767b4c5fc7abbf2a6330d1d7e42081bf23babb295ae1bc9fd4",
+  "source_manifest_sha256": "3e210a42ee91481de61cad099c338c5e47a23d43627494341a66f121b7c533cd",
+  "live_hashes_match": true,
+  "nested_hud_sources_unchanged": 775,
+  "changes": [
+    "480x400 films without shader padding",
+    "No device.glsl override or MOD EFFECTS requirement",
+    "Native radio_speaker part right-aligned at portrait foot",
+    "Native animated power ball in authored panel",
+    "Comms number/period/label alignment via hud.measure(...).ink",
+    "Top and bottom panels anchored to screen edges on taller aspect ratios"
+  ],
+  "film_validation": "tracking/portrait-1.10-film-validation.json",
+  "deployment": "tracking/integration-0.9-deployment.json",
+  "captures": [
+    {
+      "name": "portraits-1080-no-effects",
+      "exit_code": 0,
+      "capture_sha256": "077c486d4e816f05eefaf0dd76c63b3d1a784e532bdbf3614531f0b9f452e5b3",
+      "script_sha256": "4e991fb7a4cfdc1b017d61eba248486a21aa5f2aa761302c467c789f4000e2a0",
+      "size": "1920x1080"
+    },
+    {
+      "name": "portraits-720",
+      "exit_code": 0,
+      "capture_sha256": "b48a4664eecb1194f2d06be13cb6b222bcdcea00df743cfa263061857dc3094b",
+      "script_sha256": "4e991fb7a4cfdc1b017d61eba248486a21aa5f2aa761302c467c789f4000e2a0",
+      "size": "1280x720"
+    },
+    {
+      "name": "portraits-1610",
+      "exit_code": 0,
+      "capture_sha256": "98453a23ab33aaa7f404700064416cd0fa2fe92ce5f4e2106825cfa67abbfe66",
+      "script_sha256": "4e991fb7a4cfdc1b017d61eba248486a21aa5f2aa761302c467c789f4000e2a0",
+      "size": "1920x1200"
+    },
+    {
+      "name": "comms-1080",
+      "exit_code": 0,
+      "capture_sha256": "3f9d4bb254fee1fd017e64e499782a2f7dec37e1aa79e8596e73af9f28d85ca7",
+      "script_sha256": "4e991fb7a4cfdc1b017d61eba248486a21aa5f2aa761302c467c789f4000e2a0",
+      "size": "1920x1080"
+    },
+    {
+      "name": "panels-1080",
+      "exit_code": 0,
+      "capture_sha256": "8d3930be10df4c535d146e6044ac9492d7732a83e9a55da956f23da812ca9d7a",
+      "script_sha256": "4e991fb7a4cfdc1b017d61eba248486a21aa5f2aa761302c467c789f4000e2a0",
+      "size": "1920x1080"
+    },
+    {
+      "name": "state-sweep-220",
+      "exit_code": 0,
+      "capture_sha256": "622e2157c944c07ed22896f1a1479ad381cbe207152ffe67d9f1e3cfa1576b48",
+      "script_sha256": "4e991fb7a4cfdc1b017d61eba248486a21aa5f2aa761302c467c789f4000e2a0",
+      "size": "1920x1080"
+    }
+  ],
+  "limitations": [
+    "Synthetic state sweep still shows missing portions of icons on 0.9.0; #894 remains open. Fixed-tick captures do not prove persistence or recovery during interactive flight.",
+    "Dynamic layout updates remain #1028. The existing cache supports up to 24 unique window/UI-scale layouts in one session.",
+    "Full campaigns, localization, interruption combinations, prolonged combat remain pending; the maintainer accepted this working update for Git publication.",
+    "17 large-schematic art jobs and fuel-pod frame 410 remain unfinished. Ion Cannon is approved frame 406.",
+    "Instant-action t_grendel ammunition report remains deferred at user request."
+  ],
+  "evidence_directory": ".local/integration-0.9",
+  "public_source_revision": "HUD 1.10 (this Git snapshot)",
+  "public_download": "HUD 1.8 / hud-v0.1.0-beta.1 unchanged",
+  "public_release_changed": false,
+  "candidate": "HUD 1.10 / official OpenReliant 0.9.0",
+  "normal_installation_smoke": {
+    "status": "passed",
+    "launcher": "launch-openreliant.sh",
+    "engine_version": "0.9.0",
+    "hud_version": "1.10",
+    "mod_count": 23,
+    "exit_code": 0,
+    "capture_sha256": "3b047d417514ab65ded17bf242b4dddf40b9a890eef9c8b3b1763d84d67c8c38",
+    "scope": "Normal launcher screenshot with installed mods; no interactive control or campaign claim"
+  },
+  "final_repository_and_live_verification": {
+    "runtime_files": 1184,
+    "source_and_tool_files": 11778,
+    "approved_subtargets_unchanged": 17,
+    "runtime_manifest_sha256": "6877070e2920e7767b4c5fc7abbf2a6330d1d7e42081bf23babb295ae1bc9fd4",
+    "live_hashes_match": true,
+    "source_inventory_scope": "authoring repository before portable publication"
+  },
+  "authoring_source_manifest_sha256": "fa9a0de9ecb5ee2a0bf6c1e7dd92230e41dafd7a9f3b296c4f36f603860b989f",
+  "publication_scope": "Git source/runtime only; beta.1 release and download unchanged",
+  "maintainer_acceptance": "Accepted for Git publication; extensive playtesting remains"
 }

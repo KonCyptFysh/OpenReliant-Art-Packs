@@ -33,8 +33,6 @@ def export(root, output):
     portrait_inventory = root / 'tracking/portrait-runtime-inventory.json'
     portraits = json.loads(portrait_inventory.read_text()) if portrait_inventory.exists() else []
     expected |= {Path(item['runtime']).name for item in portraits}
-    if portraits:
-        expected.add('device.glsl')
     unexpected = {p.name for p in output.iterdir()} - expected
     if unexpected:
         raise ValueError(f'Uninventoried output files; review before removing: {sorted(unexpected)}')
@@ -89,8 +87,6 @@ def export(root, output):
             if not film.exists() or digest(film) != item['sha256']:
                 raise ValueError('Portrait export missing or changed; run build_portraits.py first: ' + str(film))
             shutil.copy2(film, stage / film.name)
-        if portraits:
-            shutil.copy2(root / 'source/shaders/device.glsl', stage / 'device.glsl')
         approved = json.loads((root / 'tracking/finished-subtargets.json').read_text())['frames']
         for item in approved:
             if digest(stage / item['runtime']) != item['runtime_sha256']:

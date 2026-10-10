@@ -1,0 +1,84 @@
+{
+  "status": "all-four-merged-in-official-0.9.0-and-locally-integrated",
+  "format": [
+    "Title",
+    "What we want",
+    "Why we want it",
+    "How to make it work",
+    "Example files etc."
+  ],
+  "engine_commit": "220affa78729a2ce7dcb49602e4f38a4a53d5dc1",
+  "prepared_workspace": "work/hud-feature-requests-2026-10-09",
+  "archives": [
+    {
+      "request": "Let radio portraits use a display size independent of their video resolution",
+      "archive": "01-portrait-sizing.zip",
+      "bytes": 3347920,
+      "sha256": "afaaa9a0d4bd7cb0c95fcc7a438f42e44af26372f3bdee5b220d596326051c79",
+      "files": 16
+    },
+    {
+      "request": "Allow independent placement and sizing of native HUD names, titles and labels",
+      "archive": "02-native-text-controls.zip",
+      "bytes": 1787295,
+      "sha256": "661718cc07583df6aac87c9b756583db1fb163767730eda1e08975c16649a640",
+      "files": 13
+    },
+    {
+      "request": "Allow scripted HUD panels to reuse the native animated power ball",
+      "archive": "03-native-power-ball.zip",
+      "bytes": 4060,
+      "sha256": "2f0a4c9f135fc5796f8a3341dd5b37ccfb65c21731a94ceaf32533da8deeceda",
+      "files": 7
+    },
+    {
+      "request": "Expose visible text bounds alongside HUD text measurements",
+      "archive": "04-text-ink-bounds.zip",
+      "bytes": 1666173,
+      "sha256": "ae7eae3d0c88d36ef54f8ec29ad8575bd18a4a1756cee05c4dfc421e56b4ec26",
+      "files": 13
+    }
+  ],
+  "validation": [
+    "ZIP CRC",
+    "all manifest hashes",
+    "copied examples byte-identical",
+    "text files contain no local home paths",
+    "replacement font matches recorded metric hash"
+  ],
+  "runtime_retested_this_pass": true,
+  "runtime_changed": true,
+  "editable_artwork_changed": false,
+  "published_beta_changed": false,
+  "separate_bug": "mission-29 t_grendel ammunition counter",
+  "separate_bug_status": "deferred at user request; not part of current portrait audit",
+  "checked_on": "2026-10-10",
+  "upstream_release": "0.9.0",
+  "upstream_release_commit": "fa1c0982879fecef5dcfad03d35e9a04ca4cfae3",
+  "upstream_fix": "https://github.com/OpenReliant/openreliant/pull/1027",
+  "author_mod_patch": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/pull/7",
+  "local_integration": "tracking/integration-0.9.json",
+  "upstream_issues": [
+    {
+      "number": 998,
+      "state": "closed",
+      "url": "https://github.com/OpenReliant/openreliant/issues/998"
+    },
+    {
+      "number": 999,
+      "state": "closed",
+      "url": "https://github.com/OpenReliant/openreliant/issues/999"
+    },
+    {
+      "number": 1000,
+      "state": "closed",
+      "url": "https://github.com/OpenReliant/openreliant/issues/1000"
+    },
+    {
+      "number": 1001,
+      "state": "closed",
+      "url": "https://github.com/OpenReliant/openreliant/issues/1001"
+    }
+  ],
+  "remaining_layout_request": "https://github.com/OpenReliant/openreliant/issues/1028"
+}
