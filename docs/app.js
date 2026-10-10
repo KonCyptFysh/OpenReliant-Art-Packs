@@ -1,7 +1,7 @@
 import {
   catalogueGroups, groupForCategory, selectLivery, resolveAsset, assetStatus,
   countAssets, requirementsFor, resolveDependencies, filterAssets, resolveLocation,
-} from './catalogue-utils.js';
+} from './catalogue-utils.js?v=c270a6a348720472';
 
 const $ = selector => document.querySelector(selector);
 const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));

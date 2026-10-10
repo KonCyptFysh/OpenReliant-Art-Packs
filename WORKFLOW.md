@@ -29,6 +29,8 @@ Keep machine-specific paths, local logs and temporary conversions in ignored `.l
 
 The public gallery identity is **KonCyptFysh / StarLancer Art Packs**. Keep OpenReliant references in compatibility information, installation instructions and credits; preserve the independent gallery header and KF icon.
 
+Run `python3 tools/build_site.py` after editing website JavaScript or CSS too. It refreshes content-based cache versions in `docs/index.html` and the helper-module import in `docs/app.js`; commit those generated references together. This prevents returning visitors from running a cached script against changed page controls. The Node checks include page startup and both navigation levels.
+
 ## Licence metadata
 
 Every artwork mod has `License=CC-BY-NC-SA-4.0` under `[Mod]` and a flat `license.txt` with the licence link, attribution and third-party exclusions. Preserve both during exports. The licence covers KonCyptFysh's original contributions; retain other contributors' notices. OpenReliant's external catalogue currently links to the mod's own licence file. Its releases use the `Version` in `mod.ini`, so a released metadata revision needs a new patch version. Update the manifests and record metadata-only verification when art bytes are unchanged.
