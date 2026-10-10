@@ -1,0 +1,22 @@
+{
+  "status": "passed_with_documented_photo_limitation",
+  "artwork_revision": "1.3",
+  "captures": [
+    {
+      "image": "source/review/gallery_v1/flight-review-before-final.png",
+      "sha256": "f05696d86b150d298acef5c4caece37c8b5436090c9109e57cdbe03dd45009ff",
+      "gallery_file": "assets/haidar/flight-review.webp",
+      "gallery_sha256": "1d60a10ed68d4e7c743e5c11e769a3a8db3ddcae835557ec057bacf767d36be0",
+      "caption": "Haidar \u2014 User in-game review before final seam and canopy refinements; 3D preview shows shipped artwork 1.3",
+      "source": "Unannotated user-supplied in-game review capture, before final revision",
+      "dimensions": [
+        791,
+        430
+      ],
+      "conversion": "WebP encoding only; framing unchanged",
+      "visually_inspected": true
+    }
+  ],
+  "coverage": "The in-game photograph predates artwork 1.3. The current native runtime is represented by the rotatable 3D preview. No automatic game launch or synthetic in-game capture was made.",
+  "approved_model_and_material_bytes_unchanged": true
+}

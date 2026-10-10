@@ -703,5 +703,74 @@
     "engine_exporter": "Official OpenReliant sltool 0.8.1",
     "native_runtime_unchanged": true,
     "asset_manifest_sha256": "831c7b9512c255030ddd1975dc177b98f798467a6c95aa80228edc6b76c96b50"
+  },
+  "haidar": {
+    "model": "Chin_Han.SHP",
+    "model_sha256": "4887a23eae1f1f61291818dda121af30609b1c7839ba5c7e6181f7d1c10b9085",
+    "preview_sha256": "de527dc1cda3c1e670f9d6107dd0370994eb8505df1ac09bb9725d3533b44a05",
+    "preview_bytes": 2232408,
+    "highest_detail_geometry": true,
+    "textures": [
+      {
+        "runtime_file": "orhd1_hull.png",
+        "sha256": "a6b38368ec4c117e1d212be8f53dcd31f26948b29e22528706d17635f4a96f8c",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orhd1_hull_normal.png",
+        "sha256": "db5fa82f5b925083689b206d45e25d8ca1b7ca8f759f5d3de7d8cc1e4b5aa775",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orhd1_hull_orm.png",
+        "sha256": "cb814db0acf4063e9013aa7d1420083efab32f24a4f2007785c90135c6534d1c",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orhd4_local.png",
+        "sha256": "0dd0abd602ec2f7612ebb589d7594b392345c842c820e23edb4ac3ddd8504fed",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orhd4_local_normal.png",
+        "sha256": "b897d24de242e2b20000aa967a93096d2b7d5ef185825e936d83ddf82d09c8c3",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orhd4_local_orm.png",
+        "sha256": "e8a47c14aeba9786c1c60ab1891d4bbfe84a0ed102e0b4e579dfa5e53d83cf45",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "limitations": "Static native rest pose with reduced 1024px material maps and browser lighting. Engine effects, animations and loadout attachments omitted. In-game photograph predates final refinements.",
+    "parts": 6,
+    "visible_triangles": 470,
+    "native_part_origins_verified": true,
+    "asset_revision": "1.3",
+    "asset_manifest_sha256": "0e2b09ef8fa1cf5a3b5053cc24443f03155404bbe05f9cd53a024a93307d698d"
   }
 }
