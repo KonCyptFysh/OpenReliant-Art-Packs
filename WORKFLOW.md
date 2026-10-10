@@ -21,6 +21,10 @@ Asset tags are namespaced, such as `coyote-v0.1.0-beta.1`. Never overwrite a pub
 
 `catalog.json` is the catalogue source. `tools/build_site.py` validates its entries and copies it into `docs/catalog.json`. GitHub Pages serves `docs/`; the preview library is pinned and hosted locally. Preview GLBs and screenshots are separate, reduced-size viewing copies and never replace source or runtime artwork. Verify the gallery on desktop and mobile, including navigation, 3D loading, download links and coming-soon states.
 
+The catalogue uses schema 2: broad groups contain detailed categories, and ship liveries contain their own previews and release metadata. Keep existing asset IDs, source folders and native mod folder names stable. Put a new asset in the planned roster with `coming-soon`; put a new paint finish under the existing asset's `liveries`. The progress bar counts an asset once. See [CATALOGUE.md](CATALOGUE.md) for the format, inventory boundaries and validation commands.
+
+For a dependent pack, add native mod-folder names to catalogue `requires` and the same combined names to `[Mod] Requires` in its packaged `mod.ini`. The build validates that match. A prerequisite must be enabled and load earlier; there is no native dependency version-range field. Planned requirements can be displayed before either pack is released, but published entries must not link to unpublished local prerequisites.
+
 Keep machine-specific paths, local logs and temporary conversions in ignored `.local/`. Do not publish game archives, credentials or the old all-fighters ZIP. The local handoff outside this repository contains the existing authoring/deployment path map.
 
 The public gallery identity is **KonCyptFysh / StarLancer Art Packs**. Keep OpenReliant references in compatibility information, installation instructions and credits; preserve the independent gallery header and KF icon.

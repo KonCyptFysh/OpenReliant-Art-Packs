@@ -7,8 +7,8 @@
   <meta name="description" content="Browse independent StarLancer artwork by KonCyptFysh. Explore previews and download individual art packs compatible with OpenReliant.">
   <title>KonCyptFysh Art Packs — The fleet, recommissioned.</title>
   <link rel="icon" href="icon.svg?v=koncyptfysh" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=hud-beta-1">
-  <script type="module" src="app.js?v=0-8-packs"></script>
+  <link rel="stylesheet" href="style.css?v=catalogue-2">
+  <script type="module" src="app.js?v=catalogue-2"></script>
 </head>
 <body>
   <a class="skip-link" href="#collection">Skip to the collection</a>
@@ -21,12 +21,31 @@
       <div class="hero-copy"><p class="eyebrow"><span class="small-line"></span> STARLANCER / ART RESTORATION</p><h1 id="hero-title">THE FLEET,<br><span>RECOMMISSIONED.</span></h1><p class="hero-description">Familiar silhouettes. A new level of detail.<br>Restored ships, worlds and interface artwork for StarLancer — ready to explore, one pack at a time.</p><a class="button primary" href="#collection">Explore the collection <span aria-hidden="true">↓</span></a><p class="hero-note">Independent artwork. Original spirit.</p></div>
       <div class="hero-visual"><div class="orbital-line orbit-one"></div><div class="orbital-line orbit-two"></div><img src="assets/hero-mirage.png" alt="Mirage - Worn Paint in-game capture" class="hero-ship hero-mirage" fetchpriority="high"><div class="hero-caption"><span class="crosshair" aria-hidden="true">+</span><div><strong>MIRAGE</strong><span>ALLIANCE FIGHTER / IN-GAME CAPTURE</span></div><button class="text-button" data-asset="mirage">Take a closer look <span aria-hidden="true">↗</span></button></div></div>
     </section>
-    <div class="status-strip"><div><strong id="available-count">—</strong><span>INDIVIDUAL PACKS AVAILABLE</span></div><div><strong id="collection-count">09</strong><span>ART COLLECTIONS</span></div><div><strong>0.8.1</strong><span>OPENRELIANT</span></div><p>More artwork is on the way.<br><span>Look for the “Coming soon” label.</span></p></div>
+    <div class="status-strip"><div><strong id="available-count">—</strong><span>ASSETS AVAILABLE</span></div><div><strong id="collection-count">—</strong><span>CATALOGUE GROUPS</span></div><div><strong id="engine-version">0.8.1</strong><span>OPENRELIANT</span></div><p>More artwork is on the way.<br><span>Look for the “Coming soon” label.</span></p></div>
+    <section class="collection-progress" aria-labelledby="progress-heading">
+      <div class="progress-title"><h2 id="progress-heading">Loading collection progress…</h2><span id="progress-percentage" aria-hidden="true">—</span></div>
+      <progress id="collection-progress" max="1" value="0" aria-labelledby="progress-heading" aria-describedby="progress-description progress-scope">Loading</progress>
+      <p id="progress-description">Available assets and packs; beta refinements and additional liveries remain ongoing.</p>
+      <p id="progress-scope" class="progress-scope">Each base asset or pack counts once. Names awaiting a model and texture audit remain listed, but do not add to the progress total.</p>
+    </section>
     <section id="collection" class="collection-section" aria-labelledby="collection-heading">
-      <div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="collection-heading">Find your next upgrade.</h2></div><p>Choose a collection. Inspect the details.<br>Download just the assets you want.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2 id="collection-heading">Find your next upgrade.</h2></div><p>Choose a group, then narrow it by type.<br>Explore the artwork and what’s coming next.</p></div>
       <div class="collection-layout">
-        <aside class="collection-sidebar"><p class="sidebar-label">BROWSE BY COLLECTION</p><nav id="category-nav" aria-label="Art collections"></nav><div class="sidebar-note"><span class="accent-dot"></span><p>A work in progress.<br><span>Beta packs have known refinements still to come.</span></p></div></aside>
-        <div class="collection-content"><div class="catalogue-toolbar"><div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a ship or art pack" aria-label="Search art packs"></div><select id="status-filter" aria-label="Filter by availability"><option value="all">All availability</option><option value="available">Available now</option><option value="coming-soon">Coming soon</option></select></div><div class="result-heading"><h3 id="category-heading">Alliance Fighters</h3><span id="result-count" aria-live="polite"></span></div><div id="asset-grid" class="asset-grid" aria-live="polite"><p class="loading-message">Loading the collection…</p></div></div>
+        <aside class="collection-sidebar"><p class="sidebar-label">BROWSE BY GROUP</p><p class="count-legend">Available / listed</p><nav id="group-nav" aria-label="Catalogue groups"></nav><div class="sidebar-note"><span class="accent-dot"></span><p>A work in progress.<br><span>Beta packs have known refinements still to come.</span></p></div></aside>
+        <div class="collection-content">
+          <div class="catalogue-toolbar">
+            <div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Find a ship, alias or art pack" aria-label="Search the catalogue" aria-describedby="search-help"><button id="clear-search" type="button" aria-label="Clear search" hidden>×</button></div>
+            <div class="filter-row">
+              <label class="filter-control"><span>Type</span><select id="type-filter"><option value="all">All types</option></select></label>
+              <label class="filter-control"><span>Faction</span><select id="faction-filter"><option value="all">All factions</option></select></label>
+              <label class="filter-control"><span>Availability</span><select id="status-filter"><option value="all">All availability</option><option value="available">Available now</option><option value="coming-soon">Coming soon</option></select></label>
+            </div>
+          </div>
+          <div class="search-options"><p id="search-help">Search by name, alias or ship class.</p><label id="search-scope" hidden><input id="search-all-groups" type="checkbox" checked> Search all groups</label></div>
+          <div class="result-heading"><h3 id="category-heading">Small Combat Craft</h3><span id="result-count" role="status" aria-live="polite" aria-atomic="true"></span></div>
+          <p id="group-description" class="group-description"></p>
+          <div id="asset-grid" class="asset-grid"><p class="loading-message">Loading the collection…</p></div>
+        </div>
       </div>
     </section>
     <section id="installation" class="installation-section" aria-labelledby="installation-heading"><div class="installation-intro"><p class="eyebrow">BACK INTO THE COCKPIT</p><h2 id="installation-heading">A new look.<br>The same game.</h2><p>You’ll need your own installed copy of StarLancer and OpenReliant 0.8.1.</p><a class="inline-link" href="https://github.com/KonCyptFysh/OpenReliant-Art-Packs/blob/main/INSTALL.md">Full installation guide <span aria-hidden="true">↗</span></a></div><ol class="install-steps"><li><span>01</span><div><h3>Pick your pack</h3><p>Download the individual ZIP for the ship or artwork you want.</p></div></li><li><span>02</span><div><h3>Add it to your game</h3><p>Close OpenReliant and back up the older mod. Put the new folder inside <code>mods</code> beside <code>resource.hog</code>; replace the old folder completely when upgrading.</p></div></li><li><span>03</span><div><h3>Restart and explore</h3><p>Enable the pack under Game Options → Mods, restart, and take a closer look.</p></div></li></ol></section>

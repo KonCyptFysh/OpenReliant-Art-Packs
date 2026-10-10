@@ -18,3 +18,86 @@
 
 /* Preserve the full title/art composition on the HUD cover at every card size. */
 .asset-card[data-asset="recommissioned-hud"] .card-media img{object-fit:contain;background:#070707}
+
+/* Expanded catalogue controls retain the original muted green and copper palette. */
+.collection-progress{max-width:1456px;margin:24px 4.5vw 0;padding:22px 24px;background:var(--panel);border:1px solid var(--line)}
+.progress-title{display:flex;align-items:baseline;justify-content:space-between;gap:20px;margin-bottom:14px}
+.progress-title h2{font-size:19px;font-weight:500;letter-spacing:-.015em;line-height:1.4}
+#progress-percentage{font:16px var(--mono);color:var(--accent);flex-shrink:0}
+.collection-progress progress{display:block;width:100%;height:10px;border:0;border-radius:0;overflow:hidden;appearance:none;background:#303a30;accent-color:var(--accent)}
+.collection-progress progress::-webkit-progress-bar{background:#303a30}
+.collection-progress progress::-webkit-progress-value{background:var(--accent)}
+.collection-progress progress::-moz-progress-bar{background:var(--accent)}
+.collection-progress p{font-size:11px;color:#b6c2b0;margin:12px 0 0;line-height:1.7}
+.collection-progress p.progress-scope{font-size:10px;color:var(--muted);margin-top:5px}
+.collection-sidebar .sidebar-label{margin-bottom:5px}
+.count-legend{font:9px var(--mono);color:var(--muted);margin:0 0 15px}
+.category-button{min-height:44px;line-height:1.5}
+.category-button small{white-space:nowrap;flex-shrink:0}
+.catalogue-toolbar{display:grid;gap:12px;margin-bottom:9px}
+.search-wrap{min-height:46px}
+#clear-search{align-self:stretch;width:44px;flex-shrink:0;border:0;background:none;color:var(--muted);font-size:24px}
+#clear-search:hover{color:var(--ink);background:var(--panel-light)}
+.filter-row{display:grid;grid-template-columns:minmax(0,1.6fr) repeat(2,minmax(0,1fr));gap:10px}
+.filter-control{display:flex;flex-direction:column;gap:5px;min-width:0}
+.filter-control>span{font:9px var(--mono);color:var(--muted);letter-spacing:.05em}
+.catalogue-toolbar .filter-control select{width:100%;min-width:0;min-height:44px;padding:10px 26px 10px 10px;text-overflow:ellipsis}
+.catalogue-toolbar select:disabled{opacity:.5;cursor:default}
+.search-options{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px 16px;margin:0 0 24px;min-height:22px;color:var(--muted);font-size:10px}
+.search-options p{margin:0}
+.search-options label{display:flex;align-items:center;gap:7px;cursor:pointer;min-height:30px;flex-shrink:0}
+.search-options input{accent-color:var(--accent);width:16px;height:16px;margin:0}
+.result-heading{margin-bottom:7px}
+.result-heading h3{line-height:1.4}
+.result-heading>span{white-space:nowrap}
+.group-description{font-size:11px;line-height:1.8;color:var(--muted);margin:0 0 22px;max-width:650px}
+.card-livery{display:block;font:9px var(--mono);color:var(--accent);margin:-3px 0 10px}
+.dependency-badge,.scope-badge{display:inline-block;font-size:9px;line-height:1.5;color:#c5d0bd;margin-top:12px;padding:3px 6px;border:1px solid #42513c}
+.scope-badge{color:var(--muted);border-color:var(--line)}
+.livery-picker{margin:0 0 20px}
+.livery-picker label{display:block;font:9px var(--mono);text-transform:uppercase;letter-spacing:.08em;color:#adbea4;margin-bottom:7px}
+.livery-picker select{width:100%;min-height:44px;background:#212c21;border:1px solid #56694c;border-radius:0;padding:10px;color:var(--ink);font-size:12px}
+.scope-note{font-size:11px;color:#b9c3b2;border-left:2px solid #6a7c5f;padding-left:12px;line-height:1.8}
+.detail-facts dd{overflow-wrap:anywhere}
+.mod-folder-fact,.ship-class-fact{grid-column:1/-1}
+.asset-details .secondary-links{gap:10px 16px;flex-wrap:wrap;justify-content:flex-start}
+.asset-details .secondary-links a{text-decoration:underline;text-underline-offset:3px}
+.asset-details .button{text-align:left;overflow-wrap:anywhere;gap:15px}
+.dependency-panel{margin:22px 0 12px;padding:15px;background:#232c21;border:1px solid #44523d;border-left:2px solid var(--accent)}
+.dependency-panel h3{font-size:13px;font-weight:500;margin:0 0 9px;color:var(--ink)}
+.dependency-panel p{font-size:10px;color:#b1bfa7;line-height:1.8;margin:0 0 12px}
+.dependency-panel ul{list-style:none;margin:0;padding:0}
+.dependency-panel li{display:flex;flex-direction:column;align-items:flex-start;gap:5px;padding:12px 0;border-top:1px solid #3d4b36}
+.dependency-panel li strong,.dependency-link{font-size:12px;font-weight:500;line-height:1.6}
+.dependency-link{color:#e1bc98;text-decoration:underline;text-underline-offset:3px}
+.dependency-link:hover{color:#ffdab8}
+.dependency-status{font:9px var(--mono);color:#b3cba4}
+.dependency-panel code{font-size:9px;overflow-wrap:anywhere;max-width:100%}
+.dependency-panel li p{margin:0}
+.dependency-panel p.dependency-note{margin:8px 0 0;font-size:9px;color:var(--muted)}
+.empty-state a{text-decoration:underline;text-underline-offset:3px}
+@media(min-width:1600px){.collection-progress{margin-left:auto;margin-right:auto}}
+@media(max-width:760px){
+  .collection-progress{margin:20px 6vw 0;padding:18px}
+  .progress-title{gap:12px}
+  .progress-title h2{font-size:16px}
+  #progress-percentage{font-size:13px}
+  .collection-progress p{font-size:10px}
+  .collection-progress p.progress-scope{font-size:9px}
+  .collection-sidebar nav{scroll-padding:3px}
+  .category-button small{display:inline;font-size:9px}
+  .category-button{white-space:normal;max-width:210px}
+  .filter-row{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 8px}
+  .filter-control:first-child{grid-column:1/-1}
+  .catalogue-toolbar .filter-control select{font-size:11px}
+  .search-options{margin-bottom:19px}
+  .group-description{font-size:10px}
+  .card-livery{font-size:8px}
+  .dependency-badge,.scope-badge{font-size:8px}
+}
+@media(max-width:440px){
+  .card-livery{font-size:7px}
+  .category-button{max-width:185px}
+  .asset-details{padding:24px 20px}
+  .dependency-panel{padding:12px}
+}
