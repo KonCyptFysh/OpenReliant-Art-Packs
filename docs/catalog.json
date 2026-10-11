@@ -1644,8 +1644,8 @@
       "name": "Galahad",
       "category": "torpedo-bombers",
       "status": "coming-soon",
-      "workStatus": "planned",
-      "description": "Galahad torpedo-bomber restoration, including its smaller two-torpedo configuration.",
+      "workStatus": "in-progress",
+      "description": "Worn grey Alliance torpedo bomber, corrected silver RAF crests, inset green glazing, refined cockpit wear and preserved native deployment parts.",
       "entryType": "ship",
       "faction": "alliance",
       "shipClass": "Torpedo Bomber",
@@ -1655,9 +1655,30 @@
           "id": "worn-paint",
           "name": "Worn Paint",
           "status": "coming-soon",
-          "engineStatus": "to-be-confirmed"
+          "assetRevision": "1.1",
+          "modFolder": "113-galahad-worn-v1",
+          "preview": "assets/galahad/material-front.webp",
+          "defaultPreview": "model",
+          "images": [
+            {
+              "src": "assets/galahad/material-front.webp",
+              "caption": "Galahad — Blender material preview of artwork 1.1; in-game photo pending"
+            }
+          ],
+          "previewSource": "Blender authoring preview; in-game photo pending",
+          "previewType": "render",
+          "previewArtworkRevision": "1.1",
+          "engine": "0.8.1",
+          "model": "models/galahad.glb",
+          "notes": [
+            "Artwork 1.1 accepted for this beta round.",
+            "The still is a Blender material preview. An in-game gallery photo is pending.",
+            "Dedicated emissives and broader campaign/platform testing remain open."
+          ],
+          "validationSummary": "Accepted for this beta round. Official 0.8.1 native, material-loader and preservation checks passed. Broader gameplay remains untested."
         }
-      ]
+      ],
+      "folder": "Torpedo Bombers/Galahad"
     },
     {
       "id": "prowler",

@@ -1,0 +1,42 @@
+{
+  "package_name": "openreliant-galahad",
+  "version": "0.1.0-beta.1",
+  "asset_revision": "1.1",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.8.1",
+  "mod_folders": [
+    "113-galahad-worn-v1"
+  ],
+  "asset_manifest_sha256": "c9352b4f120a695d8a5e314ace6d66753a47b8ba983d93b744ddf6f330d1d59d",
+  "source_manifest_sha256": "809f4790c4c0ace76d12d99eb44fbc0b683b30767206abbc5f2dcdd2b7f942f7",
+  "channel": "beta",
+  "user_approved": true,
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json",
+    "compatibility-0.8.json",
+    "tools/launch-galahad-deployed-test.sh",
+    "tools/launch-galahad-launch-test.sh",
+    "tools/launch-galahad-stowed-test.sh",
+    "tools/launch-galahad-test.sh",
+    "approval.json",
+    "gallery-validation.json",
+    "preview-validation.json"
+  ],
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-11T11:11:45.942630+00:00",
+    "asset_revision": "1.1",
+    "instruction": "Cool, happy enough with let, ship it",
+    "scope": "Current Galahad artwork accepted for this beta round and publication.",
+    "qualification": "Accepted by the user for this beta round. This does not claim exhaustive gameplay or platform testing."
+  }
+}
