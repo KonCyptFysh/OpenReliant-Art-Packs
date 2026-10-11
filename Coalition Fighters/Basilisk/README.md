@@ -6,7 +6,7 @@ User-approved artwork 1.3 for OpenReliant 0.8.1, packaged as an individual beta 
 
 Restores the worn dark-grey and red Coalition livery, original stars and markings, smooth amber glazing and structural surface detail. The nose and forward red gun housing share a smoother reflective finish with legible panel gaps. Glass reflection masks follow the original pane contours. Machinery UV repairs, the corrected nose seam and a restrained red hull light are included.
 
-The user approved this revision on 9 October 2026. Native model and mission checks, all 1,661 shared-corner/material checks, material-map validation, portable-source reopening and exact installed-file verification passed. The gallery uses actual in-game photographs taken with the approved files in official OpenReliant 0.7.0. Its optional 3D viewing copy uses reduced textures and browser lighting.
+The user approved this revision on 9 October 2026. Native model and mission checks, all 1,661 shared-corner/material checks, material-map validation, portable-source reopening and exact installed-file verification passed. The gallery now uses fresh official OpenReliant 0.8.1 captures of the current artwork, with the shared elevated three-quarter camera and consistent framing. Its optional 3D viewing copy uses reduced textures and browser lighting.
 
 Cloaking, firing, damage, ejection and distance transitions still need broader gameplay testing. Custom emissive maps are deferred. See `KNOWN_ISSUES.md` for the beta limits.
 

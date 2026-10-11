@@ -10,4 +10,4 @@ Artwork accepted by the user after the cockpit cleanup and reflection-mask revis
 
 [Gallery and 3D preview](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=torpedo-bombers&asset=galahad) · [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1)
 
-The gallery opens on the current native 3D model. Its still is explicitly labelled as a Blender material preview; a full-ship in-game photograph remains pending. Editable current source: `source/galahad_worn_pbr_v2.blend`. The first-pass source is retained.
+The gallery opens on a fresh official OpenReliant 0.8.1 photograph, with matching stowed/deployed views and the native 3D model available alongside them. Editable current source: `source/galahad_worn_pbr_v2.blend`. The first-pass source is retained.

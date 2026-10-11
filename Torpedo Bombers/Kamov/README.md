@@ -14,4 +14,4 @@ Use `tools/launch-kamov-test.sh` to cycle the bays. Standalone stowed/deployed l
 
 [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.2) · [Gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=torpedo-bombers&asset=kamov)
 
-The gallery uses actual in-game captures of both bay states. Its reduced 3D viewing copy shows the stowed model; the downloadable native model and editable Blender scene retain deployment animation.
+The gallery now uses fresh official OpenReliant 0.8.1 captures of the current artwork, with the shared elevated three-quarter camera and consistent framing. Its reduced 3D viewing copy shows the stowed model; the downloadable native model and editable Blender scene retain deployment animation.
