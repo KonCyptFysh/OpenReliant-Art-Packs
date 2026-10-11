@@ -1,0 +1,33 @@
+{
+  "profile": "ship-gallery-v1",
+  "categories": [
+    "alliance-fighters",
+    "coalition-fighters",
+    "torpedo-bombers"
+  ],
+  "engine": "Official OpenReliant 0.8.1",
+  "watch_from": [
+    1.4,
+    -1.4,
+    1.4
+  ],
+  "render_size": [
+    2560,
+    1920
+  ],
+  "output_size": [
+    1280,
+    960
+  ],
+  "azimuth_degrees": 45,
+  "elevation_degrees": 35.264389682754654,
+  "framing_fraction": 0.76,
+  "msaa": 8,
+  "seed": 1,
+  "background": "Native blue nebula and native sunlight in the quiet inspection mission",
+  "source_rule": "Fresh screenshots produced by the official engine from the current repository runtime files. Never choose covers or ship gallery photos from Pictures or user review screenshots.",
+  "image_rule": "Upright, nose facing down-right; whole silhouette with breathing room. Crop and downsample only. No mirroring, painting, compositing or substituted backgrounds.",
+  "supplemental_rule": "Animated states use the same camera direction and photo treatment; the closed/folded view is the first photo.",
+  "scope": "Published ship photos and homepage ship hero. HUD artwork and the purpose-built ordnance detail gallery retain their own presentation.",
+  "authorization": "User requested matching fresh gallery photos and persistence for future Git publications, 12 October 2026, Australia/Melbourne."
+}
