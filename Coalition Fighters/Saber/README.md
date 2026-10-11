@@ -12,4 +12,4 @@ The original artwork review used official OpenReliant 0.7.0. Format checks, deco
 
 Use `tools/launch-saber-test.sh` for the quiet single-ship inspection. See `INSTALL.md` and `source/README.md`.
 
-The gallery uses actual in-game overview and rear photographs. Its optional 3D hull preview uses reduced textures and browser lighting.
+The gallery now uses fresh official OpenReliant 0.8.1 captures of the current artwork, with the shared elevated three-quarter camera and consistent framing. Its optional 3D hull preview uses reduced textures and browser lighting.

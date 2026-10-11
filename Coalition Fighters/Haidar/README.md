@@ -10,4 +10,4 @@ One unprefixed PNG set per material: the 4K hull and a 2K local repair atlas. Op
 
 [Gallery and current 3D preview](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=haidar) · [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1)
 
-The gallery photograph is the supplied in-game review capture before the final seam and canopy changes. The 3D preview uses the shipped revision 1.3 model and maps.
+The gallery photograph is a fresh official OpenReliant 0.8.1 capture of the shipped revision 1.3, including the final seam and canopy changes. The 3D preview uses the shipped revision 1.3 model and maps.
