@@ -1643,8 +1643,8 @@
       "id": "galahad",
       "name": "Galahad",
       "category": "torpedo-bombers",
-      "status": "coming-soon",
-      "workStatus": "in-progress",
+      "status": "available",
+      "workStatus": "released",
       "description": "Worn grey Alliance torpedo bomber, corrected silver RAF crests, inset green glazing, refined cockpit wear and preserved native deployment parts.",
       "entryType": "ship",
       "faction": "alliance",
@@ -1654,7 +1654,7 @@
         {
           "id": "worn-paint",
           "name": "Worn Paint",
-          "status": "coming-soon",
+          "status": "available",
           "assetRevision": "1.1",
           "modFolder": "113-galahad-worn-v1",
           "preview": "assets/galahad/material-front.webp",
@@ -1675,7 +1675,13 @@
             "The still is a Blender material preview. An in-game gallery photo is pending.",
             "Dedicated emissives and broader campaign/platform testing remain open."
           ],
-          "validationSummary": "Accepted for this beta round. Official 0.8.1 native, material-loader and preservation checks passed. Broader gameplay remains untested."
+          "validationSummary": "Accepted for this beta round. Official 0.8.1 native, material-loader and preservation checks passed. Broader gameplay remains untested.",
+          "version": "0.1.0-beta.1",
+          "tag": "galahad-v0.1.0-beta.1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/galahad-v0.1.0-beta.1/openreliant-galahad-0.1.0-beta.1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1",
+          "checksum": "3dbe8f6f2d2308b41b926d8bfb6131d67ac17ef0ce8e91eefa244bb667ca980f",
+          "downloadBytes": 26242807
         }
       ],
       "folder": "Torpedo Bombers/Galahad"
