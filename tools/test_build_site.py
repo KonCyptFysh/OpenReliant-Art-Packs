@@ -92,6 +92,41 @@ class CatalogueChecks(unittest.TestCase):
     def validate(self, data=None):
         return site.validate(self.root, self.data if data is None else data)
 
+    def install_photo_policy(self):
+        import hashlib
+        self.worn.update(defaultPreview="image", previewType="capture", assetRevision="1.0", previewArtworkRevision="1.0")
+        policy = {"profile": "fixture", "categories": ["fighters"], "watch_from": [1.4, -1.4, 1.4],
+                  "output_size": [1280, 960], "engine": "fixture engine"}
+        record = {"asset": "coyote", "livery": "worn", "gallery_file": self.worn["preview"],
+                  "profile": "fixture", "watch_from": policy["watch_from"], "gallery_dimensions": [1280, 960],
+                  "engine": "fixture engine", "artwork_revision": "1.0",
+                  "runtime_manifest_sha256": hashlib.sha256((self.root / "packs/coyote/asset-manifest.json").read_bytes()).hexdigest(),
+                  "gallery_sha256": hashlib.sha256((self.root / "docs" / self.worn["preview"]).read_bytes()).hexdigest()}
+        self.write("tracking/gallery-standard.json", json.dumps(policy))
+        self.write("tracking/gallery-standard-captures.json", json.dumps({"captures": [record]}))
+
+    def test_ship_photo_guard_accepts_current_capture(self):
+        self.install_photo_policy()
+        site.validate_ship_photography(self.root, self.data)
+
+    def test_ship_photo_guard_rejects_replacement_without_capture_record(self):
+        self.install_photo_policy()
+        self.worn["images"][0]["src"] = "assets/user-screenshot.png"
+        with self.assertRaisesRegex(ValueError, "unrecorded ship photograph"):
+            site.validate_ship_photography(self.root, self.data)
+
+    def test_ship_photo_guard_rejects_outdated_artwork(self):
+        self.install_photo_policy()
+        self.write("packs/coyote/asset-manifest.json", '[{"updated": true}]')
+        with self.assertRaisesRegex(ValueError, "predates the current runtime"):
+            site.validate_ship_photography(self.root, self.data)
+
+    def test_ship_photo_guard_rejects_modified_photo(self):
+        self.install_photo_policy()
+        self.write("docs/" + self.worn["preview"], b"Unrecorded replacement image")
+        with self.assertRaisesRegex(ValueError, "no longer matches its capture evidence"):
+            site.validate_ship_photography(self.root, self.data)
+
     def test_build_keeps_a_planned_livery_empty_and_preserves_release_metadata(self):
         before = copy.deepcopy(self.data)
         manifest = self.root / "packs/coyote/mods/coyote-worn/mod.ini"

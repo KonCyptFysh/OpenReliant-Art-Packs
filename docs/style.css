@@ -2,8 +2,8 @@
 
 [hidden]{display:none!important}.detail-notes{padding-left:0}.detail-notes h3{font-size:11px;font-weight:500;color:#b9c6b1}.detail-notes ul{padding-left:16px}.detail-facts{gap:12px}.asset-description{font-size:12px}.coming-button{width:100%}
 
-/* Frame the supplied Mirage capture while preserving the original image file. */
-.hero-ship.hero-mirage{aspect-ratio:4/3;object-fit:cover;object-position:65% 55%}
+/* Use the same freshly captured, centred ship photograph as the gallery. */
+.hero-ship.hero-mirage{aspect-ratio:4/3;object-fit:cover;object-position:50% 50%}
 
 .gallery-controls{display:grid;grid-template-columns:44px minmax(0,1fr) 44px;align-items:center;gap:14px;padding:14px 20px;border-top:1px solid #293727}
 .gallery-controls[hidden]{display:none}

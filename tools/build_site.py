@@ -169,6 +169,49 @@ def validate(root, data):
     return data
 
 
+def validate_ship_photography(root, data):
+    """Reject stale, unrecorded or inconsistently framed ship gallery photos."""
+    policy_path = root / "tracking/gallery-standard.json"
+    if not policy_path.exists():
+        return  # Independent catalogue fixtures may have no ship photography policy.
+    policy = json.loads(policy_path.read_text())
+    evidence_path = root / "tracking/gallery-standard-captures.json"
+    require(evidence_path.is_file(), "Ship gallery capture evidence is missing")
+    evidence = json.loads(evidence_path.read_text())
+    records = evidence["captures"]
+    keys = [(r["asset"], r["livery"], r["gallery_file"]) for r in records]
+    require(len(keys) == len(set(keys)), "Duplicate ship photograph evidence")
+    captures = dict(zip(keys, records))
+    for asset in data["assets"]:
+        if asset["category"] not in policy["categories"]:
+            continue
+        for edition in asset.get("liveries", [asset]):
+            if edition["status"] != "available":
+                continue
+            label = asset["id"] + "/" + edition.get("id", "default")
+            require(edition.get("defaultPreview") == "image", f"{label}: show the standard photograph first")
+            require(edition.get("previewType") == "capture", f"{label}: a fresh engine photograph is required")
+            require(edition.get("previewArtworkRevision") == edition.get("assetRevision"),
+                    f"{label}: gallery artwork revision is stale")
+            photos = edition.get("images", [])
+            require(bool(photos), f"{label}: ship gallery photographs are missing")
+            manifest = relative_path(edition.get("folder", asset.get("folder")), label) / "asset-manifest.json"
+            manifest_hash = hashlib.sha256((root / manifest).read_bytes()).hexdigest()
+            for photo in photos:
+                record = captures.get((asset["id"], edition.get("id", "default"), photo["src"]))
+                require(record is not None, f"{label}: unrecorded ship photograph {photo['src']}")
+                require(record["profile"] == policy["profile"] and record["watch_from"] == policy["watch_from"],
+                        f"{label}: photograph uses a different camera")
+                require(record["gallery_dimensions"] == policy["output_size"],
+                        f"{label}: photograph dimensions do not match the gallery")
+                require(record["engine"] == policy["engine"], f"{label}: photograph uses a different engine baseline")
+                require(record["artwork_revision"] == edition["assetRevision"]
+                        and record["runtime_manifest_sha256"] == manifest_hash,
+                        f"{label}: photograph predates the current runtime artwork")
+                actual = hashlib.sha256((root / "docs" / photo["src"]).read_bytes()).hexdigest()
+                require(actual == record["gallery_sha256"], f"{label}: photograph no longer matches its capture evidence")
+
+
 def version_site_assets(root):
     """Give changed page code new URLs, including its module dependency."""
     docs = Path(root) / "docs"
@@ -201,6 +244,7 @@ def version_site_assets(root):
 def build(root=ROOT):
     root = Path(root)
     data = validate(root, json.loads((root / "catalog.json").read_text()))
+    validate_ship_photography(root, data)
     version_site_assets(root)
     (root / "docs/catalog.json").write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     tracked = [asset for asset in data["assets"] if asset.get("countsTowardProgress", True)]

@@ -302,7 +302,7 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "4.0",
           "modFolder": "30-coyote-worn-v4",
-          "preview": "assets/coyote.webp",
+          "preview": "assets/coyote/gallery-overview-v1.webp",
           "model": "models/coyote.glb",
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2/openreliant-coyote-0.1.0-beta.2.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2",
@@ -313,9 +313,18 @@
           ],
           "tag": "coyote-v0.1.0-beta.2",
           "downloadBytes": 114738284,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "defaultPreview": "image",
+          "previewType": "capture",
+          "previewArtworkRevision": "4.0",
+          "images": [
+            {
+              "src": "assets/coyote/gallery-overview-v1.webp",
+              "caption": "Coyote — Front three-quarter view"
+            }
+          ]
         }
       ],
       "entryType": "ship",
@@ -337,7 +346,7 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "16.1",
           "modFolder": "40-predator-worn-v14",
-          "preview": "assets/predator.webp",
+          "preview": "assets/predator/gallery-overview-v1.webp",
           "model": "models/predator.glb",
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2/openreliant-predator-0.1.0-beta.2.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2",
@@ -348,9 +357,18 @@
           ],
           "tag": "predator-v0.1.0-beta.2",
           "downloadBytes": 129821541,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "defaultPreview": "image",
+          "previewType": "capture",
+          "previewArtworkRevision": "16.1",
+          "images": [
+            {
+              "src": "assets/predator/gallery-overview-v1.webp",
+              "caption": "Predator — Front three-quarter view"
+            }
+          ]
         }
       ],
       "entryType": "ship",
@@ -372,7 +390,7 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "3.1",
           "modFolder": "50-reaper-worn-v3",
-          "preview": "assets/reaper.webp",
+          "preview": "assets/reaper/gallery-overview-v1.webp",
           "model": "models/reaper.glb",
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2/openreliant-reaper-0.1.0-beta.2.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2",
@@ -383,9 +401,18 @@
           ],
           "tag": "reaper-v0.1.0-beta.2",
           "downloadBytes": 60756289,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "defaultPreview": "image",
+          "previewType": "capture",
+          "previewArtworkRevision": "3.1",
+          "images": [
+            {
+              "src": "assets/reaper/gallery-overview-v1.webp",
+              "caption": "Reaper — Front three-quarter view"
+            }
+          ]
         }
       ],
       "entryType": "ship",
@@ -407,7 +434,7 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "2.0",
           "modFolder": "60-wolverine-worn-v1",
-          "preview": "assets/wolverine.webp",
+          "preview": "assets/wolverine/gallery-overview-v1.webp",
           "model": "models/wolverine.glb",
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2/openreliant-wolverine-0.1.0-beta.2.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2",
@@ -418,9 +445,18 @@
           ],
           "tag": "wolverine-v0.1.0-beta.2",
           "downloadBytes": 32297711,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "defaultPreview": "image",
+          "previewType": "capture",
+          "previewArtworkRevision": "2.0",
+          "images": [
+            {
+              "src": "assets/wolverine/gallery-overview-v1.webp",
+              "caption": "Wolverine — Front three-quarter view"
+            }
+          ]
         }
       ],
       "entryType": "ship",
@@ -442,7 +478,7 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "1.0",
           "modFolder": "70-tempest-worn-v1",
-          "preview": "assets/tempest.webp",
+          "preview": "assets/tempest/gallery-overview-v1.webp",
           "model": "models/tempest.glb",
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2/openreliant-tempest-0.1.0-beta.2.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2",
@@ -453,9 +489,18 @@
           ],
           "tag": "tempest-v0.1.0-beta.2",
           "downloadBytes": 32308856,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "defaultPreview": "image",
+          "previewType": "capture",
+          "previewArtworkRevision": "1.0",
+          "images": [
+            {
+              "src": "assets/tempest/gallery-overview-v1.webp",
+              "caption": "Tempest — Front three-quarter view"
+            }
+          ]
         }
       ],
       "entryType": "ship",
@@ -477,7 +522,7 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "2.0",
           "modFolder": "80-shroud-worn-v1",
-          "preview": "assets/shroud.webp",
+          "preview": "assets/shroud/gallery-overview-v1.webp",
           "model": "models/shroud.glb",
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2/openreliant-shroud-0.1.0-beta.2.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2",
@@ -488,9 +533,18 @@
           ],
           "tag": "shroud-v0.1.0-beta.2",
           "downloadBytes": 39383406,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "defaultPreview": "image",
+          "previewType": "capture",
+          "previewArtworkRevision": "2.0",
+          "images": [
+            {
+              "src": "assets/shroud/gallery-overview-v1.webp",
+              "caption": "Shroud — Front three-quarter view"
+            }
+          ]
         }
       ],
       "entryType": "ship",
@@ -512,7 +566,7 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "3.0",
           "modFolder": "90-mirage-worn-v1",
-          "preview": "assets/mirage.webp",
+          "preview": "assets/mirage/gallery-overview-v1.webp",
           "model": "models/mirage.glb",
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.2/openreliant-mirage-0.1.0-beta.2.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.2",
@@ -523,9 +577,18 @@
           ],
           "tag": "mirage-v0.1.0-beta.2",
           "downloadBytes": 30797461,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "defaultPreview": "image",
+          "previewType": "capture",
+          "previewArtworkRevision": "3.0",
+          "images": [
+            {
+              "src": "assets/mirage/gallery-overview-v1.webp",
+              "caption": "Mirage — Front three-quarter view"
+            }
+          ]
         }
       ],
       "entryType": "ship",
@@ -550,7 +613,7 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "4.0",
           "modFolder": "95-naginata-worn-v1",
-          "preview": "assets/naginata.webp",
+          "preview": "assets/naginata/gallery-overview-v1.webp",
           "model": "models/naginata.glb",
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.2/openreliant-naginata-0.1.0-beta.2.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.2",
@@ -562,9 +625,18 @@
           ],
           "tag": "naginata-v0.1.0-beta.2",
           "downloadBytes": 94758166,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "defaultPreview": "image",
+          "previewType": "capture",
+          "previewArtworkRevision": "4.0",
+          "images": [
+            {
+              "src": "assets/naginata/gallery-overview-v1.webp",
+              "caption": "Naginata — Front three-quarter view"
+            }
+          ]
         }
       ],
       "entryType": "ship",
@@ -583,7 +655,7 @@
           "id": "worn-paint",
           "name": "Worn Paint",
           "status": "available",
-          "preview": "assets/patriot.webp",
+          "preview": "assets/patriot/gallery-overview-v1.webp",
           "model": "models/patriot.glb",
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2/openreliant-patriot-0.1.0-beta.2.zip",
           "notes": [
@@ -598,9 +670,18 @@
           "checksum": "ad2bde7d0aee79852cf895731c854d121f90eb04980d9ac6c4daf212f77cfea8",
           "tag": "patriot-v0.1.0-beta.2",
           "downloadBytes": 147417133,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "defaultPreview": "image",
+          "previewType": "capture",
+          "previewArtworkRevision": "3.0",
+          "images": [
+            {
+              "src": "assets/patriot/gallery-overview-v1.webp",
+              "caption": "Patriot — Front three-quarter view"
+            }
+          ]
         }
       ],
       "entryType": "ship",
@@ -622,7 +703,7 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "7.0",
           "modFolder": "98-phoenix-worn-v1",
-          "preview": "assets/phoenix/flight-overview.webp",
+          "preview": "assets/phoenix/gallery-overview-v1.webp",
           "model": "models/phoenix.glb",
           "notes": [
             "Custom emissive maps are planned for a later update.",
@@ -630,20 +711,8 @@
           ],
           "images": [
             {
-              "src": "assets/phoenix/flight-overview.webp",
-              "caption": "Phoenix — In-game overview"
-            },
-            {
-              "src": "assets/phoenix/flight-opposite.webp",
-              "caption": "Phoenix — Opposite side"
-            },
-            {
-              "src": "assets/phoenix/flight-rear.webp",
-              "caption": "Phoenix — Rear view"
-            },
-            {
-              "src": "assets/phoenix/flight-belly.webp",
-              "caption": "Phoenix — Underside"
+              "src": "assets/phoenix/gallery-overview-v1.webp",
+              "caption": "Phoenix — Front three-quarter view"
             }
           ],
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2/openreliant-phoenix-0.1.0-beta.2.zip",
@@ -651,9 +720,12 @@
           "checksum": "8cefee26d1ef3d5d419663586570cc17d901f432ad283d8fc5250d5cb6901ef3",
           "tag": "phoenix-v0.1.0-beta.2",
           "downloadBytes": 117681692,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "defaultPreview": "image",
+          "previewType": "capture",
+          "previewArtworkRevision": "7.0"
         }
       ],
       "entryType": "ship",
@@ -675,16 +747,12 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "2.0",
           "modFolder": "99-crusader-worn-v1",
-          "preview": "assets/crusader/flight-overview.webp",
+          "preview": "assets/crusader/gallery-overview-v1.webp",
           "model": "models/crusader.glb",
           "images": [
             {
-              "src": "assets/crusader/flight-overview.webp",
-              "caption": "Crusader — In-game overview"
-            },
-            {
-              "src": "assets/crusader/flight-rear.webp",
-              "caption": "Crusader — Rear engines"
+              "src": "assets/crusader/gallery-overview-v1.webp",
+              "caption": "Crusader — Front three-quarter view"
             }
           ],
           "notes": [
@@ -697,9 +765,12 @@
           "checksum": "48ef3380a7165277f7f4cec905fc1270c36d80569f5558b3b97da633a227a9a2",
           "tag": "crusader-v0.1.0-beta.2",
           "downloadBytes": 92638778,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "defaultPreview": "image",
+          "previewType": "capture",
+          "previewArtworkRevision": "2.0"
         }
       ],
       "entryType": "ship",
@@ -721,16 +792,12 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "4.0",
           "modFolder": "100-sai-worn-v1",
-          "preview": "assets/sai/flight-overview-v4.webp",
+          "preview": "assets/sai/gallery-overview-v1.webp",
           "model": "models/sai-v4.glb",
           "images": [
             {
-              "src": "assets/sai/flight-overview-v4.webp",
-              "caption": "Sai — Revision 4.0 in-game overview"
-            },
-            {
-              "src": "assets/sai/flight-rear-v4.webp",
-              "caption": "Sai — Revision 4.0 rear view"
+              "src": "assets/sai/gallery-overview-v1.webp",
+              "caption": "Sai — Front three-quarter view"
             }
           ],
           "notes": [
@@ -745,9 +812,10 @@
           "downloadBytes": 70808411,
           "defaultPreview": "image",
           "previewArtworkRevision": "4.0",
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "previewType": "capture"
         }
       ],
       "entryType": "ship",
@@ -769,16 +837,12 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "1.1",
           "modFolder": "101-grendal-worn-v1",
-          "preview": "assets/grendal/flight-overview.webp",
+          "preview": "assets/grendal/gallery-overview-v1.webp",
           "model": "models/grendal.glb",
           "images": [
             {
-              "src": "assets/grendal/flight-overview.webp",
-              "caption": "Grendal — In-game overview"
-            },
-            {
-              "src": "assets/grendal/flight-rear.webp",
-              "caption": "Grendal — Rear view"
+              "src": "assets/grendal/gallery-overview-v1.webp",
+              "caption": "Grendal — Front three-quarter view"
             }
           ],
           "notes": [
@@ -791,9 +855,12 @@
           "checksum": "eee7fcdb2625345ec46901c1b47a2357b3a4e6b0f4513bf2f138ed34cafb596e",
           "tag": "grendal-v0.1.0-beta.2",
           "downloadBytes": 28318786,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "defaultPreview": "image",
+          "previewType": "capture",
+          "previewArtworkRevision": "1.1"
         }
       ],
       "entryType": "ship",
@@ -818,17 +885,13 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "1.0",
           "modFolder": "102-saber-worn-v1",
-          "preview": "assets/saber/flight-overview.webp",
+          "preview": "assets/saber/gallery-overview-v1.webp",
           "model": "models/saber.glb",
           "defaultPreview": "image",
           "images": [
             {
-              "src": "assets/saber/flight-overview.webp",
-              "caption": "Saber — In-game overview"
-            },
-            {
-              "src": "assets/saber/flight-rear.webp",
-              "caption": "Saber — Rear view"
+              "src": "assets/saber/gallery-overview-v1.webp",
+              "caption": "Saber — Front three-quarter view"
             }
           ],
           "notes": [
@@ -841,9 +904,11 @@
           "checksum": "48bd9acabd7d6ad8b27b4d45ca99abd05f9a46227357d835aef5661029fcb71a",
           "tag": "saber-v0.1.0-beta.2",
           "downloadBytes": 28810411,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "previewType": "capture",
+          "previewArtworkRevision": "1.0"
         }
       ],
       "entryType": "ship",
@@ -868,17 +933,13 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "1.3",
           "modFolder": "103-basilisk-worn-v1",
-          "preview": "assets/basilisk/flight-overview.webp",
+          "preview": "assets/basilisk/gallery-overview-v1.webp",
           "model": "models/basilisk.glb",
           "defaultPreview": "image",
           "images": [
             {
-              "src": "assets/basilisk/flight-overview.webp",
-              "caption": "Basilisk — In-game overview"
-            },
-            {
-              "src": "assets/basilisk/flight-rear.webp",
-              "caption": "Basilisk — Rear view"
+              "src": "assets/basilisk/gallery-overview-v1.webp",
+              "caption": "Basilisk — Front three-quarter view"
             }
           ],
           "notes": [
@@ -891,9 +952,11 @@
           "checksum": "5abaead824b097d0a211d41e630380b4b2aea8c5edc0ca3a0e047b76109b83c5",
           "tag": "basilisk-v0.1.0-beta.2",
           "downloadBytes": 26912752,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "previewType": "capture",
+          "previewArtworkRevision": "1.3"
         }
       ],
       "entryType": "ship",
@@ -915,17 +978,17 @@
           "version": "0.1.0-beta.2",
           "assetRevision": "1.0",
           "modFolder": "104-kamov-worn-v1",
-          "preview": "assets/kamov/flight-stowed.webp",
+          "preview": "assets/kamov/gallery-overview-v1.webp",
           "model": "models/kamov.glb",
           "defaultPreview": "image",
           "images": [
             {
-              "src": "assets/kamov/flight-stowed.webp",
-              "caption": "Kamov — Torpedoes stowed"
+              "src": "assets/kamov/gallery-overview-v1.webp",
+              "caption": "Kamov — Front three-quarter view"
             },
             {
-              "src": "assets/kamov/flight-deployed.webp",
-              "caption": "Kamov — Torpedoes deployed"
+              "src": "assets/kamov/gallery-deployed-v1.webp",
+              "caption": "Kamov — Deployed — matching camera"
             }
           ],
           "notes": [
@@ -938,9 +1001,11 @@
           "checksum": "77e1df3671a739a183e546058d666b55ff8252c73dea35a5194d17da7191a972",
           "tag": "kamov-v0.1.0-beta.2",
           "downloadBytes": 27677993,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "previewType": "capture",
+          "previewArtworkRevision": "1.0"
         }
       ],
       "entryType": "ship",
@@ -1234,16 +1299,16 @@
           ],
           "assetRevision": "1.1",
           "modFolder": "105-loki-worn-v1",
-          "preview": "assets/loki/flight-folded.webp",
+          "preview": "assets/loki/gallery-overview-v1.webp",
           "defaultPreview": "image",
           "images": [
             {
-              "src": "assets/loki/flight-folded.webp",
-              "caption": "Loki — Folded legs"
+              "src": "assets/loki/gallery-overview-v1.webp",
+              "caption": "Loki — Front three-quarter view"
             },
             {
-              "src": "assets/loki/flight-fighting.webp",
-              "caption": "Loki — Fighting position"
+              "src": "assets/loki/gallery-fighting-v1.webp",
+              "caption": "Loki — Fighting position — matching camera"
             }
           ],
           "version": "0.1.0-beta.2",
@@ -1252,10 +1317,12 @@
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.2",
           "checksum": "0db2dc9084a172ccddaa694da764c76b4c4be8e03d9ca092a1ae18249305fd40",
           "downloadBytes": 25779368,
-          "previewSource": "Captured in OpenReliant 0.7.0",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing.",
-          "model": "models/loki.glb"
+          "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
+          "model": "models/loki.glb",
+          "previewType": "capture",
+          "previewArtworkRevision": "1.1"
         }
       ],
       "entryType": "ship",
@@ -1276,27 +1343,15 @@
           "status": "available",
           "assetRevision": "1.0",
           "modFolder": "106-azan-worn-v1",
-          "preview": "assets/azan/flight-overview.webp",
+          "preview": "assets/azan/gallery-overview-v1.webp",
           "defaultPreview": "image",
           "images": [
             {
-              "src": "assets/azan/flight-overview.webp",
-              "caption": "Azan — In-game overview"
-            },
-            {
-              "src": "assets/azan/flight-rear.webp",
-              "caption": "Azan — Rear view"
-            },
-            {
-              "src": "assets/azan/flight-underside.webp",
-              "caption": "Azan — Underside"
-            },
-            {
-              "src": "assets/azan/flight-firing.webp",
-              "caption": "Azan — Guns firing"
+              "src": "assets/azan/gallery-overview-v1.webp",
+              "caption": "Azan — Front three-quarter view"
             }
           ],
-          "previewSource": "User in-game capture",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
           "notes": [
             "Custom emissive maps are planned for a later update.",
@@ -1310,7 +1365,9 @@
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1",
           "checksum": "44bcba00acddb6f8a104d7204433b4bfe2335c92827b92c84c2ec50d0600d80a",
           "downloadBytes": 26677406,
-          "model": "models/azan.glb"
+          "model": "models/azan.glb",
+          "previewType": "capture",
+          "previewArtworkRevision": "1.0"
         }
       ],
       "entryType": "ship",
@@ -1331,23 +1388,15 @@
           "status": "available",
           "assetRevision": "1.0",
           "modFolder": "107-cossack-worn-v1",
-          "preview": "assets/cossack/flight-overview.webp",
+          "preview": "assets/cossack/gallery-overview-v1.webp",
           "defaultPreview": "image",
           "images": [
             {
-              "src": "assets/cossack/flight-overview.webp",
-              "caption": "Cossack — In-game overview"
-            },
-            {
-              "src": "assets/cossack/flight-top.webp",
-              "caption": "Cossack — Top view"
-            },
-            {
-              "src": "assets/cossack/flight-underside.webp",
-              "caption": "Cossack — Underside"
+              "src": "assets/cossack/gallery-overview-v1.webp",
+              "caption": "Cossack — Front three-quarter view"
             }
           ],
-          "previewSource": "User in-game capture",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
           "notes": [
             "Custom emissive maps are planned for a later update.",
@@ -1361,7 +1410,9 @@
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1/openreliant-cossack-0.1.0-beta.1.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1",
           "checksum": "a599bfbb7fd11f79254b199f46e9721c7486a991bada37177fd1140e6d96b43c",
-          "downloadBytes": 26257495
+          "downloadBytes": 26257495,
+          "previewType": "capture",
+          "previewArtworkRevision": "1.0"
         }
       ],
       "entryType": "ship",
@@ -1387,31 +1438,15 @@
           "status": "available",
           "assetRevision": "1.0",
           "modFolder": "108-lagg-worn-v1",
-          "preview": "assets/lagg/flight-firing.webp",
+          "preview": "assets/lagg/gallery-overview-v1.webp",
           "defaultPreview": "image",
           "images": [
             {
-              "src": "assets/lagg/flight-firing.webp",
-              "caption": "Lagg — Guns firing"
-            },
-            {
-              "src": "assets/lagg/flight-overview.webp",
-              "caption": "Lagg — In-game overview"
-            },
-            {
-              "src": "assets/lagg/flight-top.webp",
-              "caption": "Lagg — Top view"
-            },
-            {
-              "src": "assets/lagg/flight-underside.webp",
-              "caption": "Lagg — Underside"
-            },
-            {
-              "src": "assets/lagg/flight-rear.webp",
-              "caption": "Lagg — Rear view"
+              "src": "assets/lagg/gallery-overview-v1.webp",
+              "caption": "Lagg — Front three-quarter view"
             }
           ],
-          "previewSource": "User in-game capture",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
           "notes": [
             "Custom emissive maps are planned for a later update.",
@@ -1424,7 +1459,9 @@
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/lagg-v0.1.0-beta.1/openreliant-lagg-0.1.0-beta.1.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1",
           "checksum": "c0e4d62fe837273eb58b42fe8a89703b802c8d85d09b33d04823b9ac81ea9ca1",
-          "downloadBytes": 25807007
+          "downloadBytes": 25807007,
+          "previewType": "capture",
+          "previewArtworkRevision": "1.0"
         }
       ],
       "entryType": "ship",
@@ -1445,27 +1482,15 @@
           "status": "available",
           "assetRevision": "1.0",
           "modFolder": "109-salin-worn-v1",
-          "preview": "assets/salin/flight-overview.webp",
+          "preview": "assets/salin/gallery-overview-v1.webp",
           "defaultPreview": "image",
           "images": [
             {
-              "src": "assets/salin/flight-overview.webp",
-              "caption": "Salin — In-game overview and guns firing"
-            },
-            {
-              "src": "assets/salin/flight-rear.webp",
-              "caption": "Salin — Rear view"
-            },
-            {
-              "src": "assets/salin/flight-underside.webp",
-              "caption": "Salin — Underside"
-            },
-            {
-              "src": "assets/salin/flight-side.webp",
-              "caption": "Salin — Side view"
+              "src": "assets/salin/gallery-overview-v1.webp",
+              "caption": "Salin — Front three-quarter view"
             }
           ],
-          "previewSource": "User in-game capture",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
           "notes": [
             "Custom emissive maps are planned for a later update.",
@@ -1478,7 +1503,9 @@
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1/openreliant-salin-0.1.0-beta.1.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1",
           "checksum": "0aee16395ae45dee9ee033e7515b463e2b79ab38fc87fceda960461d07953412",
-          "downloadBytes": 26437763
+          "downloadBytes": 26437763,
+          "previewType": "capture",
+          "previewArtworkRevision": "1.0"
         }
       ],
       "entryType": "ship",
@@ -1502,27 +1529,15 @@
           "status": "available",
           "assetRevision": "1.0",
           "modFolder": "110-saracen-worn-v1",
-          "preview": "assets/saracen/flight-overview.webp",
+          "preview": "assets/saracen/gallery-overview-v1.webp",
           "defaultPreview": "image",
           "images": [
             {
-              "src": "assets/saracen/flight-overview.webp",
+              "src": "assets/saracen/gallery-overview-v1.webp",
               "caption": "Saracen — Front three-quarter view"
-            },
-            {
-              "src": "assets/saracen/flight-firing.webp",
-              "caption": "Saracen — Upper view with guns firing"
-            },
-            {
-              "src": "assets/saracen/flight-underside.webp",
-              "caption": "Saracen — Underside"
-            },
-            {
-              "src": "assets/saracen/flight-rear.webp",
-              "caption": "Saracen — Rear view"
             }
           ],
-          "previewSource": "User in-game capture",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
           "notes": [
             "Custom emissive maps are planned for a later update.",
@@ -1535,7 +1550,9 @@
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1/openreliant-saracen-0.1.0-beta.1.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1",
           "checksum": "0d187fd3023596d3437035fff64209ff11ce3f9ed8c745a3d50401b98d17b49f",
-          "downloadBytes": 26761636
+          "downloadBytes": 26761636,
+          "previewType": "capture",
+          "previewArtworkRevision": "1.0"
         }
       ],
       "entryType": "ship",
@@ -1559,20 +1576,19 @@
           "status": "available",
           "assetRevision": "1.3",
           "modFolder": "111-haidar-worn-v1",
-          "preview": "assets/haidar/flight-review.webp",
+          "preview": "assets/haidar/gallery-overview-v1.webp",
           "defaultPreview": "image",
           "images": [
             {
-              "src": "assets/haidar/flight-review.webp",
-              "caption": "Haidar — User in-game review before final seam and canopy refinements; 3D preview shows shipped artwork 1.3"
+              "src": "assets/haidar/gallery-overview-v1.webp",
+              "caption": "Haidar — Front three-quarter view"
             }
           ],
-          "previewSource": "User in-game review capture before final refinements",
-          "previewArtworkRevision": "1.2",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
+          "previewArtworkRevision": "1.3",
           "engine": "0.8.1",
           "model": "models/haidar.glb",
           "notes": [
-            "In-game photo predates the final seam and canopy refinements. The 3D preview shows shipped artwork 1.3.",
             "Further refinements, dedicated emissives and broader campaign/platform testing remain open."
           ],
           "validationSummary": "Accepted for this beta round. Official 0.8.1 native, material-loader and preservation checks passed. Broader gameplay remains untested.",
@@ -1581,7 +1597,8 @@
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/haidar-v0.1.0-beta.1/openreliant-haidar-0.1.0-beta.1.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1",
           "checksum": "930327f962ef3fae0e7352a1b9adb43d51093a6335a75b2c8637fa678affdc84",
-          "downloadBytes": 40549074
+          "downloadBytes": 40549074,
+          "previewType": "capture"
         }
       ],
       "aliases": [
@@ -1607,22 +1624,21 @@
           "status": "available",
           "assetRevision": "1.0",
           "modFolder": "112-karak-worn-v1",
-          "preview": "assets/karak/material-front.webp",
-          "defaultPreview": "model",
+          "preview": "assets/karac/gallery-overview-v1.webp",
+          "defaultPreview": "image",
           "images": [
             {
-              "src": "assets/karak/material-front.webp",
-              "caption": "Karak — Blender material preview of artwork 1.0; in-game photo pending"
+              "src": "assets/karac/gallery-overview-v1.webp",
+              "caption": "Karac — Front three-quarter view"
             }
           ],
-          "previewSource": "Blender authoring preview; in-game photo pending",
-          "previewType": "render",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
+          "previewType": "capture",
           "previewArtworkRevision": "1.0",
           "engine": "0.8.1",
           "model": "models/karak.glb",
           "notes": [
             "Accepted for this round; later touch-ups remain open.",
-            "The still is a Blender material preview. An in-game gallery photo is pending.",
             "Dedicated emissives and broader campaign/platform testing remain open."
           ],
           "validationSummary": "Accepted for this beta round. Official 0.8.1 native, material-loader and preservation checks passed. Broader gameplay remains untested.",
@@ -1657,22 +1673,25 @@
           "status": "available",
           "assetRevision": "1.1",
           "modFolder": "113-galahad-worn-v1",
-          "preview": "assets/galahad/material-front.webp",
-          "defaultPreview": "model",
+          "preview": "assets/galahad/gallery-overview-v1.webp",
+          "defaultPreview": "image",
           "images": [
             {
-              "src": "assets/galahad/material-front.webp",
-              "caption": "Galahad — Blender material preview of artwork 1.1; in-game photo pending"
+              "src": "assets/galahad/gallery-overview-v1.webp",
+              "caption": "Galahad — Front three-quarter view"
+            },
+            {
+              "src": "assets/galahad/gallery-deployed-v1.webp",
+              "caption": "Galahad — Deployed — matching camera"
             }
           ],
-          "previewSource": "Blender authoring preview; in-game photo pending",
-          "previewType": "render",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
+          "previewType": "capture",
           "previewArtworkRevision": "1.1",
           "engine": "0.8.1",
           "model": "models/galahad.glb",
           "notes": [
             "Artwork 1.1 accepted for this beta round.",
-            "The still is a Blender material preview. An in-game gallery photo is pending.",
             "Dedicated emissives and broader campaign/platform testing remain open."
           ],
           "validationSummary": "Accepted for this beta round. Official 0.8.1 native, material-loader and preservation checks passed. Broader gameplay remains untested.",
