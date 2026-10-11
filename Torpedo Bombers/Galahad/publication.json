@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-11T11:33:28.174878+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1",
+  "tag": "galahad-v0.1.0-beta.1",
+  "source_commit": "a2d1adfe698782ab5bb702ec229d64f5ff729ccd",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/galahad-v0.1.0-beta.1/openreliant-galahad-0.1.0-beta.1.zip",
+  "zip_sha256": "3dbe8f6f2d2308b41b926d8bfb6131d67ac17ef0ce8e91eefa244bb667ca980f",
+  "download_bytes": 26242807,
+  "github_asset_digest_matches": true,
+  "downloaded_zip_and_checksum_match": true,
+  "downloaded_runtime_files_match": true
+}
