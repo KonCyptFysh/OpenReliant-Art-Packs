@@ -1,0 +1,18 @@
+{
+  "status": "authoring_preview_labelled_game_photo_pending",
+  "artwork_revision": "1.1",
+  "captures": [
+    {
+      "image": "source/review/canopy_v2/material_front.png",
+      "sha256": "8b5feea555d380fc7a734ec9f46b0a324ddbb7352078a2aafbf4cf577e52cbfa",
+      "gallery_file": "assets/galahad/material-front.webp",
+      "gallery_sha256": "29aabb9d05f7d87d765c21795c66ac043dc27f0e609182327733c843e13fa41d",
+      "caption": "Galahad — Blender material preview of artwork 1.1; in-game photo pending",
+      "source": "Existing Blender authoring view",
+      "conversion": "WebP encoding only; framing unchanged",
+      "visually_inspected": true
+    }
+  ],
+  "coverage": "No Galahad in-game photograph was available. Gallery defaults to the current native-runtime 3D preview. The authoring still is explicitly labelled. No game launch was performed.",
+  "approved_model_and_material_bytes_unchanged": true
+}

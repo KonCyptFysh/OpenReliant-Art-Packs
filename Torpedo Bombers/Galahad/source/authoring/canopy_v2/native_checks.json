@@ -1,0 +1,32 @@
+[
+  {
+    "file": "BTB_Glhd.SHP",
+    "exit_code": 0,
+    "output": "ok: 6 parts, 624 vertices, 1012 faces\nbounds: 6 oriented\nwritten again: the same bytes\n",
+    "sha256": "6bbc1fe165951d374562664a0736f40630741d3cd5136e1d773b0f66fd7ea545"
+  },
+  {
+    "file": "mission970.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "6cfe87c28447c37c9aa9b65e9bb890db9179f47649ef21445f40b15108c3bd92"
+  },
+  {
+    "file": "mission971.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "720f45be752c674f756a657ef993fbe48294487a6cd8c2aa3db174c4abc316a7"
+  },
+  {
+    "file": "mission972.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "20bfa2d756b35cd7b72fe84249e698c9d6f9b155d10b94aa6687b5a0f55de22b"
+  },
+  {
+    "file": "mission973.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "8ea5c36e7d3abf06fec639956a222339b0a5269cc705fde0617e65dcab5de6aa"
+  }
+]

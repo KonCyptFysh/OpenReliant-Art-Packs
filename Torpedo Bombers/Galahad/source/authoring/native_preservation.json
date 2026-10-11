@@ -1,0 +1,352 @@
+{
+  "passed": true,
+  "source_sha256": "09d085e860996b37c0efc672ad564f5459b4be1915efeea11da8d4a9f0e62de3",
+  "output_sha256": "6bbc1fe165951d374562664a0736f40630741d3cd5136e1d773b0f66fd7ea545",
+  "uv_edits": [],
+  "continuation_corrections": [
+    {
+      "part": "Galahad Body",
+      "lod": 1,
+      "face": 83,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Galahad Body",
+      "lod": 1,
+      "face": 122,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Galahad Body",
+      "lod": 1,
+      "face": 127,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Galahad Body",
+      "lod": 1,
+      "face": 132,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Galahad Body",
+      "lod": 3,
+      "face": 25,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Galahad Body",
+      "lod": 3,
+      "face": 30,
+      "prior": 1,
+      "remaining": 0
+    }
+  ],
+  "detail_meshes": [
+    {
+      "part": "Galahad Body",
+      "lod": 0,
+      "faces": 276,
+      "groups_before": 103,
+      "groups_after": 103,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad Body",
+      "lod": 1,
+      "faces": 176,
+      "groups_before": 82,
+      "groups_after": 86,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad Body",
+      "lod": 2,
+      "faces": 106,
+      "groups_before": 64,
+      "groups_after": 64,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad Body",
+      "lod": 3,
+      "faces": 60,
+      "groups_before": 39,
+      "groups_after": 41,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad Body",
+      "lod": 4,
+      "faces": 30,
+      "groups_before": 20,
+      "groups_after": 20,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad Body",
+      "lod": 5,
+      "faces": 26,
+      "groups_before": 21,
+      "groups_after": 21,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad Body",
+      "lod": 6,
+      "faces": 8,
+      "groups_before": 7,
+      "groups_after": 7,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad Cockpit",
+      "lod": 0,
+      "faces": 32,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad Cockpit",
+      "lod": 1,
+      "faces": 20,
+      "groups_before": 10,
+      "groups_after": 10,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad Cockpit",
+      "lod": 2,
+      "faces": 12,
+      "groups_before": 8,
+      "groups_after": 8,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad Cockpit",
+      "lod": 3,
+      "faces": 6,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 1",
+      "lod": 0,
+      "faces": 28,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 1",
+      "lod": 1,
+      "faces": 14,
+      "groups_before": 7,
+      "groups_after": 7,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 1",
+      "lod": 2,
+      "faces": 8,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 1",
+      "lod": 3,
+      "faces": 6,
+      "groups_before": 5,
+      "groups_after": 5,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 1",
+      "lod": 4,
+      "faces": 6,
+      "groups_before": 5,
+      "groups_after": 5,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 1",
+      "lod": 5,
+      "faces": 2,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 1",
+      "lod": 6,
+      "faces": 2,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 2",
+      "lod": 0,
+      "faces": 28,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 2",
+      "lod": 1,
+      "faces": 14,
+      "groups_before": 7,
+      "groups_after": 7,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 2",
+      "lod": 2,
+      "faces": 8,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 2",
+      "lod": 3,
+      "faces": 6,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 2",
+      "lod": 4,
+      "faces": 6,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 03",
+      "lod": 0,
+      "faces": 28,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 03",
+      "lod": 1,
+      "faces": 14,
+      "groups_before": 7,
+      "groups_after": 7,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 03",
+      "lod": 2,
+      "faces": 8,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 03",
+      "lod": 3,
+      "faces": 6,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 03",
+      "lod": 4,
+      "faces": 6,
+      "groups_before": 4,
+      "groups_after": 4,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 03",
+      "lod": 5,
+      "faces": 2,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 03",
+      "lod": 6,
+      "faces": 2,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 04",
+      "lod": 0,
+      "faces": 28,
+      "groups_before": 12,
+      "groups_after": 12,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 04",
+      "lod": 1,
+      "faces": 14,
+      "groups_before": 7,
+      "groups_after": 7,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 04",
+      "lod": 2,
+      "faces": 8,
+      "groups_before": 6,
+      "groups_after": 6,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 04",
+      "lod": 3,
+      "faces": 6,
+      "groups_before": 5,
+      "groups_after": 5,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 04",
+      "lod": 4,
+      "faces": 6,
+      "groups_before": 5,
+      "groups_after": 5,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 04",
+      "lod": 5,
+      "faces": 2,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Galahad foot 04",
+      "lod": 6,
+      "faces": 2,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    }
+  ],
+  "all_1012_faces_checked": true,
+  "geometry_normals_attachments_animation_collision_and_winding_byte_identical": true,
+  "allowed_changes": "Texture names, primitive continuation counts at UV seams only",
+  "changed_bytes": 339
+}

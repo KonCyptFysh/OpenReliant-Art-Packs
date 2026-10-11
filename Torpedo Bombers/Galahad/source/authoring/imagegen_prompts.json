@@ -1,0 +1,36 @@
+{
+  "tool": "built-in image_gen",
+  "passes": [
+    {
+      "prompt": "Use case: precise-object-edit. EDIT TARGET is the original 256-square brt_trp spaceship UV atlas for the StarLancer Galahad torpedo bomber. Produce a high-resolution reconstruction of this exact fixed-layout square atlas. Preserve every normalized panel edge, window silhouette, vent, decal, border, colour and orientation precisely in place. Same square composition, edge-to-edge, no crop or margin. Retain the worn dark grey alloy and steel, economical straight panel seams, black recessed machinery, ribbed radiators, small yellow indicators, red/white caution borders, yellow/black stripes and the original British RAF crest in the upper-left area. Restore clear details without moving or redesigning them, no new writing or invented symbols. Keep the painted crest flat and recognisable with its existing Union Jack and crown; retain a small silver RAF bird rather than an abstract winged scribble, within the original emblem footprint. Existing green window areas near upper-right (roughly x67%-81%, y5%-10%, and triangular x65%-72%, y13%-18%) need smooth opaque very dark desaturated green interiors: no baked white reflections, streaks, scratches, gradients or highlights; preserve their metal frames and exact shape. Preserve the ship's existing wear/chipping; do not turn it into clean factory paint or add heavy new grime. Refine only existing structures; avoid exaggerating panel bevels. Flat diffuse colour atlas only, no perspective, no added lighting, no glows, no surrounding background.",
+      "input": "source/brt_trp.png",
+      "output": "maps/galahad_hull_reconstructed_v1.png",
+      "input_sha256": "854ba3407cd6c6e334b8823911ed235f6dea00167b89f3269c74e7caa54bdd10",
+      "output_sha256": "a20c9baff2b4ff69b724ed6a4dbae9e20a92685226f8b10afe510d1fd1d11f7b",
+      "output_dimensions": [
+        1254,
+        1254
+      ],
+      "reference_sha256": {}
+    },
+    {
+      "prompt": "Use case precise-object-edit. Edit the attached Galahad UV atlas. Preserve the complete atlas pixel layout, scale, wear, all marks and all other structures. ONLY refine the small dark green trapezoidal framed panel centred roughly at x25%, y25% (bounds x21%-29%, y22%-28%). This is the FRONT COCKPIT WINDSHIELD, not mechanical equipment: remove the little raised central green rectangle and mottled highlights from inside it. Make its whole inside a single smooth flat opaque very dark desaturated green glass pane, matching the other two upper-right green window panes. Retain the existing outer metal trapezoid frame, its size and its exact position, with clean legible edges. Do not add an internal frame or panel. Leave the two upper-right windows and everything else unchanged. Return the entire square atlas, edge to edge, no margins, exact same proportions, no crop, no perspective.\nSECOND LOCAL FIX: Image 1 is the Galahad atlas EDIT TARGET. Image 2 is the approved Crusader silver RAF bird treatment, a STYLE AND ANATOMY REFERENCE only (its badge is sideways). Image 3 is the upright RAF bird SHAPE REFERENCE only. In the small existing Galahad crest near x17%, y10%, replace its central generic bird with the same recognisable RAF bird as the Crusader fix: frontal chest, single lowered head turned to viewer's right, broad nearly horizontal outstretched wings with layered flight feathers, short fanned tail pointing DOWN. Light SILVER plumage with restrained dark feather lines and a thin outline, NOT gold or black. Galahad's crown remains at the TOP, so the bird here is UPRIGHT; do not copy Crusader's sideways rotation. Scale to the existing central motif span, within its original circular emblem footprint. Keep Galahad's gold ring, Union Jack, crown, red ribbons and all surrounding panels exactly positioned and coloured. Do not import the reference's blue background or any reference text. Apply only these two local fixes, preserving the rest of the atlas.",
+      "input": "maps/galahad_hull_reconstructed_v1.png",
+      "references": [
+        "source/references/crusader_emblem_raf_bird_v2.png",
+        "source/references/raf-bird-reference.png"
+      ],
+      "output": "maps/galahad_hull_refined_v1.png",
+      "input_sha256": "a20c9baff2b4ff69b724ed6a4dbae9e20a92685226f8b10afe510d1fd1d11f7b",
+      "output_sha256": "8a789607af36d76557eb697619f6cd64883301af2e6a2994e430b221440cc662",
+      "output_dimensions": [
+        1254,
+        1254
+      ],
+      "reference_sha256": {
+        "source/references/crusader_emblem_raf_bird_v2.png": "2b72e2914a108babfd7ec0c547f4b1812dcb36f8a195f137459f3183f97bbdc1",
+        "source/references/raf-bird-reference.png": "60819adb276b63bc30b37a7682e0c5409787ab56515754ab3f2a61e44d2ef292"
+      }
+    }
+  ]
+}

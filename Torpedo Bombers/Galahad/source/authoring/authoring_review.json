@@ -1,0 +1,34 @@
+{
+  "reviewed_at_utc": "2026-10-11T08:41:21.196502+00:00",
+  "kind": "Blender authoring previews, not gameplay",
+  "views": [
+    {
+      "path": "review/reconstruction_v1/material_front.png",
+      "bytes": 1186507,
+      "sha256": "b2b8f033dbda7973b81c783f4e4c9cc0fce792c8c3f627ca88d727980af55c6b"
+    },
+    {
+      "path": "review/reconstruction_v1/material_opposite.png",
+      "bytes": 1225151,
+      "sha256": "5b3f7a5fd858ceca00e4c4b9884fa5c194b62a60eeadead1a3165bc214a7e088"
+    },
+    {
+      "path": "review/reconstruction_v1/material_belly.png",
+      "bytes": 1144561,
+      "sha256": "1378eb7368e890866214869a8eb2af61b5b4828ab94e0aa6ed0bfe8bd93552a4"
+    },
+    {
+      "path": "review/reconstruction_v1/material_rear.png",
+      "bytes": 931539,
+      "sha256": "3b62b5ad9794fed4214daa280a58f6ef9f8aa5d54b15fe802927eaf8cce08992"
+    }
+  ],
+  "observations": [
+    "Native upright silhouette and original panel layout retained.",
+    "Both upper rear crests show the corrected silver RAF bird using the accepted Crusader treatment.",
+    "The front windshield is a single dark green pane; other glass retains separate metal framing.",
+    "Glass highlights in the preview are studio reflections, not diffuse painted highlights.",
+    "Rear and underside surfaces inspected; no collapsed visible UV faces identified."
+  ],
+  "runtime_visual_review": "pending_user"
+}

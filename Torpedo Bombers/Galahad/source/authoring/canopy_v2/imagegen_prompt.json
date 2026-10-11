@@ -1,0 +1,15 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. This image is a cropped UV texture patch from the Galahad spacecraft, EDIT TARGET, not a picture of the ship. Preserve its exact portrait aspect ratio, edge-to-edge crop, every window silhouette, gasket, frame, straight panel gap, screw, and the two red warning markings at precisely their existing coordinates. No perspective.\nRepair ONLY the grey metal surface wear around the two green windows. The existing pale curly/marbled blobs, coarse blurred speckles and black smudged band beneath the upper window look like badly enlarged low resolution soot. Replace those surface artefacts with convincingly sharp, fine-grained worn grey alloy: restrained small paint chips, thin short scratches, subtle fine oxidisation, and a little dark dirt tight to the recesses. Eliminate the large cloudy whitish loops and smeared carbon streaks, especially the horizontal strip between the two windows and the metal just below the sloping lower pane. Maintain the existing overall medium-dark grey tone, relative lightness of the individual plates, and worn service character. Do not cover the ship with new black soot or add pitting/noise. Do not make it factory-new or a flat featureless grey.\nKeep the two opaque green panes, the thin metal frames, their black seals, their shape and orientation unchanged. Keep ALL original straight panel lines and their junctions unchanged, including those on the lower right access plate; do not add, remove or shift panels. Keep the red/white label and red triangle unchanged. This is diffuse paint only: no new light source, no baked specular reflections, shadows or raised relief. Output the complete identical crop with finely resolved surface detail and no border.",
+  "input": "cockpit_input_v1.png",
+  "output": "../../maps/galahad_cockpit_surface_generated_v2.png",
+  "generated_source": "/home/lva-8700/.codex/generated_images/01a0efc3-3a2f-7fe3-b0c1-2dec3263b764/exec-ceefa8c7-7482-4af2-8a89-f844e2f05969.png",
+  "delivery_atlas_crop": [
+    2528,
+    0,
+    844,
+    1132
+  ],
+  "input_sha256": "5bf871e438664382478a14feadf4428e8fbcd2207dec97ae3b2cb7d496a497e7",
+  "output_sha256": "ef37d167d2d22b01b10eca8c4874a614f254d8cdb2e4c47dcbd6bce49d1ef43f"
+}

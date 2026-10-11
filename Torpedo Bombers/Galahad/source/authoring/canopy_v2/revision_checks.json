@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "changed_basecolour_pixels": 456414,
+  "changed_atlas_percent": 2.7204394340515137,
+  "outside_cockpit_crop_byte_identical": true,
+  "original_glass_colour_byte_identical": true,
+  "raf_crest_byte_identical": true,
+  "runtime_changes": [
+    "orgl1_hull.png",
+    "orgl1_hull_normal.png",
+    "orgl1_hull_orm.png",
+    "mod.png"
+  ],
+  "native_model_and_all_missions_byte_identical": true,
+  "normal_roughness_metallic_and_glass_checks": "map_checks.json",
+  "authoring_views_inspected": [
+    "cockpit_left.png",
+    "cockpit_right.png",
+    "material_front.png"
+  ],
+  "game_launched": false,
+  "runtime_visual_review": "pending_user"
+}

@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "${GALAHAD_WORKSPACE}/galahad_worn_pbr_v1.blend",
+  "canonical_sha256": "efeee8ba6459278299e21d7ec84e520f5096255a50feeb44f638f40b8f8e1005",
+  "snapshot": "${ART_PACK_REPOSITORY}/Torpedo Bombers/Galahad/source/galahad_worn_pbr_v1.blend",
+  "snapshot_sha256": "737dcc7bc599e11e4fe136404580c0384cc8348f746056bb6ce2bf143ab7eb31",
+  "mesh_signature": "f321fb6c98197a2dc31282cce74222a0a16bb2c28842264f8406b1477f9adc56",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "galahad_hull_basecolor_v1.png",
+      "path": "//resources/b3ce2a9e7770_galahad_hull_basecolor_v1.png",
+      "sha256": "b3ce2a9e77705a654a3e8e8b9b27729885e1c2a761e887f03fe5ec0bdf0ee171"
+    },
+    {
+      "image": "galahad_hull_metallic_v1.png",
+      "path": "//resources/dc6639cd59f2_galahad_hull_metallic_v1.png",
+      "sha256": "dc6639cd59f2b21f254799b20a25dfd5d2ad13642f088c46e36c8ceb3faf3324"
+    },
+    {
+      "image": "galahad_hull_normal_v1.png",
+      "path": "//resources/2490f122f6e2_galahad_hull_normal_v1.png",
+      "sha256": "2490f122f6e2235c7e01ad123f8bc2d5bf9041e71d7ede9c9dc41797052c5d57"
+    },
+    {
+      "image": "galahad_hull_roughness_v1.png",
+      "path": "//resources/231aa5c782f5_galahad_hull_roughness_v1.png",
+      "sha256": "231aa5c782f5f0620c3359a61b49f00bf6529e5dda98df92e51c3888b05e7c7b"
+    }
+  ]
+}

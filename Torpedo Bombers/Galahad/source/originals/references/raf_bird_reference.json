@@ -1,0 +1,8 @@
+{
+  "reference_url": "https://commons.wikimedia.org/wiki/File:RAF-Badge.svg",
+  "reference_raster_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/RAF-Badge.svg/960px-RAF-Badge.svg.png",
+  "use": "Bird silhouette reference only; AI redraw in silver, rotated to the original spacecraft badge orientation. Existing game badge surround retained.",
+  "tool_mode": "built-in imagegen",
+  "edit_target": "crusader_emblem_generated_v2.png",
+  "output": "crusader_emblem_raf_bird_v2.png"
+}

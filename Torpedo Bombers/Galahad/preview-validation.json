@@ -1,0 +1,42 @@
+{
+  "model": "BTB_Glhd.SHP",
+  "model_sha256": "6bbc1fe165951d374562664a0736f40630741d3cd5136e1d773b0f66fd7ea545",
+  "preview_sha256": "a7f520a2bebf0aa5d1d392a52f1db657f58ae9dd715820f7371c063ccc61d56c",
+  "preview_bytes": 1631512,
+  "highest_detail_geometry": true,
+  "textures": [
+    {
+      "runtime_file": "orgl1_hull.png",
+      "sha256": "f434eb3cbf7ca4cb654d7675b921dfd933dbbc1877a2c41e1d72f49126aed2b8",
+      "kind": "base",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orgl1_hull_normal.png",
+      "sha256": "299844b4c547fb935a8a98ed1889cd954aff858a12b1f4aba77018a1e8938dd0",
+      "kind": "normal",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orgl1_hull_orm.png",
+      "sha256": "aa0db381ec868930cb92cb0429a9ea2fc2121285f30b841f045cb0be827bd02c",
+      "kind": "orm",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "limitations": "Static native rest pose with reduced 1024px material maps and browser lighting. Engine effects, animations and loadout attachments omitted. No in-game gallery photograph yet.",
+  "parts": 6,
+  "visible_triangles": 412,
+  "native_part_origins_verified": true,
+  "asset_revision": "1.1",
+  "asset_manifest_sha256": "c9352b4f120a695d8a5e314ace6d66753a47b8ba983d93b744ddf6f330d1d59d"
+}

@@ -1,0 +1,532 @@
+{
+  "status": "approved-release-snapshot",
+  "ship": "Galahad",
+  "asset_revision": "1.1",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 1560,
+      "sha256": "665be6c5bae1d2e1ddbf13a0a8c19e72efb6c1d806af41adcaf3171adba3449f"
+    },
+    {
+      "path": "source/authoring/README.md",
+      "bytes": 1053,
+      "sha256": "096a215b915b5ae33c05b554eba116b8f29dcda85c704a360ebd1dbb096f2c94"
+    },
+    {
+      "path": "source/authoring/animation_preservation.json",
+      "bytes": 2598,
+      "sha256": "28594b7cbfa7968e5f1d5e8d96eb9321c1ffe739fdee4c0782ecf9f41309d8e5"
+    },
+    {
+      "path": "source/authoring/authoring_review.json",
+      "bytes": 1380,
+      "sha256": "144ed4f9f5a9cc2ae08fa8cb40af6a7328ac28aa7ed8623c83b69e847a71b2c9"
+    },
+    {
+      "path": "source/authoring/baseline_audit.json",
+      "bytes": 1017,
+      "sha256": "1d77a180a714712238a257cfa7f9db1b878db1e4011be5aaafb45222a466241b"
+    },
+    {
+      "path": "source/authoring/build_inspection.py",
+      "bytes": 7377,
+      "sha256": "113973834cc339aeb65289bfd4964d5799493918f9de970d5a2a6fede04cb6de"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 8892,
+      "sha256": "5548172e595f0810215be2f8dbd00d5b5011c4900183e7c351f67dfdd58c80b4"
+    },
+    {
+      "path": "source/authoring/build_source.py",
+      "bytes": 7301,
+      "sha256": "efac8ba230baadc1b502adb149a60cc5a826e7487ff82e9da7767715bdb7c1af"
+    },
+    {
+      "path": "source/authoring/canopy_v2/animation_preservation.json",
+      "bytes": 2598,
+      "sha256": "28594b7cbfa7968e5f1d5e8d96eb9321c1ffe739fdee4c0782ecf9f41309d8e5"
+    },
+    {
+      "path": "source/authoring/canopy_v2/build.py",
+      "bytes": 8298,
+      "sha256": "6d46cc344363421d8501f0bde522cb775cf909611af19fc46a8a1db8ac48e9db"
+    },
+    {
+      "path": "source/authoring/canopy_v2/cockpit_input_v1.png",
+      "bytes": 684784,
+      "sha256": "5bf871e438664382478a14feadf4428e8fbcd2207dec97ae3b2cb7d496a497e7"
+    },
+    {
+      "path": "source/authoring/canopy_v2/compatibility-0.8.json",
+      "bytes": 3050,
+      "sha256": "ca9692b43e1429ce8b105f323bdbdf7d0b7008233e68d701cac175ec2e82e444"
+    },
+    {
+      "path": "source/authoring/canopy_v2/edit_mask.png",
+      "bytes": 25107,
+      "sha256": "6fa8663e0f69f792ec5bfbbcb809203c1aa91cf6e051f61707212f79a3900f59"
+    },
+    {
+      "path": "source/authoring/canopy_v2/export_native.py",
+      "bytes": 8118,
+      "sha256": "0b9e4cb5da620843110a99d59d3fe6a6365870337e81793a5d75007ac38bdadb"
+    },
+    {
+      "path": "source/authoring/canopy_v2/finish.py",
+      "bytes": 8815,
+      "sha256": "f264d93690ced85cf9b7a55aa436d7bdc6a5daf477b6f40daf7d41abe86fb1f9"
+    },
+    {
+      "path": "source/authoring/canopy_v2/imagegen_prompt.json",
+      "bytes": 2270,
+      "sha256": "31212fca746047b76b6b1056c454eb37ca8b9d2d95c0c4ec4bf1a116fe2b37fa"
+    },
+    {
+      "path": "source/authoring/canopy_v2/map_checks.json",
+      "bytes": 269,
+      "sha256": "3fdca8cef9dcc91edd43ddca064076a5da4611b48b25e8b536e918d47d36937b"
+    },
+    {
+      "path": "source/authoring/canopy_v2/mission971-ships.txt",
+      "bytes": 509,
+      "sha256": "a48727642581bee17c78d8d63d5bb2d7952c8966a8f99ab03408112421eff892"
+    },
+    {
+      "path": "source/authoring/canopy_v2/native_checks.json",
+      "bytes": 1437,
+      "sha256": "8b9b3fd58cb9918da5849de6696d3e21026a725a0b34c9ed4a2f8a161f341256"
+    },
+    {
+      "path": "source/authoring/canopy_v2/native_preservation.json",
+      "bytes": 7618,
+      "sha256": "e1af4ff146732d4e036d1a195bc961c8fa55eb01c47adc89dd1962100f0893ae"
+    },
+    {
+      "path": "source/authoring/canopy_v2/portable_source.py",
+      "bytes": 2413,
+      "sha256": "ee29fea821395b6ebee008019abbb214918e6b3a86fd4c860361600251989063"
+    },
+    {
+      "path": "source/authoring/canopy_v2/repository_snapshot.json",
+      "bytes": 1420,
+      "sha256": "9ed15f2fd06d1bc12a37518eaf1b350d5daa93e391ce937d2e3f50bb0909574a"
+    },
+    {
+      "path": "source/authoring/canopy_v2/revision_checks.json",
+      "bytes": 661,
+      "sha256": "92273e7fb5092bb4748e48ec65407a17e910bed77144f62a8175ebcce6bf137a"
+    },
+    {
+      "path": "source/authoring/canopy_v2/user_blurry_wear.png",
+      "bytes": 22435,
+      "sha256": "90e9ceba57669470e63ac60d95e0a096a09ad3dca5300af254132dead32cd6af"
+    },
+    {
+      "path": "source/authoring/canopy_v2/user_reflection_corner.png",
+      "bytes": 18993,
+      "sha256": "7615433873e2760fcafc89b1d82c58e34deacf693bc499fce07a70e7acd375eb"
+    },
+    {
+      "path": "source/authoring/canopy_v2/validation.json",
+      "bytes": 238635,
+      "sha256": "a086227dfdc1efe6f8bba91b068ad3290cb5d6bac5aab7393e4e250c8afbde64"
+    },
+    {
+      "path": "source/authoring/compatibility-0.8.json",
+      "bytes": 3023,
+      "sha256": "011a4042bd0b5dc9511af6eaa9d7d21963af243f6114a0969ede377f03796a00"
+    },
+    {
+      "path": "source/authoring/deployment_mechanism.json",
+      "bytes": 1012,
+      "sha256": "48d60bcafd0f7fe94e6664c0694f44d8978f206f9aa54d180582e6bf61de01ba"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 8143,
+      "sha256": "91d4210163ce4cf0c7ac8b20fa3c37d669f17410e674c072437c80905eba29b7"
+    },
+    {
+      "path": "source/authoring/finish_review.py",
+      "bytes": 22000,
+      "sha256": "e2714959c87c2143286cfa69b948859d3474d0bd897e1550f020e53a5b2af82c"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 4753,
+      "sha256": "42b8a18ec21210e5ae757a217503dccd95f5c207f298166d33edc5f46a327ea3"
+    },
+    {
+      "path": "source/authoring/inspection-checks.json",
+      "bytes": 1400,
+      "sha256": "02602be15efec30154061d7a0e1e98ed4ab95d8176cfaad650c2c91e92c487a3"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 268,
+      "sha256": "69a5f680ff4b4c407c98d6d244dd4763b0892a3b8313887be46c54f9eca642af"
+    },
+    {
+      "path": "source/authoring/mission970-script.txt",
+      "bytes": 1665,
+      "sha256": "ccc91530035cf8ac7bc84612c185f95048861b5e8ad6dcd9185b551ea122678b"
+    },
+    {
+      "path": "source/authoring/mission970-ships.txt",
+      "bytes": 509,
+      "sha256": "a48727642581bee17c78d8d63d5bb2d7952c8966a8f99ab03408112421eff892"
+    },
+    {
+      "path": "source/authoring/mission971-script.txt",
+      "bytes": 1219,
+      "sha256": "93b63e12e642b6e0c4a4fa26001e915a933d0cae4004606c64b243123cfaa120"
+    },
+    {
+      "path": "source/authoring/mission971-ships.txt",
+      "bytes": 509,
+      "sha256": "a48727642581bee17c78d8d63d5bb2d7952c8966a8f99ab03408112421eff892"
+    },
+    {
+      "path": "source/authoring/mission972-script.txt",
+      "bytes": 1058,
+      "sha256": "60cc8338105825b010d03b5a7308663cf646be70a07db0498d91bcc8ee3b14da"
+    },
+    {
+      "path": "source/authoring/mission972-ships.txt",
+      "bytes": 509,
+      "sha256": "a48727642581bee17c78d8d63d5bb2d7952c8966a8f99ab03408112421eff892"
+    },
+    {
+      "path": "source/authoring/mission973-script.txt",
+      "bytes": 900,
+      "sha256": "88487fc9cf085222909bfc5a1b3232f2958e0a91650f45655fc709978b658e24"
+    },
+    {
+      "path": "source/authoring/mission973-ships.txt",
+      "bytes": 509,
+      "sha256": "a48727642581bee17c78d8d63d5bb2d7952c8966a8f99ab03408112421eff892"
+    },
+    {
+      "path": "source/authoring/native-check.txt",
+      "bytes": 87,
+      "sha256": "52665ce8fbc61cdc0f9f30a7f556cfed505c4a3f4ff23f84cbd0523aa6df9ba3"
+    },
+    {
+      "path": "source/authoring/native-chunks.json",
+      "bytes": 25679,
+      "sha256": "e48bed1da7e0776a7adff8e072c7b35517f1d82006213439ed30e94405f316dc"
+    },
+    {
+      "path": "source/authoring/native-chunks.txt",
+      "bytes": 6415,
+      "sha256": "8a74c7a8f7e4224c1face82448b351abec4b3e9cb2f462704edd379036e415cf"
+    },
+    {
+      "path": "source/authoring/native-components.txt",
+      "bytes": 73,
+      "sha256": "13e72d1ed126936952cdae485d352ac9c342fc896ef9de1469dcb3ee21a5656d"
+    },
+    {
+      "path": "source/authoring/native-info.txt",
+      "bytes": 4551,
+      "sha256": "bf29e1c6338aa4fc4f8d15352d27bc439972435fecb764f6ff415e9ace1d6e7b"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 1437,
+      "sha256": "8b9b3fd58cb9918da5849de6696d3e21026a725a0b34c9ed4a2f8a161f341256"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 7618,
+      "sha256": "e1af4ff146732d4e036d1a195bc961c8fa55eb01c47adc89dd1962100f0893ae"
+    },
+    {
+      "path": "source/authoring/native_summary.json",
+      "bytes": 6895,
+      "sha256": "321768664289a5f1a03f2e58d00f3b9220002ac190cd81673e0656caa9036a64"
+    },
+    {
+      "path": "source/authoring/parse_native.py",
+      "bytes": 2354,
+      "sha256": "333d31868cffb8dab75789748a9bb765cf423ddd37a51e4f43450111b24fd748"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2421,
+      "sha256": "dfe67ff57744874ecfe0e7c81ea2e34bdbb8b9a001a8e3df990766e3a5846419"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 17725,
+      "sha256": "0a4d1ea5b49b72eea980c7d5313b976a754acb86c93410fc686e3f92578177dd"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 1420,
+      "sha256": "b3e84a56d22fd0b42bd8bcdb5c73c0121f260c3cb9a43932c34bb76907a0355e"
+    },
+    {
+      "path": "source/authoring/source_uv_audit.json",
+      "bytes": 5085,
+      "sha256": "d696f0b61adf5f132febba1ce4d719118d28b93b373809d6ab953142e4977f17"
+    },
+    {
+      "path": "source/authoring/source_uv_audit.py",
+      "bytes": 1143,
+      "sha256": "f464b74d78de61dc5ff94bf1e8ded2017b872758988289d3cc42107a9d92b83f"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 238154,
+      "sha256": "8fdc165b052360ab02ff21a08fd8353287f53976152938d5e4b4fc045573895d"
+    },
+    {
+      "path": "source/galahad_worn_pbr_v1.blend",
+      "bytes": 28862765,
+      "sha256": "737dcc7bc599e11e4fe136404580c0384cc8348f746056bb6ce2bf143ab7eb31"
+    },
+    {
+      "path": "source/galahad_worn_pbr_v2.blend",
+      "bytes": 29969764,
+      "sha256": "a219b14048833e6ddaacc05e036b4cdb789388a2b4d06854f686cb217a3f2939"
+    },
+    {
+      "path": "source/maps/galahad_cockpit_surface_generated_v2.png",
+      "bytes": 2603958,
+      "sha256": "ef37d167d2d22b01b10eca8c4874a614f254d8cdb2e4c47dcbd6bce49d1ef43f"
+    },
+    {
+      "path": "source/maps/galahad_hull_basecolor_v1.png",
+      "bytes": 14750482,
+      "sha256": "b3ce2a9e77705a654a3e8e8b9b27729885e1c2a761e887f03fe5ec0bdf0ee171"
+    },
+    {
+      "path": "source/maps/galahad_hull_basecolor_v2.png",
+      "bytes": 15211075,
+      "sha256": "f434eb3cbf7ca4cb654d7675b921dfd933dbbc1877a2c41e1d72f49126aed2b8"
+    },
+    {
+      "path": "source/maps/galahad_hull_fins_v1.png",
+      "bytes": 72771,
+      "sha256": "d02b00029ee243153623c2e2bc49bce86f6793e239c99f8e181523565b081a0e"
+    },
+    {
+      "path": "source/maps/galahad_hull_flat_graphics_v1.png",
+      "bytes": 63764,
+      "sha256": "5d68741760002b6f239d2c9b403f0550163ccd061641024dcfea771fe2347cbc"
+    },
+    {
+      "path": "source/maps/galahad_hull_frame_v1.png",
+      "bytes": 118474,
+      "sha256": "3de3a54cb72c778bbce1da10208dfef1a3d12c2a427be43265f45ac5767026de"
+    },
+    {
+      "path": "source/maps/galahad_hull_frame_v2.png",
+      "bytes": 106403,
+      "sha256": "4cac20d7f57832bf425455da8bcafdd37ba902ff411e11b3680857434b6df24b"
+    },
+    {
+      "path": "source/maps/galahad_hull_glass_v1.png",
+      "bytes": 78400,
+      "sha256": "3cb409f482e1461d935a04bcc825202252518a79e7426ecc89a5fa7197d1bd83"
+    },
+    {
+      "path": "source/maps/galahad_hull_glass_v2.png",
+      "bytes": 70748,
+      "sha256": "b54f4a6f15415a5eae99bcbf863636f51bfa042fc473d3708a5866d872e6b7f5"
+    },
+    {
+      "path": "source/maps/galahad_hull_height_v1.png",
+      "bytes": 196655,
+      "sha256": "bbee54196d3250f17c1a7edda2c77ed8e02473783adcd4e60684635f9a824715"
+    },
+    {
+      "path": "source/maps/galahad_hull_height_v2.png",
+      "bytes": 195115,
+      "sha256": "09cad98c62a3a4af6ac31b03e15e65b808b5fb048c97991196a2e9e39c44bc64"
+    },
+    {
+      "path": "source/maps/galahad_hull_metallic_v1.png",
+      "bytes": 7822371,
+      "sha256": "dc6639cd59f2b21f254799b20a25dfd5d2ad13642f088c46e36c8ceb3faf3324"
+    },
+    {
+      "path": "source/maps/galahad_hull_metallic_v2.png",
+      "bytes": 8230000,
+      "sha256": "47ad53dbf34e3e52b886b3d9e0a77957ad95ad77444ea64314541aee55a21a53"
+    },
+    {
+      "path": "source/maps/galahad_hull_normal_v1.png",
+      "bytes": 456934,
+      "sha256": "2490f122f6e2235c7e01ad123f8bc2d5bf9041e71d7ede9c9dc41797052c5d57"
+    },
+    {
+      "path": "source/maps/galahad_hull_normal_v2.png",
+      "bytes": 454079,
+      "sha256": "299844b4c547fb935a8a98ed1889cd954aff858a12b1f4aba77018a1e8938dd0"
+    },
+    {
+      "path": "source/maps/galahad_hull_paint_v1.png",
+      "bytes": 7504136,
+      "sha256": "46a8fcd815518a5881e3b8d57b38056d21205302f19f18db77e94c0344a06cd8"
+    },
+    {
+      "path": "source/maps/galahad_hull_paint_v2.png",
+      "bytes": 7443289,
+      "sha256": "341e9ad9aadd0f5d73217c83e07128d0a5e05ed5d4b5672a7f9ffc2aa2895295"
+    },
+    {
+      "path": "source/maps/galahad_hull_panels_v1.png",
+      "bytes": 180072,
+      "sha256": "1a00c8a1d6077b360e154984cd41039dbda0052733dfe7aab0d45f5f8f136d9f"
+    },
+    {
+      "path": "source/maps/galahad_hull_reconstructed_v1.png",
+      "bytes": 2916308,
+      "sha256": "a20c9baff2b4ff69b724ed6a4dbae9e20a92685226f8b10afe510d1fd1d11f7b"
+    },
+    {
+      "path": "source/maps/galahad_hull_refined_v1.png",
+      "bytes": 2752617,
+      "sha256": "8a789607af36d76557eb697619f6cd64883301af2e6a2994e430b221440cc662"
+    },
+    {
+      "path": "source/maps/galahad_hull_roughness_v1.png",
+      "bytes": 5251670,
+      "sha256": "231aa5c782f5f0620c3359a61b49f00bf6529e5dda98df92e51c3888b05e7c7b"
+    },
+    {
+      "path": "source/maps/galahad_hull_roughness_v2.png",
+      "bytes": 5493302,
+      "sha256": "2ce652d2f406a52e73493a10d680560b5ade50ec9a6f1d2bb82d9aa3774c958e"
+    },
+    {
+      "path": "source/maps/galahad_hull_seal_v1.png",
+      "bytes": 88767,
+      "sha256": "5b9438f755dbcb015fabd68631c9e0f212d2c7451bcec79f92f075eebbc6cbfa"
+    },
+    {
+      "path": "source/maps/galahad_hull_seal_v2.png",
+      "bytes": 82643,
+      "sha256": "be10f6e511dc7193bc4fb3a98bf7685491686fad2fc1aecf433aec9a827c1775"
+    },
+    {
+      "path": "source/maps/galahad_hull_structure_v1.png",
+      "bytes": 253466,
+      "sha256": "67a732483fc14c5755d516e984a53f4d66b65d73654abd037b6361a737ef37b0"
+    },
+    {
+      "path": "source/originals/BTB_Glhd.SHP",
+      "bytes": 108038,
+      "sha256": "09d085e860996b37c0efc672ad564f5459b4be1915efeea11da8d4a9f0e62de3"
+    },
+    {
+      "path": "source/originals/brt_trp.png",
+      "bytes": 75564,
+      "sha256": "854ba3407cd6c6e334b8823911ed235f6dea00167b89f3269c74e7caa54bdd10"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 905434,
+      "sha256": "71c8fcb4222e776ac676257b31d9b514d83ad2a383b380c0b7b37e2ae9ba2d25"
+    },
+    {
+      "path": "source/originals/references/crusader_emblem_raf_bird_v2.png",
+      "bytes": 2855165,
+      "sha256": "2b72e2914a108babfd7ec0c547f4b1812dcb36f8a195f137459f3183f97bbdc1"
+    },
+    {
+      "path": "source/originals/references/raf-bird-reference.png",
+      "bytes": 322195,
+      "sha256": "60819adb276b63bc30b37a7682e0c5409787ab56515754ab3f2a61e44d2ef292"
+    },
+    {
+      "path": "source/originals/references/raf_bird_reference.json",
+      "bytes": 498,
+      "sha256": "900618a9029d845053886a5b2a9c5a8113f4ef9ba6c5c640a960cc23a579cbbf"
+    },
+    {
+      "path": "source/resources/231aa5c782f5_galahad_hull_roughness_v1.png",
+      "bytes": 5251670,
+      "sha256": "231aa5c782f5f0620c3359a61b49f00bf6529e5dda98df92e51c3888b05e7c7b"
+    },
+    {
+      "path": "source/resources/2490f122f6e2_galahad_hull_normal_v1.png",
+      "bytes": 456934,
+      "sha256": "2490f122f6e2235c7e01ad123f8bc2d5bf9041e71d7ede9c9dc41797052c5d57"
+    },
+    {
+      "path": "source/resources/299844b4c547_galahad_hull_normal_v2.png",
+      "bytes": 454079,
+      "sha256": "299844b4c547fb935a8a98ed1889cd954aff858a12b1f4aba77018a1e8938dd0"
+    },
+    {
+      "path": "source/resources/2ce652d2f406_galahad_hull_roughness_v2.png",
+      "bytes": 5493302,
+      "sha256": "2ce652d2f406a52e73493a10d680560b5ade50ec9a6f1d2bb82d9aa3774c958e"
+    },
+    {
+      "path": "source/resources/47ad53dbf34e_galahad_hull_metallic_v2.png",
+      "bytes": 8230000,
+      "sha256": "47ad53dbf34e3e52b886b3d9e0a77957ad95ad77444ea64314541aee55a21a53"
+    },
+    {
+      "path": "source/resources/b3ce2a9e7770_galahad_hull_basecolor_v1.png",
+      "bytes": 14750482,
+      "sha256": "b3ce2a9e77705a654a3e8e8b9b27729885e1c2a761e887f03fe5ec0bdf0ee171"
+    },
+    {
+      "path": "source/resources/dc6639cd59f2_galahad_hull_metallic_v1.png",
+      "bytes": 7822371,
+      "sha256": "dc6639cd59f2b21f254799b20a25dfd5d2ad13642f088c46e36c8ceb3faf3324"
+    },
+    {
+      "path": "source/resources/f434eb3cbf7c_galahad_hull_basecolor_v2.png",
+      "bytes": 15211075,
+      "sha256": "f434eb3cbf7ca4cb654d7675b921dfd933dbbc1877a2c41e1d72f49126aed2b8"
+    },
+    {
+      "path": "source/review/canopy_v2/cockpit_left.png",
+      "bytes": 781891,
+      "sha256": "671a2eca2bd58d3733cc9cef3770d01105359227940886023610f6a65441e389"
+    },
+    {
+      "path": "source/review/canopy_v2/cockpit_right.png",
+      "bytes": 775580,
+      "sha256": "6f3a7e528a61bcf681a84599da34b9fa5d2f2dfae3390dc0eb650e20c63bcde3"
+    },
+    {
+      "path": "source/review/canopy_v2/material_front.png",
+      "bytes": 1196277,
+      "sha256": "8b5feea555d380fc7a734ec9f46b0a324ddbb7352078a2aafbf4cf577e52cbfa"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 1144561,
+      "sha256": "1378eb7368e890866214869a8eb2af61b5b4828ab94e0aa6ed0bfe8bd93552a4"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 1186507,
+      "sha256": "b2b8f033dbda7973b81c783f4e4c9cc0fce792c8c3f627ca88d727980af55c6b"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 1225151,
+      "sha256": "5b3f7a5fd858ceca00e4c4b9884fa5c194b62a60eeadead1a3165bc214a7e088"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_rear.png",
+      "bytes": 931539,
+      "sha256": "3b62b5ad9794fed4214daa280a58f6ef9f8aa5d54b15fe802927eaf8cce08992"
+    },
+    {
+      "path": "source/review/reconstruction_v1/source_front.png",
+      "bytes": 491157,
+      "sha256": "eea0966f84358382a7fbcd21a43c6849586713b5337ea59e010bbd6bfe03e509"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "part": "Galahad_Body",
+      "vertices": 146,
+      "faces": 276,
+      "visible_faces": 272
+    },
+    {
+      "part": "Galahad_Cockpit",
+      "vertices": 24,
+      "faces": 32,
+      "visible_faces": 28
+    },
+    {
+      "part": "Galahad_foot_1",
+      "vertices": 16,
+      "faces": 28,
+      "visible_faces": 28
+    },
+    {
+      "part": "Galahad_foot_2",
+      "vertices": 16,
+      "faces": 28,
+      "visible_faces": 28
+    },
+    {
+      "part": "Galahad_foot_03",
+      "vertices": 16,
+      "faces": 28,
+      "visible_faces": 28
+    },
+    {
+      "part": "Galahad_foot_04",
+      "vertices": 16,
+      "faces": 28,
+      "visible_faces": 28
+    }
+  ],
+  "source_sha256": "09d085e860996b37c0efc672ad564f5459b4be1915efeea11da8d4a9f0e62de3",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ]
+  ],
+  "geometry_signature": "7395f0a199709701122470024a910b4517b66841e68581c75ff0da4a5a511d67"
+}

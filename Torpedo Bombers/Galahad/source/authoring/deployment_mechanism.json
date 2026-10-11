@@ -1,0 +1,39 @@
+{
+  "native_file": "BTB_Glhd.SHP",
+  "ship_type": 25,
+  "parts": 6,
+  "deploy_parts": [
+    "Galahad foot 1",
+    "Galahad foot 2",
+    "Galahad foot 03",
+    "Galahad foot 04"
+  ],
+  "launch_points": {
+    "part": "Galahad Body",
+    "count": 2,
+    "positions": [
+      [
+        -83,
+        58,
+        56
+      ],
+      [
+        83,
+        58,
+        56
+      ]
+    ]
+  },
+  "distinction": "The two launch mounts belong to the body, not the four animated feet. No torpedo-bay geometry or attachment movement has been invented.",
+  "review_modes": {
+    "973": "stowed",
+    "972": "native deploy held",
+    "971": "native deploy/reverse cycle",
+    "970": "deploy; timed StartLaunch for torpedo 1, then torpedo 2; wait until launched; reverse deploy"
+  },
+  "launch_control": "Native player carried-torpedo input is Kamov-specific; Galahad review uses mission StartLaunch (0x14).",
+  "carried_ship_type": 74,
+  "carried_ship_count": 2,
+  "animation_bytes_preserved": true,
+  "gameplay_verified": false
+}

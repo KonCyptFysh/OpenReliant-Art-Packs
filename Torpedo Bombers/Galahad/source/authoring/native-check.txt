@@ -1,0 +1,3 @@
+ok: 6 parts, 624 vertices, 1012 faces
+bounds: 6 oriented
+written again: the same bytes
