@@ -1,0 +1,42 @@
+{
+  "package_name": "openreliant-hades",
+  "version": "0.1.0-beta.1",
+  "asset_revision": "1.0",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.8.1",
+  "mod_folders": [
+    "114-hades-worn-v1"
+  ],
+  "asset_manifest_sha256": "82c6b255b33acccf0b9d5a385d8e0c3f89d2064618707e30ca8469b7b2deb3da",
+  "source_manifest_sha256": "04b3692781d70c2f5259e8d2d140abb18f0460b8b72779c230d3d6a8289f7385",
+  "channel": "beta",
+  "user_approved": true,
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json",
+    "compatibility-0.8.json",
+    "tools/launch-hades-deployed-test.sh",
+    "tools/launch-hades-launch-test.sh",
+    "tools/launch-hades-stowed-test.sh",
+    "tools/launch-hades-test.sh",
+    "approval.json",
+    "gallery-validation.json",
+    "preview-validation.json"
+  ],
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-14T10:15:24.785152+00:00",
+    "asset_revision": "1.0",
+    "instruction": "Looks good, ship it!",
+    "scope": "Current Hades artwork accepted for this beta round and publication.",
+    "qualification": "User acceptance does not establish exhaustive gameplay or platform testing."
+  }
+}

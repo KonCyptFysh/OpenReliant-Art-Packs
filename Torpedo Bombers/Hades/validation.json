@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-13T06:38:35.293463+00:00",
+  "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
+  "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+  "asset_revision": "1.0",
+  "asset_manifest_sha256": "82c6b255b33acccf0b9d5a385d8e0c3f89d2064618707e30ca8469b7b2deb3da",
+  "source_manifest_sha256": "04b3692781d70c2f5259e8d2d140abb18f0460b8b72779c230d3d6a8289f7385",
+  "packaging_ready": true,
+  "user_approved": true,
+  "checks": [
+    "Native SHP and four DTE round trips",
+    "881 faces audited; 43 UV continuation counts corrected",
+    "Original geometry, per-face UVs, normals, attachments and animations preserved",
+    "4K maps decode; normalized normals, flat glass normals, zero glass metallic",
+    "Engine loader generates loadout colours and inherits material maps",
+    "Packed relative source reopened without geometry/UV/material changes",
+    "Four authoring views inspected",
+    "Four launchers pass shell syntax",
+    "User accepted artwork 1.0 for this beta round.",
+    "Native 3D preview verified: six parts, 364 visible triangles, native part hierarchy and runtime material maps.",
+    "Approved artwork, geometry and animation unchanged; mod.ini release wording updated.",
+    "Fresh official 0.8.1 stowed/deployed gallery captures inspected; matching standard camera and crop."
+  ],
+  "runtime_visual_review": "user_accepted_for_this_beta_round",
+  "tested_platforms": [
+    "Linux x86_64: official OpenReliant 0.8.1 non-visual checks; user acceptance for this beta"
+  ],
+  "approval_record": "approval.json",
+  "game_launched_by_agent": true,
+  "gallery_validation": "gallery-validation.json",
+  "limitations": [
+    "Complete deploy/reverse cycle, timed four-torpedo release, campaign combat, damage, ejection, cloaking, distance transitions and other platforms remain outside verified coverage.",
+    "Dedicated emissive maps remain deferred."
+  ]
+}
