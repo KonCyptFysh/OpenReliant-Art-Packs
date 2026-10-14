@@ -1,0 +1,49 @@
+{
+  "parts": [
+    {
+      "part": "Hades_body",
+      "vertices": 104,
+      "faces": 212,
+      "visible_faces": 210
+    },
+    {
+      "part": "torp_arm_1",
+      "vertices": 16,
+      "faces": 20,
+      "visible_faces": 20
+    },
+    {
+      "part": "torp_arm_3",
+      "vertices": 16,
+      "faces": 20,
+      "visible_faces": 20
+    },
+    {
+      "part": "torp_arm_2",
+      "vertices": 16,
+      "faces": 20,
+      "visible_faces": 20
+    },
+    {
+      "part": "torp_arm_4",
+      "vertices": 16,
+      "faces": 20,
+      "visible_faces": 20
+    },
+    {
+      "part": "Hades_cockpit",
+      "vertices": 40,
+      "faces": 76,
+      "visible_faces": 74
+    }
+  ],
+  "source_sha256": "a9afbf4161b6f02dad68bc75b49ee8a658273f4fd701bd35f2536fa60a0b8f32",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ]
+  ],
+  "geometry_signature": "af245ffed1684f717c167542a7cb12ec6079bad386cb1e97f2cdec2be73dc17f"
+}

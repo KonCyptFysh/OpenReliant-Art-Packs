@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "${HADES_WORKSPACE}/hades_worn_pbr_v1.blend",
+  "canonical_sha256": "92956fe213ef0d02c0e7253b12b4562c0143d3abd2c9612249878253cb565ac8",
+  "snapshot": "${ART_PACK_REPOSITORY}/Torpedo Bombers/Hades/source/hades_worn_pbr_v1.blend",
+  "snapshot_sha256": "4f19cc3f0c04172bfc1faa592e275dc30b8cb25371cfd8d0a2dbabfc15c52e4e",
+  "mesh_signature": "3324f4914f4912c66bfad274b367e0a14db68e3d03c527ca66b3cd2d4c9cd85d",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "hades_hull_basecolor_v1.png",
+      "path": "//resources/0b3503c6e9d2_hades_hull_basecolor_v1.png",
+      "sha256": "0b3503c6e9d2dfb0c328c257c30564426f38f69dd570ed9b7b0b959e7f761c66"
+    },
+    {
+      "image": "hades_hull_metallic_v1.png",
+      "path": "//resources/6fc8cf9db261_hades_hull_metallic_v1.png",
+      "sha256": "6fc8cf9db2613b4bba3fc729d5ae41c138df129eaaf3385a586f1a6bfa727bc7"
+    },
+    {
+      "image": "hades_hull_normal_v1.png",
+      "path": "//resources/4f2594a6ded6_hades_hull_normal_v1.png",
+      "sha256": "4f2594a6ded6dcefae8e4902e5448ad1416403f1d296657d0da93057ad947b71"
+    },
+    {
+      "image": "hades_hull_roughness_v1.png",
+      "path": "//resources/3a124e8bdc57_hades_hull_roughness_v1.png",
+      "sha256": "3a124e8bdc5744acf22755e4cd48835a5600ba8cac05287c3622f7fa07d0cd9c"
+    }
+  ]
+}

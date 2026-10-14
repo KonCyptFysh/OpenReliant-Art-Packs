@@ -1,7 +1,7 @@
 {
   "profile": "ship-gallery-v1",
-  "ships": 25,
-  "photographs": 28,
+  "ships": 26,
+  "photographs": 30,
   "captures": [
     {
       "asset": "coyote",
@@ -1372,6 +1372,104 @@
         556,
         2026,
         1555
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "hades",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 26,
+      "mission": 968,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Torpedo Bombers/Hades/asset-manifest.json",
+      "runtime_manifest_sha256": "82c6b255b33acccf0b9d5a385d8e0c3f89d2064618707e30ca8469b7b2deb3da",
+      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Hades/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "50045b084f1e26449fd238c0ff0838f1a71e4c386bf04ab46f72783e9d10e3d2",
+      "captured_at_utc": "2026-10-14T10:16:05.263250+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/hades/gallery-overview-v1.webp",
+      "gallery_sha256": "ab88f98d7cbfef64862594a937f88e7102224a05edd063d662a757e537117d64",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        803,
+        639,
+        1914,
+        1372
+      ],
+      "crop": [
+        626,
+        456,
+        2090,
+        1554
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "hades",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "deployed",
+      "profile": "ship-gallery-v1",
+      "ship_type": 26,
+      "mission": 967,
+      "ticks": 450,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Torpedo Bombers/Hades/asset-manifest.json",
+      "runtime_manifest_sha256": "82c6b255b33acccf0b9d5a385d8e0c3f89d2064618707e30ca8469b7b2deb3da",
+      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Hades/worn/review/gallery_standard_v1/deployed.png",
+      "raw_sha256": "b44da11b07bf1b0d96f5a0249839cdf1b1890a7c1eae6399fcc1a6c7a45107a4",
+      "captured_at_utc": "2026-10-14T10:16:10.086750+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/hades/gallery-deployed-v1.webp",
+      "gallery_sha256": "fc3c6e18685fe5f4a0b754d24b3623b957337c2469700b8970d6589b5b542d64",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        803,
+        639,
+        1914,
+        1372
+      ],
+      "crop": [
+        626,
+        456,
+        2090,
+        1554
       ],
       "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }

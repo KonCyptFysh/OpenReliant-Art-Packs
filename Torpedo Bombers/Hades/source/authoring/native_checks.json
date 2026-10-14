@@ -1,0 +1,32 @@
+[
+  {
+    "file": "USTB_Hds.SHP",
+    "exit_code": 0,
+    "output": "ok: 6 parts, 487 vertices, 881 faces\nbounds: 6 oriented\nwritten again: the same bytes\n",
+    "sha256": "adafd08efff9cee4934c8ed7a00b32efec699fbf80fcc2edaff4d6ba46903d9e"
+  },
+  {
+    "file": "mission965.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "d4e7152c0647c9d0939cc39c2a6e221078b5ad311dbdf98c7a6483af2330bac9"
+  },
+  {
+    "file": "mission966.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "81d9ebadd615d376a8b1c96ee6187c0504fcdadb118603af2abb6715dac8c0f5"
+  },
+  {
+    "file": "mission967.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "e07a768e4239f621caaa6729a5b48f028434d1bd2648cace70ac79e3af7e065e"
+  },
+  {
+    "file": "mission968.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 2 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "182587b3522fcefced36c2791c377eae303b333caa48ec2f6e0a4c2cf48555de"
+  }
+]

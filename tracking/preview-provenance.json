@@ -856,5 +856,47 @@
     "native_part_origins_verified": true,
     "asset_revision": "1.1",
     "asset_manifest_sha256": "c9352b4f120a695d8a5e314ace6d66753a47b8ba983d93b744ddf6f330d1d59d"
+  },
+  "hades": {
+    "model": "USTB_Hds.SHP",
+    "model_sha256": "adafd08efff9cee4934c8ed7a00b32efec699fbf80fcc2edaff4d6ba46903d9e",
+    "preview_sha256": "e5db8ac330203fe870441284702afb1e1840ad3b25ac7a2ff94b78f9d17a211d",
+    "preview_bytes": 1521472,
+    "highest_detail_geometry": true,
+    "textures": [
+      {
+        "runtime_file": "orhd1_hull.png",
+        "sha256": "0b3503c6e9d2dfb0c328c257c30564426f38f69dd570ed9b7b0b959e7f761c66",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orhd1_hull_normal.png",
+        "sha256": "4f2594a6ded6dcefae8e4902e5448ad1416403f1d296657d0da93057ad947b71",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orhd1_hull_orm.png",
+        "sha256": "70f6225fc1308c9afde96e81117223fa8b5feacfc84e64d53075dc0a7fe83fac",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "limitations": "Static native rest pose with reduced 1024px maps and browser lighting. Engine effects, animations and carried torpedoes omitted; game photos show actual appearance.",
+    "parts": 6,
+    "visible_triangles": 364,
+    "native_part_origins_verified": true,
+    "asset_revision": "1.0",
+    "asset_manifest_sha256": "82c6b255b33acccf0b9d5a385d8e0c3f89d2064618707e30ca8469b7b2deb3da"
   }
 }

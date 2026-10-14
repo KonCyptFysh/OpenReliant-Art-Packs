@@ -1,0 +1,33 @@
+{
+  "reviewed_at_utc": "2026-10-13T06:38:35.293463+00:00",
+  "kind": "Blender static authoring views; not gameplay",
+  "views": [
+    {
+      "path": "review/reconstruction_v1/material_front.png",
+      "bytes": 1049554,
+      "sha256": "4e1693602b4532b5d76630ae1e1c2b6c7889f7e12728155d86fcb3280f657b5e"
+    },
+    {
+      "path": "review/reconstruction_v1/material_opposite.png",
+      "bytes": 1100842,
+      "sha256": "0c2e7128d6ec34adcc80a047a81e22682630169dbf2769abece7f6849ac09abc"
+    },
+    {
+      "path": "review/reconstruction_v1/material_rear.png",
+      "bytes": 878805,
+      "sha256": "22c258735c3362ebf7f77944cbeaeb772d1092771f78b94c5906b618b3e4e3e4"
+    },
+    {
+      "path": "review/reconstruction_v1/material_belly.png",
+      "bytes": 1074077,
+      "sha256": "51ee8a20cda6d2f284de41c458a29218c6a07be2c5949eea46ee754896cf1372"
+    }
+  ],
+  "observations": [
+    "Original upright silhouette, brown/green/grey livery and US markings retained.",
+    "Both sides, rear and underside inspected.",
+    "Original UV coordinates preserved; no collapsed visible faces.",
+    "Glass interiors have flat normals and a separate recessed height profile; preview highlights come from studio lights."
+  ],
+  "runtime_visual_review": "pending_user"
+}

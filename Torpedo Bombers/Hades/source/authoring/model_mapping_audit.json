@@ -1,0 +1,8 @@
+{
+  "inspected_source": "/home/lva-8700/.codex/.chatgpt-projects/g-p-6ac04f0d792c8191903a4b87653b44f6/work/release-preparation/upstream/src/engine/game/create/models.zig",
+  "sha256": "b60b1e426fede001d5bbf48d1d5a267df3792e91eb386d2f3cc871eb7dcb4926",
+  "entry": "0x1A / type 26: ustb_hds.shp",
+  "distinct_hades_model_entries": 1,
+  "conclusion": "One shared native model identified; no separate player or AI model entry.",
+  "original_model_sha256": "a9afbf4161b6f02dad68bc75b49ee8a658273f4fd701bd35f2536fa60a0b8f32"
+}

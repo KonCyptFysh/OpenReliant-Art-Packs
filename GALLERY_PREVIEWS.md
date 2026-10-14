@@ -23,7 +23,7 @@ The common camera is `--watch 0 --watch-from 1.4,-1.4,1.4`, 45 degrees around an
 35.264 degrees above the nose, 2560 by 1920, eight-sample antialiasing and seed 1.
 The quiet fixture uses the authored Mirage inspection mission, with no combat,
 movement, UI text or third-party visual effects. Normal photos are taken at tick 60;
-the three articulated ships use their native stowed/deployed inspection missions,
+articulated ships use their native stowed/deployed inspection missions,
 with deployed/fighting captures at tick 450. The stowed/folded image goes first.
 The capture script's ship-type table must include any newly published ship.
 

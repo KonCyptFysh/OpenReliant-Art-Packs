@@ -1,0 +1,467 @@
+{
+  "passed": true,
+  "source_sha256": "a9afbf4161b6f02dad68bc75b49ee8a658273f4fd701bd35f2536fa60a0b8f32",
+  "output_sha256": "adafd08efff9cee4934c8ed7a00b32efec699fbf80fcc2edaff4d6ba46903d9e",
+  "uv_edits": [],
+  "continuation_corrections": [
+    {
+      "part": "Hades body",
+      "lod": 1,
+      "face": 19,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Hades body",
+      "lod": 1,
+      "face": 20,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 14,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 15,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 20,
+      "prior": 9,
+      "remaining": 8
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 21,
+      "prior": 8,
+      "remaining": 7
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 22,
+      "prior": 7,
+      "remaining": 6
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 23,
+      "prior": 6,
+      "remaining": 5
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 24,
+      "prior": 5,
+      "remaining": 4
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 25,
+      "prior": 4,
+      "remaining": 3
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 26,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 27,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 28,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 39,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 48,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 49,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 70,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 71,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "face": 72,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 11,
+      "prior": 9,
+      "remaining": 8
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 12,
+      "prior": 8,
+      "remaining": 7
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 13,
+      "prior": 7,
+      "remaining": 6
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 14,
+      "prior": 6,
+      "remaining": 5
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 15,
+      "prior": 5,
+      "remaining": 4
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 16,
+      "prior": 4,
+      "remaining": 3
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 17,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 18,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 19,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 30,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 56,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 57,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "face": 58,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 4,
+      "face": 8,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Hades body",
+      "lod": 4,
+      "face": 9,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 4,
+      "face": 10,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Hades body",
+      "lod": 4,
+      "face": 11,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 4,
+      "face": 14,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 4,
+      "face": 40,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 5,
+      "face": 14,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Hades body",
+      "lod": 5,
+      "face": 15,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Hades body",
+      "lod": 6,
+      "face": 5,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Hades body",
+      "lod": 6,
+      "face": 6,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Hades cockpit",
+      "lod": 2,
+      "face": 21,
+      "prior": 1,
+      "remaining": 0
+    }
+  ],
+  "detail_meshes": [
+    {
+      "part": "Hades body",
+      "lod": 0,
+      "faces": 212,
+      "groups_before": 86,
+      "groups_after": 86,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Hades body",
+      "lod": 1,
+      "faces": 138,
+      "groups_before": 64,
+      "groups_after": 65,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Hades body",
+      "lod": 2,
+      "faces": 102,
+      "groups_before": 43,
+      "groups_after": 49,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Hades body",
+      "lod": 3,
+      "faces": 70,
+      "groups_before": 28,
+      "groups_after": 32,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Hades body",
+      "lod": 4,
+      "faces": 46,
+      "groups_before": 17,
+      "groups_after": 21,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Hades body",
+      "lod": 5,
+      "faces": 25,
+      "groups_before": 17,
+      "groups_after": 18,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Hades body",
+      "lod": 6,
+      "faces": 12,
+      "groups_before": 10,
+      "groups_after": 11,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "torp arm 1",
+      "lod": 0,
+      "faces": 20,
+      "groups_before": 10,
+      "groups_after": 10,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "torp arm 1",
+      "lod": 1,
+      "faces": 8,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "torp arm 3",
+      "lod": 0,
+      "faces": 20,
+      "groups_before": 10,
+      "groups_after": 10,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "torp arm 3",
+      "lod": 1,
+      "faces": 8,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "torp arm 2",
+      "lod": 0,
+      "faces": 20,
+      "groups_before": 10,
+      "groups_after": 10,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "torp arm 2",
+      "lod": 1,
+      "faces": 8,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "torp arm 4",
+      "lod": 0,
+      "faces": 20,
+      "groups_before": 10,
+      "groups_after": 10,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "torp arm 4",
+      "lod": 1,
+      "faces": 8,
+      "groups_before": 2,
+      "groups_after": 2,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Hades cockpit",
+      "lod": 0,
+      "faces": 76,
+      "groups_before": 31,
+      "groups_after": 31,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Hades cockpit",
+      "lod": 1,
+      "faces": 50,
+      "groups_before": 26,
+      "groups_after": 26,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Hades cockpit",
+      "lod": 2,
+      "faces": 30,
+      "groups_before": 16,
+      "groups_after": 17,
+      "all_shared_corner_uvs_match": true
+    },
+    {
+      "part": "Hades cockpit",
+      "lod": 3,
+      "faces": 8,
+      "groups_before": 5,
+      "groups_after": 5,
+      "all_shared_corner_uvs_match": true
+    }
+  ],
+  "all_881_faces_checked": true,
+  "geometry_normals_attachments_animation_collision_and_winding_byte_identical": true,
+  "allowed_changes": "Texture names, primitive continuation counts at UV seams only",
+  "changed_bytes": 233
+}

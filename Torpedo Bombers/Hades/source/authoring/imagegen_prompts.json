@@ -1,0 +1,12 @@
+{
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Asset type: fixed-layout square UV diffuse atlas for the StarLancer Hades torpedo bomber. EDIT TARGET: the original Torp_2 atlas in the attached image. Reconstruct this EXACT atlas at high resolution, edge to edge, with no crop, margin, rotation or perspective. Preserve every normalized feature position, panel boundary, silhouette, vent, window, decal, stripe and orientation; this must fit the unmodified native UV coordinates. Preserve the original worn bronze-brown central armour, cool grey alloy surrounding panels, dark machinery, yellow/black caution edging, tiny red and amber indicators, and the small white US star with blue circle and red/white bars near x44% y63%. Keep existing wear and restrained paint chips, refine their definition without making new greebles or changing livery. Green cockpit panes near x7-21% y12-27%, and green pane shapes along x39-58% y31-59%, must have clean opaque very dark desaturated green interiors without baked highlights, mottling or streaks. Retain their exact silhouettes and original narrow frames. Distinguish ribbed metal machinery from smooth glass; retain ribs only where already present on the source. Crisp straight restrained panel gaps should meet existing boundaries cleanly. Keep graphic symbols flat. Maintain fine, legible native small technical details without invented text. Do not add any new insignia, RAF bird or crest. Flat diffuse texture only, no directional illumination, no bloom, no exaggerated raised bevels, no 3D view, no new borders. Preserve the full square atlas and all original layout proportions exactly.",
+  "input": "source/torp_2.png",
+  "output": "maps/hades_hull_reconstructed_v1.png",
+  "input_sha256": "1cca032e24af714b98fe6439f9f9382db68b8e48b033ff706833d27af4f42805",
+  "output_sha256": "f8764c55813f3f51e2a79cabac631bb8a4500fd07c4882553999df4aa1895f4c",
+  "output_dimensions": [
+    1254,
+    1254
+  ]
+}
