@@ -1,0 +1,8 @@
+{
+  "user_approved": true,
+  "approved_at_utc": "2026-10-16T13:06:05.050497+00:00",
+  "asset_revision": "1.0",
+  "instruction": "That's a very clean first pass, happy for that to go upto git as is",
+  "scope": "Publish the current Scimitar artwork, editable source, mod package and standard gallery assets.",
+  "qualification": "Artwork acceptance does not establish exhaustive gameplay or platform testing."
+}

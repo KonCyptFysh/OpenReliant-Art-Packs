@@ -1290,8 +1290,8 @@
       "category": "torpedo-bombers",
       "folder": "Torpedo Bombers/Scimitar",
       "status": "coming-soon",
-      "description": "Scimitar torpedo-bomber restoration. Planned; artwork has not started.",
-      "workStatus": "planned",
+      "description": "Worn grey and brown Coalition torpedo bomber with red accents, inset amber glazing and two native fixed torpedo mounts.",
+      "workStatus": "in-progress",
       "defaultLivery": "worn-paint",
       "liveries": [
         {
@@ -1299,9 +1299,27 @@
           "name": "Worn Paint",
           "status": "coming-soon",
           "notes": [
-            "Artwork has not started. No published download yet."
+            "Artwork 1.0 accepted for this beta round.",
+            "One canonical PNG set; engine-generated loadout colours.",
+            "Review launchers use official 0.18.0; native pack baseline 0.8.1."
           ],
-          "engineStatus": "to-be-confirmed"
+          "engineStatus": "user-approved-beta",
+          "engine": "0.8.1",
+          "assetRevision": "1.0",
+          "modFolder": "115-scimitar-worn-v1",
+          "model": "models/scimitar.glb",
+          "validationSummary": "Artwork accepted for this beta. Native checks passed on official 0.8.1 and 0.18.0, with material-loader, preservation and package checks. Broader gameplay remains untested.",
+          "preview": "assets/scimitar/gallery-overview-v1.webp",
+          "defaultPreview": "image",
+          "previewSource": "Fresh capture in official OpenReliant 0.8.1",
+          "previewType": "capture",
+          "previewArtworkRevision": "1.0",
+          "images": [
+            {
+              "src": "assets/scimitar/gallery-overview-v1.webp",
+              "caption": "Scimitar — front three-quarter view, torpedoes carried"
+            }
+          ]
         }
       ],
       "entryType": "ship",

@@ -898,5 +898,47 @@
     "native_part_origins_verified": true,
     "asset_revision": "1.0",
     "asset_manifest_sha256": "82c6b255b33acccf0b9d5a385d8e0c3f89d2064618707e30ca8469b7b2deb3da"
+  },
+  "scimitar": {
+    "model": "Scimitar.SHP",
+    "model_sha256": "cb0fe515c7eca49ec7f002c20fc544b24a8521acf676b46e051742122783aff1",
+    "preview_sha256": "b566b5c304de176411f90ff2614867254944266517d52ff700ad098e21eda260",
+    "preview_bytes": 1737448,
+    "highest_detail_geometry": true,
+    "textures": [
+      {
+        "runtime_file": "orsc1_hull.png",
+        "sha256": "8608e5b8a18ad5111774e0fde685279e6b615b6b62eea9ef2fbdb93f14da7b75",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orsc1_hull_normal.png",
+        "sha256": "96d2d952c46ec231e06e862da01f8f7cd3a7b651d6698e215229cd9bb04cfa13",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orsc1_hull_orm.png",
+        "sha256": "49de27b7974916b478c4cb748a6379917d70bcac7db02b72d0b613cf32e20202",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "limitations": "Static model with reduced 1024px maps and browser lighting. Carried torpedoes and engine effects omitted; game photo shows runtime appearance.",
+    "parts": 1,
+    "visible_triangles": 476,
+    "native_part_origins_verified": true,
+    "asset_revision": "1.0",
+    "asset_manifest_sha256": "6cd8fab3d864fbaa8713c2e3df221561f2bce71ec295dd0d84835580435db008"
   }
 }
