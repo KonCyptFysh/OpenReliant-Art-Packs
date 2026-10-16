@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-16T13:25:24.158087+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1",
+  "tag": "scimitar-v0.1.0-beta.1",
+  "source_commit": "1ebf38b240d06c39b4ff3868774a10e70c12e172",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/scimitar-v0.1.0-beta.1/openreliant-scimitar-0.1.0-beta.1.zip",
+  "zip_sha256": "8a6cbcd2fc72ef262ddeee9626c112a6e71b48b88977a49e61078412fbf07da0",
+  "download_bytes": 30656062,
+  "github_asset_digest_matches": true,
+  "downloaded_zip_and_checksum_match": true,
+  "downloaded_runtime_files_match": true
+}

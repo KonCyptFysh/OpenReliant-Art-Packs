@@ -1289,15 +1289,15 @@
       "name": "Scimitar",
       "category": "torpedo-bombers",
       "folder": "Torpedo Bombers/Scimitar",
-      "status": "coming-soon",
+      "status": "available",
       "description": "Worn grey and brown Coalition torpedo bomber with red accents, inset amber glazing and two native fixed torpedo mounts.",
-      "workStatus": "in-progress",
+      "workStatus": "released",
       "defaultLivery": "worn-paint",
       "liveries": [
         {
           "id": "worn-paint",
           "name": "Worn Paint",
-          "status": "coming-soon",
+          "status": "available",
           "notes": [
             "Artwork 1.0 accepted for this beta round.",
             "One canonical PNG set; engine-generated loadout colours.",
@@ -1319,7 +1319,13 @@
               "src": "assets/scimitar/gallery-overview-v1.webp",
               "caption": "Scimitar — front three-quarter view, torpedoes carried"
             }
-          ]
+          ],
+          "version": "0.1.0-beta.1",
+          "tag": "scimitar-v0.1.0-beta.1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/scimitar-v0.1.0-beta.1/openreliant-scimitar-0.1.0-beta.1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1",
+          "checksum": "8a6cbcd2fc72ef262ddeee9626c112a6e71b48b88977a49e61078412fbf07da0",
+          "downloadBytes": 30656062
         }
       ],
       "entryType": "ship",
