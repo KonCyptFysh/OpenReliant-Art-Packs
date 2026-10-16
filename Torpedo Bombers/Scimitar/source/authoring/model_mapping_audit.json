@@ -1,0 +1,8 @@
+{
+  "engine": "Official OpenReliant 0.18.0",
+  "ship_type": 48,
+  "model": "scimitar.shp",
+  "distinct_model_entries": 1,
+  "conclusion": "One shared player/AI model entry. Two fixed native launch mounts. No deploy animation; the unnamed clip has identical transforms.",
+  "source_sha256": "b60b1e426fede001d5bbf48d1d5a267df3792e91eb386d2f3cc871eb7dcb4926"
+}

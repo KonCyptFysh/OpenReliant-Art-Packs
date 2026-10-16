@@ -1,0 +1,9 @@
+16 bytes of script in 1 routine
+
+0 to 16: part 0, (F)ScimitarInspection
+       2  2d 00       push_flight_group   0
+       4  21 03       command   CreateFlightGroup
+       6  2d 01       push_flight_group   1
+       8  21 03       command   CreateFlightGroup
+      10  32 01       push_byte   1
+      12  43          return

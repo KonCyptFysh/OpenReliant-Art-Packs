@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-16T12:45:04.500766+00:00",
+  "review_engine": "0.18.0",
+  "minimum_openreliant": "0.8.1",
+  "asset_revision": "1.0",
+  "user_approved": true,
+  "packaging_ready": true,
+  "asset_manifest_sha256": "6cd8fab3d864fbaa8713c2e3df221561f2bce71ec295dd0d84835580435db008",
+  "source_manifest_sha256": "79d65e1b30015070b000b144f033639ef257eb93542822ddcea44d1b8db645df",
+  "checks": [
+    "Native SHP and two DTE round trips on 0.8.1 and 0.18.0",
+    "476 faces audited; original geometry, UVs, normals and launch mounts retained",
+    "Normalized normals; flat glass interiors with zero metallic; correct ORM packing",
+    "Engine-generated loadout variants inherit material maps",
+    "Packed portable scene reopened and compared",
+    "Both sides, rear and belly inspected in Blender",
+    "Two shell launchers verified",
+    "User accepted artwork 1.0 for publication as-is.",
+    "Native 3D preview verified: one part, 476 triangles, native origin and runtime materials.",
+    "Approved artwork and model unchanged; mod.ini release wording updated.",
+    "Fresh official 0.8.1 gallery capture of approved runtime inspected; ship, gun and both torpedoes fully framed."
+  ],
+  "runtime_visual_review": "user_accepted_for_this_beta_round",
+  "tested_platforms": [
+    "Linux x86_64: native checks on official OpenReliant 0.8.1 and 0.18.0; user artwork acceptance"
+  ],
+  "approval_record": "approval.json",
+  "game_launched_by_agent": true,
+  "engine_build": "Official OpenReliant 0.18.0 linux-x86_64; ship-gallery-v1 capture uses official 0.8.1",
+  "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+  "gallery_validation": "gallery-validation.json"
+}

@@ -1,0 +1,18 @@
+version:  107
+flags:    components=false cloak=false
+parts:    1
+vertices: 236
+faces:    476
+arcs:     0
+bounds:   (-493,-179,-713) to (488,282,820), 982 x 461 x 1533
+
+[  0] Scimitar                           type  0  parent  -1  link 0
+        lod 0:   236 vertices   476 faces   1 materials
+        0 nodes, 4 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          launch point 8 at (350,20,0)
+          launch point 8 at (-350,20,0)
+          engine glow 2 at (160,-106,-550)  id 3 size (100,50,-400)
+          engine glow 2 at (-177,-107,-550)  id 3 size (100,50,-400)
+
+textures (1): SCIMITAR

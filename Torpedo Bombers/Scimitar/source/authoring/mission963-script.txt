@@ -1,0 +1,18 @@
+40 bytes of script in 1 routine
+
+0 to 40: part 0, (F)ScimitarInspection
+       2  2d 00       push_flight_group   0
+       4  21 03       command   CreateFlightGroup
+       6  2d 01       push_flight_group   1
+       8  21 03       command   CreateFlightGroup
+      10  28 00       push_constant   = 8
+      12  21 05       command   Wait
+      14  2c 01       push_ship   1  Carried torpedo 1
+      16  21 14       command   StartLaunch
+      18  28 01       push_constant   = 6
+      20  21 05       command   Wait
+      22  2c 02       push_ship   2  Carried torpedo 2
+      24  21 14       command   StartLaunch
+      26  32 01       push_byte   1
+      28  43          return
+  constants: 8 6

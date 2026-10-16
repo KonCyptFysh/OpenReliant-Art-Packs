@@ -1,0 +1,13 @@
+{
+  "native_parts": 1,
+  "native_launch_mounts": 2,
+  "launch_mounts_preserved": true,
+  "deployment_motion": false,
+  "carried_ship_type": 92,
+  "carried_ship_count": 2,
+  "review_modes": {
+    "964": "carried/stowed",
+    "963": "timed two-torpedo release"
+  },
+  "runtime_gameplay_verified": false
+}

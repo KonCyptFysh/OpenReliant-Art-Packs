@@ -1,0 +1,19 @@
+{
+  "parts": [
+    {
+      "part": "Scimitar",
+      "vertices": 236,
+      "faces": 476,
+      "visible_faces": 476
+    }
+  ],
+  "source_sha256": "e76d0f5963054c6c3189bda4acfd66a0140a7d237587c0ac872f5a5485c5bb72",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ]
+  ],
+  "geometry_signature": "c07d8516eee82dee52f02380b60bdd6aab04c09e68877fc0e5be94e12fdcbd04"
+}

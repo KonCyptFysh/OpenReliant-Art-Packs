@@ -1,0 +1,342 @@
+{
+  "status": "approved-release-snapshot",
+  "ship": "Scimitar",
+  "asset_revision": "1.0",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 727,
+      "sha256": "e6a44d2eb8e931d8d8f6773e63596922e942a87fe17f21da1096da5f6bcb35fd"
+    },
+    {
+      "path": "source/authoring/animation_preservation.json",
+      "bytes": 626,
+      "sha256": "ae44cadb8b6a9c25c158b52552d34bb536ac1f6e844468c4584e6287694ec62f"
+    },
+    {
+      "path": "source/authoring/authoring_review.json",
+      "bytes": 558,
+      "sha256": "ba9691f8ee2ed884ed82574bc3589ee4c9063b06c5722a5fa07c5cdba8e1d089"
+    },
+    {
+      "path": "source/authoring/baseline_audit.json",
+      "bytes": 450,
+      "sha256": "545251ecc525d9ad2fe13b47e771563c289fe57e0a3527716a3867c818024cc5"
+    },
+    {
+      "path": "source/authoring/build_inspection.py",
+      "bytes": 6890,
+      "sha256": "f00459a179abd60e4cef3408b9fc36f86761d94abb09b7d452096d4eabb0601f"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 8907,
+      "sha256": "4db3ee20df00ff1e34007c09fc5fb7ae9f982a0604bbacbb96bd6b66c1a98604"
+    },
+    {
+      "path": "source/authoring/build_source.py",
+      "bytes": 7309,
+      "sha256": "f52da5b59bc5b1c4b63001edee7ca2d5137d8b72623fc21f680e585530241e3b"
+    },
+    {
+      "path": "source/authoring/compatibility.json",
+      "bytes": 3058,
+      "sha256": "4d3af13d32f70b8516ad7e60d92a16b6f11a91ba0051bf33c7f4b46433844ff0"
+    },
+    {
+      "path": "source/authoring/deployment_mechanism.json",
+      "bytes": 303,
+      "sha256": "86b3f6aa59ab8bb71a5e7895b0ea35f0671ae844ac7cf8e302078f8d5763e5a3"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 8170,
+      "sha256": "9e621392953a66d828d3560b51f14485e3fa3367da3fee4996c4dc7cdb0a1507"
+    },
+    {
+      "path": "source/authoring/finish_review.py",
+      "bytes": 16531,
+      "sha256": "6809c0127cb4c365ef4be52aeef94af82a0d05c75e0365c1199a83e5e16460b0"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 4368,
+      "sha256": "6408adca6bf386dc62823851703914658ed9f5c48e0fcbde0c736ab6f2eed17b"
+    },
+    {
+      "path": "source/authoring/inspection-checks.json",
+      "bytes": 1237,
+      "sha256": "22c038ecebeee2defda28a671c0f5fdbd019222f79a2aded1ec1a45bd08d63b5"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 268,
+      "sha256": "f84cec8bb377ae27eaac10bbad53dac8413e97161581679a13f72e4e4f686f37"
+    },
+    {
+      "path": "source/authoring/mission963-script.txt",
+      "bytes": 698,
+      "sha256": "68b942d3f7d4b95c2eb5daef8775fd784fcb6cb53d68a3b064566f2a3c54ca8e"
+    },
+    {
+      "path": "source/authoring/mission963-ships.txt",
+      "bytes": 509,
+      "sha256": "8fb6dca46b50290a8e3553abde499ae8a2fe47da69782b42a825470f4d4645f8"
+    },
+    {
+      "path": "source/authoring/mission963.luau",
+      "bytes": 918,
+      "sha256": "0923e4537d09ee586d10dae9fd0afd400b148b5343be9b7d7cac171db98dc960"
+    },
+    {
+      "path": "source/authoring/mission964-script.txt",
+      "bytes": 325,
+      "sha256": "a0749f7f33bb3525a33056754f133e212bea6328ef342990e27b6dda6c09b666"
+    },
+    {
+      "path": "source/authoring/mission964-ships.txt",
+      "bytes": 509,
+      "sha256": "8fb6dca46b50290a8e3553abde499ae8a2fe47da69782b42a825470f4d4645f8"
+    },
+    {
+      "path": "source/authoring/mission964.luau",
+      "bytes": 824,
+      "sha256": "d03546b70e4841e70b59151424dd04e67b213f0bfc2a93c12a6206d6bb65c8f3"
+    },
+    {
+      "path": "source/authoring/model_mapping_audit.json",
+      "bytes": 359,
+      "sha256": "822ffac024079f72c8f870f537d699eb715a749ed7cbce3748efaba046ae09b3"
+    },
+    {
+      "path": "source/authoring/native-check.txt",
+      "bytes": 82,
+      "sha256": "97c705adc0ed1ea05ea7aad427e6217af8a19604b4da63b25c63db9f00653957"
+    },
+    {
+      "path": "source/authoring/native-chunks.json",
+      "bytes": 2035,
+      "sha256": "8f19505c3617bc9d6579d280be22dc69656e0f95230c77eb8af9867b6fadd96b"
+    },
+    {
+      "path": "source/authoring/native-chunks.txt",
+      "bytes": 547,
+      "sha256": "b95c7b07ff73fca6b153db3ed4aa447dc47dd76cb217032b5ec340c6c1576163"
+    },
+    {
+      "path": "source/authoring/native-components.txt",
+      "bytes": 73,
+      "sha256": "13e72d1ed126936952cdae485d352ac9c342fc896ef9de1469dcb3ee21a5656d"
+    },
+    {
+      "path": "source/authoring/native-info.txt",
+      "bytes": 661,
+      "sha256": "f7bce42689fecc14bc9ecb5b104a946fefe149f46b3d2fbef8f59a4f97e9e5d1"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 845,
+      "sha256": "9672206b29a41bd1df7eabe3b7e25537b3d23089ff36d7d5967f44a0306ea02f"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 2144,
+      "sha256": "8f615c2a6de8cc685b86cbb937f21f19087fcc56d3ab53c7ab9842229b5fbc23"
+    },
+    {
+      "path": "source/authoring/native_summary.json",
+      "bytes": 2173,
+      "sha256": "9a013fb2e322cc8180ef6f6f66d37dec46ad5dedbe8451a5215c41b1d5753d3c"
+    },
+    {
+      "path": "source/authoring/parse_native.py",
+      "bytes": 2381,
+      "sha256": "85b8187394ba7f12c9a740827127d7b6ca8f8b9bb2771f0a444d12384aa2beb6"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2425,
+      "sha256": "8acd33e096ba6fd0d31f288a8414949fbdf76b858cf81bcbb79e30f1d9fb035c"
+    },
+    {
+      "path": "source/authoring/prepare_scimitar.py",
+      "bytes": 8986,
+      "sha256": "e5f46a31cf143e4394163ee0a0581a32ed0f9df229497fd691a3f0574e2d1842"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 22019,
+      "sha256": "01148d6901f6d72cf8ddaf15fc9046d2262002c280b634aeb70a746684324e61"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 1432,
+      "sha256": "21f9a77d8e72b31cc086fc751b853f6e5b68c3af4c85724aaeb3361aa947d077"
+    },
+    {
+      "path": "source/authoring/source_uv_audit.json",
+      "bytes": 5036,
+      "sha256": "b2067c11c46f43aca7f8b2927c2e6ad79653fee9e2450f8956f04f9828724ff4"
+    },
+    {
+      "path": "source/authoring/source_uv_audit.py",
+      "bytes": 1125,
+      "sha256": "8ae4194abcf89eb657b1c4ed4c9f0652a375a86b873a9cd18deb4c3d6c2e9a53"
+    },
+    {
+      "path": "source/authoring/start_scimitar.py",
+      "bytes": 2903,
+      "sha256": "0712771c65b158a496b03379b747cbd97c3a63e3c8eb738b430f4244da3f61ed"
+    },
+    {
+      "path": "source/authoring/texture-loader-probe.log",
+      "bytes": 110,
+      "sha256": "63c09d8f8cb15461c1d788a196258cac89331f1e38482359e006c2a0e9894e57"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 267059,
+      "sha256": "db3bc8cd3a85289b9022c5ce54c49595b07df4b17e6014f46df050f15937a5bf"
+    },
+    {
+      "path": "source/maps/scimitar_hull_basecolor_v1.png",
+      "bytes": 19620429,
+      "sha256": "8608e5b8a18ad5111774e0fde685279e6b615b6b62eea9ef2fbdb93f14da7b75"
+    },
+    {
+      "path": "source/maps/scimitar_hull_fins_v1.png",
+      "bytes": 103711,
+      "sha256": "9e76746f302d7e15bb4fd432cdf99d6aeaed56e56b2c726457e5f6b16e564afb"
+    },
+    {
+      "path": "source/maps/scimitar_hull_flat_graphics_v1.png",
+      "bytes": 65488,
+      "sha256": "45496fcce16014d795db8588cd8af2e34cdeafd839998d928be89e91e35a5481"
+    },
+    {
+      "path": "source/maps/scimitar_hull_frame_v1.png",
+      "bytes": 138329,
+      "sha256": "32c96031e464d58e08194980b905b00cbd12177d26eb2281c599006631f9feaa"
+    },
+    {
+      "path": "source/maps/scimitar_hull_glass_v1.png",
+      "bytes": 83767,
+      "sha256": "92e819fce04d729faea36e268a0477215ab0409141c9e82e32a3902b9933a607"
+    },
+    {
+      "path": "source/maps/scimitar_hull_height_v1.png",
+      "bytes": 154228,
+      "sha256": "61ada2d80aa6bcc339febbd95501bcd2077aae322cc60c2fec37c55b19a9d1e3"
+    },
+    {
+      "path": "source/maps/scimitar_hull_metallic_v1.png",
+      "bytes": 6712796,
+      "sha256": "3e83b0d993d97c3a33c2eea81a61803526d81b9024e14e6d63a434a9f3e9eb89"
+    },
+    {
+      "path": "source/maps/scimitar_hull_normal_v1.png",
+      "bytes": 345638,
+      "sha256": "96d2d952c46ec231e06e862da01f8f7cd3a7b651d6698e215229cd9bb04cfa13"
+    },
+    {
+      "path": "source/maps/scimitar_hull_paint_v1.png",
+      "bytes": 3463961,
+      "sha256": "ba648e4d71cc30ee7ce102a0fc9dffac5ee5fdbaf5dfb508a23b0961aee93000"
+    },
+    {
+      "path": "source/maps/scimitar_hull_panels_v1.png",
+      "bytes": 111007,
+      "sha256": "5de719ff25e57dff5cdcb32f0cd7d33ec1b30b014255605b19a389caf16e1782"
+    },
+    {
+      "path": "source/maps/scimitar_hull_reconstructed_initial.png",
+      "bytes": 3450861,
+      "sha256": "4af1eb528c01b2dbd5afc2a544fd604dc56c2dc87c39b0764a639af1619de8de"
+    },
+    {
+      "path": "source/maps/scimitar_hull_reconstructed_v1.png",
+      "bytes": 3689876,
+      "sha256": "029abdd2b7f8027337c104d10ee3b3f40e8d5274dd56ec29f9aae36870d40252"
+    },
+    {
+      "path": "source/maps/scimitar_hull_roughness_v1.png",
+      "bytes": 6640449,
+      "sha256": "1b69b85e6507530aec2c41928fab65ab0055d85907ba954e520406125cfd19a1"
+    },
+    {
+      "path": "source/maps/scimitar_hull_seal_v1.png",
+      "bytes": 99201,
+      "sha256": "1702e7223a5db4af80b82dcae8c3e5ad5d43ba44cd6a82596b4f57b020a42605"
+    },
+    {
+      "path": "source/maps/scimitar_hull_structure_v1.png",
+      "bytes": 161265,
+      "sha256": "b1914f6a5f7319714c3b41c9c373200e043b5df21a3c0e017f09d3af3d6d6285"
+    },
+    {
+      "path": "source/originals/Scimitar.SHP",
+      "bytes": 46706,
+      "sha256": "e76d0f5963054c6c3189bda4acfd66a0140a7d237587c0ac872f5a5485c5bb72"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 410641,
+      "sha256": "4e567c995d4e8e6183bfa8427e8e157532b0506b4f8889ed68851d3f7424571a"
+    },
+    {
+      "path": "source/originals/scimitar.png",
+      "bytes": 66863,
+      "sha256": "6fc11421bc3e7b643d963b0e26f913850d4e69560bbdbb507d64cb6cd41fa714"
+    },
+    {
+      "path": "source/resources/1b69b85e6507_scimitar_hull_roughness_v1.png",
+      "bytes": 6640449,
+      "sha256": "1b69b85e6507530aec2c41928fab65ab0055d85907ba954e520406125cfd19a1"
+    },
+    {
+      "path": "source/resources/3e83b0d993d9_scimitar_hull_metallic_v1.png",
+      "bytes": 6712796,
+      "sha256": "3e83b0d993d97c3a33c2eea81a61803526d81b9024e14e6d63a434a9f3e9eb89"
+    },
+    {
+      "path": "source/resources/8608e5b8a18a_scimitar_hull_basecolor_v1.png",
+      "bytes": 19620429,
+      "sha256": "8608e5b8a18ad5111774e0fde685279e6b615b6b62eea9ef2fbdb93f14da7b75"
+    },
+    {
+      "path": "source/resources/96d2d952c46e_scimitar_hull_normal_v1.png",
+      "bytes": 345638,
+      "sha256": "96d2d952c46ec231e06e862da01f8f7cd3a7b651d6698e215229cd9bb04cfa13"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 1184491,
+      "sha256": "cec55d12d4def7f5a6ea420659ba57282a8ac9bdd3218ad32603e9a6f8c91939"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 1114479,
+      "sha256": "92ac650f1ee385b92916dbbcecd4756c876544b938a5f50deff3c163ef6ee8db"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 1168314,
+      "sha256": "8f9fd023114bfc07dd02fa19dd84cf021a44aaece33062ea29dc21c643c5a910"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_rear.png",
+      "bytes": 1108054,
+      "sha256": "a27478a8bee8d5d543610250bafda03f7017bf72fbf1a6f82f7495c49f6d14c7"
+    },
+    {
+      "path": "source/review/reconstruction_v1/source_front.png",
+      "bytes": 645611,
+      "sha256": "8757ddb8e5e5670f7a8836fd5dfb0862bd83890902b9633d2c4c46415756e2a9"
+    },
+    {
+      "path": "source/scimitar_worn_pbr_v1.blend",
+      "bytes": 33878008,
+      "sha256": "327004b26590de7b93f8e64460de0b75bac1cdaac9361e3920b708e9cdb2cdb8"
+    }
+  ]
+}

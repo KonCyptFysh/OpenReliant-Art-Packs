@@ -1,0 +1,4 @@
+index  object  group  pilot  kind  name                           position                                  yaw  pitch  roll
+    0       0      0      -    48  Scimitar - Inspection          (           0,            0,            0)    +0     +0    +0
+    1       1      1      -    92  Carried torpedo 1              (           0,            0,            0)    +0     +0    +0
+    2       2      1      -    92  Carried torpedo 2              (           0,            0,            0)    +0     +0    +0

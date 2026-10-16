@@ -1,0 +1,93 @@
+[
+  {
+    "tag": 0,
+    "size": 88,
+    "count": 1,
+    "offset": 0,
+    "sha256": "21638739028d7626cfabd07af5b5660989bce45379ae619b80d9c980a09d15ec"
+  },
+  {
+    "tag": 1,
+    "size": 264,
+    "count": 1,
+    "offset": 94,
+    "sha256": "2789c9cf11c00c7e7bd78dd6fb4854aceeea8e8d5afebe6ac7f4c10d481cb059"
+  },
+  {
+    "tag": 2,
+    "size": 4,
+    "count": 1,
+    "offset": 364,
+    "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+  },
+  {
+    "tag": 7,
+    "size": 64,
+    "count": 0,
+    "offset": 374,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "tag": 9,
+    "size": 124,
+    "count": 4,
+    "offset": 380,
+    "sha256": "123a25ef362faee30a5147c6210d9913358a9b9401037c420ddf3064118b383d"
+  },
+  {
+    "tag": 10,
+    "size": 24,
+    "count": 1,
+    "offset": 882,
+    "sha256": "3dd6e2deac33477bd94430644f7f9efaa87198b8e888f6cfc0042ecaea2c762a"
+  },
+  {
+    "tag": 13,
+    "size": 4,
+    "count": 0,
+    "offset": 912,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "tag": 4,
+    "size": 32,
+    "count": 236,
+    "offset": 918,
+    "sha256": "2eff78baf65c23dde1ef91329c3523612987f06abaf30baa49a54ef956bd2777"
+  },
+  {
+    "tag": 3,
+    "size": 80,
+    "count": 476,
+    "offset": 8476,
+    "sha256": "4f5d422222595f0afdea533922dfd544467cca7ba9982354cbc341443e84de19"
+  },
+  {
+    "tag": 6,
+    "size": 64,
+    "count": 1,
+    "offset": 46562,
+    "sha256": "81061e399996e84f0e881469f872983092f0c1fee3c410451d39daaa8a92ce19"
+  },
+  {
+    "tag": 11,
+    "size": 28,
+    "count": 2,
+    "offset": 46632,
+    "sha256": "7417eeef2371f86ae3ed2692b97c0e7a88fe79225f303dd2e61803c01de8811e"
+  },
+  {
+    "tag": 12,
+    "size": 12,
+    "count": 0,
+    "offset": 46694,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "tag": 65535,
+    "size": 0,
+    "count": 0,
+    "offset": 46700,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

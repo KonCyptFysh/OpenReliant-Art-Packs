@@ -1,0 +1,14 @@
+  offset   tag  record  count  name
+00000000  0000      88      1  header
+0000005e  0001     264      1  part
+0000016c  0002       4      1  lod
+00000176  0007      64      0  tree_node
+0000017c  0009     124      4  attachment
+00000372  000a      24      1  animation_clip
+00000390  000d       4      0  point_list
+00000396  0004      32    236  vertex
+0000211c  0003      80    476  face
+0000b5e2  0006      64      1  material
+0000b628  000b      28      2  keyframe
+0000b666  000c      12      0  clip_event
+0000b66c  ffff                 end

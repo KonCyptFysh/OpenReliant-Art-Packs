@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. Asset type: fixed-layout square UV diffuse atlas for the StarLancer Scimitar torpedo bomber. Edit target: the attached original SCIMITAR atlas. Reconstruct this EXACT texture at high resolution, edge to edge, without crop, border, rotation, perspective or changes to normalized layout. Preserve the precise positions, proportions and orientations of every panel, seam, vent, radiator fin, stripe, window and tiny technical marking so it fits unmodified native UVs. Keep the original worn grey alloy armour, dusty brown/copper areas, dark mechanical machinery, deep red accent strips, yellow-black caution borders, tiny red triangular symbols and amber indicator lights. Crisp restrained straight panel gaps must terminate cleanly on the existing panel boundaries. Improve fine wear, chipped paint and mechanical definition without adding new greebles, new panel patterns or invented readable text. The small cockpit panes in the bottom-left cluster x3%-21% y87%-99% should have smooth opaque deep dark amber/brown interiors, with no baked reflections, glare, streaks or mottled dirt; retain the exact original narrow metal frames and window silhouettes. Keep the long ribbed metal radiator across the upper third and all other ribbed vents sharply readable and faithful. Flat diffuse texture only: no directional lighting, bloom, raised cartoon bevels, new insignia or new borders. Preserve the complete square atlas and all original layout proportions exactly.",
+    "input": "source/scimitar.png",
+    "output": "maps/scimitar_hull_reconstructed_initial.png",
+    "input_sha256": "6fc11421bc3e7b643d963b0e26f913850d4e69560bbdbb507d64cb6cd41fa714",
+    "output_sha256": "4af1eb528c01b2dbd5afc2a544fd604dc56c2dc87c39b0764a639af1619de8de",
+    "output_dimensions": [
+      1254,
+      1254
+    ]
+  },
+  {
+    "tool": "built-in image_gen",
+    "prompt": "Use case: precise-object-edit. Asset type: fixed-layout square UV diffuse atlas for the StarLancer Scimitar torpedo bomber. Edit target: the attached original SCIMITAR atlas. Reconstruct this EXACT texture at high resolution, edge to edge, without crop, border, rotation, perspective or changes to normalized layout. Preserve the precise positions, proportions and orientations of every panel, seam, vent, radiator fin, stripe, window and tiny technical marking so it fits unmodified native UVs. Keep the original worn grey alloy armour, dusty brown/copper areas, dark mechanical machinery, deep red accent strips, yellow-black caution borders, tiny red triangular symbols and amber indicator lights. Crisp restrained straight panel gaps must terminate cleanly on the existing panel boundaries. Improve fine wear, chipped paint and mechanical definition without adding new greebles, new panel patterns or invented readable text. The small cockpit panes in the bottom-left cluster x3%-21% y87%-99% should have smooth opaque deep dark amber/brown interiors, with no baked reflections, glare, streaks or mottled dirt; retain the exact original narrow metal frames and window silhouettes. Keep the long ribbed metal radiator across the upper third and all other ribbed vents sharply readable and faithful. Flat diffuse texture only: no directional lighting, bloom, raised cartoon bevels, new insignia or new borders. Preserve the complete square atlas and all original layout proportions exactly. One correction to the supplied reconstruction: the two small amber shapes around x89%-97%, y74%-84% are also COCKPIT GLASS: the long slanted pane and the small near-round pane below-left. Give these the same smooth opaque very dark brown-amber glass as the four lower-left panes. Remove the mottled yellow reflection blobs inside all six panes; clean solid near-uniform interiors, no white highlights, no bevelled raised glass. Preserve every glass outline and thin metal frame and every other atlas pixel/feature as closely as possible. This is a texture atlas, not a render.",
+    "input": "maps/scimitar_hull_reconstructed_initial.png",
+    "output": "maps/scimitar_hull_reconstructed_v1.png",
+    "input_sha256": "4af1eb528c01b2dbd5afc2a544fd604dc56c2dc87c39b0764a639af1619de8de",
+    "output_sha256": "029abdd2b7f8027337c104d10ee3b3f40e8d5274dd56ec29f9aae36870d40252",
+    "output_dimensions": [
+      1254,
+      1254
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "Scimitar.SHP",
+    "exit_code": 0,
+    "output": "ok: 1 parts, 236 vertices, 476 faces\nbounds: 1 model_space\nwritten again: the same bytes\n",
+    "sha256": "cb0fe515c7eca49ec7f002c20fc544b24a8521acf676b46e051742122783aff1"
+  },
+  {
+    "file": "mission963.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "82f7fe2f1b17fe7557d10e8078ed5058ba95ffd06189992dfe71ca7b52b54850"
+  },
+  {
+    "file": "mission964.dte",
+    "exit_code": 0,
+    "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+    "sha256": "de978aff138989dd5c845323453e7d2cc86d018bd82aa2dfceb728a0c9083e63"
+  }
+]

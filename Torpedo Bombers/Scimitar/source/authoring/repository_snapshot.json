@@ -1,0 +1,31 @@
+{
+  "canonical_scene": "${SCIMITAR_WORKSPACE}/scimitar_worn_pbr_v1.blend",
+  "canonical_sha256": "a4ce809dcf481c670e293d22ac80687fe9d6157999d22279116ddcd68571445d",
+  "snapshot": "${ART_PACK_REPOSITORY}/Torpedo Bombers/Scimitar/source/scimitar_worn_pbr_v1.blend",
+  "snapshot_sha256": "327004b26590de7b93f8e64460de0b75bac1cdaac9361e3920b708e9cdb2cdb8",
+  "mesh_signature": "f2217c18930e54429fd6f7f88524fb2f58f15811e1a743967e633926344232e4",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "scimitar_hull_basecolor_v1.png",
+      "path": "//resources/8608e5b8a18a_scimitar_hull_basecolor_v1.png",
+      "sha256": "8608e5b8a18ad5111774e0fde685279e6b615b6b62eea9ef2fbdb93f14da7b75"
+    },
+    {
+      "image": "scimitar_hull_metallic_v1.png",
+      "path": "//resources/3e83b0d993d9_scimitar_hull_metallic_v1.png",
+      "sha256": "3e83b0d993d97c3a33c2eea81a61803526d81b9024e14e6d63a434a9f3e9eb89"
+    },
+    {
+      "image": "scimitar_hull_normal_v1.png",
+      "path": "//resources/96d2d952c46e_scimitar_hull_normal_v1.png",
+      "sha256": "96d2d952c46ec231e06e862da01f8f7cd3a7b651d6698e215229cd9bb04cfa13"
+    },
+    {
+      "image": "scimitar_hull_roughness_v1.png",
+      "path": "//resources/1b69b85e6507_scimitar_hull_roughness_v1.png",
+      "sha256": "1b69b85e6507530aec2c41928fab65ab0055d85907ba954e520406125cfd19a1"
+    }
+  ]
+}

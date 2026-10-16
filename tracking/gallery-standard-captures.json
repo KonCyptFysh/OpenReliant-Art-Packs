@@ -1,7 +1,7 @@
 {
   "profile": "ship-gallery-v1",
-  "ships": 26,
-  "photographs": 30,
+  "ships": 27,
+  "photographs": 31,
   "captures": [
     {
       "asset": "coyote",
@@ -1470,6 +1470,55 @@
         456,
         2090,
         1554
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "scimitar",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 48,
+      "mission": 964,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Torpedo Bombers/Scimitar/asset-manifest.json",
+      "runtime_manifest_sha256": "6cd8fab3d864fbaa8713c2e3df221561f2bce71ec295dd0d84835580435db008",
+      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Scimitar/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "c32828f200ed4aa6bda24af14d3d1edce013d5502e20c5f77e8ab4e02789385f",
+      "captured_at_utc": "2026-10-16T13:08:37.917772+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/scimitar/gallery-overview-v1.webp",
+      "gallery_sha256": "b736782192bdf339fbf56618e2c8e1d9d43bd81c7293f1961f439ad930791832",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        799,
+        688,
+        1814,
+        1517
+      ],
+      "crop": [
+        578,
+        556,
+        2034,
+        1648
       ],
       "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }

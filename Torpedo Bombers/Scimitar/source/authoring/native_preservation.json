@@ -1,0 +1,113 @@
+{
+  "passed": true,
+  "source_sha256": "e76d0f5963054c6c3189bda4acfd66a0140a7d237587c0ac872f5a5485c5bb72",
+  "output_sha256": "cb0fe515c7eca49ec7f002c20fc544b24a8521acf676b46e051742122783aff1",
+  "uv_edits": [],
+  "continuation_corrections": [
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 197,
+      "prior": 4,
+      "remaining": 1
+    },
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 198,
+      "prior": 3,
+      "remaining": 0
+    },
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 209,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 210,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 432,
+      "prior": 5,
+      "remaining": 1
+    },
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 433,
+      "prior": 4,
+      "remaining": 0
+    },
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 434,
+      "prior": 3,
+      "remaining": 2
+    },
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 435,
+      "prior": 2,
+      "remaining": 1
+    },
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 436,
+      "prior": 1,
+      "remaining": 0
+    },
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 448,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 449,
+      "prior": 2,
+      "remaining": 0
+    },
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 452,
+      "prior": 3,
+      "remaining": 1
+    },
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "face": 453,
+      "prior": 2,
+      "remaining": 0
+    }
+  ],
+  "detail_meshes": [
+    {
+      "part": "Scimitar",
+      "lod": 0,
+      "faces": 476,
+      "groups_before": 181,
+      "groups_after": 187,
+      "all_shared_corner_uvs_match": true
+    }
+  ],
+  "all_476_faces_checked": true,
+  "geometry_normals_attachments_animation_collision_and_winding_byte_identical": true,
+  "allowed_changes": "Texture names, primitive continuation counts at UV seams only",
+  "changed_bytes": 23
+}

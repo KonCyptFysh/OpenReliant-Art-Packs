@@ -1,0 +1,16 @@
+{
+  "kind": "Blender authoring views; not in-game captures",
+  "reviewed_at_utc": "2026-10-16T12:45:04.500766+00:00",
+  "views": [
+    "front",
+    "opposite",
+    "rear",
+    "belly"
+  ],
+  "observations": [
+    "Original upright silhouette, grey/brown armour, red accents and warning markings preserved.",
+    "Six atlas glass regions have smooth amber interiors and separately authored frame and inset relief.",
+    "Both sides and underside inspected. Native vertex, UV and normal coordinates preserved."
+  ],
+  "runtime_visual_review": "pending_user"
+}
