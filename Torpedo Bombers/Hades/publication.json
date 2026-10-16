@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-16T12:19:20.400136+00:00",
+  "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hades-v0.1.0-beta.1",
+  "tag": "hades-v0.1.0-beta.1",
+  "source_commit": "39301aa2a0e9f690befaa1e543e11b8fad2f42f6",
+  "download_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hades-v0.1.0-beta.1/openreliant-hades-0.1.0-beta.1.zip",
+  "zip_sha256": "bb19f67a1df5626341af07fbf802acde1e1d97cfb78d20b63f5d79536c0e6106",
+  "download_bytes": 26210278,
+  "github_asset_digest_matches": true,
+  "downloaded_zip_and_checksum_match": true,
+  "downloaded_runtime_files_match": true
+}
