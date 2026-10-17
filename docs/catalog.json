@@ -787,6 +787,39 @@
               "src": "assets/mirage/gallery-overview-v1.webp",
               "caption": "Mirage — Front three-quarter view"
             }
+          ],
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "mirage-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.2.res2/openreliant-mirage-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.2.res2",
+              "checksum": "56ebf58e04a8994f934e3db7c7a4e6b7c422bda98574983146f27e8427a354b4",
+              "downloadBytes": 3962742
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "mirage-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.2.res2/openreliant-mirage-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.2.res2",
+              "checksum": "f8c54c6c5b6461252a9bcdd9a6fd552b5765688f995ca54ec92188c20c4af1d9",
+              "downloadBytes": 11048203
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "mirage-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.2/openreliant-mirage-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.2",
+              "checksum": "37d1cb6962199ea966ad67554bed2614a965fd1b816d35ac37185856cb86e4d5",
+              "downloadBytes": 30797461
+            }
           ]
         }
       ],
