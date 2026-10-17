@@ -2745,7 +2745,40 @@
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kurgen-v0.1.0-beta.1/openreliant-kurgen-0.1.0-beta.1.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kurgen-v0.1.0-beta.1",
           "checksum": "0220d2accef562ce4c36153584f7a7cfb35893f6c9cec760d83f592708d46ff4",
-          "downloadBytes": 52754248
+          "downloadBytes": 52754248,
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "kurgen-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kurgen-v0.1.0-beta.1.res2/openreliant-kurgen-1k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kurgen-v0.1.0-beta.1.res2",
+              "checksum": "b709d5a5ec0a617ec1241c87a0d47376bf03c9251a5e4d8b07bd3d3220a210ec",
+              "downloadBytes": 7639424
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "kurgen-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kurgen-v0.1.0-beta.1.res2/openreliant-kurgen-2k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kurgen-v0.1.0-beta.1.res2",
+              "checksum": "b7e55362fb7e59e1d8d034fd98f35cddba318d4ad729f07e4091ee2ad308210a",
+              "downloadBytes": 19661501
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.1",
+              "tag": "kurgen-v0.1.0-beta.1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kurgen-v0.1.0-beta.1/openreliant-kurgen-0.1.0-beta.1.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kurgen-v0.1.0-beta.1",
+              "checksum": "0220d2accef562ce4c36153584f7a7cfb35893f6c9cec760d83f592708d46ff4",
+              "downloadBytes": 52754248
+            }
+          ]
         }
       ],
       "folder": "Corvettes and Gunboats/Kurgen"
