@@ -1,0 +1,225 @@
+{
+  "asset": "coyote",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "f3fcc20bf156b9ea1a85f0b031d5b7032bab7fc0",
+  "master_manifest_sha256": "cc64196c14f3d012d641d567ee1c206370572899b195f1b5837ac8e7ef63afce",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res1",
+      "tag": "coyote-v0.1.0-beta.2.res1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2.res1/openreliant-coyote-1k-0.1.0-beta.2.res1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2.res1",
+      "checksum": "626563bdaadca63a8f7a21c47c6f97b5c4938161f212ecd3dbfd986d6b349ae7",
+      "downloadBytes": 8056297
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res1",
+      "tag": "coyote-v0.1.0-beta.2.res1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2.res1/openreliant-coyote-2k-0.1.0-beta.2.res1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2.res1",
+      "checksum": "dd298728e1ec272eb154e87ef33d92f93efe566c3f67f30929cfdda03667c362",
+      "downloadBytes": 30632259
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "coyote-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2/openreliant-coyote-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2",
+      "checksum": "6e0390bb1316c80aebed2e01c45b79f1974178af34d92ef510467a9c8de6772e",
+      "downloadBytes": 114738284
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v1",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "4.0",
+        "source_manifest_sha256": "cc64196c14f3d012d641d567ee1c206370572899b195f1b5837ac8e7ef63afce",
+        "asset_manifest_sha256": "17e55aefa426df9869ecee029d4bf1c6910d8ffc12f48de31b221fd0e17b08f9",
+        "images": [
+          {
+            "path": "mods/30-coyote-worn-v4/orcy4_hull.png",
+            "source_sha256": "e846d91e4c9690902df6d3f86141f7653126df6359ff5034ab1c52f7ac23ea48",
+            "sha256": "f0a17a0e2999296ab180bf69d32c21bffb2a257c8e686045b0c67e6c9a5be5bf",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/30-coyote-worn-v4/orcy4_hull_normal.png",
+            "source_sha256": "3d0aebb3aa218fa0142555eaa5f87837406082c2a8c383f8eac51076265c6957",
+            "sha256": "c60790da63c6eb4c35188562f39dde9030415e6014b48a798330d542bd3b17bd",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/30-coyote-worn-v4/orcy4_hull_orm.png",
+            "source_sha256": "e1e75cf4595740a0a6200fb8cf23a566dedea15fc6b50737a7f10c68b8786284",
+            "sha256": "26eff18b0405e04a48f24b87fa442693494a2bbdef16aeb8d817f4a3592143a8",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/30-coyote-worn-v4/USA_Coyote.SHP",
+          "mods/30-coyote-worn-v4/license.txt",
+          "mods/30-coyote-worn-v4/mod.png",
+          "mods/30-coyote-worn-v4/t_USA_Coyote.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "coyote",
+        "tier": "1k",
+        "zip_sha256": "626563bdaadca63a8f7a21c47c6f97b5c4938161f212ecd3dbfd986d6b349ae7",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orcy4_hull",
+            "emissive": false,
+            "log_sha256": "2333422c8b01021173a27bd69ce44ddff40700391e269f8bc29da58e67bfe4f6",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v1",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "4.0",
+        "source_manifest_sha256": "cc64196c14f3d012d641d567ee1c206370572899b195f1b5837ac8e7ef63afce",
+        "asset_manifest_sha256": "a91175abe3ff71184069e4e4af6df51c4fc1babcaefa6aab94c5d32f9ce49955",
+        "images": [
+          {
+            "path": "mods/30-coyote-worn-v4/orcy4_hull.png",
+            "source_sha256": "e846d91e4c9690902df6d3f86141f7653126df6359ff5034ab1c52f7ac23ea48",
+            "sha256": "e5272adf39d5b834daf3f984c3d25114ffccb45e2f86102b19a53253cfbc5e9b",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/30-coyote-worn-v4/orcy4_hull_normal.png",
+            "source_sha256": "3d0aebb3aa218fa0142555eaa5f87837406082c2a8c383f8eac51076265c6957",
+            "sha256": "a969ebab81bd319f04294e21314a9f1b6caa674fdb71fe521efc783c75fe7f68",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/30-coyote-worn-v4/orcy4_hull_orm.png",
+            "source_sha256": "e1e75cf4595740a0a6200fb8cf23a566dedea15fc6b50737a7f10c68b8786284",
+            "sha256": "a82f5f64fc5e6efc9a6e7aae556edde0e96cdd62eca79f885d73510f7f81a0a6",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/30-coyote-worn-v4/USA_Coyote.SHP",
+          "mods/30-coyote-worn-v4/license.txt",
+          "mods/30-coyote-worn-v4/mod.png",
+          "mods/30-coyote-worn-v4/t_USA_Coyote.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "coyote",
+        "tier": "2k",
+        "zip_sha256": "dd298728e1ec272eb154e87ef33d92f93efe566c3f67f30929cfdda03667c362",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orcy4_hull",
+            "emissive": false,
+            "log_sha256": "2333422c8b01021173a27bd69ce44ddff40700391e269f8bc29da58e67bfe4f6",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T05:24:57.296598+00:00"
+}
