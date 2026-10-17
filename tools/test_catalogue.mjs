@@ -279,3 +279,19 @@ test('the shipped page starts and both hierarchy levels select the expected asse
     assert.equal(selected[0].dataset.category || null, categoryId);
   }
 });
+
+test('resolution selection switches download, size, checksum and release together', () => {
+  const asset = resolveAsset(ship());
+  asset.defaultResolution = '4k';
+  asset.resolutions = ['1k','2k','4k'].map((id,i) => ({id, download:`https://example.test/${id}.zip`,
+    release:`https://example.test/${id}`, checksum:String(i).repeat(64), downloadBytes:i+100, version:`1.0.${i}`}));
+  for (const id of ['1k','2k','4k']) {
+    const found = utilities.resolveResolution(asset,id);
+    const expected = asset.resolutions.find(x=>x.id===id);
+    for (const key of ['download','release','checksum','downloadBytes','version']) assert.equal(found[key],expected[key]);
+    for (const key of ['preview','model','modFolder','requires']) assert.deepEqual(found[key],asset[key]);
+  }
+  assert.equal(utilities.resolveResolution(asset,'unknown').resolutionId,'4k');
+  assert.equal(utilities.resolveResolution({...asset,status:'coming-soon'},'1k').resolutionId,null);
+  assert.equal(utilities.resolveResolution(resolveAsset({id:'hud',status:'available'}),'1k').resolutionId,null);
+});

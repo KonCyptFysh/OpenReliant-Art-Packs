@@ -56,7 +56,7 @@ export function requirementsFor(asset, requestedId = null) {
 const liveryFields = new Set([
   'preview', 'images', 'model', 'previewType', 'previewSource', 'defaultPreview',
   'download', 'release', 'checksum', 'checksumUrl', 'downloadBytes', 'version',
-  'tag', 'assetRevision', 'previewArtworkRevision', 'modFolder', 'notes', 'validationSummary',
+  'resolutions', 'defaultResolution', 'tag', 'assetRevision', 'previewArtworkRevision', 'modFolder', 'notes', 'validationSummary',
 ]);
 
 export function resolveAsset(asset, requestedId = null) {
@@ -162,4 +162,17 @@ export function resolveLocation(catalogue, params = new URLSearchParams()) {
     assetId: asset?.id || null,
     liveryId: asset ? selectLivery(asset, read('livery'))?.id || null : null,
   };
+}
+
+// Resolution changes only download metadata. Photos, model and dependencies stay put.
+export function resolveResolution(asset, requestedId = null) {
+  if (asset.status !== 'available' || !asset.resolutions?.length) return { ...asset, resolutionId: null };
+  const selected = asset.resolutions.find(item => item.id === requestedId)
+    || asset.resolutions.find(item => item.id === asset.defaultResolution)
+    || asset.resolutions.find(item => item.id === '4k')
+    || asset.resolutions[0];
+  return { ...asset, ...Object.fromEntries(
+    ['download', 'release', 'checksum', 'checksumUrl', 'downloadBytes', 'version', 'tag']
+      .filter(key => selected[key] !== undefined).map(key => [key, selected[key]])
+  ), resolutionId: selected.id };
 }

@@ -115,6 +115,29 @@ def validate_edition(root, asset, edition, mod_owners):
     else:
         require(not any(edition.get(key) for key in ("download", "release", "checksum", "tag", "downloadBytes")),
                 f"{label}: unreleased artwork must not expose a published download")
+    variants = edition.get("resolutions")
+    if variants is not None:
+        require(edition["status"] == "available" and asset.get("category") != "hud",
+                f"{label}: resolution downloads are only for released non-HUD assets")
+        require(isinstance(variants, list) and len(variants) == 3,
+                f"{label}: expected 1K, 2K and 4K downloads")
+        require({v.get("id") for v in variants} == {"1k", "2k", "4k"},
+                f"{label}: duplicate or missing resolution tier")
+        require(edition.get("defaultResolution") in {"1k", "2k", "4k"},
+                f"{label}: invalid default resolution")
+        for variant in variants:
+            tag = variant.get("tag", "")
+            require(variant.get("maxTextureEdge") == {"1k":1024,"2k":2048,"4k":4096}[variant["id"]],
+                    f"{label}: incorrect texture size limit")
+            require(bool(tag) and variant.get("download", "").startswith(RELEASE_ROOT + "download/" + tag + "/"),
+                    f"{label}: invalid resolution release download")
+            require(variant.get("release") == RELEASE_ROOT + "tag/" + tag,
+                    f"{label}: mismatched resolution release")
+            require(re.fullmatch(r"[a-f0-9]{64}", variant.get("checksum", "")) is not None,
+                    f"{label}: missing resolution checksum")
+            require(isinstance(variant.get("downloadBytes"), int) and variant["downloadBytes"] > 0,
+                    f"{label}: missing resolution ZIP size")
+            require(bool(variant.get("version")), f"{label}: missing resolution version")
     validate_media(root, edition, label)
 
 
@@ -162,6 +185,20 @@ def validate(root, data):
             if edition["status"] == "available":
                 available_mods.add(edition["modFolder"].casefold())
                 release_requirements.append((label, effective_requirements(asset, edition)))
+    resolution_path = root / "tracking/resolution-packs.json"
+    if resolution_path.exists():
+        proof = json.loads(resolution_path.read_text())
+        for asset in data["assets"]:
+            for edition in asset.get("liveries", [asset]):
+                if edition["status"] != "available" or asset["category"] == "hud":
+                    continue
+                key = asset["id"] + "/" + edition.get("id", asset["id"])
+                require(bool(edition.get("resolutions")), f"{key}: published artwork needs all resolution downloads")
+                evidence = proof.get("editions", {}).get(key, {})
+                require(evidence.get("variants") == edition["resolutions"], f"{key}: resolution evidence differs from catalogue")
+                master = root / edition.get("folder", asset.get("folder")) / "asset-manifest.json"
+                require(evidence.get("master_manifest_sha256") == hashlib.sha256(master.read_bytes()).hexdigest(),
+                        f"{key}: resolution downloads are stale for this master")
     for label, requirements in release_requirements:
         for name in requirements:
             require(name not in mod_owners or name in available_mods,
