@@ -1419,7 +1419,40 @@
           "engine": "0.8.1",
           "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
           "previewType": "capture",
-          "previewArtworkRevision": "1.3"
+          "previewArtworkRevision": "1.3",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "basilisk-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.2.res2/openreliant-basilisk-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.2.res2",
+              "checksum": "c5b4f4bf4d7e93191b6e061dc932e9a1aabc442a30db9f9eeda6ae8abaa12a61",
+              "downloadBytes": 4148640
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "basilisk-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.2.res2/openreliant-basilisk-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.2.res2",
+              "checksum": "29a7b05177790a963fe8f25d7ba78a575d336612a9e1e8e475ee4d2ca61dfab3",
+              "downloadBytes": 9897117
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "basilisk-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.2/openreliant-basilisk-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.2",
+              "checksum": "5abaead824b097d0a211d41e630380b4b2aea8c5edc0ca3a0e047b76109b83c5",
+              "downloadBytes": 26912752
+            }
+          ]
         }
       ],
       "entryType": "ship",

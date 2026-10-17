@@ -1,0 +1,327 @@
+{
+  "asset": "basilisk",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "ee8b0b772d33b45c41c6bbe44383ba4a0a7711a6e18ed3dd83be60af358bb939",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "basilisk-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.2.res2/openreliant-basilisk-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.2.res2",
+      "checksum": "c5b4f4bf4d7e93191b6e061dc932e9a1aabc442a30db9f9eeda6ae8abaa12a61",
+      "downloadBytes": 4148640
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "basilisk-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.2.res2/openreliant-basilisk-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.2.res2",
+      "checksum": "29a7b05177790a963fe8f25d7ba78a575d336612a9e1e8e475ee4d2ca61dfab3",
+      "downloadBytes": 9897117
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "basilisk-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.2/openreliant-basilisk-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.2",
+      "checksum": "5abaead824b097d0a211d41e630380b4b2aea8c5edc0ca3a0e047b76109b83c5",
+      "downloadBytes": 26912752
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "1.3",
+        "source_manifest_sha256": "ee8b0b772d33b45c41c6bbe44383ba4a0a7711a6e18ed3dd83be60af358bb939",
+        "asset_manifest_sha256": "797f21657897eda39255dc4f1162141b92e3d1d54f6fc3a4cacd7ec53ad606ba",
+        "images": [
+          {
+            "path": "mods/103-basilisk-worn-v1/orbs1_hull.png",
+            "source_sha256": "8cf6a6ffa3e32f181b7c9c403233b36a4c1522ae213bbdf5b4b89e84b63dba43",
+            "sha256": "5c197d3ffe66f7e0221f07e19a61cad0a96079b29207f11c9e2cff8d3d5fb198",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/103-basilisk-worn-v1/orbs1_hull_normal.png",
+            "source_sha256": "f2252fbce136f786ceb0371fd750411beccd02dbe7de2fa786906eef2c2327b2",
+            "sha256": "ff770c5c97740d411569c39f9cdb8416d2cf408e45977594c029c6b34c34d0a7",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/103-basilisk-worn-v1/orbs1_hull_orm.png",
+            "source_sha256": "f3d133826837d25dd4b50a81279be55c5498a4116e8fff4cae78564a263b889a",
+            "sha256": "fa1685a94ab4d4c7a9d39aa9beaa12fb227a16462861a002ed07b0ae436684d0",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/103-basilisk-worn-v1/orbs2_gun.png",
+            "source_sha256": "03137245a3236f23058d2192dbd10ceea7c9504bfc07a9ddefafa6898d993a1e",
+            "sha256": "03137245a3236f23058d2192dbd10ceea7c9504bfc07a9ddefafa6898d993a1e",
+            "role": "colour",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/103-basilisk-worn-v1/orbs2_gun_normal.png",
+            "source_sha256": "36365fad9afda146ff00131b6edab30ba217c709fccce2eb5c2cf13471fca940",
+            "sha256": "36365fad9afda146ff00131b6edab30ba217c709fccce2eb5c2cf13471fca940",
+            "role": "normal",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/103-basilisk-worn-v1/orbs2_gun_orm.png",
+            "source_sha256": "83fea5dc3261f35e585330773e9d59c6282dda130cc0e6099b061e0b449a9f01",
+            "sha256": "83fea5dc3261f35e585330773e9d59c6282dda130cc0e6099b061e0b449a9f01",
+            "role": "orm",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          }
+        ],
+        "unchanged_files": [
+          "mods/103-basilisk-worn-v1/Rus_basalisk.SHP",
+          "mods/103-basilisk-worn-v1/license.txt",
+          "mods/103-basilisk-worn-v1/mission988.dte",
+          "mods/103-basilisk-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "basilisk",
+        "tier": "1k",
+        "zip_sha256": "c5b4f4bf4d7e93191b6e061dc932e9a1aabc442a30db9f9eeda6ae8abaa12a61",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orbs1_hull",
+            "emissive": false,
+            "log_sha256": "548cbe41f7c108094e743eeb3110f0fd59517cc404a3b024241c9360a1ebb664",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orbs2_gun",
+            "emissive": false,
+            "log_sha256": "22f640211163957453e8c3e0b57e215c0074618b59e5416eb177ffdd738d6968",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "1.3",
+        "source_manifest_sha256": "ee8b0b772d33b45c41c6bbe44383ba4a0a7711a6e18ed3dd83be60af358bb939",
+        "asset_manifest_sha256": "cbd6ac8aa1ee10064cd7cc76b0bdb147f8115be8f82cb02662b3a1f29087ab45",
+        "images": [
+          {
+            "path": "mods/103-basilisk-worn-v1/orbs1_hull.png",
+            "source_sha256": "8cf6a6ffa3e32f181b7c9c403233b36a4c1522ae213bbdf5b4b89e84b63dba43",
+            "sha256": "9b41b9ca2572f82c5e72c8a443cb653bf7d8d0c50642b375f40ec32347c849ea",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/103-basilisk-worn-v1/orbs1_hull_normal.png",
+            "source_sha256": "f2252fbce136f786ceb0371fd750411beccd02dbe7de2fa786906eef2c2327b2",
+            "sha256": "e818addf0ac421bb26cbd9441c6d8c82eb5c50f24488991e38b694c885b3e397",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/103-basilisk-worn-v1/orbs1_hull_orm.png",
+            "source_sha256": "f3d133826837d25dd4b50a81279be55c5498a4116e8fff4cae78564a263b889a",
+            "sha256": "64fc1d7e60390540c7fe688516725fe3f93ababda8cd8956c0a9169950e14cba",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/103-basilisk-worn-v1/orbs2_gun.png",
+            "source_sha256": "03137245a3236f23058d2192dbd10ceea7c9504bfc07a9ddefafa6898d993a1e",
+            "sha256": "03137245a3236f23058d2192dbd10ceea7c9504bfc07a9ddefafa6898d993a1e",
+            "role": "colour",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/103-basilisk-worn-v1/orbs2_gun_normal.png",
+            "source_sha256": "36365fad9afda146ff00131b6edab30ba217c709fccce2eb5c2cf13471fca940",
+            "sha256": "36365fad9afda146ff00131b6edab30ba217c709fccce2eb5c2cf13471fca940",
+            "role": "normal",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/103-basilisk-worn-v1/orbs2_gun_orm.png",
+            "source_sha256": "83fea5dc3261f35e585330773e9d59c6282dda130cc0e6099b061e0b449a9f01",
+            "sha256": "83fea5dc3261f35e585330773e9d59c6282dda130cc0e6099b061e0b449a9f01",
+            "role": "orm",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          }
+        ],
+        "unchanged_files": [
+          "mods/103-basilisk-worn-v1/Rus_basalisk.SHP",
+          "mods/103-basilisk-worn-v1/license.txt",
+          "mods/103-basilisk-worn-v1/mission988.dte",
+          "mods/103-basilisk-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "basilisk",
+        "tier": "2k",
+        "zip_sha256": "29a7b05177790a963fe8f25d7ba78a575d336612a9e1e8e475ee4d2ca61dfab3",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orbs1_hull",
+            "emissive": false,
+            "log_sha256": "548cbe41f7c108094e743eeb3110f0fd59517cc404a3b024241c9360a1ebb664",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orbs2_gun",
+            "emissive": false,
+            "log_sha256": "22f640211163957453e8c3e0b57e215c0074618b59e5416eb177ffdd738d6968",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:07:00.410852+00:00"
+}
