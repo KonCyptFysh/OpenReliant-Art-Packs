@@ -1,0 +1,233 @@
+{
+  "asset": "hades",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "82c6b255b33acccf0b9d5a385d8e0c3f89d2064618707e30ca8469b7b2deb3da",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "hades-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hades-v0.1.0-beta.1.res2/openreliant-hades-1k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hades-v0.1.0-beta.1.res2",
+      "checksum": "0b39ac28fae8c2f0add2a7d099e262f1fd9a990334b416fa271380d2d24512e7",
+      "downloadBytes": 3970389
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "hades-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hades-v0.1.0-beta.1.res2/openreliant-hades-2k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hades-v0.1.0-beta.1.res2",
+      "checksum": "cefab982173984404a741815069fdfa6ced6950b8947275726b8daffaa29c105",
+      "downloadBytes": 9642249
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.1",
+      "tag": "hades-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hades-v0.1.0-beta.1/openreliant-hades-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hades-v0.1.0-beta.1",
+      "checksum": "bb19f67a1df5626341af07fbf802acde1e1d97cfb78d20b63f5d79536c0e6106",
+      "downloadBytes": 26210278
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "82c6b255b33acccf0b9d5a385d8e0c3f89d2064618707e30ca8469b7b2deb3da",
+        "asset_manifest_sha256": "646a0fb711c7267075bdde15d4fafc9fb1a99bc2fe87cfc87c42dc8ee7623c6d",
+        "images": [
+          {
+            "path": "mods/114-hades-worn-v1/orhd1_hull.png",
+            "source_sha256": "0b3503c6e9d2dfb0c328c257c30564426f38f69dd570ed9b7b0b959e7f761c66",
+            "sha256": "c83c83f36e166bf955346f49606ab1e609ef472aefd8778e952676a784c2f188",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/114-hades-worn-v1/orhd1_hull_normal.png",
+            "source_sha256": "4f2594a6ded6dcefae8e4902e5448ad1416403f1d296657d0da93057ad947b71",
+            "sha256": "68e6221ded2e3b7a155af1e62767acd91d1f4efa2b0ae315234278716d45ff8e",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/114-hades-worn-v1/orhd1_hull_orm.png",
+            "source_sha256": "70f6225fc1308c9afde96e81117223fa8b5feacfc84e64d53075dc0a7fe83fac",
+            "sha256": "d4b19e9f925899bb01e7abee4eae7d17eac7d0bb50adc0882be3538fa1183a07",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/114-hades-worn-v1/USTB_Hds.SHP",
+          "mods/114-hades-worn-v1/hades_inspection.luau",
+          "mods/114-hades-worn-v1/license.txt",
+          "mods/114-hades-worn-v1/mission965.dte",
+          "mods/114-hades-worn-v1/mission966.dte",
+          "mods/114-hades-worn-v1/mission967.dte",
+          "mods/114-hades-worn-v1/mission968.dte",
+          "mods/114-hades-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "hades",
+        "tier": "1k",
+        "zip_sha256": "0b39ac28fae8c2f0add2a7d099e262f1fd9a990334b416fa271380d2d24512e7",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orhd1_hull",
+            "emissive": false,
+            "log_sha256": "fa4030241a6de42c97d3758cbb0245634e3b8a8c88cde6bc714907332cdd9f1d",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "82c6b255b33acccf0b9d5a385d8e0c3f89d2064618707e30ca8469b7b2deb3da",
+        "asset_manifest_sha256": "ba51370e0ab988038cc19eb5e9b37d14252c901a32485312890799766cc08594",
+        "images": [
+          {
+            "path": "mods/114-hades-worn-v1/orhd1_hull.png",
+            "source_sha256": "0b3503c6e9d2dfb0c328c257c30564426f38f69dd570ed9b7b0b959e7f761c66",
+            "sha256": "142b961d92bb02777b9a01f0190b50fb75e1a12c22c955ad0fe2473ead95e00e",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/114-hades-worn-v1/orhd1_hull_normal.png",
+            "source_sha256": "4f2594a6ded6dcefae8e4902e5448ad1416403f1d296657d0da93057ad947b71",
+            "sha256": "635cf4ba18db789442101ef941e46440c250c408641b5a9a9d5500c15f4c29ce",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/114-hades-worn-v1/orhd1_hull_orm.png",
+            "source_sha256": "70f6225fc1308c9afde96e81117223fa8b5feacfc84e64d53075dc0a7fe83fac",
+            "sha256": "44193fdae47d7e210f1e9699a2300f50ba4a1c0deb026787282d469572baea78",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/114-hades-worn-v1/USTB_Hds.SHP",
+          "mods/114-hades-worn-v1/hades_inspection.luau",
+          "mods/114-hades-worn-v1/license.txt",
+          "mods/114-hades-worn-v1/mission965.dte",
+          "mods/114-hades-worn-v1/mission966.dte",
+          "mods/114-hades-worn-v1/mission967.dte",
+          "mods/114-hades-worn-v1/mission968.dte",
+          "mods/114-hades-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "hades",
+        "tier": "2k",
+        "zip_sha256": "cefab982173984404a741815069fdfa6ced6950b8947275726b8daffaa29c105",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orhd1_hull",
+            "emissive": false,
+            "log_sha256": "fa4030241a6de42c97d3758cbb0245634e3b8a8c88cde6bc714907332cdd9f1d",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:14:17.245341+00:00"
+}
