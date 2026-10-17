@@ -1,0 +1,225 @@
+{
+  "asset": "salin",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "60764e5bfb1fec277a2658febde1205581d91a721e5275d352dedb02cbdf0c32",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "salin-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1.res2/openreliant-salin-1k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1.res2",
+      "checksum": "8eefced308d805ddab8882b38608b8508a5d122209eaa0cb5ccf6e7fe320fb9f",
+      "downloadBytes": 4107060
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "salin-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1.res2/openreliant-salin-2k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1.res2",
+      "checksum": "e7ccc65fc18e2b1fe9f2c8ea65e9b1ead555112b290e347141afd377f2d01212",
+      "downloadBytes": 9697707
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.1",
+      "tag": "salin-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1/openreliant-salin-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1",
+      "checksum": "0aee16395ae45dee9ee033e7515b463e2b79ab38fc87fceda960461d07953412",
+      "downloadBytes": 26437763
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "60764e5bfb1fec277a2658febde1205581d91a721e5275d352dedb02cbdf0c32",
+        "asset_manifest_sha256": "cdf38787f3867156b19f145705ae176cf0b54b4d1c6239bfacbe833077dae253",
+        "images": [
+          {
+            "path": "mods/109-salin-worn-v1/orsn1_hull.png",
+            "source_sha256": "520654f8e8cbabcde823abcca9922c042564c8aa62ca29e680a40288bce607ac",
+            "sha256": "943dbdae3e38a418bc43b0f27c2e812af7c18500f9db94d16f2144aef7d21b74",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/109-salin-worn-v1/orsn1_hull_normal.png",
+            "source_sha256": "11ffb8f2b4db65ebc25d4515417fb21132a1392c8170d2f995dc735d8e6ae699",
+            "sha256": "90f1c4cc2807261c2953181a7253fbf1386607e6387b5dc33f8e1d8ee259f261",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/109-salin-worn-v1/orsn1_hull_orm.png",
+            "source_sha256": "56bc79c89e1fc814cd0a41da5014f209f255b8776ee2c4e4cae48313d6034ff7",
+            "sha256": "283732b6e5657eb8c7ddbf975185f57d6d70bf12d55c58ac873ae841550a32da",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/109-salin-worn-v1/Luda.SHP",
+          "mods/109-salin-worn-v1/license.txt",
+          "mods/109-salin-worn-v1/mission977.dte",
+          "mods/109-salin-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "salin",
+        "tier": "1k",
+        "zip_sha256": "8eefced308d805ddab8882b38608b8508a5d122209eaa0cb5ccf6e7fe320fb9f",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsn1_hull",
+            "emissive": false,
+            "log_sha256": "b65087fabd061e71c38668ce293294bdb081cf7dcfca4004ddfd54e8484fb5ab",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "60764e5bfb1fec277a2658febde1205581d91a721e5275d352dedb02cbdf0c32",
+        "asset_manifest_sha256": "34d91abf67415fd3ccdec38adf1305e45f147f5be322393079321908226f7163",
+        "images": [
+          {
+            "path": "mods/109-salin-worn-v1/orsn1_hull.png",
+            "source_sha256": "520654f8e8cbabcde823abcca9922c042564c8aa62ca29e680a40288bce607ac",
+            "sha256": "c7675e505dfbb42a7861827123282a5a66df4892d940ae58780708098b2899d1",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/109-salin-worn-v1/orsn1_hull_normal.png",
+            "source_sha256": "11ffb8f2b4db65ebc25d4515417fb21132a1392c8170d2f995dc735d8e6ae699",
+            "sha256": "e3ed9dd9a0a96ddea58b3ab15b617e1caeec101eecd49d8c842be241c167ec94",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/109-salin-worn-v1/orsn1_hull_orm.png",
+            "source_sha256": "56bc79c89e1fc814cd0a41da5014f209f255b8776ee2c4e4cae48313d6034ff7",
+            "sha256": "262fd8a127a7b63e986f1e69331da00aa8b87525065d028d80e607860cde25cf",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/109-salin-worn-v1/Luda.SHP",
+          "mods/109-salin-worn-v1/license.txt",
+          "mods/109-salin-worn-v1/mission977.dte",
+          "mods/109-salin-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "salin",
+        "tier": "2k",
+        "zip_sha256": "e7ccc65fc18e2b1fe9f2c8ea65e9b1ead555112b290e347141afd377f2d01212",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsn1_hull",
+            "emissive": false,
+            "log_sha256": "b65087fabd061e71c38668ce293294bdb081cf7dcfca4004ddfd54e8484fb5ab",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:29:17.071707+00:00"
+}
