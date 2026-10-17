@@ -1501,7 +1501,40 @@
           "engine": "0.8.1",
           "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
           "previewType": "capture",
-          "previewArtworkRevision": "1.0"
+          "previewArtworkRevision": "1.0",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "kamov-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kamov-v0.1.0-beta.2.res2/openreliant-kamov-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.2.res2",
+              "checksum": "426085d7aaf8f818800c1c7cbcac34af1566ed891cf69c3f6d01675960e50f6c",
+              "downloadBytes": 4253025
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "kamov-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kamov-v0.1.0-beta.2.res2/openreliant-kamov-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.2.res2",
+              "checksum": "0123d50588df8a16d8731ed365d1f7076639679763cadceba6610acadb176bd8",
+              "downloadBytes": 10238287
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "kamov-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kamov-v0.1.0-beta.2/openreliant-kamov-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.2",
+              "checksum": "77e1df3671a739a183e546058d666b55ff8252c73dea35a5194d17da7191a972",
+              "downloadBytes": 27677993
+            }
+          ]
         }
       ],
       "entryType": "ship",
