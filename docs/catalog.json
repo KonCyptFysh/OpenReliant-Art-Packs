@@ -1782,8 +1782,8 @@
       "id": "kurgen",
       "name": "Kurgen",
       "category": "corvettes-and-gunboats",
-      "status": "coming-soon",
-      "workStatus": "in-progress",
+      "status": "available",
+      "workStatus": "released",
       "description": "Worn Coalition corvette with lit bridge windows, damage-responsive cabin power, throttle-driven stern illumination and retained nozzle heat.",
       "entryType": "ship",
       "faction": "coalition",
@@ -1793,7 +1793,7 @@
         {
           "id": "worn-paint",
           "name": "Worn Paint",
-          "status": "coming-soon",
+          "status": "available",
           "engineStatus": "user-approved-beta",
           "engine": "0.18.0",
           "notes": [
@@ -1815,7 +1815,13 @@
               "src": "assets/kurgen/gallery-overview-v1.webp",
               "caption": "Kurgen — front three-quarter view, healthy cabin lighting"
             }
-          ]
+          ],
+          "version": "0.1.0-beta.1",
+          "tag": "kurgen-v0.1.0-beta.1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kurgen-v0.1.0-beta.1/openreliant-kurgen-0.1.0-beta.1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kurgen-v0.1.0-beta.1",
+          "checksum": "0220d2accef562ce4c36153584f7a7cfb35893f6c9cec760d83f592708d46ff4",
+          "downloadBytes": 52754248
         }
       ],
       "folder": "Corvettes and Gunboats/Kurgen"
