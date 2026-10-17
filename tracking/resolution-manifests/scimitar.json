@@ -1,0 +1,229 @@
+{
+  "asset": "scimitar",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "6cd8fab3d864fbaa8713c2e3df221561f2bce71ec295dd0d84835580435db008",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "scimitar-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/scimitar-v0.1.0-beta.1.res2/openreliant-scimitar-1k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1.res2",
+      "checksum": "f85b1f645d281de20cac4a51d7e63e2c0ef665317827af1228bdc1c1fd065901",
+      "downloadBytes": 4384712
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "scimitar-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/scimitar-v0.1.0-beta.1.res2/openreliant-scimitar-2k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1.res2",
+      "checksum": "01e454944ae485579c31bc4c579a7f2f275dc9033a31d8323bec3fc0d6e21a09",
+      "downloadBytes": 11172583
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.1",
+      "tag": "scimitar-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/scimitar-v0.1.0-beta.1/openreliant-scimitar-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1",
+      "checksum": "8a6cbcd2fc72ef262ddeee9626c112a6e71b48b88977a49e61078412fbf07da0",
+      "downloadBytes": 30656062
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "6cd8fab3d864fbaa8713c2e3df221561f2bce71ec295dd0d84835580435db008",
+        "asset_manifest_sha256": "8596341752a48fe4231f5425c6325380bb5553ede880c0417417878ddd09745b",
+        "images": [
+          {
+            "path": "mods/115-scimitar-worn-v1/orsc1_hull.png",
+            "source_sha256": "8608e5b8a18ad5111774e0fde685279e6b615b6b62eea9ef2fbdb93f14da7b75",
+            "sha256": "813d3aab550f8bfd24d862428e7ba4e0fe9d6e067d6683ba40f477de21530918",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/115-scimitar-worn-v1/orsc1_hull_normal.png",
+            "source_sha256": "96d2d952c46ec231e06e862da01f8f7cd3a7b651d6698e215229cd9bb04cfa13",
+            "sha256": "c56b8296e8fa270cf0d59079aff1706047391b71bb1e9dfd75f58a15e412dc8c",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/115-scimitar-worn-v1/orsc1_hull_orm.png",
+            "source_sha256": "49de27b7974916b478c4cb748a6379917d70bcac7db02b72d0b613cf32e20202",
+            "sha256": "107f8bc2194c3ec405c5ba5cd16465889a3b37eb48782f57dd8cacb8c7d37626",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/115-scimitar-worn-v1/Scimitar.SHP",
+          "mods/115-scimitar-worn-v1/license.txt",
+          "mods/115-scimitar-worn-v1/mission963.dte",
+          "mods/115-scimitar-worn-v1/mission964.dte",
+          "mods/115-scimitar-worn-v1/mod.png",
+          "mods/115-scimitar-worn-v1/scimitar_inspection.luau"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "scimitar",
+        "tier": "1k",
+        "zip_sha256": "f85b1f645d281de20cac4a51d7e63e2c0ef665317827af1228bdc1c1fd065901",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsc1_hull",
+            "emissive": false,
+            "log_sha256": "63c09d8f8cb15461c1d788a196258cac89331f1e38482359e006c2a0e9894e57",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "6cd8fab3d864fbaa8713c2e3df221561f2bce71ec295dd0d84835580435db008",
+        "asset_manifest_sha256": "c562b290a169bb3bd6f0b010e6cece2a81d2ad49d2e108be2f196c2617e8ae11",
+        "images": [
+          {
+            "path": "mods/115-scimitar-worn-v1/orsc1_hull.png",
+            "source_sha256": "8608e5b8a18ad5111774e0fde685279e6b615b6b62eea9ef2fbdb93f14da7b75",
+            "sha256": "984a90ad047e27e9879da26ea53f3ec6022f19ffe055ae728c79ea44bd2b69c0",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/115-scimitar-worn-v1/orsc1_hull_normal.png",
+            "source_sha256": "96d2d952c46ec231e06e862da01f8f7cd3a7b651d6698e215229cd9bb04cfa13",
+            "sha256": "6e6b02ea74da647bc0daba4f908c66230a5cfa2865faba244e66e3173048b6d3",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/115-scimitar-worn-v1/orsc1_hull_orm.png",
+            "source_sha256": "49de27b7974916b478c4cb748a6379917d70bcac7db02b72d0b613cf32e20202",
+            "sha256": "7a3b0091b4136148610f98b0a24f5be554ccd858378a57f88e90ccfdd4f1388d",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/115-scimitar-worn-v1/Scimitar.SHP",
+          "mods/115-scimitar-worn-v1/license.txt",
+          "mods/115-scimitar-worn-v1/mission963.dte",
+          "mods/115-scimitar-worn-v1/mission964.dte",
+          "mods/115-scimitar-worn-v1/mod.png",
+          "mods/115-scimitar-worn-v1/scimitar_inspection.luau"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "scimitar",
+        "tier": "2k",
+        "zip_sha256": "01e454944ae485579c31bc4c579a7f2f275dc9033a31d8323bec3fc0d6e21a09",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsc1_hull",
+            "emissive": false,
+            "log_sha256": "63c09d8f8cb15461c1d788a196258cac89331f1e38482359e006c2a0e9894e57",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:16:57.072967+00:00"
+}
