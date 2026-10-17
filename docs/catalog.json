@@ -2158,7 +2158,40 @@
           "checksum": "a599bfbb7fd11f79254b199f46e9721c7486a991bada37177fd1140e6d96b43c",
           "downloadBytes": 26257495,
           "previewType": "capture",
-          "previewArtworkRevision": "1.0"
+          "previewArtworkRevision": "1.0",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "cossack-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1.res2/openreliant-cossack-1k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1.res2",
+              "checksum": "80ef546ea7d5d95c564b2fdec688ca8e5a082b0018fa4be583ee4e505fcb8f69",
+              "downloadBytes": 4055293
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "cossack-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1.res2/openreliant-cossack-2k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1.res2",
+              "checksum": "04179e5e347878f29b01844b92d63024e53e6bcda541c230620683910de6f291",
+              "downloadBytes": 9711654
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.1",
+              "tag": "cossack-v0.1.0-beta.1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1/openreliant-cossack-0.1.0-beta.1.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1",
+              "checksum": "a599bfbb7fd11f79254b199f46e9721c7486a991bada37177fd1140e6d96b43c",
+              "downloadBytes": 26257495
+            }
+          ]
         }
       ],
       "entryType": "ship",
