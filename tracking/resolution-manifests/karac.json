@@ -1,0 +1,225 @@
+{
+  "asset": "karac",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "39d886f75c02af823eec33f65bdae869f38653ee33d853d39305ef335baf8073",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "karak-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/karak-v0.1.0-beta.1.res2/openreliant-karak-1k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1.res2",
+      "checksum": "173f185638e6c367e2b2b5638129ac95aa73c15ae22b9c58a788910fe8691c7f",
+      "downloadBytes": 4307727
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "karak-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/karak-v0.1.0-beta.1.res2/openreliant-karak-2k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1.res2",
+      "checksum": "ab8e38f4da4f8956918c0fa7326f57c229ac962d25959dbe5186f926a1abf566",
+      "downloadBytes": 10793044
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.1",
+      "tag": "karak-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/karak-v0.1.0-beta.1/openreliant-karak-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1",
+      "checksum": "b6f2b62bd866561bdf0052b0676e2a555af5cbcbeb47564c2342b407e2bccd0e",
+      "downloadBytes": 29855001
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "39d886f75c02af823eec33f65bdae869f38653ee33d853d39305ef335baf8073",
+        "asset_manifest_sha256": "1ef6ef73bbe6589ddbc475d32601f7f8fc08de1c7dd40c97d8a35a82abed080a",
+        "images": [
+          {
+            "path": "mods/112-karak-worn-v1/orkr1_hull.png",
+            "source_sha256": "a2f0cbb7336cea379d5628971dfc4fb39ed3621367ba17b09b7d67865312e439",
+            "sha256": "4b700fd3ee2a518ed6c507779d35bf302538c7333d220ca45b36e6831183ad32",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/112-karak-worn-v1/orkr1_hull_normal.png",
+            "source_sha256": "4a333399b38eaa0d331d3d9b6fc537ecc11be4babca86debbee8b8755f66a9d4",
+            "sha256": "c6fc400cff6b8b81a210ef195c81c7b5093cd1e6477bf762da896327c003698a",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/112-karak-worn-v1/orkr1_hull_orm.png",
+            "source_sha256": "41f4b0b7b24b10275a44ad96c8c680a2d4fd1ddee5ed9ed36d08c8273f33bf20",
+            "sha256": "29e28a32a41ebca0617875ac6405919754efd2df2706ff11bfa6d67f93159566",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/112-karak-worn-v1/Chin_Zhuhai.SHP",
+          "mods/112-karak-worn-v1/license.txt",
+          "mods/112-karak-worn-v1/mission974.dte",
+          "mods/112-karak-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "karac",
+        "tier": "1k",
+        "zip_sha256": "173f185638e6c367e2b2b5638129ac95aa73c15ae22b9c58a788910fe8691c7f",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orkr1_hull",
+            "emissive": false,
+            "log_sha256": "6225762f744447bcc3a4f1c5731e1c231eedffe36a7a66fc68369c77f4a8f260",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "39d886f75c02af823eec33f65bdae869f38653ee33d853d39305ef335baf8073",
+        "asset_manifest_sha256": "c52b6ab0144c4fdab23807b90f51cb4bdaeba50146e7bd793f8a97de1c597b39",
+        "images": [
+          {
+            "path": "mods/112-karak-worn-v1/orkr1_hull.png",
+            "source_sha256": "a2f0cbb7336cea379d5628971dfc4fb39ed3621367ba17b09b7d67865312e439",
+            "sha256": "1322510ac3ec824333a7b824e6439988135c3598267aec187a48c04f9073b7fe",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/112-karak-worn-v1/orkr1_hull_normal.png",
+            "source_sha256": "4a333399b38eaa0d331d3d9b6fc537ecc11be4babca86debbee8b8755f66a9d4",
+            "sha256": "846d5d6c75085a6be8958fcdd466b47047d9f5ef0c2135fa59b78dfe2b4bca42",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/112-karak-worn-v1/orkr1_hull_orm.png",
+            "source_sha256": "41f4b0b7b24b10275a44ad96c8c680a2d4fd1ddee5ed9ed36d08c8273f33bf20",
+            "sha256": "f6188982653280eb255f7c28e372a50d4cfa2b97446183de2f9b0458febfde1d",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/112-karak-worn-v1/Chin_Zhuhai.SHP",
+          "mods/112-karak-worn-v1/license.txt",
+          "mods/112-karak-worn-v1/mission974.dte",
+          "mods/112-karak-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "karac",
+        "tier": "2k",
+        "zip_sha256": "ab8e38f4da4f8956918c0fa7326f57c229ac962d25959dbe5186f926a1abf566",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orkr1_hull",
+            "emissive": false,
+            "log_sha256": "6225762f744447bcc3a4f1c5731e1c231eedffe36a7a66fc68369c77f4a8f260",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:35:44.858706+00:00"
+}
