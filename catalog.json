@@ -1023,7 +1023,40 @@
           "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
           "defaultPreview": "image",
           "previewType": "capture",
-          "previewArtworkRevision": "7.0"
+          "previewArtworkRevision": "7.0",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "phoenix-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2.res2/openreliant-phoenix-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.2.res2",
+              "checksum": "69b53abbf1c332c6515ec962f058523fcd97fa777b5abea6ea09df8259fee2f2",
+              "downloadBytes": 10519515
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "phoenix-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2.res2/openreliant-phoenix-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.2.res2",
+              "checksum": "af67eda72701a5a6e11ee99ccc778110b365177a9a31c94a96b5670bf892952a",
+              "downloadBytes": 34068112
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "phoenix-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2/openreliant-phoenix-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.2",
+              "checksum": "8cefee26d1ef3d5d419663586570cc17d901f432ad283d8fc5250d5cb6901ef3",
+              "downloadBytes": 117681692
+            }
+          ]
         }
       ],
       "entryType": "ship",

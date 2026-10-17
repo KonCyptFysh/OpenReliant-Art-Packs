@@ -1,0 +1,331 @@
+{
+  "asset": "phoenix",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "9c59943b0203c36292a1627050e6c342daf5da5be29665b85ac1a532550ff121",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "phoenix-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2.res2/openreliant-phoenix-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.2.res2",
+      "checksum": "69b53abbf1c332c6515ec962f058523fcd97fa777b5abea6ea09df8259fee2f2",
+      "downloadBytes": 10519515
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "phoenix-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2.res2/openreliant-phoenix-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.2.res2",
+      "checksum": "af67eda72701a5a6e11ee99ccc778110b365177a9a31c94a96b5670bf892952a",
+      "downloadBytes": 34068112
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "phoenix-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2/openreliant-phoenix-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.2",
+      "checksum": "8cefee26d1ef3d5d419663586570cc17d901f432ad283d8fc5250d5cb6901ef3",
+      "downloadBytes": 117681692
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "7.0",
+        "source_manifest_sha256": "9c59943b0203c36292a1627050e6c342daf5da5be29665b85ac1a532550ff121",
+        "asset_manifest_sha256": "243f4e0465053e4ff781112ea036d9b1a365ef2a3ccd9e2df914590bea9ffb0b",
+        "images": [
+          {
+            "path": "mods/98-phoenix-worn-v1/orpx1_hull.png",
+            "source_sha256": "8bbb7d29d6334afc10d2ffb3ef352df9e9f3b1b0c402c4fdf2a1e2dbc42465c4",
+            "sha256": "b6624103d6671c648d1ccc7d9734cbb79433366b37fa92056e5e1e042af159a7",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/98-phoenix-worn-v1/orpx1_hull_normal.png",
+            "source_sha256": "7104a734fc6d71a909087137e856e7b463ce3d27ed60a4287363f2a007a533cd",
+            "sha256": "7377a8ad96f5d8942b486b331b022ba7ada44b38c17817316784703f197f5890",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/98-phoenix-worn-v1/orpx1_hull_orm.png",
+            "source_sha256": "a835ed25839ab2a75af9b24ce96203bfbf9b95999dc6fb3b80e8a5ab2d42c4a5",
+            "sha256": "faabbb6729e102a1e3f54c5e2f372d62ca8f19a9bb1ca22fda3cd33fcb83519d",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/98-phoenix-worn-v1/orpx7_fix.png",
+            "source_sha256": "582db7d0a18e8bdaadafb0bb2db0720c85657fe8bd3bb1db3d1a57ca348f12cf",
+            "sha256": "ccfb072863617a95a611f2193f891d5837f98e4a0a93f7396d29743a03de0f82",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/98-phoenix-worn-v1/orpx7_fix_normal.png",
+            "source_sha256": "b3e6de0aa428a9157fb89c71db99184863c6997dcff79fe1c0502152d51e7fdd",
+            "sha256": "a7042c151e325d14774d8aabf7773b8dafc14bfd59c21f34ba4c218e619e92c8",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/98-phoenix-worn-v1/orpx7_fix_orm.png",
+            "source_sha256": "72227049de611c3bca062a8bd1e6275590458de5b74262cb8f1d532c63373353",
+            "sha256": "8ad9f1368ee07d7e5b17c119a4990a91fa653662ead5e0d727957e05abd86fb8",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/98-phoenix-worn-v1/Phoenix_gun.SHP",
+          "mods/98-phoenix-worn-v1/USPF_Phx.SHP",
+          "mods/98-phoenix-worn-v1/license.txt",
+          "mods/98-phoenix-worn-v1/mission990.dte",
+          "mods/98-phoenix-worn-v1/mod.png",
+          "mods/98-phoenix-worn-v1/t_USPF_Phx.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "phoenix",
+        "tier": "1k",
+        "zip_sha256": "69b53abbf1c332c6515ec962f058523fcd97fa777b5abea6ea09df8259fee2f2",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orpx1_hull",
+            "emissive": false,
+            "log_sha256": "399fe22343179634eae58568e824771d5ec73ce36dbb06b8a5ae0052c7728c4a",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orpx7_fix",
+            "emissive": false,
+            "log_sha256": "08bfb87da72ecba4f35167f79d3dbd8326c8f5e594d49b0dbb6e30db02f14967",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "7.0",
+        "source_manifest_sha256": "9c59943b0203c36292a1627050e6c342daf5da5be29665b85ac1a532550ff121",
+        "asset_manifest_sha256": "f30336818ec0771d70eec3727e780a0d2b1862c07729b346b33864b16296cca9",
+        "images": [
+          {
+            "path": "mods/98-phoenix-worn-v1/orpx1_hull.png",
+            "source_sha256": "8bbb7d29d6334afc10d2ffb3ef352df9e9f3b1b0c402c4fdf2a1e2dbc42465c4",
+            "sha256": "59720ea436cef4fcd6e62f72cfadefb783955f9fb15e9a40a3bd5f4c0b7f6d6b",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/98-phoenix-worn-v1/orpx1_hull_normal.png",
+            "source_sha256": "7104a734fc6d71a909087137e856e7b463ce3d27ed60a4287363f2a007a533cd",
+            "sha256": "9598b93c953510410152a5722cc07b917cf762755838eb9a18c9ee6d33f4549a",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/98-phoenix-worn-v1/orpx1_hull_orm.png",
+            "source_sha256": "a835ed25839ab2a75af9b24ce96203bfbf9b95999dc6fb3b80e8a5ab2d42c4a5",
+            "sha256": "21481a0a398dda993ebd48394e08a615984c740261be1fbbd8b7ae7184a78595",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/98-phoenix-worn-v1/orpx7_fix.png",
+            "source_sha256": "582db7d0a18e8bdaadafb0bb2db0720c85657fe8bd3bb1db3d1a57ca348f12cf",
+            "sha256": "1c8217f496168a1b69b8df73ce53cde3e99dc9b4a9b402aa8f32a5ca9979c567",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/98-phoenix-worn-v1/orpx7_fix_normal.png",
+            "source_sha256": "b3e6de0aa428a9157fb89c71db99184863c6997dcff79fe1c0502152d51e7fdd",
+            "sha256": "37d4a5f9733d07eb840618e0aea0c5e8c50ee9d049095ef67b522184f72ca986",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/98-phoenix-worn-v1/orpx7_fix_orm.png",
+            "source_sha256": "72227049de611c3bca062a8bd1e6275590458de5b74262cb8f1d532c63373353",
+            "sha256": "05382e20777e1f974593469178a9374239fe323de99e2926eed9f86b6319333a",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/98-phoenix-worn-v1/Phoenix_gun.SHP",
+          "mods/98-phoenix-worn-v1/USPF_Phx.SHP",
+          "mods/98-phoenix-worn-v1/license.txt",
+          "mods/98-phoenix-worn-v1/mission990.dte",
+          "mods/98-phoenix-worn-v1/mod.png",
+          "mods/98-phoenix-worn-v1/t_USPF_Phx.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "phoenix",
+        "tier": "2k",
+        "zip_sha256": "af67eda72701a5a6e11ee99ccc778110b365177a9a31c94a96b5670bf892952a",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orpx1_hull",
+            "emissive": false,
+            "log_sha256": "399fe22343179634eae58568e824771d5ec73ce36dbb06b8a5ae0052c7728c4a",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orpx7_fix",
+            "emissive": false,
+            "log_sha256": "08bfb87da72ecba4f35167f79d3dbd8326c8f5e594d49b0dbb6e30db02f14967",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T05:55:47.535127+00:00"
+}
