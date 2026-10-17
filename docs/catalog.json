@@ -710,6 +710,39 @@
               "src": "assets/shroud/gallery-overview-v1.webp",
               "caption": "Shroud — Front three-quarter view"
             }
+          ],
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "shroud-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2.res2/openreliant-shroud-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2.res2",
+              "checksum": "31e17379ec9ce369f0dd9099101e51dc30f1eb8658a6343c942bce4ed870ff9c",
+              "downloadBytes": 7475172
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "shroud-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2.res2/openreliant-shroud-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2.res2",
+              "checksum": "d1c9b8dc8b5d1c27ddf13844ae0f925366e0f81b22e33881a80322f11d25a127",
+              "downloadBytes": 24751230
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "shroud-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2/openreliant-shroud-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2",
+              "checksum": "fdc23464300d888110d21f61a66f61ba3f325727ff0e1bc9b8ecaaeff626ef2f",
+              "downloadBytes": 39383406
+            }
           ]
         }
       ],
