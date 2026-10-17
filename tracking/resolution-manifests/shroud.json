@@ -1,0 +1,225 @@
+{
+  "asset": "shroud",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "6b233a85c1072fcf4f24e991e8e384b0c6ae2be9b7ce0ba43093a2d033837ec7",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "shroud-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2.res2/openreliant-shroud-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2.res2",
+      "checksum": "31e17379ec9ce369f0dd9099101e51dc30f1eb8658a6343c942bce4ed870ff9c",
+      "downloadBytes": 7475172
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "shroud-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2.res2/openreliant-shroud-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2.res2",
+      "checksum": "d1c9b8dc8b5d1c27ddf13844ae0f925366e0f81b22e33881a80322f11d25a127",
+      "downloadBytes": 24751230
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "shroud-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2/openreliant-shroud-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2",
+      "checksum": "fdc23464300d888110d21f61a66f61ba3f325727ff0e1bc9b8ecaaeff626ef2f",
+      "downloadBytes": 39383406
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "2.0",
+        "source_manifest_sha256": "6b233a85c1072fcf4f24e991e8e384b0c6ae2be9b7ce0ba43093a2d033837ec7",
+        "asset_manifest_sha256": "08d95d22231307b5518d9b27e5321b8f8cc467665480c81fd02490f4847ea6f8",
+        "images": [
+          {
+            "path": "mods/80-shroud-worn-v1/orsh1_hull.png",
+            "source_sha256": "3e51b5b6bf2a0526f6b1e5531d46dccfea01faa9c44e944f121391cff9a3b1aa",
+            "sha256": "78d3cbd07e98ad7589cdc3d54188e3f99d58794cec8177b4333041ed7b11c317",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/80-shroud-worn-v1/orsh1_hull_normal.png",
+            "source_sha256": "f1b065c2d266e4467759718151ded2859d1b935868e30fe38a3ce771e6d659fa",
+            "sha256": "ca97559fc8cac16006ae13fc2e1e6b81a06ae3bfbbdc32642f8dffc1c4f2c898",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/80-shroud-worn-v1/orsh1_hull_orm.png",
+            "source_sha256": "e5c349d8cdc666f7ada7d7542afa2864383bdfeecae2b83d7b6df88938641a91",
+            "sha256": "25d3b5c2d0f6becceb759c4333b614623ea9d7951e49fcd2cb5008c6d93a22f3",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/80-shroud-worn-v1/Jap_Shroud.SHP",
+          "mods/80-shroud-worn-v1/license.txt",
+          "mods/80-shroud-worn-v1/mod.png",
+          "mods/80-shroud-worn-v1/t_Jap_Shroud.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "shroud",
+        "tier": "1k",
+        "zip_sha256": "31e17379ec9ce369f0dd9099101e51dc30f1eb8658a6343c942bce4ed870ff9c",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsh1_hull",
+            "emissive": false,
+            "log_sha256": "d9a6eb9fd213cfbb681675e60a5c1905fc3e67efecf456815fefe331449fe5eb",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "2.0",
+        "source_manifest_sha256": "6b233a85c1072fcf4f24e991e8e384b0c6ae2be9b7ce0ba43093a2d033837ec7",
+        "asset_manifest_sha256": "2c586939ff974870f68d039da379905e63b8bc04441c46528a1240395425237c",
+        "images": [
+          {
+            "path": "mods/80-shroud-worn-v1/orsh1_hull.png",
+            "source_sha256": "3e51b5b6bf2a0526f6b1e5531d46dccfea01faa9c44e944f121391cff9a3b1aa",
+            "sha256": "a1ca3b52fdaa6e15312e8193516b54291b1b083cd425bff2825fcaaf478a45c2",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/80-shroud-worn-v1/orsh1_hull_normal.png",
+            "source_sha256": "f1b065c2d266e4467759718151ded2859d1b935868e30fe38a3ce771e6d659fa",
+            "sha256": "c2f74df89fcf19e75c0cd1b441ad998ed436d4fc27c51ee6379e230d7490699b",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/80-shroud-worn-v1/orsh1_hull_orm.png",
+            "source_sha256": "e5c349d8cdc666f7ada7d7542afa2864383bdfeecae2b83d7b6df88938641a91",
+            "sha256": "7f46d05cb42ae09c6a86b7a6cc3702c077354a17461f9c810082a91131f43443",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/80-shroud-worn-v1/Jap_Shroud.SHP",
+          "mods/80-shroud-worn-v1/license.txt",
+          "mods/80-shroud-worn-v1/mod.png",
+          "mods/80-shroud-worn-v1/t_Jap_Shroud.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "shroud",
+        "tier": "2k",
+        "zip_sha256": "d1c9b8dc8b5d1c27ddf13844ae0f925366e0f81b22e33881a80322f11d25a127",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsh1_hull",
+            "emissive": false,
+            "log_sha256": "d9a6eb9fd213cfbb681675e60a5c1905fc3e67efecf456815fefe331449fe5eb",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T05:44:47.559932+00:00"
+}
