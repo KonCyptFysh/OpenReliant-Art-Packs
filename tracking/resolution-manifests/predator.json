@@ -1,0 +1,429 @@
+{
+  "asset": "predator",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "3afd03cb39f0c146f20faad31e787d328d082f069258ef4f452ea9dbf955532a",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "predator-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2.res2/openreliant-predator-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2.res2",
+      "checksum": "7b935cd21479172f54a2a39a2084268f26cd74909c67bf8ffa522ffe66e2c990",
+      "downloadBytes": 9852986
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "predator-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2.res2/openreliant-predator-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2.res2",
+      "checksum": "a2e91c78aafa3732800d223f26651ed49debba4adb93b686940d56fffe3d635b",
+      "downloadBytes": 34962881
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "predator-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2/openreliant-predator-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2",
+      "checksum": "c7e284ec829927d5a44ca2a338700efd9200a3212ef1520cf8e61d82b832ad2e",
+      "downloadBytes": 129821541
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "16.1",
+        "source_manifest_sha256": "3afd03cb39f0c146f20faad31e787d328d082f069258ef4f452ea9dbf955532a",
+        "asset_manifest_sha256": "43457b26799a123a5f3184e599ba7cc9dca215cf172d10c4d5124e1cd30e4989",
+        "images": [
+          {
+            "path": "mods/40-predator-worn-v14/orp14_base.png",
+            "source_sha256": "4976a05668b8e6aa74e9f2fd711a1306bf5aa2a58d3bdd59e5c5b7c1f68bce8a",
+            "sha256": "e788b7d6925876f775e0d5424bb4dd52ea75d7126af319d3d89a4b369e68237a",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_base_normal.png",
+            "source_sha256": "f10ec0b8d5971c53232a29b0db40c546939cb40c3cdd6e3abddd31b5aaffb349",
+            "sha256": "5941068d2e0693b7ebd843f482231ab6c6bde0f984eb4fb657190209f854e4b6",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_base_orm.png",
+            "source_sha256": "dce49b770273bce9df0efc98556109b5643e3c6ea12bf2429543c12dd37ea9a8",
+            "sha256": "ff9cb3ebb22f2a1c8fe2f34241851c3164bd83e406c87883621206da1a8eb234",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_markings.png",
+            "source_sha256": "7a82d3b03f90cbe77d9ec8b2b11328b7041f7b85421dfbcc0788ef5369bbd6d5",
+            "sha256": "4b87d73ff20bb8bd9bef06c542f812bd0532b630166f11e123f49e54303ec486",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_markings_normal.png",
+            "source_sha256": "6f741146af837382a00cf12390b442e99c4d1685820e1e83a6564247710ad913",
+            "sha256": "076afe60e8ad0fc76bf9e120806d412c1d47dda4371f45ccaf06ed8520d4ec5c",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_markings_orm.png",
+            "source_sha256": "5bef2422dd605de1ad0a08889b65dc203acdaaf0fbf21e8794187db06a929b66",
+            "sha256": "e85bec06f8c512b0b41791578bce3d946f77c0da9bbfc287bff0d5e3fb63f7cb",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_surface.png",
+            "source_sha256": "06cfbc1be366e432a27b5d904b8b88fe5ec1a74d1ef7d553b591a54c775ab2e0",
+            "sha256": "147581ea407e63f362db59fe33615ad6d8528ecc4280e192e00855c60d00b113",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_surface_normal.png",
+            "source_sha256": "50bbfbf4a17d2386aef0cdce25c566d00920197a9d8a68864421cdfd49e81cd1",
+            "sha256": "0839efdb500cc19d2200d0299d32a0fd896cd58efab6ad9f4456f2baa8e7fe30",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_surface_orm.png",
+            "source_sha256": "33d180e550d69497deeb6883bbf6d0e83829af085bbe98036cbaa6284b97d42f",
+            "sha256": "003a8616ab22f38f7da1c87b0ac4cee428d977b91ccab8d81236e4bb74e147a5",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/40-predator-worn-v14/USLF_Prd.SHP",
+          "mods/40-predator-worn-v14/license.txt",
+          "mods/40-predator-worn-v14/mod.png",
+          "mods/40-predator-worn-v14/t_USLF_Prd.shp"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "predator",
+        "tier": "1k",
+        "zip_sha256": "7b935cd21479172f54a2a39a2084268f26cd74909c67bf8ffa522ffe66e2c990",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orp14_base",
+            "emissive": false,
+            "log_sha256": "137bcfe16b79eb4981a2b42ea980e135ee113d69a2a9182a7f1596268cdb49b1",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orp14_markings",
+            "emissive": false,
+            "log_sha256": "a7934eee29b39432f07f0b5a01a678c60f2ac3e920a81f03f7a31eea2631943f",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orp14_surface",
+            "emissive": false,
+            "log_sha256": "128d38cb379c6ce3c39cbe6f6f6a8cce2b30e26529a0a7f15757da14a6e641fd",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "16.1",
+        "source_manifest_sha256": "3afd03cb39f0c146f20faad31e787d328d082f069258ef4f452ea9dbf955532a",
+        "asset_manifest_sha256": "acb7ce6c024a11cfe15cdf611fe2d6253a7e6572e4fa1769b6f5d585c2df8a40",
+        "images": [
+          {
+            "path": "mods/40-predator-worn-v14/orp14_base.png",
+            "source_sha256": "4976a05668b8e6aa74e9f2fd711a1306bf5aa2a58d3bdd59e5c5b7c1f68bce8a",
+            "sha256": "c0aa52b1a2c424ed0b41476919dabffafc85b6ff5a2638660a3b25344956f135",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_base_normal.png",
+            "source_sha256": "f10ec0b8d5971c53232a29b0db40c546939cb40c3cdd6e3abddd31b5aaffb349",
+            "sha256": "42ef41a3eef1876a36122bf96b18546c2194f833dcfca24e2b2ee81a977305cd",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_base_orm.png",
+            "source_sha256": "dce49b770273bce9df0efc98556109b5643e3c6ea12bf2429543c12dd37ea9a8",
+            "sha256": "f92f3a924df66e279870bf6d4f78755f1f8d5e0fe31639d111d632ae248cde15",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_markings.png",
+            "source_sha256": "7a82d3b03f90cbe77d9ec8b2b11328b7041f7b85421dfbcc0788ef5369bbd6d5",
+            "sha256": "026e7423c25e16e66ba770c3edc3034120f37199b5a306b4f1ca7549ef0806ac",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_markings_normal.png",
+            "source_sha256": "6f741146af837382a00cf12390b442e99c4d1685820e1e83a6564247710ad913",
+            "sha256": "1b176bef0e3c0c281fbed895ce61d8003dd0f954f3c452ae423bce6c3702fd60",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_markings_orm.png",
+            "source_sha256": "5bef2422dd605de1ad0a08889b65dc203acdaaf0fbf21e8794187db06a929b66",
+            "sha256": "70ce4809d358b9cc0ce226d9303d95914d2b735fdb3452bade0d6c999664eace",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_surface.png",
+            "source_sha256": "06cfbc1be366e432a27b5d904b8b88fe5ec1a74d1ef7d553b591a54c775ab2e0",
+            "sha256": "45f66fe81851c212602e71548302f2514a4a92dfca5f822c9ef5f7b4b760edf7",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_surface_normal.png",
+            "source_sha256": "50bbfbf4a17d2386aef0cdce25c566d00920197a9d8a68864421cdfd49e81cd1",
+            "sha256": "76cf2c860b461dbe303159d4c6db3f6aa0bb7493dccfdd8837c7303c47f83efd",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/40-predator-worn-v14/orp14_surface_orm.png",
+            "source_sha256": "33d180e550d69497deeb6883bbf6d0e83829af085bbe98036cbaa6284b97d42f",
+            "sha256": "1ee7be193b9a4d988838f0daa057c44925242eaafd27f28eb7881785a137b537",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/40-predator-worn-v14/USLF_Prd.SHP",
+          "mods/40-predator-worn-v14/license.txt",
+          "mods/40-predator-worn-v14/mod.png",
+          "mods/40-predator-worn-v14/t_USLF_Prd.shp"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "predator",
+        "tier": "2k",
+        "zip_sha256": "a2e91c78aafa3732800d223f26651ed49debba4adb93b686940d56fffe3d635b",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orp14_base",
+            "emissive": false,
+            "log_sha256": "137bcfe16b79eb4981a2b42ea980e135ee113d69a2a9182a7f1596268cdb49b1",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orp14_markings",
+            "emissive": false,
+            "log_sha256": "a7934eee29b39432f07f0b5a01a678c60f2ac3e920a81f03f7a31eea2631943f",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orp14_surface",
+            "emissive": false,
+            "log_sha256": "128d38cb379c6ce3c39cbe6f6f6a8cce2b30e26529a0a7f15757da14a6e641fd",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T05:36:10.252513+00:00"
+}

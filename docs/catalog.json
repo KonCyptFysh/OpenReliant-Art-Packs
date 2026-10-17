@@ -402,6 +402,39 @@
               "src": "assets/predator/gallery-overview-v1.webp",
               "caption": "Predator — Front three-quarter view"
             }
+          ],
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "predator-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2.res2/openreliant-predator-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2.res2",
+              "checksum": "7b935cd21479172f54a2a39a2084268f26cd74909c67bf8ffa522ffe66e2c990",
+              "downloadBytes": 9852986
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "predator-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2.res2/openreliant-predator-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2.res2",
+              "checksum": "a2e91c78aafa3732800d223f26651ed49debba4adb93b686940d56fffe3d635b",
+              "downloadBytes": 34962881
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "predator-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2/openreliant-predator-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2",
+              "checksum": "c7e284ec829927d5a44ca2a338700efd9200a3212ef1520cf8e61d82b832ad2e",
+              "downloadBytes": 129821541
+            }
           ]
         }
       ],
