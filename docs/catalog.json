@@ -2476,7 +2476,40 @@
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1",
           "checksum": "930327f962ef3fae0e7352a1b9adb43d51093a6335a75b2c8637fa678affdc84",
           "downloadBytes": 40549074,
-          "previewType": "capture"
+          "previewType": "capture",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "haidar-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/haidar-v0.1.0-beta.1.res2/openreliant-haidar-1k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1.res2",
+              "checksum": "d53e8810e0ca44f5c0c3cff746225b90e264054354fafcd26a2e7812bd70c3da",
+              "downloadBytes": 10347492
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "haidar-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/haidar-v0.1.0-beta.1.res2/openreliant-haidar-2k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1.res2",
+              "checksum": "caecf2353dceaa2f78d8605d18082247760476b549000fd2f9fe365d7b89571d",
+              "downloadBytes": 31652777
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.1",
+              "tag": "haidar-v0.1.0-beta.1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/haidar-v0.1.0-beta.1/openreliant-haidar-0.1.0-beta.1.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1",
+              "checksum": "930327f962ef3fae0e7352a1b9adb43d51093a6335a75b2c8637fa678affdc84",
+              "downloadBytes": 40549074
+            }
+          ]
         }
       ],
       "aliases": [
