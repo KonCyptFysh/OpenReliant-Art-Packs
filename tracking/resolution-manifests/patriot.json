@@ -1,0 +1,431 @@
+{
+  "asset": "patriot",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "4f24a84d0d978a85a83e739ed3e18a61edee27bf313499576a1c6c2e723f7324",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "patriot-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2.res2/openreliant-patriot-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.2.res2",
+      "checksum": "7c2859b8dcea242e7166a03761689512a56076d81788c0013a567cf739edf6d0",
+      "downloadBytes": 14693787
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "patriot-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2.res2/openreliant-patriot-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.2.res2",
+      "checksum": "e45a31c75d3e5babbf2c2200125c3bc826f5da05001ae4da0f2fa9714b98a713",
+      "downloadBytes": 50475591
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "patriot-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2/openreliant-patriot-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.2",
+      "checksum": "ad2bde7d0aee79852cf895731c854d121f90eb04980d9ac6c4daf212f77cfea8",
+      "downloadBytes": 147417133
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "3.0",
+        "source_manifest_sha256": "4f24a84d0d978a85a83e739ed3e18a61edee27bf313499576a1c6c2e723f7324",
+        "asset_manifest_sha256": "9045e4064c897abf60065e93760e2125d37a9f68bd8d058c7e3011da96585677",
+        "images": [
+          {
+            "path": "mods/96-patriot-worn-v1/orpa1_hull.png",
+            "source_sha256": "bf1ce2aa7d335e5908488e11337309935a271cbac12d495a56aee2ddd2aa9411",
+            "sha256": "793cc9495924c1bfa4d878dbcc2d96c515cd7976077aa545b9cb9e08879477e8",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa1_hull_normal.png",
+            "source_sha256": "cc468d33132f719ae863227afb40d0d8beb3e4810355c2545d2e1d158736bb68",
+            "sha256": "a425f702be534fccd712c44f466ace0f53526b5028e85a00281eafc73215ca69",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa1_hull_orm.png",
+            "source_sha256": "5c5e97a64b3988d22d5dd0ea3475022929b47e786f66834bacef7a4372e13b91",
+            "sha256": "22d5d824e3d3c6dbc9d1e474984d9b3fc25f89da2f44ffd6c1d91f5ba38ad513",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa2_fix.png",
+            "source_sha256": "43367b787cb26176295841a67143eb88903656627b9f05dc7720475739a68658",
+            "sha256": "682e8fa8076e548841daa0e5bb385e97e419f94e0e59eadd3bd6ce2620f2981b",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa2_fix_normal.png",
+            "source_sha256": "36ecd52cf90d6631c37cc01b1447a18b97199487a65a798ac591f21488a064ef",
+            "sha256": "b5a598190a5c500c8ae900a923cb0af18c1bec0f46e05683c88af3a36304a6b2",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa2_fix_orm.png",
+            "source_sha256": "5674449e727bc5e0a4c9f55515f0db09e442558b757d03f27e27d69ea60b391e",
+            "sha256": "0b8897614e873a5d8e7dbefb8f9084a34089ed88b042535d1cba9a5b796e88a0",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa3_wrap.png",
+            "source_sha256": "72dc34c0ee33170ac70f05590c46b1cbc796b21c1edaded1417086e64161bbdd",
+            "sha256": "a65bd2ce45ee4c4f197edc6627dc3792c3bb9e266ea1025c3e63965c06e801dc",
+            "role": "colour",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa3_wrap_normal.png",
+            "source_sha256": "474e534caa901c825f83fedc36216293d9a1ae59a5ae87d1222d7430932fe9a5",
+            "sha256": "1177ccf8bedd26364a250773e852fa61f668133066a01b7ac7a2f42b76e54938",
+            "role": "normal",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa3_wrap_orm.png",
+            "source_sha256": "ce50b0135dd681db4cbf14f2d376fbd372573f2d1568dc02f59c10dd20645611",
+            "sha256": "b04d64b5bb830077de17aba0ccca6adb6739065d40b4e27e67dcc6610915dd2c",
+            "role": "orm",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/96-patriot-worn-v1/USMF_Pat.SHP",
+          "mods/96-patriot-worn-v1/license.txt",
+          "mods/96-patriot-worn-v1/mission992.dte",
+          "mods/96-patriot-worn-v1/mod.png",
+          "mods/96-patriot-worn-v1/t_USMF_Pat.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "patriot",
+        "tier": "1k",
+        "zip_sha256": "7c2859b8dcea242e7166a03761689512a56076d81788c0013a567cf739edf6d0",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orpa1_hull",
+            "emissive": false,
+            "log_sha256": "cc16f8c3c6cc43386a92e897aa44b860a2131a0bd734b863083c1b8306676346",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orpa2_fix",
+            "emissive": false,
+            "log_sha256": "357426a6e80e1f98aeeb74b73f269e813e1ce67d1af00b492a51a5d82698cb6e",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orpa3_wrap",
+            "emissive": false,
+            "log_sha256": "904dc789c4678a1eabc959a6c94e6f1609be8f34ab687d242d85666e7f4f900d",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "3.0",
+        "source_manifest_sha256": "4f24a84d0d978a85a83e739ed3e18a61edee27bf313499576a1c6c2e723f7324",
+        "asset_manifest_sha256": "25639e2e6dca7b44741c8995debe8f3383ceb43fe908f9e077e9ce73a1d52ded",
+        "images": [
+          {
+            "path": "mods/96-patriot-worn-v1/orpa1_hull.png",
+            "source_sha256": "bf1ce2aa7d335e5908488e11337309935a271cbac12d495a56aee2ddd2aa9411",
+            "sha256": "5600faa53c7bf96a56cea1bcd7b9f25ee0ee8edd4aca10bc4c0091c4bd890f59",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa1_hull_normal.png",
+            "source_sha256": "cc468d33132f719ae863227afb40d0d8beb3e4810355c2545d2e1d158736bb68",
+            "sha256": "0008106edc5dacf7319b91a5336c068e8312727a556d9afb1d90293bef50e3c3",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa1_hull_orm.png",
+            "source_sha256": "5c5e97a64b3988d22d5dd0ea3475022929b47e786f66834bacef7a4372e13b91",
+            "sha256": "fe6773cc86a8d17ed55d9d95d75a666c07af8cb4538267ed542127030a3a1d14",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa2_fix.png",
+            "source_sha256": "43367b787cb26176295841a67143eb88903656627b9f05dc7720475739a68658",
+            "sha256": "0134aacb910a4369378533df74862dc128362b3ed1e7eeb412a97a1633d1f6cb",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa2_fix_normal.png",
+            "source_sha256": "36ecd52cf90d6631c37cc01b1447a18b97199487a65a798ac591f21488a064ef",
+            "sha256": "0ab00307b8eab52ac5d1573d130580e057ba9aa044b36072a6a4d61c518dd566",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa2_fix_orm.png",
+            "source_sha256": "5674449e727bc5e0a4c9f55515f0db09e442558b757d03f27e27d69ea60b391e",
+            "sha256": "e96c93678a3a99c880dd03fc98605fda13b195fa46f5e8a4f38960ced8bdafd9",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa3_wrap.png",
+            "source_sha256": "72dc34c0ee33170ac70f05590c46b1cbc796b21c1edaded1417086e64161bbdd",
+            "sha256": "72dc34c0ee33170ac70f05590c46b1cbc796b21c1edaded1417086e64161bbdd",
+            "role": "colour",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa3_wrap_normal.png",
+            "source_sha256": "474e534caa901c825f83fedc36216293d9a1ae59a5ae87d1222d7430932fe9a5",
+            "sha256": "474e534caa901c825f83fedc36216293d9a1ae59a5ae87d1222d7430932fe9a5",
+            "role": "normal",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/96-patriot-worn-v1/orpa3_wrap_orm.png",
+            "source_sha256": "ce50b0135dd681db4cbf14f2d376fbd372573f2d1568dc02f59c10dd20645611",
+            "sha256": "ce50b0135dd681db4cbf14f2d376fbd372573f2d1568dc02f59c10dd20645611",
+            "role": "orm",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": false
+          }
+        ],
+        "unchanged_files": [
+          "mods/96-patriot-worn-v1/USMF_Pat.SHP",
+          "mods/96-patriot-worn-v1/license.txt",
+          "mods/96-patriot-worn-v1/mission992.dte",
+          "mods/96-patriot-worn-v1/mod.png",
+          "mods/96-patriot-worn-v1/t_USMF_Pat.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "patriot",
+        "tier": "2k",
+        "zip_sha256": "e45a31c75d3e5babbf2c2200125c3bc826f5da05001ae4da0f2fa9714b98a713",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orpa1_hull",
+            "emissive": false,
+            "log_sha256": "cc16f8c3c6cc43386a92e897aa44b860a2131a0bd734b863083c1b8306676346",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orpa2_fix",
+            "emissive": false,
+            "log_sha256": "357426a6e80e1f98aeeb74b73f269e813e1ce67d1af00b492a51a5d82698cb6e",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orpa3_wrap",
+            "emissive": false,
+            "log_sha256": "904dc789c4678a1eabc959a6c94e6f1609be8f34ab687d242d85666e7f4f900d",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T05:53:17.305368+00:00"
+}

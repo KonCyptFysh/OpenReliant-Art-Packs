@@ -946,6 +946,39 @@
               "src": "assets/patriot/gallery-overview-v1.webp",
               "caption": "Patriot — Front three-quarter view"
             }
+          ],
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "patriot-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2.res2/openreliant-patriot-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.2.res2",
+              "checksum": "7c2859b8dcea242e7166a03761689512a56076d81788c0013a567cf739edf6d0",
+              "downloadBytes": 14693787
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "patriot-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2.res2/openreliant-patriot-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.2.res2",
+              "checksum": "e45a31c75d3e5babbf2c2200125c3bc826f5da05001ae4da0f2fa9714b98a713",
+              "downloadBytes": 50475591
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "patriot-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2/openreliant-patriot-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.2",
+              "checksum": "ad2bde7d0aee79852cf895731c854d121f90eb04980d9ac6c4daf212f77cfea8",
+              "downloadBytes": 147417133
+            }
           ]
         }
       ],
