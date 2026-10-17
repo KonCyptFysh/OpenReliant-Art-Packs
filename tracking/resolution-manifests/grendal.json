@@ -1,0 +1,229 @@
+{
+  "asset": "grendal",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "e8efd11af35f211cfd10de8c902fb4d15ffa899d0fd2b9f67848c1523957ddab",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "grendal-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.2.res2/openreliant-grendal-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.2.res2",
+      "checksum": "efe24bc71991570ff3fbe4c35b38a6e8296b8ccce19ae08d5e21e0f78cd6a982",
+      "downloadBytes": 4094024
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "grendal-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.2.res2/openreliant-grendal-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.2.res2",
+      "checksum": "befe640f84b5b46cb645245b407a179a7da590d44ea2cd645456398ce0a63f6d",
+      "downloadBytes": 10255261
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "grendal-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.2/openreliant-grendal-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.2",
+      "checksum": "eee7fcdb2625345ec46901c1b47a2357b3a4e6b0f4513bf2f138ed34cafb596e",
+      "downloadBytes": 28318786
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "1.1",
+        "source_manifest_sha256": "e8efd11af35f211cfd10de8c902fb4d15ffa899d0fd2b9f67848c1523957ddab",
+        "asset_manifest_sha256": "6723a78a46d7bf9d24030fa32279e310d2aec39193d61e8bbedaa826f0777dfa",
+        "images": [
+          {
+            "path": "mods/101-grendal-worn-v1/orgr1_hull.png",
+            "source_sha256": "60bcc2f475d83136e2479c306068a9be1fdb6dd4d148a59091dde6aa64f7a0d9",
+            "sha256": "d980bf3d18a6a1bf4e10fec42f6dbea9bc3fffb18a9a41991ec7dc4a401eb004",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/101-grendal-worn-v1/orgr1_hull_normal.png",
+            "source_sha256": "893b3c4d04444187e3a8003404c2c1b89bab5f25a8c9ffc7ac9dc42fea05badf",
+            "sha256": "91e8b8af322eefdb6382aee4cb306d1229f1fc629f90ef713c71fd23309c7546",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/101-grendal-worn-v1/orgr1_hull_orm.png",
+            "source_sha256": "c9d87e4c8ff01cf1a1a54c80c54fbeb0297d9c8d706956d53fc1875391a2bb2a",
+            "sha256": "800149c7246d21b1c6305d389d5f334cd944b57734d7897658e3c6d47d88c679",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/101-grendal-worn-v1/German_grendal.SHP",
+          "mods/101-grendal-worn-v1/Grendal_gun.SHP",
+          "mods/101-grendal-worn-v1/license.txt",
+          "mods/101-grendal-worn-v1/mission992.dte",
+          "mods/101-grendal-worn-v1/mod.png",
+          "mods/101-grendal-worn-v1/t_German_grendal.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "grendal",
+        "tier": "1k",
+        "zip_sha256": "efe24bc71991570ff3fbe4c35b38a6e8296b8ccce19ae08d5e21e0f78cd6a982",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orgr1_hull",
+            "emissive": false,
+            "log_sha256": "341bbe99f88b84c0fc1948c03d87ff30b78cc8b3c776d6a945277c167d097147",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "1.1",
+        "source_manifest_sha256": "e8efd11af35f211cfd10de8c902fb4d15ffa899d0fd2b9f67848c1523957ddab",
+        "asset_manifest_sha256": "724cd02a2a6da42bca0fbb3a46d84d7f6b504dd3abaa03869672828b6e1bcb65",
+        "images": [
+          {
+            "path": "mods/101-grendal-worn-v1/orgr1_hull.png",
+            "source_sha256": "60bcc2f475d83136e2479c306068a9be1fdb6dd4d148a59091dde6aa64f7a0d9",
+            "sha256": "740957974dd95392f58ed9d048bceac5bb81f192f88d239fb6a301068bb8f768",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/101-grendal-worn-v1/orgr1_hull_normal.png",
+            "source_sha256": "893b3c4d04444187e3a8003404c2c1b89bab5f25a8c9ffc7ac9dc42fea05badf",
+            "sha256": "2a0bd4f98fd992fd0d03d0a24272ca4b5ca692cad957bba4d3ae8fd2e41f6892",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/101-grendal-worn-v1/orgr1_hull_orm.png",
+            "source_sha256": "c9d87e4c8ff01cf1a1a54c80c54fbeb0297d9c8d706956d53fc1875391a2bb2a",
+            "sha256": "891bf8a07616c536731dff0c9b3772315255a47697088d91758f4b19e966c59f",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/101-grendal-worn-v1/German_grendal.SHP",
+          "mods/101-grendal-worn-v1/Grendal_gun.SHP",
+          "mods/101-grendal-worn-v1/license.txt",
+          "mods/101-grendal-worn-v1/mission992.dte",
+          "mods/101-grendal-worn-v1/mod.png",
+          "mods/101-grendal-worn-v1/t_German_grendal.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "grendal",
+        "tier": "2k",
+        "zip_sha256": "befe640f84b5b46cb645245b407a179a7da590d44ea2cd645456398ce0a63f6d",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orgr1_hull",
+            "emissive": false,
+            "log_sha256": "341bbe99f88b84c0fc1948c03d87ff30b78cc8b3c776d6a945277c167d097147",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:03:26.839955+00:00"
+}
