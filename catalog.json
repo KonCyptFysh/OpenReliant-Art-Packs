@@ -1707,7 +1707,40 @@
           ],
           "previewSource": "Captured in OpenReliant 0.7.0",
           "engine": "0.8.1",
-          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing."
+          "validationSummary": "OpenReliant 0.8.1 native-file and texture-loader checks passed. Gallery captures are from the earlier artwork review; broader gameplay and other platforms still need testing.",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.4.res2",
+              "tag": "ordnance-v0.1.0-beta.4.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4.res2/openreliant-ordnance-1k-0.1.0-beta.4.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4.res2",
+              "checksum": "716c25d9714e07b68be0c98307b8b23a93acc9d90c316077b3b5cf65d5cd85fe",
+              "downloadBytes": 15664327
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.4.res2",
+              "tag": "ordnance-v0.1.0-beta.4.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4.res2/openreliant-ordnance-2k-0.1.0-beta.4.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4.res2",
+              "checksum": "9dfa302347fb838c8d4f4181330f584f7fe03bee265c675e4a2f3a2c20a14d26",
+              "downloadBytes": 53572862
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.4",
+              "tag": "ordnance-v0.1.0-beta.4",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4/openreliant-ordnance-0.1.0-beta.4.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4",
+              "checksum": "9ec252c744f92353024d2d0726b1960a3c70e86f813955d34440272530ea247e",
+              "downloadBytes": 85412755
+            }
+          ]
         }
       ],
       "entryType": "pack",

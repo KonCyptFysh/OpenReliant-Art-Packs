@@ -1,0 +1,691 @@
+{
+  "asset": "ordnance",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "da61576b9d951bda04a5605cd688b2822d28db92f09e4fcec19f5678e9b4e049",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.4.res2",
+      "tag": "ordnance-v0.1.0-beta.4.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4.res2/openreliant-ordnance-1k-0.1.0-beta.4.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4.res2",
+      "checksum": "716c25d9714e07b68be0c98307b8b23a93acc9d90c316077b3b5cf65d5cd85fe",
+      "downloadBytes": 15664327
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.4.res2",
+      "tag": "ordnance-v0.1.0-beta.4.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4.res2/openreliant-ordnance-2k-0.1.0-beta.4.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4.res2",
+      "checksum": "9dfa302347fb838c8d4f4181330f584f7fe03bee265c675e4a2f3a2c20a14d26",
+      "downloadBytes": 53572862
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.4",
+      "tag": "ordnance-v0.1.0-beta.4",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4/openreliant-ordnance-0.1.0-beta.4.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4",
+      "checksum": "9ec252c744f92353024d2d0726b1960a3c70e86f813955d34440272530ea247e",
+      "downloadBytes": 85412755
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.4",
+        "asset_revision": "1.2",
+        "source_manifest_sha256": "da61576b9d951bda04a5605cd688b2822d28db92f09e4fcec19f5678e9b4e049",
+        "asset_manifest_sha256": "bac5f521fc9c95e131bc1434ac88de46edc58eb6a06414b791617f245c7da89a",
+        "images": [
+          {
+            "path": "mods/97-ordnance-worn-v1/orord1_hull.png",
+            "source_sha256": "0329386a6e7b3232716d0b1cef8bd57ef0d61dd22fa15933d5bd167a8eaf736a",
+            "sha256": "38201898731f7424266c199ef6373f00e30316b78e85034c3a92adcc3e9af7d8",
+            "role": "colour",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord1_hull_normal.png",
+            "source_sha256": "9612edbabd83032546cef4ab788f46a6a574658bb995bcad90e6653a97e14fa1",
+            "sha256": "65136ae745341e578ff65d3ce38acaf659b46a7c98eb8555b135669699f087fd",
+            "role": "normal",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord1_hull_orm.png",
+            "source_sha256": "c7dbefd75cb52c737897423b9e98dbf31c301180ee2865ad6ea489a9108469d9",
+            "sha256": "671a4bed7cc5468fa9c5126ba36abfc738c18f950c3720a6b5fd466da85adc73",
+            "role": "orm",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord2_nozz.png",
+            "source_sha256": "506b81f919df26fc6295e2de03a0f832c17f4e8079956ced0f94dc69cb25c3d7",
+            "sha256": "506b81f919df26fc6295e2de03a0f832c17f4e8079956ced0f94dc69cb25c3d7",
+            "role": "colour",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord2_nozz_normal.png",
+            "source_sha256": "f3d48816a6ee8bc085bbd558b61c915c753a1b180fbeb340291b930db5b95dbc",
+            "sha256": "f3d48816a6ee8bc085bbd558b61c915c753a1b180fbeb340291b930db5b95dbc",
+            "role": "normal",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord2_nozz_orm.png",
+            "source_sha256": "8fa5617a44dd4b7f73a01092d9eec6a3b5b1ea764c63bd66f24a43d40b5af493",
+            "sha256": "8fa5617a44dd4b7f73a01092d9eec6a3b5b1ea764c63bd66f24a43d40b5af493",
+            "role": "orm",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord2_scrm.png",
+            "source_sha256": "b3ea640846600e4d1f0a96087858619e75d90ae9c3eb2c18b2bd6db66495d07e",
+            "sha256": "1d582b710b481b5b76b9df6f587cdcebc2b49e87fc092b46d19f9b4de4a61d75",
+            "role": "colour",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord2_scrm_normal.png",
+            "source_sha256": "e27cde7ca7a3b6a4235628f7ccf3f9071c0a191772531624e086fa037afd1241",
+            "sha256": "00accec4e9340c6569b97f1fdfccdcb34e4dc60748218d6afd375da3fdc93460",
+            "role": "normal",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord2_scrm_orm.png",
+            "source_sha256": "6d5fcba1134fdadc061b78fc2f09cf6b9b0ddeb56426c0e643e5eaee6ebcef9c",
+            "sha256": "303305e1f32d2644696905eb82fd59586b5ed552c9fdec56753459618c4333d1",
+            "role": "orm",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord3_rpod.png",
+            "source_sha256": "74288b54722929a9c0bc3bdd05a13d5ac5ffdf43887d3bcc08a46b1fe0551978",
+            "sha256": "1d098a907fa28bdffe5293f039f48f3cac0de6a631207480674491539ef3c7eb",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord3_rpod_normal.png",
+            "source_sha256": "c1b86519802a64ffd5eeb164131037a5b73456fe58dd0a312de36f96a9af60d2",
+            "sha256": "877d8457562cd76c97a981f03e9b46d335efb1d2ab6c60526bf74da05ec2f94a",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord3_rpod_orm.png",
+            "source_sha256": "1263dfe385d863704ccdf1dc8ec8193bf8e59ccf3d8a409ca33cd841a17c0d65",
+            "sha256": "03d8079163e23f487a5229cd81f7436151841b9fde77f244411c7ed695bc699d",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord3_spod.png",
+            "source_sha256": "59f715522a0dcda4b54803ee17e38f44ebc48bb8429e82b5dc55d6424f46e297",
+            "sha256": "2a5c7560c2c6b631e80bfb35d2534f3e0f287f52730a597e0736a88be84b0470",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord3_spod_normal.png",
+            "source_sha256": "54e19f1ab7061122191ed355e4cc39fb868590c8d6a0e5c006c97964316a6145",
+            "sha256": "14776c5d6fb4270422fbb6b6ad0918df0c43a2282f2d5093a6a047845ca2f313",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord3_spod_orm.png",
+            "source_sha256": "02f07efb57e75438ee3e1b69f67ff55bd17e0d71b73bde962e2cdcf3e2355530",
+            "sha256": "9bd15b6ad5611b47792010a9f34c5f2b1774a9a8ca84b137e399f2a53923db80",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/97-ordnance-worn-v1/01_screamer.SHP",
+          "mods/97-ordnance-worn-v1/01_screamer_pod.SHP",
+          "mods/97-ordnance-worn-v1/02_raptor.SHP",
+          "mods/97-ordnance-worn-v1/02_raptor_POD.SHP",
+          "mods/97-ordnance-worn-v1/03_havoc.SHP",
+          "mods/97-ordnance-worn-v1/04_jackhammer.SHP",
+          "mods/97-ordnance-worn-v1/05_bandit.SHP",
+          "mods/97-ordnance-worn-v1/06_vagabond.SHP",
+          "mods/97-ordnance-worn-v1/07_Solomon_POD.SHP",
+          "mods/97-ordnance-worn-v1/07_solomon.SHP",
+          "mods/97-ordnance-worn-v1/08_imp.SHP",
+          "mods/97-ordnance-worn-v1/09_hawk.SHP",
+          "mods/97-ordnance-worn-v1/09_hawk_POD.SHP",
+          "mods/97-ordnance-worn-v1/10_torpedo.SHP",
+          "mods/97-ordnance-worn-v1/21_screamer.SHP",
+          "mods/97-ordnance-worn-v1/21_screamer_pod.SHP",
+          "mods/97-ordnance-worn-v1/22_raptor.SHP",
+          "mods/97-ordnance-worn-v1/22_raptor_POD.SHP",
+          "mods/97-ordnance-worn-v1/23_havoc.SHP",
+          "mods/97-ordnance-worn-v1/24_jackhammer.SHP",
+          "mods/97-ordnance-worn-v1/25_bandit.SHP",
+          "mods/97-ordnance-worn-v1/26_vagabond.SHP",
+          "mods/97-ordnance-worn-v1/27_Solomon_POD.SHP",
+          "mods/97-ordnance-worn-v1/27_solomon.SHP",
+          "mods/97-ordnance-worn-v1/28_imp.SHP",
+          "mods/97-ordnance-worn-v1/29_hawk.SHP",
+          "mods/97-ordnance-worn-v1/29_hawk_POD.SHP",
+          "mods/97-ordnance-worn-v1/30_torpedo.SHP",
+          "mods/97-ordnance-worn-v1/31_fuel_pod.SHP",
+          "mods/97-ordnance-worn-v1/Rus_Torp.SHP",
+          "mods/97-ordnance-worn-v1/fuel_pod.SHP",
+          "mods/97-ordnance-worn-v1/license.txt",
+          "mods/97-ordnance-worn-v1/torpedo.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "ordnance",
+        "tier": "1k",
+        "zip_sha256": "716c25d9714e07b68be0c98307b8b23a93acc9d90c316077b3b5cf65d5cd85fe",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orord1_hull",
+            "emissive": false,
+            "log_sha256": "e1f2fa623b4a1d0349df0aa0d750c971d75f26e990aef55902aa06c8f929bf6e",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orord2_nozz",
+            "emissive": false,
+            "log_sha256": "992e8d3eb9134b26c784f509b70616e4ad4c10140ee5a84b2d046551d45c5a42",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orord2_scrm",
+            "emissive": false,
+            "log_sha256": "65631dc931105e371dc696c754b54563b5aa3afbb8b52ef94f950ec88184a210",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orord3_rpod",
+            "emissive": false,
+            "log_sha256": "083425a4d222c2b8fc451e91b7f61a21f4fdc50231b52faf223fc6ba1cde987e",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orord3_spod",
+            "emissive": false,
+            "log_sha256": "441548c28bcd8980ab52d93ab2386c452201b2e86a44fec895aa955a130efb71",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.4",
+        "asset_revision": "1.2",
+        "source_manifest_sha256": "da61576b9d951bda04a5605cd688b2822d28db92f09e4fcec19f5678e9b4e049",
+        "asset_manifest_sha256": "8bf3bd9fbf076a4d249112f984275055b07519dbc961745701848ea0031ebbc9",
+        "images": [
+          {
+            "path": "mods/97-ordnance-worn-v1/orord1_hull.png",
+            "source_sha256": "0329386a6e7b3232716d0b1cef8bd57ef0d61dd22fa15933d5bd167a8eaf736a",
+            "sha256": "0329386a6e7b3232716d0b1cef8bd57ef0d61dd22fa15933d5bd167a8eaf736a",
+            "role": "colour",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord1_hull_normal.png",
+            "source_sha256": "9612edbabd83032546cef4ab788f46a6a574658bb995bcad90e6653a97e14fa1",
+            "sha256": "9612edbabd83032546cef4ab788f46a6a574658bb995bcad90e6653a97e14fa1",
+            "role": "normal",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord1_hull_orm.png",
+            "source_sha256": "c7dbefd75cb52c737897423b9e98dbf31c301180ee2865ad6ea489a9108469d9",
+            "sha256": "c7dbefd75cb52c737897423b9e98dbf31c301180ee2865ad6ea489a9108469d9",
+            "role": "orm",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord2_nozz.png",
+            "source_sha256": "506b81f919df26fc6295e2de03a0f832c17f4e8079956ced0f94dc69cb25c3d7",
+            "sha256": "506b81f919df26fc6295e2de03a0f832c17f4e8079956ced0f94dc69cb25c3d7",
+            "role": "colour",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord2_nozz_normal.png",
+            "source_sha256": "f3d48816a6ee8bc085bbd558b61c915c753a1b180fbeb340291b930db5b95dbc",
+            "sha256": "f3d48816a6ee8bc085bbd558b61c915c753a1b180fbeb340291b930db5b95dbc",
+            "role": "normal",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord2_nozz_orm.png",
+            "source_sha256": "8fa5617a44dd4b7f73a01092d9eec6a3b5b1ea764c63bd66f24a43d40b5af493",
+            "sha256": "8fa5617a44dd4b7f73a01092d9eec6a3b5b1ea764c63bd66f24a43d40b5af493",
+            "role": "orm",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord2_scrm.png",
+            "source_sha256": "b3ea640846600e4d1f0a96087858619e75d90ae9c3eb2c18b2bd6db66495d07e",
+            "sha256": "b3ea640846600e4d1f0a96087858619e75d90ae9c3eb2c18b2bd6db66495d07e",
+            "role": "colour",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord2_scrm_normal.png",
+            "source_sha256": "e27cde7ca7a3b6a4235628f7ccf3f9071c0a191772531624e086fa037afd1241",
+            "sha256": "e27cde7ca7a3b6a4235628f7ccf3f9071c0a191772531624e086fa037afd1241",
+            "role": "normal",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord2_scrm_orm.png",
+            "source_sha256": "6d5fcba1134fdadc061b78fc2f09cf6b9b0ddeb56426c0e643e5eaee6ebcef9c",
+            "sha256": "6d5fcba1134fdadc061b78fc2f09cf6b9b0ddeb56426c0e643e5eaee6ebcef9c",
+            "role": "orm",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord3_rpod.png",
+            "source_sha256": "74288b54722929a9c0bc3bdd05a13d5ac5ffdf43887d3bcc08a46b1fe0551978",
+            "sha256": "f9ba15e46a9d46f4d53db3febe412d212fe7bd9c656f29aa17d247c302b4411a",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord3_rpod_normal.png",
+            "source_sha256": "c1b86519802a64ffd5eeb164131037a5b73456fe58dd0a312de36f96a9af60d2",
+            "sha256": "442fa4d48264f56ce7474142c3fa7e5a1c46d19de1f64c297e90d05f4a54e913",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord3_rpod_orm.png",
+            "source_sha256": "1263dfe385d863704ccdf1dc8ec8193bf8e59ccf3d8a409ca33cd841a17c0d65",
+            "sha256": "faf8b000fe2dde7cfd482bc265c2457a774cfe3494a925f50c04f9d700d2779b",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord3_spod.png",
+            "source_sha256": "59f715522a0dcda4b54803ee17e38f44ebc48bb8429e82b5dc55d6424f46e297",
+            "sha256": "494e986989398fc7ceb65616fdec4b9092f4f171df09eee141e5e9c53d3a11bf",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord3_spod_normal.png",
+            "source_sha256": "54e19f1ab7061122191ed355e4cc39fb868590c8d6a0e5c006c97964316a6145",
+            "sha256": "91b75c98d683b4741599a22fca729a0d17819459bb01f181d24763ab5f6e602c",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/97-ordnance-worn-v1/orord3_spod_orm.png",
+            "source_sha256": "02f07efb57e75438ee3e1b69f67ff55bd17e0d71b73bde962e2cdcf3e2355530",
+            "sha256": "2695ed5ef4ddd4ff6a11151772aa45c1287752a6e1503de0ee1a9ae989aea99e",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/97-ordnance-worn-v1/01_screamer.SHP",
+          "mods/97-ordnance-worn-v1/01_screamer_pod.SHP",
+          "mods/97-ordnance-worn-v1/02_raptor.SHP",
+          "mods/97-ordnance-worn-v1/02_raptor_POD.SHP",
+          "mods/97-ordnance-worn-v1/03_havoc.SHP",
+          "mods/97-ordnance-worn-v1/04_jackhammer.SHP",
+          "mods/97-ordnance-worn-v1/05_bandit.SHP",
+          "mods/97-ordnance-worn-v1/06_vagabond.SHP",
+          "mods/97-ordnance-worn-v1/07_Solomon_POD.SHP",
+          "mods/97-ordnance-worn-v1/07_solomon.SHP",
+          "mods/97-ordnance-worn-v1/08_imp.SHP",
+          "mods/97-ordnance-worn-v1/09_hawk.SHP",
+          "mods/97-ordnance-worn-v1/09_hawk_POD.SHP",
+          "mods/97-ordnance-worn-v1/10_torpedo.SHP",
+          "mods/97-ordnance-worn-v1/21_screamer.SHP",
+          "mods/97-ordnance-worn-v1/21_screamer_pod.SHP",
+          "mods/97-ordnance-worn-v1/22_raptor.SHP",
+          "mods/97-ordnance-worn-v1/22_raptor_POD.SHP",
+          "mods/97-ordnance-worn-v1/23_havoc.SHP",
+          "mods/97-ordnance-worn-v1/24_jackhammer.SHP",
+          "mods/97-ordnance-worn-v1/25_bandit.SHP",
+          "mods/97-ordnance-worn-v1/26_vagabond.SHP",
+          "mods/97-ordnance-worn-v1/27_Solomon_POD.SHP",
+          "mods/97-ordnance-worn-v1/27_solomon.SHP",
+          "mods/97-ordnance-worn-v1/28_imp.SHP",
+          "mods/97-ordnance-worn-v1/29_hawk.SHP",
+          "mods/97-ordnance-worn-v1/29_hawk_POD.SHP",
+          "mods/97-ordnance-worn-v1/30_torpedo.SHP",
+          "mods/97-ordnance-worn-v1/31_fuel_pod.SHP",
+          "mods/97-ordnance-worn-v1/Rus_Torp.SHP",
+          "mods/97-ordnance-worn-v1/fuel_pod.SHP",
+          "mods/97-ordnance-worn-v1/license.txt",
+          "mods/97-ordnance-worn-v1/torpedo.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "ordnance",
+        "tier": "2k",
+        "zip_sha256": "9dfa302347fb838c8d4f4181330f584f7fe03bee265c675e4a2f3a2c20a14d26",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orord1_hull",
+            "emissive": false,
+            "log_sha256": "e1f2fa623b4a1d0349df0aa0d750c971d75f26e990aef55902aa06c8f929bf6e",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orord2_nozz",
+            "emissive": false,
+            "log_sha256": "992e8d3eb9134b26c784f509b70616e4ad4c10140ee5a84b2d046551d45c5a42",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orord2_scrm",
+            "emissive": false,
+            "log_sha256": "65631dc931105e371dc696c754b54563b5aa3afbb8b52ef94f950ec88184a210",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orord3_rpod",
+            "emissive": false,
+            "log_sha256": "083425a4d222c2b8fc451e91b7f61a21f4fdc50231b52faf223fc6ba1cde987e",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orord3_spod",
+            "emissive": false,
+            "log_sha256": "441548c28bcd8980ab52d93ab2386c452201b2e86a44fec895aa955a130efb71",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:12:36.183036+00:00"
+}
