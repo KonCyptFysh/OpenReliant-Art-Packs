@@ -1920,7 +1920,40 @@
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/scimitar-v0.1.0-beta.1/openreliant-scimitar-0.1.0-beta.1.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1",
           "checksum": "8a6cbcd2fc72ef262ddeee9626c112a6e71b48b88977a49e61078412fbf07da0",
-          "downloadBytes": 30656062
+          "downloadBytes": 30656062,
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "scimitar-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/scimitar-v0.1.0-beta.1.res2/openreliant-scimitar-1k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1.res2",
+              "checksum": "f85b1f645d281de20cac4a51d7e63e2c0ef665317827af1228bdc1c1fd065901",
+              "downloadBytes": 4384712
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "scimitar-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/scimitar-v0.1.0-beta.1.res2/openreliant-scimitar-2k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1.res2",
+              "checksum": "01e454944ae485579c31bc4c579a7f2f275dc9033a31d8323bec3fc0d6e21a09",
+              "downloadBytes": 11172583
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.1",
+              "tag": "scimitar-v0.1.0-beta.1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/scimitar-v0.1.0-beta.1/openreliant-scimitar-0.1.0-beta.1.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1",
+              "checksum": "8a6cbcd2fc72ef262ddeee9626c112a6e71b48b88977a49e61078412fbf07da0",
+              "downloadBytes": 30656062
+            }
+          ]
         }
       ],
       "entryType": "ship",
