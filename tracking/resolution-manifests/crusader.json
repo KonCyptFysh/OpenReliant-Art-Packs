@@ -1,0 +1,331 @@
+{
+  "asset": "crusader",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "79e9a12fa5cb94cf449bd5bb8cf94df49ae72e36f064ce949f9fdde0f4377c18",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "crusader-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/crusader-v0.1.0-beta.2.res2/openreliant-crusader-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/crusader-v0.1.0-beta.2.res2",
+      "checksum": "d5f9d4a3fa44ca4de694ce82b6ef32e5f0050d5b1e94a4837280cf99f9a16f13",
+      "downloadBytes": 8422322
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "crusader-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/crusader-v0.1.0-beta.2.res2/openreliant-crusader-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/crusader-v0.1.0-beta.2.res2",
+      "checksum": "ccdd8eb5e25559af5db21c06ca55f9340b4644bb967abf4822580a0f81df1781",
+      "downloadBytes": 27704750
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "crusader-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/crusader-v0.1.0-beta.2/openreliant-crusader-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/crusader-v0.1.0-beta.2",
+      "checksum": "48ef3380a7165277f7f4cec905fc1270c36d80569f5558b3b97da633a227a9a2",
+      "downloadBytes": 92638778
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "2.0",
+        "source_manifest_sha256": "79e9a12fa5cb94cf449bd5bb8cf94df49ae72e36f064ce949f9fdde0f4377c18",
+        "asset_manifest_sha256": "6e30a1f07f9598031f24756511209b7dc2c7ae58faef64045476b795f73be80e",
+        "images": [
+          {
+            "path": "mods/99-crusader-worn-v1/orcr1_hull.png",
+            "source_sha256": "913a85c0cbffa5e3e926ac9e2b1351c362c7ed43e20b6c0de9f69bf0c5b1478c",
+            "sha256": "432014baff54a701d9cf63fe955b6c15048c99454c255eb2ca2168a99c6941ab",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/99-crusader-worn-v1/orcr1_hull_normal.png",
+            "source_sha256": "1eef97b8dce40cd3924c1ddd4443961a49097950570071452ddd0a06d999d2d9",
+            "sha256": "a3392d3278fc5fbeb1d86bc5c12bf701a2f91bb53efdaa06614ebc60549b4249",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/99-crusader-worn-v1/orcr1_hull_orm.png",
+            "source_sha256": "ad41c9f1060d53b85849dc0787b1c2b2da878d3674bc7ec247f1c3f6abecefc8",
+            "sha256": "6c198a94d3b6ac867d1785e5242e0ed3d0dc07d0fc14c616b4e79449b95b6be8",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/99-crusader-worn-v1/orcr2_collar.png",
+            "source_sha256": "3b68e5371293c54ad444b6eb19acde1549d40596c6dbdd4f806a4d3c7ebeb336",
+            "sha256": "4b694afe6efe09452d57fd70cb6cf24c10badd8acb07804ff3fcc29008abc36a",
+            "role": "colour",
+            "source_size": [
+              2048,
+              512
+            ],
+            "size": [
+              1024,
+              256
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/99-crusader-worn-v1/orcr2_collar_normal.png",
+            "source_sha256": "5e3ef496ef38f2a74205b86daa1510ff054ebe467b1cad934ef1636f49cd6441",
+            "sha256": "c290ac251f801d2740d7a6f60ddd40833c5e56a325deb3c5398322724520c287",
+            "role": "normal",
+            "source_size": [
+              2048,
+              512
+            ],
+            "size": [
+              1024,
+              256
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/99-crusader-worn-v1/orcr2_collar_orm.png",
+            "source_sha256": "024635c96971fe8e0598bbec5cfaef340ef915c382c056150c420e9ba1e388ab",
+            "sha256": "d5a6dc918ae83bed5d92d196d1c6ebaa0ad7e962c6f187521f16eef062f1d0a1",
+            "role": "orm",
+            "source_size": [
+              2048,
+              512
+            ],
+            "size": [
+              1024,
+              256
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/99-crusader-worn-v1/British_Crusader.SHP",
+          "mods/99-crusader-worn-v1/Crusader_gun.SHP",
+          "mods/99-crusader-worn-v1/license.txt",
+          "mods/99-crusader-worn-v1/mission990.dte",
+          "mods/99-crusader-worn-v1/mod.png",
+          "mods/99-crusader-worn-v1/t_British_Crusader.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "crusader",
+        "tier": "1k",
+        "zip_sha256": "d5f9d4a3fa44ca4de694ce82b6ef32e5f0050d5b1e94a4837280cf99f9a16f13",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orcr1_hull",
+            "emissive": false,
+            "log_sha256": "d55f2afcf39d45a471937e5287b1725963dd9e50483d25057bf86d2886c1d700",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orcr2_collar",
+            "emissive": false,
+            "log_sha256": "cdddebad30887ebfb0927eb0e669a5c3fe4b9c4c7c5efa59d2a0c882101e4f02",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "2.0",
+        "source_manifest_sha256": "79e9a12fa5cb94cf449bd5bb8cf94df49ae72e36f064ce949f9fdde0f4377c18",
+        "asset_manifest_sha256": "47305dc341634bb0cb0565b301017a4ed85af9afd55e36bb0d0cf51c5d7dc138",
+        "images": [
+          {
+            "path": "mods/99-crusader-worn-v1/orcr1_hull.png",
+            "source_sha256": "913a85c0cbffa5e3e926ac9e2b1351c362c7ed43e20b6c0de9f69bf0c5b1478c",
+            "sha256": "cdff5ff08f87d9dd8fbacc002335ee8f680a35a06baa10c6d5d419ce3723c6a9",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/99-crusader-worn-v1/orcr1_hull_normal.png",
+            "source_sha256": "1eef97b8dce40cd3924c1ddd4443961a49097950570071452ddd0a06d999d2d9",
+            "sha256": "8deda494f46a8145f42105b1371e7668ea0818f2fd0302137733a01a0a7418ce",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/99-crusader-worn-v1/orcr1_hull_orm.png",
+            "source_sha256": "ad41c9f1060d53b85849dc0787b1c2b2da878d3674bc7ec247f1c3f6abecefc8",
+            "sha256": "0495fa95021cb92ae7218f6bf224ff3db4b63d658efd3c4160ce5c249ebd4424",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/99-crusader-worn-v1/orcr2_collar.png",
+            "source_sha256": "3b68e5371293c54ad444b6eb19acde1549d40596c6dbdd4f806a4d3c7ebeb336",
+            "sha256": "3b68e5371293c54ad444b6eb19acde1549d40596c6dbdd4f806a4d3c7ebeb336",
+            "role": "colour",
+            "source_size": [
+              2048,
+              512
+            ],
+            "size": [
+              2048,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/99-crusader-worn-v1/orcr2_collar_normal.png",
+            "source_sha256": "5e3ef496ef38f2a74205b86daa1510ff054ebe467b1cad934ef1636f49cd6441",
+            "sha256": "5e3ef496ef38f2a74205b86daa1510ff054ebe467b1cad934ef1636f49cd6441",
+            "role": "normal",
+            "source_size": [
+              2048,
+              512
+            ],
+            "size": [
+              2048,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/99-crusader-worn-v1/orcr2_collar_orm.png",
+            "source_sha256": "024635c96971fe8e0598bbec5cfaef340ef915c382c056150c420e9ba1e388ab",
+            "sha256": "024635c96971fe8e0598bbec5cfaef340ef915c382c056150c420e9ba1e388ab",
+            "role": "orm",
+            "source_size": [
+              2048,
+              512
+            ],
+            "size": [
+              2048,
+              512
+            ],
+            "resized": false
+          }
+        ],
+        "unchanged_files": [
+          "mods/99-crusader-worn-v1/British_Crusader.SHP",
+          "mods/99-crusader-worn-v1/Crusader_gun.SHP",
+          "mods/99-crusader-worn-v1/license.txt",
+          "mods/99-crusader-worn-v1/mission990.dte",
+          "mods/99-crusader-worn-v1/mod.png",
+          "mods/99-crusader-worn-v1/t_British_Crusader.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "crusader",
+        "tier": "2k",
+        "zip_sha256": "ccdd8eb5e25559af5db21c06ca55f9340b4644bb967abf4822580a0f81df1781",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orcr1_hull",
+            "emissive": false,
+            "log_sha256": "d55f2afcf39d45a471937e5287b1725963dd9e50483d25057bf86d2886c1d700",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orcr2_collar",
+            "emissive": false,
+            "log_sha256": "cdddebad30887ebfb0927eb0e669a5c3fe4b9c4c7c5efa59d2a0c882101e4f02",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T05:58:21.850873+00:00"
+}
