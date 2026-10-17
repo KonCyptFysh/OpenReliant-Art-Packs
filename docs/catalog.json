@@ -2240,7 +2240,40 @@
           "checksum": "c0e4d62fe837273eb58b42fe8a89703b802c8d85d09b33d04823b9ac81ea9ca1",
           "downloadBytes": 25807007,
           "previewType": "capture",
-          "previewArtworkRevision": "1.0"
+          "previewArtworkRevision": "1.0",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "lagg-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/lagg-v0.1.0-beta.1.res2/openreliant-lagg-1k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1.res2",
+              "checksum": "944fb1c226d4ee5d0439b8074ca085978d54015ee1e53ed0a7cab85deb7df136",
+              "downloadBytes": 3960708
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "lagg-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/lagg-v0.1.0-beta.1.res2/openreliant-lagg-2k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1.res2",
+              "checksum": "3a7d3d3460c883091671bd048d305c6322d9687aec182a7f1048359227451fff",
+              "downloadBytes": 9513324
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.1",
+              "tag": "lagg-v0.1.0-beta.1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/lagg-v0.1.0-beta.1/openreliant-lagg-0.1.0-beta.1.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1",
+              "checksum": "c0e4d62fe837273eb58b42fe8a89703b802c8d85d09b33d04823b9ac81ea9ca1",
+              "downloadBytes": 25807007
+            }
+          ]
         }
       ],
       "entryType": "ship",

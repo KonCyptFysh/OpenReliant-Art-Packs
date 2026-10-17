@@ -1,0 +1,225 @@
+{
+  "asset": "lagg",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "9e8221846fdb45279a48d8fd320404fd1bdb6970d7f40fc8f5d78e3ba61b0cc9",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "lagg-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/lagg-v0.1.0-beta.1.res2/openreliant-lagg-1k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1.res2",
+      "checksum": "944fb1c226d4ee5d0439b8074ca085978d54015ee1e53ed0a7cab85deb7df136",
+      "downloadBytes": 3960708
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "lagg-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/lagg-v0.1.0-beta.1.res2/openreliant-lagg-2k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1.res2",
+      "checksum": "3a7d3d3460c883091671bd048d305c6322d9687aec182a7f1048359227451fff",
+      "downloadBytes": 9513324
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.1",
+      "tag": "lagg-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/lagg-v0.1.0-beta.1/openreliant-lagg-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1",
+      "checksum": "c0e4d62fe837273eb58b42fe8a89703b802c8d85d09b33d04823b9ac81ea9ca1",
+      "downloadBytes": 25807007
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "9e8221846fdb45279a48d8fd320404fd1bdb6970d7f40fc8f5d78e3ba61b0cc9",
+        "asset_manifest_sha256": "95f6426a25099840123c46953eace9e6a2049e0e1af5c30bf222b3d3b789489a",
+        "images": [
+          {
+            "path": "mods/108-lagg-worn-v1/orlg1_hull.png",
+            "source_sha256": "d0faa08b6a44fb6cd30e131e830a50cf822189e84a9b10fab33d340642141edd",
+            "sha256": "ebf57e97017a6f257219b6086148d1eba79dac65e880aba84210339581553530",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/108-lagg-worn-v1/orlg1_hull_normal.png",
+            "source_sha256": "284f0fa6d635b2a757811219f2fdfbe63a0af70627601d19a341afd9705c93aa",
+            "sha256": "ccde79c86651668dfcbd10f5062360f86be1e90174da8f4fd95c67545dc4cdda",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/108-lagg-worn-v1/orlg1_hull_orm.png",
+            "source_sha256": "b817fd52576688705ba5783e4676a6ca92b84a16ce69d40e737f99534fe188d3",
+            "sha256": "bd4e673b90355f0f50fe5c990b0d3d5ed73458595d2a467c87eea30887534da9",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/108-lagg-worn-v1/Rus_Lagg.SHP",
+          "mods/108-lagg-worn-v1/license.txt",
+          "mods/108-lagg-worn-v1/mission978.dte",
+          "mods/108-lagg-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "lagg",
+        "tier": "1k",
+        "zip_sha256": "944fb1c226d4ee5d0439b8074ca085978d54015ee1e53ed0a7cab85deb7df136",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orlg1_hull",
+            "emissive": false,
+            "log_sha256": "3a004aa9c819311b1c16e716b043e1acece8ff3dc264202301905916e4183e37",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "9e8221846fdb45279a48d8fd320404fd1bdb6970d7f40fc8f5d78e3ba61b0cc9",
+        "asset_manifest_sha256": "720613f4e59cc1c3319db9cd39d436fbe97bfbfda69b99975b2a99aff76e2fc9",
+        "images": [
+          {
+            "path": "mods/108-lagg-worn-v1/orlg1_hull.png",
+            "source_sha256": "d0faa08b6a44fb6cd30e131e830a50cf822189e84a9b10fab33d340642141edd",
+            "sha256": "fc9db580a4fd3fd6b9d8461c784130a91b6015543c513088c1cb8cfb3a9d0214",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/108-lagg-worn-v1/orlg1_hull_normal.png",
+            "source_sha256": "284f0fa6d635b2a757811219f2fdfbe63a0af70627601d19a341afd9705c93aa",
+            "sha256": "3434ab2c828f56b0a2a34dd09f9cf2a61de13f5ce4f488120631efd37a061574",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/108-lagg-worn-v1/orlg1_hull_orm.png",
+            "source_sha256": "b817fd52576688705ba5783e4676a6ca92b84a16ce69d40e737f99534fe188d3",
+            "sha256": "09048d2825d2d8120db74eee99afa30db1df10a19f94933de415076e5292ae4f",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/108-lagg-worn-v1/Rus_Lagg.SHP",
+          "mods/108-lagg-worn-v1/license.txt",
+          "mods/108-lagg-worn-v1/mission978.dte",
+          "mods/108-lagg-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "lagg",
+        "tier": "2k",
+        "zip_sha256": "3a7d3d3460c883091671bd048d305c6322d9687aec182a7f1048359227451fff",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orlg1_hull",
+            "emissive": false,
+            "log_sha256": "3a004aa9c819311b1c16e716b043e1acece8ff3dc264202301905916e4183e37",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:27:28.246696+00:00"
+}
