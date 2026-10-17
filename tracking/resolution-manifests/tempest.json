@@ -1,0 +1,225 @@
+{
+  "asset": "tempest",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "431d86d6f5ed4e735184a172257e34c34679cea33137ef763037d811c49c2522",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "tempest-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2.res2/openreliant-tempest-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2.res2",
+      "checksum": "a00ea3d71025b0e2e83e49a03415d143ae10d91e56aa5ec34145d2b54d8326fa",
+      "downloadBytes": 3626447
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "tempest-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2.res2/openreliant-tempest-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2.res2",
+      "checksum": "a55334345277344bc5d1a46d1f739f5dafe1338143b1debf2f8dd4a9043f8193",
+      "downloadBytes": 10650084
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "tempest-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2/openreliant-tempest-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2",
+      "checksum": "53f30262b4af1011a90814d06776273b61452f7b7db4a2c2e226c9f39ac5b193",
+      "downloadBytes": 32308856
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "431d86d6f5ed4e735184a172257e34c34679cea33137ef763037d811c49c2522",
+        "asset_manifest_sha256": "85afd08b5ad29a62970369d10a8dd2e51963f888f19eaddfd356d25573dd00f5",
+        "images": [
+          {
+            "path": "mods/70-tempest-worn-v1/ortm1_hull.png",
+            "source_sha256": "4d845f99a655753920b316c12dfcf5f7866415210cc8f5a376fd700f251fec49",
+            "sha256": "dc6ee888fc99e22d4a6261822cfeb28f95ebf2cad898ffc5340c9a1b40274402",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/70-tempest-worn-v1/ortm1_hull_normal.png",
+            "source_sha256": "e6b164de0fe86454aa51723c1217c4a27349d24c42862412c65aa5a1e8ab4c93",
+            "sha256": "017b2b6b109d786cba6a272f8241fafcd181cf22d81499e92a4ee9baabac0180",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/70-tempest-worn-v1/ortm1_hull_orm.png",
+            "source_sha256": "febb63bf3e93fe361e6db7f3c7e0d1925ccfd578a9e7bdf55913dd5cd1197b4f",
+            "sha256": "9cb298fb2b7c99ac338833c986c15de089f10de96cfd56e1c79bec694429b660",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/70-tempest-worn-v1/British_Tempest.SHP",
+          "mods/70-tempest-worn-v1/license.txt",
+          "mods/70-tempest-worn-v1/mod.png",
+          "mods/70-tempest-worn-v1/t_British_Tempest.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "tempest",
+        "tier": "1k",
+        "zip_sha256": "a00ea3d71025b0e2e83e49a03415d143ae10d91e56aa5ec34145d2b54d8326fa",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "ortm1_hull",
+            "emissive": false,
+            "log_sha256": "9dd307fb4a25549872e792b5e693ee451aa8d41744979a8ee20c601b2d6af499",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "431d86d6f5ed4e735184a172257e34c34679cea33137ef763037d811c49c2522",
+        "asset_manifest_sha256": "a1e8ddce1f49e350bd7104c7e991142707bf5bb1114cbfe5f80faa8d79d39b8f",
+        "images": [
+          {
+            "path": "mods/70-tempest-worn-v1/ortm1_hull.png",
+            "source_sha256": "4d845f99a655753920b316c12dfcf5f7866415210cc8f5a376fd700f251fec49",
+            "sha256": "689134b3d7caa535ce6d917f16751114733f4ad995ae63c96b4e0b901d7bcbf3",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/70-tempest-worn-v1/ortm1_hull_normal.png",
+            "source_sha256": "e6b164de0fe86454aa51723c1217c4a27349d24c42862412c65aa5a1e8ab4c93",
+            "sha256": "c4ba921644d943a943b0e451878af0c4c790dd6d5742496f496802ccca7dca32",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/70-tempest-worn-v1/ortm1_hull_orm.png",
+            "source_sha256": "febb63bf3e93fe361e6db7f3c7e0d1925ccfd578a9e7bdf55913dd5cd1197b4f",
+            "sha256": "2232fc60d8dfbc93f3a8d623712c6d15102a3722cbc7a47d76be268cba88459b",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/70-tempest-worn-v1/British_Tempest.SHP",
+          "mods/70-tempest-worn-v1/license.txt",
+          "mods/70-tempest-worn-v1/mod.png",
+          "mods/70-tempest-worn-v1/t_British_Tempest.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "tempest",
+        "tier": "2k",
+        "zip_sha256": "a55334345277344bc5d1a46d1f739f5dafe1338143b1debf2f8dd4a9043f8193",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "ortm1_hull",
+            "emissive": false,
+            "log_sha256": "9dd307fb4a25549872e792b5e693ee451aa8d41744979a8ee20c601b2d6af499",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T05:42:13.409919+00:00"
+}

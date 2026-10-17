@@ -633,6 +633,39 @@
               "src": "assets/tempest/gallery-overview-v1.webp",
               "caption": "Tempest — Front three-quarter view"
             }
+          ],
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "tempest-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2.res2/openreliant-tempest-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2.res2",
+              "checksum": "a00ea3d71025b0e2e83e49a03415d143ae10d91e56aa5ec34145d2b54d8326fa",
+              "downloadBytes": 3626447
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "tempest-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2.res2/openreliant-tempest-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2.res2",
+              "checksum": "a55334345277344bc5d1a46d1f739f5dafe1338143b1debf2f8dd4a9043f8193",
+              "downloadBytes": 10650084
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "tempest-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2/openreliant-tempest-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2",
+              "checksum": "53f30262b4af1011a90814d06776273b61452f7b7db4a2c2e226c9f39ac5b193",
+              "downloadBytes": 32308856
+            }
           ]
         }
       ],
