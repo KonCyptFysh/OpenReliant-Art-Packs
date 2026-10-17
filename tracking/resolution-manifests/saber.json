@@ -1,0 +1,225 @@
+{
+  "asset": "saber",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "b2cb11b2b97b5cede3b8dac1aca172d07817a4ed3ec70329a0dc8f3e32f0b17b",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "saber-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.2.res2/openreliant-saber-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.2.res2",
+      "checksum": "a1a3fb0fed889beae19c912d0132f183666088e688fd922ad510cc3f1a032b8e",
+      "downloadBytes": 3991922
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "saber-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.2.res2/openreliant-saber-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.2.res2",
+      "checksum": "dfc0c127eb4853232a8e0374c5dab5a7580eb2619d2dc2b360b1aa6917d912cd",
+      "downloadBytes": 10257712
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "saber-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.2/openreliant-saber-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.2",
+      "checksum": "48bd9acabd7d6ad8b27b4d45ca99abd05f9a46227357d835aef5661029fcb71a",
+      "downloadBytes": 28810411
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "b2cb11b2b97b5cede3b8dac1aca172d07817a4ed3ec70329a0dc8f3e32f0b17b",
+        "asset_manifest_sha256": "59124f4a6d9b9936d8fdbfd18bff02123c3c5a70acb536ea983f17282d535f1d",
+        "images": [
+          {
+            "path": "mods/102-saber-worn-v1/orsb1_hull.png",
+            "source_sha256": "c50bc219e3a389cca18a296e1e83cb0ff6fca5097dd626bcd108a2d23a2d2c85",
+            "sha256": "554a30ec192c357a2c042b2e02e75a88c3a2af71540f844bc574ccf309f88208",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/102-saber-worn-v1/orsb1_hull_normal.png",
+            "source_sha256": "e3440797de210b6fcd25c804cdff3a68a7af66b548aee6d6011468ac8f71594c",
+            "sha256": "9009f0fd04bde25f41767a13da8fc68528a11b73cd4be0ebdd73c37a61df3457",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/102-saber-worn-v1/orsb1_hull_orm.png",
+            "source_sha256": "ff15c85cb5a0f636b4c8e71af5c28fc7b144e826b517395f5665e287f0f5d96d",
+            "sha256": "e8d17b280f72e356fac75308452250c660f8843bc622a2bf69665c780dff8d16",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/102-saber-worn-v1/Rus_Sabre.SHP",
+          "mods/102-saber-worn-v1/license.txt",
+          "mods/102-saber-worn-v1/mission989.dte",
+          "mods/102-saber-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "saber",
+        "tier": "1k",
+        "zip_sha256": "a1a3fb0fed889beae19c912d0132f183666088e688fd922ad510cc3f1a032b8e",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsb1_hull",
+            "emissive": false,
+            "log_sha256": "8294c0464ad3ba8f8c4dccdf05088747c81e3a5181c87e2ae2421a23cf62b1b7",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "b2cb11b2b97b5cede3b8dac1aca172d07817a4ed3ec70329a0dc8f3e32f0b17b",
+        "asset_manifest_sha256": "b7bd4fd12de60c05471acc03b5717fb215f4b0a27003b78656eb00d509502b37",
+        "images": [
+          {
+            "path": "mods/102-saber-worn-v1/orsb1_hull.png",
+            "source_sha256": "c50bc219e3a389cca18a296e1e83cb0ff6fca5097dd626bcd108a2d23a2d2c85",
+            "sha256": "f6e15fa9bd2f51ffa829f957db9f87844e3449dd038eaf72d299d54b974b55c6",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/102-saber-worn-v1/orsb1_hull_normal.png",
+            "source_sha256": "e3440797de210b6fcd25c804cdff3a68a7af66b548aee6d6011468ac8f71594c",
+            "sha256": "efa3b602bea8101d84f721984bf1647404c310c57b4664454f1c4b89ba003fa0",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/102-saber-worn-v1/orsb1_hull_orm.png",
+            "source_sha256": "ff15c85cb5a0f636b4c8e71af5c28fc7b144e826b517395f5665e287f0f5d96d",
+            "sha256": "75b2cdde56efaa4f7b96a398fd5b4ab769229daf95764f7952d5dff6d0ee1235",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/102-saber-worn-v1/Rus_Sabre.SHP",
+          "mods/102-saber-worn-v1/license.txt",
+          "mods/102-saber-worn-v1/mission989.dte",
+          "mods/102-saber-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "saber",
+        "tier": "2k",
+        "zip_sha256": "dfc0c127eb4853232a8e0374c5dab5a7580eb2619d2dc2b360b1aa6917d912cd",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsb1_hull",
+            "emissive": false,
+            "log_sha256": "8294c0464ad3ba8f8c4dccdf05088747c81e3a5181c87e2ae2421a23cf62b1b7",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:05:13.911669+00:00"
+}
