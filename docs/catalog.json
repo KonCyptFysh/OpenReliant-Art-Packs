@@ -331,22 +331,22 @@
             {
               "id": "1k",
               "maxTextureEdge": 1024,
-              "version": "0.1.0-beta.2.res1",
-              "tag": "coyote-v0.1.0-beta.2.res1",
-              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2.res1/openreliant-coyote-1k-0.1.0-beta.2.res1.zip",
-              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2.res1",
-              "checksum": "626563bdaadca63a8f7a21c47c6f97b5c4938161f212ecd3dbfd986d6b349ae7",
-              "downloadBytes": 8056297
+              "version": "0.1.0-beta.2.res2",
+              "tag": "coyote-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2.res2/openreliant-coyote-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2.res2",
+              "checksum": "fc45e392b61b63c62a64edbb7389b3ead3b837785fa8f29fea415e40f894c6c9",
+              "downloadBytes": 8056175
             },
             {
               "id": "2k",
               "maxTextureEdge": 2048,
-              "version": "0.1.0-beta.2.res1",
-              "tag": "coyote-v0.1.0-beta.2.res1",
-              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2.res1/openreliant-coyote-2k-0.1.0-beta.2.res1.zip",
-              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2.res1",
-              "checksum": "dd298728e1ec272eb154e87ef33d92f93efe566c3f67f30929cfdda03667c362",
-              "downloadBytes": 30632259
+              "version": "0.1.0-beta.2.res2",
+              "tag": "coyote-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2.res2/openreliant-coyote-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2.res2",
+              "checksum": "048e5c5f2815cc08c4382c5e67b242cb001ebc646ea2591798c35424603377fa",
+              "downloadBytes": 30632155
             },
             {
               "id": "4k",
