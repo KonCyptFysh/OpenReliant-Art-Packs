@@ -39,4 +39,8 @@ Use concise public titles such as `Patriot - Worn Paint`. Keep version numbers i
 
 ## OpenReliant 0.8 texture packaging
 
-Current ship and ordnance packages target official OpenReliant 0.8.1. Ship only each unprefixed PNG texture and its normal/ORM maps. Do not duplicate these as g/r-prefixed loadout variants: the engine generates their colours. Preserve historical originals and capture-engine labels. Rebuild manifests, increment both mod and package versions, and verify new downloads before changing catalogue links. See the official [loadout texture documentation](https://github.com/OpenReliant/openreliant/blob/main/docs/guide/modding.md#textures-in-the-loadout).
+Most established fighter and ordnance packages target official OpenReliant 0.8.1. Preserve a higher per-pack minimum where required: Kurgen needs official 0.18.0 for its scripted lighting. Ship only each unprefixed PNG texture and its normal/ORM maps. Do not duplicate these as g/r-prefixed loadout variants: the engine generates their colours. Preserve historical originals and capture-engine labels. Rebuild manifests, increment both mod and package versions, and verify new downloads before changing catalogue links. See the official [loadout texture documentation](https://github.com/OpenReliant/openreliant/blob/main/docs/guide/modding.md#textures-in-the-loadout).
+
+## Resolution variants
+
+For each released non-HUD asset, generate and verify 1K, 2K and 4K downloads from the approved master. See [TEXTURE_RESOLUTIONS.md](TEXTURE_RESOLUTIONS.md). A changed master invalidates its recorded variants; regenerate matching colour, normal, ORM and emissive maps together. Keep the same scripts and native mod folder across tiers. Never publish only the refreshed master and leave stale lower-resolution variants.

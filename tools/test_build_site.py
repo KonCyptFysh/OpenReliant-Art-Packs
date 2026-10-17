@@ -510,5 +510,30 @@ class CatalogueChecks(unittest.TestCase):
         self.asset['category']='hud';self.data['categories'][0]['id']='hud'
         with self.assertRaisesRegex(ValueError,'non-HUD'):site.validate(self.root,self.data)
 
+    def add_resolution_proof(self):
+        self.add_resolution_fixture()
+        master = self.root / 'packs/coyote/asset-manifest.json'
+        proof = {'editions': {'coyote/worn': {
+            'variants': self.worn['resolutions'],
+            'master_manifest_sha256': site.hashlib.sha256(master.read_bytes()).hexdigest(),
+        }}}
+        self.write('tracking/resolution-packs.json', json.dumps(proof))
+
+    def test_changed_master_invalidates_existing_resolution_downloads(self):
+        self.add_resolution_proof()
+        site.validate(self.root,self.data)
+        self.write('packs/coyote/asset-manifest.json', '[{"updated":true}]')
+        with self.assertRaisesRegex(ValueError,'stale for this master'):site.validate(self.root,self.data)
+
+    def test_catalogue_resolution_must_match_published_evidence(self):
+        self.add_resolution_proof()
+        self.worn['resolutions'][0]['checksum']='cd'*32
+        with self.assertRaisesRegex(ValueError,'evidence differs'):site.validate(self.root,self.data)
+
+    def test_new_release_cannot_omit_resolution_choices_after_rollout(self):
+        self.add_resolution_proof()
+        del self.worn['resolutions']
+        with self.assertRaisesRegex(ValueError,'needs all resolution'):site.validate(self.root,self.data)
+
 if __name__ == "__main__":
     unittest.main()

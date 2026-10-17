@@ -1,0 +1,227 @@
+{
+  "status": "passed",
+  "package_count": 59,
+  "material_sets": 96,
+  "render_checks": [
+    {
+      "asset": "coyote",
+      "tier": "1k",
+      "status": "passed",
+      "zip_sha256": "fc45e392b61b63c62a64edbb7389b3ead3b837785fa8f29fea415e40f894c6c9",
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "screenshot_sha256": "f2aad653be7a2b3edd9c6b24edb19ff97d1f9e2978baf87dc31c503ef350520f",
+      "log_sha256": "755b2f99d3bfffc4db409fc554905ff4c99d90479c883f583033d27d98aa2c37",
+      "scope": "Bounded Linux engine render; camera and native background follow ship-gallery-v1, validation at 1280x960. Not a full gameplay test."
+    },
+    {
+      "asset": "coyote",
+      "tier": "2k",
+      "status": "passed",
+      "zip_sha256": "048e5c5f2815cc08c4382c5e67b242cb001ebc646ea2591798c35424603377fa",
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "screenshot_sha256": "6efab11298c09cdd22a31a79c48082f3e5decf310b5f7b9dd5b94276af55a9e8",
+      "log_sha256": "2bb99586593185055299ebda1edcfccdcc8f89a2d1e80fbd3e2fabb8c0d8f934",
+      "scope": "Bounded Linux engine render; camera and native background follow ship-gallery-v1, validation at 1280x960. Not a full gameplay test."
+    },
+    {
+      "asset": "sai",
+      "tier": "1k",
+      "status": "passed",
+      "zip_sha256": "3d4e98bb68b133495f9cb3c2b236dce005584ba0deabb0bb86244beb497ecc68",
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "screenshot_sha256": "5989aba7f3132c6217ed5daefccd5b1161727f439a199cc2e14f9b83c02406b0",
+      "log_sha256": "d505350ded71f77eb60b961d70ef9d5b7879554a8587c1fc4db3e0588d1606d3",
+      "scope": "Bounded Linux engine render; camera and native background follow ship-gallery-v1, validation at 1280x960. Not a full gameplay test."
+    },
+    {
+      "asset": "sai",
+      "tier": "2k",
+      "status": "passed",
+      "zip_sha256": "4b9957281d1a2834bc855b933a2f9d5b8968f268bcf55aa5fcac3340db596bf1",
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "screenshot_sha256": "658c0ddac385e91d3153f48ad9f7e842686c1af6e8a3f32cb5cadc6e5a6cbd0a",
+      "log_sha256": "84cdd3150a9f38cd42241f84da4a743d0c8d57a4216b00c20308696d5c1c1dee",
+      "scope": "Bounded Linux engine render; camera and native background follow ship-gallery-v1, validation at 1280x960. Not a full gameplay test."
+    },
+    {
+      "asset": "sai",
+      "tier": "4k",
+      "status": "passed",
+      "zip_sha256": "016a232fc46e7cb2bbffb1e37f07927cc8e49d42cbf70de55762246fe648680a",
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "screenshot_sha256": "2be7a5d750dbfb20d06ffe92f1e4859262235d6bda2c07a2d373ac88da552b23",
+      "log_sha256": "e7ef53125e6d09a8fae80a4d1374899b205591293fc8c248cad6af22258bf4b7",
+      "scope": "Bounded Linux engine render; camera and native background follow ship-gallery-v1, validation at 1280x960. Not a full gameplay test."
+    },
+    {
+      "asset": "hades",
+      "tier": "1k",
+      "status": "passed",
+      "zip_sha256": "0b39ac28fae8c2f0add2a7d099e262f1fd9a990334b416fa271380d2d24512e7",
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "screenshot_sha256": "4800d70c3f21bb4edac5710f859ef3fbf1348b1b154d2610a55be9fa1ea43248",
+      "log_sha256": "1fa5cc32f44d461a4d8a550fc4169d88232ed6afe0ba1dfb7f46dcfd5cda0db8",
+      "scope": "Bounded Linux engine render; camera and native background follow ship-gallery-v1, validation at 1280x960. Not a full gameplay test."
+    },
+    {
+      "asset": "hades",
+      "tier": "2k",
+      "status": "passed",
+      "zip_sha256": "cefab982173984404a741815069fdfa6ced6950b8947275726b8daffaa29c105",
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "screenshot_sha256": "663aaf470708ecf76640abb62fc8d68655c0ce84ba4c6f277a5e26ff8b5f16ab",
+      "log_sha256": "409d8cc4d61366560204db782fc318809fb2f91e4c33d3ed9ddc9d3ec306825c",
+      "scope": "Bounded Linux engine render; camera and native background follow ship-gallery-v1, validation at 1280x960. Not a full gameplay test."
+    },
+    {
+      "asset": "kurgen",
+      "tier": "1k",
+      "status": "passed",
+      "zip_sha256": "b709d5a5ec0a617ec1241c87a0d47376bf03c9251a5e4d8b07bd3d3220a210ec",
+      "engine": "Official OpenReliant 0.18.0",
+      "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+      "screenshot_sha256": "e9f0630751140eef75ebead9c8759eda9b5058bcdc9f787affece39b3f74be8a",
+      "log_sha256": "8bc070070446abfba1a3c4887c55762b911a9226d4943830c37b2062fe00af69",
+      "scope": "Bounded Linux engine render; camera and native background follow ship-gallery-v1, validation at 1280x960. Not a full gameplay test."
+    },
+    {
+      "asset": "kurgen",
+      "tier": "2k",
+      "status": "passed",
+      "zip_sha256": "b7e55362fb7e59e1d8d034fd98f35cddba318d4ad729f07e4091ee2ad308210a",
+      "engine": "Official OpenReliant 0.18.0",
+      "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+      "screenshot_sha256": "3c53664445abbcdf23195cf68d23a0b4351be603a764728ec2d019fa1283e2b9",
+      "log_sha256": "e51aadf2ed9657ffba85578ec270b7058b4677ff4d1d3b3d578cbea10acd6fdb",
+      "scope": "Bounded Linux engine render; camera and native background follow ship-gallery-v1, validation at 1280x960. Not a full gameplay test."
+    }
+  ],
+  "emissive_energy": {
+    "status": "passed",
+    "checks": [
+      {
+        "tier": "1k",
+        "map": "orku1_hull_emissive.png",
+        "master_mean": [
+          0.0010883665089752997,
+          0.0005758635726209466,
+          0.00018639585929147023
+        ],
+        "tier_mean": [
+          0.001088626807571491,
+          0.0005759608910294034,
+          0.0001864255839493234
+        ],
+        "max_absolute_difference": 2.602985961913662e-07
+      },
+      {
+        "tier": "1k",
+        "map": "orku3_bridge_emissive.png",
+        "master_mean": [
+          0.014232136841387355,
+          0.006905487545854516,
+          0.001726765496738114
+        ],
+        "tier_mean": [
+          0.014232136841387355,
+          0.006905487545854516,
+          0.001726765496738114
+        ],
+        "max_absolute_difference": 0.0
+      },
+      {
+        "tier": "1k",
+        "map": "orku3_bridge_lod_emissive.png",
+        "master_mean": [
+          0.03356602448682322,
+          0.017867741143776872,
+          0.005924649584229336
+        ],
+        "tier_mean": [
+          0.03356602448682322,
+          0.017867741143776872,
+          0.005924649584229336
+        ],
+        "max_absolute_difference": 0.0
+      },
+      {
+        "tier": "2k",
+        "map": "orku1_hull_emissive.png",
+        "master_mean": [
+          0.0010883665089752997,
+          0.0005758635726209466,
+          0.00018639585929147023
+        ],
+        "tier_mean": [
+          0.0010900375905399662,
+          0.0005770048902679903,
+          0.00018700717662417654
+        ],
+        "max_absolute_difference": 1.6710815646664434e-06
+      },
+      {
+        "tier": "2k",
+        "map": "orku3_bridge_emissive.png",
+        "master_mean": [
+          0.014232136841387355,
+          0.006905487545854516,
+          0.001726765496738114
+        ],
+        "tier_mean": [
+          0.014232136841387355,
+          0.006905487545854516,
+          0.001726765496738114
+        ],
+        "max_absolute_difference": 0.0
+      },
+      {
+        "tier": "2k",
+        "map": "orku3_bridge_lod_emissive.png",
+        "master_mean": [
+          0.03356602448682322,
+          0.017867741143776872,
+          0.005924649584229336
+        ],
+        "tier_mean": [
+          0.03356602448682322,
+          0.017867741143776872,
+          0.005924649584229336
+        ],
+        "max_absolute_difference": 0.0
+      }
+    ],
+    "scope": "Average linear-light emission per RGB channel; procedural shader and script bytes are unchanged."
+  },
+  "reproducibility": {
+    "status": "passed",
+    "asset": "coyote",
+    "tier": "1k",
+    "sha256": "fc45e392b61b63c62a64edbb7389b3ead3b837785fa8f29fea415e40f894c6c9",
+    "scope": "Independent rebuild from master; final ZIP byte-identical including 16-bit PNG maps"
+  },
+  "hud_excluded": true,
+  "master_maps_unchanged": true,
+  "visual_review": "All nine representative engine renders inspected; lower tiers retain material placement. Desktop/mobile selector and download metadata switching verified locally.",
+  "toolchain": {
+    "python": "3.13.13",
+    "pillow": "11.1.0",
+    "numpy": "2.2.6",
+    "zlib": "1.3.1.zlib-ng",
+    "imagemagick": "Version: ImageMagick 7.1.1-47 Q16-HDRI x86_64 22763 https://imagemagick.org"
+  },
+  "download_choices": 87,
+  "new_archives": 59,
+  "published_assets": 29,
+  "unit_checks": {
+    "python": 74,
+    "javascript": 20
+  },
+  "verified_at_utc": "2026-10-17T06:41:07.643048+00:00"
+}
