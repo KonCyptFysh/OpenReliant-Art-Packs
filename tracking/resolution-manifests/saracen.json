@@ -1,0 +1,225 @@
+{
+  "asset": "saracen",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "831c7b9512c255030ddd1975dc177b98f798467a6c95aa80228edc6b76c96b50",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "saracen-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1.res2/openreliant-saracen-1k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1.res2",
+      "checksum": "a9be150a2fad32d60b88962a8a60fc5e9d2aea9a7c0971256a325dc014b3e970",
+      "downloadBytes": 4044022
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "saracen-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1.res2/openreliant-saracen-2k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1.res2",
+      "checksum": "2f58aa20c310e61ca2643cae2809b78ef37fed81c373491a3eda0a7e93d1459e",
+      "downloadBytes": 9804479
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.1",
+      "tag": "saracen-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1/openreliant-saracen-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1",
+      "checksum": "0d187fd3023596d3437035fff64209ff11ce3f9ed8c745a3d50401b98d17b49f",
+      "downloadBytes": 26761636
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "831c7b9512c255030ddd1975dc177b98f798467a6c95aa80228edc6b76c96b50",
+        "asset_manifest_sha256": "005a369b22db6c40d87891c93470dba45ec9ddedae007bb3a80d92e2efff294a",
+        "images": [
+          {
+            "path": "mods/110-saracen-worn-v1/orsr1_hull.png",
+            "source_sha256": "732e8033ccec292035b1276da743c4b9f4f55d5fcb2f85d317278278a438826b",
+            "sha256": "58d4f2ba0dc18f4f5252d330c708edb9aacea8fde0f0b507b554a37b28f29cec",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/110-saracen-worn-v1/orsr1_hull_normal.png",
+            "source_sha256": "2a6e61cae4022f1aabe08e7900c54d537ba44de286c3d5001c33dcf40f650fbd",
+            "sha256": "d1f0958d778f477d36c7a40dd9b7fa4ebd3cc5668bc4bc8193894c84dac2fe3e",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/110-saracen-worn-v1/orsr1_hull_orm.png",
+            "source_sha256": "4400474c024a5c9fb453cb336b1774f2a9fd82132c04188a5c033d161a076e53",
+            "sha256": "2643f1947265c22d3e2c1e19aed3604e366ccad748d245124b945c0b7d05acf3",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/110-saracen-worn-v1/license.txt",
+          "mods/110-saracen-worn-v1/mid_saracen.SHP",
+          "mods/110-saracen-worn-v1/mission976.dte",
+          "mods/110-saracen-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "saracen",
+        "tier": "1k",
+        "zip_sha256": "a9be150a2fad32d60b88962a8a60fc5e9d2aea9a7c0971256a325dc014b3e970",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsr1_hull",
+            "emissive": false,
+            "log_sha256": "392a7499fce929a4288f02262ed7239f23bfacabc576f10e2fd64ebe90c9bad6",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "831c7b9512c255030ddd1975dc177b98f798467a6c95aa80228edc6b76c96b50",
+        "asset_manifest_sha256": "f3b20a9ab1bdd88e45838b64fe7f4925626a57752ac80fa8ebeb1ef756ac0240",
+        "images": [
+          {
+            "path": "mods/110-saracen-worn-v1/orsr1_hull.png",
+            "source_sha256": "732e8033ccec292035b1276da743c4b9f4f55d5fcb2f85d317278278a438826b",
+            "sha256": "1a973dc153b22067e0c1c3a5842b23cc03db9ffbf82655b3534bf9786541435b",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/110-saracen-worn-v1/orsr1_hull_normal.png",
+            "source_sha256": "2a6e61cae4022f1aabe08e7900c54d537ba44de286c3d5001c33dcf40f650fbd",
+            "sha256": "e59f6803529ca450605f75019b588ea9008c5eb66cf20788e962fc34ff66fe02",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/110-saracen-worn-v1/orsr1_hull_orm.png",
+            "source_sha256": "4400474c024a5c9fb453cb336b1774f2a9fd82132c04188a5c033d161a076e53",
+            "sha256": "191b9b8706026cbbff04a2e58473bda9dd212d66eda787b26c23071ba6720c68",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/110-saracen-worn-v1/license.txt",
+          "mods/110-saracen-worn-v1/mid_saracen.SHP",
+          "mods/110-saracen-worn-v1/mission976.dte",
+          "mods/110-saracen-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "saracen",
+        "tier": "2k",
+        "zip_sha256": "2f58aa20c310e61ca2643cae2809b78ef37fed81c373491a3eda0a7e93d1459e",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsr1_hull",
+            "emissive": false,
+            "log_sha256": "392a7499fce929a4288f02262ed7239f23bfacabc576f10e2fd64ebe90c9bad6",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:31:08.339803+00:00"
+}

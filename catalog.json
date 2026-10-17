@@ -2397,7 +2397,40 @@
           "checksum": "0d187fd3023596d3437035fff64209ff11ce3f9ed8c745a3d50401b98d17b49f",
           "downloadBytes": 26761636,
           "previewType": "capture",
-          "previewArtworkRevision": "1.0"
+          "previewArtworkRevision": "1.0",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "saracen-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1.res2/openreliant-saracen-1k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1.res2",
+              "checksum": "a9be150a2fad32d60b88962a8a60fc5e9d2aea9a7c0971256a325dc014b3e970",
+              "downloadBytes": 4044022
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "saracen-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1.res2/openreliant-saracen-2k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1.res2",
+              "checksum": "2f58aa20c310e61ca2643cae2809b78ef37fed81c373491a3eda0a7e93d1459e",
+              "downloadBytes": 9804479
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.1",
+              "tag": "saracen-v0.1.0-beta.1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1/openreliant-saracen-0.1.0-beta.1.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1",
+              "checksum": "0d187fd3023596d3437035fff64209ff11ce3f9ed8c745a3d50401b98d17b49f",
+              "downloadBytes": 26761636
+            }
+          ]
         }
       ],
       "entryType": "ship",
