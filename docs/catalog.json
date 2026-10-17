@@ -30,7 +30,8 @@
       "id": "corvettes-and-gunboats",
       "name": "Corvettes and Gunboats",
       "group": "fleet-warships",
-      "description": "Prowler and Kurgen escort and gunboat hulls."
+      "description": "Prowler and Kurgen escort and gunboat hulls.",
+      "folder": "Corvettes and Gunboats"
     },
     {
       "id": "fleet-destroyers",
@@ -1782,8 +1783,8 @@
       "name": "Kurgen",
       "category": "corvettes-and-gunboats",
       "status": "coming-soon",
-      "workStatus": "planned",
-      "description": "Kurgen gunboat restoration, including its prominent gun mounts.",
+      "workStatus": "in-progress",
+      "description": "Worn Coalition corvette with lit bridge windows, damage-responsive cabin power, throttle-driven stern illumination and retained nozzle heat.",
       "entryType": "ship",
       "faction": "coalition",
       "shipClass": "Gunboat / Corvette",
@@ -1793,9 +1794,31 @@
           "id": "worn-paint",
           "name": "Worn Paint",
           "status": "coming-soon",
-          "engineStatus": "to-be-confirmed"
+          "engineStatus": "user-approved-beta",
+          "engine": "0.18.0",
+          "notes": [
+            "Approved beta with low-health steady-light periods below seven seconds.",
+            "Native animated turrets and repaired shared star; per-barrel emissives deferred pending official APIs.",
+            "One canonical PNG set; engine-generated loadout colours."
+          ],
+          "assetRevision": "1.7",
+          "modFolder": "116-kurgen-worn-v1",
+          "validationSummary": "User accepted this beta. Native checks, 36 response tests and official 0.18.0 script/shader integration pass; broader gameplay and other platforms remain untested.",
+          "model": "models/kurgen.glb",
+          "preview": "assets/kurgen/gallery-overview-v1.webp",
+          "defaultPreview": "image",
+          "previewSource": "Fresh capture in official OpenReliant 0.18.0",
+          "previewType": "capture",
+          "previewArtworkRevision": "1.7",
+          "images": [
+            {
+              "src": "assets/kurgen/gallery-overview-v1.webp",
+              "caption": "Kurgen — front three-quarter view, healthy cabin lighting"
+            }
+          ]
         }
-      ]
+      ],
+      "folder": "Corvettes and Gunboats/Kurgen"
     },
     {
       "id": "kestrel",

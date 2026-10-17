@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "artwork_revision": "1.7",
+  "profile": "ship-gallery-v1",
+  "captures": [
+    {
+      "asset": "kurgen",
+      "livery": "worn-paint",
+      "artwork_revision": "1.7",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 60,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.18.0",
+      "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Corvettes and Gunboats/Kurgen/asset-manifest.json",
+      "runtime_manifest_sha256": "1623a95681a28a634f5ac1db7c298701d93da80be67cdfa70b54ad7d373edb9d",
+      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Kurgen/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "35965569b958db5a71dab07e6da58973c82bc71551b2d76998fc484d290bfbfa",
+      "captured_at_utc": "2026-10-17T03:31:04.746747+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/kurgen/gallery-overview-v1.webp",
+      "gallery_sha256": "1db11819c0ff4307304c25e3f3cbef1d0abee7430edc68c7399c495cce1cc6a2",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        936,
+        689,
+        1879,
+        1318
+      ],
+      "crop": [
+        768,
+        524,
+        2048,
+        1484
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    }
+  ],
+  "coverage": "Fresh official 0.18.0 photo of approved repository runtime with native turrets and healthy cabin lighting.",
+  "approved_model_and_material_bytes_unchanged": true,
+  "visually_reviewed": true,
+  "reviewed_at_utc": "2026-10-17T03:34:13.010580+00:00",
+  "visual_checks": [
+    "Upright elevated front three-quarter, nose down-right",
+    "Whole silhouette and native turrets framed",
+    "Native blue nebula, no UI or cinematic bars",
+    "4:3 image and shared fleet framing; photo and fleet contact sheet inspected"
+  ]
+}

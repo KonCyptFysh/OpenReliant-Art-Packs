@@ -940,5 +940,130 @@
     "native_part_origins_verified": true,
     "asset_revision": "1.0",
     "asset_manifest_sha256": "6cd8fab3d864fbaa8713c2e3df221561f2bce71ec295dd0d84835580435db008"
+  },
+  "kurgen": {
+    "status": "passed",
+    "asset_revision": "1.7",
+    "asset_manifest_sha256": "1623a95681a28a634f5ac1db7c298701d93da80be67cdfa70b54ad7d373edb9d",
+    "model": "Rus_Kurgan.SHP",
+    "model_sha256": "f39bdefbe08219bd279ca94596279027e3bf12c4a09851d34d4cd0feae303979",
+    "turret_model_sha256": "e909844676e9f955886885bd46480dc01b24aa79a83414e73a81f27ded6beb1f",
+    "preview_sha256": "ac8b85385201135643bf0043e072a4d5d6a0c39c4f83270d9e4441be5d50b397",
+    "preview_bytes": 3212152,
+    "highest_detail_geometry": true,
+    "native_mount_positions_and_rotations_verified": true,
+    "turret_instances": 3,
+    "barrels": 6,
+    "geometry_meshes": 4,
+    "live_mesh_instances": 10,
+    "unique_mesh_triangle_counts": [
+      388,
+      14,
+      28,
+      28
+    ],
+    "visible_triangles": 598,
+    "textures": [
+      {
+        "runtime_file": "orku1_hull.png",
+        "sha256": "45b74de7db6d3e3e1a4fcf0e065d535b0c93b8449a41152756382b533b8fdbc1",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orku1_hull_normal.png",
+        "sha256": "61ba590b38afaeaca60de8bf5ca63c7883e468a89241cebfafb807020827e66d",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orku1_hull_orm.png",
+        "sha256": "533a2d7fc4be23516296277c3f8b7ee6d25df12c4e9b8fc2eeda50b4c1aa9062",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orku1_hull_emissive.png",
+        "sha256": "ad36c79bfe138dc14db60b40f9af95d3276e65ef70ee51a06c14400b044b8345",
+        "kind": "emissive",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orku3_bridge.png",
+        "sha256": "b180bb227f2757a126ebbd6b7d34873ce3503d42cbfbd8f46d0c23d0d7b992d5",
+        "kind": "base",
+        "preview_dimensions": [
+          512,
+          512
+        ]
+      },
+      {
+        "runtime_file": "orku3_bridge_normal.png",
+        "sha256": "8814c146844c3b03c2741dfb9e3af531decb4dfc60681b4c0a90caeef783ec12",
+        "kind": "normal",
+        "preview_dimensions": [
+          512,
+          512
+        ]
+      },
+      {
+        "runtime_file": "orku3_bridge_orm.png",
+        "sha256": "46bc79619aba641c9b32bf8c2f20368f180d0d5dd7c8087f016394b67306d858",
+        "kind": "orm",
+        "preview_dimensions": [
+          512,
+          512
+        ]
+      },
+      {
+        "runtime_file": "orku3_bridge_emissive.png",
+        "sha256": "e511a7255cde28bbdececeaa1026d25826cde47f9ef941a1472def17620781b8",
+        "kind": "emissive",
+        "preview_dimensions": [
+          512,
+          512
+        ]
+      },
+      {
+        "runtime_file": "orku1_turret.png",
+        "sha256": "2d7745e2f48107547695667d01569ade0582651f56fe4ae71f9a62bf2e915c23",
+        "kind": "base",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orku1_turret_normal.png",
+        "sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693",
+        "kind": "normal",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "runtime_file": "orku1_turret_orm.png",
+        "sha256": "787de7ca17f8cd9216e5fc83092f0842b352941cb42c266f58c5b42db8ef0d0a",
+        "kind": "orm",
+        "preview_dimensions": [
+          1024,
+          1024
+        ]
+      }
+    ],
+    "limitations": "Static browser view with 1024px maps. Bridge emission shown at healthy brightness. Dynamic cabin/engine state, exhaust particles, firing animations and real light spill are not represented."
   }
 }

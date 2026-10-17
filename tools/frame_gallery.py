@@ -54,14 +54,15 @@ def prepare(args):
    thumbs.append((a['name']+' / '+r['mode'],picture.copy()))
   (work/'framing.json').write_text(json.dumps(records,indent=2)+'\n')
  if args.publish_catalog:
-  expected={a['id'] for a in c['assets'] if a['status']=='available' and a['category'] in ['alliance-fighters','coalition-fighters','torpedo-bombers']}
+  categories=json.loads((R/'tracking/gallery-standard.json').read_text())['categories']
+  expected={a['id'] for a in c['assets'] if a['status']=='available' and a['category'] in categories}
   assert {r['asset'] for r in reports}==expected
   for a in c['assets']:
    records=[r for r in reports if r['asset']==a['id']]
    if not records:continue
    records.sort(key=lambda r:r['mode']!='overview');e=a['liveries'][0]
    captions={'overview':'Front three-quarter view','deployed':'Deployed — matching camera','fighting':'Fighting position — matching camera'}
-   e.update(preview=records[0]['gallery_file'],defaultPreview='image',previewSource='Fresh capture in official OpenReliant 0.8.1',
+   e.update(preview=records[0]['gallery_file'],defaultPreview='image',previewSource='Fresh capture in '+records[0]['engine'],
     previewType='capture',previewArtworkRevision=e['assetRevision'],
     images=[dict(src=r['gallery_file'],caption=a['name']+' — '+captions[r['mode']]) for r in records])
    e['notes']=[n for n in e.get('notes',[]) if not any(x in n.lower() for x in ['photo predates','still is a blender','in-game gallery photo','in-game photo pending'])]

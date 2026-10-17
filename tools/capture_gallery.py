@@ -11,7 +11,7 @@ SHIP_TYPES = {'coyote':4,'predator':0,'reaper':9,'wolverine':8,'tempest':6,
  'shroud':10,'mirage':5,'naginata':1,'patriot':7,'phoenix':11,'crusader':3,
  'sai':23,'grendal':2,'saber':43,'basilisk':49,'kamov':45,'loki':65,
  'azan':42,'cossack':50,'lagg':44,'salin':41,'saracen':46,'haidar':39,
- 'karac':40,'galahad':25,'hades':26,'scimitar':48}
+ 'karac':40,'galahad':25,'hades':26,'scimitar':48,'kurgen':60}
 
 def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -21,7 +21,9 @@ def capture(args):
  marker=stage/'.gallery-capture-stage'
  assert not stage.exists() or not any(stage.iterdir()) or marker.exists(), 'Refusing to reuse an unrelated existing directory'
  version=subprocess.check_output([str(args.engine),'--version'],text=True).strip()
- assert version=='OpenReliant 0.8.1' or version=='openreliant 0.8.1', 'This photography profile requires official OpenReliant 0.8.1'
+ policy=json.loads((root/'tracking/gallery-standard.json').read_text())
+ engine_label='Official OpenReliant '+version.split()[-1]
+ assert engine_label in {policy['engine'],*policy.get('engine_overrides',{}).values()}, 'Engine is not approved by the photography profile'
  stage.mkdir(parents=True,exist_ok=True)
  marker.write_text('ship-gallery-v1\n')
  for p in game.iterdir():
@@ -49,6 +51,7 @@ end}}
  catalog=json.loads((root/'catalog.json').read_text())
  for asset in catalog['assets']:
   if asset['id'] not in SHIP_TYPES or (args.assets and asset['id'] not in args.assets): continue
+  assert engine_label==policy.get('engine_overrides',{}).get(asset['id'],policy['engine']), 'Use the recorded official engine baseline for '+asset['id']
   edition=asset['liveries'][0];folder=root/asset['folder'];mod=folder/'mods'/edition['modFolder']
   records=json.loads((folder/'asset-manifest.json').read_text())
   for rec in records: assert sha(folder/rec['path'])==rec['sha256'], (asset['id'],rec['path'])
@@ -84,7 +87,7 @@ end}}
    report=dict(asset=asset['id'],livery=edition['id'],artwork_revision=edition['assetRevision'],mode=mode,
     profile='ship-gallery-v1',ship_type=SHIP_TYPES[asset['id']],mission=mission,ticks=ticks,
     watch_from=[1.4,-1.4,1.4],render_size=[2560,1920],msaa=8,seed=1,
-    engine='Official OpenReliant 0.8.1',engine_sha256=sha(args.engine),
+    engine=engine_label,engine_sha256=sha(args.engine),
     source='Fresh engine screenshot; isolated game directory; repository runtime files',
     runtime_manifest=str((folder/'asset-manifest.json').relative_to(root)),
     runtime_manifest_sha256=sha(folder/'asset-manifest.json'),raw_file=str(picture),raw_sha256=sha(picture),

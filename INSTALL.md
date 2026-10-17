@@ -1,6 +1,6 @@
 # Installing an individual art pack
 
-1. Install OpenReliant 0.8.1 with your own copy of StarLancer.
+1. Install the OpenReliant version required by your chosen pack, with your own copy of StarLancer. Most existing texture packs have a 0.8.1 baseline; Kurgen requires 0.18.0 for its cabin and engine lighting. Check the individual listing before installing.
 2. Download the named ZIP for the ship or art pack you want. Its `.sha256` file verifies the download.
 3. Close OpenReliant and back up the previous version of that mod outside the game's `mods` folder.
 4. Extract the ZIP and place its mod folder inside your game-data directory's `mods` folder beside `resource.hog`. **Replace the previous folder instead of merging files** so obsolete green/red texture copies are removed. The final path is `mods/<mod-folder>/mod.ini`, with its loadable files alongside it.
