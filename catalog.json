@@ -2644,7 +2644,40 @@
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/galahad-v0.1.0-beta.1/openreliant-galahad-0.1.0-beta.1.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1",
           "checksum": "3dbe8f6f2d2308b41b926d8bfb6131d67ac17ef0ce8e91eefa244bb667ca980f",
-          "downloadBytes": 26242807
+          "downloadBytes": 26242807,
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "galahad-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/galahad-v0.1.0-beta.1.res2/openreliant-galahad-1k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1.res2",
+              "checksum": "29be3724ce0c23022a6012edc6ad373eaa41083869d4453372e952016f5215d6",
+              "downloadBytes": 4095892
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "galahad-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/galahad-v0.1.0-beta.1.res2/openreliant-galahad-2k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1.res2",
+              "checksum": "f38e914fb7b149a9c7eea5dc8d7b54ce3573054b5b73635cb5e38f3fd2a4a8df",
+              "downloadBytes": 9702522
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.1",
+              "tag": "galahad-v0.1.0-beta.1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/galahad-v0.1.0-beta.1/openreliant-galahad-0.1.0-beta.1.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1",
+              "checksum": "3dbe8f6f2d2308b41b926d8bfb6131d67ac17ef0ce8e91eefa244bb667ca980f",
+              "downloadBytes": 26242807
+            }
+          ]
         }
       ],
       "folder": "Torpedo Bombers/Galahad"

@@ -1,0 +1,233 @@
+{
+  "asset": "galahad",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "c9352b4f120a695d8a5e314ace6d66753a47b8ba983d93b744ddf6f330d1d59d",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "galahad-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/galahad-v0.1.0-beta.1.res2/openreliant-galahad-1k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1.res2",
+      "checksum": "29be3724ce0c23022a6012edc6ad373eaa41083869d4453372e952016f5215d6",
+      "downloadBytes": 4095892
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "galahad-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/galahad-v0.1.0-beta.1.res2/openreliant-galahad-2k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1.res2",
+      "checksum": "f38e914fb7b149a9c7eea5dc8d7b54ce3573054b5b73635cb5e38f3fd2a4a8df",
+      "downloadBytes": 9702522
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.1",
+      "tag": "galahad-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/galahad-v0.1.0-beta.1/openreliant-galahad-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1",
+      "checksum": "3dbe8f6f2d2308b41b926d8bfb6131d67ac17ef0ce8e91eefa244bb667ca980f",
+      "downloadBytes": 26242807
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.1",
+        "source_manifest_sha256": "c9352b4f120a695d8a5e314ace6d66753a47b8ba983d93b744ddf6f330d1d59d",
+        "asset_manifest_sha256": "d08970ed35e87ee062dc9dac4b6f90c8ab9985cc5452d833f77a7361c8d59119",
+        "images": [
+          {
+            "path": "mods/113-galahad-worn-v1/orgl1_hull.png",
+            "source_sha256": "f434eb3cbf7ca4cb654d7675b921dfd933dbbc1877a2c41e1d72f49126aed2b8",
+            "sha256": "6cfe4f8487445a27e28674c3f01aaf689e88fd9874842061f2291392f8d51f73",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/113-galahad-worn-v1/orgl1_hull_normal.png",
+            "source_sha256": "299844b4c547fb935a8a98ed1889cd954aff858a12b1f4aba77018a1e8938dd0",
+            "sha256": "5d0c1e7d5ecf1d18107a9b43301ef1265c2c60cda09e539e071a1d6a967d2b78",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/113-galahad-worn-v1/orgl1_hull_orm.png",
+            "source_sha256": "aa0db381ec868930cb92cb0429a9ea2fc2121285f30b841f045cb0be827bd02c",
+            "sha256": "2126ae9d3444b837d0281636cc03967bf5ae1b74088e0cc550f4c35aee7a9022",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/113-galahad-worn-v1/BTB_Glhd.SHP",
+          "mods/113-galahad-worn-v1/galahad_inspection.luau",
+          "mods/113-galahad-worn-v1/license.txt",
+          "mods/113-galahad-worn-v1/mission970.dte",
+          "mods/113-galahad-worn-v1/mission971.dte",
+          "mods/113-galahad-worn-v1/mission972.dte",
+          "mods/113-galahad-worn-v1/mission973.dte",
+          "mods/113-galahad-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "galahad",
+        "tier": "1k",
+        "zip_sha256": "29be3724ce0c23022a6012edc6ad373eaa41083869d4453372e952016f5215d6",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orgl1_hull",
+            "emissive": false,
+            "log_sha256": "748b0ef3ccaf0a4ac07843c0673f4123617654934a6bbaf2d2576e952eb5b839",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.1",
+        "source_manifest_sha256": "c9352b4f120a695d8a5e314ace6d66753a47b8ba983d93b744ddf6f330d1d59d",
+        "asset_manifest_sha256": "73bd4486eafff7d617f197d9ab6d0dc56ad9a01ae63858ee93f6c2d8edfa55c2",
+        "images": [
+          {
+            "path": "mods/113-galahad-worn-v1/orgl1_hull.png",
+            "source_sha256": "f434eb3cbf7ca4cb654d7675b921dfd933dbbc1877a2c41e1d72f49126aed2b8",
+            "sha256": "7f585b64e0c197ebcb75ceaf38baadadeccd0a61ec7cbe9111b123ffce3fbf3b",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/113-galahad-worn-v1/orgl1_hull_normal.png",
+            "source_sha256": "299844b4c547fb935a8a98ed1889cd954aff858a12b1f4aba77018a1e8938dd0",
+            "sha256": "e0bb0565cf89274ebaf86b0f248cd04cea47a7a5ea77170c8c8cfef1009cdf70",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/113-galahad-worn-v1/orgl1_hull_orm.png",
+            "source_sha256": "aa0db381ec868930cb92cb0429a9ea2fc2121285f30b841f045cb0be827bd02c",
+            "sha256": "917fb776b286015e2557232bf9bb90eb005d6faf9e085ff78d96242d4fc515e5",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/113-galahad-worn-v1/BTB_Glhd.SHP",
+          "mods/113-galahad-worn-v1/galahad_inspection.luau",
+          "mods/113-galahad-worn-v1/license.txt",
+          "mods/113-galahad-worn-v1/mission970.dte",
+          "mods/113-galahad-worn-v1/mission971.dte",
+          "mods/113-galahad-worn-v1/mission972.dte",
+          "mods/113-galahad-worn-v1/mission973.dte",
+          "mods/113-galahad-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "galahad",
+        "tier": "2k",
+        "zip_sha256": "f38e914fb7b149a9c7eea5dc8d7b54ce3573054b5b73635cb5e38f3fd2a4a8df",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orgl1_hull",
+            "emissive": false,
+            "log_sha256": "748b0ef3ccaf0a4ac07843c0673f4123617654934a6bbaf2d2576e952eb5b839",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:37:47.009659+00:00"
+}
