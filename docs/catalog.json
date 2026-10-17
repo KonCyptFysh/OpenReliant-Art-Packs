@@ -2317,7 +2317,40 @@
           "checksum": "0aee16395ae45dee9ee033e7515b463e2b79ab38fc87fceda960461d07953412",
           "downloadBytes": 26437763,
           "previewType": "capture",
-          "previewArtworkRevision": "1.0"
+          "previewArtworkRevision": "1.0",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "salin-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1.res2/openreliant-salin-1k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1.res2",
+              "checksum": "8eefced308d805ddab8882b38608b8508a5d122209eaa0cb5ccf6e7fe320fb9f",
+              "downloadBytes": 4107060
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "salin-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1.res2/openreliant-salin-2k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1.res2",
+              "checksum": "e7ccc65fc18e2b1fe9f2c8ea65e9b1ead555112b290e347141afd377f2d01212",
+              "downloadBytes": 9697707
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.1",
+              "tag": "salin-v0.1.0-beta.1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1/openreliant-salin-0.1.0-beta.1.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1",
+              "checksum": "0aee16395ae45dee9ee033e7515b463e2b79ab38fc87fceda960461d07953412",
+              "downloadBytes": 26437763
+            }
+          ]
         }
       ],
       "entryType": "ship",
