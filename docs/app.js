@@ -1,7 +1,7 @@
 import {
-  catalogueGroups, groupForCategory, selectLivery, resolveAsset, assetStatus,
+  catalogueGroups, groupForCategory, selectLivery, resolveAsset, resolveResolution, assetStatus,
   countAssets, requirementsFor, resolveDependencies, filterAssets, resolveLocation,
-} from './catalogue-utils.js?v=c270a6a348720472';
+} from './catalogue-utils.js?v=8935032f220156bf';
 
 const $ = selector => document.querySelector(selector);
 const escapeHTML = (value = '') => String(value).replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
@@ -13,7 +13,7 @@ const displayName = asset => asset.liveryName ? `${asset.name} — ${asset.liver
 const statusLabel = status => status === 'available' ? 'Beta available' : 'Coming soon';
 const dialog = $('#asset-dialog');
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
-let catalogue, selectedGroup, selectedCategory = 'all', currentAsset, currentLiveryId;
+let catalogue, selectedGroup, selectedCategory = 'all', currentAsset, currentLiveryId, currentResolutionId;
 let previewSequence = 0, viewerImport, galleryIndex = 0, previewKind;
 
 function currentSelection() {
@@ -220,7 +220,8 @@ function dependencyPanel() {
 }
 
 function renderDetails() {
-  const asset = currentSelection();
+  const selected = currentSelection();
+  const asset = selected ? resolveResolution(selected, currentResolutionId) : null;
   if (!asset) return;
   const category = catalogue.categories.find(item => item.id === asset.category);
   const available = asset.status === 'available';
@@ -231,8 +232,9 @@ function renderDetails() {
   if (downloadable && asset.checksum) secondaryLinks.push(`<a href="${escapeHTML(asset.checksumUrl || `${asset.download}.sha256`)}">Checksum</a>`);
   if (downloadable && asset.folder) secondaryLinks.push(`<a href="${escapeHTML(`${catalogue.repository}/tree/main/${asset.folder.split('/').map(encodeURIComponent).join('/')}/source`)}">Editable source</a>`);
   const liveryPicker = currentAsset.liveries?.length ? `<div class="livery-picker"><label for="livery-select">Livery</label><select id="livery-select" aria-controls="preview-stage asset-release-details">${currentAsset.liveries.map(livery => `<option value="${escapeHTML(livery.id)}"${livery.id === currentLiveryId ? ' selected' : ''}>${escapeHTML(livery.name)}${livery.status === 'available' ? '' : ' — Coming soon'}</option>`).join('')}</select></div>` : '';
+  const resolutionPicker = asset.resolutions?.length ? `<div class="livery-picker resolution-picker"><label for="resolution-select">Texture resolution</label><select id="resolution-select" aria-controls="asset-release-details">${asset.resolutions.map(item => `<option value="${escapeHTML(item.id)}"${item.id === asset.resolutionId ? ' selected' : ''}>${escapeHTML(item.id.toUpperCase())} · ${formatSize(item.downloadBytes)}</option>`).join('')}</select><p class="resolution-note">Choose one resolution per asset. Replace its existing mod folder when switching. Gallery previews show the master artwork.</p></div>` : '';
   const compatibility = asset.engineStatus === 'to-be-confirmed' ? 'To be confirmed' : asset.engine || catalogue.engine;
-  $('#asset-details').innerHTML = `<p class="eyebrow">${escapeHTML(category?.name || '')}</p><h2 id="asset-title">${escapeHTML(asset.name)}</h2>${liveryPicker}<p class="asset-description">${escapeHTML(asset.description)}</p>${asset.scopeStatus === 'pending-audit' ? '<p class="scope-note">Artwork scope pending: this named vessel is listed for reference while its shared model and texture requirements are confirmed.</p>' : ''}<div id="asset-release-details"><dl class="detail-facts"><div><dt>Status</dt><dd>${available ? 'Public beta' : 'Coming soon'}</dd></div><div><dt>OpenReliant</dt><dd>${escapeHTML(compatibility)}</dd></div>${asset.milestone === 'long-term' ? '<div><dt>Milestone</dt><dd>Long term</dd></div>' : ''}${asset.shipClass ? `<div class="ship-class-fact"><dt>Ship class</dt><dd>${escapeHTML(asset.shipClass)}</dd></div>` : ''}${asset.assetRevision ? `<div><dt>Artwork revision</dt><dd>${escapeHTML(asset.assetRevision)}</dd></div>` : ''}${asset.version ? `<div><dt>Pack version</dt><dd>${escapeHTML(asset.version)}</dd></div>` : ''}${downloadable ? `<div><dt>Download</dt><dd>${formatSize(asset.downloadBytes)}${Number.isFinite(asset.downloadBytes) ? ' · ZIP' : ''}</dd></div>` : ''}${asset.modFolder ? `<div class="mod-folder-fact"><dt>Mod folder</dt><dd><code>${escapeHTML(asset.modFolder)}</code></dd></div>` : ''}</dl>${asset.notes?.length ? `<div class="detail-notes"><h3>${available ? 'Still on the workbench' : 'Planned work'}</h3><ul>${asset.notes.map(note => `<li>${escapeHTML(note)}</li>`).join('')}</ul></div>` : ''}${dependencyPanel()}${downloadable ? `<a class="button primary" href="${escapeHTML(asset.download)}">Download ${escapeHTML(displayName(asset))} <span aria-hidden="true">↓</span></a>${secondaryLinks.length ? `<div class="secondary-links">${secondaryLinks.join('')}</div>` : ''}` : '<button class="button coming-button" disabled>Coming soon</button>'}<p class="detail-warning">${asset.model ? 'The 3D hull preview uses reduced textures and browser lighting; loadout weapons and engine effects are omitted. ' : ''}${asset.previewType === 'mixed' ? 'The cover is a composition of the mod artwork; the other images are engine captures. ' : asset.previewType === 'render' ? 'The still images are Blender material previews; lighting differs in game. ' : asset.model ? 'Check the in-game capture for the current engine appearance. ' : ''}${available ? escapeHTML(asset.validationSummary || 'Beta testing covers format checks and bounded rendering on Linux; broader gameplay and other platforms are still to be tested.') : 'This selection has no published download yet.'}</p></div>`;
+  $('#asset-details').innerHTML = `<p class="eyebrow">${escapeHTML(category?.name || '')}</p><h2 id="asset-title">${escapeHTML(asset.name)}</h2>${liveryPicker}${resolutionPicker}<p class="asset-description">${escapeHTML(asset.description)}</p>${asset.scopeStatus === 'pending-audit' ? '<p class="scope-note">Artwork scope pending: this named vessel is listed for reference while its shared model and texture requirements are confirmed.</p>' : ''}<div id="asset-release-details"><dl class="detail-facts"><div><dt>Status</dt><dd>${available ? 'Public beta' : 'Coming soon'}</dd></div><div><dt>OpenReliant</dt><dd>${escapeHTML(compatibility)}</dd></div>${asset.milestone === 'long-term' ? '<div><dt>Milestone</dt><dd>Long term</dd></div>' : ''}${asset.shipClass ? `<div class="ship-class-fact"><dt>Ship class</dt><dd>${escapeHTML(asset.shipClass)}</dd></div>` : ''}${asset.assetRevision ? `<div><dt>Artwork revision</dt><dd>${escapeHTML(asset.assetRevision)}</dd></div>` : ''}${asset.version ? `<div><dt>Pack version</dt><dd>${escapeHTML(asset.version)}</dd></div>` : ''}${downloadable ? `<div><dt>Download</dt><dd>${formatSize(asset.downloadBytes)}${Number.isFinite(asset.downloadBytes) ? ' · ZIP' : ''}</dd></div>` : ''}${asset.modFolder ? `<div class="mod-folder-fact"><dt>Mod folder</dt><dd><code>${escapeHTML(asset.modFolder)}</code></dd></div>` : ''}</dl>${asset.notes?.length ? `<div class="detail-notes"><h3>${available ? 'Still on the workbench' : 'Planned work'}</h3><ul>${asset.notes.map(note => `<li>${escapeHTML(note)}</li>`).join('')}</ul></div>` : ''}${dependencyPanel()}${downloadable ? `<a class="button primary" href="${escapeHTML(asset.download)}">Download ${escapeHTML(displayName(asset))}${asset.resolutionId ? ` · ${escapeHTML(asset.resolutionId.toUpperCase())}` : ''} <span aria-hidden="true">↓</span></a>${secondaryLinks.length ? `<div class="secondary-links">${secondaryLinks.join('')}</div>` : ''}` : '<button class="button coming-button" disabled>Coming soon</button>'}<p class="detail-warning">${asset.model ? 'The 3D hull preview uses reduced textures and browser lighting; loadout weapons and engine effects are omitted. ' : ''}${asset.previewType === 'mixed' ? 'The cover is a composition of the mod artwork; the other images are engine captures. ' : asset.previewType === 'render' ? 'The still images are Blender material previews; lighting differs in game. ' : asset.model ? 'Check the in-game capture for the current engine appearance. ' : ''}${available ? escapeHTML(asset.validationSummary || 'Beta testing covers format checks and bounded rendering on Linux; broader gameplay and other platforms are still to be tested.') : 'This selection has no published download yet.'}</p></div>`;
   $('#show-3d').hidden = !asset.model;
   $('#show-image').hidden = !photos.length;
   $('#show-image').textContent = photos.length > 1 ? previewLabel(asset) : asset.previewType === 'render' ? 'Rendered preview' : 'In-game capture';
@@ -250,6 +252,7 @@ function openAsset(id, liveryId = null) {
     render();
   }
   currentAsset = asset;
+  currentResolutionId = null;
   currentLiveryId = selectLivery(asset, liveryId)?.id || null;
   galleryIndex = 0;
   previewSequence++;
@@ -265,6 +268,7 @@ function openAsset(id, liveryId = null) {
 function changeLivery(id) {
   if (!currentAsset) return;
   const previousKind = previewKind;
+  currentResolutionId = null;
   currentLiveryId = selectLivery(currentAsset, id)?.id || null;
   galleryIndex = 0;
   previewSequence++;
@@ -311,7 +315,14 @@ $('#clear-search').addEventListener('click', () => { $('#search').value = ''; re
 $('#search-all-groups').addEventListener('change', refreshFilters);
 $('#status-filter').addEventListener('change', refreshFilters);
 $('#faction-filter').addEventListener('change', refreshFilters);
-$('#asset-details').addEventListener('change', event => { if (event.target.id === 'livery-select') changeLivery(event.target.value); });
+$('#asset-details').addEventListener('change', event => {
+  if (event.target.id === 'livery-select') changeLivery(event.target.value);
+  if (event.target.id === 'resolution-select') {
+    currentResolutionId = event.target.value;
+    renderDetails();
+    $('#resolution-select')?.focus({ preventScroll: true });
+  }
+});
 $('.close-dialog').addEventListener('click', closePreview);
 dialog.addEventListener('cancel', event => { event.preventDefault(); closePreview(); });
 dialog.addEventListener('click', event => { if (event.target === dialog) closePreview(); });

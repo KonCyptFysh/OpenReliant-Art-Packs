@@ -478,5 +478,37 @@ class CatalogueChecks(unittest.TestCase):
         self.assertEqual(published_path.read_bytes(), previous)
 
 
+    def add_resolution_fixture(self):
+        self.worn['defaultResolution'] = '4k'
+        self.worn['resolutions'] = []
+        for tier,limit in [('1k',1024),('2k',2048),('4k',4096)]:
+            variant = {key:self.worn[key] for key in ('download','release','tag','checksum','downloadBytes','version')}
+            variant.update(id=tier,maxTextureEdge=limit)
+            self.worn['resolutions'].append(variant)
+
+    def test_complete_resolution_set_is_valid(self):
+        self.add_resolution_fixture()
+        site.validate(self.root,self.data)
+
+    def test_missing_resolution_is_rejected(self):
+        self.add_resolution_fixture()
+        self.worn['resolutions'].pop()
+        with self.assertRaisesRegex(ValueError,'expected 1K'):site.validate(self.root,self.data)
+
+    def test_unverified_resolution_link_is_rejected(self):
+        self.add_resolution_fixture()
+        self.worn['resolutions'][0]['checksum']=''
+        with self.assertRaisesRegex(ValueError,'resolution checksum'):site.validate(self.root,self.data)
+
+    def test_unreleased_resolution_download_is_rejected(self):
+        self.add_resolution_fixture()
+        self.planned['resolutions']=self.worn['resolutions']
+        with self.assertRaisesRegex(ValueError,'released non-HUD'):site.validate(self.root,self.data)
+
+    def test_hud_resolution_download_is_rejected(self):
+        self.add_resolution_fixture()
+        self.asset['category']='hud';self.data['categories'][0]['id']='hud'
+        with self.assertRaisesRegex(ValueError,'non-HUD'):site.validate(self.root,self.data)
+
 if __name__ == "__main__":
     unittest.main()

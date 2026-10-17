@@ -119,3 +119,6 @@
   .asset-details{padding:24px 20px}
   .dependency-panel{padding:12px}
 }
+
+.resolution-note { flex-basis: 100%; color: var(--muted); font-size: .8rem; line-height: 1.5; margin: .25rem 0 0; }
+.resolution-picker { flex-wrap: wrap; }
