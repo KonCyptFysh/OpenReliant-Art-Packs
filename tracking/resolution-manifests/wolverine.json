@@ -1,0 +1,225 @@
+{
+  "asset": "wolverine",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "e771bff93e1ad7b319899b1b3b5699c21ea245e86daeb37ed8819d497fda3e52",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "wolverine-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2.res2/openreliant-wolverine-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2.res2",
+      "checksum": "9e705d57891077c4bb85f586aa92f50a51429e8a356b06ca38deb51608fb3a2c",
+      "downloadBytes": 4634675
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "wolverine-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2.res2/openreliant-wolverine-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2.res2",
+      "checksum": "d24f342901dbb3aa028adfba419efd14a52681a70add48a029ed933d08eed698",
+      "downloadBytes": 11502826
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "wolverine-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2/openreliant-wolverine-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2",
+      "checksum": "37de88966aeae03b3d54eca55a7aed3f2e1a839ed65f589035f41ce6ea3027c1",
+      "downloadBytes": 32297711
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "2.0",
+        "source_manifest_sha256": "e771bff93e1ad7b319899b1b3b5699c21ea245e86daeb37ed8819d497fda3e52",
+        "asset_manifest_sha256": "373402af9388572ea57ea290e793aec7227c8398ee09b5f2c9eae6e1faa05ac8",
+        "images": [
+          {
+            "path": "mods/60-wolverine-worn-v1/orwv1_hull.png",
+            "source_sha256": "43b323a81a33e46ab8ed2af00633ad70a744585c0393c5418a720f33abf00d2c",
+            "sha256": "9516016e560767178ff0e6747e6ba4396aae92dd74cbe9e10799102fd9bb9881",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/60-wolverine-worn-v1/orwv1_hull_normal.png",
+            "source_sha256": "097e8d7cf1684725e497aecab21fcd7b7586abc01b888e4fd81c94edc19cc41e",
+            "sha256": "ff864d9b715d10c277ac0de47985ea6e98b0141fea2a37b41872632d240bdc70",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/60-wolverine-worn-v1/orwv1_hull_orm.png",
+            "source_sha256": "fbcabb23697b0eedadb178a1e5449c7165d91c6007b447e0158bcbaa46dca9bf",
+            "sha256": "f73bb06f0407affe539ca53fc145e2ef4cb7b3a4464fbd8b0bde0cbdd38c73b3",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/60-wolverine-worn-v1/German_Wolverine.SHP",
+          "mods/60-wolverine-worn-v1/license.txt",
+          "mods/60-wolverine-worn-v1/mod.png",
+          "mods/60-wolverine-worn-v1/t_German_Wolverine.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "wolverine",
+        "tier": "1k",
+        "zip_sha256": "9e705d57891077c4bb85f586aa92f50a51429e8a356b06ca38deb51608fb3a2c",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orwv1_hull",
+            "emissive": false,
+            "log_sha256": "949f1ac14dc9c3314e05b89e4a291fcb1fbcfd6de5d54c89c83167a5601e87ef",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "2.0",
+        "source_manifest_sha256": "e771bff93e1ad7b319899b1b3b5699c21ea245e86daeb37ed8819d497fda3e52",
+        "asset_manifest_sha256": "7906577d7a4ed33a390ce30d9cbfa9279c3d808a20660b5ad40f375b3a157d37",
+        "images": [
+          {
+            "path": "mods/60-wolverine-worn-v1/orwv1_hull.png",
+            "source_sha256": "43b323a81a33e46ab8ed2af00633ad70a744585c0393c5418a720f33abf00d2c",
+            "sha256": "3cdd1cc54df8a6ee23c168a2bfe6880969434a4b56a9df93388ffe739329179b",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/60-wolverine-worn-v1/orwv1_hull_normal.png",
+            "source_sha256": "097e8d7cf1684725e497aecab21fcd7b7586abc01b888e4fd81c94edc19cc41e",
+            "sha256": "d8509145c5eff4b845c7b1a537d37043420e39117b690199c23734c40227625a",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/60-wolverine-worn-v1/orwv1_hull_orm.png",
+            "source_sha256": "fbcabb23697b0eedadb178a1e5449c7165d91c6007b447e0158bcbaa46dca9bf",
+            "sha256": "640493860bdf45e18828d12e19afc54099cf5529fcb0d54e303241ed1985775f",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/60-wolverine-worn-v1/German_Wolverine.SHP",
+          "mods/60-wolverine-worn-v1/license.txt",
+          "mods/60-wolverine-worn-v1/mod.png",
+          "mods/60-wolverine-worn-v1/t_German_Wolverine.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "wolverine",
+        "tier": "2k",
+        "zip_sha256": "d24f342901dbb3aa028adfba419efd14a52681a70add48a029ed933d08eed698",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orwv1_hull",
+            "emissive": false,
+            "log_sha256": "949f1ac14dc9c3314e05b89e4a291fcb1fbcfd6de5d54c89c83167a5601e87ef",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T05:39:59.302278+00:00"
+}

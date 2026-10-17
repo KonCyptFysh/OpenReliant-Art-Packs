@@ -556,6 +556,39 @@
               "src": "assets/wolverine/gallery-overview-v1.webp",
               "caption": "Wolverine — Front three-quarter view"
             }
+          ],
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "wolverine-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2.res2/openreliant-wolverine-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2.res2",
+              "checksum": "9e705d57891077c4bb85f586aa92f50a51429e8a356b06ca38deb51608fb3a2c",
+              "downloadBytes": 4634675
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "wolverine-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2.res2/openreliant-wolverine-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2.res2",
+              "checksum": "d24f342901dbb3aa028adfba419efd14a52681a70add48a029ed933d08eed698",
+              "downloadBytes": 11502826
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "wolverine-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2/openreliant-wolverine-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2",
+              "checksum": "37de88966aeae03b3d54eca55a7aed3f2e1a839ed65f589035f41ce6ea3027c1",
+              "downloadBytes": 32297711
+            }
           ]
         }
       ],
