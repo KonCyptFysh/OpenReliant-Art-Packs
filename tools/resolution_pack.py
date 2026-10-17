@@ -10,7 +10,7 @@ import numpy as np
 from PIL import Image
 import package_mod
 
-RECIPE = 'texture-resolution-v1'
+RECIPE = 'texture-resolution-v2'
 TIERS = {'1k':1024, '2k':2048, '4k':4096}
 ROLES = ('normal', 'orm', 'emissive', 'occlusion', 'roughness', 'metallic')
 
@@ -78,7 +78,7 @@ def resize_texture(source, destination, limit):
         if bits==16:
             raw=np.rint(np.clip(out,0,1)*65535).astype('>u2').tobytes()
             subprocess.run(['magick','-size',f'{target[0]}x{target[1]}','-depth','16','-endian','MSB',
-                ('RGBA' if out.shape[2]==4 else 'RGB')+':-','-define','png:bit-depth=16',str(destination)],input=raw,check=True)
+                ('RGBA' if out.shape[2]==4 else 'RGB')+':-','-define','png:bit-depth=16','-define','png:exclude-chunks=date,time',str(destination)],input=raw,check=True)
         else: Image.fromarray(np.rint(np.clip(out,0,1)*255).astype('uint8')).save(destination,compress_level=6)
         return dict(role=role,source_size=list(size),size=list(target),resized=True)
 
@@ -102,7 +102,7 @@ def build_variant(root, tier, source_commit):
     if root.parent.name=='HUD': raise ValueError('HUD is excluded')
     generated=root/'dist'/'resolutions'/tier
     generated.mkdir(parents=True,exist_ok=True)
-    version=config['version']+'.res1'
+    version=config['version']+'.res2'
     records=[]; images=[]; copied=[]
     for source in assets:
         rel=source.relative_to(root); dest=generated/rel

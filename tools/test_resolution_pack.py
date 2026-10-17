@@ -44,6 +44,10 @@ class Filtering(unittest.TestCase):
             '-define','png:bit-depth=16',str(p)],input=a.tobytes(),check=True)
         rp.resize_texture(p,q,1)
         self.assertEqual(q.read_bytes()[24],16)
+        self.assertNotIn(b'date:',q.read_bytes())
+        second=self.root/'second.png'
+        rp.resize_texture(p,second,1)
+        self.assertEqual(q.read_bytes(),second.read_bytes())
         raw=subprocess.check_output(['magick',str(q),'-depth','16','-endian','MSB','RGB:-'])
         pixel=np.frombuffer(raw,dtype='>u2')
         self.assertLess(abs(int(pixel[0])-32771),2)
