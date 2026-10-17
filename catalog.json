@@ -2080,7 +2080,40 @@
           "downloadBytes": 26677406,
           "model": "models/azan.glb",
           "previewType": "capture",
-          "previewArtworkRevision": "1.0"
+          "previewArtworkRevision": "1.0",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "azan-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/azan-v0.1.0-beta.1.res2/openreliant-azan-1k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1.res2",
+              "checksum": "29186f515db6509e48fd180974b95eefaea375dd995e988f90402cb8aad9ce85",
+              "downloadBytes": 3897736
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "azan-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/azan-v0.1.0-beta.1.res2/openreliant-azan-2k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1.res2",
+              "checksum": "7ef128ad4e48d116dac4a725a04985cc1985b8f946cc42157b6c82a0bbea956b",
+              "downloadBytes": 9632075
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.1",
+              "tag": "azan-v0.1.0-beta.1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/azan-v0.1.0-beta.1/openreliant-azan-0.1.0-beta.1.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1",
+              "checksum": "44bcba00acddb6f8a104d7204433b4bfe2335c92827b92c84c2ec50d0600d80a",
+              "downloadBytes": 26677406
+            }
+          ]
         }
       ],
       "entryType": "ship",
