@@ -1257,7 +1257,40 @@
           "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
           "defaultPreview": "image",
           "previewType": "capture",
-          "previewArtworkRevision": "1.1"
+          "previewArtworkRevision": "1.1",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "grendal-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.2.res2/openreliant-grendal-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.2.res2",
+              "checksum": "efe24bc71991570ff3fbe4c35b38a6e8296b8ccce19ae08d5e21e0f78cd6a982",
+              "downloadBytes": 4094024
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "grendal-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.2.res2/openreliant-grendal-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.2.res2",
+              "checksum": "befe640f84b5b46cb645245b407a179a7da590d44ea2cd645456398ce0a63f6d",
+              "downloadBytes": 10255261
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "grendal-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.2/openreliant-grendal-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.2",
+              "checksum": "eee7fcdb2625345ec46901c1b47a2357b3a4e6b0f4513bf2f138ed34cafb596e",
+              "downloadBytes": 28318786
+            }
+          ]
         }
       ],
       "entryType": "ship",
