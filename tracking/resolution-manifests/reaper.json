@@ -1,0 +1,225 @@
+{
+  "asset": "reaper",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "dedb03764f442b6abded4f48ca93ff0e3ebd8458edab10dea3e499610106a576",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "reaper-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2.res2/openreliant-reaper-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2.res2",
+      "checksum": "db70a2ec58115ce5fc8968aa71872d9c90b5053fecd417ed1e2ec9373f1603eb",
+      "downloadBytes": 6318650
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "reaper-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2.res2/openreliant-reaper-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2.res2",
+      "checksum": "6a77830b2c9730637ac473cc9aac5089a6296529b86fb1b17fc0b36b403ce319",
+      "downloadBytes": 18413239
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "reaper-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2/openreliant-reaper-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2",
+      "checksum": "e3429756ecc15537d1224c2d3ba57ef5c39facaff011dffc0eeeac4941b071a3",
+      "downloadBytes": 60756289
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "3.1",
+        "source_manifest_sha256": "dedb03764f442b6abded4f48ca93ff0e3ebd8458edab10dea3e499610106a576",
+        "asset_manifest_sha256": "bc325d69c08fcab99541d132e39587325ff9c207ba0f1f251605937672d017ec",
+        "images": [
+          {
+            "path": "mods/50-reaper-worn-v3/orrp3_hull.png",
+            "source_sha256": "527ad5b80ddd7f757ae1973f0e64c78e7da547fa68858cc5e5236a4821f6e5b1",
+            "sha256": "db82d2feebe16f1c2319eff0cd8a0fedb5b1b7a57bcec7ef2fb2a13240312b06",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/50-reaper-worn-v3/orrp3_hull_normal.png",
+            "source_sha256": "eb543842ce596926551c8aad78ff2b4e3f81448e1a78ccebe1cf949e41d1fff2",
+            "sha256": "f3d1e2407d1c3de8e3d89c7f18a64ba1ee4c79877c67894a94dacd93b21ef884",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/50-reaper-worn-v3/orrp3_hull_orm.png",
+            "source_sha256": "6141e06ae6ea83adcfb61bdbd288c296dbf25a83741d552374c2da216a643e00",
+            "sha256": "bd657be60671be67916fe17fe21aa1468ad219c2ff938c3bfa56262a2bd2fd56",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/50-reaper-worn-v3/USHF_Reaper.SHP",
+          "mods/50-reaper-worn-v3/license.txt",
+          "mods/50-reaper-worn-v3/mod.png",
+          "mods/50-reaper-worn-v3/t_USHF_Reaper.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "reaper",
+        "tier": "1k",
+        "zip_sha256": "db70a2ec58115ce5fc8968aa71872d9c90b5053fecd417ed1e2ec9373f1603eb",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orrp3_hull",
+            "emissive": false,
+            "log_sha256": "59ee801e65c036c529a02920d37c6a91c0398f98ff9c66255e351e2f85357796",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "3.1",
+        "source_manifest_sha256": "dedb03764f442b6abded4f48ca93ff0e3ebd8458edab10dea3e499610106a576",
+        "asset_manifest_sha256": "f9493839b8e9f433ebe96dab3083f8ec3250563518d410d104348f1a80533c47",
+        "images": [
+          {
+            "path": "mods/50-reaper-worn-v3/orrp3_hull.png",
+            "source_sha256": "527ad5b80ddd7f757ae1973f0e64c78e7da547fa68858cc5e5236a4821f6e5b1",
+            "sha256": "1e966afaaa1907d7c95b44f7bca3a7fba9e06b48a6f6311bdc230ca2ce85d853",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/50-reaper-worn-v3/orrp3_hull_normal.png",
+            "source_sha256": "eb543842ce596926551c8aad78ff2b4e3f81448e1a78ccebe1cf949e41d1fff2",
+            "sha256": "36e0cdf0199ea84094003ad5a32f8640c14a009faab393edafad38635e66153b",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/50-reaper-worn-v3/orrp3_hull_orm.png",
+            "source_sha256": "6141e06ae6ea83adcfb61bdbd288c296dbf25a83741d552374c2da216a643e00",
+            "sha256": "06f60f004e0fcf9159836f196246e1214a539e30fce02471c3c099b11338693b",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/50-reaper-worn-v3/USHF_Reaper.SHP",
+          "mods/50-reaper-worn-v3/license.txt",
+          "mods/50-reaper-worn-v3/mod.png",
+          "mods/50-reaper-worn-v3/t_USHF_Reaper.SHP"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "reaper",
+        "tier": "2k",
+        "zip_sha256": "6a77830b2c9730637ac473cc9aac5089a6296529b86fb1b17fc0b36b403ce319",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orrp3_hull",
+            "emissive": false,
+            "log_sha256": "59ee801e65c036c529a02920d37c6a91c0398f98ff9c66255e351e2f85357796",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T05:38:13.327934+00:00"
+}

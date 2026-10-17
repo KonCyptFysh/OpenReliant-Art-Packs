@@ -479,6 +479,39 @@
               "src": "assets/reaper/gallery-overview-v1.webp",
               "caption": "Reaper — Front three-quarter view"
             }
+          ],
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "reaper-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2.res2/openreliant-reaper-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2.res2",
+              "checksum": "db70a2ec58115ce5fc8968aa71872d9c90b5053fecd417ed1e2ec9373f1603eb",
+              "downloadBytes": 6318650
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "reaper-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2.res2/openreliant-reaper-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2.res2",
+              "checksum": "6a77830b2c9730637ac473cc9aac5089a6296529b86fb1b17fc0b36b403ce319",
+              "downloadBytes": 18413239
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "reaper-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2/openreliant-reaper-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2",
+              "checksum": "e3429756ecc15537d1224c2d3ba57ef5c39facaff011dffc0eeeac4941b071a3",
+              "downloadBytes": 60756289
+            }
           ]
         }
       ],
