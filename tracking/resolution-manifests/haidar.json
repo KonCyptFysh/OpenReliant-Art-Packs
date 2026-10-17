@@ -1,0 +1,327 @@
+{
+  "asset": "haidar",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "0e2b09ef8fa1cf5a3b5053cc24443f03155404bbe05f9cd53a024a93307d698d",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "haidar-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/haidar-v0.1.0-beta.1.res2/openreliant-haidar-1k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1.res2",
+      "checksum": "d53e8810e0ca44f5c0c3cff746225b90e264054354fafcd26a2e7812bd70c3da",
+      "downloadBytes": 10347492
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "haidar-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/haidar-v0.1.0-beta.1.res2/openreliant-haidar-2k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1.res2",
+      "checksum": "caecf2353dceaa2f78d8605d18082247760476b549000fd2f9fe365d7b89571d",
+      "downloadBytes": 31652777
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.1",
+      "tag": "haidar-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/haidar-v0.1.0-beta.1/openreliant-haidar-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1",
+      "checksum": "930327f962ef3fae0e7352a1b9adb43d51093a6335a75b2c8637fa678affdc84",
+      "downloadBytes": 40549074
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.3",
+        "source_manifest_sha256": "0e2b09ef8fa1cf5a3b5053cc24443f03155404bbe05f9cd53a024a93307d698d",
+        "asset_manifest_sha256": "c941a8adeba96ce3851b4b7e00051a11cd207c0fae147062126b297331a1f3d8",
+        "images": [
+          {
+            "path": "mods/111-haidar-worn-v1/orhd1_hull.png",
+            "source_sha256": "a6b38368ec4c117e1d212be8f53dcd31f26948b29e22528706d17635f4a96f8c",
+            "sha256": "0b599b87ba6a577f6681350d50b8a60c535f1e438b77805a877ccd44e8a4f417",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/111-haidar-worn-v1/orhd1_hull_normal.png",
+            "source_sha256": "db5fa82f5b925083689b206d45e25d8ca1b7ca8f759f5d3de7d8cc1e4b5aa775",
+            "sha256": "a74b7d4dce8dea6d40251e8c91d7ae4342d4389808bde4753f3400f35298b27c",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/111-haidar-worn-v1/orhd1_hull_orm.png",
+            "source_sha256": "cb814db0acf4063e9013aa7d1420083efab32f24a4f2007785c90135c6534d1c",
+            "sha256": "ae587b6ce5c7b537e2ab60a6f86b43390f02817c0e7ad6472b08e85fe7c0455e",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/111-haidar-worn-v1/orhd4_local.png",
+            "source_sha256": "0dd0abd602ec2f7612ebb589d7594b392345c842c820e23edb4ac3ddd8504fed",
+            "sha256": "d03d93a7b64efb0fefc8899f40bd98221a0da3117e3628bb538421369fdc1f3e",
+            "role": "colour",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/111-haidar-worn-v1/orhd4_local_normal.png",
+            "source_sha256": "b897d24de242e2b20000aa967a93096d2b7d5ef185825e936d83ddf82d09c8c3",
+            "sha256": "6919621176eada09eca4c0f5bc29c973e6fae790eea90deefa73ab4bd06d0c85",
+            "role": "normal",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/111-haidar-worn-v1/orhd4_local_orm.png",
+            "source_sha256": "e8a47c14aeba9786c1c60ab1891d4bbfe84a0ed102e0b4e579dfa5e53d83cf45",
+            "sha256": "0f193b6e8ef3b8b46374b88292e6afd38af0efd9665174879875033286f82956",
+            "role": "orm",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/111-haidar-worn-v1/Chin_Han.SHP",
+          "mods/111-haidar-worn-v1/license.txt",
+          "mods/111-haidar-worn-v1/mission975.dte",
+          "mods/111-haidar-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "haidar",
+        "tier": "1k",
+        "zip_sha256": "d53e8810e0ca44f5c0c3cff746225b90e264054354fafcd26a2e7812bd70c3da",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orhd1_hull",
+            "emissive": false,
+            "log_sha256": "fa4030241a6de42c97d3758cbb0245634e3b8a8c88cde6bc714907332cdd9f1d",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orhd4_local",
+            "emissive": false,
+            "log_sha256": "938a67435aeccc77b8b5ac47c23d198f35f4ab442ad4dcfdad1cbdd9ce8d60ee",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.3",
+        "source_manifest_sha256": "0e2b09ef8fa1cf5a3b5053cc24443f03155404bbe05f9cd53a024a93307d698d",
+        "asset_manifest_sha256": "b09d9d02acad7d3fcc5e16de485021fb81e91a3d3fa5a499d323fe3d80205ef5",
+        "images": [
+          {
+            "path": "mods/111-haidar-worn-v1/orhd1_hull.png",
+            "source_sha256": "a6b38368ec4c117e1d212be8f53dcd31f26948b29e22528706d17635f4a96f8c",
+            "sha256": "ee883c88b433d5f2941e79d633f33f6670da18abcf684e829b8268edef69f74b",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/111-haidar-worn-v1/orhd1_hull_normal.png",
+            "source_sha256": "db5fa82f5b925083689b206d45e25d8ca1b7ca8f759f5d3de7d8cc1e4b5aa775",
+            "sha256": "396e05272f8bdb43554d8cffca9816cc678aa116a5cce92819ec4d53209e02b2",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/111-haidar-worn-v1/orhd1_hull_orm.png",
+            "source_sha256": "cb814db0acf4063e9013aa7d1420083efab32f24a4f2007785c90135c6534d1c",
+            "sha256": "86ea231fe624f3ebb6a7ebf26f63cee5443c607ade1ed8233c2baeafe185f3d2",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/111-haidar-worn-v1/orhd4_local.png",
+            "source_sha256": "0dd0abd602ec2f7612ebb589d7594b392345c842c820e23edb4ac3ddd8504fed",
+            "sha256": "0dd0abd602ec2f7612ebb589d7594b392345c842c820e23edb4ac3ddd8504fed",
+            "role": "colour",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/111-haidar-worn-v1/orhd4_local_normal.png",
+            "source_sha256": "b897d24de242e2b20000aa967a93096d2b7d5ef185825e936d83ddf82d09c8c3",
+            "sha256": "b897d24de242e2b20000aa967a93096d2b7d5ef185825e936d83ddf82d09c8c3",
+            "role": "normal",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/111-haidar-worn-v1/orhd4_local_orm.png",
+            "source_sha256": "e8a47c14aeba9786c1c60ab1891d4bbfe84a0ed102e0b4e579dfa5e53d83cf45",
+            "sha256": "e8a47c14aeba9786c1c60ab1891d4bbfe84a0ed102e0b4e579dfa5e53d83cf45",
+            "role": "orm",
+            "source_size": [
+              2048,
+              2048
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": false
+          }
+        ],
+        "unchanged_files": [
+          "mods/111-haidar-worn-v1/Chin_Han.SHP",
+          "mods/111-haidar-worn-v1/license.txt",
+          "mods/111-haidar-worn-v1/mission975.dte",
+          "mods/111-haidar-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "haidar",
+        "tier": "2k",
+        "zip_sha256": "caecf2353dceaa2f78d8605d18082247760476b549000fd2f9fe365d7b89571d",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orhd1_hull",
+            "emissive": false,
+            "log_sha256": "fa4030241a6de42c97d3758cbb0245634e3b8a8c88cde6bc714907332cdd9f1d",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orhd4_local",
+            "emissive": false,
+            "log_sha256": "938a67435aeccc77b8b5ac47c23d198f35f4ab442ad4dcfdad1cbdd9ce8d60ee",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:33:58.410193+00:00"
+}
