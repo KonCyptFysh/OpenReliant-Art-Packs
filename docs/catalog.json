@@ -1839,7 +1839,40 @@
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hades-v0.1.0-beta.1/openreliant-hades-0.1.0-beta.1.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hades-v0.1.0-beta.1",
           "checksum": "bb19f67a1df5626341af07fbf802acde1e1d97cfb78d20b63f5d79536c0e6106",
-          "downloadBytes": 26210278
+          "downloadBytes": 26210278,
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "hades-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hades-v0.1.0-beta.1.res2/openreliant-hades-1k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hades-v0.1.0-beta.1.res2",
+              "checksum": "0b39ac28fae8c2f0add2a7d099e262f1fd9a990334b416fa271380d2d24512e7",
+              "downloadBytes": 3970389
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "hades-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hades-v0.1.0-beta.1.res2/openreliant-hades-2k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hades-v0.1.0-beta.1.res2",
+              "checksum": "cefab982173984404a741815069fdfa6ced6950b8947275726b8daffaa29c105",
+              "downloadBytes": 9642249
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.1",
+              "tag": "hades-v0.1.0-beta.1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hades-v0.1.0-beta.1/openreliant-hades-0.1.0-beta.1.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hades-v0.1.0-beta.1",
+              "checksum": "bb19f67a1df5626341af07fbf802acde1e1d97cfb78d20b63f5d79536c0e6106",
+              "downloadBytes": 26210278
+            }
+          ]
         }
       ],
       "entryType": "ship",
