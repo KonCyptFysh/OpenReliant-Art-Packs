@@ -1153,7 +1153,7 @@
           "id": "worn-paint",
           "name": "Worn Paint",
           "status": "available",
-          "version": "0.1.0-beta.2",
+          "version": "0.1.0-beta.2.res2",
           "assetRevision": "4.0",
           "modFolder": "100-sai-worn-v1",
           "preview": "assets/sai/gallery-overview-v1.webp",
@@ -1169,17 +1169,50 @@
             "Firing, fin motion, damage and distance transitions still need gameplay testing.",
             "Fin UV repairs apply to the finest model; lower-detail meshes retain their original UVs."
           ],
-          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2/openreliant-sai-0.1.0-beta.2.zip",
-          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2",
-          "checksum": "f85efff7770ad0f142e983419ae9db3b2facfe1a7eaf1cba333690c6d8338393",
-          "tag": "sai-v0.1.0-beta.2",
-          "downloadBytes": 70808411,
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2.res2/openreliant-sai-4k-0.1.0-beta.2.res2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2.res2",
+          "checksum": "016a232fc46e7cb2bbffb1e37f07927cc8e49d42cbf70de55762246fe648680a",
+          "tag": "sai-v0.1.0-beta.2.res2",
+          "downloadBytes": 36613045,
           "defaultPreview": "image",
           "previewArtworkRevision": "4.0",
           "previewSource": "Fresh capture in official OpenReliant 0.8.1",
           "engine": "0.8.1",
           "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
-          "previewType": "capture"
+          "previewType": "capture",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "sai-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2.res2/openreliant-sai-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2.res2",
+              "checksum": "3d4e98bb68b133495f9cb3c2b236dce005584ba0deabb0bb86244beb497ecc68",
+              "downloadBytes": 3826772
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "sai-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2.res2/openreliant-sai-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2.res2",
+              "checksum": "4b9957281d1a2834bc855b933a2f9d5b8968f268bcf55aa5fcac3340db596bf1",
+              "downloadBytes": 11970930
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "sai-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2.res2/openreliant-sai-4k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2.res2",
+              "checksum": "016a232fc46e7cb2bbffb1e37f07927cc8e49d42cbf70de55762246fe648680a",
+              "downloadBytes": 36613045
+            }
+          ]
         }
       ],
       "entryType": "ship",
