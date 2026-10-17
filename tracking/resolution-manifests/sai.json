@@ -1,0 +1,469 @@
+{
+  "asset": "sai",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "8fe2f1b502b2bb17e520a863805db4e5e012a15fd61f9df7eec6e082891a0ef9",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "sai-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2.res2/openreliant-sai-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2.res2",
+      "checksum": "3d4e98bb68b133495f9cb3c2b236dce005584ba0deabb0bb86244beb497ecc68",
+      "downloadBytes": 3826772
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "sai-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2.res2/openreliant-sai-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2.res2",
+      "checksum": "4b9957281d1a2834bc855b933a2f9d5b8968f268bcf55aa5fcac3340db596bf1",
+      "downloadBytes": 11970930
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "sai-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2.res2/openreliant-sai-4k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2.res2",
+      "checksum": "016a232fc46e7cb2bbffb1e37f07927cc8e49d42cbf70de55762246fe648680a",
+      "downloadBytes": 36613045
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "4.0",
+        "source_manifest_sha256": "8fe2f1b502b2bb17e520a863805db4e5e012a15fd61f9df7eec6e082891a0ef9",
+        "asset_manifest_sha256": "8a8588010cd82b9b9ad0f49ccca9cec746b21bd10daf147c47b71c70bfbd4850",
+        "images": [
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_body.png",
+            "source_sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da",
+            "sha256": "91487fcdd5a4555d054fcca7967e9345941a5f74b35cdf124e9e122a29a4f9b7",
+            "role": "colour",
+            "source_size": [
+              8192,
+              4096
+            ],
+            "size": [
+              1024,
+              512
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_body_normal.png",
+            "source_sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538",
+            "sha256": "fcb6d0fdfab2efe66011321f6011fefbd55b80c549a03f41ae7b1ae20388f977",
+            "role": "normal",
+            "source_size": [
+              8192,
+              4096
+            ],
+            "size": [
+              1024,
+              512
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_body_orm.png",
+            "source_sha256": "ac4dd156243f278d30d2131f80c2866b75c01ac4794c0eecec074235790681e2",
+            "sha256": "1e276dad01f24a0e577f634040602e96e6db730e7824dcb0c577bc549e7640a1",
+            "role": "orm",
+            "source_size": [
+              8192,
+              4096
+            ],
+            "size": [
+              1024,
+              512
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_fins.png",
+            "source_sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6",
+            "sha256": "0c6490a8b1a904b2d18b9a721bf8d56dc0c19a1af04af6670db9750de1ae297a",
+            "role": "colour",
+            "source_size": [
+              4096,
+              2048
+            ],
+            "size": [
+              1024,
+              512
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_fins_normal.png",
+            "source_sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72",
+            "sha256": "b16189bcb1ae03db3eb9e7ff43933d3f0afb89d64b4f9c1350e232c8bc7804ca",
+            "role": "normal",
+            "source_size": [
+              4096,
+              2048
+            ],
+            "size": [
+              1024,
+              512
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_fins_orm.png",
+            "source_sha256": "add8f1fc5a2fc5244ad68e1d72d684eb7426f22edde8667f14fca1908838e315",
+            "sha256": "f0363ff8d43cbcbbc213a90577d782fe98af5c5f3dd8561830f6323d3b984483",
+            "role": "orm",
+            "source_size": [
+              4096,
+              2048
+            ],
+            "size": [
+              1024,
+              512
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/100-sai-worn-v1/Jap_Sai.SHP",
+          "mods/100-sai-worn-v1/license.txt",
+          "mods/100-sai-worn-v1/mission991.dte",
+          "mods/100-sai-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "sai",
+        "tier": "1k",
+        "zip_sha256": "3d4e98bb68b133495f9cb3c2b236dce005584ba0deabb0bb86244beb497ecc68",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsa1_body",
+            "emissive": false,
+            "log_sha256": "4c4d988bc7256ad501601b65bae5510790e9014a980c744c5b21832e4a7b98ca",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orsa1_fins",
+            "emissive": false,
+            "log_sha256": "5276f82b687fd8385379222b37c1e217361b5c028b41e918349e1b6353d5169f",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "4.0",
+        "source_manifest_sha256": "8fe2f1b502b2bb17e520a863805db4e5e012a15fd61f9df7eec6e082891a0ef9",
+        "asset_manifest_sha256": "fd78d58a6a645ca6e2c59a664ed7cb1845bebeacbaf2dcf9655190972768c368",
+        "images": [
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_body.png",
+            "source_sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da",
+            "sha256": "85d9f67fc6d2f89f99cac2fcc8ba1c055a80a9567b31c9100101f1f5565e4445",
+            "role": "colour",
+            "source_size": [
+              8192,
+              4096
+            ],
+            "size": [
+              2048,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_body_normal.png",
+            "source_sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538",
+            "sha256": "45f22cbf5998f5c46d74edf6c019bce12480513d39d59e487303d27ccc32187b",
+            "role": "normal",
+            "source_size": [
+              8192,
+              4096
+            ],
+            "size": [
+              2048,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_body_orm.png",
+            "source_sha256": "ac4dd156243f278d30d2131f80c2866b75c01ac4794c0eecec074235790681e2",
+            "sha256": "da762780865f943fc64682c1ea089080569db757e8152b69a21e0ccbba298d87",
+            "role": "orm",
+            "source_size": [
+              8192,
+              4096
+            ],
+            "size": [
+              2048,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_fins.png",
+            "source_sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6",
+            "sha256": "3a4728a0f1ef877d280782bee3bc5b8729fdbaeb0898eec5650dd887118900a8",
+            "role": "colour",
+            "source_size": [
+              4096,
+              2048
+            ],
+            "size": [
+              2048,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_fins_normal.png",
+            "source_sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72",
+            "sha256": "9ea9fab400b6769a7e28a3a7f4e7885058b5604489f2317d32607e0b2fc26a96",
+            "role": "normal",
+            "source_size": [
+              4096,
+              2048
+            ],
+            "size": [
+              2048,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_fins_orm.png",
+            "source_sha256": "add8f1fc5a2fc5244ad68e1d72d684eb7426f22edde8667f14fca1908838e315",
+            "sha256": "83f76096d5c03132a055d540fc54b965a8be9565d6a670213cd9bfe746fccb6e",
+            "role": "orm",
+            "source_size": [
+              4096,
+              2048
+            ],
+            "size": [
+              2048,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/100-sai-worn-v1/Jap_Sai.SHP",
+          "mods/100-sai-worn-v1/license.txt",
+          "mods/100-sai-worn-v1/mission991.dte",
+          "mods/100-sai-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "sai",
+        "tier": "2k",
+        "zip_sha256": "4b9957281d1a2834bc855b933a2f9d5b8968f268bcf55aa5fcac3340db596bf1",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsa1_body",
+            "emissive": false,
+            "log_sha256": "4c4d988bc7256ad501601b65bae5510790e9014a980c744c5b21832e4a7b98ca",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orsa1_fins",
+            "emissive": false,
+            "log_sha256": "5276f82b687fd8385379222b37c1e217361b5c028b41e918349e1b6353d5169f",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "4k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "4k",
+        "max_texture_edge": 4096,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "4.0",
+        "source_manifest_sha256": "8fe2f1b502b2bb17e520a863805db4e5e012a15fd61f9df7eec6e082891a0ef9",
+        "asset_manifest_sha256": "38e7d74cdc3d073a53211e67f11c0b8645b354f1a51c4de096067903beda184f",
+        "images": [
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_body.png",
+            "source_sha256": "449fd0da8ffee1259edd0063ac3844e0545ead8a309c98fe757cc2889a6c69da",
+            "sha256": "fcaf3aee6c982e5ee7826ef3552081a7f45255db97707b02581ab52498c91491",
+            "role": "colour",
+            "source_size": [
+              8192,
+              4096
+            ],
+            "size": [
+              4096,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_body_normal.png",
+            "source_sha256": "da8b7a0afce95688e16d9eabb14dca769fd658e66aedca8230e66ac673ab6538",
+            "sha256": "1b821e6694c24c5bb7afe2517969c85a6b218e04721b1a3035b911785fafdbb1",
+            "role": "normal",
+            "source_size": [
+              8192,
+              4096
+            ],
+            "size": [
+              4096,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_body_orm.png",
+            "source_sha256": "ac4dd156243f278d30d2131f80c2866b75c01ac4794c0eecec074235790681e2",
+            "sha256": "57cd5a402a1341fd1ed8bfafbba8daaa94164abc43dd213740484f74a5253833",
+            "role": "orm",
+            "source_size": [
+              8192,
+              4096
+            ],
+            "size": [
+              4096,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_fins.png",
+            "source_sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6",
+            "sha256": "5782769699bb8595657da9824a5ec260d83eff1c696a497babf6a2ecc8653cf6",
+            "role": "colour",
+            "source_size": [
+              4096,
+              2048
+            ],
+            "size": [
+              4096,
+              2048
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_fins_normal.png",
+            "source_sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72",
+            "sha256": "18e2d2a17da44eb1c9c79d1884974fe2329cd63aa4d41f5bf8d41eb5a0a31b72",
+            "role": "normal",
+            "source_size": [
+              4096,
+              2048
+            ],
+            "size": [
+              4096,
+              2048
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/100-sai-worn-v1/orsa1_fins_orm.png",
+            "source_sha256": "add8f1fc5a2fc5244ad68e1d72d684eb7426f22edde8667f14fca1908838e315",
+            "sha256": "add8f1fc5a2fc5244ad68e1d72d684eb7426f22edde8667f14fca1908838e315",
+            "role": "orm",
+            "source_size": [
+              4096,
+              2048
+            ],
+            "size": [
+              4096,
+              2048
+            ],
+            "resized": false
+          }
+        ],
+        "unchanged_files": [
+          "mods/100-sai-worn-v1/Jap_Sai.SHP",
+          "mods/100-sai-worn-v1/license.txt",
+          "mods/100-sai-worn-v1/mission991.dte",
+          "mods/100-sai-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "sai",
+        "tier": "4k",
+        "zip_sha256": "016a232fc46e7cb2bbffb1e37f07927cc8e49d42cbf70de55762246fe648680a",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orsa1_body",
+            "emissive": false,
+            "log_sha256": "4c4d988bc7256ad501601b65bae5510790e9014a980c744c5b21832e4a7b98ca",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orsa1_fins",
+            "emissive": false,
+            "log_sha256": "5276f82b687fd8385379222b37c1e217361b5c028b41e918349e1b6353d5169f",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:01:31.907936+00:00"
+}
