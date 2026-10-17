@@ -1045,6 +1045,42 @@
       ],
       "master_manifest_sha256": "e771bff93e1ad7b319899b1b3b5699c21ea245e86daeb37ed8819d497fda3e52",
       "evidence": "tracking/resolution-manifests/wolverine.json"
+    },
+    "prowler/worn-paint": {
+      "variants": [
+        {
+          "id": "1k",
+          "maxTextureEdge": 1024,
+          "version": "0.1.0-beta.1.res2",
+          "tag": "prowler-v0.1.0-beta.1.res2",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/prowler-v0.1.0-beta.1.res2/openreliant-prowler-1k-0.1.0-beta.1.res2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/prowler-v0.1.0-beta.1.res2",
+          "checksum": "6d9839124792cfcfbae81087619a6ce68f030f5b7536979f4517ba9acd554a95",
+          "downloadBytes": 6344084
+        },
+        {
+          "id": "2k",
+          "maxTextureEdge": 2048,
+          "version": "0.1.0-beta.1.res2",
+          "tag": "prowler-v0.1.0-beta.1.res2",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/prowler-v0.1.0-beta.1.res2/openreliant-prowler-2k-0.1.0-beta.1.res2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/prowler-v0.1.0-beta.1.res2",
+          "checksum": "862ea76435fb02cca3829caa1bbbdec9dbc03dbc0cc006282381793c3a615594",
+          "downloadBytes": 17794754
+        },
+        {
+          "id": "4k",
+          "maxTextureEdge": 4096,
+          "version": "0.1.0-beta.1",
+          "tag": "prowler-v0.1.0-beta.1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/prowler-v0.1.0-beta.1/openreliant-prowler-0.1.0-beta.1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/prowler-v0.1.0-beta.1",
+          "checksum": "f59bb73ca1accf54beac0b48ffdc9e0553e0d967df5fae8ae3b1d7dd686af0b5",
+          "downloadBytes": 51743215
+        }
+      ],
+      "master_manifest_sha256": "15c14b1d621568821126fd6c66f1155a71e307a7be88409f6be8fbd2f14dc1c0",
+      "evidence": "tracking/resolution-manifests/prowler.json"
     }
   }
 }

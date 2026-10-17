@@ -1,0 +1,337 @@
+{
+  "asset": "prowler",
+  "livery": "worn-paint",
+  "master_commit": "d6dce1378ca675ccde63715d969b2c87d4636d36",
+  "builder_commit": "d6dce1378ca675ccde63715d969b2c87d4636d36",
+  "master_manifest_sha256": "15c14b1d621568821126fd6c66f1155a71e307a7be88409f6be8fbd2f14dc1c0",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "prowler-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/prowler-v0.1.0-beta.1.res2/openreliant-prowler-1k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/prowler-v0.1.0-beta.1.res2",
+      "checksum": "6d9839124792cfcfbae81087619a6ce68f030f5b7536979f4517ba9acd554a95",
+      "downloadBytes": 6344084
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "prowler-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/prowler-v0.1.0-beta.1.res2/openreliant-prowler-2k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/prowler-v0.1.0-beta.1.res2",
+      "checksum": "862ea76435fb02cca3829caa1bbbdec9dbc03dbc0cc006282381793c3a615594",
+      "downloadBytes": 17794754
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.1",
+      "tag": "prowler-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/prowler-v0.1.0-beta.1/openreliant-prowler-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/prowler-v0.1.0-beta.1",
+      "checksum": "f59bb73ca1accf54beac0b48ffdc9e0553e0d967df5fae8ae3b1d7dd686af0b5",
+      "downloadBytes": 51743215
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "d6dce1378ca675ccde63715d969b2c87d4636d36",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.2",
+        "source_manifest_sha256": "15c14b1d621568821126fd6c66f1155a71e307a7be88409f6be8fbd2f14dc1c0",
+        "asset_manifest_sha256": "6e1795fe1a48e3d67477ab0c4a82b3a1e9654643fc1d994121ee2e1a0b64c7e3",
+        "images": [
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull1.png",
+            "source_sha256": "fa68d913eece90059633a38d98a38e2072f1fc9093340ec8e89484543e007b50",
+            "sha256": "b59e605e56ba16e279cf3c43d4e21c13bd70e9358bb956604dcd7d343acd504f",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull1_emissive.png",
+            "source_sha256": "79ba29888167759788ddec08d047a4c1d09a3556370b0051f351237c713b1491",
+            "sha256": "bb5f594c20014f2387b847a6ef1d951410d792a051a04ef73e4accf54e58eaf4",
+            "role": "emissive",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull1_normal.png",
+            "source_sha256": "f01d9adb0c28f898d54291e524ad803237ffb82f70b2e1fc508520ba08872a60",
+            "sha256": "abea11ca2892722ab5e2705550a67eb7674a06594c07422d1c4845b5b3923a72",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull1_orm.png",
+            "source_sha256": "12dda9dd1e333308b3a36d95c1c62480ad241458706c110916a4f5a37c45bda4",
+            "sha256": "a19ae906f3d6e8437afcd9502c5ca257e99ee4470e956c3a3d472463c01419fb",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull2.png",
+            "source_sha256": "cf0aca02ffb2c71e8e55775a865fdb6e7aca23c8de49941ca63e29eb1b0195cf",
+            "sha256": "9a401d2cb5fd50a8013c88c6f138466bb5d5515c510422ca714ac23245b0a276",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull2_normal.png",
+            "source_sha256": "5ea7aaaf74e4a4ea972e52c43d0ace052a516a72896a9f321b754fb1cbf18570",
+            "sha256": "e3988daa5e1b75c11fc50bc4d671383fb20106159efb2a10bc6990b95e7b594a",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull2_orm.png",
+            "source_sha256": "97723bd417705df8cf96b5e1d77ab3c24ccee2f7a0ef6c60e843048c7b3c4d6d",
+            "sha256": "6cf017effe576b2039c2626cd8b4fc9cbc5e8bac167129cbe40877806c871b38",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/117-prowler-worn-v1/LICENSE-OpenReliant.txt",
+          "mods/117-prowler-worn-v1/US_Prowler.SHP",
+          "mods/117-prowler-worn-v1/license.txt",
+          "mods/117-prowler-worn-v1/mission961.dte",
+          "mods/117-prowler-worn-v1/mod.png",
+          "mods/117-prowler-worn-v1/prowler_inspection.luau",
+          "mods/117-prowler-worn-v1/prowler_lighting.luau",
+          "mods/117-prowler-worn-v1/prowler_response.luau",
+          "mods/117-prowler-worn-v1/prowler_surface.luau",
+          "mods/117-prowler-worn-v1/prowler_systems.glsl"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "status": "passed",
+        "engine": "Official OpenReliant 0.18.0",
+        "scope": "Maps and all runtime files except mod name/version match the previously engine-validated review tier byte-for-byte; final 1.2 shader and response were verified in-engine."
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "d6dce1378ca675ccde63715d969b2c87d4636d36",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.2",
+        "source_manifest_sha256": "15c14b1d621568821126fd6c66f1155a71e307a7be88409f6be8fbd2f14dc1c0",
+        "asset_manifest_sha256": "e6046d35e77a3a06776118794e4b5cd174034b3563519bb1b82891f4f92bc89e",
+        "images": [
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull1.png",
+            "source_sha256": "fa68d913eece90059633a38d98a38e2072f1fc9093340ec8e89484543e007b50",
+            "sha256": "bc0b5cb6eace63000d1a272fab171f0960da8ec780e35fe159f7ca50c9afcce7",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull1_emissive.png",
+            "source_sha256": "79ba29888167759788ddec08d047a4c1d09a3556370b0051f351237c713b1491",
+            "sha256": "19d4bf45d2f5b2b4f7af364dd6e544cabb1b94e5f454da2c62151686e0c448ca",
+            "role": "emissive",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull1_normal.png",
+            "source_sha256": "f01d9adb0c28f898d54291e524ad803237ffb82f70b2e1fc508520ba08872a60",
+            "sha256": "8bf4f49e0053ebd0aad66691cb82dc3f3a5397c6bee7da733bdc819d80614da9",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull1_orm.png",
+            "source_sha256": "12dda9dd1e333308b3a36d95c1c62480ad241458706c110916a4f5a37c45bda4",
+            "sha256": "49dd3e330495ca36a65e36a17be1a72b0ed3c2557312c4eaad19738aa4237bc6",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull2.png",
+            "source_sha256": "cf0aca02ffb2c71e8e55775a865fdb6e7aca23c8de49941ca63e29eb1b0195cf",
+            "sha256": "bcdff311b0a35aee31c067779b0855760b4576ddbf490f7e15987de3ed2deee6",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull2_normal.png",
+            "source_sha256": "5ea7aaaf74e4a4ea972e52c43d0ace052a516a72896a9f321b754fb1cbf18570",
+            "sha256": "77ca96759c3fe4c0a485ce1470f627f5cfbd3bd2f290ad6b1adb21926c1db037",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/117-prowler-worn-v1/orpr1_hull2_orm.png",
+            "source_sha256": "97723bd417705df8cf96b5e1d77ab3c24ccee2f7a0ef6c60e843048c7b3c4d6d",
+            "sha256": "0e644fbe4883577ce36bfa78bea0befdb234bb2f8363dfeafbf7ae587cce914c",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/117-prowler-worn-v1/LICENSE-OpenReliant.txt",
+          "mods/117-prowler-worn-v1/US_Prowler.SHP",
+          "mods/117-prowler-worn-v1/license.txt",
+          "mods/117-prowler-worn-v1/mission961.dte",
+          "mods/117-prowler-worn-v1/mod.png",
+          "mods/117-prowler-worn-v1/prowler_inspection.luau",
+          "mods/117-prowler-worn-v1/prowler_lighting.luau",
+          "mods/117-prowler-worn-v1/prowler_response.luau",
+          "mods/117-prowler-worn-v1/prowler_surface.luau",
+          "mods/117-prowler-worn-v1/prowler_systems.glsl"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "status": "passed",
+        "engine": "Official OpenReliant 0.18.0",
+        "scope": "Maps and all runtime files except mod name/version match the previously engine-validated review tier byte-for-byte; final 1.2 shader and response were verified in-engine."
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T12:54:35.402151+00:00"
+}
