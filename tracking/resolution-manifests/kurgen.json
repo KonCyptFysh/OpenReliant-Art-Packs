@@ -1,0 +1,635 @@
+{
+  "asset": "kurgen",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "1623a95681a28a634f5ac1db7c298701d93da80be67cdfa70b54ad7d373edb9d",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "kurgen-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kurgen-v0.1.0-beta.1.res2/openreliant-kurgen-1k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kurgen-v0.1.0-beta.1.res2",
+      "checksum": "b709d5a5ec0a617ec1241c87a0d47376bf03c9251a5e4d8b07bd3d3220a210ec",
+      "downloadBytes": 7639424
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "kurgen-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kurgen-v0.1.0-beta.1.res2/openreliant-kurgen-2k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kurgen-v0.1.0-beta.1.res2",
+      "checksum": "b7e55362fb7e59e1d8d034fd98f35cddba318d4ad729f07e4091ee2ad308210a",
+      "downloadBytes": 19661501
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.1",
+      "tag": "kurgen-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kurgen-v0.1.0-beta.1/openreliant-kurgen-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kurgen-v0.1.0-beta.1",
+      "checksum": "0220d2accef562ce4c36153584f7a7cfb35893f6c9cec760d83f592708d46ff4",
+      "downloadBytes": 52754248
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.7",
+        "source_manifest_sha256": "1623a95681a28a634f5ac1db7c298701d93da80be67cdfa70b54ad7d373edb9d",
+        "asset_manifest_sha256": "a39fe75f930149648e83e938fa789d6dfd6fa965dff06ea55ca404fa0ed16553",
+        "images": [
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_hull.png",
+            "source_sha256": "45b74de7db6d3e3e1a4fcf0e065d535b0c93b8449a41152756382b533b8fdbc1",
+            "sha256": "e9bab235daaff72b73118ac8fdac77ceeea93641d9f728f57fcd414d3c1ccfa5",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_hull_emissive.png",
+            "source_sha256": "ad36c79bfe138dc14db60b40f9af95d3276e65ef70ee51a06c14400b044b8345",
+            "sha256": "9c146eb25d4b3fb53e2481bcaa5d8faae7de7172a431c6354e6a2c333787d9b8",
+            "role": "emissive",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_hull_normal.png",
+            "source_sha256": "61ba590b38afaeaca60de8bf5ca63c7883e468a89241cebfafb807020827e66d",
+            "sha256": "d216553fefdef3ad84d9df24a4f886e47b45d1917756e42172b52e8a0fcf9d13",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_hull_orm.png",
+            "source_sha256": "533a2d7fc4be23516296277c3f8b7ee6d25df12c4e9b8fc2eeda50b4c1aa9062",
+            "sha256": "35401817372ed9ca13fb552de07af09ee9db66fe10cb4136d74ee9718674d14a",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_turret.png",
+            "source_sha256": "2d7745e2f48107547695667d01569ade0582651f56fe4ae71f9a62bf2e915c23",
+            "sha256": "2ccf7638dbb38c791d9d6c62534bf26285f186302bfc7cffb719ba5671abac6f",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_turret_normal.png",
+            "source_sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693",
+            "sha256": "72b2bc9038033773f8dd28aec82998a78fd4474e82b7918175cb34683e979d35",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_turret_orm.png",
+            "source_sha256": "787de7ca17f8cd9216e5fc83092f0842b352941cb42c266f58c5b42db8ef0d0a",
+            "sha256": "96a33e79586794159dc32c06866a2dc61099d9710f7e052572a0c172cd6dcce5",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge.png",
+            "source_sha256": "b180bb227f2757a126ebbd6b7d34873ce3503d42cbfbd8f46d0c23d0d7b992d5",
+            "sha256": "b180bb227f2757a126ebbd6b7d34873ce3503d42cbfbd8f46d0c23d0d7b992d5",
+            "role": "colour",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_emissive.png",
+            "source_sha256": "e511a7255cde28bbdececeaa1026d25826cde47f9ef941a1472def17620781b8",
+            "sha256": "e511a7255cde28bbdececeaa1026d25826cde47f9ef941a1472def17620781b8",
+            "role": "emissive",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_lod.png",
+            "source_sha256": "fbf9023c26ddb8dfaa2fb46cf4e7020246e673adbe9ee703df0d855945f03131",
+            "sha256": "fbf9023c26ddb8dfaa2fb46cf4e7020246e673adbe9ee703df0d855945f03131",
+            "role": "colour",
+            "source_size": [
+              256,
+              1024
+            ],
+            "size": [
+              256,
+              1024
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_lod_emissive.png",
+            "source_sha256": "a5ad818c4264bb8db2ff63698f49e1590762bf4f75d894ee9a5abbe72a440ab9",
+            "sha256": "a5ad818c4264bb8db2ff63698f49e1590762bf4f75d894ee9a5abbe72a440ab9",
+            "role": "emissive",
+            "source_size": [
+              256,
+              1024
+            ],
+            "size": [
+              256,
+              1024
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_lod_normal.png",
+            "source_sha256": "d2e49b91111aa96b74e0223a304bd76d1573a09211d3d0f789665c9a504180c2",
+            "sha256": "d2e49b91111aa96b74e0223a304bd76d1573a09211d3d0f789665c9a504180c2",
+            "role": "normal",
+            "source_size": [
+              256,
+              1024
+            ],
+            "size": [
+              256,
+              1024
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_lod_orm.png",
+            "source_sha256": "f340dfd27564194209e379ef81d313fd0be798a73d66717e39d5054aea3c75bf",
+            "sha256": "f340dfd27564194209e379ef81d313fd0be798a73d66717e39d5054aea3c75bf",
+            "role": "orm",
+            "source_size": [
+              256,
+              1024
+            ],
+            "size": [
+              256,
+              1024
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_normal.png",
+            "source_sha256": "8814c146844c3b03c2741dfb9e3af531decb4dfc60681b4c0a90caeef783ec12",
+            "sha256": "8814c146844c3b03c2741dfb9e3af531decb4dfc60681b4c0a90caeef783ec12",
+            "role": "normal",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_orm.png",
+            "source_sha256": "46bc79619aba641c9b32bf8c2f20368f180d0d5dd7c8087f016394b67306d858",
+            "sha256": "46bc79619aba641c9b32bf8c2f20368f180d0d5dd7c8087f016394b67306d858",
+            "role": "orm",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          }
+        ],
+        "unchanged_files": [
+          "mods/116-kurgen-worn-v1/10_Rus_STUR.SHP",
+          "mods/116-kurgen-worn-v1/LICENSE-OpenReliant.txt",
+          "mods/116-kurgen-worn-v1/Rus_Kurgan.SHP",
+          "mods/116-kurgen-worn-v1/kurgen_inspection.luau",
+          "mods/116-kurgen-worn-v1/kurgen_lighting.luau",
+          "mods/116-kurgen-worn-v1/kurgen_response.luau",
+          "mods/116-kurgen-worn-v1/kurgen_surface.luau",
+          "mods/116-kurgen-worn-v1/kurgen_systems.glsl",
+          "mods/116-kurgen-worn-v1/license.txt",
+          "mods/116-kurgen-worn-v1/mission962.dte",
+          "mods/116-kurgen-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "kurgen",
+        "tier": "1k",
+        "zip_sha256": "b709d5a5ec0a617ec1241c87a0d47376bf03c9251a5e4d8b07bd3d3220a210ec",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orku1_hull",
+            "emissive": true,
+            "log_sha256": "cddce466fac03170f97c034a01a81237ec9f88015fa6688bcc2b2bc7aaa88272",
+            "probe_sha256": "e8e8fbd2198fe371fe671981e8eed18a60db888b89bd5040bd87c4f5f423c5ea"
+          },
+          {
+            "material": "orku1_turret",
+            "emissive": false,
+            "log_sha256": "9f101166aa4c4cacb97a23a34508087ec9bcdb1bc4ec8b2bca275ee18f9f35d0",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orku3_bridge",
+            "emissive": true,
+            "log_sha256": "a4ad1beff12c9c1dcc86a33c52d484e3bdb230a30fd2a50b4929c3c8bbf22a76",
+            "probe_sha256": "e8e8fbd2198fe371fe671981e8eed18a60db888b89bd5040bd87c4f5f423c5ea"
+          },
+          {
+            "material": "orku3_bridge_lod",
+            "emissive": true,
+            "log_sha256": "83074c66b15ca6a9b735b65e1cbced8ee7116ce9ba8fb06841a3bac3b6b176eb",
+            "probe_sha256": "e8e8fbd2198fe371fe671981e8eed18a60db888b89bd5040bd87c4f5f423c5ea"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.7",
+        "source_manifest_sha256": "1623a95681a28a634f5ac1db7c298701d93da80be67cdfa70b54ad7d373edb9d",
+        "asset_manifest_sha256": "47a790f172f872ffb29c90431b1d3b25d08f3937f2112f92fd587ac4a209a505",
+        "images": [
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_hull.png",
+            "source_sha256": "45b74de7db6d3e3e1a4fcf0e065d535b0c93b8449a41152756382b533b8fdbc1",
+            "sha256": "64f6cf0d2a5cfbe8bcc0c7e8e97ca05bee6ca77cfd4ef0f7d54316f0fdd551d1",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_hull_emissive.png",
+            "source_sha256": "ad36c79bfe138dc14db60b40f9af95d3276e65ef70ee51a06c14400b044b8345",
+            "sha256": "61bc305cf4d77852f05bb7e18d4724ecbf9793996996bfbf0e2848146090c252",
+            "role": "emissive",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_hull_normal.png",
+            "source_sha256": "61ba590b38afaeaca60de8bf5ca63c7883e468a89241cebfafb807020827e66d",
+            "sha256": "cb2bdaa221b925c640a3d35909c235ba7ac32755c8fcf99f366700d93a9785af",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_hull_orm.png",
+            "source_sha256": "533a2d7fc4be23516296277c3f8b7ee6d25df12c4e9b8fc2eeda50b4c1aa9062",
+            "sha256": "4967d6322494da8cb218e489f94a568129773d6ac47c4d1df20387c0d8b8ec79",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_turret.png",
+            "source_sha256": "2d7745e2f48107547695667d01569ade0582651f56fe4ae71f9a62bf2e915c23",
+            "sha256": "1034d89eafb3bfd63465f100b5d25a725e543a8045c5814db8122908704b4e4d",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_turret_normal.png",
+            "source_sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693",
+            "sha256": "a7580bd6a1b0435ec2c61043c91d8300f0925ae7bcd7238b50d4530beffef92b",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku1_turret_orm.png",
+            "source_sha256": "787de7ca17f8cd9216e5fc83092f0842b352941cb42c266f58c5b42db8ef0d0a",
+            "sha256": "7d5fd7f37b54b7808d2c6762815f1d72130173e68617e6f61fc87f7e78ea2489",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge.png",
+            "source_sha256": "b180bb227f2757a126ebbd6b7d34873ce3503d42cbfbd8f46d0c23d0d7b992d5",
+            "sha256": "b180bb227f2757a126ebbd6b7d34873ce3503d42cbfbd8f46d0c23d0d7b992d5",
+            "role": "colour",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_emissive.png",
+            "source_sha256": "e511a7255cde28bbdececeaa1026d25826cde47f9ef941a1472def17620781b8",
+            "sha256": "e511a7255cde28bbdececeaa1026d25826cde47f9ef941a1472def17620781b8",
+            "role": "emissive",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_lod.png",
+            "source_sha256": "fbf9023c26ddb8dfaa2fb46cf4e7020246e673adbe9ee703df0d855945f03131",
+            "sha256": "fbf9023c26ddb8dfaa2fb46cf4e7020246e673adbe9ee703df0d855945f03131",
+            "role": "colour",
+            "source_size": [
+              256,
+              1024
+            ],
+            "size": [
+              256,
+              1024
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_lod_emissive.png",
+            "source_sha256": "a5ad818c4264bb8db2ff63698f49e1590762bf4f75d894ee9a5abbe72a440ab9",
+            "sha256": "a5ad818c4264bb8db2ff63698f49e1590762bf4f75d894ee9a5abbe72a440ab9",
+            "role": "emissive",
+            "source_size": [
+              256,
+              1024
+            ],
+            "size": [
+              256,
+              1024
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_lod_normal.png",
+            "source_sha256": "d2e49b91111aa96b74e0223a304bd76d1573a09211d3d0f789665c9a504180c2",
+            "sha256": "d2e49b91111aa96b74e0223a304bd76d1573a09211d3d0f789665c9a504180c2",
+            "role": "normal",
+            "source_size": [
+              256,
+              1024
+            ],
+            "size": [
+              256,
+              1024
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_lod_orm.png",
+            "source_sha256": "f340dfd27564194209e379ef81d313fd0be798a73d66717e39d5054aea3c75bf",
+            "sha256": "f340dfd27564194209e379ef81d313fd0be798a73d66717e39d5054aea3c75bf",
+            "role": "orm",
+            "source_size": [
+              256,
+              1024
+            ],
+            "size": [
+              256,
+              1024
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_normal.png",
+            "source_sha256": "8814c146844c3b03c2741dfb9e3af531decb4dfc60681b4c0a90caeef783ec12",
+            "sha256": "8814c146844c3b03c2741dfb9e3af531decb4dfc60681b4c0a90caeef783ec12",
+            "role": "normal",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          },
+          {
+            "path": "mods/116-kurgen-worn-v1/orku3_bridge_orm.png",
+            "source_sha256": "46bc79619aba641c9b32bf8c2f20368f180d0d5dd7c8087f016394b67306d858",
+            "sha256": "46bc79619aba641c9b32bf8c2f20368f180d0d5dd7c8087f016394b67306d858",
+            "role": "orm",
+            "source_size": [
+              512,
+              512
+            ],
+            "size": [
+              512,
+              512
+            ],
+            "resized": false
+          }
+        ],
+        "unchanged_files": [
+          "mods/116-kurgen-worn-v1/10_Rus_STUR.SHP",
+          "mods/116-kurgen-worn-v1/LICENSE-OpenReliant.txt",
+          "mods/116-kurgen-worn-v1/Rus_Kurgan.SHP",
+          "mods/116-kurgen-worn-v1/kurgen_inspection.luau",
+          "mods/116-kurgen-worn-v1/kurgen_lighting.luau",
+          "mods/116-kurgen-worn-v1/kurgen_response.luau",
+          "mods/116-kurgen-worn-v1/kurgen_surface.luau",
+          "mods/116-kurgen-worn-v1/kurgen_systems.glsl",
+          "mods/116-kurgen-worn-v1/license.txt",
+          "mods/116-kurgen-worn-v1/mission962.dte",
+          "mods/116-kurgen-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "kurgen",
+        "tier": "2k",
+        "zip_sha256": "b7e55362fb7e59e1d8d034fd98f35cddba318d4ad729f07e4091ee2ad308210a",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orku1_hull",
+            "emissive": true,
+            "log_sha256": "2a9a23e3e0e23ad3277099c12c501c0a9541f7b3b940af299a43cbf1615fd68b",
+            "probe_sha256": "e8e8fbd2198fe371fe671981e8eed18a60db888b89bd5040bd87c4f5f423c5ea"
+          },
+          {
+            "material": "orku1_turret",
+            "emissive": false,
+            "log_sha256": "9f101166aa4c4cacb97a23a34508087ec9bcdb1bc4ec8b2bca275ee18f9f35d0",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          },
+          {
+            "material": "orku3_bridge",
+            "emissive": true,
+            "log_sha256": "a4ad1beff12c9c1dcc86a33c52d484e3bdb230a30fd2a50b4929c3c8bbf22a76",
+            "probe_sha256": "e8e8fbd2198fe371fe671981e8eed18a60db888b89bd5040bd87c4f5f423c5ea"
+          },
+          {
+            "material": "orku3_bridge_lod",
+            "emissive": true,
+            "log_sha256": "83074c66b15ca6a9b735b65e1cbced8ee7116ce9ba8fb06841a3bac3b6b176eb",
+            "probe_sha256": "e8e8fbd2198fe371fe671981e8eed18a60db888b89bd5040bd87c4f5f423c5ea"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:40:18.652217+00:00"
+}
