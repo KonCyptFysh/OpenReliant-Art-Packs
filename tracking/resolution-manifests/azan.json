@@ -1,0 +1,225 @@
+{
+  "asset": "azan",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "49f8a0459ea7f238e5d2339a9fa7e0fe7a32d08f8d170d9f59f3e4b20d5bda44",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "azan-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/azan-v0.1.0-beta.1.res2/openreliant-azan-1k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1.res2",
+      "checksum": "29186f515db6509e48fd180974b95eefaea375dd995e988f90402cb8aad9ce85",
+      "downloadBytes": 3897736
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "azan-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/azan-v0.1.0-beta.1.res2/openreliant-azan-2k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1.res2",
+      "checksum": "7ef128ad4e48d116dac4a725a04985cc1985b8f946cc42157b6c82a0bbea956b",
+      "downloadBytes": 9632075
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.1",
+      "tag": "azan-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/azan-v0.1.0-beta.1/openreliant-azan-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1",
+      "checksum": "44bcba00acddb6f8a104d7204433b4bfe2335c92827b92c84c2ec50d0600d80a",
+      "downloadBytes": 26677406
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "49f8a0459ea7f238e5d2339a9fa7e0fe7a32d08f8d170d9f59f3e4b20d5bda44",
+        "asset_manifest_sha256": "1a89192cef1c0555ba9f7e33f03854b9f6fde58025beaee744e154d70177aabd",
+        "images": [
+          {
+            "path": "mods/106-azan-worn-v1/oraz1_hull.png",
+            "source_sha256": "67136a78002ac91289b8f95275ecfc7ecfe5b9b33e8151ab4a322fa2fa3ac40e",
+            "sha256": "03b75d922c417764d5666bd4869703c848ee97e61c523052d2d973a8474003e7",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/106-azan-worn-v1/oraz1_hull_normal.png",
+            "source_sha256": "21fb4279ab5753a4f8c4bb2af84fef8bfe0ce2d028f9fa2809d06c2116397372",
+            "sha256": "73aa1ee187a00396f3c332dc11b0de83ff3d6e57273b8de289cd6f5d241eade7",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/106-azan-worn-v1/oraz1_hull_orm.png",
+            "source_sha256": "ffede8f4b61a7817dadda1353e0b7b6e41e5314baae35b071dcfa9c3622e5692",
+            "sha256": "0588679d5dfa06b713b2b77d782b5e8821884f6abe047aea826af945ea0571fb",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/106-azan-worn-v1/Houjian.SHP",
+          "mods/106-azan-worn-v1/license.txt",
+          "mods/106-azan-worn-v1/mission980.dte",
+          "mods/106-azan-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "azan",
+        "tier": "1k",
+        "zip_sha256": "29186f515db6509e48fd180974b95eefaea375dd995e988f90402cb8aad9ce85",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "oraz1_hull",
+            "emissive": false,
+            "log_sha256": "9d741f5acdcc3b14770706f42ca307b3c7bf7a1a75dd2f7ab78dfc027f0917d2",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "49f8a0459ea7f238e5d2339a9fa7e0fe7a32d08f8d170d9f59f3e4b20d5bda44",
+        "asset_manifest_sha256": "7b7dd4387b939d92aa300d2f4327d742e5093c41cee4b4b83ea2706ad7e1a3d7",
+        "images": [
+          {
+            "path": "mods/106-azan-worn-v1/oraz1_hull.png",
+            "source_sha256": "67136a78002ac91289b8f95275ecfc7ecfe5b9b33e8151ab4a322fa2fa3ac40e",
+            "sha256": "5b9b9ff9f069ce26fbe53674bef2527562437565ee74e365b4b74cf3d7da800c",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/106-azan-worn-v1/oraz1_hull_normal.png",
+            "source_sha256": "21fb4279ab5753a4f8c4bb2af84fef8bfe0ce2d028f9fa2809d06c2116397372",
+            "sha256": "7430ee5dfc87329d2a2b3a6a550af1ad95ebcfbb36bfe4d1369bd23eee1ec91d",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/106-azan-worn-v1/oraz1_hull_orm.png",
+            "source_sha256": "ffede8f4b61a7817dadda1353e0b7b6e41e5314baae35b071dcfa9c3622e5692",
+            "sha256": "59e79681a3ce1df2a36ddb8ca162e44ccffd4372a8024569ffe1938e22863f8a",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/106-azan-worn-v1/Houjian.SHP",
+          "mods/106-azan-worn-v1/license.txt",
+          "mods/106-azan-worn-v1/mission980.dte",
+          "mods/106-azan-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "azan",
+        "tier": "2k",
+        "zip_sha256": "7ef128ad4e48d116dac4a725a04985cc1985b8f946cc42157b6c82a0bbea956b",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "oraz1_hull",
+            "emissive": false,
+            "log_sha256": "9d741f5acdcc3b14770706f42ca307b3c7bf7a1a75dd2f7ab78dfc027f0917d2",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:20:37.047323+00:00"
+}
