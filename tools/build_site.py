@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 RELEASE_ROOT = "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/"
 PRESENTATION_FIELDS = {
     "preview", "model", "images", "previewSource", "previewType", "defaultPreview",
-    "previewArtworkRevision", "download", "release", "checksum", "downloadBytes",
+    "resolutions", "defaultResolution", "previewArtworkRevision", "download", "release", "checksum", "downloadBytes",
     "tag", "version", "assetRevision", "modFolder", "validationSummary",
 }
 

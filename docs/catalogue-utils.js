@@ -174,5 +174,5 @@ export function resolveResolution(asset, requestedId = null) {
   return { ...asset, ...Object.fromEntries(
     ['download', 'release', 'checksum', 'checksumUrl', 'downloadBytes', 'version', 'tag']
       .filter(key => selected[key] !== undefined).map(key => [key, selected[key]])
-  ), resolutionId: selected.id };
+  ), checksumUrl: selected.checksumUrl || `${selected.download}.sha256`, resolutionId: selected.id };
 }

@@ -283,12 +283,14 @@ test('the shipped page starts and both hierarchy levels select the expected asse
 test('resolution selection switches download, size, checksum and release together', () => {
   const asset = resolveAsset(ship());
   asset.defaultResolution = '4k';
+  asset.checksumUrl = 'https://example.test/old-master.sha256';
   asset.resolutions = ['1k','2k','4k'].map((id,i) => ({id, download:`https://example.test/${id}.zip`,
     release:`https://example.test/${id}`, checksum:String(i).repeat(64), downloadBytes:i+100, version:`1.0.${i}`}));
   for (const id of ['1k','2k','4k']) {
     const found = utilities.resolveResolution(asset,id);
     const expected = asset.resolutions.find(x=>x.id===id);
     for (const key of ['download','release','checksum','downloadBytes','version']) assert.equal(found[key],expected[key]);
+    assert.equal(found.checksumUrl, expected.download + '.sha256');
     for (const key of ['preview','model','modFolder','requires']) assert.deepEqual(found[key],asset[key]);
   }
   assert.equal(utilities.resolveResolution(asset,'unknown').resolutionId,'4k');

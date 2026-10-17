@@ -179,3 +179,7 @@ Review the catalogue on desktop and mobile when browser preview is available:
 filters, old deep links, Coming soon entries, livery changes, both preview
 modes, screenshot navigation, dependency links and download targets. Do not
 change an available status merely to make a percentage look complete.
+
+## Resolution choices
+
+A released non-HUD livery may carry `resolutions` (exactly `1k`, `2k`, `4k`) and `defaultResolution`. Each item has `maxTextureEdge`, `download`, `downloadBytes`, `checksum`, `tag`, `release` and `version`. These are download variants, not liveries; they do not increase the asset count. Legacy top-level download fields retain the default 4K choice. Publication proof is pinned to the master manifest in `tracking/resolution-packs.json`. HUD entries have no selector.
