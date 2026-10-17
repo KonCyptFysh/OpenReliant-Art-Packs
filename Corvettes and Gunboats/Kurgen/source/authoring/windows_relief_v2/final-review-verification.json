@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-16T23:44:23.927436+00:00",
+  "runtime_files_verified": 14,
+  "source_manifest_files_verified": 121,
+  "native_models_unchanged": true,
+  "turret_materials_unchanged": true,
+  "installed_exact_repository_bytes": true,
+  "game_launched": false,
+  "user_visual_review": "pending_revision_1_1",
+  "published": false
+}

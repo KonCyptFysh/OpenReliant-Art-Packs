@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "changes": [
+    {
+      "part": 0,
+      "attachment": 5,
+      "brightness_offset": 3958,
+      "position": [
+        -28.574569702148438,
+        62.7972526550293,
+        -2572.329345703125
+      ],
+      "range": 2000,
+      "before": 1,
+      "after": 0
+    }
+  ],
+  "before_sha256": "33cc9838edae6a938c2d8d116a8e860ca44eb561be0e5f1f51aefadd57b93c5c",
+  "after_sha256": "f39bdefbe08219bd279ca94596279027e3bf12c4a09851d34d4cd0feae303979",
+  "all_other_bytes_identical": true,
+  "geometry_uv_materials_animations_collision_turrets_beacons_preserved": true
+}

@@ -45,3 +45,5 @@ Keep source and runtime assets, beta ZIPs, release tags and checksums unchanged 
 a gallery-only pass. Commit the images, provenance, catalogue and policy together;
 verify the pushed files and live Pages deployment. HUD artwork and the ordnance
 detail gallery have different purposes and are outside this ship camera rule.
+
+Kurgen uses the explicitly recorded official 0.18.0 engine override because its runtime lighting requires that surface API. Keep the same camera, mission, native sky, capture resolution and framing. Per-asset engine overrides are validated; other ships retain their recorded baseline.

@@ -1,0 +1,282 @@
+{
+  "ship": "Kurgen",
+  "variant": "worn",
+  "artwork_revision": "1.1",
+  "status": "windows_and_relief_revision_ready_for_review",
+  "user_approved": false,
+  "published": false,
+  "scene": {
+    "path": "kurgen_worn_pbr_v2.blend",
+    "bytes": 63000565,
+    "sha256": "8c105ebd5ed9d029fb5a51047cefd1dd85f18c5696cf1bdf5fb89a6941cc79ed"
+  },
+  "pbr_release_gate": {
+    "status": "satisfied",
+    "engine": "Official OpenReliant 0.18.0 installed; pack baseline 0.8.1"
+  },
+  "progress": {
+    "texture_uv": "window_apertures_reauthored_rest_preserved",
+    "pbr_authoring": "v2_window_emissives_and_stronger_hull_relief_complete",
+    "pbr_tuning": "v2_authoring_views_checked_runtime_pending",
+    "engine_validation": "0_8_1_and_0_18_0_non_visual_checks_passed"
+  },
+  "engine_validation": {
+    "build": "Official OpenReliant 0.18.0",
+    "minimum": "0.8.1",
+    "non_visual_checks": "passed",
+    "visual_review": "pending_user_revision_1_1",
+    "game_launched": false,
+    "evidence": "${KURGEN_WORKSPACE}/work/windows_relief_v2/compatibility.json"
+  },
+  "runtime_exports": [
+    {
+      "path": "mods/116-kurgen-worn-v1/10_Rus_STUR.SHP",
+      "bytes": 29100,
+      "sha256": "e909844676e9f955886885bd46480dc01b24aa79a83414e73a81f27ded6beb1f"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/Rus_Kurgan.SHP",
+      "bytes": 137982,
+      "sha256": "924ea928f0a5a4d2de73fbb434b06e2f8101c5b2fcd03946bf46f09655038cf4"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/kurgen_inspection.luau",
+      "bytes": 584,
+      "sha256": "158efa2621f9c34e698d309b3a8fdcbd5bd3dbf26b464b146db20967552d2870"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/license.txt",
+      "bytes": 247,
+      "sha256": "745fe9b44e424f4a33274e4af4017f590744dfb097be363415d24b1598056e4f"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/mission962.dte",
+      "bytes": 850958,
+      "sha256": "25a86976826f7c7eee58d2334e98cc444d16c0b7347f993d4a6989c003ff46ff"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/mod.ini",
+      "bytes": 321,
+      "sha256": "ca4f1da7ab575acca0d3195fa0e1f02f770756803ccf6b12b74b4f21c2bcac1e"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/mod.png",
+      "bytes": 889612,
+      "sha256": "b6f977fb7ac64209ddaf325d563cc26b44d84c52f674f16330e66c9afce58226"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_hull.png",
+      "bytes": 17639361,
+      "sha256": "c179255a44807fef6330155032fa49f5152fa14663735a70960a0571ec2a0d93"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_hull_emissive.png",
+      "bytes": 597567,
+      "sha256": "e0a5cc6c5ff2b8c26364ce60077ae72562e5046b5bc13e96e30a8e6c31d98b96"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_hull_normal.png",
+      "bytes": 887862,
+      "sha256": "8e2c48ce97fcadde77f570c3d4bf25945d5cda284e51188730945ccb4905d232"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_hull_orm.png",
+      "bytes": 8005674,
+      "sha256": "18c17f2791a7fd1b3ede635f025f59ccaeb2eb1d9cebe50ddad0ef2e8eec85f9"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_turret.png",
+      "bytes": 18770454,
+      "sha256": "1dea7db59f5d7bbc0b3ba955f51fc17977af9d5994085c51e7fc2fc8ab38ea30"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_turret_normal.png",
+      "bytes": 250943,
+      "sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_turret_orm.png",
+      "bytes": 7998953,
+      "sha256": "787de7ca17f8cd9216e5fc83092f0842b352941cb42c266f58c5b42db8ef0d0a"
+    }
+  ],
+  "maps": {
+    "hull": {
+      "basecolor": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_basecolor_v2.png",
+        "sha256": "c179255a44807fef6330155032fa49f5152fa14663735a70960a0571ec2a0d93",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_normal_v2.png",
+        "sha256": "8e2c48ce97fcadde77f570c3d4bf25945d5cda284e51188730945ccb4905d232",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_roughness_v2.png",
+        "sha256": "710a5bd88ec844c72ffbb8abb7456b60b97f58c644f499b0626b3931d48d6b3c",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_metallic_v2.png",
+        "sha256": "cacea5614ff97ea7184fadf5d545dfe7ccd1e9c8158083709ca7a44347495dcb",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "emissive": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_emissive_v2.png",
+        "sha256": "e0a5cc6c5ff2b8c26364ce60077ae72562e5046b5bc13e96e30a8e6c31d98b96",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_height_v2.png",
+        "sha256": "10b4354a73f2cf26b32e11bd5503b43acea8ae055e56f6ae7ba0f77e1cadc5da",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "window_aperture": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_window_aperture_v2.png",
+        "sha256": "11661002a6122e8a017aa20dfcf308c2322bbe4f743850707055dd18b2997c45",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "window_glass": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_window_glass_v2.png",
+        "sha256": "a74fef2929c711f56440cf57afdbd8b90d316ae537a00bfb09c740e60a67eb96",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_flat_graphics_v2.png",
+        "sha256": "9d5a534f226caf64f7079b462e4719134a16114c9d5b0c387c8fcef7bd8c10ec",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "panels": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_panels_v2.png",
+        "sha256": "7d2e0d7b0ae43027c3e96912f787d2ee8ad5a2656d6f3373eedf284db9a3ad88",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_structure_v2.png",
+        "sha256": "399129d4592a2deb65d4153a1db9aa7ebcd3a0c2a1b26a507160ef518c4a9f2f",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    },
+    "turret": {
+      "basecolor": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_basecolor_v1.png",
+        "sha256": "1dea7db59f5d7bbc0b3ba955f51fc17977af9d5994085c51e7fc2fc8ab38ea30",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_normal_v1.png",
+        "sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_roughness_v1.png",
+        "sha256": "b7e7266ff3b9f11d78c90cea12113d3c92301c47f06e19b7839aca9b1498ab41",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_metallic_v1.png",
+        "sha256": "4a3acb634a94abd780aa98d8318add060933a7e9c87b3a38f37b6e9dc2ccf713",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_height_v1.png",
+        "sha256": "b01484406820b0c280aacfa133038a7a8a134279dd5ae94a3dd272ba48ee442f",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_flat_graphics_v1.png",
+        "sha256": "15a3407a52007b12eb9efdc1f100ae928e351d4df1aad5c23f34c52cf155b6e5",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_structure_v1.png",
+        "sha256": "e3e62e7256b2aaf2317c10d1251d783522d63b0ed2a9ebc45269e11525e4d350",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "fins": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_fins_v1.png",
+        "sha256": "73c77aaf0e91782c07c7e5a68b612a7df958fe22538a025e948386d084e71be2",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "panels": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_panels_v1.png",
+        "sha256": "b0cd4243f1ba78dc5f3f7d2068dee24503dc1e039fb79c97ff8aa3f95457d6d6",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "paint": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_paint_v1.png",
+        "sha256": "118e17401c1b814eade1a3a04318da8f40ff86771339a5a7ffabf9c3fe4809bc",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    }
+  },
+  "remaining": [
+    "User in-game review of window brightness and hull depth",
+    "Campaign, turret tracking/firing, damage and distance transitions",
+    "Standard gallery photos after publication approval"
+  ]
+}

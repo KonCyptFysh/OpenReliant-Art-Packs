@@ -1,0 +1,17 @@
+{
+  "kind": "Blender authoring views; not in-game captures",
+  "reviewed_at_utc": "2026-10-16T23:02:41.523103+00:00",
+  "views": [
+    "front",
+    "opposite",
+    "rear",
+    "belly"
+  ],
+  "observations": [
+    "Upright worn grey gunboat, red stars, caution paint and machinery preserved.",
+    "Three native small-turret instances included in authoring inspection.",
+    "Structural surface relief independent of painted artwork.",
+    "Both sides, rear and belly inspected; runtime appearance remains pending."
+  ],
+  "runtime_visual_review": "pending_user"
+}

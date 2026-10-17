@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "changed_albedo_percent": 4.624521732330322,
+  "albedo_unchanged_outside_windows": true,
+  "emission_percent": 3.2880008220672607,
+  "hull_and_frame_emission_black": true,
+  "structural_normal_median_xy_ratio": 3.9122698307037354,
+  "normal_max_unit_error": 0.005658745765686035,
+  "painted_graphics_normals_flat": true,
+  "orm_verified": true,
+  "all_maps_size": [
+    4096,
+    4096
+  ],
+  "geometry_and_turret_preserved": [
+    {
+      "file": "Rus_Kurgan.SHP",
+      "sha256": "924ea928f0a5a4d2de73fbb434b06e2f8101c5b2fcd03946bf46f09655038cf4"
+    },
+    {
+      "file": "10_Rus_STUR.SHP",
+      "sha256": "e909844676e9f955886885bd46480dc01b24aa79a83414e73a81f27ded6beb1f"
+    },
+    {
+      "file": "orku1_turret.png",
+      "sha256": "1dea7db59f5d7bbc0b3ba955f51fc17977af9d5994085c51e7fc2fc8ab38ea30"
+    },
+    {
+      "file": "orku1_turret_normal.png",
+      "sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693"
+    },
+    {
+      "file": "orku1_turret_orm.png",
+      "sha256": "787de7ca17f8cd9216e5fc83092f0842b352941cb42c266f58c5b42db8ef0d0a"
+    },
+    {
+      "file": "mission962.dte",
+      "sha256": "25a86976826f7c7eee58d2334e98cc444d16c0b7347f993d4a6989c003ff46ff"
+    },
+    {
+      "file": "kurgen_inspection.luau",
+      "sha256": "158efa2621f9c34e698d309b3a8fdcbd5bd3dbf26b464b146db20967552d2870"
+    }
+  ],
+  "emissive_loader": {
+    "engine_source": "official 0.8.1",
+    "probe_sha256": "e8e8fbd2198fe371fe671981e8eed18a60db888b89bd5040bd87c4f5f423c5ea",
+    "output": "EMISSIVE PASS orku1_hull: 2963 lit, 62573 black texels, 9 mip levels\nPASS orku1_hull: base, green, red; normal and ORM inherited byte-for-byte; generated colour channels verified\n"
+  },
+  "runtime_visual_review": "pending_user"
+}

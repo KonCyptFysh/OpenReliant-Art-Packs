@@ -1,0 +1,18 @@
+{
+  "kind": "Blender authoring views, not engine captures",
+  "views": [
+    "front",
+    "opposite",
+    "belly",
+    "rear",
+    "emissive_dark"
+  ],
+  "reviewed_at_utc": "2026-10-16T23:44:23.927436+00:00",
+  "observations": [
+    "Inset warm window panes follow the existing bridge and hull openings.",
+    "Dark frame divisions remain visible on both sides.",
+    "No emission on stars, caution paint or surrounding hull.",
+    "Panel and machinery relief strengthened while painted graphics remain flat."
+  ],
+  "in_game_visual_review": "pending_user"
+}

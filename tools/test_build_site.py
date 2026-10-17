@@ -109,6 +109,40 @@ class CatalogueChecks(unittest.TestCase):
         self.install_photo_policy()
         site.validate_ship_photography(self.root, self.data)
 
+    def test_ship_photo_guard_accepts_explicit_asset_engine_override(self):
+        self.install_photo_policy()
+        policy_path = self.root / 'tracking/gallery-standard.json'
+        policy = json.loads(policy_path.read_text())
+        policy['engine_overrides'] = {'coyote': 'new official engine'}
+        policy_path.write_text(json.dumps(policy))
+        record_path = self.root / 'tracking/gallery-standard-captures.json'
+        record = json.loads(record_path.read_text())
+        record['captures'][0]['engine'] = 'new official engine'
+        record_path.write_text(json.dumps(record))
+        site.validate_ship_photography(self.root, self.data)
+
+    def test_ship_photo_guard_rejects_another_assets_engine_override(self):
+        self.install_photo_policy()
+        policy_path = self.root / 'tracking/gallery-standard.json'
+        policy = json.loads(policy_path.read_text())
+        policy['engine_overrides'] = {'another-ship': 'new official engine'}
+        policy_path.write_text(json.dumps(policy))
+        record_path = self.root / 'tracking/gallery-standard-captures.json'
+        record = json.loads(record_path.read_text())
+        record['captures'][0]['engine'] = 'new official engine'
+        record_path.write_text(json.dumps(record))
+        with self.assertRaisesRegex(ValueError, 'different engine baseline'):
+            site.validate_ship_photography(self.root, self.data)
+
+    def test_ship_photo_guard_rejects_old_engine_after_asset_upgrade(self):
+        self.install_photo_policy()
+        policy_path = self.root / 'tracking/gallery-standard.json'
+        policy = json.loads(policy_path.read_text())
+        policy['engine_overrides'] = {'coyote': 'new official engine'}
+        policy_path.write_text(json.dumps(policy))
+        with self.assertRaisesRegex(ValueError, 'different engine baseline'):
+            site.validate_ship_photography(self.root, self.data)
+
     def test_ship_photo_guard_rejects_replacement_without_capture_record(self):
         self.install_photo_policy()
         self.worn["images"][0]["src"] = "assets/user-screenshot.png"

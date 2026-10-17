@@ -1,0 +1,123 @@
+{
+  "status": "installed_ready_for_review",
+  "installed_at_utc": "2026-10-17T00:12:26.822235+00:00",
+  "repository_asset": "${ART_PACK_REPOSITORY}/Corvettes and Gunboats/Kurgen",
+  "installed_mod": "${OPENRELIANT_HOME}/game-data/mods/116-kurgen-worn-v1",
+  "runtime_files": [
+    {
+      "path": "mods/116-kurgen-worn-v1/10_Rus_STUR.SHP",
+      "bytes": 29100,
+      "sha256": "e909844676e9f955886885bd46480dc01b24aa79a83414e73a81f27ded6beb1f"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/Rus_Kurgan.SHP",
+      "bytes": 138366,
+      "sha256": "33cc9838edae6a938c2d8d116a8e860ca44eb561be0e5f1f51aefadd57b93c5c"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/kurgen_inspection.luau",
+      "bytes": 584,
+      "sha256": "158efa2621f9c34e698d309b3a8fdcbd5bd3dbf26b464b146db20967552d2870"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/license.txt",
+      "bytes": 247,
+      "sha256": "745fe9b44e424f4a33274e4af4017f590744dfb097be363415d24b1598056e4f"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/mission962.dte",
+      "bytes": 850958,
+      "sha256": "25a86976826f7c7eee58d2334e98cc444d16c0b7347f993d4a6989c003ff46ff"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/mod.ini",
+      "bytes": 301,
+      "sha256": "59308ef1e2d83858c39d5248533e3ba36117ad04ddcab462e8f945505f397414"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/mod.png",
+      "bytes": 887255,
+      "sha256": "f0be536d84d0973416f1b1b6bac4105867ad37f8b2d3e97af27dc2d414e4bbde"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_hull.png",
+      "bytes": 17514752,
+      "sha256": "45b74de7db6d3e3e1a4fcf0e065d535b0c93b8449a41152756382b533b8fdbc1"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_hull_emissive.png",
+      "bytes": 155496,
+      "sha256": "ad36c79bfe138dc14db60b40f9af95d3276e65ef70ee51a06c14400b044b8345"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_hull_normal.png",
+      "bytes": 714347,
+      "sha256": "61ba590b38afaeaca60de8bf5ca63c7883e468a89241cebfafb807020827e66d"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_hull_orm.png",
+      "bytes": 7913324,
+      "sha256": "533a2d7fc4be23516296277c3f8b7ee6d25df12c4e9b8fc2eeda50b4c1aa9062"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_turret.png",
+      "bytes": 18770454,
+      "sha256": "1dea7db59f5d7bbc0b3ba955f51fc17977af9d5994085c51e7fc2fc8ab38ea30"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_turret_normal.png",
+      "bytes": 250943,
+      "sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_turret_orm.png",
+      "bytes": 7998953,
+      "sha256": "787de7ca17f8cd9216e5fc83092f0842b352941cb42c266f58c5b42db8ef0d0a"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku3_bridge.png",
+      "bytes": 272363,
+      "sha256": "b180bb227f2757a126ebbd6b7d34873ce3503d42cbfbd8f46d0c23d0d7b992d5"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku3_bridge_emissive.png",
+      "bytes": 20691,
+      "sha256": "e511a7255cde28bbdececeaa1026d25826cde47f9ef941a1472def17620781b8"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku3_bridge_lod.png",
+      "bytes": 244503,
+      "sha256": "fbf9023c26ddb8dfaa2fb46cf4e7020246e673adbe9ee703df0d855945f03131"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku3_bridge_lod_emissive.png",
+      "bytes": 43769,
+      "sha256": "a5ad818c4264bb8db2ff63698f49e1590762bf4f75d894ee9a5abbe72a440ab9"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku3_bridge_lod_normal.png",
+      "bytes": 33530,
+      "sha256": "d2e49b91111aa96b74e0223a304bd76d1573a09211d3d0f789665c9a504180c2"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku3_bridge_lod_orm.png",
+      "bytes": 85960,
+      "sha256": "f340dfd27564194209e379ef81d313fd0be798a73d66717e39d5054aea3c75bf"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku3_bridge_normal.png",
+      "bytes": 12237,
+      "sha256": "8814c146844c3b03c2741dfb9e3af531decb4dfc60681b4c0a90caeef783ec12"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku3_bridge_orm.png",
+      "bytes": 138138,
+      "sha256": "46bc79619aba641c9b32bf8c2f20368f180d0d5dd7c8087f016394b67306d858"
+    }
+  ],
+  "exact_repository_bytes_verified": true,
+  "launcher": "${OPENRELIANT_HOME}/launch-kurgen-test.sh",
+  "game_launched": false,
+  "runtime_visual_review": "pending_user_revision_1_2",
+  "rollback": "${KURGEN_WORKSPACE}/work/window_scope_v3/installed_before_v3"
+}

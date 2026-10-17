@@ -1,0 +1,8 @@
+{
+  "user_approved": true,
+  "approved_at_utc": "2026-10-17T03:29:41.525036+00:00",
+  "asset_revision": "1.7",
+  "instruction": "Okay, 15 seconds might be a little long, let's bring it down to 7s. Other than that, I'm happy with it at this point until we get our features filled for the emissives. Ship the kurgen upto git.",
+  "scope": "Publish the accepted Kurgen with a seven-second ceiling for low-health steady-light periods; dynamic turret effects remain deferred.",
+  "qualification": "Acceptance is for this beta round, not exhaustive campaign or platform validation."
+}

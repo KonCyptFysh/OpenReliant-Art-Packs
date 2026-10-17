@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "scope": "Non-visual native-format, texture-loader and asset checks",
+  "checked_at_utc": "2026-10-16T23:44:23.927436+00:00",
+  "minimum_engine": "0.8.1",
+  "review_engine": "Official OpenReliant 0.18.0",
+  "review_engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+  "native_checks": [
+    {
+      "engine": "0.8.1",
+      "file": "Rus_Kurgan.SHP",
+      "exit_code": 0,
+      "output": "ok: 2 parts, 682 vertices, 1316 faces\nbounds: 2 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "engine": "0.8.1",
+      "file": "10_Rus_STUR.SHP",
+      "exit_code": 0,
+      "output": "ok: 4 parts, 176 vertices, 232 faces\nbounds: 4 model_space\nwritten again: the same bytes\n"
+    },
+    {
+      "engine": "0.8.1",
+      "file": "mission962.dte",
+      "exit_code": 0,
+      "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n"
+    },
+    {
+      "engine": "0.18.0",
+      "file": "Rus_Kurgan.SHP",
+      "exit_code": 0,
+      "output": "ok: 2 parts, 682 vertices, 1316 faces\nbounds: 2 model_space\nrewritten byte for byte\n"
+    },
+    {
+      "engine": "0.18.0",
+      "file": "10_Rus_STUR.SHP",
+      "exit_code": 0,
+      "output": "ok: 4 parts, 176 vertices, 232 faces\nbounds: 4 model_space\nrewritten byte for byte\n"
+    },
+    {
+      "engine": "0.18.0",
+      "file": "mission962.dte",
+      "exit_code": 0,
+      "output": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds\n"
+    }
+  ],
+  "texture_loader": {
+    "engine_source": "official 0.8.1",
+    "probe_sha256": "e8e8fbd2198fe371fe671981e8eed18a60db888b89bd5040bd87c4f5f423c5ea",
+    "output": "EMISSIVE PASS orku1_hull: 2963 lit, 62573 black texels, 9 mip levels\nPASS orku1_hull: base, green, red; normal and ORM inherited byte-for-byte; generated colour channels verified\n"
+  },
+  "duplicated_colour_textures": false,
+  "game_launched": false,
+  "runtime_visual_review": "pending_user_revision_1_1"
+}

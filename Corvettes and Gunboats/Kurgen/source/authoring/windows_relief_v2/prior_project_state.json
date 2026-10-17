@@ -1,0 +1,69 @@
+{
+  "ship": "Kurgen",
+  "catalogue_id": "kurgen",
+  "native_file": "Rus_Kurgan.SHP",
+  "ship_type": 60,
+  "active_variant": "worn",
+  "status": "ready_for_user_review",
+  "user_approved": false,
+  "published": false,
+  "originals": [
+    {
+      "path": "source/10_Rus_STUR.SHP",
+      "bytes": 29100,
+      "sha256": "6d7bbfeca1b81c9a8baef005e179327945bdf73935fbc71f6a0514e63e68b143"
+    },
+    {
+      "path": "source/Rus_Kurgan.SHP",
+      "bytes": 137982,
+      "sha256": "bdb62a254cb21d1a8ed1b18264604f2ff7ca018f289404edf58c1a33255faf3a"
+    },
+    {
+      "path": "source/Rus_Kurgan_dest.SHP",
+      "bytes": 18946,
+      "sha256": "56afcf3e4be541620bdc6c4c9cfb8bfd2490dcb8eaad61279ba44fdc37278da3"
+    },
+    {
+      "path": "source/dam_1.png",
+      "bytes": 17642,
+      "sha256": "fcacbed0e1d689b0ed27bbd1d1a269028af44170e05bba383c970b2db94ec0cf"
+    },
+    {
+      "path": "source/kurgen.png",
+      "bytes": 58476,
+      "sha256": "5aa9578587ce155fe0897ddda99826ee4feede2ca52dedcf30a0eb178d64d2b4"
+    },
+    {
+      "path": "source/rus_turret.png",
+      "bytes": 14885,
+      "sha256": "a58608c14fb092893e1658f1f390720cc70d253d82f0ff4226e8d344ee2a5d3c"
+    }
+  ],
+  "pbr_release_gate": {
+    "status": "satisfied",
+    "engine": "Official OpenReliant 0.18.0 installed; pack baseline 0.8.1"
+  },
+  "progress": {
+    "texture_uv": "first_pass_complete_pending_review",
+    "pbr_authoring": "complete_structural_maps_for_hull_and_turret",
+    "pbr_tuning": "authoring_preview_checked_runtime_pending",
+    "engine_validation": "0_8_1_and_0_18_0_non_visual_checks_passed"
+  },
+  "loadout_texture_variants": "engine_generated_no_g_or_r_copies",
+  "updated_at_utc": "2026-10-16T23:02:41.523103+00:00",
+  "latest_scene": "${KURGEN_WORKSPACE}/kurgen_worn_pbr_v1.blend",
+  "upright_scene": "${KURGEN_WORKSPACE}/kurgen_worn_pbr_v1.blend",
+  "latest_deliverables": "${KURGEN_WORKSPACE}/exports/openreliant_0_8_v1",
+  "repository_asset": "${ART_PACK_REPOSITORY}/Corvettes and Gunboats/Kurgen",
+  "review_launcher": "${OPENRELIANT_HOME}/launch-kurgen-test.sh",
+  "engine_validation": {
+    "build": "Official OpenReliant 0.18.0",
+    "minimum": "0.8.1",
+    "non_visual_checks": "passed",
+    "visual_review": "pending_user",
+    "game_launched": false,
+    "evidence": "${KURGEN_WORKSPACE}/work/reconstruction_v1/compatibility.json"
+  },
+  "current_manifest": "${KURGEN_WORKSPACE}/manifest.json",
+  "shared_component_scope": "10_Rus_STUR.SHP small turret upgrade applies wherever used"
+}

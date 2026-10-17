@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-16T23:05:37.767974+00:00",
+  "runtime_files_verified": 13,
+  "review_engine": "0.18.0",
+  "installed_missions": 83,
+  "failing_missions": 0,
+  "launchers_verified": 1,
+  "game_launched": false,
+  "user_visual_review": "pending",
+  "published": false,
+  "shared_component_scope": "Coalition small turret 10_Rus_STUR.SHP"
+}

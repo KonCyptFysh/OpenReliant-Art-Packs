@@ -1,0 +1,1513 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "Rus_Kurgan.SHP",
+      "passed": true,
+      "source_sha256": "bdb62a254cb21d1a8ed1b18264604f2ff7ca018f289404edf58c1a33255faf3a",
+      "output_sha256": "924ea928f0a5a4d2de73fbb434b06e2f8101c5b2fcd03946bf46f09655038cf4",
+      "uv_edits": [],
+      "continuation_corrections": [
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 4,
+          "prior": 7,
+          "remaining": 4
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 5,
+          "prior": 6,
+          "remaining": 3
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 6,
+          "prior": 5,
+          "remaining": 2
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 7,
+          "prior": 4,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 8,
+          "prior": 3,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 9,
+          "prior": 2,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 10,
+          "prior": 1,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 35,
+          "prior": 7,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 36,
+          "prior": 6,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 37,
+          "prior": 5,
+          "remaining": 3
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 38,
+          "prior": 4,
+          "remaining": 2
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 39,
+          "prior": 3,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 40,
+          "prior": 2,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 43,
+          "prior": 3,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 44,
+          "prior": 2,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 57,
+          "prior": 19,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 58,
+          "prior": 18,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 83,
+          "prior": 5,
+          "remaining": 3
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 84,
+          "prior": 4,
+          "remaining": 2
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 85,
+          "prior": 3,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 86,
+          "prior": 2,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 187,
+          "prior": 15,
+          "remaining": 9
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 188,
+          "prior": 14,
+          "remaining": 8
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 189,
+          "prior": 13,
+          "remaining": 7
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 190,
+          "prior": 12,
+          "remaining": 6
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 191,
+          "prior": 11,
+          "remaining": 5
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 192,
+          "prior": 10,
+          "remaining": 4
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 193,
+          "prior": 9,
+          "remaining": 3
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 194,
+          "prior": 8,
+          "remaining": 2
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 195,
+          "prior": 7,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 196,
+          "prior": 6,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 223,
+          "prior": 15,
+          "remaining": 11
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 224,
+          "prior": 14,
+          "remaining": 10
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 225,
+          "prior": 13,
+          "remaining": 9
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 226,
+          "prior": 12,
+          "remaining": 8
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 227,
+          "prior": 11,
+          "remaining": 7
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 228,
+          "prior": 10,
+          "remaining": 6
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 229,
+          "prior": 9,
+          "remaining": 5
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 230,
+          "prior": 8,
+          "remaining": 4
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 231,
+          "prior": 7,
+          "remaining": 3
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 232,
+          "prior": 6,
+          "remaining": 2
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 233,
+          "prior": 5,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 234,
+          "prior": 4,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 241,
+          "prior": 3,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "face": 242,
+          "prior": 2,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 1,
+          "face": 2,
+          "prior": 3,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 1,
+          "face": 3,
+          "prior": 2,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 1,
+          "face": 118,
+          "prior": 2,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 1,
+          "face": 119,
+          "prior": 1,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 2,
+          "face": 0,
+          "prior": 2,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 2,
+          "face": 65,
+          "prior": 2,
+          "remaining": 1
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 2,
+          "face": 66,
+          "prior": 1,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 3,
+          "face": 32,
+          "prior": 1,
+          "remaining": 0
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 5,
+          "face": 25,
+          "prior": 1,
+          "remaining": 0
+        }
+      ],
+      "detail_meshes": [
+        {
+          "part": "Kurgan Body",
+          "lod": 0,
+          "faces": 388,
+          "groups_before": 126,
+          "groups_after": 136,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 1,
+          "faces": 218,
+          "groups_before": 109,
+          "groups_after": 111,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 2,
+          "faces": 124,
+          "groups_before": 74,
+          "groups_after": 76,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 3,
+          "faces": 72,
+          "groups_before": 45,
+          "groups_after": 46,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 4,
+          "faces": 44,
+          "groups_before": 32,
+          "groups_after": 32,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Kurgan Body",
+          "lod": 5,
+          "faces": 32,
+          "groups_before": 23,
+          "groups_after": 24,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "dest",
+          "lod": 0,
+          "faces": 168,
+          "groups_before": 57,
+          "groups_after": 57,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "dest",
+          "lod": 1,
+          "faces": 114,
+          "groups_before": 54,
+          "groups_after": 54,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "dest",
+          "lod": 2,
+          "faces": 74,
+          "groups_before": 43,
+          "groups_after": 43,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "dest",
+          "lod": 3,
+          "faces": 46,
+          "groups_before": 27,
+          "groups_after": 27,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "dest",
+          "lod": 4,
+          "faces": 26,
+          "groups_before": 18,
+          "groups_after": 18,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "dest",
+          "lod": 5,
+          "faces": 10,
+          "groups_before": 9,
+          "groups_after": 9,
+          "all_shared_corner_uvs_match": true
+        }
+      ],
+      "geometry_normals_uvs_attachments_animation_collision_winding_byte_identical": true,
+      "allowed_changes": "Material names and primitive continuation counts at UV seams only",
+      "changed_bytes": 114,
+      "protected_chunks": [
+        {
+          "tag": 0,
+          "bytes": 94,
+          "sha256": "6c72f1300593dafebdd9ea9e4222986b403b198bcda7eb6596132175b97f3e7c"
+        },
+        {
+          "tag": 1,
+          "bytes": 630,
+          "sha256": "402346a959a16fc300a89e14664904f3373cc2c281e74f2dd9f6ac0aaa28d634"
+        },
+        {
+          "tag": 2,
+          "bytes": 30,
+          "sha256": "976cbc7a39968e569b306a84445485f3d5f63fbf2ebba104d95cab3bdfb36551"
+        },
+        {
+          "tag": 7,
+          "bytes": 2238,
+          "sha256": "d2a19974d94fc254a7229f6eea176f9b77a790b4011d8e1e744bf56293e51c34"
+        },
+        {
+          "tag": 9,
+          "bytes": 2022,
+          "sha256": "4e96207be1733602bcdac0a2790b5b3ee672bfd9be39aa472135e29fa1fa8b1a"
+        },
+        {
+          "tag": 10,
+          "bytes": 30,
+          "sha256": "ddba17fe07790365934ac5742d0ed8e3a42ec579c254540182b7215a898b6af3"
+        },
+        {
+          "tag": 13,
+          "bytes": 14,
+          "sha256": "8278e7d1060d672594dbc420fca55b82196df02a49e114e456c3bbd0a7b9dbc1"
+        },
+        {
+          "tag": 15,
+          "bytes": 6,
+          "sha256": "52817bd9239cd8120572e00c6e911b487de5df5e53efd739b4e0ab07be3a5c28"
+        },
+        {
+          "tag": 4,
+          "bytes": 6278,
+          "sha256": "93bce7b76a3e3758d66d6075cf91a7f60dd79885b300d893df739d854d4533a2"
+        },
+        {
+          "tag": 4,
+          "bytes": 3558,
+          "sha256": "2f9102f94a8a932a5e40ea12f97b1159f5816c45682ab75133a5ef0523f653fb"
+        },
+        {
+          "tag": 4,
+          "bytes": 2054,
+          "sha256": "78bee7311b28ad32450adaf09be8bf90afc7cf390f51b3eb8dce22b9a17254a9"
+        },
+        {
+          "tag": 4,
+          "bytes": 1222,
+          "sha256": "32553c311fd887a23001a32c0b229d7c42054ecae84e098f244eeab0def5ff79"
+        },
+        {
+          "tag": 4,
+          "bytes": 774,
+          "sha256": "2d8785134a1f7b6d650c5f24d661cc78555808e091f2f597badf62efe779d13b"
+        },
+        {
+          "tag": 4,
+          "bytes": 582,
+          "sha256": "2a3855b76f45a19c78c42cc5b0177c889198626c6b3923eb77e4defeec6f824b"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 102,
+          "sha256": "e9d57cb89cac4cc8652c8773b60a1e97fdf1ba1ed5a7e49bf2c7e7a635c99145"
+        },
+        {
+          "tag": 8,
+          "bytes": 102,
+          "sha256": "36b592cb5e40557d13a323d530726ac8fed570aaefe593c01d79528c1d8b68f4"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 102,
+          "sha256": "827de04c5d2efc24cc6564fb68a18512dc4e55b8bff6673aa12e71fc01e0d306"
+        },
+        {
+          "tag": 8,
+          "bytes": 106,
+          "sha256": "9588b30932896d148cea1b850071cf47f54e069862a1189d7664660fecb2b2f9"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 102,
+          "sha256": "dcd72c9ee119facad9a425f24ef4f5f2c6fba076ac192a0b9f39cc5b92d5eedc"
+        },
+        {
+          "tag": 8,
+          "bytes": 102,
+          "sha256": "8c5d7d0e9086286eec8ece74f818d502c5c45a2b0326a1e0d926dc3c91fe2008"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 102,
+          "sha256": "43cf7674cfcc4c9cc1bc45333a6feadb0f68da38b7c6d235412f79266cabacfc"
+        },
+        {
+          "tag": 8,
+          "bytes": 106,
+          "sha256": "df31398162893d173085cd2ffca0041c7d8d8d166285131b9dc400471b5940c5"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 102,
+          "sha256": "29e785e4ab1b57bb0f51147c5cd566e065a627d456bb3040cafd3fc4b58fe48b"
+        },
+        {
+          "tag": 8,
+          "bytes": 102,
+          "sha256": "4da789177a03fe06ee669616ff4e97121a61236ef70ff202cd83041c3e561bcb"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 102,
+          "sha256": "eec8c89393dd5b6ef0021175c32f07e47421c594b120567bd5bfb082cc320bb8"
+        },
+        {
+          "tag": 8,
+          "bytes": 106,
+          "sha256": "d269e8b5325da28b0578e238ab64076fe6f5d8fd0097d4b90200bbffbacc59c8"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 102,
+          "sha256": "960409b5ae282d68bb1e40319cf032c77438f8f9c2b46fd1463e4d58b7c07c96"
+        },
+        {
+          "tag": 8,
+          "bytes": 102,
+          "sha256": "9756da118cde99513b7ed92d23426d17e6b399a9fbde322db54e64995df2f9b0"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 102,
+          "sha256": "5326ff6d5da58ce95d6f7db2a24661ee690a75738b47b064d8df03961cc2c325"
+        },
+        {
+          "tag": 8,
+          "bytes": 106,
+          "sha256": "cac48a9f74971913a064d8d13da1492a6d4023714609b9abe34508c2b0543182"
+        },
+        {
+          "tag": 11,
+          "bytes": 6,
+          "sha256": "ea901bbb453a633c75a481d757bb7734e526d735e1fd90bbf0aad1c227734ebb"
+        },
+        {
+          "tag": 12,
+          "bytes": 6,
+          "sha256": "e74c1718e84e304b776921621b0e998ffec13d0561b3d2e48764938fde37ae17"
+        },
+        {
+          "tag": 14,
+          "bytes": 666,
+          "sha256": "86d870b3b57c78230bb6ff49a704f8a16910dce3009c6a0dac628f9639969cb3"
+        },
+        {
+          "tag": 14,
+          "bytes": 66,
+          "sha256": "2ba432117d3c0cfb4134a38a9e297506ad312fca816d6d914a35f414b1ca9e3b"
+        },
+        {
+          "tag": 2,
+          "bytes": 30,
+          "sha256": "976cbc7a39968e569b306a84445485f3d5f63fbf2ebba104d95cab3bdfb36551"
+        },
+        {
+          "tag": 7,
+          "bytes": 1086,
+          "sha256": "2d3dea395775b96331031a2787fa7a4ab23d68a37508624c997e68f63c5e1f13"
+        },
+        {
+          "tag": 9,
+          "bytes": 6,
+          "sha256": "71f916172a9d4a3024bec3ca2b402fe22dca8884632041a7f2a91eedb84ec874"
+        },
+        {
+          "tag": 10,
+          "bytes": 30,
+          "sha256": "ddba17fe07790365934ac5742d0ed8e3a42ec579c254540182b7215a898b6af3"
+        },
+        {
+          "tag": 13,
+          "bytes": 10,
+          "sha256": "1f3bf69abbd533d825862ef27f70118af57884cd951bdb9254fa56f4adac5caf"
+        },
+        {
+          "tag": 15,
+          "bytes": 6,
+          "sha256": "52817bd9239cd8120572e00c6e911b487de5df5e53efd739b4e0ab07be3a5c28"
+        },
+        {
+          "tag": 4,
+          "bytes": 2758,
+          "sha256": "2b322d2546e961c6b30e2e3103ec08975e9c047e11578976c1dbfc19c002a7b0"
+        },
+        {
+          "tag": 4,
+          "bytes": 1894,
+          "sha256": "868675e0e493dc433d76136b07e50256c66810f522792ecca42d48100a995758"
+        },
+        {
+          "tag": 4,
+          "bytes": 1254,
+          "sha256": "f691a199d0ff9d9223f5e4f2dd28313768986580351f8db37aaf79f984f8d361"
+        },
+        {
+          "tag": 4,
+          "bytes": 806,
+          "sha256": "b04068fd0608f9993e19b22d1dcaa50251680647fbfcd74ad42f72e5c4b87044"
+        },
+        {
+          "tag": 4,
+          "bytes": 486,
+          "sha256": "87796be85577c57f8af5ee2864e0608fe0f4a84507fbf04d9d2ab3950af9f1a5"
+        },
+        {
+          "tag": 4,
+          "bytes": 230,
+          "sha256": "3ebcd35dc62975115260b7ea2a1507f554b7e211ab4c1d47723565a7fb6d2a44"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 90,
+          "sha256": "1b41fd29946846fd750c3af815f057b18c6ebd822eb6df807db896a8e830ccf3"
+        },
+        {
+          "tag": 8,
+          "bytes": 90,
+          "sha256": "0f9ecbbe46d8741d9af898136ef2435c8a4407d692183db8dc54d7869ddc6269"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 90,
+          "sha256": "a479e8bd366c442d7a152ba6d5876e9fa5d7b32e133cd648f238cf7f834e4798"
+        },
+        {
+          "tag": 8,
+          "bytes": 90,
+          "sha256": "e203886f286a3f628903d175c745a9a5621c25512858f59bb9124346d0dc19be"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 90,
+          "sha256": "805829ca34e3fbded85860400dedd24843f226b7996b65962c1cc795d3201bdb"
+        },
+        {
+          "tag": 8,
+          "bytes": 90,
+          "sha256": "fae42659b8a065514e06e816f5e0ce2aeb46fbc04aa4cc5b84fff97ebe9db62f"
+        },
+        {
+          "tag": 8,
+          "bytes": 6,
+          "sha256": "2f4523ace18bc4dbabf2f26a006bfe7aa23201c1d61cf9f926951a59b25cb332"
+        },
+        {
+          "tag": 8,
+          "bytes": 90,
+          "sha256": "440759a9c162643a851899ebc99303aa70b094d0a789be9f0c6b9a55b24b7ad1"
+        },
+        {
+          "tag": 8,
+          "bytes": 90,
+          "sha256": "3399c3b64940e2d1e0cdb15ad23ff621434f4e40970ebe3dd0892b8fbed32244"
+        },
+        {
+          "tag": 11,
+          "bytes": 6,
+          "sha256": "ea901bbb453a633c75a481d757bb7734e526d735e1fd90bbf0aad1c227734ebb"
+        },
+        {
+          "tag": 12,
+          "bytes": 6,
+          "sha256": "e74c1718e84e304b776921621b0e998ffec13d0561b3d2e48764938fde37ae17"
+        },
+        {
+          "tag": 14,
+          "bytes": 166,
+          "sha256": "7a67d6b491ce5c34728e8321022ca556debc97279167e3c47497cdb222b52758"
+        },
+        {
+          "tag": 16,
+          "bytes": 234,
+          "sha256": "843b8a0055652bed6995f089535569608cc9f5460e0713fe0aad933d4ea4d103"
+        },
+        {
+          "tag": 65535,
+          "bytes": 6,
+          "sha256": "c5d0356d6e6e9d0e6a0fdc00a0357d822cbbf76d257e5d702f8ccf13f70dc8fa"
+        }
+      ]
+    },
+    {
+      "file": "10_Rus_STUR.SHP",
+      "passed": true,
+      "source_sha256": "6d7bbfeca1b81c9a8baef005e179327945bdf73935fbc71f6a0514e63e68b143",
+      "output_sha256": "e909844676e9f955886885bd46480dc01b24aa79a83414e73a81f27ded6beb1f",
+      "uv_edits": [],
+      "continuation_corrections": [
+        {
+          "part": "Rus Sml tur base",
+          "lod": 0,
+          "face": 2,
+          "prior": 3,
+          "remaining": 1
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 0,
+          "face": 3,
+          "prior": 2,
+          "remaining": 0
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 1,
+          "face": 2,
+          "prior": 3,
+          "remaining": 1
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 1,
+          "face": 3,
+          "prior": 2,
+          "remaining": 0
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 2,
+          "face": 2,
+          "prior": 3,
+          "remaining": 1
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 2,
+          "face": 3,
+          "prior": 2,
+          "remaining": 0
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 3,
+          "face": 2,
+          "prior": 3,
+          "remaining": 1
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 3,
+          "face": 3,
+          "prior": 2,
+          "remaining": 0
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 4,
+          "face": 2,
+          "prior": 2,
+          "remaining": 0
+        },
+        {
+          "part": "Rus Sml Gun 2",
+          "lod": 3,
+          "face": 0,
+          "prior": 1,
+          "remaining": 0
+        },
+        {
+          "part": "Rus Sml Gun 2",
+          "lod": 4,
+          "face": 0,
+          "prior": 1,
+          "remaining": 0
+        },
+        {
+          "part": "Rus Sml Gun 2",
+          "lod": 5,
+          "face": 0,
+          "prior": 1,
+          "remaining": 0
+        }
+      ],
+      "detail_meshes": [
+        {
+          "part": "Rus Sml tur base",
+          "lod": 0,
+          "faces": 14,
+          "groups_before": 5,
+          "groups_after": 6,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 1,
+          "faces": 14,
+          "groups_before": 5,
+          "groups_after": 6,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 2,
+          "faces": 14,
+          "groups_before": 5,
+          "groups_after": 6,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 3,
+          "faces": 14,
+          "groups_before": 5,
+          "groups_after": 6,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 4,
+          "faces": 10,
+          "groups_before": 5,
+          "groups_after": 6,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml tur base",
+          "lod": 5,
+          "faces": 6,
+          "groups_before": 4,
+          "groups_after": 4,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml Gun 2",
+          "lod": 0,
+          "faces": 28,
+          "groups_before": 9,
+          "groups_after": 9,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml Gun 2",
+          "lod": 1,
+          "faces": 16,
+          "groups_before": 8,
+          "groups_after": 8,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml Gun 2",
+          "lod": 2,
+          "faces": 6,
+          "groups_before": 5,
+          "groups_after": 5,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml Gun 2",
+          "lod": 3,
+          "faces": 2,
+          "groups_before": 1,
+          "groups_after": 2,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml Gun 2",
+          "lod": 4,
+          "faces": 2,
+          "groups_before": 1,
+          "groups_after": 2,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml Gun 2",
+          "lod": 5,
+          "faces": 2,
+          "groups_before": 1,
+          "groups_after": 2,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml Gun 1",
+          "lod": 0,
+          "faces": 28,
+          "groups_before": 9,
+          "groups_after": 9,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml Gun 1",
+          "lod": 1,
+          "faces": 14,
+          "groups_before": 8,
+          "groups_after": 8,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml Gun 1",
+          "lod": 2,
+          "faces": 6,
+          "groups_before": 6,
+          "groups_after": 6,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml Gun 1",
+          "lod": 3,
+          "faces": 2,
+          "groups_before": 2,
+          "groups_after": 2,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml Gun 1",
+          "lod": 4,
+          "faces": 2,
+          "groups_before": 2,
+          "groups_after": 2,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus Sml Gun 1",
+          "lod": 5,
+          "faces": 2,
+          "groups_before": 2,
+          "groups_after": 2,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus sml tur base DEST",
+          "lod": 0,
+          "faces": 12,
+          "groups_before": 5,
+          "groups_after": 5,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus sml tur base DEST",
+          "lod": 1,
+          "faces": 12,
+          "groups_before": 5,
+          "groups_after": 5,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus sml tur base DEST",
+          "lod": 2,
+          "faces": 12,
+          "groups_before": 5,
+          "groups_after": 5,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus sml tur base DEST",
+          "lod": 3,
+          "faces": 8,
+          "groups_before": 5,
+          "groups_after": 5,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus sml tur base DEST",
+          "lod": 4,
+          "faces": 4,
+          "groups_before": 4,
+          "groups_after": 4,
+          "all_shared_corner_uvs_match": true
+        },
+        {
+          "part": "Rus sml tur base DEST",
+          "lod": 5,
+          "faces": 2,
+          "groups_before": 2,
+          "groups_after": 2,
+          "all_shared_corner_uvs_match": true
+        }
+      ],
+      "geometry_normals_uvs_attachments_animation_collision_winding_byte_identical": true,
+      "allowed_changes": "Material names and primitive continuation counts at UV seams only",
+      "changed_bytes": 228,
+      "protected_chunks": [
+        {
+          "tag": 0,
+          "bytes": 94,
+          "sha256": "b3229a3d94cde92d3dfa387debceed87695f923d364821cb3092ee372447b37c"
+        },
+        {
+          "tag": 1,
+          "bytes": 1254,
+          "sha256": "93894428c46b27f034e269552e6726f0affd3e3aef3de0a5c82f16b2c1872e85"
+        },
+        {
+          "tag": 2,
+          "bytes": 30,
+          "sha256": "23a16150059f066512de82bfa0e8da76d5b5441af913cf007f67d06aca61720b"
+        },
+        {
+          "tag": 7,
+          "bytes": 78,
+          "sha256": "6b0bdc9159bbec1fcb723434002cda49154acc2589d076bc0bc7cd3f66768a11"
+        },
+        {
+          "tag": 9,
+          "bytes": 6,
+          "sha256": "71f916172a9d4a3024bec3ca2b402fe22dca8884632041a7f2a91eedb84ec874"
+        },
+        {
+          "tag": 10,
+          "bytes": 30,
+          "sha256": "0fb9759c5d6e7a9b215c2dc1eeb48c12679ff2360f34bea3a452edc8445b7228"
+        },
+        {
+          "tag": 13,
+          "bytes": 6,
+          "sha256": "5d26dfd281515828454168f3383fb2d334874fab3b25bd6016cc3f635ab7495b"
+        },
+        {
+          "tag": 15,
+          "bytes": 6,
+          "sha256": "52817bd9239cd8120572e00c6e911b487de5df5e53efd739b4e0ab07be3a5c28"
+        },
+        {
+          "tag": 4,
+          "bytes": 326,
+          "sha256": "b37d0d1f5a3bbf6fe02e7c73d579692fabbea7473771b4ea742ce718f9dd3a90"
+        },
+        {
+          "tag": 4,
+          "bytes": 326,
+          "sha256": "97f535f908f05994eb7bf086a570dba2d133714e59f5e32f55df2efb07ef92c3"
+        },
+        {
+          "tag": 4,
+          "bytes": 326,
+          "sha256": "97f535f908f05994eb7bf086a570dba2d133714e59f5e32f55df2efb07ef92c3"
+        },
+        {
+          "tag": 4,
+          "bytes": 326,
+          "sha256": "e4dc31bfa45d6774cf0c3fb7d7292e8017e14c48b5515c09300a7c7d88fbc462"
+        },
+        {
+          "tag": 4,
+          "bytes": 262,
+          "sha256": "0ee6b7e90b1ce1eedb215c08a97d57588f729ddabe0d1e8fb9c3cedcc88a8152"
+        },
+        {
+          "tag": 4,
+          "bytes": 198,
+          "sha256": "a4975dd4f1d29f872d7766733a9ad54c80f5f6154cf0c65790387a061f2389ac"
+        },
+        {
+          "tag": 8,
+          "bytes": 62,
+          "sha256": "fbf9ba4fc561ec925958a1d6d5838445c3eeb041007c346f498f35c5771eb449"
+        },
+        {
+          "tag": 11,
+          "bytes": 34,
+          "sha256": "81e6d8734697a13dba0af5622481e0a6c580030ec16ec92af0abe029fdb749ea"
+        },
+        {
+          "tag": 12,
+          "bytes": 6,
+          "sha256": "e74c1718e84e304b776921621b0e998ffec13d0561b3d2e48764938fde37ae17"
+        },
+        {
+          "tag": 2,
+          "bytes": 30,
+          "sha256": "23a16150059f066512de82bfa0e8da76d5b5441af913cf007f67d06aca61720b"
+        },
+        {
+          "tag": 7,
+          "bytes": 78,
+          "sha256": "843ffd8f2463260cad5b279bcc4fb9b721ec179d01995d6c417a124415745390"
+        },
+        {
+          "tag": 9,
+          "bytes": 174,
+          "sha256": "90b8597b36d4fc0b2664206e9d8598efcf3072e7770c711867ee9dff425569ed"
+        },
+        {
+          "tag": 10,
+          "bytes": 30,
+          "sha256": "65dd38f1f75d2d2d934a81442990ea89e03bf6ac53040d48c595a24d496d1e34"
+        },
+        {
+          "tag": 13,
+          "bytes": 6,
+          "sha256": "5d26dfd281515828454168f3383fb2d334874fab3b25bd6016cc3f635ab7495b"
+        },
+        {
+          "tag": 15,
+          "bytes": 6,
+          "sha256": "52817bd9239cd8120572e00c6e911b487de5df5e53efd739b4e0ab07be3a5c28"
+        },
+        {
+          "tag": 4,
+          "bytes": 518,
+          "sha256": "43fbedef7d8d3041f2e4104aca137a3b87ce85e47f96427b426c5af86592d4a8"
+        },
+        {
+          "tag": 4,
+          "bytes": 326,
+          "sha256": "56f7e6e99d175b33a29bf9aac57332a725ff31f1af2083eb86d6e3a32e13ce93"
+        },
+        {
+          "tag": 4,
+          "bytes": 166,
+          "sha256": "8d464320fb859fd46d9c9fd3b2dfd6f622e6e797577005dca30415ee2f8de672"
+        },
+        {
+          "tag": 4,
+          "bytes": 102,
+          "sha256": "d9e975680d0c0e8dcdde54e6b2cd72fb23e5fe0631145a745fc2a3d68136037a"
+        },
+        {
+          "tag": 4,
+          "bytes": 102,
+          "sha256": "d9e975680d0c0e8dcdde54e6b2cd72fb23e5fe0631145a745fc2a3d68136037a"
+        },
+        {
+          "tag": 4,
+          "bytes": 102,
+          "sha256": "1f52ef24e9319228345f6dfeaa69d9e2f3bc956f4215cade8f4fe71bcab276c2"
+        },
+        {
+          "tag": 8,
+          "bytes": 118,
+          "sha256": "ef3a0331d94e7af34683498615e6fcf53d0b8fca21387ae2ac1ba6bd26541852"
+        },
+        {
+          "tag": 11,
+          "bytes": 90,
+          "sha256": "b34db6d76346a4255ccb103220a85c4f5bd52ad6e3bc0787cf5a31c79ce1dce6"
+        },
+        {
+          "tag": 12,
+          "bytes": 18,
+          "sha256": "b940a3f02bc2c0d94d68a6cb2f9258128edd95b3aa56c1e24ba04c03da745c2a"
+        },
+        {
+          "tag": 2,
+          "bytes": 30,
+          "sha256": "23a16150059f066512de82bfa0e8da76d5b5441af913cf007f67d06aca61720b"
+        },
+        {
+          "tag": 7,
+          "bytes": 78,
+          "sha256": "6977cb2dc6eeeef2493db06a49ddb5ae4ba528cee717800bfa2ac8e2b129efb0"
+        },
+        {
+          "tag": 9,
+          "bytes": 174,
+          "sha256": "6aa6ee836f7db490fb4c8f3dfcb7fb2561d049edcd8e04b7687a359bcf173482"
+        },
+        {
+          "tag": 10,
+          "bytes": 30,
+          "sha256": "65dd38f1f75d2d2d934a81442990ea89e03bf6ac53040d48c595a24d496d1e34"
+        },
+        {
+          "tag": 13,
+          "bytes": 6,
+          "sha256": "5d26dfd281515828454168f3383fb2d334874fab3b25bd6016cc3f635ab7495b"
+        },
+        {
+          "tag": 15,
+          "bytes": 6,
+          "sha256": "52817bd9239cd8120572e00c6e911b487de5df5e53efd739b4e0ab07be3a5c28"
+        },
+        {
+          "tag": 4,
+          "bytes": 518,
+          "sha256": "80c968b29896a28782716b31d67fc0e2f367c9e8151f313bd62e009be67dadcc"
+        },
+        {
+          "tag": 4,
+          "bytes": 294,
+          "sha256": "7405bcdeef24710a99e28b33708410b5915693c6e2b152ec98365c0527e2fa31"
+        },
+        {
+          "tag": 4,
+          "bytes": 166,
+          "sha256": "942d966fc4a97c2ccf7c3cfbafcc0fc6e9f2939a734439c4c160b42e09807c47"
+        },
+        {
+          "tag": 4,
+          "bytes": 102,
+          "sha256": "9cb8ff9f2fc201a2056956c6bafc6f7476533ebcc8d336e797bc235726b4a045"
+        },
+        {
+          "tag": 4,
+          "bytes": 102,
+          "sha256": "9cb8ff9f2fc201a2056956c6bafc6f7476533ebcc8d336e797bc235726b4a045"
+        },
+        {
+          "tag": 4,
+          "bytes": 102,
+          "sha256": "1f8cbb215dbe381cff2d13c75aaf03cbbde6e6ec1c8279008b4adb4322b1cd08"
+        },
+        {
+          "tag": 8,
+          "bytes": 118,
+          "sha256": "ef3a0331d94e7af34683498615e6fcf53d0b8fca21387ae2ac1ba6bd26541852"
+        },
+        {
+          "tag": 11,
+          "bytes": 62,
+          "sha256": "be7f81c443e3af2c5294911ed15a9e5479fbf649abbddb250484ac9fd4420362"
+        },
+        {
+          "tag": 12,
+          "bytes": 18,
+          "sha256": "359e4f2745410726d5bac3b2b5dc7ef493455058f264328e293f6229a2a5b6c6"
+        },
+        {
+          "tag": 2,
+          "bytes": 30,
+          "sha256": "23a16150059f066512de82bfa0e8da76d5b5441af913cf007f67d06aca61720b"
+        },
+        {
+          "tag": 7,
+          "bytes": 78,
+          "sha256": "d91b8f9f14f5b0451de0957925ae4295cabcad28909dc48a9165022ce3d4f078"
+        },
+        {
+          "tag": 9,
+          "bytes": 6,
+          "sha256": "71f916172a9d4a3024bec3ca2b402fe22dca8884632041a7f2a91eedb84ec874"
+        },
+        {
+          "tag": 10,
+          "bytes": 30,
+          "sha256": "0fb9759c5d6e7a9b215c2dc1eeb48c12679ff2360f34bea3a452edc8445b7228"
+        },
+        {
+          "tag": 13,
+          "bytes": 6,
+          "sha256": "5d26dfd281515828454168f3383fb2d334874fab3b25bd6016cc3f635ab7495b"
+        },
+        {
+          "tag": 15,
+          "bytes": 6,
+          "sha256": "52817bd9239cd8120572e00c6e911b487de5df5e53efd739b4e0ab07be3a5c28"
+        },
+        {
+          "tag": 4,
+          "bytes": 294,
+          "sha256": "27f7f25542fc877a52a2a498354224a753cc1761b39a4e870605ba0582fadbf7"
+        },
+        {
+          "tag": 4,
+          "bytes": 294,
+          "sha256": "fe629dbcd653e81318d7d14eae406030842948dd21a03e4826c51225865c3ed2"
+        },
+        {
+          "tag": 4,
+          "bytes": 294,
+          "sha256": "38ca7df7a3f0bd3837766e3717d556d73e6354ac3d6f67bc024eb8e7a1073427"
+        },
+        {
+          "tag": 4,
+          "bytes": 230,
+          "sha256": "9cb3d537a71c801046b4bf9c78a0cddeb83b009974dcd21ce54a1411b6583dee"
+        },
+        {
+          "tag": 4,
+          "bytes": 166,
+          "sha256": "6c72a1aa9d729e5f90f7530f92844b9987cfe4c3eacc003e6c7e86db71e87a39"
+        },
+        {
+          "tag": 4,
+          "bytes": 134,
+          "sha256": "219c738f644e4d62dce379e0424f11a170a0dd5cfbbde31d6f119bbdcf12da8b"
+        },
+        {
+          "tag": 8,
+          "bytes": 54,
+          "sha256": "ed1081cd62fbfb58f0193f7579d1dbd474da38cc5575cc879ebc641a65447455"
+        },
+        {
+          "tag": 11,
+          "bytes": 34,
+          "sha256": "cbd32d6c30c394faf020c4dfd4a7a1663b601506a9e66ab19cb0a93b86863396"
+        },
+        {
+          "tag": 12,
+          "bytes": 6,
+          "sha256": "e74c1718e84e304b776921621b0e998ffec13d0561b3d2e48764938fde37ae17"
+        },
+        {
+          "tag": 16,
+          "bytes": 6,
+          "sha256": "50ea13b80666ad64fcbe48e59283f665d3e0108699054a80a7ef7ce351377162"
+        },
+        {
+          "tag": 65535,
+          "bytes": 6,
+          "sha256": "c5d0356d6e6e9d0e6a0fdc00a0357d822cbbf76d257e5d702f8ccf13f70dc8fa"
+        }
+      ]
+    }
+  ],
+  "all_1548_faces_checked": true
+}

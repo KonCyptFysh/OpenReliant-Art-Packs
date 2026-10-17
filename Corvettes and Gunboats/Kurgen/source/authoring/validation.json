@@ -1,0 +1,228 @@
+{
+  "source": "${KURGEN_WORKSPACE}/kurgen_source_review.blend",
+  "source_sha256": "3cccd1580696c86cd20c6561a3fd356360797ee5d5c3f50bd35573ec7625b329",
+  "scene": "${KURGEN_WORKSPACE}/kurgen_worn_pbr_v1.blend",
+  "scene_sha256": "63c0cf6638e5eb5ed1be05455b88144bd6b2c21b38e5a884ec72f1fb71c1de8c",
+  "active_uv": "Kurgen_Delivery_UV_v1",
+  "original_geometry_normals_and_uv_layers_preserved": true,
+  "uv_repairs": [],
+  "maps": {
+    "hull": {
+      "basecolor": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_hull_basecolor_v1.png",
+        "sha256": "6fc8e9abfc1b50198cdcfe04555d2bc16d6c9c693661c1f71d1213bba204ac90",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_hull_normal_v1.png",
+        "sha256": "5eaf52796d68190ec083cc7b13ce06d7f3b9418adc70c011996db9d6501204af",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_hull_roughness_v1.png",
+        "sha256": "bff1c0ce08bdb053509766ebe53e9f71ffe552865a67c445d7b48afb8e12f86c",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_hull_metallic_v1.png",
+        "sha256": "24193bdc1b5eec763db1d11ee5cb214cae0f48c021d3d8c815beddd87fdf6793",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_hull_height_v1.png",
+        "sha256": "a9d3e876dfd463f24d2c70fb7361fc63f3f77f7141050f1017dbd24aa5770585",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_hull_flat_graphics_v1.png",
+        "sha256": "d07bbacd8fdd302897ae2d61d771b71bd7bf3589b7b54457cf72f67fa59f0447",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_hull_structure_v1.png",
+        "sha256": "eb3510a6f4be3c12d4e678e83a9fef810e2530d5ec2edd7ff7fd21503a234a32",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "fins": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_hull_fins_v1.png",
+        "sha256": "1c7d6e51c901e901f468b5dfe7b6dfac220b4dc169ef7cc3246124a27e854ab2",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "panels": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_hull_panels_v1.png",
+        "sha256": "67193b62c2a5bfffba11e6d039914d7b134fc71a7e16c85ee5b5eaf69e0f92d7",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "paint": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_hull_paint_v1.png",
+        "sha256": "8ec5bb85d4a226a7acd801535b844490fbede8f9c29c7acab58a571633141960",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    },
+    "turret": {
+      "basecolor": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_basecolor_v1.png",
+        "sha256": "1dea7db59f5d7bbc0b3ba955f51fc17977af9d5994085c51e7fc2fc8ab38ea30",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_normal_v1.png",
+        "sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_roughness_v1.png",
+        "sha256": "b7e7266ff3b9f11d78c90cea12113d3c92301c47f06e19b7839aca9b1498ab41",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_metallic_v1.png",
+        "sha256": "4a3acb634a94abd780aa98d8318add060933a7e9c87b3a38f37b6e9dc2ccf713",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_height_v1.png",
+        "sha256": "b01484406820b0c280aacfa133038a7a8a134279dd5ae94a3dd272ba48ee442f",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_flat_graphics_v1.png",
+        "sha256": "15a3407a52007b12eb9efdc1f100ae928e351d4df1aad5c23f34c52cf155b6e5",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_structure_v1.png",
+        "sha256": "e3e62e7256b2aaf2317c10d1251d783522d63b0ed2a9ebc45269e11525e4d350",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "fins": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_fins_v1.png",
+        "sha256": "73c77aaf0e91782c07c7e5a68b612a7df958fe22538a025e948386d084e71be2",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "panels": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_panels_v1.png",
+        "sha256": "b0cd4243f1ba78dc5f3f7d2068dee24503dc1e039fb79c97ff8aa3f95457d6d6",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "paint": {
+        "path": "${KURGEN_WORKSPACE}/maps/kurgen_turret_paint_v1.png",
+        "sha256": "118e17401c1b814eade1a3a04318da8f40ff86771339a5a7ffabf9c3fe4809bc",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    }
+  },
+  "structural_height_only": true,
+  "mounted_turret_instances": [
+    {
+      "name": "Mount1_Rus Sml tur base",
+      "faces": 14,
+      "vertices": 10
+    },
+    {
+      "name": "Mount1_Rus Sml Gun 2",
+      "faces": 28,
+      "vertices": 16
+    },
+    {
+      "name": "Mount1_Rus Sml Gun 1",
+      "faces": 28,
+      "vertices": 16
+    },
+    {
+      "name": "Mount2_Rus Sml tur base",
+      "faces": 14,
+      "vertices": 10
+    },
+    {
+      "name": "Mount2_Rus Sml Gun 2",
+      "faces": 28,
+      "vertices": 16
+    },
+    {
+      "name": "Mount2_Rus Sml Gun 1",
+      "faces": 28,
+      "vertices": 16
+    },
+    {
+      "name": "Mount3_Rus Sml tur base",
+      "faces": 14,
+      "vertices": 10
+    },
+    {
+      "name": "Mount3_Rus Sml Gun 2",
+      "faces": 28,
+      "vertices": 16
+    },
+    {
+      "name": "Mount3_Rus Sml Gun 1",
+      "faces": 28,
+      "vertices": 16
+    }
+  ],
+  "painted_graphics_flat": true,
+  "emissives": "deferred",
+  "wreck": "original DAM_1 retained",
+  "runtime_visual_validation": "pending_user_review",
+  "mounted_instance_transform": "Verified row-major native attachment transforms; independent runtime models preserved"
+}

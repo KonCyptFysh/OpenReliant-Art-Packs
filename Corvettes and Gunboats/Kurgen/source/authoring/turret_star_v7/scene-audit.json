@@ -1,0 +1,26 @@
+{
+  "source": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Kurgen/worn/kurgen_worn_pbr_v3.blend",
+  "mesh_uv_normals_transforms_material_assignments_unchanged": true,
+  "mesh_signatures": {
+    "dest": "ea4138564c4271a0ac67b978fcd2ab74c448f4f70307e85edf5da6f20e1b3eb3",
+    "Kurgan_Body": "6b9e942a0ccd24a82ca53ea662bfdc3f544b74c0f4c7131a7418e127e6693c39",
+    "Mount1_Rus Sml Gun 1": "c5ae0e5011cf04425b46c333583e704135a219c5899ed404a60bb39f01eef112",
+    "Mount1_Rus Sml Gun 2": "eb92a78784a1c1b500cc557134e1dad95103ecdeef1157f77be1b881ea58efbd",
+    "Mount1_Rus Sml tur base": "640d11a226c2d901beb0db0a19fa16a829c4b2ec75ad1d7d6c2c5b0117981de0",
+    "Mount2_Rus Sml Gun 1": "21c829f8737b4344d84641b7c00c86ab89bf52cf5061f72bd6f8c5a764fe559a",
+    "Mount2_Rus Sml Gun 2": "027a2242cfe03ab70215a22e70a6da3944083392c3ac0b8e72511c6ace710532",
+    "Mount2_Rus Sml tur base": "d12701dbda2e5b1a810fd2c3f93cd4788ae8568adebfb52537e0ad2a6335d129",
+    "Mount3_Rus Sml Gun 1": "9d13056f29e213288fadc88a2ed876418934b06d6646fd4fa1d4260eb4572571",
+    "Mount3_Rus Sml Gun 2": "518f57978455fc94535c6f99fe8baa3488975721ccff2da0065606c14ac48adb",
+    "Mount3_Rus Sml tur base": "397460e19a7e5ffe4e33542f2177b16413f0e873501b62f7c6daf6666a8dc17f"
+  },
+  "changed_image_nodes": [
+    {
+      "material": "Kurgen_Worn_turret_PBR_v1",
+      "node": "Delivered basecolor",
+      "old_image": "kurgen_turret_basecolor_v1.png",
+      "new_image": "kurgen_turret_basecolor_v7.png"
+    }
+  ],
+  "packed_texture_sha256": "2d7745e2f48107547695667d01569ade0582651f56fe4ae71f9a62bf2e915c23"
+}

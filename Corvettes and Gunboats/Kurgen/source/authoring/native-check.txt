@@ -1,0 +1,3 @@
+ok: 2 parts, 682 vertices, 1316 faces
+bounds: 2 model_space
+rewritten byte for byte

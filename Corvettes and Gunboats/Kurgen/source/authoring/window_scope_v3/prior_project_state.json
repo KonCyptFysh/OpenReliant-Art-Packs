@@ -1,0 +1,169 @@
+{
+  "ship": "Kurgen",
+  "catalogue_id": "kurgen",
+  "native_file": "Rus_Kurgan.SHP",
+  "ship_type": 60,
+  "active_variant": "worn",
+  "status": "windows_and_relief_revision_ready_for_review",
+  "user_approved": false,
+  "published": false,
+  "originals": [
+    {
+      "path": "source/10_Rus_STUR.SHP",
+      "bytes": 29100,
+      "sha256": "6d7bbfeca1b81c9a8baef005e179327945bdf73935fbc71f6a0514e63e68b143"
+    },
+    {
+      "path": "source/Rus_Kurgan.SHP",
+      "bytes": 137982,
+      "sha256": "bdb62a254cb21d1a8ed1b18264604f2ff7ca018f289404edf58c1a33255faf3a"
+    },
+    {
+      "path": "source/Rus_Kurgan_dest.SHP",
+      "bytes": 18946,
+      "sha256": "56afcf3e4be541620bdc6c4c9cfb8bfd2490dcb8eaad61279ba44fdc37278da3"
+    },
+    {
+      "path": "source/dam_1.png",
+      "bytes": 17642,
+      "sha256": "fcacbed0e1d689b0ed27bbd1d1a269028af44170e05bba383c970b2db94ec0cf"
+    },
+    {
+      "path": "source/kurgen.png",
+      "bytes": 58476,
+      "sha256": "5aa9578587ce155fe0897ddda99826ee4feede2ca52dedcf30a0eb178d64d2b4"
+    },
+    {
+      "path": "source/rus_turret.png",
+      "bytes": 14885,
+      "sha256": "a58608c14fb092893e1658f1f390720cc70d253d82f0ff4226e8d344ee2a5d3c"
+    }
+  ],
+  "pbr_release_gate": {
+    "status": "satisfied",
+    "engine": "Official OpenReliant 0.18.0 installed; pack baseline 0.8.1"
+  },
+  "progress": {
+    "texture_uv": "window_apertures_reauthored_rest_preserved",
+    "pbr_authoring": "v2_window_emissives_and_stronger_hull_relief_complete",
+    "pbr_tuning": "v2_authoring_views_checked_runtime_pending",
+    "engine_validation": "0_8_1_and_0_18_0_non_visual_checks_passed"
+  },
+  "loadout_texture_variants": "engine_generated_no_g_or_r_copies",
+  "updated_at_utc": "2026-10-16T23:44:23.927436+00:00",
+  "latest_scene": "${KURGEN_WORKSPACE}/kurgen_worn_pbr_v2.blend",
+  "upright_scene": "${KURGEN_WORKSPACE}/kurgen_worn_pbr_v2.blend",
+  "latest_deliverables": "${KURGEN_WORKSPACE}/exports/openreliant_0_8_v2",
+  "repository_asset": "${ART_PACK_REPOSITORY}/Corvettes and Gunboats/Kurgen",
+  "review_launcher": "${OPENRELIANT_HOME}/launch-kurgen-test.sh",
+  "engine_validation": {
+    "build": "Official OpenReliant 0.18.0",
+    "minimum": "0.8.1",
+    "non_visual_checks": "passed",
+    "visual_review": "pending_user_revision_1_1",
+    "game_launched": false,
+    "evidence": "${KURGEN_WORKSPACE}/work/windows_relief_v2/compatibility.json"
+  },
+  "current_manifest": "${KURGEN_WORKSPACE}/manifest.json",
+  "shared_component_scope": "10_Rus_STUR.SHP small turret upgrade applies wherever used",
+  "baseline_user_feedback": "First-pass appearance positively reviewed; user requested window emissives and stronger hull depth on 2026-10-17.",
+  "window_and_relief_revision": {
+    "artwork_revision": "1.1",
+    "scene": "${KURGEN_WORKSPACE}/kurgen_worn_pbr_v2.blend",
+    "maps": {
+      "basecolor": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_basecolor_v2.png",
+        "sha256": "c179255a44807fef6330155032fa49f5152fa14663735a70960a0571ec2a0d93",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_normal_v2.png",
+        "sha256": "8e2c48ce97fcadde77f570c3d4bf25945d5cda284e51188730945ccb4905d232",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_roughness_v2.png",
+        "sha256": "710a5bd88ec844c72ffbb8abb7456b60b97f58c644f499b0626b3931d48d6b3c",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_metallic_v2.png",
+        "sha256": "cacea5614ff97ea7184fadf5d545dfe7ccd1e9c8158083709ca7a44347495dcb",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "emissive": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_emissive_v2.png",
+        "sha256": "e0a5cc6c5ff2b8c26364ce60077ae72562e5046b5bc13e96e30a8e6c31d98b96",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_height_v2.png",
+        "sha256": "10b4354a73f2cf26b32e11bd5503b43acea8ae055e56f6ae7ba0f77e1cadc5da",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "window_aperture": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_window_aperture_v2.png",
+        "sha256": "11661002a6122e8a017aa20dfcf308c2322bbe4f743850707055dd18b2997c45",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "window_glass": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_window_glass_v2.png",
+        "sha256": "a74fef2929c711f56440cf57afdbd8b90d316ae537a00bfb09c740e60a67eb96",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_flat_graphics_v2.png",
+        "sha256": "9d5a534f226caf64f7079b462e4719134a16114c9d5b0c387c8fcef7bd8c10ec",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "panels": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_panels_v2.png",
+        "sha256": "7d2e0d7b0ae43027c3e96912f787d2ee8ad5a2656d6f3373eedf284db9a3ad88",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_structure_v2.png",
+        "sha256": "399129d4592a2deb65d4153a1db9aa7ebcd3a0c2a1b26a507160ef518c4a9f2f",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    },
+    "checks": "${KURGEN_WORKSPACE}/work/windows_relief_v2/map_checks.json",
+    "panel_depth_multiplier": 4.2,
+    "machinery_depth_multiplier": 2.8,
+    "emission": "window panes",
+    "turret_materials_unchanged": true
+  }
+}

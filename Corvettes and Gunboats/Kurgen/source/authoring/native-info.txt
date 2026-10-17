@@ -1,0 +1,43 @@
+version:  107
+flags:    components=true cloak=false
+parts:    2
+vertices: 682
+faces:    1316
+arcs:     3
+bounds:   (-903,-1113,-3633) to (1420,756,3364), 2323 x 1869 x 6996
+
+[  0] Kurgan Body                        type  1  parent  -1  link 1
+        lod 0:   196 vertices   388 faces   1 materials  beyond 50000
+        lod 1:   111 vertices   218 faces   1 materials  beyond 100000
+        lod 2:    64 vertices   124 faces   1 materials  beyond 150000
+        lod 3:    38 vertices    72 faces   1 materials  beyond 200000
+        lod 4:    24 vertices    44 faces   1 materials  beyond 250000
+        lod 5:    18 vertices    32 faces   1 materials  beyond 5000000
+        31 nodes, 12 attachments, 1 clips, 2 point lists, 0 triggers
+          points kind 2: 33
+          points kind 5: 3
+          clip '' length 16000 mode 0, 0 keyframes, 0 events
+          gun 1 at (-29,-255,3496)
+          gun 1 at (-29,-582,-2550)
+          gun 1 at (-29,838,33)
+          engine glow 2 at (-670,201,-2142)  id 1 size (300,300,-800)
+          engine glow 2 at (628,213,-2142)  id 1 size (300,300,-800)
+          light 4 at (-29,63,-2572)  id 3 brightness 1.00 range 2000 size (0.0,0.0)
+          light 4 at (-424,-227,-2890)  id 3 brightness 1.00 range 500 size (50.0,50.0)  blinks 1000 on, 1000 off, from 0
+          light 4 at (352,-227,-2890)  id 3 brightness 1.00 range 500 size (50.0,50.0)  blinks 1000 on, 1000 off, from 0
+          light 4 at (310,-294,4049)  id 3 brightness 1.00 range 500 size (50.0,50.0)  blinks 1000 on, 1000 off, from 1000
+          light 4 at (-306,-293,4047)  id 3 brightness 1.00 range 500 size (50.0,50.0)  blinks 1000 on, 1000 off, from 1000
+          missile 0 at (-333,713,100)
+          missile 0 at (315,702,100)
+[  1] dest                               type  1  parent  -1  link 1
+        lod 0:    86 vertices   168 faces   1 materials  beyond 50000
+        lod 1:    59 vertices   114 faces   1 materials  beyond 100000
+        lod 2:    39 vertices    74 faces   1 materials  beyond 150000
+        lod 3:    25 vertices    46 faces   1 materials  beyond 200000
+        lod 4:    15 vertices    26 faces   1 materials  beyond 250000
+        lod 5:     7 vertices    10 faces   1 materials  beyond 5000000
+        15 nodes, 0 attachments, 1 clips, 1 point lists, 0 triggers
+          points kind 1: 8
+          clip '' length 16000 mode 0, 0 keyframes, 0 events
+
+textures (2): KURGEN DAM_1

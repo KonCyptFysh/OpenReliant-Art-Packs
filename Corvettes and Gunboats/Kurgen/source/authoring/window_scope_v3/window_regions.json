@@ -1,0 +1,53 @@
+{
+  "coordinate_size": [
+    256,
+    256
+  ],
+  "windows": [
+    {
+      "name": "side_bank_long",
+      "shape": "rect",
+      "box": [
+        98.2,
+        131.0,
+        104.1,
+        167.6
+      ]
+    },
+    {
+      "name": "side_bank_short",
+      "shape": "rect",
+      "box": [
+        98.2,
+        172.0,
+        104.1,
+        180.6
+      ]
+    },
+    {
+      "name": "forward_bank_short",
+      "shape": "rect",
+      "box": [
+        184.9,
+        195.7,
+        190.7,
+        207.0
+      ]
+    },
+    {
+      "name": "forward_bank_long",
+      "shape": "rect",
+      "box": [
+        184.9,
+        212.2,
+        191.0,
+        236.8
+      ]
+    }
+  ],
+  "policy": "Only these aperture pixels may change in the accepted hull albedo; no other base-colour editing. Frames excluded from emission.",
+  "height_encoding": "height = (stored * 8) - 4",
+  "panel_depth_multiplier": 4.2,
+  "mechanical_recess_multiplier": 2.8,
+  "radiator_rib_multiplier": 3.0
+}

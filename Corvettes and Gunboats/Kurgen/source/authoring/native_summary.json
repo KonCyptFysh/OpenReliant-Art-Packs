@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Kurgan Body",
+    "parent": -1,
+    "origin": [
+      216.6822967529297,
+      -142.77430725097656,
+      -742.7003784179688
+    ],
+    "stored_lod0": 388,
+    "visible_lod0": 388,
+    "tracks": [
+      {
+        "name": "",
+        "length": 16000,
+        "mode": 0,
+        "keys": []
+      }
+    ],
+    "attachments": 12
+  },
+  {
+    "name": "dest",
+    "parent": -1,
+    "origin": [
+      433.37823486328125,
+      -154.6304168701172,
+      158.9197235107422
+    ],
+    "stored_lod0": 168,
+    "visible_lod0": 168,
+    "tracks": [
+      {
+        "name": "",
+        "length": 16000,
+        "mode": 0,
+        "keys": []
+      }
+    ],
+    "attachments": 0
+  }
+]

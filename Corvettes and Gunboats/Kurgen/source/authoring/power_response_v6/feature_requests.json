@@ -1,0 +1,12 @@
+{
+  "requests": [
+    {
+      "id": "engine-light-spill",
+      "status": "deferred-not-submitted",
+      "requested_on": "2026-10-17",
+      "intent": "Engine lighting should spill onto nearby ships, with material-dependent reflections visible when approaching closely from behind; particularly important for larger ships.",
+      "desired_control": "Per-light intensity driven by smooth thrust demand and retained nozzle heat.",
+      "verified_api": "Official OpenReliant 0.18.0 supports native point lights but ShipAttachment has no per-light brightness setter. Recheck at implementation time."
+    }
+  ]
+}

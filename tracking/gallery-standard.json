@@ -3,7 +3,8 @@
   "categories": [
     "alliance-fighters",
     "coalition-fighters",
-    "torpedo-bombers"
+    "torpedo-bombers",
+    "corvettes-and-gunboats"
   ],
   "engine": "Official OpenReliant 0.8.1",
   "watch_from": [
@@ -29,5 +30,9 @@
   "image_rule": "Upright, nose facing down-right; whole silhouette with breathing room. Crop and downsample only. No mirroring, painting, compositing or substituted backgrounds.",
   "supplemental_rule": "Animated states use the same camera direction and photo treatment; the closed/folded view is the first photo.",
   "scope": "Published ship photos and homepage ship hero. HUD artwork and the purpose-built ordnance detail gallery retain their own presentation.",
-  "authorization": "User requested matching fresh gallery photos and persistence for future Git publications, 12 October 2026, Australia/Melbourne."
+  "authorization": "User requested matching fresh gallery photos and persistence for future Git publications, 12 October 2026, Australia/Melbourne.",
+  "engine_overrides": {
+    "kurgen": "Official OpenReliant 0.18.0"
+  },
+  "engine_override_reason": "Kurgen needs the official 0.18.0 surface API. Camera, nebula, framing and capture provenance are unchanged."
 }

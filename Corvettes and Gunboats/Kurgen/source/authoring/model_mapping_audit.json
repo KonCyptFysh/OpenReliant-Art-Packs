@@ -1,0 +1,13 @@
+{
+  "ship_type": 60,
+  "model": "Rus_Kurgan.SHP",
+  "hull_parts": 2,
+  "detail_levels": 6,
+  "gun_mounts": 3,
+  "shared_turret": "10_Rus_STUR.SHP",
+  "shared_turret_parts": 4,
+  "hull_animation": "No moving hull clips",
+  "turret_animation": "Original native aiming and barrel fire/recoil tracks preserved",
+  "scope": "The Coalition small-turret model is shared. Its visual restoration also applies wherever that same model is mounted. No weapon stats or attachment IDs changed.",
+  "wreck": "Original DAM_1 texture and wreck geometry preserved. Separate Rus_Kurgan_dest.SHP is not overridden."
+}

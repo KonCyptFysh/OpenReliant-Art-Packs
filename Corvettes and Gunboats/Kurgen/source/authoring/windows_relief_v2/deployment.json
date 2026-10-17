@@ -1,0 +1,83 @@
+{
+  "status": "installed_ready_for_review",
+  "installed_at_utc": "2026-10-16T23:44:23.927436+00:00",
+  "repository_asset": "${ART_PACK_REPOSITORY}/Corvettes and Gunboats/Kurgen",
+  "installed_mod": "${OPENRELIANT_HOME}/game-data/mods/116-kurgen-worn-v1",
+  "runtime_files": [
+    {
+      "path": "mods/116-kurgen-worn-v1/10_Rus_STUR.SHP",
+      "bytes": 29100,
+      "sha256": "e909844676e9f955886885bd46480dc01b24aa79a83414e73a81f27ded6beb1f"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/Rus_Kurgan.SHP",
+      "bytes": 137982,
+      "sha256": "924ea928f0a5a4d2de73fbb434b06e2f8101c5b2fcd03946bf46f09655038cf4"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/kurgen_inspection.luau",
+      "bytes": 584,
+      "sha256": "158efa2621f9c34e698d309b3a8fdcbd5bd3dbf26b464b146db20967552d2870"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/license.txt",
+      "bytes": 247,
+      "sha256": "745fe9b44e424f4a33274e4af4017f590744dfb097be363415d24b1598056e4f"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/mission962.dte",
+      "bytes": 850958,
+      "sha256": "25a86976826f7c7eee58d2334e98cc444d16c0b7347f993d4a6989c003ff46ff"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/mod.ini",
+      "bytes": 321,
+      "sha256": "ca4f1da7ab575acca0d3195fa0e1f02f770756803ccf6b12b74b4f21c2bcac1e"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/mod.png",
+      "bytes": 889612,
+      "sha256": "b6f977fb7ac64209ddaf325d563cc26b44d84c52f674f16330e66c9afce58226"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_hull.png",
+      "bytes": 17639361,
+      "sha256": "c179255a44807fef6330155032fa49f5152fa14663735a70960a0571ec2a0d93"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_hull_emissive.png",
+      "bytes": 597567,
+      "sha256": "e0a5cc6c5ff2b8c26364ce60077ae72562e5046b5bc13e96e30a8e6c31d98b96"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_hull_normal.png",
+      "bytes": 887862,
+      "sha256": "8e2c48ce97fcadde77f570c3d4bf25945d5cda284e51188730945ccb4905d232"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_hull_orm.png",
+      "bytes": 8005674,
+      "sha256": "18c17f2791a7fd1b3ede635f025f59ccaeb2eb1d9cebe50ddad0ef2e8eec85f9"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_turret.png",
+      "bytes": 18770454,
+      "sha256": "1dea7db59f5d7bbc0b3ba955f51fc17977af9d5994085c51e7fc2fc8ab38ea30"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_turret_normal.png",
+      "bytes": 250943,
+      "sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693"
+    },
+    {
+      "path": "mods/116-kurgen-worn-v1/orku1_turret_orm.png",
+      "bytes": 7998953,
+      "sha256": "787de7ca17f8cd9216e5fc83092f0842b352941cb42c266f58c5b42db8ef0d0a"
+    }
+  ],
+  "exact_repository_bytes_verified": true,
+  "launcher": "${OPENRELIANT_HOME}/launch-kurgen-test.sh",
+  "game_launched": false,
+  "runtime_visual_review": "pending_user_revision_1_1",
+  "rollback": "${KURGEN_WORKSPACE}/work/windows_relief_v2/installed_before_v2"
+}

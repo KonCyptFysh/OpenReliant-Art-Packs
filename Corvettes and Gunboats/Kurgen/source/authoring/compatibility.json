@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "scope": "Non-visual native-format and texture-loader checks",
+  "checked_at_utc": "2026-10-16T23:02:41.523103+00:00",
+  "minimum_engine": "0.8.1",
+  "review_engine": "Official OpenReliant 0.18.0",
+  "review_engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+  "native_checks": [
+    {
+      "engine": "openreliant-v0.8.1-linux-x86_64",
+      "file": "Rus_Kurgan.SHP",
+      "exit_code": 0,
+      "output": "ok: 2 parts, 682 vertices, 1316 faces\nbounds: 2 model_space\nwritten again: the same bytes\n",
+      "sha256": "924ea928f0a5a4d2de73fbb434b06e2f8101c5b2fcd03946bf46f09655038cf4"
+    },
+    {
+      "engine": "openreliant-v0.8.1-linux-x86_64",
+      "file": "10_Rus_STUR.SHP",
+      "exit_code": 0,
+      "output": "ok: 4 parts, 176 vertices, 232 faces\nbounds: 4 model_space\nwritten again: the same bytes\n",
+      "sha256": "e909844676e9f955886885bd46480dc01b24aa79a83414e73a81f27ded6beb1f"
+    },
+    {
+      "engine": "openreliant-v0.8.1-linux-x86_64",
+      "file": "mission962.dte",
+      "exit_code": 0,
+      "output": "rooms: laid out otherwise than the template\nrecords: the same\nscript: 1 routines assembled again the same, 0 with bytes nothing reaches\n",
+      "sha256": "25a86976826f7c7eee58d2334e98cc444d16c0b7347f993d4a6989c003ff46ff"
+    },
+    {
+      "engine": "openreliant-v0.18.0-linux-x86_64",
+      "file": "Rus_Kurgan.SHP",
+      "exit_code": 0,
+      "output": "ok: 2 parts, 682 vertices, 1316 faces\nbounds: 2 model_space\nrewritten byte for byte\n",
+      "sha256": "924ea928f0a5a4d2de73fbb434b06e2f8101c5b2fcd03946bf46f09655038cf4"
+    },
+    {
+      "engine": "openreliant-v0.18.0-linux-x86_64",
+      "file": "10_Rus_STUR.SHP",
+      "exit_code": 0,
+      "output": "ok: 4 parts, 176 vertices, 232 faces\nbounds: 4 model_space\nrewritten byte for byte\n",
+      "sha256": "e909844676e9f955886885bd46480dc01b24aa79a83414e73a81f27ded6beb1f"
+    },
+    {
+      "engine": "openreliant-v0.18.0-linux-x86_64",
+      "file": "mission962.dte",
+      "exit_code": 0,
+      "output": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds\n",
+      "sha256": "25a86976826f7c7eee58d2334e98cc444d16c0b7347f993d4a6989c003ff46ff"
+    }
+  ],
+  "texture_loader": {
+    "version": "0.8.1 baseline",
+    "probe_binary_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+    "output": [
+      "PASS orku1_hull: base, green, red; normal and ORM inherited byte-for-byte; generated colour channels verified\n",
+      "PASS orku1_turret: base, green, red; normal and ORM inherited byte-for-byte; generated colour channels verified\n"
+    ]
+  },
+  "duplicated_colour_textures": false,
+  "game_launched": false,
+  "runtime_visual_review": "pending_user"
+}

@@ -1,0 +1,29 @@
+{
+  "parts": [
+    {
+      "part": "Kurgan_Body",
+      "vertices": 196,
+      "faces": 388,
+      "visible_faces": 388
+    },
+    {
+      "part": "dest",
+      "vertices": 86,
+      "faces": 168,
+      "visible_faces": 168
+    }
+  ],
+  "source_sha256": "bdb62a254cb21d1a8ed1b18264604f2ff7ca018f289404edf58c1a33255faf3a",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ],
+    [
+      128,
+      128
+    ]
+  ],
+  "geometry_signature": "b177889cfdfc3a6f8096ef04767103a1fce316e0ab61637797d7ca37bafae03a"
+}

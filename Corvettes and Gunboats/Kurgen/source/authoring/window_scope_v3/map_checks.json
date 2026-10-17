@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "materials": [
+    {
+      "role": "hull",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "normal_max_unit_error": 0.005597591400146484,
+      "orm_verified": true
+    },
+    {
+      "role": "bridge",
+      "dimensions": [
+        512,
+        512
+      ],
+      "normal_max_unit_error": 0.005414009094238281,
+      "orm_verified": true
+    },
+    {
+      "role": "bridge_lod",
+      "dimensions": [
+        256,
+        1024
+      ],
+      "normal_max_unit_error": 0.005041539669036865,
+      "orm_verified": true
+    }
+  ],
+  "changed_main_albedo_percent": 0.7680177688598633,
+  "main_albedo_outside_authorized_side_windows_identical_to_first_pass": true,
+  "emission_outside_authorized_regions_zero": true,
+  "restored_vent_regions": {
+    "nose_top_vents": [
+      170,
+      9,
+      245,
+      49
+    ],
+    "nose_side_vents": [
+      63,
+      77,
+      185,
+      101
+    ],
+    "rear_reused_strip": [
+      38,
+      102,
+      46,
+      123
+    ],
+    "under_rear_turret": [
+      64,
+      173,
+      92,
+      182
+    ]
+  },
+  "vent_ribs_authored": true,
+  "flat_paint_normals_preserved": true,
+  "bridge_front_faces_only": true,
+  "geometry_normals_attachments_animations_preserved": true,
+  "emissive_loader": {
+    "engine_source": "official 0.8.1",
+    "probe_sha256": "e8e8fbd2198fe371fe671981e8eed18a60db888b89bd5040bd87c4f5f423c5ea",
+    "output": [
+      "EMISSIVE PASS orku1_hull: 447 lit, 65089 black texels, 9 mip levels\nPASS orku1_hull: base, green, red; normal and ORM inherited byte-for-byte; generated colour channels verified\n",
+      "EMISSIVE PASS orku3_bridge: 4677 lit, 60859 black texels, 9 mip levels\nPASS orku3_bridge: base, green, red; normal and ORM inherited byte-for-byte; generated colour channels verified\n",
+      "EMISSIVE PASS orku3_bridge_lod: 2691 lit, 13693 black texels, 9 mip levels\nPASS orku3_bridge_lod: base, green, red; normal and ORM inherited byte-for-byte; generated colour channels verified\n"
+    ]
+  },
+  "no_generated_colour_variant_files": true,
+  "runtime_visual_review": "pending_user"
+}

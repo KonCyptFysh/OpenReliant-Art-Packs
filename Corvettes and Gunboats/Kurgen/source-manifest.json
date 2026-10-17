@@ -1,0 +1,1242 @@
+{
+  "status": "approved-release-snapshot",
+  "ship": "Kurgen",
+  "asset_revision": "1.7",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 2952,
+      "sha256": "71232a78b66d454ce07700bf0e11751222c5f717e270dffa425c04bf7a9a3823"
+    },
+    {
+      "path": "source/authoring/authoring_review.json",
+      "bytes": 564,
+      "sha256": "9b22a77f539934f806b2c580be29ce7b3f88b26e8fb2e255a8eb3eec09d444dd"
+    },
+    {
+      "path": "source/authoring/baseline_audit.json",
+      "bytes": 591,
+      "sha256": "c164f52a7cb2841760feda223393f4847ec8ab5a08a7b271278d8345d991fd87"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 13973,
+      "sha256": "9366ff7fd6219a9484cf1b5048fd84dc931e0a417103d924f2a048eea2783780"
+    },
+    {
+      "path": "source/authoring/build_source.py",
+      "bytes": 7420,
+      "sha256": "be8320a4065bfce4dd1c30d906779ebd5e33b559243495f1878c6614383cf1ad"
+    },
+    {
+      "path": "source/authoring/compatibility.json",
+      "bytes": 3107,
+      "sha256": "eeb4c5b0bd34734f87f5af43dc5623720c87427dcaaac3ff50a9ef77f9e11d51"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/LICENSE-OpenReliant.txt",
+      "bytes": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/LIGHTING_POC.md",
+      "bytes": 5488,
+      "sha256": "3c1bbc0b69761c808b37520f2bce7cacd8e2cdeb259ae1232ede3ce11dd06b16"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/audit_nozzles.py",
+      "bytes": 1485,
+      "sha256": "8e5b36878084ad96481c5d7ad1b3a202fa13bb6d0f58e4abc1888957f8dc4c60"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/baseline-Rus_Kurgan-v3.SHP",
+      "bytes": 138366,
+      "sha256": "33cc9838edae6a938c2d8d116a8e860ca44eb561be0e5f1f51aefadd57b93c5c"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/kurgen_inspection.luau",
+      "bytes": 2076,
+      "sha256": "9ecb345c4f84a087ae12e0da45bce24a3e9a46d7fea849a612c5c85675b7c65a"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/kurgen_lighting.luau",
+      "bytes": 1755,
+      "sha256": "88e8137b9dba91a3380a8fb23d0960033b0b1f1ca93b03011635c1fd81eab168"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/kurgen_response.luau",
+      "bytes": 2760,
+      "sha256": "ad915f87c82f4b7a336e4a9c49d8f21b09528ec57133d448ca63e77a375bd6a1"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/kurgen_surface.luau",
+      "bytes": 2087,
+      "sha256": "7157417e071973f66242f0cfe42cb61bdf5568de755268defc71bc2a56701637"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/kurgen_systems.glsl",
+      "bytes": 4480,
+      "sha256": "0fc962681db7666d869331202b8707bfb514acc105e50913785a1600d24a1638"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/native_preservation.json",
+      "bytes": 584,
+      "sha256": "dbb470405042758d207ef8b2267975b576f08c285f330243832b559d111af3d6"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/nozzle_surface_audit.json",
+      "bytes": 944,
+      "sha256": "ee581441dbefb312fdd7de90703b26e7f251b1d6dd2ffe932187b01186c035d3"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/prepare_probe.py",
+      "bytes": 2743,
+      "sha256": "27920e83fe9b872b6de58ad7d3b283b9d76761781d1001e73cabc09ccca351b7"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/test_response.luau",
+      "bytes": 2985,
+      "sha256": "5eb8458b02a920feb5a0e23c63b26d364d2c45fca747da0fd27873374adb7bc5"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/test_runtime.luau",
+      "bytes": 3392,
+      "sha256": "1fa7e14aedc4da75411442de692de0df5da6737cd9e4ac1054054d7e7beb774a"
+    },
+    {
+      "path": "source/authoring/dynamic_lighting_v4/validation.json",
+      "bytes": 4418,
+      "sha256": "ae8f5d96c45429a40bf6a0e8d93d797c28e2208c7c60d1cd058d5f4c9c532d9b"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 9195,
+      "sha256": "12cee9066c1a8d3f9ecdcb72ff2f9da0803883096d4ef2af76c72b66b43fca8b"
+    },
+    {
+      "path": "source/authoring/final-review-verification.json",
+      "bytes": 375,
+      "sha256": "4a63bb142e5a676ea61a7d8f77d1040e06d9db31fdb6d27b709558dc775a82c8"
+    },
+    {
+      "path": "source/authoring/finish_review.py",
+      "bytes": 16589,
+      "sha256": "4641e823395d93761dd34bd0dae9088dda0f54fd6ef4bcbfb1bbf5ac3413b7dc"
+    },
+    {
+      "path": "source/authoring/finish_source.py",
+      "bytes": 2012,
+      "sha256": "3d927bac0840e6d9f3e4bf335ef3304c3e1386e5b898c5383d75eb0a4f1faf1b"
+    },
+    {
+      "path": "source/authoring/imagegen_prompts.json",
+      "bytes": 3586,
+      "sha256": "ca8d0173e2c0268ea2332ba555482a5f97a88ce78a56f165e97116b58021df97"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 517,
+      "sha256": "4590576a31a9dfe4fd4e9c1fc593dc7adc4e01c5903a704dc56f3eab2e4ed4f6"
+    },
+    {
+      "path": "source/authoring/mission962-ships.txt",
+      "bytes": 253,
+      "sha256": "034ba6415ba0bc25ac8366cd29ba183c931d1ad2a99b5b4e8155f80d3abdb4d8"
+    },
+    {
+      "path": "source/authoring/mission962.luau",
+      "bytes": 313,
+      "sha256": "12842fc20dbe103163f356cc9e5ea0afd418e015547c6a1f8fb70bd07052a75e"
+    },
+    {
+      "path": "source/authoring/model_mapping_audit.json",
+      "bytes": 598,
+      "sha256": "d0890311efea2884185cc22669c9cdb8591e30b4795541c76e68420858ba8998"
+    },
+    {
+      "path": "source/authoring/native-check.txt",
+      "bytes": 84,
+      "sha256": "ba90966590c8d99020aec7202244348125a08a729b4490244cd48fe3cd4992a6"
+    },
+    {
+      "path": "source/authoring/native-chunks.json",
+      "bytes": 16536,
+      "sha256": "e718231584840c55bc0cc1514c38b70a032607586802fcc1018533c1d532c188"
+    },
+    {
+      "path": "source/authoring/native-chunks.txt",
+      "bytes": 4452,
+      "sha256": "1ab11484fc22d95dfd4aec7b8f6f8d020b991986a055523459ba004b11d40c16"
+    },
+    {
+      "path": "source/authoring/native-components.txt",
+      "bytes": 60,
+      "sha256": "31aa1bbb248bddbb0556dccb7f1466115075b0d3e10e2b451f4d9d3737a1a008"
+    },
+    {
+      "path": "source/authoring/native-info.txt",
+      "bytes": 2424,
+      "sha256": "7e553df8f439c1cd043292b591a874d33b1fbe50e8b3dd5f17d456f2c8d5d6bf"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 2154,
+      "sha256": "b2e9dba33ac53479569507ddd2a7ce4f5ec211e908c1b19523419126c5b1e62e"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 40107,
+      "sha256": "b4ebb95f578c36eca335cd5a8ddadb591c69adc6f7c5f50b6197aeafcec6eada"
+    },
+    {
+      "path": "source/authoring/native_summary.json",
+      "bytes": 688,
+      "sha256": "2e59048f41841b89acad4d4dc15e33275219f10c21cd0babf083ec031c748126"
+    },
+    {
+      "path": "source/authoring/nozzle_petals_v5/LICENSE-OpenReliant.txt",
+      "bytes": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "path": "source/authoring/nozzle_petals_v5/LIGHTING_POC.md",
+      "bytes": 6086,
+      "sha256": "8179a36cbbf43c7a98385e0efe65518e701edb73bca73ba57c2cd1fd6dea1153"
+    },
+    {
+      "path": "source/authoring/nozzle_petals_v5/audit_nozzles.py",
+      "bytes": 3583,
+      "sha256": "5078fee6303e9f31a5069ac085c1c01c9728a2b6c75e423215e2bd405f928559"
+    },
+    {
+      "path": "source/authoring/nozzle_petals_v5/kurgen_inspection.luau",
+      "bytes": 2076,
+      "sha256": "9ecb345c4f84a087ae12e0da45bce24a3e9a46d7fea849a612c5c85675b7c65a"
+    },
+    {
+      "path": "source/authoring/nozzle_petals_v5/kurgen_lighting.luau",
+      "bytes": 1755,
+      "sha256": "88e8137b9dba91a3380a8fb23d0960033b0b1f1ca93b03011635c1fd81eab168"
+    },
+    {
+      "path": "source/authoring/nozzle_petals_v5/kurgen_response.luau",
+      "bytes": 2760,
+      "sha256": "ad915f87c82f4b7a336e4a9c49d8f21b09528ec57133d448ca63e77a375bd6a1"
+    },
+    {
+      "path": "source/authoring/nozzle_petals_v5/kurgen_surface.luau",
+      "bytes": 2087,
+      "sha256": "7157417e071973f66242f0cfe42cb61bdf5568de755268defc71bc2a56701637"
+    },
+    {
+      "path": "source/authoring/nozzle_petals_v5/kurgen_systems.glsl",
+      "bytes": 5975,
+      "sha256": "f6b000da23b6bad53f1911170e9a6f6e6d81ec43bae7411dedbbc683b9a29965"
+    },
+    {
+      "path": "source/authoring/nozzle_petals_v5/nozzle_surface_audit.json",
+      "bytes": 3540,
+      "sha256": "88c5dc46a7bd0c935312ec5512ea2942ef2b349ebd33248c58b30e12fd88769e"
+    },
+    {
+      "path": "source/authoring/nozzle_petals_v5/test_response.luau",
+      "bytes": 2985,
+      "sha256": "5eb8458b02a920feb5a0e23c63b26d364d2c45fca747da0fd27873374adb7bc5"
+    },
+    {
+      "path": "source/authoring/nozzle_petals_v5/test_runtime.luau",
+      "bytes": 3392,
+      "sha256": "1fa7e14aedc4da75411442de692de0df5da6737cd9e4ac1054054d7e7beb774a"
+    },
+    {
+      "path": "source/authoring/nozzle_petals_v5/validation.json",
+      "bytes": 8975,
+      "sha256": "b4b3a8a38ba6ee668aac4ab406bae64a61c9b86421f214f47d06953ed59efdfa"
+    },
+    {
+      "path": "source/authoring/parse_native.py",
+      "bytes": 2381,
+      "sha256": "dc904f829f929a13e86ceae2a170c8c1ff6f9f65c627b57a67f0ebd77914d3fa"
+    },
+    {
+      "path": "source/authoring/parse_turret.py",
+      "bytes": 2382,
+      "sha256": "8d7a0186c51b8b793a469daeaa682b0fe16628c05e78bc2179bd6d78b893209b"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2424,
+      "sha256": "bfd04729351343ebf0c457df5e6e29a4cdb1bd7b24e787753c2c531d3a740a04"
+    },
+    {
+      "path": "source/authoring/power_response_v6/LICENSE-OpenReliant.txt",
+      "bytes": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "path": "source/authoring/power_response_v6/LIGHTING_POC.md",
+      "bytes": 8239,
+      "sha256": "5489715e8850e6f8d39c88cdeecfa34788ebbf6ca99d9f93d6f47c05fc04891c"
+    },
+    {
+      "path": "source/authoring/power_response_v6/audit_nozzles.py",
+      "bytes": 3587,
+      "sha256": "09322680536e82ab3f3aa718cef6bfa59f923f5408e5826e2f582200566dd971"
+    },
+    {
+      "path": "source/authoring/power_response_v6/feature_requests.json",
+      "bytes": 611,
+      "sha256": "53448072186085a940085405f777d156d8ced418c39e239bb58c22520716c572"
+    },
+    {
+      "path": "source/authoring/power_response_v6/kurgen_inspection.luau",
+      "bytes": 2076,
+      "sha256": "9ecb345c4f84a087ae12e0da45bce24a3e9a46d7fea849a612c5c85675b7c65a"
+    },
+    {
+      "path": "source/authoring/power_response_v6/kurgen_lighting.luau",
+      "bytes": 1860,
+      "sha256": "46dd41c763009510247175906ff831828d319996b6d53d29ee360f72cf3b91da"
+    },
+    {
+      "path": "source/authoring/power_response_v6/kurgen_response.luau",
+      "bytes": 5141,
+      "sha256": "94e4330a15af0dc1039b5f4d60341be2aebdf24cf9db471ac0c040b7cf0c468c"
+    },
+    {
+      "path": "source/authoring/power_response_v6/kurgen_surface.luau",
+      "bytes": 2087,
+      "sha256": "7157417e071973f66242f0cfe42cb61bdf5568de755268defc71bc2a56701637"
+    },
+    {
+      "path": "source/authoring/power_response_v6/kurgen_systems.glsl",
+      "bytes": 5975,
+      "sha256": "c2e8919419f2cfb23df8f8e514d448c9f575a36f71af4e80e5ce560a03449d92"
+    },
+    {
+      "path": "source/authoring/power_response_v6/nozzle_surface_audit.json",
+      "bytes": 3569,
+      "sha256": "d22b74e2573b40bab8b072bc750450f1cd785b1f9109cdf9cc6718c948715cc8"
+    },
+    {
+      "path": "source/authoring/power_response_v6/test_response.luau",
+      "bytes": 7584,
+      "sha256": "1d798d9d668f9c894e56eb85e7dfcb6105f6e523b84f86dab1de9e23373f596d"
+    },
+    {
+      "path": "source/authoring/power_response_v6/test_runtime.luau",
+      "bytes": 4432,
+      "sha256": "059d08b887e439b3ac3e95986705330a925c2bc56cdac5dcbebdf1e8838ba2bf"
+    },
+    {
+      "path": "source/authoring/power_response_v6/validation.json",
+      "bytes": 9582,
+      "sha256": "b6d7b5ce0802dcc81ebd028db68957b9a144621e92fc5d2af1ba47f14beb2cef"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 29470,
+      "sha256": "1cbe51fafe641ead63a79b4468a5bb7aedc221f198950ddfc020ce1bdda986fc"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 2633,
+      "sha256": "59b881594beae574436f5e8f14d6a7ec8ac52a6b75a9ec4fd2560ded6662cbc5"
+    },
+    {
+      "path": "source/authoring/response_release_v8/LICENSE-OpenReliant.txt",
+      "bytes": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "path": "source/authoring/response_release_v8/kurgen_inspection.luau",
+      "bytes": 2076,
+      "sha256": "9ecb345c4f84a087ae12e0da45bce24a3e9a46d7fea849a612c5c85675b7c65a"
+    },
+    {
+      "path": "source/authoring/response_release_v8/kurgen_lighting.luau",
+      "bytes": 1860,
+      "sha256": "46dd41c763009510247175906ff831828d319996b6d53d29ee360f72cf3b91da"
+    },
+    {
+      "path": "source/authoring/response_release_v8/kurgen_response.luau",
+      "bytes": 5140,
+      "sha256": "d8403af469832daf2ba1c94f51b376a25e79d385fbae09740778baa26a66a962"
+    },
+    {
+      "path": "source/authoring/response_release_v8/kurgen_surface.luau",
+      "bytes": 2087,
+      "sha256": "7157417e071973f66242f0cfe42cb61bdf5568de755268defc71bc2a56701637"
+    },
+    {
+      "path": "source/authoring/response_release_v8/kurgen_systems.glsl",
+      "bytes": 5975,
+      "sha256": "c2e8919419f2cfb23df8f8e514d448c9f575a36f71af4e80e5ce560a03449d92"
+    },
+    {
+      "path": "source/authoring/response_release_v8/test_response.luau",
+      "bytes": 7581,
+      "sha256": "35f3312eba9c1c07e14cff720276b205cb943945854e85d298aaaebe56cfb744"
+    },
+    {
+      "path": "source/authoring/response_release_v8/test_runtime.luau",
+      "bytes": 4432,
+      "sha256": "059d08b887e439b3ac3e95986705330a925c2bc56cdac5dcbebdf1e8838ba2bf"
+    },
+    {
+      "path": "source/authoring/runtime-components.txt",
+      "bytes": 276,
+      "sha256": "218ff525948f386a918fab566df956d0dff83635540d84d0a0be99dd326a1e2c"
+    },
+    {
+      "path": "source/authoring/source_uv_audit.json",
+      "bytes": 5062,
+      "sha256": "1320a6f419d3908dc682dc42bba1fc731ec1a9eef02bd544353e6907a7ec3e16"
+    },
+    {
+      "path": "source/authoring/source_uv_audit.py",
+      "bytes": 1123,
+      "sha256": "532f9567f24a050acf35210eeeb98ade148f540301e314488afdeb89f1f898da"
+    },
+    {
+      "path": "source/authoring/start_kurgen.py",
+      "bytes": 3425,
+      "sha256": "99beaccd826776817f67cae75a31255ea92cc8660a09ea7b645a5e2152f271e6"
+    },
+    {
+      "path": "source/authoring/turret-chunks.json",
+      "bytes": 17586,
+      "sha256": "71f5211abe6e3aeb4eba0974348afdb3a895032377fe21857b7ccbd61aa472fe"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/TURRET_EMISSIVES_FEATURE_REQUEST.md",
+      "bytes": 4201,
+      "sha256": "9d6937f4a1dbeafef617018a698bb798cac0c1730136f429aa26c4d75c1cc82a"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/audit_star.py",
+      "bytes": 2743,
+      "sha256": "6ffdde884bde3e51e366a9403fd6a1e23d89d9b12fd932faee4038a3c2df929d"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/imagegen-prompts.json",
+      "bytes": 1270,
+      "sha256": "e6071883d016cd75b7abdb58d3ff45219ff56ed39db7b4ae344c4be52f33d227"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/original-star-nearest.png",
+      "bytes": 3011,
+      "sha256": "2ffdcca28d1d8090bd73dacd29b5a94ba336655f0c8decf2c846137fa7e2b40e"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/repair-region-corrected.svg",
+      "bytes": 508,
+      "sha256": "4fa21f994d43cac195a0452ea92e5eb0d7447648137d1e7e06baa8d9ac9918ad"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/repair-region-final.png",
+      "bytes": 26398,
+      "sha256": "5e4085d89fc833b051e7181163b20a729315899d2bff5df73f4e3f3eb0d77638"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/scene-audit.json",
+      "bytes": 1587,
+      "sha256": "cf599224c955798ba624ea9e8a9c68fa1028edd218d53fe07c27845a633ffd4e"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/star-audit.json",
+      "bytes": 3088,
+      "sha256": "520efda69fbfb848ea95135e61cde1579dade6b5445f0f4d80eaf68a6d7a8a64"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/star-geometry-corrected.json",
+      "bytes": 947,
+      "sha256": "ce1d98a77b060f75fdfcaca2f541148226f6b12ced1a40f2a533b49b360478a2"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/star-geometry-corrected.png",
+      "bytes": 28806,
+      "sha256": "6d71eed40071ff26251e3cc89e21e22fdfe11e7e3c98e1aec43c5f93d1133abe"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/star-geometry-corrected.svg",
+      "bytes": 433,
+      "sha256": "041f13af811acaf30134d5d5d31bcc8feeb875ab5c5bbaa04e83120b721a84b4"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/star-panel-before.png",
+      "bytes": 575113,
+      "sha256": "7a2aba0b3814c2d0e0a54018b5259834d613b70dbf78787219e47dc8a0359015"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/star-panel-corrected-after.png",
+      "bytes": 578250,
+      "sha256": "e21541e19863d8678612a7e097d0c920440593746ba02a35b08767dc4636638c"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/star-panel-corrected-filtered.png",
+      "bytes": 609008,
+      "sha256": "de6473f1e4b28bd9285b810462c9c10fe52c975b53bf76f4a1b3e2701b6efe1b"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/star-panel-corrected-generated.png",
+      "bytes": 2526212,
+      "sha256": "cbebad1a9046cafefb53c4b10fdb60c8ae84ede67401774438c70a7686dd188a"
+    },
+    {
+      "path": "source/authoring/turret_star_v7/update_scene.py",
+      "bytes": 2186,
+      "sha256": "0604856cf24d42a912a92492b8472beef5d8fd4c069aae7950dc3c90745a10c0"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 6687,
+      "sha256": "6fd8d0170838a1f54715705a9e85353bcbc5c1164b12e7202b2db015e769e941"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/authoring_review.json",
+      "bytes": 694,
+      "sha256": "83ceead6945c61b84ea2102820341bec4ffa4ae3fea99bd6ea7964de388580eb"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/bridge_face_selection.json",
+      "bytes": 473,
+      "sha256": "118fe4e43dc413741ae6ca3d79c7e62c6b660869b0c798380fcef3006477ad6a"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/build_lod_crop.py",
+      "bytes": 2394,
+      "sha256": "1dd4efd0c7a79056385695d76cee7c5e26646bc622da09e528905d96f0d21fe8"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/build_revision.py",
+      "bytes": 13178,
+      "sha256": "073d1215166d5a8390fe8514775814da42b8ac632c67c6f494755530aec4b743"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/compatibility.json",
+      "bytes": 2796,
+      "sha256": "868838c10aa80b5373cc13afea6d9e116247f44351b6cbd2b77202ec20775e2f"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/deployment.json",
+      "bytes": 4486,
+      "sha256": "5f61167e2dc6dd1f7dd807adc2cc8737dc007241b6b1316728716d6dd188a427"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/emission_surface_audit.json",
+      "bytes": 13160,
+      "sha256": "0b0cd3cca02265eb8f1c96d81a5cb247c8b781210b762041ba6df4e8a20ba752"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/emission_surface_audit.py",
+      "bytes": 3051,
+      "sha256": "efda23ca18b25c79b1686365d698cb0340eeaf392fec7b3a344d2fc2f155be23"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/export_maps.py",
+      "bytes": 5271,
+      "sha256": "d8543e77313fa18287ba43f86acc49ac723093662442ab1b5ce475a4c200e4ec"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/export_native.py",
+      "bytes": 4885,
+      "sha256": "5c9aec61369edfb66afa6911c9f3c936f5cbea0c645fd7bf9b4235cc5e0c8832"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/final-review-verification.json",
+      "bytes": 408,
+      "sha256": "7ad7cc889fdafe0e593f12ef6e7a1815a8262bfcc6359cab7d8dbcf63ff26fdb"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/finish_revision.py",
+      "bytes": 13400,
+      "sha256": "7c1a7b836e51f98fcd8955712dfb90e1f8eca4e8215825e14f18aa533699a54e"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/initial_face_trace.json",
+      "bytes": 18429,
+      "sha256": "424dfc925d77074b8061fa16451c79ec40c64abaed480ec67f5310849237e1fe"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/map_checks.json",
+      "bytes": 2095,
+      "sha256": "eca20f0056607ce3ef41b59f4a686f411a4d52b07edd5bbc04d83bb8e1e3b226"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/native_checks.json",
+      "bytes": 1512,
+      "sha256": "5c555a53650ea2ef0446443dd06b48e19d4800e3da834b8f3708d1de4afa49af"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/native_preservation.json",
+      "bytes": 25466,
+      "sha256": "d6fb378ab3b61729fc091ac19f029fd81055ccec2ea36099186463eac8097031"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/portable_source.py",
+      "bytes": 2422,
+      "sha256": "3ddced3183f5c7bf0232caa75522243c4cec8cac2b601aed90b003ea0ef53aa2"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/prior_manifest.json",
+      "bytes": 9362,
+      "sha256": "45e3774b8f49b43345f8c601652cd54a3d45cd69d7862c08fb89ffc29cec114c"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/prior_project_state.json",
+      "bytes": 6057,
+      "sha256": "eb368584a9cb972e8458864245c1f2bc22c7c718e30424eeb7b79e94e78055f6"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/repository_snapshot.json",
+      "bytes": 3925,
+      "sha256": "94b3233832462113fad48bea6dde266e3ccaa7be4a2f4809d0787a264dfe060b"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/trace_native_windows.py",
+      "bytes": 1161,
+      "sha256": "3580569163801a33af2f3e56ce4c876a4c6fd7d65c1e3ea6dea7ff2979c64f77"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/validation.json",
+      "bytes": 7783,
+      "sha256": "49228407052ba7b1b3183fba2459c1eb1690de85a90b69c08cfb391e580633b6"
+    },
+    {
+      "path": "source/authoring/window_scope_v3/window_regions.json",
+      "bytes": 972,
+      "sha256": "ea9e2373005d67f6c3c15d60541a320a3a3a4ae6a33c53c8e87b2409fb954fdb"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/authoring_review.json",
+      "bytes": 559,
+      "sha256": "36928ceb8babf8c136c61dae5e86d50f0a082b9ccd0c0101319d75a776ebd034"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/build_revision.py",
+      "bytes": 9751,
+      "sha256": "01c73e78afe89e5b02876867084a01b9b628015043d501518ee796a57400b263"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/compatibility.json",
+      "bytes": 2399,
+      "sha256": "082a72e4406cbb85c42dd2c5a267c6f9e4acd515f7c3b5eac06cb00c6c564ac4"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/deployment.json",
+      "bytes": 3021,
+      "sha256": "4cd0fcc2558a29cd2a5bc3f2eee2b76246001f9c7e71ab0e354a4400e074edb6"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/emissive_probe.zig",
+      "bytes": 3053,
+      "sha256": "2b4e0934b4a4b5add2ce11862ed5fde1ec06105b733c6df6a1ac1ac8f4dbd5c7"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/export_revision.py",
+      "bytes": 4817,
+      "sha256": "901574c3394f4b52dbd397c704a4fbe6f18154ac2a8a24a17958fe5da72ece02"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/final-review-verification.json",
+      "bytes": 367,
+      "sha256": "e3f3c4884a29f7e293ef89ffab9d250d9b5a8cd97fcc2130c5c8893e26fdbbf3"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/finish_revision.py",
+      "bytes": 12952,
+      "sha256": "13e75a5c502518c7fa931c7e4e69d3ddcc1e139a03edff83098d8ef23c2b519a"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/imagegen_prompt.json",
+      "bytes": 1788,
+      "sha256": "ff75985706ca7616b55cf16c61ab6124312584fbea0d832d338f43f665f634c7"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/map_checks.json",
+      "bytes": 1772,
+      "sha256": "74074e3fa8789f1805e5088ced5e78f034ae86e7de104743f49155c971056299"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/native_checks.json",
+      "bytes": 1506,
+      "sha256": "2d640e5b2ea4489f2ac2d81653fed7f78d1e4ab8a4039392b9786fab5e2e1c1f"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/portable_source.py",
+      "bytes": 2424,
+      "sha256": "32f6a085f8d25609bc07f34a67ac89b59274e3222c19a6cfb0de671fe0ca6e1f"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/prior_manifest.json",
+      "bytes": 8611,
+      "sha256": "848d04f724b4330a415963e26de2af502026fd23299f84b2cc315b3fe8aa7107"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/prior_project_state.json",
+      "bytes": 2490,
+      "sha256": "8dc58b96d1a10c59c325feeaa9b35e773b20a8331c701926937ad6e0dc1752b9"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/repository_snapshot.json",
+      "bytes": 2845,
+      "sha256": "3e9a8c320f2bae0c7a20ebe7c3250e4aaedc38bfcd904992641bf6a3b6511c62"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/validation.json",
+      "bytes": 3680,
+      "sha256": "509456516bf18a157e2e65bed491ca6511e927fb27729fb7a94af9cc40ce381b"
+    },
+    {
+      "path": "source/authoring/windows_relief_v2/window_regions.json",
+      "bytes": 2044,
+      "sha256": "625f92767084db0edbe1de74d17518d3096b9ace9fbd9c3a8032de9609a6be63"
+    },
+    {
+      "path": "source/kurgen_worn_pbr_v1.blend",
+      "bytes": 61633695,
+      "sha256": "e96b8f06f078d65b1fb654d55bedb918fa0d0020116846ebd898917f42196ab9"
+    },
+    {
+      "path": "source/kurgen_worn_pbr_v2.blend",
+      "bytes": 63000565,
+      "sha256": "9c8769e91ff074c87a6fdc06c6c6a53e7966bd35a1ded3ff8a3aad9c64116b1e"
+    },
+    {
+      "path": "source/kurgen_worn_pbr_v3.blend",
+      "bytes": 62702450,
+      "sha256": "3563ac80ff89673e5662c481aff39892b8f4dc4bfd2674a06f310a67358f1ff5"
+    },
+    {
+      "path": "source/kurgen_worn_pbr_v7.blend",
+      "bytes": 60456342,
+      "sha256": "4d1e4ce920f5b1c40aafbfcc962756a3ea9e57470052e901c8707b567749827f"
+    },
+    {
+      "path": "source/maps/kurgen_hull_basecolor_v1.png",
+      "bytes": 17492684,
+      "sha256": "6fc8e9abfc1b50198cdcfe04555d2bc16d6c9c693661c1f71d1213bba204ac90"
+    },
+    {
+      "path": "source/maps/kurgen_hull_fins_v1.png",
+      "bytes": 66167,
+      "sha256": "1c7d6e51c901e901f468b5dfe7b6dfac220b4dc169ef7cc3246124a27e854ab2"
+    },
+    {
+      "path": "source/maps/kurgen_hull_flat_graphics_v1.png",
+      "bytes": 61080,
+      "sha256": "d07bbacd8fdd302897ae2d61d771b71bd7bf3589b7b54457cf72f67fa59f0447"
+    },
+    {
+      "path": "source/maps/kurgen_hull_height_v1.png",
+      "bytes": 243360,
+      "sha256": "a9d3e876dfd463f24d2c70fb7361fc63f3f77f7141050f1017dbd24aa5770585"
+    },
+    {
+      "path": "source/maps/kurgen_hull_metallic_v1.png",
+      "bytes": 7611002,
+      "sha256": "24193bdc1b5eec763db1d11ee5cb214cae0f48c021d3d8c815beddd87fdf6793"
+    },
+    {
+      "path": "source/maps/kurgen_hull_normal_v1.png",
+      "bytes": 437993,
+      "sha256": "5eaf52796d68190ec083cc7b13ce06d7f3b9418adc70c011996db9d6501204af"
+    },
+    {
+      "path": "source/maps/kurgen_hull_paint_v1.png",
+      "bytes": 5362572,
+      "sha256": "8ec5bb85d4a226a7acd801535b844490fbede8f9c29c7acab58a571633141960"
+    },
+    {
+      "path": "source/maps/kurgen_hull_panels_v1.png",
+      "bytes": 238843,
+      "sha256": "67193b62c2a5bfffba11e6d039914d7b134fc71a7e16c85ee5b5eaf69e0f92d7"
+    },
+    {
+      "path": "source/maps/kurgen_hull_reconstructed_v1.png",
+      "bytes": 3324798,
+      "sha256": "d9d1521306b18d0245c4937c2f60db60e788e15cf7a6519fe318b3ecfaf5125b"
+    },
+    {
+      "path": "source/maps/kurgen_hull_roughness_v1.png",
+      "bytes": 4251522,
+      "sha256": "bff1c0ce08bdb053509766ebe53e9f71ffe552865a67c445d7b48afb8e12f86c"
+    },
+    {
+      "path": "source/maps/kurgen_hull_structure_v1.png",
+      "bytes": 390592,
+      "sha256": "eb3510a6f4be3c12d4e678e83a9fef810e2530d5ec2edd7ff7fd21503a234a32"
+    },
+    {
+      "path": "source/maps/kurgen_turret_basecolor_v1.png",
+      "bytes": 18770454,
+      "sha256": "1dea7db59f5d7bbc0b3ba955f51fc17977af9d5994085c51e7fc2fc8ab38ea30"
+    },
+    {
+      "path": "source/maps/kurgen_turret_fins_v1.png",
+      "bytes": 54387,
+      "sha256": "73c77aaf0e91782c07c7e5a68b612a7df958fe22538a025e948386d084e71be2"
+    },
+    {
+      "path": "source/maps/kurgen_turret_flat_graphics_v1.png",
+      "bytes": 61223,
+      "sha256": "15a3407a52007b12eb9efdc1f100ae928e351d4df1aad5c23f34c52cf155b6e5"
+    },
+    {
+      "path": "source/maps/kurgen_turret_height_v1.png",
+      "bytes": 152685,
+      "sha256": "b01484406820b0c280aacfa133038a7a8a134279dd5ae94a3dd272ba48ee442f"
+    },
+    {
+      "path": "source/maps/kurgen_turret_metallic_v1.png",
+      "bytes": 7703424,
+      "sha256": "4a3acb634a94abd780aa98d8318add060933a7e9c87b3a38f37b6e9dc2ccf713"
+    },
+    {
+      "path": "source/maps/kurgen_turret_normal_v1.png",
+      "bytes": 250943,
+      "sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693"
+    },
+    {
+      "path": "source/maps/kurgen_turret_paint_v1.png",
+      "bytes": 8854105,
+      "sha256": "118e17401c1b814eade1a3a04318da8f40ff86771339a5a7ffabf9c3fe4809bc"
+    },
+    {
+      "path": "source/maps/kurgen_turret_panels_v1.png",
+      "bytes": 159662,
+      "sha256": "b0cd4243f1ba78dc5f3f7d2068dee24503dc1e039fb79c97ff8aa3f95457d6d6"
+    },
+    {
+      "path": "source/maps/kurgen_turret_reconstructed_v1.png",
+      "bytes": 3454437,
+      "sha256": "89e28fcda6448e63e29a7f15378a68c9bbf2acc9aeb6887ec50a44fc5054129b"
+    },
+    {
+      "path": "source/maps/kurgen_turret_roughness_v1.png",
+      "bytes": 4279336,
+      "sha256": "b7e7266ff3b9f11d78c90cea12113d3c92301c47f06e19b7839aca9b1498ab41"
+    },
+    {
+      "path": "source/maps/kurgen_turret_structure_v1.png",
+      "bytes": 215148,
+      "sha256": "e3e62e7256b2aaf2317c10d1251d783522d63b0ed2a9ebc45269e11525e4d350"
+    },
+    {
+      "path": "source/maps/turret_star_v7/kurgen_turret_basecolor_v7.png",
+      "bytes": 16524346,
+      "sha256": "2d7745e2f48107547695667d01569ade0582651f56fe4ae71f9a62bf2e915c23"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_bridge_basecolor_v3.png",
+      "bytes": 272363,
+      "sha256": "b180bb227f2757a126ebbd6b7d34873ce3503d42cbfbd8f46d0c23d0d7b992d5"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_bridge_emissive_v3.png",
+      "bytes": 20691,
+      "sha256": "e511a7255cde28bbdececeaa1026d25826cde47f9ef941a1472def17620781b8"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_bridge_lod_basecolor_v3.png",
+      "bytes": 244503,
+      "sha256": "fbf9023c26ddb8dfaa2fb46cf4e7020246e673adbe9ee703df0d855945f03131"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_bridge_lod_emissive_v3.png",
+      "bytes": 43769,
+      "sha256": "a5ad818c4264bb8db2ff63698f49e1590762bf4f75d894ee9a5abbe72a440ab9"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_bridge_lod_metallic_v3.png",
+      "bytes": 81134,
+      "sha256": "2019332f030f46b257cc8ae64b6cec4c8ab75569c684e69b4fe06eb2cac07ffa"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_bridge_lod_normal_v3.png",
+      "bytes": 33530,
+      "sha256": "d2e49b91111aa96b74e0223a304bd76d1573a09211d3d0f789665c9a504180c2"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_bridge_lod_roughness_v3.png",
+      "bytes": 50210,
+      "sha256": "e8dc1edcd3e07af62c2bfd6151b1961ff0d01211c49ec86de59f17426cc9e8b9"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_bridge_metallic_v3.png",
+      "bytes": 132812,
+      "sha256": "97ff00bb2cad764a1ce095adc73d4856d7a042da96b38f56c33775c793eebd3d"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_bridge_normal_v3.png",
+      "bytes": 12237,
+      "sha256": "8814c146844c3b03c2741dfb9e3af531decb4dfc60681b4c0a90caeef783ec12"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_bridge_roughness_v3.png",
+      "bytes": 77654,
+      "sha256": "899917713c48f7fa19075b255cd41ee9fac212b192abe472704eeaa01d1764b9"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_hull_basecolor_v3.png",
+      "bytes": 17514752,
+      "sha256": "45b74de7db6d3e3e1a4fcf0e065d535b0c93b8449a41152756382b533b8fdbc1"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_hull_emissive_v3.png",
+      "bytes": 155496,
+      "sha256": "ad36c79bfe138dc14db60b40f9af95d3276e65ef70ee51a06c14400b044b8345"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_hull_flat_graphics_v3.png",
+      "bytes": 61085,
+      "sha256": "9d5a534f226caf64f7079b462e4719134a16114c9d5b0c387c8fcef7bd8c10ec"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_hull_height_v3.png",
+      "bytes": 301297,
+      "sha256": "26b631ef436f51aa829da3183c8c983a7b054f48401c57d115dcc632e4af8dd1"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_hull_metallic_v3.png",
+      "bytes": 7617622,
+      "sha256": "89f6ff3ac5612df6934c24187ec2a439e371db9dea67b1225db32192f7757c65"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_hull_normal_v3.png",
+      "bytes": 714347,
+      "sha256": "61ba590b38afaeaca60de8bf5ca63c7883e468a89241cebfafb807020827e66d"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_hull_panels_v3.png",
+      "bytes": 245981,
+      "sha256": "7d2e0d7b0ae43027c3e96912f787d2ee8ad5a2656d6f3373eedf284db9a3ad88"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_hull_roughness_v3.png",
+      "bytes": 4269737,
+      "sha256": "1f916eb0119f5942f619fbdf1db3392057f24a053140d6d1a7695f0ee18973f4"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_hull_structure_v3.png",
+      "bytes": 387002,
+      "sha256": "399129d4592a2deb65d4153a1db9aa7ebcd3a0c2a1b26a507160ef518c4a9f2f"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_hull_vent_ribs_v3.png",
+      "bytes": 54596,
+      "sha256": "af0383ea55c45167d9d3c05ac3626357f3fb2f9970f5f5724ed5ad90f1c94498"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_hull_window_aperture_v3.png",
+      "bytes": 54462,
+      "sha256": "b29af842951a81823c29fcd6dbe00fa4496d53c35ca2fef661aef233ae6244be"
+    },
+    {
+      "path": "source/maps/window_scope_v3/kurgen_hull_window_glass_v3.png",
+      "bytes": 84530,
+      "sha256": "de0b8386d314c2483bb1404070be14c6c39d11975785c58b3b67f3dd6e80eae8"
+    },
+    {
+      "path": "source/maps/windows_relief_v2/kurgen_hull_basecolor_v2.png",
+      "bytes": 17639361,
+      "sha256": "c179255a44807fef6330155032fa49f5152fa14663735a70960a0571ec2a0d93"
+    },
+    {
+      "path": "source/maps/windows_relief_v2/kurgen_hull_emissive_v2.png",
+      "bytes": 597567,
+      "sha256": "e0a5cc6c5ff2b8c26364ce60077ae72562e5046b5bc13e96e30a8e6c31d98b96"
+    },
+    {
+      "path": "source/maps/windows_relief_v2/kurgen_hull_flat_graphics_v2.png",
+      "bytes": 61085,
+      "sha256": "9d5a534f226caf64f7079b462e4719134a16114c9d5b0c387c8fcef7bd8c10ec"
+    },
+    {
+      "path": "source/maps/windows_relief_v2/kurgen_hull_height_v2.png",
+      "bytes": 347318,
+      "sha256": "10b4354a73f2cf26b32e11bd5503b43acea8ae055e56f6ae7ba0f77e1cadc5da"
+    },
+    {
+      "path": "source/maps/windows_relief_v2/kurgen_hull_metallic_v2.png",
+      "bytes": 7662149,
+      "sha256": "cacea5614ff97ea7184fadf5d545dfe7ccd1e9c8158083709ca7a44347495dcb"
+    },
+    {
+      "path": "source/maps/windows_relief_v2/kurgen_hull_normal_v2.png",
+      "bytes": 887862,
+      "sha256": "8e2c48ce97fcadde77f570c3d4bf25945d5cda284e51188730945ccb4905d232"
+    },
+    {
+      "path": "source/maps/windows_relief_v2/kurgen_hull_panels_v2.png",
+      "bytes": 245981,
+      "sha256": "7d2e0d7b0ae43027c3e96912f787d2ee8ad5a2656d6f3373eedf284db9a3ad88"
+    },
+    {
+      "path": "source/maps/windows_relief_v2/kurgen_hull_roughness_v2.png",
+      "bytes": 4366788,
+      "sha256": "710a5bd88ec844c72ffbb8abb7456b60b97f58c644f499b0626b3931d48d6b3c"
+    },
+    {
+      "path": "source/maps/windows_relief_v2/kurgen_hull_structure_v2.png",
+      "bytes": 387002,
+      "sha256": "399129d4592a2deb65d4153a1db9aa7ebcd3a0c2a1b26a507160ef518c4a9f2f"
+    },
+    {
+      "path": "source/maps/windows_relief_v2/kurgen_hull_window_aperture_v2.png",
+      "bytes": 84772,
+      "sha256": "11661002a6122e8a017aa20dfcf308c2322bbe4f743850707055dd18b2997c45"
+    },
+    {
+      "path": "source/maps/windows_relief_v2/kurgen_hull_window_glass_v2.png",
+      "bytes": 227149,
+      "sha256": "a74fef2929c711f56440cf57afdbd8b90d316ae537a00bfb09c740e60a67eb96"
+    },
+    {
+      "path": "source/maps/windows_relief_v2/window_artwork_generated.png",
+      "bytes": 3059080,
+      "sha256": "fb531677f3f9646d606f61c3cb783339955aa9d9dee09ad4fb4201c5cca86483"
+    },
+    {
+      "path": "source/originals/10_Rus_STUR.SHP",
+      "bytes": 29100,
+      "sha256": "6d7bbfeca1b81c9a8baef005e179327945bdf73935fbc71f6a0514e63e68b143"
+    },
+    {
+      "path": "source/originals/Rus_Kurgan.SHP",
+      "bytes": 137982,
+      "sha256": "bdb62a254cb21d1a8ed1b18264604f2ff7ca018f289404edf58c1a33255faf3a"
+    },
+    {
+      "path": "source/originals/Rus_Kurgan_dest.SHP",
+      "bytes": 18946,
+      "sha256": "56afcf3e4be541620bdc6c4c9cfb8bfd2490dcb8eaad61279ba44fdc37278da3"
+    },
+    {
+      "path": "source/originals/dam_1.png",
+      "bytes": 17642,
+      "sha256": "fcacbed0e1d689b0ed27bbd1d1a269028af44170e05bba383c970b2db94ec0cf"
+    },
+    {
+      "path": "source/originals/kurgen.png",
+      "bytes": 58476,
+      "sha256": "5aa9578587ce155fe0897ddda99826ee4feede2ca52dedcf30a0eb178d64d2b4"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 1145044,
+      "sha256": "dacbf44c17bd2168a94b09b759ea2da9b153af8f0b8c97596eedc1466c5acd02"
+    },
+    {
+      "path": "source/originals/rus_turret.png",
+      "bytes": 14885,
+      "sha256": "a58608c14fb092893e1658f1f390720cc70d253d82f0ff4226e8d344ee2a5d3c"
+    },
+    {
+      "path": "source/originals/turret_parts.json",
+      "bytes": 221495,
+      "sha256": "ac1aa028856c0a0ddec67ad30b6ae7dac96785c1f7a002b066003a586f22d996"
+    },
+    {
+      "path": "source/resources/06acbb7f693e_kurgen_turret_normal_v1.png",
+      "bytes": 250943,
+      "sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693"
+    },
+    {
+      "path": "source/resources/1dea7db59f5d_kurgen_turret_basecolor_v1.png",
+      "bytes": 18770454,
+      "sha256": "1dea7db59f5d7bbc0b3ba955f51fc17977af9d5994085c51e7fc2fc8ab38ea30"
+    },
+    {
+      "path": "source/resources/1f916eb0119f_kurgen_hull_roughness_v3.png",
+      "bytes": 4269737,
+      "sha256": "1f916eb0119f5942f619fbdf1db3392057f24a053140d6d1a7695f0ee18973f4"
+    },
+    {
+      "path": "source/resources/24193bdc1b5e_kurgen_hull_metallic_v1.png",
+      "bytes": 7611002,
+      "sha256": "24193bdc1b5eec763db1d11ee5cb214cae0f48c021d3d8c815beddd87fdf6793"
+    },
+    {
+      "path": "source/resources/45b74de7db6d_kurgen_hull_basecolor_v3.png",
+      "bytes": 17514752,
+      "sha256": "45b74de7db6d3e3e1a4fcf0e065d535b0c93b8449a41152756382b533b8fdbc1"
+    },
+    {
+      "path": "source/resources/4a3acb634a94_kurgen_turret_metallic_v1.png",
+      "bytes": 7703424,
+      "sha256": "4a3acb634a94abd780aa98d8318add060933a7e9c87b3a38f37b6e9dc2ccf713"
+    },
+    {
+      "path": "source/resources/5aa9578587ce_kurgen.png",
+      "bytes": 58476,
+      "sha256": "5aa9578587ce155fe0897ddda99826ee4feede2ca52dedcf30a0eb178d64d2b4"
+    },
+    {
+      "path": "source/resources/5eaf52796d68_kurgen_hull_normal_v1.png",
+      "bytes": 437993,
+      "sha256": "5eaf52796d68190ec083cc7b13ce06d7f3b9418adc70c011996db9d6501204af"
+    },
+    {
+      "path": "source/resources/61ba590b38af_kurgen_hull_normal_v3.png",
+      "bytes": 714347,
+      "sha256": "61ba590b38afaeaca60de8bf5ca63c7883e468a89241cebfafb807020827e66d"
+    },
+    {
+      "path": "source/resources/6fc8e9abfc1b_kurgen_hull_basecolor_v1.png",
+      "bytes": 17492684,
+      "sha256": "6fc8e9abfc1b50198cdcfe04555d2bc16d6c9c693661c1f71d1213bba204ac90"
+    },
+    {
+      "path": "source/resources/710a5bd88ec8_kurgen_hull_roughness_v2.png",
+      "bytes": 4366788,
+      "sha256": "710a5bd88ec844c72ffbb8abb7456b60b97f58c644f499b0626b3931d48d6b3c"
+    },
+    {
+      "path": "source/resources/8814c146844c_kurgen_bridge_normal_v3.png",
+      "bytes": 12237,
+      "sha256": "8814c146844c3b03c2741dfb9e3af531decb4dfc60681b4c0a90caeef783ec12"
+    },
+    {
+      "path": "source/resources/899917713c48_kurgen_bridge_roughness_v3.png",
+      "bytes": 77654,
+      "sha256": "899917713c48f7fa19075b255cd41ee9fac212b192abe472704eeaa01d1764b9"
+    },
+    {
+      "path": "source/resources/89f6ff3ac561_kurgen_hull_metallic_v3.png",
+      "bytes": 7617622,
+      "sha256": "89f6ff3ac5612df6934c24187ec2a439e371db9dea67b1225db32192f7757c65"
+    },
+    {
+      "path": "source/resources/8e2c48ce97fc_kurgen_hull_normal_v2.png",
+      "bytes": 887862,
+      "sha256": "8e2c48ce97fcadde77f570c3d4bf25945d5cda284e51188730945ccb4905d232"
+    },
+    {
+      "path": "source/resources/97ff00bb2cad_kurgen_bridge_metallic_v3.png",
+      "bytes": 132812,
+      "sha256": "97ff00bb2cad764a1ce095adc73d4856d7a042da96b38f56c33775c793eebd3d"
+    },
+    {
+      "path": "source/resources/ad36c79bfe13_kurgen_hull_emissive_v3.png",
+      "bytes": 155496,
+      "sha256": "ad36c79bfe138dc14db60b40f9af95d3276e65ef70ee51a06c14400b044b8345"
+    },
+    {
+      "path": "source/resources/b180bb227f27_kurgen_bridge_basecolor_v3.png",
+      "bytes": 272363,
+      "sha256": "b180bb227f2757a126ebbd6b7d34873ce3503d42cbfbd8f46d0c23d0d7b992d5"
+    },
+    {
+      "path": "source/resources/b7e7266ff3b9_kurgen_turret_roughness_v1.png",
+      "bytes": 4279336,
+      "sha256": "b7e7266ff3b9f11d78c90cea12113d3c92301c47f06e19b7839aca9b1498ab41"
+    },
+    {
+      "path": "source/resources/bff1c0ce08bd_kurgen_hull_roughness_v1.png",
+      "bytes": 4251522,
+      "sha256": "bff1c0ce08bdb053509766ebe53e9f71ffe552865a67c445d7b48afb8e12f86c"
+    },
+    {
+      "path": "source/resources/c179255a4480_kurgen_hull_basecolor_v2.png",
+      "bytes": 17639361,
+      "sha256": "c179255a44807fef6330155032fa49f5152fa14663735a70960a0571ec2a0d93"
+    },
+    {
+      "path": "source/resources/cacea5614ff9_kurgen_hull_metallic_v2.png",
+      "bytes": 7662149,
+      "sha256": "cacea5614ff97ea7184fadf5d545dfe7ccd1e9c8158083709ca7a44347495dcb"
+    },
+    {
+      "path": "source/resources/e0a5cc6c5ff2_kurgen_hull_emissive_v2.png",
+      "bytes": 597567,
+      "sha256": "e0a5cc6c5ff2b8c26364ce60077ae72562e5046b5bc13e96e30a8e6c31d98b96"
+    },
+    {
+      "path": "source/resources/e511a7255cde_kurgen_bridge_emissive_v3.png",
+      "bytes": 20691,
+      "sha256": "e511a7255cde28bbdececeaa1026d25826cde47f9ef941a1472def17620781b8"
+    },
+    {
+      "path": "source/resources/fcacbed0e1d6_dam_1.png",
+      "bytes": 17642,
+      "sha256": "fcacbed0e1d689b0ed27bbd1d1a269028af44170e05bba383c970b2db94ec0cf"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 702579,
+      "sha256": "777ed63746eb7ea45a7cf7e5b288ce451df2cf8e8d07a509feaa4d5b26bca0a3"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 883560,
+      "sha256": "9d961db343496269b373dae015ccc51f8841a3dc5b868c09f7ebb6aff82a3a51"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 895968,
+      "sha256": "a87c92ffabcce29e1db51a9f3f5ef415c380a1b9cc6eae2e34a4b2da6da62a37"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_rear.png",
+      "bytes": 563852,
+      "sha256": "5df76ed0861b325f5a0dad2fcfd20446a70ddfd6439a02ffd01d831e88415595"
+    },
+    {
+      "path": "source/review/reconstruction_v1/source_front.png",
+      "bytes": 543881,
+      "sha256": "e7b5197b714a525e62c29223273e2917ff23f5c0ec46893552d7a529dc69d26d"
+    },
+    {
+      "path": "source/review/window_scope_v3/emissive_dark.png",
+      "bytes": 255166,
+      "sha256": "713543edb9a268914f38a6187f7c2e48bd8b82805430124d825d3e8671815eb6"
+    },
+    {
+      "path": "source/review/window_scope_v3/material_belly.png",
+      "bytes": 705868,
+      "sha256": "d23fadd90028a8de0297488b28a704dcec73f444cbb4acc6b92190c24897f900"
+    },
+    {
+      "path": "source/review/window_scope_v3/material_front.png",
+      "bytes": 887255,
+      "sha256": "f0be536d84d0973416f1b1b6bac4105867ad37f8b2d3e97af27dc2d414e4bbde"
+    },
+    {
+      "path": "source/review/window_scope_v3/material_opposite.png",
+      "bytes": 898198,
+      "sha256": "d40997604ecda279ad5937825be8f3aef6c5a055effe60075d814911f086551d"
+    },
+    {
+      "path": "source/review/window_scope_v3/material_rear.png",
+      "bytes": 564326,
+      "sha256": "c3bfe4e4285b3debd7e894d893f0e98248e348007c5b7189d7d554829022f13c"
+    },
+    {
+      "path": "source/review/windows_relief_v2/emissive_dark.png",
+      "bytes": 289578,
+      "sha256": "2ae3b7f79a0d0b768ef5132101e18b5868026d0f8b8f530e4b5e3a70817078cb"
+    },
+    {
+      "path": "source/review/windows_relief_v2/material_belly.png",
+      "bytes": 710562,
+      "sha256": "8da84999111e4c126a5b67148c52a6b1e282de54784b18a73b4314b346c74768"
+    },
+    {
+      "path": "source/review/windows_relief_v2/material_front.png",
+      "bytes": 889612,
+      "sha256": "b6f977fb7ac64209ddaf325d563cc26b44d84c52f674f16330e66c9afce58226"
+    },
+    {
+      "path": "source/review/windows_relief_v2/material_opposite.png",
+      "bytes": 901270,
+      "sha256": "3b4e44e378b1a0f2ba4e7619109d47716ecf24bb4db7722091c4ca507337a152"
+    },
+    {
+      "path": "source/review/windows_relief_v2/material_rear.png",
+      "bytes": 566493,
+      "sha256": "6badd525f7f3872f662ed969d7f9205d5b3a32fd195833439e034d8c57db12e0"
+    }
+  ]
+}

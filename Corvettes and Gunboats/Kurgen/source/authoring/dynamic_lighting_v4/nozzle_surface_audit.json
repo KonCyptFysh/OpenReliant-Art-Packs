@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "detail_levels": [
+    {
+      "lod": 0,
+      "faces": [
+        129,
+        130,
+        131,
+        132,
+        133,
+        175,
+        176,
+        177,
+        178,
+        179,
+        182,
+        248
+      ],
+      "both_nozzles": true
+    },
+    {
+      "lod": 1,
+      "faces": [
+        15,
+        17,
+        45,
+        49,
+        52,
+        63,
+        84,
+        86
+      ],
+      "both_nozzles": true
+    },
+    {
+      "lod": 2,
+      "faces": [
+        9,
+        23,
+        24,
+        32,
+        46,
+        47
+      ],
+      "both_nozzles": true
+    },
+    {
+      "lod": 3,
+      "faces": [],
+      "both_nozzles": false
+    },
+    {
+      "lod": 4,
+      "faces": [],
+      "both_nozzles": false
+    },
+    {
+      "lod": 5,
+      "faces": [],
+      "both_nozzles": false
+    }
+  ],
+  "scope": "Only recessed nozzle disks; LOD 2 uses its flattened end disks; coarse LODs have no disks"
+}

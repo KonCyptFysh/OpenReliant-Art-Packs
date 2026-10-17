@@ -1,0 +1,494 @@
+{
+  "status": "passed",
+  "asset_revision": "1.7",
+  "minimum_openreliant": "0.18.0",
+  "review_engine": "official 0.18.0",
+  "checked_at_utc": "2026-10-17T03:29:41.525036+00:00",
+  "response_unit_checks": 36,
+  "runtime_integration": "passed",
+  "runtime_probe_clock_acceleration": 10,
+  "runtime_probe_stages": [
+    "cold",
+    "throttle_half",
+    "half_response",
+    "hot",
+    "cooling",
+    "minor_hit",
+    "heavy_hit",
+    "recovered",
+    "disabled",
+    "initial_pass",
+    "critical_start",
+    "critical_health",
+    "slow_cooldown",
+    "critical_disruptions",
+    "PASS"
+  ],
+  "runtime_probe_values": [
+    "half throttle=0.5000 drive=0.4981 heat=0.1342",
+    "hot cabin=1.0000 drive=1.0000 heat=0.9447",
+    "cooling drive=0.0067 heat=0.8733",
+    "heavy lowest_cabin=0.3190 health=0.8300 flickers=1",
+    "final cabin=1.0000 drive=0.9999 heat=0.7944",
+    "7-second cooling ratio=0.6065",
+    "sustained faults=7 health=0.2500"
+  ],
+  "shader_compiled_by_official_engine": true,
+  "native_checks": [
+    {
+      "file": "Rus_Kurgan.SHP",
+      "result": "ok: 2 parts, 682 vertices, 1316 faces\nbounds: 2 model_space\nrewritten byte for byte\n"
+    },
+    {
+      "file": "10_Rus_STUR.SHP",
+      "result": "ok: 4 parts, 176 vertices, 232 faces\nbounds: 4 model_space\nrewritten byte for byte\n"
+    },
+    {
+      "file": "mission962.dte",
+      "result": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds\n"
+    }
+  ],
+  "unchanged_runtime_files": [
+    "Rus_Kurgan.SHP",
+    "10_Rus_STUR.SHP",
+    "orku1_hull.png",
+    "orku1_hull_normal.png",
+    "orku1_hull_orm.png",
+    "orku1_turret.png",
+    "orku1_turret_normal.png",
+    "orku1_turret_orm.png",
+    "mission962.dte",
+    "kurgen_inspection.luau",
+    "license.txt",
+    "mod.png",
+    "orku1_hull_emissive.png",
+    "orku3_bridge.png",
+    "orku3_bridge_normal.png",
+    "orku3_bridge_emissive.png",
+    "orku3_bridge_orm.png",
+    "orku3_bridge_lod.png",
+    "orku3_bridge_lod_normal.png",
+    "orku3_bridge_lod_emissive.png",
+    "orku3_bridge_lod_orm.png",
+    "kurgen_lighting.luau",
+    "kurgen_surface.luau",
+    "kurgen_systems.glsl",
+    "LICENSE-OpenReliant.txt"
+  ],
+  "nozzle_scope": {
+    "passed": true,
+    "detail_levels": [
+      {
+        "lod": 0,
+        "petal_faces": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "left_faces": [
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ],
+        "right_faces": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "peak_weights": {
+          "19": 1.24928,
+          "20": 1.24898,
+          "21": 1.24928,
+          "22": 1.24928,
+          "23": 1.25,
+          "24": 1.25,
+          "25": 1.25,
+          "26": 1.25,
+          "27": 1.25,
+          "28": 1.25,
+          "29": 1.25,
+          "30": 1.25,
+          "31": 1.25,
+          "32": 1.25,
+          "33": 1.25,
+          "34": 1.24928,
+          "98": 1.24928,
+          "99": 1.24897,
+          "100": 1.24928,
+          "101": 1.24928,
+          "102": 1.25,
+          "103": 1.25,
+          "104": 1.25,
+          "105": 1.25,
+          "106": 1.25,
+          "107": 1.25,
+          "108": 1.25,
+          "109": 1.25,
+          "110": 1.25,
+          "111": 1.25,
+          "112": 1.25,
+          "113": 1.24928
+        }
+      },
+      {
+        "lod": 1,
+        "petal_faces": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          63,
+          84,
+          86
+        ],
+        "left_faces": [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          63
+        ],
+        "right_faces": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          84,
+          86
+        ],
+        "peak_weights": {
+          "13": 1.24965,
+          "14": 1.24965,
+          "15": 1.07847,
+          "16": 1.24965,
+          "17": 1.07847,
+          "18": 1.24965,
+          "19": 1.24965,
+          "20": 1.24965,
+          "45": 1.07834,
+          "46": 1.25,
+          "47": 1.25,
+          "48": 1.25,
+          "49": 1.25,
+          "50": 1.24964,
+          "51": 1.24964,
+          "52": 1.07752,
+          "53": 1.24964,
+          "63": 1.1406,
+          "84": 1.14072,
+          "86": 1.24965
+        }
+      },
+      {
+        "lod": 2,
+        "petal_faces": [],
+        "left_faces": [],
+        "right_faces": [],
+        "peak_weights": {}
+      },
+      {
+        "lod": 3,
+        "petal_faces": [],
+        "left_faces": [],
+        "right_faces": [],
+        "peak_weights": {}
+      },
+      {
+        "lod": 4,
+        "petal_faces": [],
+        "left_faces": [],
+        "right_faces": [],
+        "peak_weights": {}
+      },
+      {
+        "lod": 5,
+        "petal_faces": [],
+        "left_faces": [],
+        "right_faces": [],
+        "peak_weights": {}
+      }
+    ],
+    "scope": "32 inward petal triangles at LOD 0; simplified interiors at LOD 1; no added glow at LOD 2-5. Existing disk mask unchanged.",
+    "exterior_faces_selected": 0,
+    "taper": "1.25 at throat to 0.75 before lip fade",
+    "geometry_normals": "triangle derivatives; independent of texture normals"
+  },
+  "native_change": {
+    "passed": true,
+    "changes": [
+      {
+        "part": 0,
+        "attachment": 5,
+        "brightness_offset": 3958,
+        "position": [
+          -28.574569702148438,
+          62.7972526550293,
+          -2572.329345703125
+        ],
+        "range": 2000,
+        "before": 1,
+        "after": 0
+      }
+    ],
+    "before_sha256": "33cc9838edae6a938c2d8d116a8e860ca44eb561be0e5f1f51aefadd57b93c5c",
+    "after_sha256": "f39bdefbe08219bd279ca94596279027e3bf12c4a09851d34d4cd0feae303979",
+    "all_other_bytes_identical": true,
+    "geometry_uv_materials_animations_collision_turrets_beacons_preserved": true
+  },
+  "game_launched": true,
+  "runtime_visual_review": "user_accepted_for_this_beta_round",
+  "published": false,
+  "user_approved": true,
+  "limitations": [
+    "Scoped surface light does not illuminate other objects or mounted turret models",
+    "Kurgen has no separately destructible engine components",
+    "Native plumes retain their built-in response; smoothing applies to hull light and nozzle emission",
+    "Shader helper integration requires revalidation on future engine releases"
+  ],
+  "packaging_ready": true,
+  "previous_user_review": "User positively reviewed the existing hull effects; requested shared turret star repair and deferred turret effects.",
+  "native_checks_reused_from_revision": "1.5; native models, mission and scripts are byte-identical",
+  "changed_runtime_files": [
+    "kurgen_response.luau",
+    "mod.ini"
+  ],
+  "disk_scope_preserved": {
+    "passed": true,
+    "detail_levels": [
+      {
+        "lod": 0,
+        "faces": [
+          129,
+          130,
+          131,
+          132,
+          133,
+          175,
+          176,
+          177,
+          178,
+          179,
+          182,
+          248
+        ],
+        "both_nozzles": true
+      },
+      {
+        "lod": 1,
+        "faces": [
+          15,
+          17,
+          45,
+          49,
+          52,
+          63,
+          84,
+          86
+        ],
+        "both_nozzles": true
+      },
+      {
+        "lod": 2,
+        "faces": [
+          9,
+          23,
+          24,
+          32,
+          46,
+          47
+        ],
+        "both_nozzles": true
+      },
+      {
+        "lod": 3,
+        "faces": [],
+        "both_nozzles": false
+      },
+      {
+        "lod": 4,
+        "faces": [],
+        "both_nozzles": false
+      },
+      {
+        "lod": 5,
+        "faces": [],
+        "both_nozzles": false
+      }
+    ],
+    "scope": "Only recessed nozzle disks; LOD 2 uses its flattened end disks; coarse LODs have no disks"
+  },
+  "response_test_result": "PASS 36 response checks; 45 random outages over 240s; longest steady interval 6.01s; dim duty 10.8%",
+  "response_settings": {
+    "heat_rise": 8,
+    "heat_fall": 14,
+    "critical_health": 0.3,
+    "disruption_quiet_seconds": [
+      3,
+      6
+    ],
+    "steady_light_ceiling_seconds": 7,
+    "petal_weight": [
+      1.25,
+      0.75
+    ]
+  },
+  "randomness": "Per-ship saved Park-Miller stream seeded from official game-side math.random",
+  "asset_manifest_sha256": "1623a95681a28a634f5ac1db7c298701d93da80be67cdfa70b54ad7d373edb9d",
+  "source_manifest_sha256": "141e258d3a0bacaa6ad9b8af21c615ab059e721713928a370b571c1804d17f30",
+  "star_repair": {
+    "passed": true,
+    "original_atlas": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Kurgen/worn/source/rus_turret.png",
+    "original_sha256": "a58608c14fb092893e1658f1f390720cc70d253d82f0ff4226e8d344ee2a5d3c",
+    "original_orientation": "one point down, two points up in the atlas",
+    "replacement_orientation": "one point down, two points up in the atlas",
+    "rotation_verified_visually_against_immutable_original": true,
+    "earlier_point_up_draft_rejected": true,
+    "native_uvs_unchanged": true,
+    "flat_painted_star_has_no_embossed_normal": true,
+    "guide_surface_compensation_y": 1.1568890364850295,
+    "guide_note": "Regular pentagram guide compensated for the native sloped panel UV aspect; raster paint has minor edge wear.",
+    "changed_pixels": 230787,
+    "changed_percent": 1.3755977153778076,
+    "outside_crop_changed_pixels": 0,
+    "border_and_bolt_masks_preserved": true,
+    "crop_xywh": [
+      1040,
+      1390,
+      720,
+      720
+    ],
+    "dimensions": [
+      4096,
+      4096
+    ],
+    "old_atlas_sha256": "1dea7db59f5d7bbc0b3ba955f51fc17977af9d5994085c51e7fc2fc8ab38ea30",
+    "new_atlas_sha256": "2d7745e2f48107547695667d01569ade0582651f56fe4ae71f9a62bf2e915c23",
+    "scene_audit": {
+      "source": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Kurgen/worn/kurgen_worn_pbr_v3.blend",
+      "mesh_uv_normals_transforms_material_assignments_unchanged": true,
+      "mesh_signatures": {
+        "dest": "ea4138564c4271a0ac67b978fcd2ab74c448f4f70307e85edf5da6f20e1b3eb3",
+        "Kurgan_Body": "6b9e942a0ccd24a82ca53ea662bfdc3f544b74c0f4c7131a7418e127e6693c39",
+        "Mount1_Rus Sml Gun 1": "c5ae0e5011cf04425b46c333583e704135a219c5899ed404a60bb39f01eef112",
+        "Mount1_Rus Sml Gun 2": "eb92a78784a1c1b500cc557134e1dad95103ecdeef1157f77be1b881ea58efbd",
+        "Mount1_Rus Sml tur base": "640d11a226c2d901beb0db0a19fa16a829c4b2ec75ad1d7d6c2c5b0117981de0",
+        "Mount2_Rus Sml Gun 1": "21c829f8737b4344d84641b7c00c86ab89bf52cf5061f72bd6f8c5a764fe559a",
+        "Mount2_Rus Sml Gun 2": "027a2242cfe03ab70215a22e70a6da3944083392c3ac0b8e72511c6ace710532",
+        "Mount2_Rus Sml tur base": "d12701dbda2e5b1a810fd2c3f93cd4788ae8568adebfb52537e0ad2a6335d129",
+        "Mount3_Rus Sml Gun 1": "9d13056f29e213288fadc88a2ed876418934b06d6646fd4fa1d4260eb4572571",
+        "Mount3_Rus Sml Gun 2": "518f57978455fc94535c6f99fe8baa3488975721ccff2da0065606c14ac48adb",
+        "Mount3_Rus Sml tur base": "397460e19a7e5ffe4e33542f2177b16413f0e873501b62f7c6daf6666a8dc17f"
+      },
+      "changed_image_nodes": [
+        {
+          "material": "Kurgen_Worn_turret_PBR_v1",
+          "node": "Delivered basecolor",
+          "old_image": "kurgen_turret_basecolor_v1.png",
+          "new_image": "kurgen_turret_basecolor_v7.png"
+        }
+      ],
+      "packed_texture_sha256": "2d7745e2f48107547695667d01569ade0582651f56fe4ae71f9a62bf2e915c23"
+    },
+    "visual_review": "Final atlas crop inspected; in-game review pending",
+    "scope": "Basecolor star repair only. Dynamic turret emissives deferred; no workaround.",
+    "image_generation": "Built-in image_gen; final prompt in imagegen-prompts.json"
+  },
+  "runtime_integration_reused_from_revision": null,
+  "dynamic_turret_effects": "deferred; feature request drafted, no workaround",
+  "runtime_behavior_source": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Kurgen/worn/work/response_release_v8",
+  "approval_record": "approval.json",
+  "engine_build": "Official OpenReliant 0.18.0 linux-x86_64",
+  "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+  "tested_platforms": [
+    "Linux x86_64; official 0.18.0"
+  ],
+  "checks": [
+    "User approved revision 1.7 for beta publication.",
+    "36 response checks pass with steady-light intervals below seven seconds.",
+    "Official 0.18.0 script/shader integration passed after the timing change.",
+    "Approved model and material bytes unchanged.",
+    "Fresh official 0.18.0 gallery photo and fleet contact sheet inspected.",
+    "Native 3D preview verified: three mounted turrets, six barrels, original mount transforms.",
+    "58 package/catalogue tests and catalogue UI checks pass."
+  ],
+  "game_launched_by_agent": true,
+  "gallery_validation": "gallery-validation.json",
+  "preview_validation": "preview-validation.json"
+}

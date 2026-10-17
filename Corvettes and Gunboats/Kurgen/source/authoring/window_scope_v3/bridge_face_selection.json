@@ -1,0 +1,39 @@
+{
+  "atlas_crop": [
+    21,
+    98,
+    53,
+    130
+  ],
+  "texture_size": [
+    512,
+    512
+  ],
+  "selected_faces_by_lod": [
+    [
+      344,
+      345,
+      348,
+      349
+    ],
+    [
+      185,
+      186,
+      187,
+      188
+    ],
+    [
+      103,
+      104,
+      105,
+      106
+    ],
+    [
+      60,
+      61
+    ],
+    [],
+    []
+  ],
+  "rule": "Front bridge shoulder faces only: UV inside crop and native world z -1600 to -900. Rear reuse remains original."
+}

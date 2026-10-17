@@ -1,0 +1,66 @@
+{
+  "canonical_scene": "${KURGEN_WORKSPACE}/kurgen_worn_pbr_v2.blend",
+  "canonical_sha256": "8c105ebd5ed9d029fb5a51047cefd1dd85f18c5696cf1bdf5fb89a6941cc79ed",
+  "snapshot": "${ART_PACK_REPOSITORY}/Corvettes and Gunboats/Kurgen/source/kurgen_worn_pbr_v2.blend",
+  "snapshot_sha256": "9c8769e91ff074c87a6fdc06c6c6a53e7966bd35a1ded3ff8a3aad9c64116b1e",
+  "mesh_signature": "ccdbbd1f2df960a06c30e260919a74aec2fb680476d56c2ea84d13859e24dbff",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "dam_1.png",
+      "path": "//resources/fcacbed0e1d6_dam_1.png",
+      "sha256": "fcacbed0e1d689b0ed27bbd1d1a269028af44170e05bba383c970b2db94ec0cf"
+    },
+    {
+      "image": "kurgen.png",
+      "path": "//resources/5aa9578587ce_kurgen.png",
+      "sha256": "5aa9578587ce155fe0897ddda99826ee4feede2ca52dedcf30a0eb178d64d2b4"
+    },
+    {
+      "image": "kurgen_hull_basecolor_v2.png",
+      "path": "//resources/c179255a4480_kurgen_hull_basecolor_v2.png",
+      "sha256": "c179255a44807fef6330155032fa49f5152fa14663735a70960a0571ec2a0d93"
+    },
+    {
+      "image": "kurgen_hull_emissive_v2.png",
+      "path": "//resources/e0a5cc6c5ff2_kurgen_hull_emissive_v2.png",
+      "sha256": "e0a5cc6c5ff2b8c26364ce60077ae72562e5046b5bc13e96e30a8e6c31d98b96"
+    },
+    {
+      "image": "kurgen_hull_metallic_v2.png",
+      "path": "//resources/cacea5614ff9_kurgen_hull_metallic_v2.png",
+      "sha256": "cacea5614ff97ea7184fadf5d545dfe7ccd1e9c8158083709ca7a44347495dcb"
+    },
+    {
+      "image": "kurgen_hull_normal_v2.png",
+      "path": "//resources/8e2c48ce97fc_kurgen_hull_normal_v2.png",
+      "sha256": "8e2c48ce97fcadde77f570c3d4bf25945d5cda284e51188730945ccb4905d232"
+    },
+    {
+      "image": "kurgen_hull_roughness_v2.png",
+      "path": "//resources/710a5bd88ec8_kurgen_hull_roughness_v2.png",
+      "sha256": "710a5bd88ec844c72ffbb8abb7456b60b97f58c644f499b0626b3931d48d6b3c"
+    },
+    {
+      "image": "kurgen_turret_basecolor_v1.png",
+      "path": "//resources/1dea7db59f5d_kurgen_turret_basecolor_v1.png",
+      "sha256": "1dea7db59f5d7bbc0b3ba955f51fc17977af9d5994085c51e7fc2fc8ab38ea30"
+    },
+    {
+      "image": "kurgen_turret_metallic_v1.png",
+      "path": "//resources/4a3acb634a94_kurgen_turret_metallic_v1.png",
+      "sha256": "4a3acb634a94abd780aa98d8318add060933a7e9c87b3a38f37b6e9dc2ccf713"
+    },
+    {
+      "image": "kurgen_turret_normal_v1.png",
+      "path": "//resources/06acbb7f693e_kurgen_turret_normal_v1.png",
+      "sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693"
+    },
+    {
+      "image": "kurgen_turret_roughness_v1.png",
+      "path": "//resources/b7e7266ff3b9_kurgen_turret_roughness_v1.png",
+      "sha256": "b7e7266ff3b9f11d78c90cea12113d3c92301c47f06e19b7839aca9b1498ab41"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "source_scene": "${KURGEN_WORKSPACE}/kurgen_worn_pbr_v1.blend",
+  "source_sha256": "63c0cf6638e5eb5ed1be05455b88144bd6b2c21b38e5a884ec72f1fb71c1de8c",
+  "scene": "${KURGEN_WORKSPACE}/kurgen_worn_pbr_v2.blend",
+  "scene_sha256": "8c105ebd5ed9d029fb5a51047cefd1dd85f18c5696cf1bdf5fb89a6941cc79ed",
+  "mesh_signature": "42b3d44d6f9cd76f9a765535db45b520f9bf17ef5a73e677f78f25105d8d8aa4",
+  "original_scene_preserved": true,
+  "geometry_uv_normals_mounts_unchanged": true,
+  "turret_materials_unchanged": true,
+  "basecolor_preserved_outside_windows": true,
+  "window_atlas_regions": 10,
+  "maps": {
+    "basecolor": {
+      "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_basecolor_v2.png",
+      "sha256": "c179255a44807fef6330155032fa49f5152fa14663735a70960a0571ec2a0d93",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "normal": {
+      "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_normal_v2.png",
+      "sha256": "8e2c48ce97fcadde77f570c3d4bf25945d5cda284e51188730945ccb4905d232",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "roughness": {
+      "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_roughness_v2.png",
+      "sha256": "710a5bd88ec844c72ffbb8abb7456b60b97f58c644f499b0626b3931d48d6b3c",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "metallic": {
+      "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_metallic_v2.png",
+      "sha256": "cacea5614ff97ea7184fadf5d545dfe7ccd1e9c8158083709ca7a44347495dcb",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "emissive": {
+      "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_emissive_v2.png",
+      "sha256": "e0a5cc6c5ff2b8c26364ce60077ae72562e5046b5bc13e96e30a8e6c31d98b96",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "height": {
+      "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_height_v2.png",
+      "sha256": "10b4354a73f2cf26b32e11bd5503b43acea8ae055e56f6ae7ba0f77e1cadc5da",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "window_aperture": {
+      "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_window_aperture_v2.png",
+      "sha256": "11661002a6122e8a017aa20dfcf308c2322bbe4f743850707055dd18b2997c45",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "window_glass": {
+      "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_window_glass_v2.png",
+      "sha256": "a74fef2929c711f56440cf57afdbd8b90d316ae537a00bfb09c740e60a67eb96",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "flat_graphics": {
+      "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_flat_graphics_v2.png",
+      "sha256": "9d5a534f226caf64f7079b462e4719134a16114c9d5b0c387c8fcef7bd8c10ec",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "panels": {
+      "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_panels_v2.png",
+      "sha256": "7d2e0d7b0ae43027c3e96912f787d2ee8ad5a2656d6f3373eedf284db9a3ad88",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "structure": {
+      "path": "${KURGEN_WORKSPACE}/maps/windows_relief_v2/kurgen_hull_structure_v2.png",
+      "sha256": "399129d4592a2deb65d4153a1db9aa7ebcd3a0c2a1b26a507160ef518c4a9f2f",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    }
+  },
+  "normal_depth": {
+    "panel_seams": 4.2,
+    "machinery_recesses": 2.8,
+    "radiator_ribs": 3.0
+  },
+  "emission": "Warm amber panes only; black hull, seals and frame mask; linear engine emission strength 1",
+  "runtime_visual_review": "pending_user"
+}

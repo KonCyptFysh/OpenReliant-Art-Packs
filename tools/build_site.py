@@ -204,7 +204,8 @@ def validate_ship_photography(root, data):
                         f"{label}: photograph uses a different camera")
                 require(record["gallery_dimensions"] == policy["output_size"],
                         f"{label}: photograph dimensions do not match the gallery")
-                require(record["engine"] == policy["engine"], f"{label}: photograph uses a different engine baseline")
+                expected_engine = policy.get("engine_overrides", {}).get(asset["id"], policy["engine"])
+                require(record["engine"] == expected_engine, f"{label}: photograph uses a different engine baseline")
                 require(record["artwork_revision"] == edition["assetRevision"]
                         and record["runtime_manifest_sha256"] == manifest_hash,
                         f"{label}: photograph predates the current runtime artwork")

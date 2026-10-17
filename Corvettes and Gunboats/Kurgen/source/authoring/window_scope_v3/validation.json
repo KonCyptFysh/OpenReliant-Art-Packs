@@ -1,0 +1,273 @@
+{
+  "source_scene": "${KURGEN_WORKSPACE}/kurgen_worn_pbr_v2.blend",
+  "source_sha256": "8c105ebd5ed9d029fb5a51047cefd1dd85f18c5696cf1bdf5fb89a6941cc79ed",
+  "scene": "${KURGEN_WORKSPACE}/kurgen_worn_pbr_v3.blend",
+  "scene_sha256": "eb6f3a017ea277357aef06d5d90ff3c912d096f20a1a913ee33a2ec14978428b",
+  "mesh_signature": "42b3d44d6f9cd76f9a765535db45b520f9bf17ef5a73e677f78f25105d8d8aa4",
+  "original_scene_preserved": true,
+  "geometry_normals_mounts_and_original_uv_layers_unchanged": true,
+  "front_bridge_uv_layer_added": true,
+  "bridge_selection": {
+    "atlas_crop": [
+      21,
+      98,
+      53,
+      130
+    ],
+    "texture_size": [
+      512,
+      512
+    ],
+    "selected_faces_by_lod": [
+      [
+        344,
+        345,
+        348,
+        349
+      ],
+      [
+        185,
+        186,
+        187,
+        188
+      ],
+      [
+        103,
+        104,
+        105,
+        106
+      ],
+      [
+        60,
+        61
+      ],
+      [],
+      []
+    ],
+    "rule": "Front bridge shoulder faces only: UV inside crop and native world z -1600 to -900. Rear reuse remains original."
+  },
+  "bridge_maps": {
+    "basecolor": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_bridge_basecolor_v3.png",
+      "sha256": "b180bb227f2757a126ebbd6b7d34873ce3503d42cbfbd8f46d0c23d0d7b992d5",
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "normal": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_bridge_normal_v3.png",
+      "sha256": "8814c146844c3b03c2741dfb9e3af531decb4dfc60681b4c0a90caeef783ec12",
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "roughness": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_bridge_roughness_v3.png",
+      "sha256": "899917713c48f7fa19075b255cd41ee9fac212b192abe472704eeaa01d1764b9",
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "metallic": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_bridge_metallic_v3.png",
+      "sha256": "97ff00bb2cad764a1ce095adc73d4856d7a042da96b38f56c33775c793eebd3d",
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    "emissive": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_bridge_emissive_v3.png",
+      "sha256": "e511a7255cde28bbdececeaa1026d25826cde47f9ef941a1472def17620781b8",
+      "dimensions": [
+        512,
+        512
+      ]
+    }
+  },
+  "turret_materials_unchanged": true,
+  "basecolor_preserved_outside_windows": true,
+  "window_atlas_regions": 4,
+  "restored_regions": [
+    "upper_bank",
+    "lower_bank",
+    "long_bank_a",
+    "long_bank_b",
+    "end_bank",
+    "short_bridge_bank"
+  ],
+  "bridge_front_exception": "Front faces only use their own 512-square crop; reused rear faces stay non-emissive",
+  "maps": {
+    "basecolor": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_hull_basecolor_v3.png",
+      "sha256": "45b74de7db6d3e3e1a4fcf0e065d535b0c93b8449a41152756382b533b8fdbc1",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "normal": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_hull_normal_v3.png",
+      "sha256": "61ba590b38afaeaca60de8bf5ca63c7883e468a89241cebfafb807020827e66d",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "roughness": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_hull_roughness_v3.png",
+      "sha256": "1f916eb0119f5942f619fbdf1db3392057f24a053140d6d1a7695f0ee18973f4",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "metallic": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_hull_metallic_v3.png",
+      "sha256": "89f6ff3ac5612df6934c24187ec2a439e371db9dea67b1225db32192f7757c65",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "emissive": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_hull_emissive_v3.png",
+      "sha256": "ad36c79bfe138dc14db60b40f9af95d3276e65ef70ee51a06c14400b044b8345",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "height": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_hull_height_v3.png",
+      "sha256": "26b631ef436f51aa829da3183c8c983a7b054f48401c57d115dcc632e4af8dd1",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "window_aperture": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_hull_window_aperture_v3.png",
+      "sha256": "b29af842951a81823c29fcd6dbe00fa4496d53c35ca2fef661aef233ae6244be",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "window_glass": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_hull_window_glass_v3.png",
+      "sha256": "de0b8386d314c2483bb1404070be14c6c39d11975785c58b3b67f3dd6e80eae8",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "flat_graphics": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_hull_flat_graphics_v3.png",
+      "sha256": "9d5a534f226caf64f7079b462e4719134a16114c9d5b0c387c8fcef7bd8c10ec",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "panels": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_hull_panels_v3.png",
+      "sha256": "7d2e0d7b0ae43027c3e96912f787d2ee8ad5a2656d6f3373eedf284db9a3ad88",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "structure": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_hull_structure_v3.png",
+      "sha256": "399129d4592a2deb65d4153a1db9aa7ebcd3a0c2a1b26a507160ef518c4a9f2f",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "vent_ribs": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_hull_vent_ribs_v3.png",
+      "sha256": "af0383ea55c45167d9d3c05ac3626357f3fb2f9970f5f5724ed5ad90f1c94498",
+      "dimensions": [
+        4096,
+        4096
+      ]
+    }
+  },
+  "normal_depth": {
+    "panel_seams": 4.2,
+    "machinery_recesses": 2.8,
+    "radiator_ribs": 3.0
+  },
+  "emission": "Warm amber panes only; black hull, seals and frame mask; linear engine emission strength 1",
+  "runtime_visual_review": "pending_user",
+  "bridge_lod_maps": {
+    "basecolor": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_bridge_lod_basecolor_v3.png",
+      "sha256": "fbf9023c26ddb8dfaa2fb46cf4e7020246e673adbe9ee703df0d855945f03131",
+      "dimensions": [
+        256,
+        1024
+      ]
+    },
+    "normal": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_bridge_lod_normal_v3.png",
+      "sha256": "d2e49b91111aa96b74e0223a304bd76d1573a09211d3d0f789665c9a504180c2",
+      "dimensions": [
+        256,
+        1024
+      ]
+    },
+    "roughness": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_bridge_lod_roughness_v3.png",
+      "sha256": "e8dc1edcd3e07af62c2bfd6151b1961ff0d01211c49ec86de59f17426cc9e8b9",
+      "dimensions": [
+        256,
+        1024
+      ]
+    },
+    "metallic": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_bridge_lod_metallic_v3.png",
+      "sha256": "2019332f030f46b257cc8ae64b6cec4c8ab75569c684e69b4fe06eb2cac07ffa",
+      "dimensions": [
+        256,
+        1024
+      ]
+    },
+    "emissive": {
+      "path": "${KURGEN_WORKSPACE}/maps/window_scope_v3/kurgen_bridge_lod_emissive_v3.png",
+      "sha256": "a5ad818c4264bb8db2ff63698f49e1590762bf4f75d894ee9a5abbe72a440ab9",
+      "dimensions": [
+        256,
+        1024
+      ]
+    }
+  },
+  "bridge_lod_selection": {
+    "atlas_crop": [
+      96,
+      128,
+      112,
+      192
+    ],
+    "selected_faces_by_lod": [
+      [],
+      [
+        66,
+        202
+      ],
+      [
+        33,
+        113
+      ],
+      [],
+      [],
+      []
+    ],
+    "purpose": "Restrict lower-detail side windows to the highlighted bridge span; restore original unlit hardware beyond it"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "coordinate_size": [
+    256,
+    256
+  ],
+  "windows": [
+    {
+      "name": "upper_bank",
+      "shape": "capsule",
+      "a": [
+        176,
+        14.1
+      ],
+      "b": [
+        238,
+        14.1
+      ],
+      "radius": 2.65
+    },
+    {
+      "name": "lower_bank",
+      "shape": "capsule",
+      "a": [
+        176,
+        44.1
+      ],
+      "b": [
+        238,
+        44.1
+      ],
+      "radius": 2.65
+    },
+    {
+      "name": "long_bank_a",
+      "shape": "capsule",
+      "a": [
+        68,
+        82.4
+      ],
+      "b": [
+        180,
+        82.4
+      ],
+      "radius": 3.35
+    },
+    {
+      "name": "long_bank_b",
+      "shape": "capsule",
+      "a": [
+        68,
+        95.4
+      ],
+      "b": [
+        180,
+        95.4
+      ],
+      "radius": 3.35
+    },
+    {
+      "name": "end_bank",
+      "shape": "rect",
+      "box": [
+        39.3,
+        103.0,
+        44.8,
+        122.3
+      ]
+    },
+    {
+      "name": "side_bank_long",
+      "shape": "rect",
+      "box": [
+        98.2,
+        131.0,
+        104.1,
+        167.6
+      ]
+    },
+    {
+      "name": "side_bank_short",
+      "shape": "rect",
+      "box": [
+        98.2,
+        172.0,
+        104.1,
+        180.6
+      ]
+    },
+    {
+      "name": "short_bridge_bank",
+      "shape": "capsule",
+      "a": [
+        67.2,
+        177.5
+      ],
+      "b": [
+        88.0,
+        177.5
+      ],
+      "radius": 2.8
+    },
+    {
+      "name": "forward_bank_short",
+      "shape": "rect",
+      "box": [
+        184.9,
+        195.7,
+        190.7,
+        207.0
+      ]
+    },
+    {
+      "name": "forward_bank_long",
+      "shape": "rect",
+      "box": [
+        184.9,
+        212.2,
+        191.0,
+        236.8
+      ]
+    }
+  ],
+  "policy": "Only these aperture pixels may change in the accepted hull albedo; no other base-colour editing. Frames excluded from emission.",
+  "height_encoding": "height = (stored * 8) - 4",
+  "panel_depth_multiplier": 4.2,
+  "mechanical_recess_multiplier": 2.8,
+  "radiator_rib_multiplier": 3.0
+}

@@ -1,0 +1,91 @@
+{
+  "canonical_scene": "${KURGEN_WORKSPACE}/kurgen_worn_pbr_v3.blend",
+  "canonical_sha256": "eb6f3a017ea277357aef06d5d90ff3c912d096f20a1a913ee33a2ec14978428b",
+  "snapshot": "${ART_PACK_REPOSITORY}/Corvettes and Gunboats/Kurgen/source/kurgen_worn_pbr_v3.blend",
+  "snapshot_sha256": "3563ac80ff89673e5662c481aff39892b8f4dc4bfd2674a06f310a67358f1ff5",
+  "mesh_signature": "21d689547faa9873d564dcbd1317d30bca762ec5ad1eb68314d48643204d1531",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "dam_1.png",
+      "path": "//resources/fcacbed0e1d6_dam_1.png",
+      "sha256": "fcacbed0e1d689b0ed27bbd1d1a269028af44170e05bba383c970b2db94ec0cf"
+    },
+    {
+      "image": "kurgen.png",
+      "path": "//resources/5aa9578587ce_kurgen.png",
+      "sha256": "5aa9578587ce155fe0897ddda99826ee4feede2ca52dedcf30a0eb178d64d2b4"
+    },
+    {
+      "image": "kurgen_bridge_basecolor_v3.png",
+      "path": "//resources/b180bb227f27_kurgen_bridge_basecolor_v3.png",
+      "sha256": "b180bb227f2757a126ebbd6b7d34873ce3503d42cbfbd8f46d0c23d0d7b992d5"
+    },
+    {
+      "image": "kurgen_bridge_emissive_v3.png",
+      "path": "//resources/e511a7255cde_kurgen_bridge_emissive_v3.png",
+      "sha256": "e511a7255cde28bbdececeaa1026d25826cde47f9ef941a1472def17620781b8"
+    },
+    {
+      "image": "kurgen_bridge_metallic_v3.png",
+      "path": "//resources/97ff00bb2cad_kurgen_bridge_metallic_v3.png",
+      "sha256": "97ff00bb2cad764a1ce095adc73d4856d7a042da96b38f56c33775c793eebd3d"
+    },
+    {
+      "image": "kurgen_bridge_normal_v3.png",
+      "path": "//resources/8814c146844c_kurgen_bridge_normal_v3.png",
+      "sha256": "8814c146844c3b03c2741dfb9e3af531decb4dfc60681b4c0a90caeef783ec12"
+    },
+    {
+      "image": "kurgen_bridge_roughness_v3.png",
+      "path": "//resources/899917713c48_kurgen_bridge_roughness_v3.png",
+      "sha256": "899917713c48f7fa19075b255cd41ee9fac212b192abe472704eeaa01d1764b9"
+    },
+    {
+      "image": "kurgen_hull_basecolor_v3.png",
+      "path": "//resources/45b74de7db6d_kurgen_hull_basecolor_v3.png",
+      "sha256": "45b74de7db6d3e3e1a4fcf0e065d535b0c93b8449a41152756382b533b8fdbc1"
+    },
+    {
+      "image": "kurgen_hull_emissive_v3.png",
+      "path": "//resources/ad36c79bfe13_kurgen_hull_emissive_v3.png",
+      "sha256": "ad36c79bfe138dc14db60b40f9af95d3276e65ef70ee51a06c14400b044b8345"
+    },
+    {
+      "image": "kurgen_hull_metallic_v3.png",
+      "path": "//resources/89f6ff3ac561_kurgen_hull_metallic_v3.png",
+      "sha256": "89f6ff3ac5612df6934c24187ec2a439e371db9dea67b1225db32192f7757c65"
+    },
+    {
+      "image": "kurgen_hull_normal_v3.png",
+      "path": "//resources/61ba590b38af_kurgen_hull_normal_v3.png",
+      "sha256": "61ba590b38afaeaca60de8bf5ca63c7883e468a89241cebfafb807020827e66d"
+    },
+    {
+      "image": "kurgen_hull_roughness_v3.png",
+      "path": "//resources/1f916eb0119f_kurgen_hull_roughness_v3.png",
+      "sha256": "1f916eb0119f5942f619fbdf1db3392057f24a053140d6d1a7695f0ee18973f4"
+    },
+    {
+      "image": "kurgen_turret_basecolor_v1.png",
+      "path": "//resources/1dea7db59f5d_kurgen_turret_basecolor_v1.png",
+      "sha256": "1dea7db59f5d7bbc0b3ba955f51fc17977af9d5994085c51e7fc2fc8ab38ea30"
+    },
+    {
+      "image": "kurgen_turret_metallic_v1.png",
+      "path": "//resources/4a3acb634a94_kurgen_turret_metallic_v1.png",
+      "sha256": "4a3acb634a94abd780aa98d8318add060933a7e9c87b3a38f37b6e9dc2ccf713"
+    },
+    {
+      "image": "kurgen_turret_normal_v1.png",
+      "path": "//resources/06acbb7f693e_kurgen_turret_normal_v1.png",
+      "sha256": "06acbb7f693eba29f12884b50be10b83adbdb012b795cef8fa91a39fac4b5693"
+    },
+    {
+      "image": "kurgen_turret_roughness_v1.png",
+      "path": "//resources/b7e7266ff3b9_kurgen_turret_roughness_v1.png",
+      "sha256": "b7e7266ff3b9f11d78c90cea12113d3c92301c47f06e19b7839aca9b1498ab41"
+    }
+  ]
+}

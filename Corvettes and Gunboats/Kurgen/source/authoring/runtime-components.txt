@@ -1,0 +1,4 @@
+index  part  class  link  armor  model                 name
+    0     0      3     1     50  10_rus_stur.shp       Rus Sml tur base
+    1     0      3     1     50  10_rus_stur.shp       Rus Sml tur base
+    2     0      3     1     50  10_rus_stur.shp       Rus Sml tur base

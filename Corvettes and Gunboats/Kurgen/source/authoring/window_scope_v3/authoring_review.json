@@ -1,0 +1,19 @@
+{
+  "reviewed_at_utc": "2026-10-17T00:12:26.822235+00:00",
+  "kind": "Blender authoring views, not game captures",
+  "views": [
+    "front",
+    "opposite",
+    "belly",
+    "rear",
+    "emissive_dark"
+  ],
+  "observations": [
+    "Original long vent artwork restored on nose top and both sides.",
+    "Lengthwise vent-rib relief replaces the mistaken window mullions.",
+    "Only the highlighted bridge front and side sections remain windows.",
+    "Reused rear strip and under-turret hardware restored to original unlit appearance.",
+    "Emission surfaces traced on the exported mesh at every detail level; four coarse side faces corrected."
+  ],
+  "runtime_visual_review": "pending_user"
+}

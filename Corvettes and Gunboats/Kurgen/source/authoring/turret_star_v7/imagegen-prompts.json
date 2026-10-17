@@ -1,0 +1,10 @@
+{
+  "tool": "built-in image_gen",
+  "use_case": "precise-object-edit",
+  "prompt": "Use case: precise-object-edit. Asset: flat orthographic game texture patch. Image 1 is the original edit target: a 720 square worn steel turret panel. Image 2 is the exact replacement star geometry guide. Replace ONLY the malformed red star and its damaged off-white paint with a symmetrical five-pointed star matching image 2 exactly in position, dimensions, orientation, and outline width. CRITICAL: SINGLE POINT FACES DOWN, TWO POINTS UP, matching original rotation. The guide is intentionally stretched vertically for UV compensation; copy its silhouette, do not normalize it. Paint dark red #81130e with narrow warm off-white outline #c7c2ae, intact tips and subtle fine paint grain. Restore matching dark gray steel only where the old oversized star or damaged white footprint is removed. Keep surrounding panel, bolts, edges, grain softness, overall colors and lighting as close to image 1 as possible. No bevel, glow, extra symbols, text, perspective, raised geometry or other changes. Return the square texture patch only.",
+  "inputs": [
+    "star-panel-before.png",
+    "star-geometry-corrected.png"
+  ],
+  "generated_file": "exec-b70affdd-22cc-424e-95b7-c2d93baf1aa0.png"
+}

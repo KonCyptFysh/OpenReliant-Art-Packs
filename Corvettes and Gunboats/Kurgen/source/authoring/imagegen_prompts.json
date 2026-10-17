@@ -1,0 +1,18 @@
+[
+  {
+    "input": "source/kurgen.png",
+    "output": "maps/kurgen_hull_reconstructed_v1.png",
+    "prompt": "Use case: precise-object-edit. Asset type: square UV texture atlas for the original StarLancer Coalition Kurgen gunboat, worn restoration. Edit target: supplied 256-square original KURGEN atlas. Reconstruct this SAME atlas at high resolution with precise crisp hand-authored industrial surface detail. This is a flat texture sheet, NOT a ship render. Preserve every UV island boundary, panel silhouette, vent position, red star, white border, red-and-white caution triangle, yellow-and-black warning placard, little red lamp and mechanical component in EXACTLY the same relative pixel positions and sizes. Do not add, delete, rotate, move, expand or rearrange anything. Retain original dark charcoal gunmetal and weathered grey armour, subtle warm brown recesses, dark red stars and restrained small amber/red indicator details. Restore coherent continuous thin panel gaps, clean machined edges, readable vent ribs and bolts, textured chipped painted metal with fine scratches and localized grime. Worn, not factory new. Remove low-resolution blur and chunky pixelation while matching the source design. Keep hardware and grilles recognisable and crisp; avoid random greebles, chunky bevels, excessive new scratches or brighter silver recolouring. Star emblems and warning paint remain flat paint, not embossed. Use diffuse even illumination appropriate to a base-colour map, with only gentle recess shading and no directional highlights, glossy baked reflections or cast shadows. Do not invent cockpit glazing where the source has machinery. Fill the exact square canvas edge to edge, no padding, border, labels or perspective. Deliver the reconstructed atlas only, highest useful square resolution.",
+    "method": "built-in image_gen",
+    "input_sha256": "5aa9578587ce155fe0897ddda99826ee4feede2ca52dedcf30a0eb178d64d2b4",
+    "output_sha256": "d9d1521306b18d0245c4937c2f60db60e788e15cf7a6519fe318b3ecfaf5125b"
+  },
+  {
+    "input": "source/rus_turret.png",
+    "output": "maps/kurgen_turret_reconstructed_v1.png",
+    "prompt": "Use case: precise-object-edit. Asset type: flat square UV texture atlas for the Kurgen's Coalition gun turrets in StarLancer. Edit target: supplied original RUS_TURRET 128-square atlas. Reconstruct the SAME atlas with sharply resolved, coherent worn industrial spacecraft materials. Retain EXACT normalized pixel placement, scale, angles and boundaries of all panels, slots, hatches, red stars, white outlines, red painted strips and small red indicator lights. No rearranging, padding, cropping or extra elements. Preserve muted charcoal and grey metal, dark red paint, restrained weathering, chips and recess grime. Detailed fine surface wear, legible straight thin panel gaps, crisp machined recesses, inset vents and screw heads. Do not brighten into polished silver, invent texture islands or replace the source design. Red stars and paint markings stay flat paint. Even diffuse base-colour illumination with restrained local cavity shading: no directional highlights, cast shadows, excessive baked shine, bevel glare or new symbols. This texture maps onto an existing 3D mesh and therefore every feature must stay in its original position. Square canvas, edge-to-edge texture only, highest useful square resolution.",
+    "method": "built-in image_gen",
+    "input_sha256": "a58608c14fb092893e1658f1f390720cc70d253d82f0ff4226e8d344ee2a5d3c",
+    "output_sha256": "89e28fcda6448e63e29a7f15378a68c9bbf2acc9aeb6887ec50a44fc5054129b"
+  }
+]
