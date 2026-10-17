@@ -2558,7 +2558,40 @@
           "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/karak-v0.1.0-beta.1/openreliant-karak-0.1.0-beta.1.zip",
           "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1",
           "checksum": "b6f2b62bd866561bdf0052b0676e2a555af5cbcbeb47564c2342b407e2bccd0e",
-          "downloadBytes": 29855001
+          "downloadBytes": 29855001,
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "karak-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/karak-v0.1.0-beta.1.res2/openreliant-karak-1k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1.res2",
+              "checksum": "173f185638e6c367e2b2b5638129ac95aa73c15ae22b9c58a788910fe8691c7f",
+              "downloadBytes": 4307727
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.1.res2",
+              "tag": "karak-v0.1.0-beta.1.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/karak-v0.1.0-beta.1.res2/openreliant-karak-2k-0.1.0-beta.1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1.res2",
+              "checksum": "ab8e38f4da4f8956918c0fa7326f57c229ac962d25959dbe5186f926a1abf566",
+              "downloadBytes": 10793044
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.1",
+              "tag": "karak-v0.1.0-beta.1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/karak-v0.1.0-beta.1/openreliant-karak-0.1.0-beta.1.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1",
+              "checksum": "b6f2b62bd866561bdf0052b0676e2a555af5cbcbeb47564c2342b407e2bccd0e",
+              "downloadBytes": 29855001
+            }
+          ]
         }
       ],
       "aliases": [
