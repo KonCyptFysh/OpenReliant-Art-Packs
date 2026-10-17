@@ -1,0 +1,82 @@
+version:  107
+flags:    components=true cloak=false
+parts:    6
+vertices: 877
+faces:    1593
+arcs:     5
+bounds:   (-145,-2178,-4041) to (1597,-469,1868), 1742 x 1709 x 5909
+
+[  0] prow eng link 1                    type  0  parent  -1  link 1
+        lod 0:    28 vertices    50 faces   2 materials  beyond 20000
+        lod 1:    14 vertices    22 faces   2 materials  beyond 40000
+        lod 2:    11 vertices    17 faces   2 materials  beyond 60000
+        lod 3:    10 vertices    15 faces   2 materials  beyond 80000
+        lod 4:    10 vertices    15 faces   2 materials  beyond 100000
+        lod 5:     7 vertices     9 faces   2 materials  beyond 120000
+        lod 6:     7 vertices     9 faces   2 materials  beyond 2000000
+        3 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[  1] prow bak eng 1                     type  0  parent  -1  link 1
+        lod 0:    24 vertices    44 faces   2 materials  beyond 20000
+        lod 1:    16 vertices    28 faces   2 materials  beyond 40000
+        lod 2:    10 vertices    16 faces   2 materials  beyond 60000
+        lod 3:     4 vertices     4 faces   2 materials  beyond 80000
+        lod 4:     4 vertices     4 faces   2 materials  beyond 100000
+        lod 5:     4 vertices     4 faces   2 materials  beyond 120000
+        lod 6:     4 vertices     4 faces   2 materials  beyond 2000000
+        3 nodes, 1 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          engine glow 2 at (-17,8,-500)  id 1 size (250,250,-1000)
+[  2] Prowler                            type  1  parent  -1  link 1
+        lod 0:   146 vertices   288 faces   2 materials  beyond 20000
+        lod 1:    85 vertices   166 faces   2 materials  beyond 40000
+        lod 2:    42 vertices    80 faces   2 materials  beyond 60000
+        lod 3:    22 vertices    40 faces   2 materials  beyond 80000
+        lod 4:     7 vertices    10 faces   2 materials  beyond 2000000
+        15 nodes, 6 attachments, 1 clips, 2 point lists, 0 triggers
+          points kind 2: 42
+          points kind 5: 3
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          engine glow 2 at (-6,316,-1550)  id 1 size (300,300,-1200)
+          light 4 at (-15,-58,-2156)  id 3 brightness 8.00 range 400 size (0.0,0.0)
+          gun 1 at (-415,-463,720)
+          gun 1 at (380,-463,720)
+          gun 1 at (10,-846,-2200)
+          gun 1 at (0,744,1530)
+[  3] prow bak eng 2                     type  0  parent  -1  link 1
+        lod 0:    24 vertices    44 faces   2 materials  beyond 20000
+        lod 1:    16 vertices    28 faces   2 materials  beyond 40000
+        lod 2:    10 vertices    16 faces   2 materials  beyond 60000
+        lod 3:     4 vertices     4 faces   2 materials  beyond 80000
+        lod 4:     4 vertices     4 faces   2 materials  beyond 100000
+        lod 5:     4 vertices     4 faces   2 materials  beyond 120000
+        lod 6:     4 vertices     4 faces   2 materials  beyond 2000000
+        3 nodes, 1 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          engine glow 2 at (13,-1,-500)  id 1 size (250,250,-1000)
+[  4] prow eng link 2                    type  0  parent  -1  link 1
+        lod 0:    28 vertices    50 faces   2 materials  beyond 20000
+        lod 1:    14 vertices    22 faces   2 materials  beyond 40000
+        lod 2:    11 vertices    17 faces   2 materials  beyond 60000
+        lod 3:    10 vertices    15 faces   2 materials  beyond 80000
+        lod 4:    10 vertices    15 faces   2 materials  beyond 100000
+        lod 5:     7 vertices     9 faces   2 materials  beyond 120000
+        lod 6:     7 vertices     9 faces   2 materials  beyond 2000000
+        3 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[  5] Prowler DEST                       type  1  parent  -1  link 1
+        lod 0:    93 vertices   185 faces   1 materials  beyond 20000
+        lod 1:    65 vertices   129 faces   1 materials  beyond 40000
+        lod 2:    46 vertices    91 faces   1 materials  beyond 60000
+        lod 3:    32 vertices    63 faces   1 materials  beyond 80000
+        lod 4:    18 vertices    35 faces   1 materials  beyond 100000
+        lod 5:    12 vertices    22 faces   1 materials  beyond 120000
+        lod 6:     3 vertices     2 faces   1 materials  beyond 2000000
+        15 nodes, 1 attachments, 1 clips, 3 point lists, 0 triggers
+          points kind 4: 1
+          points kind 3: 13
+          points kind 1: 8
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          light 4 at (365,261,2221)  id 3 brightness 10.00 range 1000 size (0.0,0.0)
+
+textures (3): PROW_1 PROW_2 DAM_1

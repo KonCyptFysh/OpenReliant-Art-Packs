@@ -1,0 +1,76 @@
+{
+  "canonical_scene": "${PROWLER_WORKSPACE}/prowler_worn_pbr_v1.blend",
+  "canonical_sha256": "90ece836a33b7041c16c3871fcc74062b3f0b1f7175706a2126a5e78babf7aa0",
+  "snapshot": "${ART_PACK_REPOSITORY}/Corvettes and Gunboats/Prowler/source/prowler_worn_pbr_v1.blend",
+  "snapshot_sha256": "bdc4be8320dd98b4190a06f6826e34a5872ad00f6b7695596259576b3127af31",
+  "mesh_signature": "70084180d763e714ff39624a6e1a0fbb5f2758f6b000ec0e3ebdd5ff252e4b3f",
+  "geometry_uv_normals_material_assignments_unchanged": true,
+  "packed_relative_resources_reopened": true,
+  "images": [
+    {
+      "image": "dam_1.png",
+      "path": "//resources/fcacbed0e1d6_dam_1.png",
+      "sha256": "fcacbed0e1d689b0ed27bbd1d1a269028af44170e05bba383c970b2db94ec0cf"
+    },
+    {
+      "image": "missiles.png",
+      "path": "//resources/97801a1b8523_missiles.png",
+      "sha256": "97801a1b8523ac4db9aa9f82cd86947a30b79b8161c611f01bc39feed309b2b3"
+    },
+    {
+      "image": "prow_1.png",
+      "path": "//resources/39d64ae9bbd3_prow_1.png",
+      "sha256": "39d64ae9bbd3e5d12abed0e2d177354ca414a6f2a45e56b236b929363ace98ad"
+    },
+    {
+      "image": "prow_2.png",
+      "path": "//resources/c1192bd4da6f_prow_2.png",
+      "sha256": "c1192bd4da6fc7950f919a1d849bd7eddd6a7e153890458bc7a1e6daf0afafdc"
+    },
+    {
+      "image": "prowler_hull1_basecolor_v1.png",
+      "path": "//resources/dfd147238d6d_prowler_hull1_basecolor_v1.png",
+      "sha256": "dfd147238d6dae937d3940b8e50648553fbe0deac82b5b98beb2f9c73ccf0ff6"
+    },
+    {
+      "image": "prowler_hull1_emissive_v1.png",
+      "path": "//resources/f457f4d52b69_prowler_hull1_emissive_v1.png",
+      "sha256": "f457f4d52b69a5268d506a2afc788876f54a33a8b068679ef3a7656f2eba3757"
+    },
+    {
+      "image": "prowler_hull1_metallic_v1.png",
+      "path": "//resources/9bace5f518ed_prowler_hull1_metallic_v1.png",
+      "sha256": "9bace5f518edfee63c3d9f8ca8c6d6bb761ad4436a60b495a8ada1efa7e2916e"
+    },
+    {
+      "image": "prowler_hull1_normal_v1.png",
+      "path": "//resources/f01d9adb0c28_prowler_hull1_normal_v1.png",
+      "sha256": "f01d9adb0c28f898d54291e524ad803237ffb82f70b2e1fc508520ba08872a60"
+    },
+    {
+      "image": "prowler_hull1_roughness_v1.png",
+      "path": "//resources/dd94443faaad_prowler_hull1_roughness_v1.png",
+      "sha256": "dd94443faaad0ddf9bdd329afa46b4ae1b149fc7678126aeb27df0ac7c232ee9"
+    },
+    {
+      "image": "prowler_hull2_basecolor_v1.png",
+      "path": "//resources/c5f08884f1c0_prowler_hull2_basecolor_v1.png",
+      "sha256": "c5f08884f1c00bccc526a2c27c5a640a5c2171a252ddd5cb09942ff0b43cb2d4"
+    },
+    {
+      "image": "prowler_hull2_metallic_v1.png",
+      "path": "//resources/a3cbd356182f_prowler_hull2_metallic_v1.png",
+      "sha256": "a3cbd356182f801b0efd3c530f49e2e1509a2148591b98d44c3527e4dca94062"
+    },
+    {
+      "image": "prowler_hull2_normal_v1.png",
+      "path": "//resources/5ea7aaaf74e4_prowler_hull2_normal_v1.png",
+      "sha256": "5ea7aaaf74e4a4ea972e52c43d0ace052a516a72896a9f321b754fb1cbf18570"
+    },
+    {
+      "image": "prowler_hull2_roughness_v1.png",
+      "path": "//resources/4237295ff7b6_prowler_hull2_roughness_v1.png",
+      "sha256": "4237295ff7b6fcc421af7fc269cbea333bb76b64bf3e28448eba6ea582e565cf"
+    }
+  ]
+}

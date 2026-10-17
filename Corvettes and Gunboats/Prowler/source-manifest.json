@@ -1,0 +1,697 @@
+{
+  "status": "approved-release-snapshot",
+  "ship": "Prowler",
+  "asset_revision": "1.2",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 1738,
+      "sha256": "b95e2eebd985be2408d1f5950d85075a5092544a51f388a25171ae67dfaa4b8b"
+    },
+    {
+      "path": "source/authoring/authoring_review.json",
+      "bytes": 614,
+      "sha256": "dc69005a85db95221e0a111b6a41f558d6e20e790820b2b801baf8c0d691a061"
+    },
+    {
+      "path": "source/authoring/baseline_audit.json",
+      "bytes": 1079,
+      "sha256": "693c4af8a85fb8eb1ba40d794b2a5251c5ee2df88a9eefafabfbc69a2ed5e490"
+    },
+    {
+      "path": "source/authoring/build_materials.py",
+      "bytes": 15146,
+      "sha256": "d4aaf777c2e2ab1f82804391a59c70e7bb2b2ef1e888e28992804e34245e4a8a"
+    },
+    {
+      "path": "source/authoring/build_source.py",
+      "bytes": 7442,
+      "sha256": "df36b8899498bb51fa036b73310eb3c488d49acdf69c7346152cacd16e02f414"
+    },
+    {
+      "path": "source/authoring/compatibility.json",
+      "bytes": 11139,
+      "sha256": "ef26502cf6c7bb751100167a98e1e273e8672cd7c43f3218da6a6f73016ff39a"
+    },
+    {
+      "path": "source/authoring/export_native.py",
+      "bytes": 9347,
+      "sha256": "321ce274def87c24b1a6f8bcd1da20cbc399f0957ce8e18b9592af73eb864b55"
+    },
+    {
+      "path": "source/authoring/finish_review.py",
+      "bytes": 15709,
+      "sha256": "dd34b320d92512fc1218acbe2566ba6a0840c4b00988a611e93a1da70c1b1a28"
+    },
+    {
+      "path": "source/authoring/imagegen-glass.txt",
+      "bytes": 798,
+      "sha256": "8bf94fab8303ae4252de45cf35a040eb6d1f0470a33220a5b13ed20635070821"
+    },
+    {
+      "path": "source/authoring/imagegen-prow1.txt",
+      "bytes": 1169,
+      "sha256": "313ff1ff9c093842831f2b996e1b380deea4970ecef4340d6337d716fc2af3e7"
+    },
+    {
+      "path": "source/authoring/imagegen-prow2.txt",
+      "bytes": 1263,
+      "sha256": "2f1bd81ea47f31586d248643ab1c547b5313229c0145230246e4b8303a1f28ed"
+    },
+    {
+      "path": "source/authoring/lighting_v2/LIGHTING.md",
+      "bytes": 3300,
+      "sha256": "d4680a449bb7744441a965b31cc493411988f9805be5a52f7e3342ad0dfb9a8f"
+    },
+    {
+      "path": "source/authoring/lighting_v2/build_lighting.py",
+      "bytes": 8144,
+      "sha256": "370475b924d7f3e9b65433fc4aa09e7fc4abbcfe093d8c51b3ba1a0c82e59ba2"
+    },
+    {
+      "path": "source/authoring/lighting_v2/finish_revision.py",
+      "bytes": 15301,
+      "sha256": "60932353ca7f9a1ca4eefd8d7820c5fb0caec1de39e4598ba769d2f6a1580e52"
+    },
+    {
+      "path": "source/authoring/lighting_v2/inputs/hull1_green_generated.png",
+      "bytes": 2572515,
+      "sha256": "edc71576c0e36c43829ac38056a3b328502b1459f85f77aa49b3723ec0770ba9"
+    },
+    {
+      "path": "source/authoring/lighting_v2/inputs/hull2_stencil_generated.png",
+      "bytes": 2989602,
+      "sha256": "d1d55a39bac3a36a1256785250e1bb89a6a507d9bc406499e9c1b615afd5694f"
+    },
+    {
+      "path": "source/authoring/lighting_v2/material_edit_audit.json",
+      "bytes": 1241,
+      "sha256": "f8e81641e0cf14bfbff0aba2753ebdb7c69a3c8ff1e85960deb1cd704b949351"
+    },
+    {
+      "path": "source/authoring/lighting_v2/native_preservation.json",
+      "bytes": 550,
+      "sha256": "eb1b3f22f6209491e1b131567bbfba66194d8aab8a22b7ef1678f5bac105b6c8"
+    },
+    {
+      "path": "source/authoring/lighting_v2/nozzle_surface_audit.json",
+      "bytes": 12806,
+      "sha256": "602aaf23636c991b1191fef1b25b3203d259c87610c1ac027dfc2eab23a28f64"
+    },
+    {
+      "path": "source/authoring/lighting_v2/portable_source.py",
+      "bytes": 2431,
+      "sha256": "290883a6040c4eb4bc0cda79f66708da1e7422a4288c23bbb669b2b8cbdd03ca"
+    },
+    {
+      "path": "source/authoring/lighting_v2/prepare_review_tiers.py",
+      "bytes": 1806,
+      "sha256": "4aa4111d2730bd931a9826a6603fbac121bd0cb9e62379bbba7c666e51e82843"
+    },
+    {
+      "path": "source/authoring/lighting_v2/prowler_inspection.luau",
+      "bytes": 2078,
+      "sha256": "b6aff2a584771b5a80bceaf27f492dafaee4910e996a7c09e7120a74dcd5039f"
+    },
+    {
+      "path": "source/authoring/lighting_v2/prowler_lighting.luau",
+      "bytes": 2331,
+      "sha256": "66fe41f699cbf6b5219abb0bbb51d0279c4025c09ad7c5f92973993f593144f9"
+    },
+    {
+      "path": "source/authoring/lighting_v2/prowler_response.luau",
+      "bytes": 5140,
+      "sha256": "d8403af469832daf2ba1c94f51b376a25e79d385fbae09740778baa26a66a962"
+    },
+    {
+      "path": "source/authoring/lighting_v2/prowler_surface.luau",
+      "bytes": 2093,
+      "sha256": "b3c0037c5270fcbb34d78ceb9d7b5e6e9f092ec04607899f5734709a743d79c7"
+    },
+    {
+      "path": "source/authoring/lighting_v2/prowler_systems.glsl",
+      "bytes": 7264,
+      "sha256": "65de2e46a5c02bf6f49215f1b9b811adeea4663cfe01c55247ccc759afee19d6"
+    },
+    {
+      "path": "source/authoring/lighting_v2/repository_snapshot.json",
+      "bytes": 3229,
+      "sha256": "332ac505826dc2998fc665283b3f821e4e050c12c9ae95f6007c164622a76f83"
+    },
+    {
+      "path": "source/authoring/lighting_v2/resolution_checks.json",
+      "bytes": 11873,
+      "sha256": "3a635315d3bc7fea7f06a668f80cdcca4c57cd09a29e475399bd1ea309348170"
+    },
+    {
+      "path": "source/authoring/lighting_v2/test_response.luau",
+      "bytes": 7582,
+      "sha256": "58bad0f218530afcfa159ca29913138a163d8f057beaee24045b40ea44d688dd"
+    },
+    {
+      "path": "source/authoring/lighting_v2/test_runtime.luau",
+      "bytes": 4610,
+      "sha256": "66aaa1e77287183d6799e564c051dc967bbdeb97f140a1523c43626caa9ffb94"
+    },
+    {
+      "path": "source/authoring/lighting_v2/update_materials.py",
+      "bytes": 3500,
+      "sha256": "06f0f800c6f71a3dd146c5aab64344c2fb26588256d917fd8b54bc634aebf920"
+    },
+    {
+      "path": "source/authoring/lighting_v2/visual_review.json",
+      "bytes": 694,
+      "sha256": "9ba02e1dd8e5e8e50615904c5bc5e0ab87fdbef3c04b0128386628f4fa3171fb"
+    },
+    {
+      "path": "source/authoring/map_checks.json",
+      "bytes": 517,
+      "sha256": "bf50d515e9f3e4688f6148b19e32c89c80e7e2d997307e4cbc5d0483d9175309"
+    },
+    {
+      "path": "source/authoring/mission961-ships.txt",
+      "bytes": 253,
+      "sha256": "2698540b68a027c35145d0921da9ee3024ed99c9d176131eef3afd86ab947194"
+    },
+    {
+      "path": "source/authoring/mission961.luau",
+      "bytes": 290,
+      "sha256": "770813d8c9c81623f450d897d6c0abafcc4791bb3bf3e9be784ee8e6cb900d93"
+    },
+    {
+      "path": "source/authoring/model_mapping_audit.json",
+      "bytes": 889,
+      "sha256": "61b45f688d3cd279c4c101121f1dfa0fab00b0584c41b63869fffcfc821c8ec3"
+    },
+    {
+      "path": "source/authoring/native-check.txt",
+      "bytes": 84,
+      "sha256": "80824a821d5a485af631280bd624f98bd075da40989e37ad4000fe806b871b87"
+    },
+    {
+      "path": "source/authoring/native-chunks.json",
+      "bytes": 34543,
+      "sha256": "8266e44eef0ab5cb0da7cf1e4b4cfdc61c539e2bbf0250057920f44985193816"
+    },
+    {
+      "path": "source/authoring/native-chunks.txt",
+      "bytes": 8874,
+      "sha256": "24a45d89829948f94c8bc6f814c3cb56397e3757a1347fc66ac732a202a8131b"
+    },
+    {
+      "path": "source/authoring/native-components.txt",
+      "bytes": 403,
+      "sha256": "8b7107d932bf1a2a7581028800d69808de4709f9caf89dc6b8686c0c3ed690e0"
+    },
+    {
+      "path": "source/authoring/native-info.txt",
+      "bytes": 4861,
+      "sha256": "4a9318d73fbe794eebb65509981016d73f9300c33007ba113817fc4edb47c49c"
+    },
+    {
+      "path": "source/authoring/native_checks.json",
+      "bytes": 913,
+      "sha256": "64b87b8031415a1a1f20623f5e8a63e603602e7015ac4332235a1f770bde3d61"
+    },
+    {
+      "path": "source/authoring/native_preservation.json",
+      "bytes": 39228,
+      "sha256": "a97c181dce1fbda84ee9016099b337168eb289dbb370ad2983aaa3e9bf15ed30"
+    },
+    {
+      "path": "source/authoring/native_summary.json",
+      "bytes": 4795,
+      "sha256": "cd5ed16634e2419be5d55c67c32b01e9e2367932b5c787d58880a49bf20705e7"
+    },
+    {
+      "path": "source/authoring/nozzle_surge_v3/DIAGNOSIS.md",
+      "bytes": 2665,
+      "sha256": "05256f5e6f4027cbd6b2d4c87638c6d975b87a339e57d8ef1c910dc6bd8a9ddd"
+    },
+    {
+      "path": "source/authoring/nozzle_surge_v3/LIGHTING.md",
+      "bytes": 3811,
+      "sha256": "577c0872a89a578e504c12c6ba59a76b204993848b9f82a875a16ec03d2bfcf7"
+    },
+    {
+      "path": "source/authoring/nozzle_surge_v3/audit_nozzles.py",
+      "bytes": 2652,
+      "sha256": "bac6d10f6222b30b3013a9df3d6456ffbc6d0e7afff9d483a0c4455d80fc5d82"
+    },
+    {
+      "path": "source/authoring/nozzle_surge_v3/compatibility.json",
+      "bytes": 942,
+      "sha256": "c116317f1c80852800a7dd70c66f19e8cc7b249b28cad1d9bbd1c11b6364bbb1"
+    },
+    {
+      "path": "source/authoring/nozzle_surge_v3/deployment.json",
+      "bytes": 3000,
+      "sha256": "c44c541a1c568767f4435e95b0806fd0cee7499e3884dba379a29160f9951210"
+    },
+    {
+      "path": "source/authoring/nozzle_surge_v3/nozzle_surface_audit.json",
+      "bytes": 15759,
+      "sha256": "c16a23e4e0de73f1f8e213fbe5881e759f011cc679bb68472310d386f3fadd41"
+    },
+    {
+      "path": "source/authoring/nozzle_surge_v3/prowler_response.luau",
+      "bytes": 5482,
+      "sha256": "a9dc4dec029c478fed6b91e9ab86e2512d5334e811ead6407bea6fbf6ad2f24e"
+    },
+    {
+      "path": "source/authoring/nozzle_surge_v3/prowler_systems.glsl",
+      "bytes": 7491,
+      "sha256": "2ee44acf882e1b2e4a44140cf06fb5c0571028fdc37e0752c17cc9568c589847"
+    },
+    {
+      "path": "source/authoring/nozzle_surge_v3/resolution_checks.json",
+      "bytes": 10307,
+      "sha256": "66b8d51dfb97c8f7ba2d234a48dfd9e8cc0b115449878b4e7a4b8708e3b66f00"
+    },
+    {
+      "path": "source/authoring/nozzle_surge_v3/test_response.luau",
+      "bytes": 9075,
+      "sha256": "114a17c9029b3f99db8ca038906f168fc004a5386529f11e269dfb0cf26ceddb"
+    },
+    {
+      "path": "source/authoring/nozzle_surge_v3/test_runtime.luau",
+      "bytes": 5144,
+      "sha256": "d0b6bacb44b93e19b39518934b7fbcdcfe046f154ce445e2fdc0833090a5aa47"
+    },
+    {
+      "path": "source/authoring/parse_native.py",
+      "bytes": 2382,
+      "sha256": "b7ae551d2b0058d765ad9d50d9f829adcaadc349e8a6f1ea877a333250b20437"
+    },
+    {
+      "path": "source/authoring/parse_turret.py",
+      "bytes": 2382,
+      "sha256": "88b5510becb6f4ef0489e41a0174cc47237c98aaaf53b266d0a0367d411b3e69"
+    },
+    {
+      "path": "source/authoring/portable_source.py",
+      "bytes": 2428,
+      "sha256": "0c21530953e6ea6704e67137a5a70635b622468580faa10fa94b5772f7177da8"
+    },
+    {
+      "path": "source/authoring/prepare_review_tiers.py",
+      "bytes": 1809,
+      "sha256": "24d79f3b1d152880c74323034c1b4d93bf87f11054aa8382e9b40d2a31267805"
+    },
+    {
+      "path": "source/authoring/regions.json",
+      "bytes": 30896,
+      "sha256": "c58a4bb78268ec8612c6f842e083b5b581263216b6eb74fda061813d64fd8dc2"
+    },
+    {
+      "path": "source/authoring/repository_snapshot.json",
+      "bytes": 3229,
+      "sha256": "74a5f44ee4c09a8e7fb2a7ec995f44a27564ab49e0a7c3d05e8507ea7b728003"
+    },
+    {
+      "path": "source/authoring/resolution_checks.json",
+      "bytes": 9221,
+      "sha256": "952dac5c3e8f8ed0f242590e06ddb060570ea812a9633e249a26f3263f1a3bd0"
+    },
+    {
+      "path": "source/authoring/runtime-components.txt",
+      "bytes": 403,
+      "sha256": "8b7107d932bf1a2a7581028800d69808de4709f9caf89dc6b8686c0c3ed690e0"
+    },
+    {
+      "path": "source/authoring/source_uv_audit.json",
+      "bytes": 5006,
+      "sha256": "7b24e8b39a497db881f1b028940a916a91cb3450189a76541d546b32494be666"
+    },
+    {
+      "path": "source/authoring/source_uv_audit.py",
+      "bytes": 1124,
+      "sha256": "2ce085f8ba459f3e242f7eda6ea3102499d74094760d3149832a9d90b6a7f160"
+    },
+    {
+      "path": "source/authoring/start_prowler.py",
+      "bytes": 3241,
+      "sha256": "a2affd39888e3cf731889b0607b815d2ca31883e5aed681a0a1648d825cb2e2a"
+    },
+    {
+      "path": "source/authoring/turret-chunks.json",
+      "bytes": 16644,
+      "sha256": "4fbacf219a64c52aec18a4e2c2d1657ba94f1fa70eb66492271fae2a20478259"
+    },
+    {
+      "path": "source/authoring/validation.json",
+      "bytes": 7357,
+      "sha256": "92eed0ed250a995bd1fa65d0f9c7f1decbae5912f58435fde7eed90adcbdc616"
+    },
+    {
+      "path": "source/maps/prowler_hull1_basecolor_v1.png",
+      "bytes": 15497840,
+      "sha256": "dfd147238d6dae937d3940b8e50648553fbe0deac82b5b98beb2f9c73ccf0ff6"
+    },
+    {
+      "path": "source/maps/prowler_hull1_basecolor_v2.png",
+      "bytes": 15461541,
+      "sha256": "fa68d913eece90059633a38d98a38e2072f1fc9093340ec8e89484543e007b50"
+    },
+    {
+      "path": "source/maps/prowler_hull1_emissive_v1.png",
+      "bytes": 63883,
+      "sha256": "f457f4d52b69a5268d506a2afc788876f54a33a8b068679ef3a7656f2eba3757"
+    },
+    {
+      "path": "source/maps/prowler_hull1_emissive_v2.png",
+      "bytes": 60083,
+      "sha256": "79ba29888167759788ddec08d047a4c1d09a3556370b0051f351237c713b1491"
+    },
+    {
+      "path": "source/maps/prowler_hull1_fins_v1.png",
+      "bytes": 72560,
+      "sha256": "b47cf9eac3115056a37a500a03ca428141d2fb21a37a02a5ff6341a2b4242079"
+    },
+    {
+      "path": "source/maps/prowler_hull1_flat_graphics_v1.png",
+      "bytes": 52912,
+      "sha256": "8b191078f50b28f3e204a602a61ff4518d4179eff194f5d338931cd93d2e6896"
+    },
+    {
+      "path": "source/maps/prowler_hull1_glass_v1.png",
+      "bytes": 64730,
+      "sha256": "aa02c3a04ed8903780c9aa0238c513f1aefc88ee78170b235ff6390ec3685dc3"
+    },
+    {
+      "path": "source/maps/prowler_hull1_height_v1.png",
+      "bytes": 254647,
+      "sha256": "028546e50a660e066f3147046c09f42c53fed573ea4018d0bf3ec5319bf7f13a"
+    },
+    {
+      "path": "source/maps/prowler_hull1_metallic_v1.png",
+      "bytes": 7330013,
+      "sha256": "9bace5f518edfee63c3d9f8ca8c6d6bb761ad4436a60b495a8ada1efa7e2916e"
+    },
+    {
+      "path": "source/maps/prowler_hull1_normal_v1.png",
+      "bytes": 477825,
+      "sha256": "f01d9adb0c28f898d54291e524ad803237ffb82f70b2e1fc508520ba08872a60"
+    },
+    {
+      "path": "source/maps/prowler_hull1_paint_v1.png",
+      "bytes": 3739206,
+      "sha256": "876cdb9c8958ec8448bfad70e30d697bc0cdb24b7adf906967d7184e1f96bf97"
+    },
+    {
+      "path": "source/maps/prowler_hull1_panels_v1.png",
+      "bytes": 174436,
+      "sha256": "1cadaed0fb11d7245a037d115390d78cf580eb565152237983601d48dbab472f"
+    },
+    {
+      "path": "source/maps/prowler_hull1_reconstructed_v1.png",
+      "bytes": 3414693,
+      "sha256": "1bbe25bf824286a655978898d91c585d1266d0baf013183322bad8d8fff548d0"
+    },
+    {
+      "path": "source/maps/prowler_hull1_roughness_v1.png",
+      "bytes": 4023466,
+      "sha256": "dd94443faaad0ddf9bdd329afa46b4ae1b149fc7678126aeb27df0ac7c232ee9"
+    },
+    {
+      "path": "source/maps/prowler_hull1_structure_v1.png",
+      "bytes": 329284,
+      "sha256": "37a96a11d90229c08d177748f1114d783dec808183c91bc1a487fe3df14801b9"
+    },
+    {
+      "path": "source/maps/prowler_hull2_basecolor_v1.png",
+      "bytes": 18476264,
+      "sha256": "c5f08884f1c00bccc526a2c27c5a640a5c2171a252ddd5cb09942ff0b43cb2d4"
+    },
+    {
+      "path": "source/maps/prowler_hull2_basecolor_v2.png",
+      "bytes": 18456728,
+      "sha256": "cf0aca02ffb2c71e8e55775a865fdb6e7aca23c8de49941ca63e29eb1b0195cf"
+    },
+    {
+      "path": "source/maps/prowler_hull2_fins_v1.png",
+      "bytes": 79801,
+      "sha256": "732c97fea378b30a223c8eafc6252e44f15468f51bb03c556a6464a59f338d38"
+    },
+    {
+      "path": "source/maps/prowler_hull2_flat_graphics_v1.png",
+      "bytes": 57750,
+      "sha256": "6af00cadc6811ce6847273943124fa9cc76eaec0814d1edeff001cedaae930df"
+    },
+    {
+      "path": "source/maps/prowler_hull2_glass_v1.png",
+      "bytes": 49160,
+      "sha256": "1d9b122dfea5160edd851aad3e5eb4239500fde0e3f54f3532c14d35ba2c1d99"
+    },
+    {
+      "path": "source/maps/prowler_hull2_height_v1.png",
+      "bytes": 182449,
+      "sha256": "194569aa6a177fe121ddcabbb9fa164d4e96d1bceb016e25a73a40ebb7c8b8a5"
+    },
+    {
+      "path": "source/maps/prowler_hull2_metallic_v1.png",
+      "bytes": 8212395,
+      "sha256": "a3cbd356182f801b0efd3c530f49e2e1509a2148591b98d44c3527e4dca94062"
+    },
+    {
+      "path": "source/maps/prowler_hull2_normal_v1.png",
+      "bytes": 329275,
+      "sha256": "5ea7aaaf74e4a4ea972e52c43d0ace052a516a72896a9f321b754fb1cbf18570"
+    },
+    {
+      "path": "source/maps/prowler_hull2_paint_v1.png",
+      "bytes": 4912956,
+      "sha256": "6f442c98641ca7375cd67453530e0e2839768ad2c1652f401fd0efe219b7ef13"
+    },
+    {
+      "path": "source/maps/prowler_hull2_panels_v1.png",
+      "bytes": 182006,
+      "sha256": "e7675fde1e5b2d23e9142dc24689e5149e21563ef25d4473d8e73004690b8ccc"
+    },
+    {
+      "path": "source/maps/prowler_hull2_reconstructed_v1.png",
+      "bytes": 3429602,
+      "sha256": "b6fb36ae3a96dc9588f1c3680ed273f38ec518a699750f8f90bf15e0a3d5d8ac"
+    },
+    {
+      "path": "source/maps/prowler_hull2_roughness_v1.png",
+      "bytes": 4848214,
+      "sha256": "4237295ff7b6fcc421af7fc269cbea333bb76b64bf3e28448eba6ea582e565cf"
+    },
+    {
+      "path": "source/maps/prowler_hull2_structure_v1.png",
+      "bytes": 188030,
+      "sha256": "75c2035d864a2b35080c6a2d5cd11ce26ede44b911fe343330a50fc27d7f2d31"
+    },
+    {
+      "path": "source/originals/14_al_STUR.SHP",
+      "bytes": 31792,
+      "sha256": "35abdc31780c2569917753213e4b00eaf441374801421d779364bf33039c3643"
+    },
+    {
+      "path": "source/originals/US_Prowler.SHP",
+      "bytes": 173010,
+      "sha256": "09c79d40c4af0c36cc64ed5d67d5a980b817ac4c15ee78bb3a4ab28304ffcf87"
+    },
+    {
+      "path": "source/originals/dam_1.png",
+      "bytes": 17642,
+      "sha256": "fcacbed0e1d689b0ed27bbd1d1a269028af44170e05bba383c970b2db94ec0cf"
+    },
+    {
+      "path": "source/originals/missiles.png",
+      "bytes": 66312,
+      "sha256": "97801a1b8523ac4db9aa9f82cd86947a30b79b8161c611f01bc39feed309b2b3"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 1389334,
+      "sha256": "ce85014bb90b2a6a30e2bed7806a896b7e4c93a338c372b4a763a13ab4245bc7"
+    },
+    {
+      "path": "source/originals/prow_1.png",
+      "bytes": 64782,
+      "sha256": "39d64ae9bbd3e5d12abed0e2d177354ca414a6f2a45e56b236b929363ace98ad"
+    },
+    {
+      "path": "source/originals/prow_2.png",
+      "bytes": 62782,
+      "sha256": "c1192bd4da6fc7950f919a1d849bd7eddd6a7e153890458bc7a1e6daf0afafdc"
+    },
+    {
+      "path": "source/originals/turret_parts.json",
+      "bytes": 240399,
+      "sha256": "da9f46dde6cdbb0dc0535f0fe7f17afb578193ac092992cb7dd441573f964913"
+    },
+    {
+      "path": "source/prowler_worn_pbr_v1.blend",
+      "bytes": 60363178,
+      "sha256": "bdc4be8320dd98b4190a06f6826e34a5872ad00f6b7695596259576b3127af31"
+    },
+    {
+      "path": "source/prowler_worn_pbr_v2.blend",
+      "bytes": 60303543,
+      "sha256": "1eecba706b4e24cf41109e40309fd39f89170324bb6322192b1237fa38126c07"
+    },
+    {
+      "path": "source/resources/39d64ae9bbd3_prow_1.png",
+      "bytes": 64782,
+      "sha256": "39d64ae9bbd3e5d12abed0e2d177354ca414a6f2a45e56b236b929363ace98ad"
+    },
+    {
+      "path": "source/resources/4237295ff7b6_prowler_hull2_roughness_v1.png",
+      "bytes": 4848214,
+      "sha256": "4237295ff7b6fcc421af7fc269cbea333bb76b64bf3e28448eba6ea582e565cf"
+    },
+    {
+      "path": "source/resources/5ea7aaaf74e4_prowler_hull2_normal_v1.png",
+      "bytes": 329275,
+      "sha256": "5ea7aaaf74e4a4ea972e52c43d0ace052a516a72896a9f321b754fb1cbf18570"
+    },
+    {
+      "path": "source/resources/79ba29888167_prowler_hull1_emissive_v2.png",
+      "bytes": 60083,
+      "sha256": "79ba29888167759788ddec08d047a4c1d09a3556370b0051f351237c713b1491"
+    },
+    {
+      "path": "source/resources/97801a1b8523_missiles.png",
+      "bytes": 66312,
+      "sha256": "97801a1b8523ac4db9aa9f82cd86947a30b79b8161c611f01bc39feed309b2b3"
+    },
+    {
+      "path": "source/resources/9bace5f518ed_prowler_hull1_metallic_v1.png",
+      "bytes": 7330013,
+      "sha256": "9bace5f518edfee63c3d9f8ca8c6d6bb761ad4436a60b495a8ada1efa7e2916e"
+    },
+    {
+      "path": "source/resources/a3cbd356182f_prowler_hull2_metallic_v1.png",
+      "bytes": 8212395,
+      "sha256": "a3cbd356182f801b0efd3c530f49e2e1509a2148591b98d44c3527e4dca94062"
+    },
+    {
+      "path": "source/resources/c1192bd4da6f_prow_2.png",
+      "bytes": 62782,
+      "sha256": "c1192bd4da6fc7950f919a1d849bd7eddd6a7e153890458bc7a1e6daf0afafdc"
+    },
+    {
+      "path": "source/resources/c5f08884f1c0_prowler_hull2_basecolor_v1.png",
+      "bytes": 18476264,
+      "sha256": "c5f08884f1c00bccc526a2c27c5a640a5c2171a252ddd5cb09942ff0b43cb2d4"
+    },
+    {
+      "path": "source/resources/cf0aca02ffb2_prowler_hull2_basecolor_v2.png",
+      "bytes": 18456728,
+      "sha256": "cf0aca02ffb2c71e8e55775a865fdb6e7aca23c8de49941ca63e29eb1b0195cf"
+    },
+    {
+      "path": "source/resources/dd94443faaad_prowler_hull1_roughness_v1.png",
+      "bytes": 4023466,
+      "sha256": "dd94443faaad0ddf9bdd329afa46b4ae1b149fc7678126aeb27df0ac7c232ee9"
+    },
+    {
+      "path": "source/resources/dfd147238d6d_prowler_hull1_basecolor_v1.png",
+      "bytes": 15497840,
+      "sha256": "dfd147238d6dae937d3940b8e50648553fbe0deac82b5b98beb2f9c73ccf0ff6"
+    },
+    {
+      "path": "source/resources/f01d9adb0c28_prowler_hull1_normal_v1.png",
+      "bytes": 477825,
+      "sha256": "f01d9adb0c28f898d54291e524ad803237ffb82f70b2e1fc508520ba08872a60"
+    },
+    {
+      "path": "source/resources/f457f4d52b69_prowler_hull1_emissive_v1.png",
+      "bytes": 63883,
+      "sha256": "f457f4d52b69a5268d506a2afc788876f54a33a8b068679ef3a7656f2eba3757"
+    },
+    {
+      "path": "source/resources/fa68d913eece_prowler_hull1_basecolor_v2.png",
+      "bytes": 15461541,
+      "sha256": "fa68d913eece90059633a38d98a38e2072f1fc9093340ec8e89484543e007b50"
+    },
+    {
+      "path": "source/resources/fcacbed0e1d6_dam_1.png",
+      "bytes": 17642,
+      "sha256": "fcacbed0e1d689b0ed27bbd1d1a269028af44170e05bba383c970b2db94ec0cf"
+    },
+    {
+      "path": "source/review/lighting_v2/material_front.png",
+      "bytes": 599487,
+      "sha256": "3822dd385b2775978edcace2216c50aab086f3451078ebc0416b0aef4f3b6f42"
+    },
+    {
+      "path": "source/review/lighting_v2/material_rear.png",
+      "bytes": 364235,
+      "sha256": "65c8421a99ac6693ef9266b4422594641deec802f3cc25c138e1cad542372f16"
+    },
+    {
+      "path": "source/review/lighting_v2/runtime-functional.png",
+      "bytes": 113919,
+      "sha256": "36c04ad7b529437643785825ce106dd11e3c4b544923e0ef8de0c1d4042a302e"
+    },
+    {
+      "path": "source/review/lighting_v2/runtime-nozzles-active.png",
+      "bytes": 399690,
+      "sha256": "3d9026e03549799de814da69b66d183d32857db469b238cb9156af8d074bec1d"
+    },
+    {
+      "path": "source/review/nozzle_surge_v3/README.md",
+      "bytes": 231,
+      "sha256": "23808d282e7923d4ad494e4bc170289fca06617796f2c9ed31ca08cbd47d83a8"
+    },
+    {
+      "path": "source/review/nozzle_surge_v3/after-mask.png",
+      "bytes": 226766,
+      "sha256": "830b3cfa0bdb6d668f7e946ad1f73e294f8d23123ad0826ff451e56ffe4e5505"
+    },
+    {
+      "path": "source/review/nozzle_surge_v3/after-native-plumes.png",
+      "bytes": 375960,
+      "sha256": "2482ef2321148163243eaff1854aae626d9d4e9a7d0be3f51f65f0029cf827ca"
+    },
+    {
+      "path": "source/review/nozzle_surge_v3/after-no-plumes.png",
+      "bytes": 354255,
+      "sha256": "120ead2b9fb3d99a06bad491f6b7d4f3d9da3863513c264614e7d7582118c23a"
+    },
+    {
+      "path": "source/review/nozzle_surge_v3/before-mask.png",
+      "bytes": 227174,
+      "sha256": "c1b8df207ec00b6aacb62a8e6193605aa8ba76683e6fa9a1032116a03523ef3d"
+    },
+    {
+      "path": "source/review/nozzle_surge_v3/before-no-plumes.png",
+      "bytes": 353421,
+      "sha256": "af343954fd5a5e4190b12748da7a2469f1de071a9230d75f86e822965e583b38"
+    },
+    {
+      "path": "source/review/nozzle_surge_v3/runtime-functional.png",
+      "bytes": 323430,
+      "sha256": "5850f9f1925acc8456f04d25ffd6a43c203612a8599bfaa6f049201c0e069554"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_belly.png",
+      "bytes": 650437,
+      "sha256": "23c07d457e61d9f503114086a0f2f89712da35c1701e28a2e414f8caf0b8942c"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_front.png",
+      "bytes": 847605,
+      "sha256": "4e477e5ee674a30bc83874c9df40551d8f3fa059bef6d31612c875507f809b69"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_opposite.png",
+      "bytes": 912560,
+      "sha256": "9c4cc3159a75c0042478bae67a00d7fabb135ca3c0a4933a08a977fbae385c00"
+    },
+    {
+      "path": "source/review/reconstruction_v1/material_rear.png",
+      "bytes": 519002,
+      "sha256": "fd88854580d5b6cf63636a1f007016e938274732bf7127b920278eaf013a5a0a"
+    },
+    {
+      "path": "source/review/reconstruction_v1/source_front.png",
+      "bytes": 562259,
+      "sha256": "ce226a53e5e4d3f5236428f2f9f0ef61e9d8f0488cf618d18cdb52e54952039b"
+    }
+  ]
+}

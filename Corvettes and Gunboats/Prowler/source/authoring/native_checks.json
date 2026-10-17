@@ -1,0 +1,16 @@
+[
+  {
+    "engine": "openreliant-v0.18.0-linux-x86_64",
+    "file": "US_Prowler.SHP",
+    "exit_code": 0,
+    "output": "ok: 6 parts, 877 vertices, 1593 faces\nbounds: 6 model_space\nrewritten byte for byte\n",
+    "sha256": "31eb3b267f3578f87546d1614a7a5e1c5c53d36007ef1fc0ecb8ee4fb7dbe3dc"
+  },
+  {
+    "engine": "openreliant-v0.18.0-linux-x86_64",
+    "file": "mission961.dte",
+    "exit_code": 0,
+    "output": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds\n",
+    "sha256": "6a6df2968369944d011cff45d49ef4c1ac2b68387b09a6eec7e0c571f4e3d133"
+  }
+]

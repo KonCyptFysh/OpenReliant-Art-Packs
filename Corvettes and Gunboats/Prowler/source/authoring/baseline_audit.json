@@ -1,0 +1,57 @@
+{
+  "parts": [
+    {
+      "part": "prow_eng_link_1",
+      "vertices": 28,
+      "faces": 50,
+      "visible_faces": 50
+    },
+    {
+      "part": "prow_bak_eng_1",
+      "vertices": 24,
+      "faces": 44,
+      "visible_faces": 44
+    },
+    {
+      "part": "Prowler",
+      "vertices": 146,
+      "faces": 288,
+      "visible_faces": 288
+    },
+    {
+      "part": "prow_bak_eng_2",
+      "vertices": 24,
+      "faces": 44,
+      "visible_faces": 44
+    },
+    {
+      "part": "prow_eng_link_2",
+      "vertices": 28,
+      "faces": 50,
+      "visible_faces": 50
+    },
+    {
+      "part": "Prowler_DEST",
+      "vertices": 93,
+      "faces": 185,
+      "visible_faces": 185
+    }
+  ],
+  "source_sha256": "09c79d40c4af0c36cc64ed5d67d5a980b817ac4c15ee78bb3a4ab28304ffcf87",
+  "orientation": "native -Y top -> world +Z, native +Z nose -> world +Y",
+  "source_atlas_resolution": [
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      128,
+      128
+    ]
+  ],
+  "geometry_signature": "c3a5e316de24a6e02cd6deb5d1b7f2b9df76c2d8e38b5757ee30ac0b4d06126b"
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "maps": [
+    {
+      "role": "hull1",
+      "normal_max_unit_error": 0.005041539669036865,
+      "graphics_normals_flat": true,
+      "orm_channels_verified": true,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "role": "hull2",
+      "normal_max_unit_error": 0.004005789756774902,
+      "graphics_normals_flat": true,
+      "orm_channels_verified": true,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    }
+  ],
+  "no_colour_variant_duplicates": true
+}

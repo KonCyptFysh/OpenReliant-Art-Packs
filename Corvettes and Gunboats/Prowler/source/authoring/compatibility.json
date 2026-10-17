@@ -1,0 +1,291 @@
+{
+  "status": "passed",
+  "scope": "Non-visual native format, map and official texture-loader checks",
+  "checked_at_utc": "2026-10-17T09:17:29.484179+00:00",
+  "minimum_engine": "0.18.0",
+  "review_engine": "Official OpenReliant 0.18.0",
+  "review_engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+  "native_checks": [
+    {
+      "engine": "openreliant-v0.18.0-linux-x86_64",
+      "file": "US_Prowler.SHP",
+      "exit_code": 0,
+      "output": "ok: 6 parts, 877 vertices, 1593 faces\nbounds: 6 model_space\nrewritten byte for byte\n",
+      "sha256": "31eb3b267f3578f87546d1614a7a5e1c5c53d36007ef1fc0ecb8ee4fb7dbe3dc"
+    },
+    {
+      "engine": "openreliant-v0.18.0-linux-x86_64",
+      "file": "mission961.dte",
+      "exit_code": 0,
+      "output": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds\n",
+      "sha256": "6a6df2968369944d011cff45d49ef4c1ac2b68387b09a6eec7e0c571f4e3d133"
+    }
+  ],
+  "resolution_checks": {
+    "status": "passed",
+    "recipe": "texture-resolution-v2",
+    "tiers": [
+      {
+        "tier": "4k",
+        "status": "passed",
+        "runtime": "${PROWLER_WORKSPACE}/exports/openreliant_0_18_v1/mods/117-prowler-worn-v1",
+        "files": [
+          {
+            "name": "US_Prowler.SHP",
+            "sha256": "31eb3b267f3578f87546d1614a7a5e1c5c53d36007ef1fc0ecb8ee4fb7dbe3dc",
+            "bytes": 173010
+          },
+          {
+            "name": "license.txt",
+            "sha256": "8a81c84b909e9711666c1c1f0b60721d621da78c376ed0be65ed537b97b00cbc",
+            "bytes": 248
+          },
+          {
+            "name": "mission961.dte",
+            "sha256": "6a6df2968369944d011cff45d49ef4c1ac2b68387b09a6eec7e0c571f4e3d133",
+            "bytes": 850959
+          },
+          {
+            "name": "mod.ini",
+            "sha256": "85c25cd526da554c6c8f90fa8d0eb3f83edd538a12c36ce136c44da96d85e636",
+            "bytes": 302
+          },
+          {
+            "name": "mod.png",
+            "sha256": "4e477e5ee674a30bc83874c9df40551d8f3fa059bef6d31612c875507f809b69",
+            "bytes": 847605
+          },
+          {
+            "name": "orpr1_hull1.png",
+            "sha256": "dfd147238d6dae937d3940b8e50648553fbe0deac82b5b98beb2f9c73ccf0ff6",
+            "bytes": 15497840
+          },
+          {
+            "name": "orpr1_hull1_emissive.png",
+            "sha256": "f457f4d52b69a5268d506a2afc788876f54a33a8b068679ef3a7656f2eba3757",
+            "bytes": 63883
+          },
+          {
+            "name": "orpr1_hull1_normal.png",
+            "sha256": "f01d9adb0c28f898d54291e524ad803237ffb82f70b2e1fc508520ba08872a60",
+            "bytes": 477825
+          },
+          {
+            "name": "orpr1_hull1_orm.png",
+            "sha256": "12dda9dd1e333308b3a36d95c1c62480ad241458706c110916a4f5a37c45bda4",
+            "bytes": 7646840
+          },
+          {
+            "name": "orpr1_hull2.png",
+            "sha256": "c5f08884f1c00bccc526a2c27c5a640a5c2171a252ddd5cb09942ff0b43cb2d4",
+            "bytes": 18476264
+          },
+          {
+            "name": "orpr1_hull2_normal.png",
+            "sha256": "5ea7aaaf74e4a4ea972e52c43d0ace052a516a72896a9f321b754fb1cbf18570",
+            "bytes": 329275
+          },
+          {
+            "name": "orpr1_hull2_orm.png",
+            "sha256": "97723bd417705df8cf96b5e1d77ab3c24ccee2f7a0ef6c60e843048c7b3c4d6d",
+            "bytes": 8772865
+          },
+          {
+            "name": "prowler_inspection.luau",
+            "sha256": "28aceb5f4e15a52fc3d7208a2bed6111a293ed1d9a93a93a70c3db0e2b3ced4b",
+            "bytes": 590
+          }
+        ],
+        "loader_checks": [
+          {
+            "material": "orpr1_hull1",
+            "emissive": true,
+            "probe_sha256": "e8e8fbd2198fe371fe671981e8eed18a60db888b89bd5040bd87c4f5f423c5ea",
+            "log_sha256": "9dbf713ee7c0ae47e4c61b9864e9977e2304dcfabf2a99df8d296d0b5c4d525f"
+          },
+          {
+            "material": "orpr1_hull2",
+            "emissive": false,
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+            "log_sha256": "24c4775635b6cd2de4c17cd12a50827797b6d1bae261073892a7cb0e67b00711"
+          }
+        ]
+      },
+      {
+        "tier": "2k",
+        "status": "passed",
+        "runtime": "${PROWLER_WORKSPACE}/exports/review_2k/mods/117-prowler-worn-v1",
+        "files": [
+          {
+            "name": "US_Prowler.SHP",
+            "sha256": "31eb3b267f3578f87546d1614a7a5e1c5c53d36007ef1fc0ecb8ee4fb7dbe3dc",
+            "bytes": 173010
+          },
+          {
+            "name": "license.txt",
+            "sha256": "8a81c84b909e9711666c1c1f0b60721d621da78c376ed0be65ed537b97b00cbc",
+            "bytes": 248
+          },
+          {
+            "name": "mission961.dte",
+            "sha256": "6a6df2968369944d011cff45d49ef4c1ac2b68387b09a6eec7e0c571f4e3d133",
+            "bytes": 850959
+          },
+          {
+            "name": "mod.ini",
+            "sha256": "46f69bb2f78a87d25cf2219fc0f3712ee46fa1d845e9ae15f7b46e707d34de24",
+            "bytes": 305
+          },
+          {
+            "name": "mod.png",
+            "sha256": "4e477e5ee674a30bc83874c9df40551d8f3fa059bef6d31612c875507f809b69",
+            "bytes": 847605
+          },
+          {
+            "name": "orpr1_hull1.png",
+            "sha256": "948fece7a3464e68e2f9ba5e32b92c8fc31c6b0a3709730acf8931e6ae8e9e0e",
+            "bytes": 5009838
+          },
+          {
+            "name": "orpr1_hull1_emissive.png",
+            "sha256": "ef9c3cf95678bbead14d719764e2c1b8fe62279c0875d4777a1b4ddd667ccc25",
+            "bytes": 18203
+          },
+          {
+            "name": "orpr1_hull1_normal.png",
+            "sha256": "8bf4f49e0053ebd0aad66691cb82dc3f3a5397c6bee7da733bdc819d80614da9",
+            "bytes": 148230
+          },
+          {
+            "name": "orpr1_hull1_orm.png",
+            "sha256": "49dd3e330495ca36a65e36a17be1a72b0ed3c2557312c4eaad19738aa4237bc6",
+            "bytes": 2802508
+          },
+          {
+            "name": "orpr1_hull2.png",
+            "sha256": "3c16c98844d2cabe1d71ab71fc1839dd9edc64fe75f8d4aa00c0969a9991ba88",
+            "bytes": 5962982
+          },
+          {
+            "name": "orpr1_hull2_normal.png",
+            "sha256": "77ca96759c3fe4c0a485ce1470f627f5cfbd3bd2f290ad6b1adb21926c1db037",
+            "bytes": 102505
+          },
+          {
+            "name": "orpr1_hull2_orm.png",
+            "sha256": "0e644fbe4883577ce36bfa78bea0befdb234bb2f8363dfeafbf7ae587cce914c",
+            "bytes": 3120758
+          },
+          {
+            "name": "prowler_inspection.luau",
+            "sha256": "28aceb5f4e15a52fc3d7208a2bed6111a293ed1d9a93a93a70c3db0e2b3ced4b",
+            "bytes": 590
+          }
+        ],
+        "loader_checks": [
+          {
+            "material": "orpr1_hull1",
+            "emissive": true,
+            "probe_sha256": "e8e8fbd2198fe371fe671981e8eed18a60db888b89bd5040bd87c4f5f423c5ea",
+            "log_sha256": "9dbf713ee7c0ae47e4c61b9864e9977e2304dcfabf2a99df8d296d0b5c4d525f"
+          },
+          {
+            "material": "orpr1_hull2",
+            "emissive": false,
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+            "log_sha256": "24c4775635b6cd2de4c17cd12a50827797b6d1bae261073892a7cb0e67b00711"
+          }
+        ]
+      },
+      {
+        "tier": "1k",
+        "status": "passed",
+        "runtime": "${PROWLER_WORKSPACE}/exports/review_1k/mods/117-prowler-worn-v1",
+        "files": [
+          {
+            "name": "US_Prowler.SHP",
+            "sha256": "31eb3b267f3578f87546d1614a7a5e1c5c53d36007ef1fc0ecb8ee4fb7dbe3dc",
+            "bytes": 173010
+          },
+          {
+            "name": "license.txt",
+            "sha256": "8a81c84b909e9711666c1c1f0b60721d621da78c376ed0be65ed537b97b00cbc",
+            "bytes": 248
+          },
+          {
+            "name": "mission961.dte",
+            "sha256": "6a6df2968369944d011cff45d49ef4c1ac2b68387b09a6eec7e0c571f4e3d133",
+            "bytes": 850959
+          },
+          {
+            "name": "mod.ini",
+            "sha256": "b4931106bffa8068d7049d98c77dbc2768ed17c3ca46a2a4be9c1193d906a18f",
+            "bytes": 305
+          },
+          {
+            "name": "mod.png",
+            "sha256": "4e477e5ee674a30bc83874c9df40551d8f3fa059bef6d31612c875507f809b69",
+            "bytes": 847605
+          },
+          {
+            "name": "orpr1_hull1.png",
+            "sha256": "c0226ef6c9806070e12b03bc74982465ea3a47bfbf0b04e516b471ea4d76ff01",
+            "bytes": 1699319
+          },
+          {
+            "name": "orpr1_hull1_emissive.png",
+            "sha256": "7a09b8d0d96584f76f84cb473494eb6fef69086d2c1a324894551384ac050b85",
+            "bytes": 5756
+          },
+          {
+            "name": "orpr1_hull1_normal.png",
+            "sha256": "abea11ca2892722ab5e2705550a67eb7674a06594c07422d1c4845b5b3923a72",
+            "bytes": 53437
+          },
+          {
+            "name": "orpr1_hull1_orm.png",
+            "sha256": "a19ae906f3d6e8437afcd9502c5ca257e99ee4470e956c3a3d472463c01419fb",
+            "bytes": 918708
+          },
+          {
+            "name": "orpr1_hull2.png",
+            "sha256": "ab14cb652a8efc3f20be1fc7f30448c8a037891b5fae7c5a31de1fd9657e769c",
+            "bytes": 1955289
+          },
+          {
+            "name": "orpr1_hull2_normal.png",
+            "sha256": "e3988daa5e1b75c11fc50bc4d671383fb20106159efb2a10bc6990b95e7b594a",
+            "bytes": 37234
+          },
+          {
+            "name": "orpr1_hull2_orm.png",
+            "sha256": "6cf017effe576b2039c2626cd8b4fc9cbc5e8bac167129cbe40877806c871b38",
+            "bytes": 1009010
+          },
+          {
+            "name": "prowler_inspection.luau",
+            "sha256": "28aceb5f4e15a52fc3d7208a2bed6111a293ed1d9a93a93a70c3db0e2b3ced4b",
+            "bytes": 590
+          }
+        ],
+        "loader_checks": [
+          {
+            "material": "orpr1_hull1",
+            "emissive": true,
+            "probe_sha256": "e8e8fbd2198fe371fe671981e8eed18a60db888b89bd5040bd87c4f5f423c5ea",
+            "log_sha256": "4a288dbeeed2252d564f645a053a8eece7f2f1741e40f9033d8b3a10e85bfc4c"
+          },
+          {
+            "material": "orpr1_hull2",
+            "emissive": false,
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb",
+            "log_sha256": "24c4775635b6cd2de4c17cd12a50827797b6d1bae261073892a7cb0e67b00711"
+          }
+        ]
+      }
+    ],
+    "scope": "Local review exports; not published packages. Official loader probes for base/normal/ORM/loadout recolours and emissives; not an in-game visual test."
+  },
+  "game_launched": false,
+  "runtime_visual_review": "pending_user"
+}

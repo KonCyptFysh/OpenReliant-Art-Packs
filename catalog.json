@@ -2687,8 +2687,8 @@
       "name": "Prowler",
       "category": "corvettes-and-gunboats",
       "status": "coming-soon",
-      "workStatus": "planned",
-      "description": "Prowler escort-corvette restoration, covering the hull used for escort and personnel-transfer duties.",
+      "workStatus": "in-progress",
+      "description": "Worn Alliance escort corvette with subdued green windows, weathered AL-47 stencil, damage-responsive cabin power and throttle-driven engine glow.",
       "entryType": "ship",
       "faction": "alliance",
       "shipClass": "Carrier Escort Corvette",
@@ -2698,9 +2698,31 @@
           "id": "worn-paint",
           "name": "Worn Paint",
           "status": "coming-soon",
-          "engineStatus": "to-be-confirmed"
+          "engineStatus": "user-approved-beta",
+          "engine": "0.18.0",
+          "notes": [
+            "Approved beta; window lighting remains planned for refinement.",
+            "Full-range damaged-window power surges and continuous nozzle-interior heat.",
+            "One canonical PNG set; native shared Alliance turrets preserved."
+          ],
+          "assetRevision": "1.2",
+          "modFolder": "117-prowler-worn-v1",
+          "validationSummary": "User accepted this beta. 43 response checks, official 0.18.0 integration and all-detail nozzle-scope checks pass; wider gameplay and other platforms remain unverified.",
+          "model": "models/prowler.glb",
+          "preview": "assets/prowler/gallery-overview-v1.webp",
+          "defaultPreview": "image",
+          "previewSource": "Fresh capture in official OpenReliant 0.18.0",
+          "previewType": "capture",
+          "previewArtworkRevision": "1.2",
+          "images": [
+            {
+              "src": "assets/prowler/gallery-overview-v1.webp",
+              "caption": "Prowler — front three-quarter view, healthy cabin lighting"
+            }
+          ]
         }
-      ]
+      ],
+      "folder": "Corvettes and Gunboats/Prowler"
     },
     {
       "id": "kurgen",

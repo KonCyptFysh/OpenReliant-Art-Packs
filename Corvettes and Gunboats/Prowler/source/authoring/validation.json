@@ -1,0 +1,252 @@
+{
+  "scene": "${PROWLER_WORKSPACE}/prowler_worn_pbr_v1.blend",
+  "scene_sha256": "90ece836a33b7041c16c3871fcc74062b3f0b1f7175706a2126a5e78babf7aa0",
+  "source_scene_sha256": "5c62b07b0357dd7793d79635cae6ca98f50be7bc373ada74463516349ff9edeb",
+  "active_uv": "Prowler_Delivery_UV_v1",
+  "original_geometry_normals_uvs_preserved": true,
+  "uv_repairs": [],
+  "maps": {
+    "hull1": {
+      "basecolor": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_basecolor_v1.png",
+        "sha256": "dfd147238d6dae937d3940b8e50648553fbe0deac82b5b98beb2f9c73ccf0ff6",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_normal_v1.png",
+        "sha256": "f01d9adb0c28f898d54291e524ad803237ffb82f70b2e1fc508520ba08872a60",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_roughness_v1.png",
+        "sha256": "dd94443faaad0ddf9bdd329afa46b4ae1b149fc7678126aeb27df0ac7c232ee9",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_metallic_v1.png",
+        "sha256": "9bace5f518edfee63c3d9f8ca8c6d6bb761ad4436a60b495a8ada1efa7e2916e",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "emissive": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_emissive_v1.png",
+        "sha256": "f457f4d52b69a5268d506a2afc788876f54a33a8b068679ef3a7656f2eba3757",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_height_v1.png",
+        "sha256": "028546e50a660e066f3147046c09f42c53fed573ea4018d0bf3ec5319bf7f13a",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_flat_graphics_v1.png",
+        "sha256": "8b191078f50b28f3e204a602a61ff4518d4179eff194f5d338931cd93d2e6896",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_structure_v1.png",
+        "sha256": "37a96a11d90229c08d177748f1114d783dec808183c91bc1a487fe3df14801b9",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "fins": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_fins_v1.png",
+        "sha256": "b47cf9eac3115056a37a500a03ca428141d2fb21a37a02a5ff6341a2b4242079",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "panels": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_panels_v1.png",
+        "sha256": "1cadaed0fb11d7245a037d115390d78cf580eb565152237983601d48dbab472f",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "paint": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_paint_v1.png",
+        "sha256": "876cdb9c8958ec8448bfad70e30d697bc0cdb24b7adf906967d7184e1f96bf97",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "glass": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_glass_v1.png",
+        "sha256": "aa02c3a04ed8903780c9aa0238c513f1aefc88ee78170b235ff6390ec3685dc3",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    },
+    "hull2": {
+      "basecolor": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull2_basecolor_v1.png",
+        "sha256": "c5f08884f1c00bccc526a2c27c5a640a5c2171a252ddd5cb09942ff0b43cb2d4",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull2_normal_v1.png",
+        "sha256": "5ea7aaaf74e4a4ea972e52c43d0ace052a516a72896a9f321b754fb1cbf18570",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull2_roughness_v1.png",
+        "sha256": "4237295ff7b6fcc421af7fc269cbea333bb76b64bf3e28448eba6ea582e565cf",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull2_metallic_v1.png",
+        "sha256": "a3cbd356182f801b0efd3c530f49e2e1509a2148591b98d44c3527e4dca94062",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull2_height_v1.png",
+        "sha256": "194569aa6a177fe121ddcabbb9fa164d4e96d1bceb016e25a73a40ebb7c8b8a5",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull2_flat_graphics_v1.png",
+        "sha256": "6af00cadc6811ce6847273943124fa9cc76eaec0814d1edeff001cedaae930df",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull2_structure_v1.png",
+        "sha256": "75c2035d864a2b35080c6a2d5cd11ce26ede44b911fe343330a50fc27d7f2d31",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "fins": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull2_fins_v1.png",
+        "sha256": "732c97fea378b30a223c8eafc6252e44f15468f51bb03c556a6464a59f338d38",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "panels": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull2_panels_v1.png",
+        "sha256": "e7675fde1e5b2d23e9142dc24689e5149e21563ef25d4473d8e73004690b8ccc",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "paint": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull2_paint_v1.png",
+        "sha256": "6f442c98641ca7375cd67453530e0e2839768ad2c1652f401fd0efe219b7ef13",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "glass": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull2_glass_v1.png",
+        "sha256": "1d9b122dfea5160edd851aad3e5eb4239500fde0e3f54f3532c14d35ba2c1d99",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    }
+  },
+  "structural_height_only": true,
+  "mounted_turret_instances": [
+    {
+      "name": "Mount1_Al3 sml gun1",
+      "faces": 28
+    },
+    {
+      "name": "Mount1_Al3 sml gun2",
+      "faces": 28
+    },
+    {
+      "name": "Mount1_Al 3 Small tur",
+      "faces": 22
+    },
+    {
+      "name": "Mount2_Al3 sml gun1",
+      "faces": 28
+    },
+    {
+      "name": "Mount2_Al3 sml gun2",
+      "faces": 28
+    },
+    {
+      "name": "Mount2_Al 3 Small tur",
+      "faces": 22
+    },
+    {
+      "name": "Mount3_Al3 sml gun1",
+      "faces": 28
+    },
+    {
+      "name": "Mount3_Al3 sml gun2",
+      "faces": 28
+    },
+    {
+      "name": "Mount3_Al 3 Small tur",
+      "faces": 22
+    },
+    {
+      "name": "Mount4_Al3 sml gun1",
+      "faces": 28
+    },
+    {
+      "name": "Mount4_Al3 sml gun2",
+      "faces": 28
+    },
+    {
+      "name": "Mount4_Al 3 Small tur",
+      "faces": 22
+    }
+  ],
+  "shared_turret_runtime": "unchanged native 14_al_STUR.SHP and Missiles texture",
+  "emissives": "traced original blue window interiors only; static first-pass",
+  "runtime_visual_validation": "pending_user_review"
+}

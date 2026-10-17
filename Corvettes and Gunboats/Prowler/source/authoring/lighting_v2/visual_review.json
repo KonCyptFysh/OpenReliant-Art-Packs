@@ -1,0 +1,17 @@
+{
+  "material_views": [
+    "material_front.png",
+    "material_rear.png"
+  ],
+  "functional_views": [
+    "runtime-functional.png",
+    "runtime-nozzles-active.png"
+  ],
+  "observations": [
+    "Green cabin glass and subdued window emission; window scope and mullions retained.",
+    "AL-47 remains aligned and readable, now outlined black with paint damage.",
+    "Rear functional view confirms localized central and lower-pod nozzle light, without the old upper-stern wash.",
+    "Functional test passes all cold/thrust/heat/hit/critical/repair stages; actual user visual approval remains pending."
+  ],
+  "images_are": "Authoring and functional diagnostics only; not gallery photography"
+}

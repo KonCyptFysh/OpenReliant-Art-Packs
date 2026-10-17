@@ -1,0 +1,1140 @@
+{
+  "passed": true,
+  "root_cause": "Smoothed vertex normals reverse the derivative-normal sign within native nozzle faces; signed plane checks then rejected triangular portions.",
+  "fix": "Camera-facing derivative normals, independent of smoothed vertex normals; signed native plane scope retained",
+  "all_40_part_lods_checked": true,
+  "other_parts_selected": 0,
+  "geometry_normals_uvs_textures_native_model_unchanged": true,
+  "old_mask_regressions": [
+    {
+      "part": 1,
+      "lod": 0,
+      "face": 30,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 95,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 1,
+      "lod": 0,
+      "face": 35,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 289,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 1,
+      "lod": 0,
+      "face": 37,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 95,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 1,
+      "lod": 0,
+      "face": 41,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 85,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 1,
+      "lod": 1,
+      "face": 20,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 47,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 1,
+      "lod": 1,
+      "face": 24,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 23,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 1,
+      "lod": 2,
+      "face": 10,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 382,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 1,
+      "lod": 2,
+      "face": 11,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 484,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 3,
+      "lod": 0,
+      "face": 29,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 95,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 3,
+      "lod": 0,
+      "face": 32,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 85,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 3,
+      "lod": 0,
+      "face": 36,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 95,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 3,
+      "lod": 0,
+      "face": 40,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 85,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 3,
+      "lod": 1,
+      "face": 21,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 23,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 3,
+      "lod": 1,
+      "face": 24,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 23,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 3,
+      "lod": 2,
+      "face": 10,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 484,
+      "new_mask_missing_samples": 0
+    },
+    {
+      "part": 3,
+      "lod": 2,
+      "face": 14,
+      "valid_samples": 625,
+      "old_mask_missing_samples": 382,
+      "new_mask_missing_samples": 0
+    }
+  ],
+  "rows": [
+    {
+      "part": 0,
+      "lod": 0,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 0,
+      "lod": 1,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 0,
+      "lod": 2,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 0,
+      "lod": 3,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 0,
+      "lod": 4,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 0,
+      "lod": 5,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 0,
+      "lod": 6,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 1,
+      "lod": 0,
+      "fast_faces": [
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          28,
+          0
+        ],
+        [
+          29,
+          0
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          32,
+          0
+        ],
+        [
+          33,
+          0
+        ],
+        [
+          34,
+          0
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          36,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          38,
+          0
+        ],
+        [
+          39,
+          0
+        ],
+        [
+          40,
+          0
+        ],
+        [
+          41,
+          0
+        ],
+        [
+          42,
+          0
+        ],
+        [
+          43,
+          0
+        ]
+      ],
+      "heat_faces": [
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          30,
+          0
+        ],
+        [
+          31,
+          0
+        ],
+        [
+          35,
+          0
+        ],
+        [
+          36,
+          0
+        ],
+        [
+          37,
+          0
+        ],
+        [
+          38,
+          0
+        ],
+        [
+          41,
+          0
+        ],
+        [
+          42,
+          0
+        ]
+      ]
+    },
+    {
+      "part": 1,
+      "lod": 1,
+      "fast_faces": [
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          22,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          24,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          26,
+          0
+        ],
+        [
+          27,
+          0
+        ]
+      ],
+      "heat_faces": [
+        [
+          8,
+          0
+        ],
+        [
+          9,
+          0
+        ],
+        [
+          20,
+          0
+        ],
+        [
+          21,
+          0
+        ],
+        [
+          22,
+          0
+        ],
+        [
+          23,
+          0
+        ],
+        [
+          24,
+          0
+        ],
+        [
+          25,
+          0
+        ],
+        [
+          26,
+          0
+        ],
+        [
+          27,
+          0
+        ]
+      ]
+    },
+    {
+      "part": 1,
+      "lod": 2,
+      "fast_faces": [
+        [
+          10,
+          0
+        ],
+        [
+          11,
+          0
+        ]
+      ],
+      "heat_faces": [
+        [
+          10,
+          0
+        ],
+        [
+          11,
+          0
+        ]
+      ]
+    },
+    {
+      "part": 1,
+      "lod": 3,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 1,
+      "lod": 4,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 1,
+      "lod": 5,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 1,
+      "lod": 6,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 2,
+      "lod": 0,
+      "fast_faces": [
+        [
+          150,
+          2
+        ],
+        [
+          151,
+          2
+        ],
+        [
+          152,
+          2
+        ],
+        [
+          153,
+          2
+        ],
+        [
+          154,
+          2
+        ],
+        [
+          155,
+          2
+        ],
+        [
+          156,
+          2
+        ],
+        [
+          157,
+          2
+        ],
+        [
+          158,
+          2
+        ],
+        [
+          159,
+          2
+        ],
+        [
+          160,
+          2
+        ],
+        [
+          161,
+          2
+        ],
+        [
+          162,
+          2
+        ],
+        [
+          163,
+          2
+        ],
+        [
+          164,
+          2
+        ],
+        [
+          165,
+          2
+        ],
+        [
+          166,
+          2
+        ],
+        [
+          167,
+          2
+        ],
+        [
+          168,
+          2
+        ],
+        [
+          169,
+          2
+        ],
+        [
+          170,
+          2
+        ],
+        [
+          171,
+          2
+        ],
+        [
+          172,
+          2
+        ],
+        [
+          173,
+          2
+        ],
+        [
+          174,
+          2
+        ],
+        [
+          175,
+          2
+        ],
+        [
+          176,
+          2
+        ],
+        [
+          177,
+          2
+        ],
+        [
+          178,
+          2
+        ],
+        [
+          179,
+          2
+        ],
+        [
+          180,
+          2
+        ],
+        [
+          181,
+          2
+        ],
+        [
+          182,
+          2
+        ],
+        [
+          183,
+          2
+        ],
+        [
+          184,
+          2
+        ],
+        [
+          185,
+          2
+        ],
+        [
+          186,
+          2
+        ],
+        [
+          187,
+          2
+        ],
+        [
+          188,
+          2
+        ],
+        [
+          189,
+          2
+        ],
+        [
+          190,
+          2
+        ],
+        [
+          191,
+          2
+        ],
+        [
+          192,
+          2
+        ],
+        [
+          193,
+          2
+        ],
+        [
+          194,
+          2
+        ],
+        [
+          195,
+          2
+        ],
+        [
+          196,
+          2
+        ],
+        [
+          197,
+          2
+        ]
+      ],
+      "heat_faces": [
+        [
+          150,
+          2
+        ],
+        [
+          151,
+          2
+        ],
+        [
+          152,
+          2
+        ],
+        [
+          153,
+          2
+        ],
+        [
+          154,
+          2
+        ],
+        [
+          155,
+          2
+        ],
+        [
+          156,
+          2
+        ],
+        [
+          157,
+          2
+        ],
+        [
+          178,
+          2
+        ],
+        [
+          179,
+          2
+        ],
+        [
+          180,
+          2
+        ],
+        [
+          181,
+          2
+        ],
+        [
+          182,
+          2
+        ],
+        [
+          183,
+          2
+        ],
+        [
+          184,
+          2
+        ],
+        [
+          185,
+          2
+        ],
+        [
+          186,
+          2
+        ],
+        [
+          187,
+          2
+        ],
+        [
+          188,
+          2
+        ],
+        [
+          189,
+          2
+        ],
+        [
+          190,
+          2
+        ],
+        [
+          191,
+          2
+        ],
+        [
+          192,
+          2
+        ],
+        [
+          193,
+          2
+        ],
+        [
+          194,
+          2
+        ],
+        [
+          195,
+          2
+        ],
+        [
+          196,
+          2
+        ],
+        [
+          197,
+          2
+        ]
+      ]
+    },
+    {
+      "part": 2,
+      "lod": 1,
+      "fast_faces": [
+        [
+          93,
+          2
+        ],
+        [
+          94,
+          2
+        ],
+        [
+          95,
+          2
+        ]
+      ],
+      "heat_faces": [
+        [
+          93,
+          2
+        ],
+        [
+          94,
+          2
+        ],
+        [
+          95,
+          2
+        ]
+      ]
+    },
+    {
+      "part": 2,
+      "lod": 2,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 2,
+      "lod": 3,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 2,
+      "lod": 4,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 3,
+      "lod": 0,
+      "fast_faces": [
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          30,
+          1
+        ],
+        [
+          31,
+          1
+        ],
+        [
+          32,
+          1
+        ],
+        [
+          33,
+          1
+        ],
+        [
+          34,
+          1
+        ],
+        [
+          35,
+          1
+        ],
+        [
+          36,
+          1
+        ],
+        [
+          37,
+          1
+        ],
+        [
+          38,
+          1
+        ],
+        [
+          39,
+          1
+        ],
+        [
+          40,
+          1
+        ],
+        [
+          41,
+          1
+        ],
+        [
+          42,
+          1
+        ],
+        [
+          43,
+          1
+        ]
+      ],
+      "heat_faces": [
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          28,
+          1
+        ],
+        [
+          29,
+          1
+        ],
+        [
+          32,
+          1
+        ],
+        [
+          36,
+          1
+        ],
+        [
+          37,
+          1
+        ],
+        [
+          38,
+          1
+        ],
+        [
+          39,
+          1
+        ],
+        [
+          40,
+          1
+        ]
+      ]
+    },
+    {
+      "part": 3,
+      "lod": 1,
+      "fast_faces": [
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          21,
+          1
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          24,
+          1
+        ],
+        [
+          25,
+          1
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          27,
+          1
+        ]
+      ],
+      "heat_faces": [
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          21,
+          1
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          23,
+          1
+        ],
+        [
+          24,
+          1
+        ],
+        [
+          25,
+          1
+        ],
+        [
+          26,
+          1
+        ],
+        [
+          27,
+          1
+        ]
+      ]
+    },
+    {
+      "part": 3,
+      "lod": 2,
+      "fast_faces": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ],
+      "heat_faces": [
+        [
+          10,
+          1
+        ],
+        [
+          14,
+          1
+        ]
+      ]
+    },
+    {
+      "part": 3,
+      "lod": 3,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 3,
+      "lod": 4,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 3,
+      "lod": 5,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 3,
+      "lod": 6,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 4,
+      "lod": 0,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 4,
+      "lod": 1,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 4,
+      "lod": 2,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 4,
+      "lod": 3,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 4,
+      "lod": 4,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 4,
+      "lod": 5,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 4,
+      "lod": 6,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 5,
+      "lod": 0,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 5,
+      "lod": 1,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 5,
+      "lod": 2,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 5,
+      "lod": 3,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 5,
+      "lod": 4,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 5,
+      "lod": 5,
+      "fast_faces": [],
+      "heat_faces": []
+    },
+    {
+      "part": 5,
+      "lod": 6,
+      "fast_faces": [],
+      "heat_faces": []
+    }
+  ]
+}

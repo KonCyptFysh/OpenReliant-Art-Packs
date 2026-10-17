@@ -1,0 +1,39 @@
+{
+  "scene": "${PROWLER_WORKSPACE}/prowler_worn_pbr_v2.blend",
+  "scene_sha256": "465d848a355043e8c21965ca188f0aeab55bb15a271a074e36eca59a6fb6537a",
+  "mesh_signature": "271b9d6458d647e7ff2247dc06d40920426032c231d567682d622aff5e5b1b38",
+  "geometry_uv_normals_preserved": true,
+  "maps": {
+    "hull1": {
+      "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_basecolor_v2.png",
+      "sha256": "fa68d913eece90059633a38d98a38e2072f1fc9093340ec8e89484543e007b50",
+      "unmodified_outside_edit_mask": true,
+      "mask_pixels": 187061,
+      "emissive": {
+        "path": "${PROWLER_WORKSPACE}/maps/prowler_hull1_emissive_v2.png",
+        "sha256": "79ba29888167759788ddec08d047a4c1d09a3556370b0051f351237c713b1491",
+        "sRGB": [
+          0.1,
+          0.16,
+          0.07
+        ],
+        "scope_unchanged": true
+      }
+    },
+    "hull2": {
+      "path": "${PROWLER_WORKSPACE}/maps/prowler_hull2_basecolor_v2.png",
+      "sha256": "cf0aca02ffb2c71e8e55775a865fdb6e7aca23c8de49941ca63e29eb1b0195cf",
+      "unmodified_outside_edit_mask": true,
+      "mask_pixels": 276864
+    }
+  },
+  "source_resolution": [
+    1254,
+    1254
+  ],
+  "delivery_resolution": [
+    4096,
+    4096
+  ],
+  "all_other_material_maps_unchanged": true
+}

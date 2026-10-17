@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "changes": [
+    {
+      "part": 2,
+      "attachment": 1,
+      "offset": 30922,
+      "before": 8,
+      "after": 0,
+      "position": [
+        -15.479999542236328,
+        -57.689998626708984,
+        -2156.429931640625
+      ]
+    }
+  ],
+  "previous_sha256": "31eb3b267f3578f87546d1614a7a5e1c5c53d36007ef1fc0ecb8ee4fb7dbe3dc",
+  "revised_sha256": "a6838a1e2a1b6dd343dca21387ca3d593aca88cf58036ba528dfb42f45c8cad5",
+  "all_other_bytes_identical": true,
+  "original_exhaust_attachments_turrets_damage_lamp_preserved": true
+}

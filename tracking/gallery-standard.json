@@ -32,7 +32,8 @@
   "scope": "Published ship photos and homepage ship hero. HUD artwork and the purpose-built ordnance detail gallery retain their own presentation.",
   "authorization": "User requested matching fresh gallery photos and persistence for future Git publications, 12 October 2026, Australia/Melbourne.",
   "engine_overrides": {
-    "kurgen": "Official OpenReliant 0.18.0"
+    "kurgen": "Official OpenReliant 0.18.0",
+    "prowler": "Official OpenReliant 0.18.0"
   },
-  "engine_override_reason": "Kurgen needs the official 0.18.0 surface API. Camera, nebula, framing and capture provenance are unchanged."
+  "engine_override_reason": "Kurgen and Prowler require the official 0.18.0 surface API. Shared camera, nebula, framing and capture provenance are unchanged."
 }

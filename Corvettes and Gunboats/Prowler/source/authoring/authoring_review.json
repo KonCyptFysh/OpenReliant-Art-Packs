@@ -1,0 +1,17 @@
+{
+  "kind": "Blender authoring renders; not game captures",
+  "views": [
+    "front",
+    "opposite",
+    "rear",
+    "belly"
+  ],
+  "reviewed_at_utc": "2026-10-17T09:17:29.484179+00:00",
+  "observations": [
+    "Original grey/green worn hull, caution bands, US flag, unit markings and machinery retained.",
+    "Four native turret instances included in review assembly; shared artwork unchanged.",
+    "Inset blue glazing with frames retained and emission only inside glass.",
+    "Structural normals separate from flat painted decals; vents remain non-emissive."
+  ],
+  "runtime_visual_review": "pending_user"
+}

@@ -1,0 +1,16 @@
+{
+  "ship_type": 30,
+  "model": "US_Prowler.SHP",
+  "native_parts": 6,
+  "intact_parts": 5,
+  "detail_level_count_max": 7,
+  "stored_faces_all_lods": 1593,
+  "gun_mounts": 4,
+  "shared_turret": "14_al_STUR.SHP",
+  "shared_turret_art": "Original shared Missiles texture retained; no global weapons-atlas override",
+  "hull_animation": "Native clip records have identical keyframes; no deployment motion",
+  "preservation": "Geometry, per-corner UVs, normals, collision, attachments, animation, flags and wreck data preserved byte-for-byte; only material names and incompatible continuation counts changed",
+  "window_scope": "Only original PROW_1 blue glazing regions emit",
+  "dynamic_lighting": "Window emission static for first appearance review. Kurgen damage/throttle/heat system has not been ported.",
+  "native_engine_effects": "Preserved; no point lights or engine glows removed"
+}

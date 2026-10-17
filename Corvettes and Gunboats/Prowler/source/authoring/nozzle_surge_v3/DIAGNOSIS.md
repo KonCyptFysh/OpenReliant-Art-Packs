@@ -1,0 +1,13 @@
+# Prowler revision 1.2 diagnosis and validation
+
+The triangular dark areas were missing surface emission, not shadows or missing geometry. The previous shader oriented a derivative face normal using the interpolated legacy vertex normal. At sharp nozzle corners the smoothed vertex normal changes sign relative to the actual plane, so the signed plane mask rejected triangular parts of otherwise valid interior faces.
+
+The corrected shader orients the derivative normal toward the eye in the native part frame. It retains the original signed plane and position tests. This removes the holes without selecting opposite-facing outer casing surfaces. An unsigned plane test was rejected because it selected exterior walls at detail level 1. The final shader contains neither that unsigned test nor its discarded extra spatial bounds.
+
+All 40 native part/detail combinations preserve the original intended nozzle-face selection. The audit identifies the old interpolated-normal failures. The official engine compiles the final shader; rear captures from both sides show continuous inner glow with native plumes enabled and disabled. The diagnostic mask uses green for thermal interiors and purple for other hull surfaces. Diagnostic captures force a hot state only in an isolated copy; these are functional evidence, not gallery images. Production state follows actual thrust and cooling.
+
+At or below 30% health, power faults now select absolute 0–100% cabin emission. Each irregular burst shuffles a blackout, a full healthy-brightness surge and additional random levels, held for random 65–145 ms intervals. The dim health-dependent baseline resumes between bursts; quiet gaps remain random 3–6 seconds. Large-hit thresholds and ordinary hit flicker are unchanged. Pausing, save/load, repair, lights-off, cloak and destruction retain their existing rules. Older saved fault state migrates to the new sequence format.
+
+43 response checks pass, including exact 0 and 1 plus intermediate output at 30%, 10% and 1% health. The official-engine integration confirms full-range surges at 25% health and passes the existing thrust, retained heat, damage-threshold, engine-disable and recovery checks. Its isolated response clock runs twice as fast; no instrumentation or test script is installed.
+
+The model, geometry, UVs, vertex normals, textures, normal/ORM maps, emissive map and Blender source are byte-identical to revision 1.1. The validated 1K/2K/4K maps are reused at their existing sizes with the same final scripts and shader. Revision 1.2 awaits user visual review; it is not published. The shared Kurgen response is not modified by this Prowler revision.

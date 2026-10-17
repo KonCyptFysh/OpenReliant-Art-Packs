@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "asset_revision": "1.2",
+  "checked_at_utc": "2026-10-17T12:32:35.347715+00:00",
+  "engine": "Official OpenReliant 0.18.0",
+  "shader_compiled_by_official_engine": true,
+  "response_unit_checks": 43,
+  "runtime_integration": "passed",
+  "runtime_probe_clock_acceleration": 2,
+  "full_range_critical_surge": {
+    "min": 0,
+    "max": 1,
+    "intermediate": true,
+    "health": 0.25
+  },
+  "game_launched": true,
+  "runtime_visual_review": "pending_user",
+  "component_inventory": "one hull, four turrets, no separate engines",
+  "resolution_tiers": [
+    "1k",
+    "2k",
+    "4k"
+  ],
+  "resolution_validation": "Previously engine-validated textures unchanged; final scripts and shader synchronized across all tiers",
+  "geometry_uv_normals_textures_preserved": true,
+  "nozzle_scope_all_40_part_lods": true,
+  "source_scene_unchanged_from_validated_revision_1_1": true,
+  "installed_bytes_match_repository": true
+}

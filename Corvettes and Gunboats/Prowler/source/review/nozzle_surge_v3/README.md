@@ -1,0 +1,1 @@
+Functional diagnostics only, not gallery photography. See ../../work/nozzle_surge_v3/DIAGNOSIS.md. Before/after no-plume views use the same camera and forced full surface heat. The native-plume view checks the opposite rear angle.
