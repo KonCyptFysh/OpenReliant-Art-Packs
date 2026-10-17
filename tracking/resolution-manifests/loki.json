@@ -1,0 +1,231 @@
+{
+  "asset": "loki",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "4ff0f3f10e79644efab2a9f84de9bbb0a41ba574f7aa02400cf9b2fb7d2426af",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "loki-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/loki-v0.1.0-beta.2.res2/openreliant-loki-1k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.2.res2",
+      "checksum": "53c70c514301fcc8fc8bacb05554e75004a33ddc9ab6ae4662f34200c14c8623",
+      "downloadBytes": 4247464
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.2.res2",
+      "tag": "loki-v0.1.0-beta.2.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/loki-v0.1.0-beta.2.res2/openreliant-loki-2k-0.1.0-beta.2.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.2.res2",
+      "checksum": "c9da8230a2c9a406a416b2e652b80089c8f90c285d8038dd8bc31dd3fd63b94b",
+      "downloadBytes": 9658267
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.2",
+      "tag": "loki-v0.1.0-beta.2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/loki-v0.1.0-beta.2/openreliant-loki-0.1.0-beta.2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.2",
+      "checksum": "0db2dc9084a172ccddaa694da764c76b4c4be8e03d9ca092a1ae18249305fd40",
+      "downloadBytes": 25779368
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "1.1",
+        "source_manifest_sha256": "4ff0f3f10e79644efab2a9f84de9bbb0a41ba574f7aa02400cf9b2fb7d2426af",
+        "asset_manifest_sha256": "edbad18159befaae38ce8d0abee2989afca939acc460af8920e6dba1abbe69a4",
+        "images": [
+          {
+            "path": "mods/105-loki-worn-v1/orlk1_hull.png",
+            "source_sha256": "d255d64bb22bbbdfc6b4031a6318472593170c485d2d015a77514974961f694e",
+            "sha256": "bd95e5f7d999832ee800ff3f16145813095cb68e6ecf35f2c8b2647e90882352",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/105-loki-worn-v1/orlk1_hull_normal.png",
+            "source_sha256": "f8041660c30042c3c0c0ad568456b205424624b51729eddff4c66b2beec898c6",
+            "sha256": "32b64d775b4089699ec5e332f51c8230c033d6432e299bccd404a3b94407a8dd",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/105-loki-worn-v1/orlk1_hull_orm.png",
+            "source_sha256": "92ac8fa9fe0da4017ea93b5c061673a460b6bc07cf787abec69a84580c356a02",
+            "sha256": "51403c5d2bd1e0d673d7416132fd4cdbd514a7e4972fc382d7b194dcd102474b",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/105-loki-worn-v1/CRP_Loki.SHP",
+          "mods/105-loki-worn-v1/license.txt",
+          "mods/105-loki-worn-v1/loki_inspection.luau",
+          "mods/105-loki-worn-v1/mission981.dte",
+          "mods/105-loki-worn-v1/mission982.dte",
+          "mods/105-loki-worn-v1/mission983.dte",
+          "mods/105-loki-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "loki",
+        "tier": "1k",
+        "zip_sha256": "53c70c514301fcc8fc8bacb05554e75004a33ddc9ab6ae4662f34200c14c8623",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orlk1_hull",
+            "emissive": false,
+            "log_sha256": "ce347588e6daa0ac7e208e117c841d22d0737e4346c9bc6b63bebd21e958c5e2",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.2",
+        "asset_revision": "1.1",
+        "source_manifest_sha256": "4ff0f3f10e79644efab2a9f84de9bbb0a41ba574f7aa02400cf9b2fb7d2426af",
+        "asset_manifest_sha256": "4a64e15342bf5f8071fe2005c35f84099a427d9c26257f42ec2ec3abe4779d0e",
+        "images": [
+          {
+            "path": "mods/105-loki-worn-v1/orlk1_hull.png",
+            "source_sha256": "d255d64bb22bbbdfc6b4031a6318472593170c485d2d015a77514974961f694e",
+            "sha256": "d004c44376132451b7983d38615a7e819bc44d404fd7d6ebb91afea9016a5a4d",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/105-loki-worn-v1/orlk1_hull_normal.png",
+            "source_sha256": "f8041660c30042c3c0c0ad568456b205424624b51729eddff4c66b2beec898c6",
+            "sha256": "f364ad9ebe277f5d0809bb1277d62b9ca0d0c37922fc356f2a759ce07bb09462",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/105-loki-worn-v1/orlk1_hull_orm.png",
+            "source_sha256": "92ac8fa9fe0da4017ea93b5c061673a460b6bc07cf787abec69a84580c356a02",
+            "sha256": "2aacb512d85d0355b13cc9a28fc0b7d1adaaaaf52df9897055060c37682b4ada",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/105-loki-worn-v1/CRP_Loki.SHP",
+          "mods/105-loki-worn-v1/license.txt",
+          "mods/105-loki-worn-v1/loki_inspection.luau",
+          "mods/105-loki-worn-v1/mission981.dte",
+          "mods/105-loki-worn-v1/mission982.dte",
+          "mods/105-loki-worn-v1/mission983.dte",
+          "mods/105-loki-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "loki",
+        "tier": "2k",
+        "zip_sha256": "c9da8230a2c9a406a416b2e652b80089c8f90c285d8038dd8bc31dd3fd63b94b",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orlk1_hull",
+            "emissive": false,
+            "log_sha256": "ce347588e6daa0ac7e208e117c841d22d0737e4346c9bc6b63bebd21e958c5e2",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:18:57.092285+00:00"
+}
