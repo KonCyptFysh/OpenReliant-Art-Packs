@@ -868,6 +868,39 @@
               "src": "assets/naginata/gallery-overview-v1.webp",
               "caption": "Naginata — Front three-quarter view"
             }
+          ],
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "naginata-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.2.res2/openreliant-naginata-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.2.res2",
+              "checksum": "7cfc7b4609cf9ec0f33e156a62e91208742e234e040e61622c5c11c34335268b",
+              "downloadBytes": 10835160
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "naginata-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.2.res2/openreliant-naginata-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.2.res2",
+              "checksum": "0dd36ec72a020d977e61d95dc3fbc319c4993062abab7e09807a1e684769e92a",
+              "downloadBytes": 35748696
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "naginata-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.2/openreliant-naginata-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.2",
+              "checksum": "a0e903e86557f74777536ddd0ed5ad9d7bcaad375c5d897c65243dc47397ccf0",
+              "downloadBytes": 94758166
+            }
           ]
         }
       ],
