@@ -1,0 +1,225 @@
+{
+  "asset": "cossack",
+  "livery": "worn-paint",
+  "master_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+  "builder_commit": "567ac4a81afc199bcbfb750bfefe7284f3e53440",
+  "master_manifest_sha256": "44facd97e613f4398bba7a22832aa2e91a68f7ef43f7677fa9e9e91dff4fc6f0",
+  "variants": [
+    {
+      "id": "1k",
+      "maxTextureEdge": 1024,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "cossack-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1.res2/openreliant-cossack-1k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1.res2",
+      "checksum": "80ef546ea7d5d95c564b2fdec688ca8e5a082b0018fa4be583ee4e505fcb8f69",
+      "downloadBytes": 4055293
+    },
+    {
+      "id": "2k",
+      "maxTextureEdge": 2048,
+      "version": "0.1.0-beta.1.res2",
+      "tag": "cossack-v0.1.0-beta.1.res2",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1.res2/openreliant-cossack-2k-0.1.0-beta.1.res2.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1.res2",
+      "checksum": "04179e5e347878f29b01844b92d63024e53e6bcda541c230620683910de6f291",
+      "downloadBytes": 9711654
+    },
+    {
+      "id": "4k",
+      "maxTextureEdge": 4096,
+      "version": "0.1.0-beta.1",
+      "tag": "cossack-v0.1.0-beta.1",
+      "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1/openreliant-cossack-0.1.0-beta.1.zip",
+      "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1",
+      "checksum": "a599bfbb7fd11f79254b199f46e9721c7486a991bada37177fd1140e6d96b43c",
+      "downloadBytes": 26257495
+    }
+  ],
+  "generated": [
+    {
+      "tier": "1k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "1k",
+        "max_texture_edge": 1024,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "44facd97e613f4398bba7a22832aa2e91a68f7ef43f7677fa9e9e91dff4fc6f0",
+        "asset_manifest_sha256": "da295095dfd61325ccb300ecf1b32342e76c4fbd64a4726b547fe8161cc17526",
+        "images": [
+          {
+            "path": "mods/107-cossack-worn-v1/orcs1_hull.png",
+            "source_sha256": "2f8a6b6c84818847e9ed766e1157f4c887e5a3f6f4912d78289e28dc7680566c",
+            "sha256": "6ab1b4b6a238dfe8d1cffb1873c05e972be6ade0b537c7aad8afb867b276ca9d",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/107-cossack-worn-v1/orcs1_hull_normal.png",
+            "source_sha256": "ab1fbe45f072b465012a6167797be907ddcabf3f832aee7fd03cb3503a292833",
+            "sha256": "03101598c35218995a0b2c0783e9c2385943879723a396aa1d3c46cf13b6f8a1",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/107-cossack-worn-v1/orcs1_hull_orm.png",
+            "source_sha256": "ce3882f61d051539c329e696c27a2f48a122c24a863a07607adc963d43b47a47",
+            "sha256": "4123a90be9a45818a847ddbb0598bbd7cfdec648e424a31e23f9b1d38ebd65ab",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              1024,
+              1024
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/107-cossack-worn-v1/Rus_Kossac.SHP",
+          "mods/107-cossack-worn-v1/license.txt",
+          "mods/107-cossack-worn-v1/mission979.dte",
+          "mods/107-cossack-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "cossack",
+        "tier": "1k",
+        "zip_sha256": "80ef546ea7d5d95c564b2fdec688ca8e5a082b0018fa4be583ee4e505fcb8f69",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orcs1_hull",
+            "emissive": false,
+            "log_sha256": "4ec5dd98bd42223a24415b2713f8d8458226cc5724230c88241fae56d1fd6a9e",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    },
+    {
+      "tier": "2k",
+      "provenance": {
+        "recipe": "texture-resolution-v2",
+        "tier": "2k",
+        "max_texture_edge": 2048,
+        "source_commit": "9c36088139078dbcf425b077fcaabd8bc4a8865e",
+        "source_version": "0.1.0-beta.1",
+        "asset_revision": "1.0",
+        "source_manifest_sha256": "44facd97e613f4398bba7a22832aa2e91a68f7ef43f7677fa9e9e91dff4fc6f0",
+        "asset_manifest_sha256": "6ddffdef4997f5e9eeb958ba83ddee897f812f42f0d1e4197e38649b24a65854",
+        "images": [
+          {
+            "path": "mods/107-cossack-worn-v1/orcs1_hull.png",
+            "source_sha256": "2f8a6b6c84818847e9ed766e1157f4c887e5a3f6f4912d78289e28dc7680566c",
+            "sha256": "5826e6eae000d9f1087cc4fbbefa2697c4077d2d1a13fcd71d03d538c61c6ce5",
+            "role": "colour",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/107-cossack-worn-v1/orcs1_hull_normal.png",
+            "source_sha256": "ab1fbe45f072b465012a6167797be907ddcabf3f832aee7fd03cb3503a292833",
+            "sha256": "0852b80d9b882c63c657db6d2453b20430d34cc8e0fd1e2c5c09953495a54831",
+            "role": "normal",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          },
+          {
+            "path": "mods/107-cossack-worn-v1/orcs1_hull_orm.png",
+            "source_sha256": "ce3882f61d051539c329e696c27a2f48a122c24a863a07607adc963d43b47a47",
+            "sha256": "6512f61bfe0235982d79a8efa416b3e7dc7d8464b07e04cebf60edd87b7f5d29",
+            "role": "orm",
+            "source_size": [
+              4096,
+              4096
+            ],
+            "size": [
+              2048,
+              2048
+            ],
+            "resized": true
+          }
+        ],
+        "unchanged_files": [
+          "mods/107-cossack-worn-v1/Rus_Kossac.SHP",
+          "mods/107-cossack-worn-v1/license.txt",
+          "mods/107-cossack-worn-v1/mission979.dte",
+          "mods/107-cossack-worn-v1/mod.png"
+        ],
+        "resampling": {
+          "colour": "sRGB decoded to linear light; alpha-weighted box average; sRGB encoded",
+          "emissive": "Same linear-light averaging as colour; no automatic brightness boost",
+          "normal": "Average unit vectors then renormalize; flat fallback for cancelling vectors",
+          "orm": "Linear channel averages; no colour conversion"
+        },
+        "limitations": [
+          "Normal variance below the target pixel size is not retained in PNG normal alpha, which the engine ignores.",
+          "Master gallery images are shared by all tiers; small details become softer at lower resolution."
+        ]
+      },
+      "loader": {
+        "asset": "cossack",
+        "tier": "2k",
+        "zip_sha256": "04179e5e347878f29b01844b92d63024e53e6bcda541c230620683910de6f291",
+        "status": "passed",
+        "scope": "Official 0.8.1 loader for base/normal/ORM and generated loadout colours; official 0.18.0 loader for emissive sets. Non-visual, mipmapped to longest edge 256.",
+        "materials": [
+          {
+            "material": "orcs1_hull",
+            "emissive": false,
+            "log_sha256": "4ec5dd98bd42223a24415b2713f8d8458226cc5724230c88241fae56d1fd6a9e",
+            "probe_sha256": "b95e2d5089555231c6db847452ead080772a076a43b79ec504841a05462cb1fb"
+          }
+        ]
+      }
+    }
+  ],
+  "public_downloads_verified": true,
+  "verified_at_utc": "2026-10-17T06:22:32.498969+00:00"
+}
