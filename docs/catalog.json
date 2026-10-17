@@ -1338,7 +1338,40 @@
           "engine": "0.8.1",
           "validationSummary": "Official OpenReliant 0.8.1 native-file and texture-loader checks passed. Fresh gallery captures show the current repository artwork; broader gameplay and other platforms still need testing.",
           "previewType": "capture",
-          "previewArtworkRevision": "1.0"
+          "previewArtworkRevision": "1.0",
+          "defaultResolution": "4k",
+          "resolutions": [
+            {
+              "id": "1k",
+              "maxTextureEdge": 1024,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "saber-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.2.res2/openreliant-saber-1k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.2.res2",
+              "checksum": "a1a3fb0fed889beae19c912d0132f183666088e688fd922ad510cc3f1a032b8e",
+              "downloadBytes": 3991922
+            },
+            {
+              "id": "2k",
+              "maxTextureEdge": 2048,
+              "version": "0.1.0-beta.2.res2",
+              "tag": "saber-v0.1.0-beta.2.res2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.2.res2/openreliant-saber-2k-0.1.0-beta.2.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.2.res2",
+              "checksum": "dfc0c127eb4853232a8e0374c5dab5a7580eb2619d2dc2b360b1aa6917d912cd",
+              "downloadBytes": 10257712
+            },
+            {
+              "id": "4k",
+              "maxTextureEdge": 4096,
+              "version": "0.1.0-beta.2",
+              "tag": "saber-v0.1.0-beta.2",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.2/openreliant-saber-0.1.0-beta.2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.2",
+              "checksum": "48bd9acabd7d6ad8b27b4d45ca99abd05f9a46227357d835aef5661029fcb71a",
+              "downloadBytes": 28810411
+            }
+          ]
         }
       ],
       "entryType": "ship",
