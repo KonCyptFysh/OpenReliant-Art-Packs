@@ -1,0 +1,102 @@
+{
+  "status": "passed",
+  "asset_revision": "1.2",
+  "asset_manifest_sha256": "15c14b1d621568821126fd6c66f1155a71e307a7be88409f6be8fbd2f14dc1c0",
+  "model": "US_Prowler.SHP",
+  "model_sha256": "a6838a1e2a1b6dd343dca21387ca3d593aca88cf58036ba528dfb42f45c8cad5",
+  "turret_model_sha256": "35abdc31780c2569917753213e4b00eaf441374801421d779364bf33039c3643",
+  "preview_sha256": "db671aebe085756e9a209290ca7e768109082622ae42a2a61732299a626ab625",
+  "preview_bytes": 3053564,
+  "highest_detail_geometry": true,
+  "native_mount_positions_and_rotations_verified": true,
+  "turret_instances": 4,
+  "barrels": 8,
+  "geometry_meshes": 8,
+  "live_mesh_instances": 17,
+  "unique_mesh_triangle_counts": [
+    50,
+    44,
+    288,
+    44,
+    50,
+    22,
+    28,
+    28
+  ],
+  "visible_triangles": 788,
+  "textures": [
+    {
+      "runtime_file": "orpr1_hull1.png",
+      "sha256": "fa68d913eece90059633a38d98a38e2072f1fc9093340ec8e89484543e007b50",
+      "kind": "base",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orpr1_hull1_normal.png",
+      "sha256": "f01d9adb0c28f898d54291e524ad803237ffb82f70b2e1fc508520ba08872a60",
+      "kind": "normal",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orpr1_hull1_orm.png",
+      "sha256": "12dda9dd1e333308b3a36d95c1c62480ad241458706c110916a4f5a37c45bda4",
+      "kind": "orm",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orpr1_hull1_emissive.png",
+      "sha256": "79ba29888167759788ddec08d047a4c1d09a3556370b0051f351237c713b1491",
+      "kind": "emissive",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orpr1_hull2.png",
+      "sha256": "cf0aca02ffb2c71e8e55775a865fdb6e7aca23c8de49941ca63e29eb1b0195cf",
+      "kind": "base",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orpr1_hull2_normal.png",
+      "sha256": "5ea7aaaf74e4a4ea972e52c43d0ace052a516a72896a9f321b754fb1cbf18570",
+      "kind": "normal",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "orpr1_hull2_orm.png",
+      "sha256": "97723bd417705df8cf96b5e1d77ab3c24ccee2f7a0ef6c60e843048c7b3c4d6d",
+      "kind": "orm",
+      "preview_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "runtime_file": "missiles.png",
+      "sha256": "97801a1b8523ac4db9aa9f82cd86947a30b79b8161c611f01bc39feed309b2b3",
+      "kind": "base",
+      "preview_dimensions": [
+        256,
+        256
+      ]
+    }
+  ],
+  "limitations": "Static browser view with 1024px maps. Bridge emission shown at healthy brightness. Dynamic cabin/engine state, exhaust particles, firing animations and real light spill are not represented."
+}

@@ -1,7 +1,7 @@
 {
   "profile": "ship-gallery-v1",
-  "ships": 28,
-  "photographs": 32,
+  "ships": 29,
+  "photographs": 33,
   "captures": [
     {
       "asset": "coyote",
@@ -1568,6 +1568,55 @@
         524,
         2048,
         1484
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "prowler",
+      "livery": "worn-paint",
+      "artwork_revision": "1.2",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 30,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.18.0",
+      "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Corvettes and Gunboats/Prowler/asset-manifest.json",
+      "runtime_manifest_sha256": "15c14b1d621568821126fd6c66f1155a71e307a7be88409f6be8fbd2f14dc1c0",
+      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Prowler/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "0dd06444ffaae0563ec7a0e22562e3af81fb34605a466d103b5bd50238bae123",
+      "captured_at_utc": "2026-10-17T12:42:03.064977+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/prowler/gallery-overview-v1.webp",
+      "gallery_sha256": "95538a823c5e90d8f575875bb29d5c4ae335504a5e49930ad93a60e215ca8d09",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        842,
+        629,
+        1808,
+        1401
+      ],
+      "crop": [
+        647,
+        506,
+        2003,
+        1523
       ],
       "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }

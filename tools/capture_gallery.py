@@ -11,7 +11,7 @@ SHIP_TYPES = {'coyote':4,'predator':0,'reaper':9,'wolverine':8,'tempest':6,
  'shroud':10,'mirage':5,'naginata':1,'patriot':7,'phoenix':11,'crusader':3,
  'sai':23,'grendal':2,'saber':43,'basilisk':49,'kamov':45,'loki':65,
  'azan':42,'cossack':50,'lagg':44,'salin':41,'saracen':46,'haidar':39,
- 'karac':40,'galahad':25,'hades':26,'scimitar':48,'kurgen':60}
+ 'karac':40,'galahad':25,'hades':26,'scimitar':48,'kurgen':60,'prowler':30}
 
 def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
 

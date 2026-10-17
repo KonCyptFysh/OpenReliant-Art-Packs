@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "asset_revision": "1.2",
+  "checked_at_utc": "2026-10-17T12:32:35.347715+00:00",
+  "engine": "Official OpenReliant 0.18.0",
+  "shader_compiled_by_official_engine": true,
+  "response_unit_checks": 43,
+  "runtime_integration": "passed",
+  "runtime_probe_clock_acceleration": 2,
+  "full_range_critical_surge": {
+    "min": 0,
+    "max": 1,
+    "intermediate": true,
+    "health": 0.25
+  },
+  "game_launched": true,
+  "runtime_visual_review": "user_accepted_for_this_beta_round",
+  "component_inventory": "one hull, four turrets, no separate engines",
+  "resolution_tiers": [
+    "1k",
+    "2k",
+    "4k"
+  ],
+  "resolution_validation": "Previously engine-validated textures unchanged; final scripts and shader synchronized across all tiers",
+  "geometry_uv_normals_textures_preserved": true,
+  "nozzle_scope_all_40_part_lods": true,
+  "source_scene_unchanged_from_validated_revision_1_1": true,
+  "installed_bytes_match_repository": true,
+  "user_approved": true,
+  "packaging_ready": true,
+  "asset_manifest_sha256": "15c14b1d621568821126fd6c66f1155a71e307a7be88409f6be8fbd2f14dc1c0",
+  "source_manifest_sha256": "b4ebe369cd88d0cda57e8e0c62aca03230224a1711ea98009c43fa1b3f472b68",
+  "approval_record": "approval.json",
+  "engine_build": "Official OpenReliant 0.18.0 linux-x86_64",
+  "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+  "tested_platforms": [
+    "Linux x86_64; official 0.18.0"
+  ],
+  "checks": [
+    "43 response checks passed, including absolute 0–100% critical-health output.",
+    "Official-engine functional integration and final shader compilation passed.",
+    "All 40 native part/detail combinations preserve the intended nozzle mask scope.",
+    "User accepted artwork and lighting, with window refinement deferred.",
+    "Publication changes mod metadata only; accepted geometry, materials and scripts are unchanged.",
+    "Fresh official-engine gallery photo and fleet contact sheet inspected.",
+    "Browser model retains five intact hull parts and four native turret mounts, eight barrels; native transforms verified.",
+    "74 repository/package tests passed."
+  ],
+  "planned_refinements": [
+    "Refine the window lighting in a later artwork pass. The current appearance and full-range damage response are accepted for this beta."
+  ],
+  "gallery_validation": "gallery-validation.json",
+  "preview_validation": "preview-validation.json"
+}
