@@ -1,0 +1,361 @@
+{
+  "status": "passed",
+  "asset_revision": "11.0",
+  "asset_manifest_sha256": "d8ffb786a02127ad6a341b266bfe2e87bb33cb03ca41331b1098b899858903e8",
+  "preview_sha256": "50574cd09fa3555cc974f851ddfeb48ad423a8cd7c6041142d973a3f31250acb",
+  "preview_bytes": 4878552,
+  "intact_native_parts_only": true,
+  "mount_positions_rotations_verified": true,
+  "attachment_instances": [
+    {
+      "attachment_node": 24,
+      "attachment": "gun:10",
+      "model": "11_al_MTUR",
+      "roots": [
+        53,
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "attachment_node": 25,
+      "attachment": "gun:10",
+      "model": "11_al_MTUR",
+      "roots": [
+        59,
+        60,
+        61,
+        62
+      ]
+    },
+    {
+      "attachment_node": 26,
+      "attachment": "gun:12",
+      "model": "13_al_STUR",
+      "roots": [
+        66
+      ]
+    },
+    {
+      "attachment_node": 27,
+      "attachment": "gun:14",
+      "model": "Al_Mis_tur",
+      "roots": [
+        71,
+        72
+      ]
+    },
+    {
+      "attachment_node": 28,
+      "attachment": "gun:14",
+      "model": "Al_Mis_tur",
+      "roots": [
+        73,
+        74
+      ]
+    },
+    {
+      "attachment_node": 30,
+      "attachment": "gun:16",
+      "model": "Allied_Cap_Gun",
+      "roots": [
+        75
+      ]
+    },
+    {
+      "attachment_node": 42,
+      "attachment": "gun:10",
+      "model": "11_al_MTUR",
+      "roots": [
+        80,
+        81,
+        82,
+        83
+      ]
+    },
+    {
+      "attachment_node": 46,
+      "attachment": "gun:10",
+      "model": "11_al_MTUR",
+      "roots": [
+        86,
+        87,
+        88,
+        89
+      ]
+    },
+    {
+      "attachment_node": 47,
+      "attachment": "pod:4",
+      "model": "fuel_pod1",
+      "roots": [
+        92
+      ]
+    },
+    {
+      "attachment_node": 48,
+      "attachment": "pod:4",
+      "model": "fuel_pod1",
+      "roots": [
+        93
+      ]
+    },
+    {
+      "attachment_node": 49,
+      "attachment": "pod:4",
+      "model": "fuel_pod1",
+      "roots": [
+        94
+      ]
+    },
+    {
+      "attachment_node": 50,
+      "attachment": "pod:4",
+      "model": "fuel_pod1",
+      "roots": [
+        95
+      ]
+    }
+  ],
+  "visible_mesh_instances": 47,
+  "visible_triangles": 2280,
+  "model_sources": {
+    "Reliant": "44a800da3d0a0c2420d4bad46a1f8872140a175935fc154b63a0f3059ff8e39b",
+    "Allied_Cap_Gun": "af967d4be870e22f2af1a310e98988ee9e1ba4d96ab18ea0d867fb1d629f6755",
+    "13_al_STUR": "f6bb323301dc394fb7d15b2e15705b6e3c005f319f7aa1cf8afc1cc947e0b40d",
+    "11_al_MTUR": "b0bd3ed7d0e5edd16d7c07a250f90eabcfffd23ac07fcb18efc4a11862dee86d",
+    "Al_Mis_tur": "d032eed1d96eb9b00bba3a40702dd775e9b4177550f0bd15e48175f8123a0b94",
+    "fuel_pod1": "91810868c24cd5d5d5d9524d19c4a49894959ca79a0f61269a3276a1143eee1b"
+  },
+  "textures": [
+    {
+      "file": "orr1_hull.png",
+      "sha256": "3b2af535260914551543d760b50e3dd02860dda7b70b797cafdaf5f491caa2c6",
+      "role": "base",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr1_hull_normal.png",
+      "sha256": "356042b7169476b5898f02165e1d6ad0368bc19d66fce66a51b7d56601793a1c",
+      "role": "normal",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr1_hull_orm.png",
+      "sha256": "db5de6e24c9cca498345d97dbdf057b719c1fb577dfe3f48ad4c63302c5651e3",
+      "role": "orm",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr1_hull_emissive.png",
+      "sha256": "0136d8bf62087071700a4a60f634e3a01ec5056fe2cb39aab35a9db6761dab35",
+      "role": "emissive",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr_tube.png",
+      "sha256": "4f48f7c786ca6535dc123658b4fcd880f9fa66c3f4c5ea0c855b69dfa4921abf",
+      "role": "base",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr_tube_normal.png",
+      "sha256": "8f9129df39b23f29c58585d15ce4292976cea6105501fc0e54e1ad0a6962ac4c",
+      "role": "normal",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr_tube_orm.png",
+      "sha256": "9ff8c13193e3ae426e6677ec2891e4df0ea27a539cf5075d602a1e2e5a87b39b",
+      "role": "orm",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr_tube_emissive.png",
+      "sha256": "bc7c7ba473c0e20b7df1151f365e4f133815c261f838897fe319cee4ab9fda5f",
+      "role": "emissive",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr2_hull.png",
+      "sha256": "a687ff95c2eb356a033a480937740b7a47d5b4eb7636b85ca2dd77003ac7f43e",
+      "role": "base",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr2_hull_normal.png",
+      "sha256": "dc9200516395f95da955de6d36f5e4a04bc2683773734c9402b877b441826a9f",
+      "role": "normal",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr2_hull_orm.png",
+      "sha256": "96dffe2a153140b40a6b425ff714d6b11b192557d00f0d9a7312bc8241e078d7",
+      "role": "orm",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr2_hull_emissive.png",
+      "sha256": "0c8dfa698d01deeb816c9c90f826fc0a451242abdb21e9f85736981c620c33a8",
+      "role": "emissive",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr3_hull.png",
+      "sha256": "d8c29789c9129b3353e24c67920a832b7bb70d806cc24488d08f7705d1448608",
+      "role": "base",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr3_hull_normal.png",
+      "sha256": "b8ad355bb2063524bf43ec2574fe1a616d405ad6c495f324e59d31cdbf9c0ff8",
+      "role": "normal",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr3_hull_orm.png",
+      "sha256": "e99527ce13410b163edba03adc66e978d143ba8f3fe81c7a9b801dc424b79663",
+      "role": "orm",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr3_hull_emissive.png",
+      "sha256": "982f709ee6ce3fed9547dfeeaa991268a253e040d3b8d8609d71ddba18560704",
+      "role": "emissive",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "DAM_1.png",
+      "sha256": "fcacbed0e1d689b0ed27bbd1d1a269028af44170e05bba383c970b2db94ec0cf",
+      "role": "base",
+      "size": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "missiles.png",
+      "sha256": "97801a1b8523ac4db9aa9f82cd86947a30b79b8161c611f01bc39feed309b2b3",
+      "role": "base",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "file": "orr_sgun.png",
+      "sha256": "74857a88ab71c37d28ac217b9a60c2f05f6bebd08a9568645cfcfde5b0012998",
+      "role": "base",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr_sgun_normal.png",
+      "sha256": "8d150bf96dc653c10b02458ca7148965ca2016c8094847ac4b86dd88797b59b0",
+      "role": "normal",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr_sgun_orm.png",
+      "sha256": "24e62083c3f6929486b3f103d45305a99dcf99e4953103e33de25f5b02e7f7f8",
+      "role": "orm",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr_cgun.png",
+      "sha256": "e6573ed21388106b1fcf48fdea7be12838d10f3d83886fe8613cab2fba8595ca",
+      "role": "base",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr_cgun_normal.png",
+      "sha256": "995d907665742b8e231c9f384b076be34d3c9222bd07d9eec1da690a41e848a0",
+      "role": "normal",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "orr_cgun_orm.png",
+      "sha256": "f84d5be701e10668d84dcb71ba42344e82dfca73ccb674ec4969d281f1825cd4",
+      "role": "orm",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "file": "fuel.png",
+      "sha256": "589e8742c02bb97345e5c14141184ae71dce5d12c1caa6d0f97b1c66a3490409",
+      "role": "base",
+      "size": [
+        128,
+        128
+      ]
+    }
+  ],
+  "limitations": "Static browser preview with at most 1024px textures. No dynamic cabin/engine response, exhaust, weapon firing or launch/landing animation.",
+  "browser_visual_review": "Passed local catalogue preview: complete textured hull, mounted turrets and pods visible; model loads and zoom works.",
+  "reviewed_at_utc": "2026-10-19T09:53:29.515547+00:00"
+}

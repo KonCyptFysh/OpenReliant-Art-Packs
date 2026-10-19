@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "user_approved": true,
+  "asset_manifest_sha256": "d8ffb786a02127ad6a341b266bfe2e87bb33cb03ca41331b1098b899858903e8",
+  "source_manifest_sha256": "a432d5ae034b0105e4478d9de66d74e0088d948448c7c13e233491ff421704ec",
+  "engine_build": "Official OpenReliant 0.18.0 linux-x86_64",
+  "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+  "tested_platforms": [
+    "Linux x86_64"
+  ],
+  "checks": [
+    "Preserved native vertices, normals, attachments, animation tracks and collision leaf geometry; current source checks retained.",
+    "Aligned material companions, six tube walls and inward door UV scale checked.",
+    "Official-engine launch hangar, beacon pulses and native comms mission completion inspected in revision 11.",
+    "Four landing-request phases resolve to the same native bay centre after the script-only handoff correction.",
+    "User accepted artwork revision 11 for publication.",
+    "Approved image and model bytes unchanged for publication; only mod metadata and the test-mission controller changed."
+  ],
+  "landing_handoff": {
+    "passed": true,
+    "engine": "Official OpenReliant 0.18.0",
+    "cases": [
+      {
+        "request_phase": "opening",
+        "request_time": 15.5,
+        "cutaway": "LANDING_DIAG CUTAWAY t=39.99999910593033 player=-3894.9091796875, -1004897.8125, 38148.1015625 carrier=0, -1000000, 0 Rel bot dr 1=-3893.13037109375, -999119.4375, 18148.1015625; Rel top dr 1=-3896.68798828125, -1000676.1875, 18148.1015625",
+        "target_lateral_error": 0.0,
+        "request": "LANDING_DIAG REQUEST t=15.509999653324485 Rel bot dr 1=-2910.49365234375, 880.5761108398438, 18148.087890625; Rel top dr 1=-1975.75830078125, -676.2021484375, 18148.1015625"
+      },
+      {
+        "request_phase": "closing",
+        "request_time": 31.5,
+        "cutaway": "LANDING_DIAG CUTAWAY t=39.99999910593033 player=-3894.9091796875, -1004897.8125, 38148.1015625 carrier=0, -1000000, 0 Rel bot dr 1=-3893.13037109375, -999119.4375, 18148.1015625; Rel top dr 1=-3896.68798828125, -1000676.1875, 18148.1015625",
+        "target_lateral_error": 0.0,
+        "request": "LANDING_DIAG REQUEST t=31.509999295696616 Rel bot dr 1=-2642.50146484375, 880.5759887695312, 18148.083984375; Rel top dr 1=-1713.81298828125, -676.201904296875, 18148.1015625"
+      },
+      {
+        "request_phase": "closed",
+        "request_time": 38,
+        "cutaway": "LANDING_DIAG CUTAWAY t=45.0099989939481 player=-3894.9091796875, -1004897.8125, 38148.1015625 carrier=0, -1000000, 0 Rel bot dr 1=-3893.13037109375, -999119.4375, 18148.1015625; Rel top dr 1=-3896.68798828125, -1000676.1875, 18148.1015625",
+        "target_lateral_error": 0.0,
+        "request": "LANDING_DIAG REQUEST t=38.009999150410295 Rel bot dr 1=-3893.13037109375, 880.57666015625, 18148.1015625; Rel top dr 1=-3896.68798828125, -676.20361328125, 18148.1015625"
+      },
+      {
+        "request_phase": "held open",
+        "request_time": 22,
+        "cutaway": "LANDING_DIAG CUTAWAY t=39.99999910593033 player=-3894.9091796875, -1004897.8125, 38148.1015625 carrier=0, -1000000, 0 Rel bot dr 1=-3893.13037109375, -999119.4375, 18148.1015625; Rel top dr 1=-3896.68798828125, -1000676.1875, 18148.1015625",
+        "target_lateral_error": 0,
+        "request": "LANDING_DIAG REQUEST t=22.009999508038163 Rel bot dr 1=-1659.86474609375, 880.575439453125, 18148.0703125; Rel top dr 1=-1713.81298828125, -676.201904296875, 18148.1015625"
+      }
+    ],
+    "scope": "Native cutaway target, after requests during opening, held-open, closing and closed states. Native mission-end behavior is unchanged."
+  },
+  "limits": [
+    "Exhaustive campaign and other platforms not tested.",
+    "Publication regression checks confirm cutaway alignment; native landing flight/end routines are unchanged."
+  ]
+}

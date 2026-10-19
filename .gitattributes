@@ -29,3 +29,6 @@ HUD/Recommissioned/** -text
 # Additional HUD portrait films and source animation previews.
 HUD/Recommissioned/**/*.FM8 filter=lfs diff=lfs merge=lfs -text
 HUD/Recommissioned/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+
+# Reliant editable height fields are binary source assets.
+"Alliance Capital Ships/Reliant/**/*.npy" filter=lfs diff=lfs merge=lfs -text

@@ -46,4 +46,4 @@ a gallery-only pass. Commit the images, provenance, catalogue and policy togethe
 verify the pushed files and live Pages deployment. HUD artwork and the ordnance
 detail gallery have different purposes and are outside this ship camera rule.
 
-Kurgen and Prowler use explicitly recorded official 0.18.0 engine overrides because their runtime lighting requires that surface API. Keep the same camera, mission, native sky, capture resolution and framing. Per-asset engine overrides are validated; other ships retain their recorded baseline.
+Kurgen, Prowler and Reliant use explicitly recorded official 0.18.0 engine overrides because their runtime lighting requires that surface API. Keep the same camera, mission, native sky, capture resolution and framing. Per-asset engine overrides are validated; other ships retain their recorded baseline.
