@@ -2961,7 +2961,7 @@
             "Requires official OpenReliant 0.18.0.",
             "Asset-only mod: hull, hangar, materials and runtime lighting."
           ],
-          "validationSummary": "Native and material checks passed on official 0.18.0. Launch and landing interiors inspected; four door-phase landing alignment checks passed. User accepted this beta; broader campaign and other platforms remain unverified.",
+          "validationSummary": "Native models and material checks passed on official 0.18.0. Launch and landing interior artwork inspected. Runtime-only downloads verified; broader campaign and other platforms remain unverified.",
           "preview": "assets/reliant/gallery-overview-v1.webp",
           "defaultPreview": "image",
           "previewSource": "Fresh capture in official OpenReliant 0.18.0",

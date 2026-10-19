@@ -41,7 +41,7 @@
     }
   ],
   "rule": "Only flat runtime mod files; no scenes, developer scripts, launchers or external documents; image/model/production response bytes match previous public downloads.",
-  "publication_status": "Reliant public downloads verified; other clean replacements prepared on release/runtime-only-2026-10-19 pending approval",
+  "publication_status": "Reliant complete: clean downloads and live gallery verified; superseded Reliant ZIP/checksum attachments withdrawn. Wider collection replacements await approval.",
   "releases": {
     "reliant": {
       "state": "verified",
@@ -83,5 +83,62 @@
   },
   "source_commit": "d070c52ec70b54a690820555703673435fb1556c",
   "development_scene_included": false,
-  "landing_workaround_included": false
+  "landing_workaround_included": false,
+  "retired_releases": [
+    {
+      "tag": "reliant-v0.1.0-beta.13.res2",
+      "release_id": 417160911,
+      "successor": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1",
+      "removed": [
+        {
+          "id": 655946798,
+          "name": "openreliant-reliant-1k-0.1.0-beta.13.res2.zip",
+          "bytes": 25577703,
+          "sha256": "4654c163e6adba52ebf8999a75b5c0915ef4702484c9f43b345554e1e2774f87"
+        },
+        {
+          "id": 655946779,
+          "name": "openreliant-reliant-1k-0.1.0-beta.13.res2.zip.sha256",
+          "bytes": 112
+        },
+        {
+          "id": 655946777,
+          "name": "openreliant-reliant-2k-0.1.0-beta.13.res2.zip",
+          "bytes": 77704406,
+          "sha256": "ed432271170ada263303a29f0d52086770212731f07c93352562142ea7424aa1"
+        },
+        {
+          "id": 655946799,
+          "name": "openreliant-reliant-2k-0.1.0-beta.13.res2.zip.sha256",
+          "bytes": 112
+        }
+      ],
+      "historical_tag_retained": true,
+      "original_zip_preserved_locally": true,
+      "verified_at_utc": "2026-10-19T11:50:06.039307+00:00"
+    },
+    {
+      "tag": "reliant-v0.1.0-beta.13",
+      "release_id": 417153181,
+      "successor": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1",
+      "removed": [
+        {
+          "id": 655926012,
+          "name": "openreliant-reliant-0.1.0-beta.13.zip",
+          "bytes": 217691147,
+          "sha256": "c9c9ae7cfb9e83e70df144131a81029533d9a84cf631ffe773c935c9abbac3e5"
+        },
+        {
+          "id": 655926021,
+          "name": "openreliant-reliant-0.1.0-beta.13.zip.sha256",
+          "bytes": 104
+        }
+      ],
+      "historical_tag_retained": true,
+      "original_zip_preserved_locally": true,
+      "verified_at_utc": "2026-10-19T11:50:16.018102+00:00"
+    }
+  ],
+  "live_gallery_verified": true,
+  "desktop_and_mobile_resolution_selection_verified": true
 }
