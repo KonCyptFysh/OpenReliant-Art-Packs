@@ -1,0 +1,169 @@
+{
+  "ship": "Reliant",
+  "active_variant": "worn",
+  "status": "surface_revision_9_ready_for_review",
+  "user_approved": false,
+  "published": false,
+  "native_file": "Reliant.SHP",
+  "ship_type": 12,
+  "engine": "official OpenReliant 0.18.0",
+  "progress": {
+    "recon": "24 parts, 12 hangar door panels, separate hull/comms/engine/shield components, two turret types",
+    "texture_uv": "Both intact forward window panels use a consistent longitudinal/vertical projection in native detail levels 0 and 1; 8 triangle UVs repaired",
+    "pbr_authoring": "Three recessed service bays rebuilt with fresh worn metal and shared component shapes for colour, normal, height and PBR; frames and revision 8 windows preserved",
+    "engine_validation": "Official 0.18.0 close pipe detail, changed illumination and opposite side; 1K/2K/4K checked; native meshes, emission and scripts byte-identical to revision 8",
+    "visual_review": "Revision 9 machinery reconstruction awaits user review"
+  },
+  "source_originals": {
+    "Reliant.SHP": "a544c8e320bdb12070f2c60157348de24956b3e8808ea39dc8addb3dc16dc84f",
+    "Reliant_Hang.SHP": "7cdf2df5926be4dfd65378fd95836d7a9ab572da2cc8f93f4924603f87bd727a",
+    "Reliant_destback.SHP": "0477385ebcc8b616ee34fc1c78daf8515b3497fffd34a1f8a91aec7d521a1a23",
+    "13_al_STUR.SHP": "e1e0ab9991b283b59f7f0d5107de8e9696caef2ffbbde7617aea9242dd9fdcbf",
+    "Allied_Cap_Gun.SHP": "86e6e1f940e8d64629a352f3d0ba971060a09d3a7cd88dcc4189495741a5a99f",
+    "REL_1.png": "f441d353fa3443192a1dea1d55d84610d7e756c4fa005f998cb1d18d037fe805",
+    "REL_2.png": "9e039c96c8d809f989bf4b0cbdc79df7ac1a36a617e75901ebe305f6c47863de",
+    "REL_3.png": "e8125e16e0cd038db5f3852cd5916a479602f7e5870c6f49008f7bc8b9849d29",
+    "DAM_1.png": "fcacbed0e1d689b0ed27bbd1d1a269028af44170e05bba383c970b2db94ec0cf"
+  },
+  "updated_at_utc": "2026-10-18T10:30:59.090163+00:00",
+  "installed_runtime": "${OPENRELIANT_HOME}/game-data/mods/119-reliant-worn-v1",
+  "launchers": [
+    "${OPENRELIANT_HOME}/launch-reliant-test.sh",
+    "${OPENRELIANT_HOME}/launch-reliant-doors-test.sh"
+  ],
+  "packages": [
+    {
+      "tier": "4k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "sha256": "654522273ccf1814ccd59a399fcebf404168f4f84ee3d6d0cbc06e7a16e26ac5",
+      "bytes": 90431436
+    },
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "sha256": "7f4cfc4517254531b366d9459b9175c407ffe870ea5afa880ae5f7b9ed4a17f2",
+      "bytes": 33758997
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "sha256": "aaedb037e0694269d392412e32d479fc403c5af539044e52290d102bc1cfac4e",
+      "bytes": 12236419
+    }
+  ],
+  "camera": {
+    "revision": 3,
+    "status": "official_0_18_runtime_checked",
+    "native_min_radius": 1.8,
+    "detail_min_radius": 0.025,
+    "review_missions": [
+      958,
+      959
+    ],
+    "features": [
+      "close zoom",
+      "screen-plane pan",
+      "whole ship / bridge / engine focus",
+      "reset and native-camera toggle",
+      "Alt+arrows ship yaw/pitch",
+      "Alt+comma/period ship roll",
+      "Alt+Home ship orientation reset"
+    ]
+  },
+  "latest_scene": "${RELIANT_WORKSPACE}/reliant_worn_pbr_v9.blend",
+  "current_maps": "${RELIANT_WORKSPACE}/maps/machinery_v9",
+  "surface_revision": 9,
+  "engine_heat": {
+    "core_rise_seconds": 8,
+    "core_cooldown_seconds": 20,
+    "petal_rise_seconds": 4,
+    "petal_cooldown_seconds": 5,
+    "colors": "red-to-white core, red-only petals",
+    "effect_origins_unchanged": true
+  },
+  "shared_turrets": {
+    "models": [
+      "Allied_Cap_Gun.SHP",
+      "13_al_STUR.SHP"
+    ],
+    "materials": [
+      "orr_cgun",
+      "orr_sgun"
+    ],
+    "note": "Shared model overrides within this enabled pack; global ALL_TRT/Missiles materials retained"
+  },
+  "alignment_revision_3": {
+    "uv_faces": 42,
+    "matched_edges": 14,
+    "base_and_emission_unchanged": true,
+    "thermal_and_cabin_logic_unchanged": true,
+    "evidence": "${RELIANT_WORKSPACE}/work/alignment_v3/validation.json",
+    "visual_review": "Rejected: inaccurate REL2 frame and pipe paths; superseded by revision 4"
+  },
+  "alignment_revision_4": {
+    "pockets": 20,
+    "pipe_profiles": 19,
+    "pane_containment": 61,
+    "changed_material": "REL2 normal, structural height and AO only",
+    "native_and_lighting_unchanged": true,
+    "evidence": "${RELIANT_WORKSPACE}/work/alignment_v4/validation.json",
+    "remaining_issue": "Superseded structural pocket ramps: bright-ridge fit with excessive constant depth produced detached dark strip"
+  },
+  "windows_revision_5": {
+    "count": 64,
+    "height_resolution": 4096,
+    "source_mode": "built-in ImageGen plus registered material assembly",
+    "layout_retained": true,
+    "frames_nonemissive": true,
+    "glass_dielectric": true,
+    "lighting_logic_unchanged": true,
+    "native_unchanged": true,
+    "evidence": "${RELIANT_WORKSPACE}/work/windows_v5/validation.json"
+  },
+  "frame_relief_revision_6": {
+    "pockets": 20,
+    "measured_edges": 160,
+    "changed_material": "REL2 structural pocket normal, height, AO",
+    "window_inserts_unchanged": 64,
+    "geometry_uv_and_scripts_unchanged": true,
+    "evidence": "${RELIANT_WORKSPACE}/work/frame_relief_v6/validation.json"
+  },
+  "uv_projection_revision_7": {
+    "changed_triangles": 8,
+    "detail_levels": [
+      0,
+      1
+    ],
+    "visible_window_inserts_retained": 21,
+    "geometry_unchanged": true,
+    "all_material_pixels_unchanged": true,
+    "evidence": "${RELIANT_WORKSPACE}/work/uv_projection_v7/validation.json",
+    "coarse_lods_and_wreck": "Original decimation and deformation retained"
+  },
+  "opaque_glass_revision_8": {
+    "count": 64,
+    "source_mode": "built-in ImageGen plus registered material assembly",
+    "source": "${RELIANT_WORKSPACE}/work/opaque_glass_v8/opaque-glass-art-source.png",
+    "prompt": "${RELIANT_WORKSPACE}/work/opaque_glass_v8/imagegen-prompt.txt",
+    "frames_gaskets_and_uvs_preserved": true,
+    "room_imagery_removed": true,
+    "lighting_logic_unchanged": true,
+    "evidence": "${RELIANT_WORKSPACE}/work/opaque_glass_v8/validation.json"
+  },
+  "machinery_revision_9": {
+    "bays": [
+      17,
+      18,
+      19
+    ],
+    "component_count": 123,
+    "source_mode": "built-in ImageGen material swatch plus authored component profiles",
+    "source": "${RELIANT_WORKSPACE}/work/machinery_v9/worn-metal-source.png",
+    "prompt": "${RELIANT_WORKSPACE}/work/machinery_v9/imagegen-prompt.txt",
+    "frames_windows_uvs_preserved": true,
+    "old_interior_channels_removed": true,
+    "lighting_logic_unchanged": true,
+    "evidence": "${RELIANT_WORKSPACE}/work/machinery_v9/validation.json",
+    "depth_method": "tangent normals on unchanged geometry; no real pipe meshes"
+  }
+}

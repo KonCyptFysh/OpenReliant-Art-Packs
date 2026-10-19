@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "native_shared_turret_files": [
+    "13_al_STUR.SHP",
+    "Allied_Cap_Gun.SHP"
+  ],
+  "triangles_checked": 574,
+  "selected": 0
+}

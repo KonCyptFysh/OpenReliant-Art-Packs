@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "engine": "official OpenReliant 0.18.0",
+  "material_validation": "${RELIANT_WORKSPACE}/work/opaque_glass_v8/material-validation.json",
+  "window_count": 64,
+  "geometry_uv_and_scripts_unchanged": true,
+  "frames_and_gaskets_unchanged": true,
+  "originals_unchanged": true,
+  "packages": [
+    {
+      "tier": "4k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "sha256": "d222f35489e224ca647272c833f5429c006953119603801f01e57041e40a43c7",
+      "bytes": 90274337
+    },
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "sha256": "6f053ba300ed741615bc853a8e847794cedace615ae41a025fd8afdcdd9d74ed",
+      "bytes": 33717637
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "sha256": "c97667398605384cc0b6b8cb701a8c37934737f774e412760b60ff2287903e20",
+      "bytes": 12222936
+    }
+  ],
+  "installed_hashes_match": true,
+  "evidence": [
+    "v8-bridge-cell-light1",
+    "v8-bridge-distant-light1",
+    "v8-bridge-cell-light0",
+    "v8-bridge-cell-light0.25",
+    "v8-bridge-other-rotated-light1-2k",
+    "v8-bridge-distant-light1-1k"
+  ],
+  "user_visual_approval_pending": true
+}

@@ -1,0 +1,33 @@
+version:  107
+flags:    components=false cloak=false
+parts:    3
+vertices: 204
+faces:    328
+arcs:     0
+bounds:   (-1567,-9,-1304) to (1570,1776,1585), 3137 x 1786 x 2889
+
+[  0] allied cap base                    type  3  parent  -1  link 1  turret kind 1 slot 0 yaw [0,0] pitch [0,0]
+        lod 0:    16 vertices    26 faces   1 materials  beyond 30000
+        lod 1:    14 vertices    22 faces   1 materials  beyond 40000
+        lod 2:    12 vertices    18 faces   1 materials  beyond 120000
+        lod 3:     8 vertices    10 faces   1 materials  beyond 2000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[  1] barrels                            type  0  parent  +0  link 1
+        lod 0:    56 vertices   104 faces   1 materials  beyond 30000
+        lod 1:    31 vertices    54 faces   1 materials  beyond 40000
+        lod 2:    18 vertices    28 faces   1 materials  beyond 120000
+        lod 3:    11 vertices    14 faces   1 materials  beyond 2000000
+        7 nodes, 2 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'fire' length 400 mode 1, 3 keyframes, 1 events
+          gun muzzle 3 at (-632,62,1060)
+          gun muzzle 3 at (551,49,1060)
+[  2] destroyed                          type  0  parent  -1  link 1
+        lod 0:    13 vertices    20 faces   1 materials  beyond 30000
+        lod 1:    11 vertices    16 faces   1 materials  beyond 40000
+        lod 2:     7 vertices     8 faces   1 materials  beyond 120000
+        lod 3:     7 vertices     8 faces   1 materials  beyond 2000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+
+textures (2): ALL_TRT DAM_1

@@ -4,7 +4,7 @@ Independent **StarLancer artwork by KonCyptFysh**, packaged for compatibility wi
 
 **[Browse the art-pack gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/)** · **[Individual downloads](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases)** · **[Report an issue](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/issues/new/choose)**
 
-The gallery provides in-game screenshots and rotatable model previews where available. Open an asset to choose its livery; current ship artwork uses **Worn Paint**. Unreleased artwork is marked **Coming soon**. The progress bar tracks available assets and packs against the planned collection, counting each asset once. Published beta art can still have documented texture refinements outstanding. Kurgen and Prowler include reactive cabin and engine emissives; other ships will gain lighting in later artwork updates.
+The gallery provides in-game screenshots and rotatable model previews where available. Open an asset to choose its livery; current ship artwork uses **Worn Paint**. Unreleased artwork is marked **Coming soon**. The progress bar tracks available assets and packs against the planned collection, counting each asset once. Published beta art can still have documented texture refinements outstanding. Kurgen, Prowler and Reliant include reactive cabin and engine emissives; other ships will gain lighting in later artwork updates.
 
 ## Browse the collection
 
@@ -22,7 +22,7 @@ Filter each group by type, faction or availability. Named vessels with unconfirm
 
 ## Download only what you need
 
-Each released non-HUD asset offers **1K, 2K and 4K** choices, with individual ZIPs and checksums. Choose one resolution per asset and replace its old mod folder when switching. See [texture resolutions and emissive authoring](TEXTURE_RESOLUTIONS.md). Install the ZIP's `mods` folder beside `resource.hog` in your existing game-data directory. Keep each mod's files flat inside its own folder. Use the OpenReliant version listed for each pack and your own installed StarLancer copy. Most ship, ordnance and HUD downloads target OpenReliant 0.8.1; Kurgen and Prowler require 0.18.0 for its scripted lighting. See [INSTALL.md](INSTALL.md) and the [0.8.1 package update](COMPATIBILITY_0_8.md).
+Each released non-HUD asset offers **1K, 2K and 4K** choices, with individual ZIPs and checksums. Choose one resolution per asset and replace its old mod folder when switching. See [texture resolutions and emissive authoring](TEXTURE_RESOLUTIONS.md). Install the ZIP's `mods` folder beside `resource.hog` in your existing game-data directory. Keep each mod's files flat inside its own folder. Use the OpenReliant version listed for each pack and your own installed StarLancer copy. Most ship, ordnance and HUD downloads target OpenReliant 0.8.1; Kurgen, Prowler and Reliant require 0.18.0 for its scripted lighting. See [INSTALL.md](INSTALL.md) and the [0.8.1 package update](COMPATIBILITY_0_8.md).
 
 Use the named ZIP from a release, not GitHub's automatic source-code archive. The hierarchy here is for browsing and editing; it is not copied wholesale into the game.
 

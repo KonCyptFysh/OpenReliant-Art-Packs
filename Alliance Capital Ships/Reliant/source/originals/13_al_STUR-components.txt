@@ -1,0 +1,1 @@
+the model's header does not ask for components, so its objects list none

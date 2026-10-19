@@ -1,0 +1,462 @@
+{
+  "passed": true,
+  "engine": "Official OpenReliant 0.18.0",
+  "response_checks": 43,
+  "runtime_log": "${RELIANT_WORKSPACE}/work/reconstruction_v1/runtime.log",
+  "native_models": [
+    {
+      "file": "Reliant.SHP",
+      "sha256": "cfb21a3c52aeaad953cfd20b930590f520384b029db0773f46c0bcd9bf8b8dc4",
+      "output": "ok: 24 parts, 3280 vertices, 5007 faces\nbounds: 24 model_space\nrewritten byte for byte\n"
+    },
+    {
+      "file": "Reliant_destback.SHP",
+      "sha256": "54cbe8f5427d6485e1cf8cb4cd4232e176dd50bb58a5284c1b5e7044564539e5",
+      "output": "ok: 1 part, 208 vertices, 412 faces\nbounds: 1 model_space\nrewritten byte for byte\n"
+    },
+    {
+      "file": "mission959.dte",
+      "sha256": "990459a4f21e3248f1680185df3162fab7f99088c6ffcf10ceae5fca1eb579df",
+      "output": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds\n"
+    },
+    {
+      "file": "mission958.dte",
+      "sha256": "87cc2662c1bb0a99aaefebe8f8931fe49e6ba2f46742b544e8125ad34fc9922b",
+      "output": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds\n"
+    }
+  ],
+  "nozzle_mask_all_native_parts_and_lods": true,
+  "shared_turret_mask_checks": {
+    "passed": true,
+    "native_shared_turret_files": [
+      "13_al_STUR.SHP",
+      "Allied_Cap_Gun.SHP"
+    ],
+    "triangles_checked": 574,
+    "selected": 0
+  },
+  "runtime_test_clock": "Probe only: response and assertion clocks accelerated 10x; native doors/destruction use real engine; shipped scripts unmodified",
+  "tiers": [
+    {
+      "tier": "4k",
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "runtime": "${RELIANT_WORKSPACE}/exports/openreliant_0_18_v1/mods/119-reliant-worn-v1",
+      "package": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "bytes": 76923814,
+      "sha256": "cfda407509477ea2135164c6fff79b652f0f2bcd9af2d352c952673806c9b6f7",
+      "files": [
+        {
+          "file": "LICENSE-OpenReliant.txt",
+          "bytes": 16726,
+          "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+        },
+        {
+          "file": "Reliant.SHP",
+          "bytes": 576046,
+          "sha256": "cfb21a3c52aeaad953cfd20b930590f520384b029db0773f46c0bcd9bf8b8dc4"
+        },
+        {
+          "file": "Reliant_destback.SHP",
+          "bytes": 44842,
+          "sha256": "54cbe8f5427d6485e1cf8cb4cd4232e176dd50bb58a5284c1b5e7044564539e5"
+        },
+        {
+          "file": "license.txt",
+          "bytes": 248,
+          "sha256": "7456c5a7634094dfd8b72b1b77217638c55be77f6233c97d12204babc3c3f046"
+        },
+        {
+          "file": "mission958.dte",
+          "bytes": 850959,
+          "sha256": "87cc2662c1bb0a99aaefebe8f8931fe49e6ba2f46742b544e8125ad34fc9922b"
+        },
+        {
+          "file": "mission959.dte",
+          "bytes": 850959,
+          "sha256": "990459a4f21e3248f1680185df3162fab7f99088c6ffcf10ceae5fca1eb579df"
+        },
+        {
+          "file": "mod.ini",
+          "bytes": 460,
+          "sha256": "18f49c717e496f743ab850b21589049bbdf62380292815dc0e2d736310f62ca7"
+        },
+        {
+          "file": "mod.png",
+          "bytes": 1465884,
+          "sha256": "825fec448525e26ea0f228107a83cdef28306d0f31d27d75d069ca60ac60217c"
+        },
+        {
+          "file": "orr1_hull.png",
+          "bytes": 17284318,
+          "sha256": "08f7c00148afafa05dd1f5a649084f32ff1c718fb9f79f7aa2fde1f21dbf512c"
+        },
+        {
+          "file": "orr1_hull_emissive.png",
+          "bytes": 72699,
+          "sha256": "08da38b7203f76b80ce5dc83df44c12a9d6661294213ccb8e50e7b8ebac7a06a"
+        },
+        {
+          "file": "orr1_hull_normal.png",
+          "bytes": 334063,
+          "sha256": "136ccd96b627cbab08f410290681c3d23451950c60fd44742ddcbc00b4c195fa"
+        },
+        {
+          "file": "orr1_hull_orm.png",
+          "bytes": 8233458,
+          "sha256": "1bb00e5cf259b9204efaf5d18c2bc592f0ca9a1e5ab1a2293684175ec4aa7b8d"
+        },
+        {
+          "file": "orr2_hull.png",
+          "bytes": 15929665,
+          "sha256": "2d9bddd2037ed808e4e11a422e7392224a3ff308bcc337c7df5fe27e56eda143"
+        },
+        {
+          "file": "orr2_hull_emissive.png",
+          "bytes": 274673,
+          "sha256": "548e447c63e8ee9765c00d6f57f01745fa73316390d9cf98d3fdd79286061322"
+        },
+        {
+          "file": "orr2_hull_normal.png",
+          "bytes": 565674,
+          "sha256": "9157d60dc7e04be2476ea4c66730ceb0c840404b3afa2d4ecf85feb3d9948306"
+        },
+        {
+          "file": "orr2_hull_orm.png",
+          "bytes": 7157841,
+          "sha256": "fb9a9caa4f946b15e9221e27a7321112e66d12307872bce09466772e35b6339c"
+        },
+        {
+          "file": "orr3_hull.png",
+          "bytes": 17142809,
+          "sha256": "d8c29789c9129b3353e24c67920a832b7bb70d806cc24488d08f7705d1448608"
+        },
+        {
+          "file": "orr3_hull_emissive.png",
+          "bytes": 54889,
+          "sha256": "5535a3c3cfe3edcb278a7816bbb4c8f2759339e2ae99918d4c2eac27135a90b7"
+        },
+        {
+          "file": "orr3_hull_normal.png",
+          "bytes": 418702,
+          "sha256": "7de97d420a46cf282ba49dd5d826d3904a1763c8b43e03da2ac53dcd759d5cb7"
+        },
+        {
+          "file": "orr3_hull_orm.png",
+          "bytes": 7998176,
+          "sha256": "b694d4d18e42c9c93d094e34550212e87378822ad3b5a17706c135454430bd26"
+        },
+        {
+          "file": "reliant_inspection.luau",
+          "bytes": 2534,
+          "sha256": "cab0ad6477a8f3b219a58ae52da48e8ec523b72c5f3a19148505564265e53ead"
+        },
+        {
+          "file": "reliant_lighting.luau",
+          "bytes": 2960,
+          "sha256": "7fe1fa569d4cc91e6cc22ebe163617028f4c9ddb77f6b35048053e9004a4c38c"
+        },
+        {
+          "file": "reliant_response.luau",
+          "bytes": 5482,
+          "sha256": "a9dc4dec029c478fed6b91e9ab86e2512d5334e811ead6407bea6fbf6ad2f24e"
+        },
+        {
+          "file": "reliant_surface.luau",
+          "bytes": 2186,
+          "sha256": "4caa1d3069ccb5f0c527a5305036375063884520c68e9632dbfb2410aaf8aeb1"
+        },
+        {
+          "file": "reliant_systems.glsl",
+          "bytes": 7562,
+          "sha256": "ebf158c906c1ebf033cea2d40554f8e97a70c3b5e13ff3638f2796b8d3963ac2"
+        }
+      ]
+    },
+    {
+      "tier": "2k",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "runtime": "${RELIANT_WORKSPACE}/exports/review_v1_2k/mods/119-reliant-worn-v1",
+      "package": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "bytes": 29082941,
+      "sha256": "09858150c791d07507f1e4fde2e736e23f08e7e998e0e6101f273a6fa8e0b2c8",
+      "files": [
+        {
+          "file": "LICENSE-OpenReliant.txt",
+          "bytes": 16726,
+          "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+        },
+        {
+          "file": "Reliant.SHP",
+          "bytes": 576046,
+          "sha256": "cfb21a3c52aeaad953cfd20b930590f520384b029db0773f46c0bcd9bf8b8dc4"
+        },
+        {
+          "file": "Reliant_destback.SHP",
+          "bytes": 44842,
+          "sha256": "54cbe8f5427d6485e1cf8cb4cd4232e176dd50bb58a5284c1b5e7044564539e5"
+        },
+        {
+          "file": "license.txt",
+          "bytes": 248,
+          "sha256": "7456c5a7634094dfd8b72b1b77217638c55be77f6233c97d12204babc3c3f046"
+        },
+        {
+          "file": "mission958.dte",
+          "bytes": 850959,
+          "sha256": "87cc2662c1bb0a99aaefebe8f8931fe49e6ba2f46742b544e8125ad34fc9922b"
+        },
+        {
+          "file": "mission959.dte",
+          "bytes": 850959,
+          "sha256": "990459a4f21e3248f1680185df3162fab7f99088c6ffcf10ceae5fca1eb579df"
+        },
+        {
+          "file": "mod.ini",
+          "bytes": 460,
+          "sha256": "18f49c717e496f743ab850b21589049bbdf62380292815dc0e2d736310f62ca7"
+        },
+        {
+          "file": "mod.png",
+          "bytes": 1465884,
+          "sha256": "825fec448525e26ea0f228107a83cdef28306d0f31d27d75d069ca60ac60217c"
+        },
+        {
+          "file": "orr1_hull.png",
+          "bytes": 5856722,
+          "sha256": "3a5d233bfdfda6134212b587742931f6f9c0cdb613bc942ece27b94ec1d62c8c"
+        },
+        {
+          "file": "orr1_hull_emissive.png",
+          "bytes": 22763,
+          "sha256": "afc8a429a8a158f1fc4f5ed4ad268a5dde0d4140f5008e29ae43b786d6753ff1"
+        },
+        {
+          "file": "orr1_hull_normal.png",
+          "bytes": 112835,
+          "sha256": "7a3e7a8e13398f233d4580e17d9101d68727442689268259c367910d617542fe"
+        },
+        {
+          "file": "orr1_hull_orm.png",
+          "bytes": 3368834,
+          "sha256": "cefa62410a803ad5e8dd3c4c7fb837974ea01716666c176bc96cb2b8266eae4d"
+        },
+        {
+          "file": "orr2_hull.png",
+          "bytes": 5478907,
+          "sha256": "da4ed961ab9d60f3eb7d3cc650b7c2818c0e90727b402fbf50cc41b73f4b9709"
+        },
+        {
+          "file": "orr2_hull_emissive.png",
+          "bytes": 101513,
+          "sha256": "350ab8ec9ace6c3de62e53684a9c61d6ada6e736678036a8379b9458132e7a4f"
+        },
+        {
+          "file": "orr2_hull_normal.png",
+          "bytes": 193812,
+          "sha256": "37aa3d6213bd1d70c09a4188cd36fd3f9edadbe0878deddb095e5be014e7c40c"
+        },
+        {
+          "file": "orr2_hull_orm.png",
+          "bytes": 3009884,
+          "sha256": "1fbc947f5cc215ca8baa37a719adf8d4dae3905a7fdb880d9729f6b9286795d2"
+        },
+        {
+          "file": "orr3_hull.png",
+          "bytes": 5850461,
+          "sha256": "9b3086b8e7796f7cb423a6e1efa44c39f813f83785bf3b2528d13f2afc2e8940"
+        },
+        {
+          "file": "orr3_hull_emissive.png",
+          "bytes": 14975,
+          "sha256": "2cf70eb2d940d603dc707c0528c7fc8a45871c2edcf0a9e8bf2f44db6712b243"
+        },
+        {
+          "file": "orr3_hull_normal.png",
+          "bytes": 139882,
+          "sha256": "c96d1f4e88c7302b5fa0e1c5e09e89dc4761e9ec6cee5a745627d412cf68344a"
+        },
+        {
+          "file": "orr3_hull_orm.png",
+          "bytes": 3248525,
+          "sha256": "4e3cb8e67f9bdf77d08b14e2fb591a61c2bff42fb1d40673341aa5ea66836769"
+        },
+        {
+          "file": "reliant_inspection.luau",
+          "bytes": 2534,
+          "sha256": "cab0ad6477a8f3b219a58ae52da48e8ec523b72c5f3a19148505564265e53ead"
+        },
+        {
+          "file": "reliant_lighting.luau",
+          "bytes": 2960,
+          "sha256": "7fe1fa569d4cc91e6cc22ebe163617028f4c9ddb77f6b35048053e9004a4c38c"
+        },
+        {
+          "file": "reliant_response.luau",
+          "bytes": 5482,
+          "sha256": "a9dc4dec029c478fed6b91e9ab86e2512d5334e811ead6407bea6fbf6ad2f24e"
+        },
+        {
+          "file": "reliant_surface.luau",
+          "bytes": 2186,
+          "sha256": "4caa1d3069ccb5f0c527a5305036375063884520c68e9632dbfb2410aaf8aeb1"
+        },
+        {
+          "file": "reliant_systems.glsl",
+          "bytes": 7562,
+          "sha256": "ebf158c906c1ebf033cea2d40554f8e97a70c3b5e13ff3638f2796b8d3963ac2"
+        }
+      ]
+    },
+    {
+      "tier": "1k",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "runtime": "${RELIANT_WORKSPACE}/exports/review_v1_1k/mods/119-reliant-worn-v1",
+      "package": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "bytes": 10277967,
+      "sha256": "a05280f643e5c79045d574b627bb6f8043b10829b234604f699cfe39b3912dcf",
+      "files": [
+        {
+          "file": "LICENSE-OpenReliant.txt",
+          "bytes": 16726,
+          "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+        },
+        {
+          "file": "Reliant.SHP",
+          "bytes": 576046,
+          "sha256": "cfb21a3c52aeaad953cfd20b930590f520384b029db0773f46c0bcd9bf8b8dc4"
+        },
+        {
+          "file": "Reliant_destback.SHP",
+          "bytes": 44842,
+          "sha256": "54cbe8f5427d6485e1cf8cb4cd4232e176dd50bb58a5284c1b5e7044564539e5"
+        },
+        {
+          "file": "license.txt",
+          "bytes": 248,
+          "sha256": "7456c5a7634094dfd8b72b1b77217638c55be77f6233c97d12204babc3c3f046"
+        },
+        {
+          "file": "mission958.dte",
+          "bytes": 850959,
+          "sha256": "87cc2662c1bb0a99aaefebe8f8931fe49e6ba2f46742b544e8125ad34fc9922b"
+        },
+        {
+          "file": "mission959.dte",
+          "bytes": 850959,
+          "sha256": "990459a4f21e3248f1680185df3162fab7f99088c6ffcf10ceae5fca1eb579df"
+        },
+        {
+          "file": "mod.ini",
+          "bytes": 460,
+          "sha256": "18f49c717e496f743ab850b21589049bbdf62380292815dc0e2d736310f62ca7"
+        },
+        {
+          "file": "mod.png",
+          "bytes": 1465884,
+          "sha256": "825fec448525e26ea0f228107a83cdef28306d0f31d27d75d069ca60ac60217c"
+        },
+        {
+          "file": "orr1_hull.png",
+          "bytes": 1802403,
+          "sha256": "1667299047bfd652225b40504bb2c53c6ef45bfc1b9c8bb776f8f747a743d388"
+        },
+        {
+          "file": "orr1_hull_emissive.png",
+          "bytes": 7785,
+          "sha256": "21fbb43aec080c92d18a04eca7e1deeb8098d5a93db6b8418e4ef63a7208177b"
+        },
+        {
+          "file": "orr1_hull_normal.png",
+          "bytes": 39135,
+          "sha256": "654d6422c6436554a4b238026a2049b4d7cf98b6ce9359f7c6aa1d2dab750109"
+        },
+        {
+          "file": "orr1_hull_orm.png",
+          "bytes": 1051547,
+          "sha256": "a51386ce713d585aed0028dd154af41d6676b4a8297a2f2011d7dd066685c325"
+        },
+        {
+          "file": "orr2_hull.png",
+          "bytes": 1700983,
+          "sha256": "7cec3609c4df131925b4f07959b061a06259a5f9f888ecb0123287fd7015eff8"
+        },
+        {
+          "file": "orr2_hull_emissive.png",
+          "bytes": 38846,
+          "sha256": "ae9cce92e57329be1037c728a42638b0a547e6fef5f00db6957b2d126f6c0c0d"
+        },
+        {
+          "file": "orr2_hull_normal.png",
+          "bytes": 69029,
+          "sha256": "ef53ecd670aec6088515392c477933834dec0ba6d6b5713f707e2f24f53d1fc2"
+        },
+        {
+          "file": "orr2_hull_orm.png",
+          "bytes": 966030,
+          "sha256": "56e6e4e4c64a3630f11c21bf6ab41f17e425eb8671b1f8b0d59863c3c0334651"
+        },
+        {
+          "file": "orr3_hull.png",
+          "bytes": 1811925,
+          "sha256": "4e81c1729ac3ca265e27370fc117b45b9bc0cf31a587d023dfdd3207a1794a42"
+        },
+        {
+          "file": "orr3_hull_emissive.png",
+          "bytes": 4461,
+          "sha256": "5eac3794b08616e0853319811cd92fc57602218925379728f0a52a1b4f5dcf4f"
+        },
+        {
+          "file": "orr3_hull_normal.png",
+          "bytes": 48167,
+          "sha256": "e3f0fcefb5ae722d5bc45bbb05b379a8b2b6d78b7a16b4015301b0c45377d927"
+        },
+        {
+          "file": "orr3_hull_orm.png",
+          "bytes": 1005678,
+          "sha256": "0b98504d4ac3304743fce48f3bf2b78037a5aa2875aa26f6663a760e4dc78e01"
+        },
+        {
+          "file": "reliant_inspection.luau",
+          "bytes": 2534,
+          "sha256": "cab0ad6477a8f3b219a58ae52da48e8ec523b72c5f3a19148505564265e53ead"
+        },
+        {
+          "file": "reliant_lighting.luau",
+          "bytes": 2960,
+          "sha256": "7fe1fa569d4cc91e6cc22ebe163617028f4c9ddb77f6b35048053e9004a4c38c"
+        },
+        {
+          "file": "reliant_response.luau",
+          "bytes": 5482,
+          "sha256": "a9dc4dec029c478fed6b91e9ab86e2512d5334e811ead6407bea6fbf6ad2f24e"
+        },
+        {
+          "file": "reliant_surface.luau",
+          "bytes": 2186,
+          "sha256": "4caa1d3069ccb5f0c527a5305036375063884520c68e9632dbfb2410aaf8aeb1"
+        },
+        {
+          "file": "reliant_systems.glsl",
+          "bytes": 7562,
+          "sha256": "ebf158c906c1ebf033cea2d40554f8e97a70c3b5e13ff3638f2796b8d3963ac2"
+        }
+      ]
+    }
+  ],
+  "installed": {
+    "path": "${OPENRELIANT_HOME}/game-data/mods/119-reliant-worn-v1",
+    "exact_export_hashes": true
+  },
+  "source_originals_preserved": true,
+  "visual_approval": "pending",
+  "published": false
+}

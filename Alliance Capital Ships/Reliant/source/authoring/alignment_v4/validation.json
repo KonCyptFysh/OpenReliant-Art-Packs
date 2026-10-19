@@ -1,0 +1,390 @@
+{
+  "passed": true,
+  "engine": "official OpenReliant 0.18.0",
+  "source_originals_unchanged": true,
+  "base_emission_roughness_metallic_scripts_unchanged": true,
+  "native_files_byte_identical_to_v3": true,
+  "other_atlases_byte_identical": true,
+  "pane_containment": {
+    "passed": true,
+    "checked": [
+      {
+        "window": 3,
+        "pocket": 0
+      },
+      {
+        "window": 4,
+        "pocket": 12
+      },
+      {
+        "window": 5,
+        "pocket": 12
+      },
+      {
+        "window": 6,
+        "pocket": 13
+      },
+      {
+        "window": 7,
+        "pocket": 13
+      },
+      {
+        "window": 8,
+        "pocket": 14
+      },
+      {
+        "window": 9,
+        "pocket": 1
+      },
+      {
+        "window": 10,
+        "pocket": 1
+      },
+      {
+        "window": 11,
+        "pocket": 14
+      },
+      {
+        "window": 12,
+        "pocket": 12
+      },
+      {
+        "window": 13,
+        "pocket": 12
+      },
+      {
+        "window": 14,
+        "pocket": 13
+      },
+      {
+        "window": 15,
+        "pocket": 13
+      },
+      {
+        "window": 16,
+        "pocket": 1
+      },
+      {
+        "window": 17,
+        "pocket": 1
+      },
+      {
+        "window": 18,
+        "pocket": 8
+      },
+      {
+        "window": 19,
+        "pocket": 10
+      },
+      {
+        "window": 20,
+        "pocket": 8
+      },
+      {
+        "window": 21,
+        "pocket": 10
+      },
+      {
+        "window": 22,
+        "pocket": 10
+      },
+      {
+        "window": 23,
+        "pocket": 8
+      },
+      {
+        "window": 24,
+        "pocket": 15
+      },
+      {
+        "window": 25,
+        "pocket": 15
+      },
+      {
+        "window": 26,
+        "pocket": 16
+      },
+      {
+        "window": 27,
+        "pocket": 16
+      },
+      {
+        "window": 28,
+        "pocket": 16
+      },
+      {
+        "window": 29,
+        "pocket": 15
+      },
+      {
+        "window": 30,
+        "pocket": 16
+      },
+      {
+        "window": 31,
+        "pocket": 1
+      },
+      {
+        "window": 32,
+        "pocket": 8
+      },
+      {
+        "window": 33,
+        "pocket": 10
+      },
+      {
+        "window": 34,
+        "pocket": 16
+      },
+      {
+        "window": 35,
+        "pocket": 15
+      },
+      {
+        "window": 36,
+        "pocket": 15
+      },
+      {
+        "window": 37,
+        "pocket": 16
+      },
+      {
+        "window": 38,
+        "pocket": 11
+      },
+      {
+        "window": 39,
+        "pocket": 9
+      },
+      {
+        "window": 40,
+        "pocket": 11
+      },
+      {
+        "window": 41,
+        "pocket": 2
+      },
+      {
+        "window": 42,
+        "pocket": 2
+      },
+      {
+        "window": 43,
+        "pocket": 2
+      },
+      {
+        "window": 44,
+        "pocket": 2
+      },
+      {
+        "window": 45,
+        "pocket": 2
+      },
+      {
+        "window": 46,
+        "pocket": 2
+      },
+      {
+        "window": 47,
+        "pocket": 3
+      },
+      {
+        "window": 48,
+        "pocket": 3
+      },
+      {
+        "window": 49,
+        "pocket": 4
+      },
+      {
+        "window": 50,
+        "pocket": 5
+      },
+      {
+        "window": 51,
+        "pocket": 5
+      },
+      {
+        "window": 52,
+        "pocket": 5
+      },
+      {
+        "window": 53,
+        "pocket": 5
+      },
+      {
+        "window": 54,
+        "pocket": 6
+      },
+      {
+        "window": 55,
+        "pocket": 6
+      },
+      {
+        "window": 56,
+        "pocket": 6
+      },
+      {
+        "window": 57,
+        "pocket": 6
+      },
+      {
+        "window": 58,
+        "pocket": 6
+      },
+      {
+        "window": 59,
+        "pocket": 6
+      },
+      {
+        "window": 60,
+        "pocket": 6
+      },
+      {
+        "window": 61,
+        "pocket": 6
+      },
+      {
+        "window": 62,
+        "pocket": 7
+      },
+      {
+        "window": 63,
+        "pocket": 7
+      }
+    ]
+  },
+  "native_checks": [
+    {
+      "file": "Reliant.SHP",
+      "result": "ok: 24 parts, 3280 vertices, 5007 faces\nbounds: 24 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "Reliant_destback.SHP",
+      "result": "ok: 1 part, 208 vertices, 412 faces\nbounds: 1 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "mission959.dte",
+      "result": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds"
+    },
+    {
+      "file": "mission958.dte",
+      "result": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds"
+    },
+    {
+      "file": "Allied_Cap_Gun.SHP",
+      "result": "ok: 3 parts, 204 vertices, 328 faces\nbounds: 3 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "13_al_STUR.SHP",
+      "result": "ok: 4 parts, 177 vertices, 246 faces\nbounds: 4 model_space\nrewritten byte for byte"
+    }
+  ],
+  "normal_checks": [
+    {
+      "tier": "4k",
+      "file": "orr1_hull_normal.png",
+      "max_unit_error": 0.006650269031524658
+    },
+    {
+      "tier": "4k",
+      "file": "orr2_hull_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "4k",
+      "file": "orr3_hull_normal.png",
+      "max_unit_error": 0.006278872489929199
+    },
+    {
+      "tier": "4k",
+      "file": "orr_cgun_normal.png",
+      "max_unit_error": 0.006093084812164307
+    },
+    {
+      "tier": "4k",
+      "file": "orr_sgun_normal.png",
+      "max_unit_error": 0.0063925981521606445
+    },
+    {
+      "tier": "2k",
+      "file": "orr1_hull_normal.png",
+      "max_unit_error": 0.0064536333084106445
+    },
+    {
+      "tier": "2k",
+      "file": "orr2_hull_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "2k",
+      "file": "orr3_hull_normal.png",
+      "max_unit_error": 0.005969345569610596
+    },
+    {
+      "tier": "2k",
+      "file": "orr_cgun_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "2k",
+      "file": "orr_sgun_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "1k",
+      "file": "orr1_hull_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "1k",
+      "file": "orr2_hull_normal.png",
+      "max_unit_error": 0.006031215190887451
+    },
+    {
+      "tier": "1k",
+      "file": "orr3_hull_normal.png",
+      "max_unit_error": 0.006093084812164307
+    },
+    {
+      "tier": "1k",
+      "file": "orr_cgun_normal.png",
+      "max_unit_error": 0.006031215190887451
+    },
+    {
+      "tier": "1k",
+      "file": "orr_sgun_normal.png",
+      "max_unit_error": 0.006209135055541992
+    }
+  ],
+  "installed_hashes_match": true,
+  "packages": [
+    {
+      "tier": "4k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "sha256": "7cdad9f970a9310a68516ed105faa97d3d2112e0ce9190f1a416e2d5830d19a8",
+      "bytes": 89546635
+    },
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "sha256": "3d1aa4b91d01b7273f7d0ed39e4741404235488c6722bb619f2e392dc4b18178",
+      "bytes": 33556008
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "sha256": "3c3adde6c4b0bdffcdc95e7157eb0dbf39f51cccd23ac5d6a760266881451920",
+      "bytes": 12185127
+    }
+  ],
+  "evidence": [
+    "v4-bridge-cell-rotated",
+    "v4-bridge-other-rotated",
+    "v4-forward-windows",
+    "v4-small-windows-rotated",
+    "v4-machinery",
+    "v4-machinery-left"
+  ],
+  "user_visual_approval_pending": true
+}

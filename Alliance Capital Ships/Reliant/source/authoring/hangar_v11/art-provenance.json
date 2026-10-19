@@ -1,0 +1,40 @@
+{
+  "tool": "built-in image_gen",
+  "request": "Upgrade separate launch hangar, restore visible warning flashes and correct distorted landing interior",
+  "sources": [
+    {
+      "file": "relint_1_source.png",
+      "sha256": "c21fd92e76bbb6b933b6259526cf01487093cbbbac619dc4e8898b22d42d96a5",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "file": "relint_2_source.png",
+      "sha256": "415a29e75d1581ee9b8d5b1ef36a571023ec43750411fb65bc1762858122cecd",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "file": "relint_3_source.png",
+      "sha256": "415188fc0c6e778b623552dd2cbb4d085f7ce68b167514c2c0c5ed9293b06067",
+      "size": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "file": "tube_source.png",
+      "sha256": "7a6c61c9b9857ead7e412fd16ad8d38593c53dcefc2beded659aaeaf9f3688e4",
+      "size": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "constraints": "Exact existing launch atlas layouts; worn neutral military steel; sharp structural detail; dedicated modular shaft lining; no unrelated exterior edits",
+  "secondary_maps": "Shared registered pixels; colour-derived recess relief and ORM, not independently generated normals"
+}

@@ -1,0 +1,1362 @@
+{
+  "status": "approved-release-snapshot",
+  "ship": "Reliant",
+  "asset_revision": "11.0",
+  "files": [
+    {
+      "path": "source/README.md",
+      "bytes": 794,
+      "sha256": "45bcd78021372d311d3e24981812af2dd9778e91d20830aa666da02bb877e20e"
+    },
+    {
+      "path": "source/authoring/alignment_v3/audit_geometry.py",
+      "bytes": 980,
+      "sha256": "77151e5be9777a9b838b6d86e7f9045bc7988d4ba40a9aba97dabb34b7692316"
+    },
+    {
+      "path": "source/authoring/alignment_v3/audit_native.py",
+      "bytes": 1733,
+      "sha256": "dae6b613708ccc30b54fce76a89c5b0e07e0e15c193acce50db45e06dde769e0"
+    },
+    {
+      "path": "source/authoring/alignment_v3/build_relief.py",
+      "bytes": 16548,
+      "sha256": "56bde799965a45e55a4afb91df12738fc81a1c238775cb8ec42c055972cf9165"
+    },
+    {
+      "path": "source/authoring/alignment_v3/cross-part-seams.json",
+      "bytes": 9662,
+      "sha256": "a46f7a9baa73c1fd6a25e7ee279b928acf54921d6d3a64d7735a0e3d4be7f01c"
+    },
+    {
+      "path": "source/authoring/alignment_v3/degenerate-uv.json",
+      "bytes": 3230,
+      "sha256": "eac0007c53e651f2e3141a9ff3176a865e04b9ef0c1e70ba6514e0b6eaf99661"
+    },
+    {
+      "path": "source/authoring/alignment_v3/finish_review.py",
+      "bytes": 6202,
+      "sha256": "dea5eec1090475f061c44a8fd768870d1be75e0302c6f4d2e9e82049042b8da5"
+    },
+    {
+      "path": "source/authoring/alignment_v3/geometry-1.json",
+      "bytes": 9122,
+      "sha256": "bf0420604d30f3261768bd729385eb521adc5511b2aca43a3d57a7d6eeb8147d"
+    },
+    {
+      "path": "source/authoring/alignment_v3/geometry-2.json",
+      "bytes": 17206,
+      "sha256": "e29371443eb8ae851deecdb202c6d1e7441579ca5ae3d519078663f5f1c870ee"
+    },
+    {
+      "path": "source/authoring/alignment_v3/geometry-3.json",
+      "bytes": 13453,
+      "sha256": "b67a3a9bfa15c0b0e7803a752ab81d097d66df6bcf736dd3e332729b9a19af3c"
+    },
+    {
+      "path": "source/authoring/alignment_v3/geometry-orr_cgun.json",
+      "bytes": 5450,
+      "sha256": "68fae68be3bb3b63e48db69f5233465931729dbd94024b846fbc9be609b8195b"
+    },
+    {
+      "path": "source/authoring/alignment_v3/geometry.json",
+      "bytes": 634677,
+      "sha256": "2c402b8e7958afb923663e40112c10718ab4b6f74f74d3e0163157a26f104979"
+    },
+    {
+      "path": "source/authoring/alignment_v3/native_repairs.json",
+      "bytes": 32571,
+      "sha256": "d49fc68afe81cb30e2506ec73dadfe216064d8e4b84342ceb422b4282ac92e41"
+    },
+    {
+      "path": "source/authoring/alignment_v3/repair_uv.py",
+      "bytes": 3760,
+      "sha256": "6e40c9288020e0090eb337dc1330f2738fbaf443739df79ef0d82b3839ac4290"
+    },
+    {
+      "path": "source/authoring/alignment_v3/update_scene.py",
+      "bytes": 1983,
+      "sha256": "bb6c563b91ef2400d0af6e2797f571b4b8d2cadb55964e4b389ed78fc44e6b29"
+    },
+    {
+      "path": "source/authoring/alignment_v3/validation.json",
+      "bytes": 6772,
+      "sha256": "daf963b63267eddf86d2065da68b810c3cc5e125deaa54f92ff4ae7ddaccb533"
+    },
+    {
+      "path": "source/authoring/alignment_v4/build_relief.py",
+      "bytes": 8648,
+      "sha256": "70223a4c89aba3726f4a35bc9486e2b03cd36aee2024b7a8badf6d65db42562b"
+    },
+    {
+      "path": "source/authoring/alignment_v4/camera-views.json",
+      "bytes": 900,
+      "sha256": "de6e7d1e24e6c788b837bd9b381a23c58d9bdfdb725675d5da156448e0adf5df"
+    },
+    {
+      "path": "source/authoring/alignment_v4/capture_check.py",
+      "bytes": 2228,
+      "sha256": "91e3cfab98d7ecdc81d73f81633a172b046f7690ed83eeb3dd3d30cdd0e23621"
+    },
+    {
+      "path": "source/authoring/alignment_v4/finish_review.py",
+      "bytes": 5634,
+      "sha256": "043af9adc6d2bba6d75bdf2df8f3ffb8d34f918b37cad1a726e0e20ed2b15b77"
+    },
+    {
+      "path": "source/authoring/alignment_v4/geometry-2.json",
+      "bytes": 21747,
+      "sha256": "adb6007c9ad565a0027decba592e7124b743cbe27b267f19070b2538d61beb6c"
+    },
+    {
+      "path": "source/authoring/alignment_v4/measured-geometry.json",
+      "bytes": 54512,
+      "sha256": "876e15c2ee2225d8970fa9bccdc941871dfae005fbddd3a52b54e02dd0923d12"
+    },
+    {
+      "path": "source/authoring/alignment_v4/pane-containment.json",
+      "bytes": 3170,
+      "sha256": "808ec3c4d4c57c205457919d0940fe1c4e9006610057c419240a9a68b31dba01"
+    },
+    {
+      "path": "source/authoring/alignment_v4/update_scene.py",
+      "bytes": 820,
+      "sha256": "8a2001c8a31d7f6b70cde346aefac6a08a7d7edec22319680733c407f4b1742a"
+    },
+    {
+      "path": "source/authoring/alignment_v4/validation.json",
+      "bytes": 8209,
+      "sha256": "ba21998903e74bbb9470615ff90767f1a021b7dab8f4f33db07e7456eff77bad"
+    },
+    {
+      "path": "source/authoring/camera_v2/before/LICENSE-OpenReliant.txt",
+      "bytes": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "path": "source/authoring/camera_v2/before/license.txt",
+      "bytes": 248,
+      "sha256": "7456c5a7634094dfd8b72b1b77217638c55be77f6233c97d12204babc3c3f046"
+    },
+    {
+      "path": "source/authoring/camera_v2/before/project_state.json",
+      "bytes": 2545,
+      "sha256": "7e29332b92f877abe2bc4f92c892ae6dcbf52c695001e7ad51838c4c0ed03779"
+    },
+    {
+      "path": "source/authoring/camera_v2/before/reliant_inspection.luau",
+      "bytes": 2534,
+      "sha256": "cab0ad6477a8f3b219a58ae52da48e8ec523b72c5f3a19148505564265e53ead"
+    },
+    {
+      "path": "source/authoring/camera_v2/before/reliant_lighting.luau",
+      "bytes": 2960,
+      "sha256": "7fe1fa569d4cc91e6cc22ebe163617028f4c9ddb77f6b35048053e9004a4c38c"
+    },
+    {
+      "path": "source/authoring/camera_v2/before/reliant_response.luau",
+      "bytes": 5482,
+      "sha256": "a9dc4dec029c478fed6b91e9ab86e2512d5334e811ead6407bea6fbf6ad2f24e"
+    },
+    {
+      "path": "source/authoring/camera_v2/before/reliant_surface.luau",
+      "bytes": 2186,
+      "sha256": "4caa1d3069ccb5f0c527a5305036375063884520c68e9632dbfb2410aaf8aeb1"
+    },
+    {
+      "path": "source/authoring/camera_v2/before/reliant_systems.glsl",
+      "bytes": 7562,
+      "sha256": "ebf158c906c1ebf033cea2d40554f8e97a70c3b5e13ff3638f2796b8d3963ac2"
+    },
+    {
+      "path": "source/authoring/camera_v2/before-hashes.json",
+      "bytes": 3940,
+      "sha256": "ccf91c53118262ff7f63859b018215d05ee1345063a6b9b4b4ff9b69da26eba5"
+    },
+    {
+      "path": "source/authoring/camera_v2/finish_camera.py",
+      "bytes": 4023,
+      "sha256": "1489a950d994bf28052b85e3b9a6bc9f5d6835c6bc5bf65e12370f350d5479e0"
+    },
+    {
+      "path": "source/authoring/camera_v2/reliant_camera_motion.luau",
+      "bytes": 1047,
+      "sha256": "4c26c41a03322f0dd994013f4d28e0f0356dfa5e09e2ff9f64734848c2cbd7d4"
+    },
+    {
+      "path": "source/authoring/camera_v2/reliant_camera_probe.luau",
+      "bytes": 1852,
+      "sha256": "3a60e9db20b9099a27a4aab91c163b1fdd548ed495df0ea9f709f5fa2fe00aa4"
+    },
+    {
+      "path": "source/authoring/camera_v2/test_camera_motion.luau",
+      "bytes": 1429,
+      "sha256": "f50cebcc45c6d94b973f7d4a70deced29ca92657f3a47d5815759e5b9ef73f0e"
+    },
+    {
+      "path": "source/authoring/camera_v2/validation.json",
+      "bytes": 1067,
+      "sha256": "cf6712b3e0c8d6e36df23208075e571fceeb86656db58383077032aa26685858"
+    },
+    {
+      "path": "source/authoring/flight_review_v1/before/asset-sha256.json",
+      "bytes": 3192,
+      "sha256": "aa07dd06a77ba2ca44ba0b62230760290c62e60db06fe9209307d2c1d2d503b3"
+    },
+    {
+      "path": "source/authoring/flight_review_v1/before/project_state.json",
+      "bytes": 6850,
+      "sha256": "fa10e458ff543d356c001654aa9f1e1c56d14ba723280b327a7faaa58ee73ba5"
+    },
+    {
+      "path": "source/authoring/flight_review_v1/finish_review.py",
+      "bytes": 4177,
+      "sha256": "f3688caaf9546a614e5a8c64cab446f28fc7cc74884207c57835d00c8a4899c5"
+    },
+    {
+      "path": "source/authoring/flight_review_v1/mission957.luau",
+      "bytes": 1990,
+      "sha256": "c00b1f1222c6669fa7727e4763d117e974e2a058009b262dc7a14fcf13c64fbe"
+    },
+    {
+      "path": "source/authoring/flight_review_v1/probe/probe.luau",
+      "bytes": 2269,
+      "sha256": "9c5ef6e627389e0554cb166c584738ee4b53529ea587fa88d5bd97329bb18ff2"
+    },
+    {
+      "path": "source/authoring/flight_review_v1/probe/probe_hud.luau",
+      "bytes": 395,
+      "sha256": "6f5c886d74554e8c9caa0c8fa38d3439fe76431397303aaa328a45b2b5caa881"
+    },
+    {
+      "path": "source/authoring/flight_review_v1/probe/reliant_flight_review.luau",
+      "bytes": 1244,
+      "sha256": "bc7baf51e1db74aa7412fb0ef96edcc051522cbe2f6acbadf6587597c009dbf2"
+    },
+    {
+      "path": "source/authoring/flight_review_v1/reliant_flight_review.luau",
+      "bytes": 1244,
+      "sha256": "bc7baf51e1db74aa7412fb0ef96edcc051522cbe2f6acbadf6587597c009dbf2"
+    },
+    {
+      "path": "source/authoring/flight_review_v1/validation.json",
+      "bytes": 2356,
+      "sha256": "0e00809e050744e0c8f31bd8aa001c4a49e378f2cfd9b774d1f190643c5eec4e"
+    },
+    {
+      "path": "source/authoring/flight_review_v1/x11_probe.py",
+      "bytes": 2157,
+      "sha256": "08136ebf0c53e574a3a8773123ebbd20131883171e88f8e9207e951cd85e8e63"
+    },
+    {
+      "path": "source/authoring/frame_relief_v6/capture_check.py",
+      "bytes": 2714,
+      "sha256": "fc324606aa4221aa3b4e5e14cc3726f0e06477217d18c11416cbd62e3b4350c7"
+    },
+    {
+      "path": "source/authoring/frame_relief_v6/check_scene.py",
+      "bytes": 1300,
+      "sha256": "3cf6c779acc8aebca3aa19718652b7793098c9d03271b17210b5023ab2f55e2a"
+    },
+    {
+      "path": "source/authoring/frame_relief_v6/finish_review.py",
+      "bytes": 5281,
+      "sha256": "6f3bad1dadba718c28fbfcca951d41a6927a71d4459b5b08a159f3e56e42a54b"
+    },
+    {
+      "path": "source/authoring/frame_relief_v6/measured-bevels.json",
+      "bytes": 37838,
+      "sha256": "1d5571a2265e3e5332bc7d688ec58c7ef18fd08a5b27bde6a6e6af5ff8ccecdd"
+    },
+    {
+      "path": "source/authoring/frame_relief_v6/prepare_exports.py",
+      "bytes": 2927,
+      "sha256": "8cb77fec83b4c1238bc213f7e041cbbac6b0ac882a7ccf875c13efe133ef2eaf"
+    },
+    {
+      "path": "source/authoring/frame_relief_v6/repair_frame_relief.py",
+      "bytes": 7160,
+      "sha256": "6e9756fda852fedf2ab75c2ee8d385b0a48baefcbdf2b50b15e8a45708366130"
+    },
+    {
+      "path": "source/authoring/frame_relief_v6/scene-validation.json",
+      "bytes": 231,
+      "sha256": "d62885c410288e553ab385109646aa28f55ef03b2b722d3ed566f4b0ff5f3732"
+    },
+    {
+      "path": "source/authoring/frame_relief_v6/update_scene.py",
+      "bytes": 843,
+      "sha256": "f791a887926d7c4aed50d612facf3b75527fda90709d9f3a142c0206742cdf7f"
+    },
+    {
+      "path": "source/authoring/frame_relief_v6/validation.json",
+      "bytes": 1930,
+      "sha256": "752679f30bc14cbe6fa40ee83a593ed2c8028062f0bcd54d194e0b43d22f0450"
+    },
+    {
+      "path": "source/authoring/hangar_v11/art-provenance.json",
+      "bytes": 1203,
+      "sha256": "e08b68fa8466317c31ab2f1f26edaee190ddcf715931a5dddb104cfc098ddab1"
+    },
+    {
+      "path": "source/authoring/hangar_v11/build-report.json",
+      "bytes": 289796,
+      "sha256": "d0929bdab7b91aa7ab56265cda6b17fccf1e830c2215fe2de6c538246b2b3013"
+    },
+    {
+      "path": "source/authoring/hangar_v11/build_interiors.py",
+      "bytes": 10574,
+      "sha256": "3d7516c08751a8fbc4f3a40f8e477428ca19b212ab8d63403a8bbeb9fa4dbc58"
+    },
+    {
+      "path": "source/authoring/hangar_v11/drive_validation.py",
+      "bytes": 1951,
+      "sha256": "dd425318b488eabdf023327679d472126a4c3922381b29dd344c27da1c910461"
+    },
+    {
+      "path": "source/authoring/hangar_v11/finish_review.py",
+      "bytes": 7813,
+      "sha256": "f65ade8306849c014da73832189581829b3dd5c93ac26b3d1ddd8b1a28bd84c2"
+    },
+    {
+      "path": "source/authoring/hangar_v11/material-validation.json",
+      "bytes": 1450,
+      "sha256": "688874c6bb389bb18b31c887ef288270807dc7cf7d919fd146c025fdfb516c59"
+    },
+    {
+      "path": "source/authoring/hangar_v11/native-validation.json",
+      "bytes": 959,
+      "sha256": "934d22b716ec93773b469907337fb896aabef54ef06df16d54df6524bfcc96f8"
+    },
+    {
+      "path": "source/authoring/hangar_v11/prepare_exports.py",
+      "bytes": 4014,
+      "sha256": "18a2f21c95632442de2605ab2991811472b6c9e35a9bee482696f06907b0afdc"
+    },
+    {
+      "path": "source/authoring/hangar_v11/relint_1_source.png",
+      "bytes": 3569331,
+      "sha256": "c21fd92e76bbb6b933b6259526cf01487093cbbbac619dc4e8898b22d42d96a5"
+    },
+    {
+      "path": "source/authoring/hangar_v11/relint_2_source.png",
+      "bytes": 3149694,
+      "sha256": "415a29e75d1581ee9b8d5b1ef36a571023ec43750411fb65bc1762858122cecd"
+    },
+    {
+      "path": "source/authoring/hangar_v11/relint_3_source.png",
+      "bytes": 3648864,
+      "sha256": "415188fc0c6e778b623552dd2cbb4d085f7ce68b167514c2c0c5ed9293b06067"
+    },
+    {
+      "path": "source/authoring/hangar_v11/scene-validation.json",
+      "bytes": 300,
+      "sha256": "b013d30d50be9c963d2833bb3b25ec3b6e65e6e9ebd788a6dab458506c47e0c4"
+    },
+    {
+      "path": "source/authoring/hangar_v11/tube_source.png",
+      "bytes": 2599429,
+      "sha256": "7a6c61c9b9857ead7e412fd16ad8d38593c53dcefc2beded659aaeaf9f3688e4"
+    },
+    {
+      "path": "source/authoring/hangar_v11/update_scenes.py",
+      "bytes": 3932,
+      "sha256": "63ef19d26aa3ee328ddac4af881ecf1262cba71929c2051476a85608dbc8e36e"
+    },
+    {
+      "path": "source/authoring/hangar_v11/uv-scale-validation.json",
+      "bytes": 255,
+      "sha256": "b6312ef28111e492cfbcd922653da9b1aae547c40a5cecd3a118a1caed8c7c7c"
+    },
+    {
+      "path": "source/authoring/hangar_v11/validate_native.py",
+      "bytes": 2785,
+      "sha256": "21f3682e079ba1b67bcebdd5cd7eb46578dd87396d020f4c1e5d8c5b2ba0d660"
+    },
+    {
+      "path": "source/authoring/hangar_v11/validation-mission957.luau",
+      "bytes": 2113,
+      "sha256": "650a0aa04cf2480a76b9d14531bbc3b9bce5dbc135b0a1f12bff7a25ab8b5d01"
+    },
+    {
+      "path": "source/authoring/hangar_v11/validation.json",
+      "bytes": 2487,
+      "sha256": "1199bae23809b3aaa6ee55450722c569204217e25a5d6b46cf9c7a801e935a7c"
+    },
+    {
+      "path": "source/authoring/landing_handoff/diagnosis.json",
+      "bytes": 7798,
+      "sha256": "c1fe2cd05a5a9c907045dac4d1a37b4eaf2ae77de6009d6f762ff9665aec63ae"
+    },
+    {
+      "path": "source/authoring/landing_handoff/reliant_flight_review.luau",
+      "bytes": 3130,
+      "sha256": "b66c5526ac2bec1a755712a192358a1b1b8a7a65804341e6eda3d5a9d6c26f09"
+    },
+    {
+      "path": "source/authoring/landing_handoff/validation.json",
+      "bytes": 2469,
+      "sha256": "7f7e6758a8d224e00c948fb73e546c9ab440e5701519ffe2b5f4760b6d26daa0"
+    },
+    {
+      "path": "source/authoring/machinery_v9/build_materials.py",
+      "bytes": 9307,
+      "sha256": "5a2fc007d1768c928bfc98ef7110173a38330007b523c9bef58d0feb843640e8"
+    },
+    {
+      "path": "source/authoring/machinery_v9/capture_check.py",
+      "bytes": 3317,
+      "sha256": "b3d293107f912b59feb065026324e3b0ec200fda06e039d892826ef7cd5091cd"
+    },
+    {
+      "path": "source/authoring/machinery_v9/component-layout.json",
+      "bytes": 28958,
+      "sha256": "c687ce5b247f21f402620821e9c107ddda3f6639d3f3a500e138b071661e6109"
+    },
+    {
+      "path": "source/authoring/machinery_v9/finish_review.py",
+      "bytes": 4091,
+      "sha256": "71b0ea4ff53e3d0c3d5a7365adb58330ffdd50416c36756508d6ad1278a52a89"
+    },
+    {
+      "path": "source/authoring/machinery_v9/imagegen-prompt.txt",
+      "bytes": 999,
+      "sha256": "7508368069bbb6a40fc86fefac778d89190516af45c3a498732feeb2ec8fba2b"
+    },
+    {
+      "path": "source/authoring/machinery_v9/material-validation.json",
+      "bytes": 1576,
+      "sha256": "e7da511ab51c6623668654b788acbacae3b5e7b302c30004156187c368c279d3"
+    },
+    {
+      "path": "source/authoring/machinery_v9/prepare_exports.py",
+      "bytes": 969,
+      "sha256": "fb1bf841f21d6152703969aa4d0c38a89a382547a409821b8b90b5c436079104"
+    },
+    {
+      "path": "source/authoring/machinery_v9/scene-validation.json",
+      "bytes": 282,
+      "sha256": "5ee40e0b89e53de03807e3daac8f88f623f9f3200d7059ec503a0b2cbb239f83"
+    },
+    {
+      "path": "source/authoring/machinery_v9/update_scene.py",
+      "bytes": 2035,
+      "sha256": "49d617a5777af015f5091f3934d3e07e1c76cc733133f0d3894f135e91cebf0e"
+    },
+    {
+      "path": "source/authoring/machinery_v9/validate_materials.py",
+      "bytes": 2968,
+      "sha256": "b89e42bddae42a86be92ed973a89438fe3a3e61915c92d9af690b6d07e3cfe3a"
+    },
+    {
+      "path": "source/authoring/machinery_v9/validation.json",
+      "bytes": 1228,
+      "sha256": "79d7ad23ba19335bf7ab46ceda0d0a7358ce8811b59b5afd04dd5a397db65adc"
+    },
+    {
+      "path": "source/authoring/machinery_v9/worn-metal-source.png",
+      "bytes": 3037001,
+      "sha256": "beee2b053081a9c5b2f1248c954c2a15e678869a673ff5432391005a2fb03c50"
+    },
+    {
+      "path": "source/authoring/opaque_glass_v8/build_materials.py",
+      "bytes": 5015,
+      "sha256": "c6d8e4411aafd5646bf0c24b0016f77245c4e5db61a9bc8e850d6c98fd5cbe39"
+    },
+    {
+      "path": "source/authoring/opaque_glass_v8/capture_check.py",
+      "bytes": 3212,
+      "sha256": "4390eead1eb9fd34301ffcf9038dbd1efc5ca5e1f54c6bc77fa9298d71075964"
+    },
+    {
+      "path": "source/authoring/opaque_glass_v8/finish_review.py",
+      "bytes": 3990,
+      "sha256": "6eff6a764ecb9563bae0c26d9a8b55bb4f27dfe3993d6f7ed0197c11d29ab63a"
+    },
+    {
+      "path": "source/authoring/opaque_glass_v8/imagegen-prompt.txt",
+      "bytes": 1027,
+      "sha256": "a823968f5581f2fd613041f60d14a7705696a4dc36c0e91eb59c29350e418ffc"
+    },
+    {
+      "path": "source/authoring/opaque_glass_v8/material-assembly.json",
+      "bytes": 14910,
+      "sha256": "3d2fc3af9b7a12e46cd63a539510a3afc824a4400cfa49b501e2c9871fb9dcb9"
+    },
+    {
+      "path": "source/authoring/opaque_glass_v8/material-validation.json",
+      "bytes": 17769,
+      "sha256": "d3ff083eecc6124a28332c94e53dadd9b32bbb134b086f8df477a6ecf4371e1b"
+    },
+    {
+      "path": "source/authoring/opaque_glass_v8/opaque-glass-art-source.png",
+      "bytes": 2069969,
+      "sha256": "55de39cabb322eca986f4cfe8daa8d0cc1fdc9223109646a565b1f56b6b27214"
+    },
+    {
+      "path": "source/authoring/opaque_glass_v8/prepare_exports.py",
+      "bytes": 996,
+      "sha256": "ea4cf870d952c3f4d98a604f342f65d878656c75f86b9e4b79912c8f597e1585"
+    },
+    {
+      "path": "source/authoring/opaque_glass_v8/scene-validation.json",
+      "bytes": 282,
+      "sha256": "5ee40e0b89e53de03807e3daac8f88f623f9f3200d7059ec503a0b2cbb239f83"
+    },
+    {
+      "path": "source/authoring/opaque_glass_v8/update_scene.py",
+      "bytes": 2041,
+      "sha256": "fb0e1511d0ae73e47f911a5147aa4a4c7315bcf4e39f85ee8da4bc0c5d41fa74"
+    },
+    {
+      "path": "source/authoring/opaque_glass_v8/validate_materials.py",
+      "bytes": 3274,
+      "sha256": "878ad8c1e3c1250f70654a7530734c9e266b0dadc1c796f8c027f2bd8ff052e1"
+    },
+    {
+      "path": "source/authoring/opaque_glass_v8/validation.json",
+      "bytes": 1275,
+      "sha256": "8ed780c13a0c8abeae09b7d6b13f4648108234b150039df5dc96342fd478a2d7"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/13_al_STUR-chunks.json",
+      "bytes": 16168,
+      "sha256": "0fd1cc4c63d1b609998d1d75ef75793582a721a2187e68d5f7f4446de1593cff"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/Allied_Cap_Gun-chunks.json",
+      "bytes": 11467,
+      "sha256": "8443ed6fe8d68e85741de59480d28009090bc2e8fa7ee56cd3def68d6aa97c6b"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/build_lighting.py",
+      "bytes": 6991,
+      "sha256": "e82b045691645ce81011425b6c64ef1e96cd8bd35c9c9ac051d619dbf1ad1b57"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/build_materials.py",
+      "bytes": 12149,
+      "sha256": "58638e55805067c855284678e97c1f3c5707dcbeb7b4a8aee04b2339da89fe85"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/build_source_review.py",
+      "bytes": 2085,
+      "sha256": "18c1dd02f02de5c6d26439dba9ca2773b461005c12d34cd63d8477ad39205d54"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/export_native.py",
+      "bytes": 7487,
+      "sha256": "0b978384b0cb5c471ec9cf753f4a07315cdc5fa6f21365950590723188d18c67"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/finish_review.py",
+      "bytes": 5854,
+      "sha256": "796fb5cf65264635a66da08b403a938215b928fa89573cd05454e30e0ea0fa4a"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/imagegen-rel1-prompt.txt",
+      "bytes": 1771,
+      "sha256": "144cea3a8010ba693e92d3f8c870bd05dca2bc903f072690688f5ea02bfb6ef0"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/imagegen-rel2-prompt.txt",
+      "bytes": 1771,
+      "sha256": "e3786c20c692ffbf9bd6308bdd3eca3cb139e1e10d2e6b397939dae58adaf305"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/imagegen-rel3-prompt.txt",
+      "bytes": 1771,
+      "sha256": "1997e6fb8f87be8ee87cbfc35a5f1e131bbbd245953b70427b07933e12afa88a"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/map_checks.json",
+      "bytes": 660,
+      "sha256": "4645af73a5902cf38d74fa0181259b0eee11178b13dc46ee2c9da782b4fb8515"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/mission958-probe.luau",
+      "bytes": 984,
+      "sha256": "b4ed4c64fe69b7fe5b08ab8414444f005e25e0bd70558ccbfc714c676c0cb894"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/mission958.luau",
+      "bytes": 986,
+      "sha256": "66780582e1fa09fcf5a030d7cffa3773aaa21a692b6e8a2318401f3a5fb732e2"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/mission959.luau",
+      "bytes": 292,
+      "sha256": "204cc9bb12ec3fdd089c452c842be3388d6c92056738325e40476b7793049290"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/native-chunks.json",
+      "bytes": 129066,
+      "sha256": "6dde48f74451048f885a18cf4cc8215115c91ab27a9ce00b2eb2402162c94447"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/native_checks.json",
+      "bytes": 1623,
+      "sha256": "911d2c42a4f892b0635f57da3f93f00411d5e367eebaac94e7256010078a2d0b"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/native_preservation.json",
+      "bytes": 53404,
+      "sha256": "6f8e8be7e9cce76db3feb610844362a7cc8b4f2d535a23b3c8cb5db9e972089f"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/nozzle-audit.json",
+      "bytes": 20029,
+      "sha256": "4f27fea4f47c5b4ae758ddebb79423ad355aada59c0f19ec26455f264a1bb38c"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/parse_native.py",
+      "bytes": 2380,
+      "sha256": "fae4ca7e8dc644d7e183d5134f71bc93c3b5f14930f7b1170cf30e522f87135b"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/prepare_tiers.py",
+      "bytes": 1318,
+      "sha256": "c2980b4287c000bda84bce5bb138dcfd3c150f33e9287f69dbd50cf1c9f51da9"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/regions.json",
+      "bytes": 22561,
+      "sha256": "096e7dff6fd051d4b2342385b7e3a9e854f3505ecee85901e16f59c2e6963db3"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/reliant_response.luau",
+      "bytes": 5482,
+      "sha256": "a9dc4dec029c478fed6b91e9ab86e2512d5334e811ead6407bea6fbf6ad2f24e"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/resolution_checks.json",
+      "bytes": 5657,
+      "sha256": "14da2c7ea07b3eff6c6a3ad679ca60e842b77e1cd2c73fc84fd48b953d844795"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/review-validation.json",
+      "bytes": 16619,
+      "sha256": "c744447c5d6ae3948e073ff6e1cbf347e7160efad904d2a0a0f6271600fe86c9"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/shared-nozzle-audit.json",
+      "bytes": 152,
+      "sha256": "a9e11ccdad1c0ab583cf510d736a61eaed5218eea5335efe87280c2ddfb2ec5b"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/test_response.luau",
+      "bytes": 9075,
+      "sha256": "d1532a4431bd13411ae70161863ea6b33dcdebfcd2780d1f1b15b460ff09a754"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/test_runtime.luau",
+      "bytes": 3752,
+      "sha256": "b5b26b80f33a658bf8f65526c50e19d1e6b114ad54ff59aa2f1a69caaa919249"
+    },
+    {
+      "path": "source/authoring/reconstruction_v1/validation.json",
+      "bytes": 7415,
+      "sha256": "fdeee50e4b3ec9eaa9b73728668e00a0d9ecffb4093a744fb00331c580d26ebb"
+    },
+    {
+      "path": "source/authoring/refinement_v2/art/prompts.json",
+      "bytes": 3188,
+      "sha256": "c47fd60f1bd6cb004b1535d292befc385948f6424929622c26c19a13c94cf19b"
+    },
+    {
+      "path": "source/authoring/refinement_v2/build_materials.py",
+      "bytes": 11179,
+      "sha256": "29f43d43e51a1be3f126e5ce43f6c2c059ee6fab8d5a68b376622ddc14432bdc"
+    },
+    {
+      "path": "source/authoring/refinement_v2/camera_probe.luau",
+      "bytes": 262,
+      "sha256": "6ae776e38245f974318e1d7fdd04c391128ff224e409e3682b054c338ca3fa0d"
+    },
+    {
+      "path": "source/authoring/refinement_v2/complete_radiator.py",
+      "bytes": 2007,
+      "sha256": "3aff929042480881078beba469f42c1dc2acbb35ef2a4f88afe5ed24351e3c0b"
+    },
+    {
+      "path": "source/authoring/refinement_v2/finish_review.py",
+      "bytes": 6006,
+      "sha256": "d4b3f505fc0b5312f0929b0d242ac636a5eeeedfe94fe999f2ac93bd12f8a21f"
+    },
+    {
+      "path": "source/authoring/refinement_v2/integrate_art.py",
+      "bytes": 653,
+      "sha256": "196dd0d7095a387dfadc91727ef7c84b90e8a00c7f927ec3404fd9fa5d397feb"
+    },
+    {
+      "path": "source/authoring/refinement_v2/material_regions.json",
+      "bytes": 16514,
+      "sha256": "ee56971f6d6481c07fee42d1576b5e0576a03f9f12ae9c1b7fd695954b0d6f2d"
+    },
+    {
+      "path": "source/authoring/refinement_v2/native_repairs.json",
+      "bytes": 146386,
+      "sha256": "b2f601bfeea7c16057bcda5eb7b4fa781fe56e5b9cd10ccefa8bf0f56715bf37"
+    },
+    {
+      "path": "source/authoring/refinement_v2/near_seams.json",
+      "bytes": 108831,
+      "sha256": "9eaf57e58389f8a84421cf63a86054d7dafda1b29102bab3c74948a90ba8064f"
+    },
+    {
+      "path": "source/authoring/refinement_v2/reliant_response.luau",
+      "bytes": 5719,
+      "sha256": "1244af8a48307231feae9edcd7527bcc4e4e68f5b43d67ec883195e0de641811"
+    },
+    {
+      "path": "source/authoring/refinement_v2/repair_native.py",
+      "bytes": 5626,
+      "sha256": "1be637e8fd2cd4fc1ad01a2988c2e35acaa558447ab27c231371fed57acb518c"
+    },
+    {
+      "path": "source/authoring/refinement_v2/runtime_probe.luau",
+      "bytes": 1576,
+      "sha256": "1c88a03c0241911f6b43173a527833d977b978aee12244aa97cc8e12c3686157"
+    },
+    {
+      "path": "source/authoring/refinement_v2/smooth_bridge_bevels.py",
+      "bytes": 2626,
+      "sha256": "15eabb165f759cdb9bc11c697ea998a12b72c080d31325d3e65873f620be3a7c"
+    },
+    {
+      "path": "source/authoring/refinement_v2/test_response.luau",
+      "bytes": 10043,
+      "sha256": "db2ca2b2a34aec94caf8b7b25f3e0de64444a6b182b08eab902db52979af1331"
+    },
+    {
+      "path": "source/authoring/refinement_v2/update_scene.py",
+      "bytes": 1985,
+      "sha256": "ed5649cc236f7b67239a02b73ca317a53d06f495475845cd79a59a3d14e499b4"
+    },
+    {
+      "path": "source/authoring/refinement_v2/validation.json",
+      "bytes": 4477,
+      "sha256": "da1cde83d915f571cb916ae6ffa86a93da09a51d7d74ed01b47f7c555724d94d"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/before-sha256.json",
+      "bytes": 3380,
+      "sha256": "b4cde894da180cd821877b2197de6ddd20b238f2d2c7af103a3811eb280a0657"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/build_materials.py",
+      "bytes": 7101,
+      "sha256": "ce0522d0c33d161642f3498914c169605d63dc06a9a434f230ad9e196dc8b883"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/capture_check.py",
+      "bytes": 3326,
+      "sha256": "f95fc535faac5a5aa95c4cbb9c9f67b14b5fe651aff42fa9dd96da15a42ec0af"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/design-notes.txt",
+      "bytes": 1134,
+      "sha256": "6523652e5abecb15f63d997484e49765f06ee8e743615d8d81000a0399fbfced"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/finish_review.py",
+      "bytes": 4565,
+      "sha256": "3b68fbb256105fdcc21f59d086b7928010b6efdc38c2a18dcde5554b76f1c463"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/imagegen-prompt.txt",
+      "bytes": 2335,
+      "sha256": "1dc8df212b02cd2fc8bb92055d73d6dd4c90ad4578e3fb65dc59a955739d3698"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/material-validation.json",
+      "bytes": 1608,
+      "sha256": "3cd9741d5f5ed4ae133710e3baf8bb434638f1be58ede7c2ed4d142866590155"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/prepare_exports.py",
+      "bytes": 1067,
+      "sha256": "afac21ec32e4bb603a0ef0e66e2775618c8b10861c2f03ab60fbbcc10b1d4b32"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/registration.json",
+      "bytes": 7034,
+      "sha256": "464557150d4dd8faf609b13004cfbd84a06a93d101da61e8c488765e7654e58f"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/scene-validation.json",
+      "bytes": 282,
+      "sha256": "5ee40e0b89e53de03807e3daac8f88f623f9f3200d7059ec503a0b2cbb239f83"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/service-bays-source.png",
+      "bytes": 1790917,
+      "sha256": "cfea323fcaf9b54b186501531f4b05246ab11c40ebb53ee150430f8dc72a73f2"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/source-detail.png",
+      "bytes": 1374711,
+      "sha256": "297469fb5e330229f7a0fa5806de9b347239fa0a6bd906028ee6b77b7cc7312e"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/update_scene.py",
+      "bytes": 2046,
+      "sha256": "95b2212a99f04b9afdcccc35fccb70afc0470517d29a44b597abe6bc192c6c20"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/validate_materials.py",
+      "bytes": 2973,
+      "sha256": "7b58990440540cefee40b8b285b1abfc0a51e056acda505a546b411b2b222bd6"
+    },
+    {
+      "path": "source/authoring/service_bays_v10/validation.json",
+      "bytes": 1257,
+      "sha256": "bef8c78e3cf8025f5cc2ee26c8a402fbd6a6b8e9bea95464d24b5b93b4fc57e5"
+    },
+    {
+      "path": "source/authoring/uv_projection_v7/capture_check.py",
+      "bytes": 2991,
+      "sha256": "60d988f7690a37f172d34d78d03c140da6429badcce5fcd425561e742590af1a"
+    },
+    {
+      "path": "source/authoring/uv_projection_v7/finish_review.py",
+      "bytes": 5439,
+      "sha256": "adb57d4185a784d3809447b2df36a0ad45253744f8355dc6e33827d19c831a4b"
+    },
+    {
+      "path": "source/authoring/uv_projection_v7/native_repairs.json",
+      "bytes": 7461,
+      "sha256": "1a2b2b2e001f32c0cb41b7767023ad56e26bf816a4103423dc92e764b4836f42"
+    },
+    {
+      "path": "source/authoring/uv_projection_v7/projection-validation.json",
+      "bytes": 1848,
+      "sha256": "1fb5720b281ee389c10cd4ef4e8112011d469c33aa960f5612e7d85e9ba79141"
+    },
+    {
+      "path": "source/authoring/uv_projection_v7/repair_projection.py",
+      "bytes": 2944,
+      "sha256": "e52804cdaab7040482338f4b3162dbb061425f87bcfcd81f8d948b42c1a94ab4"
+    },
+    {
+      "path": "source/authoring/uv_projection_v7/scene-validation.json",
+      "bytes": 168,
+      "sha256": "dd12b430c0846a842e2fa994d4267aabe815e46e733b0a22953a00a4177cda2d"
+    },
+    {
+      "path": "source/authoring/uv_projection_v7/update_scene.py",
+      "bytes": 1352,
+      "sha256": "bd02fa361123c32ada963d335b138aa25b2de644f406330ec955284b5dc9db34"
+    },
+    {
+      "path": "source/authoring/uv_projection_v7/validation.json",
+      "bytes": 2595,
+      "sha256": "d9ec65d0f18d7644ef03096470977904b069da92b2def08c5588ea6c46c719be"
+    },
+    {
+      "path": "source/authoring/windows_v5/build_windows.py",
+      "bytes": 7850,
+      "sha256": "035d8ce12fdb1ef0b9c651e6439590ec2a4513ddba8150b8044103e93545aa06"
+    },
+    {
+      "path": "source/authoring/windows_v5/capture_check.py",
+      "bytes": 2661,
+      "sha256": "8965ed4a7d9161bcdbc65353c42d5c25b968bcd18b6ed27b2b2046a59fadc3a9"
+    },
+    {
+      "path": "source/authoring/windows_v5/finish_review.py",
+      "bytes": 6830,
+      "sha256": "e89ca915ede5464f1e429c8495a9f25c402e92eed9b9fdc2d5312253fa87494a"
+    },
+    {
+      "path": "source/authoring/windows_v5/imagegen-prompt.txt",
+      "bytes": 1858,
+      "sha256": "811745fadac0b2fbc931079bf01d479198acf2fbc271a21ec762d01dcde04c68"
+    },
+    {
+      "path": "source/authoring/windows_v5/prepare_exports.py",
+      "bytes": 3114,
+      "sha256": "629488f8d6575c7792dd1da37fb171015c08cdf99cd9f7494d58a72e68773274"
+    },
+    {
+      "path": "source/authoring/windows_v5/source-edge-detail.png",
+      "bytes": 485954,
+      "sha256": "1a586f273dea39b5b372edf6c090a8e46b9828452a2e2e9d858844d2cc807414"
+    },
+    {
+      "path": "source/authoring/windows_v5/update_scene.py",
+      "bytes": 879,
+      "sha256": "0cb542469a6eab213695d673347cdb4f1b1517480ffdec20e07932fdb39a20e6"
+    },
+    {
+      "path": "source/authoring/windows_v5/validation.json",
+      "bytes": 4816,
+      "sha256": "228b4a05496564777d1b7a559cb817637ef4d643b2bbc27edd032ff721ec5967"
+    },
+    {
+      "path": "source/authoring/windows_v5/window-art-source.png",
+      "bytes": 1791068,
+      "sha256": "3ce1eefe60fb5715737ea1b9fe50925fa8c68479d4dda243d32aa924ee4b37c4"
+    },
+    {
+      "path": "source/authoring/windows_v5/window-material-regions.json",
+      "bytes": 34064,
+      "sha256": "362dfa412d2eeb880fb8bdbfa803096e2e3afd4470cd7988a87eaf2f7f59923b"
+    },
+    {
+      "path": "source/authoring/windows_v5/window-orientation.json",
+      "bytes": 6869,
+      "sha256": "adff95f3ede4119a3addee4b8032d3568de1b13a94ec7a9dbf07178b11bd1c10"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang1.png",
+      "bytes": 7064362,
+      "sha256": "8c4ba93a5c0203ca1551b225d92645d0924083e69a008d482b4c9cdc6d1d7339"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang1_emissive.png",
+      "bytes": 12286,
+      "sha256": "f57ca1fb2a21ab3c7da1b0ac1ed3859b816a4ed6eb7b09700419e86f0b0e1c8e"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang1_height.npy",
+      "bytes": 16777344,
+      "sha256": "81fc0ed52f20e92a0c6ba6edaf30adb664eda4b20c6f31ebdd612ecf5c2dde61"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang1_height.png",
+      "bytes": 290129,
+      "sha256": "82d928b2577c85c540d4cbee34d5fd09a726b2e551fb74d0228bead4d3587653"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang1_normal.png",
+      "bytes": 1210161,
+      "sha256": "fc81e56cfcdc3b17ed3b1dbdfd63cd8d96ea6fc38393d56aee42156626007a5d"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang1_orm.png",
+      "bytes": 3726710,
+      "sha256": "ee98b765526b44bd692f363ef0034d606855e5aa10e29fefff7333653c1ff0af"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang2.png",
+      "bytes": 6127894,
+      "sha256": "3aac023b19a00f1ccded92a02f0d69a573633a77c7801ef40adf17c36d76af39"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang2_emissive.png",
+      "bytes": 12286,
+      "sha256": "f57ca1fb2a21ab3c7da1b0ac1ed3859b816a4ed6eb7b09700419e86f0b0e1c8e"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang2_height.npy",
+      "bytes": 16777344,
+      "sha256": "24b137ca5e669edd95f3cebf03160ffc7038c4f8343fecb66cad72b4aee1ac35"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang2_height.png",
+      "bytes": 230283,
+      "sha256": "f0ab45b884b0684fd6139139883608cadbde90e54db03dfffcd8d3ef6be86fe9"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang2_normal.png",
+      "bytes": 978589,
+      "sha256": "89724e5d4484f917ba153e1777c7b40bb92717b4e8c6fdc533fe5f7508879d58"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang2_orm.png",
+      "bytes": 3402736,
+      "sha256": "e5b82be47adb87a62aad0a98cda1d82f3cbd3162a52eb1943ce1b51caeccb7d1"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang3.png",
+      "bytes": 7244564,
+      "sha256": "54582c2cfcde03c1c827e6d0c362013aed32d5e50705a6fa68d61dfeb9bb9f36"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang3_emissive.png",
+      "bytes": 12286,
+      "sha256": "f57ca1fb2a21ab3c7da1b0ac1ed3859b816a4ed6eb7b09700419e86f0b0e1c8e"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang3_height.npy",
+      "bytes": 16777344,
+      "sha256": "3bbd9edb4e33af5d467e5ce910244c320d3dd62e8fa1ccd9481ed94e702cc412"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang3_height.png",
+      "bytes": 391845,
+      "sha256": "ca080c700ddf0690aa2b896411ad28d431e65e9d0980c4952c00f9d8ed6ca9ba"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang3_normal.png",
+      "bytes": 1686757,
+      "sha256": "1559014614d9df6c7e60f38910836d8160b65858c3d5d9dfbebaceff2a084708"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_hang3_orm.png",
+      "bytes": 3962124,
+      "sha256": "6d319452efc12a42914ebd83301aa2af39a675c2d069aa79e808827e430d8c9c"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_tube.png",
+      "bytes": 5023167,
+      "sha256": "56aaf5c22a02e22cf3af5f4e10c26d2083f8e4e1f161752cfb01f217aeb9efc8"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_tube_emissive.png",
+      "bytes": 17266,
+      "sha256": "6d76fe5cfa551268532849f935a28c4cf9a87cc4762aeb7dc170bc0d66316ea1"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_tube_height.npy",
+      "bytes": 16777344,
+      "sha256": "fd28847599d7bfd1e8b66180cc4c54ca444be2bf6dfc66d4b31f3b6edb735d9f"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_tube_height.png",
+      "bytes": 144660,
+      "sha256": "d72dba8bb9818a3b142e4344a2fad1e6118272dfde3b4d21d4986e7d3b09cecc"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_tube_normal.png",
+      "bytes": 590534,
+      "sha256": "d2935c1cb70da89a12d62b2d7fdc6bcff71fcc3009b551b43d01eca995602fa1"
+    },
+    {
+      "path": "source/maps/hangar_v11/orr_tube_orm.png",
+      "bytes": 2800699,
+      "sha256": "b94def24d2972f9c7f16df97ac7bede7b7e8e6b299a6ea4b3ddf9d56b86f9b2c"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr1_hull.png",
+      "bytes": 15362142,
+      "sha256": "3b2af535260914551543d760b50e3dd02860dda7b70b797cafdaf5f491caa2c6"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr1_hull_emissive.png",
+      "bytes": 81001,
+      "sha256": "0136d8bf62087071700a4a60f634e3a01ec5056fe2cb39aab35a9db6761dab35"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr1_hull_glass.png",
+      "bytes": 16353,
+      "sha256": "334c4a79f661f8f9c215b7fd06284d5fb3fe7fd3822f10dc8842f85f664c9a7f"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr1_hull_height.npy",
+      "bytes": 16777344,
+      "sha256": "66fe1c23f0bbf5b0c978240d46a8eafdb0d95ae83aac780b2c8de645197757d4"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr1_hull_height.png",
+      "bytes": 85422,
+      "sha256": "ea0dcec2db21b6eae56ea30807a0f5df7ea1bf6fca47601ebde0d44915fc5bec"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr1_hull_normal.png",
+      "bytes": 421218,
+      "sha256": "356042b7169476b5898f02165e1d6ad0368bc19d66fce66a51b7d56601793a1c"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr1_hull_orm.png",
+      "bytes": 310112,
+      "sha256": "db5de6e24c9cca498345d97dbdf057b719c1fb577dfe3f48ad4c63302c5651e3"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr2_hull.png",
+      "bytes": 13589598,
+      "sha256": "a687ff95c2eb356a033a480937740b7a47d5b4eb7636b85ca2dd77003ac7f43e"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr2_hull_emissive.png",
+      "bytes": 345341,
+      "sha256": "0c8dfa698d01deeb816c9c90f826fc0a451242abdb21e9f85736981c620c33a8"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr2_hull_glass.png",
+      "bytes": 24550,
+      "sha256": "585fce2709148d1d477d840b599fa2cb1f1af6389955e9ed9b5e8528ec398635"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr2_hull_height.npy",
+      "bytes": 67108992,
+      "sha256": "dd993821ec4eae8bd188f514b708a3f4f4c81fb11ef00398ca8b13c1eae32fbe"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr2_hull_height.png",
+      "bytes": 154132,
+      "sha256": "8416d90c63b3b8693d8574ddfce8b4b18765fe23afe6bdd70c1bdd1a0152ed0e"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr2_hull_normal.png",
+      "bytes": 1482833,
+      "sha256": "dc9200516395f95da955de6d36f5e4a04bc2683773734c9402b877b441826a9f"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr2_hull_orm.png",
+      "bytes": 1098280,
+      "sha256": "96dffe2a153140b40a6b425ff714d6b11b192557d00f0d9a7312bc8241e078d7"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr2_hull_window_frame.png",
+      "bytes": 25847,
+      "sha256": "064d2ff4cb655f8dfcf19d13fc94efdeffa075a9ce6b6472f3dbcc6c046ea0e0"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr3_hull.png",
+      "bytes": 17142809,
+      "sha256": "d8c29789c9129b3353e24c67920a832b7bb70d806cc24488d08f7705d1448608"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr3_hull_emissive.png",
+      "bytes": 58234,
+      "sha256": "982f709ee6ce3fed9547dfeeaa991268a253e040d3b8d8609d71ddba18560704"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr3_hull_glass.png",
+      "bytes": 16353,
+      "sha256": "334c4a79f661f8f9c215b7fd06284d5fb3fe7fd3822f10dc8842f85f664c9a7f"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr3_hull_height.npy",
+      "bytes": 16777344,
+      "sha256": "6bffa7f148a431cc41c263125474173452fcaad6bcba00ff4fa678d3f1ea0de0"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr3_hull_height.png",
+      "bytes": 65389,
+      "sha256": "005624cebb7a934fa2e6e18864e6e02bdb3a0670481b7cb1e2b43d3d7ef81fc9"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr3_hull_normal.png",
+      "bytes": 319248,
+      "sha256": "b8ad355bb2063524bf43ec2574fe1a616d405ad6c495f324e59d31cdbf9c0ff8"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr3_hull_orm.png",
+      "bytes": 643317,
+      "sha256": "e99527ce13410b163edba03adc66e978d143ba8f3fe81c7a9b801dc424b79663"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_cgun.png",
+      "bytes": 18914727,
+      "sha256": "e6573ed21388106b1fcf48fdea7be12838d10f3d83886fe8613cab2fba8595ca"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_cgun_height.npy",
+      "bytes": 16777344,
+      "sha256": "3cb0cd6988782b7f5a105c14ccfd6624e54140c05ce3ba84405a0f0932efcdf9"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_cgun_height.png",
+      "bytes": 61271,
+      "sha256": "e207fd9e3090138450e050c214fe6677553d3e351f56655ac0265bd444d002d5"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_cgun_normal.png",
+      "bytes": 254606,
+      "sha256": "995d907665742b8e231c9f384b076be34d3c9222bd07d9eec1da690a41e848a0"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_cgun_orm.png",
+      "bytes": 355089,
+      "sha256": "f84d5be701e10668d84dcb71ba42344e82dfca73ccb674ec4969d281f1825cd4"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_cgun_source.png",
+      "bytes": 3424686,
+      "sha256": "2dab2ca4f9e365994bbc90acf173a507760e93bd14f0cdfea4c7a621498223f1"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_sgun.png",
+      "bytes": 17633313,
+      "sha256": "74857a88ab71c37d28ac217b9a60c2f05f6bebd08a9568645cfcfde5b0012998"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_sgun_flat_source.png",
+      "bytes": 29973,
+      "sha256": "dc86db61943b0dd8d8a35117ae724a8812b3f181b428aa99f0ae7bce862bfa7e"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_sgun_height.npy",
+      "bytes": 16777344,
+      "sha256": "07167ccb5ee00874f49211535fdab48dec322a3d805e14becee4c232895b70f8"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_sgun_height.png",
+      "bytes": 164764,
+      "sha256": "c27f87b79d44b39e0f26e3411a03b16f481a2f4c09c8a7d49d356398c3680277"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_sgun_height_source.png",
+      "bytes": 357760,
+      "sha256": "c77b61cabbc9bfd914028ff8032e30ce594c2375c8de9274310715ab67772c9e"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_sgun_normal.png",
+      "bytes": 1189946,
+      "sha256": "8d150bf96dc653c10b02458ca7148965ca2016c8094847ac4b86dd88797b59b0"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_sgun_orm.png",
+      "bytes": 1903143,
+      "sha256": "24e62083c3f6929486b3f103d45305a99dcf99e4953103e33de25f5b02e7f7f8"
+    },
+    {
+      "path": "source/maps/service_bays_v10/orr_sgun_source.png",
+      "bytes": 21445562,
+      "sha256": "0329386a6e7b3232716d0b1cef8bd57ef0d61dd22fa15933d5bd167a8eaf736a"
+    },
+    {
+      "path": "source/originals/13_al_STUR-components.txt",
+      "bytes": 73,
+      "sha256": "13e72d1ed126936952cdae485d352ac9c342fc896ef9de1469dcb3ee21a5656d"
+    },
+    {
+      "path": "source/originals/13_al_STUR-info.txt",
+      "bytes": 2577,
+      "sha256": "54327d005678c9586163f03bdfd2cf9712f9ada6aae8949bf1967cfa4104d060"
+    },
+    {
+      "path": "source/originals/13_al_STUR-parts.json",
+      "bytes": 226368,
+      "sha256": "06e0ac18a3a36762ded09927eda7612b30d4375e22e5c01fa1fe13127b42410d"
+    },
+    {
+      "path": "source/originals/13_al_STUR.SHP",
+      "bytes": 29954,
+      "sha256": "e1e0ab9991b283b59f7f0d5107de8e9696caef2ffbbde7617aea9242dd9fdcbf"
+    },
+    {
+      "path": "source/originals/Allied_Cap_Gun-components.txt",
+      "bytes": 73,
+      "sha256": "13e72d1ed126936952cdae485d352ac9c342fc896ef9de1469dcb3ee21a5656d"
+    },
+    {
+      "path": "source/originals/Allied_Cap_Gun-info.txt",
+      "bytes": 1769,
+      "sha256": "5762720a56841cd16c64ace63ab27ffaefb3e420060981337693941c426036e8"
+    },
+    {
+      "path": "source/originals/Allied_Cap_Gun-parts.json",
+      "bytes": 293400,
+      "sha256": "f86fa76bb08b92e4ba6ec4273f301f23e68afd24b99d6a210da391483f83fc05"
+    },
+    {
+      "path": "source/originals/Allied_Cap_Gun.SHP",
+      "bytes": 36910,
+      "sha256": "86e6e1f940e8d64629a352f3d0ba971060a09d3a7cd88dcc4189495741a5a99f"
+    },
+    {
+      "path": "source/originals/DAM_1.png",
+      "bytes": 17642,
+      "sha256": "fcacbed0e1d689b0ed27bbd1d1a269028af44170e05bba383c970b2db94ec0cf"
+    },
+    {
+      "path": "source/originals/REL_1.png",
+      "bytes": 53798,
+      "sha256": "f441d353fa3443192a1dea1d55d84610d7e756c4fa005f998cb1d18d037fe805"
+    },
+    {
+      "path": "source/originals/REL_2.png",
+      "bytes": 59465,
+      "sha256": "9e039c96c8d809f989bf4b0cbdc79df7ac1a36a617e75901ebe305f6c47863de"
+    },
+    {
+      "path": "source/originals/REL_3.png",
+      "bytes": 56279,
+      "sha256": "e8125e16e0cd038db5f3852cd5916a479602f7e5870c6f49008f7bc8b9849d29"
+    },
+    {
+      "path": "source/originals/Reliant-components.txt",
+      "bytes": 482,
+      "sha256": "ead027e92297fb4d07cf0c013b8aa08c463797516ebb1eb5b70c4bb850fe3eda"
+    },
+    {
+      "path": "source/originals/Reliant-info.txt",
+      "bytes": 18479,
+      "sha256": "5c8448dcbac3b66f791aeda384c1cf407dd5aa5cc63ea38d368cbe090837c211"
+    },
+    {
+      "path": "source/originals/Reliant.SHP",
+      "bytes": 576046,
+      "sha256": "a544c8e320bdb12070f2c60157348de24956b3e8808ea39dc8addb3dc16dc84f"
+    },
+    {
+      "path": "source/originals/Reliant_Hang-components.txt",
+      "bytes": 73,
+      "sha256": "13e72d1ed126936952cdae485d352ac9c342fc896ef9de1469dcb3ee21a5656d"
+    },
+    {
+      "path": "source/originals/Reliant_Hang-info.txt",
+      "bytes": 1951,
+      "sha256": "2bb5fdcee016f05a8ae321d63bf566b407e2e8d4db95334bb59e9ad33c6ec3c4"
+    },
+    {
+      "path": "source/originals/Reliant_Hang.SHP",
+      "bytes": 63082,
+      "sha256": "7cdf2df5926be4dfd65378fd95836d7a9ab572da2cc8f93f4924603f87bd727a"
+    },
+    {
+      "path": "source/originals/Reliant_destback-components.txt",
+      "bytes": 60,
+      "sha256": "31aa1bbb248bddbb0556dccb7f1466115075b0d3e10e2b451f4d9d3737a1a008"
+    },
+    {
+      "path": "source/originals/Reliant_destback-info.txt",
+      "bytes": 557,
+      "sha256": "4d4344fc179fe0ee22b75021546d6a693ac298c9337239a0b8eb59c5205a2cb7"
+    },
+    {
+      "path": "source/originals/Reliant_destback.SHP",
+      "bytes": 44842,
+      "sha256": "0477385ebcc8b616ee34fc1c78daf8515b3497fffd34a1f8a91aec7d521a1a23"
+    },
+    {
+      "path": "source/originals/hangar/relint_1.png",
+      "bytes": 58457,
+      "sha256": "4ce189d92525bdd0d5058119282576dbf89b7efd6d133e0d66349e89e9f2d92a"
+    },
+    {
+      "path": "source/originals/hangar/relint_2.png",
+      "bytes": 52229,
+      "sha256": "cbefd9ee3a81cc530afbdea2a74d1b7668b224ff12447dd21f556d3d39beb00f"
+    },
+    {
+      "path": "source/originals/hangar/relint_3.png",
+      "bytes": 54392,
+      "sha256": "8a38b95efb1542ac99ff3e5b3e326956f3e5e63a200880bffe52fd7360237f13"
+    },
+    {
+      "path": "source/originals/native_parts.json",
+      "bytes": 4514863,
+      "sha256": "48f929541091697c24dd5bebee2d0405c7289304d575cd00b30fb70cba8b6e7a"
+    },
+    {
+      "path": "source/originals/reliant.bin",
+      "bytes": 196896,
+      "sha256": "b142d4f543651204cc828ab547aa616d4678f83703918f68d42170d6b3442c41"
+    },
+    {
+      "path": "source/originals/reliant.gltf",
+      "bytes": 49019,
+      "sha256": "9f8be34a4a822ec7372d70d923bcee83720829228eebed2f60b2f4403e2d75fa"
+    },
+    {
+      "path": "source/originals/texture-users.json",
+      "bytes": 314,
+      "sha256": "907766831b0a22072a62e9b5aa66ad7d1b3460e49623eea169d2105036beaf55"
+    },
+    {
+      "path": "source/reliant_hangar_v11.blend",
+      "bytes": 36088457,
+      "sha256": "be99f1015531cea52a0df059467666a33a3660af2b102394c1e9ed48bb5b3baa"
+    },
+    {
+      "path": "source/reliant_worn_pbr_v11.blend",
+      "bytes": 60428139,
+      "sha256": "4027fb931b16c67e6ad368d7a66634c835b3eaf51a63cd615f74f4a39ddcdbc7"
+    }
+  ]
+}

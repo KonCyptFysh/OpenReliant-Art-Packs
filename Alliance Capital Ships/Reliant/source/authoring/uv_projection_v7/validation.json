@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "engine": "official OpenReliant 0.18.0",
+  "native_uv_faces": 8,
+  "detail_levels": [
+    0,
+    1
+  ],
+  "stored_uv_metrics": [
+    {
+      "lod": 0,
+      "face": 468,
+      "stored_row_tilt_degrees": 0.0
+    },
+    {
+      "lod": 0,
+      "face": 469,
+      "stored_row_tilt_degrees": 4.932788569205577e-07
+    },
+    {
+      "lod": 0,
+      "face": 474,
+      "stored_row_tilt_degrees": -2.882617793877256e-07
+    },
+    {
+      "lod": 0,
+      "face": 475,
+      "stored_row_tilt_degrees": -5.966900536057266e-07
+    },
+    {
+      "lod": 1,
+      "face": 241,
+      "stored_row_tilt_degrees": 0.0
+    },
+    {
+      "lod": 1,
+      "face": 242,
+      "stored_row_tilt_degrees": 4.932789421845603e-07
+    },
+    {
+      "lod": 1,
+      "face": 245,
+      "stored_row_tilt_degrees": -2.882617793877256e-07
+    },
+    {
+      "lod": 1,
+      "face": 246,
+      "stored_row_tilt_degrees": -5.966900536057266e-07
+    }
+  ],
+  "visible_windows_contained": 21,
+  "all_non_uv_native_bytes_unchanged": true,
+  "all_texture_maps_unchanged": true,
+  "originals_unchanged": true,
+  "scene": {
+    "passed": true,
+    "uv_corners_updated": 12,
+    "geometry_unchanged": true,
+    "geometry_sha256": "a67c98d9f67be45bb7f7f4408e62826dc739ecb1e83ece8ee2ddb851de19e639"
+  },
+  "native_checks": [
+    {
+      "file": "Reliant.SHP",
+      "result": "ok: 24 parts, 3280 vertices, 5007 faces\nbounds: 24 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "Reliant_destback.SHP",
+      "result": "ok: 1 part, 208 vertices, 412 faces\nbounds: 1 model_space\nrewritten byte for byte"
+    }
+  ],
+  "packages": [
+    {
+      "tier": "4k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "sha256": "cbe88a4b48d9a6b0732faa0c9bed78b5864232a43ab67f185656d11e62472396",
+      "bytes": 90457093
+    },
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "sha256": "275219d47aa0215ee2351ed197ba17a5551b374b7e600847f0c799a53c1448da",
+      "bytes": 33756130
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "sha256": "5eb429c6fc21245d191cda8523248b5de8d3d7e4ec6341e5bf708e0a2d0e6925",
+      "bytes": 12233357
+    }
+  ],
+  "installed_hashes_match": true,
+  "evidence": [
+    "v6-forward-panel",
+    "v7-forward-panel",
+    "v7-forward-windows",
+    "v7-port-panel",
+    "v7-port-panel-rotated",
+    "v7-forward-panel-rotated"
+  ],
+  "user_visual_approval_pending": true,
+  "installed_runtime_started_cleanly": true
+}

@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "tier": "4k",
+      "file": "orr_hang1_normal.png",
+      "max_normal_error": 0.006216883659362793
+    },
+    {
+      "tier": "4k",
+      "file": "orr_hang2_normal.png",
+      "max_normal_error": 0.006270289421081543
+    },
+    {
+      "tier": "4k",
+      "file": "orr_hang3_normal.png",
+      "max_normal_error": 0.0063925981521606445
+    },
+    {
+      "tier": "4k",
+      "file": "orr_tube_normal.png",
+      "max_normal_error": 0.00590747594833374
+    },
+    {
+      "tier": "2k",
+      "file": "orr_hang1_normal.png",
+      "max_normal_error": 0.00590747594833374
+    },
+    {
+      "tier": "2k",
+      "file": "orr_hang2_normal.png",
+      "max_normal_error": 0.00590747594833374
+    },
+    {
+      "tier": "2k",
+      "file": "orr_hang3_normal.png",
+      "max_normal_error": 0.00590747594833374
+    },
+    {
+      "tier": "2k",
+      "file": "orr_tube_normal.png",
+      "max_normal_error": 0.005288898944854736
+    },
+    {
+      "tier": "1k",
+      "file": "orr_hang1_normal.png",
+      "max_normal_error": 0.006209135055541992
+    },
+    {
+      "tier": "1k",
+      "file": "orr_hang2_normal.png",
+      "max_normal_error": 0.006209135055541992
+    },
+    {
+      "tier": "1k",
+      "file": "orr_hang3_normal.png",
+      "max_normal_error": 0.0063925981521606445
+    },
+    {
+      "tier": "1k",
+      "file": "orr_tube_normal.png",
+      "max_normal_error": 0.005783736705780029
+    }
+  ]
+}

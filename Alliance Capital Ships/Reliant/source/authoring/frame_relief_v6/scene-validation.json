@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "geometry_and_uv_identical": true,
+  "geometry_sha256": "6cede49649fe771b65f51e816bf05cff02f40843e3f4e44ff64a6ce71d24212e",
+  "packed_images_match": [
+    "orr2_hull_normal.png",
+    "orr2_hull_orm.png"
+  ]
+}

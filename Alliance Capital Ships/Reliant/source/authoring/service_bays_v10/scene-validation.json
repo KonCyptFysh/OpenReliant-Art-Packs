@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "geometry_and_uv_identical": true,
+  "geometry_sha256": "147171f2dcf0a45c3515c831758ec0e204646c91202b17065e29270ccf3fd8c5",
+  "packed_images_match": [
+    "orr2_hull.png",
+    "orr2_hull_normal.png",
+    "orr2_hull_orm.png",
+    "orr2_hull_emissive.png"
+  ]
+}

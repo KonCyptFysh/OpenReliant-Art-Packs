@@ -1,0 +1,277 @@
+version:  107
+flags:    components=true cloak=false
+parts:    24
+vertices: 3280
+faces:    5007
+arcs:     16
+bounds:   (-15805,-11890,-31478) to (-58,1678,21770), 15746 x 13568 x 53248
+
+[  0] Rel bot dr 1                       type  0  parent  -1  link 0
+        lod 0:     6 vertices     4 faces   3 materials  beyond 80000
+        lod 1:     6 vertices     4 faces   3 materials  beyond 160000
+        lod 2:     6 vertices     4 faces   3 materials  beyond 240000
+        lod 3:     6 vertices     4 faces   3 materials  beyond 320000
+        lod 4:     6 vertices     4 faces   3 materials  beyond 400000
+        lod 5:     4 vertices     2 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'opendoor' length 400 mode 1, 4 keyframes, 0 events
+[  1] Rel bot dr 2                       type  0  parent  -1  link 0
+        lod 0:     6 vertices     4 faces   3 materials  beyond 80000
+        lod 1:     6 vertices     4 faces   3 materials  beyond 160000
+        lod 2:     6 vertices     4 faces   3 materials  beyond 240000
+        lod 3:     6 vertices     4 faces   3 materials  beyond 320000
+        lod 4:     6 vertices     4 faces   3 materials  beyond 400000
+        lod 5:     6 vertices     4 faces   3 materials  beyond 480000
+        lod 6:     4 vertices     2 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'opendoor' length 400 mode 1, 4 keyframes, 0 events
+[  2] Rel bot dr 3                       type  0  parent  -1  link 0
+        lod 0:     6 vertices     4 faces   3 materials  beyond 80000
+        lod 1:     6 vertices     4 faces   3 materials  beyond 160000
+        lod 2:     6 vertices     4 faces   3 materials  beyond 240000
+        lod 3:     6 vertices     4 faces   3 materials  beyond 320000
+        lod 4:     5 vertices     3 faces   3 materials  beyond 400000
+        lod 5:     5 vertices     3 faces   3 materials  beyond 480000
+        lod 6:     3 vertices     1 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'opendoor' length 400 mode 1, 4 keyframes, 0 events
+[  3] Rel bot dr 4                       type  0  parent  -1  link 0
+        lod 0:     6 vertices     4 faces   3 materials  beyond 80000
+        lod 1:     6 vertices     4 faces   3 materials  beyond 160000
+        lod 2:     6 vertices     4 faces   3 materials  beyond 240000
+        lod 3:     6 vertices     4 faces   3 materials  beyond 320000
+        lod 4:     6 vertices     4 faces   3 materials  beyond 400000
+        lod 5:     6 vertices     4 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'opendoor' length 400 mode 1, 4 keyframes, 0 events
+[  4] Rel bot dr 5                       type  0  parent  -1  link 0
+        lod 0:     6 vertices     4 faces   3 materials  beyond 80000
+        lod 1:     6 vertices     4 faces   3 materials  beyond 160000
+        lod 2:     6 vertices     4 faces   3 materials  beyond 240000
+        lod 3:     6 vertices     4 faces   3 materials  beyond 320000
+        lod 4:     5 vertices     3 faces   3 materials  beyond 400000
+        lod 5:     5 vertices     3 faces   3 materials  beyond 480000
+        lod 6:     3 vertices     1 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'opendoor' length 400 mode 1, 4 keyframes, 0 events
+[  5] Rel bot dr 6                       type  0  parent  -1  link 0
+        lod 0:     6 vertices     4 faces   3 materials  beyond 80000
+        lod 1:     6 vertices     4 faces   3 materials  beyond 160000
+        lod 2:     6 vertices     4 faces   3 materials  beyond 240000
+        lod 3:     6 vertices     4 faces   3 materials  beyond 320000
+        lod 4:     6 vertices     4 faces   3 materials  beyond 400000
+        lod 5:     6 vertices     4 faces   3 materials  beyond 480000
+        lod 6:     4 vertices     2 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'opendoor' length 400 mode 1, 4 keyframes, 0 events
+[  6] Rel top dr 1                       type  0  parent  -1  link 0
+        lod 0:     6 vertices     4 faces   3 materials  beyond 80000
+        lod 1:     6 vertices     4 faces   3 materials  beyond 160000
+        lod 2:     6 vertices     4 faces   3 materials  beyond 240000
+        lod 3:     6 vertices     4 faces   3 materials  beyond 320000
+        lod 4:     6 vertices     4 faces   3 materials  beyond 400000
+        lod 5:     6 vertices     4 faces   3 materials  beyond 480000
+        lod 6:     4 vertices     2 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip 'opendoor2' length 400 mode 1, 3 keyframes, 0 events
+[  7] Rel top dr 2                       type  0  parent  -1  link 0
+        lod 0:     6 vertices     4 faces   3 materials  beyond 80000
+        lod 1:     6 vertices     4 faces   3 materials  beyond 160000
+        lod 2:     6 vertices     4 faces   3 materials  beyond 240000
+        lod 3:     6 vertices     4 faces   3 materials  beyond 320000
+        lod 4:     5 vertices     3 faces   3 materials  beyond 400000
+        lod 5:     5 vertices     3 faces   3 materials  beyond 480000
+        lod 6:     5 vertices     3 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[  8] Rel top dr 3                       type  0  parent  -1  link 0
+        lod 0:     6 vertices     4 faces   3 materials  beyond 80000
+        lod 1:     6 vertices     4 faces   3 materials  beyond 160000
+        lod 2:     6 vertices     4 faces   3 materials  beyond 240000
+        lod 3:     6 vertices     4 faces   3 materials  beyond 320000
+        lod 4:     6 vertices     4 faces   3 materials  beyond 400000
+        lod 5:     6 vertices     4 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[  9] Rel top dr 4                       type  0  parent  -1  link 0
+        lod 0:     6 vertices     4 faces   3 materials  beyond 80000
+        lod 1:     6 vertices     4 faces   3 materials  beyond 160000
+        lod 2:     6 vertices     4 faces   3 materials  beyond 240000
+        lod 3:     6 vertices     4 faces   3 materials  beyond 320000
+        lod 4:     5 vertices     3 faces   3 materials  beyond 400000
+        lod 5:     5 vertices     3 faces   3 materials  beyond 480000
+        lod 6:     3 vertices     1 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[ 10] Rel top dr 5                       type  0  parent  -1  link 0
+        lod 0:     6 vertices     4 faces   3 materials  beyond 80000
+        lod 1:     6 vertices     4 faces   3 materials  beyond 160000
+        lod 2:     6 vertices     4 faces   3 materials  beyond 240000
+        lod 3:     6 vertices     4 faces   3 materials  beyond 320000
+        lod 4:     6 vertices     4 faces   3 materials  beyond 400000
+        lod 5:     5 vertices     3 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[ 11] Rel top dr 6                       type  0  parent  -1  link 0
+        lod 0:     6 vertices     4 faces   3 materials  beyond 80000
+        lod 1:     6 vertices     4 faces   3 materials  beyond 160000
+        lod 2:     6 vertices     4 faces   3 materials  beyond 240000
+        lod 3:     6 vertices     4 faces   3 materials  beyond 320000
+        lod 4:     6 vertices     4 faces   3 materials  beyond 400000
+        lod 5:     6 vertices     4 faces   3 materials  beyond 480000
+        lod 6:     4 vertices     2 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[ 12] Rel torp target 1                  type  0  parent  -1  link 1
+        lod 0:    21 vertices    27 faces   3 materials  beyond 80000
+        lod 1:    15 vertices    16 faces   3 materials  beyond 160000
+        lod 2:    10 vertices     9 faces   3 materials  beyond 240000
+        lod 3:     5 vertices     3 faces   3 materials  beyond 320000
+        lod 4:     3 vertices     1 faces   3 materials  beyond 400000
+        lod 5:     3 vertices     1 faces   3 materials  beyond 480000
+        lod 6:     3 vertices     1 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[ 13] Rel torp target 1 DEST             type  0  parent  -1  link 1
+        lod 0:    15 vertices    15 faces   1 materials  beyond 80000
+        lod 1:    13 vertices    12 faces   1 materials  beyond 160000
+        lod 2:     9 vertices     7 faces   1 materials  beyond 240000
+        lod 3:     5 vertices     3 faces   1 materials  beyond 320000
+        lod 4:     3 vertices     1 faces   1 materials  beyond 400000
+        lod 5:     3 vertices     1 faces   1 materials  beyond 480000
+        lod 6:     3 vertices     1 faces   1 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[ 14] Rel torp target 2                  type  0  parent  -1  link 2
+        lod 0:    24 vertices    28 faces   3 materials  beyond 80000
+        lod 1:    18 vertices    17 faces   3 materials  beyond 160000
+        lod 2:    14 vertices    10 faces   3 materials  beyond 240000
+        lod 3:    11 vertices     7 faces   3 materials  beyond 320000
+        lod 4:     9 vertices     5 faces   3 materials  beyond 400000
+        lod 5:     9 vertices     5 faces   3 materials  beyond 480000
+        lod 6:     9 vertices     5 faces   3 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[ 15] Rel torp target 2 DEST             type  0  parent  -1  link 2
+        lod 0:    24 vertices    28 faces   1 materials  beyond 80000
+        lod 1:    20 vertices    21 faces   1 materials  beyond 160000
+        lod 2:    14 vertices    10 faces   1 materials  beyond 240000
+        lod 3:     7 vertices     5 faces   1 materials  beyond 320000
+        lod 4:     5 vertices     3 faces   1 materials  beyond 400000
+        lod 5:     5 vertices     3 faces   1 materials  beyond 480000
+        lod 6:     3 vertices     1 faces   1 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[ 16] Reliant Body                       type  1  parent  -1  link 3
+        lod 0:   530 vertices  1029 faces   3 materials  beyond 80000
+        lod 1:   318 vertices   608 faces   3 materials  beyond 160000
+        lod 2:   190 vertices   360 faces   3 materials  beyond 240000
+        lod 3:   115 vertices   225 faces   3 materials  beyond 320000
+        lod 4:    67 vertices   136 faces   3 materials  beyond 400000
+        lod 5:    38 vertices    67 faces   3 materials  beyond 480000
+        lod 6:    32 vertices    55 faces   3 materials  beyond 8000000
+        63 nodes, 13 attachments, 1 clips, 2 point lists, 0 triggers
+          points kind 2: 83
+          points kind 5: 3
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          gun 1 at (66,2546,-12777)
+          gun 1 at (66,-2820,23652)
+          gun 1 at (66,-5141,-7827)
+          gun 1 at (66,-5141,-14256)
+          gun 1 at (-36,1092,24303)
+          dock point 9 at (-43,81,27706)
+          gun 1 at (-80,1092,4660)
+          light 4 at (91,-1860,1056)  id 3 brightness 1.00 range 1000 size (300.0,300.0)
+          light 4 at (34,-1860,21747)  id 3 brightness 1.00 range 1000 size (300.0,300.0)
+          light 4 at (54,-1860,14844)  id 3 brightness 1.00 range 1000 size (300.0,300.0)
+          light 4 at (39,-1860,8021)  id 3 brightness 1.00 range 1000 size (300.0,300.0)
+          light 4 at (81,-1860,-5781)  id 3 brightness 1.00 range 1000 size (300.0,300.0)
+          light 4 at (-12,2544,-9137)  id 3 brightness 1.00 range 1000 size (300.0,300.0)  blinks 100 on, 800 off, from 700
+[ 17] Reliant Comms                      type  0  parent  -1  link 4
+        lod 0:    32 vertices    46 faces   3 materials  beyond 80000
+        lod 1:    18 vertices    19 faces   3 materials  beyond 160000
+        lod 2:    15 vertices    15 faces   3 materials  beyond 240000
+        lod 3:    10 vertices     9 faces   3 materials  beyond 320000
+        lod 4:     5 vertices     6 faces   3 materials  beyond 400000
+        lod 5:     4 vertices     4 faces   3 materials  beyond 480000
+        lod 6:     4 vertices     4 faces   3 materials  beyond 8000000
+        3 nodes, 2 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          light 4 at (-1834,-104,5840)  id 3 brightness 1.00 range 1000 size (300.0,300.0)  blinks 100 on, 900 off, from 600
+          light 4 at (1802,-109,5842)  id 3 brightness 1.00 range 1000 size (300.0,300.0)  blinks 100 on, 900 off, from 600
+[ 18] Reliant Comms DEST                 type  0  parent  -1  link 4
+        lod 0:    36 vertices    54 faces   1 materials  beyond 80000
+        lod 1:    22 vertices    27 faces   1 materials  beyond 160000
+        lod 2:    12 vertices     9 faces   1 materials  beyond 240000
+        lod 3:     8 vertices     4 faces   1 materials  beyond 320000
+        lod 4:     5 vertices     2 faces   1 materials  beyond 400000
+        lod 5:     3 vertices     1 faces   1 materials  beyond 480000
+        lod 6:     3 vertices     1 faces   1 materials  beyond 8000000
+        3 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[ 19] Reliant Eng                        type  5  parent  -1  link 5
+        lod 0:    76 vertices   124 faces   3 materials  beyond 80000
+        lod 1:    62 vertices    96 faces   3 materials  beyond 160000
+        lod 2:    45 vertices    64 faces   3 materials  beyond 240000
+        lod 3:    20 vertices    21 faces   3 materials  beyond 320000
+        lod 4:     3 vertices     2 faces   3 materials  beyond 400000
+        lod 5:     3 vertices     2 faces   3 materials  beyond 480000
+        lod 6:     3 vertices     2 faces   3 materials  beyond 8000000
+        7 nodes, 4 attachments, 1 clips, 1 point lists, 0 triggers
+          points kind 7: 3
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          engine glow 2 at (-128,-45,-27)  id 6 size (2500,2500,10000)
+          engine glow 2 at (3823,-45,1373)  id 6 size (1500,1500,8000)
+          engine glow 2 at (-4062,-45,1373)  id 6 size (1500,1500,8000)
+          gun 1 at (-138,-2664,264)
+[ 20] Reliant Eng DEST                   type  0  parent  -1  link 5
+        lod 0:    44 vertices    60 faces   1 materials  beyond 80000
+        lod 1:    32 vertices    36 faces   1 materials  beyond 160000
+        lod 2:    27 vertices    28 faces   1 materials  beyond 240000
+        lod 3:    18 vertices    17 faces   1 materials  beyond 320000
+        lod 4:     5 vertices     6 faces   1 materials  beyond 400000
+        lod 5:     5 vertices     6 faces   1 materials  beyond 480000
+        lod 6:     5 vertices     6 faces   1 materials  beyond 8000000
+        3 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[ 21] Reliant shld gen                   type  6  parent  -1  link 6
+        lod 0:    22 vertices    38 faces   3 materials  beyond 80000
+        lod 1:    14 vertices    22 faces   3 materials  beyond 160000
+        lod 2:    12 vertices    18 faces   3 materials  beyond 240000
+        lod 3:    12 vertices    18 faces   3 materials  beyond 320000
+        lod 4:     9 vertices    12 faces   3 materials  beyond 400000
+        lod 5:     5 vertices     5 faces   3 materials  beyond 8000000
+        1 nodes, 7 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+          gun 1 at (12,248,-1806)
+          pod 5 at (1007,65,1500)
+          pod 5 at (361,65,1500)
+          pod 5 at (-330,65,1500)
+          pod 5 at (-1003,65,1500)
+          light 4 at (-1871,172,5047)  id 3 brightness 1.00 range 1000 size (300.0,300.0)  blinks 100 on, 900 off, from 300
+          light 4 at (1894,161,5048)  id 3 brightness 1.00 range 1000 size (300.0,300.0)  blinks 100 on, 900 off, from 300
+[ 22] Reliant shld gen DEST              type  0  parent  -1  link 6
+        lod 0:     6 vertices     6 faces   1 materials  beyond 80000
+        lod 1:     4 vertices     2 faces   1 materials  beyond 160000
+        lod 2:     4 vertices     2 faces   1 materials  beyond 240000
+        lod 3:     4 vertices     2 faces   1 materials  beyond 320000
+        lod 4:     4 vertices     2 faces   1 materials  beyond 400000
+        lod 5:     4 vertices     2 faces   1 materials  beyond 480000
+        lod 6:     4 vertices     2 faces   1 materials  beyond 8000000
+        1 nodes, 0 attachments, 1 clips, 0 point lists, 0 triggers
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+[ 23] Rel frnt DEST                      type  1  parent  -1  link 0
+        lod 0:   278 vertices   548 faces  10 materials  beyond 80000
+        lod 1:   160 vertices   312 faces  10 materials  beyond 160000
+        lod 2:    85 vertices   162 faces  10 materials  beyond 240000
+        lod 3:    48 vertices    87 faces  10 materials  beyond 320000
+        lod 4:    31 vertices    50 faces  10 materials  beyond 400000
+        lod 5:    18 vertices    24 faces  10 materials  beyond 480000
+        lod 6:     7 vertices     5 faces  10 materials  beyond 8000000
+        31 nodes, 0 attachments, 1 clips, 3 point lists, 0 triggers
+          points kind 1: 8
+          points kind 3: 8
+          points kind 4: 1
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+
+textures (4): REL_1 REL_2 REL_3 DAM_1

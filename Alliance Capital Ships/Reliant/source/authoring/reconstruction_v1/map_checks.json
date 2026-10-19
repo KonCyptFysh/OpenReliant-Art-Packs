@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "maps": [
+    {
+      "role": "rel1",
+      "normal_max_unit_error": 0.005598127841949463,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "emissive_fraction": 0.002459704875946045
+    },
+    {
+      "role": "rel2",
+      "normal_max_unit_error": 0.0063925981521606445,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "emissive_fraction": 0.01443624496459961
+    },
+    {
+      "role": "rel3",
+      "normal_max_unit_error": 0.005658745765686035,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "emissive_fraction": 0.0006304383277893066
+    }
+  ],
+  "no_colour_variant_duplicates": true
+}

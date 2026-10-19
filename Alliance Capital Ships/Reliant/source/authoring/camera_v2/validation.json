@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "engine": "official OpenReliant 0.18.0",
+  "camera_motion_checks": 9,
+  "runtime": "registered view, standard/detail toggle, bridge and engine focus, close zoom and pan callback passed",
+  "art_native_models_and_lighting_byte_unchanged": true,
+  "changed_files": [
+    "mod.ini",
+    "reliant_inspection.luau"
+  ],
+  "added_files": [
+    "reliant_camera.luau",
+    "reliant_camera_motion.luau"
+  ],
+  "installed_hashes_match": true,
+  "packages": [
+    {
+      "tier": "4k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "sha256": "e89c8fbcb790f27140997a11ea3a0e5f20dee4991a39dc083bfe1ddf4c7ea5d9"
+    },
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "sha256": "b5c55882143117d6f18ef761099f27e0ce74b02d5d216c9b62a060ab8ceb7149"
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "sha256": "a5bbfe805afee4ef082d04144f5d109f810fc139eea69fbee7148b0680d238dd"
+    }
+  ]
+}

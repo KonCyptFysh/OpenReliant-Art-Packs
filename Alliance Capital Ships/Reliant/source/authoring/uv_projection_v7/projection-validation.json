@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "metrics": [
+    {
+      "part": 16,
+      "lod": 0,
+      "face": 468,
+      "side": -1,
+      "before_row_tilt_degrees": 0.1787041796661648,
+      "after_row_tilt_degrees": 0.0
+    },
+    {
+      "part": 16,
+      "lod": 0,
+      "face": 469,
+      "side": -1,
+      "before_row_tilt_degrees": 0.1090708541890515,
+      "after_row_tilt_degrees": -2.0576685125064115e-15
+    },
+    {
+      "part": 16,
+      "lod": 0,
+      "face": 474,
+      "side": 1,
+      "before_row_tilt_degrees": 0.07028800289928759,
+      "after_row_tilt_degrees": 1.0691826934708056e-15
+    },
+    {
+      "part": 16,
+      "lod": 0,
+      "face": 475,
+      "side": 1,
+      "before_row_tilt_degrees": -2.279783447379723,
+      "after_row_tilt_degrees": 0.0
+    },
+    {
+      "part": 16,
+      "lod": 1,
+      "face": 241,
+      "side": -1,
+      "before_row_tilt_degrees": 0.17870418013307351,
+      "after_row_tilt_degrees": 2.3058765937874653e-15
+    },
+    {
+      "part": 16,
+      "lod": 1,
+      "face": 242,
+      "side": -1,
+      "before_row_tilt_degrees": 0.10907087304206944,
+      "after_row_tilt_degrees": -2.0576688681775514e-15
+    },
+    {
+      "part": 16,
+      "lod": 1,
+      "face": 245,
+      "side": 1,
+      "before_row_tilt_degrees": 0.07028800289928759,
+      "after_row_tilt_degrees": 1.0691826934708056e-15
+    },
+    {
+      "part": 16,
+      "lod": 1,
+      "face": 246,
+      "side": 1,
+      "before_row_tilt_degrees": -2.279783447379723,
+      "after_row_tilt_degrees": 0.0
+    }
+  ],
+  "native_checks": [
+    {
+      "file": "Reliant.SHP",
+      "result": "ok: 24 parts, 3280 vertices, 5007 faces\nbounds: 24 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "Reliant_destback.SHP",
+      "result": "ok: 1 part, 208 vertices, 412 faces\nbounds: 1 model_space\nrewritten byte for byte"
+    }
+  ]
+}

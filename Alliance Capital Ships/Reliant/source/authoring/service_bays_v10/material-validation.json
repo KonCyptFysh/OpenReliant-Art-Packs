@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "bays": [
+    17,
+    18,
+    19
+  ],
+  "engineering_tiers": 3,
+  "shared_registration": true,
+  "changed_pixels": {
+    "orr2_hull.png": 692637,
+    "orr2_hull_normal.png": 678988,
+    "orr2_hull_orm.png": 694656,
+    "orr2_hull_height.png": 512843,
+    "orr2_hull_height.npy": 687056
+  },
+  "frame_colour_and_relief_unchanged": true,
+  "pixels_outside_bays_unchanged": true,
+  "all_64_windows_and_all_emission_unchanged": true,
+  "originals_unchanged": true,
+  "tiers": {
+    "4k": {
+      "normal_max_length_error": 0.0064536333084106445,
+      "native_mesh_and_uv_byte_identical": true,
+      "scripts_byte_identical": true,
+      "windows_and_emission_unchanged": true,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "2k": {
+      "normal_max_length_error": 0.006031215190887451,
+      "native_mesh_and_uv_byte_identical": true,
+      "scripts_byte_identical": true,
+      "windows_and_emission_unchanged": true,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "1k": {
+      "normal_max_length_error": 0.006147980690002441,
+      "native_mesh_and_uv_byte_identical": true,
+      "scripts_byte_identical": true,
+      "windows_and_emission_unchanged": true,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    }
+  },
+  "scene": {
+    "passed": true,
+    "geometry_and_uv_identical": true,
+    "geometry_sha256": "147171f2dcf0a45c3515c831758ec0e204646c91202b17065e29270ccf3fd8c5",
+    "packed_images_match": [
+      "orr2_hull.png",
+      "orr2_hull_normal.png",
+      "orr2_hull_orm.png",
+      "orr2_hull_emissive.png"
+    ]
+  }
+}

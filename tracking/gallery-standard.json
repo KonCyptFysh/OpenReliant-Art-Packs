@@ -4,7 +4,8 @@
     "alliance-fighters",
     "coalition-fighters",
     "torpedo-bombers",
-    "corvettes-and-gunboats"
+    "corvettes-and-gunboats",
+    "alliance-capital-ships"
   ],
   "engine": "Official OpenReliant 0.8.1",
   "watch_from": [
@@ -33,7 +34,8 @@
   "authorization": "User requested matching fresh gallery photos and persistence for future Git publications, 12 October 2026, Australia/Melbourne.",
   "engine_overrides": {
     "kurgen": "Official OpenReliant 0.18.0",
-    "prowler": "Official OpenReliant 0.18.0"
+    "prowler": "Official OpenReliant 0.18.0",
+    "reliant": "Official OpenReliant 0.18.0"
   },
-  "engine_override_reason": "Kurgen and Prowler require the official 0.18.0 surface API. Shared camera, nebula, framing and capture provenance are unchanged."
+  "engine_override_reason": "Kurgen, Prowler and Reliant require official 0.18.0 surface APIs. Shared camera, nebula, framing and capture provenance are unchanged."
 }

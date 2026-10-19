@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "engine": "official OpenReliant 0.18.0",
+  "surface_revision": 10,
+  "material_validation": "${RELIANT_WORKSPACE}/work/service_bays_v10/material-validation.json",
+  "bays": [
+    17,
+    18,
+    19
+  ],
+  "geometry_uv_and_scripts_unchanged": true,
+  "frames_windows_and_emission_unchanged": true,
+  "flight_review_preserved": true,
+  "originals_unchanged": true,
+  "packages": [
+    {
+      "tier": "4k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "sha256": "ff516a8c1aaa48beef877eadd5b5ce5b6a59e9b243c6bead34581e7e34bf135c",
+      "bytes": 92264458
+    },
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "sha256": "b44fc0ae9f0c155e6b99a038088b34c01049a0125465617164a98b826ce93e86",
+      "bytes": 34345677
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "sha256": "790ec2203cd90b0c7d97889e79c30701d7a75f231f998641a25997b19510fa34",
+      "bytes": 12401804
+    }
+  ],
+  "installed_hashes_match": true,
+  "evidence": [
+    "v10-machinery",
+    "v10-machinery-left-rotated-2k",
+    "v10-machinery-opposite-1k"
+  ],
+  "user_visual_approval_pending": true
+}

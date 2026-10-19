@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "engine": "official OpenReliant 0.18.0",
+  "scope": "Interior materials, native model preservation, launch beacon visibility and landing integration",
+  "description": {
+    "revision": 11,
+    "launch_hangar_atlases": 3,
+    "tube_wall_triangles_lod0": 48,
+    "inward_door_triangles_lod0": 24,
+    "native_units_per_tile": 1800,
+    "generated_source_dimensions": [
+      1254,
+      1254
+    ],
+    "authoring_map_dimensions": [
+      2048,
+      2048
+    ],
+    "four_k_maps_resampled": true,
+    "lighting": "Native beacon timing/phase/positions preserved; range +50%; steady red fill dimmed with approximately preserved reach",
+    "normals": "Colour-registered structural relief, paint microtexture suppressed",
+    "geometry_preserved": true,
+    "collision_leaf_geometry_verified": true,
+    "exterior_colour_and_materials_unchanged": true
+  },
+  "beacon_red_mean_on_off_ratio": 1.868839072127877,
+  "normal_material_checks": "material-validation.json",
+  "native_collision_checks": "native-validation.json",
+  "scene_checks": "scene-validation.json",
+  "uniform_scale_checks": "uv-scale-validation.json",
+  "comms_landing": {
+    "native_sequence_reached_end": true,
+    "log": "validated-flight-landing.log",
+    "observer_warning": "Old probe required a full review-door cycle before landing; this interactive run requested landing early. Production scripts had no warnings."
+  },
+  "door_cycle": {
+    "open_close_observed": true,
+    "log": "landing-final.log",
+    "note": "Deterministic diagnostic landing capture; its shutdown is a screenshot exit, not proof of native mission end."
+  },
+  "packages": [
+    {
+      "tier": "4k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "sha256": "277b54bbba93525a14f85e606f1615ff4d6cdb92f74fc551b089c8bf46d08915",
+      "bytes": 217756616
+    },
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "sha256": "428cdebe95fd7982d9def5ce71072e56761365af729f0ebbfd3911d2538a40c7",
+      "bytes": 78200202
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "sha256": "1e76d8613ff6847c61e09cc7e5bf7a4ddf20e8b9d33d03e71f3fafe63d15feb8",
+      "bytes": 26957685
+    }
+  ],
+  "installed_hashes_match": true,
+  "launcher": "${OPENRELIANT_HOME}/launch-reliant-flight-test.sh",
+  "originals_preserved": true,
+  "user_visual_approval_pending": true
+}

@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "engine": "official OpenReliant 0.18.0",
+  "material_validation": "${RELIANT_WORKSPACE}/work/machinery_v9/material-validation.json",
+  "bays": [
+    17,
+    18,
+    19
+  ],
+  "component_count": 123,
+  "geometry_uv_and_scripts_unchanged": true,
+  "frames_windows_and_emission_unchanged": true,
+  "originals_unchanged": true,
+  "packages": [
+    {
+      "tier": "4k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "sha256": "654522273ccf1814ccd59a399fcebf404168f4f84ee3d6d0cbc06e7a16e26ac5",
+      "bytes": 90431436
+    },
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "sha256": "7f4cfc4517254531b366d9459b9175c407ffe870ea5afa880ae5f7b9ed4a17f2",
+      "bytes": 33758997
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "sha256": "aaedb037e0694269d392412e32d479fc403c5af539044e52290d102bc1cfac4e",
+      "bytes": 12236419
+    }
+  ],
+  "installed_hashes_match": true,
+  "evidence": [
+    "v9-machinery-left",
+    "v9-machinery-left-rotated-2k",
+    "v9-machinery-opposite-rotated-1k"
+  ],
+  "user_visual_approval_pending": true
+}

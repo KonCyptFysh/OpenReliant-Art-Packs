@@ -1,7 +1,7 @@
 {
   "profile": "ship-gallery-v1",
-  "ships": 29,
-  "photographs": 33,
+  "ships": 30,
+  "photographs": 34,
   "captures": [
     {
       "asset": "coyote",
@@ -1617,6 +1617,55 @@
         506,
         2003,
         1523
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "reliant",
+      "livery": "worn-paint",
+      "artwork_revision": "11.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 12,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.18.0",
+      "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Alliance Capital Ships/Reliant/asset-manifest.json",
+      "runtime_manifest_sha256": "d8ffb786a02127ad6a341b266bfe2e87bb33cb03ca41331b1098b899858903e8",
+      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Reliant/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "6050ff37b3d1de12c4ac5e42696991696033e56ab61d34619ae680165e457c0d",
+      "captured_at_utc": "2026-10-19T09:28:10.249990+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/reliant/gallery-overview-v1.webp",
+      "gallery_sha256": "680aead8543b29be906d3066130e448fd960e25cc422c8cda4edfa29cfe44652",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        977,
+        762,
+        1891,
+        1325
+      ],
+      "crop": [
+        794,
+        564,
+        2074,
+        1524
       ],
       "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }

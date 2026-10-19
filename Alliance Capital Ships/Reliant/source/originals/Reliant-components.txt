@@ -1,0 +1,7 @@
+index  part  class  link  armor  model                 name
+    0    12      0     1    100  Reliant.SHP           Rel torp target 1
+    1    14      0     2    100  Reliant.SHP           Rel torp target 2
+    2    16      1     3  20000  Reliant.SHP           Reliant Body
+    3    17      0     4    100  Reliant.SHP           Reliant Comms
+    4    19      5     5    100  Reliant.SHP           Reliant Eng
+    5    21      6     6    100  Reliant.SHP           Reliant shld gen

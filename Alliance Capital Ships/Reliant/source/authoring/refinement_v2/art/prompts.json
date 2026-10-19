@@ -1,0 +1,21 @@
+{
+  "tool": "built-in imagegen",
+  "edits": [
+    {
+      "target": "REL_2 windows",
+      "prompt": "Use case: precise-object-edit. Edit the attached square StarLancer Reliant texture atlas. Preserve the exact atlas layout, every metal panel boundary, vent, bracing beam, worn dark gunmetal finish and yellow hazard stripes. Change ONLY the existing yellow/amber window panes: make each existing luminous patch into a clean deliberate rectangular pane with straight edges and a narrow dark inset gasket and crisp metal lip. Preserve each pane's position, long-axis orientation, and approximate size; remove little bumps, jagged cutouts and white painted reflections. Glass should be uniform muted amber ochre, non-emitting albedo, with no white specular shine, no bloom and no baked lighting. Split existing long window bands only where a structural mullion already exists. Keep existing vertical windows vertical. No extra windows anywhere. Keep all fine weathered industrial detail outside the pane boundaries identical; no redesign. The output is a UV texture atlas, flat orthographic, no perspective, no border, no new labels, square exact full original canvas. Render high resolution crisp 2048px or more if supported.",
+      "output": "art/rel2_windows.png"
+    },
+    {
+      "target": "ANS RELIANT stencil",
+      "prompt": "Use case: text-localization. Edit this exact long metal nameplate texture crop. Replace ONLY the pixelated lettering with the exact same text \"ANS RELIANT\" in an authentic crisp military naval block stencil, tall condensed sans-serif capitals with neat intentional stencil bridges, narrow dark edge and slightly chipped off-white paint. A N S on the left panel, R E L I A N T on the right panel, matching the original margins and overall word footprint. Smooth straight edges and diagonal strokes, not pixel art, not a dot matrix font. Keep the dark worn steel, corner fasteners, central panel join, framing, scratches and lighting identical. Flat orthographic game albedo texture, no new insignia, no surrounding scene. Preserve the full rectangular crop/aspect ratio.",
+      "output": "art/name_stencil.png"
+    },
+    {
+      "target": "Shared capital turret",
+      "prompt": "Use case: precise-object-edit. Restore this tiny worn military spaceship gun-turret UV texture atlas as a sharp high-resolution game texture. Retain EXACTLY the same atlas layout, panel proportions, straight grilles, pipe runs, red panel positions, existing bolts and dark grey/olive worn steel palette. Resolve pixelated vent slats into uniform sharply defined straight ribs and rectangular recessed sockets; preserve the density and placement of each structure. Fine scratches/chipped wear, no new markings or structures. No lighting effects, no glow, no perspective, no rearranging of islands, no canvas margin. Flat albedo suitable for matching separately traced structural normal maps. Square, 2048px if supported.",
+      "output": "art/all_trt_reconstructed.png"
+    }
+  ],
+  "integration": "Targeted nameplate crop; window atlas; existing approved Ordnance art reused for small turret. Structural geometry generates normal, roughness, AO and emissive masks."
+}

@@ -2942,8 +2942,8 @@
       "name": "ANS Reliant",
       "category": "alliance-capital-ships",
       "status": "coming-soon",
-      "workStatus": "planned",
-      "description": "The Reliant carrier hull, including its exterior and associated moving structures.",
+      "workStatus": "release-preparation",
+      "description": "Restored Alliance carrier with framed illuminated windows, capital-scale service galleries, reactive engine heat, rebuilt launch hangar and aligned landing tubes.",
       "entryType": "ship",
       "faction": "alliance",
       "shipClass": "Class 4 Carrier",
@@ -2953,12 +2953,34 @@
           "id": "worn-paint",
           "name": "Worn Paint",
           "status": "coming-soon",
-          "engineStatus": "to-be-confirmed"
+          "engineStatus": "user-approved-beta",
+          "assetRevision": "11.0",
+          "modFolder": "119-reliant-worn-v1",
+          "engine": "0.18.0",
+          "notes": [
+            "Approved exterior and interior restoration with reactive cabin and engine lighting.",
+            "Patriot launch, cycling doors and native comms landing test included.",
+            "One canonical PNG set; shared Alliance turret overrides are documented."
+          ],
+          "validationSummary": "Native and material checks passed on official 0.18.0. Launch and landing interiors inspected; four door-phase landing alignment checks passed. User accepted this beta; broader campaign and other platforms remain unverified.",
+          "preview": "assets/reliant/gallery-overview-v1.webp",
+          "defaultPreview": "image",
+          "previewSource": "Fresh capture in official OpenReliant 0.18.0",
+          "previewType": "capture",
+          "previewArtworkRevision": "11.0",
+          "images": [
+            {
+              "src": "assets/reliant/gallery-overview-v1.webp",
+              "caption": "Reliant — front three-quarter view, healthy cabin lighting"
+            }
+          ],
+          "model": "models/reliant.glb"
         }
       ],
       "aliases": [
         "Reliant"
-      ]
+      ],
+      "folder": "Alliance Capital Ships/Reliant"
     },
     {
       "id": "endeavor",

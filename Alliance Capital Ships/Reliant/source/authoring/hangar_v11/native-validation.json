@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "file": "Reliant.SHP",
+      "all_triangles_preserved": true,
+      "all_unedited_face_uvs_preserved": true,
+      "collision_leaf_geometry_identical": true
+    },
+    {
+      "file": "Reliant_destback.SHP",
+      "all_triangles_preserved": true,
+      "all_unedited_face_uvs_preserved": true,
+      "collision_leaf_geometry_identical": true
+    },
+    {
+      "file": "Reliant_Hang.SHP",
+      "native_check": "ok: 4 parts, 360 vertices, 592 faces\nbounds: 4 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "Reliant.SHP",
+      "native_check": "ok: 24 parts, 3280 vertices, 5007 faces\nbounds: 24 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "Reliant_destback.SHP",
+      "native_check": "ok: 1 part, 208 vertices, 412 faces\nbounds: 1 model_space\nrewritten byte for byte"
+    }
+  ],
+  "immutable_originals_verified": true,
+  "hangar_geometry_uvs_normals_unchanged": true
+}

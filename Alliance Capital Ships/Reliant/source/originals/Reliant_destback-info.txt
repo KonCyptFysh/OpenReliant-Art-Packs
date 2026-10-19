@@ -1,0 +1,17 @@
+version:  107
+flags:    components=true cloak=false
+parts:    1
+vertices: 208
+faces:    412
+arcs:     0
+bounds:   (-15804,-13525,-24711) to (-3849,-5834,-4113), 11955 x 7691 x 20599
+
+[  0] Rel bak DEST                       type  1  parent  -1  link 0
+        lod 0:   208 vertices   412 faces   4 materials
+        31 nodes, 0 attachments, 1 clips, 3 point lists, 0 triggers
+          points kind 1: 8
+          points kind 3: 6
+          points kind 4: 1
+          clip '' length 16000 mode 0, 2 keyframes, 0 events
+
+textures (4): REL_1 REL_2 REL_3 DAM_1

@@ -1,0 +1,42 @@
+{
+  "package_name": "openreliant-reliant",
+  "version": "0.1.0-beta.13",
+  "asset_revision": "11.0",
+  "status": "ready-for-packaging",
+  "hold_reason": null,
+  "minimum_openreliant": "0.18.0",
+  "mod_folders": [
+    "119-reliant-worn-v1"
+  ],
+  "asset_manifest_sha256": "d8ffb786a02127ad6a341b266bfe2e87bb33cb03ca41331b1098b899858903e8",
+  "source_manifest_sha256": "a432d5ae034b0105e4478d9de66d74e0088d948448c7c13e233491ff421704ec",
+  "channel": "beta",
+  "user_approved": true,
+  "approval": {
+    "user_approved": true,
+    "approved_at_utc": "2026-10-19T09:26:56.749887+00:00",
+    "asset_revision": "11.0",
+    "instruction": "Sweeet, time to ship the Reliant then!",
+    "scope": "Publish accepted surface revision 11 and a script-only correction to the review mission landing handoff.",
+    "qualification": "Beta acceptance; exhaustive campaign and cross-platform validation are not claimed."
+  },
+  "include_documents": [
+    "README.md",
+    "INSTALL.md",
+    "KNOWN_ISSUES.md",
+    "CHANGELOG.md",
+    "CREDITS.md",
+    "LICENSING.md",
+    "CONTROLS.md",
+    "asset-manifest.json",
+    "validation.json",
+    "release.json",
+    "compatibility-0.18.json",
+    "approval.json",
+    "gallery-validation.json",
+    "preview-validation.json",
+    "tools/launch-reliant-test.sh",
+    "tools/launch-reliant-doors-test.sh",
+    "tools/launch-reliant-flight-test.sh"
+  ]
+}

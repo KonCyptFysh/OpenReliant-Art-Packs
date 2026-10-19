@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "tube_uv_corners": 216,
+  "main_geometry_hash": "a67c98d9f67be45bb7f7f4408e62826dc739ecb1e83ece8ee2ddb851de19e639",
+  "main_geometry_unchanged": true,
+  "hangar_meshes": [
+    "Rel bot door",
+    "Rel hanger",
+    "Rel Retainer",
+    "Rel top door"
+  ],
+  "packed_maps": true
+}

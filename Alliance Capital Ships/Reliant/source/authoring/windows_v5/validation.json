@@ -1,0 +1,152 @@
+{
+  "passed": true,
+  "engine": "official OpenReliant 0.18.0",
+  "source_originals_unchanged": true,
+  "window_count": 64,
+  "frame_containment": 61,
+  "native_files_byte_identical_to_v4": true,
+  "other_atlases_and_scripts_byte_identical": true,
+  "pixels_outside_window_patches_unchanged": true,
+  "frames_nonemissive": true,
+  "glass_dielectric": true,
+  "brightness_probe_0_25_100": [
+    8.415356282759598,
+    12.028332625017708,
+    22.8553619492846
+  ],
+  "native_checks": [
+    {
+      "file": "Reliant.SHP",
+      "result": "ok: 24 parts, 3280 vertices, 5007 faces\nbounds: 24 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "Reliant_destback.SHP",
+      "result": "ok: 1 part, 208 vertices, 412 faces\nbounds: 1 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "mission959.dte",
+      "result": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds"
+    },
+    {
+      "file": "mission958.dte",
+      "result": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds"
+    },
+    {
+      "file": "Allied_Cap_Gun.SHP",
+      "result": "ok: 3 parts, 204 vertices, 328 faces\nbounds: 3 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "13_al_STUR.SHP",
+      "result": "ok: 4 parts, 177 vertices, 246 faces\nbounds: 4 model_space\nrewritten byte for byte"
+    }
+  ],
+  "normal_checks": [
+    {
+      "tier": "4k",
+      "file": "orr1_hull_normal.png",
+      "max_unit_error": 0.006650269031524658
+    },
+    {
+      "tier": "4k",
+      "file": "orr2_hull_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "4k",
+      "file": "orr3_hull_normal.png",
+      "max_unit_error": 0.006278872489929199
+    },
+    {
+      "tier": "4k",
+      "file": "orr_cgun_normal.png",
+      "max_unit_error": 0.006093084812164307
+    },
+    {
+      "tier": "4k",
+      "file": "orr_sgun_normal.png",
+      "max_unit_error": 0.0063925981521606445
+    },
+    {
+      "tier": "2k",
+      "file": "orr1_hull_normal.png",
+      "max_unit_error": 0.0064536333084106445
+    },
+    {
+      "tier": "2k",
+      "file": "orr2_hull_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "2k",
+      "file": "orr3_hull_normal.png",
+      "max_unit_error": 0.005969345569610596
+    },
+    {
+      "tier": "2k",
+      "file": "orr_cgun_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "2k",
+      "file": "orr_sgun_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "1k",
+      "file": "orr1_hull_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "1k",
+      "file": "orr2_hull_normal.png",
+      "max_unit_error": 0.006031215190887451
+    },
+    {
+      "tier": "1k",
+      "file": "orr3_hull_normal.png",
+      "max_unit_error": 0.006093084812164307
+    },
+    {
+      "tier": "1k",
+      "file": "orr_cgun_normal.png",
+      "max_unit_error": 0.006031215190887451
+    },
+    {
+      "tier": "1k",
+      "file": "orr_sgun_normal.png",
+      "max_unit_error": 0.006209135055541992
+    }
+  ],
+  "installed_hashes_match": true,
+  "packages": [
+    {
+      "tier": "4k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "sha256": "1d1d6714d4bddbca7238f74ead6252e80e06d3c64257ee559159c16ec35513b8",
+      "bytes": 90589384
+    },
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "sha256": "6923aed09db78b689e2c22dd3b6b938c750fe401ae545addc3f29793af46fff5",
+      "bytes": 33776258
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "sha256": "5531abde46e9df92fe47560ebfeb8ed035726549935eee5ddbb19d728266ddd8",
+      "bytes": 12241695
+    }
+  ],
+  "evidence": [
+    "v5-bridge-cell",
+    "v5-forward-windows",
+    "v5-bridge-other-rotated",
+    "v5-bridge-cell-rotated-light0",
+    "v5-bridge-cell-rotated-light0.25",
+    "v5-bridge-cell-rotated-light1",
+    "v5-bridge-cell-1k",
+    "v5-forward-windows-2k"
+  ],
+  "user_visual_approval_pending": true
+}

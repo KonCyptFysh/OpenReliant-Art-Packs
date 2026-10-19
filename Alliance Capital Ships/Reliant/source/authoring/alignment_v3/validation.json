@@ -1,0 +1,313 @@
+{
+  "passed": true,
+  "engine": "official OpenReliant 0.18.0",
+  "source_originals_unchanged": true,
+  "base_emission_scripts_unchanged": true,
+  "native_geometry_animations_collision_effects_unchanged": true,
+  "uv_faces": 42,
+  "seam_checks": [
+    {
+      "lod": 0,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        940,
+        42
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 0,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        945,
+        28
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 0,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        947,
+        26
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 0,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        959,
+        44
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 1,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        538,
+        16
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 1,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        542,
+        9
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 1,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        544,
+        7
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 1,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        555,
+        17
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 1,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        558,
+        16
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 2,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        309,
+        12
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 2,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        313,
+        7
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 2,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        320,
+        13
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 2,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        323,
+        12
+      ],
+      "max_error_native_pixels": 0.0
+    },
+    {
+      "lod": 3,
+      "parts": [
+        16,
+        17
+      ],
+      "faces": [
+        201,
+        7
+      ],
+      "max_error_native_pixels": 0.0
+    }
+  ],
+  "native_checks": [
+    {
+      "file": "Reliant.SHP",
+      "result": "ok: 24 parts, 3280 vertices, 5007 faces\nbounds: 24 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "Reliant_destback.SHP",
+      "result": "ok: 1 part, 208 vertices, 412 faces\nbounds: 1 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "mission959.dte",
+      "result": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds"
+    },
+    {
+      "file": "mission958.dte",
+      "result": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds"
+    },
+    {
+      "file": "Allied_Cap_Gun.SHP",
+      "result": "ok: 3 parts, 204 vertices, 328 faces\nbounds: 3 model_space\nrewritten byte for byte"
+    },
+    {
+      "file": "13_al_STUR.SHP",
+      "result": "ok: 4 parts, 177 vertices, 246 faces\nbounds: 4 model_space\nrewritten byte for byte"
+    }
+  ],
+  "normal_checks": [
+    {
+      "tier": "4k",
+      "file": "orr1_hull_normal.png",
+      "max_unit_error": 0.006650269031524658
+    },
+    {
+      "tier": "4k",
+      "file": "orr2_hull_normal.png",
+      "max_unit_error": 0.0063925981521606445
+    },
+    {
+      "tier": "4k",
+      "file": "orr3_hull_normal.png",
+      "max_unit_error": 0.006278872489929199
+    },
+    {
+      "tier": "4k",
+      "file": "orr_cgun_normal.png",
+      "max_unit_error": 0.006093084812164307
+    },
+    {
+      "tier": "4k",
+      "file": "orr_sgun_normal.png",
+      "max_unit_error": 0.0063925981521606445
+    },
+    {
+      "tier": "2k",
+      "file": "orr1_hull_normal.png",
+      "max_unit_error": 0.0064536333084106445
+    },
+    {
+      "tier": "2k",
+      "file": "orr2_hull_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "2k",
+      "file": "orr3_hull_normal.png",
+      "max_unit_error": 0.005969345569610596
+    },
+    {
+      "tier": "2k",
+      "file": "orr_cgun_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "2k",
+      "file": "orr_sgun_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "1k",
+      "file": "orr1_hull_normal.png",
+      "max_unit_error": 0.006209135055541992
+    },
+    {
+      "tier": "1k",
+      "file": "orr2_hull_normal.png",
+      "max_unit_error": 0.006031215190887451
+    },
+    {
+      "tier": "1k",
+      "file": "orr3_hull_normal.png",
+      "max_unit_error": 0.006093084812164307
+    },
+    {
+      "tier": "1k",
+      "file": "orr_cgun_normal.png",
+      "max_unit_error": 0.006031215190887451
+    },
+    {
+      "tier": "1k",
+      "file": "orr_sgun_normal.png",
+      "max_unit_error": 0.006209135055541992
+    }
+  ],
+  "installed_hashes_match": true,
+  "packages": [
+    {
+      "tier": "4k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "sha256": "866439618c54a6b845d46bba980c29a5f75c0daab0dd03fc4b2d819e1217d69e",
+      "bytes": 89542015
+    },
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "sha256": "275d6f73ae87190852e3cfbb9cd93d264b72050de9282abfa51bd9bb153815e3",
+      "bytes": 33552617
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "sha256": "0add974b3fa8a097bdd3b0fde39ce4f65b1359421440f84be8598a8f10ee9270",
+      "bytes": 12180876
+    }
+  ],
+  "evidence": [
+    "bridge",
+    "pipes",
+    "gun",
+    "core",
+    "core-lit",
+    "vent",
+    "radiator",
+    "front"
+  ],
+  "user_visual_approval_pending": true
+}

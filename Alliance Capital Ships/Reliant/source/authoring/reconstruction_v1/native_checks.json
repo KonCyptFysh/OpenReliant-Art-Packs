@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "file": "Reliant.SHP",
+      "sha256": "cfb21a3c52aeaad953cfd20b930590f520384b029db0773f46c0bcd9bf8b8dc4",
+      "output": "ok: 24 parts, 3280 vertices, 5007 faces\nbounds: 24 model_space\nrewritten byte for byte\n"
+    },
+    {
+      "file": "Reliant_destback.SHP",
+      "sha256": "54cbe8f5427d6485e1cf8cb4cd4232e176dd50bb58a5284c1b5e7044564539e5",
+      "output": "ok: 1 part, 208 vertices, 412 faces\nbounds: 1 model_space\nrewritten byte for byte\n"
+    },
+    {
+      "file": "mission959.dte",
+      "sha256": "990459a4f21e3248f1680185df3162fab7f99088c6ffcf10ceae5fca1eb579df",
+      "output": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds\n"
+    },
+    {
+      "file": "mission958.dte",
+      "sha256": "87cc2662c1bb0a99aaefebe8f8931fe49e6ba2f46742b544e8125ad34fc9922b",
+      "output": "rooms: skipped, because the file isn't laid out like the template\nrecords: rewritten unchanged\nscript: reassembled 1 routine to the same bytes; skipped 0 routines with unreachable bytes\nstatements: read 1 routine as statements and lowered them to the same bytes\nsource: written, and Luau's parser reads it without an error\nround trip: built again from its source, it is the same mission, and it binds\n"
+    }
+  ]
+}

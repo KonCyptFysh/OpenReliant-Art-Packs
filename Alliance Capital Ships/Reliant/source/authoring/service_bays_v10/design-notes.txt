@@ -1,0 +1,18 @@
+Reliant service gallery revision 10
+
+The original hull strip spans about 9152 native units longitudinally, against
+44899 units for the hull body (20.4%). A sparse handful of pipes read as gigantic
+plumbing. The replacement uses three engineering tiers, machinery banks,
+heat-exchanger cassettes, distribution cabinets and routed small services.
+The old art supplies the aperture layout, structural frame and worn military tone.
+
+The built-in ImageGen produced fresh diffuse artwork for all three apertures.
+The authoring source and exact prompt are service-bays-source.png and
+imagegen-prompt.txt. Source contours are fitted to the existing polygon apertures.
+Colour, multiscale height, tangent normal and ORM use the same registration.
+Height is image-derived relief, not a geometrically measured 3D machinery model.
+Fine wear is restrained in the depth response. Existing 64 windows, all emission,
+outer frames, hull UV corrections and flight/lighting scripts are preserved.
+
+No physical pipe meshes, collision changes or parallax were added. Native geometry
+and the silhouette remain the same. User visual review is still pending.

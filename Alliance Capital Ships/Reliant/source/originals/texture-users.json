@@ -1,0 +1,25 @@
+[
+  {
+    "file": "04_Pulse_las.SHP",
+    "textures": [
+      "REL_1",
+      "REL_2"
+    ]
+  },
+  {
+    "file": "Reliant.SHP",
+    "textures": [
+      "REL_1",
+      "REL_2",
+      "REL_3"
+    ]
+  },
+  {
+    "file": "Reliant_destback.SHP",
+    "textures": [
+      "REL_1",
+      "REL_2",
+      "REL_3"
+    ]
+  }
+]

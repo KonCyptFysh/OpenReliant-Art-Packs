@@ -1,0 +1,1994 @@
+{
+  "revision": 5,
+  "source_image": "window-art-source.png",
+  "source_sha256": "3ce1eefe60fb5715737ea1b9fe50925fa8c68479d4dda243d32aa924ee4b37c4",
+  "source_mode": "built-in imagegen",
+  "height_resolution": 4096,
+  "window_count": 64,
+  "windows": [
+    {
+      "id": 0,
+      "previous_glass": [
+        774,
+        110,
+        864,
+        154
+      ],
+      "outer_frame": [
+        770,
+        106,
+        868,
+        158
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 622,
+        "axis": 1,
+        "sign": 1,
+        "strength": 0.9999861430268748
+      },
+      "source_glass_crop": [
+        1288,
+        0,
+        1956,
+        302
+      ],
+      "backing_height": 0
+    },
+    {
+      "id": 1,
+      "previous_glass": [
+        944,
+        110,
+        1148,
+        154
+      ],
+      "outer_frame": [
+        940,
+        106,
+        1152,
+        158
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 622,
+        "axis": 1,
+        "sign": 1,
+        "strength": 0.9999861430268748
+      },
+      "source_glass_crop": [
+        101,
+        0,
+        1675,
+        302
+      ],
+      "backing_height": 0
+    },
+    {
+      "id": 2,
+      "previous_glass": [
+        1208,
+        110,
+        1300,
+        154
+      ],
+      "outer_frame": [
+        1204,
+        106,
+        1304,
+        158
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 621,
+        "axis": 1,
+        "sign": 1,
+        "strength": 0.9999861430268748
+      },
+      "source_glass_crop": [
+        338,
+        0,
+        1021,
+        302
+      ],
+      "backing_height": 0
+    },
+    {
+      "id": 3,
+      "previous_glass": [
+        92,
+        176,
+        134,
+        288
+      ],
+      "outer_frame": [
+        88,
+        172,
+        138,
+        292
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 669,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997720311
+      },
+      "source_glass_crop": [
+        766,
+        0,
+        1655,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 4,
+      "previous_glass": [
+        1940,
+        382,
+        2112,
+        426
+      ],
+      "outer_frame": [
+        1936,
+        378,
+        2116,
+        430
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 468,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999771139960788
+      },
+      "source_glass_crop": [
+        631,
+        0,
+        1950,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 5,
+      "previous_glass": [
+        2122,
+        382,
+        2206,
+        426
+      ],
+      "outer_frame": [
+        2118,
+        378,
+        2210,
+        430
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 468,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999771139960788
+      },
+      "source_glass_crop": [
+        871,
+        0,
+        1491,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 6,
+      "previous_glass": [
+        2428,
+        382,
+        2544,
+        426
+      ],
+      "outer_frame": [
+        2424,
+        378,
+        2548,
+        430
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 468,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999771139960788
+      },
+      "source_glass_crop": [
+        375,
+        0,
+        1249,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 7,
+      "previous_glass": [
+        2608,
+        382,
+        2820,
+        428
+      ],
+      "outer_frame": [
+        2604,
+        378,
+        2824,
+        432
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 468,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999771139960788
+      },
+      "source_glass_crop": [
+        300,
+        0,
+        1855,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 8,
+      "previous_glass": [
+        3096,
+        382,
+        3182,
+        426
+      ],
+      "outer_frame": [
+        3092,
+        378,
+        3186,
+        430
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 469,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9998770731416837
+      },
+      "source_glass_crop": [
+        1034,
+        0,
+        1670,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 9,
+      "previous_glass": [
+        220,
+        384,
+        264,
+        474
+      ],
+      "outer_frame": [
+        216,
+        380,
+        268,
+        478
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 669,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997720311
+      },
+      "source_glass_crop": [
+        368,
+        0,
+        1036,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 10,
+      "previous_glass": [
+        334,
+        466,
+        374,
+        674
+      ],
+      "outer_frame": [
+        330,
+        462,
+        378,
+        678
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 669,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997720311
+      },
+      "source_glass_crop": [
+        52,
+        0,
+        1846,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 11,
+      "previous_glass": [
+        3052,
+        494,
+        3142,
+        536
+      ],
+      "outer_frame": [
+        3048,
+        490,
+        3146,
+        540
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 469,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9998770731416837
+      },
+      "source_glass_crop": [
+        264,
+        0,
+        969,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 12,
+      "previous_glass": [
+        1946,
+        496,
+        2040,
+        536
+      ],
+      "outer_frame": [
+        1942,
+        492,
+        2044,
+        540
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 468,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999771139960788
+      },
+      "source_glass_crop": [
+        570,
+        0,
+        1352,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 13,
+      "previous_glass": [
+        2094,
+        496,
+        2204,
+        538
+      ],
+      "outer_frame": [
+        2090,
+        492,
+        2208,
+        542
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 468,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999771139960788
+      },
+      "source_glass_crop": [
+        444,
+        0,
+        1316,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 14,
+      "previous_glass": [
+        2516,
+        496,
+        2628,
+        536
+      ],
+      "outer_frame": [
+        2512,
+        492,
+        2632,
+        540
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 469,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9998770731416837
+      },
+      "source_glass_crop": [
+        321,
+        0,
+        1263,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 15,
+      "previous_glass": [
+        2666,
+        496,
+        2754,
+        538
+      ],
+      "outer_frame": [
+        2662,
+        492,
+        2758,
+        542
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 469,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9998770731416837
+      },
+      "source_glass_crop": [
+        511,
+        0,
+        1199,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 16,
+      "previous_glass": [
+        130,
+        520,
+        164,
+        658
+      ],
+      "outer_frame": [
+        126,
+        516,
+        168,
+        662
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 669,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997720311
+      },
+      "source_glass_crop": [
+        182,
+        0,
+        1606,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 17,
+      "previous_glass": [
+        218,
+        596,
+        260,
+        706
+      ],
+      "outer_frame": [
+        214,
+        592,
+        264,
+        710
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 669,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997720311
+      },
+      "source_glass_crop": [
+        1025,
+        0,
+        1897,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 18,
+      "previous_glass": [
+        890,
+        624,
+        932,
+        706
+      ],
+      "outer_frame": [
+        886,
+        620,
+        936,
+        710
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 625,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999346825026093
+      },
+      "source_glass_crop": [
+        798,
+        0,
+        1436,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 19,
+      "previous_glass": [
+        1360,
+        624,
+        1402,
+        740
+      ],
+      "outer_frame": [
+        1356,
+        620,
+        1406,
+        744
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 620,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.999927358609868
+      },
+      "source_glass_crop": [
+        113,
+        0,
+        1036,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 20,
+      "previous_glass": [
+        812,
+        636,
+        854,
+        678
+      ],
+      "outer_frame": [
+        808,
+        632,
+        858,
+        682
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 626,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999380630252387
+      },
+      "source_glass_crop": [
+        314,
+        0,
+        616,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 21,
+      "previous_glass": [
+        1260,
+        636,
+        1302,
+        704
+      ],
+      "outer_frame": [
+        1256,
+        632,
+        1306,
+        708
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 620,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.999927358609868
+      },
+      "source_glass_crop": [
+        739,
+        0,
+        1259,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 22,
+      "previous_glass": [
+        1454,
+        686,
+        1496,
+        896
+      ],
+      "outer_frame": [
+        1450,
+        682,
+        1500,
+        900
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 618,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999384558353074
+      },
+      "source_glass_crop": [
+        122,
+        0,
+        1833,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 23,
+      "previous_glass": [
+        1022,
+        688,
+        1066,
+        874
+      ],
+      "outer_frame": [
+        1018,
+        684,
+        1070,
+        878
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 625,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999346825026093
+      },
+      "source_glass_crop": [
+        153,
+        0,
+        1584,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 24,
+      "previous_glass": [
+        2044,
+        690,
+        2084,
+        734
+      ],
+      "outer_frame": [
+        2040,
+        686,
+        2088,
+        738
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 475,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999963676532774
+      },
+      "source_glass_crop": [
+        965,
+        0,
+        1235,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 25,
+      "previous_glass": [
+        2106,
+        690,
+        2196,
+        732
+      ],
+      "outer_frame": [
+        2102,
+        686,
+        2200,
+        736
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 475,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999963676532774
+      },
+      "source_glass_crop": [
+        575,
+        0,
+        1280,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 26,
+      "previous_glass": [
+        2418,
+        690,
+        2530,
+        732
+      ],
+      "outer_frame": [
+        2414,
+        686,
+        2534,
+        736
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 475,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999963676532774
+      },
+      "source_glass_crop": [
+        316,
+        0,
+        1205,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 27,
+      "previous_glass": [
+        2572,
+        690,
+        2616,
+        734
+      ],
+      "outer_frame": [
+        2568,
+        686,
+        2620,
+        738
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 475,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999963676532774
+      },
+      "source_glass_crop": [
+        1122,
+        0,
+        1424,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 28,
+      "previous_glass": [
+        2744,
+        690,
+        2834,
+        732
+      ],
+      "outer_frame": [
+        2740,
+        686,
+        2838,
+        736
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 474,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999959176309356
+      },
+      "source_glass_crop": [
+        479,
+        0,
+        1184,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 29,
+      "previous_glass": [
+        1930,
+        692,
+        2026,
+        734
+      ],
+      "outer_frame": [
+        1926,
+        688,
+        2030,
+        738
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 475,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999963676532774
+      },
+      "source_glass_crop": [
+        583,
+        0,
+        1338,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 30,
+      "previous_glass": [
+        2636,
+        692,
+        2726,
+        732
+      ],
+      "outer_frame": [
+        2632,
+        688,
+        2730,
+        736
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 475,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999963676532774
+      },
+      "source_glass_crop": [
+        868,
+        0,
+        1614,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 31,
+      "previous_glass": [
+        334,
+        722,
+        374,
+        836
+      ],
+      "outer_frame": [
+        330,
+        718,
+        378,
+        840
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 669,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997720311
+      },
+      "source_glass_crop": [
+        660,
+        0,
+        1619,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 32,
+      "previous_glass": [
+        890,
+        732,
+        932,
+        768
+      ],
+      "outer_frame": [
+        886,
+        728,
+        936,
+        772
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 625,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999346825026093
+      },
+      "source_glass_crop": [
+        687,
+        0,
+        939,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 33,
+      "previous_glass": [
+        1358,
+        768,
+        1402,
+        802
+      ],
+      "outer_frame": [
+        1354,
+        764,
+        1406,
+        806
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 619,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999707142332
+      },
+      "source_glass_crop": [
+        25,
+        0,
+        248,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 34,
+      "previous_glass": [
+        2574,
+        800,
+        2754,
+        842
+      ],
+      "outer_frame": [
+        2570,
+        796,
+        2758,
+        846
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 474,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999959176309356
+      },
+      "source_glass_crop": [
+        12,
+        0,
+        1472,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 35,
+      "previous_glass": [
+        1946,
+        802,
+        2048,
+        842
+      ],
+      "outer_frame": [
+        1942,
+        798,
+        2052,
+        846
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 475,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999963676532774
+      },
+      "source_glass_crop": [
+        72,
+        0,
+        925,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 36,
+      "previous_glass": [
+        2076,
+        802,
+        2220,
+        842
+      ],
+      "outer_frame": [
+        2072,
+        798,
+        2224,
+        846
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 475,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999963676532774
+      },
+      "source_glass_crop": [
+        136,
+        0,
+        1362,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 37,
+      "previous_glass": [
+        2492,
+        802,
+        2530,
+        840
+      ],
+      "outer_frame": [
+        2488,
+        798,
+        2534,
+        844
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": false,
+      "orientation": {
+        "part": 16,
+        "face": 474,
+        "axis": 1,
+        "sign": -1,
+        "strength": 0.9999959176309356
+      },
+      "source_glass_crop": [
+        218,
+        0,
+        520,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 38,
+      "previous_glass": [
+        1234,
+        864,
+        1274,
+        918
+      ],
+      "outer_frame": [
+        1230,
+        860,
+        1278,
+        922
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 620,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.999927358609868
+      },
+      "source_glass_crop": [
+        396,
+        0,
+        822,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 39,
+      "previous_glass": [
+        812,
+        896,
+        854,
+        980
+      ],
+      "outer_frame": [
+        808,
+        892,
+        858,
+        984
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 626,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999380630252387
+      },
+      "source_glass_crop": [
+        688,
+        0,
+        1342,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 40,
+      "previous_glass": [
+        1232,
+        950,
+        1274,
+        990
+      ],
+      "outer_frame": [
+        1228,
+        946,
+        1278,
+        994
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 619,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999707142332
+      },
+      "source_glass_crop": [
+        519,
+        0,
+        804,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 41,
+      "previous_glass": [
+        204,
+        1002,
+        246,
+        1184
+      ],
+      "outer_frame": [
+        200,
+        998,
+        250,
+        1188
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 670,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997721624
+      },
+      "source_glass_crop": [
+        114,
+        0,
+        1590,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 42,
+      "previous_glass": [
+        112,
+        1104,
+        150,
+        1184
+      ],
+      "outer_frame": [
+        108,
+        1100,
+        154,
+        1188
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 670,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997721624
+      },
+      "source_glass_crop": [
+        135,
+        0,
+        833,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 43,
+      "previous_glass": [
+        108,
+        1228,
+        150,
+        1342
+      ],
+      "outer_frame": [
+        104,
+        1224,
+        154,
+        1346
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 670,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997721624
+      },
+      "source_glass_crop": [
+        274,
+        0,
+        1180,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 44,
+      "previous_glass": [
+        316,
+        1230,
+        356,
+        1410
+      ],
+      "outer_frame": [
+        312,
+        1226,
+        360,
+        1414
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 669,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997720311
+      },
+      "source_glass_crop": [
+        114,
+        0,
+        1660,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 45,
+      "previous_glass": [
+        206,
+        1392,
+        244,
+        1484
+      ],
+      "outer_frame": [
+        202,
+        1388,
+        248,
+        1488
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 670,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997721624
+      },
+      "source_glass_crop": [
+        0,
+        0,
+        812,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 46,
+      "previous_glass": [
+        108,
+        1408,
+        150,
+        1616
+      ],
+      "outer_frame": [
+        104,
+        1404,
+        154,
+        1620
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 670,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997721624
+      },
+      "source_glass_crop": [
+        225,
+        0,
+        1920,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 47,
+      "previous_glass": [
+        336,
+        1732,
+        378,
+        1956
+      ],
+      "outer_frame": [
+        332,
+        1728,
+        382,
+        1960
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 670,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997721624
+      },
+      "source_glass_crop": [
+        77,
+        0,
+        1906,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 48,
+      "previous_glass": [
+        170,
+        1866,
+        214,
+        1958
+      ],
+      "outer_frame": [
+        166,
+        1862,
+        218,
+        1962
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 670,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997721624
+      },
+      "source_glass_crop": [
+        10,
+        0,
+        693,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 49,
+      "previous_glass": [
+        92,
+        2176,
+        134,
+        2292
+      ],
+      "outer_frame": [
+        88,
+        2172,
+        138,
+        2296
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 666,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997739816
+      },
+      "source_glass_crop": [
+        80,
+        0,
+        1003,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 50,
+      "previous_glass": [
+        334,
+        2382,
+        376,
+        2496
+      ],
+      "outer_frame": [
+        330,
+        2378,
+        380,
+        2500
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 666,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997739816
+      },
+      "source_glass_crop": [
+        187,
+        0,
+        1093,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 51,
+      "previous_glass": [
+        192,
+        2480,
+        264,
+        2512
+      ],
+      "outer_frame": [
+        188,
+        2476,
+        268,
+        2516
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 666,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997739816
+      },
+      "source_glass_crop": [
+        245,
+        0,
+        364,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 52,
+      "previous_glass": [
+        128,
+        2532,
+        168,
+        2662
+      ],
+      "outer_frame": [
+        124,
+        2528,
+        172,
+        2666
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 666,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997739816
+      },
+      "source_glass_crop": [
+        784,
+        0,
+        1885,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 53,
+      "previous_glass": [
+        336,
+        2622,
+        378,
+        2834
+      ],
+      "outer_frame": [
+        332,
+        2618,
+        382,
+        2838
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 665,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997860103
+      },
+      "source_glass_crop": [
+        79,
+        0,
+        1807,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 54,
+      "previous_glass": [
+        92,
+        2978,
+        134,
+        3086
+      ],
+      "outer_frame": [
+        88,
+        2974,
+        138,
+        3090
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 666,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997739816
+      },
+      "source_glass_crop": [
+        658,
+        0,
+        1514,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 55,
+      "previous_glass": [
+        318,
+        3104,
+        358,
+        3198
+      ],
+      "outer_frame": [
+        314,
+        3100,
+        362,
+        3202
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 665,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997860103
+      },
+      "source_glass_crop": [
+        1168,
+        0,
+        1950,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 56,
+      "previous_glass": [
+        92,
+        3134,
+        132,
+        3344
+      ],
+      "outer_frame": [
+        88,
+        3130,
+        136,
+        3348
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 666,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997739816
+      },
+      "source_glass_crop": [
+        133,
+        0,
+        1945,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 57,
+      "previous_glass": [
+        200,
+        3134,
+        246,
+        3172
+      ],
+      "outer_frame": [
+        196,
+        3130,
+        250,
+        3176
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 665,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997860103
+      },
+      "source_glass_crop": [
+        982,
+        0,
+        1224,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 58,
+      "previous_glass": [
+        318,
+        3244,
+        360,
+        3424
+      ],
+      "outer_frame": [
+        314,
+        3240,
+        364,
+        3428
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 665,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997860103
+      },
+      "source_glass_crop": [
+        125,
+        0,
+        1585,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 59,
+      "previous_glass": [
+        204,
+        3248,
+        246,
+        3284
+      ],
+      "outer_frame": [
+        200,
+        3244,
+        250,
+        3288
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 665,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997860103
+      },
+      "source_glass_crop": [
+        661,
+        0,
+        913,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 60,
+      "previous_glass": [
+        204,
+        3404,
+        246,
+        3492
+      ],
+      "outer_frame": [
+        200,
+        3400,
+        250,
+        3496
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 665,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997860103
+      },
+      "source_glass_crop": [
+        218,
+        0,
+        906,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 61,
+      "previous_glass": [
+        94,
+        3406,
+        134,
+        3614
+      ],
+      "outer_frame": [
+        90,
+        3402,
+        138,
+        3618
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 666,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997739816
+      },
+      "source_glass_crop": [
+        128,
+        0,
+        1922,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 62,
+      "previous_glass": [
+        336,
+        3760,
+        378,
+        3882
+      ],
+      "outer_frame": [
+        332,
+        3756,
+        382,
+        3886
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 665,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997860103
+      },
+      "source_glass_crop": [
+        778,
+        0,
+        1751,
+        302
+      ],
+      "backing_height": -10
+    },
+    {
+      "id": 63,
+      "previous_glass": [
+        156,
+        3824,
+        200,
+        4000
+      ],
+      "outer_frame": [
+        152,
+        3820,
+        204,
+        4004
+      ],
+      "glass_inset_pixels": 7,
+      "vertical_atlas": true,
+      "orientation": {
+        "part": 16,
+        "face": 665,
+        "axis": 0,
+        "sign": 1,
+        "strength": 0.9999999997860103
+      },
+      "source_glass_crop": [
+        573,
+        0,
+        1924,
+        302
+      ],
+      "backing_height": -10
+    }
+  ]
+}

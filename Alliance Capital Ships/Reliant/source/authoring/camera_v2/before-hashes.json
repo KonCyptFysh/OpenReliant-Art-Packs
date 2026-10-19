@@ -1,0 +1,132 @@
+{
+  "ship": "Reliant",
+  "status": "local-first-review",
+  "resolution": "4k",
+  "files": [
+    {
+      "file": "LICENSE-OpenReliant.txt",
+      "bytes": 16726,
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+    },
+    {
+      "file": "Reliant.SHP",
+      "bytes": 576046,
+      "sha256": "cfb21a3c52aeaad953cfd20b930590f520384b029db0773f46c0bcd9bf8b8dc4"
+    },
+    {
+      "file": "Reliant_destback.SHP",
+      "bytes": 44842,
+      "sha256": "54cbe8f5427d6485e1cf8cb4cd4232e176dd50bb58a5284c1b5e7044564539e5"
+    },
+    {
+      "file": "license.txt",
+      "bytes": 248,
+      "sha256": "7456c5a7634094dfd8b72b1b77217638c55be77f6233c97d12204babc3c3f046"
+    },
+    {
+      "file": "mission958.dte",
+      "bytes": 850959,
+      "sha256": "87cc2662c1bb0a99aaefebe8f8931fe49e6ba2f46742b544e8125ad34fc9922b"
+    },
+    {
+      "file": "mission959.dte",
+      "bytes": 850959,
+      "sha256": "990459a4f21e3248f1680185df3162fab7f99088c6ffcf10ceae5fca1eb579df"
+    },
+    {
+      "file": "mod.ini",
+      "bytes": 460,
+      "sha256": "18f49c717e496f743ab850b21589049bbdf62380292815dc0e2d736310f62ca7"
+    },
+    {
+      "file": "mod.png",
+      "bytes": 1465884,
+      "sha256": "825fec448525e26ea0f228107a83cdef28306d0f31d27d75d069ca60ac60217c"
+    },
+    {
+      "file": "orr1_hull.png",
+      "bytes": 17284318,
+      "sha256": "08f7c00148afafa05dd1f5a649084f32ff1c718fb9f79f7aa2fde1f21dbf512c"
+    },
+    {
+      "file": "orr1_hull_emissive.png",
+      "bytes": 72699,
+      "sha256": "08da38b7203f76b80ce5dc83df44c12a9d6661294213ccb8e50e7b8ebac7a06a"
+    },
+    {
+      "file": "orr1_hull_normal.png",
+      "bytes": 334063,
+      "sha256": "136ccd96b627cbab08f410290681c3d23451950c60fd44742ddcbc00b4c195fa"
+    },
+    {
+      "file": "orr1_hull_orm.png",
+      "bytes": 8233458,
+      "sha256": "1bb00e5cf259b9204efaf5d18c2bc592f0ca9a1e5ab1a2293684175ec4aa7b8d"
+    },
+    {
+      "file": "orr2_hull.png",
+      "bytes": 15929665,
+      "sha256": "2d9bddd2037ed808e4e11a422e7392224a3ff308bcc337c7df5fe27e56eda143"
+    },
+    {
+      "file": "orr2_hull_emissive.png",
+      "bytes": 274673,
+      "sha256": "548e447c63e8ee9765c00d6f57f01745fa73316390d9cf98d3fdd79286061322"
+    },
+    {
+      "file": "orr2_hull_normal.png",
+      "bytes": 565674,
+      "sha256": "9157d60dc7e04be2476ea4c66730ceb0c840404b3afa2d4ecf85feb3d9948306"
+    },
+    {
+      "file": "orr2_hull_orm.png",
+      "bytes": 7157841,
+      "sha256": "fb9a9caa4f946b15e9221e27a7321112e66d12307872bce09466772e35b6339c"
+    },
+    {
+      "file": "orr3_hull.png",
+      "bytes": 17142809,
+      "sha256": "d8c29789c9129b3353e24c67920a832b7bb70d806cc24488d08f7705d1448608"
+    },
+    {
+      "file": "orr3_hull_emissive.png",
+      "bytes": 54889,
+      "sha256": "5535a3c3cfe3edcb278a7816bbb4c8f2759339e2ae99918d4c2eac27135a90b7"
+    },
+    {
+      "file": "orr3_hull_normal.png",
+      "bytes": 418702,
+      "sha256": "7de97d420a46cf282ba49dd5d826d3904a1763c8b43e03da2ac53dcd759d5cb7"
+    },
+    {
+      "file": "orr3_hull_orm.png",
+      "bytes": 7998176,
+      "sha256": "b694d4d18e42c9c93d094e34550212e87378822ad3b5a17706c135454430bd26"
+    },
+    {
+      "file": "reliant_inspection.luau",
+      "bytes": 2534,
+      "sha256": "cab0ad6477a8f3b219a58ae52da48e8ec523b72c5f3a19148505564265e53ead"
+    },
+    {
+      "file": "reliant_lighting.luau",
+      "bytes": 2960,
+      "sha256": "7fe1fa569d4cc91e6cc22ebe163617028f4c9ddb77f6b35048053e9004a4c38c"
+    },
+    {
+      "file": "reliant_response.luau",
+      "bytes": 5482,
+      "sha256": "a9dc4dec029c478fed6b91e9ab86e2512d5334e811ead6407bea6fbf6ad2f24e"
+    },
+    {
+      "file": "reliant_surface.luau",
+      "bytes": 2186,
+      "sha256": "4caa1d3069ccb5f0c527a5305036375063884520c68e9632dbfb2410aaf8aeb1"
+    },
+    {
+      "file": "reliant_systems.glsl",
+      "bytes": 7562,
+      "sha256": "ebf158c906c1ebf033cea2d40554f8e97a70c3b5e13ff3638f2796b8d3963ac2"
+    }
+  ]
+}

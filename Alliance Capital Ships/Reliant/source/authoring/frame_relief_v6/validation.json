@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "engine": "official OpenReliant 0.18.0",
+  "pockets": 20,
+  "measured_edges": 160,
+  "window_inserts_unchanged": 64,
+  "basecolor_and_emission_unchanged": true,
+  "roughness_and_metallic_unchanged": true,
+  "unrelated_maps_and_native_files_unchanged": true,
+  "source_originals_unchanged": true,
+  "pixels_outside_frame_mask_unchanged": true,
+  "normal_checks": [
+    {
+      "tier": "4k",
+      "max_unit_error": 0.006331443786621094
+    },
+    {
+      "tier": "2k",
+      "max_unit_error": 0.005907416343688965
+    },
+    {
+      "tier": "1k",
+      "max_unit_error": 0.005598127841949463
+    }
+  ],
+  "evidence": [
+    "v5-bridge-cell",
+    "v6-bridge-cell",
+    "v6-forward-windows",
+    "v6-machinery-left",
+    "v6-bridge-other-rotated",
+    "v6-bridge-cell-rotated",
+    "v6-bridge-cell-1k",
+    "v6-forward-windows-2k"
+  ],
+  "packages": [
+    {
+      "tier": "4k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "sha256": "d23a0eedc38afb4076017306b9ef9a6823b737689bc7776d680ca2fc0c3b9275",
+      "bytes": 90456527
+    },
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "sha256": "3d3c88a52eafa02318e61a4a6aa24511c09674d1b9387b6fd5b27db27e33e7ff",
+      "bytes": 33755567
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "sha256": "402eec5de5ed1d85175eefb898e8ea342d48f302f154c2b42cb23fa7521491fb",
+      "bytes": 12232795
+    }
+  ],
+  "installed_hashes_match": true,
+  "user_visual_approval_pending": true,
+  "scene_validation": {
+    "passed": true,
+    "geometry_and_uv_identical": true,
+    "geometry_sha256": "6cede49649fe771b65f51e816bf05cff02f40843e3f4e44ff64a6ce71d24212e",
+    "packed_images_match": [
+      "orr2_hull_normal.png",
+      "orr2_hull_orm.png"
+    ]
+  },
+  "installed_runtime_started_cleanly": true
+}

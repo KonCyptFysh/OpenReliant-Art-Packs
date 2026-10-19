@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "engine": "official OpenReliant 0.18.0",
+  "mission": 957,
+  "surface_revision": 9,
+  "flight_review_revision": 1,
+  "native_launch": true,
+  "free_flight": true,
+  "normal_hud_and_controls": true,
+  "door_open_close_verified": true,
+  "door_travel": 2233.265625,
+  "comms_path": [
+    "Base",
+    "Permission to land"
+  ],
+  "native_landing_camera": "landing_tube",
+  "mission_end_verified": true,
+  "landing_guard_no_subsequent_review_animation_commands": true,
+  "runtime_log": "validated-runtime.log",
+  "installed_launcher_smoke": "installed-launch.log",
+  "launch_image": "installed-launch.png",
+  "existing_runtime_files_unchanged": [
+    "reliant_systems.glsl",
+    "reliant_response.luau",
+    "reliant_surface.luau",
+    "reliant_inspection.luau",
+    "reliant_lighting.luau",
+    "LICENSE-OpenReliant.txt",
+    "Reliant.SHP",
+    "Reliant_destback.SHP",
+    "orr1_hull.png",
+    "orr1_hull_normal.png",
+    "orr1_hull_emissive.png",
+    "orr1_hull_orm.png",
+    "orr2_hull.png",
+    "orr2_hull_normal.png",
+    "orr2_hull_emissive.png",
+    "orr2_hull_orm.png",
+    "orr3_hull.png",
+    "orr3_hull_normal.png",
+    "orr3_hull_emissive.png",
+    "orr3_hull_orm.png",
+    "mission959.dte",
+    "mission958.dte",
+    "license.txt",
+    "mod.png",
+    "reliant_camera_motion.luau",
+    "reliant_camera.luau",
+    "Allied_Cap_Gun.SHP",
+    "13_al_STUR.SHP",
+    "orr_cgun.png",
+    "orr_cgun_normal.png",
+    "orr_cgun_orm.png",
+    "orr_sgun.png",
+    "orr_sgun_normal.png",
+    "orr_sgun_orm.png"
+  ],
+  "installed_hashes_match": true,
+  "packages": [
+    {
+      "tier": "4k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-4k.zip",
+      "sha256": "984b34c15e410f87c29e2c1315c761c776105284e919d7accdb51911f71a1360",
+      "bytes": 90437043
+    },
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-2k.zip",
+      "sha256": "c310df225c7a4b803b64522074739b9befcf36a1735c823fbf83349ade2cc346",
+      "bytes": 33764606
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/packages/Reliant-Worn-Review-v0.1.0-1k.zip",
+      "sha256": "b082dfdc8718249390a38f60af58b5fbbd401cdbaf047d0d669513ab0836b0f9",
+      "bytes": 12242025
+    }
+  ],
+  "visual_approval": "pending user review",
+  "hangar_interior": "separate original asset, unchanged"
+}

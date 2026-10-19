@@ -1,0 +1,210 @@
+{
+  "passed": true,
+  "method": "Aligned native UVs; all four runtime maps resized together; normals renormalized; shader response and native models identical in every tier",
+  "tiers": [
+    {
+      "tier": "2k",
+      "path": "${RELIANT_WORKSPACE}/exports/review_v1_2k/mods/119-reliant-worn-v1",
+      "maps": [
+        {
+          "file": "orr1_hull.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "3a5d233bfdfda6134212b587742931f6f9c0cdb613bc942ece27b94ec1d62c8c"
+        },
+        {
+          "file": "orr1_hull_normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "7a3e7a8e13398f233d4580e17d9101d68727442689268259c367910d617542fe"
+        },
+        {
+          "file": "orr1_hull_emissive.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "afc8a429a8a158f1fc4f5ed4ad268a5dde0d4140f5008e29ae43b786d6753ff1"
+        },
+        {
+          "file": "orr1_hull_orm.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "cefa62410a803ad5e8dd3c4c7fb837974ea01716666c176bc96cb2b8266eae4d"
+        },
+        {
+          "file": "orr2_hull.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "da4ed961ab9d60f3eb7d3cc650b7c2818c0e90727b402fbf50cc41b73f4b9709"
+        },
+        {
+          "file": "orr2_hull_normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "37aa3d6213bd1d70c09a4188cd36fd3f9edadbe0878deddb095e5be014e7c40c"
+        },
+        {
+          "file": "orr2_hull_emissive.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "350ab8ec9ace6c3de62e53684a9c61d6ada6e736678036a8379b9458132e7a4f"
+        },
+        {
+          "file": "orr2_hull_orm.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "1fbc947f5cc215ca8baa37a719adf8d4dae3905a7fdb880d9729f6b9286795d2"
+        },
+        {
+          "file": "orr3_hull.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "9b3086b8e7796f7cb423a6e1efa44c39f813f83785bf3b2528d13f2afc2e8940"
+        },
+        {
+          "file": "orr3_hull_normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "c96d1f4e88c7302b5fa0e1c5e09e89dc4761e9ec6cee5a745627d412cf68344a"
+        },
+        {
+          "file": "orr3_hull_emissive.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "2cf70eb2d940d603dc707c0528c7fc8a45871c2edcf0a9e8bf2f44db6712b243"
+        },
+        {
+          "file": "orr3_hull_orm.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "4e3cb8e67f9bdf77d08b14e2fb591a61c2bff42fb1d40673341aa5ea66836769"
+        }
+      ]
+    },
+    {
+      "tier": "1k",
+      "path": "${RELIANT_WORKSPACE}/exports/review_v1_1k/mods/119-reliant-worn-v1",
+      "maps": [
+        {
+          "file": "orr1_hull.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "1667299047bfd652225b40504bb2c53c6ef45bfc1b9c8bb776f8f747a743d388"
+        },
+        {
+          "file": "orr1_hull_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "654d6422c6436554a4b238026a2049b4d7cf98b6ce9359f7c6aa1d2dab750109"
+        },
+        {
+          "file": "orr1_hull_emissive.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "21fbb43aec080c92d18a04eca7e1deeb8098d5a93db6b8418e4ef63a7208177b"
+        },
+        {
+          "file": "orr1_hull_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "a51386ce713d585aed0028dd154af41d6676b4a8297a2f2011d7dd066685c325"
+        },
+        {
+          "file": "orr2_hull.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "7cec3609c4df131925b4f07959b061a06259a5f9f888ecb0123287fd7015eff8"
+        },
+        {
+          "file": "orr2_hull_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "ef53ecd670aec6088515392c477933834dec0ba6d6b5713f707e2f24f53d1fc2"
+        },
+        {
+          "file": "orr2_hull_emissive.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "ae9cce92e57329be1037c728a42638b0a547e6fef5f00db6957b2d126f6c0c0d"
+        },
+        {
+          "file": "orr2_hull_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "56e6e4e4c64a3630f11c21bf6ab41f17e425eb8671b1f8b0d59863c3c0334651"
+        },
+        {
+          "file": "orr3_hull.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "4e81c1729ac3ca265e27370fc117b45b9bc0cf31a587d023dfdd3207a1794a42"
+        },
+        {
+          "file": "orr3_hull_normal.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "e3f0fcefb5ae722d5bc45bbb05b379a8b2b6d78b7a16b4015301b0c45377d927"
+        },
+        {
+          "file": "orr3_hull_emissive.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "5eac3794b08616e0853319811cd92fc57602218925379728f0a52a1b4f5dcf4f"
+        },
+        {
+          "file": "orr3_hull_orm.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "0b98504d4ac3304743fce48f3bf2b78037a5aa2875aa26f6663a760e4dc78e01"
+        }
+      ]
+    }
+  ]
+}

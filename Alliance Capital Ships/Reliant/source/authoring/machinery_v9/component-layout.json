@@ -1,0 +1,1754 @@
+{
+  "revision": 9,
+  "coordinates": "1024 atlas units",
+  "bays": [
+    17,
+    18,
+    19
+  ],
+  "source_mode": "built-in ImageGen material swatch plus authored component profiles",
+  "components": [
+    {
+      "id": 1,
+      "name": "main_pipe_mount",
+      "kind": "beveled_rectangle",
+      "center": [
+        473,
+        642
+      ],
+      "size": [
+        8.0,
+        23.0
+      ],
+      "top": -1.35,
+      "bevel": 0.65
+    },
+    {
+      "id": 2,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        473,
+        633.2
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 3,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        473,
+        650.8
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 4,
+      "name": "main_pipe_mount",
+      "kind": "beveled_rectangle",
+      "center": [
+        540,
+        642
+      ],
+      "size": [
+        8.0,
+        23.0
+      ],
+      "top": -1.35,
+      "bevel": 0.65
+    },
+    {
+      "id": 5,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        540,
+        633.2
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 6,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        540,
+        650.8
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 7,
+      "name": "main_pipe_mount",
+      "kind": "beveled_rectangle",
+      "center": [
+        602,
+        642
+      ],
+      "size": [
+        8.0,
+        23.0
+      ],
+      "top": -1.35,
+      "bevel": 0.65
+    },
+    {
+      "id": 8,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        602,
+        633.2
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 9,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        602,
+        650.8
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 10,
+      "name": "main_pipe_mount",
+      "kind": "beveled_rectangle",
+      "center": [
+        721,
+        642
+      ],
+      "size": [
+        8.0,
+        23.0
+      ],
+      "top": -1.35,
+      "bevel": 0.65
+    },
+    {
+      "id": 11,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        721,
+        633.2
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 12,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        721,
+        650.8
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 13,
+      "name": "main_pipe_mount",
+      "kind": "beveled_rectangle",
+      "center": [
+        770,
+        642
+      ],
+      "size": [
+        8.0,
+        23.0
+      ],
+      "top": -1.35,
+      "bevel": 0.65
+    },
+    {
+      "id": 14,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        770,
+        633.2
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 15,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        770,
+        650.8
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 16,
+      "name": "main_pipe_mount",
+      "kind": "beveled_rectangle",
+      "center": [
+        870,
+        642
+      ],
+      "size": [
+        8.0,
+        23.0
+      ],
+      "top": -1.35,
+      "bevel": 0.65
+    },
+    {
+      "id": 17,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        870,
+        633.2
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 18,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        870,
+        650.8
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 19,
+      "name": "main_pipe_mount",
+      "kind": "beveled_rectangle",
+      "center": [
+        941,
+        642
+      ],
+      "size": [
+        8.0,
+        23.0
+      ],
+      "top": -1.35,
+      "bevel": 0.65
+    },
+    {
+      "id": 20,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        941,
+        633.2
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 21,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        941,
+        650.8
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 22,
+      "name": "main_pipe_mount",
+      "kind": "beveled_rectangle",
+      "center": [
+        991,
+        642
+      ],
+      "size": [
+        8.0,
+        23.0
+      ],
+      "top": -1.35,
+      "bevel": 0.65
+    },
+    {
+      "id": 23,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        991,
+        633.2
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 24,
+      "name": "mount_fastener",
+      "kind": "fastener",
+      "center": [
+        991,
+        650.8
+      ],
+      "radius": 1.0,
+      "top": -0.65
+    },
+    {
+      "id": 25,
+      "name": "branch_foot",
+      "kind": "beveled_rectangle",
+      "center": [
+        487,
+        688
+      ],
+      "size": [
+        8,
+        7
+      ],
+      "top": -1.4,
+      "bevel": 0.65
+    },
+    {
+      "id": 26,
+      "name": "branch_foot_bolt",
+      "kind": "fastener",
+      "center": [
+        484.5,
+        688
+      ],
+      "radius": 0.7,
+      "top": -0.8
+    },
+    {
+      "id": 27,
+      "name": "branch_foot_bolt",
+      "kind": "fastener",
+      "center": [
+        489.5,
+        688
+      ],
+      "radius": 0.7,
+      "top": -0.8
+    },
+    {
+      "id": 28,
+      "name": "return_branch",
+      "kind": "cylindrical_conduit",
+      "start": [
+        487,
+        641
+      ],
+      "end": [
+        487,
+        690
+      ],
+      "radius": 2.4,
+      "base": -1.6,
+      "depth": 2.9
+    },
+    {
+      "id": 29,
+      "name": "branch_lower_collar",
+      "kind": "cylindrical_conduit",
+      "start": [
+        487,
+        682
+      ],
+      "end": [
+        487,
+        686
+      ],
+      "radius": 3.2,
+      "base": -1.1,
+      "depth": 3.1
+    },
+    {
+      "id": 30,
+      "name": "branch_foot",
+      "kind": "beveled_rectangle",
+      "center": [
+        579,
+        688
+      ],
+      "size": [
+        8,
+        7
+      ],
+      "top": -1.4,
+      "bevel": 0.65
+    },
+    {
+      "id": 31,
+      "name": "branch_foot_bolt",
+      "kind": "fastener",
+      "center": [
+        576.5,
+        688
+      ],
+      "radius": 0.7,
+      "top": -0.8
+    },
+    {
+      "id": 32,
+      "name": "branch_foot_bolt",
+      "kind": "fastener",
+      "center": [
+        581.5,
+        688
+      ],
+      "radius": 0.7,
+      "top": -0.8
+    },
+    {
+      "id": 33,
+      "name": "return_branch",
+      "kind": "cylindrical_conduit",
+      "start": [
+        579,
+        641
+      ],
+      "end": [
+        579,
+        690
+      ],
+      "radius": 2.4,
+      "base": -1.6,
+      "depth": 2.9
+    },
+    {
+      "id": 34,
+      "name": "branch_lower_collar",
+      "kind": "cylindrical_conduit",
+      "start": [
+        579,
+        682
+      ],
+      "end": [
+        579,
+        686
+      ],
+      "radius": 3.2,
+      "base": -1.1,
+      "depth": 3.1
+    },
+    {
+      "id": 35,
+      "name": "branch_foot",
+      "kind": "beveled_rectangle",
+      "center": [
+        741,
+        688
+      ],
+      "size": [
+        8,
+        7
+      ],
+      "top": -1.4,
+      "bevel": 0.65
+    },
+    {
+      "id": 36,
+      "name": "branch_foot_bolt",
+      "kind": "fastener",
+      "center": [
+        738.5,
+        688
+      ],
+      "radius": 0.7,
+      "top": -0.8
+    },
+    {
+      "id": 37,
+      "name": "branch_foot_bolt",
+      "kind": "fastener",
+      "center": [
+        743.5,
+        688
+      ],
+      "radius": 0.7,
+      "top": -0.8
+    },
+    {
+      "id": 38,
+      "name": "return_branch",
+      "kind": "cylindrical_conduit",
+      "start": [
+        741,
+        641
+      ],
+      "end": [
+        741,
+        690
+      ],
+      "radius": 2.4,
+      "base": -1.6,
+      "depth": 2.9
+    },
+    {
+      "id": 39,
+      "name": "branch_lower_collar",
+      "kind": "cylindrical_conduit",
+      "start": [
+        741,
+        682
+      ],
+      "end": [
+        741,
+        686
+      ],
+      "radius": 3.2,
+      "base": -1.1,
+      "depth": 3.1
+    },
+    {
+      "id": 40,
+      "name": "branch_foot",
+      "kind": "beveled_rectangle",
+      "center": [
+        784,
+        688
+      ],
+      "size": [
+        8,
+        7
+      ],
+      "top": -1.4,
+      "bevel": 0.65
+    },
+    {
+      "id": 41,
+      "name": "branch_foot_bolt",
+      "kind": "fastener",
+      "center": [
+        781.5,
+        688
+      ],
+      "radius": 0.7,
+      "top": -0.8
+    },
+    {
+      "id": 42,
+      "name": "branch_foot_bolt",
+      "kind": "fastener",
+      "center": [
+        786.5,
+        688
+      ],
+      "radius": 0.7,
+      "top": -0.8
+    },
+    {
+      "id": 43,
+      "name": "return_branch",
+      "kind": "cylindrical_conduit",
+      "start": [
+        784,
+        641
+      ],
+      "end": [
+        784,
+        690
+      ],
+      "radius": 2.4,
+      "base": -1.6,
+      "depth": 2.9
+    },
+    {
+      "id": 44,
+      "name": "branch_lower_collar",
+      "kind": "cylindrical_conduit",
+      "start": [
+        784,
+        682
+      ],
+      "end": [
+        784,
+        686
+      ],
+      "radius": 3.2,
+      "base": -1.1,
+      "depth": 3.1
+    },
+    {
+      "id": 45,
+      "name": "branch_foot",
+      "kind": "beveled_rectangle",
+      "center": [
+        906,
+        688
+      ],
+      "size": [
+        8,
+        7
+      ],
+      "top": -1.4,
+      "bevel": 0.65
+    },
+    {
+      "id": 46,
+      "name": "branch_foot_bolt",
+      "kind": "fastener",
+      "center": [
+        903.5,
+        688
+      ],
+      "radius": 0.7,
+      "top": -0.8
+    },
+    {
+      "id": 47,
+      "name": "branch_foot_bolt",
+      "kind": "fastener",
+      "center": [
+        908.5,
+        688
+      ],
+      "radius": 0.7,
+      "top": -0.8
+    },
+    {
+      "id": 48,
+      "name": "return_branch",
+      "kind": "cylindrical_conduit",
+      "start": [
+        906,
+        641
+      ],
+      "end": [
+        906,
+        690
+      ],
+      "radius": 2.4,
+      "base": -1.6,
+      "depth": 2.9
+    },
+    {
+      "id": 49,
+      "name": "branch_lower_collar",
+      "kind": "cylindrical_conduit",
+      "start": [
+        906,
+        682
+      ],
+      "end": [
+        906,
+        686
+      ],
+      "radius": 3.2,
+      "base": -1.1,
+      "depth": 3.1
+    },
+    {
+      "id": 50,
+      "name": "branch_foot",
+      "kind": "beveled_rectangle",
+      "center": [
+        953,
+        688
+      ],
+      "size": [
+        8,
+        7
+      ],
+      "top": -1.4,
+      "bevel": 0.65
+    },
+    {
+      "id": 51,
+      "name": "branch_foot_bolt",
+      "kind": "fastener",
+      "center": [
+        950.5,
+        688
+      ],
+      "radius": 0.7,
+      "top": -0.8
+    },
+    {
+      "id": 52,
+      "name": "branch_foot_bolt",
+      "kind": "fastener",
+      "center": [
+        955.5,
+        688
+      ],
+      "radius": 0.7,
+      "top": -0.8
+    },
+    {
+      "id": 53,
+      "name": "return_branch",
+      "kind": "cylindrical_conduit",
+      "start": [
+        953,
+        641
+      ],
+      "end": [
+        953,
+        690
+      ],
+      "radius": 2.4,
+      "base": -1.6,
+      "depth": 2.9
+    },
+    {
+      "id": 54,
+      "name": "branch_lower_collar",
+      "kind": "cylindrical_conduit",
+      "start": [
+        953,
+        682
+      ],
+      "end": [
+        953,
+        686
+      ],
+      "radius": 3.2,
+      "base": -1.1,
+      "depth": 3.1
+    },
+    {
+      "id": 55,
+      "name": "secondary_service_line",
+      "kind": "cylindrical_conduit",
+      "start": [
+        421.0,
+        675.5
+      ],
+      "end": [
+        1020.0,
+        675.5
+      ],
+      "radius": 2.25,
+      "base": -1.3,
+      "depth": 2.7
+    },
+    {
+      "id": 56,
+      "name": "secondary_coupling",
+      "kind": "cylindrical_conduit",
+      "start": [
+        453.6,
+        675.5
+      ],
+      "end": [
+        456.4,
+        675.5
+      ],
+      "radius": 3.05,
+      "base": -0.9,
+      "depth": 2.9
+    },
+    {
+      "id": 57,
+      "name": "secondary_coupling",
+      "kind": "cylindrical_conduit",
+      "start": [
+        517.6,
+        675.5
+      ],
+      "end": [
+        520.4,
+        675.5
+      ],
+      "radius": 3.05,
+      "base": -0.9,
+      "depth": 2.9
+    },
+    {
+      "id": 58,
+      "name": "secondary_coupling",
+      "kind": "cylindrical_conduit",
+      "start": [
+        587.6,
+        675.5
+      ],
+      "end": [
+        590.4,
+        675.5
+      ],
+      "radius": 3.05,
+      "base": -0.9,
+      "depth": 2.9
+    },
+    {
+      "id": 59,
+      "name": "secondary_coupling",
+      "kind": "cylindrical_conduit",
+      "start": [
+        678.6,
+        675.5
+      ],
+      "end": [
+        681.4,
+        675.5
+      ],
+      "radius": 3.05,
+      "base": -0.9,
+      "depth": 2.9
+    },
+    {
+      "id": 60,
+      "name": "secondary_coupling",
+      "kind": "cylindrical_conduit",
+      "start": [
+        756.6,
+        675.5
+      ],
+      "end": [
+        759.4,
+        675.5
+      ],
+      "radius": 3.05,
+      "base": -0.9,
+      "depth": 2.9
+    },
+    {
+      "id": 61,
+      "name": "secondary_coupling",
+      "kind": "cylindrical_conduit",
+      "start": [
+        798.6,
+        675.5
+      ],
+      "end": [
+        801.4,
+        675.5
+      ],
+      "radius": 3.05,
+      "base": -0.9,
+      "depth": 2.9
+    },
+    {
+      "id": 62,
+      "name": "secondary_coupling",
+      "kind": "cylindrical_conduit",
+      "start": [
+        911.6,
+        675.5
+      ],
+      "end": [
+        914.4,
+        675.5
+      ],
+      "radius": 3.05,
+      "base": -0.9,
+      "depth": 2.9
+    },
+    {
+      "id": 63,
+      "name": "secondary_coupling",
+      "kind": "cylindrical_conduit",
+      "start": [
+        973.6,
+        675.5
+      ],
+      "end": [
+        976.4,
+        675.5
+      ],
+      "radius": 3.05,
+      "base": -0.9,
+      "depth": 2.9
+    },
+    {
+      "id": 64,
+      "name": "upper_feed_wall_socket",
+      "kind": "beveled_rectangle",
+      "center": [
+        520,
+        615
+      ],
+      "size": [
+        7.5,
+        7
+      ],
+      "top": -1.2,
+      "bevel": 0.65
+    },
+    {
+      "id": 65,
+      "name": "feed_socket_fastener",
+      "kind": "fastener",
+      "center": [
+        517.4,
+        615
+      ],
+      "radius": 0.6,
+      "top": -0.7
+    },
+    {
+      "id": 66,
+      "name": "feed_socket_fastener",
+      "kind": "fastener",
+      "center": [
+        522.6,
+        615
+      ],
+      "radius": 0.6,
+      "top": -0.7
+    },
+    {
+      "id": 67,
+      "name": "upper_feed",
+      "kind": "cylindrical_conduit",
+      "start": [
+        520,
+        614
+      ],
+      "end": [
+        520,
+        643
+      ],
+      "radius": 2.2,
+      "base": -1.6,
+      "depth": 2.7
+    },
+    {
+      "id": 68,
+      "name": "upper_feed_ferrule",
+      "kind": "cylindrical_conduit",
+      "start": [
+        520,
+        615
+      ],
+      "end": [
+        520,
+        618
+      ],
+      "radius": 2.9,
+      "base": -1.2,
+      "depth": 2.9
+    },
+    {
+      "id": 69,
+      "name": "upper_feed_wall_socket",
+      "kind": "beveled_rectangle",
+      "center": [
+        607,
+        618
+      ],
+      "size": [
+        7.5,
+        7
+      ],
+      "top": -1.2,
+      "bevel": 0.65
+    },
+    {
+      "id": 70,
+      "name": "feed_socket_fastener",
+      "kind": "fastener",
+      "center": [
+        604.4,
+        618
+      ],
+      "radius": 0.6,
+      "top": -0.7
+    },
+    {
+      "id": 71,
+      "name": "feed_socket_fastener",
+      "kind": "fastener",
+      "center": [
+        609.6,
+        618
+      ],
+      "radius": 0.6,
+      "top": -0.7
+    },
+    {
+      "id": 72,
+      "name": "upper_feed",
+      "kind": "cylindrical_conduit",
+      "start": [
+        607,
+        617
+      ],
+      "end": [
+        607,
+        643
+      ],
+      "radius": 2.2,
+      "base": -1.6,
+      "depth": 2.7
+    },
+    {
+      "id": 73,
+      "name": "upper_feed_ferrule",
+      "kind": "cylindrical_conduit",
+      "start": [
+        607,
+        618
+      ],
+      "end": [
+        607,
+        621
+      ],
+      "radius": 2.9,
+      "base": -1.2,
+      "depth": 2.9
+    },
+    {
+      "id": 74,
+      "name": "upper_feed_wall_socket",
+      "kind": "beveled_rectangle",
+      "center": [
+        736,
+        611
+      ],
+      "size": [
+        7.5,
+        7
+      ],
+      "top": -1.2,
+      "bevel": 0.65
+    },
+    {
+      "id": 75,
+      "name": "feed_socket_fastener",
+      "kind": "fastener",
+      "center": [
+        733.4,
+        611
+      ],
+      "radius": 0.6,
+      "top": -0.7
+    },
+    {
+      "id": 76,
+      "name": "feed_socket_fastener",
+      "kind": "fastener",
+      "center": [
+        738.6,
+        611
+      ],
+      "radius": 0.6,
+      "top": -0.7
+    },
+    {
+      "id": 77,
+      "name": "upper_feed",
+      "kind": "cylindrical_conduit",
+      "start": [
+        736,
+        610
+      ],
+      "end": [
+        736,
+        643
+      ],
+      "radius": 2.2,
+      "base": -1.6,
+      "depth": 2.7
+    },
+    {
+      "id": 78,
+      "name": "upper_feed_ferrule",
+      "kind": "cylindrical_conduit",
+      "start": [
+        736,
+        611
+      ],
+      "end": [
+        736,
+        614
+      ],
+      "radius": 2.9,
+      "base": -1.2,
+      "depth": 2.9
+    },
+    {
+      "id": 79,
+      "name": "upper_feed_wall_socket",
+      "kind": "beveled_rectangle",
+      "center": [
+        863,
+        614
+      ],
+      "size": [
+        7.5,
+        7
+      ],
+      "top": -1.2,
+      "bevel": 0.65
+    },
+    {
+      "id": 80,
+      "name": "feed_socket_fastener",
+      "kind": "fastener",
+      "center": [
+        860.4,
+        614
+      ],
+      "radius": 0.6,
+      "top": -0.7
+    },
+    {
+      "id": 81,
+      "name": "feed_socket_fastener",
+      "kind": "fastener",
+      "center": [
+        865.6,
+        614
+      ],
+      "radius": 0.6,
+      "top": -0.7
+    },
+    {
+      "id": 82,
+      "name": "upper_feed",
+      "kind": "cylindrical_conduit",
+      "start": [
+        863,
+        613
+      ],
+      "end": [
+        863,
+        643
+      ],
+      "radius": 2.2,
+      "base": -1.6,
+      "depth": 2.7
+    },
+    {
+      "id": 83,
+      "name": "upper_feed_ferrule",
+      "kind": "cylindrical_conduit",
+      "start": [
+        863,
+        614
+      ],
+      "end": [
+        863,
+        617
+      ],
+      "radius": 2.9,
+      "base": -1.2,
+      "depth": 2.9
+    },
+    {
+      "id": 84,
+      "name": "upper_feed_wall_socket",
+      "kind": "beveled_rectangle",
+      "center": [
+        972,
+        620
+      ],
+      "size": [
+        7.5,
+        7
+      ],
+      "top": -1.2,
+      "bevel": 0.65
+    },
+    {
+      "id": 85,
+      "name": "feed_socket_fastener",
+      "kind": "fastener",
+      "center": [
+        969.4,
+        620
+      ],
+      "radius": 0.6,
+      "top": -0.7
+    },
+    {
+      "id": 86,
+      "name": "feed_socket_fastener",
+      "kind": "fastener",
+      "center": [
+        974.6,
+        620
+      ],
+      "radius": 0.6,
+      "top": -0.7
+    },
+    {
+      "id": 87,
+      "name": "upper_feed",
+      "kind": "cylindrical_conduit",
+      "start": [
+        972,
+        619
+      ],
+      "end": [
+        972,
+        643
+      ],
+      "radius": 2.2,
+      "base": -1.6,
+      "depth": 2.7
+    },
+    {
+      "id": 88,
+      "name": "upper_feed_ferrule",
+      "kind": "cylindrical_conduit",
+      "start": [
+        972,
+        620
+      ],
+      "end": [
+        972,
+        623
+      ],
+      "radius": 2.9,
+      "base": -1.2,
+      "depth": 2.9
+    },
+    {
+      "id": 89,
+      "name": "primary_service_conduit",
+      "kind": "cylindrical_conduit",
+      "start": [
+        420,
+        642
+      ],
+      "end": [
+        1024,
+        642
+      ],
+      "radius": 4.5,
+      "base": -0.65,
+      "depth": 4.4
+    },
+    {
+      "id": 90,
+      "name": "retaining_sleeve",
+      "kind": "cylindrical_conduit",
+      "start": [
+        470.4,
+        642.0
+      ],
+      "end": [
+        475.6,
+        642.0
+      ],
+      "radius": 5.2,
+      "base": -0.5,
+      "depth": 4.9
+    },
+    {
+      "id": 91,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        470.45,
+        642.0
+      ],
+      "end": [
+        471.34999999999997,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 92,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        474.65000000000003,
+        642.0
+      ],
+      "end": [
+        475.55,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 93,
+      "name": "retaining_sleeve",
+      "kind": "cylindrical_conduit",
+      "start": [
+        537.4,
+        642.0
+      ],
+      "end": [
+        542.6,
+        642.0
+      ],
+      "radius": 5.2,
+      "base": -0.5,
+      "depth": 4.9
+    },
+    {
+      "id": 94,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        537.4499999999999,
+        642.0
+      ],
+      "end": [
+        538.35,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 95,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        541.65,
+        642.0
+      ],
+      "end": [
+        542.5500000000001,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 96,
+      "name": "retaining_sleeve",
+      "kind": "cylindrical_conduit",
+      "start": [
+        599.4,
+        642.0
+      ],
+      "end": [
+        604.6,
+        642.0
+      ],
+      "radius": 5.2,
+      "base": -0.5,
+      "depth": 4.9
+    },
+    {
+      "id": 97,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        599.4499999999999,
+        642.0
+      ],
+      "end": [
+        600.35,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 98,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        603.65,
+        642.0
+      ],
+      "end": [
+        604.5500000000001,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 99,
+      "name": "retaining_sleeve",
+      "kind": "cylindrical_conduit",
+      "start": [
+        718.4,
+        642.0
+      ],
+      "end": [
+        723.6,
+        642.0
+      ],
+      "radius": 5.2,
+      "base": -0.5,
+      "depth": 4.9
+    },
+    {
+      "id": 100,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        718.4499999999999,
+        642.0
+      ],
+      "end": [
+        719.35,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 101,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        722.65,
+        642.0
+      ],
+      "end": [
+        723.5500000000001,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 102,
+      "name": "retaining_sleeve",
+      "kind": "cylindrical_conduit",
+      "start": [
+        767.4,
+        642.0
+      ],
+      "end": [
+        772.6,
+        642.0
+      ],
+      "radius": 5.2,
+      "base": -0.5,
+      "depth": 4.9
+    },
+    {
+      "id": 103,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        767.4499999999999,
+        642.0
+      ],
+      "end": [
+        768.35,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 104,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        771.65,
+        642.0
+      ],
+      "end": [
+        772.5500000000001,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 105,
+      "name": "retaining_sleeve",
+      "kind": "cylindrical_conduit",
+      "start": [
+        867.4,
+        642.0
+      ],
+      "end": [
+        872.6,
+        642.0
+      ],
+      "radius": 5.2,
+      "base": -0.5,
+      "depth": 4.9
+    },
+    {
+      "id": 106,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        867.4499999999999,
+        642.0
+      ],
+      "end": [
+        868.35,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 107,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        871.65,
+        642.0
+      ],
+      "end": [
+        872.5500000000001,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 108,
+      "name": "retaining_sleeve",
+      "kind": "cylindrical_conduit",
+      "start": [
+        938.4,
+        642.0
+      ],
+      "end": [
+        943.6,
+        642.0
+      ],
+      "radius": 5.2,
+      "base": -0.5,
+      "depth": 4.9
+    },
+    {
+      "id": 109,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        938.4499999999999,
+        642.0
+      ],
+      "end": [
+        939.35,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 110,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        942.65,
+        642.0
+      ],
+      "end": [
+        943.5500000000001,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 111,
+      "name": "retaining_sleeve",
+      "kind": "cylindrical_conduit",
+      "start": [
+        988.4,
+        642.0
+      ],
+      "end": [
+        993.6,
+        642.0
+      ],
+      "radius": 5.2,
+      "base": -0.5,
+      "depth": 4.9
+    },
+    {
+      "id": 112,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        988.4499999999999,
+        642.0
+      ],
+      "end": [
+        989.35,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 113,
+      "name": "sleeve_rim",
+      "kind": "cylindrical_conduit",
+      "start": [
+        992.65,
+        642.0
+      ],
+      "end": [
+        993.5500000000001,
+        642.0
+      ],
+      "radius": 5.5,
+      "base": -0.45,
+      "depth": 5.0
+    },
+    {
+      "id": 114,
+      "name": "service_box_back",
+      "kind": "beveled_rectangle",
+      "center": [
+        636,
+        625
+      ],
+      "size": [
+        11,
+        15
+      ],
+      "top": -0.7,
+      "bevel": 0.65
+    },
+    {
+      "id": 115,
+      "name": "service_box_lid",
+      "kind": "beveled_rectangle",
+      "center": [
+        636,
+        625
+      ],
+      "size": [
+        9,
+        13
+      ],
+      "top": 0.7,
+      "bevel": 0.8
+    },
+    {
+      "id": 116,
+      "name": "red_service_label",
+      "kind": "beveled_rectangle",
+      "center": [
+        636,
+        625
+      ],
+      "size": [
+        2.4,
+        5
+      ],
+      "top": 0.82,
+      "bevel": 0.25
+    },
+    {
+      "id": 117,
+      "name": "lid_fastener",
+      "kind": "fastener",
+      "center": [
+        636,
+        620.5
+      ],
+      "radius": 0.55,
+      "top": 1.05
+    },
+    {
+      "id": 118,
+      "name": "lid_fastener",
+      "kind": "fastener",
+      "center": [
+        636,
+        629.5
+      ],
+      "radius": 0.55,
+      "top": 1.05
+    },
+    {
+      "id": 119,
+      "name": "service_box_back",
+      "kind": "beveled_rectangle",
+      "center": [
+        557,
+        662
+      ],
+      "size": [
+        14,
+        17
+      ],
+      "top": -0.7,
+      "bevel": 0.65
+    },
+    {
+      "id": 120,
+      "name": "service_box_lid",
+      "kind": "beveled_rectangle",
+      "center": [
+        557,
+        662
+      ],
+      "size": [
+        12,
+        15
+      ],
+      "top": 0.7,
+      "bevel": 0.8
+    },
+    {
+      "id": 121,
+      "name": "red_service_label",
+      "kind": "beveled_rectangle",
+      "center": [
+        557,
+        662
+      ],
+      "size": [
+        2.4,
+        5
+      ],
+      "top": 0.82,
+      "bevel": 0.25
+    },
+    {
+      "id": 122,
+      "name": "lid_fastener",
+      "kind": "fastener",
+      "center": [
+        557,
+        656.5
+      ],
+      "radius": 0.55,
+      "top": 1.05
+    },
+    {
+      "id": 123,
+      "name": "lid_fastener",
+      "kind": "fastener",
+      "center": [
+        557,
+        667.5
+      ],
+      "radius": 0.55,
+      "top": 1.05
+    }
+  ],
+  "frame_preserved": true,
+  "old_interior_channels_replaced": [
+    "base_colour",
+    "height",
+    "normal",
+    "ambient_occlusion",
+    "roughness",
+    "metallic"
+  ]
+}

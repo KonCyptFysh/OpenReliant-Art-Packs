@@ -1,0 +1,233 @@
+{
+  "scene": "${RELIANT_WORKSPACE}/reliant_worn_pbr_v1.blend",
+  "scene_sha256": "4b5a4d7d4b64269dc14ec044e71732f5041f4946ba541f61b59e7b49116a9ba5",
+  "maps": {
+    "rel1": {
+      "basecolor": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel1_basecolor_v1.png",
+        "sha256": "08f7c00148afafa05dd1f5a649084f32ff1c718fb9f79f7aa2fde1f21dbf512c",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel1_normal_v1.png",
+        "sha256": "136ccd96b627cbab08f410290681c3d23451950c60fd44742ddcbc00b4c195fa",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel1_roughness_v1.png",
+        "sha256": "a4c435902d1b99391402d3986583a3ac0ba6b1209ade15782d5fee2158be7ae1",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel1_metallic_v1.png",
+        "sha256": "48c955d1d2876526b865e40ef2e62e3c78218900500859b76ef53175c30f4877",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "emissive": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel1_emissive_v1.png",
+        "sha256": "08da38b7203f76b80ce5dc83df44c12a9d6661294213ccb8e50e7b8ebac7a06a",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel1_height_v1.png",
+        "sha256": "f462793ddc07613a856fd2242b535f6d6582f80fe81c86b371b6763ed90d4863",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel1_flat_graphics_v1.png",
+        "sha256": "ac3074b940711070fc53ba0573c481b95d1dfc669dfaa58a9461f7afd3efb5c9",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel1_structure_v1.png",
+        "sha256": "e462200b2ef4b1f05be403dba5538a7c3764f73d623f0a655cd8508425db88db",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "glass": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel1_glass_v1.png",
+        "sha256": "1d9b122dfea5160edd851aad3e5eb4239500fde0e3f54f3532c14d35ba2c1d99",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    },
+    "rel2": {
+      "basecolor": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel2_basecolor_v1.png",
+        "sha256": "2d9bddd2037ed808e4e11a422e7392224a3ff308bcc337c7df5fe27e56eda143",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel2_normal_v1.png",
+        "sha256": "9157d60dc7e04be2476ea4c66730ceb0c840404b3afa2d4ecf85feb3d9948306",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel2_roughness_v1.png",
+        "sha256": "80488d0c9af8901dc3e669bd9c286e70a10168573ee333a6cdc796af242c2427",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel2_metallic_v1.png",
+        "sha256": "9c36fd5ae43061c065d3a54f226de1891551d7add8647be7c9b452ffa881d99c",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "emissive": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel2_emissive_v1.png",
+        "sha256": "548e447c63e8ee9765c00d6f57f01745fa73316390d9cf98d3fdd79286061322",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel2_height_v1.png",
+        "sha256": "5964b3276dd41e2b8bb69800517b963ba8d34fad26767cef8e17ff4dbe30bf7c",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel2_flat_graphics_v1.png",
+        "sha256": "f485cbd4ede63e9e9ca71279c2fa275b779b94cb50f6e92fd992b6fbb1f969be",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel2_structure_v1.png",
+        "sha256": "43fdc672b64cdcdebb40b9ddf4e9d161c0801103e2a3901298ff7f50ae7e5c66",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "glass": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel2_glass_v1.png",
+        "sha256": "888675efad49223b854fa74f579d6db514d36996aad1a659dbf3de8aab354156",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    },
+    "rel3": {
+      "basecolor": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel3_basecolor_v1.png",
+        "sha256": "d8c29789c9129b3353e24c67920a832b7bb70d806cc24488d08f7705d1448608",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "normal": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel3_normal_v1.png",
+        "sha256": "7de97d420a46cf282ba49dd5d826d3904a1763c8b43e03da2ac53dcd759d5cb7",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "roughness": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel3_roughness_v1.png",
+        "sha256": "6a5df93c38562c9f2039e8039bc7abc51ccf443b1bb20f5d6fde14f58c890792",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "metallic": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel3_metallic_v1.png",
+        "sha256": "ffc8cfbe6e7d30124eb8580d80f926b398b8625b4c07cd3874e47c48f4a6a704",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "emissive": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel3_emissive_v1.png",
+        "sha256": "5535a3c3cfe3edcb278a7816bbb4c8f2759339e2ae99918d4c2eac27135a90b7",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "height": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel3_height_v1.png",
+        "sha256": "b01775ce60572e7f76d84c6f129fadadaf705557b2d5b7e8fff4d1748531885f",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "flat_graphics": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel3_flat_graphics_v1.png",
+        "sha256": "153dd6132460a9afc44a648c3fceae02caca76040d3e32a9be0933cc2b8a773e",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "structure": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel3_structure_v1.png",
+        "sha256": "9711f755f657b5b1cdcaf4db3ddf14ee8dd552c9ee6ffc9050cb8e50d8ceb259",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      },
+      "glass": {
+        "path": "${RELIANT_WORKSPACE}/maps/reliant_rel3_glass_v1.png",
+        "sha256": "1d9b122dfea5160edd851aad3e5eb4239500fde0e3f54f3532c14d35ba2c1d99",
+        "dimensions": [
+          4096,
+          4096
+        ]
+      }
+    }
+  },
+  "original_geometry_and_uvs_preserved": true,
+  "structural_height_only": true,
+  "colour_method": "Built-in imagegen edits of preserved original atlases; 1254px reconstruction masters resampled to 4096px delivery",
+  "shared_parts": "Native turrets and hangar interior unchanged",
+  "runtime_visual_validation": "pending"
+}
