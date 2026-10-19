@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "assets": 1,
+  "packages": 3,
+  "checks": [
+    {
+      "asset": "reliant",
+      "tier": "1k",
+      "passed": true,
+      "sha256": "bc65eee960903bc49259bd4d0b1d63ae06d79a2d97fb4f3fb2dfdb44b51dff59",
+      "runtime_files": 47,
+      "byte_identical_retained_files": 45,
+      "changed_metadata_or_surface_only": [
+        "mod.ini",
+        "reliant_surface.luau"
+      ]
+    },
+    {
+      "asset": "reliant",
+      "tier": "2k",
+      "passed": true,
+      "sha256": "dbae3446cecc9c109217b5d9887f6483b37a484b06e0c7381b454160d2227857",
+      "runtime_files": 47,
+      "byte_identical_retained_files": 45,
+      "changed_metadata_or_surface_only": [
+        "mod.ini",
+        "reliant_surface.luau"
+      ]
+    },
+    {
+      "asset": "reliant",
+      "tier": "4k",
+      "passed": true,
+      "sha256": "18ce289e33efa29b3a6d9d089bf775257935bbd6bd6f9704e5f7841ea012bfc0",
+      "runtime_files": 47,
+      "byte_identical_retained_files": 45,
+      "changed_metadata_or_surface_only": [
+        "mod.ini",
+        "reliant_surface.luau"
+      ]
+    }
+  ],
+  "rule": "Only flat runtime mod files; no scenes, developer scripts, launchers or external documents; image/model/production response bytes match previous public downloads.",
+  "publication_status": "Reliant public downloads verified; other clean replacements prepared on release/runtime-only-2026-10-19 pending approval",
+  "releases": {
+    "reliant": {
+      "state": "verified",
+      "tag": "reliant-v0.1.0-beta.13.runtime1",
+      "total_bytes": 320894117,
+      "verified": [
+        {
+          "tier": "1k",
+          "asset_id": 656092436,
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-1k-0.1.0-beta.13.runtime1.res2.zip",
+          "sha256": "bc65eee960903bc49259bd4d0b1d63ae06d79a2d97fb4f3fb2dfdb44b51dff59",
+          "bytes": 25551538,
+          "checksum_asset_id": 656092474,
+          "verified_at_utc": "2026-10-19T11:38:33Z"
+        },
+        {
+          "tier": "2k",
+          "asset_id": 656092468,
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-2k-0.1.0-beta.13.runtime1.res2.zip",
+          "sha256": "dbae3446cecc9c109217b5d9887f6483b37a484b06e0c7381b454160d2227857",
+          "bytes": 77678236,
+          "checksum_asset_id": 656092466,
+          "verified_at_utc": "2026-10-19T11:39:22Z"
+        },
+        {
+          "tier": "4k",
+          "asset_id": 656092469,
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-0.1.0-beta.13.runtime1.zip",
+          "sha256": "18ce289e33efa29b3a6d9d089bf775257935bbd6bd6f9704e5f7841ea012bfc0",
+          "bytes": 217664343,
+          "checksum_asset_id": 656092598,
+          "verified_at_utc": "2026-10-19T11:41:16Z"
+        }
+      ],
+      "source_commit": "d070c52ec70b54a690820555703673435fb1556c",
+      "release_id": 417216345,
+      "release_url": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1"
+    }
+  },
+  "source_commit": "d070c52ec70b54a690820555703673435fb1556c",
+  "development_scene_included": false,
+  "landing_workaround_included": false
+}

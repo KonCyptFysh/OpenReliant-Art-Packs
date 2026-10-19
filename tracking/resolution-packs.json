@@ -1081,6 +1081,42 @@
       ],
       "master_manifest_sha256": "15c14b1d621568821126fd6c66f1155a71e307a7be88409f6be8fbd2f14dc1c0",
       "evidence": "tracking/resolution-manifests/prowler.json"
+    },
+    "reliant/worn-paint": {
+      "variants": [
+        {
+          "id": "1k",
+          "version": "0.1.0-beta.13.runtime1.res2",
+          "tag": "reliant-v0.1.0-beta.13.runtime1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-1k-0.1.0-beta.13.runtime1.res2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1",
+          "checksum": "bc65eee960903bc49259bd4d0b1d63ae06d79a2d97fb4f3fb2dfdb44b51dff59",
+          "downloadBytes": 25551538,
+          "maxTextureEdge": 1024
+        },
+        {
+          "id": "2k",
+          "version": "0.1.0-beta.13.runtime1.res2",
+          "tag": "reliant-v0.1.0-beta.13.runtime1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-2k-0.1.0-beta.13.runtime1.res2.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1",
+          "checksum": "dbae3446cecc9c109217b5d9887f6483b37a484b06e0c7381b454160d2227857",
+          "downloadBytes": 77678236,
+          "maxTextureEdge": 2048
+        },
+        {
+          "id": "4k",
+          "version": "0.1.0-beta.13.runtime1",
+          "tag": "reliant-v0.1.0-beta.13.runtime1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-0.1.0-beta.13.runtime1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1",
+          "checksum": "18ce289e33efa29b3a6d9d089bf775257935bbd6bd6f9704e5f7841ea012bfc0",
+          "downloadBytes": 217664343,
+          "maxTextureEdge": 4096
+        }
+      ],
+      "master_manifest_sha256": "7b557234338cc022c0d0dec153c4edc1fa6d6e9c668c1bb84f10a8c65221ad11",
+      "evidence": "tracking/resolution-manifests/reliant.json"
     }
   }
 }

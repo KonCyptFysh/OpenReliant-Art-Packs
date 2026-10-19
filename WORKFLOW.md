@@ -44,3 +44,9 @@ Most established fighter and ordnance packages target official OpenReliant 0.8.1
 ## Resolution variants
 
 For each released non-HUD asset, generate and verify 1K, 2K and 4K downloads from the approved master. See [TEXTURE_RESOLUTIONS.md](TEXTURE_RESOLUTIONS.md). A changed master invalidates its recorded variants; regenerate matching colour, normal, ORM and emissive maps together. Keep the same scripts and native mod folder across tiers. Never publish only the refreshed master and leave stale lower-resolution variants.
+
+## Runtime-only player downloads
+
+Player ZIPs contain only the asset mod under `mods/<stable-folder>/`. Keep licence files required by the asset inside that folder. Keep review missions, diagnostic scripts, inspection cameras, hotkeys, overlays, launchers, validation reports and authoring sources in the repository development directories. Never add them to `include_documents` or runtime manifests. Use `package_kind: asset`; a genuine mission mod must explicitly declare `package_kind: mission`. Packaging checks reject development content.
+
+For a packaging-only cleanup, new versioned downloads supersede old bundles. Preserve original ZIPs locally, verify the replacements, switch the catalogue, and then remove superseded public ZIP/checksum attachments. Keep historical tags and release notes with a link to the clean successor.

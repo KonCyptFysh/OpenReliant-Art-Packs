@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "user_approved": true,
-  "asset_manifest_sha256": "d8ffb786a02127ad6a341b266bfe2e87bb33cb03ca41331b1098b899858903e8",
+  "asset_manifest_sha256": "7b557234338cc022c0d0dec153c4edc1fa6d6e9c668c1bb84f10a8c65221ad11",
   "source_manifest_sha256": "a432d5ae034b0105e4478d9de66d74e0088d948448c7c13e233491ff421704ec",
   "engine_build": "Official OpenReliant 0.18.0 linux-x86_64",
   "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
@@ -14,7 +14,8 @@
     "Official-engine launch hangar, beacon pulses and native comms mission completion inspected in revision 11.",
     "Four landing-request phases resolve to the same native bay centre after the script-only handoff correction.",
     "User accepted artwork revision 11 for publication.",
-    "Approved image and model bytes unchanged for publication; only mod metadata and the test-mission controller changed."
+    "Approved image and model bytes unchanged for publication; only mod metadata and the test-mission controller changed.",
+    "Development scenes, launchers, review camera, input handlers and overlays excluded from player runtime; existing artwork and production lighting preserved."
   ],
   "landing_handoff": {
     "passed": true,
@@ -54,5 +55,24 @@
   "limits": [
     "Exhaustive campaign and other platforms not tested.",
     "Publication regression checks confirm cutaway alignment; native landing flight/end routines are unchanged."
-  ]
+  ],
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.13",
+    "previous_manifest_sha256": "d8ffb786a02127ad6a341b266bfe2e87bb33cb03ca41331b1098b899858903e8",
+    "runtime_only": true,
+    "removed": [
+      "mods/119-reliant-worn-v1/reliant_inspection.luau",
+      "mods/119-reliant-worn-v1/mission959.dte",
+      "mods/119-reliant-worn-v1/mission958.dte",
+      "mods/119-reliant-worn-v1/reliant_camera_motion.luau",
+      "mods/119-reliant-worn-v1/reliant_camera.luau",
+      "mods/119-reliant-worn-v1/mission957.dte",
+      "mods/119-reliant-worn-v1/reliant_flight_review.luau"
+    ],
+    "changed": [
+      "mods/119-reliant-worn-v1/mod.ini",
+      "mods/119-reliant-worn-v1/reliant_surface.luau"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }
