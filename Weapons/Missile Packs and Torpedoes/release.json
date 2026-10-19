@@ -1,6 +1,6 @@
 {
   "package_name": "openreliant-ordnance",
-  "version": "0.1.0-beta.4",
+  "version": "0.1.0-beta.4.runtime1",
   "asset_revision": "1.2",
   "status": "ready-for-packaging",
   "hold_reason": null,
@@ -8,27 +8,17 @@
   "mod_folders": [
     "97-ordnance-worn-v1"
   ],
-  "asset_manifest_sha256": "da61576b9d951bda04a5605cd688b2822d28db92f09e4fcec19f5678e9b4e049",
+  "asset_manifest_sha256": "169d4a6f13109c0ce91941c075bee9252be7ffffc74fc36a1723e0e4313df9fa",
   "source_manifest_sha256": "f2e18238f6186592b2c800dbeb500e1ec001addc4c1a7b615c83b0167ac0f664",
   "channel": "beta",
-  "include_documents": [
-    "README.md",
-    "INSTALL.md",
-    "KNOWN_ISSUES.md",
-    "CHANGELOG.md",
-    "CREDITS.md",
-    "LICENSING.md",
-    "asset-manifest.json",
-    "validation.json",
-    "release.json",
-    "compatibility-0.8.json",
-    "validation-previous.json"
-  ],
+  "include_documents": [],
   "user_approved": true,
   "approval": {
     "user_approved": true,
     "approved_at_utc": "2026-10-07T16:08:06.796885+00:00",
     "scope": "All 32 missile, pod, loadout and torpedo variants including the audit-v3 corrections.",
     "instruction": "Beautiful, I'm happy to green light all of these, let's send them upto git"
-  }
+  },
+  "package_kind": "asset",
+  "distribution": "runtime-only"
 }

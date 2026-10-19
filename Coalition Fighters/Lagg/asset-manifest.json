@@ -10,14 +10,9 @@
     "sha256": "dfe57527cf332b05e50b6c2a31d03ffa3e53c32e0f8b765c634884ff293d2fed"
   },
   {
-    "path": "mods/108-lagg-worn-v1/mission978.dte",
-    "bytes": 473,
-    "sha256": "81b1df3779dd9fb955aa4fa16e4fb187328534a82ed6b8479756acd396108941"
-  },
-  {
     "path": "mods/108-lagg-worn-v1/mod.ini",
-    "bytes": 247,
-    "sha256": "d6d05e61655426f2c10d678d171eb0f730c500ef947eb4a55449d84f67086a21"
+    "bytes": 256,
+    "sha256": "6deb56751a41e98cc3731658f5d9afe07fb3e9376cf8628d263bb3257627192a"
   },
   {
     "path": "mods/108-lagg-worn-v1/mod.png",

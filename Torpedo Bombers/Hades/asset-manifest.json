@@ -5,39 +5,14 @@
     "sha256": "adafd08efff9cee4934c8ed7a00b32efec699fbf80fcc2edaff4d6ba46903d9e"
   },
   {
-    "path": "mods/114-hades-worn-v1/hades_inspection.luau",
-    "bytes": 1632,
-    "sha256": "0f9052e5395318c2f70e9a58ab693799b4f5d0f7bf08309dfc90593e5387976f"
-  },
-  {
     "path": "mods/114-hades-worn-v1/license.txt",
     "bytes": 246,
     "sha256": "a8abb38e6619dcb0acc213665a6d7eceb58432af963ad95f7fed334f97bba3db"
   },
   {
-    "path": "mods/114-hades-worn-v1/mission965.dte",
-    "bytes": 1170,
-    "sha256": "d4e7152c0647c9d0939cc39c2a6e221078b5ad311dbdf98c7a6483af2330bac9"
-  },
-  {
-    "path": "mods/114-hades-worn-v1/mission966.dte",
-    "bytes": 1081,
-    "sha256": "81d9ebadd615d376a8b1c96ee6187c0504fcdadb118603af2abb6715dac8c0f5"
-  },
-  {
-    "path": "mods/114-hades-worn-v1/mission967.dte",
-    "bytes": 1076,
-    "sha256": "e07a768e4239f621caaa6729a5b48f028434d1bd2648cace70ac79e3af7e065e"
-  },
-  {
-    "path": "mods/114-hades-worn-v1/mission968.dte",
-    "bytes": 1050,
-    "sha256": "182587b3522fcefced36c2791c377eae303b333caa48ec2f6e0a4c2cf48555de"
-  },
-  {
     "path": "mods/114-hades-worn-v1/mod.ini",
-    "bytes": 413,
-    "sha256": "0467b18bf7582f78f6621d9c4550bdbfbb13752920b66796fc6ac5a17368b011"
+    "bytes": 262,
+    "sha256": "69aee009e428d3b70e3d3ba1ff6434ce8a281c457d4d9c57ef4b99628001b692"
   },
   {
     "path": "mods/114-hades-worn-v1/mod.png",

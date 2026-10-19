@@ -5,39 +5,14 @@
     "sha256": "11151daa9fb82cf5eda80c8a0bef7bf5ed1948d1a2305dcd651940937d621f0d"
   },
   {
-    "path": "mods/104-kamov-worn-v1/kamov_inspection.luau",
-    "bytes": 1732,
-    "sha256": "69959cba5b7f02d5924bc91ade4737aacb65afc5dffc93c3b6fc5b8d88957074"
-  },
-  {
     "path": "mods/104-kamov-worn-v1/license.txt",
     "bytes": 246,
     "sha256": "db58ea32b5be3d2985d43548c9ef2db0fe98a29e280d033429283d09193c69a3"
   },
   {
-    "path": "mods/104-kamov-worn-v1/mission984.dte",
-    "bytes": 1074,
-    "sha256": "6045bc7c880358a7b3c9da8906cb77c9f596fd2bac7190f7912fbd42705a0c52"
-  },
-  {
-    "path": "mods/104-kamov-worn-v1/mission985.dte",
-    "bytes": 1073,
-    "sha256": "f16f4f802ff627d556582cacd0de0c682a2c928e3d707eb74f4eceec5e145b0f"
-  },
-  {
-    "path": "mods/104-kamov-worn-v1/mission986.dte",
-    "bytes": 1068,
-    "sha256": "89443a5cebca494727b33fb6c983b337251a651d016d8e8006e20a25b2855f2e"
-  },
-  {
-    "path": "mods/104-kamov-worn-v1/mission987.dte",
-    "bytes": 1042,
-    "sha256": "f96ed2f027b0d2d153cb1aacf3c194bf85ebe4ea01455ee1f894921ad7ed47e4"
-  },
-  {
     "path": "mods/104-kamov-worn-v1/mod.ini",
-    "bytes": 373,
-    "sha256": "1f68fac3fd622fbf2d05b975afbf85b399905d534738a75ec1fd244b7392b150"
+    "bytes": 222,
+    "sha256": "663c993f94f508276f16e5821fd006ab20a5e58bc2c182939b966033e99eff4d"
   },
   {
     "path": "mods/104-kamov-worn-v1/mod.png",

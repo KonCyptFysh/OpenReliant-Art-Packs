@@ -10,14 +10,9 @@
     "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
   },
   {
-    "path": "mods/96-patriot-worn-v1/mission992.dte",
-    "bytes": 480,
-    "sha256": "286e453a68862e77548c40fbdac8a262a7f4fe1260e814d269cf5ce6e4faf968"
-  },
-  {
     "path": "mods/96-patriot-worn-v1/mod.ini",
     "bytes": 194,
-    "sha256": "b7f97e870b8e0506e94ba24ab4358b5b8a1ec48427df455f150a0dd572c5e549"
+    "sha256": "5c64b4a782be39fa2a45cc0e3a543a2bdf345829a7f1b724cb60c9afbbcbb4c6"
   },
   {
     "path": "mods/96-patriot-worn-v1/mod.png",

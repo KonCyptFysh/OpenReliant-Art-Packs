@@ -1,3 +1,5 @@
+> Player downloads contain only the asset runtime mod. Test scenes and diagnostic controls are development-only; see `dev/` where present.
+
 # Saber - Worn Paint
 
 Current package: **0.1.0-beta.2**, artwork **1.0**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
@@ -10,6 +12,6 @@ Twenty-two collapsed or stretched machinery-strip faces are repaired. Every nati
 
 The original artwork review used official OpenReliant 0.7.0. Format checks, decoded maps, portable source and installed-file hashes passed. Local Blender views were checked from both sides, rear and underside. The user reviewed the restored Saber in a quiet in-game flight and reported no immediate visual problems. Broader gameplay, ejection and distance transitions remain untested.
 
-Use `tools/launch-saber-test.sh` for the quiet single-ship inspection. See `INSTALL.md` and `source/README.md`.
+Use `dev/tools/launch-saber-test.sh` for the quiet single-ship inspection. See `INSTALL.md` and `source/README.md`.
 
 The gallery now uses fresh official OpenReliant 0.8.1 captures of the current artwork, with the shared elevated three-quarter camera and consistent framing. Its optional 3D hull preview uses reduced textures and browser lighting.

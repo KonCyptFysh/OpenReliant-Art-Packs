@@ -1,3 +1,5 @@
+> Player downloads contain only the asset runtime mod. Test scenes and diagnostic controls are development-only; see `dev/` where present.
+
 # Basilisk - Worn Paint
 
 Current package: **0.1.0-beta.2**, artwork **1.3**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
@@ -10,4 +12,4 @@ The user approved this revision on 9 October 2026. Native model and mission chec
 
 Cloaking, firing, damage, ejection and distance transitions still need broader gameplay testing. Custom emissive maps are deferred. See `KNOWN_ISSUES.md` for the beta limits.
 
-Install the flat `mods/103-basilisk-worn-v1` folder into `game-data/mods`. The quiet mission 988 launcher is in `tools/launch-basilisk-test.sh`. Current editable source: `source/basilisk_worn_pbr_v4.blend`, with packed and relative image resources. Earlier passes and original sources are preserved.
+Install the flat `mods/103-basilisk-worn-v1` folder into `game-data/mods`. The quiet mission 988 launcher is in `dev/tools/launch-basilisk-test.sh`. Current editable source: `source/basilisk_worn_pbr_v4.blend`, with packed and relative image resources. Earlier passes and original sources are preserved.

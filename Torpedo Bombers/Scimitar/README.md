@@ -1,3 +1,5 @@
+> Player downloads contain only the asset runtime mod. Test scenes and diagnostic controls are development-only; see `dev/` where present.
+
 # Scimitar - Worn Paint
 
 **Artwork 1.0 approved for this beta.** Package **0.1.0-beta.1**. Native compatibility baseline OpenReliant 0.8.1; supplied review launchers use official 0.18.0.

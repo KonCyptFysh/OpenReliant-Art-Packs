@@ -31,7 +31,7 @@
   "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
   "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
   "retained_artwork_bytes_unchanged": true,
-  "asset_manifest_sha256": "dedb03764f442b6abded4f48ca93ff0e3ebd8458edab10dea3e499610106a576",
+  "asset_manifest_sha256": "73e4a61977c28219853d716654f3a6a0da9a130975bd884b4a818238fec37396",
   "native_checks": [
     {
       "path": "mods/50-reaper-worn-v3/USHF_Reaper.SHP",
@@ -75,5 +75,15 @@
   "limitations": [
     "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
     "Existing campaign, animation, damage, distance-transition and platform limitations remain."
-  ]
+  ],
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.2",
+    "previous_manifest_sha256": "dedb03764f442b6abded4f48ca93ff0e3ebd8458edab10dea3e499610106a576",
+    "runtime_only": true,
+    "removed": [],
+    "changed": [
+      "mods/50-reaper-worn-v3/mod.ini"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

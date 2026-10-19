@@ -4,73 +4,60 @@
   "artwork_revision": "1.0",
   "captures": [
     {
-      "image": "flight-overview.png",
-      "original_filename": "Screenshot_20261010_112431.png",
-      "sha256": "f78f611147b5af1101bfa60769928ed05f5209d19f29e8f3f331093bafc7a581",
-      "dimensions": [
-        1920,
-        1080
+      "asset": "salin",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 41,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
       ],
-      "source": "User-created in-game capture saved after the Salin review install",
-      "captured_at_utc": "2026-10-10T00:24:36.020895+00:00",
-      "gallery_file": "assets/salin/flight-overview.webp",
-      "gallery_sha256": "b80de6624b69e9fadea45f7495addb5811ba3e7b65f7a1c581872a76a08daefb",
-      "caption": "Salin \u2014 In-game overview and guns firing",
-      "conversion": "WebP encoding only; original framing and pixels not edited",
-      "visually_inspected": true
-    },
-    {
-      "image": "flight-rear.png",
-      "original_filename": "Screenshot_20261010_112445.png",
-      "sha256": "061982c81ea504f81787febaef395552a6ed82af312357c3a6603339a8a7ecf2",
-      "dimensions": [
-        1920,
-        1080
+      "render_size": [
+        2560,
+        1920
       ],
-      "source": "User-created in-game capture saved after the Salin review install",
-      "captured_at_utc": "2026-10-10T00:24:48.726833+00:00",
-      "gallery_file": "assets/salin/flight-rear.webp",
-      "gallery_sha256": "792f25f910f28b89146577ca4eb56967cdb66aca8e07152dfed23a2c816ffec5",
-      "caption": "Salin \u2014 Rear view",
-      "conversion": "WebP encoding only; original framing and pixels not edited",
-      "visually_inspected": true
-    },
-    {
-      "image": "flight-underside.png",
-      "original_filename": "Screenshot_20261010_112459.png",
-      "sha256": "1511b4f78e184bb0ae8fa496000607cca088a57c9aa9615812adb50ee90fbc07",
-      "dimensions": [
-        1920,
-        1080
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Salin/asset-manifest.json",
+      "runtime_manifest_sha256": "4620e658d63892e296cee1b2416294df1a1f4059c54f2362d1df59a79724c739",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Salin/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "5ac54f8a46d341c88cf88d12e50f6061a472e5b435e69027dd2d8986884f77fb",
+      "captured_at_utc": "2026-10-19T11:12:55.823360+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/salin/gallery-overview-v1.webp",
+      "gallery_sha256": "23b18d899cc5453d76401d7a0c34aa4353ebb8c5285854f5d7fdad2cac504c11",
+      "gallery_dimensions": [
+        1280,
+        960
       ],
-      "source": "User-created in-game capture saved after the Salin review install",
-      "captured_at_utc": "2026-10-10T00:25:04.624755+00:00",
-      "gallery_file": "assets/salin/flight-underside.webp",
-      "gallery_sha256": "5f1c1f71c714896ab684c5957461ab85c917dfba3f86a3b2cd65e0a5cc7613a0",
-      "caption": "Salin \u2014 Underside",
-      "conversion": "WebP encoding only; original framing and pixels not edited",
-      "visually_inspected": true
-    },
-    {
-      "image": "flight-side.png",
-      "original_filename": "Screenshot_20261010_112514.png",
-      "sha256": "3adcf6c35018661414ee19e783b094a5deb63db98f1d1323f4528dd961dc2ec9",
-      "dimensions": [
-        1920,
-        1080
+      "detected_ship_bounds": [
+        767,
+        777,
+        1880,
+        1440
       ],
-      "source": "User-created in-game capture saved after the Salin review install",
-      "captured_at_utc": "2026-10-10T00:25:17.624692+00:00",
-      "gallery_file": "assets/salin/flight-side.webp",
-      "gallery_sha256": "79a8d34f010fa3763c8df67c31a9df936a5338966d91c1487bc5c6ccb48b7d85",
-      "caption": "Salin \u2014 Side view",
-      "conversion": "WebP encoding only; original framing and pixels not edited",
-      "visually_inspected": true
+      "crop": [
+        590,
+        558,
+        2058,
+        1659
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }
   ],
   "approved_runtime_before_metadata_sha256": "688ae76b10253c4967f7fac2a154023840082ef670b44d94f379595888744a66",
   "published_runtime_manifest_sha256": "60764e5bfb1fec277a2658febde1205581d91a721e5275d352dedb02cbdf0c32",
   "approved_model_and_material_bytes_unchanged": true,
   "engine_note": "Review launcher targets official OpenReliant 0.8.1. Screenshots themselves do not encode an engine build.",
-  "coverage": "In-game appearance from overview with guns firing, rear, underside and side. No automated game launch was performed for publication."
+  "coverage": "In-game appearance from overview with guns firing, rear, underside and side. No automated game launch was performed for publication.",
+  "visually_reviewed": true,
+  "packaging_revision": "Runtime-only packaging; fresh capture of the cleaned mod, without development overlays."
 }

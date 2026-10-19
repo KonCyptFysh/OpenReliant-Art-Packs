@@ -35,24 +35,9 @@
     "sha256": "7456c5a7634094dfd8b72b1b77217638c55be77f6233c97d12204babc3c3f046"
   },
   {
-    "path": "mods/119-reliant-worn-v1/mission957.dte",
-    "bytes": 850971,
-    "sha256": "0fee693debf2368966d781a50dc957f144247c9b76fd328e10691ebd6f175d82"
-  },
-  {
-    "path": "mods/119-reliant-worn-v1/mission958.dte",
-    "bytes": 850959,
-    "sha256": "87cc2662c1bb0a99aaefebe8f8931fe49e6ba2f46742b544e8125ad34fc9922b"
-  },
-  {
-    "path": "mods/119-reliant-worn-v1/mission959.dte",
-    "bytes": 850959,
-    "sha256": "990459a4f21e3248f1680185df3162fab7f99088c6ffcf10ceae5fca1eb579df"
-  },
-  {
     "path": "mods/119-reliant-worn-v1/mod.ini",
-    "bytes": 544,
-    "sha256": "560cc6bb57a51432c4c9c5fe5c4a91260098518bbd7621a0dd97cd3ee631f6bb"
+    "bytes": 343,
+    "sha256": "1b7cbd8f06d927561342250eec512be163ca89b2dcf38ee98de15587dc0d8795"
   },
   {
     "path": "mods/119-reliant-worn-v1/mod.png",
@@ -230,26 +215,6 @@
     "sha256": "9ff8c13193e3ae426e6677ec2891e4df0ea27a539cf5075d602a1e2e5a87b39b"
   },
   {
-    "path": "mods/119-reliant-worn-v1/reliant_camera.luau",
-    "bytes": 3857,
-    "sha256": "60f55ed85d2fa98b2e80fc66218e9ecbfe01b73b76d385c38c0b2ff2bb94186c"
-  },
-  {
-    "path": "mods/119-reliant-worn-v1/reliant_camera_motion.luau",
-    "bytes": 1047,
-    "sha256": "4c26c41a03322f0dd994013f4d28e0f0356dfa5e09e2ff9f64734848c2cbd7d4"
-  },
-  {
-    "path": "mods/119-reliant-worn-v1/reliant_flight_review.luau",
-    "bytes": 3130,
-    "sha256": "b66c5526ac2bec1a755712a192358a1b1b8a7a65804341e6eda3d5a9d6c26f09"
-  },
-  {
-    "path": "mods/119-reliant-worn-v1/reliant_inspection.luau",
-    "bytes": 3366,
-    "sha256": "22a469f4df507dab6843e4b61f01da59f242a00eaef9ec938554ea799e6467e1"
-  },
-  {
     "path": "mods/119-reliant-worn-v1/reliant_lighting.luau",
     "bytes": 2960,
     "sha256": "7fe1fa569d4cc91e6cc22ebe163617028f4c9ddb77f6b35048053e9004a4c38c"
@@ -261,8 +226,8 @@
   },
   {
     "path": "mods/119-reliant-worn-v1/reliant_surface.luau",
-    "bytes": 2214,
-    "sha256": "ad1a1770f89db603ffe3700ff39a4a0c540b00a3be253fd558372f3fd67d852d"
+    "bytes": 1119,
+    "sha256": "1d6f0e5b554e77ceac8a7059dca10bfd63258c61acf989f24b9e53236f7b837b"
   },
   {
     "path": "mods/119-reliant-worn-v1/reliant_systems.glsl",

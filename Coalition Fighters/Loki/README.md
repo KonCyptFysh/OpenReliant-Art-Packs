@@ -1,3 +1,5 @@
+> Player downloads contain only the asset runtime mod. Test scenes and diagnostic controls are development-only; see `dev/` where present.
+
 # Loki - Worn Paint
 
 Current package: **0.1.0-beta.2**, artwork **1.1**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
@@ -8,7 +10,7 @@ Restored worn grey industrial panels, hazard bands, warnings and smooth amber gl
 
 The replacement preserves all seven native parts, their hierarchy, original geometry, UVs, normals, attachments and animation keyframes. The original lower-detail material tables name the unrelated LIMPET atlas; this model now uses its restored Loki atlas at every detail level. No shared LIMPET texture is overridden. Primitive continuation repairs stop strips/fans from reusing texture coordinates across UV seams.
 
-Use `tools/launch-loki-test.sh` to inspect the folding mechanism in a quiet single-ship scene. Fixed folded and fighting-position modes are also provided. The native export and inspection scenes pass format checks. Both fixed poses were captured and visually checked in official OpenReliant 0.7.0 on Linux. Broader gameplay and repeated animation-cycle testing remain outside this beta’s completed checks.
+Use `dev/tools/launch-loki-test.sh` to inspect the folding mechanism in a quiet single-ship scene. Fixed folded and fighting-position modes are also provided. The native export and inspection scenes pass format checks. Both fixed poses were captured and visually checked in official OpenReliant 0.7.0 on Linux. Broader gameplay and repeated animation-cycle testing remain outside this beta’s completed checks.
 
 Editable source and exact image-generation prompts are under `source/`. See `INSTALL.md` and `KNOWN_ISSUES.md`.
 

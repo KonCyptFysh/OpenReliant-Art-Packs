@@ -27,10 +27,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Coyote/asset-manifest.json",
-      "runtime_manifest_sha256": "cc64196c14f3d012d641d567ee1c206370572899b195f1b5837ac8e7ef63afce",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Coyote/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "d1ad75fc16fdf5a257edcae7d0262470ebffdef0fc600b40285225252b4638b0",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Coyote/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "169e77dbad3abf9a2f56744e3832c72558adf6d435b48b5958d567105530fad6",
-      "captured_at_utc": "2026-10-11T13:13:42.788741+00:00",
+      "captured_at_utc": "2026-10-19T11:09:10.414189+00:00",
       "exit_code": 0,
       "gallery_file": "assets/coyote/gallery-overview-v1.webp",
       "gallery_sha256": "a276e0d0d168ca31286627e4ffa98b608d7543fb7868126926182179fbeb4e6a",
@@ -76,10 +76,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Predator/asset-manifest.json",
-      "runtime_manifest_sha256": "3afd03cb39f0c146f20faad31e787d328d082f069258ef4f452ea9dbf955532a",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Predator/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "9cd709efe9c95feb734bcfc52f925549eff2e24505b6a6f1e3f089635c61da1b",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Predator/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "550000111eb1e15cacea77fd48412c818d30a89f13e79c720faba3eab2ae6ac8",
-      "captured_at_utc": "2026-10-11T13:13:58.582210+00:00",
+      "captured_at_utc": "2026-10-19T11:09:28.220450+00:00",
       "exit_code": 0,
       "gallery_file": "assets/predator/gallery-overview-v1.webp",
       "gallery_sha256": "ee18ca7903c7e4a8738fa695c6ac9089c2905adcea50e1f82a266c051089d916",
@@ -125,10 +125,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Reaper/asset-manifest.json",
-      "runtime_manifest_sha256": "dedb03764f442b6abded4f48ca93ff0e3ebd8458edab10dea3e499610106a576",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Reaper/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "73e4a61977c28219853d716654f3a6a0da9a130975bd884b4a818238fec37396",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Reaper/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "0ffdcde56d341cedfdd6ef84d8a416679dbf494d534a480c553f839919282ad6",
-      "captured_at_utc": "2026-10-11T13:14:08.731823+00:00",
+      "captured_at_utc": "2026-10-19T11:09:37.430837+00:00",
       "exit_code": 0,
       "gallery_file": "assets/reaper/gallery-overview-v1.webp",
       "gallery_sha256": "6fb61f9cb426fa570463214691a39d8ca007b94d96f2ca7d9dc2727390227ab1",
@@ -174,10 +174,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Wolverine/asset-manifest.json",
-      "runtime_manifest_sha256": "e771bff93e1ad7b319899b1b3b5699c21ea245e86daeb37ed8819d497fda3e52",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Wolverine/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "fd52f8b398fa9e425fc1463f00b066179eee14ce91b125446237d90cfd63adf0",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Wolverine/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "73a43c85a63303ee5cd1924edcdcd2ac3e999e72a33def49774e1659cd5ed125",
-      "captured_at_utc": "2026-10-11T13:14:17.444306+00:00",
+      "captured_at_utc": "2026-10-19T11:09:46.519977+00:00",
       "exit_code": 0,
       "gallery_file": "assets/wolverine/gallery-overview-v1.webp",
       "gallery_sha256": "193170f9dac0957c163968e217265ba3d2689c4309f06393872b58d056394e1e",
@@ -223,10 +223,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Tempest/asset-manifest.json",
-      "runtime_manifest_sha256": "431d86d6f5ed4e735184a172257e34c34679cea33137ef763037d811c49c2522",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Tempest/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "f6750655d3483072513ac78263e691a085cd717f73485bd576261b19ee0e6ac1",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Tempest/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "70a76490fa2c3f46527244aedf716627a9ac03c14cf3146d5480ccea51832f89",
-      "captured_at_utc": "2026-10-11T13:14:25.008118+00:00",
+      "captured_at_utc": "2026-10-19T11:09:55.037150+00:00",
       "exit_code": 0,
       "gallery_file": "assets/tempest/gallery-overview-v1.webp",
       "gallery_sha256": "b3220165ace8ce71a85d00c0cb263b11b556dee007887ff0eabb8afd0546a5df",
@@ -272,10 +272,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Shroud/asset-manifest.json",
-      "runtime_manifest_sha256": "6b233a85c1072fcf4f24e991e8e384b0c6ae2be9b7ce0ba43093a2d033837ec7",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Shroud/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "543dc35ccc1ebb54521c521e69385b83d93078dd0860d3b2534697069473cb83",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Shroud/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "7cca0155e85ce4aefdcbbb724339afabf4d04d55fe359a70d0c82f11f43dc3a3",
-      "captured_at_utc": "2026-10-11T13:14:32.411953+00:00",
+      "captured_at_utc": "2026-10-19T11:10:02.943277+00:00",
       "exit_code": 0,
       "gallery_file": "assets/shroud/gallery-overview-v1.webp",
       "gallery_sha256": "a18155127a1d0292888ed1fdb7ad11881a9ae4f841609fdcc50bf637e45de885",
@@ -321,10 +321,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Mirage/asset-manifest.json",
-      "runtime_manifest_sha256": "c88c5efa9011226a1304559ec4c650c95975774ab0d9eeb44e623588877d20bd",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Mirage/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "a0b3c561eb36ea22ff4e4b3d12087dfb47807c1133ac84d779eb57ed37f02b7a",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Mirage/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "9d86ef595b676ffa95b142b7f7d1f495902b7b59e9fcfaca1f8ef530433e0c64",
-      "captured_at_utc": "2026-10-11T13:14:39.605393+00:00",
+      "captured_at_utc": "2026-10-19T11:10:09.858366+00:00",
       "exit_code": 0,
       "gallery_file": "assets/mirage/gallery-overview-v1.webp",
       "gallery_sha256": "6c6e28bc29da6da2341abbb06b616cb7dc682995975c70f822d60581ed4e215a",
@@ -370,10 +370,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Naginata/asset-manifest.json",
-      "runtime_manifest_sha256": "4d0d98fe56d11b9deef805d648ea8d6e301c73c63fce8184e3ffedf0ecdfb6b3",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Naginata/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "e2d74e840496779a423a033dbdcb3e2e2155fa9e1caac7883810105738650fae",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Naginata/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "1b32f2088dec70821a6f6887915524a8fd7e0558b20c1d1ffaab57705d7a32b8",
-      "captured_at_utc": "2026-10-11T13:14:51.195304+00:00",
+      "captured_at_utc": "2026-10-19T11:10:23.300062+00:00",
       "exit_code": 0,
       "gallery_file": "assets/naginata/gallery-overview-v1.webp",
       "gallery_sha256": "73bcfd764a1b3577676dd141d10a18a64353fa4d2604a1654eda02e59fcbea64",
@@ -419,10 +419,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Patriot/asset-manifest.json",
-      "runtime_manifest_sha256": "4f24a84d0d978a85a83e739ed3e18a61edee27bf313499576a1c6c2e723f7324",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Patriot/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "b0c71f23b613a13c93945f274fd0df2dc47e746ed3fc8310f8565d73772896b9",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Patriot/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "b70ea8552abea45f456ee915dccf8a793c743c27ad33cba27fa9320664026bbe",
-      "captured_at_utc": "2026-10-11T13:15:03.743198+00:00",
+      "captured_at_utc": "2026-10-19T11:10:36.789375+00:00",
       "exit_code": 0,
       "gallery_file": "assets/patriot/gallery-overview-v1.webp",
       "gallery_sha256": "1718dcb93f441edd49fed9cb29e5bdb8853cfc53a777a1e370944e6c1234e65c",
@@ -468,10 +468,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Phoenix/asset-manifest.json",
-      "runtime_manifest_sha256": "9c59943b0203c36292a1627050e6c342daf5da5be29665b85ac1a532550ff121",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Phoenix/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "314c76cf5535d5694715c8da048c9ab2bfe5cab9a70bc4edf942c86b3a850719",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Phoenix/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "c64dbb6e86aeb3fa8927045a1c0ec5df4951fd481bdb9cb2bfcd077a436854fa",
-      "captured_at_utc": "2026-10-11T13:15:15.082490+00:00",
+      "captured_at_utc": "2026-10-19T11:10:49.358127+00:00",
       "exit_code": 0,
       "gallery_file": "assets/phoenix/gallery-overview-v1.webp",
       "gallery_sha256": "ab82ecb3b7b87c4c2930ea6e392cbb871c7c3a353e84b2b78af52432820c671b",
@@ -517,10 +517,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Crusader/asset-manifest.json",
-      "runtime_manifest_sha256": "79e9a12fa5cb94cf449bd5bb8cf94df49ae72e36f064ce949f9fdde0f4377c18",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Crusader/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "46712cf078267511ea487852a282d294c8762b34076c4d8626d6cd236dbef439",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Crusader/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "bd2b787e37aebfe3d3a95210b7abc96a7da8c6b1898fdb569b890992ea688b2e",
-      "captured_at_utc": "2026-10-11T13:15:24.611498+00:00",
+      "captured_at_utc": "2026-10-19T11:11:01.462754+00:00",
       "exit_code": 0,
       "gallery_file": "assets/crusader/gallery-overview-v1.webp",
       "gallery_sha256": "eea9a5e020dcb386bf585d87d9270d0bd8bd0a9ef52f2cb4341f263d9428be3b",
@@ -566,10 +566,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Sai/asset-manifest.json",
-      "runtime_manifest_sha256": "8fe2f1b502b2bb17e520a863805db4e5e012a15fd61f9df7eec6e082891a0ef9",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Sai/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "a7f69206927e91bdb7371153a65d7116d3c0665f15621a4f36e9584fb1043ec8",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Sai/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "d19d2a444ed9873a004974ca6282fae5bee42f8a448b573c12560fa6c3347906",
-      "captured_at_utc": "2026-10-11T13:15:35.819410+00:00",
+      "captured_at_utc": "2026-10-19T11:16:05.531003+00:00",
       "exit_code": 0,
       "gallery_file": "assets/sai/gallery-overview-v1.webp",
       "gallery_sha256": "c4dca48a6b1bffd4805748ca6f9f12caa9dc6f3fc7ef1da03b5f9f149a5a5313",
@@ -615,10 +615,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Fighters/Grendal/asset-manifest.json",
-      "runtime_manifest_sha256": "e8efd11af35f211cfd10de8c902fb4d15ffa899d0fd2b9f67848c1523957ddab",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Grendal/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "51dc8b90e15cedf40787efaa7df9d7a3a462b21592aaeec38aa7051f0e6a3a79",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Grendal/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "6a3ed31921f5bb1ad9f39f52939c2bbfab16fa710996f65a3bd94720048ecb45",
-      "captured_at_utc": "2026-10-11T13:15:42.248878+00:00",
+      "captured_at_utc": "2026-10-19T11:11:24.410443+00:00",
       "exit_code": 0,
       "gallery_file": "assets/grendal/gallery-overview-v1.webp",
       "gallery_sha256": "33a48b544bfdf3332e720683e45dcc6a4c1d8cce95ddb9efddcdf6d339e67163",
@@ -664,10 +664,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Coalition Fighters/Saber/asset-manifest.json",
-      "runtime_manifest_sha256": "b2cb11b2b97b5cede3b8dac1aca172d07817a4ed3ec70329a0dc8f3e32f0b17b",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Saber/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "46c0fecc21deece9eca972f747bb6b4a90f501b0eeeae821bb95c619ac44c630",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Saber/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "0a858cbd9141f91b60dac71172df9c11091589118b46ba718c6357bcab3243a4",
-      "captured_at_utc": "2026-10-11T13:15:48.561275+00:00",
+      "captured_at_utc": "2026-10-19T11:11:31.245435+00:00",
       "exit_code": 0,
       "gallery_file": "assets/saber/gallery-overview-v1.webp",
       "gallery_sha256": "6f5997cc48f677aabf9aca5cae588ad8de834df8758a0594358433ead7047334",
@@ -713,10 +713,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Coalition Fighters/Basilisk/asset-manifest.json",
-      "runtime_manifest_sha256": "ee8b0b772d33b45c41c6bbe44383ba4a0a7711a6e18ed3dd83be60af358bb939",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Basilisk/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "ae1c71c9ce6e2af294ab4539ac94539dd753ac2f6d13f38dc02ae4f9342535a8",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Basilisk/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "19ec9dda89c64388be21304db48e5f6b8a464e67eff98682dd5de486ced51c17",
-      "captured_at_utc": "2026-10-11T13:15:55.086773+00:00",
+      "captured_at_utc": "2026-10-19T11:11:38.267537+00:00",
       "exit_code": 0,
       "gallery_file": "assets/basilisk/gallery-overview-v1.webp",
       "gallery_sha256": "e508829066785971f6461410634902dc41950de4a668b3eba04d27d1d050b454",
@@ -762,10 +762,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Torpedo Bombers/Kamov/asset-manifest.json",
-      "runtime_manifest_sha256": "576e95fa0df0efa514c542c53c135bcfde8c38ad9c007ff7de8258bf5cfe2c28",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Kamov/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "06e1cb18de03793a4fb0e964f83daf96e7bde92622b5dc1d6a3e89a28cd04ce6",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Kamov/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "c62e51e245696c0bd7302512dce368756211fc3716a34cfd867dc58585be42fa",
-      "captured_at_utc": "2026-10-11T13:16:01.406057+00:00",
+      "captured_at_utc": "2026-10-19T11:11:44.795474+00:00",
       "exit_code": 0,
       "gallery_file": "assets/kamov/gallery-overview-v1.webp",
       "gallery_sha256": "39842cbc95d64751d235eba2a60deb01ed61ccde3378ffb6d59896621bfa60aa",
@@ -811,10 +811,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Torpedo Bombers/Kamov/asset-manifest.json",
-      "runtime_manifest_sha256": "576e95fa0df0efa514c542c53c135bcfde8c38ad9c007ff7de8258bf5cfe2c28",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Kamov/worn/review/gallery_standard_v1/deployed.png",
+      "runtime_manifest_sha256": "06e1cb18de03793a4fb0e964f83daf96e7bde92622b5dc1d6a3e89a28cd04ce6",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Kamov/worn/review/gallery_standard_v1/deployed.png",
       "raw_sha256": "762344ec12a5ab080fef345704ca859855c0b19280bf3525166c392b167d5d15",
-      "captured_at_utc": "2026-10-11T13:16:06.615499+00:00",
+      "captured_at_utc": "2026-10-19T11:11:50.103799+00:00",
       "exit_code": 0,
       "gallery_file": "assets/kamov/gallery-deployed-v1.webp",
       "gallery_sha256": "c5c605b869784ebd99613c67b2b0c053fbee4b0eac9cc92bd181aac8d27ba5a0",
@@ -833,545 +833,6 @@
         365,
         1895,
         1412
-      ],
-      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
-    },
-    {
-      "asset": "loki",
-      "livery": "worn-paint",
-      "artwork_revision": "1.1",
-      "mode": "overview",
-      "profile": "ship-gallery-v1",
-      "ship_type": 65,
-      "mission": 983,
-      "ticks": 60,
-      "watch_from": [
-        1.4,
-        -1.4,
-        1.4
-      ],
-      "render_size": [
-        2560,
-        1920
-      ],
-      "msaa": 8,
-      "seed": 1,
-      "engine": "Official OpenReliant 0.8.1",
-      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
-      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
-      "runtime_manifest": "Coalition Fighters/Loki/asset-manifest.json",
-      "runtime_manifest_sha256": "4ff0f3f10e79644efab2a9f84de9bbb0a41ba574f7aa02400cf9b2fb7d2426af",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Loki/worn/review/gallery_standard_v1/overview.png",
-      "raw_sha256": "92cf605c86bb2e78015b8695ab8cc0ac15a396882371bf3cef7a46dba9ba6894",
-      "captured_at_utc": "2026-10-11T13:16:13.035017+00:00",
-      "exit_code": 0,
-      "gallery_file": "assets/loki/gallery-overview-v1.webp",
-      "gallery_sha256": "51d67dc18e1af113694ad4ac33f4b71cde6ebcd482fe10ce8e42520d64b79d6a",
-      "gallery_dimensions": [
-        1280,
-        960
-      ],
-      "detected_ship_bounds": [
-        952,
-        747,
-        1901,
-        1450
-      ],
-      "crop": [
-        798,
-        618,
-        2078,
-        1578
-      ],
-      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
-    },
-    {
-      "asset": "loki",
-      "livery": "worn-paint",
-      "artwork_revision": "1.1",
-      "mode": "fighting",
-      "profile": "ship-gallery-v1",
-      "ship_type": 65,
-      "mission": 982,
-      "ticks": 450,
-      "watch_from": [
-        1.4,
-        -1.4,
-        1.4
-      ],
-      "render_size": [
-        2560,
-        1920
-      ],
-      "msaa": 8,
-      "seed": 1,
-      "engine": "Official OpenReliant 0.8.1",
-      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
-      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
-      "runtime_manifest": "Coalition Fighters/Loki/asset-manifest.json",
-      "runtime_manifest_sha256": "4ff0f3f10e79644efab2a9f84de9bbb0a41ba574f7aa02400cf9b2fb7d2426af",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Loki/worn/review/gallery_standard_v1/fighting.png",
-      "raw_sha256": "f9880a33899b954a45c521e9906f72f5dc25934003fdbd5589fb26f7eb4cf396",
-      "captured_at_utc": "2026-10-11T13:16:18.039234+00:00",
-      "exit_code": 0,
-      "gallery_file": "assets/loki/gallery-fighting-v1.webp",
-      "gallery_sha256": "4cdb42dacd602f4a867949b7396a3e6c981d47571408a3ad25560c26e583410b",
-      "gallery_dimensions": [
-        1280,
-        960
-      ],
-      "detected_ship_bounds": [
-        958,
-        747,
-        1924,
-        1415
-      ],
-      "crop": [
-        798,
-        618,
-        2078,
-        1578
-      ],
-      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
-    },
-    {
-      "asset": "azan",
-      "livery": "worn-paint",
-      "artwork_revision": "1.0",
-      "mode": "overview",
-      "profile": "ship-gallery-v1",
-      "ship_type": 42,
-      "mission": 969,
-      "ticks": 60,
-      "watch_from": [
-        1.4,
-        -1.4,
-        1.4
-      ],
-      "render_size": [
-        2560,
-        1920
-      ],
-      "msaa": 8,
-      "seed": 1,
-      "engine": "Official OpenReliant 0.8.1",
-      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
-      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
-      "runtime_manifest": "Coalition Fighters/Azan/asset-manifest.json",
-      "runtime_manifest_sha256": "49f8a0459ea7f238e5d2339a9fa7e0fe7a32d08f8d170d9f59f3e4b20d5bda44",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Azan/worn/review/gallery_standard_v1/overview.png",
-      "raw_sha256": "c54a64fdba124d40e174706b5a35655c4003d7874492ecb012748e268d13679e",
-      "captured_at_utc": "2026-10-11T13:16:24.346857+00:00",
-      "exit_code": 0,
-      "gallery_file": "assets/azan/gallery-overview-v1.webp",
-      "gallery_sha256": "9ed6b75ec2a23ff9b200d79b6d3a5c38fe51eac0bafee1bf88a6f94564e57146",
-      "gallery_dimensions": [
-        1280,
-        960
-      ],
-      "detected_ship_bounds": [
-        725,
-        663,
-        1763,
-        1470
-      ],
-      "crop": [
-        536,
-        536,
-        1952,
-        1598
-      ],
-      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
-    },
-    {
-      "asset": "cossack",
-      "livery": "worn-paint",
-      "artwork_revision": "1.0",
-      "mode": "overview",
-      "profile": "ship-gallery-v1",
-      "ship_type": 50,
-      "mission": 969,
-      "ticks": 60,
-      "watch_from": [
-        1.4,
-        -1.4,
-        1.4
-      ],
-      "render_size": [
-        2560,
-        1920
-      ],
-      "msaa": 8,
-      "seed": 1,
-      "engine": "Official OpenReliant 0.8.1",
-      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
-      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
-      "runtime_manifest": "Coalition Fighters/Cossack/asset-manifest.json",
-      "runtime_manifest_sha256": "44facd97e613f4398bba7a22832aa2e91a68f7ef43f7677fa9e9e91dff4fc6f0",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Cossack/worn/review/gallery_standard_v1/overview.png",
-      "raw_sha256": "b86ecbbf3c5a6822f9ee8f56ef2a35d63c9c6550179633dfb6f6ae763b50d459",
-      "captured_at_utc": "2026-10-11T13:16:31.004166+00:00",
-      "exit_code": 0,
-      "gallery_file": "assets/cossack/gallery-overview-v1.webp",
-      "gallery_sha256": "7d233bc7c4b389d27e5a5a9e3aa1b55937b5e37e69f5e610909c623e394693ce",
-      "gallery_dimensions": [
-        1280,
-        960
-      ],
-      "detected_ship_bounds": [
-        677,
-        687,
-        1799,
-        1524
-      ],
-      "crop": [
-        498,
-        550,
-        1978,
-        1660
-      ],
-      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
-    },
-    {
-      "asset": "lagg",
-      "livery": "worn-paint",
-      "artwork_revision": "1.0",
-      "mode": "overview",
-      "profile": "ship-gallery-v1",
-      "ship_type": 44,
-      "mission": 969,
-      "ticks": 60,
-      "watch_from": [
-        1.4,
-        -1.4,
-        1.4
-      ],
-      "render_size": [
-        2560,
-        1920
-      ],
-      "msaa": 8,
-      "seed": 1,
-      "engine": "Official OpenReliant 0.8.1",
-      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
-      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
-      "runtime_manifest": "Coalition Fighters/Lagg/asset-manifest.json",
-      "runtime_manifest_sha256": "9e8221846fdb45279a48d8fd320404fd1bdb6970d7f40fc8f5d78e3ba61b0cc9",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Lagg/worn/review/gallery_standard_v1/overview.png",
-      "raw_sha256": "ac6c58342d04caa861cdf2545f377aa9fcbe063232ee369b2995fe959358ce84",
-      "captured_at_utc": "2026-10-11T13:16:37.465383+00:00",
-      "exit_code": 0,
-      "gallery_file": "assets/lagg/gallery-overview-v1.webp",
-      "gallery_sha256": "2ad7759db8197c147740cad1347ebe6c5dc5a88488c8f83009e6283384606ca4",
-      "gallery_dimensions": [
-        1280,
-        960
-      ],
-      "detected_ship_bounds": [
-        675,
-        724,
-        1808,
-        1398
-      ],
-      "crop": [
-        496,
-        502,
-        1988,
-        1621
-      ],
-      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
-    },
-    {
-      "asset": "salin",
-      "livery": "worn-paint",
-      "artwork_revision": "1.0",
-      "mode": "overview",
-      "profile": "ship-gallery-v1",
-      "ship_type": 41,
-      "mission": 969,
-      "ticks": 60,
-      "watch_from": [
-        1.4,
-        -1.4,
-        1.4
-      ],
-      "render_size": [
-        2560,
-        1920
-      ],
-      "msaa": 8,
-      "seed": 1,
-      "engine": "Official OpenReliant 0.8.1",
-      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
-      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
-      "runtime_manifest": "Coalition Fighters/Salin/asset-manifest.json",
-      "runtime_manifest_sha256": "60764e5bfb1fec277a2658febde1205581d91a721e5275d352dedb02cbdf0c32",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Salin/worn/review/gallery_standard_v1/overview.png",
-      "raw_sha256": "5ac54f8a46d341c88cf88d12e50f6061a472e5b435e69027dd2d8986884f77fb",
-      "captured_at_utc": "2026-10-11T13:16:43.862644+00:00",
-      "exit_code": 0,
-      "gallery_file": "assets/salin/gallery-overview-v1.webp",
-      "gallery_sha256": "23b18d899cc5453d76401d7a0c34aa4353ebb8c5285854f5d7fdad2cac504c11",
-      "gallery_dimensions": [
-        1280,
-        960
-      ],
-      "detected_ship_bounds": [
-        767,
-        777,
-        1880,
-        1440
-      ],
-      "crop": [
-        590,
-        558,
-        2058,
-        1659
-      ],
-      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
-    },
-    {
-      "asset": "saracen",
-      "livery": "worn-paint",
-      "artwork_revision": "1.0",
-      "mode": "overview",
-      "profile": "ship-gallery-v1",
-      "ship_type": 46,
-      "mission": 969,
-      "ticks": 60,
-      "watch_from": [
-        1.4,
-        -1.4,
-        1.4
-      ],
-      "render_size": [
-        2560,
-        1920
-      ],
-      "msaa": 8,
-      "seed": 1,
-      "engine": "Official OpenReliant 0.8.1",
-      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
-      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
-      "runtime_manifest": "Coalition Fighters/Saracen/asset-manifest.json",
-      "runtime_manifest_sha256": "831c7b9512c255030ddd1975dc177b98f798467a6c95aa80228edc6b76c96b50",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Saracen/worn/review/gallery_standard_v1/overview.png",
-      "raw_sha256": "40971b1783363a7bdf7e1831bec6391409beaf54646fed4febac8ea1a390f99c",
-      "captured_at_utc": "2026-10-11T13:16:50.520806+00:00",
-      "exit_code": 0,
-      "gallery_file": "assets/saracen/gallery-overview-v1.webp",
-      "gallery_sha256": "0f413cb45b79a80677673ffe4b509a5a262d4a8045eaf6ca7e90e582eea18206",
-      "gallery_dimensions": [
-        1280,
-        960
-      ],
-      "detected_ship_bounds": [
-        746,
-        697,
-        1909,
-        1498
-      ],
-      "crop": [
-        562,
-        523,
-        2094,
-        1672
-      ],
-      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
-    },
-    {
-      "asset": "haidar",
-      "livery": "worn-paint",
-      "artwork_revision": "1.3",
-      "mode": "overview",
-      "profile": "ship-gallery-v1",
-      "ship_type": 39,
-      "mission": 969,
-      "ticks": 60,
-      "watch_from": [
-        1.4,
-        -1.4,
-        1.4
-      ],
-      "render_size": [
-        2560,
-        1920
-      ],
-      "msaa": 8,
-      "seed": 1,
-      "engine": "Official OpenReliant 0.8.1",
-      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
-      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
-      "runtime_manifest": "Coalition Fighters/Haidar/asset-manifest.json",
-      "runtime_manifest_sha256": "0e2b09ef8fa1cf5a3b5053cc24443f03155404bbe05f9cd53a024a93307d698d",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Haidar/worn/review/gallery_standard_v1/overview.png",
-      "raw_sha256": "7a852d74158bba8532893a763f1cb07c89acd341555d70b725440e1fe144b18f",
-      "captured_at_utc": "2026-10-11T13:16:58.533820+00:00",
-      "exit_code": 0,
-      "gallery_file": "assets/haidar/gallery-overview-v1.webp",
-      "gallery_sha256": "888b79d42abce85c4b2d63b8cb915e98ed2fa57687292b2ec82a0d494334417a",
-      "gallery_dimensions": [
-        1280,
-        960
-      ],
-      "detected_ship_bounds": [
-        701,
-        655,
-        1869,
-        1353
-      ],
-      "crop": [
-        515,
-        426,
-        2055,
-        1581
-      ],
-      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
-    },
-    {
-      "asset": "karac",
-      "livery": "worn-paint",
-      "artwork_revision": "1.0",
-      "mode": "overview",
-      "profile": "ship-gallery-v1",
-      "ship_type": 40,
-      "mission": 969,
-      "ticks": 60,
-      "watch_from": [
-        1.4,
-        -1.4,
-        1.4
-      ],
-      "render_size": [
-        2560,
-        1920
-      ],
-      "msaa": 8,
-      "seed": 1,
-      "engine": "Official OpenReliant 0.8.1",
-      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
-      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
-      "runtime_manifest": "Coalition Fighters/Karak/asset-manifest.json",
-      "runtime_manifest_sha256": "39d886f75c02af823eec33f65bdae869f38653ee33d853d39305ef335baf8073",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Karak/worn/review/gallery_standard_v1/overview.png",
-      "raw_sha256": "0e8147a75c8988a116c45060a4fee3e4affc787a6a77871891b5e482b06798e8",
-      "captured_at_utc": "2026-10-11T13:17:05.135580+00:00",
-      "exit_code": 0,
-      "gallery_file": "assets/karac/gallery-overview-v1.webp",
-      "gallery_sha256": "394f695162c6dc5d87cf2302c5eb992b49d3e00a99b19a195303353eab2e601c",
-      "gallery_dimensions": [
-        1280,
-        960
-      ],
-      "detected_ship_bounds": [
-        813,
-        737,
-        1876,
-        1370
-      ],
-      "crop": [
-        644,
-        528,
-        2044,
-        1578
-      ],
-      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
-    },
-    {
-      "asset": "galahad",
-      "livery": "worn-paint",
-      "artwork_revision": "1.1",
-      "mode": "overview",
-      "profile": "ship-gallery-v1",
-      "ship_type": 25,
-      "mission": 973,
-      "ticks": 60,
-      "watch_from": [
-        1.4,
-        -1.4,
-        1.4
-      ],
-      "render_size": [
-        2560,
-        1920
-      ],
-      "msaa": 8,
-      "seed": 1,
-      "engine": "Official OpenReliant 0.8.1",
-      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
-      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
-      "runtime_manifest": "Torpedo Bombers/Galahad/asset-manifest.json",
-      "runtime_manifest_sha256": "c9352b4f120a695d8a5e314ace6d66753a47b8ba983d93b744ddf6f330d1d59d",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Galahad/worn/review/gallery_standard_v1/overview.png",
-      "raw_sha256": "cf6f69d389cca8570255a3ad0f0e70b5998787d7b49f8799e8da824aad761cba",
-      "captured_at_utc": "2026-10-11T13:17:11.787315+00:00",
-      "exit_code": 0,
-      "gallery_file": "assets/galahad/gallery-overview-v1.webp",
-      "gallery_sha256": "039ae633bb4c6a77905959576f13f3078a9e784a1b314ae472d8fe00a5648dde",
-      "gallery_dimensions": [
-        1280,
-        960
-      ],
-      "detected_ship_bounds": [
-        855,
-        695,
-        1865,
-        1358
-      ],
-      "crop": [
-        694,
-        556,
-        2026,
-        1555
-      ],
-      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
-    },
-    {
-      "asset": "galahad",
-      "livery": "worn-paint",
-      "artwork_revision": "1.1",
-      "mode": "deployed",
-      "profile": "ship-gallery-v1",
-      "ship_type": 25,
-      "mission": 972,
-      "ticks": 450,
-      "watch_from": [
-        1.4,
-        -1.4,
-        1.4
-      ],
-      "render_size": [
-        2560,
-        1920
-      ],
-      "msaa": 8,
-      "seed": 1,
-      "engine": "Official OpenReliant 0.8.1",
-      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
-      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
-      "runtime_manifest": "Torpedo Bombers/Galahad/asset-manifest.json",
-      "runtime_manifest_sha256": "c9352b4f120a695d8a5e314ace6d66753a47b8ba983d93b744ddf6f330d1d59d",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Galahad/worn/review/gallery_standard_v1/deployed.png",
-      "raw_sha256": "955c72200e85d0d7ab670e5d655f3ca99ab948c4868e56ae0186c7beae349e81",
-      "captured_at_utc": "2026-10-11T13:17:16.835573+00:00",
-      "exit_code": 0,
-      "gallery_file": "assets/galahad/gallery-deployed-v1.webp",
-      "gallery_sha256": "0c60fdf19a788bb1428fdac3818e6d2962be774637f6dd53c8641c3fb8666494",
-      "gallery_dimensions": [
-        1280,
-        960
-      ],
-      "detected_ship_bounds": [
-        855,
-        695,
-        1865,
-        1415
-      ],
-      "crop": [
-        694,
-        556,
-        2026,
-        1555
       ],
       "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     },
@@ -1399,10 +860,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Torpedo Bombers/Hades/asset-manifest.json",
-      "runtime_manifest_sha256": "82c6b255b33acccf0b9d5a385d8e0c3f89d2064618707e30ca8469b7b2deb3da",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Hades/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "4e05e41a01b1d634b03dafc2eed5a5d477c5cb325ff248ea2e0b294a05ac9d1f",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Hades/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "50045b084f1e26449fd238c0ff0838f1a71e4c386bf04ab46f72783e9d10e3d2",
-      "captured_at_utc": "2026-10-14T10:16:05.263250+00:00",
+      "captured_at_utc": "2026-10-19T11:11:57.688185+00:00",
       "exit_code": 0,
       "gallery_file": "assets/hades/gallery-overview-v1.webp",
       "gallery_sha256": "ab88f98d7cbfef64862594a937f88e7102224a05edd063d662a757e537117d64",
@@ -1448,10 +909,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Torpedo Bombers/Hades/asset-manifest.json",
-      "runtime_manifest_sha256": "82c6b255b33acccf0b9d5a385d8e0c3f89d2064618707e30ca8469b7b2deb3da",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Hades/worn/review/gallery_standard_v1/deployed.png",
+      "runtime_manifest_sha256": "4e05e41a01b1d634b03dafc2eed5a5d477c5cb325ff248ea2e0b294a05ac9d1f",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Hades/worn/review/gallery_standard_v1/deployed.png",
       "raw_sha256": "b44da11b07bf1b0d96f5a0249839cdf1b1890a7c1eae6399fcc1a6c7a45107a4",
-      "captured_at_utc": "2026-10-14T10:16:10.086750+00:00",
+      "captured_at_utc": "2026-10-19T11:12:03.445568+00:00",
       "exit_code": 0,
       "gallery_file": "assets/hades/gallery-deployed-v1.webp",
       "gallery_sha256": "fc3c6e18685fe5f4a0b754d24b3623b957337c2469700b8970d6589b5b542d64",
@@ -1497,10 +958,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Torpedo Bombers/Scimitar/asset-manifest.json",
-      "runtime_manifest_sha256": "6cd8fab3d864fbaa8713c2e3df221561f2bce71ec295dd0d84835580435db008",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Scimitar/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "ea9e8db3468722c7b12e7eca8df4cdb2ebbdda73e746c7cc4fa72750cbe98c25",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Scimitar/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "c32828f200ed4aa6bda24af14d3d1edce013d5502e20c5f77e8ab4e02789385f",
-      "captured_at_utc": "2026-10-16T13:08:37.917772+00:00",
+      "captured_at_utc": "2026-10-19T11:12:11.901419+00:00",
       "exit_code": 0,
       "gallery_file": "assets/scimitar/gallery-overview-v1.webp",
       "gallery_sha256": "b736782192bdf339fbf56618e2c8e1d9d43bd81c7293f1961f439ad930791832",
@@ -1523,12 +984,110 @@
       "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     },
     {
-      "asset": "kurgen",
+      "asset": "loki",
       "livery": "worn-paint",
-      "artwork_revision": "1.7",
+      "artwork_revision": "1.1",
       "mode": "overview",
       "profile": "ship-gallery-v1",
-      "ship_type": 60,
+      "ship_type": 65,
+      "mission": 983,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Loki/asset-manifest.json",
+      "runtime_manifest_sha256": "d25de0d5ebdf8c4c745a0fea8b6b3cc04e5cb5729c1bd6688c8f88b66771be2d",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Loki/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "92cf605c86bb2e78015b8695ab8cc0ac15a396882371bf3cef7a46dba9ba6894",
+      "captured_at_utc": "2026-10-19T11:12:20.210491+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/loki/gallery-overview-v1.webp",
+      "gallery_sha256": "51d67dc18e1af113694ad4ac33f4b71cde6ebcd482fe10ce8e42520d64b79d6a",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        952,
+        747,
+        1901,
+        1450
+      ],
+      "crop": [
+        798,
+        618,
+        2078,
+        1578
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "loki",
+      "livery": "worn-paint",
+      "artwork_revision": "1.1",
+      "mode": "fighting",
+      "profile": "ship-gallery-v1",
+      "ship_type": 65,
+      "mission": 982,
+      "ticks": 450,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Loki/asset-manifest.json",
+      "runtime_manifest_sha256": "d25de0d5ebdf8c4c745a0fea8b6b3cc04e5cb5729c1bd6688c8f88b66771be2d",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Loki/worn/review/gallery_standard_v1/fighting.png",
+      "raw_sha256": "f9880a33899b954a45c521e9906f72f5dc25934003fdbd5589fb26f7eb4cf396",
+      "captured_at_utc": "2026-10-19T11:12:26.360405+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/loki/gallery-fighting-v1.webp",
+      "gallery_sha256": "4cdb42dacd602f4a867949b7396a3e6c981d47571408a3ad25560c26e583410b",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        958,
+        747,
+        1924,
+        1415
+      ],
+      "crop": [
+        798,
+        618,
+        2078,
+        1578
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "azan",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 42,
       "mission": 969,
       "ticks": 60,
       "watch_from": [
@@ -1542,32 +1101,424 @@
       ],
       "msaa": 8,
       "seed": 1,
-      "engine": "Official OpenReliant 0.18.0",
-      "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
-      "runtime_manifest": "Corvettes and Gunboats/Kurgen/asset-manifest.json",
-      "runtime_manifest_sha256": "1623a95681a28a634f5ac1db7c298701d93da80be67cdfa70b54ad7d373edb9d",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Kurgen/worn/review/gallery_standard_v1/overview.png",
-      "raw_sha256": "35965569b958db5a71dab07e6da58973c82bc71551b2d76998fc484d290bfbfa",
-      "captured_at_utc": "2026-10-17T03:31:04.746747+00:00",
+      "runtime_manifest": "Coalition Fighters/Azan/asset-manifest.json",
+      "runtime_manifest_sha256": "24672fa20e2b15e7b6ac504954581d77c079c08c521452e62f51e25615823484",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Azan/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "c54a64fdba124d40e174706b5a35655c4003d7874492ecb012748e268d13679e",
+      "captured_at_utc": "2026-10-19T11:12:33.653128+00:00",
       "exit_code": 0,
-      "gallery_file": "assets/kurgen/gallery-overview-v1.webp",
-      "gallery_sha256": "1db11819c0ff4307304c25e3f3cbef1d0abee7430edc68c7399c495cce1cc6a2",
+      "gallery_file": "assets/azan/gallery-overview-v1.webp",
+      "gallery_sha256": "9ed6b75ec2a23ff9b200d79b6d3a5c38fe51eac0bafee1bf88a6f94564e57146",
       "gallery_dimensions": [
         1280,
         960
       ],
       "detected_ship_bounds": [
-        936,
-        689,
-        1879,
-        1318
+        725,
+        663,
+        1763,
+        1470
       ],
       "crop": [
-        768,
-        524,
-        2048,
-        1484
+        536,
+        536,
+        1952,
+        1598
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "cossack",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 50,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Cossack/asset-manifest.json",
+      "runtime_manifest_sha256": "31190dcf1dff09923f764dd977329e2e41e6fc29b45a057494a42eaddbc892a6",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Cossack/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "b86ecbbf3c5a6822f9ee8f56ef2a35d63c9c6550179633dfb6f6ae763b50d459",
+      "captured_at_utc": "2026-10-19T11:12:41.089524+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/cossack/gallery-overview-v1.webp",
+      "gallery_sha256": "7d233bc7c4b389d27e5a5a9e3aa1b55937b5e37e69f5e610909c623e394693ce",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        677,
+        687,
+        1799,
+        1524
+      ],
+      "crop": [
+        498,
+        550,
+        1978,
+        1660
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "lagg",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 44,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Lagg/asset-manifest.json",
+      "runtime_manifest_sha256": "a0a982e8a509eae989e6549ccb13643fa4ecea534a849eba6de7e3b1c622aac0",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Lagg/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "ac6c58342d04caa861cdf2545f377aa9fcbe063232ee369b2995fe959358ce84",
+      "captured_at_utc": "2026-10-19T11:12:48.152824+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/lagg/gallery-overview-v1.webp",
+      "gallery_sha256": "2ad7759db8197c147740cad1347ebe6c5dc5a88488c8f83009e6283384606ca4",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        675,
+        724,
+        1808,
+        1398
+      ],
+      "crop": [
+        496,
+        502,
+        1988,
+        1621
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "salin",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 41,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Salin/asset-manifest.json",
+      "runtime_manifest_sha256": "4620e658d63892e296cee1b2416294df1a1f4059c54f2362d1df59a79724c739",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Salin/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "5ac54f8a46d341c88cf88d12e50f6061a472e5b435e69027dd2d8986884f77fb",
+      "captured_at_utc": "2026-10-19T11:12:55.823360+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/salin/gallery-overview-v1.webp",
+      "gallery_sha256": "23b18d899cc5453d76401d7a0c34aa4353ebb8c5285854f5d7fdad2cac504c11",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        767,
+        777,
+        1880,
+        1440
+      ],
+      "crop": [
+        590,
+        558,
+        2058,
+        1659
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "saracen",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 46,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Saracen/asset-manifest.json",
+      "runtime_manifest_sha256": "ccf538a50c89202f406ae2f9b45b41015f6306cd8bd9140b87948b99fde874d0",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Saracen/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "40971b1783363a7bdf7e1831bec6391409beaf54646fed4febac8ea1a390f99c",
+      "captured_at_utc": "2026-10-19T11:13:03.186955+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/saracen/gallery-overview-v1.webp",
+      "gallery_sha256": "0f413cb45b79a80677673ffe4b509a5a262d4a8045eaf6ca7e90e582eea18206",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        746,
+        697,
+        1909,
+        1498
+      ],
+      "crop": [
+        562,
+        523,
+        2094,
+        1672
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "haidar",
+      "livery": "worn-paint",
+      "artwork_revision": "1.3",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 39,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Haidar/asset-manifest.json",
+      "runtime_manifest_sha256": "2c5df4f7a94bb5ad8ffe11210418fa6c0eb432022709751476726cdb24a6247e",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Haidar/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "7a852d74158bba8532893a763f1cb07c89acd341555d70b725440e1fe144b18f",
+      "captured_at_utc": "2026-10-19T11:13:12.012796+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/haidar/gallery-overview-v1.webp",
+      "gallery_sha256": "888b79d42abce85c4b2d63b8cb915e98ed2fa57687292b2ec82a0d494334417a",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        701,
+        655,
+        1869,
+        1353
+      ],
+      "crop": [
+        515,
+        426,
+        2055,
+        1581
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "karac",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 40,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Karak/asset-manifest.json",
+      "runtime_manifest_sha256": "32bd800ea330b2a8eef360a7f421b00eef17dace169c1c4814738a133d1d6c13",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Karak/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "0e8147a75c8988a116c45060a4fee3e4affc787a6a77871891b5e482b06798e8",
+      "captured_at_utc": "2026-10-19T11:13:20.016914+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/karac/gallery-overview-v1.webp",
+      "gallery_sha256": "394f695162c6dc5d87cf2302c5eb992b49d3e00a99b19a195303353eab2e601c",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        813,
+        737,
+        1876,
+        1370
+      ],
+      "crop": [
+        644,
+        528,
+        2044,
+        1578
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "galahad",
+      "livery": "worn-paint",
+      "artwork_revision": "1.1",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 25,
+      "mission": 973,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Torpedo Bombers/Galahad/asset-manifest.json",
+      "runtime_manifest_sha256": "2d97748e483c03b68884a121b3cebc4d57adfaffd5f713041bec061952cbf8f8",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Galahad/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "cf6f69d389cca8570255a3ad0f0e70b5998787d7b49f8799e8da824aad761cba",
+      "captured_at_utc": "2026-10-19T11:13:27.514693+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/galahad/gallery-overview-v1.webp",
+      "gallery_sha256": "039ae633bb4c6a77905959576f13f3078a9e784a1b314ae472d8fe00a5648dde",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        855,
+        695,
+        1865,
+        1358
+      ],
+      "crop": [
+        694,
+        556,
+        2026,
+        1555
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "galahad",
+      "livery": "worn-paint",
+      "artwork_revision": "1.1",
+      "mode": "deployed",
+      "profile": "ship-gallery-v1",
+      "ship_type": 25,
+      "mission": 972,
+      "ticks": 450,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Torpedo Bombers/Galahad/asset-manifest.json",
+      "runtime_manifest_sha256": "2d97748e483c03b68884a121b3cebc4d57adfaffd5f713041bec061952cbf8f8",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Galahad/worn/review/gallery_standard_v1/deployed.png",
+      "raw_sha256": "955c72200e85d0d7ab670e5d655f3ca99ab948c4868e56ae0186c7beae349e81",
+      "captured_at_utc": "2026-10-19T11:13:33.118138+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/galahad/gallery-deployed-v1.webp",
+      "gallery_sha256": "0c60fdf19a788bb1428fdac3818e6d2962be774637f6dd53c8641c3fb8666494",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        855,
+        695,
+        1865,
+        1415
+      ],
+      "crop": [
+        694,
+        556,
+        2026,
+        1555
       ],
       "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     },
@@ -1595,10 +1546,10 @@
       "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Corvettes and Gunboats/Prowler/asset-manifest.json",
-      "runtime_manifest_sha256": "15c14b1d621568821126fd6c66f1155a71e307a7be88409f6be8fbd2f14dc1c0",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Prowler/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "cbbdcff8f0d8946499b682ad00284de26dc572963b9478fafe9d716661b863dd",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Prowler/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "0dd06444ffaae0563ec7a0e22562e3af81fb34605a466d103b5bd50238bae123",
-      "captured_at_utc": "2026-10-17T12:42:03.064977+00:00",
+      "captured_at_utc": "2026-10-19T11:13:45.069104+00:00",
       "exit_code": 0,
       "gallery_file": "assets/prowler/gallery-overview-v1.webp",
       "gallery_sha256": "95538a823c5e90d8f575875bb29d5c4ae335504a5e49930ad93a60e215ca8d09",
@@ -1617,6 +1568,55 @@
         506,
         2003,
         1523
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
+    },
+    {
+      "asset": "kurgen",
+      "livery": "worn-paint",
+      "artwork_revision": "1.7",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 60,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.18.0",
+      "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Corvettes and Gunboats/Kurgen/asset-manifest.json",
+      "runtime_manifest_sha256": "8eba9947aa5d8a9b9e51da4740df8472235f4a52eb2af5ba25c227fdbe7b09a0",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Kurgen/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "35965569b958db5a71dab07e6da58973c82bc71551b2d76998fc484d290bfbfa",
+      "captured_at_utc": "2026-10-19T11:13:58.045128+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/kurgen/gallery-overview-v1.webp",
+      "gallery_sha256": "1db11819c0ff4307304c25e3f3cbef1d0abee7430edc68c7399c495cce1cc6a2",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        936,
+        689,
+        1879,
+        1318
+      ],
+      "crop": [
+        768,
+        524,
+        2048,
+        1484
       ],
       "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     },
@@ -1644,10 +1644,10 @@
       "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Alliance Capital Ships/Reliant/asset-manifest.json",
-      "runtime_manifest_sha256": "d8ffb786a02127ad6a341b266bfe2e87bb33cb03ca41331b1098b899858903e8",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Reliant/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "7b557234338cc022c0d0dec153c4edc1fa6d6e9c668c1bb84f10a8c65221ad11",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Reliant/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "6050ff37b3d1de12c4ac5e42696991696033e56ab61d34619ae680165e457c0d",
-      "captured_at_utc": "2026-10-19T09:28:10.249990+00:00",
+      "captured_at_utc": "2026-10-19T11:14:30.962603+00:00",
       "exit_code": 0,
       "gallery_file": "assets/reliant/gallery-overview-v1.webp",
       "gallery_sha256": "680aead8543b29be906d3066130e448fd960e25cc422c8cda4edfa29cfe44652",

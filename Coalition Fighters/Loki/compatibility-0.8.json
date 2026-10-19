@@ -31,7 +31,7 @@
   "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
   "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
   "retained_artwork_bytes_unchanged": true,
-  "asset_manifest_sha256": "4ff0f3f10e79644efab2a9f84de9bbb0a41ba574f7aa02400cf9b2fb7d2426af",
+  "asset_manifest_sha256": "d25de0d5ebdf8c4c745a0fea8b6b3cc04e5cb5729c1bd6688c8f88b66771be2d",
   "native_checks": [
     {
       "path": "mods/105-loki-worn-v1/CRP_Loki.SHP",
@@ -87,5 +87,20 @@
   "limitations": [
     "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
     "Existing campaign, animation, damage, distance-transition and platform limitations remain."
-  ]
+  ],
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.2",
+    "previous_manifest_sha256": "4ff0f3f10e79644efab2a9f84de9bbb0a41ba574f7aa02400cf9b2fb7d2426af",
+    "runtime_only": true,
+    "removed": [
+      "mods/105-loki-worn-v1/mission983.dte",
+      "mods/105-loki-worn-v1/mission982.dte",
+      "mods/105-loki-worn-v1/mission981.dte",
+      "mods/105-loki-worn-v1/loki_inspection.luau"
+    ],
+    "changed": [
+      "mods/105-loki-worn-v1/mod.ini"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

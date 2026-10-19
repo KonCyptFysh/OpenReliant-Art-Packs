@@ -5,17 +5,18 @@
   "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
   "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
   "asset_revision": "2.0",
-  "asset_manifest_sha256": "e771bff93e1ad7b319899b1b3b5699c21ea245e86daeb37ed8819d497fda3e52",
+  "asset_manifest_sha256": "fd52f8b398fa9e425fc1463f00b066179eee14ce91b125446237d90cfd63adf0",
   "source_manifest_sha256": "451217359b01b2c3fdc6301c2adc336bd6786df5d6131f2d948f2349c406cef2",
   "tested_platforms": [
-    "Linux x86_64 \u2014 native tools and non-visual texture pipeline"
+    "Linux x86_64 — native tools and non-visual texture pipeline"
   ],
   "checks": [
     "Official sltool 0.8.1: 2 native model/mission format and round-trip checks passed.",
     "Official 0.8.1 texture loader: 1 material sets decoded; generated green/red channels checked and inherited normal/ORM maps match byte-for-byte.",
     "Removed 3 audited byte-identical loadout files; retained artwork/model/animation bytes unchanged from the current approved repository snapshot.",
     "All material sets retain unprefixed PNG base, normal and ORM files.",
-    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json."
+    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json.",
+    "Development scenes, launchers, review camera, input handlers and overlays excluded from player runtime; existing artwork and production lighting preserved."
   ],
   "prior_artwork_validation": "validation-previous.json",
   "compatibility_report": "compatibility-0.8.json",
@@ -25,5 +26,15 @@
   ],
   "game_launched_for_this_update": false,
   "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
-  "non_visual_validation": true
+  "non_visual_validation": true,
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.2",
+    "previous_manifest_sha256": "e771bff93e1ad7b319899b1b3b5699c21ea245e86daeb37ed8819d497fda3e52",
+    "runtime_only": true,
+    "removed": [],
+    "changed": [
+      "mods/60-wolverine-worn-v1/mod.ini"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

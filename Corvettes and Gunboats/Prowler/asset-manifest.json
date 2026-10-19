@@ -15,14 +15,9 @@
     "sha256": "8a81c84b909e9711666c1c1f0b60721d621da78c376ed0be65ed537b97b00cbc"
   },
   {
-    "path": "mods/117-prowler-worn-v1/mission961.dte",
-    "bytes": 850959,
-    "sha256": "6a6df2968369944d011cff45d49ef4c1ac2b68387b09a6eec7e0c571f4e3d133"
-  },
-  {
     "path": "mods/117-prowler-worn-v1/mod.ini",
-    "bytes": 384,
-    "sha256": "28c18f3ad10aae724e18d4943190467094a43ac281df72652269725caddffa99"
+    "bytes": 342,
+    "sha256": "ec53516c5c4842ac221bb318b47409c93050b379fd421b0497ac1769f7576e50"
   },
   {
     "path": "mods/117-prowler-worn-v1/mod.png",
@@ -65,11 +60,6 @@
     "sha256": "97723bd417705df8cf96b5e1d77ab3c24ccee2f7a0ef6c60e843048c7b3c4d6d"
   },
   {
-    "path": "mods/117-prowler-worn-v1/prowler_inspection.luau",
-    "bytes": 2078,
-    "sha256": "b6aff2a584771b5a80bceaf27f492dafaee4910e996a7c09e7120a74dcd5039f"
-  },
-  {
     "path": "mods/117-prowler-worn-v1/prowler_lighting.luau",
     "bytes": 2331,
     "sha256": "66fe41f699cbf6b5219abb0bbb51d0279c4025c09ad7c5f92973993f593144f9"
@@ -81,8 +71,8 @@
   },
   {
     "path": "mods/117-prowler-worn-v1/prowler_surface.luau",
-    "bytes": 2093,
-    "sha256": "b3c0037c5270fcbb34d78ceb9d7b5e6e9f092ec04607899f5734709a743d79c7"
+    "bytes": 1119,
+    "sha256": "bafc22068d46a2be995ba8e1482e3c655b7d1feb4706eaea0b76c20945f4325f"
   },
   {
     "path": "mods/117-prowler-worn-v1/prowler_systems.glsl",

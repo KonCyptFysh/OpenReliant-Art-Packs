@@ -2,7 +2,7 @@
 
 Copy `mods/113-galahad-worn-v1` into OpenReliant's `game-data/mods` directory and enable it. Runtime files stay flat. Requires your own StarLancer installation and official OpenReliant 0.8.1.
 
-Copy all four `tools/launch-galahad-*.sh` scripts together alongside `launch-openreliant.sh`, or set OPENRELIANT_HOME to the installation. The main script accepts a mode followed by optional engine options:
+Copy all four `dev/tools/launch-galahad-*.sh` scripts together alongside `launch-openreliant.sh`, or set OPENRELIANT_HOME to the installation. The main script accepts a mode followed by optional engine options:
 
 | Launcher or mode | Review |
 | --- | --- |

@@ -31,7 +31,7 @@
   "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
   "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
   "retained_artwork_bytes_unchanged": true,
-  "asset_manifest_sha256": "431d86d6f5ed4e735184a172257e34c34679cea33137ef763037d811c49c2522",
+  "asset_manifest_sha256": "f6750655d3483072513ac78263e691a085cd717f73485bd576261b19ee0e6ac1",
   "native_checks": [
     {
       "path": "mods/70-tempest-worn-v1/British_Tempest.SHP",
@@ -75,5 +75,15 @@
   "limitations": [
     "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
     "Existing campaign, animation, damage, distance-transition and platform limitations remain."
-  ]
+  ],
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.2",
+    "previous_manifest_sha256": "431d86d6f5ed4e735184a172257e34c34679cea33137ef763037d811c49c2522",
+    "runtime_only": true,
+    "removed": [],
+    "changed": [
+      "mods/70-tempest-worn-v1/mod.ini"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

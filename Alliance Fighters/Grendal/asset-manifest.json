@@ -15,14 +15,9 @@
     "sha256": "76d2a5bedf4b79242a5a094604330d20f7f6ea634b59e03061b2f8c273653fbd"
   },
   {
-    "path": "mods/101-grendal-worn-v1/mission992.dte",
-    "bytes": 480,
-    "sha256": "e51c2c64d49369c63668ad63b1fbfd85bed9849169b9f21efcd5acd8631e317b"
-  },
-  {
     "path": "mods/101-grendal-worn-v1/mod.ini",
-    "bytes": 306,
-    "sha256": "12cbcb59e1e40e47d061da4dc9a811da4506baf88627a9f586bd100853574d58"
+    "bytes": 315,
+    "sha256": "600339aaa5c70d620bfbd91d0669bfa478bc4620d83435c023a46159513e13bd"
   },
   {
     "path": "mods/101-grendal-worn-v1/mod.png",

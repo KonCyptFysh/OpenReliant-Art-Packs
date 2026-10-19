@@ -4,58 +4,102 @@
   "artwork_revision": "1.1",
   "captures": [
     {
-      "image": "flight-folded.png",
-      "sha256": "49ac5eff50824d68d7185ffdbe2c01f72bbad657376f61e67e32e7d6a81cc7fa",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "asset": "loki",
+      "livery": "worn-paint",
+      "artwork_revision": "1.1",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 65,
       "mission": 983,
-      "ship": 65,
-      "view": 1,
-      "skip_launch": true,
-      "watch": "0",
-      "watch_from": "1,-0.6,1.4",
-      "render_size": [
-        1600,
-        1200
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
       ],
-      "screenshot_ticks": 100,
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Loki/asset-manifest.json",
+      "runtime_manifest_sha256": "d25de0d5ebdf8c4c745a0fea8b6b3cc04e5cb5729c1bd6688c8f88b66771be2d",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Loki/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "92cf605c86bb2e78015b8695ab8cc0ac15a396882371bf3cef7a46dba9ba6894",
+      "captured_at_utc": "2026-10-19T11:12:20.210491+00:00",
       "exit_code": 0,
-      "captured_at_utc": "2026-10-09T11:33:26.404427+00:00",
-      "runtime_manifest_sha256": "5960ff0469404d72ae1dcf1290d4fce510b56715169836c25a2649338bddd325",
-      "runtime_matches_repository": true,
-      "gallery_file": "assets/loki/flight-folded.webp",
-      "gallery_sha256": "d28be50c0db799cb480f0eef5e538c9f8927e2a39c8766992dbc40c0d979e56b",
-      "conversion": "WebP encoding only; no image alterations",
-      "visually_inspected": true,
-      "startup_errors": [],
-      "startup_warnings": []
+      "gallery_file": "assets/loki/gallery-overview-v1.webp",
+      "gallery_sha256": "51d67dc18e1af113694ad4ac33f4b71cde6ebcd482fe10ce8e42520d64b79d6a",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        952,
+        747,
+        1901,
+        1450
+      ],
+      "crop": [
+        798,
+        618,
+        2078,
+        1578
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     },
     {
-      "image": "flight-fighting.png",
-      "sha256": "4848c38827e518f64761eab3f9b453229b10590329310db3b3e6ff3f59e30bd0",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "asset": "loki",
+      "livery": "worn-paint",
+      "artwork_revision": "1.1",
+      "mode": "fighting",
+      "profile": "ship-gallery-v1",
+      "ship_type": 65,
       "mission": 982,
-      "ship": 65,
-      "view": 1,
-      "skip_launch": true,
-      "watch": "0",
-      "watch_from": "1,-0.6,1.4",
-      "render_size": [
-        1600,
-        1200
+      "ticks": 450,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
       ],
-      "screenshot_ticks": 600,
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Loki/asset-manifest.json",
+      "runtime_manifest_sha256": "d25de0d5ebdf8c4c745a0fea8b6b3cc04e5cb5729c1bd6688c8f88b66771be2d",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Loki/worn/review/gallery_standard_v1/fighting.png",
+      "raw_sha256": "f9880a33899b954a45c521e9906f72f5dc25934003fdbd5589fb26f7eb4cf396",
+      "captured_at_utc": "2026-10-19T11:12:26.360405+00:00",
       "exit_code": 0,
-      "captured_at_utc": "2026-10-09T11:34:38.117077+00:00",
-      "runtime_manifest_sha256": "5960ff0469404d72ae1dcf1290d4fce510b56715169836c25a2649338bddd325",
-      "runtime_matches_repository": true,
-      "gallery_file": "assets/loki/flight-fighting.webp",
-      "gallery_sha256": "43c0e80e877d6a1130aa4f51613e33871435c8baab8a8db61e6f511f8f8c81e0",
-      "conversion": "WebP encoding only; no image alterations",
-      "visually_inspected": true,
-      "startup_errors": [],
-      "startup_warnings": []
+      "gallery_file": "assets/loki/gallery-fighting-v1.webp",
+      "gallery_sha256": "4cdb42dacd602f4a867949b7396a3e6c981d47571408a3ad25560c26e583410b",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        958,
+        747,
+        1924,
+        1415
+      ],
+      "crop": [
+        798,
+        618,
+        2078,
+        1578
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }
   ],
   "published_runtime_manifest_sha256": "5960ff0469404d72ae1dcf1290d4fce510b56715169836c25a2649338bddd325",
@@ -66,5 +110,7 @@
     "report": "compatibility-0.8.json",
     "captured_engine_unchanged": true,
     "note": "Historical gallery captures keep their recorded engine version. This package update removes generated-colour copies and changes release metadata, while retaining the depicted artwork."
-  }
+  },
+  "visually_reviewed": true,
+  "packaging_revision": "Runtime-only packaging; fresh capture of the cleaned mod, without development overlays."
 }

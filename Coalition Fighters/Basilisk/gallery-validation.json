@@ -4,52 +4,53 @@
   "artwork_revision": "1.3",
   "captures": [
     {
-      "image": "flight-overview.png",
-      "sha256": "9f0327f04446de716a6d3d3226d9bb64b29a361197282d9df2fae1d9f8cec7af",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-      "mission": 988,
-      "ship": 49,
-      "watch_from": "1.2,-0.72,1.56",
-      "render_size": [
-        1600,
-        1200
+      "asset": "basilisk",
+      "livery": "worn-paint",
+      "artwork_revision": "1.3",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 49,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
       ],
-      "screenshot_ticks": 30,
-      "exit_code": 0,
-      "captured_at_utc": "2026-10-09T02:17:51.311931+00:00",
-      "runtime_manifest_sha256": "af7be153b7033cc0f068dffd9cc897559e34893fd641e2265092c156eac54e7f",
-      "installed_runtime_matches_repository": true,
-      "settings_unchanged": true,
-      "gallery_file": "assets/basilisk/flight-overview.webp",
-      "gallery_sha256": "434fc85193e1ad8b54832ad7fbd2dac5075a0526b0f2e3b76dc281474c6cc9e4",
-      "conversion": "WebP encoding only; no image alterations",
-      "startup_errors": [],
-      "gun_material_loaded": true
-    },
-    {
-      "image": "flight-rear.png",
-      "sha256": "78d0b83788844e2101f867acc15b34c84dc9766bce821e224d1871dd0636749b",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-      "mission": 988,
-      "ship": 49,
-      "watch_from": "1.1,-0.66,-1.43",
       "render_size": [
-        1600,
-        1200
+        2560,
+        1920
       ],
-      "screenshot_ticks": 30,
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Basilisk/asset-manifest.json",
+      "runtime_manifest_sha256": "ae1c71c9ce6e2af294ab4539ac94539dd753ac2f6d13f38dc02ae4f9342535a8",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Basilisk/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "19ec9dda89c64388be21304db48e5f6b8a464e67eff98682dd5de486ced51c17",
+      "captured_at_utc": "2026-10-19T11:11:38.267537+00:00",
       "exit_code": 0,
-      "captured_at_utc": "2026-10-09T02:16:18.603556+00:00",
-      "runtime_manifest_sha256": "af7be153b7033cc0f068dffd9cc897559e34893fd641e2265092c156eac54e7f",
-      "installed_runtime_matches_repository": true,
-      "settings_unchanged": true,
-      "gallery_file": "assets/basilisk/flight-rear.webp",
-      "gallery_sha256": "70d959e98963d214ccab8641298fa87a300f11bcfb2bf137da009ef0aed9f27f",
-      "conversion": "WebP encoding only; no image alterations",
-      "startup_errors": [],
-      "gun_material_loaded": true
+      "gallery_file": "assets/basilisk/gallery-overview-v1.webp",
+      "gallery_sha256": "e508829066785971f6461410634902dc41950de4a668b3eba04d27d1d050b454",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        804,
+        750,
+        1854,
+        1428
+      ],
+      "crop": [
+        637,
+        570,
+        2021,
+        1608
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }
   ],
   "captured_runtime_manifest_sha256": "af7be153b7033cc0f068dffd9cc897559e34893fd641e2265092c156eac54e7f",
@@ -62,5 +63,7 @@
     "report": "compatibility-0.8.json",
     "captured_engine_unchanged": true,
     "note": "Historical gallery captures keep their recorded engine version. This package update removes generated-colour copies and changes release metadata, while retaining the depicted artwork."
-  }
+  },
+  "visually_reviewed": true,
+  "packaging_revision": "Runtime-only packaging; fresh capture of the cleaned mod, without development overlays."
 }

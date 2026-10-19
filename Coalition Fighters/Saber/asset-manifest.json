@@ -10,14 +10,9 @@
     "sha256": "9de2592602ace78df09c1b38fc32c8a03fd38234d70b8ba69f875724295a15bc"
   },
   {
-    "path": "mods/102-saber-worn-v1/mission989.dte",
-    "bytes": 478,
-    "sha256": "b561edb2c849aeba843dd27f8d763daa34fa798cdb69d61491471fdf923c103b"
-  },
-  {
     "path": "mods/102-saber-worn-v1/mod.ini",
-    "bytes": 199,
-    "sha256": "8d124f111362b5327e056dbaac2260252311f83133eb117fed2c55e95e80727f"
+    "bytes": 208,
+    "sha256": "57bc59e19c7e3750b39820eda327ecfa6d1145191095002db68ccc5f45ee3a81"
   },
   {
     "path": "mods/102-saber-worn-v1/mod.png",

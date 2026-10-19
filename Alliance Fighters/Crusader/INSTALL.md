@@ -6,6 +6,6 @@ This pack replaces Crusader's main, training and loadout artwork. Remove its mod
 
 ## Optional quiet inspection scene on Linux
 
-Copy `tools/launch-crusader-test.sh` beside `launch-openreliant.sh` and run `bash launch-crusader-test.sh`. Alternatively, set `OPENRELIANT_HOME` to that launcher directory. It opens mission 990 with Crusader ship 3, one ship, no enemies and sound disabled. Press 7 for external orbit; arrow keys rotate and Shift+Up/Down zoom.
+Copy `dev/tools/launch-crusader-test.sh` beside `launch-openreliant.sh` and run `bash launch-crusader-test.sh`. Alternatively, set `OPENRELIANT_HOME` to that launcher directory. It opens mission 990 with Crusader ship 3, one ship, no enemies and sound disabled. Press 7 for external orbit; arrow keys rotate and Shift+Up/Down zoom.
 
 For an upgrade, replace the old mod folder instead of merging into it. This removes obsolete `g`/`r` texture files. The engine generates loadout colours from the unprefixed PNG textures.

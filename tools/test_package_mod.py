@@ -25,7 +25,7 @@ class PackageChecks(unittest.TestCase):
         self.config = dict(package_name="fixture", version="0.1.0-beta.1", status="ready-for-packaging",
                            hold_reason="test hold", mod_folders=["fixture"], minimum_openreliant="0.7",
                            asset_manifest_sha256=pack.digest(self.root / "asset-manifest.json"),
-                           include_documents=["README.md"])
+                           include_documents=[])
         self.write("release.json", self.config)
         self.report = dict(status="passed", engine_build="synthetic fixture only", tested_platforms=["fixture"],
                            checks=["fixture"], asset_manifest_sha256=self.config["asset_manifest_sha256"])
@@ -51,19 +51,54 @@ class PackageChecks(unittest.TestCase):
         first = pack.digest(archive)
         self.assertEqual(pack.digest(pack.build(self.root)), first)
         with zipfile.ZipFile(archive) as contents:
-            self.assertEqual(set(contents.namelist()), {"mods/fixture/mod.ini", "mods/fixture/fixture.txt", "README.md"})
+            self.assertEqual(set(contents.namelist()), {"mods/fixture/mod.ini", "mods/fixture/fixture.txt"})
             self.assertEqual(contents.read("mods/fixture/fixture.txt"), (self.root / "mods/fixture/fixture.txt").read_bytes())
         self.assertTrue(archive.with_suffix(".zip.sha256").read_text().startswith(first))
 
-    def test_executable_launcher_permissions_survive_packaging(self):
+    def test_development_launcher_cannot_be_shipped_as_a_document(self):
         launcher = self.root / "inspect.sh"
         launcher.write_text("#!/bin/sh\nexit 0\n")
         launcher.chmod(0o755)
         self.config["include_documents"].append("inspect.sh")
         self.write("release.json", self.config)
+        with self.assertRaisesRegex(ValueError, "runtime mod files only"):
+            pack.build(self.root)
+
+    def test_mission_scene_rejected_in_an_art_pack(self):
+        self.write("mods/fixture/mission957.dte", "fixture")
+        self.refresh_manifest(); self.repin()
+        with self.assertRaisesRegex(ValueError, "Mission scene"):
+            pack.build(self.root)
+
+    def test_inspection_script_rejected(self):
+        self.write("mods/fixture/ship_inspection.luau", "return {}")
+        self.refresh_manifest(); self.repin()
+        with self.assertRaisesRegex(ValueError, "Development file"):
+            pack.build(self.root)
+
+    def test_dangling_mission_registration_rejected(self):
+        self.write("mods/fixture/mod.ini", "[Mod]\nName=Fixture\nOpenReliant=0.7\n[Missions]\nmission957.dte=review.luau\n")
+        self.refresh_manifest(); self.repin()
+        with self.assertRaisesRegex(ValueError, "mission hooks"):
+            pack.build(self.root)
+
+    def test_runtime_lighting_script_is_preserved(self):
+        self.write("mods/fixture/lighting.luau", "return {}")
+        self.write("mods/fixture/mod.ini", "[Mod]\nName=Fixture\nOpenReliant=0.7\n[Scripts]\nGlobal=lighting.luau\n")
+        self.refresh_manifest(); self.repin()
         with zipfile.ZipFile(pack.build(self.root)) as contents:
-            self.assertEqual(contents.getinfo("inspect.sh").external_attr >> 16, 0o100755)
-            self.assertEqual(contents.getinfo("README.md").external_attr >> 16, 0o100644)
+            self.assertIn("mods/fixture/lighting.luau", contents.namelist())
+
+    def test_test_hotkeys_cannot_hide_inside_a_runtime_script(self):
+        self.write("mods/fixture/lighting.luau", 'core.send_global_event("ship_review", {key="f5"})')
+        self.refresh_manifest(); self.repin()
+        with self.assertRaisesRegex(ValueError, "Development controls"):
+            pack.validate(self.root)
+
+    def test_native_film_named_test_is_not_a_development_script(self):
+        self.write("mods/fixture/test.fm8", "native film fixture")
+        self.refresh_manifest(); self.repin()
+        pack.validate(self.root)
 
     def test_duplicate_loadout_image_rejected(self):
         self.write("mods/fixture/hull.png", "synthetic image bytes")

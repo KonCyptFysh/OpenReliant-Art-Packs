@@ -4,48 +4,53 @@
   "artwork_revision": "2.0",
   "captures": [
     {
-      "image": "flight-overview.png",
-      "sha256": "7f269a16183289ec7f33bd9443f2cd06d26f48a775cd4912f152390a881139b2",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-      "mission": 990,
-      "ship": 3,
-      "watch_from": "1,-0.6,1.3",
-      "render_size": [
-        1600,
-        1200
+      "asset": "crusader",
+      "livery": "worn-paint",
+      "artwork_revision": "2.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 3,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
       ],
-      "screenshot_ticks": 30,
-      "exit_code": 0,
-      "captured_at_utc": "2026-10-08T08:00:28.196846+00:00",
-      "runtime_manifest_sha256": "4145c10c0235738052374c5f6f12e374b40b4e6fd487db2b291947d9c695bbdb",
-      "installed_runtime_matches_repository": true,
-      "settings_unchanged": true,
-      "gallery_file": "assets/crusader/flight-overview.webp",
-      "gallery_sha256": "1b5c6d50adbea6f1c2861e76f2e50a6000f7acfc045fbadcb5888375893c1b72",
-      "conversion": "WebP encoding only; no image alterations"
-    },
-    {
-      "image": "flight-rear.png",
-      "sha256": "193ef6aaefde7141081687750026f87f337ed646d2cd50aba284c58acb1a91c2",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-      "mission": 990,
-      "ship": 3,
-      "watch_from": "1,-0.6,-1.3",
       "render_size": [
-        1600,
-        1200
+        2560,
+        1920
       ],
-      "screenshot_ticks": 30,
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Alliance Fighters/Crusader/asset-manifest.json",
+      "runtime_manifest_sha256": "46712cf078267511ea487852a282d294c8762b34076c4d8626d6cd236dbef439",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Crusader/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "bd2b787e37aebfe3d3a95210b7abc96a7da8c6b1898fdb569b890992ea688b2e",
+      "captured_at_utc": "2026-10-19T11:11:01.462754+00:00",
       "exit_code": 0,
-      "captured_at_utc": "2026-10-08T08:03:46.709455+00:00",
-      "runtime_manifest_sha256": "4145c10c0235738052374c5f6f12e374b40b4e6fd487db2b291947d9c695bbdb",
-      "installed_runtime_matches_repository": true,
-      "settings_unchanged": true,
-      "gallery_file": "assets/crusader/flight-rear.webp",
-      "gallery_sha256": "2faa0ad5d8b2af668edcf811f19ffb9cfadb6287e129516b218faa657394c1a3",
-      "conversion": "WebP encoding only; no image alterations"
+      "gallery_file": "assets/crusader/gallery-overview-v1.webp",
+      "gallery_sha256": "eea9a5e020dcb386bf585d87d9270d0bd8bd0a9ef52f2cb4341f263d9428be3b",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        818,
+        720,
+        1873,
+        1348
+      ],
+      "crop": [
+        650,
+        512,
+        2042,
+        1556
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }
   ],
   "captured_runtime_manifest_sha256": "4145c10c0235738052374c5f6f12e374b40b4e6fd487db2b291947d9c695bbdb",
@@ -57,5 +62,7 @@
     "report": "compatibility-0.8.json",
     "captured_engine_unchanged": true,
     "note": "Historical gallery captures keep their recorded engine version. This package update removes generated-colour copies and changes release metadata, while retaining the depicted artwork."
-  }
+  },
+  "visually_reviewed": true,
+  "packaging_revision": "Runtime-only packaging; fresh capture of the cleaned mod, without development overlays."
 }

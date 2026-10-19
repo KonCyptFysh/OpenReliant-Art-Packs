@@ -1,6 +1,6 @@
 {
   "package_name": "openreliant-prowler",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.1.runtime1",
   "asset_revision": "1.2",
   "status": "ready-for-packaging",
   "hold_reason": null,
@@ -8,27 +8,11 @@
   "mod_folders": [
     "117-prowler-worn-v1"
   ],
-  "asset_manifest_sha256": "15c14b1d621568821126fd6c66f1155a71e307a7be88409f6be8fbd2f14dc1c0",
+  "asset_manifest_sha256": "cbbdcff8f0d8946499b682ad00284de26dc572963b9478fafe9d716661b863dd",
   "source_manifest_sha256": "b4ebe369cd88d0cda57e8e0c62aca03230224a1711ea98009c43fa1b3f472b68",
   "channel": "beta",
   "user_approved": true,
-  "include_documents": [
-    "README.md",
-    "INSTALL.md",
-    "KNOWN_ISSUES.md",
-    "CHANGELOG.md",
-    "CREDITS.md",
-    "LICENSING.md",
-    "asset-manifest.json",
-    "validation.json",
-    "release.json",
-    "compatibility-0.18.json",
-    "tools/launch-prowler-test.sh",
-    "LIGHTING.md",
-    "approval.json",
-    "gallery-validation.json",
-    "preview-validation.json"
-  ],
+  "include_documents": [],
   "approval": {
     "user_approved": true,
     "approved_at_utc": "2026-10-17T12:41:25.532742+00:00",
@@ -36,5 +20,7 @@
     "instruction": "Okay, I'm happy with that, just put a note on it to refine the window lighting. Other than that, ship it to git",
     "scope": "Publish accepted Prowler revision 1.2 with window-lighting refinement recorded as future work.",
     "qualification": "Beta acceptance; full campaign and cross-platform validation are not claimed."
-  }
+  },
+  "package_kind": "asset",
+  "distribution": "runtime-only"
 }

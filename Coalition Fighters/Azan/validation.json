@@ -4,7 +4,7 @@
   "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
   "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
   "asset_revision": "1.0",
-  "asset_manifest_sha256": "49f8a0459ea7f238e5d2339a9fa7e0fe7a32d08f8d170d9f59f3e4b20d5bda44",
+  "asset_manifest_sha256": "24672fa20e2b15e7b6ac504954581d77c079c08c521452e62f51e25615823484",
   "source_manifest_sha256": "5ba065076b010d57a932f49f3134549f86df58bd86322f623d16c50b6bd10d85",
   "packaging_ready": true,
   "user_approved": true,
@@ -19,7 +19,8 @@
     "Review launcher passes shell syntax checks.",
     "User approved artwork 1.0 and requested publication.",
     "Four user in-game photographs inspected; approved SHP and material bytes are unchanged.",
-    "Final release runtime files match the installed mod."
+    "Final release runtime files match the installed mod.",
+    "Development scenes, launchers, review camera, input handlers and overlays excluded from player runtime; existing artwork and production lighting preserved."
   ],
   "runtime_visual_review": "user_approved_artwork_1.0_without_revisions",
   "limitations": [
@@ -27,8 +28,20 @@
     "Dedicated emissive maps are deferred."
   ],
   "tested_platforms": [
-    "Linux x86_64 \u2014 official 0.8.1 native and texture-loader checks; user in-game artwork review"
+    "Linux x86_64 — official 0.8.1 native and texture-loader checks; user in-game artwork review"
   ],
   "gallery_validation": "gallery-validation.json",
-  "game_launched_by_agent": false
+  "game_launched_by_agent": false,
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.1",
+    "previous_manifest_sha256": "49f8a0459ea7f238e5d2339a9fa7e0fe7a32d08f8d170d9f59f3e4b20d5bda44",
+    "runtime_only": true,
+    "removed": [
+      "mods/106-azan-worn-v1/mission980.dte"
+    ],
+    "changed": [
+      "mods/106-azan-worn-v1/mod.ini"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

@@ -27,10 +27,10 @@
       "engine_sha256": "f72e667145a0064ff8c31f3b31bb6cdcc5236dc3e4d7110e3a92ebf04257e79e",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Corvettes and Gunboats/Kurgen/asset-manifest.json",
-      "runtime_manifest_sha256": "1623a95681a28a634f5ac1db7c298701d93da80be67cdfa70b54ad7d373edb9d",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Kurgen/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "8eba9947aa5d8a9b9e51da4740df8472235f4a52eb2af5ba25c227fdbe7b09a0",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Kurgen/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "35965569b958db5a71dab07e6da58973c82bc71551b2d76998fc484d290bfbfa",
-      "captured_at_utc": "2026-10-17T03:31:04.746747+00:00",
+      "captured_at_utc": "2026-10-19T11:13:58.045128+00:00",
       "exit_code": 0,
       "gallery_file": "assets/kurgen/gallery-overview-v1.webp",
       "gallery_sha256": "1db11819c0ff4307304c25e3f3cbef1d0abee7430edc68c7399c495cce1cc6a2",
@@ -62,5 +62,6 @@
     "Whole silhouette and native turrets framed",
     "Native blue nebula, no UI or cinematic bars",
     "4:3 image and shared fleet framing; photo and fleet contact sheet inspected"
-  ]
+  ],
+  "packaging_revision": "Runtime-only packaging; fresh capture of the cleaned mod, without development overlays."
 }
