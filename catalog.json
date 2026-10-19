@@ -2941,9 +2941,9 @@
       "id": "reliant",
       "name": "ANS Reliant",
       "category": "alliance-capital-ships",
-      "status": "coming-soon",
+      "status": "available",
       "workStatus": "release-preparation",
-      "description": "Restored Alliance carrier with framed illuminated windows, capital-scale service galleries, reactive engine heat, rebuilt launch hangar and aligned landing tubes.",
+      "description": "Reauthored ANS Reliant hull, windows, machinery and hangar materials with responsive engine and cabin lighting.",
       "entryType": "ship",
       "faction": "alliance",
       "shipClass": "Class 4 Carrier",
@@ -2952,15 +2952,14 @@
         {
           "id": "worn-paint",
           "name": "Worn Paint",
-          "status": "coming-soon",
+          "status": "available",
           "engineStatus": "user-approved-beta",
           "assetRevision": "11.0",
           "modFolder": "119-reliant-worn-v1",
           "engine": "0.18.0",
           "notes": [
-            "Approved exterior and interior restoration with reactive cabin and engine lighting.",
-            "Patriot launch, cycling doors and native comms landing test included.",
-            "One canonical PNG set; shared Alliance turret overrides are documented."
+            "Requires official OpenReliant 0.18.0.",
+            "Asset-only mod: hull, hangar, materials and runtime lighting."
           ],
           "validationSummary": "Native and material checks passed on official 0.18.0. Launch and landing interiors inspected; four door-phase landing alignment checks passed. User accepted this beta; broader campaign and other platforms remain unverified.",
           "preview": "assets/reliant/gallery-overview-v1.webp",
@@ -2974,7 +2973,47 @@
               "caption": "Reliant — front three-quarter view, healthy cabin lighting"
             }
           ],
-          "model": "models/reliant.glb"
+          "model": "models/reliant.glb",
+          "version": "0.1.0-beta.13.runtime1",
+          "tag": "reliant-v0.1.0-beta.13.runtime1",
+          "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-0.1.0-beta.13.runtime1.zip",
+          "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1",
+          "checksum": "18ce289e33efa29b3a6d9d089bf775257935bbd6bd6f9704e5f7841ea012bfc0",
+          "downloadBytes": 217664343,
+          "resolutions": [
+            {
+              "id": "1k",
+              "version": "0.1.0-beta.13.runtime1.res2",
+              "tag": "reliant-v0.1.0-beta.13.runtime1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-1k-0.1.0-beta.13.runtime1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1",
+              "checksum": "bc65eee960903bc49259bd4d0b1d63ae06d79a2d97fb4f3fb2dfdb44b51dff59",
+              "downloadBytes": 25551538,
+              "maxTextureEdge": 1024
+            },
+            {
+              "id": "2k",
+              "version": "0.1.0-beta.13.runtime1.res2",
+              "tag": "reliant-v0.1.0-beta.13.runtime1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-2k-0.1.0-beta.13.runtime1.res2.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1",
+              "checksum": "dbae3446cecc9c109217b5d9887f6483b37a484b06e0c7381b454160d2227857",
+              "downloadBytes": 77678236,
+              "maxTextureEdge": 2048
+            },
+            {
+              "id": "4k",
+              "version": "0.1.0-beta.13.runtime1",
+              "tag": "reliant-v0.1.0-beta.13.runtime1",
+              "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-0.1.0-beta.13.runtime1.zip",
+              "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1",
+              "checksum": "18ce289e33efa29b3a6d9d089bf775257935bbd6bd6f9704e5f7841ea012bfc0",
+              "downloadBytes": 217664343,
+              "maxTextureEdge": 4096
+            }
+          ],
+          "defaultResolution": "4k",
+          "packaging": "runtime-only"
         }
       ],
       "aliases": [

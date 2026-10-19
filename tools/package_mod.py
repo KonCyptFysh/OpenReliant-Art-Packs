@@ -29,10 +29,29 @@ def engine_version(value):
     return parts + (0,) * (3 - len(parts))
 
 
+def validate_runtime_path(name, kind="asset"):
+    """Player downloads contain runtime assets, never development fixtures."""
+    path = Path(name)
+    stem = path.stem.lower()
+    if (path.suffix.lower() in {".sh", ".bat", ".cmd", ".ps1", ".py"}
+            or re.search(r"(?:^|_)(?:inspection|review|probe|test)(?:_|$)", stem)
+            and path.suffix.lower() in {".luau", ".lua", ".json"}):
+        raise ValueError("Development file in player mod: " + name)
+    if kind == "asset" and path.suffix.lower() == ".dte":
+        raise ValueError("Mission scene in asset-only player mod: " + name)
+    if kind == "asset" and stem in {"reliant_camera", "reliant_camera_motion"}:
+        raise ValueError("Development camera in player mod: " + name)
+
+
 def validate(root):
     config = json.loads((root / "release.json").read_text())
     if config["status"] != "ready-for-packaging":
         raise ValueError("Release is on hold: " + config["hold_reason"])
+    if config.get("include_documents"):
+        raise ValueError("Player archives contain runtime mod files only; keep documents and launchers in the repository")
+    kind = config.get("package_kind", "asset")
+    if kind not in {"asset", "mission"}:
+        raise ValueError("Unknown package kind")
     if not re.fullmatch(r"[a-z0-9][a-z0-9.-]*", config["package_name"]):
         raise ValueError("Unsafe package name")
     if not re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+(?:-[a-z0-9.-]+)?", config["version"]):
@@ -59,6 +78,7 @@ def validate(root):
             raise ValueError("Expected mods/<mod-name>/<flat-file>: " + name)
         if "\\" in name or any(ord(c) < 32 or ord(c) > 126 for c in name):
             raise ValueError("Nonportable asset name: " + name)
+        validate_runtime_path(name, kind)
         if name.casefold() in expected:
             raise ValueError("Case-insensitive path collision: " + name)
         path = root / name
@@ -71,6 +91,12 @@ def validate(root):
         with path.open("rb") as stream:
             if stream.read(80).startswith(b"version https://git-lfs.github.com/spec/v1"):
                 raise ValueError("Git LFS pointer instead of real asset: " + name)
+        if kind == "asset" and path.suffix.lower() in {".luau", ".lua"}:
+            script = path.read_text()
+            if (re.search(r'send_global_event\([^\n]*_(?:review|inspection)', script)
+                    or "LIGHTING TEST" in script
+                    or re.search(r'mission\.number\s*==\s*9[0-9]{2}', script)):
+                raise ValueError("Development controls in runtime script: " + name)
         expected[name.casefold()] = path
     # A g/r loadout copy must not repeat a shipped canonical material image.
     for name, path in expected.items():
@@ -93,6 +119,15 @@ def validate(root):
             raise ValueError("Missing [Mod] Name in " + str(manifest))
         if engine_version(ini.get("Mod", "OpenReliant", fallback="")) > engine_version(config["minimum_openreliant"]):
             raise ValueError("Mod requires a newer OpenReliant than the package baseline: " + str(manifest))
+        if kind == "asset" and ini.has_section("Missions") and ini.items("Missions"):
+            raise ValueError("Development mission hooks in asset-only player mod: " + name)
+        if ini.has_section("Scripts"):
+            for value in ini["Scripts"].values():
+                for script in value.split(","):
+                    script = script.strip()
+                    validate_runtime_path(script, kind)
+                    if not (manifest.parent / script).is_file():
+                        raise ValueError("Missing runtime script: " + script)
     for name in config["include_documents"]:
         path = root / name
         if Path(name).is_absolute() or ".." in Path(name).parts or path.is_symlink() or not path.is_file():
@@ -105,7 +140,7 @@ def build(root):
     destination = root / "dist" / (config["package_name"] + "-" + config["version"] + ".zip")
     destination.parent.mkdir(exist_ok=True)
     temporary = destination.with_suffix(".zip.partial")
-    files = assets + [root / p for p in config["include_documents"]]
+    files = assets
     with zipfile.ZipFile(temporary, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
         for path in sorted(set(files)):
             member = zipfile.ZipInfo(path.relative_to(root).as_posix(), (2026, 1, 1, 0, 0, 0))
