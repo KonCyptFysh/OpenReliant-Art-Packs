@@ -10,14 +10,9 @@
     "sha256": "6c4fd977c24f5fedf893e457fa2585711e10f45fe289b03782c594b9398844bf"
   },
   {
-    "path": "mods/109-salin-worn-v1/mission977.dte",
-    "bytes": 478,
-    "sha256": "da9b21a77b8fc98950431b04517a548f615641b0c02bc8a15cdf8fa24e009bfb"
-  },
-  {
     "path": "mods/109-salin-worn-v1/mod.ini",
-    "bytes": 248,
-    "sha256": "09a839121b3b1579dcfd85bc5cfb7e874839f5ec021f96eacc9eb9466ddcde25"
+    "bytes": 257,
+    "sha256": "7fbf56e1ac18115058ec7594cf6633d06a55cb26f75e5394f52d3665428996d2"
   },
   {
     "path": "mods/109-salin-worn-v1/mod.png",

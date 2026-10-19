@@ -10,14 +10,9 @@
     "sha256": "51d5bdf0548612d5053c992bf617c001ec3ac9779114bbb2823656ee6318d5e7"
   },
   {
-    "path": "mods/111-haidar-worn-v1/mission975.dte",
-    "bytes": 479,
-    "sha256": "d5ece271db4bdd7de73edb53a39099b8938063668d384e27228e8d9e1606e27e"
-  },
-  {
     "path": "mods/111-haidar-worn-v1/mod.ini",
-    "bytes": 255,
-    "sha256": "7ea69d75661a5baca3dc7b7db89538a2b83d05c0641ebcb8a33c15dd1f5f061d"
+    "bytes": 264,
+    "sha256": "df22f7ec16e715fbb3e8aed9a4d17b87c25eb29e0402cad65624f10a9705a285"
   },
   {
     "path": "mods/111-haidar-worn-v1/mod.png",

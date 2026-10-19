@@ -5,39 +5,14 @@
     "sha256": "6bbc1fe165951d374562664a0736f40630741d3cd5136e1d773b0f66fd7ea545"
   },
   {
-    "path": "mods/113-galahad-worn-v1/galahad_inspection.luau",
-    "bytes": 1642,
-    "sha256": "0dbcb75be4ce5bfb7d9374dfa71a35ff7b388481df8deb58047c3984e4c3aca5"
-  },
-  {
     "path": "mods/113-galahad-worn-v1/license.txt",
     "bytes": 248,
     "sha256": "801a6e86ccadb29de4cc1804fc97f08d24df17f3b56fce047ee5ebdc04703d13"
   },
   {
-    "path": "mods/113-galahad-worn-v1/mission970.dte",
-    "bytes": 940,
-    "sha256": "6cfe87c28447c37c9aa9b65e9bb890db9179f47649ef21445f40b15108c3bd92"
-  },
-  {
-    "path": "mods/113-galahad-worn-v1/mission971.dte",
-    "bytes": 883,
-    "sha256": "720f45be752c674f756a657ef993fbe48294487a6cd8c2aa3db174c4abc316a7"
-  },
-  {
-    "path": "mods/113-galahad-worn-v1/mission972.dte",
-    "bytes": 878,
-    "sha256": "20bfa2d756b35cd7b72fe84249e698c9d6f9b155d10b94aa6687b5a0f55de22b"
-  },
-  {
-    "path": "mods/113-galahad-worn-v1/mission973.dte",
-    "bytes": 852,
-    "sha256": "8ea5c36e7d3abf06fec639956a222339b0a5269cc705fde0617e65dcab5de6aa"
-  },
-  {
     "path": "mods/113-galahad-worn-v1/mod.ini",
-    "bytes": 423,
-    "sha256": "5e5e318429959ed39c10b3e8274d0cbd8d9214f0e62a5ba676632c81bdd0655e"
+    "bytes": 264,
+    "sha256": "f06078b2e6c208ac39e168207352a04bdda6c7dba3febebc24e222a166932986"
   },
   {
     "path": "mods/113-galahad-worn-v1/mod.png",

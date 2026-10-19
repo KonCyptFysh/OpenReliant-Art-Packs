@@ -1,27 +1,17 @@
 {
   "package_name": "openreliant-tempest",
-  "version": "0.1.0-beta.2",
+  "version": "0.1.0-beta.2.runtime1",
   "status": "ready-for-packaging",
   "hold_reason": null,
   "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "70-tempest-worn-v1"
   ],
-  "asset_manifest_sha256": "431d86d6f5ed4e735184a172257e34c34679cea33137ef763037d811c49c2522",
-  "include_documents": [
-    "README.md",
-    "INSTALL.md",
-    "KNOWN_ISSUES.md",
-    "CHANGELOG.md",
-    "CREDITS.md",
-    "LICENSING.md",
-    "asset-manifest.json",
-    "validation.json",
-    "release.json",
-    "compatibility-0.8.json",
-    "validation-previous.json"
-  ],
+  "asset_manifest_sha256": "f6750655d3483072513ac78263e691a085cd717f73485bd576261b19ee0e6ac1",
+  "include_documents": [],
   "channel": "beta",
   "asset_revision": "1.0",
-  "source_manifest_sha256": "19e8f2d711c0079cdbe0776f99ca998389d7afb0388808c6df2974a91e94783d"
+  "source_manifest_sha256": "19e8f2d711c0079cdbe0776f99ca998389d7afb0388808c6df2974a91e94783d",
+  "package_kind": "asset",
+  "distribution": "runtime-only"
 }

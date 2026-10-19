@@ -1,3 +1,5 @@
+> Player downloads contain only the asset runtime mod. Test scenes and diagnostic controls are development-only; see `dev/` where present.
+
 # Azan - Worn Paint
 
 User-approved worn artwork **1.0**, packaged as **0.1.0-beta.1** for **OpenReliant 0.8.1**, under Coalition Fighters.
@@ -10,4 +12,4 @@ The user accepted the first pass without revisions. Official 0.8.1 native round-
 
 [In-game gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=azan) · [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1)
 
-Use `tools/launch-azan-test.sh` for the quiet single-ship inspection. See INSTALL.md and source/README.md.
+Use `dev/tools/launch-azan-test.sh` for the quiet single-ship inspection. See INSTALL.md and source/README.md.

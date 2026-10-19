@@ -10,14 +10,9 @@
     "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
   },
   {
-    "path": "mods/90-mirage-worn-v1/mission993.dte",
-    "bytes": 479,
-    "sha256": "dab011dea658eba7e85fdc22575e7c0ac1be53a02772e50be04a3b1e6ff3db95"
-  },
-  {
     "path": "mods/90-mirage-worn-v1/mod.ini",
     "bytes": 240,
-    "sha256": "fcf23c78a356475d5d8def282cdb0e02e339a5f87c707b4986dffa131f0a1b65"
+    "sha256": "6950529106df7c59b962ce8581ddb9fc7cc3d1ac3a331f3f7a9555591801b918"
   },
   {
     "path": "mods/90-mirage-worn-v1/mod.png",

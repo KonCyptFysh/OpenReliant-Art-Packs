@@ -1,3 +1,5 @@
+> Player downloads contain only the asset runtime mod. Test scenes and diagnostic controls are development-only; see `dev/` where present.
+
 # Kurgen - Worn Paint
 
 **Approved beta 0.1.0-beta.1, revision 1.7. Requires OpenReliant 0.18.0.**
@@ -8,7 +10,7 @@ Cabin lighting dims with armour loss. Substantial hits cause brief interruptions
 
 Geometry, original normals, collision, native attachment positions and turret animations are retained. Front bridge UV isolation prevents window emission on the rear shoulder. The native static stern lamp is disabled so the surface effect can follow thrust. One canonical unprefixed PNG material set supports engine-generated loadout colours.
 
-Run the included `tools/launch-kurgen-test.sh` after installing the mod. F5 changes thrust, F6 applies a small hit, F7 a heavy hit, F8 repairs armour and F9 disables engines. See [LIGHTING_POC.md](LIGHTING_POC.md) for behavior and controls.
+Run the included `dev/tools/launch-kurgen-test.sh` after installing the mod. F5 changes thrust, F6 applies a small hit, F7 a heavy hit, F8 repairs armour and F9 disables engines. See [LIGHTING_POC.md](LIGHTING_POC.md) for behavior and controls.
 
 Dynamic per-barrel turret emissives and light cast onto nearby ships are deferred pending suitable official APIs. The [turret feature request](TURRET_EMISSIVES_FEATURE_REQUEST.md) is a draft, not an implemented feature or submitted issue. The current engine effect illuminates the Kurgen hull only.
 

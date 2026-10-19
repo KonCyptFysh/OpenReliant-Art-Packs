@@ -10,14 +10,9 @@
     "sha256": "67fbd7b04ea854e5da4597163efa7d94f4885e0669da0ff933bc46fb408b523f"
   },
   {
-    "path": "mods/107-cossack-worn-v1/mission979.dte",
-    "bytes": 480,
-    "sha256": "5cfc9be513b5181ee7ea15684e1daf22e979b647ce2a11471ba7363b755bd90d"
-  },
-  {
     "path": "mods/107-cossack-worn-v1/mod.ini",
-    "bytes": 250,
-    "sha256": "0f54035fa3c0fe4b80208007cef25884de7bb217ef908fc816239f04b0421c99"
+    "bytes": 259,
+    "sha256": "b0b7642161966c9eba0e85d760ca4254f2c71d1fbf725f91dc98dfcfb596cccd"
   },
   {
     "path": "mods/107-cossack-worn-v1/mod.png",

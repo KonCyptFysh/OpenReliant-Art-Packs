@@ -5,17 +5,18 @@
   "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
   "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
   "asset_revision": "2.0",
-  "asset_manifest_sha256": "79e9a12fa5cb94cf449bd5bb8cf94df49ae72e36f064ce949f9fdde0f4377c18",
+  "asset_manifest_sha256": "46712cf078267511ea487852a282d294c8762b34076c4d8626d6cd236dbef439",
   "source_manifest_sha256": "33a4c1432b4d7848b44e6034c7250319930ff15f616178ac6ec2f88857cce548",
   "tested_platforms": [
-    "Linux x86_64 \u2014 native tools and non-visual texture pipeline"
+    "Linux x86_64 — native tools and non-visual texture pipeline"
   ],
   "checks": [
     "Official sltool 0.8.1: 4 native model/mission format and round-trip checks passed.",
     "Official 0.8.1 texture loader: 2 material sets decoded; generated green/red channels checked and inherited normal/ORM maps match byte-for-byte.",
     "Removed 6 audited byte-identical loadout files; retained artwork/model/animation bytes unchanged from the current approved repository snapshot.",
     "All material sets retain unprefixed PNG base, normal and ORM files.",
-    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json."
+    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json.",
+    "Development scenes, launchers, review camera, input handlers and overlays excluded from player runtime; existing artwork and production lighting preserved."
   ],
   "prior_artwork_validation": "validation-previous.json",
   "compatibility_report": "compatibility-0.8.json",
@@ -25,5 +26,17 @@
   ],
   "game_launched_for_this_update": false,
   "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
-  "non_visual_validation": true
+  "non_visual_validation": true,
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.2",
+    "previous_manifest_sha256": "79e9a12fa5cb94cf449bd5bb8cf94df49ae72e36f064ce949f9fdde0f4377c18",
+    "runtime_only": true,
+    "removed": [
+      "mods/99-crusader-worn-v1/mission990.dte"
+    ],
+    "changed": [
+      "mods/99-crusader-worn-v1/mod.ini"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

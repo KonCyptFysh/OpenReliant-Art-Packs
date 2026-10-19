@@ -1,3 +1,5 @@
+> Player downloads contain only the asset runtime mod. Test scenes and diagnostic controls are development-only; see `dev/` where present.
+
 # Galahad - Worn Paint
 
 **Artwork 1.1 approved for this beta.** Package **0.1.0-beta.1**, targeting official OpenReliant 0.8.1.

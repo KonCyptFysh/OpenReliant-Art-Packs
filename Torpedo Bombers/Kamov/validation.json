@@ -5,17 +5,18 @@
   "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
   "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
   "asset_revision": "1.0",
-  "asset_manifest_sha256": "576e95fa0df0efa514c542c53c135bcfde8c38ad9c007ff7de8258bf5cfe2c28",
+  "asset_manifest_sha256": "06e1cb18de03793a4fb0e964f83daf96e7bde92622b5dc1d6a3e89a28cd04ce6",
   "source_manifest_sha256": "f7312a94128c080c84abc617ccdaa94aba58efafee39e5fc78c6ab23b98eff76",
   "tested_platforms": [
-    "Linux x86_64 \u2014 native tools and non-visual texture pipeline"
+    "Linux x86_64 — native tools and non-visual texture pipeline"
   ],
   "checks": [
     "Official sltool 0.8.1: 5 native model/mission format and round-trip checks passed.",
     "Official 0.8.1 texture loader: 1 material sets decoded; generated green/red channels checked and inherited normal/ORM maps match byte-for-byte.",
     "Removed 3 audited byte-identical loadout files; retained artwork/model/animation bytes unchanged from the current approved repository snapshot.",
     "All material sets retain unprefixed PNG base, normal and ORM files.",
-    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json."
+    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json.",
+    "Development scenes, launchers, review camera, input handlers and overlays excluded from player runtime; existing artwork and production lighting preserved."
   ],
   "prior_artwork_validation": "validation-previous.json",
   "compatibility_report": "compatibility-0.8.json",
@@ -25,5 +26,21 @@
   ],
   "game_launched_for_this_update": false,
   "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
-  "non_visual_validation": true
+  "non_visual_validation": true,
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.2",
+    "previous_manifest_sha256": "576e95fa0df0efa514c542c53c135bcfde8c38ad9c007ff7de8258bf5cfe2c28",
+    "runtime_only": true,
+    "removed": [
+      "mods/104-kamov-worn-v1/mission987.dte",
+      "mods/104-kamov-worn-v1/mission986.dte",
+      "mods/104-kamov-worn-v1/mission985.dte",
+      "mods/104-kamov-worn-v1/mission984.dte",
+      "mods/104-kamov-worn-v1/kamov_inspection.luau"
+    ],
+    "changed": [
+      "mods/104-kamov-worn-v1/mod.ini"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

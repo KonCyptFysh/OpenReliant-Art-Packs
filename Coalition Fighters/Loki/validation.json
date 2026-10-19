@@ -5,17 +5,18 @@
   "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
   "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
   "asset_revision": "1.1",
-  "asset_manifest_sha256": "4ff0f3f10e79644efab2a9f84de9bbb0a41ba574f7aa02400cf9b2fb7d2426af",
+  "asset_manifest_sha256": "d25de0d5ebdf8c4c745a0fea8b6b3cc04e5cb5729c1bd6688c8f88b66771be2d",
   "source_manifest_sha256": "bd8d01cc8f7f4ea69a1d1b5be1ffc77fbf0377a5e07873cb8962ea32f9106363",
   "tested_platforms": [
-    "Linux x86_64 \u2014 native tools and non-visual texture pipeline"
+    "Linux x86_64 — native tools and non-visual texture pipeline"
   ],
   "checks": [
     "Official sltool 0.8.1: 4 native model/mission format and round-trip checks passed.",
     "Official 0.8.1 texture loader: 1 material sets decoded; generated green/red channels checked and inherited normal/ORM maps match byte-for-byte.",
     "Removed 3 audited byte-identical loadout files; retained artwork/model/animation bytes unchanged from the current approved repository snapshot.",
     "All material sets retain unprefixed PNG base, normal and ORM files.",
-    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json."
+    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json.",
+    "Development scenes, launchers, review camera, input handlers and overlays excluded from player runtime; existing artwork and production lighting preserved."
   ],
   "prior_artwork_validation": "validation-previous.json",
   "compatibility_report": "compatibility-0.8.json",
@@ -25,5 +26,20 @@
   ],
   "game_launched_for_this_update": false,
   "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
-  "non_visual_validation": true
+  "non_visual_validation": true,
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.2",
+    "previous_manifest_sha256": "4ff0f3f10e79644efab2a9f84de9bbb0a41ba574f7aa02400cf9b2fb7d2426af",
+    "runtime_only": true,
+    "removed": [
+      "mods/105-loki-worn-v1/mission983.dte",
+      "mods/105-loki-worn-v1/mission982.dte",
+      "mods/105-loki-worn-v1/mission981.dte",
+      "mods/105-loki-worn-v1/loki_inspection.luau"
+    ],
+    "changed": [
+      "mods/105-loki-worn-v1/mod.ini"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

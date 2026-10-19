@@ -28,7 +28,7 @@
   "installed_bytes_match_repository": true,
   "user_approved": true,
   "packaging_ready": true,
-  "asset_manifest_sha256": "15c14b1d621568821126fd6c66f1155a71e307a7be88409f6be8fbd2f14dc1c0",
+  "asset_manifest_sha256": "cbbdcff8f0d8946499b682ad00284de26dc572963b9478fafe9d716661b863dd",
   "source_manifest_sha256": "b4ebe369cd88d0cda57e8e0c62aca03230224a1711ea98009c43fa1b3f472b68",
   "approval_record": "approval.json",
   "engine_build": "Official OpenReliant 0.18.0 linux-x86_64",
@@ -50,5 +50,19 @@
     "Refine the window lighting in a later artwork pass. The current appearance and full-range damage response are accepted for this beta."
   ],
   "gallery_validation": "gallery-validation.json",
-  "preview_validation": "preview-validation.json"
+  "preview_validation": "preview-validation.json",
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.1",
+    "previous_manifest_sha256": "15c14b1d621568821126fd6c66f1155a71e307a7be88409f6be8fbd2f14dc1c0",
+    "runtime_only": true,
+    "removed": [
+      "mods/117-prowler-worn-v1/prowler_inspection.luau",
+      "mods/117-prowler-worn-v1/mission961.dte"
+    ],
+    "changed": [
+      "mods/117-prowler-worn-v1/mod.ini",
+      "mods/117-prowler-worn-v1/prowler_surface.luau"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

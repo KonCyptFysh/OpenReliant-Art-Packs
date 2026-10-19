@@ -1,0 +1,1293 @@
+[
+  {
+    "asset": "coyote",
+    "folder": "Alliance Fighters/Coyote",
+    "name": "Coyote",
+    "tag": "coyote-v0.1.0-beta.2.runtime1",
+    "asset_revision": "4.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "coyote-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2.runtime1/openreliant-coyote-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2.runtime1",
+        "checksum": "fff3a743349c4496e25e9601b2550e645a1c28c1a2379c3a2cb8b68956683d8b",
+        "downloadBytes": 8048850,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "coyote-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2.runtime1/openreliant-coyote-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2.runtime1",
+        "checksum": "65967f66fa9ed9d82e49bbac45a59f7c4fe0230532c22431b8d9a6a64059b9f1",
+        "downloadBytes": 30624832,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "coyote-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/coyote-v0.1.0-beta.2.runtime1/openreliant-coyote-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/coyote-v0.1.0-beta.2.runtime1",
+        "checksum": "dbb10991f3127ea928d92874cca193d0be200efc98b6f8bc127169f40dc09dea",
+        "downloadBytes": 114728383,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "coyote-v0.1.0-beta.2"
+  },
+  {
+    "asset": "predator",
+    "folder": "Alliance Fighters/Predator",
+    "name": "Predator",
+    "tag": "predator-v0.1.0-beta.2.runtime1",
+    "asset_revision": "16.1",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "predator-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2.runtime1/openreliant-predator-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2.runtime1",
+        "checksum": "bf3f808650a8f0e86a8a1cb2b2c498f177815a758c5e05006956ccd402370134",
+        "downloadBytes": 9844823,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "predator-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2.runtime1/openreliant-predator-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2.runtime1",
+        "checksum": "89fd6928d415f73d5a805326756ff48cf14a6197162fc6cdc256b5b29e3f777f",
+        "downloadBytes": 34954721,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "predator-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/predator-v0.1.0-beta.2.runtime1/openreliant-predator-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/predator-v0.1.0-beta.2.runtime1",
+        "checksum": "a8ee1a279b9336fffe7e2a695ef7fadc3084e43c365a07ce658daedb647b6789",
+        "downloadBytes": 129810851,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "predator-v0.1.0-beta.2"
+  },
+  {
+    "asset": "reaper",
+    "folder": "Alliance Fighters/Reaper",
+    "name": "Reaper",
+    "tag": "reaper-v0.1.0-beta.2.runtime1",
+    "asset_revision": "3.1",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "reaper-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2.runtime1/openreliant-reaper-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2.runtime1",
+        "checksum": "5fb354aa152dbf82527fa89a757837ff6d664c068146701d313656438c0f94d4",
+        "downloadBytes": 6311332,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "reaper-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2.runtime1/openreliant-reaper-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2.runtime1",
+        "checksum": "69c1b95970d4fd18f44dcab0f3055d4c42b5fd4903ee1ca00bc0f1fb46cbe301",
+        "downloadBytes": 18405925,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "reaper-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reaper-v0.1.0-beta.2.runtime1/openreliant-reaper-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reaper-v0.1.0-beta.2.runtime1",
+        "checksum": "1ffe8686827efe991bb41ecb7d0ccb4529fc7db17e238ce36d6434010a9dc70d",
+        "downloadBytes": 60746410,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "reaper-v0.1.0-beta.2"
+  },
+  {
+    "asset": "wolverine",
+    "folder": "Alliance Fighters/Wolverine",
+    "name": "Wolverine",
+    "tag": "wolverine-v0.1.0-beta.2.runtime1",
+    "asset_revision": "2.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "wolverine-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2.runtime1/openreliant-wolverine-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2.runtime1",
+        "checksum": "c475e406c73da068b79d1ecfac701185120b9b394a7dc97bc6d0406319825080",
+        "downloadBytes": 4627353,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "wolverine-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2.runtime1/openreliant-wolverine-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2.runtime1",
+        "checksum": "c9c112c74410cda88cefae1de9bf4f95bf79ad32b05c347733766bccf93a5838",
+        "downloadBytes": 11495499,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "wolverine-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/wolverine-v0.1.0-beta.2.runtime1/openreliant-wolverine-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/wolverine-v0.1.0-beta.2.runtime1",
+        "checksum": "0e2cfe928247082ad96fb5e7300cc1a24ec71cd5e8a70ec11ceedb6f10d17139",
+        "downloadBytes": 32287816,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "wolverine-v0.1.0-beta.2"
+  },
+  {
+    "asset": "tempest",
+    "folder": "Alliance Fighters/Tempest",
+    "name": "Tempest",
+    "tag": "tempest-v0.1.0-beta.2.runtime1",
+    "asset_revision": "1.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "tempest-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2.runtime1/openreliant-tempest-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2.runtime1",
+        "checksum": "b93dbd87d192f8da4f6ad46c7ba57bcdc020bedbe6c67564f66e56f0f0f8334c",
+        "downloadBytes": 3619138,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "tempest-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2.runtime1/openreliant-tempest-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2.runtime1",
+        "checksum": "e1c273414c2ca71c8e589c6666931acdbab2f3aa3079e8901c8ebf680c7a1122",
+        "downloadBytes": 10642766,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "tempest-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/tempest-v0.1.0-beta.2.runtime1/openreliant-tempest-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/tempest-v0.1.0-beta.2.runtime1",
+        "checksum": "079c14e2c5dc2e2bfe832550f62dd0e7e6bec55a8b04d212dd16982d85206174",
+        "downloadBytes": 32298966,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "tempest-v0.1.0-beta.2"
+  },
+  {
+    "asset": "shroud",
+    "folder": "Alliance Fighters/Shroud",
+    "name": "Shroud",
+    "tag": "shroud-v0.1.0-beta.2.runtime1",
+    "asset_revision": "2.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "shroud-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2.runtime1/openreliant-shroud-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2.runtime1",
+        "checksum": "b98c85d2a802b23b7d4669c03af4cdf8866af34820af8c8e6105455b3ac5f0ce",
+        "downloadBytes": 7467863,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "shroud-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2.runtime1/openreliant-shroud-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2.runtime1",
+        "checksum": "b45f1610567bb5c187366c077307bf8eb92c7ca2afd828939b6386623e66ed95",
+        "downloadBytes": 24743919,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "shroud-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/shroud-v0.1.0-beta.2.runtime1/openreliant-shroud-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/shroud-v0.1.0-beta.2.runtime1",
+        "checksum": "5ca343019e7fd0cf0198ab94916b824bcc2c0b414d7cbd6fa8bcb815595f67d7",
+        "downloadBytes": 39373533,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "shroud-v0.1.0-beta.2"
+  },
+  {
+    "asset": "mirage",
+    "folder": "Alliance Fighters/Mirage",
+    "name": "Mirage",
+    "tag": "mirage-v0.1.0-beta.2.runtime1",
+    "asset_revision": "3.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "mirage-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.2.runtime1/openreliant-mirage-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.2.runtime1",
+        "checksum": "a33c15ab563cf02a1cfc6a2af87990d73779d53855958a2e9aa8ddb1355aeefb",
+        "downloadBytes": 3954975,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "mirage-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.2.runtime1/openreliant-mirage-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.2.runtime1",
+        "checksum": "5ca108fda1be329bb279966f28135659ab26fcd03f3588e1316e310e25a9a3cb",
+        "downloadBytes": 11040437,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "mirage-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/mirage-v0.1.0-beta.2.runtime1/openreliant-mirage-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/mirage-v0.1.0-beta.2.runtime1",
+        "checksum": "5224d2336bbf210be01b839ab3c5482127223815300956b11bac33810ba893c4",
+        "downloadBytes": 30786937,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "mirage-v0.1.0-beta.2"
+  },
+  {
+    "asset": "naginata",
+    "folder": "Alliance Fighters/Naginata",
+    "name": "Naginata",
+    "tag": "naginata-v0.1.0-beta.2.runtime1",
+    "asset_revision": "4.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "naginata-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.2.runtime1/openreliant-naginata-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.2.runtime1",
+        "checksum": "a8c20137cd945a5f086e3adc833f36e81b45a349321c9b7ddaf22ab7d58e5c32",
+        "downloadBytes": 10826516,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "naginata-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.2.runtime1/openreliant-naginata-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.2.runtime1",
+        "checksum": "bed36ab180ab7a2cc3850a1f29b5caff9fad1a8d1b80c4e6bb70151a0572e9da",
+        "downloadBytes": 35740158,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "naginata-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/naginata-v0.1.0-beta.2.runtime1/openreliant-naginata-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/naginata-v0.1.0-beta.2.runtime1",
+        "checksum": "de5b39bb6a889d9ec9ec15f502cb34868ebda67c9261a766a7880ab140e28851",
+        "downloadBytes": 94746849,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "naginata-v0.1.0-beta.2"
+  },
+  {
+    "asset": "patriot",
+    "folder": "Alliance Fighters/Patriot",
+    "name": "Patriot",
+    "tag": "patriot-v0.1.0-beta.2.runtime1",
+    "asset_revision": "3.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "patriot-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2.runtime1/openreliant-patriot-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.2.runtime1",
+        "checksum": "ee27e13e30e25f92aa45ea70b42121d5b8f4b87c585cece8cdc06d21ffcccaed",
+        "downloadBytes": 14685082,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "patriot-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2.runtime1/openreliant-patriot-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.2.runtime1",
+        "checksum": "0fd207a2a974f0ae069ba52762e7c7d856d9983e6204b39422d604f7d9e14174",
+        "downloadBytes": 50466990,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "patriot-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/patriot-v0.1.0-beta.2.runtime1/openreliant-patriot-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/patriot-v0.1.0-beta.2.runtime1",
+        "checksum": "a674445f76cb9ab286e4b6aff8ccbcd01a47b2ebf56605d316ce00d72620af62",
+        "downloadBytes": 147405481,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "patriot-v0.1.0-beta.2"
+  },
+  {
+    "asset": "phoenix",
+    "folder": "Alliance Fighters/Phoenix",
+    "name": "Phoenix",
+    "tag": "phoenix-v0.1.0-beta.2.runtime1",
+    "asset_revision": "7.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "phoenix-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2.runtime1/openreliant-phoenix-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.2.runtime1",
+        "checksum": "d595bfc1738c8ff943504991634d36aeb5dcc27ca87de0c37461781bd3014f9a",
+        "downloadBytes": 10511809,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "phoenix-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2.runtime1/openreliant-phoenix-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.2.runtime1",
+        "checksum": "1d5019b9ebbaf84da82a58b4a29046e75f186ce6be41ec425f7795fc8528f1fe",
+        "downloadBytes": 34060399,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "phoenix-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/phoenix-v0.1.0-beta.2.runtime1/openreliant-phoenix-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/phoenix-v0.1.0-beta.2.runtime1",
+        "checksum": "86e667afc4a858b93cac9f88360f1753fb006dcc9ad3a4fc700ea936663ef636",
+        "downloadBytes": 117670035,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "phoenix-v0.1.0-beta.2"
+  },
+  {
+    "asset": "crusader",
+    "folder": "Alliance Fighters/Crusader",
+    "name": "Crusader",
+    "tag": "crusader-v0.1.0-beta.2.runtime1",
+    "asset_revision": "2.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "crusader-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/crusader-v0.1.0-beta.2.runtime1/openreliant-crusader-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/crusader-v0.1.0-beta.2.runtime1",
+        "checksum": "5d004f3bf731617924feb6f571d80d3d6a32e973702f0e6731afdbb42114c14a",
+        "downloadBytes": 8414315,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "crusader-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/crusader-v0.1.0-beta.2.runtime1/openreliant-crusader-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/crusader-v0.1.0-beta.2.runtime1",
+        "checksum": "a7e458918fa481ddb6fa788718e00539431a7728780ec998795e9c08d99de726",
+        "downloadBytes": 27696843,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "crusader-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/crusader-v0.1.0-beta.2.runtime1/openreliant-crusader-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/crusader-v0.1.0-beta.2.runtime1",
+        "checksum": "3b646cd40f469a9be7fbad09b195e2620f3e6f0bd193252aade0187f2d1ea2d6",
+        "downloadBytes": 92626425,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "crusader-v0.1.0-beta.2"
+  },
+  {
+    "asset": "sai",
+    "folder": "Alliance Fighters/Sai",
+    "name": "Sai",
+    "tag": "sai-v0.1.0-beta.2.runtime1",
+    "asset_revision": "4.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "sai-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2.runtime1/openreliant-sai-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2.runtime1",
+        "checksum": "a2f7a02a06dcbc4a17ba444a2b4e5e7e67900e8f544d0e0bbba2c23e74ded8be",
+        "downloadBytes": 3818443,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "sai-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2.runtime1/openreliant-sai-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2.runtime1",
+        "checksum": "7fbfb0ad60145a2cb5ddf2a645842d045ca7dab0eb1b040d9f8e9d0ae2519b2b",
+        "downloadBytes": 11962594,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "sai-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/sai-v0.1.0-beta.2.runtime1/openreliant-sai-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/sai-v0.1.0-beta.2.runtime1",
+        "checksum": "7c239aad47ab3a6a330c2030742677e471ab6f9d07598272a45bc7796db6ee34",
+        "downloadBytes": 36604808,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "sai-v0.1.0-beta.2.res2"
+  },
+  {
+    "asset": "grendal",
+    "folder": "Alliance Fighters/Grendal",
+    "name": "Grendal",
+    "tag": "grendal-v0.1.0-beta.2.runtime1",
+    "asset_revision": "1.1",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "grendal-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.2.runtime1/openreliant-grendal-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.2.runtime1",
+        "checksum": "91de4967a5ffba69fbe99e89fa4d8abee1350be2dc280ac524d6f7e19f8f868d",
+        "downloadBytes": 4086582,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "grendal-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.2.runtime1/openreliant-grendal-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.2.runtime1",
+        "checksum": "542d12a2995821365eb052131f4c10123c20a5a4e0b77cc740cabdfcea843e46",
+        "downloadBytes": 10247817,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "grendal-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/grendal-v0.1.0-beta.2.runtime1/openreliant-grendal-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/grendal-v0.1.0-beta.2.runtime1",
+        "checksum": "0fc4a3ae35eb1b7a45fe3a76493c890152cd6993dcccca51d7284277a128e23b",
+        "downloadBytes": 28305504,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "grendal-v0.1.0-beta.2"
+  },
+  {
+    "asset": "saber",
+    "folder": "Coalition Fighters/Saber",
+    "name": "Saber",
+    "tag": "saber-v0.1.0-beta.2.runtime1",
+    "asset_revision": "1.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "saber-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.2.runtime1/openreliant-saber-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.2.runtime1",
+        "checksum": "4bf607013e739de970e925e859400f0cc0198239b6eb0ba359167c7f000aafd3",
+        "downloadBytes": 3984191,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "saber-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.2.runtime1/openreliant-saber-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.2.runtime1",
+        "checksum": "9f6eaa7f71623a094d3d226c550cef7459a13590db07af014af599d663bb51f8",
+        "downloadBytes": 10249978,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "saber-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saber-v0.1.0-beta.2.runtime1/openreliant-saber-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saber-v0.1.0-beta.2.runtime1",
+        "checksum": "289a89ed2a975680817af2d20443bfbec71e807c359d3eba87681ae3d06f0819",
+        "downloadBytes": 28796937,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "saber-v0.1.0-beta.2"
+  },
+  {
+    "asset": "basilisk",
+    "folder": "Coalition Fighters/Basilisk",
+    "name": "Basilisk",
+    "tag": "basilisk-v0.1.0-beta.2.runtime1",
+    "asset_revision": "1.3",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "basilisk-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.2.runtime1/openreliant-basilisk-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.2.runtime1",
+        "checksum": "cf93416716b3c3142753354105f893d46a3be50fdffbe0cf6496ef36de4caa2f",
+        "downloadBytes": 4140547,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "basilisk-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.2.runtime1/openreliant-basilisk-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.2.runtime1",
+        "checksum": "01cb01df576fffec4975ee88464fb88f422f5400cc2428eb7891c340ca0a33d2",
+        "downloadBytes": 9889024,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "basilisk-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/basilisk-v0.1.0-beta.2.runtime1/openreliant-basilisk-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/basilisk-v0.1.0-beta.2.runtime1",
+        "checksum": "d578893169e29237db559a6c7a1821846501c9fa9599af3495f4dd14199bf88e",
+        "downloadBytes": 26828561,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "basilisk-v0.1.0-beta.2"
+  },
+  {
+    "asset": "kamov",
+    "folder": "Torpedo Bombers/Kamov",
+    "name": "Kamov",
+    "tag": "kamov-v0.1.0-beta.2.runtime1",
+    "asset_revision": "1.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "kamov-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kamov-v0.1.0-beta.2.runtime1/openreliant-kamov-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.2.runtime1",
+        "checksum": "971f13abf4ab18ada0481689ffe7a32fe9e7b2b075ee0d3441aa7d1f4b6b4bf1",
+        "downloadBytes": 4242396,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "kamov-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kamov-v0.1.0-beta.2.runtime1/openreliant-kamov-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.2.runtime1",
+        "checksum": "4c2cd76b6d94be8875645a1e094e659787b065c7bbb8bb8dacffc3bb4b784f4d",
+        "downloadBytes": 10227670,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "kamov-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kamov-v0.1.0-beta.2.runtime1/openreliant-kamov-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.2.runtime1",
+        "checksum": "d6e22097f6666bd28f46b56cb6223400056eabe00ff09bae5fd4b993a02c834a",
+        "downloadBytes": 27655731,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "kamov-v0.1.0-beta.2"
+  },
+  {
+    "asset": "ordnance",
+    "folder": "Weapons/Missile Packs and Torpedoes",
+    "name": "Missiles, Torpedoes and Fuel Pod",
+    "tag": "ordnance-v0.1.0-beta.4.runtime1",
+    "asset_revision": "1.2",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.4.runtime1.res2",
+        "tag": "ordnance-v0.1.0-beta.4.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4.runtime1/openreliant-ordnance-1k-0.1.0-beta.4.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4.runtime1",
+        "checksum": "24cc1a93d4e5351c376e5db2a19fafe3c0ac0ed08924d04e73c835f454752e3f",
+        "downloadBytes": 15653724,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.4.runtime1.res2",
+        "tag": "ordnance-v0.1.0-beta.4.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4.runtime1/openreliant-ordnance-2k-0.1.0-beta.4.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4.runtime1",
+        "checksum": "6d140adc5eec3b4985f0aa03f7778f4e90cde1389e6440f94dc7f34d531d8313",
+        "downloadBytes": 53562479,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.4.runtime1",
+        "tag": "ordnance-v0.1.0-beta.4.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/ordnance-v0.1.0-beta.4.runtime1/openreliant-ordnance-0.1.0-beta.4.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/ordnance-v0.1.0-beta.4.runtime1",
+        "checksum": "1b58b25b7c3ffadeb82fc068586c51c81c83296d628c6cd136739b7551c48a85",
+        "downloadBytes": 85394730,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "ordnance-v0.1.0-beta.4"
+  },
+  {
+    "asset": "recommissioned-hud",
+    "folder": "HUD/Recommissioned",
+    "name": "Recommissioned HUD",
+    "tag": "hud-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.8",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "native",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "hud-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hud-v0.1.0-beta.1.runtime1/openreliant-recommissioned-hud-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hud-v0.1.0-beta.1.runtime1",
+        "checksum": "01b27fe5beb1504c7c9b0c2977d4ab787fc46c4babc5264444c34384a3ca4efb",
+        "downloadBytes": 805563622
+      }
+    ],
+    "source_release": "hud-v0.1.0-beta.1"
+  },
+  {
+    "asset": "hades",
+    "folder": "Torpedo Bombers/Hades",
+    "name": "Hades",
+    "tag": "hades-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "hades-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hades-v0.1.0-beta.1.runtime1/openreliant-hades-1k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hades-v0.1.0-beta.1.runtime1",
+        "checksum": "8847bf33e5ed379a07baaf1b1ed0009c7651b428ae8356a09e3d410afee6bb9b",
+        "downloadBytes": 3960172,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "hades-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hades-v0.1.0-beta.1.runtime1/openreliant-hades-2k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hades-v0.1.0-beta.1.runtime1",
+        "checksum": "b7bcdc464e1ad0ba408022d5e534d8ee15803f88ea693205a8dc3baaa2013c88",
+        "downloadBytes": 9632025,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "hades-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/hades-v0.1.0-beta.1.runtime1/openreliant-hades-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hades-v0.1.0-beta.1.runtime1",
+        "checksum": "53ac6508d77ca79b6834722cc30c07c7e939e58d05e260a88d617de1a1f81379",
+        "downloadBytes": 26195882,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "hades-v0.1.0-beta.1"
+  },
+  {
+    "asset": "scimitar",
+    "folder": "Torpedo Bombers/Scimitar",
+    "name": "Scimitar",
+    "tag": "scimitar-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "scimitar-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/scimitar-v0.1.0-beta.1.runtime1/openreliant-scimitar-1k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1.runtime1",
+        "checksum": "e5b3aa2d074bc60e46bf74e27550f6cfdcab1bef1cd98decd86edd6f8cc5c7aa",
+        "downloadBytes": 4373697,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "scimitar-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/scimitar-v0.1.0-beta.1.runtime1/openreliant-scimitar-2k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1.runtime1",
+        "checksum": "44895d460ee3a915b633f086d81082bbe2b93e9231e8634bd85f8a770501448f",
+        "downloadBytes": 11161576,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "scimitar-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/scimitar-v0.1.0-beta.1.runtime1/openreliant-scimitar-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1.runtime1",
+        "checksum": "5706102c40fc9a7cf8db92648fbff9b786248218a956472ec8012698a239b90b",
+        "downloadBytes": 30642031,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "scimitar-v0.1.0-beta.1"
+  },
+  {
+    "asset": "loki",
+    "folder": "Coalition Fighters/Loki",
+    "name": "Loki",
+    "tag": "loki-v0.1.0-beta.2.runtime1",
+    "asset_revision": "1.1",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "loki-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/loki-v0.1.0-beta.2.runtime1/openreliant-loki-1k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.2.runtime1",
+        "checksum": "2251a1993017e8e4d55c2e9d17d006a9bc2ec4721f259ae44884debc53f9c58c",
+        "downloadBytes": 4238093,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.2.runtime1.res2",
+        "tag": "loki-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/loki-v0.1.0-beta.2.runtime1/openreliant-loki-2k-0.1.0-beta.2.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.2.runtime1",
+        "checksum": "630fcdf27c7b8324f643811783872662bdd24acedeeab469b628c8ca17a0d086",
+        "downloadBytes": 9648894,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.2.runtime1",
+        "tag": "loki-v0.1.0-beta.2.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/loki-v0.1.0-beta.2.runtime1/openreliant-loki-0.1.0-beta.2.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.2.runtime1",
+        "checksum": "ad6cd27517ef003a51c37bbd45e92fd5024925813571c5d228c6bf04f1767e16",
+        "downloadBytes": 25762871,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "loki-v0.1.0-beta.2"
+  },
+  {
+    "asset": "azan",
+    "folder": "Coalition Fighters/Azan",
+    "name": "Azan",
+    "tag": "azan-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "azan-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/azan-v0.1.0-beta.1.runtime1/openreliant-azan-1k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1.runtime1",
+        "checksum": "46515fe0ae35c8ff594023c0776a2fd1824c0b13027d4c9a8c7a27aa6cbe8027",
+        "downloadBytes": 3889800,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "azan-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/azan-v0.1.0-beta.1.runtime1/openreliant-azan-2k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1.runtime1",
+        "checksum": "f083a9459cfa52540a110213e45ed8c7501d22aa9418b74ffca6d08c415127ac",
+        "downloadBytes": 9624135,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "azan-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/azan-v0.1.0-beta.1.runtime1/openreliant-azan-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/azan-v0.1.0-beta.1.runtime1",
+        "checksum": "ab27fa2a8f92ae0db01eda35a6f6f5a3ea96b398131dc0d0f06fde87c0a080b4",
+        "downloadBytes": 26667459,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "azan-v0.1.0-beta.1"
+  },
+  {
+    "asset": "cossack",
+    "folder": "Coalition Fighters/Cossack",
+    "name": "Cossack",
+    "tag": "cossack-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "cossack-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1.runtime1/openreliant-cossack-1k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1.runtime1",
+        "checksum": "d1d655c8f6cef2e1461378c8348813ec4b16f8f84082a45c9495e928813ff83b",
+        "downloadBytes": 4047357,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "cossack-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1.runtime1/openreliant-cossack-2k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1.runtime1",
+        "checksum": "2326dd28ce43e18182eaf0d8f5e70da730b305e8e171b1c4cd84ad804d9b09aa",
+        "downloadBytes": 9703727,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "cossack-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/cossack-v0.1.0-beta.1.runtime1/openreliant-cossack-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/cossack-v0.1.0-beta.1.runtime1",
+        "checksum": "64658a4b0949541166594684935c997874a9c8939699dc2bc64a8b532d62cdee",
+        "downloadBytes": 26247699,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "cossack-v0.1.0-beta.1"
+  },
+  {
+    "asset": "lagg",
+    "folder": "Coalition Fighters/Lagg",
+    "name": "Lagg",
+    "tag": "lagg-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "lagg-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/lagg-v0.1.0-beta.1.runtime1/openreliant-lagg-1k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1.runtime1",
+        "checksum": "e438db07a762c760d21bdf6c457ceb429742f8e4d483ebaa5278d42f496b9e5d",
+        "downloadBytes": 3952814,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "lagg-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/lagg-v0.1.0-beta.1.runtime1/openreliant-lagg-2k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1.runtime1",
+        "checksum": "ffcb72c16cee9b916d81fa098f8507a4c95c30bf50df28f0bfa8ca209ae6af78",
+        "downloadBytes": 9505428,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "lagg-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/lagg-v0.1.0-beta.1.runtime1/openreliant-lagg-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/lagg-v0.1.0-beta.1.runtime1",
+        "checksum": "309d2922ee557cf09c34d03ceba02cce179791df9807002d1c19e7b6c971520e",
+        "downloadBytes": 25797004,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "lagg-v0.1.0-beta.1"
+  },
+  {
+    "asset": "salin",
+    "folder": "Coalition Fighters/Salin",
+    "name": "Salin",
+    "tag": "salin-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "salin-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1.runtime1/openreliant-salin-1k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1.runtime1",
+        "checksum": "9da6b61bfcdaa92f831b14afdd44538f6bf84763a992e051c3bd7880a22bf2e7",
+        "downloadBytes": 4099184,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "salin-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1.runtime1/openreliant-salin-2k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1.runtime1",
+        "checksum": "0ecb7e3640c403b2be5b6fe1adfbd67f1e5693f674d401de140f22af1e2fd459",
+        "downloadBytes": 9689828,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "salin-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/salin-v0.1.0-beta.1.runtime1/openreliant-salin-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1.runtime1",
+        "checksum": "3c635b92c3eac51be94b7c7bc76f959f9b0dc7ac28b7473f02e3fb0cc6e79e70",
+        "downloadBytes": 26427926,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "salin-v0.1.0-beta.1"
+  },
+  {
+    "asset": "saracen",
+    "folder": "Coalition Fighters/Saracen",
+    "name": "Saracen",
+    "tag": "saracen-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "saracen-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1.runtime1/openreliant-saracen-1k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1.runtime1",
+        "checksum": "de5a46d2d9b644eda633f1b391bc7efa592cfdf6c938e7fc162b126eb5b7f11a",
+        "downloadBytes": 4035941,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "saracen-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1.runtime1/openreliant-saracen-2k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1.runtime1",
+        "checksum": "d3be6711672ecca7e70146bef463d19d563d3ecc8a9c7e770ec3aeab27b33883",
+        "downloadBytes": 9796399,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "saracen-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/saracen-v0.1.0-beta.1.runtime1/openreliant-saracen-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/saracen-v0.1.0-beta.1.runtime1",
+        "checksum": "06f0b7cf05c14719a36b6ef78b9e8ae6c7d6d55bafebfe3fbf4511591d2550d4",
+        "downloadBytes": 26751529,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "saracen-v0.1.0-beta.1"
+  },
+  {
+    "asset": "haidar",
+    "folder": "Coalition Fighters/Haidar",
+    "name": "Haidar",
+    "tag": "haidar-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.3",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "haidar-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/haidar-v0.1.0-beta.1.runtime1/openreliant-haidar-1k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1.runtime1",
+        "checksum": "ffafd4dfd599a085845080004f0cfe35692f07c16f4fbeaf4baa9b85a49d53a6",
+        "downloadBytes": 10339231,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "haidar-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/haidar-v0.1.0-beta.1.runtime1/openreliant-haidar-2k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1.runtime1",
+        "checksum": "74bf467d9d06b1c2a80266dd29db60c2c5c881fdf4cc67830d7eb7e568e6bb4d",
+        "downloadBytes": 31644632,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "haidar-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/haidar-v0.1.0-beta.1.runtime1/openreliant-haidar-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/haidar-v0.1.0-beta.1.runtime1",
+        "checksum": "0cacb7899146b220d0e69fe2f8c4c2021866e0e66cb44a09932c8819fcbb8f3f",
+        "downloadBytes": 40538565,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "haidar-v0.1.0-beta.1"
+  },
+  {
+    "asset": "karac",
+    "folder": "Coalition Fighters/Karak",
+    "name": "Karac",
+    "tag": "karak-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.0",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "karak-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/karak-v0.1.0-beta.1.runtime1/openreliant-karak-1k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1.runtime1",
+        "checksum": "8ea169121878635345c1e17b5c3dac4d77f9985532df7f737f6d3d8d3d75c969",
+        "downloadBytes": 4299667,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "karak-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/karak-v0.1.0-beta.1.runtime1/openreliant-karak-2k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1.runtime1",
+        "checksum": "f6cb01a277fc211f923454494b100efcce124a3ac1272d6d105bb625fcf1814d",
+        "downloadBytes": 10784980,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "karak-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/karak-v0.1.0-beta.1.runtime1/openreliant-karak-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1.runtime1",
+        "checksum": "46bb2f1c43da4a5a4c1d2206504f4e3e05678b55a472cf88f9ddf0fc4302fc8f",
+        "downloadBytes": 29844774,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "karak-v0.1.0-beta.1"
+  },
+  {
+    "asset": "galahad",
+    "folder": "Torpedo Bombers/Galahad",
+    "name": "Galahad",
+    "tag": "galahad-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.1",
+    "engine": "0.8.1",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "galahad-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/galahad-v0.1.0-beta.1.runtime1/openreliant-galahad-1k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1.runtime1",
+        "checksum": "2dccb697470b8b4ed7d56618114a3d0243669e2029bda20bd6338e2b27834058",
+        "downloadBytes": 4085032,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "galahad-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/galahad-v0.1.0-beta.1.runtime1/openreliant-galahad-2k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1.runtime1",
+        "checksum": "c69e9b804c5ae455c7cb7f4bb22fa1c647d551d975febcb63bb7dc51f7877631",
+        "downloadBytes": 9691666,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "galahad-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/galahad-v0.1.0-beta.1.runtime1/openreliant-galahad-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/galahad-v0.1.0-beta.1.runtime1",
+        "checksum": "31ad8ea9bcefcd33835d15386b3c964a3357e93c135a1a60de1b7a20493dade0",
+        "downloadBytes": 26228040,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "galahad-v0.1.0-beta.1"
+  },
+  {
+    "asset": "prowler",
+    "folder": "Corvettes and Gunboats/Prowler",
+    "name": "Prowler",
+    "tag": "prowler-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.2",
+    "engine": "0.18.0",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "prowler-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/prowler-v0.1.0-beta.1.runtime1/openreliant-prowler-1k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/prowler-v0.1.0-beta.1.runtime1",
+        "checksum": "820b508edbd87d00ecf8675a8100cbd3c19fbbbfe9e53b81e2228a13143a5644",
+        "downloadBytes": 6332321,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "prowler-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/prowler-v0.1.0-beta.1.runtime1/openreliant-prowler-2k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/prowler-v0.1.0-beta.1.runtime1",
+        "checksum": "48b1f903ca427dd3688582b10b878d7897a1e6569cec5e9808f2673e145bb7b0",
+        "downloadBytes": 17782981,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "prowler-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/prowler-v0.1.0-beta.1.runtime1/openreliant-prowler-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/prowler-v0.1.0-beta.1.runtime1",
+        "checksum": "a5110aecad8424fa6abd5a999a885f9e718fb6ce80ccdcc74dff8a22e2f98a5c",
+        "downloadBytes": 51726313,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "prowler-v0.1.0-beta.1"
+  },
+  {
+    "asset": "kurgen",
+    "folder": "Corvettes and Gunboats/Kurgen",
+    "name": "Kurgen",
+    "tag": "kurgen-v0.1.0-beta.1.runtime1",
+    "asset_revision": "1.7",
+    "engine": "0.18.0",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "kurgen-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kurgen-v0.1.0-beta.1.runtime1/openreliant-kurgen-1k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kurgen-v0.1.0-beta.1.runtime1",
+        "checksum": "ed454dbf3f9aba7d7661fa9534c070116b7d3b9bc9175545521d25140f46f7dd",
+        "downloadBytes": 7622995,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.1.runtime1.res2",
+        "tag": "kurgen-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kurgen-v0.1.0-beta.1.runtime1/openreliant-kurgen-2k-0.1.0-beta.1.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kurgen-v0.1.0-beta.1.runtime1",
+        "checksum": "47fc6d23133fbd6c36c400b0c0cf3845ccff41ece21b7ecffeea5e4c7c476abc",
+        "downloadBytes": 19645060,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.1.runtime1",
+        "tag": "kurgen-v0.1.0-beta.1.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/kurgen-v0.1.0-beta.1.runtime1/openreliant-kurgen-0.1.0-beta.1.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kurgen-v0.1.0-beta.1.runtime1",
+        "checksum": "8c3cc51deeca39959ce39abf949b0c1e0e1d0ee278b2aee9d1a2862be713e8f0",
+        "downloadBytes": 52724711,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "kurgen-v0.1.0-beta.1"
+  },
+  {
+    "asset": "reliant",
+    "folder": "Alliance Capital Ships/Reliant",
+    "name": "ANS Reliant",
+    "tag": "reliant-v0.1.0-beta.13.runtime1",
+    "asset_revision": "11.0",
+    "engine": "0.18.0",
+    "variants": [
+      {
+        "id": "1k",
+        "version": "0.1.0-beta.13.runtime1.res2",
+        "tag": "reliant-v0.1.0-beta.13.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-1k-0.1.0-beta.13.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1",
+        "checksum": "bc65eee960903bc49259bd4d0b1d63ae06d79a2d97fb4f3fb2dfdb44b51dff59",
+        "downloadBytes": 25551538,
+        "maxTextureEdge": 1024
+      },
+      {
+        "id": "2k",
+        "version": "0.1.0-beta.13.runtime1.res2",
+        "tag": "reliant-v0.1.0-beta.13.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-2k-0.1.0-beta.13.runtime1.res2.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1",
+        "checksum": "dbae3446cecc9c109217b5d9887f6483b37a484b06e0c7381b454160d2227857",
+        "downloadBytes": 77678236,
+        "maxTextureEdge": 2048
+      },
+      {
+        "id": "4k",
+        "version": "0.1.0-beta.13.runtime1",
+        "tag": "reliant-v0.1.0-beta.13.runtime1",
+        "download": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/download/reliant-v0.1.0-beta.13.runtime1/openreliant-reliant-0.1.0-beta.13.runtime1.zip",
+        "release": "https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1",
+        "checksum": "18ce289e33efa29b3a6d9d089bf775257935bbd6bd6f9704e5f7841ea012bfc0",
+        "downloadBytes": 217664343,
+        "maxTextureEdge": 4096
+      }
+    ],
+    "source_release": "reliant-v0.1.0-beta.13"
+  }
+]

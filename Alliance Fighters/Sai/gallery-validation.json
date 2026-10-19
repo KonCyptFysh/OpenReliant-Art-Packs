@@ -4,50 +4,53 @@
   "artwork_revision": "4.0",
   "captures": [
     {
-      "image": "flight-overview-wide.png",
-      "sha256": "28a32d812c5a56c0ab262122c7edbdbb0982729a02b2798f6392b36fb0dc8cdd",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-      "mission": 991,
-      "ship": 23,
-      "watch_from": "1.3,-0.78,1.69",
-      "render_size": [
-        1600,
-        1200
+      "asset": "sai",
+      "livery": "worn-paint",
+      "artwork_revision": "4.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 23,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
       ],
-      "screenshot_ticks": 180,
-      "exit_code": 0,
-      "captured_at_utc": "2026-10-08T21:04:48.054576+00:00",
-      "runtime_manifest_sha256": "bb14cf5a25b5ce3f28f1b9e188f0086d2d7c21f334623e0a5bf593281a4b164a",
-      "installed_runtime_matches_repository": true,
-      "settings_unchanged": true,
-      "source_file": "source/review/gallery_v4/flight-overview.png",
-      "gallery_file": "assets/sai/flight-overview-v4.webp",
-      "gallery_sha256": "8eefe6d7a23aa7b759b1c1ff00cb5c37d1745c8bf973d52f15e6a228d87c41c2",
-      "conversion": "WebP encoding only; no image alterations"
-    },
-    {
-      "image": "flight-rear-wide.png",
-      "sha256": "a86cd651751875328fefb8c39b9aff520a9b292208b1077b9704ca63c888f8a5",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-      "mission": 991,
-      "ship": 23,
-      "watch_from": "1.5,-0.9,-1.95",
       "render_size": [
-        1600,
-        1200
+        2560,
+        1920
       ],
-      "screenshot_ticks": 180,
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Alliance Fighters/Sai/asset-manifest.json",
+      "runtime_manifest_sha256": "a7f69206927e91bdb7371153a65d7116d3c0665f15621a4f36e9584fb1043ec8",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Sai/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "d19d2a444ed9873a004974ca6282fae5bee42f8a448b573c12560fa6c3347906",
+      "captured_at_utc": "2026-10-19T11:16:05.531003+00:00",
       "exit_code": 0,
-      "captured_at_utc": "2026-10-08T21:05:27.111361+00:00",
-      "runtime_manifest_sha256": "bb14cf5a25b5ce3f28f1b9e188f0086d2d7c21f334623e0a5bf593281a4b164a",
-      "installed_runtime_matches_repository": true,
-      "settings_unchanged": true,
-      "source_file": "source/review/gallery_v4/flight-rear.png",
-      "gallery_file": "assets/sai/flight-rear-v4.webp",
-      "gallery_sha256": "63714c40bfb108de980bdca25dc01dcb4493bb1ab83ec75abcb60dff7e5cbc4c",
-      "conversion": "WebP encoding only; no image alterations"
+      "gallery_file": "assets/sai/gallery-overview-v1.webp",
+      "gallery_sha256": "c4dca48a6b1bffd4805748ca6f9f12caa9dc6f3fc7ef1da03b5f9f149a5a5313",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        752,
+        340,
+        1677,
+        1350
+      ],
+      "crop": [
+        328,
+        202,
+        2100,
+        1531
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }
   ],
   "captured_runtime_manifest_sha256": "bb14cf5a25b5ce3f28f1b9e188f0086d2d7c21f334623e0a5bf593281a4b164a",
@@ -125,5 +128,7 @@
     "report": "compatibility-0.8.json",
     "captured_engine_unchanged": true,
     "note": "Historical gallery captures keep their recorded engine version. This package update removes generated-colour copies and changes release metadata, while retaining the depicted artwork."
-  }
+  },
+  "visually_reviewed": true,
+  "packaging_revision": "Runtime-only packaging; fresh capture of the cleaned mod, without development overlays."
 }

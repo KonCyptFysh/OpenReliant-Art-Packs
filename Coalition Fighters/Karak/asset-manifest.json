@@ -10,14 +10,9 @@
     "sha256": "50911e7bc9b2fb1dff7a38207d47964f0be783ed504b7b0f29baa2423b1bb055"
   },
   {
-    "path": "mods/112-karak-worn-v1/mission974.dte",
-    "bytes": 478,
-    "sha256": "8e2d7c1e57079d8ca720610790a6368a7194ee9d2986702aee8895d6c3423868"
-  },
-  {
     "path": "mods/112-karak-worn-v1/mod.ini",
-    "bytes": 253,
-    "sha256": "f4245706b66f3c8187527ebc19201bf98b8176c3eda54d6f1192487a0d05f88e"
+    "bytes": 262,
+    "sha256": "e31bd71a2c3acb2c95b816833be826fa36526f7a57eca7e763299d93dfb1d1b9"
   },
   {
     "path": "mods/112-karak-worn-v1/mod.png",

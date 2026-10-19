@@ -4,50 +4,102 @@
   "artwork_revision": "1.0",
   "captures": [
     {
-      "image": "flight-stowed.png",
-      "sha256": "ab166a6559e5bee0d0a14324d6b11f659e20bfbb2e81db7cde45278fa81df7c3",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "asset": "kamov",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 45,
       "mission": 987,
-      "ship": 45,
-      "watch_from": "1,-0.6,1.4",
-      "render_size": [
-        1600,
-        1200
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
       ],
-      "screenshot_ticks": 100,
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Torpedo Bombers/Kamov/asset-manifest.json",
+      "runtime_manifest_sha256": "06e1cb18de03793a4fb0e964f83daf96e7bde92622b5dc1d6a3e89a28cd04ce6",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Kamov/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "c62e51e245696c0bd7302512dce368756211fc3716a34cfd867dc58585be42fa",
+      "captured_at_utc": "2026-10-19T11:11:44.795474+00:00",
       "exit_code": 0,
-      "captured_at_utc": "2026-10-09T09:30:03.200324+00:00",
-      "runtime_manifest_sha256": "806bb00fef53e1b0fec52e65e9dc53bd7dcba39720dfca7262476b320d5b029a",
-      "runtime_matches_repository": true,
-      "gallery_file": "assets/kamov/flight-stowed.webp",
-      "gallery_sha256": "2eef42f188fed876eeb0bf8321b77d5e74ef518c6b0414655bf985b4146ccc70",
-      "conversion": "WebP encoding only; no image alterations",
-      "visually_inspected": true,
-      "startup_errors": []
+      "gallery_file": "assets/kamov/gallery-overview-v1.webp",
+      "gallery_sha256": "39842cbc95d64751d235eba2a60deb01ed61ccde3378ffb6d59896621bfa60aa",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        810,
+        617,
+        1727,
+        1265
+      ],
+      "crop": [
+        499,
+        365,
+        1895,
+        1412
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     },
     {
-      "image": "flight-deployed.png",
-      "sha256": "dfd9143c275ccbfed8e7b1136eabc5c6fd4b67fd00cc1cab49bdb104b11ef78a",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
+      "asset": "kamov",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "deployed",
+      "profile": "ship-gallery-v1",
+      "ship_type": 45,
       "mission": 986,
-      "ship": 45,
-      "watch_from": "1,-0.6,1.4",
-      "render_size": [
-        1600,
-        1200
+      "ticks": 450,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
       ],
-      "screenshot_ticks": 600,
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Torpedo Bombers/Kamov/asset-manifest.json",
+      "runtime_manifest_sha256": "06e1cb18de03793a4fb0e964f83daf96e7bde92622b5dc1d6a3e89a28cd04ce6",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Kamov/worn/review/gallery_standard_v1/deployed.png",
+      "raw_sha256": "762344ec12a5ab080fef345704ca859855c0b19280bf3525166c392b167d5d15",
+      "captured_at_utc": "2026-10-19T11:11:50.103799+00:00",
       "exit_code": 0,
-      "captured_at_utc": "2026-10-09T09:30:10.148231+00:00",
-      "runtime_manifest_sha256": "806bb00fef53e1b0fec52e65e9dc53bd7dcba39720dfca7262476b320d5b029a",
-      "runtime_matches_repository": true,
-      "gallery_file": "assets/kamov/flight-deployed.webp",
-      "gallery_sha256": "0527b2b03abb38ed587f43893ba8e0f1604b94667e531e296263a09560823e04",
-      "conversion": "WebP encoding only; no image alterations",
-      "visually_inspected": true,
-      "startup_errors": []
+      "gallery_file": "assets/kamov/gallery-deployed-v1.webp",
+      "gallery_sha256": "c5c605b869784ebd99613c67b2b0c053fbee4b0eac9cc92bd181aac8d27ba5a0",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        667,
+        512,
+        1727,
+        1265
+      ],
+      "crop": [
+        499,
+        365,
+        1895,
+        1412
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }
   ],
   "captured_runtime_manifest_sha256": "806bb00fef53e1b0fec52e65e9dc53bd7dcba39720dfca7262476b320d5b029a",
@@ -98,5 +150,7 @@
     "report": "compatibility-0.8.json",
     "captured_engine_unchanged": true,
     "note": "Historical gallery captures keep their recorded engine version. This package update removes generated-colour copies and changes release metadata, while retaining the depicted artwork."
-  }
+  },
+  "visually_reviewed": true,
+  "packaging_revision": "Runtime-only packaging; fresh capture of the cleaned mod, without development overlays."
 }

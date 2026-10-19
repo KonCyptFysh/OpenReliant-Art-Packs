@@ -3,16 +3,57 @@
   "artwork_revision": "1.0",
   "captures": [
     {
-      "image": "source/review/reconstruction_v1/material_front.png",
-      "sha256": "528da53fcecf734497a0d23f3a00b144ec65e4bd78318f4127c3795f12a27da4",
-      "gallery_file": "assets/karak/material-front.webp",
-      "gallery_sha256": "41dd24de7255dda902d54f795e2169e7b417e8e5d4a6f9102297372448e09d60",
-      "caption": "Karak — Blender material preview of artwork 1.0; in-game photo pending",
-      "source": "Existing Blender authoring view",
-      "conversion": "WebP encoding only; framing unchanged",
-      "visually_inspected": true
+      "asset": "karac",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 40,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
+      ],
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Karak/asset-manifest.json",
+      "runtime_manifest_sha256": "32bd800ea330b2a8eef360a7f421b00eef17dace169c1c4814738a133d1d6c13",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Karak/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "0e8147a75c8988a116c45060a4fee3e4affc787a6a77871891b5e482b06798e8",
+      "captured_at_utc": "2026-10-19T11:13:20.016914+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/karac/gallery-overview-v1.webp",
+      "gallery_sha256": "394f695162c6dc5d87cf2302c5eb992b49d3e00a99b19a195303353eab2e601c",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        813,
+        737,
+        1876,
+        1370
+      ],
+      "crop": [
+        644,
+        528,
+        2044,
+        1578
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }
   ],
   "coverage": "No Karak in-game photograph was available. Gallery defaults to the current native-runtime 3D preview. The authoring still is explicitly labelled. No game launch was performed.",
-  "approved_model_and_material_bytes_unchanged": true
+  "approved_model_and_material_bytes_unchanged": true,
+  "visually_reviewed": true,
+  "packaging_revision": "Runtime-only packaging; fresh capture of the cleaned mod, without development overlays."
 }

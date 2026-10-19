@@ -3,20 +3,57 @@
   "artwork_revision": "1.3",
   "captures": [
     {
-      "image": "source/review/gallery_v1/flight-review-before-final.png",
-      "sha256": "f05696d86b150d298acef5c4caece37c8b5436090c9109e57cdbe03dd45009ff",
-      "gallery_file": "assets/haidar/flight-review.webp",
-      "gallery_sha256": "1d60a10ed68d4e7c743e5c11e769a3a8db3ddcae835557ec057bacf767d36be0",
-      "caption": "Haidar \u2014 User in-game review before final seam and canopy refinements; 3D preview shows shipped artwork 1.3",
-      "source": "Unannotated user-supplied in-game review capture, before final revision",
-      "dimensions": [
-        791,
-        430
+      "asset": "haidar",
+      "livery": "worn-paint",
+      "artwork_revision": "1.3",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 39,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
       ],
-      "conversion": "WebP encoding only; framing unchanged",
-      "visually_inspected": true
+      "render_size": [
+        2560,
+        1920
+      ],
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Haidar/asset-manifest.json",
+      "runtime_manifest_sha256": "2c5df4f7a94bb5ad8ffe11210418fa6c0eb432022709751476726cdb24a6247e",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Haidar/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "7a852d74158bba8532893a763f1cb07c89acd341555d70b725440e1fe144b18f",
+      "captured_at_utc": "2026-10-19T11:13:12.012796+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/haidar/gallery-overview-v1.webp",
+      "gallery_sha256": "888b79d42abce85c4b2d63b8cb915e98ed2fa57687292b2ec82a0d494334417a",
+      "gallery_dimensions": [
+        1280,
+        960
+      ],
+      "detected_ship_bounds": [
+        701,
+        655,
+        1869,
+        1353
+      ],
+      "crop": [
+        515,
+        426,
+        2055,
+        1581
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }
   ],
   "coverage": "The in-game photograph predates artwork 1.3. The current native runtime is represented by the rotatable 3D preview. No automatic game launch or synthetic in-game capture was made.",
-  "approved_model_and_material_bytes_unchanged": true
+  "approved_model_and_material_bytes_unchanged": true,
+  "visually_reviewed": true,
+  "packaging_revision": "Runtime-only packaging; fresh capture of the cleaned mod, without development overlays."
 }

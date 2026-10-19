@@ -33,7 +33,7 @@ def capture(args):
  # This authored one-ship mission has zero combat triggers, a fixed world origin
  # and the same native nebula and sunlight used for every ordinary ship.
  fixture=stage/'mods/00-gallery-standard';fixture.mkdir(exist_ok=True)
- shutil.copy2(root/'Alliance Fighters/Mirage/mods/90-mirage-worn-v1/mission993.dte',fixture/'mission969.dte')
+ shutil.copy2(root/'dev/gallery/mission969.dte',fixture/'mission969.dte')
  (fixture/'mod.ini').write_text('[Mod]\nName=Gallery capture fixture\nVersion=1\nOpenReliant=0.8.1\n[Missions]\nmission969.dte=quiet.luau\n')
  (fixture/'quiet.luau').write_text('''local world = require("openreliant.world")
 return {engine_handlers = {on_mission_start = function()
@@ -58,6 +58,19 @@ end}}
   for p in (stage/'mods').iterdir():
    if p.is_symlink():p.unlink()
   (stage/'mods'/mod.name).symlink_to(mod)
+  overlay=folder/'dev/runtime-overlay'/mod.name
+  devfixture=stage/'mods/01-gallery-animation'
+  if devfixture.exists(): shutil.rmtree(devfixture)
+  if overlay.exists():
+   devfixture.mkdir()
+   for p in overlay.iterdir():
+    if p.suffix.lower()=='.dte' or p.name.endswith('_inspection.luau'): shutil.copy2(p,devfixture/p.name)
+   import configparser
+   cfg=configparser.ConfigParser(interpolation=None);cfg.read(overlay/'mod.ini')
+   content='[Mod]\nName=Gallery animation fixture\nVersion=1\nOpenReliant='+edition['engine']+'\n'
+   if cfg.has_section('Missions'):
+    content+='[Missions]\n'+''.join(k+'='+v+'\n' for k,v in cfg.items('Missions') if (devfixture/k).exists())
+   (devfixture/'mod.ini').write_text(content)
   shipname=folder.name;work=args.workspaces/shipname/'worn/work/gallery_standard_v1'
   photos=args.workspaces/shipname/'worn/review/gallery_standard_v1'
   work.mkdir(parents=True,exist_ok=True);photos.mkdir(parents=True,exist_ok=True)

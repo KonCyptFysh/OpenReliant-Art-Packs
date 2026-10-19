@@ -1,6 +1,6 @@
 {
   "package_name": "openreliant-salin",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.1.runtime1",
   "asset_revision": "1.0",
   "status": "ready-for-packaging",
   "hold_reason": null,
@@ -8,30 +8,18 @@
   "mod_folders": [
     "109-salin-worn-v1"
   ],
-  "asset_manifest_sha256": "60764e5bfb1fec277a2658febde1205581d91a721e5275d352dedb02cbdf0c32",
+  "asset_manifest_sha256": "4620e658d63892e296cee1b2416294df1a1f4059c54f2362d1df59a79724c739",
   "source_manifest_sha256": "d1a1280726c6ab1547a444a49d430d6ad8e395257376f7436e760b0bc4d1f70d",
   "channel": "beta",
   "user_approved": true,
-  "include_documents": [
-    "README.md",
-    "INSTALL.md",
-    "KNOWN_ISSUES.md",
-    "CHANGELOG.md",
-    "CREDITS.md",
-    "LICENSING.md",
-    "asset-manifest.json",
-    "validation.json",
-    "release.json",
-    "compatibility-0.8.json",
-    "tools/launch-salin-test.sh",
-    "approval.json",
-    "gallery-validation.json"
-  ],
+  "include_documents": [],
   "approval": {
     "user_approved": true,
     "approved_at_utc": "2026-10-10T00:29:03.940943+00:00",
     "scope": "Salin worn artwork revision 1.0, approved for Git and beta publication following user review.",
     "instruction": "Super clean first pass, ship it",
     "qualification": "User reports no current revisions. This does not certify complete campaign, damage, animation or distance-transition coverage."
-  }
+  },
+  "package_kind": "asset",
+  "distribution": "runtime-only"
 }

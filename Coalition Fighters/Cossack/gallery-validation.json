@@ -4,57 +4,60 @@
   "artwork_revision": "1.0",
   "captures": [
     {
-      "image": "flight-overview.png",
-      "original_filename": "Screenshot_20261010_015732.png",
-      "sha256": "d87b71bb6ffd9b689fd23a0c6b1eb0dbfa28a6726a2fb4f9199a2307f792c818",
-      "dimensions": [
-        1920,
-        1080
+      "asset": "cossack",
+      "livery": "worn-paint",
+      "artwork_revision": "1.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 50,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
       ],
-      "source": "User-created in-game capture saved after the Cossack review install",
-      "captured_at_utc": "2026-10-09T14:57:36.248716+00:00",
-      "gallery_file": "assets/cossack/flight-overview.webp",
-      "gallery_sha256": "8ffbe543ee38537c836fbc4e2c0f83bbc3fbbef9219c1c9b4843f51d5f291d64",
-      "caption": "Cossack \u2014 In-game overview",
-      "conversion": "WebP encoding only; original framing and pixels not edited",
-      "visually_inspected": true
-    },
-    {
-      "image": "flight-top.png",
-      "original_filename": "Screenshot_20261010_015741.png",
-      "sha256": "2c8a0f83931368cf600dff3d2e1a81e02096e036f8e36443ef8bbf3ccc0a14b6",
-      "dimensions": [
-        1920,
-        1080
+      "render_size": [
+        2560,
+        1920
       ],
-      "source": "User-created in-game capture saved after the Cossack review install",
-      "captured_at_utc": "2026-10-09T14:57:45.082673+00:00",
-      "gallery_file": "assets/cossack/flight-top.webp",
-      "gallery_sha256": "0bb9fdd04789e4456e48218e4a66b4fe4cf8a07892b92c8fd6738aa70ab296af",
-      "caption": "Cossack \u2014 Top view",
-      "conversion": "WebP encoding only; original framing and pixels not edited",
-      "visually_inspected": true
-    },
-    {
-      "image": "flight-underside.png",
-      "original_filename": "Screenshot_20261010_015752.png",
-      "sha256": "d5ab1e2927fdf51bd27f3e1fdea78054c238ed36b639a0083f98211c7a1e8c95",
-      "dimensions": [
-        1920,
-        1080
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Coalition Fighters/Cossack/asset-manifest.json",
+      "runtime_manifest_sha256": "31190dcf1dff09923f764dd977329e2e41e6fc29b45a057494a42eaddbc892a6",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Cossack/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "b86ecbbf3c5a6822f9ee8f56ef2a35d63c9c6550179633dfb6f6ae763b50d459",
+      "captured_at_utc": "2026-10-19T11:12:41.089524+00:00",
+      "exit_code": 0,
+      "gallery_file": "assets/cossack/gallery-overview-v1.webp",
+      "gallery_sha256": "7d233bc7c4b389d27e5a5a9e3aa1b55937b5e37e69f5e610909c623e394693ce",
+      "gallery_dimensions": [
+        1280,
+        960
       ],
-      "source": "User-created in-game capture saved after the Cossack review install",
-      "captured_at_utc": "2026-10-09T14:57:55.668622+00:00",
-      "gallery_file": "assets/cossack/flight-underside.webp",
-      "gallery_sha256": "aa65cfb2a1cca78b2664be31890dd29cb8bf81fded6370871fbcb89ecb6671e9",
-      "caption": "Cossack \u2014 Underside",
-      "conversion": "WebP encoding only; original framing and pixels not edited",
-      "visually_inspected": true
+      "detected_ship_bounds": [
+        677,
+        687,
+        1799,
+        1524
+      ],
+      "crop": [
+        498,
+        550,
+        1978,
+        1660
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }
   ],
   "approved_runtime_before_metadata_sha256": "8aa093bfa174bc8a2985668fdcfac091f97c17504c7d2ec5be765633f6f4c285",
   "published_runtime_manifest_sha256": "44facd97e613f4398bba7a22832aa2e91a68f7ef43f7677fa9e9e91dff4fc6f0",
   "approved_model_and_material_bytes_unchanged": true,
   "engine_note": "Review launcher targets official OpenReliant 0.8.1. Screenshots themselves do not encode an engine build.",
-  "coverage": "In-game appearance from overview, top and underside. No automated game launch was performed for publication."
+  "coverage": "In-game appearance from overview, top and underside. No automated game launch was performed for publication.",
+  "visually_reviewed": true,
+  "packaging_revision": "Runtime-only packaging; fresh capture of the cleaned mod, without development overlays."
 }

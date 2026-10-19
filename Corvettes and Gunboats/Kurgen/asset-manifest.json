@@ -15,11 +15,6 @@
     "sha256": "f39bdefbe08219bd279ca94596279027e3bf12c4a09851d34d4cd0feae303979"
   },
   {
-    "path": "mods/116-kurgen-worn-v1/kurgen_inspection.luau",
-    "bytes": 2076,
-    "sha256": "9ecb345c4f84a087ae12e0da45bce24a3e9a46d7fea849a612c5c85675b7c65a"
-  },
-  {
     "path": "mods/116-kurgen-worn-v1/kurgen_lighting.luau",
     "bytes": 1860,
     "sha256": "46dd41c763009510247175906ff831828d319996b6d53d29ee360f72cf3b91da"
@@ -31,8 +26,8 @@
   },
   {
     "path": "mods/116-kurgen-worn-v1/kurgen_surface.luau",
-    "bytes": 2087,
-    "sha256": "7157417e071973f66242f0cfe42cb61bdf5568de755268defc71bc2a56701637"
+    "bytes": 1115,
+    "sha256": "fab82e6a7d21512493f07140ef922294a29d10724c8f3a23acf278a2a4bbe470"
   },
   {
     "path": "mods/116-kurgen-worn-v1/kurgen_systems.glsl",
@@ -45,14 +40,9 @@
     "sha256": "745fe9b44e424f4a33274e4af4017f590744dfb097be363415d24b1598056e4f"
   },
   {
-    "path": "mods/116-kurgen-worn-v1/mission962.dte",
-    "bytes": 850958,
-    "sha256": "25a86976826f7c7eee58d2334e98cc444d16c0b7347f993d4a6989c003ff46ff"
-  },
-  {
     "path": "mods/116-kurgen-worn-v1/mod.ini",
-    "bytes": 416,
-    "sha256": "87e9ba6fd3b07847a3f8ef5aa6b36dd35e0e62e75fcf30f0326da1d56b187a6e"
+    "bytes": 375,
+    "sha256": "55ce68e3da0cd631756b3df063534c723ad1835692ce26dad5c820ed13744737"
   },
   {
     "path": "mods/116-kurgen-worn-v1/mod.png",

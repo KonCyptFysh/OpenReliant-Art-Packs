@@ -1,3 +1,5 @@
+> Player downloads contain only the asset runtime mod. Test scenes and diagnostic controls are development-only; see `dev/` where present.
+
 # Patriot - Worn Paint
 
 Current package: **0.1.0-beta.2**, artwork **3.0**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
@@ -10,4 +12,4 @@ The packed editable scene is `source/patriot_worn_audit_v3.blend`. Both native m
 
 Original contributions are licensed under **CC-BY-NC-SA-4.0**; underlying game material is excluded. See [LICENSING.md](LICENSING.md). Custom emissives remain planned. The existing under-nose treatment is retained. [Known work](KNOWN_ISSUES.md) and [validation.json](validation.json) describe the remaining testing and artwork scope.
 
-The optional mission 992 inspection scene and `tools/launch-patriot-test.sh` support local review.
+The optional mission 992 inspection scene and `dev/tools/launch-patriot-test.sh` support local review.

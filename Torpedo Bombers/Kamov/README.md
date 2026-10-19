@@ -1,3 +1,5 @@
+> Player downloads contain only the asset runtime mod. Test scenes and diagnostic controls are development-only; see `dev/` where present.
+
 # Kamov - Worn Paint
 
 Current package: **0.1.0-beta.2**, artwork **1.0**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
@@ -10,7 +12,7 @@ Restores the grey and red Coalition livery, stars, hazard bands and smooth amber
 
 The quiet test scene carries four torpedoes. Separate stowed, deployed, repeating-cycle and manual-launch modes exercise the native mechanism. The bounded official OpenReliant 0.7.0 test verified all four torpedoes move with their carriers and return to the initial position. The user has approved the in-game appearance. Broader mission 25 gameplay remains unverified.
 
-Use `tools/launch-kamov-test.sh` to cycle the bays. Standalone stowed/deployed launchers are also provided. See `INSTALL.md` and `KNOWN_ISSUES.md`.
+Use `dev/tools/launch-kamov-test.sh` to cycle the bays. Standalone stowed/deployed launchers are also provided. See `INSTALL.md` and `KNOWN_ISSUES.md`.
 
 [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kamov-v0.1.0-beta.2) · [Gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=torpedo-bombers&asset=kamov)
 

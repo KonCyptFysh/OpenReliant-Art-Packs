@@ -10,14 +10,9 @@
     "sha256": "9d523f97adbba271d7bfd800167e556721e6aab744e0fa5fd395c07f31ae0c03"
   },
   {
-    "path": "mods/95-naginata-worn-v1/mission994.dte",
-    "bytes": 481,
-    "sha256": "cca349b2fc3e2da3dcd48692b193f95398f78ad16fc87d1842a85bf6fdaefb15"
-  },
-  {
     "path": "mods/95-naginata-worn-v1/mod.ini",
     "bytes": 253,
-    "sha256": "d4844e19428882c8c463339473ffbe184239e8a1b4675c81c0fb6372f27f201f"
+    "sha256": "e20c8b7a360b712fe82ac7a5f243039464895d87d59d5342216934ed5fc0e327"
   },
   {
     "path": "mods/95-naginata-worn-v1/mod.png",

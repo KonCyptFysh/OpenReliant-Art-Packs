@@ -49,7 +49,7 @@
   "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
   "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
   "retained_artwork_bytes_unchanged": true,
-  "asset_manifest_sha256": "8fe2f1b502b2bb17e520a863805db4e5e012a15fd61f9df7eec6e082891a0ef9",
+  "asset_manifest_sha256": "a7f69206927e91bdb7371153a65d7116d3c0665f15621a4f36e9584fb1043ec8",
   "native_checks": [
     {
       "path": "mods/100-sai-worn-v1/Jap_Sai.SHP",
@@ -106,5 +106,17 @@
   "limitations": [
     "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
     "Existing campaign, animation, damage, distance-transition and platform limitations remain."
-  ]
+  ],
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.2",
+    "previous_manifest_sha256": "8fe2f1b502b2bb17e520a863805db4e5e012a15fd61f9df7eec6e082891a0ef9",
+    "runtime_only": true,
+    "removed": [
+      "mods/100-sai-worn-v1/mission991.dte"
+    ],
+    "changed": [
+      "mods/100-sai-worn-v1/mod.ini"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

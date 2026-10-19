@@ -1,27 +1,17 @@
 {
   "package_name": "openreliant-reaper",
-  "version": "0.1.0-beta.2",
+  "version": "0.1.0-beta.2.runtime1",
   "status": "ready-for-packaging",
   "hold_reason": null,
   "minimum_openreliant": "0.8.1",
   "mod_folders": [
     "50-reaper-worn-v3"
   ],
-  "asset_manifest_sha256": "dedb03764f442b6abded4f48ca93ff0e3ebd8458edab10dea3e499610106a576",
-  "include_documents": [
-    "README.md",
-    "INSTALL.md",
-    "KNOWN_ISSUES.md",
-    "CHANGELOG.md",
-    "CREDITS.md",
-    "LICENSING.md",
-    "asset-manifest.json",
-    "validation.json",
-    "release.json",
-    "compatibility-0.8.json",
-    "validation-previous.json"
-  ],
+  "asset_manifest_sha256": "73e4a61977c28219853d716654f3a6a0da9a130975bd884b4a818238fec37396",
+  "include_documents": [],
   "channel": "beta",
   "asset_revision": "3.1",
-  "source_manifest_sha256": "2cafa7053a081dad321bb7710d90fb600420bdbd16042ae1c2ba1260d0358281"
+  "source_manifest_sha256": "2cafa7053a081dad321bb7710d90fb600420bdbd16042ae1c2ba1260d0358281",
+  "package_kind": "asset",
+  "distribution": "runtime-only"
 }

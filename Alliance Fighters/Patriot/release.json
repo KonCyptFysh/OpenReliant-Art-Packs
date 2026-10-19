@@ -1,6 +1,6 @@
 {
   "package_name": "openreliant-patriot",
-  "version": "0.1.0-beta.2",
+  "version": "0.1.0-beta.2.runtime1",
   "asset_revision": "3.0",
   "status": "ready-for-packaging",
   "hold_reason": null,
@@ -8,20 +8,10 @@
   "mod_folders": [
     "96-patriot-worn-v1"
   ],
-  "asset_manifest_sha256": "4f24a84d0d978a85a83e739ed3e18a61edee27bf313499576a1c6c2e723f7324",
+  "asset_manifest_sha256": "b0c71f23b613a13c93945f274fd0df2dc47e746ed3fc8310f8565d73772896b9",
   "source_manifest_sha256": "70fd18150aa36a4368353067669d01fe86211ebb0bbf87aa337470dbf7807068",
   "channel": "beta",
-  "include_documents": [
-    "README.md",
-    "INSTALL.md",
-    "KNOWN_ISSUES.md",
-    "CHANGELOG.md",
-    "CREDITS.md",
-    "LICENSING.md",
-    "asset-manifest.json",
-    "validation.json",
-    "release.json",
-    "compatibility-0.8.json",
-    "validation-previous.json"
-  ]
+  "include_documents": [],
+  "package_kind": "asset",
+  "distribution": "runtime-only"
 }

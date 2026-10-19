@@ -1,3 +1,5 @@
+> Player downloads contain only the asset runtime mod. Test scenes and diagnostic controls are development-only; see `dev/` where present.
+
 # Prowler - Worn Paint
 
 **Approved beta 0.1.0-beta.1, artwork revision 1.2. Requires OpenReliant 0.18.0.**
@@ -10,7 +12,7 @@ Cabin lighting dims with damage. Significant hits cause brief interruptions; at 
 
 Choose one of the 1K, 2K or 4K downloads; all use the same lighting behaviour. Replace this ship's existing mod folder when changing resolution. Runtime materials are one canonical PNG set, without redundant green/red copies.
 
-The included `tools/launch-prowler-test.sh` opens a quiet review mission. F5 cycles thrust, F6/F7 apply small/heavy hits, F8 restores armour and F9 disables engines. See [LIGHTING.md](LIGHTING.md) and [KNOWN_ISSUES.md](KNOWN_ISSUES.md).
+The included `dev/tools/launch-prowler-test.sh` opens a quiet review mission. F5 cycles thrust, F6/F7 apply small/heavy hits, F8 restores armour and F9 disables engines. See [LIGHTING.md](LIGHTING.md) and [KNOWN_ISSUES.md](KNOWN_ISSUES.md).
 
 The user approved this beta. 43 response checks, official 0.18.0 integration, all-detail nozzle-mask checks and native/material validation pass. The gallery uses a fresh official-engine photograph. The rotatable browser model is a static viewing copy.
 

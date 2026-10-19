@@ -5,92 +5,53 @@
   "cover_matches_existing_gallery_camera": "1,-0.6,1.3",
   "captures": [
     {
-      "image": "flight-overview.png",
-      "sha256": "8acf105fea3db7578be2c6731485e50b72186f32fc35b2df58f26d688ca532d6",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-      "mission": 990,
-      "ship": 11,
-      "watch_from": "1,-0.6,1.3",
-      "render_size": [
-        1600,
-        1200
+      "asset": "phoenix",
+      "livery": "worn-paint",
+      "artwork_revision": "7.0",
+      "mode": "overview",
+      "profile": "ship-gallery-v1",
+      "ship_type": 11,
+      "mission": 969,
+      "ticks": 60,
+      "watch_from": [
+        1.4,
+        -1.4,
+        1.4
       ],
-      "screenshot_ticks": 30,
-      "exit_code": 0,
-      "captured_at_utc": "2026-10-08T06:05:09.642713+00:00",
-      "runtime_manifest_sha256": "3e3a6e8820e4844204337a3d7c984c68d44661df23987161c3de0f0f8cf1d6c0",
-      "installed_runtime_matches_repository": true,
-      "settings_unchanged": true,
-      "gallery_file": "assets/phoenix/flight-overview.webp",
-      "gallery_sha256": "f0945cfbbffdc121656ec56ec4f27c392cace937e8ddaf618593a44ee2570e95",
-      "conversion": "WebP encoding only; no image alterations"
-    },
-    {
-      "image": "flight-opposite.png",
-      "sha256": "7c42599653d61376a2586a63fba96399df9a0590e63301252c0c7c95271b9991",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-      "mission": 990,
-      "ship": 11,
-      "watch_from": "-1,-0.6,1.3",
       "render_size": [
-        1600,
-        1200
+        2560,
+        1920
       ],
-      "screenshot_ticks": 30,
+      "msaa": 8,
+      "seed": 1,
+      "engine": "Official OpenReliant 0.8.1",
+      "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
+      "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
+      "runtime_manifest": "Alliance Fighters/Phoenix/asset-manifest.json",
+      "runtime_manifest_sha256": "314c76cf5535d5694715c8da048c9ab2bfe5cab9a70bc4edf942c86b3a850719",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Phoenix/worn/review/gallery_standard_v1/overview.png",
+      "raw_sha256": "c64dbb6e86aeb3fa8927045a1c0ec5df4951fd481bdb9cb2bfcd077a436854fa",
+      "captured_at_utc": "2026-10-19T11:10:49.358127+00:00",
       "exit_code": 0,
-      "captured_at_utc": "2026-10-08T06:07:14.094713+00:00",
-      "runtime_manifest_sha256": "3e3a6e8820e4844204337a3d7c984c68d44661df23987161c3de0f0f8cf1d6c0",
-      "installed_runtime_matches_repository": true,
-      "settings_unchanged": true,
-      "gallery_file": "assets/phoenix/flight-opposite.webp",
-      "gallery_sha256": "edeec2d5b33e3a1001c18b72e11fed9e861e161fd888397819be00764020ffb2",
-      "conversion": "WebP encoding only; no image alterations"
-    },
-    {
-      "image": "flight-rear.png",
-      "sha256": "82f32d0f4eb8848414ba464febd79fb16fc9a3b19ae2df0f5f694f9e31faee0e",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-      "mission": 990,
-      "ship": 11,
-      "watch_from": "1,-0.6,-1.3",
-      "render_size": [
-        1600,
-        1200
+      "gallery_file": "assets/phoenix/gallery-overview-v1.webp",
+      "gallery_sha256": "ab82ecb3b7b87c4c2930ea6e392cbb871c7c3a353e84b2b78af52432820c671b",
+      "gallery_dimensions": [
+        1280,
+        960
       ],
-      "screenshot_ticks": 30,
-      "exit_code": 0,
-      "captured_at_utc": "2026-10-08T06:07:22.110085+00:00",
-      "runtime_manifest_sha256": "3e3a6e8820e4844204337a3d7c984c68d44661df23987161c3de0f0f8cf1d6c0",
-      "installed_runtime_matches_repository": true,
-      "settings_unchanged": true,
-      "gallery_file": "assets/phoenix/flight-rear.webp",
-      "gallery_sha256": "af35bc0a5339d23f66602b779090731a887dc6b83b69fe0d11f4ed0efdefb936",
-      "conversion": "WebP encoding only; no image alterations"
-    },
-    {
-      "image": "flight-belly.png",
-      "sha256": "2c66d1d973886f383414ebf7d3cd1d6a18820a6ee7dfe1f822953212605cb850",
-      "engine": "Official OpenReliant 0.7.0",
-      "engine_sha256": "7f828013dea07ca02972a5a4d2463b15308f5609e2f716766be010e5219b1253",
-      "mission": 990,
-      "ship": 11,
-      "watch_from": "1,0.75,0.8",
-      "render_size": [
-        1600,
-        1200
+      "detected_ship_bounds": [
+        774,
+        588,
+        1840,
+        1334
       ],
-      "screenshot_ticks": 30,
-      "exit_code": 0,
-      "captured_at_utc": "2026-10-08T06:07:30.013434+00:00",
-      "runtime_manifest_sha256": "3e3a6e8820e4844204337a3d7c984c68d44661df23987161c3de0f0f8cf1d6c0",
-      "installed_runtime_matches_repository": true,
-      "settings_unchanged": true,
-      "gallery_file": "assets/phoenix/flight-belly.webp",
-      "gallery_sha256": "aef1396e87a31ae4f11c64b030e2bed28c75f5ce9816ac40a6845d0092a3cbd4",
-      "conversion": "WebP encoding only; no image alterations"
+      "crop": [
+        605,
+        434,
+        2009,
+        1487
+      ],
+      "conversion": "Crop and Lanczos downsample, WebP quality 94; no retouching, mirroring or background replacement"
     }
   ],
   "compatibility_update": {
@@ -99,5 +60,7 @@
     "report": "compatibility-0.8.json",
     "captured_engine_unchanged": true,
     "note": "Historical gallery captures keep their recorded engine version. This package update removes generated-colour copies and changes release metadata, while retaining the depicted artwork."
-  }
+  },
+  "visually_reviewed": true,
+  "packaging_revision": "Runtime-only packaging; fresh capture of the cleaned mod, without development overlays."
 }

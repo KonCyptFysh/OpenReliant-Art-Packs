@@ -12,7 +12,7 @@
   "rule": "Use the unprefixed PNG texture and its normal/ORM maps; OpenReliant generates green/red loadout colours.",
   "documentation": "https://github.com/OpenReliant/openreliant/blob/319d5ac07928e5fc53ec4e3b0f749e472ca470f5/docs/guide/modding.md#textures-in-the-loadout",
   "retained_artwork_bytes_unchanged": true,
-  "asset_manifest_sha256": "da61576b9d951bda04a5605cd688b2822d28db92f09e4fcec19f5678e9b4e049",
+  "asset_manifest_sha256": "169d4a6f13109c0ce91941c075bee9252be7ffffc74fc36a1723e0e4313df9fa",
   "native_checks": [
     {
       "path": "mods/97-ordnance-worn-v1/01_screamer.SHP",
@@ -288,5 +288,15 @@
   "limitations": [
     "No new 0.8.1 gameplay or GPU-rendering capture was performed for this package-only update.",
     "Existing campaign, animation, damage, distance-transition and platform limitations remain."
-  ]
+  ],
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.4",
+    "previous_manifest_sha256": "da61576b9d951bda04a5605cd688b2822d28db92f09e4fcec19f5678e9b4e049",
+    "runtime_only": true,
+    "removed": [],
+    "changed": [
+      "mods/97-ordnance-worn-v1/mod.ini"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

@@ -1,6 +1,6 @@
 {
   "package_name": "openreliant-saber",
-  "version": "0.1.0-beta.2",
+  "version": "0.1.0-beta.2.runtime1",
   "asset_revision": "1.0",
   "status": "ready-for-packaging",
   "hold_reason": null,
@@ -8,31 +8,18 @@
   "mod_folders": [
     "102-saber-worn-v1"
   ],
-  "asset_manifest_sha256": "b2cb11b2b97b5cede3b8dac1aca172d07817a4ed3ec70329a0dc8f3e32f0b17b",
+  "asset_manifest_sha256": "46c0fecc21deece9eca972f747bb6b4a90f501b0eeeae821bb95c619ac44c630",
   "source_manifest_sha256": "0c5a86703ac2bffb3efc19bab6c2e214e08f1f6e1f4895680aa3f8492e712bf9",
   "channel": "beta",
   "user_approved": true,
-  "include_documents": [
-    "README.md",
-    "INSTALL.md",
-    "KNOWN_ISSUES.md",
-    "CHANGELOG.md",
-    "CREDITS.md",
-    "LICENSING.md",
-    "asset-manifest.json",
-    "validation.json",
-    "release.json",
-    "tools/launch-saber-test.sh",
-    "approval.json",
-    "gallery-validation.json",
-    "compatibility-0.8.json",
-    "validation-previous.json"
-  ],
+  "include_documents": [],
   "approval": {
     "user_approved": true,
     "approved_at_utc": "2026-10-08T23:52:25.227317+00:00",
     "scope": "Saber worn artwork revision 1.0, accepted after user in-game visual review for upload under Coalition Fighters.",
     "instruction": "Sweet, I don't see any immediate problems there, ship it to git under coalition fighters.",
     "qualification": "User reports no immediate visual problems. Broader gameplay, ejection and distance-transition tests remain open."
-  }
+  },
+  "package_kind": "asset",
+  "distribution": "runtime-only"
 }

@@ -4,7 +4,7 @@ Requires your own StarLancer files and official OpenReliant 0.8.1. Copy the flat
 
 On Linux, mark the downloaded scripts executable with `chmod +x tools/launch-kamov*.sh`.
 
-Place all four `tools/launch-kamov*.sh` scripts in your OpenReliant installation, alongside its `releases` and `game-data` directories. Or set OPENRELIANT_HOME to that installation and run the scripts from their tools directory. The inspection launcher explicitly uses `releases/openreliant-v0.8.1-linux-x86_64/openreliant`.
+Place all four `dev/tools/launch-kamov*.sh` scripts in your OpenReliant installation, alongside its `releases` and `game-data` directories. Or set OPENRELIANT_HOME to that installation and run the scripts from their tools directory. The inspection launcher explicitly uses `releases/openreliant-v0.8.1-linux-x86_64/openreliant`.
 
 - `launch-kamov-test.sh`: starts stowed for eight seconds, then repeatedly opens for four seconds, holds open for roughly eight, closes for four and holds closed for roughly eight.
 - `launch-kamov-stowed-test.sh`: holds the bays closed.

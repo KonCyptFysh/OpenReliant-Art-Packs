@@ -27,10 +27,10 @@
       "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
       "source": "Fresh engine screenshot; isolated game directory; repository runtime files",
       "runtime_manifest": "Torpedo Bombers/Scimitar/asset-manifest.json",
-      "runtime_manifest_sha256": "6cd8fab3d864fbaa8713c2e3df221561f2bce71ec295dd0d84835580435db008",
-      "raw_file": "/home/lva-8700/Documents/ABANDONEWARE_JESUS/assets/working/textures/Scimitar/worn/review/gallery_standard_v1/overview.png",
+      "runtime_manifest_sha256": "ea9e8db3468722c7b12e7eca8df4cdb2ebbdda73e746c7cc4fa72750cbe98c25",
+      "raw_file": ".local/runtime-only-2026-10-19/captures/Scimitar/worn/review/gallery_standard_v1/overview.png",
       "raw_sha256": "c32828f200ed4aa6bda24af14d3d1edce013d5502e20c5f77e8ab4e02789385f",
-      "captured_at_utc": "2026-10-16T13:08:37.917772+00:00",
+      "captured_at_utc": "2026-10-19T11:12:11.901419+00:00",
       "exit_code": 0,
       "gallery_file": "assets/scimitar/gallery-overview-v1.webp",
       "gallery_sha256": "b736782192bdf339fbf56618e2c8e1d9d43bd81c7293f1961f439ad930791832",
@@ -62,5 +62,6 @@
     "Complete silhouette, nose gun and both carried torpedoes in frame",
     "Native blue nebula; no UI text or cinematic bars",
     "Matching 4:3 framing and shared fleet scale; crop and downsample only"
-  ]
+  ],
+  "packaging_revision": "Runtime-only packaging; fresh capture of the cleaned mod, without development overlays."
 }

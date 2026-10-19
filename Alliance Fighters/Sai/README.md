@@ -1,3 +1,5 @@
+> Player downloads contain only the asset runtime mod. Test scenes and diagnostic controls are development-only; see `dev/` where present.
+
 # Sai - Worn Paint
 
 Current package: **0.1.0-beta.2**, artwork **4.0**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
@@ -12,4 +14,4 @@ Relative to the preceding local revision 3, the final correction changes only 14
 
 All 740 native faces were checked against the verified OpenReliant 0.7.0 corner-reuse rules. Local diagnostic renders reproduce the former streaks and show the corrected canopy from both sides. These are Blender diagnostic images, not in-game captures. Native-format round trips, portable source and repository-to-game file hashes passed. The user accepted the completed revision and authorized the Git update. Broader gameplay and distance-transition testing remain outstanding.
 
-Current scene: `source/sai_worn_pbr_v4.blend`. Run `tools/launch-sai-test.sh` for the quiet inspection scene.
+Current scene: `source/sai_worn_pbr_v4.blend`. Run `dev/tools/launch-sai-test.sh` for the quiet inspection scene.

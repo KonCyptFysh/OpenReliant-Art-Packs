@@ -2,7 +2,7 @@
 
 Requires your own StarLancer files and official OpenReliant 0.8.1. Extract the release ZIP. Copy the flat `mods/105-loki-worn-v1` folder into `game-data/mods` and enable it.
 
-Place the three `tools/launch-loki*.sh` scripts alongside the installation's `game-data` and `releases` folders, or set OPENRELIANT_HOME to that installation. The launcher explicitly selects official OpenReliant 0.8.1.
+Place the three `dev/tools/launch-loki*.sh` scripts alongside the installation's `game-data` and `releases` folders, or set OPENRELIANT_HOME to that installation. The launcher explicitly selects official OpenReliant 0.8.1.
 
 - `launch-loki-test.sh`: starts in the initial folded pose and repeatedly moves to fighting position and back, with pauses to inspect each state.
 - `launch-loki-folded-test.sh`: holds the initial folded pose.

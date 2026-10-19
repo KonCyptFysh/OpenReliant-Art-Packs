@@ -1,11 +1,11 @@
-# Local testing
+# Installation and local development
 
 Copy `mods/97-ordnance-worn-v1` into your OpenReliant installation's `game-data/mods` directory while the game is closed. Requires official OpenReliant 0.8.1 or later. Keep an existing version outside the mods directory as a backup before replacement.
 
-To create the optional isolated review environment, run:
+Development only: from the repository checkout, create the optional isolated review environment with:
 
 ```sh
-python3 tools/prepare-review.py "$HOME/Games/OpenReliant"
+python3 dev/tools/prepare-review.py "$HOME/Games/OpenReliant"
 "$HOME/Games/OpenReliant/launch-ordnance-test.sh"
 ```
 

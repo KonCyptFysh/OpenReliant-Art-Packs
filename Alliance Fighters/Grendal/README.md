@@ -1,3 +1,5 @@
+> Player downloads contain only the asset runtime mod. Test scenes and diagnostic controls are development-only; see `dev/` where present.
+
 # Grendal - Worn Paint
 
 Current package: **0.1.0-beta.2**, artwork **1.1**, requiring **OpenReliant 0.8.1**. Redundant loadout colour variants have been removed; the engine generates green/red views from the original PNG material set.
@@ -8,4 +10,4 @@ Restores the worn grey finish, checker bands and original German markings. Cockp
 
 Native model/mission checks, texture channels, source portability and installed-file checks passed. The user accepted the current radiator treatment for release. Gameplay and distance transitions remain listed in `KNOWN_ISSUES.md`.
 
-Use `tools/launch-grendal-test.sh` for the quiet single-ship inspection. See `INSTALL.md` and `source/README.md`.
+Use `dev/tools/launch-grendal-test.sh` for the quiet single-ship inspection. See `INSTALL.md` and `source/README.md`.

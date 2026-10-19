@@ -410,7 +410,7 @@
     ]
   },
   "randomness": "Per-ship saved Park-Miller stream seeded from official game-side math.random",
-  "asset_manifest_sha256": "1623a95681a28a634f5ac1db7c298701d93da80be67cdfa70b54ad7d373edb9d",
+  "asset_manifest_sha256": "8eba9947aa5d8a9b9e51da4740df8472235f4a52eb2af5ba25c227fdbe7b09a0",
   "source_manifest_sha256": "141e258d3a0bacaa6ad9b8af21c615ab059e721713928a370b571c1804d17f30",
   "star_repair": {
     "passed": true,
@@ -490,5 +490,19 @@
   ],
   "game_launched_by_agent": true,
   "gallery_validation": "gallery-validation.json",
-  "preview_validation": "preview-validation.json"
+  "preview_validation": "preview-validation.json",
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.1",
+    "previous_manifest_sha256": "1623a95681a28a634f5ac1db7c298701d93da80be67cdfa70b54ad7d373edb9d",
+    "runtime_only": true,
+    "removed": [
+      "mods/116-kurgen-worn-v1/mission962.dte",
+      "mods/116-kurgen-worn-v1/kurgen_inspection.luau"
+    ],
+    "changed": [
+      "mods/116-kurgen-worn-v1/mod.ini",
+      "mods/116-kurgen-worn-v1/kurgen_surface.luau"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

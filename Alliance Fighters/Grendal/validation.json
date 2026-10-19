@@ -5,17 +5,18 @@
   "engine_build": "Official OpenReliant 0.8.1 linux-x86_64",
   "engine_sha256": "aa5e81293be85b28884460476427d0942556d6945b3e89da390365d480d9c5ea",
   "asset_revision": "1.1",
-  "asset_manifest_sha256": "e8efd11af35f211cfd10de8c902fb4d15ffa899d0fd2b9f67848c1523957ddab",
+  "asset_manifest_sha256": "51dc8b90e15cedf40787efaa7df9d7a3a462b21592aaeec38aa7051f0e6a3a79",
   "source_manifest_sha256": "942096e09d3eef6d14d4023dcd71fcbfcd02b79ca32b7673dcc676abf0933ec3",
   "tested_platforms": [
-    "Linux x86_64 \u2014 native tools and non-visual texture pipeline"
+    "Linux x86_64 — native tools and non-visual texture pipeline"
   ],
   "checks": [
     "Official sltool 0.8.1: 4 native model/mission format and round-trip checks passed.",
     "Official 0.8.1 texture loader: 1 material sets decoded; generated green/red channels checked and inherited normal/ORM maps match byte-for-byte.",
     "Removed 3 audited byte-identical loadout files; retained artwork/model/animation bytes unchanged from the current approved repository snapshot.",
     "All material sets retain unprefixed PNG base, normal and ORM files.",
-    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json."
+    "Inspection launchers pass shell syntax checks; historical art and runtime validation is retained in validation-previous.json.",
+    "Development scenes, launchers, review camera, input handlers and overlays excluded from player runtime; existing artwork and production lighting preserved."
   ],
   "prior_artwork_validation": "validation-previous.json",
   "compatibility_report": "compatibility-0.8.json",
@@ -25,5 +26,17 @@
   ],
   "game_launched_for_this_update": false,
   "engine_source_commit": "b91c70bba414b2b2dc16bcf687647b41701deb8a",
-  "non_visual_validation": true
+  "non_visual_validation": true,
+  "packaging_revision": {
+    "previous_version": "0.1.0-beta.2",
+    "previous_manifest_sha256": "e8efd11af35f211cfd10de8c902fb4d15ffa899d0fd2b9f67848c1523957ddab",
+    "runtime_only": true,
+    "removed": [
+      "mods/101-grendal-worn-v1/mission992.dte"
+    ],
+    "changed": [
+      "mods/101-grendal-worn-v1/mod.ini"
+    ],
+    "artwork_native_models_and_production_response_unchanged": true
+  }
 }

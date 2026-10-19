@@ -15,14 +15,9 @@
     "sha256": "42580ed9f94b694219764a2f4971c53cda3da2b24357b21d1104d410aa2a3edd"
   },
   {
-    "path": "mods/99-crusader-worn-v1/mission990.dte",
-    "bytes": 481,
-    "sha256": "20092dc393bd65a290c90e46ee71e3605a27ff8c5ea9b9e9ee59caa50a868d81"
-  },
-  {
     "path": "mods/99-crusader-worn-v1/mod.ini",
-    "bytes": 308,
-    "sha256": "043e3081fed4b3fe57df02be3153a31ed0a3d7357960b71d33a70525fe6074f9"
+    "bytes": 317,
+    "sha256": "8bb7764747c10adc27dac7625a9b5e56ef6fd27d478ff9c0224161e980f81692"
   },
   {
     "path": "mods/99-crusader-worn-v1/mod.png",
