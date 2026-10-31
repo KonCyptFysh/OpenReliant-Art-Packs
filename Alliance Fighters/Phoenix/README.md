@@ -6,4 +6,4 @@ Worn olive, bronze and steel with smooth glazing, aligned belly panels and corre
 
 The installed artwork has been reviewed and approved for publication. Native preservation, material-map and seam checks passed on official OpenReliant 0.7.0 for Linux. Broader gameplay and other platforms still need testing; see `KNOWN_ISSUES.md`.
 
-Download the Phoenix player ZIP from the individual release and follow `INSTALL.md`. Editable source: `source/phoenix_worn_surfaces_v7.blend`.
+Download the Phoenix player ZIP from the individual release and follow `INSTALL.md`. Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools.

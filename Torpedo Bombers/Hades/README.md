@@ -10,4 +10,4 @@ Artwork accepted by the user for this beta round. Official 0.8.1 native-format, 
 
 [Gallery and 3D preview](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=torpedo-bombers&asset=hades) · [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/hades-v0.1.0-beta.1)
 
-Fresh official-engine gallery photos show the stowed and deployed states from the shared gallery camera. The optional native 3D preview is static. Editable source: `source/hades_worn_pbr_v1.blend`.
+Fresh official-engine gallery photos show the stowed and deployed states from the shared gallery camera. The optional native 3D preview is static. Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools.

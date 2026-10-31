@@ -6,6 +6,6 @@ This pack replaces Phoenix's main, training and loadout artwork. Remove its mod 
 
 ## Optional quiet inspection scene on Linux
 
-Copy `tools/launch-phoenix-test.sh` beside the existing `launch-openreliant.sh` and run `bash launch-phoenix-test.sh`. Alternatively, set `OPENRELIANT_HOME` to the existing launcher directory. The scene uses mission 990 and Phoenix ship 11, with one ship and no enemies or objectives. Press 7 for external orbit; arrow keys rotate and Shift+Up/Down zoom.
-
 For an upgrade, replace the old mod folder instead of merging into it. This removes obsolete `g`/`r` texture files. The engine generates loadout colours from the unprefixed PNG textures.
+
+Developer inspection missions and launchers are retained in the local authoring workspace; use the named release ZIP for player installation.

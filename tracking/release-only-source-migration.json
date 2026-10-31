@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-01",
+  "policy": "Editable masters and development history stay local; publish runtime assets and release/gallery metadata only.",
+  "removed_tracked_source_and_development_paths": 14740,
+  "preservation": {
+    "workspace_files_verified": 17700,
+    "historical_lfs_objects_verified": 13332,
+    "missing_lfs_objects": 0,
+    "off_device_backup_created": false
+  },
+  "runtime_files_verified_unchanged": 1600,
+  "validation": {
+    "python_tests_passed": 84,
+    "catalogue_tests_passed": 20,
+    "catalogue_build": "passed"
+  },
+  "historical_public_removal": "User authorized removal from both branches and all 83 historical release tags. Runtime files and release attachments are preserved. GitHub cached objects and LFS billing storage require separate server-side purging."
+}

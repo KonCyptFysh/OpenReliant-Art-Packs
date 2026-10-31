@@ -10,4 +10,6 @@ The user approved this revision on 9 October 2026. Native model and mission chec
 
 Cloaking, firing, damage, ejection and distance transitions still need broader gameplay testing. Custom emissive maps are deferred. See `KNOWN_ISSUES.md` for the beta limits.
 
-Install the flat `mods/103-basilisk-worn-v1` folder into `game-data/mods`. The quiet mission 988 launcher is in `tools/launch-basilisk-test.sh`. Current editable source: `source/basilisk_worn_pbr_v4.blend`, with packed and relative image resources. Earlier passes and original sources are preserved.
+Install the flat `mods/103-basilisk-worn-v1` folder into `game-data/mods`. The inspection launcher is retained locally. Current editable source: `source/basilisk_worn_pbr_v4.blend`, with packed and relative image resources. Earlier passes and original sources are preserved.
+
+Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools.

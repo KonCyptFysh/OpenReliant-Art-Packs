@@ -9,26 +9,19 @@
 *.ini text eol=lf
 *.png filter=lfs diff=lfs merge=lfs -text
 *.tga filter=lfs diff=lfs merge=lfs -text
-*.blend filter=lfs diff=lfs merge=lfs -text
 *.shp filter=lfs diff=lfs merge=lfs -text
 *.SHP filter=lfs diff=lfs merge=lfs -text
-*.glb filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
-*.kra filter=lfs diff=lfs merge=lfs -text
-# HUD runtime films, fonts and isolated binary test fixtures.
+# Runtime HUD films and fonts.
 *.fm8 filter=lfs diff=lfs merge=lfs -text
 *.ttf filter=lfs diff=lfs merge=lfs -text
-*.dte filter=lfs diff=lfs merge=lfs -text
-*.ut filter=lfs diff=lfs merge=lfs -text
 # GitHub Pages serves small web previews as real files, never LFS pointers.
 docs/** -filter !diff !merge
 
-# Preserve every frozen HUD source/runtime byte so manifest hashes survive checkout.
+# Preserve every frozen HUD runtime byte so manifest hashes survive checkout.
 HUD/Recommissioned/** -text
 
-# Additional HUD portrait films and source animation previews.
 HUD/Recommissioned/**/*.FM8 filter=lfs diff=lfs merge=lfs -text
-HUD/Recommissioned/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
 
-# Reliant editable height fields are binary source assets.
-"Alliance Capital Ships/Reliant/**/*.npy" filter=lfs diff=lfs merge=lfs -text
+# Preserve existing legacy runtime/test pointer representation until those packages are revised.
+*.dte filter=lfs diff=lfs merge=lfs -text
+*.ut filter=lfs diff=lfs merge=lfs -text

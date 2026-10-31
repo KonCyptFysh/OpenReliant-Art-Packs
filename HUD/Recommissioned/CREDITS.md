@@ -10,3 +10,5 @@ Oxanium fonts retain their SIL Open Font License notice in the runtime.
 The historical device.glsl workaround and its MPL-2.0 notice are preserved
 in source/compatibility/hud-1.9; they are not part of HUD 1.10's runtime.
 This is independent fan artwork, not an official StarLancer release.
+
+Source paths mentioned above refer to the locally retained authoring archive; editable masters are not distributed.

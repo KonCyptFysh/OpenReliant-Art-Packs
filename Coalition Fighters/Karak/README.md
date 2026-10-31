@@ -11,3 +11,5 @@ Official 0.8.1 native round-trip and texture-loader checks passed. Authoring vie
 [Gallery and current 3D preview](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=karac) · [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/karak-v0.1.0-beta.1)
 
 The catalogue keeps its existing Karac entry; the native engine name is Karak. The gallery now has a fresh official OpenReliant 0.8.1 photograph in the shared fleet camera style, alongside the native-runtime 3D preview.
+
+Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools.

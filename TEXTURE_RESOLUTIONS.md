@@ -16,7 +16,7 @@ Example:
 python3 tools/resolution_pack.py --root "Alliance Fighters/Coyote" --tier 1k --source-commit <verified-master-commit>
 ```
 
-Outputs are under the asset's ignored `dist/resolutions/` directory. Each ZIP contains an exact runtime manifest, source hashes and a filtering record. Generated files are rebuildable; source maps are stored only once in Git LFS. `tracking/resolution-packs.json` pins catalogue downloads to the master manifest; publication fails if the master changes without refreshed resolution variants. Publish each asset's new immutable release and verify every download before listing it. Do not replace historical ZIPs or tags.
+Outputs are under the asset's ignored `dist/resolutions/` directory. Each ZIP contains only the runtime mod. Exact runtime manifests, source hashes and filtering records are retained as release evidence in the repository. Editable source maps and scenes remain local; Git LFS is used only for distributable runtime assets. `tracking/resolution-packs.json` pins catalogue downloads to the master manifest; publication fails if the master changes without refreshed resolution variants. Publish each asset's new immutable release and verify every download before listing it. Do not replace historical ZIPs or tags.
 
 ## Emissives and material filtering
 

@@ -12,4 +12,4 @@ Relative to the preceding local revision 3, the final correction changes only 14
 
 All 740 native faces were checked against the verified OpenReliant 0.7.0 corner-reuse rules. Local diagnostic renders reproduce the former streaks and show the corrected canopy from both sides. These are Blender diagnostic images, not in-game captures. Native-format round trips, portable source and repository-to-game file hashes passed. The user accepted the completed revision and authorized the Git update. Broader gameplay and distance-transition testing remain outstanding.
 
-Current scene: `source/sai_worn_pbr_v4.blend`. Run `tools/launch-sai-test.sh` for the quiet inspection scene.
+Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools. The quiet inspection launcher is retained locally.

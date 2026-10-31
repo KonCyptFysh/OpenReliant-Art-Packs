@@ -10,4 +10,4 @@ The user accepted the first pass without revisions. Official 0.8.1 native round-
 
 [In-game gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=salin) · [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/salin-v0.1.0-beta.1)
 
-Use `tools/launch-salin-test.sh` for the quiet single-ship inspection. See INSTALL.md and source/README.md.
+See [INSTALL.md](INSTALL.md) for the player installation. Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools.

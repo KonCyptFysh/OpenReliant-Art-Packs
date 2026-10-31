@@ -8,4 +8,4 @@ Restores the worn grey finish, checker bands and original German markings. Cockp
 
 Native model/mission checks, texture channels, source portability and installed-file checks passed. The user accepted the current radiator treatment for release. Gameplay and distance transitions remain listed in `KNOWN_ISSUES.md`.
 
-Use `tools/launch-grendal-test.sh` for the quiet single-ship inspection. See `INSTALL.md` and `source/README.md`.
+See [INSTALL.md](INSTALL.md) for the player installation. Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools.

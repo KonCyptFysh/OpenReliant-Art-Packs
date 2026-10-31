@@ -3,7 +3,7 @@
 `catalog.json` is the source for the gallery. Run `python3 tools/build_site.py`
 after editing it; the validated copy is written to `docs/catalog.json` for
 GitHub Pages. The website and data remain buildless. Existing release URLs,
-mod folder names, editable sources, screenshots and GLBs are preserved.
+mod folder names and public gallery screenshots/GLBs are preserved. Editable masters remain local.
 
 ## Groups and categories
 

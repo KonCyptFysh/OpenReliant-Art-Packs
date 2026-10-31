@@ -24,13 +24,13 @@ Filter each group by type, faction or availability. Named vessels with unconfirm
 
 Each released non-HUD asset offers **1K, 2K and 4K** choices, with individual ZIPs and checksums. Choose one resolution per asset and replace its old mod folder when switching. See [texture resolutions and emissive authoring](TEXTURE_RESOLUTIONS.md). Install the ZIP's `mods` folder beside `resource.hog` in your existing game-data directory. Keep each mod's files flat inside its own folder. Use the OpenReliant version listed for each pack and your own installed StarLancer copy. Most ship, ordnance and HUD downloads target OpenReliant 0.8.1; Kurgen, Prowler and Reliant require 0.18.0 for its scripted lighting. See [INSTALL.md](INSTALL.md) and the [0.8.1 package update](COMPATIBILITY_0_8.md).
 
-Use the named ZIP from a release, not GitHub's automatic source-code archive. The hierarchy here is for browsing and editing; it is not copied wholesale into the game.
+Use the named ZIP from a release, not GitHub's automatic source-code archive. The hierarchy here is for browsing release files; it is not copied wholesale into the game.
 
 Some future mods require another pack. Their gallery items show **Requires**, link to the prerequisite where it is catalogued, and explain the load order. Install and enable each prerequisite above its dependent mod in OpenReliant's MODS screen. The planned vanilla mission damage-indicator mod requires the **Friends and Foes** art pack.
 
-## Editable sources
+## Release files
 
-Each asset folder contains its current editable `source/`, game-ready `mods/`, inventories and validation notes. Large artwork uses Git LFS. The small website previews under `docs/` use regular Git so the gallery can serve them directly.
+Each asset folder contains game-ready `mods/`, release inventories, documentation and validation notes. Large runtime assets use Git LFS. Editable masters, originals, experiments and authoring history are maintained locally and are not distributed. Small public gallery previews under `docs/` use regular Git.
 
 See [WORKFLOW.md](WORKFLOW.md) for preparing, testing and publishing one asset at a time. The earlier all-fighters upload has been replaced by this hierarchy; the same issue tracker is retained.
 

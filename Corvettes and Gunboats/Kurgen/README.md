@@ -16,4 +16,4 @@ The user accepted the artwork and lighting for this beta. Response tests and off
 
 [Gallery and 3D preview](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=corvettes-and-gunboats&asset=kurgen) · [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/kurgen-v0.1.0-beta.1)
 
-Editable artwork: `source/kurgen_worn_pbr_v7.blend`. Current runtime behavior: `source/authoring/response_release_v8`.
+Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools. Runtime lighting scripts are included in the mod.

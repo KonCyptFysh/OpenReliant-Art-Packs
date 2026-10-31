@@ -10,4 +10,4 @@ Artwork accepted by the user for this beta round. Native checks passed on offici
 
 [Gallery and 3D preview](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=torpedo-bombers&asset=scimitar) · [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/scimitar-v0.1.0-beta.1)
 
-The gallery uses a fresh standard official-engine photograph with both torpedoes carried. The optional 3D preview shows the static ship. Editable source: `source/scimitar_worn_pbr_v1.blend`.
+The gallery uses a fresh standard official-engine photograph with both torpedoes carried. The optional 3D preview shows the static ship. Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools.

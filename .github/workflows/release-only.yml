@@ -1,0 +1,17 @@
+name: Release-only repository
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  publication-boundary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          lfs: false
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Reject editable masters and private development files
+        run: python3 tools/release_policy.py --ref HEAD --history
+      - name: Check publication boundary rules
+        run: python3 -m unittest discover -s tools -p test_release_policy.py

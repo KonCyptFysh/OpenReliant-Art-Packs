@@ -8,7 +8,7 @@ The four requests #998–1001 are delivered and integrated. Native HD portrait s
 
 The maintainer accepted the current working update for Git publication. Full campaigns, localization, interruption combinations and prolonged combat remain pending. The 17 large-schematic jobs and frame 410 remain unfinished; the instant-action ammunition report stays deferred. Public beta.1 remains unchanged; this Git snapshot is HUD 1.10.
 
-See [current evidence](docs/INTEGRATION_0.9_STATUS.md). All shader/portrait limitations in older sections below describe historical builds, not this 0.9.0 candidate.
+See current evidence (local development archive). All shader/portrait limitations in older sections below describe historical builds, not this 0.9.0 candidate.
 
 ## HUD 1.9 portrait additions
 
@@ -22,10 +22,10 @@ films is pending. The instant-action ammunition report remains deferred.
 
 The shared comms/portrait frame and visible-ink comms columns are corrected
 and tested. A single frame sits beneath portrait and text; damage uses the
-same vertical grid placement. See [current evidence](docs/REFINEMENT_1.8_STATUS.md).
+same vertical grid placement. See current evidence (local development archive).
 
 Moving the active portrait speaker name independently is still blocked by the
-native instrument API. The [author request](docs/AUTHOR_NOTES_1.8.md) now asks
+native instrument API. The author request (local development archive) now asks
 for consistent controls for all native HUD names/titles/labels, including
 position/anchor, alignment, size and selective text replacement. Many panel
 readings are already exposed and the request explicitly acknowledges them.
@@ -43,8 +43,8 @@ main 220affa. This supersedes older notes saying that no HD films are deployed.
 It is version-dependent, needs MOD EFFECTS and cannot coexist with a different
 device.glsl override without merging the shader changes. Raw HUD bounds remain
 oversized; public release and broader QA are held. See
-[current evidence and limits](docs/REFINEMENT_1.7_STATUS.md) and
-[updated author notes](docs/AUTHOR_NOTES_1.7.md).
+current evidence and limits (local development archive) and
+updated author notes (local development archive).
 
 ## Current HUD 1.6 panel pass
 
@@ -56,8 +56,8 @@ No comms-blocking engine request is needed.
 HD portrait sizing is separate: quarter-scale layout resizes the film but
 also shrinks its frame/emblem. A complete scripted radio is not ruled out,
 but is unimplemented and unverified. HD films remain undeployed. See
-[current status](docs/REFINEMENT_1.6_STATUS.md) and
-[qualified author notes](docs/AUTHOR_NOTES_1.6.md).
+current status (local development archive) and
+qualified author notes (local development archive).
 Public release and prior open art/QA work remain held.
 
 ## Current HUD 1.5 follow-up
@@ -68,7 +68,7 @@ legacy behavior (Ctrl+G; no pair bar in FULL GUNS).
 
 Open upstream items: the t_grendel ammunition readout, and radio film sizing for
 480x400 portraits. HD portraits are not deployed. See
-[current pass](docs/REFINEMENT_1.5_STATUS.md) and [author notes](docs/AUTHOR_NOTES_1.5.md).
+current pass (local development archive) and author notes (local development archive).
 The prior power-ball, unfinished artwork, #894 broader review and release-QA work
 below remain. Public release is held.
 
@@ -78,8 +78,8 @@ The HUD 1.4 section below records the earlier integration baseline.
 
 Stable API migration and new-reading integration are complete and deployed on
 unmodified main `220affa`. The previous six upstream requests are delivered and
-used by the mod. Details: [integration](docs/INTEGRATION_0.8_STATUS.md) and
-[author notes](docs/AUTHOR_NOTES_0.8.md).
+used by the mod. Details: integration (local development archive) and
+author notes (local development archive).
 
 - **Native power ball:** supported reuse inside a replacement panel is still absent. The allocation triangle remains a placeholder; a small current-build probe is ready for the author.
 - **#894:** no missing pieces seen in current successful retests; keep the issue open pending broader review and any recurrence log/video. Do not claim a proved GPU/cache cause.
@@ -124,8 +124,8 @@ font-size and shutdown-leak reports should not be resubmitted as current blocker
 
 The user submitted the first two requests; both are closed with fixes merged.
 The historical third draft is retired. See the historical
-[0.7.0 audit](docs/STOCK_0.7_HUD_COMPATIBILITY.md) and the current
-[upstream port](docs/UPSTREAM_HUD_PORT.md).
+0.7.0 audit (local development archive) and the current
+upstream port (local development archive).
 
 - [HUD-UPSTREAM-01 / #793](https://github.com/OpenReliant/openreliant/issues/793): replacement and initial state API merged in #833; remaining state merged in #864/#866/#868.
 - [HUD-UPSTREAM-02 / #794](https://github.com/OpenReliant/openreliant/issues/794): cache eviction and 128 MiB budget merged in #831.

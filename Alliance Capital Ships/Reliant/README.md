@@ -16,4 +16,4 @@ Development launchers and the corrected cycling-door landing test are retained u
 
 [Gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=alliance-capital-ships&asset=reliant) · [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/reliant-v0.1.0-beta.13.runtime1)
 
-Editable sources are `source/reliant_worn_pbr_v11.blend` and `source/reliant_hangar_v11.blend`. Runtime meshes preserve original vertices, normals, attachment positions and animation tracks; documented UV/material changes and collision-preserving face reordering are retained.
+Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools. Runtime meshes preserve original vertices, normals, attachment positions and animation tracks; documented UV/material changes and collision-preserving face reordering are retained.

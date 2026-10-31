@@ -2,9 +2,11 @@
 
 ## Repository structure
 
-Use the named category folders. Each ship or standalone pack gets its own folder, with `source/`, `mods/<stable-mod-folder>/`, `asset-manifest.json`, `source-manifest.json`, validation and package metadata. The category hierarchy is for the repository and website; runtime files stay flat within their mod folder.
+This is a release-only repository. Each published asset has `mods/<stable-mod-folder>/`, an asset manifest, release/validation records, licences and user documentation. The category hierarchy is for browsing; runtime files stay flat inside their mod folder.
 
-Continue an active artwork pass in its established authoring workspace. At a coherent completion point, refresh the matching portable source snapshot and runtime exports in the appropriate asset folder. Preserve the originals, use packed or relative image references, and deploy those exact repository exports for local testing. Do not edit source snapshots and authoring originals independently.
+Editable scenes, layered artwork, masks, original extractions, portrait frames, working history and developer fixtures remain in the established local authoring workspace. Keep local backups there. Never refresh a portable `source/` snapshot here or attach a source archive to a public release. Copy only approved runtime exports and release evidence into this repository. Unpublished ship work remains local until publication is requested.
+
+Configure `git config core.hooksPath .githooks` once per clone. Run `python3 tools/release_policy.py` before committing; it checks the staged index and rejects private source/development material. The push hook checks each published commit and its reachable history, preventing an old clone from restoring removed masters. CI repeats this boundary check without downloading LFS assets.
 
 ## One asset at a time
 
@@ -19,9 +21,9 @@ Asset tags are namespaced, such as `coyote-v0.1.0-beta.1`. Never overwrite a pub
 
 ## Website
 
-`catalog.json` is the catalogue source. `tools/build_site.py` validates its entries and copies it into `docs/catalog.json`. GitHub Pages serves `docs/`; the preview library is pinned and hosted locally. Preview GLBs and screenshots are separate, reduced-size viewing copies and never replace source or runtime artwork. Verify the gallery on desktop and mobile, including navigation, 3D loading, download links and coming-soon states.
+`catalog.json` is the catalogue source. `tools/build_site.py` validates its entries and copies it into `docs/catalog.json`. GitHub Pages serves `docs/`; the preview library is pinned and hosted locally. Preview GLBs and screenshots are separate, reduced-size public viewing copies; editable masters remain local. Verify the gallery on desktop and mobile, including navigation, 3D loading, download links and coming-soon states.
 
-The catalogue uses schema 2: broad groups contain detailed categories, and ship liveries contain their own previews and release metadata. Keep existing asset IDs, source folders and native mod folder names stable. Put a new asset in the planned roster with `coming-soon`; put a new paint finish under the existing asset's `liveries`. The progress bar counts an asset once. See [CATALOGUE.md](CATALOGUE.md) for the format, inventory boundaries and validation commands.
+The catalogue uses schema 2: broad groups contain detailed categories, and ship liveries contain their own previews and release metadata. Keep existing asset IDs, category folders and native mod folder names stable. Put a new asset in the planned roster with `coming-soon`; put a new paint finish under the existing asset's `liveries`. The progress bar counts an asset once. See [CATALOGUE.md](CATALOGUE.md) for the format, inventory boundaries and validation commands.
 
 For a dependent pack, add native mod-folder names to catalogue `requires` and the same combined names to `[Mod] Requires` in its packaged `mod.ini`. The build validates that match. A prerequisite must be enabled and load earlier; there is no native dependency version-range field. Planned requirements can be displayed before either pack is released, but published entries must not link to unpublished local prerequisites.
 
@@ -47,6 +49,6 @@ For each released non-HUD asset, generate and verify 1K, 2K and 4K downloads fro
 
 ## Runtime-only player downloads
 
-Player ZIPs contain only the asset mod under `mods/<stable-folder>/`. Keep licence files required by the asset inside that folder. Keep review missions, diagnostic scripts, inspection cameras, hotkeys, overlays, launchers, validation reports and authoring sources in the repository development directories. Never add them to `include_documents` or runtime manifests. Use `package_kind: asset`; a genuine mission mod must explicitly declare `package_kind: mission`. Packaging checks reject development content.
+Player ZIPs contain only the asset mod under `mods/<stable-folder>/`. Keep licence files required by the asset inside that folder. Keep review missions, diagnostic scripts, inspection cameras, hotkeys, overlays, launchers and authoring sources in local development workspaces. Keep only release validation records in the repository. Never add them to `include_documents` or runtime manifests. Use `package_kind: asset`; a genuine mission mod must explicitly declare `package_kind: mission`. Packaging checks reject development content.
 
 For a packaging-only cleanup, new versioned downloads supersede old bundles. Preserve original ZIPs locally, verify the replacements, switch the catalogue, and then remove superseded public ZIP/checksum attachments. Keep historical tags and release notes with a link to the clean successor.

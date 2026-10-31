@@ -10,7 +10,7 @@
 - Portraits at 1080p/720p/16:10, comms columns and native power ball pass bounded capture review. The synthetic state sweep still reproduces #894; #1028 remains open for editable display layouts.
 - Git source/runtime update accepted by the maintainer. Public beta.1 stays HUD 1.8; this Git snapshot is HUD 1.10. Extensive playtesting remains, and no new player release is published.
 
-See [integration evidence](docs/INTEGRATION_0.9_STATUS.md) and [author notes](docs/AUTHOR_NOTES_0.9.md). Older entries below are historical.
+See integration evidence (local development archive) and author notes (local development archive). Older entries below are historical.
 
 ## HUD 1.9 portrait completion, 9 October 2026 — Git source/runtime update
 
@@ -79,8 +79,8 @@ unchanged. There are now 1,154 flat runtime files, including 911 PNGs.
 Approved subtargets 393–409 are preserved; Ion Cannon remains frame 406.
 The engine remains unmodified main 220affa / 0.8.1. The HD shader limitations
 from 1.7 still apply. Public release, user playthrough and broader QA stay held.
-See [current status](docs/REFINEMENT_1.8_STATUS.md) and
-[author request](docs/AUTHOR_NOTES_1.8.md). Older sections below are historical.
+See current status (local development archive) and
+author request (local development archive). Older sections below are historical.
 
 ## HUD 1.7, 9 October 2026
 
@@ -182,8 +182,8 @@ Updated the normal installation to unmodified current main `220affa`. The held
 HUD now uses the stable 0.8 API, live gun rounds/pairing, approved component art,
 warning flashes and device bars, hit overlays, radar/missile positions and window
 progress. All 924 deployed files match; all 909 PNGs and approved 393–409 sources
-are unchanged. See [integration status](docs/INTEGRATION_0.8_STATUS.md),
-[author notes](docs/AUTHOR_NOTES_0.8.md), and `tracking/integration-0.8.json`.
+are unchanged. See integration status (local development archive),
+author notes (local development archive), and `tracking/integration-0.8.json`.
 Public release remains held. Older sections below are historical.
 
 ## Upstream 0.8.1 review, 9 October 2026
@@ -287,7 +287,7 @@ Mission-date text, prompts, notifications, world-range text and multiplayer text
 
 The normal launcher now runs the unmodified official release. All 589 runtime files and the original 665 source/tool files remain unchanged. Four editable compatibility probes and their preparation tool were added; the source manifest now records 679 files. All approved subtargets 393–409 retain their exact hashes/pixels. No runtime re-export or art redeployment was needed in this audit.
 
-Stock loading and the normal launcher passed; most authored instruments remain at native geometry because this pack still needs a supported stock implementation. Script drawing/text and live fuel/countermeasures work. Native replacement/state gaps and the 128-file/64 MiB script cache limits were identified, with a separate font-base bug and tested workaround. See [findings and proposed solutions](docs/STOCK_0.7_HUD_COMPATIBILITY.md). The final package must be a drop-in mod, not an engine fork; issue drafts are local and release remains on hold.
+Stock loading and the normal launcher passed; most authored instruments remain at native geometry because this pack still needs a supported stock implementation. Script drawing/text and live fuel/countermeasures work. Native replacement/state gaps and the 128-file/64 MiB script cache limits were identified, with a separate font-base bug and tested workaround. See findings and proposed solutions (local development archive). The final package must be a drop-in mod, not an engine fork; issue drafts are local and release remains on hold.
 
 ## GitHub submission wording
 

@@ -6,4 +6,4 @@ Restored worn steel and red-and-white livery with a silver RAF bird, aligned eng
 
 Artwork revision 2.0 has been reviewed and approved for publication. Native-format, texture, source-preservation and deployment checks passed on official OpenReliant 0.7.0 for Linux. Broader gameplay and other platforms still need testing; see `KNOWN_ISSUES.md`.
 
-Download the individual Crusader player ZIP and follow `INSTALL.md`. Editable source: `source/crusader_worn_pbr_v2.blend`.
+Download the individual Crusader player ZIP and follow `INSTALL.md`. Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools.

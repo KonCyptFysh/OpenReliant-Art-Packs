@@ -16,4 +16,4 @@ The user approved this beta. 43 response checks, official 0.18.0 integration, al
 
 [Gallery and 3D preview](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=corvettes-and-gunboats&asset=prowler) · [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/prowler-v0.1.0-beta.1)
 
-Editable artwork: `source/prowler_worn_pbr_v2.blend`. Current lighting response: `source/authoring/nozzle_surge_v3`.
+Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools. Runtime lighting scripts are included in the mod.

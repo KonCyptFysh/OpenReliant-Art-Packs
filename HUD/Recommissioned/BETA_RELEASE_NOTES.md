@@ -19,6 +19,5 @@ Tested on Linux at 1080p/720p with unmodified main 220affa (reports 0.8.1).
 This does not certify every newer renderer build. The cover is a composition
 of actual HUD assets; gameplay screenshots are included in the gallery.
 
-Editable source, source/runtime inventories and notices are in
-`HUD/Recommissioned`. Source clones require Git LFS. No base game or engine is
+Runtime inventories and notices are in `HUD/Recommissioned`. Editable source and portrait-frame masters are retained locally. No base game or engine is
 included. The remaining author requests will be posted separately by the maintainer.

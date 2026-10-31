@@ -10,6 +10,8 @@ The replacement preserves all seven native parts, their hierarchy, original geom
 
 Use `tools/launch-loki-test.sh` to inspect the folding mechanism in a quiet single-ship scene. Fixed folded and fighting-position modes are also provided. The native export and inspection scenes pass format checks. Both fixed poses were captured and visually checked in official OpenReliant 0.7.0 on Linux. Broader gameplay and repeated animation-cycle testing remain outside this beta’s completed checks.
 
-Editable source and exact image-generation prompts are under `source/`. See `INSTALL.md` and `KNOWN_ISSUES.md`.
+Editable source and image-generation prompts are retained in the local authoring workspace. See `INSTALL.md` and `KNOWN_ISSUES.md`.
 
 [In-game gallery](https://koncyptfysh.github.io/OpenReliant-Art-Packs/?category=coalition-fighters&asset=loki) · [Beta release](https://github.com/KonCyptFysh/OpenReliant-Art-Packs/releases/tag/loki-v0.1.0-beta.2)
+
+Editable masters, source maps, masks and authoring history are preserved locally and are not distributed in this repository. Developer inspection scenes and launchers are local tools.
